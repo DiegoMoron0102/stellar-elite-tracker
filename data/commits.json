@@ -228,5 +228,1010 @@
     "d": 0
    }
   ]
+ },
+ "e4c25ceadb2d0ed796b7d81a0b62e031aeb57dff": {
+  "team": "Prueba - Diego",
+  "repo": "DiegoMoron0102/sistema-contenido-uce",
+  "author": "DiegoMoron0102",
+  "date": "2026-09-08T19:05:26Z",
+  "message": "Archivo: corregir orden por codigo con años a 2 digitos y desempate estable",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/app/(dashboard)/informes/page.tsx",
+    "a": 5,
+    "d": 1
+   },
+   {
+    "f": "src/lib/utils/constants.test.ts",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "src/lib/utils/constants.ts",
+    "a": 4,
+    "d": 3
+   }
+  ]
+ },
+ "6072b5821f80fdb3d0cfb85d6e43a48b2044c4e0": {
+  "team": "Prueba - Diego",
+  "repo": "DiegoMoron0102/sistema-contenido-uce",
+  "author": "DiegoMoron0102",
+  "date": "2026-09-08T19:01:08Z",
+  "message": "Archivo: filtro por autor y orden por fecha + correlativo del codigo",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/app/(dashboard)/informes/page.tsx",
+    "a": 34,
+    "d": 15
+   },
+   {
+    "f": "src/lib/utils/constants.test.ts",
+    "a": 6,
+    "d": 1
+   },
+   {
+    "f": "src/lib/utils/constants.ts",
+    "a": 10,
+    "d": 0
+   }
+  ]
+ },
+ "ec8bd6b814432b8e18876594326608ae721a9f00": {
+  "team": "Prueba - Diego",
+  "repo": "DiegoMoron0102/sistema-contenido-uce",
+  "author": "DiegoMoron0102",
+  "date": "2026-09-08T18:49:02Z",
+  "message": "Ocultar CITEs del menu y renombrar Informes a Archivo",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/app/(dashboard)/busqueda/page.tsx",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/app/(dashboard)/informes/[id]/page.tsx",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/app/(dashboard)/informes/page.tsx",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/components/layout/sidebar.tsx",
+    "a": 3,
+    "d": 3
+   }
+  ]
+ },
+ "9e5bb569e44ad0ecb1eca603ec5706172854b65f": {
+  "team": "Prueba - Diego",
+  "repo": "DiegoMoron0102/sistema-contenido-uce",
+  "author": "DiegoMoron0102",
+  "date": "2026-09-08T18:42:02Z",
+  "message": "Informes: campo opcional de hoja de ruta (asignado por recepcion)",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/app/(dashboard)/informes/[id]/page.tsx",
+    "a": 6,
+    "d": 0
+   },
+   {
+    "f": "src/components/informes/informe-form.tsx",
+    "a": 11,
+    "d": 0
+   },
+   {
+    "f": "src/lib/schemas/informe.ts",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "src/lib/types/database.ts",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "supabase/schema.sql",
+    "a": 3,
+    "d": 0
+   }
+  ]
+ },
+ "c6a65ef08fb4c614e284b98c885736a5f997b1a4": {
+  "team": "Prueba - Diego",
+  "repo": "DiegoMoron0102/sistema-contenido-uce",
+  "author": "DiegoMoron0102",
+  "date": "2026-09-08T18:36:01Z",
+  "message": "Informes: autogenerar el codigo tambien al abrir el formulario",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/components/informes/informe-form.tsx",
+    "a": 17,
+    "d": 4
+   }
+  ]
+ },
+ "7fcf6b9b0033f32af240fb2dec75c87f877435b5": {
+  "team": "Prueba - Diego",
+  "repo": "DiegoMoron0102/sistema-contenido-uce",
+  "author": "DiegoMoron0102",
+  "date": "2026-09-08T18:32:13Z",
+  "message": "Informes: panel de correlativos por categoria, como el de CITEs",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/app/(dashboard)/informes/page.tsx",
+    "a": 30,
+    "d": 2
+   },
+   {
+    "f": "src/lib/utils/constants.test.ts",
+    "a": 7,
+    "d": 1
+   },
+   {
+    "f": "src/lib/utils/constants.ts",
+    "a": 27,
+    "d": 9
+   }
+  ]
+ },
+ "a0edc3280167f9acb45521cae3327c37b173dda8": {
+  "team": "Prueba - Diego",
+  "repo": "DiegoMoron0102/sistema-contenido-uce",
+  "author": "DiegoMoron0102",
+  "date": "2026-09-08T18:14:35Z",
+  "message": "Informes: tipos configurables con codigo autogenerado y encabezado A/Via/De/Objeto",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/app/(dashboard)/informes/[id]/page.tsx",
+    "a": 24,
+    "d": 19
+   },
+   {
+    "f": "src/app/(dashboard)/informes/actions.ts",
+    "a": 11,
+    "d": 1
+   },
+   {
+    "f": "src/app/(dashboard)/informes/page.tsx",
+    "a": 6,
+    "d": 14
+   },
+   {
+    "f": "src/components/informes/informe-form.tsx",
+    "a": 45,
+    "d": 27
+   },
+   {
+    "f": "src/lib/schemas/informe.ts",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "src/lib/types/database.ts",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "src/lib/utils/constants.test.ts",
+    "a": 18,
+    "d": 1
+   },
+   {
+    "f": "src/lib/utils/constants.ts",
+    "a": 40,
+    "d": 1
+   },
+   {
+    "f": "src/lib/utils/fechas.test.ts",
+    "a": 16,
+    "d": 1
+   },
+   {
+    "f": "src/lib/utils/fechas.ts",
+    "a": 12,
+    "d": 0
+   },
+   {
+    "f": "supabase/schema.sql",
+    "a": 5,
+    "d": 2
+   }
+  ]
+ },
+ "0cf8df921f61e35f55c0f5f557c9198a1c612e1e": {
+  "team": "Prueba - Diego",
+  "repo": "DiegoMoron0102/sistema-contenido-uce",
+  "author": "DiegoMoron0102",
+  "date": "2026-09-07T21:01:02Z",
+  "message": "Contenido form: Fechas debajo de Tema/brief y separado de Equipo",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/components/contenidos/contenido-form.tsx",
+    "a": 41,
+    "d": 39
+   }
+  ]
+ },
+ "eafcaa99ce6529fb9f9d98631f7362236d675081": {
+  "team": "Prueba - Diego",
+  "repo": "DiegoMoron0102/sistema-contenido-uce",
+  "author": "DiegoMoron0102",
+  "date": "2026-09-07T20:17:42Z",
+  "message": "Contenidos: selector de tamaño de página (10/50/100/todos); informe diario: logo en header real de Word",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/app/(dashboard)/contenidos/page.tsx",
+    "a": 21,
+    "d": 8
+   },
+   {
+    "f": "src/lib/reportes/informe-diario.ts",
+    "a": 19,
+    "d": 13
+   }
+  ]
+ },
+ "2ade04f6833e7893ed8022725553104e00502fb3": {
+  "team": "Prueba - Diego",
+  "repo": "DiegoMoron0102/sistema-contenido-uce",
+  "author": "DiegoMoron0102",
+  "date": "2026-09-04T20:45:19Z",
+  "message": "Contenidos: error de guardado como popup en vez de texto perdido en el formulario",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/components/contenidos/contenido-form.tsx",
+    "a": 19,
+    "d": 4
+   }
+  ]
+ },
+ "c73764205b2ff7affcfb30adfc0d70f28cfe27ba": {
+  "team": "Prueba - Diego",
+  "repo": "DiegoMoron0102/sistema-contenido-uce",
+  "author": "DiegoMoron0102",
+  "date": "2026-09-04T19:55:51Z",
+  "message": "Nuevo estado \"En producción\" y calendario con vistas mes/semana/día + drag-and-drop",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/app/(dashboard)/calendario/actions.ts",
+    "a": 46,
+    "d": 0
+   },
+   {
+    "f": "src/app/(dashboard)/calendario/page.tsx",
+    "a": 82,
+    "d": 103
+   },
+   {
+    "f": "src/app/(dashboard)/contenidos/actions.ts",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "src/components/calendario/calendario-vista.tsx",
+    "a": 260,
+    "d": 0
+   },
+   {
+    "f": "src/components/shared/cambiar-estado.tsx",
+    "a": 3,
+    "d": 1
+   },
+   {
+    "f": "src/lib/schemas/contenido.test.ts",
+    "a": 8,
+    "d": 1
+   },
+   {
+    "f": "src/lib/utils/calendario.test.ts",
+    "a": 23,
+    "d": 4
+   },
+   {
+    "f": "src/lib/utils/calendario.ts",
+    "a": 71,
+    "d": 21
+   },
+   {
+    "f": "src/lib/utils/constants.test.ts",
+    "a": 4,
+    "d": 2
+   },
+   {
+    "f": "src/lib/utils/constants.ts",
+    "a": 8,
+    "d": 4
+   },
+   {
+    "f": "supabase/estado-en-produccion.sql",
+    "a": 2,
+    "d": 0
+   }
+  ]
+ },
+ "d7b538fbd2f10a946910e314539ce2b5ac56ab5c": {
+  "team": "Prueba - Diego",
+  "repo": "DiegoMoron0102/sistema-contenido-uce",
+  "author": "DiegoMoron0102",
+  "date": "2026-09-04T18:04:38Z",
+  "message": "Informe diario usa título en vez de copy, arreglar origen 'campañas', links como adjunto",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/app/api/archivos/[id]/route.ts",
+    "a": 5,
+    "d": 1
+   },
+   {
+    "f": "src/components/shared/file-upload.tsx",
+    "a": 42,
+    "d": 11
+   },
+   {
+    "f": "src/lib/actions/archivos.ts",
+    "a": 29,
+    "d": 3
+   },
+   {
+    "f": "src/lib/reportes/informe-diario.ts",
+    "a": 3,
+    "d": 1
+   },
+   {
+    "f": "src/lib/types/database.ts",
+    "a": 3,
+    "d": 1
+   },
+   {
+    "f": "supabase/archivos-link-externo.sql",
+    "a": 8,
+    "d": 0
+   },
+   {
+    "f": "supabase/origen-campanas.sql",
+    "a": 5,
+    "d": 0
+   }
+  ]
+ },
+ "dec4ad508b2cdcc0544f13518493b04f028a58ac": {
+  "team": "Prueba - Diego",
+  "repo": "DiegoMoron0102/sistema-contenido-uce",
+  "author": "DiegoMoron0102",
+  "date": "2026-09-04T16:07:13Z",
+  "message": "Contenidos: volver a una sola fecha (fecha_publicacion)",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/app/(dashboard)/calendario/page.tsx",
+    "a": 15,
+    "d": 27
+   },
+   {
+    "f": "src/app/(dashboard)/contenidos/actions.ts",
+    "a": 3,
+    "d": 3
+   },
+   {
+    "f": "src/app/(dashboard)/contenidos/page.tsx",
+    "a": 8,
+    "d": 21
+   },
+   {
+    "f": "src/components/contenidos/contenido-form.tsx",
+    "a": 3,
+    "d": 13
+   },
+   {
+    "f": "src/lib/schemas/contenido.test.ts",
+    "a": 8,
+    "d": 18
+   },
+   {
+    "f": "src/lib/schemas/contenido.ts",
+    "a": 4,
+    "d": 5
+   },
+   {
+    "f": "src/lib/types/database.ts",
+    "a": 2,
+    "d": 3
+   },
+   {
+    "f": "supabase/contenidos-una-sola-fecha.sql",
+    "a": 11,
+    "d": 0
+   }
+  ]
+ },
+ "c15d65280294898165cfd208a6f178d3706e1f91": {
+  "team": "Prueba - Diego",
+  "repo": "DiegoMoron0102/sistema-contenido-uce",
+  "author": "DiegoMoron0102",
+  "date": "2026-09-04T15:47:26Z",
+  "message": "Violentómetro: voto múltiple por día, y recorte/zoom en la foto de perfil",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/app/(dashboard)/violentometro/actions.ts",
+    "a": 26,
+    "d": 8
+   },
+   {
+    "f": "src/app/(dashboard)/violentometro/page.tsx",
+    "a": 3,
+    "d": 8
+   },
+   {
+    "f": "src/components/perfil/avatar-upload.tsx",
+    "a": 37,
+    "d": 21
+   },
+   {
+    "f": "src/components/perfil/recortar-avatar.tsx",
+    "a": 161,
+    "d": 0
+   },
+   {
+    "f": "src/components/violentometro/elegir-dialog.tsx",
+    "a": 17,
+    "d": 8
+   },
+   {
+    "f": "supabase/violentometro-voto-multiple.sql",
+    "a": 6,
+    "d": 0
+   }
+  ]
+ },
+ "7a3823946a6eeeba69d32fd80f564f8e59e546a8": {
+  "team": "Prueba - Diego",
+  "repo": "DiegoMoron0102/sistema-contenido-uce",
+  "author": "DiegoMoron0102",
+  "date": "2026-09-04T15:22:03Z",
+  "message": "Excluir /api/cron del proxy de auth",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/proxy.ts",
+    "a": 7,
+    "d": 0
+   }
+  ]
+ },
+ "ae7ad5b607e9bbe3826408d65cae67b8585318eb": {
+  "team": "Prueba - Diego",
+  "repo": "DiegoMoron0102/sistema-contenido-uce",
+  "author": "DiegoMoron0102",
+  "date": "2026-09-04T15:18:04Z",
+  "message": "Agregar Violentómetro y mejorar avisos de carga en botones",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/app/(dashboard)/perfil/actions.ts",
+    "a": 38,
+    "d": 0
+   },
+   {
+    "f": "src/app/(dashboard)/perfil/page.tsx",
+    "a": 5,
+    "d": 33
+   },
+   {
+    "f": "src/app/(dashboard)/violentometro/actions.ts",
+    "a": 27,
+    "d": 0
+   },
+   {
+    "f": "src/app/(dashboard)/violentometro/page.tsx",
+    "a": 62,
+    "d": 0
+   },
+   {
+    "f": "src/app/api/cron/violentometro/route.ts",
+    "a": 33,
+    "d": 0
+   },
+   {
+    "f": "src/components/layout/sidebar.tsx",
+    "a": 2,
+    "d": 1
+   },
+   {
+    "f": "src/components/perfil/avatar-upload.tsx",
+    "a": 83,
+    "d": 0
+   },
+   {
+    "f": "src/components/perfil/editar-perfil.tsx",
+    "a": 43,
+    "d": 0
+   },
+   {
+    "f": "src/components/shared/avatar.tsx",
+    "a": 38,
+    "d": 0
+   },
+   {
+    "f": "src/components/shared/boton-eliminar.tsx",
+    "a": 19,
+    "d": 4
+   },
+   {
+    "f": "src/components/violentometro/elegir-dialog.tsx",
+    "a": 119,
+    "d": 0
+   },
+   {
+    "f": "src/components/violentometro/tarjeta-usuario.tsx",
+    "a": 47,
+    "d": 0
+   },
+   {
+    "f": "src/components/violentometro/violentometro-realtime.tsx",
+    "a": 24,
+    "d": 0
+   },
+   {
+    "f": "src/lib/auth.ts",
+    "a": 3,
+    "d": 1
+   },
+   {
+    "f": "src/lib/schemas/perfil.test.ts",
+    "a": 19,
+    "d": 0
+   },
+   {
+    "f": "src/lib/schemas/perfil.ts",
+    "a": 11,
+    "d": 0
+   },
+   {
+    "f": "src/lib/types/database.ts",
+    "a": 10,
+    "d": 0
+   },
+   {
+    "f": "supabase/violentometro.sql",
+    "a": 75,
+    "d": 0
+   },
+   {
+    "f": "vercel.json",
+    "a": 5,
+    "d": 0
+   }
+  ]
+ },
+ "4a9a258eb32e33fc3ca20ea7b7fdcf48a4810fc8": {
+  "team": "Prueba - Diego",
+  "repo": "DiegoMoron0102/sistema-contenido-uce",
+  "author": "DiegoMoron0102",
+  "date": "2026-09-04T13:55:59Z",
+  "message": "Contenidos: fecha real de publicación, orden unificado y filtro por fechas",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/app/(dashboard)/calendario/page.tsx",
+    "a": 25,
+    "d": 7
+   },
+   {
+    "f": "src/app/(dashboard)/contenidos/actions.ts",
+    "a": 5,
+    "d": 2
+   },
+   {
+    "f": "src/app/(dashboard)/contenidos/page.tsx",
+    "a": 55,
+    "d": 11
+   },
+   {
+    "f": "src/components/contenidos/contenido-form.tsx",
+    "a": 14,
+    "d": 0
+   },
+   {
+    "f": "src/lib/schemas/contenido.test.ts",
+    "a": 10,
+    "d": 0
+   },
+   {
+    "f": "src/lib/schemas/contenido.ts",
+    "a": 5,
+    "d": 0
+   },
+   {
+    "f": "src/lib/types/database.ts",
+    "a": 2,
+    "d": 0
+   },
+   {
+    "f": "src/lib/utils/fechas.test.ts",
+    "a": 8,
+    "d": 1
+   },
+   {
+    "f": "src/lib/utils/fechas.ts",
+    "a": 14,
+    "d": 0
+   },
+   {
+    "f": "supabase/contenidos-fecha-unificada.sql",
+    "a": 12,
+    "d": 0
+   }
+  ]
+ },
+ "adbbce2978fa1bf9aa1cd5d56cc0d2ebf03b17a1": {
+  "team": "Prueba - Diego",
+  "repo": "DiegoMoron0102/sistema-contenido-uce",
+  "author": "DiegoMoron0102",
+  "date": "2026-09-03T18:57:51Z",
+  "message": "campañas",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/lib/utils/constants.ts",
+    "a": 1,
+    "d": 0
+   }
+  ]
+ },
+ "87ac3d1da1cbd43f905c3546a5222cb3df804fa7": {
+  "team": "Prueba - Diego",
+  "repo": "DiegoMoron0102/sistema-contenido-uce",
+  "author": "DiegoMoron0102",
+  "date": "2026-09-03T18:37:15Z",
+  "message": "Coolhunting dentro de Ideas, .docx fiel al formato, líneas narrativas como tags editables",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/app/(dashboard)/busqueda/page.tsx",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "src/app/(dashboard)/contenidos/[id]/page.tsx",
+    "a": 6,
+    "d": 3
+   },
+   {
+    "f": "src/app/(dashboard)/contenidos/actions.ts",
+    "a": 40,
+    "d": 3
+   },
+   {
+    "f": "src/app/(dashboard)/contenidos/nuevo/page.tsx",
+    "a": 12,
+    "d": 3
+   },
+   {
+    "f": "src/app/(dashboard)/contenidos/page.tsx",
+    "a": 4,
+    "d": 4
+   },
+   {
+    "f": "src/app/(dashboard)/notas/[id]/page.tsx",
+    "a": 7,
+    "d": 3
+   },
+   {
+    "f": "src/app/(dashboard)/notas/actions.ts",
+    "a": 33,
+    "d": 0
+   },
+   {
+    "f": "src/app/(dashboard)/notas/informes/[id]/page.tsx",
+    "a": 98,
+    "d": 0
+   },
+   {
+    "f": "src/app/(dashboard)/notas/informes/actions.ts",
+    "a": 61,
+    "d": 0
+   },
+   {
+    "f": "src/app/(dashboard)/notas/informes/nuevo/page.tsx",
+    "a": 37,
+    "d": 0
+   },
+   {
+    "f": "src/app/(dashboard)/notas/informes/page.tsx",
+    "a": 71,
+    "d": 0
+   },
+   {
+    "f": "src/app/(dashboard)/notas/nueva/page.tsx",
+    "a": 9,
+    "d": 2
+   },
+   {
+    "f": "src/app/(dashboard)/notas/page.tsx",
+    "a": 23,
+    "d": 3
+   },
+   {
+    "f": "src/app/api/notas/informes/[id]/docx/route.ts",
+    "a": 53,
+    "d": 0
+   },
+   {
+    "f": "src/components/contenidos/contenido-form.tsx",
+    "a": 132,
+    "d": 26
+   },
+   {
+    "f": "src/components/coolhunting/informe-form.tsx",
+    "a": 109,
+    "d": 0
+   },
+   {
+    "f": "src/components/notas/nota-editor.tsx",
+    "a": 142,
+    "d": 3
+   },
+   {
+    "f": "src/components/notas/tarjeta-idea.tsx",
+    "a": 6,
+    "d": 1
+   },
+   {
+    "f": "src/lib/auth.ts",
+    "a": 8,
+    "d": 1
+   },
+   {
+    "f": "src/lib/reportes/agregados.test.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/lib/reportes/agregados.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/lib/reportes/coolhunting-codigo.test.ts",
+    "a": 15,
+    "d": 0
+   },
+   {
+    "f": "src/lib/reportes/coolhunting-codigo.ts",
+    "a": 12,
+    "d": 0
+   },
+   {
+    "f": "src/lib/reportes/coolhunting-datos.ts",
+    "a": 50,
+    "d": 0
+   },
+   {
+    "f": "src/lib/reportes/coolhunting-docx.test.ts",
+    "a": 66,
+    "d": 0
+   },
+   {
+    "f": "src/lib/reportes/coolhunting-docx.ts",
+    "a": 230,
+    "d": 0
+   },
+   {
+    "f": "src/lib/reportes/coolhunting-markdown.test.ts",
+    "a": 64,
+    "d": 0
+   },
+   {
+    "f": "src/lib/reportes/coolhunting-markdown.ts",
+    "a": 85,
+    "d": 0
+   },
+   {
+    "f": "src/lib/reportes/definiciones.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/lib/schemas/contenido.test.ts",
+    "a": 0,
+    "d": 3
+   },
+   {
+    "f": "src/lib/schemas/contenido.ts",
+    "a": 1,
+    "d": 14
+   },
+   {
+    "f": "src/lib/schemas/coolhunting.ts",
+    "a": 27,
+    "d": 0
+   },
+   {
+    "f": "src/lib/schemas/nota.ts",
+    "a": 19,
+    "d": 1
+   },
+   {
+    "f": "src/lib/types/database.ts",
+    "a": 29,
+    "d": 3
+   },
+   {
+    "f": "src/lib/utils/constants.ts",
+    "a": 16,
+    "d": 7
+   },
+   {
+    "f": "supabase/coolhunting-fusionar-en-notas.sql",
+    "a": 11,
+    "d": 0
+   },
+   {
+    "f": "supabase/coolhunting.sql",
+    "a": 93,
+    "d": 0
+   },
+   {
+    "f": "supabase/importar-planner.py",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "supabase/lineas-narrativas.sql",
+    "a": 35,
+    "d": 0
+   }
+  ]
+ },
+ "d6699594797763517851fc066b847774a5b13ed6": {
+  "team": "Prueba - Diego",
+  "repo": "DiegoMoron0102/sistema-contenido-uce",
+  "author": "DiegoMoron0102",
+  "date": "2026-09-03T16:26:21Z",
+  "message": "Presupuesto: extender RLS al tercer usuario agregado en constants.ts",
+  "parents": 1,
+  "files": [
+   {
+    "f": "supabase/presupuesto-agregar-usuario.sql",
+    "a": 27,
+    "d": 0
+   }
+  ]
+ },
+ "addcb7330dae27c4ffcc9af10843b67b21df2832": {
+  "team": "Prueba - Diego",
+  "repo": "DiegoMoron0102/sistema-contenido-uce",
+  "author": "DiegoMoron0102",
+  "date": "2026-09-03T16:22:30Z",
+  "message": "ususario micky presupuesto",
+  "parents": 1,
+  "files": [
+   {
+    "f": "Propuesta-UCB-2026.pdf",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "src/lib/utils/constants.ts",
+    "a": 1,
+    "d": 0
+   }
+  ]
+ },
+ "eaa8afca38800d72de57528f477831adbd7f1c3b": {
+  "team": "Prueba - Diego",
+  "repo": "DiegoMoron0102/sistema-contenido-uce",
+  "author": "DiegoMoron0102",
+  "date": "2026-09-03T16:16:46Z",
+  "message": "Agregar módulo de Presupuesto para Lucía Zurita y Diego Morón",
+  "parents": 1,
+  "files": [
+   {
+    "f": "scripts/apply-presupuesto.js",
+    "a": 48,
+    "d": 0
+   },
+   {
+    "f": "src/app/(dashboard)/layout.tsx",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/app/(dashboard)/presupuesto/actions.ts",
+    "a": 94,
+    "d": 0
+   },
+   {
+    "f": "src/app/(dashboard)/presupuesto/page.tsx",
+    "a": 139,
+    "d": 0
+   },
+   {
+    "f": "src/components/layout/header.tsx",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/components/layout/mobile-nav.tsx",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "src/components/layout/sidebar.tsx",
+    "a": 10,
+    "d": 6
+   },
+   {
+    "f": "src/components/presupuesto/presupuesto-chart.tsx",
+    "a": 64,
+    "d": 0
+   },
+   {
+    "f": "src/components/presupuesto/presupuesto-client.tsx",
+    "a": 159,
+    "d": 0
+   },
+   {
+    "f": "src/components/presupuesto/presupuesto-realtime.tsx",
+    "a": 28,
+    "d": 0
+   },
+   {
+    "f": "src/lib/auth.ts",
+    "a": 8,
+    "d": 1
+   },
+   {
+    "f": "src/lib/schemas/presupuesto.test.ts",
+    "a": 59,
+    "d": 0
+   },
+   {
+    "f": "src/lib/schemas/presupuesto.ts",
+    "a": 28,
+    "d": 0
+   },
+   {
+    "f": "src/lib/types/database.ts",
+    "a": 22,
+    "d": 0
+   },
+   {
+    "f": "src/lib/utils/constants.ts",
+    "a": 23,
+    "d": 0
+   },
+   {
+    "f": "supabase/presupuesto-asignaciones.sql",
+    "a": 38,
+    "d": 0
+   },
+   {
+    "f": "supabase/presupuesto.sql",
+    "a": 35,
+    "d": 0
+   },
+   {
+    "f": "supabase/realtime-presupuesto.sql",
+    "a": 22,
+    "d": 0
+   }
+  ]
  }
 }
