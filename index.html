@@ -86,6 +86,31 @@
   .rank{color:var(--dim);width:36px;font-variant-numeric:tabular-nums}
   .medal{display:inline-flex;align-items:center;justify-content:center;width:22px;height:22px;border-radius:50%;font-weight:700;font-size:11px;color:#0a0a0d}
   .medal.g{background:var(--gold)}.medal.s{background:var(--silver)}.medal.b{background:var(--bronze)}
+
+  .podio{display:flex;align-items:flex-end;justify-content:center;gap:16px;padding:10px 0 0;flex-wrap:wrap}
+  .pod{width:180px;text-align:center;border-radius:16px 16px 10px 10px;padding:22px 14px 18px;position:relative;
+       background:linear-gradient(180deg,#151520,#050507);border:1px solid var(--line2);
+       box-shadow:0 25px 50px -25px #000}
+  .pod .crown{position:absolute;top:-30px;left:50%;transform:translateX(-50%)}
+  .pod .name{font-weight:700;font-size:15px;margin:6px 0 2px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+  .pod .who{color:var(--dim);font-size:11px;margin-bottom:10px;min-height:14px}
+  .pod .score{font-size:26px;font-weight:800;font-variant-numeric:tabular-nums}
+  .pod .unit{color:var(--dim);font-size:11px;text-transform:uppercase;letter-spacing:.04em}
+  .pod-1{order:2;width:210px;padding-top:30px;z-index:2;
+    background:linear-gradient(180deg,#241a05,#050507);border:1px solid #ffc85755;
+    box-shadow:0 0 0 1px #ffc85722,0 30px 70px -25px #ffc85733,0 25px 50px -25px #000}
+  .pod-1 .score{font-size:32px;background:linear-gradient(90deg,var(--gold),#fff6da);-webkit-background-clip:text;background-clip:text;color:transparent}
+  .pod-2{order:1;align-self:flex-end;margin-bottom:0}
+  .pod-2{background:linear-gradient(180deg,#1b1e26,#050507);border:1px solid #c9cfe044}
+  .pod-3{order:3;align-self:flex-end}
+  .pod-3{background:linear-gradient(180deg,#241608,#050507);border:1px solid #e0975a44}
+  @keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-5px)}}
+  .pod-1{animation:float 3.5s ease-in-out infinite}
+  .rank-badge{display:inline-flex;align-items:center;justify-content:center;width:26px;height:26px;border-radius:50%;
+    font-weight:800;font-size:12px;color:#0a0a0d;margin-bottom:6px}
+  .rank-badge.g{background:linear-gradient(160deg,#ffe9ad,var(--gold))}
+  .rank-badge.s{background:linear-gradient(160deg,#f1f3fa,var(--silver))}
+  .rank-badge.b{background:linear-gradient(160deg,#f0c39a,var(--bronze))}
   .bar{height:4px;border-radius:2px;background:var(--line);margin-top:6px;overflow:hidden}
   .bar i{display:block;height:100%;background:linear-gradient(90deg,var(--acc),var(--acc2),var(--acc3));border-radius:2px;transition:width .4s}
   .pts{font-weight:700;font-size:16px;font-variant-numeric:tabular-nums}
@@ -136,6 +161,7 @@
       <button id="bTotal" class="on">Puntaje total</button>
       <button id="bCap">Per cápita</button>
     </div>
+    <div class="podio" id="podio"></div>
     <div class="scroll"><table>
       <thead><tr><th class="rank">#</th><th>Equipo</th><th>Puntos</th><th>Commits</th><th>Días</th><th>Devs</th></tr></thead>
       <tbody id="tRank"></tbody>
@@ -206,10 +232,33 @@ function render(d) {
 
   const medalla = i => i===0 ? '<span class="medal g">1</span>' : i===1 ? '<span class="medal s">2</span>' : i===2 ? '<span class="medal b">3</span>' : `<span class="rank">${i+1}</span>`;
 
+  const CROWN = `<svg class="crown" width="34" height="26" viewBox="0 0 34 26" fill="none">
+    <defs><linearGradient id="gCrown" x1="0" y1="0" x2="34" y2="26" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#fff6da"/><stop offset="100%" stop-color="#ffc857"/>
+    </linearGradient></defs>
+    <path d="M2 22 L4 9 L11 15 L17 4 L23 15 L30 9 L32 22 Z" fill="url(#gCrown)" stroke="#ffdf8a" stroke-width="1"/>
+  </svg>`;
+
   let modo = 'total';
+  const podio = (eq) => {
+    const top = eq.slice(0,3).filter(e => e[modo] > 0 || eq.length <= 3);
+    document.getElementById('podio').innerHTML = top.map((e,i) => {
+      const cls = ['pod-1','pod-2','pod-3'][i], badge = ['g','s','b'][i];
+      return `<div class="pod ${cls}">
+        ${i===0 ? CROWN : ''}
+        <span class="rank-badge ${badge}">${i+1}</span>
+        <div class="name">${e.name}</div>
+        <div class="who">${e.contribuidores.length} dev${e.contribuidores.length===1?'':'s'} · ${e.commits} commits</div>
+        <div class="score">${e[modo]}</div>
+        <div class="unit">${modo==='total' ? 'puntos' : 'pts / persona'}</div>
+      </div>`;
+    }).join('');
+  };
+
   const tabla = () => {
     const eq = [...d.teams].sort((a,b) => b[modo] - a[modo]);
     const max = Math.max(1, ...eq.map(e => e[modo]));
+    podio(eq);
     document.getElementById('tRank').innerHTML = eq.map((e,i) => `
       <tr class="${e[modo] ? '':'zero'}">
         <td class="rank">${medalla(i)}</td>
@@ -252,7 +301,7 @@ function render(d) {
   if (fEquipo.options.length === 1) {
     fEquipo.innerHTML += d.teams.map(e => `<option value="${e.name}">${e.name}</option>`).join('');
   }
-  const POR_PAGINA = 15;
+  const POR_PAGINA = 10;
 
   const filtrados = () => fEquipo.value ? d.commits.filter(c => c.team === fEquipo.value) : d.commits;
 
