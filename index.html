@@ -43,6 +43,13 @@
   .devs{color:var(--dim);font-size:12px}
   .msg{color:var(--dim);font-size:12px;white-space:normal}
   .zero{opacity:.4}
+  select{background:var(--card2);border:1px solid var(--line);color:var(--fg);padding:6px 12px;border-radius:8px;font:inherit;cursor:pointer}
+  .pager{display:flex;align-items:center;justify-content:flex-end;gap:12px;margin-top:14px;color:var(--dim);font-size:12px}
+  .pager button{background:transparent;border:1px solid var(--line);color:var(--fg);width:28px;height:28px;border-radius:6px;cursor:pointer;font:inherit}
+  .pager button:disabled{opacity:.35;cursor:default}
+  .pager button:not(:disabled):hover{border-color:var(--acc)}
+  .actHead{display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:10px;margin-bottom:16px}
+  .actHead h2{margin:0}
   footer{color:var(--dim);font-size:12px;text-align:center;margin-top:30px}
   .err{background:#3a1c28;border-color:#6b2b3f;padding:18px}
   code{background:#0006;padding:2px 6px;border-radius:4px}
@@ -73,16 +80,24 @@
   </div>
 
   <div class="card" id="cChart" hidden>
-    <h2>Puntaje acumulado</h2>
+    <h2>Commits por día</h2>
     <canvas id="chart" height="110"></canvas>
   </div>
 
   <div class="card" id="cAct" hidden>
-    <h2>Actividad reciente</h2>
+    <div class="actHead">
+      <h2>Actividad</h2>
+      <select id="fEquipo"><option value="">Todos los equipos</option></select>
+    </div>
     <div class="scroll"><table>
       <thead><tr><th>Fecha</th><th>Commit</th><th>Equipo</th><th>Autor</th><th>Pts</th></tr></thead>
       <tbody id="tAct"></tbody>
     </table></div>
+    <div class="pager">
+      <span id="pagInfo"></span>
+      <button id="pPrev">‹</button>
+      <button id="pNext">›</button>
+    </div>
   </div>
 
   <footer id="pie"></footer>
@@ -93,6 +108,7 @@ const PALETA = ['#7c6cff','#ffc857','#4ecdc4','#ff6b8a','#5aa9ff','#9dd66b','#ff
 const fecha = s => new Date(s).toLocaleDateString('es', {day:'2-digit', month:'short'});
 
 let chart = null;
+let pagina = 0;
 
 function cargar() {
   fetch('data/scores.json?' + Date.now())
@@ -144,38 +160,60 @@ function render(d) {
   bC.onclick = () => { modo='per_capita'; bC.classList.add('on'); bT.classList.remove('on'); tabla(); };
   tabla();
 
-  const dias = [...new Set(Object.values(d.serie).flatMap(Object.keys))].sort();
+  const serieCommits = d.serie_commits || {};
+  const dias = [...new Set(Object.values(serieCommits).flatMap(Object.keys))].sort();
   if (chart) chart.destroy();
   chart = new Chart(document.getElementById('chart'), {
-    type: 'line',
+    type: 'bar',
     data: {
       labels: dias.map(fecha),
-      datasets: d.teams.map((e,i) => {
-        let acc = 0;
-        return {
-          label: e.name,
-          data: dias.map(x => acc += (d.serie[e.name]?.[x] || 0)),
-          borderColor: PALETA[i % PALETA.length], backgroundColor: PALETA[i % PALETA.length],
-          tension: .25, pointRadius: 2, borderWidth: 2,
-        };
-      }),
+      datasets: d.teams.map((e,i) => ({
+        label: e.name,
+        data: dias.map(x => serieCommits[e.name]?.[x] || 0),
+        backgroundColor: PALETA[i % PALETA.length],
+        borderRadius: 3,
+      })),
     },
     options: {
       responsive: true, interaction: {mode:'index', intersect:false},
       plugins: {legend: {labels: {color:'#8b95b5', boxWidth:12}}},
       scales: {
-        x: {ticks:{color:'#8b95b5'}, grid:{color:'#26304f'}},
-        y: {ticks:{color:'#8b95b5'}, grid:{color:'#26304f'}, beginAtZero:true},
+        x: {stacked:true, ticks:{color:'#8b95b5'}, grid:{color:'#26304f'}},
+        y: {stacked:true, ticks:{color:'#8b95b5', precision:0}, grid:{color:'#26304f'}, beginAtZero:true},
       },
     },
   });
 
-  document.getElementById('tAct').innerHTML = d.commits.slice(0,40).map(c => `
-    <tr class="${c.pts ? '':'zero'}">
-      <td>${fecha(c.date)}</td>
-      <td style="text-align:left">${c.msg}<div class="msg">${c.repo} · ${c.sha}${c.nota ? ' · '+c.nota : ''}</div></td>
-      <td style="text-align:left">${c.team}</td><td style="text-align:left">${c.author}</td><td>${c.pts}</td>
-    </tr>`).join('') || '<tr><td colspan="5">Todavía no hay commits.</td></tr>';
+  // filtro por equipo + paginación de la tabla de actividad
+  const fEquipo = document.getElementById('fEquipo');
+  if (fEquipo.options.length === 1) {
+    fEquipo.innerHTML += d.teams.map(e => `<option value="${e.name}">${e.name}</option>`).join('');
+  }
+  const POR_PAGINA = 15;
+
+  const filtrados = () => fEquipo.value ? d.commits.filter(c => c.team === fEquipo.value) : d.commits;
+
+  const tablaAct = () => {
+    const lista = filtrados();
+    const totalPag = Math.max(1, Math.ceil(lista.length / POR_PAGINA));
+    pagina = Math.min(pagina, totalPag - 1);
+    const pag = lista.slice(pagina * POR_PAGINA, pagina * POR_PAGINA + POR_PAGINA);
+
+    document.getElementById('tAct').innerHTML = pag.map(c => `
+      <tr class="${c.pts ? '':'zero'}">
+        <td>${fecha(c.date)}</td>
+        <td style="text-align:left">${c.msg}<div class="msg">${c.repo} · ${c.sha}${c.nota ? ' · '+c.nota : ''}</div></td>
+        <td style="text-align:left">${c.team}</td><td style="text-align:left">${c.author}</td><td>${c.pts}</td>
+      </tr>`).join('') || '<tr><td colspan="5">Sin commits para este filtro.</td></tr>';
+
+    document.getElementById('pagInfo').textContent = `${lista.length ? pagina+1 : 0} / ${totalPag} · ${lista.length} commits`;
+    document.getElementById('pPrev').disabled = pagina === 0;
+    document.getElementById('pNext').disabled = pagina >= totalPag - 1;
+  };
+  fEquipo.onchange = () => { pagina = 0; tablaAct(); };
+  document.getElementById('pPrev').onclick = () => { pagina--; tablaAct(); };
+  document.getElementById('pNext').onclick = () => { pagina++; tablaAct(); };
+  tablaAct();
 
   document.getElementById('pie').textContent = 'Actualizado: ' + new Date(d.generado).toLocaleString('es');
 }

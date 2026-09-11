@@ -56,6 +56,7 @@ def calcular(commits, cfg):
     autores = defaultdict(set)
     n_commits = defaultdict(int)
     serie = defaultdict(lambda: defaultdict(float))  # equipo -> dia -> puntos
+    serie_commits = defaultdict(lambda: defaultdict(int))  # equipo -> dia -> cantidad de commits
     detalle = []
 
     for sha, c in commits.items():
@@ -70,6 +71,7 @@ def calcular(commits, cfg):
             dias[eq].add(dia)
             autores[eq].add(c["author"])
         serie[eq][dia] += pts
+        serie_commits[eq][dia] += 1
         detalle.append({"sha": sha[:7], "team": eq, "repo": c["repo"], "author": c["author"],
                         "date": c["date"], "msg": c["message"], "pts": pts, "nota": motivo})
 
@@ -95,7 +97,8 @@ def calcular(commits, cfg):
         "start_date": cfg["start_date"],
         "teams": equipos,
         "serie": {eq: dict(sorted(d.items())) for eq, d in serie.items()},
-        "commits": sorted(detalle, key=lambda d: d["date"], reverse=True)[:300],
+        "serie_commits": {eq: dict(sorted(d.items())) for eq, d in serie_commits.items()},
+        "commits": sorted(detalle, key=lambda d: d["date"], reverse=True),
     }
 
 

@@ -13,6 +13,12 @@ Editar `teams.json`:
 
 `repos` en formato `owner/nombre`. `members` son handles de GitHub y se usan solo para el ranking per cápita.
 
+**Los repos de los equipos deben ser públicos.** No le pedimos token a cada participante — el
+sistema lee todo con la API pública de GitHub (o el único `GH_TOKEN` del proyecto, que solo
+aumenta el límite de requests, no da acceso a repos privados ajenos). Si un equipo tiene su
+repo en privado, que lo pase a público o el commit no se va a poder leer (queda un `404` en el
+log de `collect.py`).
+
 ## Correr
 
 ```bash
