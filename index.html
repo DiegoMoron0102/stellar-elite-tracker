@@ -6,26 +6,75 @@
 <title>Stellar Elite — Ranking de Commits</title>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
 <style>
-  :root{--bg:#0a0e1a;--bg2:#0b1020;--card:#151b32;--card2:#111629;--line:#242c4a;--fg:#eef1fb;--dim:#8b95b5;--acc:#7c6cff;--acc2:#5aa9ff;--gold:#ffc857;--silver:#c9cfe0;--bronze:#e0975a;--good:#4ecdc4}
+  :root{
+    --bg:#000000;--card:#0a0a0d;--card2:#0e0e13;--line:#1c1c24;--line2:#2a2a36;
+    --fg:#f5f5fa;--dim:#8a8a9a;
+    --acc:#7d3fff;--acc2:#3aa9ff;--acc3:#00d1b2;
+    --gold:#ffc857;--silver:#c9cfe0;--bronze:#e0975a;--good:#00d1b2;
+  }
   *{box-sizing:border-box}
-  body{margin:0;background:radial-gradient(circle at 20% -10%,#1a2145 0%,var(--bg) 45%);color:var(--fg);font:14px/1.5 system-ui,-apple-system,Segoe UI,sans-serif;-webkit-font-smoothing:antialiased}
+  html{background:var(--bg)}
+  body{
+    margin:0;color:var(--fg);font:14px/1.5 system-ui,-apple-system,Segoe UI,sans-serif;-webkit-font-smoothing:antialiased;
+    background:
+      radial-gradient(ellipse 900px 500px at 15% -10%, #3a1a7a33, transparent 60%),
+      radial-gradient(ellipse 700px 500px at 100% 10%, #0f3d6633, transparent 55%),
+      radial-gradient(ellipse 600px 400px at 50% 100%, #00d1b214, transparent 60%),
+      var(--bg);
+    position:relative;
+    min-height:100vh;
+  }
+  .stars, .stars2{position:fixed;inset:0;z-index:0;pointer-events:none;opacity:.9}
+  .wrap{position:relative;z-index:1}
+  .stars{
+    background-image:
+      radial-gradient(2px 2px at 8% 12%, #fff, transparent),
+      radial-gradient(1.6px 1.6px at 22% 68%, #fff, transparent),
+      radial-gradient(2.2px 2.2px at 37% 28%, #fff, transparent),
+      radial-gradient(1.6px 1.6px at 51% 82%, #fff, transparent),
+      radial-gradient(1.8px 1.8px at 64% 15%, #fff, transparent),
+      radial-gradient(1.6px 1.6px at 76% 55%, #fff, transparent),
+      radial-gradient(2.2px 2.2px at 88% 32%, #fff, transparent),
+      radial-gradient(1.6px 1.6px at 94% 78%, #fff, transparent),
+      radial-gradient(1.9px 1.9px at 12% 90%, #fff, transparent),
+      radial-gradient(1.6px 1.6px at 44% 48%, #fff, transparent);
+    background-size:260px 260px;
+    animation:twinkle 5s ease-in-out infinite alternate;
+  }
+  .stars2{
+    background-image:
+      radial-gradient(1.6px 1.6px at 18% 40%, #b9c3ff, transparent),
+      radial-gradient(2px 2px at 60% 70%, #b9c3ff, transparent),
+      radial-gradient(1.6px 1.6px at 80% 20%, #b9c3ff, transparent),
+      radial-gradient(1.6px 1.6px at 33% 85%, #b9c3ff, transparent),
+      radial-gradient(1.8px 1.8px at 70% 45%, #b9c3ff, transparent);
+    background-size:340px 340px;
+    animation:twinkle 7s ease-in-out infinite alternate-reverse;
+  }
+  @keyframes twinkle{0%{opacity:.5}100%{opacity:1}}
   .wrap{max-width:1100px;margin:0 auto;padding:36px 20px 60px}
   header{display:flex;justify-content:space-between;align-items:flex-end;gap:16px;flex-wrap:wrap;margin-bottom:28px}
-  h1{font-size:28px;margin:0 0 4px;letter-spacing:-.02em;background:linear-gradient(90deg,var(--fg),var(--acc2));-webkit-background-clip:text;background-clip:text;color:transparent}
+  .brand{display:flex;align-items:center;gap:12px}
+  .spark{width:30px;height:30px;flex:none;filter:drop-shadow(0 0 10px #7d3fff88)}
+  h1{font-size:28px;margin:0 0 4px;letter-spacing:-.02em;font-weight:700;
+     background:linear-gradient(90deg,#fff 10%,var(--acc2) 60%,var(--acc) 100%);
+     -webkit-background-clip:text;background-clip:text;color:transparent}
   .sub{color:var(--dim);margin:0}
-  .live{display:flex;align-items:center;gap:6px;color:var(--good);font-size:12px;font-weight:600}
-  .live::before{content:'';width:7px;height:7px;border-radius:50%;background:var(--good);box-shadow:0 0 0 0 rgba(78,205,196,.6);animation:pulse 2s infinite}
-  @keyframes pulse{0%{box-shadow:0 0 0 0 rgba(78,205,196,.5)}70%{box-shadow:0 0 0 6px rgba(78,205,196,0)}100%{box-shadow:0 0 0 0 rgba(78,205,196,0)}}
+  .live{display:flex;align-items:center;gap:6px;color:var(--good);font-size:12px;font-weight:600;letter-spacing:.03em;text-transform:uppercase}
+  .live::before{content:'';width:7px;height:7px;border-radius:50%;background:var(--good);box-shadow:0 0 0 0 rgba(0,209,178,.6);animation:pulse 2s infinite}
+  @keyframes pulse{0%{box-shadow:0 0 0 0 rgba(0,209,178,.5)}70%{box-shadow:0 0 0 6px rgba(0,209,178,0)}100%{box-shadow:0 0 0 0 rgba(0,209,178,0)}}
   .stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:14px;margin-bottom:20px}
-  .stat{background:linear-gradient(160deg,var(--card),var(--card2));border:1px solid var(--line);border-radius:14px;padding:16px}
+  .stat{background:linear-gradient(160deg,var(--card),var(--card2));border:1px solid var(--line);border-radius:14px;padding:16px;position:relative;overflow:hidden}
+  .stat::after{content:'';position:absolute;inset:0;border-radius:14px;padding:1px;pointer-events:none;
+    background:linear-gradient(160deg,#ffffff14,transparent 40%);mask:linear-gradient(#000,#000) content-box,linear-gradient(#000,#000);mask-composite:exclude}
   .stat b{display:block;font-size:22px;font-weight:700}
   .stat span{color:var(--dim);font-size:12px;text-transform:uppercase;letter-spacing:.04em}
-  .card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:20px;margin-bottom:20px;box-shadow:0 10px 30px -20px #000}
+  .card{background:linear-gradient(180deg,var(--card),#000);border:1px solid var(--line);border-radius:14px;padding:20px;margin-bottom:20px;box-shadow:0 20px 50px -30px #000,0 0 0 1px #ffffff05 inset}
   .card h2{font-size:14px;margin:0 0 16px;color:var(--dim);font-weight:600;letter-spacing:.06em;text-transform:uppercase}
   .tabs{display:flex;gap:8px;margin-bottom:14px}
-  .tabs button{background:transparent;border:1px solid var(--line);color:var(--dim);padding:6px 14px;border-radius:20px;cursor:pointer;font:inherit;transition:.15s}
+  .tabs button{background:transparent;border:1px solid var(--line2);color:var(--dim);padding:6px 14px;border-radius:20px;cursor:pointer;font:inherit;transition:.15s}
   .tabs button:hover{border-color:var(--acc)}
-  .tabs button.on{background:var(--acc);border-color:var(--acc);color:#fff}
+  .tabs button.on{background:linear-gradient(90deg,var(--acc),var(--acc2));border-color:transparent;color:#fff}
   .scroll{overflow-x:auto}
   table{width:100%;border-collapse:collapse;white-space:nowrap}
   th{text-align:right;color:var(--dim);font-weight:600;font-size:11px;letter-spacing:.04em;text-transform:uppercase;padding:8px 10px;border-bottom:1px solid var(--line)}
@@ -33,34 +82,48 @@
   th:nth-child(2),td:nth-child(2){text-align:left;white-space:normal}
   tr:last-child td{border-bottom:0}
   tr{transition:background .15s}
-  tr:hover td{background:#ffffff06}
+  tr:hover td{background:#ffffff08}
   .rank{color:var(--dim);width:36px;font-variant-numeric:tabular-nums}
-  .medal{display:inline-flex;align-items:center;justify-content:center;width:22px;height:22px;border-radius:50%;font-weight:700;font-size:11px;color:#1a1a1a}
+  .medal{display:inline-flex;align-items:center;justify-content:center;width:22px;height:22px;border-radius:50%;font-weight:700;font-size:11px;color:#0a0a0d}
   .medal.g{background:var(--gold)}.medal.s{background:var(--silver)}.medal.b{background:var(--bronze)}
   .bar{height:4px;border-radius:2px;background:var(--line);margin-top:6px;overflow:hidden}
-  .bar i{display:block;height:100%;background:linear-gradient(90deg,var(--acc),var(--acc2));border-radius:2px;transition:width .4s}
+  .bar i{display:block;height:100%;background:linear-gradient(90deg,var(--acc),var(--acc2),var(--acc3));border-radius:2px;transition:width .4s}
   .pts{font-weight:700;font-size:16px;font-variant-numeric:tabular-nums}
   .devs{color:var(--dim);font-size:12px}
   .msg{color:var(--dim);font-size:12px;white-space:normal}
   .zero{opacity:.4}
-  select{background:var(--card2);border:1px solid var(--line);color:var(--fg);padding:6px 12px;border-radius:8px;font:inherit;cursor:pointer}
+  select{background:var(--card2);border:1px solid var(--line2);color:var(--fg);padding:6px 12px;border-radius:8px;font:inherit;cursor:pointer}
   .pager{display:flex;align-items:center;justify-content:flex-end;gap:12px;margin-top:14px;color:var(--dim);font-size:12px}
-  .pager button{background:transparent;border:1px solid var(--line);color:var(--fg);width:28px;height:28px;border-radius:6px;cursor:pointer;font:inherit}
+  .pager button{background:transparent;border:1px solid var(--line2);color:var(--fg);width:28px;height:28px;border-radius:6px;cursor:pointer;font:inherit}
   .pager button:disabled{opacity:.35;cursor:default}
   .pager button:not(:disabled):hover{border-color:var(--acc)}
   .actHead{display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:10px;margin-bottom:16px}
   .actHead h2{margin:0}
   footer{color:var(--dim);font-size:12px;text-align:center;margin-top:30px}
-  .err{background:#3a1c28;border-color:#6b2b3f;padding:18px}
-  code{background:#0006;padding:2px 6px;border-radius:4px}
+  .err{background:#2a0f1a;border-color:#5a2338;padding:18px}
+  code{background:#ffffff10;padding:2px 6px;border-radius:4px}
 </style>
 </head>
 <body>
+<div class="stars"></div>
+<div class="stars2"></div>
 <div class="wrap">
   <header>
-    <div>
-      <h1 id="titulo">Stellar Elite</h1>
-      <p class="sub" id="sub">Cargando…</p>
+    <div class="brand">
+      <svg class="spark" viewBox="0 0 24 24" fill="none">
+        <defs>
+          <linearGradient id="g" x1="0" y1="0" x2="24" y2="24">
+            <stop offset="0%" stop-color="#fff"/>
+            <stop offset="55%" stop-color="#3aa9ff"/>
+            <stop offset="100%" stop-color="#7d3fff"/>
+          </linearGradient>
+        </defs>
+        <path d="M12 0 C12 7 13.5 10.5 24 12 C13.5 13.5 12 17 12 24 C12 17 10.5 13.5 0 12 C10.5 10.5 12 7 12 0 Z" fill="url(#g)"/>
+      </svg>
+      <div>
+        <h1 id="titulo">Stellar Elite</h1>
+        <p class="sub" id="sub">Cargando…</p>
+      </div>
     </div>
     <span class="live">en vivo</span>
   </header>
@@ -104,8 +167,8 @@
 </div>
 
 <script>
-const PALETA = ['#7c6cff','#ffc857','#4ecdc4','#ff6b8a','#5aa9ff','#9dd66b','#ff9f45','#c98bff','#54d1a0','#ff7b54'];
-const fecha = s => new Date(s).toLocaleDateString('es', {day:'2-digit', month:'short'});
+const PALETA = ['#7d3fff','#3aa9ff','#00d1b2','#ffc857','#ff6b8a','#9d7bff','#5ad1ff','#54d1a0','#c98bff','#ff9f45'];
+const fecha = s => new Date(s).toLocaleDateString('es', {day:'2-digit', month:'short', timeZone:'UTC'});
 
 let chart = null;
 let pagina = 0;
