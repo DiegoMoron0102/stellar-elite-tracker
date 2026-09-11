@@ -1,0 +1,70 @@
+{
+ "generado": "2026-09-03T02:21:33+00:00",
+ "programa": "Stellar Elite",
+ "start_date": "2026-09-02T00:00:00Z",
+ "teams": [
+  {
+   "name": "Prueba - Diego",
+   "total": 39.23,
+   "per_capita": 39.23,
+   "commits": 4,
+   "pts_commits": 31.23,
+   "dias_activos": 1,
+   "contribuidores": [
+    "DiegoMoron0102"
+   ],
+   "tamano": 1,
+   "repos": [
+    "DiegoMoron0102/sistema-contenido-uce"
+   ],
+   "rank": 1
+  }
+ ],
+ "serie": {
+  "Prueba - Diego": {
+   "2026-09-02": 31.23
+  }
+ },
+ "commits": [
+  {
+   "sha": "25d9d26",
+   "team": "Prueba - Diego",
+   "repo": "DiegoMoron0102/sistema-contenido-uce",
+   "author": "DiegoMoron0102",
+   "date": "2026-09-02T21:08:01Z",
+   "msg": "Contenidos: la hora programada se guardaba 4 horas antes de lo cargado",
+   "pts": 8.19,
+   "nota": ""
+  },
+  {
+   "sha": "236b7d9",
+   "team": "Prueba - Diego",
+   "repo": "DiegoMoron0102/sistema-contenido-uce",
+   "author": "DiegoMoron0102",
+   "date": "2026-09-02T20:45:17Z",
+   "msg": "Contenidos: el campo Productor pasa a ser Voz en off",
+   "pts": 4.0,
+   "nota": ""
+  },
+  {
+   "sha": "0644986",
+   "team": "Prueba - Diego",
+   "repo": "DiegoMoron0102/sistema-contenido-uce",
+   "author": "DiegoMoron0102",
+   "date": "2026-09-02T20:43:50Z",
+   "msg": "Arreglar las miniaturas de Instagram, Pinterest y Facebook en el muro",
+   "pts": 9.09,
+   "nota": ""
+  },
+  {
+   "sha": "412068d",
+   "team": "Prueba - Diego",
+   "repo": "DiegoMoron0102/sistema-contenido-uce",
+   "author": "DiegoMoron0102",
+   "date": "2026-09-02T15:42:02Z",
+   "msg": "Muro de ideas: las notas pasan a ser brainstorming compartido",
+   "pts": 9.95,
+   "nota": ""
+  }
+ ]
+}

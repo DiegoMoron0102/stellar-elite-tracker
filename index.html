@@ -1,0 +1,184 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Stellar Elite — Ranking de Commits</title>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
+<style>
+  :root{--bg:#0a0e1a;--bg2:#0b1020;--card:#151b32;--card2:#111629;--line:#242c4a;--fg:#eef1fb;--dim:#8b95b5;--acc:#7c6cff;--acc2:#5aa9ff;--gold:#ffc857;--silver:#c9cfe0;--bronze:#e0975a;--good:#4ecdc4}
+  *{box-sizing:border-box}
+  body{margin:0;background:radial-gradient(circle at 20% -10%,#1a2145 0%,var(--bg) 45%);color:var(--fg);font:14px/1.5 system-ui,-apple-system,Segoe UI,sans-serif;-webkit-font-smoothing:antialiased}
+  .wrap{max-width:1100px;margin:0 auto;padding:36px 20px 60px}
+  header{display:flex;justify-content:space-between;align-items:flex-end;gap:16px;flex-wrap:wrap;margin-bottom:28px}
+  h1{font-size:28px;margin:0 0 4px;letter-spacing:-.02em;background:linear-gradient(90deg,var(--fg),var(--acc2));-webkit-background-clip:text;background-clip:text;color:transparent}
+  .sub{color:var(--dim);margin:0}
+  .live{display:flex;align-items:center;gap:6px;color:var(--good);font-size:12px;font-weight:600}
+  .live::before{content:'';width:7px;height:7px;border-radius:50%;background:var(--good);box-shadow:0 0 0 0 rgba(78,205,196,.6);animation:pulse 2s infinite}
+  @keyframes pulse{0%{box-shadow:0 0 0 0 rgba(78,205,196,.5)}70%{box-shadow:0 0 0 6px rgba(78,205,196,0)}100%{box-shadow:0 0 0 0 rgba(78,205,196,0)}}
+  .stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:14px;margin-bottom:20px}
+  .stat{background:linear-gradient(160deg,var(--card),var(--card2));border:1px solid var(--line);border-radius:14px;padding:16px}
+  .stat b{display:block;font-size:22px;font-weight:700}
+  .stat span{color:var(--dim);font-size:12px;text-transform:uppercase;letter-spacing:.04em}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:20px;margin-bottom:20px;box-shadow:0 10px 30px -20px #000}
+  .card h2{font-size:14px;margin:0 0 16px;color:var(--dim);font-weight:600;letter-spacing:.06em;text-transform:uppercase}
+  .tabs{display:flex;gap:8px;margin-bottom:14px}
+  .tabs button{background:transparent;border:1px solid var(--line);color:var(--dim);padding:6px 14px;border-radius:20px;cursor:pointer;font:inherit;transition:.15s}
+  .tabs button:hover{border-color:var(--acc)}
+  .tabs button.on{background:var(--acc);border-color:var(--acc);color:#fff}
+  .scroll{overflow-x:auto}
+  table{width:100%;border-collapse:collapse;white-space:nowrap}
+  th{text-align:right;color:var(--dim);font-weight:600;font-size:11px;letter-spacing:.04em;text-transform:uppercase;padding:8px 10px;border-bottom:1px solid var(--line)}
+  td{text-align:right;padding:12px 10px;border-bottom:1px solid var(--line)}
+  th:nth-child(2),td:nth-child(2){text-align:left;white-space:normal}
+  tr:last-child td{border-bottom:0}
+  tr{transition:background .15s}
+  tr:hover td{background:#ffffff06}
+  .rank{color:var(--dim);width:36px;font-variant-numeric:tabular-nums}
+  .medal{display:inline-flex;align-items:center;justify-content:center;width:22px;height:22px;border-radius:50%;font-weight:700;font-size:11px;color:#1a1a1a}
+  .medal.g{background:var(--gold)}.medal.s{background:var(--silver)}.medal.b{background:var(--bronze)}
+  .bar{height:4px;border-radius:2px;background:var(--line);margin-top:6px;overflow:hidden}
+  .bar i{display:block;height:100%;background:linear-gradient(90deg,var(--acc),var(--acc2));border-radius:2px;transition:width .4s}
+  .pts{font-weight:700;font-size:16px;font-variant-numeric:tabular-nums}
+  .devs{color:var(--dim);font-size:12px}
+  .msg{color:var(--dim);font-size:12px;white-space:normal}
+  .zero{opacity:.4}
+  footer{color:var(--dim);font-size:12px;text-align:center;margin-top:30px}
+  .err{background:#3a1c28;border-color:#6b2b3f;padding:18px}
+  code{background:#0006;padding:2px 6px;border-radius:4px}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div>
+      <h1 id="titulo">Stellar Elite</h1>
+      <p class="sub" id="sub">Cargando…</p>
+    </div>
+    <span class="live">en vivo</span>
+  </header>
+
+  <div class="stats" id="cStats" hidden></div>
+
+  <div class="card" id="cRank" hidden>
+    <h2>Ranking</h2>
+    <div class="tabs">
+      <button id="bTotal" class="on">Puntaje total</button>
+      <button id="bCap">Per cápita</button>
+    </div>
+    <div class="scroll"><table>
+      <thead><tr><th class="rank">#</th><th>Equipo</th><th>Puntos</th><th>Commits</th><th>Días</th><th>Devs</th></tr></thead>
+      <tbody id="tRank"></tbody>
+    </table></div>
+  </div>
+
+  <div class="card" id="cChart" hidden>
+    <h2>Puntaje acumulado</h2>
+    <canvas id="chart" height="110"></canvas>
+  </div>
+
+  <div class="card" id="cAct" hidden>
+    <h2>Actividad reciente</h2>
+    <div class="scroll"><table>
+      <thead><tr><th>Fecha</th><th>Commit</th><th>Equipo</th><th>Autor</th><th>Pts</th></tr></thead>
+      <tbody id="tAct"></tbody>
+    </table></div>
+  </div>
+
+  <footer id="pie"></footer>
+</div>
+
+<script>
+const PALETA = ['#7c6cff','#ffc857','#4ecdc4','#ff6b8a','#5aa9ff','#9dd66b','#ff9f45','#c98bff','#54d1a0','#ff7b54'];
+const fecha = s => new Date(s).toLocaleDateString('es', {day:'2-digit', month:'short'});
+
+let chart = null;
+
+function cargar() {
+  fetch('data/scores.json?' + Date.now())
+    .then(r => r.ok ? r.json() : Promise.reject(r.status))
+    .then(render)
+    .catch(e => {
+      document.getElementById('sub').innerHTML =
+        `<span class="card err" style="display:block">No se pudo leer <code>data/scores.json</code> (${e}).<br>
+         Corré <code>python collect.py &amp;&amp; python score.py</code>, y serví la carpeta con <code>python -m http.server</code>
+         (abrir el archivo directo con file:// lo bloquea el navegador).</span>`;
+    });
+}
+cargar();
+setInterval(cargar, 60000); // dashboard se refresca solo, sin recargar la página
+
+function render(d) {
+  document.getElementById('titulo').textContent = d.programa + ' — Ranking de Commits';
+  document.getElementById('sub').textContent =
+    `Cuenta el desarrollo desde el ${fecha(d.start_date)}. ${d.teams.length} equipos.`;
+  ['cRank','cChart','cAct'].forEach(id => document.getElementById(id).hidden = false);
+
+  const lider = d.teams[0];
+  const stats = [
+    ['Equipos', d.teams.length],
+    ['Commits totales', d.teams.reduce((s,e) => s + e.commits, 0)],
+    ['Líder', lider ? lider.name : '—'],
+    ['Puntos del líder', lider ? lider.total : 0],
+  ];
+  const cStats = document.getElementById('cStats');
+  cStats.hidden = false;
+  cStats.innerHTML = stats.map(([k,v]) => `<div class="stat"><b>${v}</b><span>${k}</span></div>`).join('');
+
+  const medalla = i => i===0 ? '<span class="medal g">1</span>' : i===1 ? '<span class="medal s">2</span>' : i===2 ? '<span class="medal b">3</span>' : `<span class="rank">${i+1}</span>`;
+
+  let modo = 'total';
+  const tabla = () => {
+    const eq = [...d.teams].sort((a,b) => b[modo] - a[modo]);
+    const max = Math.max(1, ...eq.map(e => e[modo]));
+    document.getElementById('tRank').innerHTML = eq.map((e,i) => `
+      <tr class="${e[modo] ? '':'zero'}">
+        <td class="rank">${medalla(i)}</td>
+        <td>${e.name}<div class="devs">${e.contribuidores.join(', ') || 'sin actividad aún'}</div></td>
+        <td class="pts">${e[modo]}<div class="bar"><i style="width:${100*e[modo]/max}%"></i></div></td>
+        <td>${e.commits}</td><td>${e.dias_activos}</td><td>${e.tamano}</td>
+      </tr>`).join('');
+  };
+  const bT = document.getElementById('bTotal'), bC = document.getElementById('bCap');
+  bT.onclick = () => { modo='total';      bT.classList.add('on'); bC.classList.remove('on'); tabla(); };
+  bC.onclick = () => { modo='per_capita'; bC.classList.add('on'); bT.classList.remove('on'); tabla(); };
+  tabla();
+
+  const dias = [...new Set(Object.values(d.serie).flatMap(Object.keys))].sort();
+  if (chart) chart.destroy();
+  chart = new Chart(document.getElementById('chart'), {
+    type: 'line',
+    data: {
+      labels: dias.map(fecha),
+      datasets: d.teams.map((e,i) => {
+        let acc = 0;
+        return {
+          label: e.name,
+          data: dias.map(x => acc += (d.serie[e.name]?.[x] || 0)),
+          borderColor: PALETA[i % PALETA.length], backgroundColor: PALETA[i % PALETA.length],
+          tension: .25, pointRadius: 2, borderWidth: 2,
+        };
+      }),
+    },
+    options: {
+      responsive: true, interaction: {mode:'index', intersect:false},
+      plugins: {legend: {labels: {color:'#8b95b5', boxWidth:12}}},
+      scales: {
+        x: {ticks:{color:'#8b95b5'}, grid:{color:'#26304f'}},
+        y: {ticks:{color:'#8b95b5'}, grid:{color:'#26304f'}, beginAtZero:true},
+      },
+    },
+  });
+
+  document.getElementById('tAct').innerHTML = d.commits.slice(0,40).map(c => `
+    <tr class="${c.pts ? '':'zero'}">
+      <td>${fecha(c.date)}</td>
+      <td style="text-align:left">${c.msg}<div class="msg">${c.repo} · ${c.sha}${c.nota ? ' · '+c.nota : ''}</div></td>
+      <td style="text-align:left">${c.team}</td><td style="text-align:left">${c.author}</td><td>${c.pts}</td>
+    </tr>`).join('') || '<tr><td colspan="5">Todavía no hay commits.</td></tr>';
+
+  document.getElementById('pie').textContent = 'Actualizado: ' + new Date(d.generado).toLocaleString('es');
+}
+</script>
+</body>
+</html>

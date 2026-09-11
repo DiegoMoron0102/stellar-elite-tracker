@@ -1,0 +1,17 @@
+{
+  "program": "Stellar Elite",
+  "start_date": "2026-09-02T00:00:00Z",
+  "end_date": null,
+  "_comment": "Agrega un objeto por equipo. 'repos' en formato owner/nombre. 'members' son handles de GitHub, se usan solo para el ranking per capita.",
+  "teams": [
+    {
+      "name": "Prueba - Diego",
+      "members": [
+        "DiegoMoron0102"
+      ],
+      "repos": [
+        "DiegoMoron0102/sistema-contenido-uce"
+      ]
+    }
+  ]
+}

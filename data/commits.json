@@ -1,0 +1,232 @@
+{
+ "25d9d26b40326c75a8e0f9d5f708a856c91d15d2": {
+  "team": "Prueba - Diego",
+  "repo": "DiegoMoron0102/sistema-contenido-uce",
+  "author": "DiegoMoron0102",
+  "date": "2026-09-02T21:08:01Z",
+  "message": "Contenidos: la hora programada se guardaba 4 horas antes de lo cargado",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/app/(dashboard)/contenidos/page.tsx",
+    "a": 14,
+    "d": 10
+   },
+   {
+    "f": "src/components/contenidos/contenido-form.tsx",
+    "a": 2,
+    "d": 1
+   },
+   {
+    "f": "src/components/shared/estado-badge.tsx",
+    "a": 5,
+    "d": 0
+   },
+   {
+    "f": "src/lib/schemas/contenido.test.ts",
+    "a": 18,
+    "d": 0
+   },
+   {
+    "f": "src/lib/schemas/contenido.ts",
+    "a": 11,
+    "d": 1
+   },
+   {
+    "f": "src/lib/types/database.ts",
+    "a": 4,
+    "d": 0
+   },
+   {
+    "f": "src/lib/utils/constants.ts",
+    "a": 13,
+    "d": 11
+   },
+   {
+    "f": "src/lib/utils/fechas.test.ts",
+    "a": 19,
+    "d": 1
+   },
+   {
+    "f": "src/lib/utils/fechas.ts",
+    "a": 35,
+    "d": 0
+   }
+  ]
+ },
+ "236b7d9314dbc791ebe489d4df10345f3a395ea2": {
+  "team": "Prueba - Diego",
+  "repo": "DiegoMoron0102/sistema-contenido-uce",
+  "author": "DiegoMoron0102",
+  "date": "2026-09-02T20:45:17Z",
+  "message": "Contenidos: el campo Productor pasa a ser Voz en off",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/components/contenidos/contenido-form.tsx",
+    "a": 4,
+    "d": 1
+   },
+   {
+    "f": "src/lib/reportes/agregados.ts",
+    "a": 1,
+    "d": 1
+   }
+  ]
+ },
+ "0644986f64a1f49166edbe5141a455d753021e3d": {
+  "team": "Prueba - Diego",
+  "repo": "DiegoMoron0102/sistema-contenido-uce",
+  "author": "DiegoMoron0102",
+  "date": "2026-09-02T20:43:50Z",
+  "message": "Arreglar las miniaturas de Instagram, Pinterest y Facebook en el muro",
+  "parents": 1,
+  "files": [
+   {
+    "f": "scripts/refrescar-previews.mts",
+    "a": 49,
+    "d": 0
+   },
+   {
+    "f": "src/app/(dashboard)/notas/[id]/page.tsx",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/app/(dashboard)/notas/actions.ts",
+    "a": 29,
+    "d": 10
+   },
+   {
+    "f": "src/app/api/notas/[id]/preview/route.ts",
+    "a": 43,
+    "d": 0
+   },
+   {
+    "f": "src/components/notas/nota-editor.tsx",
+    "a": 17,
+    "d": 0
+   },
+   {
+    "f": "src/components/notas/preview-enlace.tsx",
+    "a": 2,
+    "d": 7
+   },
+   {
+    "f": "src/components/notas/tarjeta-idea.tsx",
+    "a": 6,
+    "d": 6
+   },
+   {
+    "f": "src/lib/schemas/nota.ts",
+    "a": 8,
+    "d": 0
+   },
+   {
+    "f": "src/lib/utils/og-parse.ts",
+    "a": 14,
+    "d": 7
+   },
+   {
+    "f": "src/lib/utils/og.test.ts",
+    "a": 11,
+    "d": 0
+   },
+   {
+    "f": "src/lib/utils/og.ts",
+    "a": 48,
+    "d": 13
+   }
+  ]
+ },
+ "412068d3fc8c2a0c1022c7bac2b2416859f1885d": {
+  "team": "Prueba - Diego",
+  "repo": "DiegoMoron0102/sistema-contenido-uce",
+  "author": "DiegoMoron0102",
+  "date": "2026-09-02T15:42:02Z",
+  "message": "Muro de ideas: las notas pasan a ser brainstorming compartido",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/app/(dashboard)/busqueda/page.tsx",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "src/app/(dashboard)/notas/[id]/page.tsx",
+    "a": 4,
+    "d": 1
+   },
+   {
+    "f": "src/app/(dashboard)/notas/actions.ts",
+    "a": 13,
+    "d": 2
+   },
+   {
+    "f": "src/app/(dashboard)/notas/nueva/page.tsx",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/app/(dashboard)/notas/page.tsx",
+    "a": 53,
+    "d": 39
+   },
+   {
+    "f": "src/components/layout/sidebar.tsx",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/components/notas/nota-editor.tsx",
+    "a": 54,
+    "d": 4
+   },
+   {
+    "f": "src/components/notas/preview-enlace.tsx",
+    "a": 28,
+    "d": 0
+   },
+   {
+    "f": "src/components/notas/tarjeta-idea.tsx",
+    "a": 93,
+    "d": 0
+   },
+   {
+    "f": "src/lib/schemas/nota.test.ts",
+    "a": 17,
+    "d": 0
+   },
+   {
+    "f": "src/lib/schemas/nota.ts",
+    "a": 25,
+    "d": 0
+   },
+   {
+    "f": "src/lib/types/database.ts",
+    "a": 9,
+    "d": 0
+   },
+   {
+    "f": "src/lib/utils/og-parse.ts",
+    "a": 50,
+    "d": 0
+   },
+   {
+    "f": "src/lib/utils/og.test.ts",
+    "a": 37,
+    "d": 0
+   },
+   {
+    "f": "src/lib/utils/og.ts",
+    "a": 31,
+    "d": 0
+   },
+   {
+    "f": "supabase/fixes.sql",
+    "a": 25,
+    "d": 0
+   }
+  ]
+ }
+}

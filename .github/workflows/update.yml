@@ -1,0 +1,40 @@
+name: Actualizar ranking
+
+on:
+  schedule:
+    - cron: "0 */6 * * *"   # cada 6 horas
+  workflow_dispatch:         # y con el boton "Run workflow"
+  push:
+    paths: ["teams.json"]    # al agregar un equipo, recalcula ya
+
+permissions:
+  contents: write
+
+concurrency:
+  group: ranking
+  cancel-in-progress: false
+
+jobs:
+  ranking:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: "3.12"}
+
+      - name: Bajar commits y puntuar
+        env:
+          # GH_TOKEN: PAT en Settings > Secrets. Necesario solo si hay repos privados.
+          GH_TOKEN: ${{ secrets.GH_TOKEN || github.token }}
+        run: |
+          python score.py --test
+          python collect.py
+          python score.py
+
+      - name: Publicar cambios
+        run: |
+          git config user.name "stellar-elite-bot"
+          git config user.email "actions@github.com"
+          git add data/
+          git diff --staged --quiet || git commit -m "ranking: $(date -u '+%Y-%m-%d %H:%M UTC')"
+          git push
