@@ -24,7 +24,32 @@
     position:relative;
     min-height:100vh;
   }
-  .stars, .stars2{position:fixed;inset:0;z-index:0;pointer-events:none;opacity:.9}
+  :root{--mx:0;--my:0}
+  .stars, .stars2{
+    position:fixed;inset:-40px;z-index:0;pointer-events:none;opacity:.9;
+    transition:transform .2s ease-out;
+  }
+  .stars{transform:translate(calc(var(--mx) * -18px), calc(var(--my) * -18px))}
+  .stars2{transform:translate(calc(var(--mx) * -34px), calc(var(--my) * -34px))}
+  .glow{position:fixed;inset:0;z-index:0;pointer-events:none;
+    background:radial-gradient(320px circle at var(--mxpx,50%) var(--mypx,50%), #7d3fff20, transparent 70%);
+  }
+  .shootbox{position:fixed;inset:0;z-index:0;overflow:hidden;pointer-events:none}
+  .shoot{position:absolute;width:2px;height:2px;background:#fff;border-radius:50%;
+    box-shadow:0 0 6px 1px #fff;opacity:0;animation:shoot linear infinite}
+  .shoot::before{content:'';position:absolute;top:50%;right:0;width:130px;height:1px;
+    background:linear-gradient(90deg,transparent,#fffb);transform:translateY(-50%) rotate(180deg);transform-origin:right center}
+  @keyframes shoot{
+    0%{transform:translate(0,0) rotate(215deg);opacity:0}
+    3%{opacity:1}
+    14%{opacity:0}
+    100%{transform:translate(-640px,460px) rotate(215deg);opacity:0}
+  }
+  .shoot:nth-child(1){top:8%; left:78%; animation-duration:5.5s; animation-delay:.5s}
+  .shoot:nth-child(2){top:28%;left:55%; animation-duration:7.5s; animation-delay:3s}
+  .shoot:nth-child(3){top:4%; left:35%; animation-duration:6.5s; animation-delay:6s}
+  .shoot:nth-child(4){top:46%;left:88%; animation-duration:8.5s; animation-delay:1.8s}
+  .shoot:nth-child(5){top:16%;left:15%; animation-duration:9.5s; animation-delay:4.6s}
   .wrap{position:relative;z-index:1}
   .stars{
     background-image:
@@ -132,6 +157,11 @@
 <body>
 <div class="stars"></div>
 <div class="stars2"></div>
+<div class="shootbox">
+  <div class="shoot"></div><div class="shoot"></div><div class="shoot"></div>
+  <div class="shoot"></div><div class="shoot"></div>
+</div>
+<div class="glow"></div>
 <div class="wrap">
   <header>
     <div class="brand">
@@ -198,6 +228,21 @@ const fecha = s => new Date(s).toLocaleDateString('es', {day:'2-digit', month:'s
 
 let chart = null;
 let pagina = 0;
+
+// paralaje del starfield + resplandor que sigue al cursor
+let rafPend = false;
+document.addEventListener('mousemove', e => {
+  if (rafPend) return;
+  rafPend = true;
+  requestAnimationFrame(() => {
+    const r = document.documentElement.style;
+    r.setProperty('--mx', (e.clientX / innerWidth - .5).toFixed(3));
+    r.setProperty('--my', (e.clientY / innerHeight - .5).toFixed(3));
+    r.setProperty('--mxpx', e.clientX + 'px');
+    r.setProperty('--mypx', e.clientY + 'px');
+    rafPend = false;
+  });
+});
 
 function cargar() {
   fetch('data/scores.json?' + Date.now())
