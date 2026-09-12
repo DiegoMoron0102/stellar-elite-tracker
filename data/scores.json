@@ -1,5 +1,5 @@
 {
- "generado": "2026-09-12T00:53:30+00:00",
+ "generado": "2026-09-12T01:12:17+00:00",
  "programa": "Stellar Elite",
  "start_date": "2026-09-02T00:00:00Z",
  "teams": [
@@ -18,6 +18,23 @@
     "DiegoMoron0102/sistema-contenido-uce"
    ],
    "rank": 1
+  },
+  {
+   "name": "Emmi",
+   "total": 40.66,
+   "per_capita": 20.33,
+   "commits": 5,
+   "pts_commits": 24.66,
+   "dias_activos": 2,
+   "contribuidores": [
+    "adyonchain",
+    "emmi-lili"
+   ],
+   "tamano": 2,
+   "repos": [
+    "emmi-lili/besties-"
+   ],
+   "rank": 2
   }
  ],
  "serie": {
@@ -27,6 +44,10 @@
    "2026-09-04": 63.22,
    "2026-09-07": 14.29,
    "2026-09-08": 43.87
+  },
+  "Emmi": {
+   "2026-09-04": 16.34,
+   "2026-09-08": 8.32
   }
  },
  "serie_commits": {
@@ -36,9 +57,33 @@
    "2026-09-04": 8,
    "2026-09-07": 2,
    "2026-09-08": 7
+  },
+  "Emmi": {
+   "2026-09-04": 3,
+   "2026-09-08": 2
   }
  },
  "commits": [
+  {
+   "sha": "090a224",
+   "team": "Emmi",
+   "repo": "emmi-lili/besties-",
+   "author": "adyonchain",
+   "date": "2026-09-08T22:01:40Z",
+   "msg": "Actualiza la paleta de colores de la app",
+   "pts": 4.32,
+   "nota": ""
+  },
+  {
+   "sha": "b8b9fc6",
+   "team": "Emmi",
+   "repo": "emmi-lili/besties-",
+   "author": "adyonchain",
+   "date": "2026-09-08T22:01:00Z",
+   "msg": "Actualiza la paleta de colores de la app",
+   "pts": 4.0,
+   "nota": ""
+  },
   {
    "sha": "e4c25ce",
    "team": "Prueba - Diego",
@@ -137,6 +182,36 @@
    "date": "2026-09-04T20:45:19Z",
    "msg": "Contenidos: error de guardado como popup en vez de texto perdido en el formulario",
    "pts": 5.58,
+   "nota": ""
+  },
+  {
+   "sha": "4cc115c",
+   "team": "Emmi",
+   "repo": "emmi-lili/besties-",
+   "author": "emmi-lili",
+   "date": "2026-09-04T20:44:20Z",
+   "msg": "Update README.md",
+   "pts": 6.09,
+   "nota": ""
+  },
+  {
+   "sha": "a2f8947",
+   "team": "Emmi",
+   "repo": "emmi-lili/besties-",
+   "author": "emmi-lili",
+   "date": "2026-09-04T20:43:39Z",
+   "msg": "first besties commit",
+   "pts": 1.0,
+   "nota": "import masivo (76 archivos)"
+  },
+  {
+   "sha": "31fd63f",
+   "team": "Emmi",
+   "repo": "emmi-lili/besties-",
+   "author": "emmi-lili",
+   "date": "2026-09-04T20:21:35Z",
+   "msg": "Initial commit from Create Next App",
+   "pts": 9.25,
    "nota": ""
   },
   {
