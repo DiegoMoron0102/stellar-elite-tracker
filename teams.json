@@ -12,6 +12,16 @@
       "repos": [
         "DiegoMoron0102/sistema-contenido-uce"
       ]
+    },
+    {
+      "name": "Emmi",
+      "members": [
+        "adyonchain",
+        "emmi-lili"
+      ],
+      "repos": [
+        "emmi-lili/besties-"
+      ]
     }
   ]
 }
