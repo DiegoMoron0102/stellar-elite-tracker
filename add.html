@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Agregar equipo — Stellar Elite</title>
+<style>
+  :root{
+    --bg:#000;--card:#0a0a0d;--card2:#0e0e13;--line:#1c1c24;--line2:#2a2a36;
+    --fg:#f5f5fa;--dim:#8a8a9a;--acc:#7d3fff;--acc2:#3aa9ff;--good:#00d1b2;
+  }
+  *{box-sizing:border-box}
+  body{
+    margin:0;min-height:100vh;color:var(--fg);font:14px/1.5 system-ui,-apple-system,Segoe UI,sans-serif;
+    background:
+      radial-gradient(ellipse 900px 500px at 15% -10%, #3a1a7a33, transparent 60%),
+      radial-gradient(ellipse 700px 500px at 100% 10%, #0f3d6633, transparent 55%),
+      var(--bg);
+  }
+  .wrap{max-width:480px;margin:0 auto;padding:48px 20px 60px}
+  .back{display:inline-flex;align-items:center;gap:6px;color:var(--dim);text-decoration:none;font-size:13px;margin-bottom:28px}
+  .back:hover{color:var(--fg)}
+  h1{font-size:26px;margin:0 0 8px;font-weight:700;
+     background:linear-gradient(90deg,#fff 10%,var(--acc2) 60%,var(--acc) 100%);
+     -webkit-background-clip:text;background-clip:text;color:transparent}
+  .sub{color:var(--dim);margin:0 0 28px}
+  .card{background:linear-gradient(180deg,var(--card),#000);border:1px solid var(--line);border-radius:14px;padding:24px;
+        box-shadow:0 20px 50px -30px #000}
+  .field{margin-bottom:18px}
+  .field label{display:block;color:var(--dim);font-size:11px;margin-bottom:6px;text-transform:uppercase;letter-spacing:.04em;font-weight:600}
+  .field input{background:var(--card2);border:1px solid var(--line2);color:var(--fg);padding:12px 14px;border-radius:8px;font:inherit;width:100%}
+  .field input:focus{outline:none;border-color:var(--acc)}
+  .field .opt{color:var(--dim);font-weight:400;text-transform:none;letter-spacing:0;font-size:11px}
+  .btn{width:100%;background:linear-gradient(90deg,var(--acc),var(--acc2));border:none;color:#fff;padding:12px 18px;border-radius:8px;cursor:pointer;font:inherit;font-weight:600;margin-top:6px}
+  .btn:hover:not(:disabled){opacity:.92}
+  .btn:disabled{opacity:.45;cursor:default}
+  .msg-ok{color:var(--good);font-size:13px;margin-top:16px;text-align:center}
+  .msg-err{color:#ff6b8a;font-size:13px;margin-top:16px;text-align:center}
+  .warn{color:var(--dim);font-size:12px;line-height:1.5;margin-top:16px}
+  code{background:#ffffff10;padding:2px 6px;border-radius:4px}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <a class="back" href="/">← Volver al ranking</a>
+  <h1>Agregar equipo</h1>
+  <p class="sub">Registra un repo de GitHub para analizar sus commits.</p>
+
+  <div class="card">
+    <form id="fAdd">
+      <div class="field">
+        <label for="inpRepo">Link del repositorio</label>
+        <input id="inpRepo" name="repo" placeholder="https://github.com/owner/nombre" required autofocus>
+      </div>
+      <div class="field">
+        <label for="inpName">Nombre del equipo <span class="opt">(opcional)</span></label>
+        <input id="inpName" name="name" placeholder="Si lo dejas vacío, usa el nombre del repo">
+      </div>
+      <button type="submit" class="btn" id="btnAdd">Registrar equipo</button>
+      <div id="addMsg"></div>
+      <p class="warn" id="addHint"></p>
+    </form>
+  </div>
+</div>
+
+<script>
+let apiOk = false;
+
+async function checkApi() {
+  const hint = document.getElementById('addHint');
+  const btn = document.getElementById('btnAdd');
+  try {
+    const r = await fetch('/api/teams');
+    if (!r.ok) throw new Error();
+    apiOk = true;
+    hint.textContent = 'Los miembros se detectan automáticamente desde los contribuidores del repo.';
+  } catch {
+    apiOk = false;
+    hint.innerHTML = 'Necesitás <code>python serve.py</code> para registrar equipos desde la UI.';
+    btn.disabled = true;
+    document.querySelectorAll('#fAdd input').forEach(el => el.disabled = true);
+  }
+}
+
+document.getElementById('fAdd').addEventListener('submit', async e => {
+  e.preventDefault();
+  if (!apiOk) return;
+  const msg = document.getElementById('addMsg');
+  const btn = document.getElementById('btnAdd');
+  msg.className = '';
+  msg.textContent = '';
+  btn.disabled = true;
+  btn.textContent = 'Registrando…';
+  try {
+    const body = {
+      repo: document.getElementById('inpRepo').value.trim(),
+      name: document.getElementById('inpName').value.trim(),
+      members: '',
+      fetch: true,
+    };
+    const r = await fetch('/api/teams', {
+      method: 'POST',
+      headers: {'Content-Type': 'application/json'},
+      body: JSON.stringify(body),
+    });
+    const data = await r.json();
+    if (!r.ok || !data.ok) throw new Error(data.error || 'Error al registrar');
+    msg.className = 'msg-ok';
+    msg.textContent = data.message + ' Redirigiendo al ranking…';
+    setTimeout(() => { location.href = '/'; }, 1200);
+  } catch (err) {
+    msg.className = 'msg-err';
+    msg.textContent = err.message || String(err);
+    btn.disabled = false;
+    btn.textContent = 'Registrar equipo';
+  }
+});
+
+checkApi();
+</script>
+</body>
+</html>
