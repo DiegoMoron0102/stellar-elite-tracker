@@ -1278,5 +1278,505 @@
     "d": 33
    }
   ]
+ },
+ "a2f8947faa3b92404020db33ae49b8e1a5d60794": {
+  "team": "Emmi",
+  "repo": "emmi-lili/besties-",
+  "author": "emmi-lili",
+  "date": "2026-09-04T20:43:39Z",
+  "message": "first besties commit",
+  "parents": 1,
+  "files": [
+   {
+    "f": ".env.example",
+    "a": 6,
+    "d": 0
+   },
+   {
+    "f": ".gitignore",
+    "a": 4,
+    "d": 0
+   },
+   {
+    "f": "DESIGN.md",
+    "a": 87,
+    "d": 0
+   },
+   {
+    "f": "README.md",
+    "a": 23,
+    "d": 25
+   },
+   {
+    "f": "components.json",
+    "a": 25,
+    "d": 0
+   },
+   {
+    "f": "next.config.ts",
+    "a": 8,
+    "d": 4
+   },
+   {
+    "f": "package-lock.json",
+    "a": 9373,
+    "d": 3579
+   },
+   {
+    "f": "package.json",
+    "a": 23,
+    "d": 4
+   },
+   {
+    "f": "src/actions/auth.ts",
+    "a": 70,
+    "d": 0
+   },
+   {
+    "f": "src/app/(app)/chat/[matchId]/page.tsx",
+    "a": 16,
+    "d": 0
+   },
+   {
+    "f": "src/app/(app)/descubrir/page.tsx",
+    "a": 11,
+    "d": 0
+   },
+   {
+    "f": "src/app/(app)/jugar/[juego]/[sessionId]/page.tsx",
+    "a": 16,
+    "d": 0
+   },
+   {
+    "f": "src/app/(app)/jugar/page.tsx",
+    "a": 11,
+    "d": 0
+   },
+   {
+    "f": "src/app/(app)/layout.tsx",
+    "a": 28,
+    "d": 0
+   },
+   {
+    "f": "src/app/(app)/matches/page.tsx",
+    "a": 11,
+    "d": 0
+   },
+   {
+    "f": "src/app/(app)/perfil/editar/page.tsx",
+    "a": 11,
+    "d": 0
+   },
+   {
+    "f": "src/app/(app)/perfil/page.tsx",
+    "a": 24,
+    "d": 0
+   },
+   {
+    "f": "src/app/(app)/retos/page.tsx",
+    "a": 11,
+    "d": 0
+   },
+   {
+    "f": "src/app/(auth)/layout.tsx",
+    "a": 22,
+    "d": 0
+   },
+   {
+    "f": "src/app/(auth)/login/page.tsx",
+    "a": 37,
+    "d": 0
+   },
+   {
+    "f": "src/app/(auth)/registro/page.tsx",
+    "a": 36,
+    "d": 0
+   },
+   {
+    "f": "src/app/(onboarding)/crear-perfil/[paso]/page.tsx",
+    "a": 16,
+    "d": 0
+   },
+   {
+    "f": "src/app/(onboarding)/crear-perfil/page.tsx",
+    "a": 17,
+    "d": 0
+   },
+   {
+    "f": "src/app/(onboarding)/layout.tsx",
+    "a": 25,
+    "d": 0
+   },
+   {
+    "f": "src/app/globals.css",
+    "a": 177,
+    "d": 15
+   },
+   {
+    "f": "src/app/layout.tsx",
+    "a": 28,
+    "d": 14
+   },
+   {
+    "f": "src/app/page.tsx",
+    "a": 37,
+    "d": 64
+   },
+   {
+    "f": "src/components/auth/login-form.tsx",
+    "a": 74,
+    "d": 0
+   },
+   {
+    "f": "src/components/auth/logout-button.tsx",
+    "a": 24,
+    "d": 0
+   },
+   {
+    "f": "src/components/auth/register-form.tsx",
+    "a": 162,
+    "d": 0
+   },
+   {
+    "f": "src/components/juegos/index.ts",
+    "a": 2,
+    "d": 0
+   },
+   {
+    "f": "src/components/juegos/types.ts",
+    "a": 23,
+    "d": 0
+   },
+   {
+    "f": "src/components/shared/app-nav.tsx",
+    "a": 73,
+    "d": 0
+   },
+   {
+    "f": "src/components/shared/empty-state.tsx",
+    "a": 37,
+    "d": 0
+   },
+   {
+    "f": "src/components/shared/interest-chip.tsx",
+    "a": 45,
+    "d": 0
+   },
+   {
+    "f": "src/components/shared/landing-demo.tsx",
+    "a": 73,
+    "d": 0
+   },
+   {
+    "f": "src/components/shared/phase-placeholder.tsx",
+    "a": 25,
+    "d": 0
+   },
+   {
+    "f": "src/components/ui/avatar.tsx",
+    "a": 111,
+    "d": 0
+   },
+   {
+    "f": "src/components/ui/badge.tsx",
+    "a": 48,
+    "d": 0
+   },
+   {
+    "f": "src/components/ui/button.tsx",
+    "a": 66,
+    "d": 0
+   },
+   {
+    "f": "src/components/ui/dialog.tsx",
+    "a": 168,
+    "d": 0
+   },
+   {
+    "f": "src/components/ui/input.tsx",
+    "a": 18,
+    "d": 0
+   },
+   {
+    "f": "src/components/ui/label.tsx",
+    "a": 23,
+    "d": 0
+   },
+   {
+    "f": "src/components/ui/progress.tsx",
+    "a": 30,
+    "d": 0
+   },
+   {
+    "f": "src/components/ui/separator.tsx",
+    "a": 27,
+    "d": 0
+   },
+   {
+    "f": "src/components/ui/sheet.tsx",
+    "a": 147,
+    "d": 0
+   },
+   {
+    "f": "src/components/ui/slider.tsx",
+    "a": 58,
+    "d": 0
+   },
+   {
+    "f": "src/components/ui/textarea.tsx",
+    "a": 17,
+    "d": 0
+   },
+   {
+    "f": "src/lib/auth/current-user.ts",
+    "a": 28,
+    "d": 0
+   },
+   {
+    "f": "src/lib/auth/password-strength.ts",
+    "a": 21,
+    "d": 0
+   },
+   {
+    "f": "src/lib/auth/password.test.ts",
+    "a": 20,
+    "d": 0
+   },
+   {
+    "f": "src/lib/auth/password.ts",
+    "a": 14,
+    "d": 0
+   },
+   {
+    "f": "src/lib/auth/session.ts",
+    "a": 70,
+    "d": 0
+   },
+   {
+    "f": "src/lib/capsulas/unlock.ts",
+    "a": 56,
+    "d": 0
+   },
+   {
+    "f": "src/lib/constants.ts",
+    "a": 22,
+    "d": 0
+   },
+   {
+    "f": "src/lib/data/index.ts",
+    "a": 18,
+    "d": 0
+   },
+   {
+    "f": "src/lib/data/mock/amistad.ts",
+    "a": 531,
+    "d": 0
+   },
+   {
+    "f": "src/lib/data/mock/catalog.ts",
+    "a": 228,
+    "d": 0
+   },
+   {
+    "f": "src/lib/data/mock/index.ts",
+    "a": 534,
+    "d": 0
+   },
+   {
+    "f": "src/lib/data/mock/seed.test.ts",
+    "a": 22,
+    "d": 0
+   },
+   {
+    "f": "src/lib/data/mock/seed.ts",
+    "a": 358,
+    "d": 0
+   },
+   {
+    "f": "src/lib/data/mock/store.ts",
+    "a": 118,
+    "d": 0
+   },
+   {
+    "f": "src/lib/data/repositories-amistad.ts",
+    "a": 77,
+    "d": 0
+   },
+   {
+    "f": "src/lib/data/repositories.ts",
+    "a": 132,
+    "d": 0
+   },
+   {
+    "f": "src/lib/data/supabase/index.ts",
+    "a": 30,
+    "d": 0
+   },
+   {
+    "f": "src/lib/data/types-amistad.ts",
+    "a": 165,
+    "d": 0
+   },
+   {
+    "f": "src/lib/data/types.ts",
+    "a": 298,
+    "d": 0
+   },
+   {
+    "f": "src/lib/matching/score.ts",
+    "a": 22,
+    "d": 0
+   },
+   {
+    "f": "src/lib/safe-action.ts",
+    "a": 8,
+    "d": 0
+   },
+   {
+    "f": "src/lib/scrapbook/format.ts",
+    "a": 56,
+    "d": 0
+   },
+   {
+    "f": "src/lib/utils.ts",
+    "a": 6,
+    "d": 0
+   },
+   {
+    "f": "src/lib/validations/auth.ts",
+    "a": 28,
+    "d": 0
+   },
+   {
+    "f": "src/lib/validations/index.ts",
+    "a": 2,
+    "d": 0
+   },
+   {
+    "f": "src/types/index.ts",
+    "a": 2,
+    "d": 0
+   },
+   {
+    "f": "supabase/schema.sql",
+    "a": 176,
+    "d": 0
+   },
+   {
+    "f": "tailwind.config.ts",
+    "a": 50,
+    "d": 0
+   },
+   {
+    "f": "vitest.config.ts",
+    "a": 14,
+    "d": 0
+   }
+  ]
+ },
+ "31fd63fa85ad5eba99531e241db634e70ce77783": {
+  "team": "Emmi",
+  "repo": "emmi-lili/besties-",
+  "author": "emmi-lili",
+  "date": "2026-09-04T20:21:35Z",
+  "message": "Initial commit from Create Next App",
+  "parents": 0,
+  "files": [
+   {
+    "f": ".gitignore",
+    "a": 41,
+    "d": 0
+   },
+   {
+    "f": "AGENTS.md",
+    "a": 9,
+    "d": 0
+   },
+   {
+    "f": "CLAUDE.md",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "README.md",
+    "a": 36,
+    "d": 0
+   },
+   {
+    "f": "eslint.config.mjs",
+    "a": 18,
+    "d": 0
+   },
+   {
+    "f": "next.config.ts",
+    "a": 7,
+    "d": 0
+   },
+   {
+    "f": "package-lock.json",
+    "a": 6782,
+    "d": 0
+   },
+   {
+    "f": "package.json",
+    "a": 26,
+    "d": 0
+   },
+   {
+    "f": "postcss.config.mjs",
+    "a": 7,
+    "d": 0
+   },
+   {
+    "f": "public/file.svg",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "public/globe.svg",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "public/next.svg",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "public/vercel.svg",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "public/window.svg",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "src/app/favicon.ico",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "src/app/globals.css",
+    "a": 26,
+    "d": 0
+   },
+   {
+    "f": "src/app/layout.tsx",
+    "a": 29,
+    "d": 0
+   },
+   {
+    "f": "src/app/page.tsx",
+    "a": 69,
+    "d": 0
+   },
+   {
+    "f": "tsconfig.json",
+    "a": 34,
+    "d": 0
+   }
+  ]
  }
 }
