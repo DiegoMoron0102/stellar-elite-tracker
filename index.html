@@ -85,9 +85,6 @@
      background:linear-gradient(90deg,#fff 10%,var(--acc2) 60%,var(--acc) 100%);
      -webkit-background-clip:text;background-clip:text;color:transparent}
   .sub{color:var(--dim);margin:0}
-  .live{display:flex;align-items:center;gap:6px;color:var(--good);font-size:12px;font-weight:600;letter-spacing:.03em;text-transform:uppercase}
-  .live::before{content:'';width:7px;height:7px;border-radius:50%;background:var(--good);box-shadow:0 0 0 0 rgba(0,209,178,.6);animation:pulse 2s infinite}
-  @keyframes pulse{0%{box-shadow:0 0 0 0 rgba(0,209,178,.5)}70%{box-shadow:0 0 0 6px rgba(0,209,178,0)}100%{box-shadow:0 0 0 0 rgba(0,209,178,0)}}
   .stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:14px;margin-bottom:20px}
   .stat{background:linear-gradient(160deg,var(--card),var(--card2));border:1px solid var(--line);border-radius:14px;padding:16px;position:relative;overflow:hidden}
   .stat::after{content:'';position:absolute;inset:0;border-radius:14px;padding:1px;pointer-events:none;
@@ -182,10 +179,7 @@
         <p class="sub" id="sub">Cargando…</p>
       </div>
     </div>
-    <div style="display:flex;align-items:center;gap:14px">
-      <a class="btn-add" href="add.html">+ Agregar equipo</a>
-      <span class="live">en vivo</span>
-    </div>
+    <a class="btn-add" href="add.html">+ Agregar equipo</a>
   </header>
 
   <div class="stats" id="cStats" hidden></div>
