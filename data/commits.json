@@ -1233,5 +1233,50 @@
     "d": 0
    }
   ]
+ },
+ "090a224f48085e31112f3f69f106a88dff5bb041": {
+  "team": "Emmi",
+  "repo": "emmi-lili/besties-",
+  "author": "adyonchain",
+  "date": "2026-09-08T22:01:40Z",
+  "message": "Actualiza la paleta de colores de la app",
+  "parents": 1,
+  "files": [
+   {
+    "f": "DESIGN.md",
+    "a": 5,
+    "d": 4
+   }
+  ]
+ },
+ "b8b9fc6948e34897ee77a457b3d46429511a6e00": {
+  "team": "Emmi",
+  "repo": "emmi-lili/besties-",
+  "author": "adyonchain",
+  "date": "2026-09-08T22:01:00Z",
+  "message": "Actualiza la paleta de colores de la app",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/app/globals.css",
+    "a": 4,
+    "d": 3
+   }
+  ]
+ },
+ "4cc115c223312035e9803f300127e539e9dfb9c3": {
+  "team": "Emmi",
+  "repo": "emmi-lili/besties-",
+  "author": "emmi-lili",
+  "date": "2026-09-04T20:44:20Z",
+  "message": "Update README.md",
+  "parents": 1,
+  "files": [
+   {
+    "f": "README.md",
+    "a": 0,
+    "d": 33
+   }
+  ]
  }
 }
