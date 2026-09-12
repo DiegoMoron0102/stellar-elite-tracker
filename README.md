@@ -5,13 +5,31 @@ en un dashboard estático. Sin servidor, sin base de datos, sin dependencias.
 
 ## Agregar un equipo
 
-Editar `teams.json`:
+Desde la UI (recomendado en local):
+
+```bash
+python serve.py    # dashboard + formulario en http://localhost:8000
+```
+
+En el dashboard, botón **Agregar equipo** → pantalla con link del repo y nombre del equipo (opcional).
+Los miembros se detectan automáticamente desde los contribuidores del repo.
+
+También podés usar el CLI:
+
+```bash
+python add_team.py --repo owner/nombre --members ana,beto --name "Los Astronautas"
+python add_team.py --repo https://github.com/owner/nombre          # members = contribuidores del repo
+python add_team.py --repo owner/nombre --fetch                       # además corre collect + score
+```
+
+También podés editar `teams.json` a mano:
 
 ```json
 {"name": "Los Astronautas", "members": ["ana", "beto"], "repos": ["ana/proyecto-x"]}
 ```
 
 `repos` en formato `owner/nombre`. `members` son handles de GitHub y se usan solo para el ranking per cápita.
+Si el repo ya está registrado, `add_team.py` fusiona miembros nuevos sin duplicar la entrada.
 
 **Los repos de los equipos deben ser públicos.** No le pedimos token a cada participante — el
 sistema lee todo con la API pública de GitHub (o el único `GH_TOKEN` del proyecto, que solo
@@ -26,7 +44,7 @@ log de `collect.py`).
 #         obligatorio si algun repo es privado; sin token son 60 req/hora
 python collect.py              # baja commits nuevos (incremental, cachea por SHA)
 python score.py                # calcula puntajes + tabla por consola
-python -m http.server          # dashboard en http://localhost:8000
+python serve.py                # dashboard + UI para agregar equipos (http://localhost:8000)
 ```
 
 `python score.py --test` corre el self-check de la fórmula.
