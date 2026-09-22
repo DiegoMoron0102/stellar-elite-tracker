@@ -7,7 +7,7 @@ CompraGasolinaBidon: github.com/jjvos19/stellar-build.git
 NodeXchange: https://github.com/RomerTamayo/stellar-build.git
 BolivianPets: https://github.com/GuidoSV7/stellar-build
 MinerTrace: https://github.com/Dante1128/MinerTracer
-BOLAR:
+BOLAR: https://github.com/bolarpay/bolar-app
 StellarFlow: 
 DrinksOnChain: https://github.com/DAVV422/drinks-on-chain-public.git
 Agentx402: https://github.com/ZequerVirus/Stellar-P1
