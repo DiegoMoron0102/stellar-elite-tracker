@@ -1,5 +1,5 @@
 {
- "generado": "2026-09-22T20:06:26+00:00",
+ "generado": "2026-09-22T20:13:50+00:00",
  "programa": "Stellar Elite",
  "start_date": "2026-09-02T00:00:00Z",
  "teams": [
@@ -53,23 +53,6 @@
    "rank": 3
   },
   {
-   "name": "Emmi",
-   "total": 40.66,
-   "per_capita": 20.33,
-   "commits": 5,
-   "pts_commits": 24.66,
-   "dias_activos": 2,
-   "contribuidores": [
-    "adyonchain",
-    "emmi-lili"
-   ],
-   "tamano": 2,
-   "repos": [
-    "emmi-lili/besties-"
-   ],
-   "rank": 4
-  },
-  {
    "name": "BolivianPets",
    "total": 22.09,
    "per_capita": 22.09,
@@ -83,7 +66,7 @@
    "repos": [
     "GuidoSV7/stellar-build"
    ],
-   "rank": 5
+   "rank": 4
   },
   {
    "name": "DrinksOnChain",
@@ -99,7 +82,7 @@
    "repos": [
     "DAVV422/drinks-on-chain-public"
    ],
-   "rank": 6
+   "rank": 5
   },
   {
    "name": "BOLAR",
@@ -115,7 +98,7 @@
    "repos": [
     "bolarpay/bolar-app"
    ],
-   "rank": 7
+   "rank": 6
   },
   {
    "name": "CompraGasolinaBidon",
@@ -131,7 +114,7 @@
    "repos": [
     "jjvos19/stellar-build"
    ],
-   "rank": 8
+   "rank": 7
   },
   {
    "name": "NodeXchange",
@@ -147,7 +130,7 @@
    "repos": [
     "RomerTamayo/stellar-build"
    ],
-   "rank": 9
+   "rank": 8
   },
   {
    "name": "Agentx402",
@@ -163,7 +146,7 @@
    "repos": [
     "ZequerVirus/Stellar-P1"
    ],
-   "rank": 10
+   "rank": 9
   },
   {
    "name": "Impulso Stellar",
@@ -179,7 +162,7 @@
    "repos": [
     "orlando-vazquez-career/stellar-impulse"
    ],
-   "rank": 11
+   "rank": 10
   },
   {
    "name": "GatoPago",
@@ -193,7 +176,7 @@
    "repos": [
     "danelerr/parmelia-links"
    ],
-   "rank": 12
+   "rank": 11
   },
   {
    "name": "Veridia",
@@ -207,7 +190,7 @@
    "repos": [
     "sphinxar/veridia"
    ],
-   "rank": 13
+   "rank": 12
   },
   {
    "name": "MinerTrace",
@@ -221,7 +204,7 @@
    "repos": [
     "Dante1128/MinerTracer"
    ],
-   "rank": 14
+   "rank": 13
   },
   {
    "name": "Stellar Programmable Financial Agreements",
@@ -235,7 +218,7 @@
    "repos": [
     "xXCrIs7xDXx/Stellar-Programmable-Financial-Agreements"
    ],
-   "rank": 15
+   "rank": 14
   },
   {
    "name": "StellarFlow",
@@ -247,7 +230,7 @@
    "contribuidores": [],
    "tamano": 1,
    "repos": [],
-   "rank": 16
+   "rank": 15
   }
  ],
  "serie": {

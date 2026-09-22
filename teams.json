@@ -5,16 +5,6 @@
   "_comment": "Agrega un objeto por equipo. 'repos' en formato owner/nombre. 'members' son handles de GitHub, se usan solo para el ranking per capita.",
   "teams": [
     {
-      "name": "Emmi",
-      "members": [
-        "adyonchain",
-        "emmi-lili"
-      ],
-      "repos": [
-        "emmi-lili/besties-"
-      ]
-    },
-    {
       "name": "Stellar Flash",
       "members": [
         "nadevrix"
