@@ -197,6 +197,17 @@
     </table></div>
   </div>
 
+  <div class="card" id="cTeam" hidden>
+    <div class="actHead">
+      <h2>Ranking del equipo</h2>
+      <select id="fTeamRank"><option value="">Elegí un equipo…</option></select>
+    </div>
+    <div class="scroll"><table>
+      <thead><tr><th class="rank">#</th><th>Miembro</th><th>Puntos</th><th>Commits</th></tr></thead>
+      <tbody id="tTeamRank"></tbody>
+    </table></div>
+  </div>
+
   <div class="card" id="cChart" hidden>
     <h2>Commits por día</h2>
     <canvas id="chart" height="110"></canvas>
@@ -261,7 +272,7 @@ function render(d) {
   document.getElementById('titulo').textContent = d.programa + ' — Ranking de Commits';
   document.getElementById('sub').textContent =
     `Cuenta el desarrollo desde el ${fecha(d.start_date)}. ${d.teams.length} equipos.`;
-  ['cRank','cChart','cAct'].forEach(id => document.getElementById(id).hidden = false);
+  ['cRank','cTeam','cChart','cAct'].forEach(id => document.getElementById(id).hidden = false);
 
   const lider = d.teams[0];
   const stats = [
@@ -339,6 +350,33 @@ function render(d) {
       },
     },
   });
+
+  // ranking interno de un equipo, por miembro
+  const fTeamRank = document.getElementById('fTeamRank');
+  if (fTeamRank.options.length === 1) {
+    fTeamRank.innerHTML += d.teams.map(e => `<option value="${e.name}">${e.name}</option>`).join('');
+  }
+  const rankingEquipo = () => {
+    const nombre = fTeamRank.value;
+    const tbody = document.getElementById('tTeamRank');
+    if (!nombre) { tbody.innerHTML = '<tr><td colspan="4">Elegí un equipo para ver su ranking interno.</td></tr>'; return; }
+    const porAutor = new Map();
+    d.commits.filter(c => c.team === nombre).forEach(c => {
+      const cur = porAutor.get(c.author) || {pts: 0, commits: 0};
+      cur.pts += c.pts; cur.commits += 1;
+      porAutor.set(c.author, cur);
+    });
+    const filas = [...porAutor.entries()].sort((a,b) => b[1].pts - a[1].pts);
+    tbody.innerHTML = filas.map(([autor,v],i) => `
+      <tr class="${v.pts ? '':'zero'}">
+        <td class="rank">${medalla(i)}</td>
+        <td>${autor}</td>
+        <td class="pts">${Math.round(v.pts*100)/100}</td>
+        <td>${v.commits}</td>
+      </tr>`).join('') || '<tr><td colspan="4">Sin commits en este equipo todavía.</td></tr>';
+  };
+  fTeamRank.onchange = rankingEquipo;
+  rankingEquipo();
 
   // filtro por equipo + paginación de la tabla de actividad
   const fEquipo = document.getElementById('fEquipo');
