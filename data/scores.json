@@ -1,5 +1,5 @@
 {
- "generado": "2026-09-22T19:36:20+00:00",
+ "generado": "2026-09-22T19:37:02+00:00",
  "programa": "Stellar Elite",
  "start_date": "2026-09-02T00:00:00Z",
  "teams": [
@@ -53,13 +53,14 @@
   },
   {
    "name": "Puls3",
-   "total": 74.05,
-   "per_capita": 74.05,
-   "commits": 15,
-   "pts_commits": 61.05,
+   "total": 81.63,
+   "per_capita": 81.63,
+   "commits": 16,
+   "pts_commits": 65.63,
    "dias_activos": 2,
    "contribuidores": [
-    "TOMOKI977"
+    "TOMOKI977",
+    "moises-cisneros"
    ],
    "tamano": 1,
    "repos": [
@@ -281,7 +282,7 @@
   },
   "Puls3": {
    "2026-09-13": 8.67,
-   "2026-09-22": 52.379999999999995
+   "2026-09-22": 56.959999999999994
   },
   "Tinkazo": {
    "2026-09-16": 66.21000000000001,
@@ -328,7 +329,7 @@
   },
   "Puls3": {
    "2026-09-13": 1,
-   "2026-09-22": 14
+   "2026-09-22": 15
   },
   "Tinkazo": {
    "2026-09-16": 8,
@@ -356,6 +357,16 @@
   }
  },
  "commits": [
+  {
+   "sha": "631d847",
+   "team": "Puls3",
+   "repo": "Zer0-Knowledge-Hack/puls3",
+   "author": "moises-cisneros",
+   "date": "2026-09-22T19:35:11Z",
+   "msg": "docs: add Stellar Odyssey hackathon documentation",
+   "pts": 4.58,
+   "nota": ""
+  },
   {
    "sha": "28bb486",
    "team": "Impulso Stellar",
