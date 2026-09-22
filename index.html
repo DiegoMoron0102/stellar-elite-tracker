@@ -5,6 +5,8 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Stellar Elite — Ranking de Commits</title>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/jspdf@2.5.2/dist/jspdf.umd.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/jspdf-autotable@3.8.4/dist/jspdf.plugin.autotable.min.js"></script>
 <style>
   :root{
     --bg:#000000;--card:#0a0a0d;--card2:#0e0e13;--line:#1c1c24;--line2:#2a2a36;
@@ -153,11 +155,6 @@
   .btn-add:hover{opacity:.92}
   .btn-pdf{background:transparent;border:1px solid var(--line2);color:var(--fg)}
   .btn-pdf:hover{border-color:var(--acc)}
-  @media print{
-    .stars,.stars2,.shootbox,.glow,.btn-add,.btn-pdf,.tabs,#fEquipo,#fTeamRank,.pager{display:none!important}
-    body{background:#000}
-    .card{break-inside:avoid}
-  }
 </style>
 </head>
 <body>
@@ -248,10 +245,41 @@ const fecha = s => new Date(s).toLocaleDateString('es', {day:'2-digit', month:'s
 
 let chart = null;
 let pagina = 0;
-let imprimiendo = false;
-let tablaActRef = () => {};
-window.addEventListener('beforeprint', () => { imprimiendo = true; tablaActRef(); });
-window.addEventListener('afterprint', () => { imprimiendo = false; tablaActRef(); });
+
+function generarInformePDF(d) {
+  const { jsPDF } = window.jspdf;
+  const doc = new jsPDF();
+  const lider = d.teams[0];
+  const totalCommits = d.teams.reduce((s,e) => s + e.commits, 0);
+
+  doc.setFontSize(20);
+  doc.text(d.programa, 14, 20);
+  doc.setFontSize(11);
+  doc.setTextColor(100);
+  doc.text('Informe de resultados y estadísticas', 14, 27);
+  doc.text(`Generado: ${new Date(d.generado).toLocaleString('es')}  ·  Cuenta desde: ${fecha(d.start_date)}`, 14, 33);
+
+  doc.autoTable({
+    startY: 40,
+    theme: 'plain',
+    styles: { fontSize: 10, halign: 'center' },
+    body: [[
+      `${d.teams.length} equipos`, `${totalCommits} commits totales`,
+      `Líder: ${lider ? lider.name : '—'}`, `${lider ? lider.total : 0} puntos`,
+    ]],
+  });
+
+  doc.autoTable({
+    head: [['#', 'Equipo', 'Puntos', 'Pts/persona', 'Commits', 'Días activos', 'Devs']],
+    body: [...d.teams].sort((a,b) => b.total - a.total)
+      .map((e,i) => [i+1, e.name, e.total, e.per_capita, e.commits, e.dias_activos, e.tamano]),
+    startY: doc.lastAutoTable.finalY + 8,
+    headStyles: { fillColor: [125, 63, 255] },
+    styles: { fontSize: 9 },
+  });
+
+  doc.save(`${d.programa.replace(/\s+/g, '_')}_informe.pdf`);
+}
 
 // paralaje del starfield + resplandor que sigue al cursor
 let rafPend = false;
@@ -284,8 +312,7 @@ setInterval(cargar, 60000); // dashboard se refresca solo, sin recargar la pági
 
 function render(d) {
   document.getElementById('titulo').textContent = d.programa + ' — Ranking de Commits';
-  document.title = `${d.programa} — Informe ${new Date(d.generado).toLocaleDateString('es')}`;
-  document.getElementById('btnPdf').onclick = () => window.print();
+  document.getElementById('btnPdf').onclick = () => generarInformePDF(d);
   document.getElementById('sub').textContent =
     `Cuenta el desarrollo desde el ${fecha(d.start_date)}. ${d.teams.length} equipos.`;
   ['cRank','cTeam','cChart','cAct'].forEach(id => document.getElementById(id).hidden = false);
@@ -407,7 +434,7 @@ function render(d) {
     const lista = filtrados();
     const totalPag = Math.max(1, Math.ceil(lista.length / POR_PAGINA));
     pagina = Math.min(pagina, totalPag - 1);
-    const pag = imprimiendo ? lista : lista.slice(pagina * POR_PAGINA, pagina * POR_PAGINA + POR_PAGINA);
+    const pag = lista.slice(pagina * POR_PAGINA, pagina * POR_PAGINA + POR_PAGINA);
 
     document.getElementById('tAct').innerHTML = pag.map(c => `
       <tr class="${c.pts ? '':'zero'}">
@@ -420,7 +447,6 @@ function render(d) {
     document.getElementById('pPrev').disabled = pagina === 0;
     document.getElementById('pNext').disabled = pagina >= totalPag - 1;
   };
-  tablaActRef = tablaAct;
   fEquipo.onchange = () => { pagina = 0; tablaAct(); };
   document.getElementById('pPrev').onclick = () => { pagina--; tablaAct(); };
   document.getElementById('pNext').onclick = () => { pagina++; tablaAct(); };
