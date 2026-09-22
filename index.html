@@ -151,6 +151,13 @@
   code{background:#ffffff10;padding:2px 6px;border-radius:4px}
   .btn-add{background:linear-gradient(90deg,var(--acc),var(--acc2));border:none;color:#fff;padding:10px 16px;border-radius:8px;cursor:pointer;font:inherit;font-weight:600;text-decoration:none;font-size:13px;white-space:nowrap}
   .btn-add:hover{opacity:.92}
+  .btn-pdf{background:transparent;border:1px solid var(--line2);color:var(--fg)}
+  .btn-pdf:hover{border-color:var(--acc)}
+  @media print{
+    .stars,.stars2,.shootbox,.glow,.btn-add,.btn-pdf,.tabs,#fEquipo,#fTeamRank,.pager{display:none!important}
+    body{background:#000}
+    .card{break-inside:avoid}
+  }
 </style>
 </head>
 <body>
@@ -179,7 +186,10 @@
         <p class="sub" id="sub">Cargando…</p>
       </div>
     </div>
-    <a class="btn-add" href="add.html">+ Agregar equipo</a>
+    <div style="display:flex;gap:10px">
+      <button class="btn-add btn-pdf" id="btnPdf">Descargar informe (PDF)</button>
+      <a class="btn-add" href="add.html">+ Agregar equipo</a>
+    </div>
   </header>
 
   <div class="stats" id="cStats" hidden></div>
@@ -238,6 +248,10 @@ const fecha = s => new Date(s).toLocaleDateString('es', {day:'2-digit', month:'s
 
 let chart = null;
 let pagina = 0;
+let imprimiendo = false;
+let tablaActRef = () => {};
+window.addEventListener('beforeprint', () => { imprimiendo = true; tablaActRef(); });
+window.addEventListener('afterprint', () => { imprimiendo = false; tablaActRef(); });
 
 // paralaje del starfield + resplandor que sigue al cursor
 let rafPend = false;
@@ -270,6 +284,8 @@ setInterval(cargar, 60000); // dashboard se refresca solo, sin recargar la pági
 
 function render(d) {
   document.getElementById('titulo').textContent = d.programa + ' — Ranking de Commits';
+  document.title = `${d.programa} — Informe ${new Date(d.generado).toLocaleDateString('es')}`;
+  document.getElementById('btnPdf').onclick = () => window.print();
   document.getElementById('sub').textContent =
     `Cuenta el desarrollo desde el ${fecha(d.start_date)}. ${d.teams.length} equipos.`;
   ['cRank','cTeam','cChart','cAct'].forEach(id => document.getElementById(id).hidden = false);
@@ -391,7 +407,7 @@ function render(d) {
     const lista = filtrados();
     const totalPag = Math.max(1, Math.ceil(lista.length / POR_PAGINA));
     pagina = Math.min(pagina, totalPag - 1);
-    const pag = lista.slice(pagina * POR_PAGINA, pagina * POR_PAGINA + POR_PAGINA);
+    const pag = imprimiendo ? lista : lista.slice(pagina * POR_PAGINA, pagina * POR_PAGINA + POR_PAGINA);
 
     document.getElementById('tAct').innerHTML = pag.map(c => `
       <tr class="${c.pts ? '':'zero'}">
@@ -404,6 +420,7 @@ function render(d) {
     document.getElementById('pPrev').disabled = pagina === 0;
     document.getElementById('pNext').disabled = pagina >= totalPag - 1;
   };
+  tablaActRef = tablaAct;
   fEquipo.onchange = () => { pagina = 0; tablaAct(); };
   document.getElementById('pPrev').onclick = () => { pagina--; tablaAct(); };
   document.getElementById('pNext').onclick = () => { pagina++; tablaAct(); };
