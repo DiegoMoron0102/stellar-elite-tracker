@@ -30,6 +30,8 @@ def get(url):
     })
     try:
         with urllib.request.urlopen(req, timeout=30) as r:
+            if r.status == 204:
+                return [], r.headers
             return json.load(r), r.headers
     except urllib.error.HTTPError as e:
         if e.code in (403, 429) and e.headers.get("X-RateLimit-Remaining") == "0":

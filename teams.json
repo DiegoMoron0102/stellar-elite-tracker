@@ -22,6 +22,133 @@
       "repos": [
         "emmi-lili/besties-"
       ]
+    },
+    {
+      "name": "Stellar Flash",
+      "members": [
+        "nadevrix"
+      ],
+      "repos": [
+        "nadevrix/stellar-flash"
+      ]
+    },
+    {
+      "name": "GatoPago",
+      "members": [
+        "danelerr"
+      ],
+      "repos": [
+        "danelerr/parmelia-links"
+      ]
+    },
+    {
+      "name": "Puls3",
+      "members": [
+        "TOMOKI977"
+      ],
+      "repos": [
+        "Zer0-Knowledge-Hack/puls3"
+      ]
+    },
+    {
+      "name": "Veridia",
+      "members": [
+        "sphinxar"
+      ],
+      "repos": [
+        "sphinxar/veridia"
+      ]
+    },
+    {
+      "name": "Tinkazo",
+      "members": [
+        "nema1502"
+      ],
+      "repos": [
+        "nema1502/tinkazo"
+      ]
+    },
+    {
+      "name": "CompraGasolinaBidon",
+      "members": [
+        "jjvos19"
+      ],
+      "repos": [
+        "jjvos19/stellar-build"
+      ]
+    },
+    {
+      "name": "NodeXchange",
+      "members": [
+        "RomerTamayo"
+      ],
+      "repos": [
+        "RomerTamayo/stellar-build"
+      ]
+    },
+    {
+      "name": "BolivianPets",
+      "members": [
+        "GuidoSV7"
+      ],
+      "repos": [
+        "GuidoSV7/stellar-build"
+      ]
+    },
+    {
+      "name": "DrinksOnChain",
+      "members": [
+        "DAVV422"
+      ],
+      "repos": [
+        "DAVV422/drinks-on-chain-public"
+      ]
+    },
+    {
+      "name": "Agentx402",
+      "members": [
+        "ZequerVirus"
+      ],
+      "repos": [
+        "ZequerVirus/Stellar-P1"
+      ]
+    },
+    {
+      "name": "MinerTrace",
+      "members": [
+        "Dante1128"
+      ],
+      "repos": [
+        "Dante1128/MinerTracer"
+      ]
+    },
+    {
+      "name": "Impulso Stellar",
+      "members": [
+        "orlando-vazquez-career"
+      ],
+      "repos": [
+        "orlando-vazquez-career/stellar-impulse"
+      ]
+    },
+    {
+      "name": "Stellar Programmable Financial Agreements",
+      "members": [
+        "xXCrIs7xDXx"
+      ],
+      "repos": [
+        "xXCrIs7xDXx/Stellar-Programmable-Financial-Agreements"
+      ]
+    },
+    {
+      "name": "BOLAR",
+      "members": [],
+      "repos": []
+    },
+    {
+      "name": "StellarFlow",
+      "members": [],
+      "repos": []
     }
   ]
 }

@@ -1,8 +1,40 @@
 {
- "generado": "2026-09-22T15:57:39+00:00",
+ "generado": "2026-09-22T19:36:20+00:00",
  "programa": "Stellar Elite",
  "start_date": "2026-09-02T00:00:00Z",
  "teams": [
+  {
+   "name": "Tinkazo",
+   "total": 470.85,
+   "per_capita": 470.85,
+   "commits": 55,
+   "pts_commits": 452.85,
+   "dias_activos": 3,
+   "contribuidores": [
+    "nema1502"
+   ],
+   "tamano": 1,
+   "repos": [
+    "nema1502/tinkazo"
+   ],
+   "rank": 1
+  },
+  {
+   "name": "Stellar Flash",
+   "total": 267.92,
+   "per_capita": 267.92,
+   "commits": 34,
+   "pts_commits": 244.92,
+   "dias_activos": 4,
+   "contribuidores": [
+    "nadevrix"
+   ],
+   "tamano": 1,
+   "repos": [
+    "nadevrix/stellar-flash"
+   ],
+   "rank": 2
+  },
   {
    "name": "Prueba - Diego",
    "total": 210.42,
@@ -17,7 +49,23 @@
    "repos": [
     "DiegoMoron0102/sistema-contenido-uce"
    ],
-   "rank": 1
+   "rank": 3
+  },
+  {
+   "name": "Puls3",
+   "total": 74.05,
+   "per_capita": 74.05,
+   "commits": 15,
+   "pts_commits": 61.05,
+   "dias_activos": 2,
+   "contribuidores": [
+    "TOMOKI977"
+   ],
+   "tamano": 1,
+   "repos": [
+    "Zer0-Knowledge-Hack/puls3"
+   ],
+   "rank": 4
   },
   {
    "name": "Emmi",
@@ -34,7 +82,183 @@
    "repos": [
     "emmi-lili/besties-"
    ],
-   "rank": 2
+   "rank": 5
+  },
+  {
+   "name": "BolivianPets",
+   "total": 22.09,
+   "per_capita": 22.09,
+   "commits": 5,
+   "pts_commits": 9.09,
+   "dias_activos": 2,
+   "contribuidores": [
+    "GuidoSV7"
+   ],
+   "tamano": 1,
+   "repos": [
+    "GuidoSV7/stellar-build"
+   ],
+   "rank": 6
+  },
+  {
+   "name": "DrinksOnChain",
+   "total": 18.0,
+   "per_capita": 18.0,
+   "commits": 1,
+   "pts_commits": 10.0,
+   "dias_activos": 1,
+   "contribuidores": [
+    "DAVV422"
+   ],
+   "tamano": 1,
+   "repos": [
+    "DAVV422/drinks-on-chain-public"
+   ],
+   "rank": 7
+  },
+  {
+   "name": "CompraGasolinaBidon",
+   "total": 9.0,
+   "per_capita": 9.0,
+   "commits": 1,
+   "pts_commits": 1.0,
+   "dias_activos": 1,
+   "contribuidores": [
+    "jjvos19"
+   ],
+   "tamano": 1,
+   "repos": [
+    "jjvos19/stellar-build"
+   ],
+   "rank": 8
+  },
+  {
+   "name": "NodeXchange",
+   "total": 9.0,
+   "per_capita": 9.0,
+   "commits": 1,
+   "pts_commits": 1.0,
+   "dias_activos": 1,
+   "contribuidores": [
+    "RomerTamayo"
+   ],
+   "tamano": 1,
+   "repos": [
+    "RomerTamayo/stellar-build"
+   ],
+   "rank": 9
+  },
+  {
+   "name": "Agentx402",
+   "total": 9.0,
+   "per_capita": 9.0,
+   "commits": 1,
+   "pts_commits": 1.0,
+   "dias_activos": 1,
+   "contribuidores": [
+    "ZequerVirus"
+   ],
+   "tamano": 1,
+   "repos": [
+    "ZequerVirus/Stellar-P1"
+   ],
+   "rank": 10
+  },
+  {
+   "name": "Impulso Stellar",
+   "total": 9.0,
+   "per_capita": 9.0,
+   "commits": 1,
+   "pts_commits": 1.0,
+   "dias_activos": 1,
+   "contribuidores": [
+    "orlando-vazquez-career"
+   ],
+   "tamano": 1,
+   "repos": [
+    "orlando-vazquez-career/stellar-impulse"
+   ],
+   "rank": 11
+  },
+  {
+   "name": "GatoPago",
+   "total": 0.0,
+   "per_capita": 0.0,
+   "commits": 0,
+   "pts_commits": 0.0,
+   "dias_activos": 0,
+   "contribuidores": [],
+   "tamano": 1,
+   "repos": [
+    "danelerr/parmelia-links"
+   ],
+   "rank": 12
+  },
+  {
+   "name": "Veridia",
+   "total": 0.0,
+   "per_capita": 0.0,
+   "commits": 0,
+   "pts_commits": 0.0,
+   "dias_activos": 0,
+   "contribuidores": [],
+   "tamano": 1,
+   "repos": [
+    "sphinxar/veridia"
+   ],
+   "rank": 13
+  },
+  {
+   "name": "MinerTrace",
+   "total": 0.0,
+   "per_capita": 0.0,
+   "commits": 0,
+   "pts_commits": 0.0,
+   "dias_activos": 0,
+   "contribuidores": [],
+   "tamano": 1,
+   "repos": [
+    "Dante1128/MinerTracer"
+   ],
+   "rank": 14
+  },
+  {
+   "name": "Stellar Programmable Financial Agreements",
+   "total": 0.0,
+   "per_capita": 0.0,
+   "commits": 0,
+   "pts_commits": 0.0,
+   "dias_activos": 0,
+   "contribuidores": [],
+   "tamano": 1,
+   "repos": [
+    "xXCrIs7xDXx/Stellar-Programmable-Financial-Agreements"
+   ],
+   "rank": 15
+  },
+  {
+   "name": "BOLAR",
+   "total": 0.0,
+   "per_capita": 0.0,
+   "commits": 0,
+   "pts_commits": 0.0,
+   "dias_activos": 0,
+   "contribuidores": [],
+   "tamano": 1,
+   "repos": [],
+   "rank": 16
+  },
+  {
+   "name": "StellarFlow",
+   "total": 0.0,
+   "per_capita": 0.0,
+   "commits": 0,
+   "pts_commits": 0.0,
+   "dias_activos": 0,
+   "contribuidores": [],
+   "tamano": 1,
+   "repos": [],
+   "rank": 17
   }
  ],
  "serie": {
@@ -48,6 +272,40 @@
   "Emmi": {
    "2026-09-04": 16.34,
    "2026-09-08": 8.32
+  },
+  "Stellar Flash": {
+   "2026-09-05": 108.41,
+   "2026-09-06": 53.379999999999995,
+   "2026-09-07": 36.61,
+   "2026-09-09": 46.519999999999996
+  },
+  "Puls3": {
+   "2026-09-13": 8.67,
+   "2026-09-22": 52.379999999999995
+  },
+  "Tinkazo": {
+   "2026-09-16": 66.21000000000001,
+   "2026-09-20": 347.67,
+   "2026-09-21": 38.97
+  },
+  "CompraGasolinaBidon": {
+   "2026-09-06": 1.0
+  },
+  "NodeXchange": {
+   "2026-09-05": 1.0
+  },
+  "BolivianPets": {
+   "2026-09-04": 1.0,
+   "2026-09-13": 8.09
+  },
+  "DrinksOnChain": {
+   "2026-09-14": 10.0
+  },
+  "Agentx402": {
+   "2026-09-07": 1.0
+  },
+  "Impulso Stellar": {
+   "2026-09-22": 1.0
   }
  },
  "serie_commits": {
@@ -61,9 +319,863 @@
   "Emmi": {
    "2026-09-04": 3,
    "2026-09-08": 2
+  },
+  "Stellar Flash": {
+   "2026-09-05": 16,
+   "2026-09-06": 7,
+   "2026-09-07": 5,
+   "2026-09-09": 6
+  },
+  "Puls3": {
+   "2026-09-13": 1,
+   "2026-09-22": 14
+  },
+  "Tinkazo": {
+   "2026-09-16": 8,
+   "2026-09-20": 43,
+   "2026-09-21": 4
+  },
+  "CompraGasolinaBidon": {
+   "2026-09-06": 1
+  },
+  "NodeXchange": {
+   "2026-09-05": 1
+  },
+  "BolivianPets": {
+   "2026-09-04": 1,
+   "2026-09-13": 4
+  },
+  "DrinksOnChain": {
+   "2026-09-14": 1
+  },
+  "Agentx402": {
+   "2026-09-07": 1
+  },
+  "Impulso Stellar": {
+   "2026-09-22": 1
   }
  },
  "commits": [
+  {
+   "sha": "28bb486",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "orlando-vazquez-career",
+   "date": "2026-09-22T17:19:33Z",
+   "msg": "feat: inicializar monorepo de Impulso Stellar",
+   "pts": 1.0,
+   "nota": "import masivo (75 archivos)"
+  },
+  {
+   "sha": "4a558e9",
+   "team": "Puls3",
+   "repo": "Zer0-Knowledge-Hack/puls3",
+   "author": "TOMOKI977",
+   "date": "2026-09-22T09:03:36Z",
+   "msg": "docs: link live demo in README",
+   "pts": 3.81,
+   "nota": ""
+  },
+  {
+   "sha": "ddcf136",
+   "team": "Puls3",
+   "repo": "Zer0-Knowledge-Hack/puls3",
+   "author": "TOMOKI977",
+   "date": "2026-09-22T08:44:55Z",
+   "msg": "Merge #40: README, CONTRIBUTING and local secrets setup",
+   "pts": 0.0,
+   "nota": "merge"
+  },
+  {
+   "sha": "8a20516",
+   "team": "Puls3",
+   "repo": "Zer0-Knowledge-Hack/puls3",
+   "author": "TOMOKI977",
+   "date": "2026-09-22T08:43:00Z",
+   "msg": "Merge #39: clickable demo shell with puls3 brand",
+   "pts": 0.0,
+   "nota": "merge"
+  },
+  {
+   "sha": "b56d344",
+   "team": "Puls3",
+   "repo": "Zer0-Knowledge-Hack/puls3",
+   "author": "TOMOKI977",
+   "date": "2026-09-22T08:42:56Z",
+   "msg": "Merge #38: puls3 brand guide, logo and design tokens",
+   "pts": 0.0,
+   "nota": "merge"
+  },
+  {
+   "sha": "ab5739c",
+   "team": "Puls3",
+   "repo": "Zer0-Knowledge-Hack/puls3",
+   "author": "TOMOKI977",
+   "date": "2026-09-22T08:39:13Z",
+   "msg": "docs: rewrite README and add CONTRIBUTING guide",
+   "pts": 9.39,
+   "nota": ""
+  },
+  {
+   "sha": "f0e964f",
+   "team": "Puls3",
+   "repo": "Zer0-Knowledge-Hack/puls3",
+   "author": "TOMOKI977",
+   "date": "2026-09-22T08:39:13Z",
+   "msg": "chore(server): template local secrets for Docker and Serverpod",
+   "pts": 8.28,
+   "nota": ""
+  },
+  {
+   "sha": "fa52b40",
+   "team": "Puls3",
+   "repo": "Zer0-Knowledge-Hack/puls3",
+   "author": "TOMOKI977",
+   "date": "2026-09-22T08:30:56Z",
+   "msg": "ci: pin Flutter 3.41.4 to match the local toolchain",
+   "pts": 3.32,
+   "nota": ""
+  },
+  {
+   "sha": "6aa6cea",
+   "team": "Puls3",
+   "repo": "Zer0-Knowledge-Hack/puls3",
+   "author": "TOMOKI977",
+   "date": "2026-09-22T08:29:10Z",
+   "msg": "refactor: move serverpod workspace to repository root",
+   "pts": 1.0,
+   "nota": "import masivo (200 archivos)"
+  },
+  {
+   "sha": "782c0e3",
+   "team": "Puls3",
+   "repo": "Zer0-Knowledge-Hack/puls3",
+   "author": "TOMOKI977",
+   "date": "2026-09-22T08:14:19Z",
+   "msg": "docs(brand): add puls3 brand guide, assets and design tokens",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "2eac1a8",
+   "team": "Puls3",
+   "repo": "Zer0-Knowledge-Hack/puls3",
+   "author": "TOMOKI977",
+   "date": "2026-09-22T08:14:18Z",
+   "msg": "chore(design): add Remotion logo lab",
+   "pts": 1.0,
+   "nota": "import masivo (62 archivos)"
+  },
+  {
+   "sha": "39d51b5",
+   "team": "Puls3",
+   "repo": "Zer0-Knowledge-Hack/puls3",
+   "author": "TOMOKI977",
+   "date": "2026-09-22T08:14:10Z",
+   "msg": "chore: ignore generated files with local database passwords",
+   "pts": 3.58,
+   "nota": ""
+  },
+  {
+   "sha": "6c1eb94",
+   "team": "Puls3",
+   "repo": "Zer0-Knowledge-Hack/puls3",
+   "author": "TOMOKI977",
+   "date": "2026-09-22T08:10:44Z",
+   "msg": "feat(app): apply puls3 brand identity",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "8ecf5f4",
+   "team": "Puls3",
+   "repo": "Zer0-Knowledge-Hack/puls3",
+   "author": "TOMOKI977",
+   "date": "2026-09-22T05:15:49Z",
+   "msg": "feat(app): add demo shell screens",
+   "pts": 1.0,
+   "nota": "import masivo (58 archivos)"
+  },
+  {
+   "sha": "8bd23dc",
+   "team": "Puls3",
+   "repo": "Zer0-Knowledge-Hack/puls3",
+   "author": "TOMOKI977",
+   "date": "2026-09-22T04:56:41Z",
+   "msg": "chore: generate serverpod project",
+   "pts": 1.0,
+   "nota": "import masivo (149 archivos)"
+  },
+  {
+   "sha": "8a93115",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-09-21T02:22:49Z",
+   "msg": "Los auditores miran el celular, escuchan la voz y dejaron de sonar",
+   "pts": 8.97,
+   "nota": ""
+  },
+  {
+   "sha": "a5d772b",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-09-21T02:22:41Z",
+   "msg": "El show dura lo que elegiste, se ve en un celular y la espera por fin está en escena",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "357b0de",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-09-21T01:12:44Z",
+   "msg": "Las miniaturas, el selector y la cabecera en un celular",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "6dfcf90",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-09-21T01:12:37Z",
+   "msg": "Los juegos: un cuelgue, un golpe que sonaba catorce veces y dos ganadores anunciados como uno",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "adaf9ec",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-09-20T14:17:41Z",
+   "msg": "La cabecera: la foto que no cargaba y el nombre cortado",
+   "pts": 5.0,
+   "nota": ""
+  },
+  {
+   "sha": "da8fb1c",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-09-20T14:09:59Z",
+   "msg": "Tu cuenta, todo en un panel",
+   "pts": 9.07,
+   "nota": ""
+  },
+  {
+   "sha": "c0459d2",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-09-20T14:05:16Z",
+   "msg": "Precios a su propia página, miniaturas en los juegos y el pie con la bandera",
+   "pts": 9.41,
+   "nota": ""
+  },
+  {
+   "sha": "ea9c6e0",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-09-20T13:58:14Z",
+   "msg": "El sorteo anclado ya no falla la primera vez",
+   "pts": 8.83,
+   "nota": ""
+  },
+  {
+   "sha": "af98512",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-09-20T13:36:58Z",
+   "msg": "El comprobante se sostiene solo, y testnet tiene fecha de vencimiento",
+   "pts": 7.94,
+   "nota": ""
+  },
+  {
+   "sha": "3ab812a",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-09-20T13:34:59Z",
+   "msg": "Sin guiones largos, el audio afinado, y el historial",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "8b15b7c",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-09-20T13:15:44Z",
+   "msg": "Se entra con cuenta, la bandera estaba mal y el show ahora dura lo que quieras",
+   "pts": 9.05,
+   "nota": ""
+  },
+  {
+   "sha": "0102a1c",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-09-20T12:44:44Z",
+   "msg": "El grifo aparece al conectar, no más abajo en la página",
+   "pts": 6.64,
+   "nota": ""
+  },
+  {
+   "sha": "62ee03e",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-09-20T12:42:15Z",
+   "msg": "El grifo: una cuenta nueva ya no se queda trabada",
+   "pts": 9.37,
+   "nota": ""
+  },
+  {
+   "sha": "a3791c7",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-09-20T10:58:00Z",
+   "msg": "Lo que encontró el control de calidad",
+   "pts": 8.77,
+   "nota": ""
+  },
+  {
+   "sha": "76c3096",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-09-20T10:45:07Z",
+   "msg": "La verificación ahora muestra los otros sellos del organizador",
+   "pts": 9.05,
+   "nota": ""
+  },
+  {
+   "sha": "e0b6241",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-09-20T10:41:36Z",
+   "msg": "Los avatares dejan de mandar cada nombre a un servicio externo",
+   "pts": 9.72,
+   "nota": ""
+  },
+  {
+   "sha": "7b17b52",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-09-20T10:36:40Z",
+   "msg": "El QR del comprobante deja de mandar los nombres a un tercero",
+   "pts": 8.92,
+   "nota": ""
+  },
+  {
+   "sha": "118a628",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-09-20T10:29:43Z",
+   "msg": "Comprobación previa a mainnet, para no llegar a ese paso de memoria",
+   "pts": 8.9,
+   "nota": ""
+  },
+  {
+   "sha": "94ee376",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-09-20T10:26:40Z",
+   "msg": "PRD y mapa de cobertura al día: catálogo de juegos, narrador, tarjeta que enseña y selección de columna",
+   "pts": 5.25,
+   "nota": ""
+  },
+  {
+   "sha": "27d7eb4",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-09-20T10:25:26Z",
+   "msg": "Sombra dura en los chips, animaciones reducidas y el aviso de voz",
+   "pts": 7.69,
+   "nota": ""
+  },
+  {
+   "sha": "df995d9",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-09-20T10:21:28Z",
+   "msg": "Arquitectura al día: la capa de juegos, el narrador y las dos reglas que valen para los seis",
+   "pts": 5.81,
+   "nota": ""
+  },
+  {
+   "sha": "20a8885",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-09-20T10:20:51Z",
+   "msg": "La integración continua comprueba que las fuentes de las tarjetas sigan vivas",
+   "pts": 7.55,
+   "nota": ""
+  },
+  {
+   "sha": "5cb81b4",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-09-20T10:19:57Z",
+   "msg": "Guía de marca: la paleta con los contrastes medidos, cómo se escribe y qué no va",
+   "pts": 8.67,
+   "nota": ""
+  },
+  {
+   "sha": "da1cab5",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-09-20T10:17:42Z",
+   "msg": "Pasanaku: el sorteo que en Bolivia ya existía",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "872faf2",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-09-20T10:05:36Z",
+   "msg": "La ruleta, de nuevo: con dos personas ahora se ve girar",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "d3fb0d0",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-09-20T09:59:43Z",
+   "msg": "Los juegos ahora enseñan algo",
+   "pts": 9.24,
+   "nota": ""
+  },
+  {
+   "sha": "67f7e72",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-09-20T09:53:28Z",
+   "msg": "El narrador ahora habla, y la espera baja a diez segundos",
+   "pts": 9.64,
+   "nota": ""
+  },
+  {
+   "sha": "ef0c7ab",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-09-20T09:47:07Z",
+   "msg": "README al día: cinco juegos, no tres",
+   "pts": 5.64,
+   "nota": ""
+  },
+  {
+   "sha": "d777236",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-09-20T09:46:42Z",
+   "msg": "Accesibilidad: lo que quedaba de la auditoría",
+   "pts": 7.54,
+   "nota": ""
+  },
+  {
+   "sha": "4199655",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-09-20T09:43:18Z",
+   "msg": "Cierre de Libro: que se vea lo que pasa",
+   "pts": 9.02,
+   "nota": ""
+  },
+  {
+   "sha": "81b860b",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-09-20T09:38:53Z",
+   "msg": "Dos juegos nuevos y la Carrera Stellar deja de ser un reskin",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "1a625bd",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-09-20T09:17:54Z",
+   "msg": "Lo que la auditoría de UX encontró roto",
+   "pts": 7.99,
+   "nota": ""
+  },
+  {
+   "sha": "14e6faf",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-09-20T09:12:18Z",
+   "msg": "CSV de verdad y una verificación que no miente",
+   "pts": 9.7,
+   "nota": ""
+  },
+  {
+   "sha": "8d79f2f",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-09-20T09:03:57Z",
+   "msg": "README al día: ya no es un demo, es un producto corriendo en testnet",
+   "pts": 7.89,
+   "nota": ""
+  },
+  {
+   "sha": "cd89096",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-09-20T08:59:10Z",
+   "msg": "Redespliegue: tomar VITE_POLLAR_PUBLISHABLE_KEY del entorno de Vercel",
+   "pts": 0.0,
+   "nota": "solo archivos generados"
+  },
+  {
+   "sha": "a42af08",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-09-20T08:54:45Z",
+   "msg": "Entrar con Google, y sin el relayer que creíamos necesario (historia 6.2)",
+   "pts": 9.06,
+   "nota": ""
+  },
+  {
+   "sha": "0591517",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-09-20T08:31:37Z",
+   "msg": "Finalizar un sorteo pendiente desde la verificación, y el costo antes de firmar",
+   "pts": 7.83,
+   "nota": ""
+  },
+  {
+   "sha": "db4b64d",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-09-20T08:28:30Z",
+   "msg": "La carrera ya no revela al ganador a mitad de camino (historia 7.5)",
+   "pts": 6.93,
+   "nota": ""
+  },
+  {
+   "sha": "909ea2b",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-09-20T08:23:17Z",
+   "msg": "Comprobante y página de verificación pública (épica 4, historias 2.4, 4.1 y 4.3)",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "1530795",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-09-20T08:15:56Z",
+   "msg": "Anclaje de punta a punta desde la interfaz y copy con voz propia (historias 3.2, 3.3 y 3.4)",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "168e17a",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-09-20T03:02:11Z",
+   "msg": "Login del organizador: conectar Freighter o una cuenta de prueba de testnet (historias 3.1 y 3.5)",
+   "pts": 9.32,
+   "nota": ""
+  },
+  {
+   "sha": "3ca76d6",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-09-20T02:53:55Z",
+   "msg": "Carrera Stellar: cohetes en el espacio, y un auditor que corre en cada juego nuevo",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "9652560",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-09-20T02:44:52Z",
+   "msg": "Avisar al ganador por WhatsApp o correo, sin servidor ni base de datos",
+   "pts": 6.73,
+   "nota": ""
+  },
+  {
+   "sha": "aedd073",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-09-20T02:39:34Z",
+   "msg": "Capa de Stellar: configuración de red, adaptador de wallet y cliente del contrato (épica 3)",
+   "pts": 9.73,
+   "nota": ""
+  },
+  {
+   "sha": "4270c69",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-09-20T02:31:06Z",
+   "msg": "Copy del sitio: hablarle al organizador de meetups en vez de al desarrollador",
+   "pts": 6.93,
+   "nota": ""
+  },
+  {
+   "sha": "b9d17b3",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-09-20T02:24:23Z",
+   "msg": "gitignore: excluir postulacion/, material privado de becas y hackathones",
+   "pts": 3.32,
+   "nota": ""
+  },
+  {
+   "sha": "e3da397",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-09-20T02:16:46Z",
+   "msg": "Auditoría del 19-09: mainnet subió a protocolo 28, soroban-sdk 28 estable y costos al precio actual de XLM",
+   "pts": 5.52,
+   "nota": ""
+  },
+  {
+   "sha": "5177a0d",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-09-16T17:21:01Z",
+   "msg": "Protocolo v2 en la interfaz: ronda futura de quicknet, firma verificada y selección v2 (historia 2.3)",
+   "pts": 9.66,
+   "nota": ""
+  },
+  {
+   "sha": "4b903ae",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-09-16T17:13:02Z",
+   "msg": "Protocolo v2 en TypeScript con vectores cruzados (historia 2.2)",
+   "pts": 9.53,
+   "nota": ""
+  },
+  {
+   "sha": "1e1e28d",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-09-16T17:09:22Z",
+   "msg": "Sitio migrado a Vite + TypeScript con pnpm, sin Clerk (historia 2.1)",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "ac1b8db",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-09-16T15:09:49Z",
+   "msg": "Historia 1.4 cerrada: despliegue en testnet, costos medidos y proyección a mainnet",
+   "pts": 8.03,
+   "nota": ""
+  },
+  {
+   "sha": "fd558ce",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-09-16T15:08:29Z",
+   "msg": "Contrato: la renta del código se paga en extend, no en seal ni draw; sitio sin menciones al ideathon",
+   "pts": 7.99,
+   "nota": ""
+  },
+  {
+   "sha": "8c98866",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-09-16T14:46:43Z",
+   "msg": "Plan sobre Stellar: PRD, arquitectura, protocolo v2, épicas y registro de despliegues",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "5893100",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-09-16T14:46:43Z",
+   "msg": "Contrato tinkazo-raffle: sello de lista y sorteo con firma de drand quicknet verificada on-chain",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "e0c530d",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-09-16T13:20:10Z",
+   "msg": "Tinkazo: demo estático de sorteos verificables, skills de Stellar y documentación inicial",
+   "pts": 1.0,
+   "nota": "import masivo (175 archivos)"
+  },
+  {
+   "sha": "95aa3a0",
+   "team": "DrinksOnChain",
+   "repo": "DAVV422/drinks-on-chain-public",
+   "author": "DAVV422",
+   "date": "2026-09-14T02:15:42Z",
+   "msg": "feat: inicializar proyecto publico",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "dffbc90",
+   "team": "BolivianPets",
+   "repo": "GuidoSV7/stellar-build",
+   "author": "GuidoSV7",
+   "date": "2026-09-13T23:07:57Z",
+   "msg": "Estructurando proyecto",
+   "pts": 1.0,
+   "nota": "import masivo (78 archivos)"
+  },
+  {
+   "sha": "3b8fb2e",
+   "team": "BolivianPets",
+   "repo": "GuidoSV7/stellar-build",
+   "author": "GuidoSV7",
+   "date": "2026-09-13T22:30:24Z",
+   "msg": "Ignorar AGENTS.md y .cursor en git (quedan solo locales)",
+   "pts": 5.09,
+   "nota": ""
+  },
+  {
+   "sha": "3701d75",
+   "team": "BolivianPets",
+   "repo": "GuidoSV7/stellar-build",
+   "author": "GuidoSV7",
+   "date": "2026-09-13T22:21:19Z",
+   "msg": "Quitar .cursor y AGENTS.md del repositorio",
+   "pts": 1.0,
+   "nota": "import masivo (211 archivos)"
+  },
+  {
+   "sha": "1d38840",
+   "team": "BolivianPets",
+   "repo": "GuidoSV7/stellar-build",
+   "author": "GuidoSV7",
+   "date": "2026-09-13T22:15:55Z",
+   "msg": "Proyecto Base inicializado",
+   "pts": 1.0,
+   "nota": "import masivo (276 archivos)"
+  },
+  {
+   "sha": "c6dd11d",
+   "team": "Puls3",
+   "repo": "Zer0-Knowledge-Hack/puls3",
+   "author": "TOMOKI977",
+   "date": "2026-09-13T12:50:52Z",
+   "msg": "Initial commit",
+   "pts": 8.67,
+   "nota": ""
+  },
+  {
+   "sha": "345ff28",
+   "team": "Stellar Flash",
+   "repo": "nadevrix/stellar-flash",
+   "author": "nadevrix",
+   "date": "2026-09-09T19:31:39Z",
+   "msg": "Que Freighter pueda firmar Pay y Withdraw: signMessage solo acepta UTF-8.",
+   "pts": 8.02,
+   "nota": ""
+  },
+  {
+   "sha": "802188a",
+   "team": "Stellar Flash",
+   "repo": "nadevrix/stellar-flash",
+   "author": "nadevrix",
+   "date": "2026-09-09T18:37:19Z",
+   "msg": "Arreglar el fetch suelto que tumba Pay y Withdraw en el navegador.",
+   "pts": 4.91,
+   "nota": ""
+  },
+  {
+   "sha": "39bc46a",
+   "team": "Stellar Flash",
+   "repo": "nadevrix/stellar-flash",
+   "author": "nadevrix",
+   "date": "2026-09-09T18:22:10Z",
+   "msg": "No colgar el depósito en Sending: Horizon responde al instante y el saldo FXLM se lee por la API.",
+   "pts": 7.04,
+   "nota": ""
+  },
+  {
+   "sha": "41d6ab0",
+   "team": "Stellar Flash",
+   "repo": "nadevrix/stellar-flash",
+   "author": "nadevrix",
+   "date": "2026-09-09T18:09:41Z",
+   "msg": "Mostrar el depósito XLM en cuanto el secuenciador está healthy.",
+   "pts": 6.55,
+   "nota": ""
+  },
+  {
+   "sha": "ff7fb0c",
+   "team": "Stellar Flash",
+   "repo": "nadevrix/stellar-flash",
+   "author": "nadevrix",
+   "date": "2026-09-09T17:02:06Z",
+   "msg": "Que el usuario pague en FXLM a milisegundos: nosotros convertimos el XLM clásico.",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "83744d2",
+   "team": "Stellar Flash",
+   "repo": "nadevrix/stellar-flash",
+   "author": "nadevrix",
+   "date": "2026-09-09T16:35:54Z",
+   "msg": "Dejar el testnet público listo para demo: verificar lotes en el navegador, backup SQLite y UI que no miente sobre npm, U",
+   "pts": 10,
+   "nota": ""
+  },
   {
    "sha": "090a224",
    "team": "Emmi",
@@ -173,6 +1285,326 @@
    "msg": "Contenidos: selector de tamaño de página (10/50/100/todos); informe diario: logo en header real de Word",
    "pts": 6.95,
    "nota": ""
+  },
+  {
+   "sha": "b1ad24f",
+   "team": "Agentx402",
+   "repo": "ZequerVirus/Stellar-P1",
+   "author": "ZequerVirus",
+   "date": "2026-09-07T01:04:26Z",
+   "msg": "Initial commit",
+   "pts": 1.0,
+   "nota": "import masivo (169 archivos)"
+  },
+  {
+   "sha": "b8077c6",
+   "team": "Stellar Flash",
+   "repo": "nadevrix/stellar-flash",
+   "author": "nadevrix",
+   "date": "2026-09-07T00:41:38Z",
+   "msg": "Make all public documentation English-only on GitHub.",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "2ba1496",
+   "team": "Stellar Flash",
+   "repo": "nadevrix/stellar-flash",
+   "author": "nadevrix",
+   "date": "2026-09-07T00:35:19Z",
+   "msg": "Remove emojis from public docs for a more professional tone.",
+   "pts": 6.64,
+   "nota": ""
+  },
+  {
+   "sha": "1edd654",
+   "team": "Stellar Flash",
+   "repo": "nadevrix/stellar-flash",
+   "author": "nadevrix",
+   "date": "2026-09-07T00:32:18Z",
+   "msg": "Add English product docs and update README for public presentation",
+   "pts": 9.9,
+   "nota": ""
+  },
+  {
+   "sha": "8c01a4b",
+   "team": "Stellar Flash",
+   "repo": "nadevrix/stellar-flash",
+   "author": "nadevrix",
+   "date": "2026-09-07T00:17:44Z",
+   "msg": "Fix deploy Render: escuchar en 0.0.0.0 cuando hay PORT",
+   "pts": 4.32,
+   "nota": ""
+  },
+  {
+   "sha": "a733dce",
+   "team": "Stellar Flash",
+   "repo": "nadevrix/stellar-flash",
+   "author": "nadevrix",
+   "date": "2026-09-07T00:06:31Z",
+   "msg": "Logo más grande en nav y rayo dorado otra vez",
+   "pts": 5.75,
+   "nota": ""
+  },
+  {
+   "sha": "8e04066",
+   "team": "Stellar Flash",
+   "repo": "nadevrix/stellar-flash",
+   "author": "nadevrix",
+   "date": "2026-09-06T23:59:24Z",
+   "msg": "Corregir alineación del cronómetro en la sección Live",
+   "pts": 6.17,
+   "nota": ""
+  },
+  {
+   "sha": "9081d37",
+   "team": "Stellar Flash",
+   "repo": "nadevrix/stellar-flash",
+   "author": "nadevrix",
+   "date": "2026-09-06T23:56:56Z",
+   "msg": "Rediseño tipo Stellar Lab y header de landing corregido",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "0cd74fa",
+   "team": "Stellar Flash",
+   "repo": "nadevrix/stellar-flash",
+   "author": "nadevrix",
+   "date": "2026-09-06T23:19:36Z",
+   "msg": "App completa: Account, Explorer detallado y nav unificada",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "5053971",
+   "team": "CompraGasolinaBidon",
+   "repo": "jjvos19/stellar-build",
+   "author": "jjvos19",
+   "date": "2026-09-06T15:50:15Z",
+   "msg": "Initial commit",
+   "pts": 1.0,
+   "nota": "import masivo (169 archivos)"
+  },
+  {
+   "sha": "3fd4ed8",
+   "team": "Stellar Flash",
+   "repo": "nadevrix/stellar-flash",
+   "author": "nadevrix",
+   "date": "2026-09-06T04:29:02Z",
+   "msg": "Corregir build de Render: instalar deps del SDK desde la raíz",
+   "pts": 4.46,
+   "nota": ""
+  },
+  {
+   "sha": "f8021f8",
+   "team": "Stellar Flash",
+   "repo": "nadevrix/stellar-flash",
+   "author": "nadevrix",
+   "date": "2026-09-06T03:47:03Z",
+   "msg": "Bridge dapp en testnet: wallet, depósito, pago y retiro",
+   "pts": 9.87,
+   "nota": ""
+  },
+  {
+   "sha": "fedc72e",
+   "team": "Stellar Flash",
+   "repo": "nadevrix/stellar-flash",
+   "author": "nadevrix",
+   "date": "2026-09-06T01:10:47Z",
+   "msg": "Documentar el muro de escala del árbol de estado",
+   "pts": 5.86,
+   "nota": ""
+  },
+  {
+   "sha": "bb900ab",
+   "team": "Stellar Flash",
+   "repo": "nadevrix/stellar-flash",
+   "author": "nadevrix",
+   "date": "2026-09-06T00:58:48Z",
+   "msg": "Protocolo sin dependencias de Node: el SDK ya sirve en el navegador",
+   "pts": 7.02,
+   "nota": ""
+  },
+  {
+   "sha": "159da87",
+   "team": "Stellar Flash",
+   "repo": "nadevrix/stellar-flash",
+   "author": "nadevrix",
+   "date": "2026-09-05T23:54:04Z",
+   "msg": "El test del ataque tiene que llegar de verdad al verificador",
+   "pts": 4.32,
+   "nota": ""
+  },
+  {
+   "sha": "c7d41c9",
+   "team": "Stellar Flash",
+   "repo": "nadevrix/stellar-flash",
+   "author": "nadevrix",
+   "date": "2026-09-05T23:53:04Z",
+   "msg": "Corregir el typecheck del test de seguridad",
+   "pts": 2.58,
+   "nota": ""
+  },
+  {
+   "sha": "3b8e3e7",
+   "team": "Stellar Flash",
+   "repo": "nadevrix/stellar-flash",
+   "author": "nadevrix",
+   "date": "2026-09-05T23:52:40Z",
+   "msg": "Verificar los depósitos contra el contrato, no contra el RPC",
+   "pts": 8.86,
+   "nota": ""
+  },
+  {
+   "sha": "73512d5",
+   "team": "NodeXchange",
+   "repo": "RomerTamayo/stellar-build",
+   "author": "RomerTamayo",
+   "date": "2026-09-05T20:49:41Z",
+   "msg": "Initial commit",
+   "pts": 1.0,
+   "nota": "import masivo (169 archivos)"
+  },
+  {
+   "sha": "e1b351e",
+   "team": "Stellar Flash",
+   "repo": "nadevrix/stellar-flash",
+   "author": "nadevrix",
+   "date": "2026-09-05T10:35:16Z",
+   "msg": "Medir el coste real de commit_batch (pendiente desde la Fase 0)",
+   "pts": 7.79,
+   "nota": ""
+  },
+  {
+   "sha": "3729d8b",
+   "team": "Stellar Flash",
+   "repo": "nadevrix/stellar-flash",
+   "author": "nadevrix",
+   "date": "2026-09-05T10:23:45Z",
+   "msg": "SDK publicable en npm, página de docs y el flujo de wallet que faltaba",
+   "pts": 9.81,
+   "nota": ""
+  },
+  {
+   "sha": "42b95f1",
+   "team": "Stellar Flash",
+   "repo": "nadevrix/stellar-flash",
+   "author": "nadevrix",
+   "date": "2026-09-05T09:56:12Z",
+   "msg": "Explorer en vivo, y dos bugs de métricas que destapó",
+   "pts": 9.29,
+   "nota": ""
+  },
+  {
+   "sha": "51d5fc9",
+   "team": "Stellar Flash",
+   "repo": "nadevrix/stellar-flash",
+   "author": "nadevrix",
+   "date": "2026-09-05T09:51:01Z",
+   "msg": "API: feed de transacciones y métricas para el explorer",
+   "pts": 7.34,
+   "nota": ""
+  },
+  {
+   "sha": "d16cdb6",
+   "team": "Stellar Flash",
+   "repo": "nadevrix/stellar-flash",
+   "author": "nadevrix",
+   "date": "2026-09-05T05:05:59Z",
+   "msg": "Imagen de compartido (OG) dibujada con la geometría real de la marca",
+   "pts": 4.17,
+   "nota": ""
+  },
+  {
+   "sha": "3a1078f",
+   "team": "Stellar Flash",
+   "repo": "nadevrix/stellar-flash",
+   "author": "nadevrix",
+   "date": "2026-09-05T05:04:44Z",
+   "msg": "Fotos de objeto y despliegues independientes por servicio",
+   "pts": 5.39,
+   "nota": ""
+  },
+  {
+   "sha": "685bcfa",
+   "team": "Stellar Flash",
+   "repo": "nadevrix/stellar-flash",
+   "author": "nadevrix",
+   "date": "2026-09-05T04:52:05Z",
+   "msg": "Documentar los prompts de las fotos de objeto",
+   "pts": 6.78,
+   "nota": ""
+  },
+  {
+   "sha": "44843a8",
+   "team": "Stellar Flash",
+   "repo": "nadevrix/stellar-flash",
+   "author": "nadevrix",
+   "date": "2026-09-05T04:45:51Z",
+   "msg": "Rediseño editorial de la landing, alineado con el lenguaje visual de Stellar",
+   "pts": 9.85,
+   "nota": ""
+  },
+  {
+   "sha": "8a328df",
+   "team": "Stellar Flash",
+   "repo": "nadevrix/stellar-flash",
+   "author": "nadevrix",
+   "date": "2026-09-05T04:33:18Z",
+   "msg": "Marca: rayo atravesando una órbita",
+   "pts": 6.09,
+   "nota": ""
+  },
+  {
+   "sha": "b2e0fd8",
+   "team": "Stellar Flash",
+   "repo": "nadevrix/stellar-flash",
+   "author": "nadevrix",
+   "date": "2026-09-05T04:27:05Z",
+   "msg": "Quitar capturas de Playwright y sobras de la plantilla de Vite",
+   "pts": 8.5,
+   "nota": ""
+  },
+  {
+   "sha": "682a915",
+   "team": "Stellar Flash",
+   "repo": "nadevrix/stellar-flash",
+   "author": "nadevrix",
+   "date": "2026-09-05T04:26:49Z",
+   "msg": "Landing pública: marca propia, paleta de Stellar y datos en vivo del secuenciador",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "12305dd",
+   "team": "Stellar Flash",
+   "repo": "nadevrix/stellar-flash",
+   "author": "nadevrix",
+   "date": "2026-09-05T03:58:13Z",
+   "msg": "Soportar PORT y añadir blueprint de Render para el secuenciador",
+   "pts": 6.64,
+   "nota": ""
+  },
+  {
+   "sha": "de7f669",
+   "team": "Stellar Flash",
+   "repo": "nadevrix/stellar-flash",
+   "author": "nadevrix",
+   "date": "2026-09-05T03:33:03Z",
+   "msg": "Stellar Flash: rollup de pagos sobre Stellar (FXLM)",
+   "pts": 1.0,
+   "nota": "import masivo (57 archivos)"
+  },
+  {
+   "sha": "4f8cc64",
+   "team": "BolivianPets",
+   "repo": "GuidoSV7/stellar-build",
+   "author": "GuidoSV7",
+   "date": "2026-09-04T23:55:50Z",
+   "msg": "Initial commit",
+   "pts": 1.0,
+   "nota": "import masivo (169 archivos)"
   },
   {
    "sha": "2ade04f",
