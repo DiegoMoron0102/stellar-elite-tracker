@@ -1,5 +1,5 @@
 {
- "generado": "2026-09-22T19:51:10+00:00",
+ "generado": "2026-09-22T20:05:49+00:00",
  "programa": "Stellar Elite",
  "start_date": "2026-09-02T00:00:00Z",
  "teams": [
@@ -102,6 +102,22 @@
    "rank": 6
   },
   {
+   "name": "BOLAR",
+   "total": 17.25,
+   "per_capita": 17.25,
+   "commits": 1,
+   "pts_commits": 9.25,
+   "dias_activos": 1,
+   "contribuidores": [
+    "sass3r"
+   ],
+   "tamano": 1,
+   "repos": [
+    "bolarpay/bolar-app"
+   ],
+   "rank": 7
+  },
+  {
    "name": "CompraGasolinaBidon",
    "total": 9.0,
    "per_capita": 9.0,
@@ -115,7 +131,7 @@
    "repos": [
     "jjvos19/stellar-build"
    ],
-   "rank": 7
+   "rank": 8
   },
   {
    "name": "NodeXchange",
@@ -131,7 +147,7 @@
    "repos": [
     "RomerTamayo/stellar-build"
    ],
-   "rank": 8
+   "rank": 9
   },
   {
    "name": "Agentx402",
@@ -147,7 +163,7 @@
    "repos": [
     "ZequerVirus/Stellar-P1"
    ],
-   "rank": 9
+   "rank": 10
   },
   {
    "name": "Impulso Stellar",
@@ -163,7 +179,7 @@
    "repos": [
     "orlando-vazquez-career/stellar-impulse"
    ],
-   "rank": 10
+   "rank": 11
   },
   {
    "name": "GatoPago",
@@ -177,7 +193,7 @@
    "repos": [
     "danelerr/parmelia-links"
    ],
-   "rank": 11
+   "rank": 12
   },
   {
    "name": "Veridia",
@@ -191,7 +207,7 @@
    "repos": [
     "sphinxar/veridia"
    ],
-   "rank": 12
+   "rank": 13
   },
   {
    "name": "MinerTrace",
@@ -205,7 +221,7 @@
    "repos": [
     "Dante1128/MinerTracer"
    ],
-   "rank": 13
+   "rank": 14
   },
   {
    "name": "Stellar Programmable Financial Agreements",
@@ -219,18 +235,6 @@
    "repos": [
     "xXCrIs7xDXx/Stellar-Programmable-Financial-Agreements"
    ],
-   "rank": 14
-  },
-  {
-   "name": "BOLAR",
-   "total": 0.0,
-   "per_capita": 0.0,
-   "commits": 0,
-   "pts_commits": 0.0,
-   "dias_activos": 0,
-   "contribuidores": [],
-   "tamano": 1,
-   "repos": [],
    "rank": 15
   },
   {
@@ -291,6 +295,9 @@
   },
   "Impulso Stellar": {
    "2026-09-22": 1.0
+  },
+  "BOLAR": {
+   "2026-09-22": 9.25
   }
  },
  "serie_commits": {
@@ -338,6 +345,9 @@
   },
   "Impulso Stellar": {
    "2026-09-22": 1
+  },
+  "BOLAR": {
+   "2026-09-22": 1
   }
  },
  "commits": [
@@ -349,6 +359,16 @@
    "date": "2026-09-22T19:35:11Z",
    "msg": "docs: add Stellar Odyssey hackathon documentation",
    "pts": 4.58,
+   "nota": ""
+  },
+  {
+   "sha": "09a282c",
+   "team": "BOLAR",
+   "repo": "bolarpay/bolar-app",
+   "author": "sass3r",
+   "date": "2026-09-22T19:27:19Z",
+   "msg": "Initial commit from Create Next App",
+   "pts": 9.25,
    "nota": ""
   },
   {

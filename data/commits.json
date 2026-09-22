@@ -21657,5 +21657,110 @@
     "d": 2
    }
   ]
+ },
+ "09a282ce784400b8acb0f79851157adb242cf500": {
+  "team": "BOLAR",
+  "repo": "bolarpay/bolar-app",
+  "author": "sass3r",
+  "date": "2026-09-22T19:27:19Z",
+  "message": "Initial commit from Create Next App",
+  "parents": 0,
+  "files": [
+   {
+    "f": ".gitignore",
+    "a": 41,
+    "d": 0
+   },
+   {
+    "f": "AGENTS.md",
+    "a": 9,
+    "d": 0
+   },
+   {
+    "f": "CLAUDE.md",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "README.md",
+    "a": 36,
+    "d": 0
+   },
+   {
+    "f": "app/favicon.ico",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "app/globals.css",
+    "a": 26,
+    "d": 0
+   },
+   {
+    "f": "app/layout.tsx",
+    "a": 29,
+    "d": 0
+   },
+   {
+    "f": "app/page.tsx",
+    "a": 69,
+    "d": 0
+   },
+   {
+    "f": "eslint.config.mjs",
+    "a": 18,
+    "d": 0
+   },
+   {
+    "f": "next.config.ts",
+    "a": 7,
+    "d": 0
+   },
+   {
+    "f": "package-lock.json",
+    "a": 6895,
+    "d": 0
+   },
+   {
+    "f": "package.json",
+    "a": 26,
+    "d": 0
+   },
+   {
+    "f": "postcss.config.mjs",
+    "a": 7,
+    "d": 0
+   },
+   {
+    "f": "public/file.svg",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "public/globe.svg",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "public/next.svg",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "public/vercel.svg",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "public/window.svg",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "tsconfig.json",
+    "a": 34,
+    "d": 0
+   }
+  ]
  }
 }
