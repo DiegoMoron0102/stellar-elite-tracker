@@ -60,6 +60,8 @@ def calcular(commits, cfg):
     detalle = []
 
     for sha, c in commits.items():
+        if c["team"] not in miembros:
+            continue  # equipo eliminado de teams.json: no mostrar sus commits en cache
         fecha = datetime.fromisoformat(c["date"].replace("Z", "+00:00")).astimezone(timezone.utc)
         if fecha < inicio:
             continue  # proyectos ya avanzados: solo cuenta lo hecho dentro del programa
