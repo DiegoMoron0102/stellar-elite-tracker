@@ -1,5 +1,5 @@
 {
- "generado": "2026-09-24T16:09:27+00:00",
+ "generado": "2026-09-24T20:56:51+00:00",
  "programa": "Stellar Elite",
  "start_date": "2026-09-02T00:00:00Z",
  "teams": [
@@ -37,11 +37,11 @@
   },
   {
    "name": "Puls3",
-   "total": 128.17,
-   "per_capita": 128.17,
-   "commits": 28,
-   "pts_commits": 104.17,
-   "dias_activos": 3,
+   "total": 149.82,
+   "per_capita": 149.82,
+   "commits": 32,
+   "pts_commits": 120.82,
+   "dias_activos": 4,
    "contribuidores": [
     "TOMOKI977",
     "XxHugheadxX",
@@ -247,7 +247,7 @@
    "2026-09-13": 8.67,
    "2026-09-22": 56.959999999999994,
    "2026-09-23": 38.540000000000006,
-   "2026-09-24": 0.0
+   "2026-09-24": 16.65
   },
   "Tinkazo": {
    "2026-09-16": 66.21000000000001,
@@ -290,7 +290,7 @@
    "2026-09-13": 1,
    "2026-09-22": 15,
    "2026-09-23": 7,
-   "2026-09-24": 5
+   "2026-09-24": 9
   },
   "Tinkazo": {
    "2026-09-16": 8,
@@ -323,6 +323,46 @@
   }
  },
  "commits": [
+  {
+   "sha": "d8399ff",
+   "team": "Puls3",
+   "repo": "Zer0-Knowledge-Hack/puls3",
+   "author": "TOMOKI977",
+   "date": "2026-09-24T20:38:19Z",
+   "msg": "Merge pull request #50 from Zer0-Knowledge-Hack/docs/6-reconcile-architecture-claims",
+   "pts": 0.0,
+   "nota": "merge"
+  },
+  {
+   "sha": "0c49fb9",
+   "team": "Puls3",
+   "repo": "Zer0-Knowledge-Hack/puls3",
+   "author": "TOMOKI977",
+   "date": "2026-09-24T20:35:20Z",
+   "msg": "Merge pull request #49 from Zer0-Knowledge-Hack/chore/12-contracts-workspace",
+   "pts": 0.0,
+   "nota": "merge"
+  },
+  {
+   "sha": "9b68005",
+   "team": "Puls3",
+   "repo": "Zer0-Knowledge-Hack/puls3",
+   "author": "TOMOKI977",
+   "date": "2026-09-24T20:13:24Z",
+   "msg": "docs(architecture): reconcile Stellar contract claims",
+   "pts": 7.41,
+   "nota": ""
+  },
+  {
+   "sha": "4f51312",
+   "team": "Puls3",
+   "repo": "Zer0-Knowledge-Hack/puls3",
+   "author": "XxHugheadxX",
+   "date": "2026-09-24T02:53:12Z",
+   "msg": "chore: scaffold Soroban contracts workspace",
+   "pts": 9.24,
+   "nota": ""
+  },
   {
    "sha": "986c956",
    "team": "Puls3",
