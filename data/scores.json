@@ -1,5 +1,5 @@
 {
- "generado": "2026-09-24T02:17:22+00:00",
+ "generado": "2026-09-24T10:45:45+00:00",
  "programa": "Stellar Elite",
  "start_date": "2026-09-02T00:00:00Z",
  "teams": [
@@ -37,13 +37,14 @@
   },
   {
    "name": "Puls3",
-   "total": 81.63,
-   "per_capita": 81.63,
-   "commits": 16,
-   "pts_commits": 65.63,
-   "dias_activos": 2,
+   "total": 128.17,
+   "per_capita": 128.17,
+   "commits": 28,
+   "pts_commits": 104.17,
+   "dias_activos": 3,
    "contribuidores": [
     "TOMOKI977",
+    "XxHugheadxX",
     "moises-cisneros"
    ],
    "tamano": 1,
@@ -244,7 +245,9 @@
   },
   "Puls3": {
    "2026-09-13": 8.67,
-   "2026-09-22": 56.959999999999994
+   "2026-09-22": 56.959999999999994,
+   "2026-09-23": 38.540000000000006,
+   "2026-09-24": 0.0
   },
   "Tinkazo": {
    "2026-09-16": 66.21000000000001,
@@ -285,7 +288,9 @@
   },
   "Puls3": {
    "2026-09-13": 1,
-   "2026-09-22": 15
+   "2026-09-22": 15,
+   "2026-09-23": 7,
+   "2026-09-24": 5
   },
   "Tinkazo": {
    "2026-09-16": 8,
@@ -318,6 +323,56 @@
   }
  },
  "commits": [
+  {
+   "sha": "986c956",
+   "team": "Puls3",
+   "repo": "Zer0-Knowledge-Hack/puls3",
+   "author": "XxHugheadxX",
+   "date": "2026-09-24T02:43:02Z",
+   "msg": "Merge pull request #47 from Zer0-Knowledge-Hack/docs/5-adr-0001-architecture",
+   "pts": 0.0,
+   "nota": "merge"
+  },
+  {
+   "sha": "5077035",
+   "team": "Puls3",
+   "repo": "Zer0-Knowledge-Hack/puls3",
+   "author": "XxHugheadxX",
+   "date": "2026-09-24T02:39:55Z",
+   "msg": "Merge remote-tracking branch 'origin/main' into docs/5-adr-0001-architecture",
+   "pts": 0.0,
+   "nota": "merge"
+  },
+  {
+   "sha": "10a37fd",
+   "team": "Puls3",
+   "repo": "Zer0-Knowledge-Hack/puls3",
+   "author": "XxHugheadxX",
+   "date": "2026-09-24T02:29:25Z",
+   "msg": "Merge pull request #45 from Zer0-Knowledge-Hack/docs/1-issue-pr-templates",
+   "pts": 0.0,
+   "nota": "merge"
+  },
+  {
+   "sha": "d1e4ebd",
+   "team": "Puls3",
+   "repo": "Zer0-Knowledge-Hack/puls3",
+   "author": "XxHugheadxX",
+   "date": "2026-09-24T02:29:14Z",
+   "msg": "Merge pull request #46 from Zer0-Knowledge-Hack/docs/2-vision",
+   "pts": 0.0,
+   "nota": "merge"
+  },
+  {
+   "sha": "0cc5d41",
+   "team": "Puls3",
+   "repo": "Zer0-Knowledge-Hack/puls3",
+   "author": "XxHugheadxX",
+   "date": "2026-09-24T02:28:45Z",
+   "msg": "Merge pull request #48 from Zer0-Knowledge-Hack/docs/6-erc8004-soroban",
+   "pts": 0.0,
+   "nota": "merge"
+  },
   {
    "sha": "c45dc26",
    "team": "BOLAR",
@@ -356,6 +411,76 @@
    "date": "2026-09-23T14:23:56Z",
    "msg": "Update architecture documentation with detailed sections",
    "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "884ab65",
+   "team": "Puls3",
+   "repo": "Zer0-Knowledge-Hack/puls3",
+   "author": "XxHugheadxX",
+   "date": "2026-09-23T10:32:22Z",
+   "msg": "docs: add ERC-8004 on Soroban spike and ADR-0002",
+   "pts": 9.88,
+   "nota": ""
+  },
+  {
+   "sha": "e34e988",
+   "team": "Puls3",
+   "repo": "Zer0-Knowledge-Hack/puls3",
+   "author": "XxHugheadxX",
+   "date": "2026-09-23T10:20:00Z",
+   "msg": "Merge branch 'docs/2-vision' into docs/5-adr-0001-architecture",
+   "pts": 0.0,
+   "nota": "merge"
+  },
+  {
+   "sha": "90a8d0d",
+   "team": "Puls3",
+   "repo": "Zer0-Knowledge-Hack/puls3",
+   "author": "XxHugheadxX",
+   "date": "2026-09-23T10:19:57Z",
+   "msg": "docs: correct the differentiator in the product vision",
+   "pts": 4.81,
+   "nota": ""
+  },
+  {
+   "sha": "5f8514f",
+   "team": "Puls3",
+   "repo": "Zer0-Knowledge-Hack/puls3",
+   "author": "XxHugheadxX",
+   "date": "2026-09-23T04:57:42Z",
+   "msg": "Merge branch 'docs/2-vision' into docs/5-adr-0001-architecture",
+   "pts": 0.0,
+   "nota": "merge"
+  },
+  {
+   "sha": "b960dc0",
+   "team": "Puls3",
+   "repo": "Zer0-Knowledge-Hack/puls3",
+   "author": "XxHugheadxX",
+   "date": "2026-09-23T04:57:42Z",
+   "msg": "docs: add ADR-0001 system architecture and C4 diagrams",
+   "pts": 8.83,
+   "nota": ""
+  },
+  {
+   "sha": "c4d53b3",
+   "team": "Puls3",
+   "repo": "Zer0-Knowledge-Hack/puls3",
+   "author": "XxHugheadxX",
+   "date": "2026-09-23T04:54:51Z",
+   "msg": "docs: add product vision and MVP scope",
+   "pts": 7.36,
+   "nota": ""
+  },
+  {
+   "sha": "c2cad9e",
+   "team": "Puls3",
+   "repo": "Zer0-Knowledge-Hack/puls3",
+   "author": "XxHugheadxX",
+   "date": "2026-09-23T04:52:57Z",
+   "msg": "docs: add issue form, PR template and area layout to CONTRIBUTING",
+   "pts": 7.66,
    "nota": ""
   },
   {
