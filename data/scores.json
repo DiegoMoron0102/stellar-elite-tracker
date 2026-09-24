@@ -1,5 +1,5 @@
 {
- "generado": "2026-09-23T20:51:54+00:00",
+ "generado": "2026-09-24T02:17:22+00:00",
  "programa": "Stellar Elite",
  "start_date": "2026-09-02T00:00:00Z",
  "teams": [
@@ -53,6 +53,23 @@
    "rank": 3
   },
   {
+   "name": "BOLAR",
+   "total": 35.44,
+   "per_capita": 35.44,
+   "commits": 3,
+   "pts_commits": 19.44,
+   "dias_activos": 2,
+   "contribuidores": [
+    "rudyramirezc",
+    "sass3r"
+   ],
+   "tamano": 1,
+   "repos": [
+    "bolarpay/bolar-app"
+   ],
+   "rank": 4
+  },
+  {
    "name": "Impulso Stellar",
    "total": 27.0,
    "per_capita": 27.0,
@@ -67,7 +84,7 @@
    "repos": [
     "orlando-vazquez-career/stellar-impulse"
    ],
-   "rank": 4
+   "rank": 5
   },
   {
    "name": "BolivianPets",
@@ -83,7 +100,7 @@
    "repos": [
     "GuidoSV7/stellar-build"
    ],
-   "rank": 5
+   "rank": 6
   },
   {
    "name": "DrinksOnChain",
@@ -98,22 +115,6 @@
    "tamano": 1,
    "repos": [
     "DAVV422/drinks-on-chain-public"
-   ],
-   "rank": 6
-  },
-  {
-   "name": "BOLAR",
-   "total": 17.25,
-   "per_capita": 17.25,
-   "commits": 1,
-   "pts_commits": 9.25,
-   "dias_activos": 1,
-   "contribuidores": [
-    "sass3r"
-   ],
-   "tamano": 1,
-   "repos": [
-    "bolarpay/bolar-app"
    ],
    "rank": 7
   },
@@ -271,7 +272,8 @@
    "2026-09-23": 10.0
   },
   "BOLAR": {
-   "2026-09-22": 9.25
+   "2026-09-22": 9.25,
+   "2026-09-24": 10.190000000000001
   }
  },
  "serie_commits": {
@@ -311,10 +313,31 @@
    "2026-09-23": 2
   },
   "BOLAR": {
-   "2026-09-22": 1
+   "2026-09-22": 1,
+   "2026-09-24": 2
   }
  },
  "commits": [
+  {
+   "sha": "c45dc26",
+   "team": "BOLAR",
+   "repo": "bolarpay/bolar-app",
+   "author": "rudyramirezc",
+   "date": "2026-09-24T01:11:05Z",
+   "msg": "change application name",
+   "pts": 2.58,
+   "nota": ""
+  },
+  {
+   "sha": "3ab47f9",
+   "team": "BOLAR",
+   "repo": "bolarpay/bolar-app",
+   "author": "sass3r",
+   "date": "2026-09-24T00:49:53Z",
+   "msg": "add pollar sdk",
+   "pts": 7.61,
+   "nota": ""
+  },
   {
    "sha": "80a75a0",
    "team": "Impulso Stellar",

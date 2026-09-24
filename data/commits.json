@@ -21792,5 +21792,40 @@
     "d": 49
    }
   ]
+ },
+ "c45dc26ac48b4a4107c041a41061f701f4528566": {
+  "team": "BOLAR",
+  "repo": "bolarpay/bolar-app",
+  "author": "rudyramirezc",
+  "date": "2026-09-24T01:11:05Z",
+  "message": "change application name",
+  "parents": 1,
+  "files": [
+   {
+    "f": "package.json",
+    "a": 1,
+    "d": 1
+   }
+  ]
+ },
+ "3ab47f9a3805bcf556dfced35d23da7aad384832": {
+  "team": "BOLAR",
+  "repo": "bolarpay/bolar-app",
+  "author": "sass3r",
+  "date": "2026-09-24T00:49:53Z",
+  "message": "add pollar sdk",
+  "parents": 1,
+  "files": [
+   {
+    "f": "app/page.tsx",
+    "a": 31,
+    "d": 65
+   },
+   {
+    "f": "package.json",
+    "a": 1,
+    "d": 0
+   }
+  ]
  }
 }
