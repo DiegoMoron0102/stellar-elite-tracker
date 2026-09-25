@@ -22292,5 +22292,1485 @@
     "d": 0
    }
   ]
+ },
+ "c8ca21a8818bb3372d3a21c869dd7c650e799143": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-09-25T10:37:35Z",
+  "message": "La carrera cuenta una historia: el director de emoción",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/capturas/juego-ledger-celular-ganador.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/juego-ledger-celular.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/juego-ledger.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/juego-pasanaku-celular-ganador.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/juego-pasanaku-celular.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/juego-pasanaku.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/juego-race-celular-ganador.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/juego-race-celular.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/juego-race.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/juego-rockets-celular-ganador.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/juego-rockets-celular.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/juego-rockets.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/juego-stellar-celular-ganador.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/juego-stellar-celular.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/juego-stellar.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/juego-teleferico-celular-ganador.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/juego-teleferico-celular.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/juego-teleferico.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/juego-tombola-celular-ganador.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/juego-tombola-celular.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/juego-tombola-dark.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/juego-tombola.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/juego-wheel-celular-ganador.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/juego-wheel-celular.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/juego-wheel.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/ui-cabecera-celular-dark.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/ui-cabecera-celular-light.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/ui-cabecera-escritorio-dark.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/ui-cabecera-escritorio-light.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/ui-cuenta-celular-dark.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/ui-cuenta-celular-light.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/ui-cuenta-escritorio-dark.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/ui-cuenta-escritorio-light.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/ui-juegos-celular.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/ui-juegos-escritorio.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/epics.md",
+    "a": 22,
+    "d": 0
+   },
+   {
+    "f": "docs/juegos.md",
+    "a": 25,
+    "d": 0
+   },
+   {
+    "f": "docs/premios.md",
+    "a": 99,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/race-light.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/race.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/rockets-light.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/rockets.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "src/games/drama.ts",
+    "a": 137,
+    "d": 0
+   },
+   {
+    "f": "src/games/overlay.ts",
+    "a": 3,
+    "d": 1
+   },
+   {
+    "f": "src/games/race.ts",
+    "a": 442,
+    "d": 87
+   },
+   {
+    "f": "src/games/themes.ts",
+    "a": 61,
+    "d": 8
+   },
+   {
+    "f": "src/i18n.ts",
+    "a": 37,
+    "d": 0
+   },
+   {
+    "f": "src/main.ts",
+    "a": 5,
+    "d": 0
+   },
+   {
+    "f": "src/styles.css",
+    "a": 4,
+    "d": 0
+   }
+  ]
+ },
+ "7ddc73aa21f3c793b9f561dfa695335a3efa6651": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-09-25T09:40:00Z",
+  "message": "Ocho juegos, y un auditor que mide lo que antes se miraba a ojo",
+  "parents": 1,
+  "files": [
+   {
+    "f": ".gitignore",
+    "a": 3,
+    "d": 0
+   },
+   {
+    "f": "CLAUDE.md",
+    "a": 14,
+    "d": 6
+   },
+   {
+    "f": "README.md",
+    "a": 11,
+    "d": 9
+   },
+   {
+    "f": "docs/amenazas.md",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "docs/architecture.md",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "docs/capturas/juego-ledger-celular-ganador.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/juego-ledger-celular.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/juego-ledger-dark.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/juego-ledger-light.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/juego-ledger.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/juego-pasanaku-celular-ganador.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/juego-pasanaku-celular.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/juego-pasanaku-dark.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/juego-pasanaku-light.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/juego-pasanaku.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/juego-race-celular-ganador.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/juego-race-celular.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/juego-race-dark.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/juego-race-light.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/juego-race.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/juego-rockets-celular-ganador.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/juego-rockets-celular.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/juego-rockets-dark.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/juego-rockets-light.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/juego-rockets.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/juego-stellar-celular-ganador.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/juego-stellar-celular.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/juego-stellar-dark.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/juego-stellar-light.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/juego-stellar.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/juego-teleferico-celular-ganador.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/juego-teleferico-celular.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/juego-teleferico-dark.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/juego-teleferico-light.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/juego-teleferico.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/juego-tombola-celular-ganador.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/juego-tombola-celular.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/juego-tombola-dark.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/juego-tombola-light.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/juego-tombola.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/juego-wheel-celular-ganador.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/juego-wheel-celular.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/juego-wheel-dark.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/juego-wheel-light.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/juego-wheel.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/ui-cabecera-celular-dark.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/ui-cabecera-celular-light.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/ui-cabecera-escritorio-dark.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/ui-cabecera-escritorio-light.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/ui-cuenta-celular-dark.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/ui-cuenta-celular-light.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/ui-cuenta-escritorio-dark.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/ui-cuenta-escritorio-light.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/ui-juegos-celular.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/ui-juegos-escritorio.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/epics.md",
+    "a": 48,
+    "d": 1
+   },
+   {
+    "f": "docs/juegos.md",
+    "a": 42,
+    "d": 5
+   },
+   {
+    "f": "docs/juegos/teleferico.md",
+    "a": 76,
+    "d": 0
+   },
+   {
+    "f": "docs/juegos/tombola.md",
+    "a": 80,
+    "d": 0
+   },
+   {
+    "f": "docs/marca.md",
+    "a": 4,
+    "d": 2
+   },
+   {
+    "f": "docs/prd.md",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "docs/scf.md",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "historia.html",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "index.html",
+    "a": 4,
+    "d": 2
+   },
+   {
+    "f": "juegos.html",
+    "a": 21,
+    "d": 1
+   },
+   {
+    "f": "public/juegos/teleferico-light.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/teleferico.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/tombola-light.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/tombola.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "scripts/audit-rigor.mjs",
+    "a": 605,
+    "d": 0
+   },
+   {
+    "f": "scripts/audit-sound.mjs",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "scripts/audit-ui.mjs",
+    "a": 4,
+    "d": 1
+   },
+   {
+    "f": "scripts/capturas-juegos.mjs",
+    "a": 62,
+    "d": 0
+   },
+   {
+    "f": "src/avatar.test.ts",
+    "a": 73,
+    "d": 0
+   },
+   {
+    "f": "src/avatar.ts",
+    "a": 58,
+    "d": 14
+   },
+   {
+    "f": "src/games/cablecar.ts",
+    "a": 900,
+    "d": 0
+   },
+   {
+    "f": "src/games/constellation.ts",
+    "a": 81,
+    "d": 7
+   },
+   {
+    "f": "src/games/ledger.ts",
+    "a": 40,
+    "d": 28
+   },
+   {
+    "f": "src/games/lore.ts",
+    "a": 13,
+    "d": 0
+   },
+   {
+    "f": "src/games/overlay.ts",
+    "a": 43,
+    "d": 26
+   },
+   {
+    "f": "src/games/pasanaku.ts",
+    "a": 33,
+    "d": 15
+   },
+   {
+    "f": "src/games/race.ts",
+    "a": 11,
+    "d": 12
+   },
+   {
+    "f": "src/games/tombola.ts",
+    "a": 846,
+    "d": 0
+   },
+   {
+    "f": "src/games/wheel.ts",
+    "a": 2,
+    "d": 13
+   },
+   {
+    "f": "src/i18n.test.ts",
+    "a": 34,
+    "d": 0
+   },
+   {
+    "f": "src/i18n.ts",
+    "a": 87,
+    "d": 8
+   },
+   {
+    "f": "src/main.ts",
+    "a": 29,
+    "d": 8
+   },
+   {
+    "f": "src/state.ts",
+    "a": 3,
+    "d": 3
+   },
+   {
+    "f": "src/styles.css",
+    "a": 10,
+    "d": 0
+   },
+   {
+    "f": "src/ui/draw.ts",
+    "a": 10,
+    "d": 0
+   },
+   {
+    "f": "src/ui/freeze.ts",
+    "a": 2,
+    "d": 0
+   },
+   {
+    "f": "src/ui/thumbs.ts",
+    "a": 115,
+    "d": 0
+   }
+  ]
+ },
+ "99ddd2b7abe121fec662c44013a6399bac19da4a": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-09-22T18:30:47Z",
+  "message": "Las comprobaciones nuevas, anotadas donde se buscan",
+  "parents": 1,
+  "files": [
+   {
+    "f": "CLAUDE.md",
+    "a": 13,
+    "d": 0
+   },
+   {
+    "f": "README.md",
+    "a": 1,
+    "d": 1
+   }
+  ]
+ },
+ "0f0df81d9ceb9d150ee646e063575ccb0f22cd4b": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-09-22T18:27:49Z",
+  "message": "El nombre del ganador entra con lo suyo, y el auditor deja de gritar en falso",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/capturas/juego-ledger-celular-ganador.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/juego-ledger-celular.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/juego-ledger-dark.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/juego-ledger-light.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/juego-ledger.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/juego-pasanaku-celular-ganador.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/juego-pasanaku-celular.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/juego-pasanaku-dark.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/juego-pasanaku-light.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/juego-pasanaku.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/juego-race-celular-ganador.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/juego-race-celular.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/juego-race-dark.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/juego-race-light.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/juego-race.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/juego-rockets-celular-ganador.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/juego-rockets-celular.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/juego-rockets-dark.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/juego-rockets-light.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/juego-rockets.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/juego-stellar-celular-ganador.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/juego-stellar-celular.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/juego-stellar-dark.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/juego-stellar-light.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/juego-stellar.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/juego-wheel-celular-ganador.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/juego-wheel-celular.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/juego-wheel-dark.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/juego-wheel-light.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/juego-wheel.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/epics.md",
+    "a": 4,
+    "d": 0
+   },
+   {
+    "f": "scripts/audit-game.mjs",
+    "a": 28,
+    "d": 14
+   },
+   {
+    "f": "src/games/overlay.ts",
+    "a": 9,
+    "d": 1
+   }
+  ]
+ },
+ "38ecd629b5b4f0a43c1157469271401532d23d6a": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-09-22T18:02:20Z",
+  "message": "La página principal lleva a las nuevas, y un chequeo que las cuida",
+  "parents": 1,
+  "files": [
+   {
+    "f": ".github/workflows/ci.yml",
+    "a": 7,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/ui-cabecera-celular-dark.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/ui-cabecera-celular-light.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/ui-cabecera-escritorio-dark.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/ui-cabecera-escritorio-light.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/ui-cuenta-celular-dark.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/ui-cuenta-celular-light.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/ui-cuenta-escritorio-dark.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/ui-cuenta-escritorio-light.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/ui-juegos-celular.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/ui-juegos-escritorio.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/epics.md",
+    "a": 38,
+    "d": 2
+   },
+   {
+    "f": "historia.html",
+    "a": 3,
+    "d": 0
+   },
+   {
+    "f": "index.html",
+    "a": 21,
+    "d": 1
+   },
+   {
+    "f": "juegos.html",
+    "a": 3,
+    "d": 0
+   },
+   {
+    "f": "package.json",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "precios.html",
+    "a": 3,
+    "d": 0
+   },
+   {
+    "f": "public/robots.txt",
+    "a": 4,
+    "d": 0
+   },
+   {
+    "f": "public/sitemap.xml",
+    "a": 8,
+    "d": 0
+   },
+   {
+    "f": "scripts/check-paginas.mjs",
+    "a": 85,
+    "d": 0
+   },
+   {
+    "f": "seguridad.html",
+    "a": 3,
+    "d": 0
+   },
+   {
+    "f": "src/i18n.ts",
+    "a": 18,
+    "d": 0
+   },
+   {
+    "f": "src/styles.css",
+    "a": 8,
+    "d": 2
+   }
+  ]
+ },
+ "9ac09e669f9d826f8677f56f6b846169a47e9a6e": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-09-22T17:55:03Z",
+  "message": "Medido: doscientos no era el techo",
+  "parents": 1,
+  "files": [
+   {
+    "f": "README.md",
+    "a": 6,
+    "d": 1
+   },
+   {
+    "f": "docs/amenazas.md",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "docs/capturas/juego-ledger-celular-ganador.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/juego-ledger-celular.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/juego-ledger-dark.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/juego-ledger-light.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/juego-ledger.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/juego-pasanaku-celular-ganador.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/juego-pasanaku-celular.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/juego-pasanaku-light.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/juego-pasanaku.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/juego-race-celular-ganador.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/juego-race-celular.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/juego-race-dark.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/juego-race.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/juego-rockets-celular-ganador.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/juego-rockets-celular.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/juego-rockets.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/juego-stellar-celular-ganador.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/juego-stellar-celular.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/juego-stellar.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/juego-todos-celular-ganador.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/juego-todos-celular.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/juego-todos-dark.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/juego-todos-light.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/juego-todos.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/juego-wheel-celular-ganador.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/juego-wheel-celular.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/juego-wheel-light.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/juego-wheel.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/epics.md",
+    "a": 19,
+    "d": 1
+   },
+   {
+    "f": "package.json",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "scripts/check-renta.mjs",
+    "a": 140,
+    "d": 0
+   }
+  ]
+ },
+ "afb9aceeb1501132b8ab42b08be896ffa7e18d91": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-09-22T17:37:53Z",
+  "message": "Tres páginas nuevas: juegos, historia y seguridad",
+  "parents": 1,
+  "files": [
+   {
+    "f": "historia.html",
+    "a": 78,
+    "d": 0
+   },
+   {
+    "f": "index.html",
+    "a": 11,
+    "d": 1
+   },
+   {
+    "f": "juegos.html",
+    "a": 117,
+    "d": 0
+   },
+   {
+    "f": "precios.html",
+    "a": 12,
+    "d": 2
+   },
+   {
+    "f": "public/juegos/ledger-light.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/ledger.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/pasanaku-light.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/pasanaku.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/race-light.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/race.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/rockets-light.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/rockets.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/stellar-light.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/stellar.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/wheel-light.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/wheel.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "seguridad.html",
+    "a": 92,
+    "d": 0
+   },
+   {
+    "f": "src/i18n.ts",
+    "a": 116,
+    "d": 0
+   },
+   {
+    "f": "src/pagina.ts",
+    "a": 22,
+    "d": 0
+   },
+   {
+    "f": "src/precios.ts",
+    "a": 0,
+    "d": 14
+   },
+   {
+    "f": "src/styles.css",
+    "a": 20,
+    "d": 0
+   },
+   {
+    "f": "verificar.html",
+    "a": 11,
+    "d": 1
+   },
+   {
+    "f": "vite.config.ts",
+    "a": 3,
+    "d": 0
+   }
+  ]
+ },
+ "320023b38f85724dc262e4a225d877cd6bae141e": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-09-22T17:20:59Z",
+  "message": "El historial vive en la cadena, y el comprobante se puede rearmar",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/amenazas.md",
+    "a": 6,
+    "d": 3
+   },
+   {
+    "f": "docs/epics.md",
+    "a": 27,
+    "d": 3
+   },
+   {
+    "f": "docs/scf.md",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "index.html",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/i18n.ts",
+    "a": 40,
+    "d": 10
+   },
+   {
+    "f": "src/stellar/seals.test.ts",
+    "a": 75,
+    "d": 0
+   },
+   {
+    "f": "src/stellar/seals.ts",
+    "a": 165,
+    "d": 107
+   },
+   {
+    "f": "src/styles.css",
+    "a": 16,
+    "d": 2
+   },
+   {
+    "f": "src/ui/account.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/ui/history.test.ts",
+    "a": 68,
+    "d": 0
+   },
+   {
+    "f": "src/ui/history.ts",
+    "a": 138,
+    "d": 25
+   },
+   {
+    "f": "src/ui/rebuild.test.ts",
+    "a": 56,
+    "d": 0
+   },
+   {
+    "f": "src/ui/rebuild.ts",
+    "a": 115,
+    "d": 0
+   },
+   {
+    "f": "src/verify.ts",
+    "a": 52,
+    "d": 19
+   },
+   {
+    "f": "verificar.html",
+    "a": 1,
+    "d": 1
+   }
+  ]
+ },
+ "f88e0c60a4f68a2e3ef3d7065bc899f5e6e610c2": {
+  "team": "Impulso Stellar",
+  "repo": "orlando-vazquez-career/stellar-impulse",
+  "author": "orlando-vazquez-career",
+  "date": "2026-09-25T03:18:02Z",
+  "message": "Merge pull request #2 from orlando-vazquez-career/feat/cosmetics-nft",
+  "parents": 2,
+  "files": [
+   {
+    "f": "contracts/cosmetics/src/lib.rs",
+    "a": 591,
+    "d": 16
+   },
+   {
+    "f": "contracts/cosmetics/src/test.rs",
+    "a": 314,
+    "d": 0
+   },
+   {
+    "f": "docs/blockchain.md",
+    "a": 16,
+    "d": 6
+   }
+  ]
+ },
+ "e62874a0de27e6bdeb8ceec14f2c732538f7901a": {
+  "team": "Impulso Stellar",
+  "repo": "orlando-vazquez-career/stellar-impulse",
+  "author": "Hans3010",
+  "date": "2026-09-25T02:38:19Z",
+  "message": "feat(contracts): contrato cosmetics como NFT listo para marketplace",
+  "parents": 1,
+  "files": [
+   {
+    "f": "contracts/cosmetics/src/lib.rs",
+    "a": 591,
+    "d": 16
+   },
+   {
+    "f": "contracts/cosmetics/src/test.rs",
+    "a": 314,
+    "d": 0
+   },
+   {
+    "f": "docs/blockchain.md",
+    "a": 16,
+    "d": 6
+   }
+  ]
  }
 }

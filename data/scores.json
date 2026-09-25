@@ -1,15 +1,15 @@
 {
- "generado": "2026-09-25T02:33:47+00:00",
+ "generado": "2026-09-25T10:50:30+00:00",
  "programa": "Stellar Elite",
  "start_date": "2026-09-02T00:00:00Z",
  "teams": [
   {
    "name": "Tinkazo",
-   "total": 470.85,
-   "per_capita": 470.85,
-   "commits": 55,
-   "pts_commits": 452.85,
-   "dias_activos": 3,
+   "total": 549.77,
+   "per_capita": 549.77,
+   "commits": 63,
+   "pts_commits": 521.77,
+   "dias_activos": 5,
    "contribuidores": [
     "nema1502"
    ],
@@ -54,6 +54,24 @@
    "rank": 3
   },
   {
+   "name": "Impulso Stellar",
+   "total": 45.0,
+   "per_capita": 45.0,
+   "commits": 5,
+   "pts_commits": 21.0,
+   "dias_activos": 3,
+   "contribuidores": [
+    "Hans3010",
+    "Ismaelolazo",
+    "orlando-vazquez-career"
+   ],
+   "tamano": 1,
+   "repos": [
+    "orlando-vazquez-career/stellar-impulse"
+   ],
+   "rank": 4
+  },
+  {
    "name": "BOLAR",
    "total": 35.44,
    "per_capita": 35.44,
@@ -67,23 +85,6 @@
    "tamano": 1,
    "repos": [
     "bolarpay/bolar-app"
-   ],
-   "rank": 4
-  },
-  {
-   "name": "Impulso Stellar",
-   "total": 27.0,
-   "per_capita": 27.0,
-   "commits": 3,
-   "pts_commits": 11.0,
-   "dias_activos": 2,
-   "contribuidores": [
-    "Ismaelolazo",
-    "orlando-vazquez-career"
-   ],
-   "tamano": 1,
-   "repos": [
-    "orlando-vazquez-career/stellar-impulse"
    ],
    "rank": 5
   },
@@ -252,7 +253,9 @@
   "Tinkazo": {
    "2026-09-16": 66.21000000000001,
    "2026-09-20": 347.67,
-   "2026-09-21": 38.97
+   "2026-09-21": 38.97,
+   "2026-09-22": 48.92,
+   "2026-09-25": 20.0
   },
   "CompraGasolinaBidon": {
    "2026-09-06": 1.0
@@ -272,7 +275,8 @@
   },
   "Impulso Stellar": {
    "2026-09-22": 1.0,
-   "2026-09-23": 10.0
+   "2026-09-23": 10.0,
+   "2026-09-25": 10.0
   },
   "BOLAR": {
    "2026-09-22": 9.25,
@@ -295,7 +299,9 @@
   "Tinkazo": {
    "2026-09-16": 8,
    "2026-09-20": 43,
-   "2026-09-21": 4
+   "2026-09-21": 4,
+   "2026-09-22": 6,
+   "2026-09-25": 2
   },
   "CompraGasolinaBidon": {
    "2026-09-06": 1
@@ -315,7 +321,8 @@
   },
   "Impulso Stellar": {
    "2026-09-22": 1,
-   "2026-09-23": 2
+   "2026-09-23": 2,
+   "2026-09-25": 2
   },
   "BOLAR": {
    "2026-09-22": 1,
@@ -323,6 +330,46 @@
   }
  },
  "commits": [
+  {
+   "sha": "c8ca21a",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-09-25T10:37:35Z",
+   "msg": "La carrera cuenta una historia: el director de emoción",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "7ddc73a",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-09-25T09:40:00Z",
+   "msg": "Ocho juegos, y un auditor que mide lo que antes se miraba a ojo",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "f88e0c6",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "orlando-vazquez-career",
+   "date": "2026-09-25T03:18:02Z",
+   "msg": "Merge pull request #2 from orlando-vazquez-career/feat/cosmetics-nft",
+   "pts": 0.0,
+   "nota": "merge"
+  },
+  {
+   "sha": "e62874a",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "Hans3010",
+   "date": "2026-09-25T02:38:19Z",
+   "msg": "feat(contracts): contrato cosmetics como NFT listo para marketplace",
+   "pts": 10,
+   "nota": ""
+  },
   {
    "sha": "d8399ff",
    "team": "Puls3",
@@ -541,6 +588,66 @@
    "date": "2026-09-22T19:27:19Z",
    "msg": "Initial commit from Create Next App",
    "pts": 9.25,
+   "nota": ""
+  },
+  {
+   "sha": "99ddd2b",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-09-22T18:30:47Z",
+   "msg": "Las comprobaciones nuevas, anotadas donde se buscan",
+   "pts": 5.0,
+   "nota": ""
+  },
+  {
+   "sha": "0f0df81",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-09-22T18:27:49Z",
+   "msg": "El nombre del ganador entra con lo suyo, y el auditor deja de gritar en falso",
+   "pts": 6.83,
+   "nota": ""
+  },
+  {
+   "sha": "38ecd62",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-09-22T18:02:20Z",
+   "msg": "La página principal lleva a las nuevas, y un chequeo que las cuida",
+   "pts": 8.7,
+   "nota": ""
+  },
+  {
+   "sha": "9ac09e6",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-09-22T17:55:03Z",
+   "msg": "Medido: doscientos no era el techo",
+   "pts": 8.42,
+   "nota": ""
+  },
+  {
+   "sha": "afb9ace",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-09-22T17:37:53Z",
+   "msg": "Tres páginas nuevas: juegos, historia y seguridad",
+   "pts": 9.97,
+   "nota": ""
+  },
+  {
+   "sha": "320023b",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-09-22T17:20:59Z",
+   "msg": "El historial vive en la cadena, y el comprobante se puede rearmar",
+   "pts": 10,
    "nota": ""
   },
   {
