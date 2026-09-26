@@ -24122,5 +24122,605 @@
     "d": 0
    }
   ]
+ },
+ "967b1ff4db2dbe4295e093afe9814d235ed32ad6": {
+  "team": "Puls3",
+  "repo": "Zer0-Knowledge-Hack/puls3",
+  "author": "XxHugheadxX",
+  "date": "2026-09-26T05:16:24Z",
+  "message": "Merge #62: add testnet on-chain evidence to the README (identity registry contract, deploy and seed txs, agent payment t",
+  "parents": 2,
+  "files": [
+   {
+    "f": "README.md",
+    "a": 28,
+    "d": 2
+   }
+  ]
+ },
+ "3ee2c5d148795ee97c89d93cdadd0159493ab7a8": {
+  "team": "Puls3",
+  "repo": "Zer0-Knowledge-Hack/puls3",
+  "author": "XxHugheadxX",
+  "date": "2026-09-26T04:49:32Z",
+  "message": "docs(readme): add testnet on-chain evidence for the identity registry and agent payment",
+  "parents": 1,
+  "files": [
+   {
+    "f": "README.md",
+    "a": 28,
+    "d": 2
+   }
+  ]
+ },
+ "d35258c1ba9bdcba249348bb6dd9c157959bb72b": {
+  "team": "Puls3",
+  "repo": "Zer0-Knowledge-Hack/puls3",
+  "author": "XxHugheadxX",
+  "date": "2026-09-26T03:46:30Z",
+  "message": "Merge #60: add pure Dart domain model with validated value objects, ports and typed errors (closes #9)",
+  "parents": 2,
+  "files": [
+   {
+    "f": "docs/domain/model.md",
+    "a": 111,
+    "d": 0
+   },
+   {
+    "f": "pubspec.yaml",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "puls3_domain/analysis_options.yaml",
+    "a": 9,
+    "d": 0
+   },
+   {
+    "f": "puls3_domain/lib/puls3_domain.dart",
+    "a": 11,
+    "d": 0
+   },
+   {
+    "f": "puls3_domain/lib/src/entities.dart",
+    "a": 173,
+    "d": 0
+   },
+   {
+    "f": "puls3_domain/lib/src/errors.dart",
+    "a": 134,
+    "d": 0
+   },
+   {
+    "f": "puls3_domain/lib/src/ports.dart",
+    "a": 31,
+    "d": 0
+   },
+   {
+    "f": "puls3_domain/lib/src/stellar_address.dart",
+    "a": 90,
+    "d": 0
+   },
+   {
+    "f": "puls3_domain/lib/src/values.dart",
+    "a": 96,
+    "d": 0
+   },
+   {
+    "f": "puls3_domain/pubspec.yaml",
+    "a": 12,
+    "d": 0
+   },
+   {
+    "f": "puls3_domain/test/entities_test.dart",
+    "a": 288,
+    "d": 0
+   },
+   {
+    "f": "puls3_domain/test/value_objects_test.dart",
+    "a": 165,
+    "d": 0
+   }
+  ]
+ },
+ "839da02115239ba82c06df29a5fc950fb3e58d25": {
+  "team": "Puls3",
+  "repo": "Zer0-Knowledge-Hack/puls3",
+  "author": "XxHugheadxX",
+  "date": "2026-09-26T03:39:08Z",
+  "message": "feat(domain): add pure Dart domain model with entities, value objects, ports and typed errors",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/domain/model.md",
+    "a": 111,
+    "d": 0
+   },
+   {
+    "f": "pubspec.yaml",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "puls3_domain/analysis_options.yaml",
+    "a": 9,
+    "d": 0
+   },
+   {
+    "f": "puls3_domain/lib/puls3_domain.dart",
+    "a": 11,
+    "d": 0
+   },
+   {
+    "f": "puls3_domain/lib/src/entities.dart",
+    "a": 173,
+    "d": 0
+   },
+   {
+    "f": "puls3_domain/lib/src/errors.dart",
+    "a": 134,
+    "d": 0
+   },
+   {
+    "f": "puls3_domain/lib/src/ports.dart",
+    "a": 31,
+    "d": 0
+   },
+   {
+    "f": "puls3_domain/lib/src/stellar_address.dart",
+    "a": 90,
+    "d": 0
+   },
+   {
+    "f": "puls3_domain/lib/src/values.dart",
+    "a": 96,
+    "d": 0
+   },
+   {
+    "f": "puls3_domain/pubspec.yaml",
+    "a": 12,
+    "d": 0
+   },
+   {
+    "f": "puls3_domain/test/entities_test.dart",
+    "a": 288,
+    "d": 0
+   },
+   {
+    "f": "puls3_domain/test/value_objects_test.dart",
+    "a": 165,
+    "d": 0
+   }
+  ]
+ },
+ "9cfad8683bdf1d5c7e0812841cf8b3d46a5b27bc": {
+  "team": "Puls3",
+  "repo": "Zer0-Knowledge-Hack/puls3",
+  "author": "XxHugheadxX",
+  "date": "2026-09-26T03:07:01Z",
+  "message": "Merge #59: decide USDC-over-SAC payment rail and testnet agent-wallet custody (ADR-0003), closes #7",
+  "parents": 2,
+  "files": [
+   {
+    "f": ".gitignore",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "docs/adr/0003-payment-rail-and-custody.md",
+    "a": 61,
+    "d": 0
+   },
+   {
+    "f": "docs/adr/0004-agent-manifest-and-deployment.md",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "docs/spikes/agent-definition.md",
+    "a": 5,
+    "d": 7
+   },
+   {
+    "f": "docs/spikes/payments-and-wallets.md",
+    "a": 84,
+    "d": 0
+   },
+   {
+    "f": "spikes/payments-poc/.env.example",
+    "a": 20,
+    "d": 0
+   },
+   {
+    "f": "spikes/payments-poc/README.md",
+    "a": 63,
+    "d": 0
+   },
+   {
+    "f": "spikes/payments-poc/pay.sh",
+    "a": 87,
+    "d": 0
+   }
+  ]
+ },
+ "e811502d53e5a160555cf1bb90380685de26e13c": {
+  "team": "Puls3",
+  "repo": "Zer0-Knowledge-Hack/puls3",
+  "author": "XxHugheadxX",
+  "date": "2026-09-26T03:01:48Z",
+  "message": "docs: decide payment rail and agent wallet custody (ADR-0003) with testnet PoC",
+  "parents": 1,
+  "files": [
+   {
+    "f": ".gitignore",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "docs/adr/0003-payment-rail-and-custody.md",
+    "a": 61,
+    "d": 0
+   },
+   {
+    "f": "docs/adr/0004-agent-manifest-and-deployment.md",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "docs/spikes/agent-definition.md",
+    "a": 5,
+    "d": 7
+   },
+   {
+    "f": "docs/spikes/payments-and-wallets.md",
+    "a": 84,
+    "d": 0
+   },
+   {
+    "f": "spikes/payments-poc/.env.example",
+    "a": 20,
+    "d": 0
+   },
+   {
+    "f": "spikes/payments-poc/README.md",
+    "a": 63,
+    "d": 0
+   },
+   {
+    "f": "spikes/payments-poc/pay.sh",
+    "a": 87,
+    "d": 0
+   }
+  ]
+ },
+ "97af40e36212eb4ccf359194f0e454b32361fb19": {
+  "team": "Puls3",
+  "repo": "Zer0-Knowledge-Hack/puls3",
+  "author": "XxHugheadxX",
+  "date": "2026-09-26T02:52:10Z",
+  "message": "Merge #56: add Agent Identity Registry contract per ADR-0002 (closes #13)",
+  "parents": 2,
+  "files": [
+   {
+    "f": ".gitignore",
+    "a": 14,
+    "d": 0
+   },
+   {
+    "f": "contracts/.gitignore",
+    "a": 4,
+    "d": 0
+   },
+   {
+    "f": "contracts/Cargo.lock",
+    "a": 7,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/identity-registry/Cargo.toml",
+    "a": 15,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/identity-registry/src/lib.rs",
+    "a": 559,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/identity-registry/src/test.rs",
+    "a": 601,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/identity-registry/test_snapshots/test/agent_wallet_lifecycle_with_dual_auth.1.json",
+    "a": 489,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/identity-registry/test_snapshots/test/auth_is_enforced_without_mock_all_auths.1.json",
+    "a": 368,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/identity-registry/test_snapshots/test/constructor_sets_name_symbol_version_and_zero_agents.1.json",
+    "a": 113,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/identity-registry/test_snapshots/test/extend_ttl_refreshes_every_agent_key.1.json",
+    "a": 439,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/identity-registry/test_snapshots/test/register_and_update_emit_topics_and_data.1.json",
+    "a": 428,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/identity-registry/test_snapshots/test/register_full_validates_everything_before_writing.1.json",
+    "a": 116,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/identity-registry/test_snapshots/test/register_full_writes_uri_and_metadata_entries.1.json",
+    "a": 460,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/identity-registry/test_snapshots/test/register_mints_sequential_ids_to_caller_with_wallet.1.json",
+    "a": 464,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/identity-registry/test_snapshots/test/register_with_uri_claims_lookup_and_token_uri.1.json",
+    "a": 505,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/identity-registry/test_snapshots/test/register_with_uri_rejects_empty_and_duplicate_uris.1.json",
+    "a": 350,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/identity-registry/test_snapshots/test/set_agent_uri_rejects_bad_input_and_strangers.1.json",
+    "a": 589,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/identity-registry/test_snapshots/test/set_agent_uri_updates_lookup_and_frees_old_uri.1.json",
+    "a": 635,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/identity-registry/test_snapshots/test/set_metadata_rejects_new_keys_over_the_limit_but_allows_updates.1.json",
+    "a": 8359,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/identity-registry/test_snapshots/test/set_metadata_round_trips_and_validates.1.json",
+    "a": 427,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/identity-registry/test_snapshots/test/writes_extend_ttl_of_touched_keys.1.json",
+    "a": 423,
+    "d": 0
+   }
+  ]
+ },
+ "2654019eb5a54db5332dbb93cf54a6edd9a5a20f": {
+  "team": "Puls3",
+  "repo": "Zer0-Knowledge-Hack/puls3",
+  "author": "XxHugheadxX",
+  "date": "2026-09-26T02:48:37Z",
+  "message": "chore: remove openspec config from the identity registry PR",
+  "parents": 1,
+  "files": [
+   {
+    "f": "openspec/changes/archive/2026-09-25-identity-registry-cleanup/proposal.md",
+    "a": 0,
+    "d": 14
+   },
+   {
+    "f": "openspec/changes/archive/2026-09-25-identity-registry-cleanup/tasks.md",
+    "a": 0,
+    "d": 11
+   },
+   {
+    "f": "openspec/config.yaml",
+    "a": 0,
+    "d": 34
+   }
+  ]
+ },
+ "eb8a4a71dfca6b57087d9446899d48c19dd40a37": {
+  "team": "Puls3",
+  "repo": "Zer0-Knowledge-Hack/puls3",
+  "author": "XxHugheadxX",
+  "date": "2026-09-26T02:48:36Z",
+  "message": "fix(contracts): extend TTL of the new URI index in set_agent_uri",
+  "parents": 1,
+  "files": [
+   {
+    "f": "contracts/contracts/identity-registry/src/lib.rs",
+    "a": 3,
+    "d": 3
+   },
+   {
+    "f": "contracts/contracts/identity-registry/src/test.rs",
+    "a": 8,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/identity-registry/test_snapshots/test/register_and_update_emit_topics_and_data.1.json",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "contracts/contracts/identity-registry/test_snapshots/test/set_agent_uri_updates_lookup_and_frees_old_uri.1.json",
+    "a": 2,
+    "d": 1
+   }
+  ]
+ },
+ "a7e3e326f11e88878a0882636800cc5fd4ff58b0": {
+  "team": "Puls3",
+  "repo": "Zer0-Knowledge-Hack/puls3",
+  "author": "moises-cisneros",
+  "date": "2026-09-25T23:34:07Z",
+  "message": "feat(contracts): add agent identity registry per ADR-0002",
+  "parents": 1,
+  "files": [
+   {
+    "f": ".gitignore",
+    "a": 14,
+    "d": 0
+   },
+   {
+    "f": "contracts/.gitignore",
+    "a": 4,
+    "d": 0
+   },
+   {
+    "f": "contracts/Cargo.lock",
+    "a": 7,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/identity-registry/Cargo.toml",
+    "a": 15,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/identity-registry/src/lib.rs",
+    "a": 559,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/identity-registry/src/test.rs",
+    "a": 593,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/identity-registry/test_snapshots/test/agent_wallet_lifecycle_with_dual_auth.1.json",
+    "a": 489,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/identity-registry/test_snapshots/test/auth_is_enforced_without_mock_all_auths.1.json",
+    "a": 368,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/identity-registry/test_snapshots/test/constructor_sets_name_symbol_version_and_zero_agents.1.json",
+    "a": 113,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/identity-registry/test_snapshots/test/extend_ttl_refreshes_every_agent_key.1.json",
+    "a": 439,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/identity-registry/test_snapshots/test/register_and_update_emit_topics_and_data.1.json",
+    "a": 428,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/identity-registry/test_snapshots/test/register_full_validates_everything_before_writing.1.json",
+    "a": 116,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/identity-registry/test_snapshots/test/register_full_writes_uri_and_metadata_entries.1.json",
+    "a": 460,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/identity-registry/test_snapshots/test/register_mints_sequential_ids_to_caller_with_wallet.1.json",
+    "a": 464,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/identity-registry/test_snapshots/test/register_with_uri_claims_lookup_and_token_uri.1.json",
+    "a": 505,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/identity-registry/test_snapshots/test/register_with_uri_rejects_empty_and_duplicate_uris.1.json",
+    "a": 350,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/identity-registry/test_snapshots/test/set_agent_uri_rejects_bad_input_and_strangers.1.json",
+    "a": 589,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/identity-registry/test_snapshots/test/set_agent_uri_updates_lookup_and_frees_old_uri.1.json",
+    "a": 634,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/identity-registry/test_snapshots/test/set_metadata_rejects_new_keys_over_the_limit_but_allows_updates.1.json",
+    "a": 8359,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/identity-registry/test_snapshots/test/set_metadata_round_trips_and_validates.1.json",
+    "a": 427,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/identity-registry/test_snapshots/test/writes_extend_ttl_of_touched_keys.1.json",
+    "a": 423,
+    "d": 0
+   },
+   {
+    "f": "openspec/changes/archive/2026-09-25-identity-registry-cleanup/proposal.md",
+    "a": 14,
+    "d": 0
+   },
+   {
+    "f": "openspec/changes/archive/2026-09-25-identity-registry-cleanup/tasks.md",
+    "a": 11,
+    "d": 0
+   },
+   {
+    "f": "openspec/config.yaml",
+    "a": 34,
+    "d": 0
+   }
+  ]
+ },
+ "7ecc7eb20a16f7c63e9b376e060fb5429a441e33": {
+  "team": "BOLAR",
+  "repo": "bolarpay/bolar-app",
+  "author": "rudyramirezc",
+  "date": "2026-09-26T03:53:50Z",
+  "message": "add login modal and user info",
+  "parents": 1,
+  "files": [
+   {
+    "f": "CLAUDE.md",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "app/pollar-app.tsx",
+    "a": 18,
+    "d": 5
+   },
+   {
+    "f": "app/pollar-login-modal.css",
+    "a": 105,
+    "d": 0
+   },
+   {
+    "f": "cursor.md",
+    "a": 58,
+    "d": 0
+   }
+  ]
  }
 }

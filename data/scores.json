@@ -1,5 +1,5 @@
 {
- "generado": "2026-09-26T02:36:25+00:00",
+ "generado": "2026-09-26T10:31:17+00:00",
  "programa": "Stellar Elite",
  "start_date": "2026-09-02T00:00:00Z",
  "teams": [
@@ -37,11 +37,11 @@
   },
   {
    "name": "Puls3",
-   "total": 163.49,
-   "per_capita": 163.49,
-   "commits": 34,
-   "pts_commits": 129.49,
-   "dias_activos": 5,
+   "total": 216.05,
+   "per_capita": 216.05,
+   "commits": 44,
+   "pts_commits": 177.05,
+   "dias_activos": 6,
    "contribuidores": [
     "TOMOKI977",
     "XxHugheadxX",
@@ -73,10 +73,10 @@
   },
   {
    "name": "BOLAR",
-   "total": 48.77,
-   "per_capita": 48.77,
-   "commits": 4,
-   "pts_commits": 27.77,
+   "total": 57.32,
+   "per_capita": 57.32,
+   "commits": 5,
+   "pts_commits": 36.32,
    "dias_activos": 3,
    "contribuidores": [
     "rudyramirezc",
@@ -249,7 +249,8 @@
    "2026-09-22": 56.959999999999994,
    "2026-09-23": 38.540000000000006,
    "2026-09-24": 16.65,
-   "2026-09-26": 8.67
+   "2026-09-25": 10.0,
+   "2026-09-26": 46.23
   },
   "Tinkazo": {
    "2026-09-16": 66.21000000000001,
@@ -283,7 +284,7 @@
   "BOLAR": {
    "2026-09-22": 9.25,
    "2026-09-24": 10.190000000000001,
-   "2026-09-26": 8.33
+   "2026-09-26": 16.880000000000003
   }
  },
  "serie_commits": {
@@ -298,7 +299,8 @@
    "2026-09-22": 15,
    "2026-09-23": 7,
    "2026-09-24": 9,
-   "2026-09-26": 2
+   "2026-09-25": 1,
+   "2026-09-26": 11
   },
   "Tinkazo": {
    "2026-09-16": 8,
@@ -332,10 +334,110 @@
   "BOLAR": {
    "2026-09-22": 1,
    "2026-09-24": 2,
-   "2026-09-26": 1
+   "2026-09-26": 2
   }
  },
  "commits": [
+  {
+   "sha": "967b1ff",
+   "team": "Puls3",
+   "repo": "Zer0-Knowledge-Hack/puls3",
+   "author": "XxHugheadxX",
+   "date": "2026-09-26T05:16:24Z",
+   "msg": "Merge #62: add testnet on-chain evidence to the README (identity registry contract, deploy and seed txs, agent payment t",
+   "pts": 0.0,
+   "nota": "merge"
+  },
+  {
+   "sha": "3ee2c5d",
+   "team": "Puls3",
+   "repo": "Zer0-Knowledge-Hack/puls3",
+   "author": "XxHugheadxX",
+   "date": "2026-09-26T04:49:32Z",
+   "msg": "docs(readme): add testnet on-chain evidence for the identity registry and agent payment",
+   "pts": 5.95,
+   "nota": ""
+  },
+  {
+   "sha": "7ecc7eb",
+   "team": "BOLAR",
+   "repo": "bolarpay/bolar-app",
+   "author": "rudyramirezc",
+   "date": "2026-09-26T03:53:50Z",
+   "msg": "add login modal and user info",
+   "pts": 8.55,
+   "nota": ""
+  },
+  {
+   "sha": "d35258c",
+   "team": "Puls3",
+   "repo": "Zer0-Knowledge-Hack/puls3",
+   "author": "XxHugheadxX",
+   "date": "2026-09-26T03:46:30Z",
+   "msg": "Merge #60: add pure Dart domain model with validated value objects, ports and typed errors (closes #9)",
+   "pts": 0.0,
+   "nota": "merge"
+  },
+  {
+   "sha": "839da02",
+   "team": "Puls3",
+   "repo": "Zer0-Knowledge-Hack/puls3",
+   "author": "XxHugheadxX",
+   "date": "2026-09-26T03:39:08Z",
+   "msg": "feat(domain): add pure Dart domain model with entities, value objects, ports and typed errors",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "9cfad86",
+   "team": "Puls3",
+   "repo": "Zer0-Knowledge-Hack/puls3",
+   "author": "XxHugheadxX",
+   "date": "2026-09-26T03:07:01Z",
+   "msg": "Merge #59: decide USDC-over-SAC payment rail and testnet agent-wallet custody (ADR-0003), closes #7",
+   "pts": 0.0,
+   "nota": "merge"
+  },
+  {
+   "sha": "e811502",
+   "team": "Puls3",
+   "repo": "Zer0-Knowledge-Hack/puls3",
+   "author": "XxHugheadxX",
+   "date": "2026-09-26T03:01:48Z",
+   "msg": "docs: decide payment rail and agent wallet custody (ADR-0003) with testnet PoC",
+   "pts": 9.38,
+   "nota": ""
+  },
+  {
+   "sha": "97af40e",
+   "team": "Puls3",
+   "repo": "Zer0-Knowledge-Hack/puls3",
+   "author": "XxHugheadxX",
+   "date": "2026-09-26T02:52:10Z",
+   "msg": "Merge #56: add Agent Identity Registry contract per ADR-0002 (closes #13)",
+   "pts": 0.0,
+   "nota": "merge"
+  },
+  {
+   "sha": "2654019",
+   "team": "Puls3",
+   "repo": "Zer0-Knowledge-Hack/puls3",
+   "author": "XxHugheadxX",
+   "date": "2026-09-26T02:48:37Z",
+   "msg": "chore: remove openspec config from the identity registry PR",
+   "pts": 6.91,
+   "nota": ""
+  },
+  {
+   "sha": "eb8a4a7",
+   "team": "Puls3",
+   "repo": "Zer0-Knowledge-Hack/puls3",
+   "author": "XxHugheadxX",
+   "date": "2026-09-26T02:48:36Z",
+   "msg": "fix(contracts): extend TTL of the new URI index in set_agent_uri",
+   "pts": 5.32,
+   "nota": ""
+  },
   {
    "sha": "9e1f9ec",
    "team": "Puls3",
@@ -394,6 +496,16 @@
    "date": "2026-09-26T00:11:26Z",
    "msg": "fix pollar integration",
    "pts": 8.33,
+   "nota": ""
+  },
+  {
+   "sha": "a7e3e32",
+   "team": "Puls3",
+   "repo": "Zer0-Knowledge-Hack/puls3",
+   "author": "moises-cisneros",
+   "date": "2026-09-25T23:34:07Z",
+   "msg": "feat(contracts): add agent identity registry per ADR-0002",
+   "pts": 10,
    "nota": ""
   },
   {
