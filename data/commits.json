@@ -23772,5 +23772,355 @@
     "d": 6
    }
   ]
+ },
+ "9e1f9ecf45de542ddb37b97680e8cc957d5bc7e4": {
+  "team": "Puls3",
+  "repo": "Zer0-Knowledge-Hack/puls3",
+  "author": "XxHugheadxX",
+  "date": "2026-09-26T02:33:39Z",
+  "message": "Merge pull request #57 from Zer0-Knowledge-Hack/docs/33-agent-definition",
+  "parents": 2,
+  "files": [
+   {
+    "f": "docs/adr/0004-agent-manifest-and-deployment.md",
+    "a": 47,
+    "d": 0
+   },
+   {
+    "f": "docs/architecture/examples/agent-manifest.example.json",
+    "a": 43,
+    "d": 0
+   },
+   {
+    "f": "docs/spikes/agent-definition.md",
+    "a": 112,
+    "d": 0
+   }
+  ]
+ },
+ "bf7137b9af143202e59f2d17e6ae926ff06e50a1": {
+  "team": "Puls3",
+  "repo": "Zer0-Knowledge-Hack/puls3",
+  "author": "XxHugheadxX",
+  "date": "2026-09-26T02:28:05Z",
+  "message": "docs: add agent definition spike and ADR-0004",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/adr/0004-agent-manifest-and-deployment.md",
+    "a": 47,
+    "d": 0
+   },
+   {
+    "f": "docs/architecture/examples/agent-manifest.example.json",
+    "a": 43,
+    "d": 0
+   },
+   {
+    "f": "docs/spikes/agent-definition.md",
+    "a": 112,
+    "d": 0
+   }
+  ]
+ },
+ "f94197f9c8409d0374df30d660bf12b089de7045": {
+  "team": "Impulso Stellar",
+  "repo": "orlando-vazquez-career/stellar-impulse",
+  "author": "Hans3010",
+  "date": "2026-09-26T00:49:28Z",
+  "message": "Merge pull request #3 from orlando-vazquez-career/feat/campaign-room",
+  "parents": 2,
+  "files": [
+   {
+    "f": "apps/server/package.json",
+    "a": 7,
+    "d": 4
+   },
+   {
+    "f": "apps/server/src/app.ts",
+    "a": 34,
+    "d": 0
+   },
+   {
+    "f": "apps/server/src/campaign-room.test.ts",
+    "a": 73,
+    "d": 0
+   },
+   {
+    "f": "apps/server/src/campaign-room.ts",
+    "a": 154,
+    "d": 0
+   },
+   {
+    "f": "apps/server/src/campaign/machine.test.ts",
+    "a": 200,
+    "d": 0
+   },
+   {
+    "f": "apps/server/src/campaign/machine.ts",
+    "a": 267,
+    "d": 0
+   },
+   {
+    "f": "apps/server/src/index.ts",
+    "a": 3,
+    "d": 23
+   },
+   {
+    "f": "docs/README.md",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "docs/protocol.md",
+    "a": 86,
+    "d": 0
+   },
+   {
+    "f": "docs/status.md",
+    "a": 8,
+    "d": 1
+   },
+   {
+    "f": "packages/input/src/index.ts",
+    "a": 2,
+    "d": 0
+   },
+   {
+    "f": "packages/input/src/protocol.test.ts",
+    "a": 52,
+    "d": 0
+   },
+   {
+    "f": "packages/input/src/protocol.ts",
+    "a": 64,
+    "d": 0
+   },
+   {
+    "f": "pnpm-lock.yaml",
+    "a": 4,
+    "d": 0
+   }
+  ]
+ },
+ "263a4cbcf877fd429b8f5b1b1951fe56806de719": {
+  "team": "Impulso Stellar",
+  "repo": "orlando-vazquez-career/stellar-impulse",
+  "author": "Ismaelolazo",
+  "date": "2026-09-26T00:44:12Z",
+  "message": "Merge branch 'main' into feat/campaign-room",
+  "parents": 2,
+  "files": [
+   {
+    "f": "contracts/cosmetics/src/lib.rs",
+    "a": 114,
+    "d": 32
+   },
+   {
+    "f": "contracts/cosmetics/src/test.rs",
+    "a": 130,
+    "d": 4
+   },
+   {
+    "f": "docs/blockchain.md",
+    "a": 21,
+    "d": 2
+   },
+   {
+    "f": "docs/product.md",
+    "a": 1,
+    "d": 1
+   }
+  ]
+ },
+ "e330998f657b0e2f925ad0a75849c4146de8dffc": {
+  "team": "Impulso Stellar",
+  "repo": "orlando-vazquez-career/stellar-impulse",
+  "author": "Hans3010",
+  "date": "2026-09-26T00:41:12Z",
+  "message": "Merge pull request #4 from orlando-vazquez-career/feat/cosmetics-hardening",
+  "parents": 2,
+  "files": [
+   {
+    "f": "contracts/cosmetics/src/lib.rs",
+    "a": 114,
+    "d": 32
+   },
+   {
+    "f": "contracts/cosmetics/src/test.rs",
+    "a": 130,
+    "d": 4
+   },
+   {
+    "f": "docs/blockchain.md",
+    "a": 21,
+    "d": 2
+   },
+   {
+    "f": "docs/product.md",
+    "a": 1,
+    "d": 1
+   }
+  ]
+ },
+ "6ee8fe1a87e3760b8d1322b3e765a3d31f57dfe7": {
+  "team": "Impulso Stellar",
+  "repo": "orlando-vazquez-career/stellar-impulse",
+  "author": "orlando-vazquez-career",
+  "date": "2026-09-25T19:57:20Z",
+  "message": "docs: decisión D05 (versiones, permisos, SEP-10 completo y XLM nativo)",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/blockchain.md",
+    "a": 12,
+    "d": 0
+   },
+   {
+    "f": "docs/product.md",
+    "a": 1,
+    "d": 1
+   }
+  ]
+ },
+ "83e785cf493ee38abff08e5dd4551d417b44022f": {
+  "team": "Impulso Stellar",
+  "repo": "orlando-vazquez-career/stellar-impulse",
+  "author": "orlando-vazquez-career",
+  "date": "2026-09-25T19:42:10Z",
+  "message": "feat(contracts): cosmetics v3 con roles distintos, rotación en dos pasos e inventario ligado",
+  "parents": 1,
+  "files": [
+   {
+    "f": "contracts/cosmetics/src/lib.rs",
+    "a": 114,
+    "d": 32
+   },
+   {
+    "f": "contracts/cosmetics/src/test.rs",
+    "a": 130,
+    "d": 4
+   },
+   {
+    "f": "docs/blockchain.md",
+    "a": 9,
+    "d": 2
+   }
+  ]
+ },
+ "b9492969f1a9208a5a9747d1448087aebeb56cee": {
+  "team": "Impulso Stellar",
+  "repo": "orlando-vazquez-career/stellar-impulse",
+  "author": "orlando-vazquez-career",
+  "date": "2026-09-25T19:26:33Z",
+  "message": "feat(server): sala de campaña con fases, protocolo versionado y reconexión con pausa",
+  "parents": 1,
+  "files": [
+   {
+    "f": "apps/server/package.json",
+    "a": 7,
+    "d": 4
+   },
+   {
+    "f": "apps/server/src/app.ts",
+    "a": 34,
+    "d": 0
+   },
+   {
+    "f": "apps/server/src/campaign-room.test.ts",
+    "a": 73,
+    "d": 0
+   },
+   {
+    "f": "apps/server/src/campaign-room.ts",
+    "a": 154,
+    "d": 0
+   },
+   {
+    "f": "apps/server/src/campaign/machine.test.ts",
+    "a": 200,
+    "d": 0
+   },
+   {
+    "f": "apps/server/src/campaign/machine.ts",
+    "a": 267,
+    "d": 0
+   },
+   {
+    "f": "apps/server/src/index.ts",
+    "a": 3,
+    "d": 23
+   },
+   {
+    "f": "docs/README.md",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "docs/protocol.md",
+    "a": 86,
+    "d": 0
+   },
+   {
+    "f": "docs/status.md",
+    "a": 8,
+    "d": 1
+   },
+   {
+    "f": "packages/input/src/index.ts",
+    "a": 2,
+    "d": 0
+   },
+   {
+    "f": "packages/input/src/protocol.test.ts",
+    "a": 52,
+    "d": 0
+   },
+   {
+    "f": "packages/input/src/protocol.ts",
+    "a": 64,
+    "d": 0
+   },
+   {
+    "f": "pnpm-lock.yaml",
+    "a": 4,
+    "d": 0
+   }
+  ]
+ },
+ "f53cfdb7d0ef336bb31307174a79a4d80fbf4dcd": {
+  "team": "BOLAR",
+  "repo": "bolarpay/bolar-app",
+  "author": "rudyramirezc",
+  "date": "2026-09-26T00:11:26Z",
+  "message": "fix pollar integration",
+  "parents": 1,
+  "files": [
+   {
+    "f": ".env.example",
+    "a": 16,
+    "d": 0
+   },
+   {
+    "f": ".gitignore",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "CLAUDE.md",
+    "a": 69,
+    "d": 0
+   },
+   {
+    "f": "app/page.tsx",
+    "a": 5,
+    "d": 30
+   },
+   {
+    "f": "app/pollar-app.tsx",
+    "a": 39,
+    "d": 0
+   }
+  ]
  }
 }

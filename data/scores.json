@@ -1,5 +1,5 @@
 {
- "generado": "2026-09-25T20:52:54+00:00",
+ "generado": "2026-09-26T02:36:25+00:00",
  "programa": "Stellar Elite",
  "start_date": "2026-09-02T00:00:00Z",
  "teams": [
@@ -37,11 +37,11 @@
   },
   {
    "name": "Puls3",
-   "total": 149.82,
-   "per_capita": 149.82,
-   "commits": 32,
-   "pts_commits": 120.82,
-   "dias_activos": 4,
+   "total": 163.49,
+   "per_capita": 163.49,
+   "commits": 34,
+   "pts_commits": 129.49,
+   "dias_activos": 5,
    "contribuidores": [
     "TOMOKI977",
     "XxHugheadxX",
@@ -55,10 +55,10 @@
   },
   {
    "name": "Impulso Stellar",
-   "total": 45.0,
-   "per_capita": 45.0,
-   "commits": 5,
-   "pts_commits": 21.0,
+   "total": 69.1,
+   "per_capita": 69.1,
+   "commits": 11,
+   "pts_commits": 45.1,
    "dias_activos": 3,
    "contribuidores": [
     "Hans3010",
@@ -73,11 +73,11 @@
   },
   {
    "name": "BOLAR",
-   "total": 35.44,
-   "per_capita": 35.44,
-   "commits": 3,
-   "pts_commits": 19.44,
-   "dias_activos": 2,
+   "total": 48.77,
+   "per_capita": 48.77,
+   "commits": 4,
+   "pts_commits": 27.77,
+   "dias_activos": 3,
    "contribuidores": [
     "rudyramirezc",
     "sass3r"
@@ -248,7 +248,8 @@
    "2026-09-13": 8.67,
    "2026-09-22": 56.959999999999994,
    "2026-09-23": 38.540000000000006,
-   "2026-09-24": 16.65
+   "2026-09-24": 16.65,
+   "2026-09-26": 8.67
   },
   "Tinkazo": {
    "2026-09-16": 66.21000000000001,
@@ -276,11 +277,13 @@
   "Impulso Stellar": {
    "2026-09-22": 1.0,
    "2026-09-23": 10.0,
-   "2026-09-25": 10.0
+   "2026-09-25": 34.1,
+   "2026-09-26": 0.0
   },
   "BOLAR": {
    "2026-09-22": 9.25,
-   "2026-09-24": 10.190000000000001
+   "2026-09-24": 10.190000000000001,
+   "2026-09-26": 8.33
   }
  },
  "serie_commits": {
@@ -294,7 +297,8 @@
    "2026-09-13": 1,
    "2026-09-22": 15,
    "2026-09-23": 7,
-   "2026-09-24": 9
+   "2026-09-24": 9,
+   "2026-09-26": 2
   },
   "Tinkazo": {
    "2026-09-16": 8,
@@ -322,14 +326,106 @@
   "Impulso Stellar": {
    "2026-09-22": 1,
    "2026-09-23": 2,
-   "2026-09-25": 2
+   "2026-09-25": 5,
+   "2026-09-26": 3
   },
   "BOLAR": {
    "2026-09-22": 1,
-   "2026-09-24": 2
+   "2026-09-24": 2,
+   "2026-09-26": 1
   }
  },
  "commits": [
+  {
+   "sha": "9e1f9ec",
+   "team": "Puls3",
+   "repo": "Zer0-Knowledge-Hack/puls3",
+   "author": "XxHugheadxX",
+   "date": "2026-09-26T02:33:39Z",
+   "msg": "Merge pull request #57 from Zer0-Knowledge-Hack/docs/33-agent-definition",
+   "pts": 0.0,
+   "nota": "merge"
+  },
+  {
+   "sha": "bf7137b",
+   "team": "Puls3",
+   "repo": "Zer0-Knowledge-Hack/puls3",
+   "author": "XxHugheadxX",
+   "date": "2026-09-26T02:28:05Z",
+   "msg": "docs: add agent definition spike and ADR-0004",
+   "pts": 8.67,
+   "nota": ""
+  },
+  {
+   "sha": "f94197f",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "Hans3010",
+   "date": "2026-09-26T00:49:28Z",
+   "msg": "Merge pull request #3 from orlando-vazquez-career/feat/campaign-room",
+   "pts": 0.0,
+   "nota": "merge"
+  },
+  {
+   "sha": "263a4cb",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "Ismaelolazo",
+   "date": "2026-09-26T00:44:12Z",
+   "msg": "Merge branch 'main' into feat/campaign-room",
+   "pts": 0.0,
+   "nota": "merge"
+  },
+  {
+   "sha": "e330998",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "Hans3010",
+   "date": "2026-09-26T00:41:12Z",
+   "msg": "Merge pull request #4 from orlando-vazquez-career/feat/cosmetics-hardening",
+   "pts": 0.0,
+   "nota": "merge"
+  },
+  {
+   "sha": "f53cfdb",
+   "team": "BOLAR",
+   "repo": "bolarpay/bolar-app",
+   "author": "rudyramirezc",
+   "date": "2026-09-26T00:11:26Z",
+   "msg": "fix pollar integration",
+   "pts": 8.33,
+   "nota": ""
+  },
+  {
+   "sha": "6ee8fe1",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "orlando-vazquez-career",
+   "date": "2026-09-25T19:57:20Z",
+   "msg": "docs: decisión D05 (versiones, permisos, SEP-10 completo y XLM nativo)",
+   "pts": 4.91,
+   "nota": ""
+  },
+  {
+   "sha": "83e785c",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "orlando-vazquez-career",
+   "date": "2026-09-25T19:42:10Z",
+   "msg": "feat(contracts): cosmetics v3 con roles distintos, rotación en dos pasos e inventario ligado",
+   "pts": 9.19,
+   "nota": ""
+  },
+  {
+   "sha": "b949296",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "orlando-vazquez-career",
+   "date": "2026-09-25T19:26:33Z",
+   "msg": "feat(server): sala de campaña con fases, protocolo versionado y reconexión con pausa",
+   "pts": 10,
+   "nota": ""
+  },
   {
    "sha": "c8ca21a",
    "team": "Tinkazo",
