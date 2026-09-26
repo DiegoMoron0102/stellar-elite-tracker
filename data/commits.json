@@ -24722,5 +24722,100 @@
     "d": 0
    }
   ]
+ },
+ "a4769d02aff8171db70074a4679b58ebacb346b2": {
+  "team": "Puls3",
+  "repo": "Zer0-Knowledge-Hack/puls3",
+  "author": "TOMOKI977",
+  "date": "2026-09-26T15:50:38Z",
+  "message": "chore(server): complete Serverpod scaffold",
+  "parents": 1,
+  "files": [
+   {
+    "f": "puls3_client/lib/src/protocol/client.dart",
+    "a": 24,
+    "d": 2
+   },
+   {
+    "f": "puls3_client/lib/src/protocol/health/backend_health.dart",
+    "a": 57,
+    "d": 0
+   },
+   {
+    "f": "puls3_client/lib/src/protocol/protocol.dart",
+    "a": 24,
+    "d": 10
+   },
+   {
+    "f": "puls3_flutter/lib/main.dart",
+    "a": 14,
+    "d": 3
+   },
+   {
+    "f": "puls3_flutter/lib/src/app.dart",
+    "a": 49,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/test/app_health_test.dart",
+    "a": 14,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/test/helpers.dart",
+    "a": 2,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/README.md",
+    "a": 68,
+    "d": 7
+   },
+   {
+    "f": "puls3_server/lib/src/generated/endpoints.dart",
+    "a": 27,
+    "d": 4
+   },
+   {
+    "f": "puls3_server/lib/src/generated/health/backend_health.dart",
+    "a": 66,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/generated/protocol.dart",
+    "a": 14,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/generated/protocol.yaml",
+    "a": 2,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/health/backend_health.spy.yaml",
+    "a": 5,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/health/health_endpoint.dart",
+    "a": 14,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/pubspec.yaml",
+    "a": 4,
+    "d": 1
+   },
+   {
+    "f": "puls3_server/test/integration/health_endpoint_test.dart",
+    "a": 14,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/test/integration/test_tools/serverpod_test_tools.dart",
+    "a": 48,
+    "d": 0
+   }
+  ]
  }
 }
