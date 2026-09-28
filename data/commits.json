@@ -24892,5 +24892,2300 @@
     "d": 0
    }
   ]
+ },
+ "3c3ca2524267979e7fc71eb655d39397961364d5": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-09-28T21:31:49Z",
+  "message": "Saca el documento interno de postulación del repositorio",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/scf.md",
+    "a": 0,
+    "d": 208
+   }
+  ]
+ },
+ "09430cfbe4d66f902e8177da07379871130f79a3": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-09-28T20:59:46Z",
+  "message": "El Aguayo y cuatro juegos nuevos de la cultura boliviana y latinoamericana",
+  "parents": 1,
+  "files": [
+   {
+    "f": "CLAUDE.md",
+    "a": 3,
+    "d": 3
+   },
+   {
+    "f": "README.es.md",
+    "a": 9,
+    "d": 5
+   },
+   {
+    "f": "README.md",
+    "a": 9,
+    "d": 5
+   },
+   {
+    "f": "docs/amenazas.md",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "docs/architecture.md",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "docs/capturas/juego-oruro-celular-ganador.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/juego-oruro-celular.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/juego-oruro-dark.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/juego-oruro-light.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/juego-oruro.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/juego-pasanaku-celular-ganador.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/juego-pasanaku-celular.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/juego-pasanaku-dark.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/juego-pasanaku-light.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/juego-pasanaku.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/juego-pinata-celular-ganador.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/juego-pinata-celular.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/juego-pinata-dark.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/juego-pinata-light.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/juego-pinata.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/juego-totora-celular-ganador.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/juego-totora-celular.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/juego-totora-dark.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/juego-totora-light.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/juego-totora.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/juego-trompo-celular-ganador.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/juego-trompo-celular.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/juego-trompo-dark.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/juego-trompo-light.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/juego-trompo.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/ui-cabecera-celular-dark.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/ui-cabecera-celular-light.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/ui-cabecera-escritorio-dark.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/ui-cabecera-escritorio-light.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/ui-cuenta-celular-dark.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/ui-cuenta-celular-light.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/ui-cuenta-escritorio-dark.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/ui-cuenta-escritorio-light.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/ui-juegos-celular.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/ui-juegos-escritorio.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/juegos.md",
+    "a": 14,
+    "d": 2
+   },
+   {
+    "f": "docs/motores.md",
+    "a": 6,
+    "d": 1
+   },
+   {
+    "f": "historia.html",
+    "a": 4,
+    "d": 4
+   },
+   {
+    "f": "index.html",
+    "a": 7,
+    "d": 3
+   },
+   {
+    "f": "juegos.html",
+    "a": 43,
+    "d": 3
+   },
+   {
+    "f": "public/juegos/oruro-light.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/oruro.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/pinata-light.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/pinata.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/totora-light.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/totora.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/trompo-light.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/trompo.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "scripts/audit-emocion.mjs",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "scripts/audit-game.mjs",
+    "a": 17,
+    "d": 2
+   },
+   {
+    "f": "scripts/audit-rigor.mjs",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "scripts/audit-sound.mjs",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "scripts/check-paginas.mjs",
+    "a": 8,
+    "d": 2
+   },
+   {
+    "f": "src/games/llamas/pixi-race.ts",
+    "a": 111,
+    "d": 16
+   },
+   {
+    "f": "src/games/lore.ts",
+    "a": 50,
+    "d": 3
+   },
+   {
+    "f": "src/games/pasanaku.ts",
+    "a": 40,
+    "d": 36
+   },
+   {
+    "f": "src/games/pixi/index.ts",
+    "a": 7,
+    "d": 0
+   },
+   {
+    "f": "src/games/pixi/oruro.ts",
+    "a": 566,
+    "d": 0
+   },
+   {
+    "f": "src/games/pixi/pasanaku.ts",
+    "a": 22,
+    "d": 16
+   },
+   {
+    "f": "src/games/pixi/pinata.ts",
+    "a": 547,
+    "d": 0
+   },
+   {
+    "f": "src/games/pixi/trompo.ts",
+    "a": 625,
+    "d": 0
+   },
+   {
+    "f": "src/i18n.ts",
+    "a": 179,
+    "d": 37
+   },
+   {
+    "f": "src/main.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/state.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/ui/thumbs.ts",
+    "a": 192,
+    "d": 0
+   }
+  ]
+ },
+ "59a692ac917e38298263647979500a25fb22f8ce": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-09-28T19:42:23Z",
+  "message": "Un logo con la llama: sello amarillo, sombra de color y un salto cada tanto",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/capturas/ui-cabecera-celular-dark.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/ui-cabecera-celular-light.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/ui-cabecera-escritorio-dark.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/ui-cabecera-escritorio-light.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/ui-cuenta-celular-dark.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/ui-cuenta-celular-light.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/ui-cuenta-escritorio-dark.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/ui-cuenta-escritorio-light.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/ui-juegos-celular.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/ui-juegos-escritorio.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "historia.html",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "index.html",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "juegos.html",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "precios.html",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "seguridad.html",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/styles.css",
+    "a": 26,
+    "d": 2
+   },
+   {
+    "f": "terminos.html",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "verificar.html",
+    "a": 1,
+    "d": 1
+   }
+  ]
+ },
+ "bde02a42a99920a1f793558cfced50353f648b95": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-09-28T19:31:11Z",
+  "message": "Un plan de 30 días en el README, y los juegos se ven en inglés",
+  "parents": 1,
+  "files": [
+   {
+    "f": "README.es.md",
+    "a": 14,
+    "d": 11
+   },
+   {
+    "f": "README.md",
+    "a": 15,
+    "d": 12
+   },
+   {
+    "f": "docs/capturas/juego-wheel-celular-ganador.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/juego-wheel-celular.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/juego-wheel-dark.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/juego-wheel-light.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/juego-wheel.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "index.html",
+    "a": 8,
+    "d": 8
+   },
+   {
+    "f": "scripts/audit-game.mjs",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/i18n.ts",
+    "a": 4,
+    "d": 4
+   }
+  ]
+ },
+ "7ec6606400f9eddb81474cd574d32379c32d3cd1": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-09-28T19:25:11Z",
+  "message": "Los USDC como recompensas para cualquier comunidad, sin que nadie tenga que saber de blockchain",
+  "parents": 1,
+  "files": [
+   {
+    "f": "README.es.md",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "README.md",
+    "a": 2,
+    "d": 2
+   }
+  ]
+ },
+ "78b7f5e9d1f2cd5282281b4fc553150dbf262658": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-09-28T19:19:45Z",
+  "message": "Tinkazo no es de apuestas, y ahora se nota desde afuera",
+  "parents": 1,
+  "files": [
+   {
+    "f": "README.es.md",
+    "a": 12,
+    "d": 4
+   },
+   {
+    "f": "README.md",
+    "a": 15,
+    "d": 7
+   },
+   {
+    "f": "docs/capturas/ui-cabecera-celular-dark.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/ui-cabecera-celular-light.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/ui-cabecera-escritorio-dark.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/ui-cabecera-escritorio-light.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/ui-cuenta-celular-dark.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/ui-cuenta-celular-light.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/ui-cuenta-escritorio-dark.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/ui-cuenta-escritorio-light.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/ui-juegos-celular.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/ui-juegos-escritorio.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/legal.md",
+    "a": 7,
+    "d": 0
+   },
+   {
+    "f": "index.html",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "src/i18n.ts",
+    "a": 69,
+    "d": 67
+   },
+   {
+    "f": "src/ui/freeze.ts",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "src/ui/participants.ts",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "src/ui/rules.test.ts",
+    "a": 1,
+    "d": 1
+   }
+  ]
+ },
+ "03487f05b76dcdff95214c745fe2f91f9d9616a0": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-09-28T18:32:51Z",
+  "message": "El motor nuevo pasa a ser el de todos",
+  "parents": 1,
+  "files": [
+   {
+    "f": "CLAUDE.md",
+    "a": 4,
+    "d": 3
+   },
+   {
+    "f": "README.es.md",
+    "a": 5,
+    "d": 3
+   },
+   {
+    "f": "README.md",
+    "a": 5,
+    "d": 3
+   },
+   {
+    "f": "docs/capturas/juego-ledger-celular-ganador.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/juego-ledger-celular.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/juego-ledger-dark.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/juego-ledger-light.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/juego-ledger.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/juego-pasanaku-celular-ganador.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/juego-pasanaku-celular.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/juego-pasanaku-dark.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/juego-pasanaku-light.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/juego-pasanaku.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/juego-race-celular-ganador.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/juego-race-celular.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/juego-race-dark.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/juego-race-light.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/juego-race.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/juego-rockets-celular-ganador.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/juego-rockets-celular.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/juego-rockets-dark.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/juego-rockets-light.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/juego-rockets.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/juego-stellar-celular-ganador.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/juego-stellar-celular.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/juego-stellar-dark.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/juego-stellar-light.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/juego-stellar.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/juego-teleferico-celular-ganador.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/juego-teleferico-celular.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/juego-teleferico-dark.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/juego-teleferico-light.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/juego-teleferico.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/juego-tombola-celular-ganador.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/juego-tombola-celular.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/juego-tombola-dark.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/juego-tombola-light.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/juego-tombola.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/juego-wheel-celular-ganador.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/juego-wheel-celular.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/juego-wheel-dark.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/juego-wheel-light.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/juego-wheel.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/readme/juegos.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/motores.md",
+    "a": 10,
+    "d": 2
+   },
+   {
+    "f": "public/juegos/ledger-light.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/ledger.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/pasanaku-light.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/pasanaku.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/race-light.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/race.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/rockets-light.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/rockets.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/stellar-light.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/stellar.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/teleferico-light.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/teleferico.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/tombola-light.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/tombola.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/wheel-light.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/wheel.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "scripts/audit-emocion.mjs",
+    "a": 12,
+    "d": 12
+   },
+   {
+    "f": "scripts/audit-game.mjs",
+    "a": 4,
+    "d": 3
+   },
+   {
+    "f": "scripts/audit-rigor.mjs",
+    "a": 4,
+    "d": 3
+   },
+   {
+    "f": "scripts/audit-sound.mjs",
+    "a": 4,
+    "d": 3
+   },
+   {
+    "f": "scripts/capturas-juegos.mjs",
+    "a": 4,
+    "d": 1
+   },
+   {
+    "f": "scripts/lib/browser.mjs",
+    "a": 3,
+    "d": 0
+   },
+   {
+    "f": "src/games/engine.ts",
+    "a": 33,
+    "d": 0
+   },
+   {
+    "f": "src/games/llamas/pixi-race.ts",
+    "a": 14,
+    "d": 7
+   },
+   {
+    "f": "src/games/pixi/index.ts",
+    "a": 14,
+    "d": 5
+   },
+   {
+    "f": "src/games/pixi/stage.ts",
+    "a": 30,
+    "d": 13
+   },
+   {
+    "f": "src/games/race.ts",
+    "a": 5,
+    "d": 1
+   },
+   {
+    "f": "src/main.ts",
+    "a": 4,
+    "d": 6
+   },
+   {
+    "f": "src/ui/draw.ts",
+    "a": 12,
+    "d": 9
+   }
+  ]
+ },
+ "134c5bfb7cf8fb528d70ab0dbc98107919926c20": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-09-28T16:52:07Z",
+  "message": "Un relator que habla menos y con frases que suenan de acá",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/architecture.md",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "docs/epics.md",
+    "a": 2,
+    "d": 0
+   },
+   {
+    "f": "src/games/llamas/pixi-race.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/games/pixi/tombola.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/games/pixi/wheel.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/games/race.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/games/tombola.ts",
+    "a": 3,
+    "d": 2
+   },
+   {
+    "f": "src/games/wheel.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/i18n.ts",
+    "a": 55,
+    "d": 55
+   },
+   {
+    "f": "src/narrator.test.ts",
+    "a": 75,
+    "d": 2
+   },
+   {
+    "f": "src/narrator.ts",
+    "a": 21,
+    "d": 0
+   }
+  ]
+ },
+ "da7c4b2011f065c03d893a0a8a819c34db6b01a2": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-09-28T13:58:51Z",
+  "message": "Los ocho juegos en PixiJS, con un director de cámara",
+  "parents": 1,
+  "files": [
+   {
+    "f": "CLAUDE.md",
+    "a": 3,
+    "d": 1
+   },
+   {
+    "f": "docs/motores.md",
+    "a": 64,
+    "d": 0
+   },
+   {
+    "f": "package.json",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "pnpm-lock.yaml",
+    "a": 18,
+    "d": 0
+   },
+   {
+    "f": "scripts/audit-emocion.mjs",
+    "a": 4,
+    "d": 1
+   },
+   {
+    "f": "scripts/audit-game.mjs",
+    "a": 15,
+    "d": 6
+   },
+   {
+    "f": "scripts/audit-rigor.mjs",
+    "a": 14,
+    "d": 5
+   },
+   {
+    "f": "scripts/audit-sound.mjs",
+    "a": 4,
+    "d": 1
+   },
+   {
+    "f": "scripts/lib/browser.mjs",
+    "a": 4,
+    "d": 1
+   },
+   {
+    "f": "src/games/constellation.ts",
+    "a": 4,
+    "d": 2
+   },
+   {
+    "f": "src/games/llamas/pixi-race.ts",
+    "a": 420,
+    "d": 637
+   },
+   {
+    "f": "src/games/overlay.ts",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "src/games/pixi/cablecar-plan.ts",
+    "a": 353,
+    "d": 0
+   },
+   {
+    "f": "src/games/pixi/cablecar.ts",
+    "a": 752,
+    "d": 0
+   },
+   {
+    "f": "src/games/pixi/camera.ts",
+    "a": 127,
+    "d": 0
+   },
+   {
+    "f": "src/games/pixi/constellation.ts",
+    "a": 504,
+    "d": 0
+   },
+   {
+    "f": "src/games/pixi/index.ts",
+    "a": 39,
+    "d": 0
+   },
+   {
+    "f": "src/games/pixi/ledger.ts",
+    "a": 541,
+    "d": 0
+   },
+   {
+    "f": "src/games/pixi/pasanaku.ts",
+    "a": 543,
+    "d": 0
+   },
+   {
+    "f": "src/games/pixi/stage.ts",
+    "a": 393,
+    "d": 0
+   },
+   {
+    "f": "src/games/pixi/tombola.ts",
+    "a": 686,
+    "d": 0
+   },
+   {
+    "f": "src/games/pixi/wheel.ts",
+    "a": 500,
+    "d": 0
+   },
+   {
+    "f": "src/main.ts",
+    "a": 9,
+    "d": 4
+   },
+   {
+    "f": "src/ui/draw.ts",
+    "a": 15,
+    "d": 6
+   }
+  ]
+ },
+ "fe35cc346f230bb6e2667fae1aeaa0eb71151c2c": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-09-27T13:53:09Z",
+  "message": "Un README para quien evalúa el proyecto, en inglés y en español",
+  "parents": 1,
+  "files": [
+   {
+    "f": "README.es.md",
+    "a": 199,
+    "d": 0
+   },
+   {
+    "f": "README.md",
+    "a": 137,
+    "d": 102
+   },
+   {
+    "f": "docs/capturas/readme/hero.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/readme/juegos.webp",
+    "a": 0,
+    "d": 0
+   }
+  ]
+ },
+ "dd7f01a8a67357eb07de2fc62fe819be55e345a9": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-09-27T13:47:58Z",
+  "message": "La carrera en PixiJS y GSAP, como prototipo",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/epics.md",
+    "a": 10,
+    "d": 0
+   },
+   {
+    "f": "package.json",
+    "a": 2,
+    "d": 0
+   },
+   {
+    "f": "pnpm-lock.yaml",
+    "a": 86,
+    "d": 0
+   },
+   {
+    "f": "src/games/llamas/pixi-race.ts",
+    "a": 1110,
+    "d": 0
+   },
+   {
+    "f": "src/games/llamas/plan.ts",
+    "a": 213,
+    "d": 0
+   },
+   {
+    "f": "src/main.ts",
+    "a": 4,
+    "d": 0
+   },
+   {
+    "f": "src/ui/draw.ts",
+    "a": 7,
+    "d": 1
+   }
+  ]
+ },
+ "dceefabaa60c2f9f9a08ba5421db0499c6d7efc4": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-09-26T14:10:16Z",
+  "message": "Un relator que se entiende y un modo con música andina",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/capturas/ui-cabecera-celular-dark.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/ui-cabecera-celular-light.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/ui-cabecera-escritorio-dark.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/ui-cabecera-escritorio-light.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/ui-cuenta-celular-dark.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/ui-cuenta-celular-light.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/ui-cuenta-escritorio-dark.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/ui-cuenta-escritorio-light.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/ui-juegos-celular.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/ui-juegos-escritorio.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/epics.md",
+    "a": 10,
+    "d": 0
+   },
+   {
+    "f": "docs/juegos.md",
+    "a": 20,
+    "d": 2
+   },
+   {
+    "f": "index.html",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "scripts/audit-sound.mjs",
+    "a": 5,
+    "d": 1
+   },
+   {
+    "f": "src/games/overlay.ts",
+    "a": 6,
+    "d": 0
+   },
+   {
+    "f": "src/games/race.ts",
+    "a": 4,
+    "d": 0
+   },
+   {
+    "f": "src/i18n.ts",
+    "a": 14,
+    "d": 0
+   },
+   {
+    "f": "src/main.ts",
+    "a": 60,
+    "d": 7
+   },
+   {
+    "f": "src/music.ts",
+    "a": 547,
+    "d": 0
+   },
+   {
+    "f": "src/narrator.test.ts",
+    "a": 15,
+    "d": 0
+   },
+   {
+    "f": "src/narrator.ts",
+    "a": 129,
+    "d": 38
+   },
+   {
+    "f": "src/sound.ts",
+    "a": 5,
+    "d": 0
+   },
+   {
+    "f": "src/styles.css",
+    "a": 3,
+    "d": 0
+   }
+  ]
+ },
+ "217bde0e1bd02df71b80830e13ec87e22622747a": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-09-26T12:53:57Z",
+  "message": "Del export de Luma a la lista, solo los que fueron",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/capturas/ui-cabecera-celular-dark.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/ui-cabecera-celular-light.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/ui-cabecera-escritorio-dark.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/ui-cabecera-escritorio-light.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/ui-cuenta-celular-dark.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/ui-cuenta-celular-light.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/ui-cuenta-escritorio-dark.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/ui-cuenta-escritorio-light.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/ui-juegos-celular.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/ui-juegos-escritorio.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/epics.md",
+    "a": 18,
+    "d": 1
+   },
+   {
+    "f": "docs/premios.md",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "index.html",
+    "a": 4,
+    "d": 2
+   },
+   {
+    "f": "src/i18n.ts",
+    "a": 14,
+    "d": 0
+   },
+   {
+    "f": "src/styles.css",
+    "a": 2,
+    "d": 0
+   },
+   {
+    "f": "src/ui/csv.test.ts",
+    "a": 42,
+    "d": 1
+   },
+   {
+    "f": "src/ui/csv.ts",
+    "a": 81,
+    "d": 0
+   },
+   {
+    "f": "src/ui/participants.ts",
+    "a": 52,
+    "d": 4
+   }
+  ]
+ },
+ "970e294318f991f2db6ca9586432cde6712f0255": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-09-26T12:48:05Z",
+  "message": "El Teleférico con un giro por arco, las bases del sorteo y los términos",
+  "parents": 1,
+  "files": [
+   {
+    "f": "CLAUDE.md",
+    "a": 2,
+    "d": 1
+   },
+   {
+    "f": "docs/capturas/juego-teleferico-celular-ganador.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/juego-teleferico-celular.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/juego-teleferico-dark.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/juego-teleferico.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/ui-cabecera-celular-dark.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/ui-cabecera-celular-light.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/ui-cabecera-escritorio-dark.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/ui-cabecera-escritorio-light.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/ui-cuenta-celular-dark.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/ui-cuenta-celular-light.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/ui-cuenta-escritorio-dark.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/ui-cuenta-escritorio-light.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/ui-juegos-celular.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/ui-juegos-escritorio.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/epics.md",
+    "a": 35,
+    "d": 0
+   },
+   {
+    "f": "docs/juegos.md",
+    "a": 5,
+    "d": 2
+   },
+   {
+    "f": "docs/juegos/teleferico.md",
+    "a": 19,
+    "d": 1
+   },
+   {
+    "f": "docs/legal.md",
+    "a": 3,
+    "d": 1
+   },
+   {
+    "f": "docs/premios.md",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "historia.html",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "index.html",
+    "a": 6,
+    "d": 0
+   },
+   {
+    "f": "juegos.html",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "precios.html",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "public/sitemap.xml",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "scripts/check-paginas.mjs",
+    "a": 7,
+    "d": 3
+   },
+   {
+    "f": "seguridad.html",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "src/games/cablecar.ts",
+    "a": 350,
+    "d": 18
+   },
+   {
+    "f": "src/i18n.ts",
+    "a": 102,
+    "d": 0
+   },
+   {
+    "f": "src/main.ts",
+    "a": 2,
+    "d": 1
+   },
+   {
+    "f": "src/styles.css",
+    "a": 3,
+    "d": 0
+   },
+   {
+    "f": "src/ui/freeze.ts",
+    "a": 39,
+    "d": 0
+   },
+   {
+    "f": "src/ui/rules.test.ts",
+    "a": 42,
+    "d": 0
+   },
+   {
+    "f": "terminos.html",
+    "a": 83,
+    "d": 0
+   },
+   {
+    "f": "verificar.html",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "vite.config.ts",
+    "a": 6,
+    "d": 4
+   }
+  ]
+ },
+ "69563b9d012dbd5953a1bd425a500c646fad0717": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-09-25T21:43:25Z",
+  "message": "Lo legal, en Bolivia y en el mundo",
+  "parents": 1,
+  "files": [
+   {
+    "f": "CLAUDE.md",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "docs/legal.md",
+    "a": 108,
+    "d": 0
+   },
+   {
+    "f": "docs/premios.md",
+    "a": 2,
+    "d": 1
+   }
+  ]
+ },
+ "baa047365215f524446f503da3c0f125488972f4": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-09-25T13:00:57Z",
+  "message": "Cada juego con su giro, y un auditor de emoción",
+  "parents": 1,
+  "files": [
+   {
+    "f": "CLAUDE.md",
+    "a": 6,
+    "d": 1
+   },
+   {
+    "f": "README.md",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "docs/capturas/juego-ledger-celular-ganador.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/juego-ledger-celular.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/juego-ledger.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/juego-pasanaku-celular-ganador.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/juego-pasanaku-celular.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/juego-pasanaku.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/juego-race-celular-ganador.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/juego-race-celular.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/juego-race.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/juego-rockets-celular-ganador.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/juego-rockets-celular.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/juego-rockets.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/juego-stellar-celular-ganador.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/juego-stellar-celular.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/juego-stellar.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/juego-teleferico-celular-ganador.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/juego-teleferico-celular.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/juego-teleferico.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/juego-tombola-celular-ganador.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/juego-tombola-celular.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/juego-tombola-dark.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/juego-tombola.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/juego-wheel-celular-ganador.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/juego-wheel-celular.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/juego-wheel.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/epics.md",
+    "a": 3,
+    "d": 1
+   },
+   {
+    "f": "docs/juegos.md",
+    "a": 31,
+    "d": 1
+   },
+   {
+    "f": "scripts/audit-emocion.mjs",
+    "a": 136,
+    "d": 0
+   },
+   {
+    "f": "scripts/audit-rigor.mjs",
+    "a": 9,
+    "d": 1
+   },
+   {
+    "f": "src/games/cablecar.ts",
+    "a": 52,
+    "d": 10
+   },
+   {
+    "f": "src/games/constellation.ts",
+    "a": 22,
+    "d": 3
+   },
+   {
+    "f": "src/games/drama.ts",
+    "a": 4,
+    "d": 2
+   },
+   {
+    "f": "src/games/ledger.ts",
+    "a": 90,
+    "d": 9
+   },
+   {
+    "f": "src/games/overlay.ts",
+    "a": 11,
+    "d": 5
+   },
+   {
+    "f": "src/games/pasanaku.ts",
+    "a": 32,
+    "d": 0
+   },
+   {
+    "f": "src/games/race.ts",
+    "a": 66,
+    "d": 1
+   },
+   {
+    "f": "src/games/tombola.ts",
+    "a": 103,
+    "d": 36
+   },
+   {
+    "f": "src/games/wheel.ts",
+    "a": 37,
+    "d": 8
+   },
+   {
+    "f": "src/i18n.ts",
+    "a": 30,
+    "d": 0
+   }
+  ]
+ },
+ "9fe61b573bd72c49fb05a0f1159c175bfbe96525": {
+  "team": "MinerTrace",
+  "repo": "Dante1128/MinerTracer",
+  "author": "Dante1128",
+  "date": "2026-09-28T22:38:18Z",
+  "message": "first commit",
+  "parents": 1,
+  "files": [
+   {
+    "f": "README.md",
+    "a": 0,
+    "d": 0
+   }
+  ]
+ },
+ "97b4bb11889a2a6c0b0898e5c1f3c23bec53e21b": {
+  "team": "MinerTrace",
+  "repo": "Dante1128/MinerTracer",
+  "author": "Dante1128",
+  "date": "2026-09-28T22:31:05Z",
+  "message": "MinerTrace Fase 1: aplicación web, API y hashing con anclaje simulado",
+  "parents": 0,
+  "files": [
+   {
+    "f": ".gitignore",
+    "a": 6,
+    "d": 0
+   },
+   {
+    "f": "MinerTrace.md",
+    "a": 430,
+    "d": 0
+   },
+   {
+    "f": "README.md",
+    "a": 93,
+    "d": 0
+   },
+   {
+    "f": "package.json",
+    "a": 14,
+    "d": 0
+   },
+   {
+    "f": "scripts/dev.mjs",
+    "a": 25,
+    "d": 0
+   },
+   {
+    "f": "server/.env.example",
+    "a": 21,
+    "d": 0
+   },
+   {
+    "f": "server/package-lock.json",
+    "a": 2335,
+    "d": 0
+   },
+   {
+    "f": "server/package.json",
+    "a": 30,
+    "d": 0
+   },
+   {
+    "f": "server/src/almacenamiento.ts",
+    "a": 40,
+    "d": 0
+   },
+   {
+    "f": "server/src/anclaje/AnclajeMock.ts",
+    "a": 63,
+    "d": 0
+   },
+   {
+    "f": "server/src/anclaje/ServicioAnclaje.ts",
+    "a": 38,
+    "d": 0
+   },
+   {
+    "f": "server/src/anclaje/index.ts",
+    "a": 17,
+    "d": 0
+   },
+   {
+    "f": "server/src/anclaje/procesador.ts",
+    "a": 75,
+    "d": 0
+   },
+   {
+    "f": "server/src/app.ts",
+    "a": 49,
+    "d": 0
+   },
+   {
+    "f": "server/src/auth.ts",
+    "a": 37,
+    "d": 0
+   },
+   {
+    "f": "server/src/config.ts",
+    "a": 33,
+    "d": 0
+   },
+   {
+    "f": "server/src/contexto.ts",
+    "a": 25,
+    "d": 0
+   },
+   {
+    "f": "server/src/db/esquema.ts",
+    "a": 123,
+    "d": 0
+   },
+   {
+    "f": "server/src/db/index.ts",
+    "a": 60,
+    "d": 0
+   },
+   {
+    "f": "server/src/index.ts",
+    "a": 31,
+    "d": 0
+   },
+   {
+    "f": "server/src/integridad/canonico.ts",
+    "a": 100,
+    "d": 0
+   },
+   {
+    "f": "server/src/pdfSimple.ts",
+    "a": 35,
+    "d": 0
+   },
+   {
+    "f": "server/src/rutas/demo.ts",
+    "a": 54,
+    "d": 0
+   },
+   {
+    "f": "server/src/rutas/laboratorio.ts",
+    "a": 116,
+    "d": 0
+   },
+   {
+    "f": "server/src/rutas/publico.ts",
+    "a": 50,
+    "d": 0
+   },
+   {
+    "f": "server/src/semilla.ts",
+    "a": 63,
+    "d": 0
+   },
+   {
+    "f": "server/src/servicios/registro.ts",
+    "a": 147,
+    "d": 0
+   },
+   {
+    "f": "server/src/servicios/verificacion.ts",
+    "a": 181,
+    "d": 0
+   },
+   {
+    "f": "server/src/validacion.ts",
+    "a": 162,
+    "d": 0
+   },
+   {
+    "f": "server/test/flujo.test.ts",
+    "a": 167,
+    "d": 0
+   },
+   {
+    "f": "server/test/integridad.test.ts",
+    "a": 80,
+    "d": 0
+   },
+   {
+    "f": "server/tsconfig.json",
+    "a": 15,
+    "d": 0
+   },
+   {
+    "f": "web/index.html",
+    "a": 16,
+    "d": 0
+   },
+   {
+    "f": "web/package-lock.json",
+    "a": 7970,
+    "d": 0
+   },
+   {
+    "f": "web/package.json",
+    "a": 30,
+    "d": 0
+   },
+   {
+    "f": "web/public/apple-touch-icon-180x180.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "web/public/favicon.ico",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "web/public/favicon.svg",
+    "a": 5,
+    "d": 0
+   },
+   {
+    "f": "web/public/maskable-icon-512x512.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "web/public/pwa-192x192.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "web/public/pwa-512x512.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "web/public/pwa-64x64.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "web/src/api.ts",
+    "a": 136,
+    "d": 0
+   },
+   {
+    "f": "web/src/componentes/CamposAnalisis.tsx",
+    "a": 221,
+    "d": 0
+   },
+   {
+    "f": "web/src/componentes/EscanerQR.tsx",
+    "a": 47,
+    "d": 0
+   },
+   {
+    "f": "web/src/componentes/Insignias.tsx",
+    "a": 87,
+    "d": 0
+   },
+   {
+    "f": "web/src/componentes/Layout.tsx",
+    "a": 44,
+    "d": 0
+   },
+   {
+    "f": "web/src/componentes/RutaProtegida.tsx",
+    "a": 10,
+    "d": 0
+   },
+   {
+    "f": "web/src/componentes/Verificacion.tsx",
+    "a": 197,
+    "d": 0
+   },
+   {
+    "f": "web/src/formato.ts",
+    "a": 21,
+    "d": 0
+   },
+   {
+    "f": "web/src/index.css",
+    "a": 45,
+    "d": 0
+   },
+   {
+    "f": "web/src/main.tsx",
+    "a": 40,
+    "d": 0
+   },
+   {
+    "f": "web/src/paginas/DetalleAnalisis.tsx",
+    "a": 243,
+    "d": 0
+   },
+   {
+    "f": "web/src/paginas/Inicio.tsx",
+    "a": 116,
+    "d": 0
+   },
+   {
+    "f": "web/src/paginas/Login.tsx",
+    "a": 71,
+    "d": 0
+   },
+   {
+    "f": "web/src/paginas/NuevoAnalisis.tsx",
+    "a": 197,
+    "d": 0
+   },
+   {
+    "f": "web/src/paginas/Panel.tsx",
+    "a": 139,
+    "d": 0
+   },
+   {
+    "f": "web/src/paginas/ResultadoLote.tsx",
+    "a": 110,
+    "d": 0
+   },
+   {
+    "f": "web/src/paginas/Verificar.tsx",
+    "a": 55,
+    "d": 0
+   },
+   {
+    "f": "web/src/sesion.tsx",
+    "a": 44,
+    "d": 0
+   },
+   {
+    "f": "web/tsconfig.json",
+    "a": 16,
+    "d": 0
+   },
+   {
+    "f": "web/vite.config.ts",
+    "a": 38,
+    "d": 0
+   }
+  ]
  }
 }
