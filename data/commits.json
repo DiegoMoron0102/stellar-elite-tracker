@@ -27242,5 +27242,1815 @@
     "d": 0
    }
   ]
+ },
+ "a3245f73e29adcf6eb0de016e855108b90737987": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-09-29T11:02:18Z",
+  "message": "Solo lo necesario en el repositorio",
+  "parents": 1,
+  "files": [
+   {
+    "f": ".gitignore",
+    "a": 10,
+    "d": 21
+   },
+   {
+    "f": "CLAUDE.md",
+    "a": 0,
+    "d": 117
+   },
+   {
+    "f": "docs/architecture.md",
+    "a": 3,
+    "d": 4
+   },
+   {
+    "f": "docs/capturas/juego-ledger-celular-ganador.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/juego-ledger-celular.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/juego-ledger-dark.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/juego-ledger-light.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/juego-ledger.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/juego-oruro-celular-ganador.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/juego-oruro-celular.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/juego-oruro-dark.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/juego-oruro-light.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/juego-oruro.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/juego-pasanaku-celular-ganador.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/juego-pasanaku-celular.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/juego-pasanaku-dark.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/juego-pasanaku-light.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/juego-pasanaku.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/juego-pinata-celular-ganador.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/juego-pinata-celular.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/juego-pinata-dark.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/juego-pinata-light.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/juego-pinata.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/juego-race-celular-ganador.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/juego-race-celular.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/juego-race-dark.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/juego-race-light.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/juego-race.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/juego-rockets-celular-ganador.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/juego-rockets-celular.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/juego-rockets-dark.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/juego-rockets-light.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/juego-rockets.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/juego-stellar-celular-ganador.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/juego-stellar-celular.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/juego-stellar-dark.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/juego-stellar-light.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/juego-stellar.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/juego-teleferico-celular-ganador.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/juego-teleferico-celular.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/juego-teleferico-dark.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/juego-teleferico-light.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/juego-teleferico.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/juego-todos-celular-ganador.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/juego-todos-celular.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/juego-todos-dark.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/juego-todos-light.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/juego-todos.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/juego-tombola-celular-ganador.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/juego-tombola-celular.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/juego-tombola-dark.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/juego-tombola-light.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/juego-tombola.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/juego-totora-celular-ganador.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/juego-totora-celular.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/juego-totora-dark.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/juego-totora-light.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/juego-totora.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/juego-trompo-celular-ganador.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/juego-trompo-celular.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/juego-trompo-dark.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/juego-trompo-light.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/juego-trompo.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/juego-wheel-celular-ganador.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/juego-wheel-celular.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/juego-wheel-dark.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/juego-wheel-light.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/juego-wheel.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/tinkazo-carrera.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/tinkazo-dark.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/tinkazo-en-estadio.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/tinkazo-en-hero.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/tinkazo-en-ruleta.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/tinkazo-estadio.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/tinkazo-light.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/tinkazo-ruleta.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/ui-cabecera-celular-dark.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/ui-cabecera-celular-light.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/ui-cabecera-escritorio-dark.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/ui-cabecera-escritorio-light.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/ui-cuenta-celular-dark.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/ui-cuenta-celular-light.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/ui-cuenta-escritorio-dark.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/ui-cuenta-escritorio-light.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/ui-juegos-celular.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/ui-juegos-escritorio.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/epics.md",
+    "a": 4,
+    "d": 4
+   },
+   {
+    "f": "docs/prd.md",
+    "a": 1,
+    "d": 1
+   }
+  ]
+ },
+ "5c263c1efffa3532789bda7045f4b549c8f27c02": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-09-29T10:49:24Z",
+  "message": "El README dice lo justo: sin \"para siempre\" y con Pollar como es",
+  "parents": 1,
+  "files": [
+   {
+    "f": "README.es.md",
+    "a": 3,
+    "d": 3
+   },
+   {
+    "f": "README.md",
+    "a": 3,
+    "d": 3
+   },
+   {
+    "f": "docs/amenazas.md",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "docs/architecture.md",
+    "a": 1,
+    "d": 2
+   },
+   {
+    "f": "docs/idea-original-arkiv.md",
+    "a": 0,
+    "d": 89
+   },
+   {
+    "f": "docs/prd.md",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "docs/threat-model.en.md",
+    "a": 1,
+    "d": 0
+   }
+  ]
+ },
+ "ab62f3c2fc11ae9bbb223d57cef889fc7a625c10": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-09-29T04:53:04Z",
+  "message": "Sellar varias listas es la única forma de torcer un sorteo ya sellado",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/amenazas.md",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "seguridad.html",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/i18n.ts",
+    "a": 2,
+    "d": 2
+   }
+  ]
+ },
+ "5537cd2cc7d77c2a59cf9e62b25f96dba2403260": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-09-29T04:49:20Z",
+  "message": "En el README, partidas reales en lugar de la imagen fija de los juegos",
+  "parents": 1,
+  "files": [
+   {
+    "f": "README.es.md",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "README.md",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "docs/capturas/readme/juegos.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/readme/partidas-es.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/readme/partidas.webp",
+    "a": 0,
+    "d": 0
+   }
+  ]
+ },
+ "67315464bb1dfadd3ba86851eee8e453d1f74197": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-09-29T04:25:43Z",
+  "message": "El kit de skills sale del repo, y el protocolo y las amenazas en inglés",
+  "parents": 1,
+  "files": [
+   {
+    "f": ".claude/skills/SKILL_ROUTER.md",
+    "a": 0,
+    "d": 108
+   },
+   {
+    "f": ".claude/skills/advanced-elicitation/SKILL.md",
+    "a": 0,
+    "d": 142
+   },
+   {
+    "f": ".claude/skills/advanced-elicitation/methods.csv",
+    "a": 0,
+    "d": 51
+   },
+   {
+    "f": ".claude/skills/agentic-payments/SKILL.md",
+    "a": 0,
+    "d": 626
+   },
+   {
+    "f": ".claude/skills/assets/SKILL.md",
+    "a": 0,
+    "d": 441
+   },
+   {
+    "f": ".claude/skills/brainstorming/SKILL.md",
+    "a": 0,
+    "d": 6
+   },
+   {
+    "f": ".claude/skills/brainstorming/brain-methods.csv",
+    "a": 0,
+    "d": 62
+   },
+   {
+    "f": ".claude/skills/brainstorming/steps/step-01-session-setup.md",
+    "a": 0,
+    "d": 214
+   },
+   {
+    "f": ".claude/skills/brainstorming/steps/step-01b-continue.md",
+    "a": 0,
+    "d": 124
+   },
+   {
+    "f": ".claude/skills/brainstorming/steps/step-02a-user-selected.md",
+    "a": 0,
+    "d": 229
+   },
+   {
+    "f": ".claude/skills/brainstorming/steps/step-02b-ai-recommended.md",
+    "a": 0,
+    "d": 239
+   },
+   {
+    "f": ".claude/skills/brainstorming/steps/step-02c-random-selection.md",
+    "a": 0,
+    "d": 211
+   },
+   {
+    "f": ".claude/skills/brainstorming/steps/step-02d-progressive-flow.md",
+    "a": 0,
+    "d": 266
+   },
+   {
+    "f": ".claude/skills/brainstorming/steps/step-03-technique-execution.md",
+    "a": 0,
+    "d": 401
+   },
+   {
+    "f": ".claude/skills/brainstorming/steps/step-04-idea-organization.md",
+    "a": 0,
+    "d": 305
+   },
+   {
+    "f": ".claude/skills/brainstorming/template.md",
+    "a": 0,
+    "d": 15
+   },
+   {
+    "f": ".claude/skills/brainstorming/workflow.md",
+    "a": 0,
+    "d": 53
+   },
+   {
+    "f": ".claude/skills/bri-tech-writer/SKILL.md",
+    "a": 0,
+    "d": 74
+   },
+   {
+    "f": ".claude/skills/bri-tech-writer/customize.toml",
+    "a": 0,
+    "d": 81
+   },
+   {
+    "f": ".claude/skills/bri-tech-writer/explain-concept.md",
+    "a": 0,
+    "d": 20
+   },
+   {
+    "f": ".claude/skills/bri-tech-writer/mermaid-gen.md",
+    "a": 0,
+    "d": 20
+   },
+   {
+    "f": ".claude/skills/bri-tech-writer/validate-doc.md",
+    "a": 0,
+    "d": 19
+   },
+   {
+    "f": ".claude/skills/bri-tech-writer/write-document.md",
+    "a": 0,
+    "d": 20
+   },
+   {
+    "f": ".claude/skills/code-review/SKILL.md",
+    "a": 0,
+    "d": 90
+   },
+   {
+    "f": ".claude/skills/code-review/customize.toml",
+    "a": 0,
+    "d": 41
+   },
+   {
+    "f": ".claude/skills/code-review/steps/step-01-gather-context.md",
+    "a": 0,
+    "d": 85
+   },
+   {
+    "f": ".claude/skills/code-review/steps/step-02-review.md",
+    "a": 0,
+    "d": 35
+   },
+   {
+    "f": ".claude/skills/code-review/steps/step-03-triage.md",
+    "a": 0,
+    "d": 49
+   },
+   {
+    "f": ".claude/skills/code-review/steps/step-04-present.md",
+    "a": 0,
+    "d": 132
+   },
+   {
+    "f": ".claude/skills/create-architecture/SKILL.md",
+    "a": 0,
+    "d": 74
+   },
+   {
+    "f": ".claude/skills/create-architecture/architecture-decision-template.md",
+    "a": 0,
+    "d": 12
+   },
+   {
+    "f": ".claude/skills/create-architecture/customize.toml",
+    "a": 0,
+    "d": 41
+   },
+   {
+    "f": ".claude/skills/create-architecture/data/domain-complexity.csv",
+    "a": 0,
+    "d": 13
+   },
+   {
+    "f": ".claude/skills/create-architecture/data/project-types.csv",
+    "a": 0,
+    "d": 7
+   },
+   {
+    "f": ".claude/skills/create-architecture/steps/step-01-init.md",
+    "a": 0,
+    "d": 153
+   },
+   {
+    "f": ".claude/skills/create-architecture/steps/step-01b-continue.md",
+    "a": 0,
+    "d": 173
+   },
+   {
+    "f": ".claude/skills/create-architecture/steps/step-02-context.md",
+    "a": 0,
+    "d": 224
+   },
+   {
+    "f": ".claude/skills/create-architecture/steps/step-03-starter.md",
+    "a": 0,
+    "d": 329
+   },
+   {
+    "f": ".claude/skills/create-architecture/steps/step-04-decisions.md",
+    "a": 0,
+    "d": 318
+   },
+   {
+    "f": ".claude/skills/create-architecture/steps/step-05-patterns.md",
+    "a": 0,
+    "d": 359
+   },
+   {
+    "f": ".claude/skills/create-architecture/steps/step-06-structure.md",
+    "a": 0,
+    "d": 379
+   },
+   {
+    "f": ".claude/skills/create-architecture/steps/step-07-validation.md",
+    "a": 0,
+    "d": 361
+   },
+   {
+    "f": ".claude/skills/create-architecture/steps/step-08-complete.md",
+    "a": 0,
+    "d": 82
+   },
+   {
+    "f": ".claude/skills/create-epics-and-stories/SKILL.md",
+    "a": 0,
+    "d": 93
+   },
+   {
+    "f": ".claude/skills/create-epics-and-stories/customize.toml",
+    "a": 0,
+    "d": 41
+   },
+   {
+    "f": ".claude/skills/create-epics-and-stories/steps/step-01-validate-prerequisites.md",
+    "a": 0,
+    "d": 255
+   },
+   {
+    "f": ".claude/skills/create-epics-and-stories/steps/step-02-design-epics.md",
+    "a": 0,
+    "d": 242
+   },
+   {
+    "f": ".claude/skills/create-epics-and-stories/steps/step-03-create-stories.md",
+    "a": 0,
+    "d": 255
+   },
+   {
+    "f": ".claude/skills/create-epics-and-stories/steps/step-04-final-validation.md",
+    "a": 0,
+    "d": 143
+   },
+   {
+    "f": ".claude/skills/create-epics-and-stories/templates/epics-template.md",
+    "a": 0,
+    "d": 61
+   },
+   {
+    "f": ".claude/skills/create-ux-design/SKILL.md",
+    "a": 0,
+    "d": 75
+   },
+   {
+    "f": ".claude/skills/create-ux-design/customize.toml",
+    "a": 0,
+    "d": 41
+   },
+   {
+    "f": ".claude/skills/create-ux-design/steps/step-01-init.md",
+    "a": 0,
+    "d": 135
+   },
+   {
+    "f": ".claude/skills/create-ux-design/steps/step-01b-continue.md",
+    "a": 0,
+    "d": 127
+   },
+   {
+    "f": ".claude/skills/create-ux-design/steps/step-02-discovery.md",
+    "a": 0,
+    "d": 190
+   },
+   {
+    "f": ".claude/skills/create-ux-design/steps/step-03-core-experience.md",
+    "a": 0,
+    "d": 217
+   },
+   {
+    "f": ".claude/skills/create-ux-design/steps/step-04-emotional-response.md",
+    "a": 0,
+    "d": 220
+   },
+   {
+    "f": ".claude/skills/create-ux-design/steps/step-05-inspiration.md",
+    "a": 0,
+    "d": 235
+   },
+   {
+    "f": ".claude/skills/create-ux-design/steps/step-06-design-system.md",
+    "a": 0,
+    "d": 253
+   },
+   {
+    "f": ".claude/skills/create-ux-design/steps/step-07-defining-experience.md",
+    "a": 0,
+    "d": 255
+   },
+   {
+    "f": ".claude/skills/create-ux-design/steps/step-08-visual-foundation.md",
+    "a": 0,
+    "d": 225
+   },
+   {
+    "f": ".claude/skills/create-ux-design/steps/step-09-design-directions.md",
+    "a": 0,
+    "d": 225
+   },
+   {
+    "f": ".claude/skills/create-ux-design/steps/step-10-user-journeys.md",
+    "a": 0,
+    "d": 242
+   },
+   {
+    "f": ".claude/skills/create-ux-design/steps/step-11-component-strategy.md",
+    "a": 0,
+    "d": 249
+   },
+   {
+    "f": ".claude/skills/create-ux-design/steps/step-12-ux-patterns.md",
+    "a": 0,
+    "d": 238
+   },
+   {
+    "f": ".claude/skills/create-ux-design/steps/step-13-responsive-accessibility.md",
+    "a": 0,
+    "d": 265
+   },
+   {
+    "f": ".claude/skills/create-ux-design/steps/step-14-complete.md",
+    "a": 0,
+    "d": 177
+   },
+   {
+    "f": ".claude/skills/create-ux-design/ux-design-template.md",
+    "a": 0,
+    "d": 13
+   },
+   {
+    "f": ".claude/skills/dapp/SKILL.md",
+    "a": 0,
+    "d": 767
+   },
+   {
+    "f": ".claude/skills/data/SKILL.md",
+    "a": 0,
+    "d": 550
+   },
+   {
+    "f": ".claude/skills/data/electric-capital/stellar-repos.json",
+    "a": 0,
+    "d": 9027
+   },
+   {
+    "f": ".claude/skills/data/guides/LINKS.md",
+    "a": 0,
+    "d": 13
+   },
+   {
+    "f": ".claude/skills/data/guides/a16z-big-ideas-2025.md",
+    "a": 0,
+    "d": 130
+   },
+   {
+    "f": ".claude/skills/data/guides/a16z-state-of-crypto-2025.md",
+    "a": 0,
+    "d": 180
+   },
+   {
+    "f": ".claude/skills/data/guides/alliance-ideas.md",
+    "a": 0,
+    "d": 40
+   },
+   {
+    "f": ".claude/skills/data/guides/building-with-ai/README.md",
+    "a": 0,
+    "d": 168
+   },
+   {
+    "f": ".claude/skills/data/guides/building-with-ai/mexico-hackathon.md",
+    "a": 0,
+    "d": 76
+   },
+   {
+    "f": ".claude/skills/data/guides/defi/README.md",
+    "a": 0,
+    "d": 143
+   },
+   {
+    "f": ".claude/skills/data/guides/fca00c/README.md",
+    "a": 0,
+    "d": 52
+   },
+   {
+    "f": ".claude/skills/data/guides/fca00c/instructions.md",
+    "a": 0,
+    "d": 78
+   },
+   {
+    "f": ".claude/skills/data/guides/indexers/README.md",
+    "a": 0,
+    "d": 113
+   },
+   {
+    "f": ".claude/skills/data/guides/indexers/providers.md",
+    "a": 0,
+    "d": 300
+   },
+   {
+    "f": ".claude/skills/data/guides/infrastructure/README.md",
+    "a": 0,
+    "d": 269
+   },
+   {
+    "f": ".claude/skills/data/guides/learning/README.md",
+    "a": 0,
+    "d": 211
+   },
+   {
+    "f": ".claude/skills/data/guides/oracles/README.md",
+    "a": 0,
+    "d": 115
+   },
+   {
+    "f": ".claude/skills/data/guides/security/README.md",
+    "a": 0,
+    "d": 181
+   },
+   {
+    "f": ".claude/skills/data/guides/soroban-development/README.md",
+    "a": 0,
+    "d": 346
+   },
+   {
+    "f": ".claude/skills/data/guides/tokens/README.md",
+    "a": 0,
+    "d": 228
+   },
+   {
+    "f": ".claude/skills/data/guides/yc-crypto-companies-p2.md",
+    "a": 0,
+    "d": 415
+   },
+   {
+    "f": ".claude/skills/data/guides/yc-crypto-companies.md",
+    "a": 0,
+    "d": 973
+   },
+   {
+    "f": ".claude/skills/data/guides/yc-requests-for-startups.md",
+    "a": 0,
+    "d": 72
+   },
+   {
+    "f": ".claude/skills/data/ideas/a16z-big-ideas-2025.json",
+    "a": 0,
+    "d": 218
+   },
+   {
+    "f": ".claude/skills/data/ideas/a16z-state-of-crypto-2025.json",
+    "a": 0,
+    "d": 146
+   },
+   {
+    "f": ".claude/skills/data/ideas/alliance-ideas.json",
+    "a": 0,
+    "d": 236
+   },
+   {
+    "f": ".claude/skills/data/ideas/yc-crypto-companies.json",
+    "a": 0,
+    "d": 1635
+   },
+   {
+    "f": ".claude/skills/data/ideas/yc-requests-for-startups.json",
+    "a": 0,
+    "d": 182
+   },
+   {
+    "f": ".claude/skills/data/lumenloop/audits/registry.json",
+    "a": 0,
+    "d": 1
+   },
+   {
+    "f": ".claude/skills/data/lumenloop/projects.json",
+    "a": 0,
+    "d": 1
+   },
+   {
+    "f": ".claude/skills/data/lumenloop/scf/rounds.json",
+    "a": 0,
+    "d": 1
+   },
+   {
+    "f": ".claude/skills/data/lumenloop/tokens/registry.json",
+    "a": 0,
+    "d": 1
+   },
+   {
+    "f": ".claude/skills/deploy-stellar-mainnet/SKILL.md",
+    "a": 0,
+    "d": 108
+   },
+   {
+    "f": ".claude/skills/dev-story/SKILL.md",
+    "a": 0,
+    "d": 485
+   },
+   {
+    "f": ".claude/skills/dev-story/checklist.md",
+    "a": 0,
+    "d": 80
+   },
+   {
+    "f": ".claude/skills/dev-story/customize.toml",
+    "a": 0,
+    "d": 41
+   },
+   {
+    "f": ".claude/skills/elliot-dev/SKILL.md",
+    "a": 0,
+    "d": 74
+   },
+   {
+    "f": ".claude/skills/elliot-dev/customize.toml",
+    "a": 0,
+    "d": 95
+   },
+   {
+    "f": ".claude/skills/find-stellar-idea/SKILL.md",
+    "a": 0,
+    "d": 60
+   },
+   {
+    "f": ".claude/skills/investigate/SKILL.md",
+    "a": 0,
+    "d": 194
+   },
+   {
+    "f": ".claude/skills/investigate/customize.toml",
+    "a": 0,
+    "d": 62
+   },
+   {
+    "f": ".claude/skills/investigate/references/case-file-template.md",
+    "a": 0,
+    "d": 127
+   },
+   {
+    "f": ".claude/skills/justin-analyst/SKILL.md",
+    "a": 0,
+    "d": 74
+   },
+   {
+    "f": ".claude/skills/justin-analyst/customize.toml",
+    "a": 0,
+    "d": 90
+   },
+   {
+    "f": ".claude/skills/kaan-ux-designer/SKILL.md",
+    "a": 0,
+    "d": 74
+   },
+   {
+    "f": ".claude/skills/kaan-ux-designer/customize.toml",
+    "a": 0,
+    "d": 60
+   },
+   {
+    "f": ".claude/skills/navigate-skills/SKILL.md",
+    "a": 0,
+    "d": 49
+   },
+   {
+    "f": ".claude/skills/nicole-pm/SKILL.md",
+    "a": 0,
+    "d": 74
+   },
+   {
+    "f": ".claude/skills/nicole-pm/customize.toml",
+    "a": 0,
+    "d": 75
+   },
+   {
+    "f": ".claude/skills/party-mode/SKILL.md",
+    "a": 0,
+    "d": 128
+   },
+   {
+    "f": ".claude/skills/prd/SKILL.md",
+    "a": 0,
+    "d": 87
+   },
+   {
+    "f": ".claude/skills/prd/assets/headless-schemas.md",
+    "a": 0,
+    "d": 76
+   },
+   {
+    "f": ".claude/skills/prd/assets/prd-template.md",
+    "a": 0,
+    "d": 168
+   },
+   {
+    "f": ".claude/skills/prd/assets/prd-validation-checklist.md",
+    "a": 0,
+    "d": 135
+   },
+   {
+    "f": ".claude/skills/prd/assets/validation-report-template.html",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": ".claude/skills/prd/customize.toml",
+    "a": 0,
+    "d": 147
+   },
+   {
+    "f": ".claude/skills/prd/references/headless.md",
+    "a": 0,
+    "d": 39
+   },
+   {
+    "f": ".claude/skills/prd/references/validate.md",
+    "a": 0,
+    "d": 97
+   },
+   {
+    "f": ".claude/skills/prfaq/SKILL.md",
+    "a": 0,
+    "d": 135
+   },
+   {
+    "f": ".claude/skills/prfaq/agents/artifact-analyzer.md",
+    "a": 0,
+    "d": 60
+   },
+   {
+    "f": ".claude/skills/prfaq/agents/web-researcher.md",
+    "a": 0,
+    "d": 49
+   },
+   {
+    "f": ".claude/skills/prfaq/assets/prfaq-template.md",
+    "a": 0,
+    "d": 62
+   },
+   {
+    "f": ".claude/skills/prfaq/bmad-manifest.json",
+    "a": 0,
+    "d": 16
+   },
+   {
+    "f": ".claude/skills/prfaq/customize.toml",
+    "a": 0,
+    "d": 41
+   },
+   {
+    "f": ".claude/skills/prfaq/references/customer-faq.md",
+    "a": 0,
+    "d": 55
+   },
+   {
+    "f": ".claude/skills/prfaq/references/internal-faq.md",
+    "a": 0,
+    "d": 51
+   },
+   {
+    "f": ".claude/skills/prfaq/references/press-release.md",
+    "a": 0,
+    "d": 60
+   },
+   {
+    "f": ".claude/skills/prfaq/references/verdict.md",
+    "a": 0,
+    "d": 83
+   },
+   {
+    "f": ".claude/skills/product-brief/SKILL.md",
+    "a": 0,
+    "d": 88
+   },
+   {
+    "f": ".claude/skills/product-brief/assets/brief-template.md",
+    "a": 0,
+    "d": 41
+   },
+   {
+    "f": ".claude/skills/product-brief/customize.toml",
+    "a": 0,
+    "d": 99
+   },
+   {
+    "f": ".claude/skills/remove-ai-marks/SKILL.md",
+    "a": 0,
+    "d": 190
+   },
+   {
+    "f": ".claude/skills/remove-ai-marks/references/ethics.md",
+    "a": 0,
+    "d": 28
+   },
+   {
+    "f": ".claude/skills/remove-ai-marks/references/how-claude-marks.md",
+    "a": 0,
+    "d": 35
+   },
+   {
+    "f": ".claude/skills/remove-ai-marks/references/mark-classes.md",
+    "a": 0,
+    "d": 61
+   },
+   {
+    "f": ".claude/skills/remove-ai-marks/references/removal-matrix.md",
+    "a": 0,
+    "d": 38
+   },
+   {
+    "f": ".claude/skills/remove-ai-marks/references/vendor-notes.md",
+    "a": 0,
+    "d": 62
+   },
+   {
+    "f": ".claude/skills/remove-ai-marks/scripts/clean_file.py",
+    "a": 0,
+    "d": 157
+   },
+   {
+    "f": ".claude/skills/remove-ai-marks/scripts/clean_image.py",
+    "a": 0,
+    "d": 72
+   },
+   {
+    "f": ".claude/skills/remove-ai-marks/scripts/clean_text.py",
+    "a": 0,
+    "d": 73
+   },
+   {
+    "f": ".claude/skills/remove-ai-marks/scripts/common.py",
+    "a": 0,
+    "d": 45
+   },
+   {
+    "f": ".claude/skills/remove-ai-marks/scripts/container_meta.py",
+    "a": 0,
+    "d": 754
+   },
+   {
+    "f": ".claude/skills/remove-ai-marks/scripts/image_meta.py",
+    "a": 0,
+    "d": 464
+   },
+   {
+    "f": ".claude/skills/remove-ai-marks/scripts/inspect_file.py",
+    "a": 0,
+    "d": 99
+   },
+   {
+    "f": ".claude/skills/remove-ai-marks/scripts/inspect_image.py",
+    "a": 0,
+    "d": 51
+   },
+   {
+    "f": ".claude/skills/remove-ai-marks/scripts/inspect_text.py",
+    "a": 0,
+    "d": 38
+   },
+   {
+    "f": ".claude/skills/remove-ai-marks/scripts/rewrite_text.py",
+    "a": 0,
+    "d": 270
+   },
+   {
+    "f": ".claude/skills/remove-ai-marks/scripts/text_unicode.py",
+    "a": 0,
+    "d": 369
+   },
+   {
+    "f": ".claude/skills/reprompt/SKILL.md",
+    "a": 0,
+    "d": 56
+   },
+   {
+    "f": ".claude/skills/review-edge-case-hunter/SKILL.md",
+    "a": 0,
+    "d": 67
+   },
+   {
+    "f": ".claude/skills/scf-round-watcher/SKILL.md",
+    "a": 0,
+    "d": 100
+   },
+   {
+    "f": ".claude/skills/smart-contracts/SKILL.md",
+    "a": 0,
+    "d": 221
+   },
+   {
+    "f": ".claude/skills/smart-contracts/development.md",
+    "a": 0,
+    "d": 439
+   },
+   {
+    "f": ".claude/skills/smart-contracts/security.md",
+    "a": 0,
+    "d": 206
+   },
+   {
+    "f": ".claude/skills/smart-contracts/testing.md",
+    "a": 0,
+    "d": 264
+   },
+   {
+    "f": ".claude/skills/standards/SKILL.md",
+    "a": 0,
+    "d": 801
+   },
+   {
+    "f": ".claude/skills/stellar-competitive-landscape/SKILL.md",
+    "a": 0,
+    "d": 98
+   },
+   {
+    "f": ".claude/skills/stellar-help/SKILL.md",
+    "a": 0,
+    "d": 75
+   },
+   {
+    "f": ".claude/skills/tyler-architect/SKILL.md",
+    "a": 0,
+    "d": 74
+   },
+   {
+    "f": ".claude/skills/tyler-architect/customize.toml",
+    "a": 0,
+    "d": 65
+   },
+   {
+    "f": ".claude/skills/zk-proofs/SKILL.md",
+    "a": 0,
+    "d": 234
+   },
+   {
+    "f": ".gitignore",
+    "a": 4,
+    "d": 2
+   },
+   {
+    "f": ".stellar-build/bmm/config.yaml",
+    "a": 0,
+    "d": 9
+   },
+   {
+    "f": "CLAUDE.md",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "README.md",
+    "a": 4,
+    "d": 4
+   },
+   {
+    "f": "docs/amenazas.md",
+    "a": 14,
+    "d": 2
+   },
+   {
+    "f": "docs/architecture.md",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "docs/capturas/readme/hero.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/protocol.en.md",
+    "a": 120,
+    "d": 0
+   },
+   {
+    "f": "docs/threat-model.en.md",
+    "a": 61,
+    "d": 0
+   },
+   {
+    "f": "index.html",
+    "a": 3,
+    "d": 3
+   },
+   {
+    "f": "src/i18n.ts",
+    "a": 2,
+    "d": 2
+   }
+  ]
+ },
+ "522be078d39392846b728e8b749b73525ab6aa76": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-09-29T04:05:09Z",
+  "message": "Una ventana para importar la lista de Luma, y el lema que se cumple",
+  "parents": 1,
+  "files": [
+   {
+    "f": ".gitignore",
+    "a": 6,
+    "d": 0
+   },
+   {
+    "f": "README.es.md",
+    "a": 24,
+    "d": 16
+   },
+   {
+    "f": "README.md",
+    "a": 25,
+    "d": 17
+   },
+   {
+    "f": "docs/amenazas.md",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "docs/capturas/readme/hero.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/readme/importar.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/ui-cabecera-celular-dark.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/ui-cabecera-celular-light.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/ui-cabecera-escritorio-dark.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/ui-cabecera-escritorio-light.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/ui-cuenta-celular-dark.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/ui-cuenta-celular-light.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/ui-cuenta-escritorio-dark.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/ui-cuenta-escritorio-light.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/ui-juegos-celular.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/ui-juegos-escritorio.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/epics.md",
+    "a": 4,
+    "d": 0
+   },
+   {
+    "f": "docs/marca.md",
+    "a": 6,
+    "d": 4
+   },
+   {
+    "f": "docs/prd.md",
+    "a": 10,
+    "d": 2
+   },
+   {
+    "f": "docs/premios.md",
+    "a": 7,
+    "d": 7
+   },
+   {
+    "f": "historia.html",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "index.html",
+    "a": 8,
+    "d": 11
+   },
+   {
+    "f": "juegos.html",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "src/i18n.ts",
+    "a": 153,
+    "d": 8
+   },
+   {
+    "f": "src/styles.css",
+    "a": 113,
+    "d": 0
+   },
+   {
+    "f": "src/ui/csv.test.ts",
+    "a": 83,
+    "d": 1
+   },
+   {
+    "f": "src/ui/csv.ts",
+    "a": 153,
+    "d": 2
+   },
+   {
+    "f": "src/ui/importer.ts",
+    "a": 446,
+    "d": 0
+   },
+   {
+    "f": "src/ui/participants.ts",
+    "a": 74,
+    "d": 82
+   }
+  ]
+ },
+ "bdfaad4ac65cd0ebd298055ad861b3875941fe07": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-09-29T03:29:53Z",
+  "message": "Las docs al día: doce juegos, y los subtítulos en lugar del relator con voz",
+  "parents": 1,
+  "files": [
+   {
+    "f": "README.es.md",
+    "a": 4,
+    "d": 4
+   },
+   {
+    "f": "README.md",
+    "a": 4,
+    "d": 4
+   },
+   {
+    "f": "docs/juegos.md",
+    "a": 13,
+    "d": 25
+   },
+   {
+    "f": "docs/marca.md",
+    "a": 11,
+    "d": 7
+   }
+  ]
+ },
+ "c5e94aa386dd5e0e68829b632104af0ebbc2aacf": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-09-29T03:26:27Z",
+  "message": "Sin relator con voz: la música de fondo arranca prendida y más baja",
+  "parents": 1,
+  "files": [
+   {
+    "f": "CLAUDE.md",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "README.es.md",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "README.md",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "docs/architecture.md",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "docs/epics.md",
+    "a": 3,
+    "d": 1
+   },
+   {
+    "f": "index.html",
+    "a": 0,
+    "d": 1
+   },
+   {
+    "f": "scripts/audit-sound.mjs",
+    "a": 9,
+    "d": 2
+   },
+   {
+    "f": "src/games/overlay.ts",
+    "a": 0,
+    "d": 3
+   },
+   {
+    "f": "src/games/pixi/stage.ts",
+    "a": 0,
+    "d": 3
+   },
+   {
+    "f": "src/games/race.ts",
+    "a": 0,
+    "d": 3
+   },
+   {
+    "f": "src/i18n.ts",
+    "a": 0,
+    "d": 14
+   },
+   {
+    "f": "src/main.ts",
+    "a": 0,
+    "d": 64
+   },
+   {
+    "f": "src/music.ts",
+    "a": 40,
+    "d": 26
+   },
+   {
+    "f": "src/narrator.test.ts",
+    "a": 0,
+    "d": 88
+   },
+   {
+    "f": "src/narrator.ts",
+    "a": 0,
+    "d": 362
+   },
+   {
+    "f": "src/sound.ts",
+    "a": 0,
+    "d": 2
+   },
+   {
+    "f": "src/styles.css",
+    "a": 0,
+    "d": 3
+   },
+   {
+    "f": "src/ui/draw.ts",
+    "a": 0,
+    "d": 2
+   }
+  ]
+ },
+ "7987a2c2afc76eec13d90de0d2f8ef10cc4134e6": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-09-29T03:13:34Z",
+  "message": "Un documento por cada juego nuevo, y el del Pasanaku contado como Aguayo",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/epics.md",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "docs/juegos.md",
+    "a": 5,
+    "d": 5
+   },
+   {
+    "f": "docs/juegos/balsas-de-totora.md",
+    "a": 41,
+    "d": 0
+   },
+   {
+    "f": "docs/juegos/carnaval-de-oruro.md",
+    "a": 81,
+    "d": 0
+   },
+   {
+    "f": "docs/juegos/pasanaku.md",
+    "a": 37,
+    "d": 32
+   },
+   {
+    "f": "docs/juegos/pinata.md",
+    "a": 80,
+    "d": 0
+   },
+   {
+    "f": "docs/juegos/trompo.md",
+    "a": 83,
+    "d": 0
+   }
+  ]
+ },
+ "c89fb1cef2fd72c18a25e69da91899c83a4b6935": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-09-29T03:01:14Z",
+  "message": "Las épicas al día: el motor nuevo, los doce juegos y el Aguayo",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/epics.md",
+    "a": 9,
+    "d": 3
+   }
+  ]
  }
 }

@@ -1,15 +1,15 @@
 {
- "generado": "2026-09-29T03:20:43+00:00",
+ "generado": "2026-09-29T11:49:19+00:00",
  "programa": "Stellar Elite",
  "start_date": "2026-09-02T00:00:00Z",
  "teams": [
   {
    "name": "Tinkazo",
-   "total": 704.09,
-   "per_capita": 704.09,
-   "commits": 79,
-   "pts_commits": 661.09,
-   "dias_activos": 8,
+   "total": 775.14,
+   "per_capita": 775.14,
+   "commits": 89,
+   "pts_commits": 727.14,
+   "dias_activos": 9,
    "contribuidores": [
     "nema1502"
    ],
@@ -263,7 +263,8 @@
    "2026-09-25": 37.82,
    "2026-09-26": 28.810000000000002,
    "2026-09-27": 19.78,
-   "2026-09-28": 72.91
+   "2026-09-28": 72.91,
+   "2026-09-29": 66.05
   },
   "CompraGasolinaBidon": {
    "2026-09-06": 1.0
@@ -322,7 +323,8 @@
    "2026-09-25": 4,
    "2026-09-26": 3,
    "2026-09-27": 2,
-   "2026-09-28": 9
+   "2026-09-28": 9,
+   "2026-09-29": 10
   },
   "CompraGasolinaBidon": {
    "2026-09-06": 1
@@ -359,6 +361,106 @@
   }
  },
  "commits": [
+  {
+   "sha": "a3245f7",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-09-29T11:02:18Z",
+   "msg": "Solo lo necesario en el repositorio",
+   "pts": 8.38,
+   "nota": ""
+  },
+  {
+   "sha": "5c263c1",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-09-29T10:49:24Z",
+   "msg": "El README dice lo justo: sin \"para siempre\" y con Pollar como es",
+   "pts": 7.77,
+   "nota": ""
+  },
+  {
+   "sha": "ab62f3c",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-09-29T04:53:04Z",
+   "msg": "Sellar varias listas es la única forma de torcer un sorteo ya sellado",
+   "pts": 4.17,
+   "nota": ""
+  },
+  {
+   "sha": "5537cd2",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-09-29T04:49:20Z",
+   "msg": "En el README, partidas reales en lugar de la imagen fija de los juegos",
+   "pts": 3.32,
+   "nota": ""
+  },
+  {
+   "sha": "6731546",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-09-29T04:25:43Z",
+   "msg": "El kit de skills sale del repo, y el protocolo y las amenazas en inglés",
+   "pts": 1.0,
+   "nota": "import masivo (179 archivos)"
+  },
+  {
+   "sha": "522be07",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-09-29T04:05:09Z",
+   "msg": "Una ventana para importar la lista de Luma, y el lema que se cumple",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "bdfaad4",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-09-29T03:29:53Z",
+   "msg": "Las docs al día: doce juegos, y los subtítulos en lugar del relator con voz",
+   "pts": 7.19,
+   "nota": ""
+  },
+  {
+   "sha": "c5e94aa",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-09-29T03:26:27Z",
+   "msg": "Sin relator con voz: la música de fondo arranca prendida y más baja",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "7987a2c",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-09-29T03:13:34Z",
+   "msg": "Un documento por cada juego nuevo, y el del Pasanaku contado como Aguayo",
+   "pts": 9.52,
+   "nota": ""
+  },
+  {
+   "sha": "c89fb1c",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-09-29T03:01:14Z",
+   "msg": "Las épicas al día: el motor nuevo, los doce juegos y el Aguayo",
+   "pts": 4.7,
+   "nota": ""
+  },
   {
    "sha": "adbb7a8",
    "team": "BOLAR",
