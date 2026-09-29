@@ -1,5 +1,5 @@
 {
- "generado": "2026-09-28T22:46:05+00:00",
+ "generado": "2026-09-29T03:20:43+00:00",
  "programa": "Stellar Elite",
  "start_date": "2026-09-02T00:00:00Z",
  "teams": [
@@ -74,11 +74,11 @@
   },
   {
    "name": "BOLAR",
-   "total": 57.32,
-   "per_capita": 57.32,
-   "commits": 5,
-   "pts_commits": 36.32,
-   "dias_activos": 3,
+   "total": 70.24,
+   "per_capita": 70.24,
+   "commits": 6,
+   "pts_commits": 44.24,
+   "dias_activos": 4,
    "contribuidores": [
     "rudyramirezc",
     "sass3r"
@@ -106,6 +106,22 @@
    "rank": 6
   },
   {
+   "name": "MinerTrace",
+   "total": 18.97,
+   "per_capita": 18.97,
+   "commits": 3,
+   "pts_commits": 10.97,
+   "dias_activos": 1,
+   "contribuidores": [
+    "Dante1128"
+   ],
+   "tamano": 1,
+   "repos": [
+    "Dante1128/MinerTracer"
+   ],
+   "rank": 7
+  },
+  {
    "name": "DrinksOnChain",
    "total": 18.0,
    "per_capita": 18.0,
@@ -119,7 +135,7 @@
    "repos": [
     "DAVV422/drinks-on-chain-public"
    ],
-   "rank": 7
+   "rank": 8
   },
   {
    "name": "CompraGasolinaBidon",
@@ -135,7 +151,7 @@
    "repos": [
     "jjvos19/stellar-build"
    ],
-   "rank": 8
+   "rank": 9
   },
   {
    "name": "NodeXchange",
@@ -151,7 +167,7 @@
    "repos": [
     "RomerTamayo/stellar-build"
    ],
-   "rank": 9
+   "rank": 10
   },
   {
    "name": "Agentx402",
@@ -166,22 +182,6 @@
    "tamano": 1,
    "repos": [
     "ZequerVirus/Stellar-P1"
-   ],
-   "rank": 10
-  },
-  {
-   "name": "MinerTrace",
-   "total": 9.0,
-   "per_capita": 9.0,
-   "commits": 2,
-   "pts_commits": 1.0,
-   "dias_activos": 1,
-   "contribuidores": [
-    "Dante1128"
-   ],
-   "tamano": 1,
-   "repos": [
-    "Dante1128/MinerTracer"
    ],
    "rank": 11
   },
@@ -292,10 +292,11 @@
   "BOLAR": {
    "2026-09-22": 9.25,
    "2026-09-24": 10.190000000000001,
-   "2026-09-26": 16.880000000000003
+   "2026-09-26": 16.880000000000003,
+   "2026-09-29": 7.92
   },
   "MinerTrace": {
-   "2026-09-28": 1.0
+   "2026-09-28": 10.97
   }
  },
  "serie_commits": {
@@ -350,13 +351,34 @@
   "BOLAR": {
    "2026-09-22": 1,
    "2026-09-24": 2,
-   "2026-09-26": 2
+   "2026-09-26": 2,
+   "2026-09-29": 1
   },
   "MinerTrace": {
-   "2026-09-28": 2
+   "2026-09-28": 3
   }
  },
  "commits": [
+  {
+   "sha": "adbb7a8",
+   "team": "BOLAR",
+   "repo": "bolarpay/bolar-app",
+   "author": "rudyramirezc",
+   "date": "2026-09-29T01:31:28Z",
+   "msg": "add header component",
+   "pts": 7.92,
+   "nota": ""
+  },
+  {
+   "sha": "b2601ff",
+   "team": "MinerTrace",
+   "repo": "Dante1128/MinerTracer",
+   "author": "Dante1128",
+   "date": "2026-09-28T22:50:19Z",
+   "msg": "agents.md",
+   "pts": 9.97,
+   "nota": ""
+  },
   {
    "sha": "9fe61b5",
    "team": "MinerTrace",
