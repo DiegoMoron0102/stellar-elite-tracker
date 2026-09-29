@@ -1,14 +1,14 @@
 {
- "generado": "2026-09-29T17:17:32+00:00",
+ "generado": "2026-09-29T21:40:04+00:00",
  "programa": "Stellar Elite",
  "start_date": "2026-09-02T00:00:00Z",
  "teams": [
   {
    "name": "Tinkazo",
-   "total": 796.96,
-   "per_capita": 796.96,
-   "commits": 93,
-   "pts_commits": 748.96,
+   "total": 806.96,
+   "per_capita": 806.96,
+   "commits": 94,
+   "pts_commits": 758.96,
    "dias_activos": 9,
    "contribuidores": [
     "nema1502"
@@ -18,6 +18,24 @@
     "nema1502/tinkazo"
    ],
    "rank": 1
+  },
+  {
+   "name": "Puls3",
+   "total": 269.44,
+   "per_capita": 269.44,
+   "commits": 50,
+   "pts_commits": 220.44,
+   "dias_activos": 8,
+   "contribuidores": [
+    "TOMOKI977",
+    "XxHugheadxX",
+    "moises-cisneros"
+   ],
+   "tamano": 1,
+   "repos": [
+    "Zer0-Knowledge-Hack/puls3"
+   ],
+   "rank": 2
   },
   {
    "name": "Stellar Flash",
@@ -33,32 +51,14 @@
    "repos": [
     "nadevrix/stellar-flash"
    ],
-   "rank": 2
-  },
-  {
-   "name": "Puls3",
-   "total": 225.94,
-   "per_capita": 225.94,
-   "commits": 45,
-   "pts_commits": 186.94,
-   "dias_activos": 6,
-   "contribuidores": [
-    "TOMOKI977",
-    "XxHugheadxX",
-    "moises-cisneros"
-   ],
-   "tamano": 1,
-   "repos": [
-    "Zer0-Knowledge-Hack/puls3"
-   ],
    "rank": 3
   },
   {
    "name": "Impulso Stellar",
-   "total": 109.83,
-   "per_capita": 109.83,
-   "commits": 20,
-   "pts_commits": 72.83,
+   "total": 119.83,
+   "per_capita": 119.83,
+   "commits": 22,
+   "pts_commits": 82.83,
    "dias_activos": 5,
    "contribuidores": [
     "Hans3010",
@@ -253,7 +253,9 @@
    "2026-09-23": 38.540000000000006,
    "2026-09-24": 16.65,
    "2026-09-25": 10.0,
-   "2026-09-26": 56.12
+   "2026-09-26": 56.12,
+   "2026-09-27": 14.45,
+   "2026-09-29": 19.05
   },
   "Tinkazo": {
    "2026-09-16": 66.21000000000001,
@@ -264,7 +266,7 @@
    "2026-09-26": 28.810000000000002,
    "2026-09-27": 19.78,
    "2026-09-28": 72.91,
-   "2026-09-29": 87.86999999999999
+   "2026-09-29": 97.86999999999999
   },
   "CompraGasolinaBidon": {
    "2026-09-06": 1.0
@@ -289,7 +291,7 @@
    "2026-09-26": 0.0,
    "2026-09-27": 12.64,
    "2026-09-28": 0.0,
-   "2026-09-29": 15.09
+   "2026-09-29": 25.09
   },
   "BOLAR": {
    "2026-09-22": 9.25,
@@ -314,7 +316,9 @@
    "2026-09-23": 7,
    "2026-09-24": 9,
    "2026-09-25": 1,
-   "2026-09-26": 12
+   "2026-09-26": 12,
+   "2026-09-27": 2,
+   "2026-09-29": 3
   },
   "Tinkazo": {
    "2026-09-16": 8,
@@ -325,7 +329,7 @@
    "2026-09-26": 3,
    "2026-09-27": 2,
    "2026-09-28": 9,
-   "2026-09-29": 14
+   "2026-09-29": 15
   },
   "CompraGasolinaBidon": {
    "2026-09-06": 1
@@ -350,7 +354,7 @@
    "2026-09-26": 3,
    "2026-09-27": 4,
    "2026-09-28": 1,
-   "2026-09-29": 4
+   "2026-09-29": 6
   },
   "BOLAR": {
    "2026-09-22": 1,
@@ -363,6 +367,66 @@
   }
  },
  "commits": [
+  {
+   "sha": "8444322",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "Hans3010",
+   "date": "2026-09-29T20:35:22Z",
+   "msg": "Merge pull request #7 from orlando-vazquez-career/feat/authoritative-map",
+   "pts": 0.0,
+   "nota": "merge"
+  },
+  {
+   "sha": "1d7b2fa",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-09-29T19:04:17Z",
+   "msg": "Los choques del trompo, de verdad: contacto, parada, estrella y cámara lenta, con su auditor",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "ad84261",
+   "team": "Puls3",
+   "repo": "Zer0-Knowledge-Hack/puls3",
+   "author": "XxHugheadxX",
+   "date": "2026-09-29T18:51:51Z",
+   "msg": "feat(domain): add Hire lifecycle state machine: guarded pay/cancel/start/deliver/fail/rate transitions with typed errors",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "86b3d71",
+   "team": "Puls3",
+   "repo": "Zer0-Knowledge-Hack/puls3",
+   "author": "XxHugheadxX",
+   "date": "2026-09-29T18:45:42Z",
+   "msg": "docs: add MVP user flows (7 flows with screen IDs and error paths, plus grant and Serverpod demo paths)",
+   "pts": 9.05,
+   "nota": ""
+  },
+  {
+   "sha": "2178333",
+   "team": "Puls3",
+   "repo": "Zer0-Knowledge-Hack/puls3",
+   "author": "XxHugheadxX",
+   "date": "2026-09-29T18:35:46Z",
+   "msg": "Merge pull request #64 from Zer0-Knowledge-Hack/chore/29-ci-pipeline",
+   "pts": 0.0,
+   "nota": "merge"
+  },
+  {
+   "sha": "191331c",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "orlando-vazquez-career",
+   "date": "2026-09-29T17:42:20Z",
+   "msg": "feat: add authoritative battlefield map backend",
+   "pts": 10,
+   "nota": ""
+  },
   {
    "sha": "87d352a",
    "team": "Tinkazo",
@@ -721,6 +785,26 @@
    "date": "2026-09-27T19:54:12Z",
    "msg": "test update branch",
    "pts": 2.0,
+   "nota": ""
+  },
+  {
+   "sha": "c37e217",
+   "team": "Puls3",
+   "repo": "Zer0-Knowledge-Hack/puls3",
+   "author": "TOMOKI977",
+   "date": "2026-09-27T16:22:07Z",
+   "msg": "fix(ci): detect Stellar secret seeds",
+   "pts": 5.09,
+   "nota": ""
+  },
+  {
+   "sha": "0e99a21",
+   "team": "Puls3",
+   "repo": "Zer0-Knowledge-Hack/puls3",
+   "author": "TOMOKI977",
+   "date": "2026-09-27T16:05:49Z",
+   "msg": "chore(ci): add component-aware quality gates",
+   "pts": 9.36,
    "nota": ""
   },
   {

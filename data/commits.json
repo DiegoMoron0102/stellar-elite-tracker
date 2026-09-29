@@ -29692,5 +29692,585 @@
     "d": 0
    }
   ]
+ },
+ "ad8426148a0bc4f3a99355c70ba078f896cf8db6": {
+  "team": "Puls3",
+  "repo": "Zer0-Knowledge-Hack/puls3",
+  "author": "XxHugheadxX",
+  "date": "2026-09-29T18:51:51Z",
+  "message": "feat(domain): add Hire lifecycle state machine: guarded pay/cancel/start/deliver/fail/rate transitions with typed errors",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/domain/hire-lifecycle.md",
+    "a": 62,
+    "d": 0
+   },
+   {
+    "f": "docs/domain/model.md",
+    "a": 6,
+    "d": 1
+   },
+   {
+    "f": "puls3_domain/lib/puls3_domain.dart",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "puls3_domain/lib/src/entities.dart",
+    "a": 107,
+    "d": 2
+   },
+   {
+    "f": "puls3_domain/lib/src/errors.dart",
+    "a": 46,
+    "d": 1
+   },
+   {
+    "f": "puls3_domain/lib/src/hire_status.dart",
+    "a": 19,
+    "d": 0
+   },
+   {
+    "f": "puls3_domain/test/hire_lifecycle_test.dart",
+    "a": 278,
+    "d": 0
+   }
+  ]
+ },
+ "86b3d714ffdd2b058973af83f6129700f499a2dc": {
+  "team": "Puls3",
+  "repo": "Zer0-Knowledge-Hack/puls3",
+  "author": "XxHugheadxX",
+  "date": "2026-09-29T18:45:42Z",
+  "message": "docs: add MVP user flows (7 flows with screen IDs and error paths, plus grant and Serverpod demo paths)",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/blueprints/flows.md",
+    "a": 264,
+    "d": 0
+   }
+  ]
+ },
+ "217833355791ada7e312c751231e555214e97321": {
+  "team": "Puls3",
+  "repo": "Zer0-Knowledge-Hack/puls3",
+  "author": "XxHugheadxX",
+  "date": "2026-09-29T18:35:46Z",
+  "message": "Merge pull request #64 from Zer0-Knowledge-Hack/chore/29-ci-pipeline",
+  "parents": 2,
+  "files": [
+   {
+    "f": ".github/workflows/analyze.yml",
+    "a": 0,
+    "d": 25
+   },
+   {
+    "f": ".github/workflows/ci.yml",
+    "a": 183,
+    "d": 0
+   },
+   {
+    "f": ".github/workflows/format.yml",
+    "a": 0,
+    "d": 25
+   },
+   {
+    "f": ".github/workflows/secrets.yml",
+    "a": 37,
+    "d": 0
+   },
+   {
+    "f": ".gitleaks.toml",
+    "a": 10,
+    "d": 0
+   },
+   {
+    "f": "CONTRIBUTING.md",
+    "a": 54,
+    "d": 5
+   }
+  ]
+ },
+ "c37e21749a8725e97c3aef167af438b12a664bd3": {
+  "team": "Puls3",
+  "repo": "Zer0-Knowledge-Hack/puls3",
+  "author": "TOMOKI977",
+  "date": "2026-09-27T16:22:07Z",
+  "message": "fix(ci): detect Stellar secret seeds",
+  "parents": 1,
+  "files": [
+   {
+    "f": ".github/workflows/secrets.yml",
+    "a": 3,
+    "d": 1
+   },
+   {
+    "f": ".gitleaks.toml",
+    "a": 10,
+    "d": 0
+   },
+   {
+    "f": "CONTRIBUTING.md",
+    "a": 1,
+    "d": 1
+   }
+  ]
+ },
+ "0e99a210a272095db9bd201e42b7407fd027eb9b": {
+  "team": "Puls3",
+  "repo": "Zer0-Knowledge-Hack/puls3",
+  "author": "TOMOKI977",
+  "date": "2026-09-27T16:05:49Z",
+  "message": "chore(ci): add component-aware quality gates",
+  "parents": 1,
+  "files": [
+   {
+    "f": ".github/workflows/analyze.yml",
+    "a": 0,
+    "d": 25
+   },
+   {
+    "f": ".github/workflows/ci.yml",
+    "a": 183,
+    "d": 0
+   },
+   {
+    "f": ".github/workflows/format.yml",
+    "a": 0,
+    "d": 25
+   },
+   {
+    "f": ".github/workflows/secrets.yml",
+    "a": 35,
+    "d": 0
+   },
+   {
+    "f": "CONTRIBUTING.md",
+    "a": 54,
+    "d": 5
+   }
+  ]
+ },
+ "1d7b2fa604272820d787cf2f42e43448cc50e9f0": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-09-29T19:04:17Z",
+  "message": "Los choques del trompo, de verdad: contacto, parada, estrella y cámara lenta, con su auditor",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/epics.md",
+    "a": 26,
+    "d": 0
+   },
+   {
+    "f": "docs/juegos.md",
+    "a": 18,
+    "d": 1
+   },
+   {
+    "f": "docs/juegos/trompo.md",
+    "a": 43,
+    "d": 7
+   },
+   {
+    "f": "docs/motores.md",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "scripts/audit-choques.mjs",
+    "a": 201,
+    "d": 0
+   },
+   {
+    "f": "src/games/pixi/trompo.ts",
+    "a": 920,
+    "d": 198
+   }
+  ]
+ },
+ "844432208ca63b9548a904016458a426b0564026": {
+  "team": "Impulso Stellar",
+  "repo": "orlando-vazquez-career/stellar-impulse",
+  "author": "Hans3010",
+  "date": "2026-09-29T20:35:22Z",
+  "message": "Merge pull request #7 from orlando-vazquez-career/feat/authoritative-map",
+  "parents": 2,
+  "files": [
+   {
+    "f": "apps/server/src/campaign-room.test.ts",
+    "a": 201,
+    "d": 7
+   },
+   {
+    "f": "apps/server/src/campaign-room.ts",
+    "a": 66,
+    "d": 21
+   },
+   {
+    "f": "apps/server/src/campaign/machine.test.ts",
+    "a": 91,
+    "d": 9
+   },
+   {
+    "f": "apps/server/src/campaign/machine.ts",
+    "a": 53,
+    "d": 20
+   },
+   {
+    "f": "apps/server/src/map-benchmark.test.ts",
+    "a": 272,
+    "d": 0
+   },
+   {
+    "f": "apps/server/src/map-catalog.ts",
+    "a": 14,
+    "d": 0
+   },
+   {
+    "f": "apps/server/src/map-e2e.test.ts",
+    "a": 119,
+    "d": 0
+   },
+   {
+    "f": "docs/README.md",
+    "a": 2,
+    "d": 1
+   },
+   {
+    "f": "docs/map-backend.md",
+    "a": 44,
+    "d": 0
+   },
+   {
+    "f": "docs/protocol.md",
+    "a": 110,
+    "d": 56
+   },
+   {
+    "f": "docs/status.md",
+    "a": 14,
+    "d": 12
+   },
+   {
+    "f": "packages/input/src/battlefield.test.ts",
+    "a": 87,
+    "d": 0
+   },
+   {
+    "f": "packages/input/src/battlefield.ts",
+    "a": 76,
+    "d": 0
+   },
+   {
+    "f": "packages/input/src/index.ts",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "packages/input/src/protocol.test.ts",
+    "a": 36,
+    "d": 1
+   },
+   {
+    "f": "packages/input/src/protocol.ts",
+    "a": 22,
+    "d": 5
+   },
+   {
+    "f": "packages/sim/src/index.ts",
+    "a": 19,
+    "d": 41
+   },
+   {
+    "f": "packages/sim/src/maps/battlefield.test.ts",
+    "a": 62,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/maps/battlefield.ts",
+    "a": 19,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/maps/mechanics.ts",
+    "a": 79,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/maps/occupancy.test.ts",
+    "a": 64,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/maps/occupancy.ts",
+    "a": 170,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/maps/pathfinding.test.ts",
+    "a": 152,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/maps/pathfinding.ts",
+    "a": 112,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/maps/spatial-index.test.ts",
+    "a": 58,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/maps/spatial-index.ts",
+    "a": 60,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/maps/tiled.test.ts",
+    "a": 72,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/maps/tiled.ts",
+    "a": 79,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/maps/types.ts",
+    "a": 82,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/maps/visibility.test.ts",
+    "a": 93,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/maps/visibility.ts",
+    "a": 95,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/maps/world.test.ts",
+    "a": 177,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/maps/world.ts",
+    "a": 204,
+    "d": 0
+   },
+   {
+    "f": "packages/state/src/battlefield.test.ts",
+    "a": 146,
+    "d": 0
+   },
+   {
+    "f": "packages/state/src/battlefield.ts",
+    "a": 138,
+    "d": 0
+   },
+   {
+    "f": "packages/state/src/index.ts",
+    "a": 5,
+    "d": 0
+   }
+  ]
+ },
+ "191331cf0e0f0b9430b732bd25d1012d6fd7c922": {
+  "team": "Impulso Stellar",
+  "repo": "orlando-vazquez-career/stellar-impulse",
+  "author": "orlando-vazquez-career",
+  "date": "2026-09-29T17:42:20Z",
+  "message": "feat: add authoritative battlefield map backend",
+  "parents": 1,
+  "files": [
+   {
+    "f": "apps/server/src/campaign-room.test.ts",
+    "a": 201,
+    "d": 7
+   },
+   {
+    "f": "apps/server/src/campaign-room.ts",
+    "a": 66,
+    "d": 21
+   },
+   {
+    "f": "apps/server/src/campaign/machine.test.ts",
+    "a": 91,
+    "d": 9
+   },
+   {
+    "f": "apps/server/src/campaign/machine.ts",
+    "a": 53,
+    "d": 20
+   },
+   {
+    "f": "apps/server/src/map-benchmark.test.ts",
+    "a": 272,
+    "d": 0
+   },
+   {
+    "f": "apps/server/src/map-catalog.ts",
+    "a": 14,
+    "d": 0
+   },
+   {
+    "f": "apps/server/src/map-e2e.test.ts",
+    "a": 119,
+    "d": 0
+   },
+   {
+    "f": "docs/README.md",
+    "a": 2,
+    "d": 1
+   },
+   {
+    "f": "docs/map-backend.md",
+    "a": 44,
+    "d": 0
+   },
+   {
+    "f": "docs/protocol.md",
+    "a": 110,
+    "d": 56
+   },
+   {
+    "f": "docs/status.md",
+    "a": 14,
+    "d": 12
+   },
+   {
+    "f": "packages/input/src/battlefield.test.ts",
+    "a": 87,
+    "d": 0
+   },
+   {
+    "f": "packages/input/src/battlefield.ts",
+    "a": 76,
+    "d": 0
+   },
+   {
+    "f": "packages/input/src/index.ts",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "packages/input/src/protocol.test.ts",
+    "a": 36,
+    "d": 1
+   },
+   {
+    "f": "packages/input/src/protocol.ts",
+    "a": 22,
+    "d": 5
+   },
+   {
+    "f": "packages/sim/src/index.ts",
+    "a": 19,
+    "d": 41
+   },
+   {
+    "f": "packages/sim/src/maps/battlefield.test.ts",
+    "a": 62,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/maps/battlefield.ts",
+    "a": 19,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/maps/mechanics.ts",
+    "a": 79,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/maps/occupancy.test.ts",
+    "a": 64,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/maps/occupancy.ts",
+    "a": 170,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/maps/pathfinding.test.ts",
+    "a": 152,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/maps/pathfinding.ts",
+    "a": 112,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/maps/spatial-index.test.ts",
+    "a": 58,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/maps/spatial-index.ts",
+    "a": 60,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/maps/tiled.test.ts",
+    "a": 72,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/maps/tiled.ts",
+    "a": 79,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/maps/types.ts",
+    "a": 82,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/maps/visibility.test.ts",
+    "a": 93,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/maps/visibility.ts",
+    "a": 95,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/maps/world.test.ts",
+    "a": 177,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/maps/world.ts",
+    "a": 204,
+    "d": 0
+   },
+   {
+    "f": "packages/state/src/battlefield.test.ts",
+    "a": 146,
+    "d": 0
+   },
+   {
+    "f": "packages/state/src/battlefield.ts",
+    "a": 138,
+    "d": 0
+   },
+   {
+    "f": "packages/state/src/index.ts",
+    "a": 5,
+    "d": 0
+   }
+  ]
  }
 }
