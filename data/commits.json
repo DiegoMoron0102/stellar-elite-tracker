@@ -29052,5 +29052,645 @@
     "d": 3
    }
   ]
+ },
+ "87d352a85faae96b5d5f1e974c4c62afdf99559c": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-09-29T16:06:28Z",
+  "message": "Lo caro de la primera vez, antes de que la sala mire",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/motores.md",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "src/games/pixi/camera.ts",
+    "a": 22,
+    "d": 1
+   },
+   {
+    "f": "src/games/pixi/stage.ts",
+    "a": 51,
+    "d": 10
+   },
+   {
+    "f": "src/music.ts",
+    "a": 13,
+    "d": 1
+   }
+  ]
+ },
+ "099c1d18bfc79d0809cb46d435ffb4ef6abe6df2": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-09-29T15:58:39Z",
+  "message": "La misión en el README: que repartir entre la gente sea justo y se pueda comprobar",
+  "parents": 1,
+  "files": [
+   {
+    "f": "README.es.md",
+    "a": 2,
+    "d": 0
+   },
+   {
+    "f": "README.md",
+    "a": 2,
+    "d": 0
+   }
+  ]
+ },
+ "88612f0efe72791f49cb31d5f2d92c9298c02a20": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-09-29T12:50:28Z",
+  "message": "Los botones de los cuatro juegos nuevos andan, y el motor se precarga",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/epics.md",
+    "a": 2,
+    "d": 0
+   },
+   {
+    "f": "docs/motores.md",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "src/games/engine.ts",
+    "a": 28,
+    "d": 1
+   },
+   {
+    "f": "src/games/pixi/index.ts",
+    "a": 9,
+    "d": 1
+   },
+   {
+    "f": "src/games/pixi/stage.ts",
+    "a": 13,
+    "d": 1
+   },
+   {
+    "f": "src/main.ts",
+    "a": 3,
+    "d": 11
+   },
+   {
+    "f": "src/ui/draw.ts",
+    "a": 34,
+    "d": 32
+   },
+   {
+    "f": "src/ui/freeze.ts",
+    "a": 16,
+    "d": 2
+   }
+  ]
+ },
+ "d28b319cd61fca6f4cc8cc2c66942810fb0bf186": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-09-29T11:16:11Z",
+  "message": "La Ley 1733 en legal.md: qué artículos de la Ley 060 cambia, con su fuente",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/legal.md",
+    "a": 2,
+    "d": 0
+   }
+  ]
+ },
+ "a7f7b27844d0f72d7867719b2db8bb29d82935c4": {
+  "team": "Impulso Stellar",
+  "repo": "orlando-vazquez-career/stellar-impulse",
+  "author": "orlando-vazquez-career",
+  "date": "2026-09-29T15:39:10Z",
+  "message": "Merge pull request #6 from orlando-vazquez-career/develop/visual-interface-foundation",
+  "parents": 2,
+  "files": [
+   {
+    "f": "apps/web/package.json",
+    "a": 3,
+    "d": 0
+   },
+   {
+    "f": "apps/web/public/visual/maps/terrain.svg",
+    "a": 10,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/main.tsx",
+    "a": 8,
+    "d": 3
+   },
+   {
+    "f": "apps/web/src/visual/VisualPrototypeApp.tsx",
+    "a": 52,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/visual/access/AccessScreen.tsx",
+    "a": 32,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/visual/game/DevelopmentControls.tsx",
+    "a": 21,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/visual/game/GameplayScreen.tsx",
+    "a": 35,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/visual/game/Hud.tsx",
+    "a": 132,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/visual/game/mock-adapter.test.ts",
+    "a": 62,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/visual/game/mock-adapter.ts",
+    "a": 183,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/visual/game/model.ts",
+    "a": 85,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/visual/game/phaser/BattlefieldScene.ts",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/visual/game/phaser/MainScene.ts",
+    "a": 114,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/visual/game/phaser/OrthographicBattlefieldScene.ts",
+    "a": 354,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/visual/game/phaser/PhaserBattlefield.tsx",
+    "a": 67,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/visual/game/phaser/assets/battlefield.json",
+    "a": 5229,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/visual/game/phaser/assets/battlefield.test.ts",
+    "a": 15,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/visual/game/phaser/grid.test.ts",
+    "a": 28,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/visual/game/phaser/grid.ts",
+    "a": 53,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/visual/hangar/HangarScreen.tsx",
+    "a": 69,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/visual/hangar/catalog.ts",
+    "a": 28,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/visual/hangar/hangar.css",
+    "a": 72,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/visual/hangar/loadout.test.ts",
+    "a": 27,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/visual/hangar/loadout.ts",
+    "a": 28,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/visual/i18n.tsx",
+    "a": 364,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/visual/lobby/PreparationLobby.tsx",
+    "a": 83,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/visual/lobby/lobby.css",
+    "a": 81,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/visual/menu/CommandCenter.tsx",
+    "a": 34,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/visual/settings/SettingsScreen.tsx",
+    "a": 105,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/visual/settings/preferences.test.ts",
+    "a": 34,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/visual/settings/preferences.ts",
+    "a": 57,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/visual/settings/settings.css",
+    "a": 71,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/visual/shared/Brand.tsx",
+    "a": 6,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/visual/shared/LanguageToggle.tsx",
+    "a": 9,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/visual/shared/Panel.tsx",
+    "a": 5,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/visual/visual.css",
+    "a": 327,
+    "d": 0
+   },
+   {
+    "f": "pnpm-lock.yaml",
+    "a": 31,
+    "d": 0
+   },
+   {
+    "f": "tests/e2e/visual.spec.ts",
+    "a": 213,
+    "d": 0
+   }
+  ]
+ },
+ "9ed10abb7dacfdadfe4f55708ab9fea669f8bd47": {
+  "team": "Impulso Stellar",
+  "repo": "orlando-vazquez-career/stellar-impulse",
+  "author": "orlando-vazquez-career",
+  "date": "2026-09-29T15:35:23Z",
+  "message": "Merge branch 'main' into develop/visual-interface-foundation",
+  "parents": 2,
+  "files": [
+   {
+    "f": "apps/server/package.json",
+    "a": 7,
+    "d": 4
+   },
+   {
+    "f": "apps/server/src/app.ts",
+    "a": 34,
+    "d": 0
+   },
+   {
+    "f": "apps/server/src/campaign-room.test.ts",
+    "a": 73,
+    "d": 0
+   },
+   {
+    "f": "apps/server/src/campaign-room.ts",
+    "a": 154,
+    "d": 0
+   },
+   {
+    "f": "apps/server/src/campaign/machine.test.ts",
+    "a": 200,
+    "d": 0
+   },
+   {
+    "f": "apps/server/src/campaign/machine.ts",
+    "a": 267,
+    "d": 0
+   },
+   {
+    "f": "apps/server/src/index.ts",
+    "a": 3,
+    "d": 23
+   },
+   {
+    "f": "contracts/cosmetics/src/lib.rs",
+    "a": 114,
+    "d": 32
+   },
+   {
+    "f": "contracts/cosmetics/src/test.rs",
+    "a": 130,
+    "d": 4
+   },
+   {
+    "f": "docs/README.md",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "docs/blockchain.md",
+    "a": 21,
+    "d": 2
+   },
+   {
+    "f": "docs/product.md",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "docs/protocol.md",
+    "a": 86,
+    "d": 0
+   },
+   {
+    "f": "docs/qa/cuadro-pruebas-v0.01.md",
+    "a": 198,
+    "d": 0
+   },
+   {
+    "f": "docs/status.md",
+    "a": 8,
+    "d": 1
+   },
+   {
+    "f": "packages/input/src/index.ts",
+    "a": 2,
+    "d": 0
+   },
+   {
+    "f": "packages/input/src/protocol.test.ts",
+    "a": 52,
+    "d": 0
+   },
+   {
+    "f": "packages/input/src/protocol.ts",
+    "a": 64,
+    "d": 0
+   },
+   {
+    "f": "pnpm-lock.yaml",
+    "a": 4,
+    "d": 0
+   }
+  ]
+ },
+ "ae497e79d25ede46a6864d6f35ac7c9905b11e5c": {
+  "team": "Impulso Stellar",
+  "repo": "orlando-vazquez-career/stellar-impulse",
+  "author": "orlando-vazquez-career",
+  "date": "2026-09-29T15:24:35Z",
+  "message": "fix(web): prevent camera drift before pointer input",
+  "parents": 1,
+  "files": [
+   {
+    "f": "apps/web/src/visual/game/phaser/MainScene.ts",
+    "a": 3,
+    "d": 0
+   },
+   {
+    "f": "tests/e2e/visual.spec.ts",
+    "a": 13,
+    "d": 0
+   }
+  ]
+ },
+ "770ffb647a31b8a83b0d1a7e0ca8d5b06c71c985": {
+  "team": "Impulso Stellar",
+  "repo": "orlando-vazquez-career/stellar-impulse",
+  "author": "Ismaelolazo",
+  "date": "2026-09-29T14:58:02Z",
+  "message": "feat(web): add visual interface and orthogonal Phaser battlefield",
+  "parents": 1,
+  "files": [
+   {
+    "f": "apps/web/package.json",
+    "a": 3,
+    "d": 0
+   },
+   {
+    "f": "apps/web/public/visual/maps/terrain.svg",
+    "a": 10,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/main.tsx",
+    "a": 8,
+    "d": 3
+   },
+   {
+    "f": "apps/web/src/visual/VisualPrototypeApp.tsx",
+    "a": 52,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/visual/access/AccessScreen.tsx",
+    "a": 32,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/visual/game/DevelopmentControls.tsx",
+    "a": 21,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/visual/game/GameplayScreen.tsx",
+    "a": 35,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/visual/game/Hud.tsx",
+    "a": 132,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/visual/game/mock-adapter.test.ts",
+    "a": 62,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/visual/game/mock-adapter.ts",
+    "a": 183,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/visual/game/model.ts",
+    "a": 85,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/visual/game/phaser/BattlefieldScene.ts",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/visual/game/phaser/MainScene.ts",
+    "a": 111,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/visual/game/phaser/OrthographicBattlefieldScene.ts",
+    "a": 354,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/visual/game/phaser/PhaserBattlefield.tsx",
+    "a": 67,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/visual/game/phaser/assets/battlefield.json",
+    "a": 5229,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/visual/game/phaser/assets/battlefield.test.ts",
+    "a": 15,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/visual/game/phaser/grid.test.ts",
+    "a": 28,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/visual/game/phaser/grid.ts",
+    "a": 53,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/visual/hangar/HangarScreen.tsx",
+    "a": 69,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/visual/hangar/catalog.ts",
+    "a": 28,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/visual/hangar/hangar.css",
+    "a": 72,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/visual/hangar/loadout.test.ts",
+    "a": 27,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/visual/hangar/loadout.ts",
+    "a": 28,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/visual/i18n.tsx",
+    "a": 364,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/visual/lobby/PreparationLobby.tsx",
+    "a": 83,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/visual/lobby/lobby.css",
+    "a": 81,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/visual/menu/CommandCenter.tsx",
+    "a": 34,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/visual/settings/SettingsScreen.tsx",
+    "a": 105,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/visual/settings/preferences.test.ts",
+    "a": 34,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/visual/settings/preferences.ts",
+    "a": 57,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/visual/settings/settings.css",
+    "a": 71,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/visual/shared/Brand.tsx",
+    "a": 6,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/visual/shared/LanguageToggle.tsx",
+    "a": 9,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/visual/shared/Panel.tsx",
+    "a": 5,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/visual/visual.css",
+    "a": 327,
+    "d": 0
+   },
+   {
+    "f": "pnpm-lock.yaml",
+    "a": 31,
+    "d": 0
+   },
+   {
+    "f": "tests/e2e/visual.spec.ts",
+    "a": 200,
+    "d": 0
+   }
+  ]
  }
 }

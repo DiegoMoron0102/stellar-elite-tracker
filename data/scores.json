@@ -1,14 +1,14 @@
 {
- "generado": "2026-09-29T11:49:19+00:00",
+ "generado": "2026-09-29T17:17:32+00:00",
  "programa": "Stellar Elite",
  "start_date": "2026-09-02T00:00:00Z",
  "teams": [
   {
    "name": "Tinkazo",
-   "total": 775.14,
-   "per_capita": 775.14,
-   "commits": 89,
-   "pts_commits": 727.14,
+   "total": 796.96,
+   "per_capita": 796.96,
+   "commits": 93,
+   "pts_commits": 748.96,
    "dias_activos": 9,
    "contribuidores": [
     "nema1502"
@@ -55,11 +55,11 @@
   },
   {
    "name": "Impulso Stellar",
-   "total": 89.74,
-   "per_capita": 89.74,
-   "commits": 16,
-   "pts_commits": 57.74,
-   "dias_activos": 4,
+   "total": 109.83,
+   "per_capita": 109.83,
+   "commits": 20,
+   "pts_commits": 72.83,
+   "dias_activos": 5,
    "contribuidores": [
     "Hans3010",
     "Ismaelolazo",
@@ -264,7 +264,7 @@
    "2026-09-26": 28.810000000000002,
    "2026-09-27": 19.78,
    "2026-09-28": 72.91,
-   "2026-09-29": 66.05
+   "2026-09-29": 87.86999999999999
   },
   "CompraGasolinaBidon": {
    "2026-09-06": 1.0
@@ -288,7 +288,8 @@
    "2026-09-25": 34.1,
    "2026-09-26": 0.0,
    "2026-09-27": 12.64,
-   "2026-09-28": 0.0
+   "2026-09-28": 0.0,
+   "2026-09-29": 15.09
   },
   "BOLAR": {
    "2026-09-22": 9.25,
@@ -324,7 +325,7 @@
    "2026-09-26": 3,
    "2026-09-27": 2,
    "2026-09-28": 9,
-   "2026-09-29": 10
+   "2026-09-29": 14
   },
   "CompraGasolinaBidon": {
    "2026-09-06": 1
@@ -348,7 +349,8 @@
    "2026-09-25": 5,
    "2026-09-26": 3,
    "2026-09-27": 4,
-   "2026-09-28": 1
+   "2026-09-28": 1,
+   "2026-09-29": 4
   },
   "BOLAR": {
    "2026-09-22": 1,
@@ -361,6 +363,86 @@
   }
  },
  "commits": [
+  {
+   "sha": "87d352a",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-09-29T16:06:28Z",
+   "msg": "Lo caro de la primera vez, antes de que la sala mire",
+   "pts": 7.64,
+   "nota": ""
+  },
+  {
+   "sha": "099c1d1",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-09-29T15:58:39Z",
+   "msg": "La misión en el README: que repartir entre la gente sea justo y se pueda comprobar",
+   "pts": 3.32,
+   "nota": ""
+  },
+  {
+   "sha": "a7f7b27",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "orlando-vazquez-career",
+   "date": "2026-09-29T15:39:10Z",
+   "msg": "Merge pull request #6 from orlando-vazquez-career/develop/visual-interface-foundation",
+   "pts": 0.0,
+   "nota": "merge"
+  },
+  {
+   "sha": "9ed10ab",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "orlando-vazquez-career",
+   "date": "2026-09-29T15:35:23Z",
+   "msg": "Merge branch 'main' into develop/visual-interface-foundation",
+   "pts": 0.0,
+   "nota": "merge"
+  },
+  {
+   "sha": "ae497e7",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "orlando-vazquez-career",
+   "date": "2026-09-29T15:24:35Z",
+   "msg": "fix(web): prevent camera drift before pointer input",
+   "pts": 5.09,
+   "nota": ""
+  },
+  {
+   "sha": "770ffb6",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "Ismaelolazo",
+   "date": "2026-09-29T14:58:02Z",
+   "msg": "feat(web): add visual interface and orthogonal Phaser battlefield",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "88612f0",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-09-29T12:50:28Z",
+   "msg": "Los botones de los cuatro juegos nuevos andan, y el motor se precarga",
+   "pts": 8.28,
+   "nota": ""
+  },
+  {
+   "sha": "d28b319",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-09-29T11:16:11Z",
+   "msg": "La Ley 1733 en legal.md: qué artículos de la Ley 060 cambia, con su fuente",
+   "pts": 2.58,
+   "nota": ""
+  },
   {
    "sha": "a3245f7",
    "team": "Tinkazo",
