@@ -30507,5 +30507,1100 @@
     "d": 3
    }
   ]
+ },
+ "6a175b740a9dcac44fb96f163812e13d7fa39c59": {
+  "team": "Impulso Stellar",
+  "repo": "orlando-vazquez-career/stellar-impulse",
+  "author": "Hans3010",
+  "date": "2026-09-30T15:46:51Z",
+  "message": "Merge pull request #10 from orlando-vazquez-career/feat/lobby",
+  "parents": 2,
+  "files": [
+   {
+    "f": "apps/web/index.html",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "apps/web/public/assets/planets/campaign.gif",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "apps/web/public/assets/planets/credits.gif",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "apps/web/public/assets/planets/hangar.gif",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "apps/web/public/assets/planets/settings.gif",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "apps/web/public/assets/planets/training.gif",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "apps/web/public/assets/planets/versus.gif",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "apps/web/public/assets/starfields/starfield-1.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "apps/web/public/assets/starfields/starfield-2.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "apps/web/public/assets/starfields/starfield-3.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "apps/web/public/assets/starfields/starfield-4.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/lobby/LobbyScreen.tsx",
+    "a": 99,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/lobby/StarfieldLayers.tsx",
+    "a": 15,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/lobby/lobby-host.css",
+    "a": 28,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/lobby/lobby-state.test.ts",
+    "a": 65,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/lobby/lobby-state.ts",
+    "a": 48,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/lobby/lobby.css",
+    "a": 405,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/lobby/modes.ts",
+    "a": 74,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/lobby/pilot-alias.test.ts",
+    "a": 35,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/lobby/pilot-alias.ts",
+    "a": 30,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/lobby/sound.ts",
+    "a": 89,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/lobby/starfield.test.ts",
+    "a": 15,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/lobby/starfield.ts",
+    "a": 11,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/lobby/use-stage-scale.ts",
+    "a": 26,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/main.tsx",
+    "a": 12,
+    "d": 3
+   },
+   {
+    "f": "packages/ui/src/index.tsx",
+    "a": 12,
+    "d": 1
+   },
+   {
+    "f": "packages/ui/src/lobby/AliasControl.tsx",
+    "a": 58,
+    "d": 0
+   },
+   {
+    "f": "packages/ui/src/lobby/CatalogRow.tsx",
+    "a": 37,
+    "d": 0
+   },
+   {
+    "f": "packages/ui/src/lobby/LobbyTicker.tsx",
+    "a": 14,
+    "d": 0
+   },
+   {
+    "f": "packages/ui/src/lobby/ModeArt.tsx",
+    "a": 61,
+    "d": 0
+   },
+   {
+    "f": "packages/ui/src/lobby/ModeDetail.tsx",
+    "a": 47,
+    "d": 0
+   },
+   {
+    "f": "packages/ui/src/lobby/ModeList.tsx",
+    "a": 31,
+    "d": 0
+   },
+   {
+    "f": "packages/ui/src/lobby/PlanetStage.tsx",
+    "a": 83,
+    "d": 0
+   },
+   {
+    "f": "packages/ui/src/lobby/SoundButton.tsx",
+    "a": 14,
+    "d": 0
+   },
+   {
+    "f": "packages/ui/src/lobby/art-markup.ts",
+    "a": 15,
+    "d": 0
+   },
+   {
+    "f": "packages/ui/src/lobby/types.ts",
+    "a": 18,
+    "d": 0
+   },
+   {
+    "f": "packages/ui/src/svg-hidden.ts",
+    "a": 7,
+    "d": 0
+   },
+   {
+    "f": "tests/e2e/training.spec.ts",
+    "a": 11,
+    "d": 4
+   }
+  ]
+ },
+ "368f344d4d08ff5db5aacc12b16c0edcbbf23520": {
+  "team": "Impulso Stellar",
+  "repo": "orlando-vazquez-career/stellar-impulse",
+  "author": "degosenpai211",
+  "date": "2026-09-30T13:32:05Z",
+  "message": "feat(lobby): atlas de mando con planetas por modo, sonido y fondos",
+  "parents": 1,
+  "files": [
+   {
+    "f": "apps/web/index.html",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "apps/web/public/assets/planets/campaign.gif",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "apps/web/public/assets/planets/credits.gif",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "apps/web/public/assets/planets/hangar.gif",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "apps/web/public/assets/planets/settings.gif",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "apps/web/public/assets/planets/training.gif",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "apps/web/public/assets/planets/versus.gif",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "apps/web/public/assets/starfields/starfield-1.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "apps/web/public/assets/starfields/starfield-2.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "apps/web/public/assets/starfields/starfield-3.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "apps/web/public/assets/starfields/starfield-4.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/lobby/LobbyScreen.tsx",
+    "a": 99,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/lobby/StarfieldLayers.tsx",
+    "a": 15,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/lobby/lobby-host.css",
+    "a": 28,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/lobby/lobby-state.test.ts",
+    "a": 65,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/lobby/lobby-state.ts",
+    "a": 48,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/lobby/lobby.css",
+    "a": 405,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/lobby/modes.ts",
+    "a": 74,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/lobby/pilot-alias.test.ts",
+    "a": 35,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/lobby/pilot-alias.ts",
+    "a": 30,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/lobby/sound.ts",
+    "a": 89,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/lobby/starfield.test.ts",
+    "a": 15,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/lobby/starfield.ts",
+    "a": 11,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/lobby/use-stage-scale.ts",
+    "a": 26,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/main.tsx",
+    "a": 12,
+    "d": 3
+   },
+   {
+    "f": "packages/ui/src/index.tsx",
+    "a": 12,
+    "d": 1
+   },
+   {
+    "f": "packages/ui/src/lobby/AliasControl.tsx",
+    "a": 58,
+    "d": 0
+   },
+   {
+    "f": "packages/ui/src/lobby/CatalogRow.tsx",
+    "a": 37,
+    "d": 0
+   },
+   {
+    "f": "packages/ui/src/lobby/LobbyTicker.tsx",
+    "a": 14,
+    "d": 0
+   },
+   {
+    "f": "packages/ui/src/lobby/ModeArt.tsx",
+    "a": 61,
+    "d": 0
+   },
+   {
+    "f": "packages/ui/src/lobby/ModeDetail.tsx",
+    "a": 47,
+    "d": 0
+   },
+   {
+    "f": "packages/ui/src/lobby/ModeList.tsx",
+    "a": 31,
+    "d": 0
+   },
+   {
+    "f": "packages/ui/src/lobby/PlanetStage.tsx",
+    "a": 83,
+    "d": 0
+   },
+   {
+    "f": "packages/ui/src/lobby/SoundButton.tsx",
+    "a": 14,
+    "d": 0
+   },
+   {
+    "f": "packages/ui/src/lobby/art-markup.ts",
+    "a": 15,
+    "d": 0
+   },
+   {
+    "f": "packages/ui/src/lobby/types.ts",
+    "a": 18,
+    "d": 0
+   },
+   {
+    "f": "packages/ui/src/svg-hidden.ts",
+    "a": 7,
+    "d": 0
+   },
+   {
+    "f": "tests/e2e/training.spec.ts",
+    "a": 11,
+    "d": 4
+   }
+  ]
+ },
+ "47adf401df9febc52c07109cd7c9dc0b07f61c40": {
+  "team": "Impulso Stellar",
+  "repo": "orlando-vazquez-career/stellar-impulse",
+  "author": "Hans3010",
+  "date": "2026-09-30T13:01:42Z",
+  "message": "Merge pull request #9 from orlando-vazquez-career/develop/visual-interface-foundation",
+  "parents": 2,
+  "files": [
+   {
+    "f": "apps/server/src/map-benchmark.test.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "apps/web/src/main.tsx",
+    "a": 10,
+    "d": 4
+   },
+   {
+    "f": "apps/web/src/visual/game/GameplayScreen.tsx",
+    "a": 6,
+    "d": 1
+   },
+   {
+    "f": "apps/web/src/visual/game/Hud.tsx",
+    "a": 24,
+    "d": 4
+   },
+   {
+    "f": "apps/web/src/visual/game/mock-adapter.test.ts",
+    "a": 142,
+    "d": 10
+   },
+   {
+    "f": "apps/web/src/visual/game/mock-adapter.ts",
+    "a": 181,
+    "d": 33
+   },
+   {
+    "f": "apps/web/src/visual/game/model.ts",
+    "a": 11,
+    "d": 3
+   },
+   {
+    "f": "apps/web/src/visual/game/phaser/MainScene.ts",
+    "a": 527,
+    "d": 76
+   },
+   {
+    "f": "apps/web/src/visual/game/phaser/PhaserBattlefield.tsx",
+    "a": 29,
+    "d": 2
+   },
+   {
+    "f": "apps/web/src/visual/game/phaser/assets/battlefield.json",
+    "a": 4742,
+    "d": 710
+   },
+   {
+    "f": "apps/web/src/visual/game/phaser/asteroids.ts",
+    "a": 24,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/visual/game/phaser/free-movement.test.ts",
+    "a": 53,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/visual/game/phaser/free-movement.ts",
+    "a": 65,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/visual/game/phaser/grid.test.ts",
+    "a": 3,
+    "d": 3
+   },
+   {
+    "f": "apps/web/src/visual/game/phaser/grid.ts",
+    "a": 5,
+    "d": 4
+   },
+   {
+    "f": "apps/web/src/visual/game/phaser/isometric.ts",
+    "a": 26,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/visual/i18n.tsx",
+    "a": 18,
+    "d": 2
+   },
+   {
+    "f": "apps/web/src/visual/visual.css",
+    "a": 5,
+    "d": 0
+   },
+   {
+    "f": "packages/input/src/index.test.ts",
+    "a": 7,
+    "d": 1
+   },
+   {
+    "f": "packages/input/src/index.ts",
+    "a": 19,
+    "d": 6
+   },
+   {
+    "f": "packages/render-2d/src/index.ts",
+    "a": 33,
+    "d": 12
+   },
+   {
+    "f": "packages/sim/README.md",
+    "a": 6,
+    "d": 4
+   },
+   {
+    "f": "packages/sim/src/index.test.ts",
+    "a": 153,
+    "d": 13
+   },
+   {
+    "f": "packages/sim/src/index.ts",
+    "a": 130,
+    "d": 20
+   },
+   {
+    "f": "packages/sim/src/maps/mechanics.ts",
+    "a": 8,
+    "d": 5
+   },
+   {
+    "f": "packages/sim/src/maps/world.ts",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "packages/state/src/index.test.ts",
+    "a": 12,
+    "d": 3
+   },
+   {
+    "f": "packages/state/src/index.ts",
+    "a": 15,
+    "d": 7
+   },
+   {
+    "f": "tests/e2e/training.spec.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "tests/e2e/visual.spec.ts",
+    "a": 103,
+    "d": 0
+   }
+  ]
+ },
+ "c75bf17cbdf0d07fefdf73b4e77f729e001702bc": {
+  "team": "Impulso Stellar",
+  "repo": "orlando-vazquez-career/stellar-impulse",
+  "author": "orlando-vazquez-career",
+  "date": "2026-09-30T12:37:05Z",
+  "message": "fix: integrar main y estabilizar el prototipo RTS",
+  "parents": 2,
+  "files": [
+   {
+    "f": "apps/server/src/campaign-room.test.ts",
+    "a": 201,
+    "d": 7
+   },
+   {
+    "f": "apps/server/src/campaign-room.ts",
+    "a": 66,
+    "d": 21
+   },
+   {
+    "f": "apps/server/src/campaign/machine.test.ts",
+    "a": 91,
+    "d": 9
+   },
+   {
+    "f": "apps/server/src/campaign/machine.ts",
+    "a": 53,
+    "d": 20
+   },
+   {
+    "f": "apps/server/src/map-benchmark.test.ts",
+    "a": 272,
+    "d": 0
+   },
+   {
+    "f": "apps/server/src/map-catalog.ts",
+    "a": 14,
+    "d": 0
+   },
+   {
+    "f": "apps/server/src/map-e2e.test.ts",
+    "a": 119,
+    "d": 0
+   },
+   {
+    "f": "apps/web/public/cosmetics/aurora-andina.json",
+    "a": 16,
+    "d": 0
+   },
+   {
+    "f": "apps/web/public/cosmetics/exploracion.json",
+    "a": 16,
+    "d": 0
+   },
+   {
+    "f": "apps/web/public/cosmetics/primera-victoria.json",
+    "a": 16,
+    "d": 0
+   },
+   {
+    "f": "apps/web/public/cosmetics/pulso-violeta.json",
+    "a": 16,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/visual/game/GameplayScreen.tsx",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "apps/web/src/visual/game/mock-adapter.test.ts",
+    "a": 48,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/visual/game/mock-adapter.ts",
+    "a": 13,
+    "d": 5
+   },
+   {
+    "f": "apps/web/src/visual/game/phaser/MainScene.ts",
+    "a": 10,
+    "d": 8
+   },
+   {
+    "f": "apps/web/src/visual/game/phaser/PhaserBattlefield.tsx",
+    "a": 6,
+    "d": 1
+   },
+   {
+    "f": "contracts/deployments/testnet.json",
+    "a": 69,
+    "d": 0
+   },
+   {
+    "f": "docs/README.md",
+    "a": 2,
+    "d": 1
+   },
+   {
+    "f": "docs/blockchain.md",
+    "a": 57,
+    "d": 1
+   },
+   {
+    "f": "docs/map-backend.md",
+    "a": 44,
+    "d": 0
+   },
+   {
+    "f": "docs/protocol.md",
+    "a": 110,
+    "d": 56
+   },
+   {
+    "f": "docs/status.md",
+    "a": 14,
+    "d": 12
+   },
+   {
+    "f": "package.json",
+    "a": 2,
+    "d": 1
+   },
+   {
+    "f": "packages/chain/src/cosmetics.test.ts",
+    "a": 95,
+    "d": 0
+   },
+   {
+    "f": "packages/chain/src/cosmetics.ts",
+    "a": 148,
+    "d": 0
+   },
+   {
+    "f": "packages/chain/src/index.ts",
+    "a": 2,
+    "d": 0
+   },
+   {
+    "f": "packages/input/src/battlefield.test.ts",
+    "a": 87,
+    "d": 0
+   },
+   {
+    "f": "packages/input/src/battlefield.ts",
+    "a": 76,
+    "d": 0
+   },
+   {
+    "f": "packages/input/src/index.ts",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "packages/input/src/protocol.test.ts",
+    "a": 36,
+    "d": 1
+   },
+   {
+    "f": "packages/input/src/protocol.ts",
+    "a": 22,
+    "d": 5
+   },
+   {
+    "f": "packages/sim/src/index.test.ts",
+    "a": 22,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/index.ts",
+    "a": 19,
+    "d": 42
+   },
+   {
+    "f": "packages/sim/src/maps/battlefield.test.ts",
+    "a": 62,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/maps/battlefield.ts",
+    "a": 19,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/maps/mechanics.ts",
+    "a": 82,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/maps/occupancy.test.ts",
+    "a": 64,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/maps/occupancy.ts",
+    "a": 170,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/maps/pathfinding.test.ts",
+    "a": 152,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/maps/pathfinding.ts",
+    "a": 112,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/maps/spatial-index.test.ts",
+    "a": 58,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/maps/spatial-index.ts",
+    "a": 60,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/maps/tiled.test.ts",
+    "a": 72,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/maps/tiled.ts",
+    "a": 79,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/maps/types.ts",
+    "a": 82,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/maps/visibility.test.ts",
+    "a": 93,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/maps/visibility.ts",
+    "a": 95,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/maps/world.test.ts",
+    "a": 177,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/maps/world.ts",
+    "a": 204,
+    "d": 0
+   },
+   {
+    "f": "packages/state/src/battlefield.test.ts",
+    "a": 146,
+    "d": 0
+   },
+   {
+    "f": "packages/state/src/battlefield.ts",
+    "a": 138,
+    "d": 0
+   },
+   {
+    "f": "packages/state/src/index.ts",
+    "a": 5,
+    "d": 0
+   },
+   {
+    "f": "scripts/deploy-testnet.mjs",
+    "a": 109,
+    "d": 0
+   },
+   {
+    "f": "tests/e2e/visual.spec.ts",
+    "a": 34,
+    "d": 0
+   }
+  ]
+ },
+ "33c345aace0737ccb7bd691fa9d16d3287bd0771": {
+  "team": "Impulso Stellar",
+  "repo": "orlando-vazquez-career/stellar-impulse",
+  "author": "Ismaelolazo",
+  "date": "2026-09-30T05:31:44Z",
+  "message": "Merge origin/develop/visual-interface-foundation into develop/visual-interface-foundation",
+  "parents": 2,
+  "files": [
+   {
+    "f": "apps/server/package.json",
+    "a": 7,
+    "d": 4
+   },
+   {
+    "f": "apps/server/src/app.ts",
+    "a": 34,
+    "d": 0
+   },
+   {
+    "f": "apps/server/src/campaign-room.test.ts",
+    "a": 73,
+    "d": 0
+   },
+   {
+    "f": "apps/server/src/campaign-room.ts",
+    "a": 154,
+    "d": 0
+   },
+   {
+    "f": "apps/server/src/campaign/machine.test.ts",
+    "a": 200,
+    "d": 0
+   },
+   {
+    "f": "apps/server/src/campaign/machine.ts",
+    "a": 267,
+    "d": 0
+   },
+   {
+    "f": "apps/server/src/index.ts",
+    "a": 3,
+    "d": 23
+   },
+   {
+    "f": "contracts/cosmetics/src/lib.rs",
+    "a": 114,
+    "d": 32
+   },
+   {
+    "f": "contracts/cosmetics/src/test.rs",
+    "a": 130,
+    "d": 4
+   },
+   {
+    "f": "docs/README.md",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "docs/blockchain.md",
+    "a": 21,
+    "d": 2
+   },
+   {
+    "f": "docs/product.md",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "docs/protocol.md",
+    "a": 86,
+    "d": 0
+   },
+   {
+    "f": "docs/qa/cuadro-pruebas-v0.01.md",
+    "a": 198,
+    "d": 0
+   },
+   {
+    "f": "docs/status.md",
+    "a": 8,
+    "d": 1
+   },
+   {
+    "f": "packages/input/src/index.ts",
+    "a": 2,
+    "d": 0
+   },
+   {
+    "f": "packages/input/src/protocol.test.ts",
+    "a": 52,
+    "d": 0
+   },
+   {
+    "f": "packages/input/src/protocol.ts",
+    "a": 64,
+    "d": 0
+   },
+   {
+    "f": "pnpm-lock.yaml",
+    "a": 4,
+    "d": 0
+   },
+   {
+    "f": "tests/e2e/visual.spec.ts",
+    "a": 13,
+    "d": 0
+   }
+  ]
+ },
+ "0da3358a5e1fba98b28edb24e4a44d336879ad49": {
+  "team": "Impulso Stellar",
+  "repo": "orlando-vazquez-career/stellar-impulse",
+  "author": "Ismaelolazo",
+  "date": "2026-09-30T05:26:28Z",
+  "message": "feat(rts): add free movement combat and group selection",
+  "parents": 1,
+  "files": [
+   {
+    "f": "apps/web/src/main.tsx",
+    "a": 10,
+    "d": 4
+   },
+   {
+    "f": "apps/web/src/visual/game/GameplayScreen.tsx",
+    "a": 6,
+    "d": 1
+   },
+   {
+    "f": "apps/web/src/visual/game/Hud.tsx",
+    "a": 24,
+    "d": 4
+   },
+   {
+    "f": "apps/web/src/visual/game/mock-adapter.test.ts",
+    "a": 94,
+    "d": 10
+   },
+   {
+    "f": "apps/web/src/visual/game/mock-adapter.ts",
+    "a": 173,
+    "d": 33
+   },
+   {
+    "f": "apps/web/src/visual/game/model.ts",
+    "a": 11,
+    "d": 3
+   },
+   {
+    "f": "apps/web/src/visual/game/phaser/MainScene.ts",
+    "a": 525,
+    "d": 73
+   },
+   {
+    "f": "apps/web/src/visual/game/phaser/PhaserBattlefield.tsx",
+    "a": 24,
+    "d": 2
+   },
+   {
+    "f": "apps/web/src/visual/game/phaser/assets/battlefield.json",
+    "a": 4742,
+    "d": 710
+   },
+   {
+    "f": "apps/web/src/visual/game/phaser/asteroids.ts",
+    "a": 24,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/visual/game/phaser/free-movement.test.ts",
+    "a": 53,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/visual/game/phaser/free-movement.ts",
+    "a": 65,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/visual/game/phaser/grid.test.ts",
+    "a": 3,
+    "d": 3
+   },
+   {
+    "f": "apps/web/src/visual/game/phaser/grid.ts",
+    "a": 5,
+    "d": 4
+   },
+   {
+    "f": "apps/web/src/visual/game/phaser/isometric.ts",
+    "a": 26,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/visual/i18n.tsx",
+    "a": 18,
+    "d": 2
+   },
+   {
+    "f": "apps/web/src/visual/visual.css",
+    "a": 5,
+    "d": 0
+   },
+   {
+    "f": "packages/input/src/index.test.ts",
+    "a": 7,
+    "d": 1
+   },
+   {
+    "f": "packages/input/src/index.ts",
+    "a": 19,
+    "d": 6
+   },
+   {
+    "f": "packages/render-2d/src/index.ts",
+    "a": 33,
+    "d": 12
+   },
+   {
+    "f": "packages/sim/README.md",
+    "a": 6,
+    "d": 4
+   },
+   {
+    "f": "packages/sim/src/index.test.ts",
+    "a": 131,
+    "d": 13
+   },
+   {
+    "f": "packages/sim/src/index.ts",
+    "a": 134,
+    "d": 23
+   },
+   {
+    "f": "packages/state/src/index.test.ts",
+    "a": 12,
+    "d": 3
+   },
+   {
+    "f": "packages/state/src/index.ts",
+    "a": 15,
+    "d": 7
+   },
+   {
+    "f": "tests/e2e/training.spec.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "tests/e2e/visual.spec.ts",
+    "a": 69,
+    "d": 0
+   }
+  ]
  }
 }

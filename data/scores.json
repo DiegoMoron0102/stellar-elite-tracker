@@ -1,5 +1,5 @@
 {
- "generado": "2026-09-30T11:35:53+00:00",
+ "generado": "2026-09-30T17:15:29+00:00",
  "programa": "Stellar Elite",
  "start_date": "2026-09-02T00:00:00Z",
  "teams": [
@@ -55,14 +55,15 @@
   },
   {
    "name": "Impulso Stellar",
-   "total": 138.03,
-   "per_capita": 138.03,
-   "commits": 25,
-   "pts_commits": 101.03,
-   "dias_activos": 5,
+   "total": 166.03,
+   "per_capita": 166.03,
+   "commits": 31,
+   "pts_commits": 121.03,
+   "dias_activos": 6,
    "contribuidores": [
     "Hans3010",
     "Ismaelolazo",
+    "degosenpai211",
     "orlando-vazquez-career",
     "srllamadev"
    ],
@@ -293,7 +294,7 @@
    "2026-09-27": 12.64,
    "2026-09-28": 0.0,
    "2026-09-29": 43.29,
-   "2026-09-30": 0.0
+   "2026-09-30": 20.0
   },
   "BOLAR": {
    "2026-09-22": 9.25,
@@ -358,7 +359,7 @@
    "2026-09-27": 4,
    "2026-09-28": 1,
    "2026-09-29": 8,
-   "2026-09-30": 1
+   "2026-09-30": 7
   },
   "BOLAR": {
    "2026-09-22": 1,
@@ -371,6 +372,66 @@
   }
  },
  "commits": [
+  {
+   "sha": "6a175b7",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "Hans3010",
+   "date": "2026-09-30T15:46:51Z",
+   "msg": "Merge pull request #10 from orlando-vazquez-career/feat/lobby",
+   "pts": 0.0,
+   "nota": "merge"
+  },
+  {
+   "sha": "368f344",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "degosenpai211",
+   "date": "2026-09-30T13:32:05Z",
+   "msg": "feat(lobby): atlas de mando con planetas por modo, sonido y fondos",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "47adf40",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "Hans3010",
+   "date": "2026-09-30T13:01:42Z",
+   "msg": "Merge pull request #9 from orlando-vazquez-career/develop/visual-interface-foundation",
+   "pts": 0.0,
+   "nota": "merge"
+  },
+  {
+   "sha": "c75bf17",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "orlando-vazquez-career",
+   "date": "2026-09-30T12:37:05Z",
+   "msg": "fix: integrar main y estabilizar el prototipo RTS",
+   "pts": 0.0,
+   "nota": "merge"
+  },
+  {
+   "sha": "33c345a",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "Ismaelolazo",
+   "date": "2026-09-30T05:31:44Z",
+   "msg": "Merge origin/develop/visual-interface-foundation into develop/visual-interface-foundation",
+   "pts": 0.0,
+   "nota": "merge"
+  },
+  {
+   "sha": "0da3358",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "Ismaelolazo",
+   "date": "2026-09-30T05:26:28Z",
+   "msg": "feat(rts): add free movement combat and group selection",
+   "pts": 10,
+   "nota": ""
+  },
   {
    "sha": "8b4bc59",
    "team": "Tinkazo",
