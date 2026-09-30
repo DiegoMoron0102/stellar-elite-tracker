@@ -30272,5 +30272,150 @@
     "d": 0
    }
   ]
+ },
+ "f200377d952bd1393af346e24552fbc470a026c4": {
+  "team": "Impulso Stellar",
+  "repo": "orlando-vazquez-career/stellar-impulse",
+  "author": "orlando-vazquez-career",
+  "date": "2026-09-30T01:46:47Z",
+  "message": "Merge pull request #8 from orlando-vazquez-career/feat/cosmetics-testnet-deploy",
+  "parents": 2,
+  "files": [
+   {
+    "f": "apps/web/public/cosmetics/aurora-andina.json",
+    "a": 16,
+    "d": 0
+   },
+   {
+    "f": "apps/web/public/cosmetics/exploracion.json",
+    "a": 16,
+    "d": 0
+   },
+   {
+    "f": "apps/web/public/cosmetics/primera-victoria.json",
+    "a": 16,
+    "d": 0
+   },
+   {
+    "f": "apps/web/public/cosmetics/pulso-violeta.json",
+    "a": 16,
+    "d": 0
+   },
+   {
+    "f": "contracts/deployments/testnet.json",
+    "a": 69,
+    "d": 0
+   },
+   {
+    "f": "docs/blockchain.md",
+    "a": 57,
+    "d": 1
+   },
+   {
+    "f": "package.json",
+    "a": 2,
+    "d": 1
+   },
+   {
+    "f": "packages/chain/src/cosmetics.test.ts",
+    "a": 95,
+    "d": 0
+   },
+   {
+    "f": "packages/chain/src/cosmetics.ts",
+    "a": 148,
+    "d": 0
+   },
+   {
+    "f": "packages/chain/src/index.ts",
+    "a": 2,
+    "d": 0
+   },
+   {
+    "f": "scripts/deploy-testnet.mjs",
+    "a": 109,
+    "d": 0
+   }
+  ]
+ },
+ "ab30fb0452714829de40cf29a8d01890c046943a": {
+  "team": "Impulso Stellar",
+  "repo": "orlando-vazquez-career/stellar-impulse",
+  "author": "Hans3010",
+  "date": "2026-09-29T20:52:52Z",
+  "message": "feat(chain): cliente TypeScript del contrato cosmetics en testnet",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/blockchain.md",
+    "a": 16,
+    "d": 0
+   },
+   {
+    "f": "packages/chain/src/cosmetics.test.ts",
+    "a": 95,
+    "d": 0
+   },
+   {
+    "f": "packages/chain/src/cosmetics.ts",
+    "a": 148,
+    "d": 0
+   },
+   {
+    "f": "packages/chain/src/index.ts",
+    "a": 2,
+    "d": 0
+   }
+  ]
+ },
+ "8419a09159c56f27f7c2cedbf2bab3a1ccc4257a": {
+  "team": "Impulso Stellar",
+  "repo": "orlando-vazquez-career/stellar-impulse",
+  "author": "Hans3010",
+  "date": "2026-09-29T20:47:23Z",
+  "message": "feat(contracts): despliegue de cosmetics v3 en testnet y catálogo de la demo",
+  "parents": 1,
+  "files": [
+   {
+    "f": "apps/web/public/cosmetics/aurora-andina.json",
+    "a": 16,
+    "d": 0
+   },
+   {
+    "f": "apps/web/public/cosmetics/exploracion.json",
+    "a": 16,
+    "d": 0
+   },
+   {
+    "f": "apps/web/public/cosmetics/primera-victoria.json",
+    "a": 16,
+    "d": 0
+   },
+   {
+    "f": "apps/web/public/cosmetics/pulso-violeta.json",
+    "a": 16,
+    "d": 0
+   },
+   {
+    "f": "contracts/deployments/testnet.json",
+    "a": 69,
+    "d": 0
+   },
+   {
+    "f": "docs/blockchain.md",
+    "a": 41,
+    "d": 1
+   },
+   {
+    "f": "package.json",
+    "a": 2,
+    "d": 1
+   },
+   {
+    "f": "scripts/deploy-testnet.mjs",
+    "a": 109,
+    "d": 0
+   }
+  ]
  }
 }

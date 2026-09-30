@@ -1,5 +1,5 @@
 {
- "generado": "2026-09-29T21:40:04+00:00",
+ "generado": "2026-09-30T03:03:10+00:00",
  "programa": "Stellar Elite",
  "start_date": "2026-09-02T00:00:00Z",
  "teams": [
@@ -55,10 +55,10 @@
   },
   {
    "name": "Impulso Stellar",
-   "total": 119.83,
-   "per_capita": 119.83,
-   "commits": 22,
-   "pts_commits": 82.83,
+   "total": 138.03,
+   "per_capita": 138.03,
+   "commits": 25,
+   "pts_commits": 101.03,
    "dias_activos": 5,
    "contribuidores": [
     "Hans3010",
@@ -291,7 +291,8 @@
    "2026-09-26": 0.0,
    "2026-09-27": 12.64,
    "2026-09-28": 0.0,
-   "2026-09-29": 25.09
+   "2026-09-29": 43.29,
+   "2026-09-30": 0.0
   },
   "BOLAR": {
    "2026-09-22": 9.25,
@@ -354,7 +355,8 @@
    "2026-09-26": 3,
    "2026-09-27": 4,
    "2026-09-28": 1,
-   "2026-09-29": 6
+   "2026-09-29": 8,
+   "2026-09-30": 1
   },
   "BOLAR": {
    "2026-09-22": 1,
@@ -367,6 +369,36 @@
   }
  },
  "commits": [
+  {
+   "sha": "f200377",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "orlando-vazquez-career",
+   "date": "2026-09-30T01:46:47Z",
+   "msg": "Merge pull request #8 from orlando-vazquez-career/feat/cosmetics-testnet-deploy",
+   "pts": 0.0,
+   "nota": "merge"
+  },
+  {
+   "sha": "ab30fb0",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "Hans3010",
+   "date": "2026-09-29T20:52:52Z",
+   "msg": "feat(chain): cliente TypeScript del contrato cosmetics en testnet",
+   "pts": 9.03,
+   "nota": ""
+  },
+  {
+   "sha": "8419a09",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "Hans3010",
+   "date": "2026-09-29T20:47:23Z",
+   "msg": "feat(contracts): despliegue de cosmetics v3 en testnet y catálogo de la demo",
+   "pts": 9.17,
+   "nota": ""
+  },
   {
    "sha": "8444322",
    "team": "Impulso Stellar",
