@@ -1,14 +1,14 @@
 {
- "generado": "2026-09-30T17:15:29+00:00",
+ "generado": "2026-09-30T21:40:37+00:00",
  "programa": "Stellar Elite",
  "start_date": "2026-09-02T00:00:00Z",
  "teams": [
   {
    "name": "Tinkazo",
-   "total": 821.96,
-   "per_capita": 821.96,
-   "commits": 95,
-   "pts_commits": 768.96,
+   "total": 841.62,
+   "per_capita": 841.62,
+   "commits": 98,
+   "pts_commits": 788.62,
    "dias_activos": 10,
    "contribuidores": [
     "nema1502"
@@ -268,7 +268,7 @@
    "2026-09-27": 19.78,
    "2026-09-28": 72.91,
    "2026-09-29": 97.86999999999999,
-   "2026-09-30": 10.0
+   "2026-09-30": 29.66
   },
   "CompraGasolinaBidon": {
    "2026-09-06": 1.0
@@ -333,7 +333,7 @@
    "2026-09-27": 2,
    "2026-09-28": 9,
    "2026-09-29": 15,
-   "2026-09-30": 1
+   "2026-09-30": 4
   },
   "CompraGasolinaBidon": {
    "2026-09-06": 1
@@ -373,6 +373,16 @@
  },
  "commits": [
   {
+   "sha": "7bbf262",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-09-30T17:27:37Z",
+   "msg": "Lo que encontró el agente evaluador: el resaltado del título, el botón principal y siete juegos",
+   "pts": 9.66,
+   "nota": ""
+  },
+  {
    "sha": "6a175b7",
    "team": "Impulso Stellar",
    "repo": "orlando-vazquez-career/stellar-impulse",
@@ -383,12 +393,32 @@
    "nota": "merge"
   },
   {
+   "sha": "c8703ba",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-09-30T13:43:07Z",
+   "msg": "Las capturas de los juegos que cambiaron, con los q'epis, la canaleta, la piñata y las llamas con rodillas",
+   "pts": 0.0,
+   "nota": "sin cambios de lineas"
+  },
+  {
    "sha": "368f344",
    "team": "Impulso Stellar",
    "repo": "orlando-vazquez-career/stellar-impulse",
    "author": "degosenpai211",
    "date": "2026-09-30T13:32:05Z",
    "msg": "feat(lobby): atlas de mando con planetas por modo, sonido y fondos",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "409a041",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-09-30T13:26:52Z",
+   "msg": "Luz roja, luz verde con el Faro, diez juegos en el selector, y el título y el logo sin manchas",
    "pts": 10,
    "nota": ""
   },

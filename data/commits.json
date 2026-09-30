@@ -31602,5 +31602,520 @@
     "d": 0
    }
   ]
+ },
+ "7bbf262b4a03e8caf71e79c193d879fe1db477eb": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-09-30T17:27:37Z",
+  "message": "Lo que encontró el agente evaluador: el resaltado del título, el botón principal y siete juegos",
+  "parents": 1,
+  "files": [
+   {
+    "f": "README.es.md",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "README.md",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "docs/capturas/readme/partidas-es.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/readme/partidas.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/epics.md",
+    "a": 36,
+    "d": 0
+   },
+   {
+    "f": "docs/juegos.md",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "docs/juegos/luz-roja-luz-verde.md",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "docs/juegos/pasanaku.md",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "docs/juegos/pinata.md",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "docs/juegos/tombola.md",
+    "a": 2,
+    "d": 0
+   },
+   {
+    "f": "docs/marca.md",
+    "a": 5,
+    "d": 5
+   },
+   {
+    "f": "docs/motores.md",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "historia.html",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "index.html",
+    "a": 3,
+    "d": 3
+   },
+   {
+    "f": "juegos.html",
+    "a": 33,
+    "d": 33
+   },
+   {
+    "f": "precios.html",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "public/juegos/luz-light.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/luz.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/pasanaku-light.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/pasanaku.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/pinata-light.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/pinata.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/race-light.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/race.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/stellar-light.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/stellar.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/teleferico-light.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/teleferico.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/tombola-light.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/tombola.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/trompo-light.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/trompo.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/wheel-light.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/wheel.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "scripts/audit-ui.mjs",
+    "a": 41,
+    "d": 12
+   },
+   {
+    "f": "seguridad.html",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/games/llamas/pixi-race.ts",
+    "a": 16,
+    "d": 3
+   },
+   {
+    "f": "src/games/pixi/cablecar.ts",
+    "a": 2,
+    "d": 4
+   },
+   {
+    "f": "src/games/pixi/camera.ts",
+    "a": 4,
+    "d": 2
+   },
+   {
+    "f": "src/games/pixi/luz.ts",
+    "a": 18,
+    "d": 14
+   },
+   {
+    "f": "src/games/pixi/pasanaku.ts",
+    "a": 9,
+    "d": 0
+   },
+   {
+    "f": "src/games/pixi/pinata.ts",
+    "a": 57,
+    "d": 12
+   },
+   {
+    "f": "src/games/pixi/tombola.ts",
+    "a": 14,
+    "d": 5
+   },
+   {
+    "f": "src/games/pixi/trompo.ts",
+    "a": 5,
+    "d": 1
+   },
+   {
+    "f": "src/i18n.ts",
+    "a": 6,
+    "d": 6
+   },
+   {
+    "f": "src/music.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/sound.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/styles.css",
+    "a": 20,
+    "d": 5
+   },
+   {
+    "f": "terminos.html",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "verificar.html",
+    "a": 1,
+    "d": 1
+   }
+  ]
+ },
+ "c8703bae0f1a3935cf1eb452814bf70ae8a39e30": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-09-30T13:43:07Z",
+  "message": "Las capturas de los juegos que cambiaron, con los q'epis, la canaleta, la piñata y las llamas con rodillas",
+  "parents": 1,
+  "files": [
+   {
+    "f": "public/juegos/oruro-light.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/oruro.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/pasanaku-light.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/pasanaku.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/pinata-light.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/pinata.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/race-light.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/race.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/tombola-light.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/tombola.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/trompo-light.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/trompo.webp",
+    "a": 0,
+    "d": 0
+   }
+  ]
+ },
+ "409a0413002756a92b2b61ae17e67770b3bd91b2": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-09-30T13:26:52Z",
+  "message": "Luz roja, luz verde con el Faro, diez juegos en el selector, y el título y el logo sin manchas",
+  "parents": 1,
+  "files": [
+   {
+    "f": "README.es.md",
+    "a": 5,
+    "d": 7
+   },
+   {
+    "f": "README.md",
+    "a": 5,
+    "d": 7
+   },
+   {
+    "f": "docs/amenazas.md",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "docs/architecture.md",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "docs/epics.md",
+    "a": 24,
+    "d": 0
+   },
+   {
+    "f": "docs/juegos.md",
+    "a": 18,
+    "d": 9
+   },
+   {
+    "f": "docs/juegos/luz-roja-luz-verde.md",
+    "a": 76,
+    "d": 0
+   },
+   {
+    "f": "docs/marca.md",
+    "a": 2,
+    "d": 4
+   },
+   {
+    "f": "docs/motores.md",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "index.html",
+    "a": 11,
+    "d": 13
+   },
+   {
+    "f": "juegos.html",
+    "a": 11,
+    "d": 31
+   },
+   {
+    "f": "public/juegos/ledger-light.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/ledger.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/luz-light.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/luz.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/rockets-light.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/rockets.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/totora-light.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/totora.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "scripts/audit-emocion.mjs",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "scripts/audit-fisica.mjs",
+    "a": 12,
+    "d": 2
+   },
+   {
+    "f": "scripts/audit-rigor.mjs",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "scripts/audit-sound.mjs",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "scripts/audit-ui.mjs",
+    "a": 57,
+    "d": 0
+   },
+   {
+    "f": "src/games/engine.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/games/lore.ts",
+    "a": 13,
+    "d": 0
+   },
+   {
+    "f": "src/games/pixi/index.ts",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "src/games/pixi/luz.ts",
+    "a": 835,
+    "d": 0
+   },
+   {
+    "f": "src/i18n.ts",
+    "a": 47,
+    "d": 8
+   },
+   {
+    "f": "src/main.ts",
+    "a": 4,
+    "d": 1
+   },
+   {
+    "f": "src/state.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/styles.css",
+    "a": 18,
+    "d": 5
+   },
+   {
+    "f": "src/ui/draw.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/ui/freeze.ts",
+    "a": 9,
+    "d": 11
+   },
+   {
+    "f": "src/ui/thumbs.ts",
+    "a": 69,
+    "d": 0
+   }
+  ]
  }
 }
