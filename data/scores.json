@@ -1,15 +1,15 @@
 {
- "generado": "2026-09-30T03:03:10+00:00",
+ "generado": "2026-09-30T11:35:53+00:00",
  "programa": "Stellar Elite",
  "start_date": "2026-09-02T00:00:00Z",
  "teams": [
   {
    "name": "Tinkazo",
-   "total": 806.96,
-   "per_capita": 806.96,
-   "commits": 94,
-   "pts_commits": 758.96,
-   "dias_activos": 9,
+   "total": 821.96,
+   "per_capita": 821.96,
+   "commits": 95,
+   "pts_commits": 768.96,
+   "dias_activos": 10,
    "contribuidores": [
     "nema1502"
    ],
@@ -266,7 +266,8 @@
    "2026-09-26": 28.810000000000002,
    "2026-09-27": 19.78,
    "2026-09-28": 72.91,
-   "2026-09-29": 97.86999999999999
+   "2026-09-29": 97.86999999999999,
+   "2026-09-30": 10.0
   },
   "CompraGasolinaBidon": {
    "2026-09-06": 1.0
@@ -330,7 +331,8 @@
    "2026-09-26": 3,
    "2026-09-27": 2,
    "2026-09-28": 9,
-   "2026-09-29": 15
+   "2026-09-29": 15,
+   "2026-09-30": 1
   },
   "CompraGasolinaBidon": {
    "2026-09-06": 1
@@ -369,6 +371,16 @@
   }
  },
  "commits": [
+  {
+   "sha": "8b4bc59",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-09-30T01:55:20Z",
+   "msg": "Física, choques y personajes en los demás juegos, con un auditor de física",
+   "pts": 10,
+   "nota": ""
+  },
   {
    "sha": "f200377",
    "team": "Impulso Stellar",
