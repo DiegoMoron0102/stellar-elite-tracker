@@ -32117,5 +32117,824 @@
     "d": 0
    }
   ]
+ },
+ "2fe2e43f01efd31d63929da52d9ac1159883517c": {
+  "team": "NodeXchange",
+  "repo": "RomerTamayo/stellar-build",
+  "author": "RomerTamayo",
+  "date": "2026-09-30T23:59:30Z",
+  "message": "Add NodeXchange web app",
+  "parents": 1,
+  "files": [
+   {
+    "f": "apps/web/.env.example",
+    "a": 2,
+    "d": 0
+   },
+   {
+    "f": "apps/web/index.html",
+    "a": 12,
+    "d": 0
+   },
+   {
+    "f": "apps/web/package.json",
+    "a": 30,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/App.tsx",
+    "a": 103,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/components/Messenger.tsx",
+    "a": 403,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/components/Onboarding.tsx",
+    "a": 164,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/components/Payments.tsx",
+    "a": 278,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/components/SettingsDialog.tsx",
+    "a": 121,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/components/ui.tsx",
+    "a": 81,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/index.css",
+    "a": 7,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/lib/config.ts",
+    "a": 6,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/lib/receipt.ts",
+    "a": 61,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/lib/store.ts",
+    "a": 89,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/lib/useChats.ts",
+    "a": 183,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/lib/wallet.ts",
+    "a": 124,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/main.tsx",
+    "a": 10,
+    "d": 0
+   },
+   {
+    "f": "apps/web/tsconfig.json",
+    "a": 11,
+    "d": 0
+   },
+   {
+    "f": "apps/web/vite.config.ts",
+    "a": 8,
+    "d": 0
+   },
+   {
+    "f": "pnpm-lock.yaml",
+    "a": 5447,
+    "d": 328
+   },
+   {
+    "f": "pnpm-workspace.yaml",
+    "a": 7,
+    "d": 0
+   }
+  ]
+ },
+ "d60b579d58d9d7c490b320ef08dc29f602ca8241": {
+  "team": "NodeXchange",
+  "repo": "RomerTamayo/stellar-build",
+  "author": "RomerTamayo",
+  "date": "2026-09-30T23:13:57Z",
+  "message": "Add core protocol and Supabase node",
+  "parents": 1,
+  "files": [
+   {
+    "f": ".gitignore",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "packages/core/package.json",
+    "a": 23,
+    "d": 0
+   },
+   {
+    "f": "packages/core/scripts/e2e-node.ts",
+    "a": 102,
+    "d": 0
+   },
+   {
+    "f": "packages/core/scripts/e2e-stellar.ts",
+    "a": 54,
+    "d": 0
+   },
+   {
+    "f": "packages/core/src/device.ts",
+    "a": 117,
+    "d": 0
+   },
+   {
+    "f": "packages/core/src/encoding.ts",
+    "a": 77,
+    "d": 0
+   },
+   {
+    "f": "packages/core/src/index.ts",
+    "a": 5,
+    "d": 0
+   },
+   {
+    "f": "packages/core/src/protocol.ts",
+    "a": 213,
+    "d": 0
+   },
+   {
+    "f": "packages/core/src/session.ts",
+    "a": 197,
+    "d": 0
+   },
+   {
+    "f": "packages/core/src/stellar.ts",
+    "a": 355,
+    "d": 0
+   },
+   {
+    "f": "packages/core/test/protocol.test.ts",
+    "a": 105,
+    "d": 0
+   },
+   {
+    "f": "packages/core/tsconfig.json",
+    "a": 19,
+    "d": 0
+   },
+   {
+    "f": "pnpm-lock.yaml",
+    "a": 591,
+    "d": 0
+   },
+   {
+    "f": "supabase/.gitignore",
+    "a": 8,
+    "d": 0
+   },
+   {
+    "f": "supabase/config.toml",
+    "a": 426,
+    "d": 0
+   },
+   {
+    "f": "supabase/functions/.env.example",
+    "a": 8,
+    "d": 0
+   },
+   {
+    "f": "supabase/functions/nx/.npmrc",
+    "a": 3,
+    "d": 0
+   },
+   {
+    "f": "supabase/functions/nx/deno.json",
+    "a": 6,
+    "d": 0
+   },
+   {
+    "f": "supabase/functions/nx/index.ts",
+    "a": 292,
+    "d": 0
+   },
+   {
+    "f": "supabase/migrations/20260930230736_nx_node.sql",
+    "a": 46,
+    "d": 0
+   }
+  ]
+ },
+ "07ef61f12a515591c9237b88b7929bcdd80a6a31": {
+  "team": "NodeXchange",
+  "repo": "RomerTamayo/stellar-build",
+  "author": "RomerTamayo",
+  "date": "2026-09-30T23:02:18Z",
+  "message": "Add monorepo scaffold and Soroban escrow contract",
+  "parents": 1,
+  "files": [
+   {
+    "f": ".gitignore",
+    "a": 13,
+    "d": 0
+   },
+   {
+    "f": "LICENSE",
+    "a": 661,
+    "d": 0
+   },
+   {
+    "f": "contracts/escrow/.gitignore",
+    "a": 6,
+    "d": 0
+   },
+   {
+    "f": "contracts/escrow/AGENTS.md",
+    "a": 58,
+    "d": 0
+   },
+   {
+    "f": "contracts/escrow/Cargo.lock",
+    "a": 2119,
+    "d": 0
+   },
+   {
+    "f": "contracts/escrow/Cargo.toml",
+    "a": 23,
+    "d": 0
+   },
+   {
+    "f": "contracts/escrow/README.md",
+    "a": 23,
+    "d": 0
+   },
+   {
+    "f": "contracts/escrow/contracts/escrow/Cargo.toml",
+    "a": 15,
+    "d": 0
+   },
+   {
+    "f": "contracts/escrow/contracts/escrow/Makefile",
+    "a": 16,
+    "d": 0
+   },
+   {
+    "f": "contracts/escrow/contracts/escrow/src/lib.rs",
+    "a": 255,
+    "d": 0
+   },
+   {
+    "f": "contracts/escrow/contracts/escrow/src/test.rs",
+    "a": 141,
+    "d": 0
+   },
+   {
+    "f": "contracts/escrow/contracts/escrow/test_snapshots/test/arbiter_resolves_both_ways.1.json",
+    "a": 924,
+    "d": 0
+   },
+   {
+    "f": "contracts/escrow/contracts/escrow/test_snapshots/test/cancel_refunds_buyer_without_fee.1.json",
+    "a": 612,
+    "d": 0
+   },
+   {
+    "f": "contracts/escrow/contracts/escrow/test_snapshots/test/reclaim_only_after_deadline.1.json",
+    "a": 611,
+    "d": 0
+   },
+   {
+    "f": "contracts/escrow/contracts/escrow/test_snapshots/test/rejects_invalid_deals.1.json",
+    "a": 358,
+    "d": 0
+   },
+   {
+    "f": "contracts/escrow/contracts/escrow/test_snapshots/test/release_pays_seller_minus_fee.1.json",
+    "a": 718,
+    "d": 0
+   },
+   {
+    "f": "contracts/escrow/contracts/escrow/test_snapshots/test/release_requires_buyer_auth.1.json",
+    "a": 812,
+    "d": 0
+   },
+   {
+    "f": "contracts/escrow/contracts/escrow/test_snapshots/test/settled_deal_cannot_be_settled_again.1.json",
+    "a": 715,
+    "d": 0
+   },
+   {
+    "f": "contracts/escrow/deployments.json",
+    "a": 8,
+    "d": 0
+   },
+   {
+    "f": "package.json",
+    "a": 11,
+    "d": 0
+   },
+   {
+    "f": "pnpm-workspace.yaml",
+    "a": 4,
+    "d": 0
+   },
+   {
+    "f": "tsconfig.base.json",
+    "a": 13,
+    "d": 0
+   }
+  ]
+ },
+ "d56a2db202f700a8e78f0d92960c328a7074666d": {
+  "team": "Impulso Stellar",
+  "repo": "orlando-vazquez-career/stellar-impulse",
+  "author": "Hans3010",
+  "date": "2026-09-30T22:58:36Z",
+  "message": "Merge pull request #12 from orlando-vazquez-career/feature/mapa",
+  "parents": 2,
+  "files": [
+   {
+    "f": "apps/server/src/training-room.ts",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "apps/web/src/main.tsx",
+    "a": 3,
+    "d": 2
+   },
+   {
+    "f": "packages/render-2d/src/index.ts",
+    "a": 73,
+    "d": 42
+   },
+   {
+    "f": "packages/sim/src/index.ts",
+    "a": 72,
+    "d": 8
+   },
+   {
+    "f": "packages/sim/src/mapas/alturas.test.ts",
+    "a": 30,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/mapas/alturas.ts",
+    "a": 44,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/mapas/leer-tiled.ts",
+    "a": 207,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/mapas/sector-01-datos.ts",
+    "a": 1242,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/mapas/sector-01.test.ts",
+    "a": 152,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/mapas/sector-01.ts",
+    "a": 4,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/maps/mechanics.ts",
+    "a": 21,
+    "d": 2
+   },
+   {
+    "f": "packages/sim/src/maps/pathfinding.ts",
+    "a": 14,
+    "d": 4
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/ayuda.md",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/sector-01 aaaa/LEEME.md",
+    "a": 34,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/sector-01 aaaa/sector-01.tmj",
+    "a": 1241,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/sector-01 aaaa/stellar-plataformas.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "packages/state/src/index.ts",
+    "a": 5,
+    "d": 1
+   },
+   {
+    "f": "tests/e2e/training.spec.ts",
+    "a": 1,
+    "d": 1
+   }
+  ]
+ },
+ "b4914fc595cdc6e6f98a4d6d6d1a8f94239d9c18": {
+  "team": "Impulso Stellar",
+  "repo": "orlando-vazquez-career/stellar-impulse",
+  "author": "Hans3010",
+  "date": "2026-09-30T22:54:42Z",
+  "message": "Merge branch 'main' into feature/mapa",
+  "parents": 2,
+  "files": []
+ },
+ "86851bcb142b1a701b190ee37fd1c71c507502ad": {
+  "team": "Impulso Stellar",
+  "repo": "orlando-vazquez-career/stellar-impulse",
+  "author": "Hans3010",
+  "date": "2026-09-30T22:54:07Z",
+  "message": "Merge pull request #11 from orlando-vazquez-career/feat/ia-mecanicas",
+  "parents": 2,
+  "files": [
+   {
+    "f": "apps/server/src/map-benchmark.test.ts",
+    "a": 2,
+    "d": 1
+   },
+   {
+    "f": "apps/server/src/training-room.ts",
+    "a": 7,
+    "d": 1
+   },
+   {
+    "f": "apps/web/src/main.tsx",
+    "a": 63,
+    "d": 15
+   },
+   {
+    "f": "apps/web/src/mecanicas/CommandCard.tsx",
+    "a": 18,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/mecanicas/selection.test.ts",
+    "a": 40,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/mecanicas/selection.ts",
+    "a": 54,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/style.css",
+    "a": 3,
+    "d": 0
+   },
+   {
+    "f": "packages/input/src/index.test.ts",
+    "a": 8,
+    "d": 0
+   },
+   {
+    "f": "packages/input/src/index.ts",
+    "a": 23,
+    "d": 4
+   },
+   {
+    "f": "packages/render-2d/src/index.ts",
+    "a": 9,
+    "d": 2
+   },
+   {
+    "f": "packages/sim/src/index.ts",
+    "a": 206,
+    "d": 28
+   },
+   {
+    "f": "packages/sim/src/inteligencia-enemiga/behaviors.ts",
+    "a": 51,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/inteligencia-enemiga/brain.test.ts",
+    "a": 86,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/inteligencia-enemiga/brain.ts",
+    "a": 70,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/inteligencia-enemiga/conditions.ts",
+    "a": 25,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/inteligencia-enemiga/config.ts",
+    "a": 7,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/inteligencia-enemiga/geometry.ts",
+    "a": 19,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/inteligencia-enemiga/training.ts",
+    "a": 19,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/inteligencia-enemiga/transitions.ts",
+    "a": 27,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/inteligencia-enemiga/types.ts",
+    "a": 41,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/maps/world.ts",
+    "a": 2,
+    "d": 1
+   },
+   {
+    "f": "packages/sim/src/mecanicas/orders.test.ts",
+    "a": 117,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/mecanicas/orders.ts",
+    "a": 206,
+    "d": 0
+   },
+   {
+    "f": "packages/state/src/index.test.ts",
+    "a": 9,
+    "d": 0
+   },
+   {
+    "f": "packages/state/src/index.ts",
+    "a": 9,
+    "d": 3
+   }
+  ]
+ },
+ "30d9489c844e77b581a689c9e38e877853cec021": {
+  "team": "Impulso Stellar",
+  "repo": "orlando-vazquez-career/stellar-impulse",
+  "author": "degosenpai211",
+  "date": "2026-09-30T17:27:22Z",
+  "message": "feat(map): sector 01 con superficie, rampas y captura",
+  "parents": 1,
+  "files": [
+   {
+    "f": "apps/server/src/training-room.ts",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "apps/web/src/main.tsx",
+    "a": 3,
+    "d": 2
+   },
+   {
+    "f": "packages/render-2d/src/index.ts",
+    "a": 73,
+    "d": 42
+   },
+   {
+    "f": "packages/sim/src/index.ts",
+    "a": 72,
+    "d": 8
+   },
+   {
+    "f": "packages/sim/src/mapas/alturas.test.ts",
+    "a": 30,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/mapas/alturas.ts",
+    "a": 44,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/mapas/leer-tiled.ts",
+    "a": 207,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/mapas/sector-01-datos.ts",
+    "a": 1242,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/mapas/sector-01.test.ts",
+    "a": 152,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/mapas/sector-01.ts",
+    "a": 4,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/maps/mechanics.ts",
+    "a": 21,
+    "d": 2
+   },
+   {
+    "f": "packages/sim/src/maps/pathfinding.ts",
+    "a": 14,
+    "d": 4
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/ayuda.md",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/sector-01 aaaa/LEEME.md",
+    "a": 34,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/sector-01 aaaa/sector-01.tmj",
+    "a": 1241,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/sector-01 aaaa/stellar-plataformas.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "packages/state/src/index.ts",
+    "a": 5,
+    "d": 1
+   },
+   {
+    "f": "tests/e2e/training.spec.ts",
+    "a": 1,
+    "d": 1
+   }
+  ]
+ },
+ "f586f7524da5db3867ab8d1f4f882205407e1c17": {
+  "team": "Impulso Stellar",
+  "repo": "orlando-vazquez-career/stellar-impulse",
+  "author": "degosenpai211",
+  "date": "2026-09-30T17:25:43Z",
+  "message": "feat(sim): ordenes de escuadra y rival automatico en entrenamiento",
+  "parents": 1,
+  "files": [
+   {
+    "f": "apps/server/src/map-benchmark.test.ts",
+    "a": 2,
+    "d": 1
+   },
+   {
+    "f": "apps/server/src/training-room.ts",
+    "a": 7,
+    "d": 1
+   },
+   {
+    "f": "apps/web/src/main.tsx",
+    "a": 63,
+    "d": 15
+   },
+   {
+    "f": "apps/web/src/mecanicas/CommandCard.tsx",
+    "a": 18,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/mecanicas/selection.test.ts",
+    "a": 40,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/mecanicas/selection.ts",
+    "a": 54,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/style.css",
+    "a": 3,
+    "d": 0
+   },
+   {
+    "f": "packages/input/src/index.test.ts",
+    "a": 8,
+    "d": 0
+   },
+   {
+    "f": "packages/input/src/index.ts",
+    "a": 23,
+    "d": 4
+   },
+   {
+    "f": "packages/render-2d/src/index.ts",
+    "a": 9,
+    "d": 2
+   },
+   {
+    "f": "packages/sim/src/index.ts",
+    "a": 206,
+    "d": 28
+   },
+   {
+    "f": "packages/sim/src/inteligencia-enemiga/behaviors.ts",
+    "a": 51,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/inteligencia-enemiga/brain.test.ts",
+    "a": 86,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/inteligencia-enemiga/brain.ts",
+    "a": 70,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/inteligencia-enemiga/conditions.ts",
+    "a": 25,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/inteligencia-enemiga/config.ts",
+    "a": 7,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/inteligencia-enemiga/geometry.ts",
+    "a": 19,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/inteligencia-enemiga/training.ts",
+    "a": 19,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/inteligencia-enemiga/transitions.ts",
+    "a": 27,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/inteligencia-enemiga/types.ts",
+    "a": 41,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/maps/world.ts",
+    "a": 2,
+    "d": 1
+   },
+   {
+    "f": "packages/sim/src/mecanicas/orders.test.ts",
+    "a": 117,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/mecanicas/orders.ts",
+    "a": 206,
+    "d": 0
+   },
+   {
+    "f": "packages/state/src/index.test.ts",
+    "a": 9,
+    "d": 0
+   },
+   {
+    "f": "packages/state/src/index.ts",
+    "a": 9,
+    "d": 3
+   }
+  ]
  }
 }

@@ -1,5 +1,5 @@
 {
- "generado": "2026-09-30T21:40:37+00:00",
+ "generado": "2026-10-01T03:09:43+00:00",
  "programa": "Stellar Elite",
  "start_date": "2026-09-02T00:00:00Z",
  "teams": [
@@ -55,10 +55,10 @@
   },
   {
    "name": "Impulso Stellar",
-   "total": 166.03,
-   "per_capita": 166.03,
-   "commits": 31,
-   "pts_commits": 121.03,
+   "total": 186.03,
+   "per_capita": 186.03,
+   "commits": 36,
+   "pts_commits": 141.03,
    "dias_activos": 6,
    "contribuidores": [
     "Hans3010",
@@ -91,6 +91,22 @@
    "rank": 5
   },
   {
+   "name": "NodeXchange",
+   "total": 44.0,
+   "per_capita": 44.0,
+   "commits": 4,
+   "pts_commits": 31.0,
+   "dias_activos": 2,
+   "contribuidores": [
+    "RomerTamayo"
+   ],
+   "tamano": 1,
+   "repos": [
+    "RomerTamayo/stellar-build"
+   ],
+   "rank": 6
+  },
+  {
    "name": "BolivianPets",
    "total": 22.09,
    "per_capita": 22.09,
@@ -104,7 +120,7 @@
    "repos": [
     "GuidoSV7/stellar-build"
    ],
-   "rank": 6
+   "rank": 7
   },
   {
    "name": "MinerTrace",
@@ -120,7 +136,7 @@
    "repos": [
     "Dante1128/MinerTracer"
    ],
-   "rank": 7
+   "rank": 8
   },
   {
    "name": "DrinksOnChain",
@@ -136,7 +152,7 @@
    "repos": [
     "DAVV422/drinks-on-chain-public"
    ],
-   "rank": 8
+   "rank": 9
   },
   {
    "name": "CompraGasolinaBidon",
@@ -151,22 +167,6 @@
    "tamano": 1,
    "repos": [
     "jjvos19/stellar-build"
-   ],
-   "rank": 9
-  },
-  {
-   "name": "NodeXchange",
-   "total": 9.0,
-   "per_capita": 9.0,
-   "commits": 1,
-   "pts_commits": 1.0,
-   "dias_activos": 1,
-   "contribuidores": [
-    "RomerTamayo"
-   ],
-   "tamano": 1,
-   "repos": [
-    "RomerTamayo/stellar-build"
    ],
    "rank": 10
   },
@@ -274,7 +274,8 @@
    "2026-09-06": 1.0
   },
   "NodeXchange": {
-   "2026-09-05": 1.0
+   "2026-09-05": 1.0,
+   "2026-09-30": 30.0
   },
   "BolivianPets": {
    "2026-09-04": 1.0,
@@ -294,7 +295,7 @@
    "2026-09-27": 12.64,
    "2026-09-28": 0.0,
    "2026-09-29": 43.29,
-   "2026-09-30": 20.0
+   "2026-09-30": 40.0
   },
   "BOLAR": {
    "2026-09-22": 9.25,
@@ -339,7 +340,8 @@
    "2026-09-06": 1
   },
   "NodeXchange": {
-   "2026-09-05": 1
+   "2026-09-05": 1,
+   "2026-09-30": 3
   },
   "BolivianPets": {
    "2026-09-04": 1,
@@ -359,7 +361,7 @@
    "2026-09-27": 4,
    "2026-09-28": 1,
    "2026-09-29": 8,
-   "2026-09-30": 7
+   "2026-09-30": 12
   },
   "BOLAR": {
    "2026-09-22": 1,
@@ -373,6 +375,66 @@
  },
  "commits": [
   {
+   "sha": "2fe2e43",
+   "team": "NodeXchange",
+   "repo": "RomerTamayo/stellar-build",
+   "author": "RomerTamayo",
+   "date": "2026-09-30T23:59:30Z",
+   "msg": "Add NodeXchange web app",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "d60b579",
+   "team": "NodeXchange",
+   "repo": "RomerTamayo/stellar-build",
+   "author": "RomerTamayo",
+   "date": "2026-09-30T23:13:57Z",
+   "msg": "Add core protocol and Supabase node",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "07ef61f",
+   "team": "NodeXchange",
+   "repo": "RomerTamayo/stellar-build",
+   "author": "RomerTamayo",
+   "date": "2026-09-30T23:02:18Z",
+   "msg": "Add monorepo scaffold and Soroban escrow contract",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "d56a2db",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "Hans3010",
+   "date": "2026-09-30T22:58:36Z",
+   "msg": "Merge pull request #12 from orlando-vazquez-career/feature/mapa",
+   "pts": 0.0,
+   "nota": "merge"
+  },
+  {
+   "sha": "b4914fc",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "Hans3010",
+   "date": "2026-09-30T22:54:42Z",
+   "msg": "Merge branch 'main' into feature/mapa",
+   "pts": 0.0,
+   "nota": "merge"
+  },
+  {
+   "sha": "86851bc",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "Hans3010",
+   "date": "2026-09-30T22:54:07Z",
+   "msg": "Merge pull request #11 from orlando-vazquez-career/feat/ia-mecanicas",
+   "pts": 0.0,
+   "nota": "merge"
+  },
+  {
    "sha": "7bbf262",
    "team": "Tinkazo",
    "repo": "nema1502/tinkazo",
@@ -380,6 +442,26 @@
    "date": "2026-09-30T17:27:37Z",
    "msg": "Lo que encontró el agente evaluador: el resaltado del título, el botón principal y siete juegos",
    "pts": 9.66,
+   "nota": ""
+  },
+  {
+   "sha": "30d9489",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "degosenpai211",
+   "date": "2026-09-30T17:27:22Z",
+   "msg": "feat(map): sector 01 con superficie, rampas y captura",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "f586f75",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "degosenpai211",
+   "date": "2026-09-30T17:25:43Z",
+   "msg": "feat(sim): ordenes de escuadra y rival automatico en entrenamiento",
+   "pts": 10,
    "nota": ""
   },
   {
