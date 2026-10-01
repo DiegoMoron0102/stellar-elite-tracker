@@ -1,5 +1,5 @@
 {
- "generado": "2026-10-01T03:09:43+00:00",
+ "generado": "2026-10-01T12:04:51+00:00",
  "programa": "Stellar Elite",
  "start_date": "2026-09-02T00:00:00Z",
  "teams": [
@@ -55,11 +55,11 @@
   },
   {
    "name": "Impulso Stellar",
-   "total": 186.03,
-   "per_capita": 186.03,
-   "commits": 36,
-   "pts_commits": 141.03,
-   "dias_activos": 6,
+   "total": 192.03,
+   "per_capita": 192.03,
+   "commits": 38,
+   "pts_commits": 142.03,
+   "dias_activos": 7,
    "contribuidores": [
     "Hans3010",
     "Ismaelolazo",
@@ -72,6 +72,22 @@
     "orlando-vazquez-career/stellar-impulse"
    ],
    "rank": 4
+  },
+  {
+   "name": "NodeXchange",
+   "total": 125.36,
+   "per_capita": 125.36,
+   "commits": 13,
+   "pts_commits": 107.36,
+   "dias_activos": 3,
+   "contribuidores": [
+    "RomerTamayo"
+   ],
+   "tamano": 1,
+   "repos": [
+    "RomerTamayo/stellar-build"
+   ],
+   "rank": 5
   },
   {
    "name": "BOLAR",
@@ -87,22 +103,6 @@
    "tamano": 1,
    "repos": [
     "bolarpay/bolar-app"
-   ],
-   "rank": 5
-  },
-  {
-   "name": "NodeXchange",
-   "total": 44.0,
-   "per_capita": 44.0,
-   "commits": 4,
-   "pts_commits": 31.0,
-   "dias_activos": 2,
-   "contribuidores": [
-    "RomerTamayo"
-   ],
-   "tamano": 1,
-   "repos": [
-    "RomerTamayo/stellar-build"
    ],
    "rank": 6
   },
@@ -275,7 +275,8 @@
   },
   "NodeXchange": {
    "2026-09-05": 1.0,
-   "2026-09-30": 30.0
+   "2026-09-30": 30.0,
+   "2026-10-01": 76.36
   },
   "BolivianPets": {
    "2026-09-04": 1.0,
@@ -295,7 +296,8 @@
    "2026-09-27": 12.64,
    "2026-09-28": 0.0,
    "2026-09-29": 43.29,
-   "2026-09-30": 40.0
+   "2026-09-30": 40.0,
+   "2026-10-01": 1.0
   },
   "BOLAR": {
    "2026-09-22": 9.25,
@@ -341,7 +343,8 @@
   },
   "NodeXchange": {
    "2026-09-05": 1,
-   "2026-09-30": 3
+   "2026-09-30": 3,
+   "2026-10-01": 9
   },
   "BolivianPets": {
    "2026-09-04": 1,
@@ -361,7 +364,8 @@
    "2026-09-27": 4,
    "2026-09-28": 1,
    "2026-09-29": 8,
-   "2026-09-30": 12
+   "2026-09-30": 12,
+   "2026-10-01": 2
   },
   "BOLAR": {
    "2026-09-22": 1,
@@ -374,6 +378,116 @@
   }
  },
  "commits": [
+  {
+   "sha": "ac81cb0",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "Hans3010",
+   "date": "2026-10-01T09:17:15Z",
+   "msg": "Merge pull request #13 from orlando-vazquez-career/feat/visual-tiled-gameplay",
+   "pts": 0.0,
+   "nota": "merge"
+  },
+  {
+   "sha": "6c975ba",
+   "team": "NodeXchange",
+   "repo": "RomerTamayo/stellar-build",
+   "author": "RomerTamayo",
+   "date": "2026-10-01T07:45:10Z",
+   "msg": "Add a refresh button",
+   "pts": 6.29,
+   "nota": ""
+  },
+  {
+   "sha": "2f7d9ef",
+   "team": "NodeXchange",
+   "repo": "RomerTamayo/stellar-build",
+   "author": "RomerTamayo",
+   "date": "2026-10-01T07:37:26Z",
+   "msg": "Fix glass effect breaking after opening the wallet picker",
+   "pts": 7.19,
+   "nota": ""
+  },
+  {
+   "sha": "113fd21",
+   "team": "NodeXchange",
+   "repo": "RomerTamayo/stellar-build",
+   "author": "RomerTamayo",
+   "date": "2026-10-01T07:22:12Z",
+   "msg": "Encrypt device keys and chat history at rest",
+   "pts": 9.17,
+   "nota": ""
+  },
+  {
+   "sha": "5ebb896",
+   "team": "NodeXchange",
+   "repo": "RomerTamayo/stellar-build",
+   "author": "RomerTamayo",
+   "date": "2026-10-01T06:59:58Z",
+   "msg": "Add withdrawals to any address and session lock",
+   "pts": 9.89,
+   "nota": ""
+  },
+  {
+   "sha": "6e42ca4",
+   "team": "NodeXchange",
+   "repo": "RomerTamayo/stellar-build",
+   "author": "RomerTamayo",
+   "date": "2026-10-01T06:18:54Z",
+   "msg": "Vivid aero-glass theme, icon menus and English/Spanish switch",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "1a52d07",
+   "team": "NodeXchange",
+   "repo": "RomerTamayo/stellar-build",
+   "author": "RomerTamayo",
+   "date": "2026-10-01T06:01:21Z",
+   "msg": "Fix receipts, add black+pastel theme and responsive layout",
+   "pts": 9.75,
+   "nota": ""
+  },
+  {
+   "sha": "9fde43e",
+   "team": "NodeXchange",
+   "repo": "RomerTamayo/stellar-build",
+   "author": "RomerTamayo",
+   "date": "2026-10-01T05:42:47Z",
+   "msg": "Harden payments and make escrow deals recoverable",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "9bd1dfd",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "Ismaelolazo",
+   "date": "2026-10-01T05:04:15Z",
+   "msg": "feat(visual): play Sector 01 Tiled map with WASD camera",
+   "pts": 1.0,
+   "nota": "import masivo (53 archivos)"
+  },
+  {
+   "sha": "087561f",
+   "team": "NodeXchange",
+   "repo": "RomerTamayo/stellar-build",
+   "author": "RomerTamayo",
+   "date": "2026-10-01T04:37:02Z",
+   "msg": "Link transactions to stellarchain.io",
+   "pts": 4.17,
+   "nota": ""
+  },
+  {
+   "sha": "4003a14",
+   "team": "NodeXchange",
+   "repo": "RomerTamayo/stellar-build",
+   "author": "RomerTamayo",
+   "date": "2026-10-01T02:04:27Z",
+   "msg": "Add aliases and confirmed block/unblock",
+   "pts": 9.9,
+   "nota": ""
+  },
   {
    "sha": "2fe2e43",
    "team": "NodeXchange",

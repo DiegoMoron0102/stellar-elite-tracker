@@ -32936,5 +32936,1040 @@
     "d": 3
    }
   ]
+ },
+ "6c975baf34adfa6071be3ee278d663f1bce9c4fa": {
+  "team": "NodeXchange",
+  "repo": "RomerTamayo/stellar-build",
+  "author": "RomerTamayo",
+  "date": "2026-10-01T07:45:10Z",
+  "message": "Add a refresh button",
+  "parents": 1,
+  "files": [
+   {
+    "f": "apps/web/src/components/Messenger.tsx",
+    "a": 33,
+    "d": 3
+   },
+   {
+    "f": "apps/web/src/lib/i18n.ts",
+    "a": 2,
+    "d": 0
+   }
+  ]
+ },
+ "2f7d9ef226ff5fc74dcf653d4eb98b4fab234c5b": {
+  "team": "NodeXchange",
+  "repo": "RomerTamayo/stellar-build",
+  "author": "RomerTamayo",
+  "date": "2026-10-01T07:37:26Z",
+  "message": "Fix glass effect breaking after opening the wallet picker",
+  "parents": 1,
+  "files": [
+   {
+    "f": "apps/web/src/components/Messenger.tsx",
+    "a": 6,
+    "d": 6
+   },
+   {
+    "f": "apps/web/src/components/Onboarding.tsx",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "apps/web/src/components/Payments.tsx",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "apps/web/src/components/ui.tsx",
+    "a": 14,
+    "d": 7
+   },
+   {
+    "f": "apps/web/src/index.css",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "apps/web/src/lib/i18n.ts",
+    "a": 2,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/lib/wallet.ts",
+    "a": 23,
+    "d": 2
+   }
+  ]
+ },
+ "113fd217cbeb82e3f72882a7dee05f437034bb9f": {
+  "team": "NodeXchange",
+  "repo": "RomerTamayo/stellar-build",
+  "author": "RomerTamayo",
+  "date": "2026-10-01T07:22:12Z",
+  "message": "Encrypt device keys and chat history at rest",
+  "parents": 1,
+  "files": [
+   {
+    "f": "apps/web/src/App.tsx",
+    "a": 39,
+    "d": 24
+   },
+   {
+    "f": "apps/web/src/components/Messenger.tsx",
+    "a": 6,
+    "d": 2
+   },
+   {
+    "f": "apps/web/src/components/Onboarding.tsx",
+    "a": 18,
+    "d": 11
+   },
+   {
+    "f": "apps/web/src/lib/i18n.ts",
+    "a": 4,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/lib/store.ts",
+    "a": 19,
+    "d": 11
+   },
+   {
+    "f": "apps/web/src/lib/useChats.ts",
+    "a": 8,
+    "d": 4
+   },
+   {
+    "f": "apps/web/src/lib/vault.ts",
+    "a": 107,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/lib/wallet.ts",
+    "a": 24,
+    "d": 11
+   }
+  ]
+ },
+ "5ebb8965a0866551f4d60822606c5cd3a479a185": {
+  "team": "NodeXchange",
+  "repo": "RomerTamayo/stellar-build",
+  "author": "RomerTamayo",
+  "date": "2026-10-01T06:59:58Z",
+  "message": "Add withdrawals to any address and session lock",
+  "parents": 1,
+  "files": [
+   {
+    "f": "apps/web/src/App.tsx",
+    "a": 50,
+    "d": 26
+   },
+   {
+    "f": "apps/web/src/components/Messenger.tsx",
+    "a": 19,
+    "d": 2
+   },
+   {
+    "f": "apps/web/src/components/Payments.tsx",
+    "a": 143,
+    "d": 1
+   },
+   {
+    "f": "apps/web/src/lib/i18n.ts",
+    "a": 46,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/lib/store.ts",
+    "a": 4,
+    "d": 0
+   },
+   {
+    "f": "packages/core/package.json",
+    "a": 2,
+    "d": 1
+   },
+   {
+    "f": "packages/core/scripts/e2e-withdraw.ts",
+    "a": 45,
+    "d": 0
+   },
+   {
+    "f": "packages/core/src/stellar.ts",
+    "a": 129,
+    "d": 4
+   }
+  ]
+ },
+ "6e42ca49a334a23708520d948184a7ccc932e7e8": {
+  "team": "NodeXchange",
+  "repo": "RomerTamayo/stellar-build",
+  "author": "RomerTamayo",
+  "date": "2026-10-01T06:18:54Z",
+  "message": "Vivid aero-glass theme, icon menus and English/Spanish switch",
+  "parents": 1,
+  "files": [
+   {
+    "f": "apps/web/package.json",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/App.tsx",
+    "a": 9,
+    "d": 7
+   },
+   {
+    "f": "apps/web/src/components/Messenger.tsx",
+    "a": 265,
+    "d": 139
+   },
+   {
+    "f": "apps/web/src/components/Onboarding.tsx",
+    "a": 52,
+    "d": 50
+   },
+   {
+    "f": "apps/web/src/components/Payments.tsx",
+    "a": 89,
+    "d": 83
+   },
+   {
+    "f": "apps/web/src/components/SettingsDialog.tsx",
+    "a": 74,
+    "d": 54
+   },
+   {
+    "f": "apps/web/src/components/ui.tsx",
+    "a": 166,
+    "d": 32
+   },
+   {
+    "f": "apps/web/src/index.css",
+    "a": 60,
+    "d": 56
+   },
+   {
+    "f": "apps/web/src/lib/i18n.ts",
+    "a": 460,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/lib/receipt.ts",
+    "a": 21,
+    "d": 20
+   },
+   {
+    "f": "apps/web/src/lib/wallet.ts",
+    "a": 3,
+    "d": 2
+   },
+   {
+    "f": "apps/web/src/main.tsx",
+    "a": 3,
+    "d": 0
+   },
+   {
+    "f": "pnpm-lock.yaml",
+    "a": 18,
+    "d": 0
+   }
+  ]
+ },
+ "1a52d07075c209d283f5d031ee38493a4811df8d": {
+  "team": "NodeXchange",
+  "repo": "RomerTamayo/stellar-build",
+  "author": "RomerTamayo",
+  "date": "2026-10-01T06:01:21Z",
+  "message": "Fix receipts, add black+pastel theme and responsive layout",
+  "parents": 1,
+  "files": [
+   {
+    "f": "apps/web/index.html",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "apps/web/src/App.tsx",
+    "a": 3,
+    "d": 3
+   },
+   {
+    "f": "apps/web/src/components/Messenger.tsx",
+    "a": 68,
+    "d": 51
+   },
+   {
+    "f": "apps/web/src/components/Onboarding.tsx",
+    "a": 11,
+    "d": 11
+   },
+   {
+    "f": "apps/web/src/components/Payments.tsx",
+    "a": 23,
+    "d": 23
+   },
+   {
+    "f": "apps/web/src/components/SettingsDialog.tsx",
+    "a": 17,
+    "d": 12
+   },
+   {
+    "f": "apps/web/src/components/ui.tsx",
+    "a": 12,
+    "d": 12
+   },
+   {
+    "f": "apps/web/src/index.css",
+    "a": 62,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/lib/receipt.ts",
+    "a": 51,
+    "d": 22
+   },
+   {
+    "f": "packages/core/src/stellar.ts",
+    "a": 36,
+    "d": 10
+   }
+  ]
+ },
+ "9fde43e58f5441a6b35ad65de122276b22d742fa": {
+  "team": "NodeXchange",
+  "repo": "RomerTamayo/stellar-build",
+  "author": "RomerTamayo",
+  "date": "2026-10-01T05:42:47Z",
+  "message": "Harden payments and make escrow deals recoverable",
+  "parents": 1,
+  "files": [
+   {
+    "f": "apps/web/src/components/Messenger.tsx",
+    "a": 17,
+    "d": 2
+   },
+   {
+    "f": "apps/web/src/components/Payments.tsx",
+    "a": 203,
+    "d": 23
+   },
+   {
+    "f": "apps/web/src/lib/useChats.ts",
+    "a": 4,
+    "d": 2
+   },
+   {
+    "f": "contracts/escrow/contracts/escrow/src/lib.rs",
+    "a": 23,
+    "d": 1
+   },
+   {
+    "f": "contracts/escrow/contracts/escrow/src/test.rs",
+    "a": 17,
+    "d": 0
+   },
+   {
+    "f": "contracts/escrow/contracts/escrow/test_snapshots/test/arbiter_resolves_both_ways.1.json",
+    "a": 68,
+    "d": 0
+   },
+   {
+    "f": "contracts/escrow/contracts/escrow/test_snapshots/test/cancel_refunds_buyer_without_fee.1.json",
+    "a": 62,
+    "d": 0
+   },
+   {
+    "f": "contracts/escrow/contracts/escrow/test_snapshots/test/deals_are_indexed_for_both_parties.1.json",
+    "a": 949,
+    "d": 0
+   },
+   {
+    "f": "contracts/escrow/contracts/escrow/test_snapshots/test/reclaim_only_after_deadline.1.json",
+    "a": 62,
+    "d": 0
+   },
+   {
+    "f": "contracts/escrow/contracts/escrow/test_snapshots/test/release_pays_seller_minus_fee.1.json",
+    "a": 62,
+    "d": 0
+   },
+   {
+    "f": "contracts/escrow/contracts/escrow/test_snapshots/test/release_requires_buyer_auth.1.json",
+    "a": 62,
+    "d": 0
+   },
+   {
+    "f": "contracts/escrow/contracts/escrow/test_snapshots/test/settled_deal_cannot_be_settled_again.1.json",
+    "a": 62,
+    "d": 0
+   },
+   {
+    "f": "contracts/escrow/deployments.json",
+    "a": 5,
+    "d": 2
+   },
+   {
+    "f": "packages/core/scripts/e2e-stellar.ts",
+    "a": 26,
+    "d": 1
+   },
+   {
+    "f": "packages/core/src/device.ts",
+    "a": 20,
+    "d": 4
+   },
+   {
+    "f": "packages/core/src/stellar.ts",
+    "a": 32,
+    "d": 1
+   },
+   {
+    "f": "packages/core/test/protocol.test.ts",
+    "a": 12,
+    "d": 0
+   }
+  ]
+ },
+ "087561f74e0d6d45e4f84c59b76f7b78ca85abd1": {
+  "team": "NodeXchange",
+  "repo": "RomerTamayo/stellar-build",
+  "author": "RomerTamayo",
+  "date": "2026-10-01T04:37:02Z",
+  "message": "Link transactions to stellarchain.io",
+  "parents": 1,
+  "files": [
+   {
+    "f": "packages/core/src/stellar.ts",
+    "a": 5,
+    "d": 3
+   }
+  ]
+ },
+ "4003a14e944bc85d95f8ac849c262bce7aad4995": {
+  "team": "NodeXchange",
+  "repo": "RomerTamayo/stellar-build",
+  "author": "RomerTamayo",
+  "date": "2026-10-01T02:04:27Z",
+  "message": "Add aliases and confirmed block/unblock",
+  "parents": 1,
+  "files": [
+   {
+    "f": "apps/web/src/components/Messenger.tsx",
+    "a": 88,
+    "d": 20
+   },
+   {
+    "f": "apps/web/src/components/SettingsDialog.tsx",
+    "a": 53,
+    "d": 1
+   },
+   {
+    "f": "apps/web/src/components/ui.tsx",
+    "a": 59,
+    "d": 2
+   },
+   {
+    "f": "apps/web/src/lib/store.ts",
+    "a": 18,
+    "d": 3
+   },
+   {
+    "f": "apps/web/src/lib/useChats.ts",
+    "a": 74,
+    "d": 1
+   },
+   {
+    "f": "packages/core/scripts/e2e-node.ts",
+    "a": 18,
+    "d": 0
+   },
+   {
+    "f": "packages/core/src/protocol.ts",
+    "a": 42,
+    "d": 1
+   },
+   {
+    "f": "packages/core/src/session.ts",
+    "a": 27,
+    "d": 8
+   },
+   {
+    "f": "packages/core/test/protocol.test.ts",
+    "a": 24,
+    "d": 0
+   },
+   {
+    "f": "supabase/functions/nx/index.ts",
+    "a": 31,
+    "d": 2
+   },
+   {
+    "f": "supabase/migrations/20261001015730_nx_profiles.sql",
+    "a": 5,
+    "d": 0
+   }
+  ]
+ },
+ "ac81cb0377c73f9dbf87d9763ca2fa421564de05": {
+  "team": "Impulso Stellar",
+  "repo": "orlando-vazquez-career/stellar-impulse",
+  "author": "Hans3010",
+  "date": "2026-10-01T09:17:15Z",
+  "message": "Merge pull request #13 from orlando-vazquez-career/feat/visual-tiled-gameplay",
+  "parents": 2,
+  "files": [
+   {
+    "f": "README.md",
+    "a": 17,
+    "d": 11
+   },
+   {
+    "f": "apps/web/index.html",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "apps/web/package.json",
+    "a": 1,
+    "d": 5
+   },
+   {
+    "f": "apps/web/src/lobby/LobbyScreen.tsx",
+    "a": 0,
+    "d": 99
+   },
+   {
+    "f": "apps/web/src/lobby/StarfieldLayers.tsx",
+    "a": 0,
+    "d": 15
+   },
+   {
+    "f": "apps/web/src/lobby/lobby-host.css",
+    "a": 0,
+    "d": 28
+   },
+   {
+    "f": "apps/web/src/lobby/lobby-state.test.ts",
+    "a": 0,
+    "d": 65
+   },
+   {
+    "f": "apps/web/src/lobby/lobby-state.ts",
+    "a": 0,
+    "d": 48
+   },
+   {
+    "f": "apps/web/src/lobby/lobby.css",
+    "a": 0,
+    "d": 405
+   },
+   {
+    "f": "apps/web/src/lobby/modes.ts",
+    "a": 0,
+    "d": 74
+   },
+   {
+    "f": "apps/web/src/lobby/pilot-alias.test.ts",
+    "a": 0,
+    "d": 35
+   },
+   {
+    "f": "apps/web/src/lobby/pilot-alias.ts",
+    "a": 0,
+    "d": 30
+   },
+   {
+    "f": "apps/web/src/lobby/sound.ts",
+    "a": 0,
+    "d": 89
+   },
+   {
+    "f": "apps/web/src/lobby/starfield.test.ts",
+    "a": 0,
+    "d": 15
+   },
+   {
+    "f": "apps/web/src/lobby/starfield.ts",
+    "a": 0,
+    "d": 11
+   },
+   {
+    "f": "apps/web/src/lobby/use-stage-scale.ts",
+    "a": 0,
+    "d": 26
+   },
+   {
+    "f": "apps/web/src/main.tsx",
+    "a": 3,
+    "d": 169
+   },
+   {
+    "f": "apps/web/src/visual/VisualPrototypeApp.tsx",
+    "a": 4,
+    "d": 2
+   },
+   {
+    "f": "apps/web/src/visual/game/GameplayScreen.tsx",
+    "a": 2,
+    "d": 1
+   },
+   {
+    "f": "apps/web/src/visual/game/Hud.tsx",
+    "a": 9,
+    "d": 3
+   },
+   {
+    "f": "apps/web/src/visual/game/mock-adapter.test.ts",
+    "a": 38,
+    "d": 28
+   },
+   {
+    "f": "apps/web/src/visual/game/mock-adapter.ts",
+    "a": 14,
+    "d": 13
+   },
+   {
+    "f": "apps/web/src/visual/game/phaser/MainScene.ts",
+    "a": 46,
+    "d": 147
+   },
+   {
+    "f": "apps/web/src/visual/game/phaser/PhaserBattlefield.tsx",
+    "a": 5,
+    "d": 6
+   },
+   {
+    "f": "apps/web/src/visual/game/phaser/free-movement.test.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "apps/web/src/visual/game/phaser/isometric.ts",
+    "a": 9,
+    "d": 8
+   },
+   {
+    "f": "apps/web/src/visual/i18n.tsx",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "apps/web/src/visual/lobby/PreparationLobby.tsx",
+    "a": 2,
+    "d": 1
+   },
+   {
+    "f": "apps/web/src/visual/lobby/lobby.css",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/visual/map/SectorMapScreen.tsx",
+    "a": 129,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/visual/map/sector-map.css",
+    "a": 8,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/visual/map/sector-map.test.ts",
+    "a": 54,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/visual/map/sector-map.ts",
+    "a": 77,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/visual/settings/SettingsScreen.tsx",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "apps/web/src/visual/settings/preferences.test.ts",
+    "a": 4,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/visual/settings/preferences.ts",
+    "a": 5,
+    "d": 2
+   },
+   {
+    "f": "docs/status.md",
+    "a": 20,
+    "d": 1
+   },
+   {
+    "f": "package.json",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/index.ts",
+    "a": 2,
+    "d": 0
+   },
+   {
+    "f": "packages/ui/src/index.tsx",
+    "a": 0,
+    "d": 10
+   },
+   {
+    "f": "packages/ui/src/lobby/AliasControl.tsx",
+    "a": 0,
+    "d": 58
+   },
+   {
+    "f": "packages/ui/src/lobby/CatalogRow.tsx",
+    "a": 0,
+    "d": 37
+   },
+   {
+    "f": "packages/ui/src/lobby/LobbyTicker.tsx",
+    "a": 0,
+    "d": 14
+   },
+   {
+    "f": "packages/ui/src/lobby/ModeArt.tsx",
+    "a": 0,
+    "d": 61
+   },
+   {
+    "f": "packages/ui/src/lobby/ModeDetail.tsx",
+    "a": 0,
+    "d": 47
+   },
+   {
+    "f": "packages/ui/src/lobby/ModeList.tsx",
+    "a": 0,
+    "d": 31
+   },
+   {
+    "f": "packages/ui/src/lobby/PlanetStage.tsx",
+    "a": 0,
+    "d": 83
+   },
+   {
+    "f": "packages/ui/src/lobby/SoundButton.tsx",
+    "a": 0,
+    "d": 14
+   },
+   {
+    "f": "packages/ui/src/lobby/art-markup.ts",
+    "a": 0,
+    "d": 15
+   },
+   {
+    "f": "packages/ui/src/lobby/types.ts",
+    "a": 0,
+    "d": 18
+   },
+   {
+    "f": "packages/ui/src/svg-hidden.ts",
+    "a": 0,
+    "d": 7
+   },
+   {
+    "f": "pnpm-lock.yaml",
+    "a": 5,
+    "d": 14
+   },
+   {
+    "f": "tests/e2e/training.spec.ts",
+    "a": 23,
+    "d": 38
+   },
+   {
+    "f": "tests/e2e/visual.spec.ts",
+    "a": 86,
+    "d": 25
+   }
+  ]
+ },
+ "9bd1dfdeadc1439235c3f41c18f8ac64a8b64c7b": {
+  "team": "Impulso Stellar",
+  "repo": "orlando-vazquez-career/stellar-impulse",
+  "author": "Ismaelolazo",
+  "date": "2026-10-01T05:04:15Z",
+  "message": "feat(visual): play Sector 01 Tiled map with WASD camera",
+  "parents": 1,
+  "files": [
+   {
+    "f": "README.md",
+    "a": 17,
+    "d": 11
+   },
+   {
+    "f": "apps/web/index.html",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "apps/web/package.json",
+    "a": 1,
+    "d": 5
+   },
+   {
+    "f": "apps/web/src/lobby/LobbyScreen.tsx",
+    "a": 0,
+    "d": 99
+   },
+   {
+    "f": "apps/web/src/lobby/StarfieldLayers.tsx",
+    "a": 0,
+    "d": 15
+   },
+   {
+    "f": "apps/web/src/lobby/lobby-host.css",
+    "a": 0,
+    "d": 28
+   },
+   {
+    "f": "apps/web/src/lobby/lobby-state.test.ts",
+    "a": 0,
+    "d": 65
+   },
+   {
+    "f": "apps/web/src/lobby/lobby-state.ts",
+    "a": 0,
+    "d": 48
+   },
+   {
+    "f": "apps/web/src/lobby/lobby.css",
+    "a": 0,
+    "d": 405
+   },
+   {
+    "f": "apps/web/src/lobby/modes.ts",
+    "a": 0,
+    "d": 74
+   },
+   {
+    "f": "apps/web/src/lobby/pilot-alias.test.ts",
+    "a": 0,
+    "d": 35
+   },
+   {
+    "f": "apps/web/src/lobby/pilot-alias.ts",
+    "a": 0,
+    "d": 30
+   },
+   {
+    "f": "apps/web/src/lobby/sound.ts",
+    "a": 0,
+    "d": 89
+   },
+   {
+    "f": "apps/web/src/lobby/starfield.test.ts",
+    "a": 0,
+    "d": 15
+   },
+   {
+    "f": "apps/web/src/lobby/starfield.ts",
+    "a": 0,
+    "d": 11
+   },
+   {
+    "f": "apps/web/src/lobby/use-stage-scale.ts",
+    "a": 0,
+    "d": 26
+   },
+   {
+    "f": "apps/web/src/main.tsx",
+    "a": 3,
+    "d": 169
+   },
+   {
+    "f": "apps/web/src/visual/VisualPrototypeApp.tsx",
+    "a": 4,
+    "d": 2
+   },
+   {
+    "f": "apps/web/src/visual/game/GameplayScreen.tsx",
+    "a": 2,
+    "d": 1
+   },
+   {
+    "f": "apps/web/src/visual/game/Hud.tsx",
+    "a": 9,
+    "d": 3
+   },
+   {
+    "f": "apps/web/src/visual/game/mock-adapter.test.ts",
+    "a": 38,
+    "d": 28
+   },
+   {
+    "f": "apps/web/src/visual/game/mock-adapter.ts",
+    "a": 14,
+    "d": 13
+   },
+   {
+    "f": "apps/web/src/visual/game/phaser/MainScene.ts",
+    "a": 46,
+    "d": 147
+   },
+   {
+    "f": "apps/web/src/visual/game/phaser/PhaserBattlefield.tsx",
+    "a": 5,
+    "d": 6
+   },
+   {
+    "f": "apps/web/src/visual/game/phaser/free-movement.test.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "apps/web/src/visual/game/phaser/isometric.ts",
+    "a": 9,
+    "d": 8
+   },
+   {
+    "f": "apps/web/src/visual/i18n.tsx",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "apps/web/src/visual/lobby/PreparationLobby.tsx",
+    "a": 2,
+    "d": 1
+   },
+   {
+    "f": "apps/web/src/visual/lobby/lobby.css",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/visual/map/SectorMapScreen.tsx",
+    "a": 129,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/visual/map/sector-map.css",
+    "a": 8,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/visual/map/sector-map.test.ts",
+    "a": 54,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/visual/map/sector-map.ts",
+    "a": 77,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/visual/settings/SettingsScreen.tsx",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "apps/web/src/visual/settings/preferences.test.ts",
+    "a": 4,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/visual/settings/preferences.ts",
+    "a": 5,
+    "d": 2
+   },
+   {
+    "f": "docs/status.md",
+    "a": 20,
+    "d": 1
+   },
+   {
+    "f": "package.json",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/index.ts",
+    "a": 2,
+    "d": 0
+   },
+   {
+    "f": "packages/ui/src/index.tsx",
+    "a": 0,
+    "d": 10
+   },
+   {
+    "f": "packages/ui/src/lobby/AliasControl.tsx",
+    "a": 0,
+    "d": 58
+   },
+   {
+    "f": "packages/ui/src/lobby/CatalogRow.tsx",
+    "a": 0,
+    "d": 37
+   },
+   {
+    "f": "packages/ui/src/lobby/LobbyTicker.tsx",
+    "a": 0,
+    "d": 14
+   },
+   {
+    "f": "packages/ui/src/lobby/ModeArt.tsx",
+    "a": 0,
+    "d": 61
+   },
+   {
+    "f": "packages/ui/src/lobby/ModeDetail.tsx",
+    "a": 0,
+    "d": 47
+   },
+   {
+    "f": "packages/ui/src/lobby/ModeList.tsx",
+    "a": 0,
+    "d": 31
+   },
+   {
+    "f": "packages/ui/src/lobby/PlanetStage.tsx",
+    "a": 0,
+    "d": 83
+   },
+   {
+    "f": "packages/ui/src/lobby/SoundButton.tsx",
+    "a": 0,
+    "d": 14
+   },
+   {
+    "f": "packages/ui/src/lobby/art-markup.ts",
+    "a": 0,
+    "d": 15
+   },
+   {
+    "f": "packages/ui/src/lobby/types.ts",
+    "a": 0,
+    "d": 18
+   },
+   {
+    "f": "packages/ui/src/svg-hidden.ts",
+    "a": 0,
+    "d": 7
+   },
+   {
+    "f": "pnpm-lock.yaml",
+    "a": 5,
+    "d": 14
+   },
+   {
+    "f": "tests/e2e/training.spec.ts",
+    "a": 23,
+    "d": 38
+   },
+   {
+    "f": "tests/e2e/visual.spec.ts",
+    "a": 86,
+    "d": 25
+   }
+  ]
  }
 }
