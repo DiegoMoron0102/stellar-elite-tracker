@@ -1,5 +1,5 @@
 {
- "generado": "2026-10-02T03:12:07+00:00",
+ "generado": "2026-10-02T11:35:52+00:00",
  "programa": "Stellar Elite",
  "start_date": "2026-09-02T00:00:00Z",
  "teams": [
@@ -75,11 +75,11 @@
   },
   {
    "name": "TilcAI",
-   "total": 144.03,
-   "per_capita": 48.01,
-   "commits": 20,
-   "pts_commits": 120.03,
-   "dias_activos": 3,
+   "total": 183.09,
+   "per_capita": 61.03,
+   "commits": 26,
+   "pts_commits": 154.09,
+   "dias_activos": 4,
    "contribuidores": [
     "JHAMILCALI",
     "OmarQV",
@@ -344,7 +344,8 @@
   "TilcAI": {
    "2026-09-27": 23.66,
    "2026-09-30": 72.42999999999999,
-   "2026-10-01": 23.939999999999998
+   "2026-10-01": 23.939999999999998,
+   "2026-10-02": 34.06
   }
  },
  "serie_commits": {
@@ -418,10 +419,71 @@
   "TilcAI": {
    "2026-09-27": 3,
    "2026-09-30": 11,
-   "2026-10-01": 6
+   "2026-10-01": 6,
+   "2026-10-02": 6
   }
  },
  "commits": [
+  {
+   "sha": "a762b6c",
+   "team": "TilcAI",
+   "repo": "TilcAI/tilcai-web",
+   "author": "OmarQV",
+   "date": "2026-10-02T06:41:12Z",
+   "msg": "Merge pull request #17 from TilcAI/feat/web-office-hero",
+   "pts": 0.0,
+   "nota": "merge"
+  },
+  {
+   "sha": "3dc7fb8",
+   "team": "TilcAI",
+   "repo": "TilcAI/tilcai-web",
+   "author": "OmarQV",
+   "date": "2026-10-02T06:37:27Z",
+   "msg": "merge: integrate main (roadmap) into feat/web-office-hero",
+   "pts": 0.0,
+   "nota": "merge"
+  },
+  {
+   "sha": "d5a5d09",
+   "team": "TilcAI",
+   "repo": "TilcAI/tilcai-web",
+   "author": "OmarQV",
+   "date": "2026-10-02T06:32:50Z",
+   "msg": "fix(web): css",
+   "pts": 6.0,
+   "nota": ""
+  },
+  {
+   "sha": "3453a9f",
+   "team": "TilcAI",
+   "repo": "TilcAI/tilcai-web",
+   "author": "OmarQV",
+   "date": "2026-10-02T06:19:01Z",
+   "msg": "feat(web): full-screen office hero and office legend section",
+   "pts": 8.06,
+   "nota": ""
+  },
+  {
+   "sha": "af4bfc0",
+   "team": "TilcAI",
+   "repo": "TilcAI/tilcai-web",
+   "author": "OmarQV",
+   "date": "2026-10-02T06:18:28Z",
+   "msg": "feat(web): add isometric office simulation with HUD, A2A stream and commands",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "f7c6a91",
+   "team": "TilcAI",
+   "repo": "TilcAI/tilcai-web",
+   "author": "OmarQV",
+   "date": "2026-10-02T06:18:01Z",
+   "msg": "feat(web): adopt The Graph visual system and TilcAI brand assets",
+   "pts": 10,
+   "nota": ""
+  },
   {
    "sha": "4c5bb9c",
    "team": "Impulso Stellar",

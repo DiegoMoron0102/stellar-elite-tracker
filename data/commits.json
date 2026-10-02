@@ -36076,5 +36076,500 @@
     "d": 0
    }
   ]
+ },
+ "a762b6cf2e8386641964f5dc632c34828774c28a": {
+  "team": "TilcAI",
+  "repo": "TilcAI/tilcai-web",
+  "author": "OmarQV",
+  "date": "2026-10-02T06:41:12Z",
+  "message": "Merge pull request #17 from TilcAI/feat/web-office-hero",
+  "parents": 2,
+  "files": [
+   {
+    "f": "README.md",
+    "a": 17,
+    "d": 19
+   },
+   {
+    "f": "docs/redesign-the-graph.md",
+    "a": 118,
+    "d": 0
+   },
+   {
+    "f": "public/brand/apple-touch-icon.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/brand/favicon-32.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/brand/icon-512.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/brand/og-image.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/brand/tilcai-logo-white.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/brand/tilcai-logo.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/brand/tilcai-logo@2x.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/brand/tilcai-mark-128.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/brand/tilcai-mark-64.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/brand/tilcai-mark-white.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "src/app/[lang]/layout.tsx",
+    "a": 11,
+    "d": 7
+   },
+   {
+    "f": "src/app/agents.css",
+    "a": 11,
+    "d": 11
+   },
+   {
+    "f": "src/app/globals.css",
+    "a": 268,
+    "d": 196
+   },
+   {
+    "f": "src/app/landing.css",
+    "a": 49,
+    "d": 81
+   },
+   {
+    "f": "src/app/office.css",
+    "a": 195,
+    "d": 0
+   },
+   {
+    "f": "src/components/CommerceScene.tsx",
+    "a": 0,
+    "d": 19
+   },
+   {
+    "f": "src/components/HomePage.tsx",
+    "a": 2,
+    "d": 0
+   },
+   {
+    "f": "src/components/Icon.tsx",
+    "a": 38,
+    "d": 0
+   },
+   {
+    "f": "src/components/SiteFooter.tsx",
+    "a": 2,
+    "d": 3
+   },
+   {
+    "f": "src/components/SiteHeader.tsx",
+    "a": 11,
+    "d": 6
+   },
+   {
+    "f": "src/components/office/OfficeHero.tsx",
+    "a": 383,
+    "d": 0
+   },
+   {
+    "f": "src/components/office/layout.ts",
+    "a": 122,
+    "d": 0
+   },
+   {
+    "f": "src/components/office/pathfinding.ts",
+    "a": 58,
+    "d": 0
+   },
+   {
+    "f": "src/components/office/render.ts",
+    "a": 564,
+    "d": 0
+   },
+   {
+    "f": "src/components/office/sim.ts",
+    "a": 601,
+    "d": 0
+   },
+   {
+    "f": "src/components/office/types.ts",
+    "a": 94,
+    "d": 0
+   },
+   {
+    "f": "src/components/sections/HeroScene.tsx",
+    "a": 0,
+    "d": 7
+   },
+   {
+    "f": "src/components/sections/HeroSection.tsx",
+    "a": 3,
+    "d": 32
+   },
+   {
+    "f": "src/components/sections/OfficeLegendSection.tsx",
+    "a": 29,
+    "d": 0
+   },
+   {
+    "f": "src/components/sections/shared.tsx",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "src/lib/i18n/en.ts",
+    "a": 2,
+    "d": 0
+   },
+   {
+    "f": "src/lib/i18n/es.ts",
+    "a": 2,
+    "d": 0
+   },
+   {
+    "f": "src/lib/i18n/office.en.ts",
+    "a": 112,
+    "d": 0
+   },
+   {
+    "f": "src/lib/i18n/office.es.ts",
+    "a": 112,
+    "d": 0
+   },
+   {
+    "f": "src/lib/i18n/types.ts",
+    "a": 30,
+    "d": 0
+   },
+   {
+    "f": "src/lib/metadata.ts",
+    "a": 2,
+    "d": 2
+   }
+  ]
+ },
+ "3dc7fb8b3bad354fa809a74a242d71d9f1ba5ca7": {
+  "team": "TilcAI",
+  "repo": "TilcAI/tilcai-web",
+  "author": "OmarQV",
+  "date": "2026-10-02T06:37:27Z",
+  "message": "merge: integrate main (roadmap) into feat/web-office-hero",
+  "parents": 2,
+  "files": [
+   {
+    "f": "README.md",
+    "a": 8,
+    "d": 4
+   },
+   {
+    "f": "docs/qa-financial-states.md",
+    "a": 70,
+    "d": 0
+   },
+   {
+    "f": "src/components/sections/RoadmapSection.tsx",
+    "a": 41,
+    "d": 25
+   },
+   {
+    "f": "src/components/sections/StackSection.tsx",
+    "a": 24,
+    "d": 13
+   },
+   {
+    "f": "src/lib/content/roadmap.ts",
+    "a": 31,
+    "d": 0
+   },
+   {
+    "f": "src/lib/i18n/docs.en.ts",
+    "a": 135,
+    "d": 118
+   },
+   {
+    "f": "src/lib/i18n/docs.es.ts",
+    "a": 136,
+    "d": 121
+   },
+   {
+    "f": "src/lib/i18n/en.ts",
+    "a": 22,
+    "d": 7
+   },
+   {
+    "f": "src/lib/i18n/es.ts",
+    "a": 22,
+    "d": 7
+   },
+   {
+    "f": "src/lib/i18n/types.ts",
+    "a": 11,
+    "d": 2
+   }
+  ]
+ },
+ "d5a5d0966687dc19088e10541570bdd2bc222a33": {
+  "team": "TilcAI",
+  "repo": "TilcAI/tilcai-web",
+  "author": "OmarQV",
+  "date": "2026-10-02T06:32:50Z",
+  "message": "fix(web): css",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/app/globals.css",
+    "a": 19,
+    "d": 12
+   }
+  ]
+ },
+ "3453a9f4e44a93c3a391450cb43bccb15ed76dca": {
+  "team": "TilcAI",
+  "repo": "TilcAI/tilcai-web",
+  "author": "OmarQV",
+  "date": "2026-10-02T06:19:01Z",
+  "message": "feat(web): full-screen office hero and office legend section",
+  "parents": 1,
+  "files": [
+   {
+    "f": "README.md",
+    "a": 17,
+    "d": 19
+   },
+   {
+    "f": "src/components/CommerceScene.tsx",
+    "a": 0,
+    "d": 19
+   },
+   {
+    "f": "src/components/HomePage.tsx",
+    "a": 2,
+    "d": 0
+   },
+   {
+    "f": "src/components/sections/HeroScene.tsx",
+    "a": 0,
+    "d": 7
+   },
+   {
+    "f": "src/components/sections/HeroSection.tsx",
+    "a": 3,
+    "d": 32
+   },
+   {
+    "f": "src/components/sections/OfficeLegendSection.tsx",
+    "a": 29,
+    "d": 0
+   },
+   {
+    "f": "src/components/sections/shared.tsx",
+    "a": 2,
+    "d": 2
+   }
+  ]
+ },
+ "af4bfc01eda92c172e873134852617f2f8045762": {
+  "team": "TilcAI",
+  "repo": "TilcAI/tilcai-web",
+  "author": "OmarQV",
+  "date": "2026-10-02T06:18:28Z",
+  "message": "feat(web): add isometric office simulation with HUD, A2A stream and commands",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/components/office/OfficeHero.tsx",
+    "a": 383,
+    "d": 0
+   },
+   {
+    "f": "src/components/office/layout.ts",
+    "a": 122,
+    "d": 0
+   },
+   {
+    "f": "src/components/office/pathfinding.ts",
+    "a": 58,
+    "d": 0
+   },
+   {
+    "f": "src/components/office/render.ts",
+    "a": 564,
+    "d": 0
+   },
+   {
+    "f": "src/components/office/sim.ts",
+    "a": 601,
+    "d": 0
+   },
+   {
+    "f": "src/components/office/types.ts",
+    "a": 94,
+    "d": 0
+   },
+   {
+    "f": "src/lib/i18n/en.ts",
+    "a": 2,
+    "d": 0
+   },
+   {
+    "f": "src/lib/i18n/es.ts",
+    "a": 2,
+    "d": 0
+   },
+   {
+    "f": "src/lib/i18n/office.en.ts",
+    "a": 112,
+    "d": 0
+   },
+   {
+    "f": "src/lib/i18n/office.es.ts",
+    "a": 112,
+    "d": 0
+   },
+   {
+    "f": "src/lib/i18n/types.ts",
+    "a": 30,
+    "d": 0
+   }
+  ]
+ },
+ "f7c6a91386e9966e97117268059872276751d2c4": {
+  "team": "TilcAI",
+  "repo": "TilcAI/tilcai-web",
+  "author": "OmarQV",
+  "date": "2026-10-02T06:18:01Z",
+  "message": "feat(web): adopt The Graph visual system and TilcAI brand assets",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/redesign-the-graph.md",
+    "a": 118,
+    "d": 0
+   },
+   {
+    "f": "public/brand/apple-touch-icon.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/brand/favicon-32.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/brand/icon-512.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/brand/og-image.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/brand/tilcai-logo-white.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/brand/tilcai-logo.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/brand/tilcai-logo@2x.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/brand/tilcai-mark-128.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/brand/tilcai-mark-64.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/brand/tilcai-mark-white.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "src/app/[lang]/layout.tsx",
+    "a": 11,
+    "d": 7
+   },
+   {
+    "f": "src/app/agents.css",
+    "a": 11,
+    "d": 11
+   },
+   {
+    "f": "src/app/globals.css",
+    "a": 266,
+    "d": 194
+   },
+   {
+    "f": "src/app/landing.css",
+    "a": 49,
+    "d": 81
+   },
+   {
+    "f": "src/app/office.css",
+    "a": 195,
+    "d": 0
+   },
+   {
+    "f": "src/components/Icon.tsx",
+    "a": 38,
+    "d": 0
+   },
+   {
+    "f": "src/components/SiteFooter.tsx",
+    "a": 2,
+    "d": 3
+   },
+   {
+    "f": "src/components/SiteHeader.tsx",
+    "a": 11,
+    "d": 6
+   },
+   {
+    "f": "src/lib/metadata.ts",
+    "a": 2,
+    "d": 2
+   }
+  ]
  }
 }
