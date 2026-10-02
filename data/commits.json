@@ -34676,5 +34676,1405 @@
     "d": 10
    }
   ]
+ },
+ "55d37e12e445855fb167abb9a1613d4f5a1de605": {
+  "team": "TilcAI",
+  "repo": "TilcAI/tilcai-web",
+  "author": "OmarQV",
+  "date": "2026-10-01T04:02:14Z",
+  "message": "Merge pull request #12 from TilcAI/feat/web-roadmap-docs",
+  "parents": 2,
+  "files": [
+   {
+    "f": "README.md",
+    "a": 8,
+    "d": 4
+   },
+   {
+    "f": "docs/qa-financial-states.md",
+    "a": 70,
+    "d": 0
+   },
+   {
+    "f": "src/app/globals.css",
+    "a": 17,
+    "d": 10
+   },
+   {
+    "f": "src/components/sections/RoadmapSection.tsx",
+    "a": 41,
+    "d": 25
+   },
+   {
+    "f": "src/components/sections/StackSection.tsx",
+    "a": 24,
+    "d": 13
+   },
+   {
+    "f": "src/lib/content/roadmap.ts",
+    "a": 31,
+    "d": 0
+   },
+   {
+    "f": "src/lib/i18n/docs.en.ts",
+    "a": 135,
+    "d": 118
+   },
+   {
+    "f": "src/lib/i18n/docs.es.ts",
+    "a": 136,
+    "d": 121
+   },
+   {
+    "f": "src/lib/i18n/en.ts",
+    "a": 22,
+    "d": 7
+   },
+   {
+    "f": "src/lib/i18n/es.ts",
+    "a": 22,
+    "d": 7
+   },
+   {
+    "f": "src/lib/i18n/types.ts",
+    "a": 11,
+    "d": 2
+   }
+  ]
+ },
+ "9818e093f8c4a41b7f6e933a11e3e687f878fa88": {
+  "team": "TilcAI",
+  "repo": "TilcAI/tilcai-web",
+  "author": "OmarQV",
+  "date": "2026-10-01T03:58:48Z",
+  "message": "Merge branch 'main' into feat/web-roadmap-docs",
+  "parents": 2,
+  "files": [
+   {
+    "f": "README.md",
+    "a": 18,
+    "d": 8
+   },
+   {
+    "f": "docs/agent-catalog.md",
+    "a": 26,
+    "d": 11
+   },
+   {
+    "f": "docs/qa-agent-catalog.md",
+    "a": 5,
+    "d": 0
+   },
+   {
+    "f": "docs/visual-structure.md",
+    "a": 166,
+    "d": 0
+   },
+   {
+    "f": "public/assets/claude.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/assets/codex.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "src/app/[lang]/layout.tsx",
+    "a": 3,
+    "d": 2
+   },
+   {
+    "f": "src/app/agents.css",
+    "a": 89,
+    "d": 0
+   },
+   {
+    "f": "src/app/globals.css",
+    "a": 14,
+    "d": 163
+   },
+   {
+    "f": "src/app/landing.css",
+    "a": 106,
+    "d": 0
+   },
+   {
+    "f": "src/components/AgentCard.tsx",
+    "a": 26,
+    "d": 22
+   },
+   {
+    "f": "src/components/AgentCatalog.tsx",
+    "a": 98,
+    "d": 33
+   },
+   {
+    "f": "src/components/AgentGuidePanel.tsx",
+    "a": 78,
+    "d": 55
+   },
+   {
+    "f": "src/components/CommerceScene.tsx",
+    "a": 43,
+    "d": 0
+   },
+   {
+    "f": "src/components/RevealObserver.tsx",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/components/SiteHeader.tsx",
+    "a": 2,
+    "d": 3
+   },
+   {
+    "f": "src/components/sections/CompareSection.tsx",
+    "a": 36,
+    "d": 38
+   },
+   {
+    "f": "src/components/sections/FlowSection.tsx",
+    "a": 42,
+    "d": 38
+   },
+   {
+    "f": "src/components/sections/HeroScene.tsx",
+    "a": 5,
+    "d": 74
+   },
+   {
+    "f": "src/components/sections/HeroSection.tsx",
+    "a": 25,
+    "d": 38
+   },
+   {
+    "f": "src/components/sections/InterfaceSection.tsx",
+    "a": 21,
+    "d": 23
+   },
+   {
+    "f": "src/components/sections/ProductOverview.tsx",
+    "a": 2,
+    "d": 7
+   },
+   {
+    "f": "src/components/sections/shared.tsx",
+    "a": 12,
+    "d": 0
+   },
+   {
+    "f": "src/components/useDepthMotion.ts",
+    "a": 81,
+    "d": 0
+   },
+   {
+    "f": "src/lib/content/agents.ts",
+    "a": 7,
+    "d": 4
+   },
+   {
+    "f": "src/lib/i18n/en.ts",
+    "a": 3,
+    "d": 1
+   },
+   {
+    "f": "src/lib/i18n/es.ts",
+    "a": 3,
+    "d": 1
+   },
+   {
+    "f": "src/lib/i18n/types.ts",
+    "a": 2,
+    "d": 0
+   }
+  ]
+ },
+ "d6064e9edb5ccac179b845d09a218184d66a83bd": {
+  "team": "TilcAI",
+  "repo": "TilcAI/tilcai-web",
+  "author": "OmarQV",
+  "date": "2026-10-01T03:10:50Z",
+  "message": "merge(web): integrate main preserving compact redesign",
+  "parents": 2,
+  "files": [
+   {
+    "f": "README.md",
+    "a": 16,
+    "d": 2
+   },
+   {
+    "f": "docs/visual-structure.md",
+    "a": 20,
+    "d": 1
+   },
+   {
+    "f": "pnpm-workspace.yaml",
+    "a": 2,
+    "d": 0
+   },
+   {
+    "f": "src/components/HomePage.tsx",
+    "a": 23,
+    "d": 314
+   },
+   {
+    "f": "src/components/Icon.tsx",
+    "a": 14,
+    "d": 0
+   },
+   {
+    "f": "src/components/sections/CapabilitiesSection.tsx",
+    "a": 29,
+    "d": 0
+   },
+   {
+    "f": "src/components/sections/CompareSection.tsx",
+    "a": 44,
+    "d": 0
+   },
+   {
+    "f": "src/components/sections/CtaSection.tsx",
+    "a": 26,
+    "d": 0
+   },
+   {
+    "f": "src/components/sections/DemoSection.tsx",
+    "a": 15,
+    "d": 0
+   },
+   {
+    "f": "src/components/sections/FlowSection.tsx",
+    "a": 69,
+    "d": 0
+   },
+   {
+    "f": "src/components/sections/HeroScene.tsx",
+    "a": 7,
+    "d": 0
+   },
+   {
+    "f": "src/components/sections/HeroSection.tsx",
+    "a": 36,
+    "d": 0
+   },
+   {
+    "f": "src/components/sections/InterfaceSection.tsx",
+    "a": 32,
+    "d": 0
+   },
+   {
+    "f": "src/components/sections/ProductOverview.tsx",
+    "a": 29,
+    "d": 0
+   },
+   {
+    "f": "src/components/sections/RoadmapSection.tsx",
+    "a": 47,
+    "d": 0
+   },
+   {
+    "f": "src/components/sections/StackSection.tsx",
+    "a": 19,
+    "d": 0
+   },
+   {
+    "f": "src/components/sections/shared.tsx",
+    "a": 28,
+    "d": 0
+   },
+   {
+    "f": "src/lib/i18n/en.ts",
+    "a": 18,
+    "d": 3
+   },
+   {
+    "f": "src/lib/i18n/es.ts",
+    "a": 18,
+    "d": 3
+   },
+   {
+    "f": "src/lib/i18n/types.ts",
+    "a": 19,
+    "d": 3
+   }
+  ]
+ },
+ "1a8bb0e8b6255f0648ab34202fd1ab13a5b69d06": {
+  "team": "TilcAI",
+  "repo": "TilcAI/tilcai-web",
+  "author": "OmarQV",
+  "date": "2026-10-01T02:58:13Z",
+  "message": "docs(web): record visual structure and redesign validation",
+  "parents": 1,
+  "files": [
+   {
+    "f": "README.md",
+    "a": 13,
+    "d": 3
+   },
+   {
+    "f": "docs/agent-catalog.md",
+    "a": 26,
+    "d": 11
+   },
+   {
+    "f": "docs/qa-agent-catalog.md",
+    "a": 5,
+    "d": 0
+   },
+   {
+    "f": "docs/visual-structure.md",
+    "a": 147,
+    "d": 0
+   }
+  ]
+ },
+ "dbff798b929cc8ce58178e334ffdb56382e24e8f": {
+  "team": "TilcAI",
+  "repo": "TilcAI/tilcai-web",
+  "author": "OmarQV",
+  "date": "2026-10-01T02:57:54Z",
+  "message": "feat(web): compact landing with holographic scenes and agent drawer",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/app/[lang]/layout.tsx",
+    "a": 3,
+    "d": 2
+   },
+   {
+    "f": "src/app/agents.css",
+    "a": 89,
+    "d": 0
+   },
+   {
+    "f": "src/app/globals.css",
+    "a": 14,
+    "d": 90
+   },
+   {
+    "f": "src/app/landing.css",
+    "a": 106,
+    "d": 0
+   },
+   {
+    "f": "src/components/AgentCard.tsx",
+    "a": 26,
+    "d": 22
+   },
+   {
+    "f": "src/components/AgentCatalog.tsx",
+    "a": 98,
+    "d": 33
+   },
+   {
+    "f": "src/components/AgentGuidePanel.tsx",
+    "a": 78,
+    "d": 55
+   },
+   {
+    "f": "src/components/CommerceScene.tsx",
+    "a": 43,
+    "d": 0
+   },
+   {
+    "f": "src/components/HomePage.tsx",
+    "a": 27,
+    "d": 31
+   },
+   {
+    "f": "src/components/RevealObserver.tsx",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/components/SiteHeader.tsx",
+    "a": 2,
+    "d": 3
+   },
+   {
+    "f": "src/components/useDepthMotion.ts",
+    "a": 81,
+    "d": 0
+   }
+  ]
+ },
+ "efb91638b843c2f9a42fa499654af7f3e9942d21": {
+  "team": "TilcAI",
+  "repo": "TilcAI/tilcai-web",
+  "author": "OmarQV",
+  "date": "2026-10-01T02:56:03Z",
+  "message": "feat(web): add mascot assets and bilingual carousel copy",
+  "parents": 1,
+  "files": [
+   {
+    "f": "public/assets/claude.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/assets/codex.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "src/lib/content/agents.ts",
+    "a": 7,
+    "d": 4
+   },
+   {
+    "f": "src/lib/i18n/en.ts",
+    "a": 2,
+    "d": 1
+   },
+   {
+    "f": "src/lib/i18n/es.ts",
+    "a": 2,
+    "d": 1
+   },
+   {
+    "f": "src/lib/i18n/types.ts",
+    "a": 1,
+    "d": 0
+   }
+  ]
+ },
+ "83f92f56b8abc197a6d0a64c364f94ecf3b1e9ee": {
+  "team": "TilcAI",
+  "repo": "TilcAI/tilcai-web",
+  "author": "SaulChoque",
+  "date": "2026-09-30T23:27:07Z",
+  "message": "docs(web): fix README structure after moving RoadmapSection into sections",
+  "parents": 1,
+  "files": [
+   {
+    "f": "README.md",
+    "a": 2,
+    "d": 2
+   }
+  ]
+ },
+ "478e41ef72f5c4c67eb543348eeaec324968b401": {
+  "team": "TilcAI",
+  "repo": "TilcAI/tilcai-web",
+  "author": "SaulChoque",
+  "date": "2026-09-30T23:23:17Z",
+  "message": "feat(web): add build-status roadmap and update docs to the new direction",
+  "parents": 1,
+  "files": [
+   {
+    "f": "README.md",
+    "a": 6,
+    "d": 2
+   },
+   {
+    "f": "docs/qa-financial-states.md",
+    "a": 70,
+    "d": 0
+   },
+   {
+    "f": "src/app/globals.css",
+    "a": 17,
+    "d": 10
+   },
+   {
+    "f": "src/components/sections/RoadmapSection.tsx",
+    "a": 41,
+    "d": 25
+   },
+   {
+    "f": "src/components/sections/StackSection.tsx",
+    "a": 9,
+    "d": 0
+   },
+   {
+    "f": "src/lib/content/roadmap.ts",
+    "a": 31,
+    "d": 0
+   },
+   {
+    "f": "src/lib/i18n/docs.en.ts",
+    "a": 135,
+    "d": 118
+   },
+   {
+    "f": "src/lib/i18n/docs.es.ts",
+    "a": 136,
+    "d": 121
+   },
+   {
+    "f": "src/lib/i18n/en.ts",
+    "a": 22,
+    "d": 7
+   },
+   {
+    "f": "src/lib/i18n/es.ts",
+    "a": 22,
+    "d": 7
+   },
+   {
+    "f": "src/lib/i18n/types.ts",
+    "a": 11,
+    "d": 2
+   }
+  ]
+ },
+ "c93cc4585d921aa1ef90d33636b4a17b12d97205": {
+  "team": "TilcAI",
+  "repo": "TilcAI/tilcai-web",
+  "author": "JHAMILCALI",
+  "date": "2026-09-30T23:10:52Z",
+  "message": "Merge pull request #11 from TilcAI/feat/page-jhamil",
+  "parents": 2,
+  "files": [
+   {
+    "f": "README.md",
+    "a": 16,
+    "d": 2
+   },
+   {
+    "f": "pnpm-workspace.yaml",
+    "a": 2,
+    "d": 0
+   },
+   {
+    "f": "src/app/globals.css",
+    "a": 84,
+    "d": 11
+   },
+   {
+    "f": "src/components/HomePage.tsx",
+    "a": 23,
+    "d": 318
+   },
+   {
+    "f": "src/components/Icon.tsx",
+    "a": 14,
+    "d": 0
+   },
+   {
+    "f": "src/components/sections/CapabilitiesSection.tsx",
+    "a": 29,
+    "d": 0
+   },
+   {
+    "f": "src/components/sections/CompareSection.tsx",
+    "a": 46,
+    "d": 0
+   },
+   {
+    "f": "src/components/sections/CtaSection.tsx",
+    "a": 26,
+    "d": 0
+   },
+   {
+    "f": "src/components/sections/DemoSection.tsx",
+    "a": 15,
+    "d": 0
+   },
+   {
+    "f": "src/components/sections/FlowSection.tsx",
+    "a": 65,
+    "d": 0
+   },
+   {
+    "f": "src/components/sections/HeroScene.tsx",
+    "a": 76,
+    "d": 0
+   },
+   {
+    "f": "src/components/sections/HeroSection.tsx",
+    "a": 49,
+    "d": 0
+   },
+   {
+    "f": "src/components/sections/InterfaceSection.tsx",
+    "a": 34,
+    "d": 0
+   },
+   {
+    "f": "src/components/sections/ProductOverview.tsx",
+    "a": 34,
+    "d": 0
+   },
+   {
+    "f": "src/components/sections/RoadmapSection.tsx",
+    "a": 47,
+    "d": 0
+   },
+   {
+    "f": "src/components/sections/StackSection.tsx",
+    "a": 21,
+    "d": 0
+   },
+   {
+    "f": "src/components/sections/shared.tsx",
+    "a": 16,
+    "d": 0
+   },
+   {
+    "f": "src/lib/i18n/en.ts",
+    "a": 17,
+    "d": 3
+   },
+   {
+    "f": "src/lib/i18n/es.ts",
+    "a": 17,
+    "d": 3
+   },
+   {
+    "f": "src/lib/i18n/types.ts",
+    "a": 18,
+    "d": 3
+   }
+  ]
+ },
+ "d7cf6ba95f5ae23d34208416043de83f9fb0fda2": {
+  "team": "TilcAI",
+  "repo": "TilcAI/tilcai-web",
+  "author": "JHAMILCALI",
+  "date": "2026-09-30T23:07:35Z",
+  "message": "Merge branch 'main' of github.com:TilcAI/tilcai-web into feat/page-jhamil",
+  "parents": 2,
+  "files": [
+   {
+    "f": "README.md",
+    "a": 28,
+    "d": 20
+   },
+   {
+    "f": "docs/agent-catalog.md",
+    "a": 95,
+    "d": 0
+   },
+   {
+    "f": "docs/messaging-map.md",
+    "a": 128,
+    "d": 0
+   },
+   {
+    "f": "docs/qa-agent-catalog.md",
+    "a": 51,
+    "d": 0
+   },
+   {
+    "f": "src/app/globals.css",
+    "a": 61,
+    "d": 13
+   },
+   {
+    "f": "src/components/AgentCard.tsx",
+    "a": 43,
+    "d": 0
+   },
+   {
+    "f": "src/components/AgentCatalog.tsx",
+    "a": 60,
+    "d": 0
+   },
+   {
+    "f": "src/components/AgentGuidePanel.tsx",
+    "a": 79,
+    "d": 0
+   },
+   {
+    "f": "src/components/FaqSection.tsx",
+    "a": 23,
+    "d": 0
+   },
+   {
+    "f": "src/components/HomePage.tsx",
+    "a": 4,
+    "d": 2
+   },
+   {
+    "f": "src/components/PolicyDemo.tsx",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/components/RevealObserver.tsx",
+    "a": 5,
+    "d": 2
+   },
+   {
+    "f": "src/components/SiteFooter.tsx",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/components/SiteHeader.tsx",
+    "a": 2,
+    "d": 1
+   },
+   {
+    "f": "src/components/sections/CapabilitiesSection.tsx",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/components/sections/CtaSection.tsx",
+    "a": 2,
+    "d": 3
+   },
+   {
+    "f": "src/components/sections/HeroSection.tsx",
+    "a": 1,
+    "d": 3
+   },
+   {
+    "f": "src/components/sections/InterfaceSection.tsx",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/components/sections/ProblemSection.tsx",
+    "a": 0,
+    "d": 27
+   },
+   {
+    "f": "src/components/sections/ProductOverview.tsx",
+    "a": 11,
+    "d": 13
+   },
+   {
+    "f": "src/lib/content/agents.ts",
+    "a": 163,
+    "d": 0
+   },
+   {
+    "f": "src/lib/i18n/en.ts",
+    "a": 145,
+    "d": 216
+   },
+   {
+    "f": "src/lib/i18n/es.ts",
+    "a": 144,
+    "d": 215
+   },
+   {
+    "f": "src/lib/i18n/types.ts",
+    "a": 35,
+    "d": 12
+   },
+   {
+    "f": "src/lib/snippets.ts",
+    "a": 37,
+    "d": 55
+   }
+  ]
+ },
+ "e1386789974d6f5bcf7947b0f5647519c3a49621": {
+  "team": "TilcAI",
+  "repo": "TilcAI/tilcai-web",
+  "author": "JHAMILCALI",
+  "date": "2026-09-30T20:54:13Z",
+  "message": "feat: add new icons and sections for capabilities, comparison, and product overview",
+  "parents": 1,
+  "files": [
+   {
+    "f": "README.md",
+    "a": 16,
+    "d": 2
+   },
+   {
+    "f": "pnpm-workspace.yaml",
+    "a": 2,
+    "d": 0
+   },
+   {
+    "f": "src/app/globals.css",
+    "a": 87,
+    "d": 11
+   },
+   {
+    "f": "src/components/HomePage.tsx",
+    "a": 24,
+    "d": 317
+   },
+   {
+    "f": "src/components/Icon.tsx",
+    "a": 14,
+    "d": 0
+   },
+   {
+    "f": "src/components/RevealObserver.tsx",
+    "a": 4,
+    "d": 1
+   },
+   {
+    "f": "src/components/sections/CapabilitiesSection.tsx",
+    "a": 29,
+    "d": 0
+   },
+   {
+    "f": "src/components/sections/CompareSection.tsx",
+    "a": 46,
+    "d": 0
+   },
+   {
+    "f": "src/components/sections/CtaSection.tsx",
+    "a": 27,
+    "d": 0
+   },
+   {
+    "f": "src/components/sections/DemoSection.tsx",
+    "a": 15,
+    "d": 0
+   },
+   {
+    "f": "src/components/sections/FlowSection.tsx",
+    "a": 65,
+    "d": 0
+   },
+   {
+    "f": "src/components/sections/HeroScene.tsx",
+    "a": 76,
+    "d": 0
+   },
+   {
+    "f": "src/components/sections/HeroSection.tsx",
+    "a": 51,
+    "d": 0
+   },
+   {
+    "f": "src/components/sections/InterfaceSection.tsx",
+    "a": 34,
+    "d": 0
+   },
+   {
+    "f": "src/components/sections/ProblemSection.tsx",
+    "a": 27,
+    "d": 0
+   },
+   {
+    "f": "src/components/sections/ProductOverview.tsx",
+    "a": 36,
+    "d": 0
+   },
+   {
+    "f": "src/components/sections/RoadmapSection.tsx",
+    "a": 47,
+    "d": 0
+   },
+   {
+    "f": "src/components/sections/StackSection.tsx",
+    "a": 21,
+    "d": 0
+   },
+   {
+    "f": "src/components/sections/shared.tsx",
+    "a": 16,
+    "d": 0
+   },
+   {
+    "f": "src/lib/i18n/en.ts",
+    "a": 34,
+    "d": 9
+   },
+   {
+    "f": "src/lib/i18n/es.ts",
+    "a": 34,
+    "d": 9
+   },
+   {
+    "f": "src/lib/i18n/types.ts",
+    "a": 25,
+    "d": 3
+   }
+  ]
+ },
+ "c1b01d4da1055f768000af710ad1cca8a3e21521": {
+  "team": "TilcAI",
+  "repo": "TilcAI/tilcai-web",
+  "author": "OmarQV",
+  "date": "2026-09-30T18:40:51Z",
+  "message": "docs(web): record assistant catalog validation and prerequisites",
+  "parents": 1,
+  "files": [
+   {
+    "f": "README.md",
+    "a": 6,
+    "d": 1
+   },
+   {
+    "f": "docs/qa-agent-catalog.md",
+    "a": 51,
+    "d": 0
+   }
+  ]
+ },
+ "fa3f00434c51d870e10b29685189ccae190c1245": {
+  "team": "TilcAI",
+  "repo": "TilcAI/tilcai-web",
+  "author": "OmarQV",
+  "date": "2026-09-30T18:40:24Z",
+  "message": "feat(web): add bilingual assistant cards and guide panel",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/app/globals.css",
+    "a": 46,
+    "d": 1
+   },
+   {
+    "f": "src/components/AgentCard.tsx",
+    "a": 43,
+    "d": 0
+   },
+   {
+    "f": "src/components/AgentCatalog.tsx",
+    "a": 60,
+    "d": 0
+   },
+   {
+    "f": "src/components/AgentGuidePanel.tsx",
+    "a": 79,
+    "d": 0
+   },
+   {
+    "f": "src/components/HomePage.tsx",
+    "a": 3,
+    "d": 0
+   },
+   {
+    "f": "src/components/SiteHeader.tsx",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "src/lib/i18n/en.ts",
+    "a": 18,
+    "d": 1
+   },
+   {
+    "f": "src/lib/i18n/es.ts",
+    "a": 18,
+    "d": 1
+   },
+   {
+    "f": "src/lib/i18n/types.ts",
+    "a": 12,
+    "d": 1
+   }
+  ]
+ },
+ "1478f6e770786c156b01b09a2c8e75e1756ac8c8": {
+  "team": "TilcAI",
+  "repo": "TilcAI/tilcai-web",
+  "author": "OmarQV",
+  "date": "2026-09-30T18:39:59Z",
+  "message": "feat(web): add typed assistant catalog and official references",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/agent-catalog.md",
+    "a": 95,
+    "d": 0
+   },
+   {
+    "f": "src/lib/content/agents.ts",
+    "a": 163,
+    "d": 0
+   }
+  ]
+ },
+ "999c4aad4807abab6ace13204ba89a1f2fe4d762": {
+  "team": "TilcAI",
+  "repo": "TilcAI/tilcai-web",
+  "author": "OmarQV",
+  "date": "2026-09-30T17:22:56Z",
+  "message": "fix(web): preserve progressive enhancement across language routes",
+  "parents": 1,
+  "files": [
+   {
+    "f": "README.md",
+    "a": 6,
+    "d": 0
+   },
+   {
+    "f": "docs/messaging-map.md",
+    "a": 22,
+    "d": 2
+   },
+   {
+    "f": "src/components/RevealObserver.tsx",
+    "a": 7,
+    "d": 1
+   }
+  ]
+ },
+ "b99f4f3e9d24302e907d327dc5d5422f7089bc85": {
+  "team": "TilcAI",
+  "repo": "TilcAI/tilcai-web",
+  "author": "OmarQV",
+  "date": "2026-09-30T17:19:40Z",
+  "message": "feat(web): align typed ES EN copy with agent commerce",
+  "parents": 1,
+  "files": [
+   {
+    "f": "README.md",
+    "a": 11,
+    "d": 14
+   },
+   {
+    "f": "src/app/globals.css",
+    "a": 15,
+    "d": 9
+   },
+   {
+    "f": "src/components/FaqSection.tsx",
+    "a": 23,
+    "d": 0
+   },
+   {
+    "f": "src/components/HomePage.tsx",
+    "a": 14,
+    "d": 13
+   },
+   {
+    "f": "src/components/PolicyDemo.tsx",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/components/SiteFooter.tsx",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/components/SiteHeader.tsx",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/lib/i18n/en.ts",
+    "a": 132,
+    "d": 209
+   },
+   {
+    "f": "src/lib/i18n/es.ts",
+    "a": 132,
+    "d": 209
+   },
+   {
+    "f": "src/lib/i18n/types.ts",
+    "a": 22,
+    "d": 3
+   },
+   {
+    "f": "src/lib/snippets.ts",
+    "a": 37,
+    "d": 55
+   }
+  ]
+ },
+ "b75af813cdf7ea9e1bcab9570d2d6d4c5c3530fb": {
+  "team": "TilcAI",
+  "repo": "TilcAI/tilcai-web",
+  "author": "OmarQV",
+  "date": "2026-09-30T16:53:35Z",
+  "message": "docs(web): add bilingual messaging map",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/messaging-map.md",
+    "a": 108,
+    "d": 0
+   }
+  ]
+ },
+ "557a3870072ec0f1bff58432a3b3c61db181f8e4": {
+  "team": "TilcAI",
+  "repo": "TilcAI/tilcai-web",
+  "author": "OmarQV",
+  "date": "2026-09-27T08:27:53Z",
+  "message": "feat: demo",
+  "parents": 1,
+  "files": [
+   {
+    "f": "README.md",
+    "a": 3,
+    "d": 2
+   },
+   {
+    "f": "src/app/globals.css",
+    "a": 14,
+    "d": 0
+   },
+   {
+    "f": "src/components/HomePage.tsx",
+    "a": 9,
+    "d": 0
+   },
+   {
+    "f": "src/components/PolicyDemo.tsx",
+    "a": 33,
+    "d": 0
+   },
+   {
+    "f": "src/components/SiteHeader.tsx",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "src/lib/i18n/en.ts",
+    "a": 16,
+    "d": 2
+   },
+   {
+    "f": "src/lib/i18n/es.ts",
+    "a": 15,
+    "d": 1
+   },
+   {
+    "f": "src/lib/i18n/types.ts",
+    "a": 10,
+    "d": 1
+   }
+  ]
+ },
+ "dfd467a6bc73b40001b912ea125f6c432105b538": {
+  "team": "TilcAI",
+  "repo": "TilcAI/tilcai-web",
+  "author": "OmarQV",
+  "date": "2026-09-27T07:46:33Z",
+  "message": "fix: ignore empty NEXT_PUBLIC_SITE_URL when building metadata",
+  "parents": 1,
+  "files": [
+   {
+    "f": "README.md",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/lib/site.ts",
+    "a": 25,
+    "d": 2
+   }
+  ]
+ },
+ "89c6a0fa5c31d91f71edf78e1740c91c8e69b196": {
+  "team": "TilcAI",
+  "repo": "TilcAI/tilcai-web",
+  "author": "OmarQV",
+  "date": "2026-09-27T07:38:30Z",
+  "message": "feat: doc",
+  "parents": 0,
+  "files": [
+   {
+    "f": ".env.example",
+    "a": 2,
+    "d": 0
+   },
+   {
+    "f": ".gitignore",
+    "a": 26,
+    "d": 0
+   },
+   {
+    "f": "README.md",
+    "a": 99,
+    "d": 0
+   },
+   {
+    "f": "eslint.config.mjs",
+    "a": 11,
+    "d": 0
+   },
+   {
+    "f": "next.config.ts",
+    "a": 10,
+    "d": 0
+   },
+   {
+    "f": "package.json",
+    "a": 27,
+    "d": 0
+   },
+   {
+    "f": "pnpm-lock.yaml",
+    "a": 4319,
+    "d": 0
+   },
+   {
+    "f": "postcss.config.mjs",
+    "a": 7,
+    "d": 0
+   },
+   {
+    "f": "public/assets/apple-touch-icon.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/assets/favicon-32.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/assets/og-image.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/assets/tilcai-face-64.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/assets/tilcai-logo.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/assets/tilcai-logo@2x.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "qa-screenshots/desktop-1440-docs-en.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "qa-screenshots/desktop-1440-en.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "qa-screenshots/mobile-375-es.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "src/app/[lang]/docs/page.tsx",
+    "a": 27,
+    "d": 0
+   },
+   {
+    "f": "src/app/[lang]/layout.tsx",
+    "a": 55,
+    "d": 0
+   },
+   {
+    "f": "src/app/[lang]/not-found.tsx",
+    "a": 22,
+    "d": 0
+   },
+   {
+    "f": "src/app/[lang]/page.tsx",
+    "a": 27,
+    "d": 0
+   },
+   {
+    "f": "src/app/globals.css",
+    "a": 416,
+    "d": 0
+   },
+   {
+    "f": "src/components/CodeTabs.tsx",
+    "a": 77,
+    "d": 0
+   },
+   {
+    "f": "src/components/DocsPage.tsx",
+    "a": 46,
+    "d": 0
+   },
+   {
+    "f": "src/components/DocsToc.tsx",
+    "a": 52,
+    "d": 0
+   },
+   {
+    "f": "src/components/HomePage.tsx",
+    "a": 315,
+    "d": 0
+   },
+   {
+    "f": "src/components/Icon.tsx",
+    "a": 88,
+    "d": 0
+   },
+   {
+    "f": "src/components/PageShell.tsx",
+    "a": 19,
+    "d": 0
+   },
+   {
+    "f": "src/components/RevealObserver.tsx",
+    "a": 33,
+    "d": 0
+   },
+   {
+    "f": "src/components/SiteFooter.tsx",
+    "a": 29,
+    "d": 0
+   },
+   {
+    "f": "src/components/SiteHeader.tsx",
+    "a": 103,
+    "d": 0
+   },
+   {
+    "f": "src/lib/highlight.ts",
+    "a": 62,
+    "d": 0
+   },
+   {
+    "f": "src/lib/i18n/docs.en.ts",
+    "a": 172,
+    "d": 0
+   },
+   {
+    "f": "src/lib/i18n/docs.es.ts",
+    "a": 174,
+    "d": 0
+   },
+   {
+    "f": "src/lib/i18n/en.ts",
+    "a": 257,
+    "d": 0
+   },
+   {
+    "f": "src/lib/i18n/es.ts",
+    "a": 257,
+    "d": 0
+   },
+   {
+    "f": "src/lib/i18n/index.ts",
+    "a": 18,
+    "d": 0
+   },
+   {
+    "f": "src/lib/i18n/types.ts",
+    "a": 99,
+    "d": 0
+   },
+   {
+    "f": "src/lib/metadata.ts",
+    "a": 34,
+    "d": 0
+   },
+   {
+    "f": "src/lib/site.ts",
+    "a": 12,
+    "d": 0
+   },
+   {
+    "f": "src/lib/snippets.ts",
+    "a": 68,
+    "d": 0
+   },
+   {
+    "f": "tsconfig.json",
+    "a": 41,
+    "d": 0
+   }
+  ]
  }
 }

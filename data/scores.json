@@ -1,5 +1,5 @@
 {
- "generado": "2026-10-02T03:11:30+00:00",
+ "generado": "2026-10-02T03:12:07+00:00",
  "programa": "Stellar Elite",
  "start_date": "2026-09-02T00:00:00Z",
  "teams": [
@@ -74,6 +74,24 @@
    "rank": 4
   },
   {
+   "name": "TilcAI",
+   "total": 144.03,
+   "per_capita": 48.01,
+   "commits": 20,
+   "pts_commits": 120.03,
+   "dias_activos": 3,
+   "contribuidores": [
+    "JHAMILCALI",
+    "OmarQV",
+    "SaulChoque"
+   ],
+   "tamano": 3,
+   "repos": [
+    "TilcAI/tilcai-web"
+   ],
+   "rank": 5
+  },
+  {
    "name": "NodeXchange",
    "total": 125.36,
    "per_capita": 125.36,
@@ -87,7 +105,7 @@
    "repos": [
     "RomerTamayo/stellar-build"
    ],
-   "rank": 5
+   "rank": 6
   },
   {
    "name": "BOLAR",
@@ -104,7 +122,7 @@
    "repos": [
     "bolarpay/bolar-app"
    ],
-   "rank": 6
+   "rank": 7
   },
   {
    "name": "BolivianPets",
@@ -120,7 +138,7 @@
    "repos": [
     "GuidoSV7/stellar-build"
    ],
-   "rank": 7
+   "rank": 8
   },
   {
    "name": "MinerTrace",
@@ -136,7 +154,7 @@
    "repos": [
     "Dante1128/MinerTracer"
    ],
-   "rank": 8
+   "rank": 9
   },
   {
    "name": "DrinksOnChain",
@@ -152,7 +170,7 @@
    "repos": [
     "DAVV422/drinks-on-chain-public"
    ],
-   "rank": 9
+   "rank": 10
   },
   {
    "name": "CompraGasolinaBidon",
@@ -168,7 +186,7 @@
    "repos": [
     "jjvos19/stellar-build"
    ],
-   "rank": 10
+   "rank": 11
   },
   {
    "name": "Agentx402",
@@ -184,7 +202,7 @@
    "repos": [
     "ZequerVirus/Stellar-P1"
    ],
-   "rank": 11
+   "rank": 12
   },
   {
    "name": "GatoPago",
@@ -198,7 +216,7 @@
    "repos": [
     "danelerr/parmelia-links"
    ],
-   "rank": 12
+   "rank": 13
   },
   {
    "name": "Veridia",
@@ -212,7 +230,7 @@
    "repos": [
     "sphinxar/veridia"
    ],
-   "rank": 13
+   "rank": 14
   },
   {
    "name": "Stellar Programmable Financial Agreements",
@@ -226,7 +244,7 @@
    "repos": [
     "xXCrIs7xDXx/Stellar-Programmable-Financial-Agreements"
    ],
-   "rank": 14
+   "rank": 15
   },
   {
    "name": "StellarFlow",
@@ -238,7 +256,7 @@
    "contribuidores": [],
    "tamano": 1,
    "repos": [],
-   "rank": 15
+   "rank": 16
   },
   {
    "name": "WAVO",
@@ -252,7 +270,7 @@
    "repos": [
     "fchambi/Stellar_Proyecto"
    ],
-   "rank": 16
+   "rank": 17
   }
  ],
  "serie": {
@@ -322,6 +340,11 @@
   },
   "MinerTrace": {
    "2026-09-28": 10.97
+  },
+  "TilcAI": {
+   "2026-09-27": 23.66,
+   "2026-09-30": 72.42999999999999,
+   "2026-10-01": 23.939999999999998
   }
  },
  "serie_commits": {
@@ -391,6 +414,11 @@
   },
   "MinerTrace": {
    "2026-09-28": 3
+  },
+  "TilcAI": {
+   "2026-09-27": 3,
+   "2026-09-30": 11,
+   "2026-10-01": 6
   }
  },
  "commits": [
@@ -585,6 +613,66 @@
    "nota": ""
   },
   {
+   "sha": "55d37e1",
+   "team": "TilcAI",
+   "repo": "TilcAI/tilcai-web",
+   "author": "OmarQV",
+   "date": "2026-10-01T04:02:14Z",
+   "msg": "Merge pull request #12 from TilcAI/feat/web-roadmap-docs",
+   "pts": 0.0,
+   "nota": "merge"
+  },
+  {
+   "sha": "9818e09",
+   "team": "TilcAI",
+   "repo": "TilcAI/tilcai-web",
+   "author": "OmarQV",
+   "date": "2026-10-01T03:58:48Z",
+   "msg": "Merge branch 'main' into feat/web-roadmap-docs",
+   "pts": 0.0,
+   "nota": "merge"
+  },
+  {
+   "sha": "d6064e9",
+   "team": "TilcAI",
+   "repo": "TilcAI/tilcai-web",
+   "author": "OmarQV",
+   "date": "2026-10-01T03:10:50Z",
+   "msg": "merge(web): integrate main preserving compact redesign",
+   "pts": 0.0,
+   "nota": "merge"
+  },
+  {
+   "sha": "1a8bb0e",
+   "team": "TilcAI",
+   "repo": "TilcAI/tilcai-web",
+   "author": "OmarQV",
+   "date": "2026-10-01T02:58:13Z",
+   "msg": "docs(web): record visual structure and redesign validation",
+   "pts": 8.69,
+   "nota": ""
+  },
+  {
+   "sha": "dbff798",
+   "team": "TilcAI",
+   "repo": "TilcAI/tilcai-web",
+   "author": "OmarQV",
+   "date": "2026-10-01T02:57:54Z",
+   "msg": "feat(web): compact landing with holographic scenes and agent drawer",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "efb9163",
+   "team": "TilcAI",
+   "repo": "TilcAI/tilcai-web",
+   "author": "OmarQV",
+   "date": "2026-10-01T02:56:03Z",
+   "msg": "feat(web): add mascot assets and bilingual carousel copy",
+   "pts": 5.25,
+   "nota": ""
+  },
+  {
    "sha": "4003a14",
    "team": "NodeXchange",
    "repo": "RomerTamayo/stellar-build",
@@ -605,6 +693,26 @@
    "nota": ""
   },
   {
+   "sha": "83f92f5",
+   "team": "TilcAI",
+   "repo": "TilcAI/tilcai-web",
+   "author": "SaulChoque",
+   "date": "2026-09-30T23:27:07Z",
+   "msg": "docs(web): fix README structure after moving RoadmapSection into sections",
+   "pts": 3.32,
+   "nota": ""
+  },
+  {
+   "sha": "478e41e",
+   "team": "TilcAI",
+   "repo": "TilcAI/tilcai-web",
+   "author": "SaulChoque",
+   "date": "2026-09-30T23:23:17Z",
+   "msg": "feat(web): add build-status roadmap and update docs to the new direction",
+   "pts": 10,
+   "nota": ""
+  },
+  {
    "sha": "d60b579",
    "team": "NodeXchange",
    "repo": "RomerTamayo/stellar-build",
@@ -613,6 +721,26 @@
    "msg": "Add core protocol and Supabase node",
    "pts": 10,
    "nota": ""
+  },
+  {
+   "sha": "c93cc45",
+   "team": "TilcAI",
+   "repo": "TilcAI/tilcai-web",
+   "author": "JHAMILCALI",
+   "date": "2026-09-30T23:10:52Z",
+   "msg": "Merge pull request #11 from TilcAI/feat/page-jhamil",
+   "pts": 0.0,
+   "nota": "merge"
+  },
+  {
+   "sha": "d7cf6ba",
+   "team": "TilcAI",
+   "repo": "TilcAI/tilcai-web",
+   "author": "JHAMILCALI",
+   "date": "2026-09-30T23:07:35Z",
+   "msg": "Merge branch 'main' of github.com:TilcAI/tilcai-web into feat/page-jhamil",
+   "pts": 0.0,
+   "nota": "merge"
   },
   {
    "sha": "07ef61f",
@@ -655,6 +783,46 @@
    "nota": "merge"
   },
   {
+   "sha": "e138678",
+   "team": "TilcAI",
+   "repo": "TilcAI/tilcai-web",
+   "author": "JHAMILCALI",
+   "date": "2026-09-30T20:54:13Z",
+   "msg": "feat: add new icons and sections for capabilities, comparison, and product overview",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "c1b01d4",
+   "team": "TilcAI",
+   "repo": "TilcAI/tilcai-web",
+   "author": "OmarQV",
+   "date": "2026-09-30T18:40:51Z",
+   "msg": "docs(web): record assistant catalog validation and prerequisites",
+   "pts": 6.88,
+   "nota": ""
+  },
+  {
+   "sha": "fa3f004",
+   "team": "TilcAI",
+   "repo": "TilcAI/tilcai-web",
+   "author": "OmarQV",
+   "date": "2026-09-30T18:40:24Z",
+   "msg": "feat(web): add bilingual assistant cards and guide panel",
+   "pts": 9.15,
+   "nota": ""
+  },
+  {
+   "sha": "1478f6e",
+   "team": "TilcAI",
+   "repo": "TilcAI/tilcai-web",
+   "author": "OmarQV",
+   "date": "2026-09-30T18:39:59Z",
+   "msg": "feat(web): add typed assistant catalog and official references",
+   "pts": 9.02,
+   "nota": ""
+  },
+  {
    "sha": "7bbf262",
    "team": "Tinkazo",
    "repo": "nema1502/tinkazo",
@@ -682,6 +850,36 @@
    "date": "2026-09-30T17:25:43Z",
    "msg": "feat(sim): ordenes de escuadra y rival automatico en entrenamiento",
    "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "999c4aa",
+   "team": "TilcAI",
+   "repo": "TilcAI/tilcai-web",
+   "author": "OmarQV",
+   "date": "2026-09-30T17:22:56Z",
+   "msg": "fix(web): preserve progressive enhancement across language routes",
+   "pts": 6.29,
+   "nota": ""
+  },
+  {
+   "sha": "b99f4f3",
+   "team": "TilcAI",
+   "repo": "TilcAI/tilcai-web",
+   "author": "OmarQV",
+   "date": "2026-09-30T17:19:40Z",
+   "msg": "feat(web): align typed ES EN copy with agent commerce",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "b75af81",
+   "team": "TilcAI",
+   "repo": "TilcAI/tilcai-web",
+   "author": "OmarQV",
+   "date": "2026-09-30T16:53:35Z",
+   "msg": "docs(web): add bilingual messaging map",
+   "pts": 7.77,
    "nota": ""
   },
   {
@@ -1261,6 +1459,36 @@
    "author": "nema1502",
    "date": "2026-09-27T13:47:58Z",
    "msg": "La carrera en PixiJS y GSAP, como prototipo",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "557a387",
+   "team": "TilcAI",
+   "repo": "TilcAI/tilcai-web",
+   "author": "OmarQV",
+   "date": "2026-09-27T08:27:53Z",
+   "msg": "feat: demo",
+   "pts": 7.75,
+   "nota": ""
+  },
+  {
+   "sha": "dfd467a",
+   "team": "TilcAI",
+   "repo": "TilcAI/tilcai-web",
+   "author": "OmarQV",
+   "date": "2026-09-27T07:46:33Z",
+   "msg": "fix: ignore empty NEXT_PUBLIC_SITE_URL when building metadata",
+   "pts": 5.91,
+   "nota": ""
+  },
+  {
+   "sha": "89c6a0f",
+   "team": "TilcAI",
+   "repo": "TilcAI/tilcai-web",
+   "author": "OmarQV",
+   "date": "2026-09-27T07:38:30Z",
+   "msg": "feat: doc",
    "pts": 10,
    "nota": ""
   },
