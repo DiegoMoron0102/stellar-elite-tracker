@@ -33971,5 +33971,710 @@
     "d": 25
    }
   ]
+ },
+ "4c5bb9c67551cbab74fcadeb92c74c413486d172": {
+  "team": "Impulso Stellar",
+  "repo": "orlando-vazquez-career/stellar-impulse",
+  "author": "Ismaelolazo",
+  "date": "2026-10-02T03:07:12Z",
+  "message": "Merge pull request #14 from orlando-vazquez-career/feat/jugable-vs-ia",
+  "parents": 2,
+  "files": [
+   {
+    "f": "README.md",
+    "a": 0,
+    "d": 2
+   },
+   {
+    "f": "apps/server/src/training-room.ts",
+    "a": 9,
+    "d": 5
+   },
+   {
+    "f": "apps/web/public/audio/LEEME.md",
+    "a": 59,
+    "d": 0
+   },
+   {
+    "f": "apps/web/public/audio/manifest.json",
+    "a": 45,
+    "d": 0
+   },
+   {
+    "f": "apps/web/public/audio/music/.gitkeep",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "apps/web/public/audio/sfx/.gitkeep",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "apps/web/public/audio/voice/en/.gitkeep",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "apps/web/public/audio/voice/es/.gitkeep",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/mecanicas/CommandCard.tsx",
+    "a": 0,
+    "d": 18
+   },
+   {
+    "f": "apps/web/src/mecanicas/selection.test.ts",
+    "a": 0,
+    "d": 40
+   },
+   {
+    "f": "apps/web/src/mecanicas/selection.ts",
+    "a": 0,
+    "d": 54
+   },
+   {
+    "f": "apps/web/src/visual/VisualPrototypeApp.tsx",
+    "a": 24,
+    "d": 4
+   },
+   {
+    "f": "apps/web/src/visual/game/GameplayScreen.tsx",
+    "a": 65,
+    "d": 5
+   },
+   {
+    "f": "apps/web/src/visual/game/Hud.tsx",
+    "a": 74,
+    "d": 17
+   },
+   {
+    "f": "apps/web/src/visual/game/audio.test.ts",
+    "a": 14,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/visual/game/audio.ts",
+    "a": 255,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/visual/game/mock-adapter.ts",
+    "a": 6,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/visual/game/model.ts",
+    "a": 38,
+    "d": 1
+   },
+   {
+    "f": "apps/web/src/visual/game/phaser/BattlefieldScene.ts",
+    "a": 0,
+    "d": 1
+   },
+   {
+    "f": "apps/web/src/visual/game/phaser/MainScene.ts",
+    "a": 124,
+    "d": 22
+   },
+   {
+    "f": "apps/web/src/visual/game/phaser/OrthographicBattlefieldScene.ts",
+    "a": 0,
+    "d": 354
+   },
+   {
+    "f": "apps/web/src/visual/game/phaser/PhaserBattlefield.tsx",
+    "a": 3,
+    "d": 2
+   },
+   {
+    "f": "apps/web/src/visual/game/phaser/assets/battlefield.json",
+    "a": 0,
+    "d": 9261
+   },
+   {
+    "f": "apps/web/src/visual/game/phaser/assets/battlefield.test.ts",
+    "a": 0,
+    "d": 15
+   },
+   {
+    "f": "apps/web/src/visual/game/server-adapter.test.ts",
+    "a": 53,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/visual/game/server-adapter.ts",
+    "a": 347,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/visual/lobby/PreparationLobby.tsx",
+    "a": 18,
+    "d": 2
+   },
+   {
+    "f": "apps/web/src/visual/lobby/lobby.css",
+    "a": 9,
+    "d": 1
+   },
+   {
+    "f": "apps/web/src/visual/music.ts",
+    "a": 195,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/visual/visual.css",
+    "a": 28,
+    "d": 1
+   },
+   {
+    "f": "packages/input/src/index.ts",
+    "a": 15,
+    "d": 3
+   },
+   {
+    "f": "packages/render-2d/package.json",
+    "a": 0,
+    "d": 13
+   },
+   {
+    "f": "packages/render-2d/src/index.ts",
+    "a": 0,
+    "d": 141
+   },
+   {
+    "f": "packages/render-2d/tsconfig.json",
+    "a": 0,
+    "d": 6
+   },
+   {
+    "f": "packages/sim/src/economia.test.ts",
+    "a": 128,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/economia.ts",
+    "a": 42,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/index.ts",
+    "a": 157,
+    "d": 18
+   },
+   {
+    "f": "packages/sim/src/inteligencia-enemiga/estrategia.ts",
+    "a": 98,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/mapas/sector-01.test.ts",
+    "a": 9,
+    "d": 4
+   },
+   {
+    "f": "packages/sim/src/maps/mechanics.ts",
+    "a": 14,
+    "d": 4
+   },
+   {
+    "f": "packages/state/src/index.ts",
+    "a": 4,
+    "d": 1
+   },
+   {
+    "f": "packages/ui/package.json",
+    "a": 0,
+    "d": 13
+   },
+   {
+    "f": "packages/ui/src/index.tsx",
+    "a": 0,
+    "d": 5
+   },
+   {
+    "f": "packages/ui/tsconfig.json",
+    "a": 0,
+    "d": 6
+   },
+   {
+    "f": "pnpm-lock.yaml",
+    "a": 0,
+    "d": 12
+   },
+   {
+    "f": "tests/e2e/match.spec.ts",
+    "a": 53,
+    "d": 0
+   },
+   {
+    "f": "tests/e2e/visual.spec.ts",
+    "a": 21,
+    "d": 14
+   }
+  ]
+ },
+ "f3c8559f04b510fa64c096d47a6e227eeef156b5": {
+  "team": "Impulso Stellar",
+  "repo": "orlando-vazquez-career/stellar-impulse",
+  "author": "Hans3010",
+  "date": "2026-10-02T01:47:43Z",
+  "message": "feat(web): doble clic selecciona todas las naves de la misma clase en pantalla",
+  "parents": 1,
+  "files": [
+   {
+    "f": "apps/web/src/visual/game/phaser/MainScene.ts",
+    "a": 29,
+    "d": 1
+   },
+   {
+    "f": "tests/e2e/match.spec.ts",
+    "a": 34,
+    "d": 0
+   }
+  ]
+ },
+ "0c885a74cdc8f6e013ab7f421ef3da28f3daac34": {
+  "team": "Impulso Stellar",
+  "repo": "orlando-vazquez-career/stellar-impulse",
+  "author": "Hans3010",
+  "date": "2026-10-02T01:38:09Z",
+  "message": "fix: recuadro de selección bajo zoom y velocidades más lentas",
+  "parents": 1,
+  "files": [
+   {
+    "f": "apps/web/src/visual/game/phaser/MainScene.ts",
+    "a": 14,
+    "d": 6
+   },
+   {
+    "f": "packages/sim/src/index.ts",
+    "a": 3,
+    "d": 2
+   }
+  ]
+ },
+ "ae11734c7f9a30737d1b8d757d0d82528d3687d6": {
+  "team": "Impulso Stellar",
+  "repo": "orlando-vazquez-career/stellar-impulse",
+  "author": "Hans3010",
+  "date": "2026-10-02T01:29:54Z",
+  "message": "feat: guardianes agresivos, inicio con dos naves, niebla y minimapa isométrico",
+  "parents": 1,
+  "files": [
+   {
+    "f": "apps/web/src/visual/game/Hud.tsx",
+    "a": 39,
+    "d": 17
+   },
+   {
+    "f": "apps/web/src/visual/game/model.ts",
+    "a": 4,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/visual/game/phaser/MainScene.ts",
+    "a": 33,
+    "d": 28
+   },
+   {
+    "f": "apps/web/src/visual/visual.css",
+    "a": 3,
+    "d": 3
+   },
+   {
+    "f": "packages/sim/src/economia.test.ts",
+    "a": 25,
+    "d": 3
+   },
+   {
+    "f": "packages/sim/src/index.ts",
+    "a": 33,
+    "d": 3
+   },
+   {
+    "f": "tests/e2e/match.spec.ts",
+    "a": 3,
+    "d": 3
+   },
+   {
+    "f": "tests/e2e/visual.spec.ts",
+    "a": 10,
+    "d": 4
+   }
+  ]
+ },
+ "7a548839edc65d9cfe571fea31c287b582cbc71b": {
+  "team": "Impulso Stellar",
+  "repo": "orlando-vazquez-career/stellar-impulse",
+  "author": "Hans3010",
+  "date": "2026-10-02T01:20:23Z",
+  "message": "feat: dificultad de la IA rival (fácil, media, difícil)",
+  "parents": 1,
+  "files": [
+   {
+    "f": "apps/server/src/training-room.ts",
+    "a": 7,
+    "d": 3
+   },
+   {
+    "f": "apps/web/src/visual/VisualPrototypeApp.tsx",
+    "a": 4,
+    "d": 3
+   },
+   {
+    "f": "apps/web/src/visual/game/GameplayScreen.tsx",
+    "a": 5,
+    "d": 4
+   },
+   {
+    "f": "apps/web/src/visual/game/server-adapter.ts",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "apps/web/src/visual/lobby/PreparationLobby.tsx",
+    "a": 18,
+    "d": 2
+   },
+   {
+    "f": "apps/web/src/visual/lobby/lobby.css",
+    "a": 9,
+    "d": 1
+   },
+   {
+    "f": "packages/sim/src/economia.test.ts",
+    "a": 29,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/index.ts",
+    "a": 10,
+    "d": 8
+   },
+   {
+    "f": "packages/sim/src/inteligencia-enemiga/estrategia.ts",
+    "a": 64,
+    "d": 13
+   }
+  ]
+ },
+ "0231088fafd70dd72232aa118ca8c876f487f9ec": {
+  "team": "Impulso Stellar",
+  "repo": "orlando-vazquez-career/stellar-impulse",
+  "author": "Hans3010",
+  "date": "2026-10-02T01:11:53Z",
+  "message": "feat(web): música de fondo generada para menú y partida",
+  "parents": 1,
+  "files": [
+   {
+    "f": "apps/web/public/audio/LEEME.md",
+    "a": 10,
+    "d": 0
+   },
+   {
+    "f": "apps/web/public/audio/manifest.json",
+    "a": 4,
+    "d": 0
+   },
+   {
+    "f": "apps/web/public/audio/music/.gitkeep",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/visual/VisualPrototypeApp.tsx",
+    "a": 20,
+    "d": 1
+   },
+   {
+    "f": "apps/web/src/visual/game/audio.test.ts",
+    "a": 2,
+    "d": 1
+   },
+   {
+    "f": "apps/web/src/visual/music.ts",
+    "a": 195,
+    "d": 0
+   }
+  ]
+ },
+ "1a3d77d62b8bc664e0378abe74bccbb87c75dd3f": {
+  "team": "Impulso Stellar",
+  "repo": "orlando-vazquez-career/stellar-impulse",
+  "author": "Hans3010",
+  "date": "2026-10-02T01:06:29Z",
+  "message": "feat(web): espacios para audios grabados con respaldo sintetizado",
+  "parents": 1,
+  "files": [
+   {
+    "f": "apps/web/public/audio/LEEME.md",
+    "a": 49,
+    "d": 0
+   },
+   {
+    "f": "apps/web/public/audio/manifest.json",
+    "a": 41,
+    "d": 0
+   },
+   {
+    "f": "apps/web/public/audio/sfx/.gitkeep",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "apps/web/public/audio/voice/en/.gitkeep",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "apps/web/public/audio/voice/es/.gitkeep",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/visual/game/audio.test.ts",
+    "a": 13,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/visual/game/audio.ts",
+    "a": 146,
+    "d": 70
+   }
+  ]
+ },
+ "375acda715edda0addc03d5fe5e71d4ba97cb440": {
+  "team": "Impulso Stellar",
+  "repo": "orlando-vazquez-career/stellar-impulse",
+  "author": "Hans3010",
+  "date": "2026-10-02T01:04:26Z",
+  "message": "feat(web): sonidos, anuncios de fase y niebla de guerra visual",
+  "parents": 1,
+  "files": [
+   {
+    "f": "apps/web/src/visual/game/GameplayScreen.tsx",
+    "a": 21,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/visual/game/audio.ts",
+    "a": 179,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/visual/game/mock-adapter.ts",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/visual/game/model.ts",
+    "a": 10,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/visual/game/phaser/MainScene.ts",
+    "a": 28,
+    "d": 1
+   },
+   {
+    "f": "apps/web/src/visual/game/server-adapter.test.ts",
+    "a": 53,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/visual/game/server-adapter.ts",
+    "a": 63,
+    "d": 1
+   },
+   {
+    "f": "apps/web/src/visual/visual.css",
+    "a": 7,
+    "d": 0
+   }
+  ]
+ },
+ "6d5a8c9e02ffdc3cdf7b2e3d53b0d4e3825ecf47": {
+  "team": "Impulso Stellar",
+  "repo": "orlando-vazquez-career/stellar-impulse",
+  "author": "Hans3010",
+  "date": "2026-10-02T00:54:31Z",
+  "message": "feat: partida jugable contra la IA en el sector 01",
+  "parents": 1,
+  "files": [
+   {
+    "f": "README.md",
+    "a": 0,
+    "d": 2
+   },
+   {
+    "f": "apps/server/src/training-room.ts",
+    "a": 4,
+    "d": 4
+   },
+   {
+    "f": "apps/web/src/mecanicas/CommandCard.tsx",
+    "a": 0,
+    "d": 18
+   },
+   {
+    "f": "apps/web/src/mecanicas/selection.test.ts",
+    "a": 0,
+    "d": 40
+   },
+   {
+    "f": "apps/web/src/mecanicas/selection.ts",
+    "a": 0,
+    "d": 54
+   },
+   {
+    "f": "apps/web/src/visual/game/GameplayScreen.tsx",
+    "a": 42,
+    "d": 4
+   },
+   {
+    "f": "apps/web/src/visual/game/Hud.tsx",
+    "a": 35,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/visual/game/mock-adapter.ts",
+    "a": 5,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/visual/game/model.ts",
+    "a": 24,
+    "d": 1
+   },
+   {
+    "f": "apps/web/src/visual/game/phaser/BattlefieldScene.ts",
+    "a": 0,
+    "d": 1
+   },
+   {
+    "f": "apps/web/src/visual/game/phaser/MainScene.ts",
+    "a": 43,
+    "d": 9
+   },
+   {
+    "f": "apps/web/src/visual/game/phaser/OrthographicBattlefieldScene.ts",
+    "a": 0,
+    "d": 354
+   },
+   {
+    "f": "apps/web/src/visual/game/phaser/PhaserBattlefield.tsx",
+    "a": 3,
+    "d": 2
+   },
+   {
+    "f": "apps/web/src/visual/game/phaser/assets/battlefield.json",
+    "a": 0,
+    "d": 9261
+   },
+   {
+    "f": "apps/web/src/visual/game/phaser/assets/battlefield.test.ts",
+    "a": 0,
+    "d": 15
+   },
+   {
+    "f": "apps/web/src/visual/game/server-adapter.ts",
+    "a": 285,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/visual/visual.css",
+    "a": 20,
+    "d": 0
+   },
+   {
+    "f": "packages/input/src/index.ts",
+    "a": 15,
+    "d": 3
+   },
+   {
+    "f": "packages/render-2d/package.json",
+    "a": 0,
+    "d": 13
+   },
+   {
+    "f": "packages/render-2d/src/index.ts",
+    "a": 0,
+    "d": 141
+   },
+   {
+    "f": "packages/render-2d/tsconfig.json",
+    "a": 0,
+    "d": 6
+   },
+   {
+    "f": "packages/sim/src/economia.test.ts",
+    "a": 77,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/economia.ts",
+    "a": 42,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/index.ts",
+    "a": 121,
+    "d": 15
+   },
+   {
+    "f": "packages/sim/src/inteligencia-enemiga/estrategia.ts",
+    "a": 47,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/mapas/sector-01.test.ts",
+    "a": 9,
+    "d": 4
+   },
+   {
+    "f": "packages/sim/src/maps/mechanics.ts",
+    "a": 14,
+    "d": 4
+   },
+   {
+    "f": "packages/state/src/index.ts",
+    "a": 4,
+    "d": 1
+   },
+   {
+    "f": "packages/ui/package.json",
+    "a": 0,
+    "d": 13
+   },
+   {
+    "f": "packages/ui/src/index.tsx",
+    "a": 0,
+    "d": 5
+   },
+   {
+    "f": "packages/ui/tsconfig.json",
+    "a": 0,
+    "d": 6
+   },
+   {
+    "f": "pnpm-lock.yaml",
+    "a": 0,
+    "d": 12
+   },
+   {
+    "f": "tests/e2e/match.spec.ts",
+    "a": 19,
+    "d": 0
+   },
+   {
+    "f": "tests/e2e/visual.spec.ts",
+    "a": 11,
+    "d": 10
+   }
+  ]
  }
 }

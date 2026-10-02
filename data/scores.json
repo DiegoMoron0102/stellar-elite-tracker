@@ -1,5 +1,5 @@
 {
- "generado": "2026-10-02T02:58:18+00:00",
+ "generado": "2026-10-02T03:11:30+00:00",
  "programa": "Stellar Elite",
  "start_date": "2026-09-02T00:00:00Z",
  "teams": [
@@ -55,11 +55,11 @@
   },
   {
    "name": "Impulso Stellar",
-   "total": 192.03,
-   "per_capita": 192.03,
-   "commits": 38,
-   "pts_commits": 142.03,
-   "dias_activos": 7,
+   "total": 264.71,
+   "per_capita": 264.71,
+   "commits": 47,
+   "pts_commits": 209.71,
+   "dias_activos": 8,
    "contribuidores": [
     "Hans3010",
     "Ismaelolazo",
@@ -311,7 +311,8 @@
    "2026-09-28": 0.0,
    "2026-09-29": 43.29,
    "2026-09-30": 40.0,
-   "2026-10-01": 1.0
+   "2026-10-01": 1.0,
+   "2026-10-02": 67.67999999999999
   },
   "BOLAR": {
    "2026-09-22": 9.25,
@@ -379,7 +380,8 @@
    "2026-09-28": 1,
    "2026-09-29": 8,
    "2026-09-30": 12,
-   "2026-10-01": 2
+   "2026-10-01": 2,
+   "2026-10-02": 9
   },
   "BOLAR": {
    "2026-09-22": 1,
@@ -392,6 +394,96 @@
   }
  },
  "commits": [
+  {
+   "sha": "4c5bb9c",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "Ismaelolazo",
+   "date": "2026-10-02T03:07:12Z",
+   "msg": "Merge pull request #14 from orlando-vazquez-career/feat/jugable-vs-ia",
+   "pts": 0.0,
+   "nota": "merge"
+  },
+  {
+   "sha": "f3c8559",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "Hans3010",
+   "date": "2026-10-02T01:47:43Z",
+   "msg": "feat(web): doble clic selecciona todas las naves de la misma clase en pantalla",
+   "pts": 7.02,
+   "nota": ""
+  },
+  {
+   "sha": "0c885a7",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "Hans3010",
+   "date": "2026-10-02T01:38:09Z",
+   "msg": "fix: recuadro de selección bajo zoom y velocidades más lentas",
+   "pts": 5.7,
+   "nota": ""
+  },
+  {
+   "sha": "ae11734",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "Hans3010",
+   "date": "2026-10-02T01:29:54Z",
+   "msg": "feat: guardianes agresivos, inicio con dos naves, niebla y minimapa isométrico",
+   "pts": 8.73,
+   "nota": ""
+  },
+  {
+   "sha": "7a54883",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "Hans3010",
+   "date": "2026-10-02T01:20:23Z",
+   "msg": "feat: dificultad de la IA rival (fácil, media, difícil)",
+   "pts": 8.53,
+   "nota": ""
+  },
+  {
+   "sha": "0231088",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "Hans3010",
+   "date": "2026-10-02T01:11:53Z",
+   "msg": "feat(web): música de fondo generada para menú y partida",
+   "pts": 8.87,
+   "nota": ""
+  },
+  {
+   "sha": "1a3d77d",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "Hans3010",
+   "date": "2026-10-02T01:06:29Z",
+   "msg": "feat(web): espacios para audios grabados con respaldo sintetizado",
+   "pts": 9.32,
+   "nota": ""
+  },
+  {
+   "sha": "375acda",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "Hans3010",
+   "date": "2026-10-02T01:04:26Z",
+   "msg": "feat(web): sonidos, anuncios de fase y niebla de guerra visual",
+   "pts": 9.51,
+   "nota": ""
+  },
+  {
+   "sha": "6d5a8c9",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "Hans3010",
+   "date": "2026-10-02T00:54:31Z",
+   "msg": "feat: partida jugable contra la IA en el sector 01",
+   "pts": 10,
+   "nota": ""
+  },
   {
    "sha": "ac81cb0",
    "team": "Impulso Stellar",
