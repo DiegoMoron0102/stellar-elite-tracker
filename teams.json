@@ -143,6 +143,17 @@
       "repos": [
         "fchambi/Stellar_Proyecto"
       ]
+    },
+    {
+      "name": "TilcAI",
+      "members": [
+        "JHAMILCALI",
+        "OmarQV",
+        "SaulChoque"
+      ],
+      "repos": [
+        "TilcAI/tilcai-web"
+      ]
     }
   ]
 }
