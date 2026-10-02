@@ -1,15 +1,15 @@
 {
- "generado": "2026-10-02T11:35:52+00:00",
+ "generado": "2026-10-02T17:03:41+00:00",
  "programa": "Stellar Elite",
  "start_date": "2026-09-02T00:00:00Z",
  "teams": [
   {
    "name": "Tinkazo",
-   "total": 841.62,
-   "per_capita": 841.62,
-   "commits": 98,
-   "pts_commits": 788.62,
-   "dias_activos": 10,
+   "total": 870.6,
+   "per_capita": 870.6,
+   "commits": 101,
+   "pts_commits": 807.6,
+   "dias_activos": 12,
    "contribuidores": [
     "nema1502"
    ],
@@ -18,6 +18,26 @@
     "nema1502/tinkazo"
    ],
    "rank": 1
+  },
+  {
+   "name": "Impulso Stellar",
+   "total": 292.58,
+   "per_capita": 292.58,
+   "commits": 53,
+   "pts_commits": 237.58,
+   "dias_activos": 8,
+   "contribuidores": [
+    "Hans3010",
+    "Ismaelolazo",
+    "degosenpai211",
+    "orlando-vazquez-career",
+    "srllamadev"
+   ],
+   "tamano": 1,
+   "repos": [
+    "orlando-vazquez-career/stellar-impulse"
+   ],
+   "rank": 2
   },
   {
    "name": "Puls3",
@@ -35,7 +55,7 @@
    "repos": [
     "Zer0-Knowledge-Hack/puls3"
    ],
-   "rank": 2
+   "rank": 3
   },
   {
    "name": "Stellar Flash",
@@ -51,39 +71,20 @@
    "repos": [
     "nadevrix/stellar-flash"
    ],
-   "rank": 3
-  },
-  {
-   "name": "Impulso Stellar",
-   "total": 264.71,
-   "per_capita": 264.71,
-   "commits": 47,
-   "pts_commits": 209.71,
-   "dias_activos": 8,
-   "contribuidores": [
-    "Hans3010",
-    "Ismaelolazo",
-    "degosenpai211",
-    "orlando-vazquez-career",
-    "srllamadev"
-   ],
-   "tamano": 1,
-   "repos": [
-    "orlando-vazquez-career/stellar-impulse"
-   ],
    "rank": 4
   },
   {
    "name": "TilcAI",
-   "total": 183.09,
-   "per_capita": 61.03,
-   "commits": 26,
-   "pts_commits": 154.09,
+   "total": 258.01,
+   "per_capita": 86.0,
+   "commits": 37,
+   "pts_commits": 226.01,
    "dias_activos": 4,
    "contribuidores": [
     "JHAMILCALI",
     "OmarQV",
-    "SaulChoque"
+    "SaulChoque",
+    "joseemen11"
    ],
    "tamano": 3,
    "repos": [
@@ -300,7 +301,9 @@
    "2026-09-27": 19.78,
    "2026-09-28": 72.91,
    "2026-09-29": 97.86999999999999,
-   "2026-09-30": 29.66
+   "2026-09-30": 29.66,
+   "2026-10-01": 4.81,
+   "2026-10-02": 14.17
   },
   "CompraGasolinaBidon": {
    "2026-09-06": 1.0
@@ -330,7 +333,7 @@
    "2026-09-29": 43.29,
    "2026-09-30": 40.0,
    "2026-10-01": 1.0,
-   "2026-10-02": 67.67999999999999
+   "2026-10-02": 95.55
   },
   "BOLAR": {
    "2026-09-22": 9.25,
@@ -344,8 +347,8 @@
   "TilcAI": {
    "2026-09-27": 23.66,
    "2026-09-30": 72.42999999999999,
-   "2026-10-01": 23.939999999999998,
-   "2026-10-02": 34.06
+   "2026-10-01": 43.809999999999995,
+   "2026-10-02": 86.11
   }
  },
  "serie_commits": {
@@ -375,7 +378,9 @@
    "2026-09-27": 2,
    "2026-09-28": 9,
    "2026-09-29": 15,
-   "2026-09-30": 4
+   "2026-09-30": 4,
+   "2026-10-01": 1,
+   "2026-10-02": 2
   },
   "CompraGasolinaBidon": {
    "2026-09-06": 1
@@ -405,7 +410,7 @@
    "2026-09-29": 8,
    "2026-09-30": 12,
    "2026-10-01": 2,
-   "2026-10-02": 9
+   "2026-10-02": 15
   },
   "BOLAR": {
    "2026-09-22": 1,
@@ -419,11 +424,141 @@
   "TilcAI": {
    "2026-09-27": 3,
    "2026-09-30": 11,
-   "2026-10-01": 6,
-   "2026-10-02": 6
+   "2026-10-01": 8,
+   "2026-10-02": 15
   }
  },
  "commits": [
+  {
+   "sha": "df5ba9d",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "orlando-vazquez-career",
+   "date": "2026-10-02T16:57:23Z",
+   "msg": "Merge pull request #16 from orlando-vazquez-career/feat/integrar-campo-ismael",
+   "pts": 0.0,
+   "nota": "merge"
+  },
+  {
+   "sha": "5921f1a",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-10-02T16:20:53Z",
+   "msg": "La fuente de los saltos de un pago, en la documentación de Stellar",
+   "pts": 4.17,
+   "nota": ""
+  },
+  {
+   "sha": "2f2edf5",
+   "team": "TilcAI",
+   "repo": "TilcAI/tilcai-web",
+   "author": "JHAMILCALI",
+   "date": "2026-10-02T16:02:00Z",
+   "msg": "feat: add decorative particle field behind hero section",
+   "pts": 9.15,
+   "nota": ""
+  },
+  {
+   "sha": "74a4589",
+   "team": "TilcAI",
+   "repo": "TilcAI/tilcai-web",
+   "author": "JHAMILCALI",
+   "date": "2026-10-02T15:56:12Z",
+   "msg": "feat: mejorar estructura de tarjetas en HeroScene",
+   "pts": 5.46,
+   "nota": ""
+  },
+  {
+   "sha": "d4daa17",
+   "team": "TilcAI",
+   "repo": "TilcAI/tilcai-web",
+   "author": "JHAMILCALI",
+   "date": "2026-10-02T15:44:58Z",
+   "msg": "Feat/web business grid (#15)",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "b37cf14",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-10-02T15:38:38Z",
+   "msg": "Lo que trajo Guido en el PR #1, auditado: la piñata, Oruro, la ruleta y la sesión",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "913cf11",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "Hans3010",
+   "date": "2026-10-02T14:38:15Z",
+   "msg": "Merge feat/visual-tiled-gameplay: campo de batalla del Sector 01 y sala battlefield",
+   "pts": 0.0,
+   "nota": "merge"
+  },
+  {
+   "sha": "a1566a7",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "Hans3010",
+   "date": "2026-10-02T14:33:16Z",
+   "msg": "Merge pull request #15 from orlando-vazquez-career/feat/auth-multiplayer-rooms",
+   "pts": 0.0,
+   "nota": "merge"
+  },
+  {
+   "sha": "2cd5fba",
+   "team": "TilcAI",
+   "repo": "TilcAI/tilcai-web",
+   "author": "JHAMILCALI",
+   "date": "2026-10-02T13:57:44Z",
+   "msg": "Merge pull request #13 from TilcAI/feat/web-control-section",
+   "pts": 0.0,
+   "nota": "merge"
+  },
+  {
+   "sha": "a6a61a3",
+   "team": "TilcAI",
+   "repo": "TilcAI/tilcai-web",
+   "author": "JHAMILCALI",
+   "date": "2026-10-02T13:54:22Z",
+   "msg": "Merge pull request #16 from TilcAI/feat/web-brand-tokens",
+   "pts": 0.0,
+   "nota": "merge"
+  },
+  {
+   "sha": "5e07a22",
+   "team": "TilcAI",
+   "repo": "TilcAI/tilcai-web",
+   "author": "JHAMILCALI",
+   "date": "2026-10-02T13:49:13Z",
+   "msg": "Merge branch 'main' into feat/web-brand-tokens",
+   "pts": 0.0,
+   "nota": "merge"
+  },
+  {
+   "sha": "cd1026e",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "orlando-vazquez-career",
+   "date": "2026-10-02T13:02:07Z",
+   "msg": "feat(server): add account login and private campaign codes",
+   "pts": 9.39,
+   "nota": ""
+  },
+  {
+   "sha": "0a85ede",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "Ismaelolazo",
+   "date": "2026-10-02T08:07:44Z",
+   "msg": "feat(demo): connect launch flow to authoritative fog",
+   "pts": 8.48,
+   "nota": ""
+  },
   {
    "sha": "a762b6c",
    "team": "TilcAI",
@@ -485,6 +620,16 @@
    "nota": ""
   },
   {
+   "sha": "d78f117",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "Ismaelolazo",
+   "date": "2026-10-02T04:50:37Z",
+   "msg": "feat(authoritative): integrate sector gameplay simulation",
+   "pts": 10,
+   "nota": ""
+  },
+  {
    "sha": "4c5bb9c",
    "team": "Impulso Stellar",
    "repo": "orlando-vazquez-career/stellar-impulse",
@@ -493,6 +638,36 @@
    "msg": "Merge pull request #14 from orlando-vazquez-career/feat/jugable-vs-ia",
    "pts": 0.0,
    "nota": "merge"
+  },
+  {
+   "sha": "3a51c53",
+   "team": "TilcAI",
+   "repo": "TilcAI/tilcai-web",
+   "author": "JHAMILCALI",
+   "date": "2026-10-02T02:26:46Z",
+   "msg": "docs(web): documentar los tokens de diseño y la exploración de marca",
+   "pts": 8.16,
+   "nota": ""
+  },
+  {
+   "sha": "bbbbe0c",
+   "team": "TilcAI",
+   "repo": "TilcAI/tilcai-web",
+   "author": "JHAMILCALI",
+   "date": "2026-10-02T02:26:45Z",
+   "msg": "feat(web): añadir tokens de diseño y componentes base",
+   "pts": 9.28,
+   "nota": ""
+  },
+  {
+   "sha": "5c2a025",
+   "team": "TilcAI",
+   "repo": "TilcAI/tilcai-web",
+   "author": "JHAMILCALI",
+   "date": "2026-10-02T02:26:45Z",
+   "msg": "feat(web): explorar las rutas A y B del isotipo Tilcayo",
+   "pts": 10,
+   "nota": ""
   },
   {
    "sha": "f3c8559",
@@ -572,6 +747,26 @@
    "date": "2026-10-02T00:54:31Z",
    "msg": "feat: partida jugable contra la IA en el sector 01",
    "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "9f84dd0",
+   "team": "TilcAI",
+   "repo": "TilcAI/tilcai-web",
+   "author": "joseemen11",
+   "date": "2026-10-01T21:33:19Z",
+   "msg": "feat: add policy demo scenarios",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "89e4945",
+   "team": "TilcAI",
+   "repo": "TilcAI/tilcai-web",
+   "author": "joseemen11",
+   "date": "2026-10-01T20:26:28Z",
+   "msg": "feat: add user control section",
+   "pts": 9.87,
    "nota": ""
   },
   {
@@ -693,6 +888,16 @@
    "msg": "Merge branch 'main' into feat/web-roadmap-docs",
    "pts": 0.0,
    "nota": "merge"
+  },
+  {
+   "sha": "061e617",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-10-01T03:15:40Z",
+   "msg": "La tribuna de la carrera suena a gente y no a soplido",
+   "pts": 4.81,
+   "nota": ""
   },
   {
    "sha": "d6064e9",

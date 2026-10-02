@@ -36571,5 +36571,1655 @@
     "d": 2
    }
   ]
+ },
+ "5921f1a06587beb369f019f4824c0dcd2eb77a87": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-02T16:20:53Z",
+  "message": "La fuente de los saltos de un pago, en la documentación de Stellar",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/games/lore.ts",
+    "a": 5,
+    "d": 3
+   }
+  ]
+ },
+ "b37cf14c4abf285e2fb0a9288544899397242a73": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-02T15:38:38Z",
+  "message": "Lo que trajo Guido en el PR #1, auditado: la piñata, Oruro, la ruleta y la sesión",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/architecture.md",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "docs/epics.md",
+    "a": 20,
+    "d": 0
+   },
+   {
+    "f": "docs/juegos/carnaval-de-oruro.md",
+    "a": 13,
+    "d": 1
+   },
+   {
+    "f": "docs/juegos/pinata.md",
+    "a": 3,
+    "d": 1
+   },
+   {
+    "f": "docs/juegos/ruleta.md",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "docs/motores.md",
+    "a": 5,
+    "d": 1
+   },
+   {
+    "f": "index.html",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "scripts/audit-rigor.mjs",
+    "a": 10,
+    "d": 1
+   },
+   {
+    "f": "src/games/engine.ts",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "src/games/overlay.ts",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "src/games/pixi/camera.ts",
+    "a": 23,
+    "d": 0
+   },
+   {
+    "f": "src/games/pixi/index.ts",
+    "a": 5,
+    "d": 1
+   },
+   {
+    "f": "src/games/pixi/oruro-tags.test.ts",
+    "a": 224,
+    "d": 0
+   },
+   {
+    "f": "src/games/pixi/oruro-tags.ts",
+    "a": 129,
+    "d": 0
+   },
+   {
+    "f": "src/games/pixi/oruro.ts",
+    "a": 147,
+    "d": 16
+   },
+   {
+    "f": "src/games/pixi/pinata-labels.test.ts",
+    "a": 135,
+    "d": 0
+   },
+   {
+    "f": "src/games/pixi/pinata-labels.ts",
+    "a": 90,
+    "d": 0
+   },
+   {
+    "f": "src/games/pixi/pinata.ts",
+    "a": 141,
+    "d": 38
+   },
+   {
+    "f": "src/games/pixi/recover.test.ts",
+    "a": 113,
+    "d": 0
+   },
+   {
+    "f": "src/games/pixi/recover.ts",
+    "a": 67,
+    "d": 0
+   },
+   {
+    "f": "src/games/pixi/stage.ts",
+    "a": 40,
+    "d": 3
+   },
+   {
+    "f": "src/games/pixi/wheel-beats.test.ts",
+    "a": 49,
+    "d": 0
+   },
+   {
+    "f": "src/games/pixi/wheel-beats.ts",
+    "a": 46,
+    "d": 0
+   },
+   {
+    "f": "src/games/pixi/wheel-camera-guard.test.ts",
+    "a": 27,
+    "d": 0
+   },
+   {
+    "f": "src/games/pixi/wheel.ts",
+    "a": 12,
+    "d": 13
+   },
+   {
+    "f": "src/games/race.ts",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "src/i18n.test.ts",
+    "a": 2,
+    "d": 0
+   },
+   {
+    "f": "src/i18n.ts",
+    "a": 10,
+    "d": 0
+   },
+   {
+    "f": "src/main.ts",
+    "a": 2,
+    "d": 1
+   },
+   {
+    "f": "src/state.test.ts",
+    "a": 86,
+    "d": 0
+   },
+   {
+    "f": "src/state.ts",
+    "a": 29,
+    "d": 0
+   },
+   {
+    "f": "src/stellar/session-store.test.ts",
+    "a": 103,
+    "d": 0
+   },
+   {
+    "f": "src/stellar/session-store.ts",
+    "a": 60,
+    "d": 0
+   },
+   {
+    "f": "src/stellar/wallet.ts",
+    "a": 40,
+    "d": 0
+   },
+   {
+    "f": "src/ui/draw.ts",
+    "a": 18,
+    "d": 2
+   },
+   {
+    "f": "src/ui/thumbs.test.ts",
+    "a": 63,
+    "d": 0
+   },
+   {
+    "f": "src/ui/thumbs.ts",
+    "a": 23,
+    "d": 3
+   },
+   {
+    "f": "src/ui/wallet-ui.ts",
+    "a": 68,
+    "d": 16
+   }
+  ]
+ },
+ "061e6171767517d7b88d44c7c28b20000112c798": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-01T03:15:40Z",
+  "message": "La tribuna de la carrera suena a gente y no a soplido",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/games/llamas/pixi-race.ts",
+    "a": 12,
+    "d": 1
+   }
+  ]
+ },
+ "df5ba9d592749ff7c93ce9ef7d6316445d188c9c": {
+  "team": "Impulso Stellar",
+  "repo": "orlando-vazquez-career/stellar-impulse",
+  "author": "orlando-vazquez-career",
+  "date": "2026-10-02T16:57:23Z",
+  "message": "Merge pull request #16 from orlando-vazquez-career/feat/integrar-campo-ismael",
+  "parents": 2,
+  "files": [
+   {
+    "f": "apps/server/src/app.ts",
+    "a": 2,
+    "d": 0
+   },
+   {
+    "f": "apps/server/src/battlefield-room.test.ts",
+    "a": 136,
+    "d": 0
+   },
+   {
+    "f": "apps/server/src/battlefield-room.ts",
+    "a": 183,
+    "d": 0
+   },
+   {
+    "f": "apps/server/src/map-catalog.ts",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "apps/server/src/training-room.ts",
+    "a": 18,
+    "d": 2
+   },
+   {
+    "f": "apps/web/package.json",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/visual/game/server-adapter.ts",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "apps/web/vite.config.ts",
+    "a": 6,
+    "d": 1
+   },
+   {
+    "f": "packages/input/src/battlefield.test.ts",
+    "a": 4,
+    "d": 0
+   },
+   {
+    "f": "packages/input/src/battlefield.ts",
+    "a": 14,
+    "d": 2
+   },
+   {
+    "f": "packages/input/src/index.test.ts",
+    "a": 5,
+    "d": 0
+   },
+   {
+    "f": "packages/input/src/index.ts",
+    "a": 8,
+    "d": 1
+   },
+   {
+    "f": "packages/sim/src/index.test.ts",
+    "a": 9,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/index.ts",
+    "a": 4,
+    "d": 1
+   },
+   {
+    "f": "packages/sim/src/maps/battlefield.test.ts",
+    "a": 11,
+    "d": 1
+   },
+   {
+    "f": "packages/sim/src/maps/battlefield.ts",
+    "a": 24,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/maps/mechanics.ts",
+    "a": 7,
+    "d": 1
+   },
+   {
+    "f": "packages/sim/src/maps/occupancy.test.ts",
+    "a": 37,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/maps/occupancy.ts",
+    "a": 25,
+    "d": 5
+   },
+   {
+    "f": "packages/sim/src/maps/pathfinding.test.ts",
+    "a": 68,
+    "d": 27
+   },
+   {
+    "f": "packages/sim/src/maps/pathfinding.ts",
+    "a": 23,
+    "d": 12
+   },
+   {
+    "f": "packages/sim/src/maps/types.ts",
+    "a": 13,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/maps/world.test.ts",
+    "a": 41,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/maps/world.ts",
+    "a": 64,
+    "d": 2
+   },
+   {
+    "f": "packages/state/src/battlefield.ts",
+    "a": 2,
+    "d": 0
+   },
+   {
+    "f": "pnpm-lock.yaml",
+    "a": 3,
+    "d": 0
+   },
+   {
+    "f": "tests/e2e/training.spec.ts",
+    "a": 24,
+    "d": 0
+   }
+  ]
+ },
+ "913cf1108bb24239898a7c43dd3f2f73f7f87f8a": {
+  "team": "Impulso Stellar",
+  "repo": "orlando-vazquez-career/stellar-impulse",
+  "author": "Hans3010",
+  "date": "2026-10-02T14:38:15Z",
+  "message": "Merge feat/visual-tiled-gameplay: campo de batalla del Sector 01 y sala battlefield",
+  "parents": 2,
+  "files": [
+   {
+    "f": "apps/server/src/app.ts",
+    "a": 2,
+    "d": 0
+   },
+   {
+    "f": "apps/server/src/battlefield-room.test.ts",
+    "a": 136,
+    "d": 0
+   },
+   {
+    "f": "apps/server/src/battlefield-room.ts",
+    "a": 183,
+    "d": 0
+   },
+   {
+    "f": "apps/server/src/map-catalog.ts",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "apps/server/src/training-room.ts",
+    "a": 18,
+    "d": 2
+   },
+   {
+    "f": "apps/web/package.json",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/visual/game/server-adapter.ts",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "apps/web/vite.config.ts",
+    "a": 6,
+    "d": 1
+   },
+   {
+    "f": "packages/input/src/battlefield.test.ts",
+    "a": 4,
+    "d": 0
+   },
+   {
+    "f": "packages/input/src/battlefield.ts",
+    "a": 14,
+    "d": 2
+   },
+   {
+    "f": "packages/input/src/index.test.ts",
+    "a": 5,
+    "d": 0
+   },
+   {
+    "f": "packages/input/src/index.ts",
+    "a": 8,
+    "d": 1
+   },
+   {
+    "f": "packages/sim/src/index.test.ts",
+    "a": 9,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/index.ts",
+    "a": 4,
+    "d": 1
+   },
+   {
+    "f": "packages/sim/src/maps/battlefield.test.ts",
+    "a": 11,
+    "d": 1
+   },
+   {
+    "f": "packages/sim/src/maps/battlefield.ts",
+    "a": 24,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/maps/mechanics.ts",
+    "a": 7,
+    "d": 1
+   },
+   {
+    "f": "packages/sim/src/maps/occupancy.test.ts",
+    "a": 37,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/maps/occupancy.ts",
+    "a": 25,
+    "d": 5
+   },
+   {
+    "f": "packages/sim/src/maps/pathfinding.test.ts",
+    "a": 68,
+    "d": 27
+   },
+   {
+    "f": "packages/sim/src/maps/pathfinding.ts",
+    "a": 23,
+    "d": 12
+   },
+   {
+    "f": "packages/sim/src/maps/types.ts",
+    "a": 13,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/maps/world.test.ts",
+    "a": 41,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/maps/world.ts",
+    "a": 64,
+    "d": 2
+   },
+   {
+    "f": "packages/state/src/battlefield.ts",
+    "a": 2,
+    "d": 0
+   },
+   {
+    "f": "pnpm-lock.yaml",
+    "a": 3,
+    "d": 0
+   },
+   {
+    "f": "tests/e2e/training.spec.ts",
+    "a": 24,
+    "d": 0
+   }
+  ]
+ },
+ "a1566a763f14838ee3fc15e4d47934b0a067164f": {
+  "team": "Impulso Stellar",
+  "repo": "orlando-vazquez-career/stellar-impulse",
+  "author": "Hans3010",
+  "date": "2026-10-02T14:33:16Z",
+  "message": "Merge pull request #15 from orlando-vazquez-career/feat/auth-multiplayer-rooms",
+  "parents": 2,
+  "files": [
+   {
+    "f": ".gitignore",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "apps/server/.env.example",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "apps/server/src/app.ts",
+    "a": 41,
+    "d": 1
+   },
+   {
+    "f": "apps/server/src/auth.test.ts",
+    "a": 97,
+    "d": 0
+   },
+   {
+    "f": "apps/server/src/auth.ts",
+    "a": 104,
+    "d": 0
+   },
+   {
+    "f": "apps/server/src/campaign-room.test.ts",
+    "a": 8,
+    "d": 1
+   },
+   {
+    "f": "apps/server/src/campaign-room.ts",
+    "a": 15,
+    "d": 2
+   },
+   {
+    "f": "apps/server/src/map-benchmark.test.ts",
+    "a": 8,
+    "d": 2
+   },
+   {
+    "f": "apps/server/src/map-e2e.test.ts",
+    "a": 8,
+    "d": 2
+   },
+   {
+    "f": "docs/auth-multiplayer.md",
+    "a": 17,
+    "d": 0
+   },
+   {
+    "f": "docs/protocol.md",
+    "a": 7,
+    "d": 3
+   },
+   {
+    "f": "packages/input/src/protocol.test.ts",
+    "a": 2,
+    "d": 0
+   },
+   {
+    "f": "packages/input/src/protocol.ts",
+    "a": 13,
+    "d": 2
+   }
+  ]
+ },
+ "cd1026e10c5b8505dc83d6f9235e224d0adc8265": {
+  "team": "Impulso Stellar",
+  "repo": "orlando-vazquez-career/stellar-impulse",
+  "author": "orlando-vazquez-career",
+  "date": "2026-10-02T13:02:07Z",
+  "message": "feat(server): add account login and private campaign codes",
+  "parents": 1,
+  "files": [
+   {
+    "f": ".gitignore",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "apps/server/.env.example",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "apps/server/src/app.ts",
+    "a": 41,
+    "d": 1
+   },
+   {
+    "f": "apps/server/src/auth.test.ts",
+    "a": 97,
+    "d": 0
+   },
+   {
+    "f": "apps/server/src/auth.ts",
+    "a": 104,
+    "d": 0
+   },
+   {
+    "f": "apps/server/src/campaign-room.test.ts",
+    "a": 8,
+    "d": 1
+   },
+   {
+    "f": "apps/server/src/campaign-room.ts",
+    "a": 15,
+    "d": 2
+   },
+   {
+    "f": "apps/server/src/map-benchmark.test.ts",
+    "a": 8,
+    "d": 2
+   },
+   {
+    "f": "apps/server/src/map-e2e.test.ts",
+    "a": 8,
+    "d": 2
+   },
+   {
+    "f": "docs/auth-multiplayer.md",
+    "a": 17,
+    "d": 0
+   },
+   {
+    "f": "docs/protocol.md",
+    "a": 7,
+    "d": 3
+   },
+   {
+    "f": "packages/input/src/protocol.test.ts",
+    "a": 2,
+    "d": 0
+   },
+   {
+    "f": "packages/input/src/protocol.ts",
+    "a": 13,
+    "d": 2
+   }
+  ]
+ },
+ "0a85edeb6b51aa37b0055cd5d7e35e6cd2918fa6": {
+  "team": "Impulso Stellar",
+  "repo": "orlando-vazquez-career/stellar-impulse",
+  "author": "Ismaelolazo",
+  "date": "2026-10-02T08:07:44Z",
+  "message": "feat(demo): connect launch flow to authoritative fog",
+  "parents": 1,
+  "files": [
+   {
+    "f": "apps/server/src/battlefield-room.test.ts",
+    "a": 46,
+    "d": 0
+   },
+   {
+    "f": "apps/server/src/battlefield-room.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "apps/web/src/visual/VisualPrototypeApp.tsx",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "apps/web/src/visual/game/model.ts",
+    "a": 9,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/visual/game/network-adapter.test.ts",
+    "a": 22,
+    "d": 1
+   },
+   {
+    "f": "apps/web/src/visual/game/network-adapter.ts",
+    "a": 57,
+    "d": 7
+   },
+   {
+    "f": "apps/web/src/visual/game/phaser/MainScene.ts",
+    "a": 10,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/visual/i18n.tsx",
+    "a": 2,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/visual/lobby/PreparationLobby.tsx",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "tests/e2e/visual.spec.ts",
+    "a": 7,
+    "d": 8
+   }
+  ]
+ },
+ "d78f117f85c661f1acc5aa702234c54937c0edb8": {
+  "team": "Impulso Stellar",
+  "repo": "orlando-vazquez-career/stellar-impulse",
+  "author": "Ismaelolazo",
+  "date": "2026-10-02T04:50:37Z",
+  "message": "feat(authoritative): integrate sector gameplay simulation",
+  "parents": 1,
+  "files": [
+   {
+    "f": "apps/server/src/app.ts",
+    "a": 2,
+    "d": 0
+   },
+   {
+    "f": "apps/server/src/battlefield-room.test.ts",
+    "a": 90,
+    "d": 0
+   },
+   {
+    "f": "apps/server/src/battlefield-room.ts",
+    "a": 183,
+    "d": 0
+   },
+   {
+    "f": "apps/server/src/map-catalog.ts",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "apps/server/src/training-room.ts",
+    "a": 18,
+    "d": 2
+   },
+   {
+    "f": "apps/web/package.json",
+    "a": 2,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/visual/VisualPrototypeApp.tsx",
+    "a": 3,
+    "d": 2
+   },
+   {
+    "f": "apps/web/src/visual/game/GameplayScreen.tsx",
+    "a": 8,
+    "d": 3
+   },
+   {
+    "f": "apps/web/src/visual/game/Hud.tsx",
+    "a": 2,
+    "d": 1
+   },
+   {
+    "f": "apps/web/src/visual/game/mock-adapter.ts",
+    "a": 12,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/visual/game/model.ts",
+    "a": 2,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/visual/game/network-adapter.test.ts",
+    "a": 48,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/visual/game/network-adapter.ts",
+    "a": 383,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/visual/game/phaser/MainScene.ts",
+    "a": 6,
+    "d": 1
+   },
+   {
+    "f": "apps/web/src/visual/lobby/PreparationLobby.tsx",
+    "a": 2,
+    "d": 1
+   },
+   {
+    "f": "apps/web/src/visual/lobby/lobby.css",
+    "a": 3,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/visual/visual.css",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "apps/web/vite.config.ts",
+    "a": 8,
+    "d": 1
+   },
+   {
+    "f": "packages/input/src/battlefield.test.ts",
+    "a": 4,
+    "d": 0
+   },
+   {
+    "f": "packages/input/src/battlefield.ts",
+    "a": 14,
+    "d": 2
+   },
+   {
+    "f": "packages/input/src/index.test.ts",
+    "a": 5,
+    "d": 0
+   },
+   {
+    "f": "packages/input/src/index.ts",
+    "a": 8,
+    "d": 1
+   },
+   {
+    "f": "packages/sim/src/index.test.ts",
+    "a": 9,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/index.ts",
+    "a": 4,
+    "d": 1
+   },
+   {
+    "f": "packages/sim/src/maps/battlefield.test.ts",
+    "a": 11,
+    "d": 1
+   },
+   {
+    "f": "packages/sim/src/maps/battlefield.ts",
+    "a": 24,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/maps/mechanics.ts",
+    "a": 6,
+    "d": 1
+   },
+   {
+    "f": "packages/sim/src/maps/occupancy.test.ts",
+    "a": 37,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/maps/occupancy.ts",
+    "a": 25,
+    "d": 5
+   },
+   {
+    "f": "packages/sim/src/maps/pathfinding.test.ts",
+    "a": 68,
+    "d": 27
+   },
+   {
+    "f": "packages/sim/src/maps/pathfinding.ts",
+    "a": 23,
+    "d": 12
+   },
+   {
+    "f": "packages/sim/src/maps/types.ts",
+    "a": 13,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/maps/world.test.ts",
+    "a": 41,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/maps/world.ts",
+    "a": 64,
+    "d": 2
+   },
+   {
+    "f": "packages/state/src/battlefield.ts",
+    "a": 2,
+    "d": 0
+   },
+   {
+    "f": "pnpm-lock.yaml",
+    "a": 6,
+    "d": 0
+   },
+   {
+    "f": "tests/e2e/training.spec.ts",
+    "a": 24,
+    "d": 0
+   },
+   {
+    "f": "tests/e2e/visual.spec.ts",
+    "a": 14,
+    "d": 0
+   }
+  ]
+ },
+ "2f2edf53d01614a8103b973542b071a553331da9": {
+  "team": "TilcAI",
+  "repo": "TilcAI/tilcai-web",
+  "author": "JHAMILCALI",
+  "date": "2026-10-02T16:02:00Z",
+  "message": "feat: add decorative particle field behind hero section",
+  "parents": 1,
+  "files": [
+   {
+    "f": "package.json",
+    "a": 4,
+    "d": 1
+   },
+   {
+    "f": "pnpm-lock.yaml",
+    "a": 251,
+    "d": 48
+   },
+   {
+    "f": "src/app/hero.css",
+    "a": 3,
+    "d": 0
+   },
+   {
+    "f": "src/components/Antigravity.tsx",
+    "a": 197,
+    "d": 0
+   },
+   {
+    "f": "src/components/sections/HeroBackdrop.tsx",
+    "a": 76,
+    "d": 0
+   },
+   {
+    "f": "src/components/sections/HeroExperience.tsx",
+    "a": 2,
+    "d": 0
+   }
+  ]
+ },
+ "74a45893ca3321f26fb284a8a9bf84e3f07dd6de": {
+  "team": "TilcAI",
+  "repo": "TilcAI/tilcai-web",
+  "author": "JHAMILCALI",
+  "date": "2026-10-02T15:56:12Z",
+  "message": "feat: mejorar estructura de tarjetas en HeroScene",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/app/hero.css",
+    "a": 6,
+    "d": 5
+   },
+   {
+    "f": "src/components/sections/HeroScene.tsx",
+    "a": 6,
+    "d": 4
+   }
+  ]
+ },
+ "d4daa17d77016783b75e9f349350aec5e56fa91c": {
+  "team": "TilcAI",
+  "repo": "TilcAI/tilcai-web",
+  "author": "JHAMILCALI",
+  "date": "2026-10-02T15:44:58Z",
+  "message": "Feat/web business grid (#15)",
+  "parents": 1,
+  "files": [
+   {
+    "f": "README.md",
+    "a": 8,
+    "d": 1
+   },
+   {
+    "f": "docs/business-inventory.md",
+    "a": 34,
+    "d": 0
+   },
+   {
+    "f": "docs/messaging-map.md",
+    "a": 3,
+    "d": 2
+   },
+   {
+    "f": "docs/qa-financial-states.md",
+    "a": 4,
+    "d": 4
+   },
+   {
+    "f": "docs/visual-structure.md",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "package.json",
+    "a": 3,
+    "d": 1
+   },
+   {
+    "f": "pnpm-lock.yaml",
+    "a": 8,
+    "d": 0
+   },
+   {
+    "f": "public/assets/hero-cat-transparent.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/assets/hero-city-transparent.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/assets/neon-cat-city.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "src/app/[lang]/business-preview/page.tsx",
+    "a": 27,
+    "d": 0
+   },
+   {
+    "f": "src/app/[lang]/layout.tsx",
+    "a": 3,
+    "d": 2
+   },
+   {
+    "f": "src/app/businesses.css",
+    "a": 36,
+    "d": 0
+   },
+   {
+    "f": "src/app/globals.css",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "src/app/hero.css",
+    "a": 192,
+    "d": 0
+   },
+   {
+    "f": "src/components/BusinessCard.tsx",
+    "a": 61,
+    "d": 0
+   },
+   {
+    "f": "src/components/BusinessGrid.tsx",
+    "a": 21,
+    "d": 0
+   },
+   {
+    "f": "src/components/HomePage.tsx",
+    "a": 4,
+    "d": 0
+   },
+   {
+    "f": "src/components/SiteHeader.tsx",
+    "a": 9,
+    "d": 4
+   },
+   {
+    "f": "src/components/office/OfficeHero.tsx",
+    "a": 10,
+    "d": 16
+   },
+   {
+    "f": "src/components/sections/BusinessesSection.tsx",
+    "a": 29,
+    "d": 0
+   },
+   {
+    "f": "src/components/sections/HeroExperience.tsx",
+    "a": 69,
+    "d": 0
+   },
+   {
+    "f": "src/components/sections/HeroScene.tsx",
+    "a": 77,
+    "d": 0
+   },
+   {
+    "f": "src/components/sections/HeroSection.tsx",
+    "a": 3,
+    "d": 3
+   },
+   {
+    "f": "src/components/sections/useHeroAnimation.ts",
+    "a": 87,
+    "d": 0
+   },
+   {
+    "f": "src/lib/content/businesses.preview.ts",
+    "a": 38,
+    "d": 0
+   },
+   {
+    "f": "src/lib/content/businesses.ts",
+    "a": 113,
+    "d": 0
+   },
+   {
+    "f": "src/lib/i18n/en.ts",
+    "a": 15,
+    "d": 4
+   },
+   {
+    "f": "src/lib/i18n/es.ts",
+    "a": 15,
+    "d": 4
+   },
+   {
+    "f": "src/lib/i18n/types.ts",
+    "a": 17,
+    "d": 1
+   },
+   {
+    "f": "test/businesses.test.ts",
+    "a": 106,
+    "d": 0
+   },
+   {
+    "f": "tsconfig.json",
+    "a": 1,
+    "d": 0
+   }
+  ]
+ },
+ "9f84dd03f9a5be15f28677f34bf01b70ec9b346e": {
+  "team": "TilcAI",
+  "repo": "TilcAI/tilcai-web",
+  "author": "joseemen11",
+  "date": "2026-10-01T21:33:19Z",
+  "message": "feat: add policy demo scenarios",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/components/PolicyDemo.module.css",
+    "a": 170,
+    "d": 0
+   },
+   {
+    "f": "src/components/PolicyDemo.tsx",
+    "a": 143,
+    "d": 20
+   },
+   {
+    "f": "src/lib/demo/scenarios.ts",
+    "a": 91,
+    "d": 0
+   },
+   {
+    "f": "src/lib/i18n/en.ts",
+    "a": 50,
+    "d": 11
+   },
+   {
+    "f": "src/lib/i18n/es.ts",
+    "a": 50,
+    "d": 11
+   },
+   {
+    "f": "src/lib/i18n/types.ts",
+    "a": 29,
+    "d": 5
+   }
+  ]
+ },
+ "2cd5fbaeb3b2acaec8aac42363f55d3276fb9d75": {
+  "team": "TilcAI",
+  "repo": "TilcAI/tilcai-web",
+  "author": "JHAMILCALI",
+  "date": "2026-10-02T13:57:44Z",
+  "message": "Merge pull request #13 from TilcAI/feat/web-control-section",
+  "parents": 2,
+  "files": [
+   {
+    "f": "src/components/HomePage.tsx",
+    "a": 2,
+    "d": 0
+   },
+   {
+    "f": "src/components/sections/ControlSection.module.css",
+    "a": 249,
+    "d": 0
+   },
+   {
+    "f": "src/components/sections/ControlSection.tsx",
+    "a": 110,
+    "d": 0
+   },
+   {
+    "f": "src/lib/i18n/en.ts",
+    "a": 35,
+    "d": 3
+   },
+   {
+    "f": "src/lib/i18n/es.ts",
+    "a": 35,
+    "d": 3
+   },
+   {
+    "f": "src/lib/i18n/types.ts",
+    "a": 28,
+    "d": 1
+   }
+  ]
+ },
+ "a6a61a3ef7fa1386b1be13e16ee1b7133d505054": {
+  "team": "TilcAI",
+  "repo": "TilcAI/tilcai-web",
+  "author": "JHAMILCALI",
+  "date": "2026-10-02T13:54:22Z",
+  "message": "Merge pull request #16 from TilcAI/feat/web-brand-tokens",
+  "parents": 2,
+  "files": [
+   {
+    "f": "docs/brand-exploration.md",
+    "a": 109,
+    "d": 0
+   },
+   {
+    "f": "docs/brand/exploration.html",
+    "a": 366,
+    "d": 0
+   },
+   {
+    "f": "docs/brand/exploration.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/brand/source/build_symbols.py",
+    "a": 96,
+    "d": 0
+   },
+   {
+    "f": "docs/brand/tilcai-symbol-a-small.svg",
+    "a": 4,
+    "d": 0
+   },
+   {
+    "f": "docs/brand/tilcai-symbol-a.svg",
+    "a": 4,
+    "d": 0
+   },
+   {
+    "f": "docs/brand/tilcai-symbol-b-small.svg",
+    "a": 4,
+    "d": 0
+   },
+   {
+    "f": "docs/brand/tilcai-symbol-b.svg",
+    "a": 4,
+    "d": 0
+   },
+   {
+    "f": "docs/design-tokens.md",
+    "a": 138,
+    "d": 0
+   },
+   {
+    "f": "scripts/check-contrast.mjs",
+    "a": 83,
+    "d": 0
+   },
+   {
+    "f": "src/app/globals.css",
+    "a": 1,
+    "d": 0
+   }
+  ]
+ },
+ "5e07a2228ac419df2652f6d9e2d1a1bc4a8d7b4d": {
+  "team": "TilcAI",
+  "repo": "TilcAI/tilcai-web",
+  "author": "JHAMILCALI",
+  "date": "2026-10-02T13:49:13Z",
+  "message": "Merge branch 'main' into feat/web-brand-tokens",
+  "parents": 2,
+  "files": [
+   {
+    "f": "README.md",
+    "a": 16,
+    "d": 20
+   },
+   {
+    "f": "docs/redesign-the-graph.md",
+    "a": 118,
+    "d": 0
+   },
+   {
+    "f": "public/brand/apple-touch-icon.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/brand/favicon-32.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/brand/icon-512.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/brand/og-image.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/brand/tilcai-logo-white.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/brand/tilcai-logo.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/brand/tilcai-logo@2x.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/brand/tilcai-mark-128.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/brand/tilcai-mark-64.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/brand/tilcai-mark-white.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "src/app/[lang]/layout.tsx",
+    "a": 11,
+    "d": 7
+   },
+   {
+    "f": "src/app/agents.css",
+    "a": 11,
+    "d": 11
+   },
+   {
+    "f": "src/app/globals.css",
+    "a": 273,
+    "d": 269
+   },
+   {
+    "f": "src/app/landing.css",
+    "a": 49,
+    "d": 81
+   },
+   {
+    "f": "src/app/office.css",
+    "a": 195,
+    "d": 0
+   },
+   {
+    "f": "src/components/CommerceScene.tsx",
+    "a": 0,
+    "d": 19
+   },
+   {
+    "f": "src/components/HomePage.tsx",
+    "a": 2,
+    "d": 0
+   },
+   {
+    "f": "src/components/Icon.tsx",
+    "a": 38,
+    "d": 0
+   },
+   {
+    "f": "src/components/SiteFooter.tsx",
+    "a": 2,
+    "d": 3
+   },
+   {
+    "f": "src/components/SiteHeader.tsx",
+    "a": 11,
+    "d": 6
+   },
+   {
+    "f": "src/components/office/OfficeHero.tsx",
+    "a": 383,
+    "d": 0
+   },
+   {
+    "f": "src/components/office/layout.ts",
+    "a": 122,
+    "d": 0
+   },
+   {
+    "f": "src/components/office/pathfinding.ts",
+    "a": 58,
+    "d": 0
+   },
+   {
+    "f": "src/components/office/render.ts",
+    "a": 564,
+    "d": 0
+   },
+   {
+    "f": "src/components/office/sim.ts",
+    "a": 601,
+    "d": 0
+   },
+   {
+    "f": "src/components/office/types.ts",
+    "a": 94,
+    "d": 0
+   },
+   {
+    "f": "src/components/sections/HeroScene.tsx",
+    "a": 0,
+    "d": 7
+   },
+   {
+    "f": "src/components/sections/HeroSection.tsx",
+    "a": 3,
+    "d": 32
+   },
+   {
+    "f": "src/components/sections/OfficeLegendSection.tsx",
+    "a": 29,
+    "d": 0
+   },
+   {
+    "f": "src/components/sections/shared.tsx",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "src/lib/i18n/en.ts",
+    "a": 2,
+    "d": 0
+   },
+   {
+    "f": "src/lib/i18n/es.ts",
+    "a": 2,
+    "d": 0
+   },
+   {
+    "f": "src/lib/i18n/office.en.ts",
+    "a": 112,
+    "d": 0
+   },
+   {
+    "f": "src/lib/i18n/office.es.ts",
+    "a": 112,
+    "d": 0
+   },
+   {
+    "f": "src/lib/i18n/types.ts",
+    "a": 30,
+    "d": 0
+   },
+   {
+    "f": "src/lib/metadata.ts",
+    "a": 2,
+    "d": 2
+   }
+  ]
+ },
+ "3a51c538cf8a65948f73c24ab29c26058eefb990": {
+  "team": "TilcAI",
+  "repo": "TilcAI/tilcai-web",
+  "author": "JHAMILCALI",
+  "date": "2026-10-02T02:26:46Z",
+  "message": "docs(web): documentar los tokens de diseño y la exploración de marca",
+  "parents": 1,
+  "files": [
+   {
+    "f": "README.md",
+    "a": 3,
+    "d": 1
+   },
+   {
+    "f": "docs/design-tokens.md",
+    "a": 138,
+    "d": 0
+   }
+  ]
+ },
+ "bbbbe0c0458b47bc57ec5130cc4a09840c8b990e": {
+  "team": "TilcAI",
+  "repo": "TilcAI/tilcai-web",
+  "author": "JHAMILCALI",
+  "date": "2026-10-02T02:26:45Z",
+  "message": "feat(web): añadir tokens de diseño y componentes base",
+  "parents": 1,
+  "files": [
+   {
+    "f": "scripts/check-contrast.mjs",
+    "a": 83,
+    "d": 0
+   },
+   {
+    "f": "src/app/[lang]/layout.tsx",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/app/agents.css",
+    "a": 5,
+    "d": 5
+   },
+   {
+    "f": "src/app/globals.css",
+    "a": 130,
+    "d": 61
+   },
+   {
+    "f": "src/app/landing.css",
+    "a": 12,
+    "d": 12
+   }
+  ]
+ },
+ "5c2a02559caf3d7f1e3cceddea45efb42853ecb6": {
+  "team": "TilcAI",
+  "repo": "TilcAI/tilcai-web",
+  "author": "JHAMILCALI",
+  "date": "2026-10-02T02:26:45Z",
+  "message": "feat(web): explorar las rutas A y B del isotipo Tilcayo",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/brand-exploration.md",
+    "a": 109,
+    "d": 0
+   },
+   {
+    "f": "docs/brand/exploration.html",
+    "a": 366,
+    "d": 0
+   },
+   {
+    "f": "docs/brand/exploration.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/brand/source/build_symbols.py",
+    "a": 96,
+    "d": 0
+   },
+   {
+    "f": "docs/brand/tilcai-symbol-a-small.svg",
+    "a": 4,
+    "d": 0
+   },
+   {
+    "f": "docs/brand/tilcai-symbol-a.svg",
+    "a": 4,
+    "d": 0
+   },
+   {
+    "f": "docs/brand/tilcai-symbol-b-small.svg",
+    "a": 4,
+    "d": 0
+   },
+   {
+    "f": "docs/brand/tilcai-symbol-b.svg",
+    "a": 4,
+    "d": 0
+   }
+  ]
+ },
+ "89e4945fcfd4d92e16b62de33c7da5f4c94c8d0f": {
+  "team": "TilcAI",
+  "repo": "TilcAI/tilcai-web",
+  "author": "joseemen11",
+  "date": "2026-10-01T20:26:28Z",
+  "message": "feat: add user control section",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/components/HomePage.tsx",
+    "a": 2,
+    "d": 0
+   },
+   {
+    "f": "src/components/sections/ControlSection.module.css",
+    "a": 249,
+    "d": 0
+   },
+   {
+    "f": "src/components/sections/ControlSection.tsx",
+    "a": 110,
+    "d": 0
+   },
+   {
+    "f": "src/lib/i18n/en.ts",
+    "a": 35,
+    "d": 3
+   },
+   {
+    "f": "src/lib/i18n/es.ts",
+    "a": 35,
+    "d": 3
+   },
+   {
+    "f": "src/lib/i18n/types.ts",
+    "a": 28,
+    "d": 1
+   }
+  ]
  }
 }
