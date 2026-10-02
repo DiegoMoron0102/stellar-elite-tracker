@@ -134,6 +134,15 @@
       "repos": [
         "bolarpay/bolar-app"
       ]
+    },
+    {
+      "name": "WAVO",
+      "members": [
+        "fchambi"
+      ],
+      "repos": [
+        "fchambi/Stellar_Proyecto"
+      ]
     }
   ]
 }

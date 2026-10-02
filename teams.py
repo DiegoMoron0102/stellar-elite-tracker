@@ -38,9 +38,8 @@ def agregar_equipo(cfg, repo, members, name=""):
     members = [m for m in members if m]
 
     if not members:
-        members = list_contributors(repo)
-        if not members:
-            raise ValueError(f"No se encontraron contribuidores en {repo}.")
+        # repos sin commits aun no tienen contribuidores: cae al dueño
+        members = list_contributors(repo) or [repo.split("/")[0]]
 
     existente = buscar_equipo_por_repo(cfg, repo)
     if existente:
