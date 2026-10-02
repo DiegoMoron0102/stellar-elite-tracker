@@ -38221,5 +38221,2095 @@
     "d": 1
    }
   ]
+ },
+ "cb4a2ebff8706c8201c15932f20f46df5ec38a5b": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-02T21:20:56Z",
+  "message": "El Sapo y ¿Quién es? entran al selector: doce juegos, para meetups de 50",
+  "parents": 1,
+  "files": [
+   {
+    "f": "README.es.md",
+    "a": 6,
+    "d": 4
+   },
+   {
+    "f": "README.md",
+    "a": 6,
+    "d": 4
+   },
+   {
+    "f": "docs/amenazas.md",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "docs/architecture.md",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "docs/epics.md",
+    "a": 46,
+    "d": 0
+   },
+   {
+    "f": "docs/juegos.md",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "docs/juegos/quien-es.md",
+    "a": 5,
+    "d": 3
+   },
+   {
+    "f": "docs/juegos/sapo.md",
+    "a": 10,
+    "d": 8
+   },
+   {
+    "f": "docs/marca.md",
+    "a": 4,
+    "d": 2
+   },
+   {
+    "f": "index.html",
+    "a": 4,
+    "d": 4
+   },
+   {
+    "f": "juegos.html",
+    "a": 21,
+    "d": 1
+   },
+   {
+    "f": "public/juegos/quien-light.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/quien.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/sapo-light.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/sapo.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "src/avatar.ts",
+    "a": 5,
+    "d": 0
+   },
+   {
+    "f": "src/games/pixi/quien-plan.test.ts",
+    "a": 19,
+    "d": 4
+   },
+   {
+    "f": "src/games/pixi/quien-plan.ts",
+    "a": 17,
+    "d": 0
+   },
+   {
+    "f": "src/games/pixi/quien.ts",
+    "a": 73,
+    "d": 49
+   },
+   {
+    "f": "src/games/pixi/sapo-plan.ts",
+    "a": 6,
+    "d": 3
+   },
+   {
+    "f": "src/games/pixi/sapo.ts",
+    "a": 234,
+    "d": 62
+   },
+   {
+    "f": "src/games/pixi/stage.ts",
+    "a": 4,
+    "d": 3
+   },
+   {
+    "f": "src/i18n.test.ts",
+    "a": 11,
+    "d": 2
+   },
+   {
+    "f": "src/i18n.ts",
+    "a": 33,
+    "d": 28
+   },
+   {
+    "f": "src/styles.css",
+    "a": 6,
+    "d": 3
+   },
+   {
+    "f": "src/ui/thumbs.ts",
+    "a": 27,
+    "d": 11
+   }
+  ]
+ },
+ "2ad3e4a7b84baa17bcc50d142a47d7b55870df92": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-02T16:40:58Z",
+  "message": "Sapo con clasificatoria y ¿Quién es?, antes de los arreglos del evaluador",
+  "parents": 1,
+  "files": [
+   {
+    "f": "README.md",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "docs/juegos.md",
+    "a": 3,
+    "d": 1
+   },
+   {
+    "f": "docs/juegos/quien-es.md",
+    "a": 49,
+    "d": 0
+   },
+   {
+    "f": "docs/juegos/sapo.md",
+    "a": 50,
+    "d": 0
+   },
+   {
+    "f": "index.html",
+    "a": 2,
+    "d": 0
+   },
+   {
+    "f": "scripts/audit-emocion.mjs",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "scripts/audit-rigor.mjs",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "scripts/audit-sound.mjs",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/games/pixi/index.ts",
+    "a": 2,
+    "d": 0
+   },
+   {
+    "f": "src/games/pixi/qualifier.test.ts",
+    "a": 73,
+    "d": 0
+   },
+   {
+    "f": "src/games/pixi/qualifier.ts",
+    "a": 71,
+    "d": 0
+   },
+   {
+    "f": "src/games/pixi/quien-plan.test.ts",
+    "a": 76,
+    "d": 0
+   },
+   {
+    "f": "src/games/pixi/quien-plan.ts",
+    "a": 114,
+    "d": 0
+   },
+   {
+    "f": "src/games/pixi/quien.ts",
+    "a": 534,
+    "d": 0
+   },
+   {
+    "f": "src/games/pixi/sapo-plan.test.ts",
+    "a": 248,
+    "d": 0
+   },
+   {
+    "f": "src/games/pixi/sapo-plan.ts",
+    "a": 246,
+    "d": 0
+   },
+   {
+    "f": "src/games/pixi/sapo.ts",
+    "a": 708,
+    "d": 0
+   },
+   {
+    "f": "src/games/pixi/slots.test.ts",
+    "a": 37,
+    "d": 0
+   },
+   {
+    "f": "src/games/pixi/slots.ts",
+    "a": 33,
+    "d": 0
+   },
+   {
+    "f": "src/i18n.test.ts",
+    "a": 10,
+    "d": 0
+   },
+   {
+    "f": "src/i18n.ts",
+    "a": 93,
+    "d": 0
+   },
+   {
+    "f": "src/main.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/state.test.ts",
+    "a": 4,
+    "d": 0
+   },
+   {
+    "f": "src/state.ts",
+    "a": 15,
+    "d": 5
+   },
+   {
+    "f": "src/ui/freeze.ts",
+    "a": 2,
+    "d": 0
+   },
+   {
+    "f": "src/ui/thumbs.ts",
+    "a": 80,
+    "d": 0
+   }
+  ]
+ },
+ "c4b29ec8545e26de177964e18f117b69586b72fd": {
+  "team": "Impulso Stellar",
+  "repo": "orlando-vazquez-career/stellar-impulse",
+  "author": "Ismaelolazo",
+  "date": "2026-10-02T20:31:33Z",
+  "message": "Merge pull request #22 from orlando-vazquez-career/feat/integrar-login-yamil",
+  "parents": 2,
+  "files": [
+   {
+    "f": "apps/web/package.json",
+    "a": 2,
+    "d": 1
+   },
+   {
+    "f": "apps/web/src/login/GlitchPanel.tsx",
+    "a": 35,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/login/LoginForm.tsx",
+    "a": 109,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/login/LoginScreen.tsx",
+    "a": 85,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/login/login-state.test.ts",
+    "a": 25,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/login/login-state.ts",
+    "a": 29,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/login/login.css",
+    "a": 452,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/login/scene/asteroids.ts",
+    "a": 239,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/login/scene/background.ts",
+    "a": 90,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/login/scene/index.ts",
+    "a": 148,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/login/scene/particles.ts",
+    "a": 186,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/login/scene/post.ts",
+    "a": 62,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/login/scene/rng.ts",
+    "a": 25,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/login/scene/view.ts",
+    "a": 12,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/login/scene/wreck.ts",
+    "a": 958,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/login/sound.ts",
+    "a": 90,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/visual/VisualPrototypeApp.tsx",
+    "a": 32,
+    "d": 5
+   },
+   {
+    "f": "apps/web/src/visual/lobby/PreparationLobby.tsx",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "docs/design.md",
+    "a": 18,
+    "d": 2
+   },
+   {
+    "f": "pnpm-lock.yaml",
+    "a": 3,
+    "d": 0
+   },
+   {
+    "f": "tests/e2e/helpers.ts",
+    "a": 7,
+    "d": 0
+   },
+   {
+    "f": "tests/e2e/match.spec.ts",
+    "a": 12,
+    "d": 2
+   },
+   {
+    "f": "tests/e2e/visual.spec.ts",
+    "a": 12,
+    "d": 11
+   }
+  ]
+ },
+ "d6a00f75b299df8d2de16aead33ecef588cfc59b": {
+  "team": "Impulso Stellar",
+  "repo": "orlando-vazquez-career/stellar-impulse",
+  "author": "Hans3010",
+  "date": "2026-10-02T20:10:53Z",
+  "message": "Merge PR #20: pantalla de acceso animada de Yamil como entrada del juego",
+  "parents": 2,
+  "files": [
+   {
+    "f": "apps/web/package.json",
+    "a": 2,
+    "d": 1
+   },
+   {
+    "f": "apps/web/src/login/GlitchPanel.tsx",
+    "a": 35,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/login/LoginForm.tsx",
+    "a": 109,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/login/LoginScreen.tsx",
+    "a": 85,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/login/login-state.test.ts",
+    "a": 25,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/login/login-state.ts",
+    "a": 29,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/login/login.css",
+    "a": 452,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/login/scene/asteroids.ts",
+    "a": 239,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/login/scene/background.ts",
+    "a": 90,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/login/scene/index.ts",
+    "a": 148,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/login/scene/particles.ts",
+    "a": 186,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/login/scene/post.ts",
+    "a": 62,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/login/scene/rng.ts",
+    "a": 25,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/login/scene/view.ts",
+    "a": 12,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/login/scene/wreck.ts",
+    "a": 958,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/login/sound.ts",
+    "a": 90,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/visual/VisualPrototypeApp.tsx",
+    "a": 32,
+    "d": 5
+   },
+   {
+    "f": "apps/web/src/visual/lobby/PreparationLobby.tsx",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "docs/design.md",
+    "a": 18,
+    "d": 2
+   },
+   {
+    "f": "pnpm-lock.yaml",
+    "a": 3,
+    "d": 0
+   },
+   {
+    "f": "tests/e2e/helpers.ts",
+    "a": 7,
+    "d": 0
+   },
+   {
+    "f": "tests/e2e/match.spec.ts",
+    "a": 12,
+    "d": 2
+   },
+   {
+    "f": "tests/e2e/visual.spec.ts",
+    "a": 12,
+    "d": 11
+   }
+  ]
+ },
+ "71cbd3e9a555caa40d9529e95c6bc0d5c5afed34": {
+  "team": "Impulso Stellar",
+  "repo": "orlando-vazquez-career/stellar-impulse",
+  "author": "srllamadev",
+  "date": "2026-10-02T16:42:00Z",
+  "message": "feat: add login form and main application entry point with game client logic",
+  "parents": 1,
+  "files": [
+   {
+    "f": "apps/web/src/login/LoginForm.tsx",
+    "a": 3,
+    "d": 2
+   },
+   {
+    "f": "apps/web/src/main.tsx",
+    "a": 1,
+    "d": 1
+   }
+  ]
+ },
+ "67393d2fea6659f69fe2aa88143487aa6683f5ab": {
+  "team": "Impulso Stellar",
+  "repo": "orlando-vazquez-career/stellar-impulse",
+  "author": "srllamadev",
+  "date": "2026-10-02T16:29:09Z",
+  "message": "feat: add GlitchPanel component and login stylesheet with cyberpunk visual effects",
+  "parents": 1,
+  "files": [
+   {
+    "f": "apps/web/src/login/GlitchPanel.tsx",
+    "a": 3,
+    "d": 3
+   },
+   {
+    "f": "apps/web/src/login/login.css",
+    "a": 68,
+    "d": 30
+   }
+  ]
+ },
+ "6539c8b468fb2d6cc7370862e9155f21a1339e03": {
+  "team": "Impulso Stellar",
+  "repo": "orlando-vazquez-career/stellar-impulse",
+  "author": "srllamadev",
+  "date": "2026-10-02T16:01:30Z",
+  "message": "feat: add lobby and login UI components and styles",
+  "parents": 1,
+  "files": [
+   {
+    "f": "apps/web/src/lobby/LobbyScreen.tsx",
+    "a": 0,
+    "d": 1
+   },
+   {
+    "f": "apps/web/src/login/LoginForm.tsx",
+    "a": 1,
+    "d": 9
+   },
+   {
+    "f": "apps/web/src/login/login.css",
+    "a": 37,
+    "d": 8
+   },
+   {
+    "f": "apps/web/src/main.tsx",
+    "a": 6,
+    "d": 6
+   }
+  ]
+ },
+ "df764b3c797a5d529d492668ac57433f90b430a5": {
+  "team": "Impulso Stellar",
+  "repo": "orlando-vazquez-career/stellar-impulse",
+  "author": "srllamadev",
+  "date": "2026-10-02T14:06:05Z",
+  "message": "feat: add procedural wreck and asteroid modules for login scene",
+  "parents": 1,
+  "files": [
+   {
+    "f": "apps/web/src/login/scene/asteroids.ts",
+    "a": 76,
+    "d": 25
+   },
+   {
+    "f": "apps/web/src/login/scene/wreck.ts",
+    "a": 803,
+    "d": 200
+   }
+  ]
+ },
+ "ef74f86d03f4923b6ecb273ae95a4c1c392cb39e": {
+  "team": "Impulso Stellar",
+  "repo": "orlando-vazquez-career/stellar-impulse",
+  "author": "srllamadev",
+  "date": "2026-10-02T13:07:33Z",
+  "message": "primera_version_login",
+  "parents": 1,
+  "files": [
+   {
+    "f": "apps/web/src/lobby/LobbyScreen.tsx",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "apps/web/src/login/GlitchPanel.tsx",
+    "a": 35,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/login/LoginForm.tsx",
+    "a": 116,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/login/LoginScreen.tsx",
+    "a": 87,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/login/login-state.test.ts",
+    "a": 25,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/login/login-state.ts",
+    "a": 29,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/login/login.css",
+    "a": 385,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/login/scene/asteroids.ts",
+    "a": 188,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/login/scene/background.ts",
+    "a": 90,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/login/scene/index.ts",
+    "a": 148,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/login/scene/particles.ts",
+    "a": 186,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/login/scene/post.ts",
+    "a": 62,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/login/scene/rng.ts",
+    "a": 25,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/login/scene/view.ts",
+    "a": 12,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/login/scene/wreck.ts",
+    "a": 355,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/login/use-login-music.ts",
+    "a": 30,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/main.tsx",
+    "a": 62,
+    "d": 9
+   },
+   {
+    "f": "docs/design.md",
+    "a": 18,
+    "d": 2
+   },
+   {
+    "f": "tests/e2e/training.spec.ts",
+    "a": 2,
+    "d": 0
+   }
+  ]
+ },
+ "e51facb509c4767f5b87f9451b72ebc01cc7f28f": {
+  "team": "BOLAR",
+  "repo": "bolarpay/bolar-app",
+  "author": "JersonUCB",
+  "date": "2026-10-02T21:13:23Z",
+  "message": "integrate remittance landing flow",
+  "parents": 2,
+  "files": [
+   {
+    "f": "app/acceso/access-client.tsx",
+    "a": 13,
+    "d": 0
+   },
+   {
+    "f": "app/acceso/page.tsx",
+    "a": 40,
+    "d": 0
+   },
+   {
+    "f": "app/demo/page.tsx",
+    "a": 6,
+    "d": 0
+   },
+   {
+    "f": "app/globals.css",
+    "a": 76,
+    "d": 12
+   },
+   {
+    "f": "app/layout.tsx",
+    "a": 9,
+    "d": 9
+   },
+   {
+    "f": "app/login-button.tsx",
+    "a": 32,
+    "d": 19
+   },
+   {
+    "f": "app/page.tsx",
+    "a": 23,
+    "d": 7
+   },
+   {
+    "f": "app/pay-button.tsx",
+    "a": 41,
+    "d": 19
+   },
+   {
+    "f": "app/pollar-app.tsx",
+    "a": 45,
+    "d": 20
+   },
+   {
+    "f": "app/pollar-login-modal.css",
+    "a": 8,
+    "d": 98
+   },
+   {
+    "f": "components/landing/asset.tsx",
+    "a": 8,
+    "d": 0
+   },
+   {
+    "f": "components/landing/brand-strip.tsx",
+    "a": 9,
+    "d": 0
+   },
+   {
+    "f": "components/landing/country-flags.tsx",
+    "a": 18,
+    "d": 0
+   },
+   {
+    "f": "components/landing/info-button.tsx",
+    "a": 19,
+    "d": 0
+   },
+   {
+    "f": "components/landing/landing-footer.tsx",
+    "a": 36,
+    "d": 0
+   },
+   {
+    "f": "components/landing/landing-header.tsx",
+    "a": 27,
+    "d": 0
+   },
+   {
+    "f": "components/landing/remittance-calculator.tsx",
+    "a": 77,
+    "d": 0
+   },
+   {
+    "f": "components/remittance/remittance-dialog.tsx",
+    "a": 25,
+    "d": 0
+   },
+   {
+    "f": "components/remittance/remittance-flow.tsx",
+    "a": 48,
+    "d": 0
+   },
+   {
+    "f": "components/remittance/remittance-steps.tsx",
+    "a": 139,
+    "d": 0
+   },
+   {
+    "f": "lib/remittance-quote.ts",
+    "a": 19,
+    "d": 0
+   },
+   {
+    "f": "public/assets/landing/argentina.svg",
+    "a": 79,
+    "d": 0
+   },
+   {
+    "f": "public/assets/landing/bolar-logo.svg",
+    "a": 9,
+    "d": 0
+   },
+   {
+    "f": "public/assets/landing/bolivia.svg",
+    "a": 1357,
+    "d": 0
+   },
+   {
+    "f": "public/assets/landing/brand-divider.svg",
+    "a": 5,
+    "d": 0
+   },
+   {
+    "f": "public/assets/landing/brazil.svg",
+    "a": 319,
+    "d": 0
+   },
+   {
+    "f": "public/assets/landing/chevron-small.svg",
+    "a": 5,
+    "d": 0
+   },
+   {
+    "f": "public/assets/landing/chevron.svg",
+    "a": 5,
+    "d": 0
+   },
+   {
+    "f": "public/assets/landing/chile.svg",
+    "a": 28,
+    "d": 0
+   },
+   {
+    "f": "public/assets/landing/currency-bob.svg",
+    "a": 7,
+    "d": 0
+   },
+   {
+    "f": "public/assets/landing/currency-brl.svg",
+    "a": 12,
+    "d": 0
+   },
+   {
+    "f": "public/assets/landing/demo-payment-qr.svg",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "public/assets/landing/facebook.svg",
+    "a": 10,
+    "d": 0
+   },
+   {
+    "f": "public/assets/landing/footer-divider.svg",
+    "a": 3,
+    "d": 0
+   },
+   {
+    "f": "public/assets/landing/footer-logo.svg",
+    "a": 17,
+    "d": 0
+   },
+   {
+    "f": "public/assets/landing/france.svg",
+    "a": 18,
+    "d": 0
+   },
+   {
+    "f": "public/assets/landing/italy.svg",
+    "a": 18,
+    "d": 0
+   },
+   {
+    "f": "public/assets/landing/pollar-logo.svg",
+    "a": 11,
+    "d": 0
+   },
+   {
+    "f": "public/assets/landing/spain.svg",
+    "a": 573,
+    "d": 0
+   },
+   {
+    "f": "public/assets/landing/stellar-logo.svg",
+    "a": 10,
+    "d": 0
+   },
+   {
+    "f": "public/assets/landing/united-states.svg",
+    "a": 42,
+    "d": 0
+   },
+   {
+    "f": "public/assets/landing/web3-technology.svg",
+    "a": 10,
+    "d": 0
+   },
+   {
+    "f": "public/assets/landing/whatsapp.svg",
+    "a": 10,
+    "d": 0
+   },
+   {
+    "f": "public/assets/landing/youtube.svg",
+    "a": 10,
+    "d": 0
+   }
+  ]
+ },
+ "397e0899cb75ee14fa87ec648548efb8aede9c15": {
+  "team": "BOLAR",
+  "repo": "bolarpay/bolar-app",
+  "author": "JersonUCB",
+  "date": "2026-10-02T19:54:50Z",
+  "message": "connect login and payment components",
+  "parents": 1,
+  "files": [
+   {
+    "f": "app/login-button.tsx",
+    "a": 3,
+    "d": 3
+   },
+   {
+    "f": "app/pollar-app.tsx",
+    "a": 4,
+    "d": 0
+   }
+  ]
+ },
+ "bf7a4c28dea299f17f6a3c1f30150d163a7065e1": {
+  "team": "BOLAR",
+  "repo": "bolarpay/bolar-app",
+  "author": "JersonUCB",
+  "date": "2026-09-29T06:19:49Z",
+  "message": "chore(landing): remove duplicate assets from root directory",
+  "parents": 1,
+  "files": [
+   {
+    "f": "Assets/Argentina (Round).svg",
+    "a": 0,
+    "d": 79
+   },
+   {
+    "f": "Assets/Bolar_horizontal_sinlogo 2.svg",
+    "a": 0,
+    "d": 9
+   },
+   {
+    "f": "Assets/Bolivia (Round).svg",
+    "a": 0,
+    "d": 1357
+   },
+   {
+    "f": "Assets/Brazil (Round).svg",
+    "a": 0,
+    "d": 319
+   },
+   {
+    "f": "Assets/Chile (Round).svg",
+    "a": 0,
+    "d": 28
+   },
+   {
+    "f": "Assets/Frame 37756.svg",
+    "a": 0,
+    "d": 10
+   },
+   {
+    "f": "Assets/France (Round).svg",
+    "a": 0,
+    "d": 18
+   },
+   {
+    "f": "Assets/Italy (Round).svg",
+    "a": 0,
+    "d": 18
+   },
+   {
+    "f": "Assets/Logotipo_Pollar.svg",
+    "a": 0,
+    "d": 11
+   },
+   {
+    "f": "Assets/Spain (Round).svg",
+    "a": 0,
+    "d": 573
+   },
+   {
+    "f": "Assets/United States (Round).svg",
+    "a": 0,
+    "d": 42
+   },
+   {
+    "f": "Assets/stellar-xlm-logo-full 2.svg",
+    "a": 0,
+    "d": 10
+   }
+  ]
+ },
+ "5a793eef33ff4b119931b521e91e7d488b3ddd83": {
+  "team": "BOLAR",
+  "repo": "bolarpay/bolar-app",
+  "author": "JersonUCB",
+  "date": "2026-09-28T22:34:49Z",
+  "message": "feat(landing): create initial layout and desing for the landing page",
+  "parents": 1,
+  "files": [
+   {
+    "f": "Assets/Argentina (Round).svg",
+    "a": 79,
+    "d": 0
+   },
+   {
+    "f": "Assets/Bolar_horizontal_sinlogo 2.svg",
+    "a": 9,
+    "d": 0
+   },
+   {
+    "f": "Assets/Bolivia (Round).svg",
+    "a": 1357,
+    "d": 0
+   },
+   {
+    "f": "Assets/Brazil (Round).svg",
+    "a": 319,
+    "d": 0
+   },
+   {
+    "f": "Assets/Chile (Round).svg",
+    "a": 28,
+    "d": 0
+   },
+   {
+    "f": "Assets/Frame 37756.svg",
+    "a": 10,
+    "d": 0
+   },
+   {
+    "f": "Assets/France (Round).svg",
+    "a": 18,
+    "d": 0
+   },
+   {
+    "f": "Assets/Italy (Round).svg",
+    "a": 18,
+    "d": 0
+   },
+   {
+    "f": "Assets/Logotipo_Pollar.svg",
+    "a": 11,
+    "d": 0
+   },
+   {
+    "f": "Assets/Spain (Round).svg",
+    "a": 573,
+    "d": 0
+   },
+   {
+    "f": "Assets/United States (Round).svg",
+    "a": 42,
+    "d": 0
+   },
+   {
+    "f": "Assets/stellar-xlm-logo-full 2.svg",
+    "a": 10,
+    "d": 0
+   },
+   {
+    "f": "app/demo/page.tsx",
+    "a": 10,
+    "d": 0
+   },
+   {
+    "f": "app/globals.css",
+    "a": 36,
+    "d": 12
+   },
+   {
+    "f": "app/layout.tsx",
+    "a": 9,
+    "d": 9
+   },
+   {
+    "f": "app/page.tsx",
+    "a": 23,
+    "d": 7
+   },
+   {
+    "f": "components/landing/asset.tsx",
+    "a": 8,
+    "d": 0
+   },
+   {
+    "f": "components/landing/brand-strip.tsx",
+    "a": 9,
+    "d": 0
+   },
+   {
+    "f": "components/landing/country-flags.tsx",
+    "a": 18,
+    "d": 0
+   },
+   {
+    "f": "components/landing/info-button.tsx",
+    "a": 19,
+    "d": 0
+   },
+   {
+    "f": "components/landing/landing-footer.tsx",
+    "a": 36,
+    "d": 0
+   },
+   {
+    "f": "components/landing/landing-header.tsx",
+    "a": 27,
+    "d": 0
+   },
+   {
+    "f": "components/landing/remittance-calculator.tsx",
+    "a": 78,
+    "d": 0
+   },
+   {
+    "f": "lib/remittance-quote.ts",
+    "a": 19,
+    "d": 0
+   },
+   {
+    "f": "public/assets/landing/argentina.svg",
+    "a": 79,
+    "d": 0
+   },
+   {
+    "f": "public/assets/landing/bolar-logo.svg",
+    "a": 9,
+    "d": 0
+   },
+   {
+    "f": "public/assets/landing/bolivia.svg",
+    "a": 1357,
+    "d": 0
+   },
+   {
+    "f": "public/assets/landing/brand-divider.svg",
+    "a": 5,
+    "d": 0
+   },
+   {
+    "f": "public/assets/landing/brazil.svg",
+    "a": 319,
+    "d": 0
+   },
+   {
+    "f": "public/assets/landing/chevron-small.svg",
+    "a": 5,
+    "d": 0
+   },
+   {
+    "f": "public/assets/landing/chevron.svg",
+    "a": 5,
+    "d": 0
+   },
+   {
+    "f": "public/assets/landing/chile.svg",
+    "a": 28,
+    "d": 0
+   },
+   {
+    "f": "public/assets/landing/currency-bob.svg",
+    "a": 7,
+    "d": 0
+   },
+   {
+    "f": "public/assets/landing/currency-brl.svg",
+    "a": 12,
+    "d": 0
+   },
+   {
+    "f": "public/assets/landing/facebook.svg",
+    "a": 10,
+    "d": 0
+   },
+   {
+    "f": "public/assets/landing/footer-divider.svg",
+    "a": 3,
+    "d": 0
+   },
+   {
+    "f": "public/assets/landing/footer-logo.svg",
+    "a": 17,
+    "d": 0
+   },
+   {
+    "f": "public/assets/landing/france.svg",
+    "a": 18,
+    "d": 0
+   },
+   {
+    "f": "public/assets/landing/italy.svg",
+    "a": 18,
+    "d": 0
+   },
+   {
+    "f": "public/assets/landing/pollar-logo.svg",
+    "a": 11,
+    "d": 0
+   },
+   {
+    "f": "public/assets/landing/spain.svg",
+    "a": 573,
+    "d": 0
+   },
+   {
+    "f": "public/assets/landing/stellar-logo.svg",
+    "a": 10,
+    "d": 0
+   },
+   {
+    "f": "public/assets/landing/united-states.svg",
+    "a": 42,
+    "d": 0
+   },
+   {
+    "f": "public/assets/landing/web3-technology.svg",
+    "a": 10,
+    "d": 0
+   },
+   {
+    "f": "public/assets/landing/whatsapp.svg",
+    "a": 10,
+    "d": 0
+   },
+   {
+    "f": "public/assets/landing/youtube.svg",
+    "a": 10,
+    "d": 0
+   }
+  ]
+ },
+ "212bd1666fcb7020ffd022a50bf5ffe93f821f12": {
+  "team": "TilcAI",
+  "repo": "TilcAI/tilcai-web",
+  "author": "JHAMILCALI",
+  "date": "2026-10-02T21:35:11Z",
+  "message": "feat: add OfficeBuildingSection component with styles and animations",
+  "parents": 1,
+  "files": [
+   {
+    "f": "public/office/building/distant-city.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/office/building/office-tower.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "src/app/landing.css",
+    "a": 0,
+    "d": 15
+   },
+   {
+    "f": "src/components/Icon.tsx",
+    "a": 6,
+    "d": 0
+   },
+   {
+    "f": "src/components/sections/OfficeBuildingSection.module.css",
+    "a": 83,
+    "d": 0
+   },
+   {
+    "f": "src/components/sections/OfficeBuildingSection.tsx",
+    "a": 173,
+    "d": 0
+   },
+   {
+    "f": "src/components/sections/OfficeLegendSection.tsx",
+    "a": 3,
+    "d": 23
+   },
+   {
+    "f": "src/lib/i18n/office.en.ts",
+    "a": 4,
+    "d": 0
+   },
+   {
+    "f": "src/lib/i18n/office.es.ts",
+    "a": 4,
+    "d": 0
+   },
+   {
+    "f": "src/lib/i18n/types.ts",
+    "a": 1,
+    "d": 1
+   }
+  ]
+ },
+ "3af47fdbdb55b4f4b01ca19bf2b6c208a3acc455": {
+  "team": "TilcAI",
+  "repo": "TilcAI/tilcai-web",
+  "author": "OmarQV",
+  "date": "2026-10-02T21:21:09Z",
+  "message": "Merge pull request #20 from TilcAI/feat/web-office-hero",
+  "parents": 2,
+  "files": [
+   {
+    "f": "src/app/mobile.css",
+    "a": 7,
+    "d": 0
+   },
+   {
+    "f": "src/app/office.css",
+    "a": 104,
+    "d": 0
+   },
+   {
+    "f": "src/components/office/OfficeHero.tsx",
+    "a": 31,
+    "d": 26
+   },
+   {
+    "f": "src/components/office/layout.ts",
+    "a": 4,
+    "d": 3
+   },
+   {
+    "f": "src/components/office/render.ts",
+    "a": 25,
+    "d": 13
+   },
+   {
+    "f": "src/components/office/render/characters.ts",
+    "a": 9,
+    "d": 7
+   },
+   {
+    "f": "src/components/office/render/furniture.ts",
+    "a": 15,
+    "d": 100
+   },
+   {
+    "f": "src/components/office/render/scenery.ts",
+    "a": 20,
+    "d": 6
+   },
+   {
+    "f": "src/components/office/render/workstations.ts",
+    "a": 178,
+    "d": 0
+   },
+   {
+    "f": "src/components/office/types.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "test/office.test.ts",
+    "a": 11,
+    "d": 1
+   }
+  ]
+ },
+ "040cec6bcf03ec4cebbeec1487eb31a004f52121": {
+  "team": "TilcAI",
+  "repo": "TilcAI/tilcai-web",
+  "author": "OmarQV",
+  "date": "2026-10-02T21:19:44Z",
+  "message": "merge: integrate main and reconcile office mobile layout",
+  "parents": 2,
+  "files": [
+   {
+    "f": "src/app/agents.css",
+    "a": 3,
+    "d": 3
+   },
+   {
+    "f": "src/app/globals.css",
+    "a": 14,
+    "d": 10
+   },
+   {
+    "f": "src/app/hero.css",
+    "a": 3,
+    "d": 1
+   },
+   {
+    "f": "src/app/landing.css",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/app/mobile.css",
+    "a": 80,
+    "d": 0
+   },
+   {
+    "f": "src/components/DocsToc.tsx",
+    "a": 5,
+    "d": 1
+   },
+   {
+    "f": "src/components/SiteHeader.tsx",
+    "a": 3,
+    "d": 1
+   },
+   {
+    "f": "src/components/sections/HeroBackdrop.tsx",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "src/components/sections/ProductOverview.module.css",
+    "a": 31,
+    "d": 0
+   },
+   {
+    "f": "src/components/sections/TilcAIOfficeParallax.module.css",
+    "a": 25,
+    "d": 0
+   },
+   {
+    "f": "src/components/sections/TilcAIParallax.module.css",
+    "a": 5,
+    "d": 0
+   }
+  ]
+ },
+ "693158072ede575de6ddc4f57eda6666b6937809": {
+  "team": "TilcAI",
+  "repo": "TilcAI/tilcai-web",
+  "author": "OmarQV",
+  "date": "2026-10-02T21:16:06Z",
+  "message": "feat(office): refine dashboard layout and agent inspector",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/app/office.css",
+    "a": 104,
+    "d": 0
+   },
+   {
+    "f": "src/components/office/OfficeHero.tsx",
+    "a": 31,
+    "d": 26
+   }
+  ]
+ },
+ "fa1353fe8eecc58ab467ee280050645719f8c7b4": {
+  "team": "TilcAI",
+  "repo": "TilcAI/tilcai-web",
+  "author": "OmarQV",
+  "date": "2026-10-02T21:15:45Z",
+  "message": "fix(office): fit camera to viewport and integrate detailed rendering",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/components/office/render.ts",
+    "a": 25,
+    "d": 13
+   },
+   {
+    "f": "test/office.test.ts",
+    "a": 11,
+    "d": 1
+   }
+  ]
+ },
+ "05c79b42d337193193e708c2eecc74dfffbb7f2b": {
+  "team": "TilcAI",
+  "repo": "TilcAI/tilcai-web",
+  "author": "OmarQV",
+  "date": "2026-10-02T21:15:27Z",
+  "message": "feat(office): enrich workstations, scenery and characters",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/components/office/layout.ts",
+    "a": 4,
+    "d": 3
+   },
+   {
+    "f": "src/components/office/render/characters.ts",
+    "a": 9,
+    "d": 7
+   },
+   {
+    "f": "src/components/office/render/furniture.ts",
+    "a": 15,
+    "d": 100
+   },
+   {
+    "f": "src/components/office/render/scenery.ts",
+    "a": 20,
+    "d": 6
+   },
+   {
+    "f": "src/components/office/render/workstations.ts",
+    "a": 178,
+    "d": 0
+   },
+   {
+    "f": "src/components/office/types.ts",
+    "a": 1,
+    "d": 1
+   }
+  ]
+ },
+ "003c4a3fb2f00294882566000c693ed0bc0c54e0": {
+  "team": "TilcAI",
+  "repo": "TilcAI/tilcai-web",
+  "author": "joseemen11",
+  "date": "2026-10-02T21:07:20Z",
+  "message": "Merge pull request #19 from TilcAI/feat/web-responsive-a11y-v2",
+  "parents": 2,
+  "files": [
+   {
+    "f": "src/app/agents.css",
+    "a": 3,
+    "d": 3
+   },
+   {
+    "f": "src/app/globals.css",
+    "a": 13,
+    "d": 10
+   },
+   {
+    "f": "src/app/hero.css",
+    "a": 3,
+    "d": 1
+   },
+   {
+    "f": "src/app/landing.css",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/components/DocsToc.tsx",
+    "a": 5,
+    "d": 1
+   },
+   {
+    "f": "src/components/SiteHeader.tsx",
+    "a": 3,
+    "d": 1
+   }
+  ]
+ },
+ "6a48432f164c1e34e1bba6146b7ddab68bc990b6": {
+  "team": "TilcAI",
+  "repo": "TilcAI/tilcai-web",
+  "author": "joseemen11",
+  "date": "2026-10-02T21:06:49Z",
+  "message": "feat: improve responsive accessibility",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/app/agents.css",
+    "a": 3,
+    "d": 3
+   },
+   {
+    "f": "src/app/globals.css",
+    "a": 13,
+    "d": 10
+   },
+   {
+    "f": "src/app/hero.css",
+    "a": 3,
+    "d": 1
+   },
+   {
+    "f": "src/app/landing.css",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/components/DocsToc.tsx",
+    "a": 5,
+    "d": 1
+   },
+   {
+    "f": "src/components/SiteHeader.tsx",
+    "a": 3,
+    "d": 1
+   }
+  ]
+ },
+ "c02666eceb7aed8d22f8adba532fb7befc8406a2": {
+  "team": "TilcAI",
+  "repo": "TilcAI/tilcai-web",
+  "author": "JHAMILCALI",
+  "date": "2026-10-02T20:58:27Z",
+  "message": "feat: add mobile styles for hero and office simulation, refine layout for smaller screens",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/app/globals.css",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "src/app/mobile.css",
+    "a": 73,
+    "d": 0
+   },
+   {
+    "f": "src/components/office/render.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/components/sections/HeroBackdrop.tsx",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "src/components/sections/ProductOverview.module.css",
+    "a": 31,
+    "d": 0
+   },
+   {
+    "f": "src/components/sections/TilcAIOfficeParallax.module.css",
+    "a": 25,
+    "d": 0
+   },
+   {
+    "f": "src/components/sections/TilcAIParallax.module.css",
+    "a": 5,
+    "d": 0
+   }
+  ]
+ },
+ "4227c4d2d52de3b70a309745d8985ff33f4c91f9": {
+  "team": "TilcAI",
+  "repo": "TilcAI/tilcai-web",
+  "author": "JHAMILCALI",
+  "date": "2026-10-02T20:18:16Z",
+  "message": "feat(render): add geometry, holograms, palette, and scenery modules",
+  "parents": 1,
+  "files": [
+   {
+    "f": "output/imagegen/tilcai-office-isometric-v2.prompt.txt",
+    "a": 33,
+    "d": 0
+   },
+   {
+    "f": "public/assets/tilcai-office-isometric-v2.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "src/app/office.css",
+    "a": 62,
+    "d": 0
+   },
+   {
+    "f": "src/components/office/OfficeHero.tsx",
+    "a": 47,
+    "d": 6
+   },
+   {
+    "f": "src/components/office/layout.ts",
+    "a": 11,
+    "d": 11
+   },
+   {
+    "f": "src/components/office/render.ts",
+    "a": 42,
+    "d": 216
+   },
+   {
+    "f": "src/components/office/render/characters.ts",
+    "a": 59,
+    "d": 0
+   },
+   {
+    "f": "src/components/office/render/effects.ts",
+    "a": 152,
+    "d": 0
+   },
+   {
+    "f": "src/components/office/render/furniture.ts",
+    "a": 205,
+    "d": 0
+   },
+   {
+    "f": "src/components/office/render/geometry.ts",
+    "a": 38,
+    "d": 0
+   },
+   {
+    "f": "src/components/office/render/holograms.ts",
+    "a": 47,
+    "d": 0
+   },
+   {
+    "f": "src/components/office/render/palette.ts",
+    "a": 24,
+    "d": 0
+   },
+   {
+    "f": "src/components/office/render/scenery.ts",
+    "a": 84,
+    "d": 0
+   },
+   {
+    "f": "src/components/office/sim.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/components/office/types.ts",
+    "a": 2,
+    "d": 0
+   },
+   {
+    "f": "src/lib/i18n/office.en.ts",
+    "a": 2,
+    "d": 1
+   },
+   {
+    "f": "src/lib/i18n/office.es.ts",
+    "a": 2,
+    "d": 1
+   },
+   {
+    "f": "src/lib/i18n/types.ts",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "test/office.test.ts",
+    "a": 188,
+    "d": 0
+   }
+  ]
+ },
+ "c839d053cf3c1a5e4324253af45ec09f73748062": {
+  "team": "TilcAI",
+  "repo": "TilcAI/tilcai-web",
+  "author": "joseemen11",
+  "date": "2026-10-02T19:55:44Z",
+  "message": "Merge pull request #18 from TilcAI/feat/web-control-policy-visual-polish",
+  "parents": 2,
+  "files": [
+   {
+    "f": "src/components/PolicyDemo.module.css",
+    "a": 411,
+    "d": 63
+   },
+   {
+    "f": "src/components/PolicyDemo.tsx",
+    "a": 64,
+    "d": 35
+   },
+   {
+    "f": "src/components/sections/ControlSection.module.css",
+    "a": 405,
+    "d": 94
+   },
+   {
+    "f": "src/components/sections/ControlSection.tsx",
+    "a": 38,
+    "d": 25
+   },
+   {
+    "f": "src/lib/i18n/en.ts",
+    "a": 28,
+    "d": 31
+   },
+   {
+    "f": "src/lib/i18n/es.ts",
+    "a": 28,
+    "d": 31
+   },
+   {
+    "f": "src/lib/i18n/types.ts",
+    "a": 2,
+    "d": 2
+   }
+  ]
+ },
+ "f28e2809d5c32e37a106362d99a108f97f52938f": {
+  "team": "TilcAI",
+  "repo": "TilcAI/tilcai-web",
+  "author": "joseemen11",
+  "date": "2026-10-02T19:49:41Z",
+  "message": "refactor: refine control and policy demo UX",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/components/PolicyDemo.module.css",
+    "a": 411,
+    "d": 63
+   },
+   {
+    "f": "src/components/PolicyDemo.tsx",
+    "a": 64,
+    "d": 35
+   },
+   {
+    "f": "src/components/sections/ControlSection.module.css",
+    "a": 405,
+    "d": 94
+   },
+   {
+    "f": "src/components/sections/ControlSection.tsx",
+    "a": 38,
+    "d": 25
+   },
+   {
+    "f": "src/lib/i18n/en.ts",
+    "a": 28,
+    "d": 31
+   },
+   {
+    "f": "src/lib/i18n/es.ts",
+    "a": 28,
+    "d": 31
+   },
+   {
+    "f": "src/lib/i18n/types.ts",
+    "a": 2,
+    "d": 2
+   }
+  ]
+ },
+ "b7ab2e7c30f6a83034a966df1c8744884526c10e": {
+  "team": "TilcAI",
+  "repo": "TilcAI/tilcai-web",
+  "author": "JHAMILCALI",
+  "date": "2026-10-02T18:24:59Z",
+  "message": "Add TilcAIOfficeParallax component with parallax scrolling effect and styles",
+  "parents": 1,
+  "files": [
+   {
+    "f": "public/assets/img/salas/p4-sa1.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/assets/img/salas/p4-sa2.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/assets/img/salas/p4-sa3.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/assets/img/salas/p4-sa4.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/assets/img/salas/p4-sa5.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/assets/img/salas/p4-sa6.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/assets/img/salas/p4-sa7.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/assets/img/salas/p4-sa8.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "src/components/HomePage.tsx",
+    "a": 2,
+    "d": 1
+   },
+   {
+    "f": "src/components/sections/OfficeLegendSection.tsx",
+    "a": 18,
+    "d": 4
+   },
+   {
+    "f": "src/components/sections/TilcAIOfficeParallax.module.css",
+    "a": 111,
+    "d": 0
+   },
+   {
+    "f": "src/components/sections/TilcAIOfficeParallax.tsx",
+    "a": 212,
+    "d": 0
+   }
+  ]
+ },
+ "52ae13470dbb48384fbbbeec741223acbd9fa270": {
+  "team": "TilcAI",
+  "repo": "TilcAI/tilcai-web",
+  "author": "JHAMILCALI",
+  "date": "2026-10-02T17:22:35Z",
+  "message": "Add Product Overview styles and new illustration asset",
+  "parents": 1,
+  "files": [
+   {
+    "f": "public/assets/img/description/p3-c1.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/assets/img/description/p3-c2.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/assets/img/description/p3-c3.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "src/components/Icon.tsx",
+    "a": 6,
+    "d": 0
+   },
+   {
+    "f": "src/components/sections/ProductOverview.module.css",
+    "a": 116,
+    "d": 0
+   },
+   {
+    "f": "src/components/sections/ProductOverview.tsx",
+    "a": 46,
+    "d": 9
+   },
+   {
+    "f": "src/components/sections/TilcAIParallax.module.css",
+    "a": 3,
+    "d": 1
+   },
+   {
+    "f": "src/lib/i18n/en.ts",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "src/lib/i18n/es.ts",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "src/lib/i18n/types.ts",
+    "a": 1,
+    "d": 1
+   }
+  ]
+ },
+ "b819616df11d0106e7b56b9547006de095e6e40e": {
+  "team": "TilcAI",
+  "repo": "TilcAI/tilcai-web",
+  "author": "JHAMILCALI",
+  "date": "2026-10-02T17:07:20Z",
+  "message": "feat: add cinematic parallax scrolling section with GSAP and Lenis",
+  "parents": 1,
+  "files": [
+   {
+    "f": "AGENTS.md",
+    "a": 9,
+    "d": 0
+   },
+   {
+    "f": "CLAUDE.md",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "next.config.ts",
+    "a": 2,
+    "d": 0
+   },
+   {
+    "f": "package.json",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "pnpm-lock.yaml",
+    "a": 21,
+    "d": 0
+   },
+   {
+    "f": "public/assets/img/description/p3-1.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/assets/img/description/p3-2.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/assets/img/description/p3-3.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/assets/img/description/p3-4.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/assets/img/description/p3-5.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/assets/img/description/p3-6.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "src/components/sections/ProductOverview.tsx",
+    "a": 3,
+    "d": 2
+   },
+   {
+    "f": "src/components/sections/TilcAIParallax.module.css",
+    "a": 94,
+    "d": 0
+   },
+   {
+    "f": "src/components/sections/TilcAIParallax.tsx",
+    "a": 181,
+    "d": 0
+   },
+   {
+    "f": "src/lib/smooth-scroll.ts",
+    "a": 42,
+    "d": 0
+   }
+  ]
  }
 }

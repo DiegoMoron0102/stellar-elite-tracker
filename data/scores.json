@@ -1,14 +1,14 @@
 {
- "generado": "2026-10-02T17:03:41+00:00",
+ "generado": "2026-10-02T21:35:56+00:00",
  "programa": "Stellar Elite",
  "start_date": "2026-09-02T00:00:00Z",
  "teams": [
   {
    "name": "Tinkazo",
-   "total": 870.6,
-   "per_capita": 870.6,
-   "commits": 101,
-   "pts_commits": 807.6,
+   "total": 890.6,
+   "per_capita": 890.6,
+   "commits": 103,
+   "pts_commits": 827.6,
    "dias_activos": 12,
    "contribuidores": [
     "nema1502"
@@ -20,11 +20,30 @@
    "rank": 1
   },
   {
+   "name": "TilcAI",
+   "total": 353.79,
+   "per_capita": 117.93,
+   "commits": 52,
+   "pts_commits": 321.79,
+   "dias_activos": 4,
+   "contribuidores": [
+    "JHAMILCALI",
+    "OmarQV",
+    "SaulChoque",
+    "joseemen11"
+   ],
+   "tamano": 3,
+   "repos": [
+    "TilcAI/tilcai-web"
+   ],
+   "rank": 2
+  },
+  {
    "name": "Impulso Stellar",
-   "total": 292.58,
-   "per_capita": 292.58,
-   "commits": 53,
-   "pts_commits": 237.58,
+   "total": 331.4,
+   "per_capita": 331.4,
+   "commits": 60,
+   "pts_commits": 276.4,
    "dias_activos": 8,
    "contribuidores": [
     "Hans3010",
@@ -37,7 +56,7 @@
    "repos": [
     "orlando-vazquez-career/stellar-impulse"
    ],
-   "rank": 2
+   "rank": 3
   },
   {
    "name": "Puls3",
@@ -55,7 +74,7 @@
    "repos": [
     "Zer0-Knowledge-Hack/puls3"
    ],
-   "rank": 3
+   "rank": 4
   },
   {
    "name": "Stellar Flash",
@@ -70,25 +89,6 @@
    "tamano": 1,
    "repos": [
     "nadevrix/stellar-flash"
-   ],
-   "rank": 4
-  },
-  {
-   "name": "TilcAI",
-   "total": 258.01,
-   "per_capita": 86.0,
-   "commits": 37,
-   "pts_commits": 226.01,
-   "dias_activos": 4,
-   "contribuidores": [
-    "JHAMILCALI",
-    "OmarQV",
-    "SaulChoque",
-    "joseemen11"
-   ],
-   "tamano": 3,
-   "repos": [
-    "TilcAI/tilcai-web"
    ],
    "rank": 5
   },
@@ -110,12 +110,13 @@
   },
   {
    "name": "BOLAR",
-   "total": 70.24,
-   "per_capita": 70.24,
-   "commits": 6,
-   "pts_commits": 44.24,
-   "dias_activos": 4,
+   "total": 97.03,
+   "per_capita": 97.03,
+   "commits": 10,
+   "pts_commits": 58.03,
+   "dias_activos": 6,
    "contribuidores": [
+    "JersonUCB",
     "rudyramirezc",
     "sass3r"
    ],
@@ -303,7 +304,7 @@
    "2026-09-29": 97.86999999999999,
    "2026-09-30": 29.66,
    "2026-10-01": 4.81,
-   "2026-10-02": 14.17
+   "2026-10-02": 34.17
   },
   "CompraGasolinaBidon": {
    "2026-09-06": 1.0
@@ -333,13 +334,15 @@
    "2026-09-29": 43.29,
    "2026-09-30": 40.0,
    "2026-10-01": 1.0,
-   "2026-10-02": 95.55
+   "2026-10-02": 134.37
   },
   "BOLAR": {
    "2026-09-22": 9.25,
    "2026-09-24": 10.190000000000001,
    "2026-09-26": 16.880000000000003,
-   "2026-09-29": 7.92
+   "2026-09-28": 9.33,
+   "2026-09-29": 7.92,
+   "2026-10-02": 4.46
   },
   "MinerTrace": {
    "2026-09-28": 10.97
@@ -348,7 +351,7 @@
    "2026-09-27": 23.66,
    "2026-09-30": 72.42999999999999,
    "2026-10-01": 43.809999999999995,
-   "2026-10-02": 86.11
+   "2026-10-02": 181.89
   }
  },
  "serie_commits": {
@@ -380,7 +383,7 @@
    "2026-09-29": 15,
    "2026-09-30": 4,
    "2026-10-01": 1,
-   "2026-10-02": 2
+   "2026-10-02": 4
   },
   "CompraGasolinaBidon": {
    "2026-09-06": 1
@@ -410,13 +413,15 @@
    "2026-09-29": 8,
    "2026-09-30": 12,
    "2026-10-01": 2,
-   "2026-10-02": 15
+   "2026-10-02": 22
   },
   "BOLAR": {
    "2026-09-22": 1,
    "2026-09-24": 2,
    "2026-09-26": 2,
-   "2026-09-29": 1
+   "2026-09-28": 1,
+   "2026-09-29": 2,
+   "2026-10-02": 2
   },
   "MinerTrace": {
    "2026-09-28": 3
@@ -425,10 +430,210 @@
    "2026-09-27": 3,
    "2026-09-30": 11,
    "2026-10-01": 8,
-   "2026-10-02": 15
+   "2026-10-02": 30
   }
  },
  "commits": [
+  {
+   "sha": "212bd16",
+   "team": "TilcAI",
+   "repo": "TilcAI/tilcai-web",
+   "author": "JHAMILCALI",
+   "date": "2026-10-02T21:35:11Z",
+   "msg": "feat: add OfficeBuildingSection component with styles and animations",
+   "pts": 9.29,
+   "nota": ""
+  },
+  {
+   "sha": "3af47fd",
+   "team": "TilcAI",
+   "repo": "TilcAI/tilcai-web",
+   "author": "OmarQV",
+   "date": "2026-10-02T21:21:09Z",
+   "msg": "Merge pull request #20 from TilcAI/feat/web-office-hero",
+   "pts": 0.0,
+   "nota": "merge"
+  },
+  {
+   "sha": "cb4a2eb",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-10-02T21:20:56Z",
+   "msg": "El Sapo y ¿Quién es? entran al selector: doce juegos, para meetups de 50",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "040cec6",
+   "team": "TilcAI",
+   "repo": "TilcAI/tilcai-web",
+   "author": "OmarQV",
+   "date": "2026-10-02T21:19:44Z",
+   "msg": "merge: integrate main and reconcile office mobile layout",
+   "pts": 0.0,
+   "nota": "merge"
+  },
+  {
+   "sha": "6931580",
+   "team": "TilcAI",
+   "repo": "TilcAI/tilcai-web",
+   "author": "OmarQV",
+   "date": "2026-10-02T21:16:06Z",
+   "msg": "feat(office): refine dashboard layout and agent inspector",
+   "pts": 8.34,
+   "nota": ""
+  },
+  {
+   "sha": "fa1353f",
+   "team": "TilcAI",
+   "repo": "TilcAI/tilcai-web",
+   "author": "OmarQV",
+   "date": "2026-10-02T21:15:45Z",
+   "msg": "fix(office): fit camera to viewport and integrate detailed rendering",
+   "pts": 6.67,
+   "nota": ""
+  },
+  {
+   "sha": "05c79b4",
+   "team": "TilcAI",
+   "repo": "TilcAI/tilcai-web",
+   "author": "OmarQV",
+   "date": "2026-10-02T21:15:27Z",
+   "msg": "feat(office): enrich workstations, scenery and characters",
+   "pts": 9.43,
+   "nota": ""
+  },
+  {
+   "sha": "e51facb",
+   "team": "BOLAR",
+   "repo": "bolarpay/bolar-app",
+   "author": "JersonUCB",
+   "date": "2026-10-02T21:13:23Z",
+   "msg": "integrate remittance landing flow",
+   "pts": 0.0,
+   "nota": "merge"
+  },
+  {
+   "sha": "003c4a3",
+   "team": "TilcAI",
+   "repo": "TilcAI/tilcai-web",
+   "author": "joseemen11",
+   "date": "2026-10-02T21:07:20Z",
+   "msg": "Merge pull request #19 from TilcAI/feat/web-responsive-a11y-v2",
+   "pts": 0.0,
+   "nota": "merge"
+  },
+  {
+   "sha": "6a48432",
+   "team": "TilcAI",
+   "repo": "TilcAI/tilcai-web",
+   "author": "joseemen11",
+   "date": "2026-10-02T21:06:49Z",
+   "msg": "feat: improve responsive accessibility",
+   "pts": 6.52,
+   "nota": ""
+  },
+  {
+   "sha": "c02666e",
+   "team": "TilcAI",
+   "repo": "TilcAI/tilcai-web",
+   "author": "JHAMILCALI",
+   "date": "2026-10-02T20:58:27Z",
+   "msg": "feat: add mobile styles for hero and office simulation, refine layout for smaller screens",
+   "pts": 8.15,
+   "nota": ""
+  },
+  {
+   "sha": "c4b29ec",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "Ismaelolazo",
+   "date": "2026-10-02T20:31:33Z",
+   "msg": "Merge pull request #22 from orlando-vazquez-career/feat/integrar-login-yamil",
+   "pts": 0.0,
+   "nota": "merge"
+  },
+  {
+   "sha": "4227c4d",
+   "team": "TilcAI",
+   "repo": "TilcAI/tilcai-web",
+   "author": "JHAMILCALI",
+   "date": "2026-10-02T20:18:16Z",
+   "msg": "feat(render): add geometry, holograms, palette, and scenery modules",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "d6a00f7",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "Hans3010",
+   "date": "2026-10-02T20:10:53Z",
+   "msg": "Merge PR #20: pantalla de acceso animada de Yamil como entrada del juego",
+   "pts": 0.0,
+   "nota": "merge"
+  },
+  {
+   "sha": "c839d05",
+   "team": "TilcAI",
+   "repo": "TilcAI/tilcai-web",
+   "author": "joseemen11",
+   "date": "2026-10-02T19:55:44Z",
+   "msg": "Merge pull request #18 from TilcAI/feat/web-control-policy-visual-polish",
+   "pts": 0.0,
+   "nota": "merge"
+  },
+  {
+   "sha": "397e089",
+   "team": "BOLAR",
+   "repo": "bolarpay/bolar-app",
+   "author": "JersonUCB",
+   "date": "2026-10-02T19:54:50Z",
+   "msg": "connect login and payment components",
+   "pts": 4.46,
+   "nota": ""
+  },
+  {
+   "sha": "f28e280",
+   "team": "TilcAI",
+   "repo": "TilcAI/tilcai-web",
+   "author": "joseemen11",
+   "date": "2026-10-02T19:49:41Z",
+   "msg": "refactor: refine control and policy demo UX",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "b7ab2e7",
+   "team": "TilcAI",
+   "repo": "TilcAI/tilcai-web",
+   "author": "JHAMILCALI",
+   "date": "2026-10-02T18:24:59Z",
+   "msg": "Add TilcAIOfficeParallax component with parallax scrolling effect and styles",
+   "pts": 9.45,
+   "nota": ""
+  },
+  {
+   "sha": "52ae134",
+   "team": "TilcAI",
+   "repo": "TilcAI/tilcai-web",
+   "author": "JHAMILCALI",
+   "date": "2026-10-02T17:22:35Z",
+   "msg": "Add Product Overview styles and new illustration asset",
+   "pts": 8.54,
+   "nota": ""
+  },
+  {
+   "sha": "b819616",
+   "team": "TilcAI",
+   "repo": "TilcAI/tilcai-web",
+   "author": "JHAMILCALI",
+   "date": "2026-10-02T17:07:20Z",
+   "msg": "feat: add cinematic parallax scrolling section with GSAP and Lenis",
+   "pts": 9.39,
+   "nota": ""
+  },
   {
    "sha": "df5ba9d",
    "team": "Impulso Stellar",
@@ -438,6 +643,36 @@
    "msg": "Merge pull request #16 from orlando-vazquez-career/feat/integrar-campo-ismael",
    "pts": 0.0,
    "nota": "merge"
+  },
+  {
+   "sha": "71cbd3e",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "srllamadev",
+   "date": "2026-10-02T16:42:00Z",
+   "msg": "feat: add login form and main application entry point with game client logic",
+   "pts": 4.0,
+   "nota": ""
+  },
+  {
+   "sha": "2ad3e4a",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-10-02T16:40:58Z",
+   "msg": "Sapo con clasificatoria y ¿Quién es?, antes de los arreglos del evaluador",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "67393d2",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "srllamadev",
+   "date": "2026-10-02T16:29:09Z",
+   "msg": "feat: add GlitchPanel component and login stylesheet with cyberpunk visual effects",
+   "pts": 7.71,
+   "nota": ""
   },
   {
    "sha": "5921f1a",
@@ -457,6 +692,16 @@
    "date": "2026-10-02T16:02:00Z",
    "msg": "feat: add decorative particle field behind hero section",
    "pts": 9.15,
+   "nota": ""
+  },
+  {
+   "sha": "6539c8b",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "srllamadev",
+   "date": "2026-10-02T16:01:30Z",
+   "msg": "feat: add lobby and login UI components and styles",
+   "pts": 7.11,
    "nota": ""
   },
   {
@@ -510,6 +755,16 @@
    "nota": "merge"
   },
   {
+   "sha": "df764b3",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "srllamadev",
+   "date": "2026-10-02T14:06:05Z",
+   "msg": "feat: add procedural wreck and asteroid modules for login scene",
+   "pts": 10,
+   "nota": ""
+  },
+  {
    "sha": "2cd5fba",
    "team": "TilcAI",
    "repo": "TilcAI/tilcai-web",
@@ -538,6 +793,16 @@
    "msg": "Merge branch 'main' into feat/web-brand-tokens",
    "pts": 0.0,
    "nota": "merge"
+  },
+  {
+   "sha": "ef74f86",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "srllamadev",
+   "date": "2026-10-02T13:07:33Z",
+   "msg": "primera_version_login",
+   "pts": 10,
+   "nota": ""
   },
   {
    "sha": "cd1026e",
@@ -1430,6 +1695,16 @@
    "nota": ""
   },
   {
+   "sha": "bf7a4c2",
+   "team": "BOLAR",
+   "repo": "bolarpay/bolar-app",
+   "author": "JersonUCB",
+   "date": "2026-09-29T06:19:49Z",
+   "msg": "chore(landing): remove duplicate assets from root directory",
+   "pts": 0.0,
+   "nota": "solo archivos generados"
+  },
+  {
    "sha": "ab62f3c",
    "team": "Tinkazo",
    "repo": "nema1502/tinkazo",
@@ -1538,6 +1813,16 @@
    "msg": "first commit",
    "pts": 0.0,
    "nota": "sin cambios de lineas"
+  },
+  {
+   "sha": "5a793ee",
+   "team": "BOLAR",
+   "repo": "bolarpay/bolar-app",
+   "author": "JersonUCB",
+   "date": "2026-09-28T22:34:49Z",
+   "msg": "feat(landing): create initial layout and desing for the landing page",
+   "pts": 9.33,
+   "nota": ""
   },
   {
    "sha": "97b4bb1",
