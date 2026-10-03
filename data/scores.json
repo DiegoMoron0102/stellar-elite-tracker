@@ -1,5 +1,5 @@
 {
- "generado": "2026-10-02T21:35:56+00:00",
+ "generado": "2026-10-03T02:57:31+00:00",
  "programa": "Stellar Elite",
  "start_date": "2026-09-02T00:00:00Z",
  "teams": [
@@ -20,30 +20,11 @@
    "rank": 1
   },
   {
-   "name": "TilcAI",
-   "total": 353.79,
-   "per_capita": 117.93,
-   "commits": 52,
-   "pts_commits": 321.79,
-   "dias_activos": 4,
-   "contribuidores": [
-    "JHAMILCALI",
-    "OmarQV",
-    "SaulChoque",
-    "joseemen11"
-   ],
-   "tamano": 3,
-   "repos": [
-    "TilcAI/tilcai-web"
-   ],
-   "rank": 2
-  },
-  {
    "name": "Impulso Stellar",
-   "total": 331.4,
-   "per_capita": 331.4,
-   "commits": 60,
-   "pts_commits": 276.4,
+   "total": 383.62,
+   "per_capita": 383.62,
+   "commits": 74,
+   "pts_commits": 328.62,
    "dias_activos": 8,
    "contribuidores": [
     "Hans3010",
@@ -56,15 +37,34 @@
    "repos": [
     "orlando-vazquez-career/stellar-impulse"
    ],
+   "rank": 2
+  },
+  {
+   "name": "TilcAI",
+   "total": 367.11,
+   "per_capita": 122.37,
+   "commits": 55,
+   "pts_commits": 335.11,
+   "dias_activos": 4,
+   "contribuidores": [
+    "JHAMILCALI",
+    "OmarQV",
+    "SaulChoque",
+    "joseemen11"
+   ],
+   "tamano": 3,
+   "repos": [
+    "TilcAI/tilcai-web"
+   ],
    "rank": 3
   },
   {
    "name": "Puls3",
-   "total": 269.44,
-   "per_capita": 269.44,
-   "commits": 50,
-   "pts_commits": 220.44,
-   "dias_activos": 8,
+   "total": 295.29,
+   "per_capita": 295.29,
+   "commits": 53,
+   "pts_commits": 241.29,
+   "dias_activos": 9,
    "contribuidores": [
     "TOMOKI977",
     "XxHugheadxX",
@@ -94,11 +94,11 @@
   },
   {
    "name": "NodeXchange",
-   "total": 125.36,
-   "per_capita": 125.36,
-   "commits": 13,
-   "pts_commits": 107.36,
-   "dias_activos": 3,
+   "total": 174.33,
+   "per_capita": 174.33,
+   "commits": 18,
+   "pts_commits": 151.33,
+   "dias_activos": 4,
    "contribuidores": [
     "RomerTamayo"
    ],
@@ -110,10 +110,10 @@
   },
   {
    "name": "BOLAR",
-   "total": 97.03,
-   "per_capita": 97.03,
-   "commits": 10,
-   "pts_commits": 58.03,
+   "total": 107.9,
+   "per_capita": 107.9,
+   "commits": 13,
+   "pts_commits": 68.9,
    "dias_activos": 6,
    "contribuidores": [
     "JersonUCB",
@@ -290,7 +290,8 @@
    "2026-09-25": 10.0,
    "2026-09-26": 56.12,
    "2026-09-27": 14.45,
-   "2026-09-29": 19.05
+   "2026-09-29": 19.05,
+   "2026-10-02": 20.85
   },
   "Tinkazo": {
    "2026-09-16": 66.21000000000001,
@@ -312,7 +313,8 @@
   "NodeXchange": {
    "2026-09-05": 1.0,
    "2026-09-30": 30.0,
-   "2026-10-01": 76.36
+   "2026-10-01": 76.36,
+   "2026-10-02": 43.97
   },
   "BolivianPets": {
    "2026-09-04": 1.0,
@@ -334,7 +336,7 @@
    "2026-09-29": 43.29,
    "2026-09-30": 40.0,
    "2026-10-01": 1.0,
-   "2026-10-02": 134.37
+   "2026-10-02": 186.59
   },
   "BOLAR": {
    "2026-09-22": 9.25,
@@ -342,7 +344,7 @@
    "2026-09-26": 16.880000000000003,
    "2026-09-28": 9.33,
    "2026-09-29": 7.92,
-   "2026-10-02": 4.46
+   "2026-10-02": 15.329999999999998
   },
   "MinerTrace": {
    "2026-09-28": 10.97
@@ -351,7 +353,7 @@
    "2026-09-27": 23.66,
    "2026-09-30": 72.42999999999999,
    "2026-10-01": 43.809999999999995,
-   "2026-10-02": 181.89
+   "2026-10-02": 195.20999999999998
   }
  },
  "serie_commits": {
@@ -369,7 +371,8 @@
    "2026-09-25": 1,
    "2026-09-26": 12,
    "2026-09-27": 2,
-   "2026-09-29": 3
+   "2026-09-29": 3,
+   "2026-10-02": 3
   },
   "Tinkazo": {
    "2026-09-16": 8,
@@ -391,7 +394,8 @@
   "NodeXchange": {
    "2026-09-05": 1,
    "2026-09-30": 3,
-   "2026-10-01": 9
+   "2026-10-01": 9,
+   "2026-10-02": 5
   },
   "BolivianPets": {
    "2026-09-04": 1,
@@ -413,7 +417,7 @@
    "2026-09-29": 8,
    "2026-09-30": 12,
    "2026-10-01": 2,
-   "2026-10-02": 22
+   "2026-10-02": 36
   },
   "BOLAR": {
    "2026-09-22": 1,
@@ -421,7 +425,7 @@
    "2026-09-26": 2,
    "2026-09-28": 1,
    "2026-09-29": 2,
-   "2026-10-02": 2
+   "2026-10-02": 5
   },
   "MinerTrace": {
    "2026-09-28": 3
@@ -430,10 +434,180 @@
    "2026-09-27": 3,
    "2026-09-30": 11,
    "2026-10-01": 8,
-   "2026-10-02": 30
+   "2026-10-02": 33
   }
  },
  "commits": [
+  {
+   "sha": "436bd2a",
+   "team": "BOLAR",
+   "repo": "bolarpay/bolar-app",
+   "author": "rudyramirezc",
+   "date": "2026-10-02T23:52:51Z",
+   "msg": "add png banner",
+   "pts": 2.58,
+   "nota": ""
+  },
+  {
+   "sha": "bfc1e91",
+   "team": "Puls3",
+   "repo": "Zer0-Knowledge-Hack/puls3",
+   "author": "moises-cisneros",
+   "date": "2026-10-02T23:51:48Z",
+   "msg": "feat(contracts): add agent escrow and payment contract on Soroban (#78)",
+   "pts": 1.0,
+   "nota": "import masivo (131 archivos)"
+  },
+  {
+   "sha": "e99a0b9",
+   "team": "TilcAI",
+   "repo": "TilcAI/tilcai-web",
+   "author": "JHAMILCALI",
+   "date": "2026-10-02T23:21:32Z",
+   "msg": "feat: update image quality settings to include office building layer",
+   "pts": 3.32,
+   "nota": ""
+  },
+  {
+   "sha": "ffff8eb",
+   "team": "Puls3",
+   "repo": "Zer0-Knowledge-Hack/puls3",
+   "author": "moises-cisneros",
+   "date": "2026-10-02T23:12:14Z",
+   "msg": "chore(contracts): testnet deploy scripts and demo-agent seeding (#58)",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "36ef532",
+   "team": "Puls3",
+   "repo": "Zer0-Knowledge-Hack/puls3",
+   "author": "TOMOKI977",
+   "date": "2026-10-02T23:08:54Z",
+   "msg": "docs: align agent commerce with ERC-8183 and ERC-8004 (ADR-0005) (#72)",
+   "pts": 9.85,
+   "nota": ""
+  },
+  {
+   "sha": "c428894",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "orlando-vazquez-career",
+   "date": "2026-10-02T22:33:42Z",
+   "msg": "build: add root start script for the Railway server deploy",
+   "pts": 2.0,
+   "nota": ""
+  },
+  {
+   "sha": "453fdd9",
+   "team": "BOLAR",
+   "repo": "bolarpay/bolar-app",
+   "author": "sass3r",
+   "date": "2026-10-02T22:30:44Z",
+   "msg": "Merge pull request #1 from bolarpay/feat/is-authenticated",
+   "pts": 0.0,
+   "nota": "merge"
+  },
+  {
+   "sha": "a258ab8",
+   "team": "BOLAR",
+   "repo": "bolarpay/bolar-app",
+   "author": "rudyramirezc",
+   "date": "2026-10-02T22:29:10Z",
+   "msg": "add wallet button to landing",
+   "pts": 8.29,
+   "nota": ""
+  },
+  {
+   "sha": "f054bd4",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "orlando-vazquez-career",
+   "date": "2026-10-02T22:27:45Z",
+   "msg": "feat(web): sign in with server accounts and add public deploy config",
+   "pts": 9.43,
+   "nota": ""
+  },
+  {
+   "sha": "4a43d22",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "Ismaelolazo",
+   "date": "2026-10-02T22:17:53Z",
+   "msg": "Merge pull request #24 from orlando-vazquez-career/test-integration",
+   "pts": 0.0,
+   "nota": "merge"
+  },
+  {
+   "sha": "eb270ea",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "orlando-vazquez-career",
+   "date": "2026-10-02T22:12:55Z",
+   "msg": "Merge main into PR24 and align settings with the space interface",
+   "pts": 0.0,
+   "nota": "merge"
+  },
+  {
+   "sha": "f3805c7",
+   "team": "NodeXchange",
+   "repo": "RomerTamayo/stellar-build",
+   "author": "RomerTamayo",
+   "date": "2026-10-02T22:12:20Z",
+   "msg": "Add the NodeXchange product page",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "29240ba",
+   "team": "TilcAI",
+   "repo": "TilcAI/tilcai-web",
+   "author": "joseemen11",
+   "date": "2026-10-02T22:01:32Z",
+   "msg": "Merge pull request #21 from TilcAI/feat/web-policy-agent-flow",
+   "pts": 0.0,
+   "nota": "merge"
+  },
+  {
+   "sha": "0aef909",
+   "team": "TilcAI",
+   "repo": "TilcAI/tilcai-web",
+   "author": "joseemen11",
+   "date": "2026-10-02T22:01:01Z",
+   "msg": "feat: add policy agent flow visualization",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "1064f8f",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "orlando-vazquez-career",
+   "date": "2026-10-02T21:57:58Z",
+   "msg": "Merge pull request #23 from orlando-vazquez-career/feat/integrar-espiral-diego",
+   "pts": 0.0,
+   "nota": "merge"
+  },
+  {
+   "sha": "323b45e",
+   "team": "NodeXchange",
+   "repo": "RomerTamayo/stellar-build",
+   "author": "RomerTamayo",
+   "date": "2026-10-02T21:48:20Z",
+   "msg": "Add a README explaining what NodeXchange does",
+   "pts": 7.23,
+   "nota": ""
+  },
+  {
+   "sha": "12bc004",
+   "team": "NodeXchange",
+   "repo": "RomerTamayo/stellar-build",
+   "author": "RomerTamayo",
+   "date": "2026-10-02T21:35:42Z",
+   "msg": "Keep the app on screen with the mobile keyboard and add the logo",
+   "pts": 6.91,
+   "nota": ""
+  },
   {
    "sha": "212bd16",
    "team": "TilcAI",
@@ -515,6 +689,16 @@
    "nota": "merge"
   },
   {
+   "sha": "2e3b87a",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "srllamadev",
+   "date": "2026-10-02T21:12:37Z",
+   "msg": "feat(hangar): apply cyberpunk space theme and sound synthesis to fleet hangar",
+   "pts": 10,
+   "nota": ""
+  },
+  {
    "sha": "003c4a3",
    "team": "TilcAI",
    "repo": "TilcAI/tilcai-web",
@@ -535,6 +719,26 @@
    "nota": ""
   },
   {
+   "sha": "4ac43c9",
+   "team": "NodeXchange",
+   "repo": "RomerTamayo/stellar-build",
+   "author": "RomerTamayo",
+   "date": "2026-10-02T21:02:07Z",
+   "msg": "Add saved contacts, QR invites and a QR scanner",
+   "pts": 9.83,
+   "nota": ""
+  },
+  {
+   "sha": "8ba0ef6",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "Hans3010",
+   "date": "2026-10-02T20:59:40Z",
+   "msg": "fix(web): batch minimap terrain to avoid stalled match updates",
+   "pts": 5.09,
+   "nota": ""
+  },
+  {
    "sha": "c02666e",
    "team": "TilcAI",
    "repo": "TilcAI/tilcai-web",
@@ -543,6 +747,36 @@
    "msg": "feat: add mobile styles for hero and office simulation, refine layout for smaller screens",
    "pts": 8.15,
    "nota": ""
+  },
+  {
+   "sha": "49a6162",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "srllamadev",
+   "date": "2026-10-02T20:49:27Z",
+   "msg": "feat(visual): estilizar pantalla de Preparación de Partida con estética cyberpunk espacial y nebulosas verdes",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "e62f99b",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "Hans3010",
+   "date": "2026-10-02T20:37:46Z",
+   "msg": "Merge main (login de Yamil) en la integración del Espiral Estelar",
+   "pts": 0.0,
+   "nota": "merge"
+  },
+  {
+   "sha": "d347fd8",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "Hans3010",
+   "date": "2026-10-02T20:33:32Z",
+   "msg": "Merge PR #21 (Espiral Estelar de Diego) e integrarlo con el cliente",
+   "pts": 0.0,
+   "nota": "merge"
   },
   {
    "sha": "c4b29ec",
@@ -561,6 +795,16 @@
    "author": "JHAMILCALI",
    "date": "2026-10-02T20:18:16Z",
    "msg": "feat(render): add geometry, holograms, palette, and scenery modules",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "955a4da",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "srllamadev",
+   "date": "2026-10-02T20:16:14Z",
+   "msg": "feat(visual): estilizar Centro de Mando con atmósfera espacial de nebulosas verdes y estética cyberpunk acorde al login",
    "pts": 10,
    "nota": ""
   },
@@ -603,6 +847,46 @@
    "msg": "refactor: refine control and policy demo UX",
    "pts": 10,
    "nota": ""
+  },
+  {
+   "sha": "cf9932c",
+   "team": "NodeXchange",
+   "repo": "RomerTamayo/stellar-build",
+   "author": "RomerTamayo",
+   "date": "2026-10-02T19:40:18Z",
+   "msg": "Add external payment methods and improve the mobile layout",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "8b76581",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "degosenpai211",
+   "date": "2026-10-02T19:39:35Z",
+   "msg": "feat(map): espiral estelar como mapa de entrenamiento",
+   "pts": 1.0,
+   "nota": "import masivo (59 archivos)"
+  },
+  {
+   "sha": "71183ce",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "srllamadev",
+   "date": "2026-10-02T19:36:55Z",
+   "msg": "fix(web): add workspace package aliases to vite.config.ts",
+   "pts": 4.7,
+   "nota": ""
+  },
+  {
+   "sha": "6622391",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "srllamadev",
+   "date": "2026-10-02T19:25:48Z",
+   "msg": "Merge branch 'origin/test-login': integrar nuevo login cyberpunk como pantalla principal",
+   "pts": 0.0,
+   "nota": "merge"
   },
   {
    "sha": "b7ab2e7",

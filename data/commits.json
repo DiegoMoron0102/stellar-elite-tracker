@@ -40311,5 +40311,3930 @@
     "d": 0
    }
   ]
+ },
+ "bfc1e91608d990065ceca7d241c010121bcd44b1": {
+  "team": "Puls3",
+  "repo": "Zer0-Knowledge-Hack/puls3",
+  "author": "moises-cisneros",
+  "date": "2026-10-02T23:51:48Z",
+  "message": "feat(contracts): add agent escrow and payment contract on Soroban (#78)",
+  "parents": 1,
+  "files": [
+   {
+    "f": "contracts/Cargo.lock",
+    "a": 8,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/escrow/Cargo.toml",
+    "a": 17,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/escrow/src/lib.rs",
+    "a": 936,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/escrow/src/test.rs",
+    "a": 2801,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/a_claimable_entry_is_bumped_and_kept_alive.1.json",
+    "a": 1467,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/a_failing_provider_transfer_still_pays_the_treasury.1.json",
+    "a": 1484,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/a_failing_treasury_transfer_still_pays_the_provider.1.json",
+    "a": 1521,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/a_failing_withdraw_reverts_and_the_balance_stays_claimable.1.json",
+    "a": 1538,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/a_fee_raised_before_fund_cannot_divert_the_budget.1.json",
+    "a": 1162,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/a_job_too_late_to_submit_stays_refundable.1.json",
+    "a": 1046,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/a_later_fee_change_keeps_earlier_snapshots.1.json",
+    "a": 1832,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/a_submitted_job_past_expiry_settles_by_release_not_refund.1.json",
+    "a": 1146,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/a_window_change_does_not_move_a_stored_deadline.1.json",
+    "a": 1442,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/a_working_payout_is_never_deferred.1.json",
+    "a": 1437,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/admin_allows_and_removes_a_token.1.json",
+    "a": 824,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/admin_enables_a_fee_and_emits_fee_config_updated.1.json",
+    "a": 969,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/admin_handover_moves_authority.1.json",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/admin_sets_the_treasury.1.json",
+    "a": 829,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/admin_updates_limits_and_emits_limits_updated.1.json",
+    "a": 817,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/agent_without_wallet_is_rejected.1.json",
+    "a": 747,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/allow_list_entries_are_bumped_when_they_are_used.1.json",
+    "a": 925,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/both_failure_layers_fall_back_to_the_claimable_balance.1.json",
+    "a": 1468,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/both_failure_layers_fall_back_to_the_claimable_balance.2.json",
+    "a": 1468,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/budget_must_be_positive.1.json",
+    "a": 1005,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/cancelling_an_open_job_moves_no_funds_even_with_a_fee.1.json",
+    "a": 1165,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/claim_refund_needs_no_authorization_and_pays_only_the_client.1.json",
+    "a": 1047,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/claim_refund_refuses_open_jobs_and_double_refunds.1.json",
+    "a": 1238,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/claim_refund_returns_the_budget_to_the_client_after_expiry.1.json",
+    "a": 1047,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/claim_refund_returns_the_full_budget_even_with_a_fee.1.json",
+    "a": 1243,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/claim_refund_works_exactly_at_expiry_and_not_before.1.json",
+    "a": 1047,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/client_cancels_an_open_job_without_moving_funds.1.json",
+    "a": 969,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/client_cannot_be_the_provider.1.json",
+    "a": 732,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/complete_at_maximum_bps_skips_the_zero_provider_transfer.1.json",
+    "a": 1385,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/complete_defers_the_payout_when_the_provider_cannot_receive.1.json",
+    "a": 1470,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/complete_requires_a_submitted_job.1.json",
+    "a": 1642,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/complete_still_works_after_the_approval_deadline.1.json",
+    "a": 1188,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/complete_with_a_fee_splits_between_provider_and_treasury.1.json",
+    "a": 1437,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/complete_with_zero_fee_pays_the_provider_in_full.1.json",
+    "a": 1191,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/constructor_accepts_fee_of_exactly_10_000.1.json",
+    "a": 146,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/constructor_rejects_fee_above_10_000.1.json",
+    "a": 37,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/constructor_rejects_fee_without_treasury.1.json",
+    "a": 37,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/constructor_rejects_window_not_below_max_expiry.1.json",
+    "a": 37,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/constructor_rejects_zero_approval_window.1.json",
+    "a": 37,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/constructor_rejects_zero_max_expiry.1.json",
+    "a": 37,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/constructor_stores_different_values_and_treasury.1.json",
+    "a": 149,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/constructor_stores_explicit_config.1.json",
+    "a": 739,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/create_job_requires_client_authorization.1.json",
+    "a": 733,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/create_job_stores_an_open_job_and_emits_job_created.1.json",
+    "a": 926,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/deadline_uses_the_submission_time.1.json",
+    "a": 1091,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/deferred_payouts_accumulate_per_recipient_and_token.1.json",
+    "a": 1849,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/description_limit_is_256_bytes.1.json",
+    "a": 1004,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/evaluator_rejects_a_funded_job_with_a_full_refund.1.json",
+    "a": 1092,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/evaluator_rejects_a_submitted_job_in_the_window_without_a_fee.1.json",
+    "a": 1333,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/every_setter_needs_the_admin_signature.1.json",
+    "a": 739,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/every_setter_rejects_a_non_admin.1.json",
+    "a": 740,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/expiry_bounds_are_enforced.1.json",
+    "a": 1197,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/extend_ttl_for_an_unknown_job_only_bumps_the_instance.1.json",
+    "a": 734,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/extend_ttl_keeps_a_long_funded_job_alive.1.json",
+    "a": 1047,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/extend_ttl_keeps_terminal_jobs_readable.1.json",
+    "a": 1192,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/failed_create_emits_no_event.1.json",
+    "a": 732,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/failed_transitions_emit_no_event.1.json",
+    "a": 924,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/fee_setter_validates_bps_and_treasury.1.json",
+    "a": 873,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/fund_accepts_a_fee_at_or_below_the_clients_maximum.1.json",
+    "a": 1764,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/fund_after_expiry_is_refused.1.json",
+    "a": 1237,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/fund_fails_cleanly_on_insufficient_balance.1.json",
+    "a": 925,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/fund_needs_the_client_auth_including_the_token_transfer.1.json",
+    "a": 1086,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/fund_pulls_the_budget_and_emits_job_funded.1.json",
+    "a": 1046,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/fund_rejects_a_budget_mismatch.1.json",
+    "a": 927,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/fund_rejects_a_fee_above_the_clients_maximum.1.json",
+    "a": 1123,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/fund_requires_the_token_to_still_be_allow_listed.1.json",
+    "a": 942,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/fund_snapshots_the_fee_in_force_at_fund_time.1.json",
+    "a": 1240,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/fund_twice_is_an_invalid_state.1.json",
+    "a": 1045,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/fund_unknown_job_is_not_found.1.json",
+    "a": 732,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/funded_jobs_settle_after_the_token_is_removed_from_the_allow_list.1.json",
+    "a": 2083,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/in_flight_jobs_settle_with_no_registry_call.1.json",
+    "a": 2108,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/job_ids_are_sequential_and_counted.1.json",
+    "a": 1115,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/limits_are_validated_against_each_other.1.json",
+    "a": 737,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/live_funded_job_is_not_expired_but_an_expired_one_is.1.json",
+    "a": 1047,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/lowering_max_expiry_affects_only_new_jobs.1.json",
+    "a": 1238,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/new_jobs_resolve_the_wallet_from_the_rebound_registry.1.json",
+    "a": 1314,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/nobody_can_withdraw_for_another_recipient.1.json",
+    "a": 1469,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/non_admin_cannot_change_the_allow_list.1.json",
+    "a": 733,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/non_empty_hook_is_rejected_and_nothing_is_stored.1.json",
+    "a": 733,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/only_the_client_can_fund.1.json",
+    "a": 926,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/only_the_client_can_reject_an_open_job.1.json",
+    "a": 925,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/only_the_evaluator_can_complete.1.json",
+    "a": 1191,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/only_the_evaluator_can_reject_a_funded_job.1.json",
+    "a": 1093,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/only_the_stored_provider_can_submit.1.json",
+    "a": 1046,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/payee_is_frozen_after_a_registry_wallet_change.1.json",
+    "a": 1012,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/provider_and_treasury_payouts_are_independent.1.json",
+    "a": 1472,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/provider_cannot_reject_a_submitted_job.1.json",
+    "a": 1091,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/provider_must_match_registry_wallet.1.json",
+    "a": 733,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/provider_submits_a_funded_job.1.json",
+    "a": 1092,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/rebinding_the_registry_emits_an_event_and_updates_the_getter.1.json",
+    "a": 861,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/refund_paths_conserve_funds.1.json",
+    "a": 1353,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/registry_links_as_dev_dependency_and_resolves_wallet.1.json",
+    "a": 293,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/reject_after_the_window_is_closed.1.json",
+    "a": 1093,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/reject_is_final_for_terminal_jobs.1.json",
+    "a": 970,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/rejected_is_final_for_every_function.1.json",
+    "a": 1141,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/rejected_job_is_never_reported_expired.1.json",
+    "a": 968,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/rejecting_a_funded_job_refunds_in_full_even_with_a_fee.1.json",
+    "a": 1286,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/rejecting_a_submitted_job_leaves_the_contract_empty_even_with_a_fee.1.json",
+    "a": 1333,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/release_defers_the_payout_when_the_provider_cannot_receive.1.json",
+    "a": 1426,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/release_is_permissionless_and_pays_fee_and_provider_only.1.json",
+    "a": 1393,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/release_requires_a_submitted_job.1.json",
+    "a": 1236,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/release_works_exactly_at_the_deadline_and_not_before.1.json",
+    "a": 1146,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/silence_pays_the_provider_after_the_deadline.1.json",
+    "a": 1145,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/state_changing_calls_need_their_caller_signature.1.json",
+    "a": 1047,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/submit_after_expiry_is_refused.1.json",
+    "a": 1044,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/submit_must_leave_room_for_the_approval_window.1.json",
+    "a": 1093,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/submit_requires_a_funded_job.1.json",
+    "a": 1329,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/the_client_cannot_reclaim_a_job_whose_payout_was_deferred.1.json",
+    "a": 1425,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/the_client_cannot_reclaim_a_submitted_job_past_expiry.1.json",
+    "a": 1093,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/the_largest_budget_settles_for_several_fee_rates.1.json",
+    "a": 1428,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/the_largest_budget_settles_for_several_fee_rates.2.json",
+    "a": 1480,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/the_largest_budget_settles_for_several_fee_rates.3.json",
+    "a": 1480,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/the_largest_budget_settles_for_several_fee_rates.4.json",
+    "a": 1480,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/the_largest_budget_settles_for_several_fee_rates.5.json",
+    "a": 1428,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/third_party_evaluator_is_stored.1.json",
+    "a": 923,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/token_client_transfer_accepts_plain_address.1.json",
+    "a": 379,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/token_must_be_allow_listed.1.json",
+    "a": 732,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/transitions_bump_the_job_and_instance_ttl.1.json",
+    "a": 1048,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/unfunded_expiry_is_derived_not_stored.1.json",
+    "a": 925,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/unknown_agent_is_rejected.1.json",
+    "a": 732,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/unknown_job_is_reported_by_views.1.json",
+    "a": 733,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/version_matches_crate_version.1.json",
+    "a": 732,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/withdraw_needs_the_callers_signature.1.json",
+    "a": 1470,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/withdraw_pays_the_deferred_amount_once_the_provider_can_receive.1.json",
+    "a": 1497,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/withdraw_twice_is_refused.1.json",
+    "a": 1496,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/withdraw_without_a_balance_is_refused.1.json",
+    "a": 1055,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/withdraw_works_after_the_token_leaves_the_allow_list.1.json",
+    "a": 1513,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/zero_maximum_accepts_a_zero_fee.1.json",
+    "a": 1045,
+    "d": 0
+   }
+  ]
+ },
+ "ffff8eb640824c8b494518ca514f2e0ce83777ce": {
+  "team": "Puls3",
+  "repo": "Zer0-Knowledge-Hack/puls3",
+  "author": "moises-cisneros",
+  "date": "2026-10-02T23:12:14Z",
+  "message": "chore(contracts): testnet deploy scripts and demo-agent seeding (#58)",
+  "parents": 1,
+  "files": [
+   {
+    "f": ".env.example",
+    "a": 14,
+    "d": 0
+   },
+   {
+    "f": "contracts/README.md",
+    "a": 67,
+    "d": 0
+   },
+   {
+    "f": "contracts/deployments/demo-agents.json",
+    "a": 92,
+    "d": 0
+   },
+   {
+    "f": "contracts/deployments/testnet.json",
+    "a": 16,
+    "d": 0
+   },
+   {
+    "f": "scripts/deploy-testnet.sh",
+    "a": 149,
+    "d": 0
+   },
+   {
+    "f": "scripts/seed-demo-agents.sh",
+    "a": 382,
+    "d": 0
+   },
+   {
+    "f": "scripts/tests/seed-preflight.test.sh",
+    "a": 160,
+    "d": 0
+   }
+  ]
+ },
+ "36ef532983c4881ab5788c42ccc46ce11e727556": {
+  "team": "Puls3",
+  "repo": "Zer0-Knowledge-Hack/puls3",
+  "author": "TOMOKI977",
+  "date": "2026-10-02T23:08:54Z",
+  "message": "docs: align agent commerce with ERC-8183 and ERC-8004 (ADR-0005) (#72)",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/adr/0005-align-agent-commerce-with-erc-8183-and-erc-8004.md",
+    "a": 239,
+    "d": 0
+   },
+   {
+    "f": "docs/spikes/agent-commerce-standards.md",
+    "a": 221,
+    "d": 0
+   }
+  ]
+ },
+ "f3805c7bd1bf6d4ac3d32bfb23d3227a6b19dcdf": {
+  "team": "NodeXchange",
+  "repo": "RomerTamayo/stellar-build",
+  "author": "RomerTamayo",
+  "date": "2026-10-02T22:12:20Z",
+  "message": "Add the NodeXchange product page",
+  "parents": 1,
+  "files": [
+   {
+    "f": "apps/site/index.html",
+    "a": 21,
+    "d": 0
+   },
+   {
+    "f": "apps/site/package.json",
+    "a": 28,
+    "d": 0
+   },
+   {
+    "f": "apps/site/public/apple-touch-icon.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "apps/site/public/demo-qr.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "apps/site/public/favicon-32.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "apps/site/public/favicon.ico",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "apps/site/public/icon-512.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "apps/site/public/logoNodeXchange.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "apps/site/public/logos/github.svg",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "apps/site/public/logos/stellar.svg",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "apps/site/public/screens/chat-deal-crop.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "apps/site/public/screens/chat-deal.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "apps/site/public/screens/external-crop.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "apps/site/public/screens/my-qr-crop.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "apps/site/public/screens/pay-menu-crop.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "apps/site/public/screens/request-crop.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "apps/site/public/screens/request.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "apps/site/src/App.tsx",
+    "a": 293,
+    "d": 0
+   },
+   {
+    "f": "apps/site/src/Reveal.tsx",
+    "a": 37,
+    "d": 0
+   },
+   {
+    "f": "apps/site/src/content.ts",
+    "a": 156,
+    "d": 0
+   },
+   {
+    "f": "apps/site/src/index.css",
+    "a": 86,
+    "d": 0
+   },
+   {
+    "f": "apps/site/src/main.tsx",
+    "a": 11,
+    "d": 0
+   },
+   {
+    "f": "apps/site/tsconfig.json",
+    "a": 11,
+    "d": 0
+   },
+   {
+    "f": "apps/site/vite.config.ts",
+    "a": 7,
+    "d": 0
+   },
+   {
+    "f": "package.json",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "pnpm-lock.yaml",
+    "a": 42,
+    "d": 0
+   }
+  ]
+ },
+ "323b45eaa8edb14528b3d794299e09afe7242b02": {
+  "team": "NodeXchange",
+  "repo": "RomerTamayo/stellar-build",
+  "author": "RomerTamayo",
+  "date": "2026-10-02T21:48:20Z",
+  "message": "Add a README explaining what NodeXchange does",
+  "parents": 1,
+  "files": [
+   {
+    "f": "README.md",
+    "a": 74,
+    "d": 0
+   }
+  ]
+ },
+ "12bc0045f3b20ab09b7b78405f282cb3e83134cf": {
+  "team": "NodeXchange",
+  "repo": "RomerTamayo/stellar-build",
+  "author": "RomerTamayo",
+  "date": "2026-10-02T21:35:42Z",
+  "message": "Keep the app on screen with the mobile keyboard and add the logo",
+  "parents": 1,
+  "files": [
+   {
+    "f": "apps/web/index.html",
+    "a": 11,
+    "d": 1
+   },
+   {
+    "f": "apps/web/public/apple-touch-icon.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "apps/web/public/favicon-32.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "apps/web/public/favicon.ico",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "apps/web/public/icon-192.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "apps/web/public/icon-512.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "apps/web/public/logoNodeXchange.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "apps/web/public/manifest.webmanifest",
+    "a": 13,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/components/Messenger.tsx",
+    "a": 11,
+    "d": 1
+   },
+   {
+    "f": "apps/web/src/components/ui.tsx",
+    "a": 5,
+    "d": 2
+   },
+   {
+    "f": "apps/web/src/main.tsx",
+    "a": 15,
+    "d": 0
+   }
+  ]
+ },
+ "4ac43c9a7cb994daded078e8041475208d4d8544": {
+  "team": "NodeXchange",
+  "repo": "RomerTamayo/stellar-build",
+  "author": "RomerTamayo",
+  "date": "2026-10-02T21:02:07Z",
+  "message": "Add saved contacts, QR invites and a QR scanner",
+  "parents": 1,
+  "files": [
+   {
+    "f": "apps/web/package.json",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/components/Contacts.tsx",
+    "a": 184,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/components/ExternalMethods.tsx",
+    "a": 1,
+    "d": 10
+   },
+   {
+    "f": "apps/web/src/components/Messenger.tsx",
+    "a": 91,
+    "d": 9
+   },
+   {
+    "f": "apps/web/src/components/ui.tsx",
+    "a": 10,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/lib/i18n.ts",
+    "a": 43,
+    "d": 2
+   },
+   {
+    "f": "apps/web/src/lib/invite.ts",
+    "a": 28,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/lib/store.ts",
+    "a": 9,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/lib/useChats.ts",
+    "a": 60,
+    "d": 7
+   },
+   {
+    "f": "pnpm-lock.yaml",
+    "a": 8,
+    "d": 0
+   }
+  ]
+ },
+ "cf9932c36afb4c2b516454c1f4967d0cbca98f95": {
+  "team": "NodeXchange",
+  "repo": "RomerTamayo/stellar-build",
+  "author": "RomerTamayo",
+  "date": "2026-10-02T19:40:18Z",
+  "message": "Add external payment methods and improve the mobile layout",
+  "parents": 1,
+  "files": [
+   {
+    "f": "apps/web/index.html",
+    "a": 3,
+    "d": 2
+   },
+   {
+    "f": "apps/web/package.json",
+    "a": 2,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/components/ExternalMethods.tsx",
+    "a": 462,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/components/Messenger.tsx",
+    "a": 116,
+    "d": 21
+   },
+   {
+    "f": "apps/web/src/components/ui.tsx",
+    "a": 6,
+    "d": 5
+   },
+   {
+    "f": "apps/web/src/index.css",
+    "a": 14,
+    "d": 2
+   },
+   {
+    "f": "apps/web/src/lib/i18n.ts",
+    "a": 123,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/lib/store.ts",
+    "a": 9,
+    "d": 1
+   },
+   {
+    "f": "apps/web/src/lib/useChats.ts",
+    "a": 20,
+    "d": 3
+   },
+   {
+    "f": "packages/core/package.json",
+    "a": 2,
+    "d": 1
+   },
+   {
+    "f": "packages/core/scripts/e2e-extpay.ts",
+    "a": 78,
+    "d": 0
+   },
+   {
+    "f": "packages/core/src/extpay.ts",
+    "a": 145,
+    "d": 0
+   },
+   {
+    "f": "packages/core/src/index.ts",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "packages/core/src/protocol.ts",
+    "a": 45,
+    "d": 11
+   },
+   {
+    "f": "packages/core/src/session.ts",
+    "a": 19,
+    "d": 7
+   },
+   {
+    "f": "packages/core/src/stellar.ts",
+    "a": 14,
+    "d": 0
+   },
+   {
+    "f": "packages/core/test/extpay.test.ts",
+    "a": 88,
+    "d": 0
+   },
+   {
+    "f": "pnpm-lock.yaml",
+    "a": 13,
+    "d": 0
+   },
+   {
+    "f": "supabase/functions/nx/index.ts",
+    "a": 26,
+    "d": 1
+   },
+   {
+    "f": "supabase/migrations/20261002180000_nx_methods.sql",
+    "a": 5,
+    "d": 0
+   }
+  ]
+ },
+ "c428894c554c184bd42a80127a8a58ae22b2d8d4": {
+  "team": "Impulso Stellar",
+  "repo": "orlando-vazquez-career/stellar-impulse",
+  "author": "orlando-vazquez-career",
+  "date": "2026-10-02T22:33:42Z",
+  "message": "build: add root start script for the Railway server deploy",
+  "parents": 1,
+  "files": [
+   {
+    "f": "package.json",
+    "a": 1,
+    "d": 0
+   }
+  ]
+ },
+ "f054bd4df4c2fa5d246529a7ca2a8fdf3d1f7b29": {
+  "team": "Impulso Stellar",
+  "repo": "orlando-vazquez-career/stellar-impulse",
+  "author": "orlando-vazquez-career",
+  "date": "2026-10-02T22:27:45Z",
+  "message": "feat(web): sign in with server accounts and add public deploy config",
+  "parents": 1,
+  "files": [
+   {
+    "f": ".gitignore",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": ".railwayignore",
+    "a": 13,
+    "d": 0
+   },
+   {
+    "f": ".vercelignore",
+    "a": 12,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/auth/client.ts",
+    "a": 54,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/login/LoginForm.tsx",
+    "a": 22,
+    "d": 1
+   },
+   {
+    "f": "apps/web/src/login/LoginScreen.tsx",
+    "a": 3,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/login/login.css",
+    "a": 11,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/visual/VisualPrototypeApp.tsx",
+    "a": 36,
+    "d": 1
+   },
+   {
+    "f": "apps/web/src/visual/access/AccessScreen.tsx",
+    "a": 28,
+    "d": 2
+   },
+   {
+    "f": "apps/web/src/visual/i18n.tsx",
+    "a": 18,
+    "d": 2
+   },
+   {
+    "f": "apps/web/src/visual/menu/CommandCenter.tsx",
+    "a": 4,
+    "d": 2
+   },
+   {
+    "f": "docs/deployment.md",
+    "a": 53,
+    "d": 0
+   },
+   {
+    "f": "railway.json",
+    "a": 14,
+    "d": 0
+   },
+   {
+    "f": "tests/e2e/auth.spec.ts",
+    "a": 56,
+    "d": 0
+   },
+   {
+    "f": "vercel.json",
+    "a": 10,
+    "d": 0
+   }
+  ]
+ },
+ "4a43d2273a4f8ea54664699176c554854612c590": {
+  "team": "Impulso Stellar",
+  "repo": "orlando-vazquez-career/stellar-impulse",
+  "author": "Ismaelolazo",
+  "date": "2026-10-02T22:17:53Z",
+  "message": "Merge pull request #24 from orlando-vazquez-career/test-integration",
+  "parents": 2,
+  "files": [
+   {
+    "f": "apps/web/package.json",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/login/LoginForm.tsx",
+    "a": 148,
+    "d": 55
+   },
+   {
+    "f": "apps/web/src/login/LoginScreen.tsx",
+    "a": 35,
+    "d": 13
+   },
+   {
+    "f": "apps/web/src/login/login.css",
+    "a": 68,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/login/pilot-alias.ts",
+    "a": 30,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/login/sound.ts",
+    "a": 11,
+    "d": 5
+   },
+   {
+    "f": "apps/web/src/main.tsx",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "apps/web/src/visual/VisualPrototypeApp.tsx",
+    "a": 8,
+    "d": 30
+   },
+   {
+    "f": "apps/web/src/visual/access/AccessScreen.tsx",
+    "a": 38,
+    "d": 29
+   },
+   {
+    "f": "apps/web/src/visual/hangar/HangarScreen.tsx",
+    "a": 187,
+    "d": 37
+   },
+   {
+    "f": "apps/web/src/visual/hangar/hangar.css",
+    "a": 802,
+    "d": 66
+   },
+   {
+    "f": "apps/web/src/visual/lobby/PreparationLobby.tsx",
+    "a": 299,
+    "d": 75
+   },
+   {
+    "f": "apps/web/src/visual/lobby/lobby.css",
+    "a": 851,
+    "d": 86
+   },
+   {
+    "f": "apps/web/src/visual/menu/CommandCenter.tsx",
+    "a": 126,
+    "d": 24
+   },
+   {
+    "f": "apps/web/src/visual/menu/command-space.ts",
+    "a": 380,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/visual/settings/SettingsScreen.tsx",
+    "a": 37,
+    "d": 4
+   },
+   {
+    "f": "apps/web/src/visual/settings/settings.css",
+    "a": 119,
+    "d": 38
+   },
+   {
+    "f": "apps/web/src/visual/visual.css",
+    "a": 363,
+    "d": 17
+   },
+   {
+    "f": "apps/web/vite.config.ts",
+    "a": 12,
+    "d": 0
+   },
+   {
+    "f": "tests/e2e/helpers.ts",
+    "a": 1,
+    "d": 2
+   },
+   {
+    "f": "tests/e2e/match.spec.ts",
+    "a": 20,
+    "d": 1
+   },
+   {
+    "f": "tests/e2e/training.spec.ts",
+    "a": 1,
+    "d": 1
+   }
+  ]
+ },
+ "eb270eaaa76854d8cb70e1fc78a777bb148bee6d": {
+  "team": "Impulso Stellar",
+  "repo": "orlando-vazquez-career/stellar-impulse",
+  "author": "orlando-vazquez-career",
+  "date": "2026-10-02T22:12:55Z",
+  "message": "Merge main into PR24 and align settings with the space interface",
+  "parents": 2,
+  "files": [
+   {
+    "f": "apps/server/src/training-room.ts",
+    "a": 9,
+    "d": 4
+   },
+   {
+    "f": "apps/web/package.json",
+    "a": 2,
+    "d": 1
+   },
+   {
+    "f": "apps/web/src/login/LoginForm.tsx",
+    "a": 5,
+    "d": 2
+   },
+   {
+    "f": "apps/web/src/login/LoginScreen.tsx",
+    "a": 0,
+    "d": 2
+   },
+   {
+    "f": "apps/web/src/login/sound.ts",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/login/use-login-music.ts",
+    "a": 0,
+    "d": 30
+   },
+   {
+    "f": "apps/web/src/main.tsx",
+    "a": 1,
+    "d": 6
+   },
+   {
+    "f": "apps/web/src/visual/VisualPrototypeApp.tsx",
+    "a": 6,
+    "d": 3
+   },
+   {
+    "f": "apps/web/src/visual/game/GameplayScreen.tsx",
+    "a": 8,
+    "d": 4
+   },
+   {
+    "f": "apps/web/src/visual/game/Hud.tsx",
+    "a": 34,
+    "d": 20
+   },
+   {
+    "f": "apps/web/src/visual/game/phaser/MainScene.ts",
+    "a": 74,
+    "d": 28
+   },
+   {
+    "f": "apps/web/src/visual/game/phaser/PhaserBattlefield.tsx",
+    "a": 2,
+    "d": 1
+   },
+   {
+    "f": "apps/web/src/visual/game/phaser/isometric.ts",
+    "a": 5,
+    "d": 7
+   },
+   {
+    "f": "apps/web/src/visual/game/server-adapter.ts",
+    "a": 4,
+    "d": 3
+   },
+   {
+    "f": "apps/web/src/visual/hangar/hangar.css",
+    "a": 0,
+    "d": 2
+   },
+   {
+    "f": "apps/web/src/visual/lobby/PreparationLobby.tsx",
+    "a": 31,
+    "d": 5
+   },
+   {
+    "f": "apps/web/src/visual/lobby/lobby.css",
+    "a": 28,
+    "d": 6
+   },
+   {
+    "f": "apps/web/src/visual/map/SectorMapScreen.tsx",
+    "a": 3,
+    "d": 2
+   },
+   {
+    "f": "apps/web/src/visual/map/sector-map.test.ts",
+    "a": 18,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/visual/map/sector-map.ts",
+    "a": 51,
+    "d": 7
+   },
+   {
+    "f": "apps/web/src/visual/settings/SettingsScreen.tsx",
+    "a": 37,
+    "d": 4
+   },
+   {
+    "f": "apps/web/src/visual/settings/settings.css",
+    "a": 119,
+    "d": 38
+   },
+   {
+    "f": "packages/sim/src/index.ts",
+    "a": 23,
+    "d": 7
+   },
+   {
+    "f": "packages/sim/src/mapas/espiral.test.ts",
+    "a": 31,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/mapas/espiral.ts",
+    "a": 151,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/mapas/sector-01.test.ts",
+    "a": 3,
+    "d": 3
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/LEEME.md",
+    "a": 77,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/assets-juego/atlas.json",
+    "a": 28,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/assets-juego/naves/fragata_atlas.json",
+    "a": 21,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/assets-juego/naves/fragata_naves.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/assets-juego/naves/fragata_preview.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/assets-juego/naves/fragata_sombras.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/assets-juego/niebla.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/assets-juego/pincel_vision.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/assets-juego/portal_activo.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/assets-juego/portal_apertura.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/espiral-estelar.json",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/espiral-estelar.tiled-project",
+    "a": 171,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/espiral-estelar.tmj",
+    "a": 1257,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/espiral-estelar.tmx",
+    "a": 315,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/herramientas/assets.py",
+    "a": 230,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/herramientas/assets_bases.py",
+    "a": 178,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/herramientas/assets_runtime.py",
+    "a": 96,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/herramientas/asteroides.py",
+    "a": 95,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/herramientas/catalogo.py",
+    "a": 24,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/herramientas/diseno_espiral.py",
+    "a": 254,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/herramientas/escudo.py",
+    "a": 50,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/herramientas/generar_kit.py",
+    "a": 77,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/herramientas/mapa_tiled.py",
+    "a": 161,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/herramientas/naves.py",
+    "a": 292,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/herramientas/naves_destruidas.py",
+    "a": 165,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/herramientas/tilesets.py",
+    "a": 131,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/herramientas/vista_previa.py",
+    "a": 154,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/logica/client/fog-renderer.ts",
+    "a": 62,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/logica/client/iso-projection.ts",
+    "a": 37,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/logica/client/picking.ts",
+    "a": 59,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/logica/client/portal-view.ts",
+    "a": 59,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/logica/package.json",
+    "a": 15,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/logica/src/binary-heap.ts",
+    "a": 54,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/logica/src/click-targets.ts",
+    "a": 71,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/logica/src/cycle.ts",
+    "a": 43,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/logica/src/fog-of-war.ts",
+    "a": 83,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/logica/src/game-map.ts",
+    "a": 85,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/logica/src/grid.ts",
+    "a": 70,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/logica/src/index.ts",
+    "a": 11,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/logica/src/line-of-sight.ts",
+    "a": 29,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/logica/src/movement.ts",
+    "a": 164,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/logica/src/occupancy.ts",
+    "a": 39,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/logica/src/pathfinding.ts",
+    "a": 117,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/logica/src/terrain.ts",
+    "a": 33,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/logica/src/tiled-loader.ts",
+    "a": 145,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/logica/test/client.test.ts",
+    "a": 26,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/logica/test/espiral-estelar.test.ts",
+    "a": 38,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/logica/test/fog.test.ts",
+    "a": 42,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/logica/test/helpers.ts",
+    "a": 25,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/logica/test/movement.test.ts",
+    "a": 68,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/logica/test/pathfinding.test.ts",
+    "a": 40,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/logica/test/rules.test.ts",
+    "a": 44,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/logica/test/tiled-loader.test.ts",
+    "a": 38,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/logica/tsconfig.json",
+    "a": 20,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/tilesets/asteroides.tsx",
+    "a": 13,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/tilesets/estructuras.tsx",
+    "a": 34,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/tilesets/img/agujero.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/tilesets/img/asteroides.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/tilesets/img/base_enemiga.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/tilesets/img/base_jugador.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/tilesets/img/escudo.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/tilesets/img/logica.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/tilesets/img/nave_destruida_1.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/tilesets/img/nave_destruida_2.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/tilesets/img/pilar.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/tilesets/img/pronexo.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/tilesets/img/recurso.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/tilesets/img/restos_nave.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/tilesets/img/suelo.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/tilesets/logica.tsx",
+    "a": 10,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/tilesets/suelo.tsx",
+    "a": 16,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/vistas-previas/mapa_completo.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/vistas-previas/mapa_con_niebla.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/vistas-previas/minimapa_logica.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/tsconfig.json",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "scripts/check-boundaries.mjs",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "tests/e2e/helpers.ts",
+    "a": 6,
+    "d": 0
+   },
+   {
+    "f": "tests/e2e/match.spec.ts",
+    "a": 34,
+    "d": 5
+   },
+   {
+    "f": "tests/e2e/training.spec.ts",
+    "a": 18,
+    "d": 4
+   },
+   {
+    "f": "tests/e2e/visual.spec.ts",
+    "a": 12,
+    "d": 11
+   }
+  ]
+ },
+ "1064f8f1cf2aaa0c0297d212d0857fbefb7d8e1b": {
+  "team": "Impulso Stellar",
+  "repo": "orlando-vazquez-career/stellar-impulse",
+  "author": "orlando-vazquez-career",
+  "date": "2026-10-02T21:57:58Z",
+  "message": "Merge pull request #23 from orlando-vazquez-career/feat/integrar-espiral-diego",
+  "parents": 2,
+  "files": [
+   {
+    "f": "apps/server/src/training-room.ts",
+    "a": 9,
+    "d": 4
+   },
+   {
+    "f": "apps/web/src/visual/VisualPrototypeApp.tsx",
+    "a": 4,
+    "d": 2
+   },
+   {
+    "f": "apps/web/src/visual/game/GameplayScreen.tsx",
+    "a": 8,
+    "d": 4
+   },
+   {
+    "f": "apps/web/src/visual/game/Hud.tsx",
+    "a": 34,
+    "d": 20
+   },
+   {
+    "f": "apps/web/src/visual/game/phaser/MainScene.ts",
+    "a": 74,
+    "d": 28
+   },
+   {
+    "f": "apps/web/src/visual/game/phaser/PhaserBattlefield.tsx",
+    "a": 2,
+    "d": 1
+   },
+   {
+    "f": "apps/web/src/visual/game/phaser/isometric.ts",
+    "a": 5,
+    "d": 7
+   },
+   {
+    "f": "apps/web/src/visual/game/server-adapter.ts",
+    "a": 4,
+    "d": 3
+   },
+   {
+    "f": "apps/web/src/visual/lobby/PreparationLobby.tsx",
+    "a": 18,
+    "d": 4
+   },
+   {
+    "f": "apps/web/src/visual/lobby/lobby.css",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/visual/map/SectorMapScreen.tsx",
+    "a": 3,
+    "d": 2
+   },
+   {
+    "f": "apps/web/src/visual/map/sector-map.test.ts",
+    "a": 18,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/visual/map/sector-map.ts",
+    "a": 51,
+    "d": 7
+   },
+   {
+    "f": "packages/sim/src/index.ts",
+    "a": 23,
+    "d": 7
+   },
+   {
+    "f": "packages/sim/src/mapas/espiral.test.ts",
+    "a": 31,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/mapas/espiral.ts",
+    "a": 151,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/mapas/sector-01.test.ts",
+    "a": 3,
+    "d": 3
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/LEEME.md",
+    "a": 77,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/assets-juego/atlas.json",
+    "a": 28,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/assets-juego/naves/fragata_atlas.json",
+    "a": 21,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/assets-juego/naves/fragata_naves.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/assets-juego/naves/fragata_preview.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/assets-juego/naves/fragata_sombras.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/assets-juego/niebla.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/assets-juego/pincel_vision.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/assets-juego/portal_activo.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/assets-juego/portal_apertura.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/espiral-estelar.json",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/espiral-estelar.tiled-project",
+    "a": 171,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/espiral-estelar.tmj",
+    "a": 1257,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/espiral-estelar.tmx",
+    "a": 315,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/herramientas/assets.py",
+    "a": 230,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/herramientas/assets_bases.py",
+    "a": 178,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/herramientas/assets_runtime.py",
+    "a": 96,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/herramientas/asteroides.py",
+    "a": 95,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/herramientas/catalogo.py",
+    "a": 24,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/herramientas/diseno_espiral.py",
+    "a": 254,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/herramientas/escudo.py",
+    "a": 50,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/herramientas/generar_kit.py",
+    "a": 77,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/herramientas/mapa_tiled.py",
+    "a": 161,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/herramientas/naves.py",
+    "a": 292,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/herramientas/naves_destruidas.py",
+    "a": 165,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/herramientas/tilesets.py",
+    "a": 131,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/herramientas/vista_previa.py",
+    "a": 154,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/logica/client/fog-renderer.ts",
+    "a": 62,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/logica/client/iso-projection.ts",
+    "a": 37,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/logica/client/picking.ts",
+    "a": 59,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/logica/client/portal-view.ts",
+    "a": 59,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/logica/package.json",
+    "a": 15,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/logica/src/binary-heap.ts",
+    "a": 54,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/logica/src/click-targets.ts",
+    "a": 71,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/logica/src/cycle.ts",
+    "a": 43,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/logica/src/fog-of-war.ts",
+    "a": 83,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/logica/src/game-map.ts",
+    "a": 85,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/logica/src/grid.ts",
+    "a": 70,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/logica/src/index.ts",
+    "a": 11,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/logica/src/line-of-sight.ts",
+    "a": 29,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/logica/src/movement.ts",
+    "a": 164,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/logica/src/occupancy.ts",
+    "a": 39,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/logica/src/pathfinding.ts",
+    "a": 117,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/logica/src/terrain.ts",
+    "a": 33,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/logica/src/tiled-loader.ts",
+    "a": 145,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/logica/test/client.test.ts",
+    "a": 26,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/logica/test/espiral-estelar.test.ts",
+    "a": 38,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/logica/test/fog.test.ts",
+    "a": 42,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/logica/test/helpers.ts",
+    "a": 25,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/logica/test/movement.test.ts",
+    "a": 68,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/logica/test/pathfinding.test.ts",
+    "a": 40,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/logica/test/rules.test.ts",
+    "a": 44,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/logica/test/tiled-loader.test.ts",
+    "a": 38,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/logica/tsconfig.json",
+    "a": 20,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/tilesets/asteroides.tsx",
+    "a": 13,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/tilesets/estructuras.tsx",
+    "a": 34,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/tilesets/img/agujero.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/tilesets/img/asteroides.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/tilesets/img/base_enemiga.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/tilesets/img/base_jugador.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/tilesets/img/escudo.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/tilesets/img/logica.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/tilesets/img/nave_destruida_1.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/tilesets/img/nave_destruida_2.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/tilesets/img/pilar.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/tilesets/img/pronexo.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/tilesets/img/recurso.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/tilesets/img/restos_nave.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/tilesets/img/suelo.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/tilesets/logica.tsx",
+    "a": 10,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/tilesets/suelo.tsx",
+    "a": 16,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/vistas-previas/mapa_completo.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/vistas-previas/mapa_con_niebla.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/vistas-previas/minimapa_logica.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/tsconfig.json",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "scripts/check-boundaries.mjs",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "tests/e2e/match.spec.ts",
+    "a": 3,
+    "d": 3
+   },
+   {
+    "f": "tests/e2e/training.spec.ts",
+    "a": 17,
+    "d": 3
+   }
+  ]
+ },
+ "2e3b87a81087daf458045fe881cba5d66bd76ff1": {
+  "team": "Impulso Stellar",
+  "repo": "orlando-vazquez-career/stellar-impulse",
+  "author": "srllamadev",
+  "date": "2026-10-02T21:12:37Z",
+  "message": "feat(hangar): apply cyberpunk space theme and sound synthesis to fleet hangar",
+  "parents": 1,
+  "files": [
+   {
+    "f": "apps/web/src/visual/hangar/HangarScreen.tsx",
+    "a": 187,
+    "d": 37
+   },
+   {
+    "f": "apps/web/src/visual/hangar/hangar.css",
+    "a": 804,
+    "d": 66
+   }
+  ]
+ },
+ "8ba0ef60d96a099cb112728d38757bb8596b4299": {
+  "team": "Impulso Stellar",
+  "repo": "orlando-vazquez-career/stellar-impulse",
+  "author": "Hans3010",
+  "date": "2026-10-02T20:59:40Z",
+  "message": "fix(web): batch minimap terrain to avoid stalled match updates",
+  "parents": 1,
+  "files": [
+   {
+    "f": "apps/web/src/visual/game/Hud.tsx",
+    "a": 9,
+    "d": 7
+   }
+  ]
+ },
+ "49a61625afab0bab7efa08257de9e2bc690d5ca3": {
+  "team": "Impulso Stellar",
+  "repo": "orlando-vazquez-career/stellar-impulse",
+  "author": "srllamadev",
+  "date": "2026-10-02T20:49:27Z",
+  "message": "feat(visual): estilizar pantalla de Preparación de Partida con estética cyberpunk espacial y nebulosas verdes",
+  "parents": 1,
+  "files": [
+   {
+    "f": "apps/web/src/visual/lobby/PreparationLobby.tsx",
+    "a": 279,
+    "d": 67
+   },
+   {
+    "f": "apps/web/src/visual/lobby/lobby.css",
+    "a": 829,
+    "d": 85
+   }
+  ]
+ },
+ "e62f99be86a10fadeff6614c28724ff7f4efdb25": {
+  "team": "Impulso Stellar",
+  "repo": "orlando-vazquez-career/stellar-impulse",
+  "author": "Hans3010",
+  "date": "2026-10-02T20:37:46Z",
+  "message": "Merge main (login de Yamil) en la integración del Espiral Estelar",
+  "parents": 2,
+  "files": [
+   {
+    "f": "apps/web/package.json",
+    "a": 2,
+    "d": 1
+   },
+   {
+    "f": "apps/web/src/login/GlitchPanel.tsx",
+    "a": 35,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/login/LoginForm.tsx",
+    "a": 109,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/login/LoginScreen.tsx",
+    "a": 85,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/login/login-state.test.ts",
+    "a": 25,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/login/login-state.ts",
+    "a": 29,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/login/login.css",
+    "a": 452,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/login/scene/asteroids.ts",
+    "a": 239,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/login/scene/background.ts",
+    "a": 90,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/login/scene/index.ts",
+    "a": 148,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/login/scene/particles.ts",
+    "a": 186,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/login/scene/post.ts",
+    "a": 62,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/login/scene/rng.ts",
+    "a": 25,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/login/scene/view.ts",
+    "a": 12,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/login/scene/wreck.ts",
+    "a": 958,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/login/sound.ts",
+    "a": 90,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/visual/VisualPrototypeApp.tsx",
+    "a": 32,
+    "d": 5
+   },
+   {
+    "f": "apps/web/src/visual/lobby/PreparationLobby.tsx",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "docs/design.md",
+    "a": 18,
+    "d": 2
+   },
+   {
+    "f": "pnpm-lock.yaml",
+    "a": 3,
+    "d": 0
+   },
+   {
+    "f": "tests/e2e/helpers.ts",
+    "a": 7,
+    "d": 0
+   },
+   {
+    "f": "tests/e2e/match.spec.ts",
+    "a": 12,
+    "d": 2
+   },
+   {
+    "f": "tests/e2e/visual.spec.ts",
+    "a": 12,
+    "d": 11
+   }
+  ]
+ },
+ "d347fd8cde83fdb45a172749a5fc5b4107cfc003": {
+  "team": "Impulso Stellar",
+  "repo": "orlando-vazquez-career/stellar-impulse",
+  "author": "Hans3010",
+  "date": "2026-10-02T20:33:32Z",
+  "message": "Merge PR #21 (Espiral Estelar de Diego) e integrarlo con el cliente",
+  "parents": 2,
+  "files": [
+   {
+    "f": "apps/server/src/training-room.ts",
+    "a": 9,
+    "d": 4
+   },
+   {
+    "f": "apps/web/src/visual/VisualPrototypeApp.tsx",
+    "a": 4,
+    "d": 2
+   },
+   {
+    "f": "apps/web/src/visual/game/GameplayScreen.tsx",
+    "a": 8,
+    "d": 4
+   },
+   {
+    "f": "apps/web/src/visual/game/Hud.tsx",
+    "a": 30,
+    "d": 18
+   },
+   {
+    "f": "apps/web/src/visual/game/phaser/MainScene.ts",
+    "a": 74,
+    "d": 28
+   },
+   {
+    "f": "apps/web/src/visual/game/phaser/PhaserBattlefield.tsx",
+    "a": 2,
+    "d": 1
+   },
+   {
+    "f": "apps/web/src/visual/game/phaser/isometric.ts",
+    "a": 5,
+    "d": 7
+   },
+   {
+    "f": "apps/web/src/visual/game/server-adapter.ts",
+    "a": 4,
+    "d": 3
+   },
+   {
+    "f": "apps/web/src/visual/lobby/PreparationLobby.tsx",
+    "a": 18,
+    "d": 4
+   },
+   {
+    "f": "apps/web/src/visual/lobby/lobby.css",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/visual/map/SectorMapScreen.tsx",
+    "a": 3,
+    "d": 2
+   },
+   {
+    "f": "apps/web/src/visual/map/sector-map.test.ts",
+    "a": 18,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/visual/map/sector-map.ts",
+    "a": 51,
+    "d": 7
+   },
+   {
+    "f": "packages/sim/src/index.ts",
+    "a": 23,
+    "d": 7
+   },
+   {
+    "f": "packages/sim/src/mapas/espiral.test.ts",
+    "a": 31,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/mapas/espiral.ts",
+    "a": 151,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/mapas/sector-01.test.ts",
+    "a": 3,
+    "d": 3
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/LEEME.md",
+    "a": 77,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/assets-juego/atlas.json",
+    "a": 28,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/assets-juego/naves/fragata_atlas.json",
+    "a": 21,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/assets-juego/naves/fragata_naves.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/assets-juego/naves/fragata_preview.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/assets-juego/naves/fragata_sombras.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/assets-juego/niebla.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/assets-juego/pincel_vision.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/assets-juego/portal_activo.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/assets-juego/portal_apertura.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/espiral-estelar.json",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/espiral-estelar.tiled-project",
+    "a": 171,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/espiral-estelar.tmj",
+    "a": 1257,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/espiral-estelar.tmx",
+    "a": 315,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/herramientas/assets.py",
+    "a": 230,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/herramientas/assets_bases.py",
+    "a": 178,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/herramientas/assets_runtime.py",
+    "a": 96,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/herramientas/asteroides.py",
+    "a": 95,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/herramientas/catalogo.py",
+    "a": 24,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/herramientas/diseno_espiral.py",
+    "a": 254,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/herramientas/escudo.py",
+    "a": 50,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/herramientas/generar_kit.py",
+    "a": 77,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/herramientas/mapa_tiled.py",
+    "a": 161,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/herramientas/naves.py",
+    "a": 292,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/herramientas/naves_destruidas.py",
+    "a": 165,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/herramientas/tilesets.py",
+    "a": 131,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/herramientas/vista_previa.py",
+    "a": 154,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/logica/client/fog-renderer.ts",
+    "a": 62,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/logica/client/iso-projection.ts",
+    "a": 37,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/logica/client/picking.ts",
+    "a": 59,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/logica/client/portal-view.ts",
+    "a": 59,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/logica/package.json",
+    "a": 15,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/logica/src/binary-heap.ts",
+    "a": 54,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/logica/src/click-targets.ts",
+    "a": 71,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/logica/src/cycle.ts",
+    "a": 43,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/logica/src/fog-of-war.ts",
+    "a": 83,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/logica/src/game-map.ts",
+    "a": 85,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/logica/src/grid.ts",
+    "a": 70,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/logica/src/index.ts",
+    "a": 11,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/logica/src/line-of-sight.ts",
+    "a": 29,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/logica/src/movement.ts",
+    "a": 164,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/logica/src/occupancy.ts",
+    "a": 39,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/logica/src/pathfinding.ts",
+    "a": 117,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/logica/src/terrain.ts",
+    "a": 33,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/logica/src/tiled-loader.ts",
+    "a": 145,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/logica/test/client.test.ts",
+    "a": 26,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/logica/test/espiral-estelar.test.ts",
+    "a": 38,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/logica/test/fog.test.ts",
+    "a": 42,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/logica/test/helpers.ts",
+    "a": 25,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/logica/test/movement.test.ts",
+    "a": 68,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/logica/test/pathfinding.test.ts",
+    "a": 40,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/logica/test/rules.test.ts",
+    "a": 44,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/logica/test/tiled-loader.test.ts",
+    "a": 38,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/logica/tsconfig.json",
+    "a": 20,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/tilesets/asteroides.tsx",
+    "a": 13,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/tilesets/estructuras.tsx",
+    "a": 34,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/tilesets/img/agujero.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/tilesets/img/asteroides.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/tilesets/img/base_enemiga.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/tilesets/img/base_jugador.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/tilesets/img/escudo.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/tilesets/img/logica.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/tilesets/img/nave_destruida_1.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/tilesets/img/nave_destruida_2.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/tilesets/img/pilar.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/tilesets/img/pronexo.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/tilesets/img/recurso.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/tilesets/img/restos_nave.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/tilesets/img/suelo.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/tilesets/logica.tsx",
+    "a": 10,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/tilesets/suelo.tsx",
+    "a": 16,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/vistas-previas/mapa_completo.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/vistas-previas/mapa_con_niebla.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/vistas-previas/minimapa_logica.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/tsconfig.json",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "scripts/check-boundaries.mjs",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "tests/e2e/match.spec.ts",
+    "a": 3,
+    "d": 3
+   },
+   {
+    "f": "tests/e2e/training.spec.ts",
+    "a": 17,
+    "d": 3
+   }
+  ]
+ },
+ "955a4da41a55af2cc09ffe11ce338f757f48c211": {
+  "team": "Impulso Stellar",
+  "repo": "orlando-vazquez-career/stellar-impulse",
+  "author": "srllamadev",
+  "date": "2026-10-02T20:16:14Z",
+  "message": "feat(visual): estilizar Centro de Mando con atmósfera espacial de nebulosas verdes y estética cyberpunk acorde al login",
+  "parents": 1,
+  "files": [
+   {
+    "f": "apps/web/src/visual/menu/CommandCenter.tsx",
+    "a": 126,
+    "d": 24
+   },
+   {
+    "f": "apps/web/src/visual/menu/command-space.ts",
+    "a": 380,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/visual/visual.css",
+    "a": 363,
+    "d": 17
+   }
+  ]
+ },
+ "8b765815c016db19c9b1860c1c10757da40cce24": {
+  "team": "Impulso Stellar",
+  "repo": "orlando-vazquez-career/stellar-impulse",
+  "author": "degosenpai211",
+  "date": "2026-10-02T19:39:35Z",
+  "message": "feat(map): espiral estelar como mapa de entrenamiento",
+  "parents": 1,
+  "files": [
+   {
+    "f": "packages/render-2d/src/index.ts",
+    "a": 2,
+    "d": 1
+   },
+   {
+    "f": "packages/sim/src/index.ts",
+    "a": 6,
+    "d": 4
+   },
+   {
+    "f": "packages/sim/src/mapas/espiral.test.ts",
+    "a": 31,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/mapas/espiral.ts",
+    "a": 151,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/mapas/sector-01.test.ts",
+    "a": 5,
+    "d": 5
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/LEEME.md",
+    "a": 77,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/assets-juego/atlas.json",
+    "a": 28,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/assets-juego/naves/fragata_atlas.json",
+    "a": 21,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/assets-juego/naves/fragata_naves.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/assets-juego/naves/fragata_preview.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/assets-juego/naves/fragata_sombras.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/assets-juego/niebla.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/assets-juego/pincel_vision.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/assets-juego/portal_activo.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/assets-juego/portal_apertura.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/espiral-estelar.json",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/espiral-estelar.tiled-project",
+    "a": 171,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/espiral-estelar.tmj",
+    "a": 1257,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/espiral-estelar.tmx",
+    "a": 315,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/herramientas/assets.py",
+    "a": 230,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/herramientas/assets_bases.py",
+    "a": 178,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/herramientas/assets_runtime.py",
+    "a": 96,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/herramientas/asteroides.py",
+    "a": 95,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/herramientas/catalogo.py",
+    "a": 24,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/herramientas/diseno_espiral.py",
+    "a": 254,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/herramientas/escudo.py",
+    "a": 50,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/herramientas/generar_kit.py",
+    "a": 77,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/herramientas/mapa_tiled.py",
+    "a": 161,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/herramientas/naves.py",
+    "a": 292,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/herramientas/naves_destruidas.py",
+    "a": 165,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/herramientas/tilesets.py",
+    "a": 131,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/herramientas/vista_previa.py",
+    "a": 154,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/logica/client/fog-renderer.ts",
+    "a": 62,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/logica/client/iso-projection.ts",
+    "a": 37,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/logica/client/picking.ts",
+    "a": 59,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/logica/client/portal-view.ts",
+    "a": 59,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/logica/package.json",
+    "a": 15,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/logica/src/binary-heap.ts",
+    "a": 54,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/logica/src/click-targets.ts",
+    "a": 71,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/logica/src/cycle.ts",
+    "a": 43,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/logica/src/fog-of-war.ts",
+    "a": 83,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/logica/src/game-map.ts",
+    "a": 85,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/logica/src/grid.ts",
+    "a": 70,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/logica/src/index.ts",
+    "a": 11,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/logica/src/line-of-sight.ts",
+    "a": 29,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/logica/src/movement.ts",
+    "a": 164,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/logica/src/occupancy.ts",
+    "a": 39,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/logica/src/pathfinding.ts",
+    "a": 117,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/logica/src/terrain.ts",
+    "a": 33,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/logica/src/tiled-loader.ts",
+    "a": 145,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/logica/test/client.test.ts",
+    "a": 26,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/logica/test/espiral-estelar.test.ts",
+    "a": 38,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/logica/test/fog.test.ts",
+    "a": 42,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/logica/test/helpers.ts",
+    "a": 25,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/logica/test/movement.test.ts",
+    "a": 68,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/logica/test/pathfinding.test.ts",
+    "a": 40,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/logica/test/rules.test.ts",
+    "a": 44,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/logica/test/tiled-loader.test.ts",
+    "a": 38,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/logica/tsconfig.json",
+    "a": 20,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/tilesets/asteroides.tsx",
+    "a": 13,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/tilesets/estructuras.tsx",
+    "a": 34,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/tilesets/img/agujero.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/tilesets/img/asteroides.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/tilesets/img/base_enemiga.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/tilesets/img/base_jugador.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/tilesets/img/escudo.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/tilesets/img/logica.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/tilesets/img/nave_destruida_1.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/tilesets/img/nave_destruida_2.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/tilesets/img/pilar.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/tilesets/img/pronexo.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/tilesets/img/recurso.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/tilesets/img/restos_nave.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/tilesets/img/suelo.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/tilesets/logica.tsx",
+    "a": 10,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/tilesets/suelo.tsx",
+    "a": 16,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/vistas-previas/mapa_completo.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/vistas-previas/mapa_con_niebla.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/vistas-previas/minimapa_logica.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/tsconfig.json",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "scripts/check-boundaries.mjs",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "tests/e2e/training.spec.ts",
+    "a": 0,
+    "d": 2
+   }
+  ]
+ },
+ "71183ce28364a2248727bc1e516b5d5ec681b3b5": {
+  "team": "Impulso Stellar",
+  "repo": "orlando-vazquez-career/stellar-impulse",
+  "author": "srllamadev",
+  "date": "2026-10-02T19:36:55Z",
+  "message": "fix(web): add workspace package aliases to vite.config.ts",
+  "parents": 1,
+  "files": [
+   {
+    "f": "apps/web/vite.config.ts",
+    "a": 12,
+    "d": 0
+   }
+  ]
+ },
+ "66223912dcc6934e83c8e1f8e9ce4887ee90c3de": {
+  "team": "Impulso Stellar",
+  "repo": "orlando-vazquez-career/stellar-impulse",
+  "author": "srllamadev",
+  "date": "2026-10-02T19:25:48Z",
+  "message": "Merge branch 'origin/test-login': integrar nuevo login cyberpunk como pantalla principal",
+  "parents": 2,
+  "files": [
+   {
+    "f": "apps/web/package.json",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/login/GlitchPanel.tsx",
+    "a": 35,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/login/LoginForm.tsx",
+    "a": 199,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/login/LoginScreen.tsx",
+    "a": 109,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/login/login-state.test.ts",
+    "a": 25,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/login/login-state.ts",
+    "a": 29,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/login/login.css",
+    "a": 520,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/login/pilot-alias.ts",
+    "a": 30,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/login/scene/asteroids.ts",
+    "a": 239,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/login/scene/background.ts",
+    "a": 90,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/login/scene/index.ts",
+    "a": 148,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/login/scene/particles.ts",
+    "a": 186,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/login/scene/post.ts",
+    "a": 62,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/login/scene/rng.ts",
+    "a": 25,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/login/scene/view.ts",
+    "a": 12,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/login/scene/wreck.ts",
+    "a": 958,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/login/sound.ts",
+    "a": 95,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/login/use-login-music.ts",
+    "a": 30,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/main.tsx",
+    "a": 6,
+    "d": 1
+   },
+   {
+    "f": "apps/web/src/visual/VisualPrototypeApp.tsx",
+    "a": 5,
+    "d": 1
+   },
+   {
+    "f": "apps/web/src/visual/access/AccessScreen.tsx",
+    "a": 38,
+    "d": 29
+   },
+   {
+    "f": "docs/design.md",
+    "a": 18,
+    "d": 2
+   },
+   {
+    "f": "pnpm-lock.yaml",
+    "a": 3,
+    "d": 0
+   }
+  ]
+ },
+ "436bd2a0d854359c7578d3fa67323e1394d4d459": {
+  "team": "BOLAR",
+  "repo": "bolarpay/bolar-app",
+  "author": "rudyramirezc",
+  "date": "2026-10-02T23:52:51Z",
+  "message": "add png banner",
+  "parents": 1,
+  "files": [
+   {
+    "f": "components/landing/hero-image.tsx",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "public/assets/landing/familias-bolar.png",
+    "a": 0,
+    "d": 0
+   }
+  ]
+ },
+ "453fdd982927325f812e37a7a4f6c6b1426f2148": {
+  "team": "BOLAR",
+  "repo": "bolarpay/bolar-app",
+  "author": "sass3r",
+  "date": "2026-10-02T22:30:44Z",
+  "message": "Merge pull request #1 from bolarpay/feat/is-authenticated",
+  "parents": 2,
+  "files": [
+   {
+    "f": "CLAUDE.md",
+    "a": 13,
+    "d": 7
+   },
+   {
+    "f": "app/layout.tsx",
+    "a": 4,
+    "d": 1
+   },
+   {
+    "f": "app/page.tsx",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "app/pollar-app.tsx",
+    "a": 2,
+    "d": 4
+   },
+   {
+    "f": "app/providers.tsx",
+    "a": 24,
+    "d": 0
+   },
+   {
+    "f": "components/landing/gated-calculator-client.tsx",
+    "a": 11,
+    "d": 0
+   },
+   {
+    "f": "components/landing/gated-calculator.tsx",
+    "a": 12,
+    "d": 0
+   },
+   {
+    "f": "components/landing/header-wallet.tsx",
+    "a": 9,
+    "d": 0
+   },
+   {
+    "f": "components/landing/hero-image.tsx",
+    "a": 14,
+    "d": 0
+   },
+   {
+    "f": "components/landing/landing-header.tsx",
+    "a": 16,
+    "d": 13
+   },
+   {
+    "f": "components/remittance/remittance-flow.tsx",
+    "a": 2,
+    "d": 3
+   },
+   {
+    "f": "cursor.md",
+    "a": 11,
+    "d": 5
+   },
+   {
+    "f": "public/assets/landing/familias-bolar.jpg",
+    "a": 0,
+    "d": 0
+   }
+  ]
+ },
+ "a258ab8f1a1b2e2c2eb6ccae51476ebf1145e2c7": {
+  "team": "BOLAR",
+  "repo": "bolarpay/bolar-app",
+  "author": "rudyramirezc",
+  "date": "2026-10-02T22:29:10Z",
+  "message": "add wallet button to landing",
+  "parents": 1,
+  "files": [
+   {
+    "f": "CLAUDE.md",
+    "a": 13,
+    "d": 7
+   },
+   {
+    "f": "app/layout.tsx",
+    "a": 4,
+    "d": 1
+   },
+   {
+    "f": "app/page.tsx",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "app/pollar-app.tsx",
+    "a": 2,
+    "d": 4
+   },
+   {
+    "f": "app/providers.tsx",
+    "a": 24,
+    "d": 0
+   },
+   {
+    "f": "components/landing/gated-calculator-client.tsx",
+    "a": 11,
+    "d": 0
+   },
+   {
+    "f": "components/landing/gated-calculator.tsx",
+    "a": 12,
+    "d": 0
+   },
+   {
+    "f": "components/landing/header-wallet.tsx",
+    "a": 9,
+    "d": 0
+   },
+   {
+    "f": "components/landing/hero-image.tsx",
+    "a": 14,
+    "d": 0
+   },
+   {
+    "f": "components/landing/landing-header.tsx",
+    "a": 16,
+    "d": 13
+   },
+   {
+    "f": "components/remittance/remittance-flow.tsx",
+    "a": 2,
+    "d": 3
+   },
+   {
+    "f": "cursor.md",
+    "a": 11,
+    "d": 5
+   },
+   {
+    "f": "public/assets/landing/familias-bolar.jpg",
+    "a": 0,
+    "d": 0
+   }
+  ]
+ },
+ "e99a0b999390338a08bb338ff3c766ecfc45acbb": {
+  "team": "TilcAI",
+  "repo": "TilcAI/tilcai-web",
+  "author": "JHAMILCALI",
+  "date": "2026-10-02T23:21:32Z",
+  "message": "feat: update image quality settings to include office building layer",
+  "parents": 1,
+  "files": [
+   {
+    "f": "next.config.ts",
+    "a": 2,
+    "d": 2
+   }
+  ]
+ },
+ "29240bada0e6586a2bcfd25429abc65bb3399a87": {
+  "team": "TilcAI",
+  "repo": "TilcAI/tilcai-web",
+  "author": "joseemen11",
+  "date": "2026-10-02T22:01:32Z",
+  "message": "Merge pull request #21 from TilcAI/feat/web-policy-agent-flow",
+  "parents": 2,
+  "files": [
+   {
+    "f": "package.json",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "pnpm-lock.yaml",
+    "a": 184,
+    "d": 0
+   },
+   {
+    "f": "src/app/globals.css",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "src/components/PolicyDemo.module.css",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "src/components/PolicyDemo.tsx",
+    "a": 22,
+    "d": 2
+   },
+   {
+    "f": "src/components/PolicyFlowVisualization.module.css",
+    "a": 318,
+    "d": 0
+   },
+   {
+    "f": "src/components/PolicyFlowVisualization.tsx",
+    "a": 374,
+    "d": 0
+   },
+   {
+    "f": "src/lib/i18n/en.ts",
+    "a": 17,
+    "d": 0
+   },
+   {
+    "f": "src/lib/i18n/es.ts",
+    "a": 17,
+    "d": 0
+   },
+   {
+    "f": "src/lib/i18n/types.ts",
+    "a": 17,
+    "d": 0
+   }
+  ]
+ },
+ "0aef90981558f8680a2076966e05c986da36cf05": {
+  "team": "TilcAI",
+  "repo": "TilcAI/tilcai-web",
+  "author": "joseemen11",
+  "date": "2026-10-02T22:01:01Z",
+  "message": "feat: add policy agent flow visualization",
+  "parents": 1,
+  "files": [
+   {
+    "f": "package.json",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "pnpm-lock.yaml",
+    "a": 184,
+    "d": 0
+   },
+   {
+    "f": "src/app/globals.css",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "src/components/PolicyDemo.module.css",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "src/components/PolicyDemo.tsx",
+    "a": 22,
+    "d": 2
+   },
+   {
+    "f": "src/components/PolicyFlowVisualization.module.css",
+    "a": 318,
+    "d": 0
+   },
+   {
+    "f": "src/components/PolicyFlowVisualization.tsx",
+    "a": 374,
+    "d": 0
+   },
+   {
+    "f": "src/lib/i18n/en.ts",
+    "a": 17,
+    "d": 0
+   },
+   {
+    "f": "src/lib/i18n/es.ts",
+    "a": 17,
+    "d": 0
+   },
+   {
+    "f": "src/lib/i18n/types.ts",
+    "a": 17,
+    "d": 0
+   }
+  ]
  }
 }
