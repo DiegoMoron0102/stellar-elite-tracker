@@ -1,5 +1,5 @@
 {
- "generado": "2026-10-03T15:25:39+00:00",
+ "generado": "2026-10-03T20:21:11+00:00",
  "programa": "Stellar Elite",
  "start_date": "2026-09-02T00:00:00Z",
  "teams": [
@@ -20,6 +20,25 @@
    "rank": 1
   },
   {
+   "name": "TilcAI",
+   "total": 406.92,
+   "per_capita": 135.64,
+   "commits": 61,
+   "pts_commits": 369.92,
+   "dias_activos": 5,
+   "contribuidores": [
+    "JHAMILCALI",
+    "OmarQV",
+    "SaulChoque",
+    "joseemen11"
+   ],
+   "tamano": 3,
+   "repos": [
+    "TilcAI/tilcai-web"
+   ],
+   "rank": 2
+  },
+  {
    "name": "Impulso Stellar",
    "total": 383.62,
    "per_capita": 383.62,
@@ -36,25 +55,6 @@
    "tamano": 1,
    "repos": [
     "orlando-vazquez-career/stellar-impulse"
-   ],
-   "rank": 2
-  },
-  {
-   "name": "TilcAI",
-   "total": 367.11,
-   "per_capita": 122.37,
-   "commits": 55,
-   "pts_commits": 335.11,
-   "dias_activos": 4,
-   "contribuidores": [
-    "JHAMILCALI",
-    "OmarQV",
-    "SaulChoque",
-    "joseemen11"
-   ],
-   "tamano": 3,
-   "repos": [
-    "TilcAI/tilcai-web"
    ],
    "rank": 3
   },
@@ -353,7 +353,8 @@
    "2026-09-27": 23.66,
    "2026-09-30": 72.42999999999999,
    "2026-10-01": 43.809999999999995,
-   "2026-10-02": 195.20999999999998
+   "2026-10-02": 195.20999999999998,
+   "2026-10-03": 34.81
   }
  },
  "serie_commits": {
@@ -434,10 +435,71 @@
    "2026-09-27": 3,
    "2026-09-30": 11,
    "2026-10-01": 8,
-   "2026-10-02": 33
+   "2026-10-02": 33,
+   "2026-10-03": 6
   }
  },
  "commits": [
+  {
+   "sha": "81231eb",
+   "team": "TilcAI",
+   "repo": "TilcAI/tilcai-web",
+   "author": "OmarQV",
+   "date": "2026-10-03T16:33:14Z",
+   "msg": "Merge pull request #22 from TilcAI/feat/web-office-hero",
+   "pts": 0.0,
+   "nota": "merge"
+  },
+  {
+   "sha": "e1c90e4",
+   "team": "TilcAI",
+   "repo": "TilcAI/tilcai-web",
+   "author": "OmarQV",
+   "date": "2026-10-03T16:32:05Z",
+   "msg": "merge: integrate main into feat/web-office-hero",
+   "pts": 0.0,
+   "nota": "merge"
+  },
+  {
+   "sha": "4394120",
+   "team": "TilcAI",
+   "repo": "TilcAI/tilcai-web",
+   "author": "OmarQV",
+   "date": "2026-10-03T16:29:58Z",
+   "msg": "fix(ui): resolve reveal script and image warnings",
+   "pts": 5.39,
+   "nota": ""
+  },
+  {
+   "sha": "7a076bd",
+   "team": "TilcAI",
+   "repo": "TilcAI/tilcai-web",
+   "author": "OmarQV",
+   "date": "2026-10-03T16:29:38Z",
+   "msg": "feat(agents): replace carousel with scroll-driven story",
+   "pts": 9.42,
+   "nota": ""
+  },
+  {
+   "sha": "bc68555",
+   "team": "TilcAI",
+   "repo": "TilcAI/tilcai-web",
+   "author": "OmarQV",
+   "date": "2026-10-03T16:29:08Z",
+   "msg": "feat(docs): refine policy demo and technical documentation",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "1833ebc",
+   "team": "TilcAI",
+   "repo": "TilcAI/tilcai-web",
+   "author": "OmarQV",
+   "date": "2026-10-03T16:28:44Z",
+   "msg": "feat(landing): create scroll-driven product narrative",
+   "pts": 10,
+   "nota": ""
+  },
   {
    "sha": "436bd2a",
    "team": "BOLAR",

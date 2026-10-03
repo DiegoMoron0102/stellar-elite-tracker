@@ -44236,5 +44236,380 @@
     "d": 0
    }
   ]
+ },
+ "81231eb56c58eec150f5c68d19fe157939c3f340": {
+  "team": "TilcAI",
+  "repo": "TilcAI/tilcai-web",
+  "author": "OmarQV",
+  "date": "2026-10-03T16:33:14Z",
+  "message": "Merge pull request #22 from TilcAI/feat/web-office-hero",
+  "parents": 2,
+  "files": [
+   {
+    "f": "next.config.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/app/[lang]/layout.tsx",
+    "a": 0,
+    "d": 5
+   },
+   {
+    "f": "src/app/agents.css",
+    "a": 4,
+    "d": 23
+   },
+   {
+    "f": "src/app/globals.css",
+    "a": 0,
+    "d": 1
+   },
+   {
+    "f": "src/components/AgentCatalog.tsx",
+    "a": 94,
+    "d": 86
+   },
+   {
+    "f": "src/components/AgentStory.module.css",
+    "a": 133,
+    "d": 0
+   },
+   {
+    "f": "src/components/DocsPage.tsx",
+    "a": 9,
+    "d": 1
+   },
+   {
+    "f": "src/components/DocsToc.tsx",
+    "a": 6,
+    "d": 2
+   },
+   {
+    "f": "src/components/FaqSection.tsx",
+    "a": 7,
+    "d": 4
+   },
+   {
+    "f": "src/components/HomePage.tsx",
+    "a": 0,
+    "d": 8
+   },
+   {
+    "f": "src/components/PolicyDemo.module.css",
+    "a": 43,
+    "d": 189
+   },
+   {
+    "f": "src/components/PolicyDemo.tsx",
+    "a": 156,
+    "d": 126
+   },
+   {
+    "f": "src/components/PolicyFlowVisualization.module.css",
+    "a": 7,
+    "d": 32
+   },
+   {
+    "f": "src/components/PolicyFlowVisualization.tsx",
+    "a": 76,
+    "d": 60
+   },
+   {
+    "f": "src/components/RevealObserver.tsx",
+    "a": 3,
+    "d": 4
+   },
+   {
+    "f": "src/components/SiteHeader.tsx",
+    "a": 0,
+    "d": 2
+   },
+   {
+    "f": "src/components/sections/BusinessesSection.tsx",
+    "a": 37,
+    "d": 14
+   },
+   {
+    "f": "src/components/sections/CommerceIllustration.tsx",
+    "a": 50,
+    "d": 0
+   },
+   {
+    "f": "src/components/sections/ControlSection.tsx",
+    "a": 32,
+    "d": 110
+   },
+   {
+    "f": "src/components/sections/CtaSection.tsx",
+    "a": 11,
+    "d": 20
+   },
+   {
+    "f": "src/components/sections/FlowSection.tsx",
+    "a": 37,
+    "d": 61
+   },
+   {
+    "f": "src/components/sections/HeroScene.tsx",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/components/sections/Narrative.module.css",
+    "a": 128,
+    "d": 0
+   },
+   {
+    "f": "src/components/sections/StackSection.tsx",
+    "a": 10,
+    "d": 24
+   },
+   {
+    "f": "src/components/sections/TilcAIOfficeParallax.tsx",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/components/sections/TilcAIParallax.tsx",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/components/useScrollStep.ts",
+    "a": 41,
+    "d": 0
+   },
+   {
+    "f": "src/lib/content/agents.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/lib/i18n/docs.en.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/lib/i18n/docs.es.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/lib/i18n/narrative.ts",
+    "a": 62,
+    "d": 0
+   }
+  ]
+ },
+ "e1c90e46e6fbcd0ccde7883b94f595b480ce9105": {
+  "team": "TilcAI",
+  "repo": "TilcAI/tilcai-web",
+  "author": "OmarQV",
+  "date": "2026-10-03T16:32:05Z",
+  "message": "merge: integrate main into feat/web-office-hero",
+  "parents": 2,
+  "files": [
+   {
+    "f": "next.config.ts",
+    "a": 1,
+    "d": 1
+   }
+  ]
+ },
+ "439412096af3c4c449da1991996cfe2a8d792fd7": {
+  "team": "TilcAI",
+  "repo": "TilcAI/tilcai-web",
+  "author": "OmarQV",
+  "date": "2026-10-03T16:29:58Z",
+  "message": "fix(ui): resolve reveal script and image warnings",
+  "parents": 1,
+  "files": [
+   {
+    "f": "next.config.ts",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "src/app/[lang]/layout.tsx",
+    "a": 0,
+    "d": 5
+   },
+   {
+    "f": "src/components/RevealObserver.tsx",
+    "a": 3,
+    "d": 4
+   },
+   {
+    "f": "src/components/sections/TilcAIOfficeParallax.tsx",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/components/sections/TilcAIParallax.tsx",
+    "a": 1,
+    "d": 1
+   }
+  ]
+ },
+ "7a076bde7d192aba56d5b17f81cf551d3891f582": {
+  "team": "TilcAI",
+  "repo": "TilcAI/tilcai-web",
+  "author": "OmarQV",
+  "date": "2026-10-03T16:29:38Z",
+  "message": "feat(agents): replace carousel with scroll-driven story",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/app/agents.css",
+    "a": 4,
+    "d": 23
+   },
+   {
+    "f": "src/components/AgentCatalog.tsx",
+    "a": 94,
+    "d": 86
+   },
+   {
+    "f": "src/components/AgentStory.module.css",
+    "a": 133,
+    "d": 0
+   },
+   {
+    "f": "src/lib/content/agents.ts",
+    "a": 1,
+    "d": 1
+   }
+  ]
+ },
+ "bc685552fc5076582d5a53f97c638b5abdf9522f": {
+  "team": "TilcAI",
+  "repo": "TilcAI/tilcai-web",
+  "author": "OmarQV",
+  "date": "2026-10-03T16:29:08Z",
+  "message": "feat(docs): refine policy demo and technical documentation",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/app/globals.css",
+    "a": 0,
+    "d": 1
+   },
+   {
+    "f": "src/components/DocsPage.tsx",
+    "a": 9,
+    "d": 1
+   },
+   {
+    "f": "src/components/DocsToc.tsx",
+    "a": 6,
+    "d": 2
+   },
+   {
+    "f": "src/components/PolicyDemo.module.css",
+    "a": 43,
+    "d": 189
+   },
+   {
+    "f": "src/components/PolicyDemo.tsx",
+    "a": 156,
+    "d": 126
+   },
+   {
+    "f": "src/components/PolicyFlowVisualization.module.css",
+    "a": 7,
+    "d": 32
+   },
+   {
+    "f": "src/components/PolicyFlowVisualization.tsx",
+    "a": 76,
+    "d": 60
+   },
+   {
+    "f": "src/lib/i18n/docs.en.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/lib/i18n/docs.es.ts",
+    "a": 1,
+    "d": 1
+   }
+  ]
+ },
+ "1833ebc34e56174af5efc2aec40900125672b61d": {
+  "team": "TilcAI",
+  "repo": "TilcAI/tilcai-web",
+  "author": "OmarQV",
+  "date": "2026-10-03T16:28:44Z",
+  "message": "feat(landing): create scroll-driven product narrative",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/components/FaqSection.tsx",
+    "a": 7,
+    "d": 4
+   },
+   {
+    "f": "src/components/HomePage.tsx",
+    "a": 0,
+    "d": 8
+   },
+   {
+    "f": "src/components/SiteHeader.tsx",
+    "a": 0,
+    "d": 2
+   },
+   {
+    "f": "src/components/sections/BusinessesSection.tsx",
+    "a": 37,
+    "d": 14
+   },
+   {
+    "f": "src/components/sections/CommerceIllustration.tsx",
+    "a": 50,
+    "d": 0
+   },
+   {
+    "f": "src/components/sections/ControlSection.tsx",
+    "a": 32,
+    "d": 110
+   },
+   {
+    "f": "src/components/sections/CtaSection.tsx",
+    "a": 11,
+    "d": 20
+   },
+   {
+    "f": "src/components/sections/FlowSection.tsx",
+    "a": 37,
+    "d": 61
+   },
+   {
+    "f": "src/components/sections/HeroScene.tsx",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/components/sections/Narrative.module.css",
+    "a": 128,
+    "d": 0
+   },
+   {
+    "f": "src/components/sections/StackSection.tsx",
+    "a": 10,
+    "d": 24
+   },
+   {
+    "f": "src/components/useScrollStep.ts",
+    "a": 41,
+    "d": 0
+   },
+   {
+    "f": "src/lib/i18n/narrative.ts",
+    "a": 62,
+    "d": 0
+   }
+  ]
  }
 }
