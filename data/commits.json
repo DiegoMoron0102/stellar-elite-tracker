@@ -44611,5 +44611,140 @@
     "d": 0
    }
   ]
+ },
+ "3dd070d4f06fc0d8f0c8b7a43a7f7020cd2dbc7c": {
+  "team": "Puls3",
+  "repo": "Zer0-Knowledge-Hack/puls3",
+  "author": "anahillanos474-max",
+  "date": "2026-10-04T02:58:47Z",
+  "message": "docs: add LATAM B2B market analysis and MVP proposal (#80)",
+  "parents": 2,
+  "files": [
+   {
+    "f": "docs/research/latam-b2b-market.md",
+    "a": 198,
+    "d": 0
+   },
+   {
+    "f": "docs/vision.md",
+    "a": 4,
+    "d": 0
+   }
+  ]
+ },
+ "ed648f1e59025f38c90aac0ff5810d110cd0a69e": {
+  "team": "Puls3",
+  "repo": "Zer0-Knowledge-Hack/puls3",
+  "author": "anahillanos474-max",
+  "date": "2026-10-04T02:51:49Z",
+  "message": "docs: add market research link to vision",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/vision.md",
+    "a": 4,
+    "d": 0
+   }
+  ]
+ },
+ "f11d016a978709f5db5d14968e326ebb268ebd69": {
+  "team": "Puls3",
+  "repo": "Zer0-Knowledge-Hack/puls3",
+  "author": "anahillanos474-max",
+  "date": "2026-10-04T02:31:21Z",
+  "message": "docs: add LATAM B2B market analysis and MVP proposal",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/research/latam-b2b-market.md",
+    "a": 198,
+    "d": 0
+   }
+  ]
+ },
+ "7fb6dda6025bab09f878467053630efee8137342": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-04T02:29:17Z",
+  "message": "Las cifras públicas, iguales en todos lados",
+  "parents": 1,
+  "files": [
+   {
+    "f": "README.es.md",
+    "a": 4,
+    "d": 2
+   },
+   {
+    "f": "README.md",
+    "a": 4,
+    "d": 2
+   },
+   {
+    "f": "docs/architecture.md",
+    "a": 4,
+    "d": 4
+   },
+   {
+    "f": "docs/marca.md",
+    "a": 2,
+    "d": 1
+   },
+   {
+    "f": "precios.html",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "src/i18n.ts",
+    "a": 4,
+    "d": 4
+   },
+   {
+    "f": "src/protocol/proof.ts",
+    "a": 3,
+    "d": 2
+   }
+  ]
+ },
+ "2fb3b47b73b85496eadbcdee8b2dde164864ee51": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-04T02:25:06Z",
+  "message": "El README con los doce juegos, y el sonido en el iPhone",
+  "parents": 1,
+  "files": [
+   {
+    "f": "README.es.md",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "README.md",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "docs/capturas/readme/partidas-es.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/readme/partidas.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "src/main.ts",
+    "a": 2,
+    "d": 1
+   },
+   {
+    "f": "src/sound.ts",
+    "a": 25,
+    "d": 0
+   }
+  ]
  }
 }

@@ -1,15 +1,15 @@
 {
- "generado": "2026-10-03T20:21:11+00:00",
+ "generado": "2026-10-04T03:26:54+00:00",
  "programa": "Stellar Elite",
  "start_date": "2026-09-02T00:00:00Z",
  "teams": [
   {
    "name": "Tinkazo",
-   "total": 890.6,
-   "per_capita": 890.6,
-   "commits": 103,
-   "pts_commits": 827.6,
-   "dias_activos": 12,
+   "total": 908.0,
+   "per_capita": 908.0,
+   "commits": 105,
+   "pts_commits": 840.0,
+   "dias_activos": 13,
    "contribuidores": [
     "nema1502"
    ],
@@ -60,14 +60,15 @@
   },
   {
    "name": "Puls3",
-   "total": 295.29,
-   "per_capita": 295.29,
-   "commits": 53,
-   "pts_commits": 241.29,
-   "dias_activos": 9,
+   "total": 315.25,
+   "per_capita": 315.25,
+   "commits": 56,
+   "pts_commits": 253.25,
+   "dias_activos": 10,
    "contribuidores": [
     "TOMOKI977",
     "XxHugheadxX",
+    "anahillanos474-max",
     "moises-cisneros"
    ],
    "tamano": 1,
@@ -291,7 +292,8 @@
    "2026-09-26": 56.12,
    "2026-09-27": 14.45,
    "2026-09-29": 19.05,
-   "2026-10-02": 20.85
+   "2026-10-02": 20.85,
+   "2026-10-04": 11.96
   },
   "Tinkazo": {
    "2026-09-16": 66.21000000000001,
@@ -305,7 +307,8 @@
    "2026-09-29": 97.86999999999999,
    "2026-09-30": 29.66,
    "2026-10-01": 4.81,
-   "2026-10-02": 34.17
+   "2026-10-02": 34.17,
+   "2026-10-04": 12.4
   },
   "CompraGasolinaBidon": {
    "2026-09-06": 1.0
@@ -373,7 +376,8 @@
    "2026-09-26": 12,
    "2026-09-27": 2,
    "2026-09-29": 3,
-   "2026-10-02": 3
+   "2026-10-02": 3,
+   "2026-10-04": 3
   },
   "Tinkazo": {
    "2026-09-16": 8,
@@ -387,7 +391,8 @@
    "2026-09-29": 15,
    "2026-09-30": 4,
    "2026-10-01": 1,
-   "2026-10-02": 4
+   "2026-10-02": 4,
+   "2026-10-04": 2
   },
   "CompraGasolinaBidon": {
    "2026-09-06": 1
@@ -440,6 +445,56 @@
   }
  },
  "commits": [
+  {
+   "sha": "3dd070d",
+   "team": "Puls3",
+   "repo": "Zer0-Knowledge-Hack/puls3",
+   "author": "anahillanos474-max",
+   "date": "2026-10-04T02:58:47Z",
+   "msg": "docs: add LATAM B2B market analysis and MVP proposal (#80)",
+   "pts": 0.0,
+   "nota": "merge"
+  },
+  {
+   "sha": "ed648f1",
+   "team": "Puls3",
+   "repo": "Zer0-Knowledge-Hack/puls3",
+   "author": "anahillanos474-max",
+   "date": "2026-10-04T02:51:49Z",
+   "msg": "docs: add market research link to vision",
+   "pts": 3.32,
+   "nota": ""
+  },
+  {
+   "sha": "f11d016",
+   "team": "Puls3",
+   "repo": "Zer0-Knowledge-Hack/puls3",
+   "author": "anahillanos474-max",
+   "date": "2026-10-04T02:31:21Z",
+   "msg": "docs: add LATAM B2B market analysis and MVP proposal",
+   "pts": 8.64,
+   "nota": ""
+  },
+  {
+   "sha": "7fb6dda",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-10-04T02:29:17Z",
+   "msg": "Las cifras públicas, iguales en todos lados",
+   "pts": 6.36,
+   "nota": ""
+  },
+  {
+   "sha": "2fb3b47",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-10-04T02:25:06Z",
+   "msg": "El README con los doce juegos, y el sonido en el iPhone",
+   "pts": 6.04,
+   "nota": ""
+  },
   {
    "sha": "81231eb",
    "team": "TilcAI",
