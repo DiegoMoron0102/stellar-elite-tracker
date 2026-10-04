@@ -45476,5 +45476,1510 @@
     "d": 8
    }
   ]
+ },
+ "c81fc0427e4fae7755999ecbce90c101ae5c2116": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-04T19:36:38Z",
+  "message": "Las copias de archive.org de las fuentes caídas, anotadas",
+  "parents": 1,
+  "files": [
+   {
+    "f": "scripts/check-lore.mjs",
+    "a": 22,
+    "d": 0
+   }
+  ]
+ },
+ "81028ebd04cf532a3afa9a82168f8ec223a7204d": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-04T17:13:15Z",
+  "message": "Las fuentes de historia: si el sitio ajeno se cae, la copia de archive.org",
+  "parents": 1,
+  "files": [
+   {
+    "f": "scripts/check-lore.mjs",
+    "a": 46,
+    "d": 4
+   }
+  ]
+ },
+ "bc9d5c3c84e8d3a641f5b3de5d962b61d5348c94": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-04T17:10:11Z",
+  "message": "El README y el modelo de amenazas, claros para quien revise el GitHub",
+  "parents": 1,
+  "files": [
+   {
+    "f": "README.es.md",
+    "a": 30,
+    "d": 12
+   },
+   {
+    "f": "README.md",
+    "a": 30,
+    "d": 12
+   },
+   {
+    "f": "docs/amenazas.md",
+    "a": 2,
+    "d": 0
+   },
+   {
+    "f": "docs/threat-model.en.md",
+    "a": 2,
+    "d": 2
+   }
+  ]
+ },
+ "040af0ff20e1549df7475bd364c5a65fb055cda6": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-04T15:40:37Z",
+  "message": "Todo a la vista antes de que exista el número",
+  "parents": 1,
+  "files": [
+   {
+    "f": "como-funciona.html",
+    "a": 11,
+    "d": 1
+   },
+   {
+    "f": "docs/amenazas.md",
+    "a": 7,
+    "d": 0
+   },
+   {
+    "f": "docs/epics.md",
+    "a": 21,
+    "d": 0
+   },
+   {
+    "f": "index.html",
+    "a": 2,
+    "d": 0
+   },
+   {
+    "f": "lista.html",
+    "a": 72,
+    "d": 0
+   },
+   {
+    "f": "seguridad.html",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/buscar.test.ts",
+    "a": 27,
+    "d": 0
+   },
+   {
+    "f": "src/buscar.ts",
+    "a": 54,
+    "d": 0
+   },
+   {
+    "f": "src/i18n.ts",
+    "a": 76,
+    "d": 6
+   },
+   {
+    "f": "src/lista.ts",
+    "a": 71,
+    "d": 0
+   },
+   {
+    "f": "src/main.ts",
+    "a": 2,
+    "d": 0
+   },
+   {
+    "f": "src/protocol/proof.test.ts",
+    "a": 18,
+    "d": 1
+   },
+   {
+    "f": "src/protocol/proof.ts",
+    "a": 47,
+    "d": 4
+   },
+   {
+    "f": "src/stellar/seals.ts",
+    "a": 15,
+    "d": 4
+   },
+   {
+    "f": "src/styles.css",
+    "a": 33,
+    "d": 0
+   },
+   {
+    "f": "src/ui/freeze.ts",
+    "a": 8,
+    "d": 0
+   },
+   {
+    "f": "src/ui/sala.ts",
+    "a": 77,
+    "d": 0
+   },
+   {
+    "f": "src/verify.ts",
+    "a": 52,
+    "d": 4
+   },
+   {
+    "f": "verificar.html",
+    "a": 3,
+    "d": 0
+   },
+   {
+    "f": "vite.config.ts",
+    "a": 1,
+    "d": 0
+   }
+  ]
+ },
+ "b7512c812e4d2b243969e02cedd0e9c5dc33f36b": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-04T15:26:53Z",
+  "message": "La información de las páginas, verificada contra el código",
+  "parents": 1,
+  "files": [
+   {
+    "f": "README.es.md",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "README.md",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "como-funciona.html",
+    "a": 6,
+    "d": 6
+   },
+   {
+    "f": "docs/epics.md",
+    "a": 14,
+    "d": 0
+   },
+   {
+    "f": "historia.html",
+    "a": 2,
+    "d": 6
+   },
+   {
+    "f": "index.html",
+    "a": 21,
+    "d": 21
+   },
+   {
+    "f": "juegos.html",
+    "a": 3,
+    "d": 3
+   },
+   {
+    "f": "precios.html",
+    "a": 5,
+    "d": 5
+   },
+   {
+    "f": "seguridad.html",
+    "a": 8,
+    "d": 7
+   },
+   {
+    "f": "src/i18n.ts",
+    "a": 118,
+    "d": 108
+   },
+   {
+    "f": "src/ui/freeze.ts",
+    "a": 4,
+    "d": 2
+   },
+   {
+    "f": "src/verify.ts",
+    "a": 24,
+    "d": 6
+   },
+   {
+    "f": "terminos.html",
+    "a": 7,
+    "d": 7
+   },
+   {
+    "f": "verificar.html",
+    "a": 1,
+    "d": 1
+   }
+  ]
+ },
+ "c781031e05ee72a41edd1e1759b244229f890c36": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-04T11:21:13Z",
+  "message": "La cuenta en la verificación, un sorteo real comprobado en la portada y lo que quedaba",
+  "parents": 1,
+  "files": [
+   {
+    "f": "index.html",
+    "a": 7,
+    "d": 1
+   },
+   {
+    "f": "src/i18n.ts",
+    "a": 7,
+    "d": 3
+   },
+   {
+    "f": "src/stellar/contract.ts",
+    "a": 4,
+    "d": 0
+   },
+   {
+    "f": "src/styles.css",
+    "a": 10,
+    "d": 0
+   },
+   {
+    "f": "src/verify.ts",
+    "a": 10,
+    "d": 0
+   }
+  ]
+ },
+ "fad45949f8ac96475b90883a8e8abd4405ebd552": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-04T03:50:35Z",
+  "message": "Mis sorteos de verdad, el costo de hoy y lo que encontró el evaluador",
+  "parents": 1,
+  "files": [
+   {
+    "f": "README.es.md",
+    "a": 7,
+    "d": 7
+   },
+   {
+    "f": "README.md",
+    "a": 7,
+    "d": 7
+   },
+   {
+    "f": "como-funciona.html",
+    "a": 4,
+    "d": 4
+   },
+   {
+    "f": "docs/deployments.md",
+    "a": 11,
+    "d": 0
+   },
+   {
+    "f": "docs/epics.md",
+    "a": 35,
+    "d": 0
+   },
+   {
+    "f": "docs/marca.md",
+    "a": 3,
+    "d": 3
+   },
+   {
+    "f": "docs/prd.md",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "index.html",
+    "a": 39,
+    "d": 21
+   },
+   {
+    "f": "precios.html",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "scripts/lib/browser.mjs",
+    "a": 3,
+    "d": 0
+   },
+   {
+    "f": "src/i18n.ts",
+    "a": 101,
+    "d": 43
+   },
+   {
+    "f": "src/main.ts",
+    "a": 18,
+    "d": 6
+   },
+   {
+    "f": "src/pagina.ts",
+    "a": 26,
+    "d": 4
+   },
+   {
+    "f": "src/styles.css",
+    "a": 55,
+    "d": 3
+   },
+   {
+    "f": "src/ui/anchor.ts",
+    "a": 3,
+    "d": 2
+   },
+   {
+    "f": "src/ui/freeze.ts",
+    "a": 48,
+    "d": 1
+   },
+   {
+    "f": "src/ui/history.ts",
+    "a": 36,
+    "d": 21
+   },
+   {
+    "f": "src/verify.ts",
+    "a": 4,
+    "d": 4
+   }
+  ]
+ },
+ "3f370390c9fc7a47065e2c92946965834dc1637e": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-04T02:56:23Z",
+  "message": "La portada de verdad, un menú en todas las páginas y Cómo funciona",
+  "parents": 1,
+  "files": [
+   {
+    "f": "como-funciona.html",
+    "a": 97,
+    "d": 0
+   },
+   {
+    "f": "historia.html",
+    "a": 9,
+    "d": 0
+   },
+   {
+    "f": "index.html",
+    "a": 107,
+    "d": 11
+   },
+   {
+    "f": "juegos.html",
+    "a": 9,
+    "d": 0
+   },
+   {
+    "f": "precios.html",
+    "a": 9,
+    "d": 0
+   },
+   {
+    "f": "public/sitemap.xml",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "scripts/check-paginas.mjs",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "seguridad.html",
+    "a": 9,
+    "d": 0
+   },
+   {
+    "f": "src/i18n.ts",
+    "a": 176,
+    "d": 2
+   },
+   {
+    "f": "src/main.ts",
+    "a": 64,
+    "d": 0
+   },
+   {
+    "f": "src/styles.css",
+    "a": 129,
+    "d": 1
+   },
+   {
+    "f": "src/ui/freeze.ts",
+    "a": 4,
+    "d": 2
+   },
+   {
+    "f": "src/ui/thumbs.ts",
+    "a": 27,
+    "d": 16
+   },
+   {
+    "f": "src/ui/wallet-ui.ts",
+    "a": 4,
+    "d": 1
+   },
+   {
+    "f": "terminos.html",
+    "a": 9,
+    "d": 0
+   },
+   {
+    "f": "verificar.html",
+    "a": 9,
+    "d": 0
+   },
+   {
+    "f": "vite.config.ts",
+    "a": 1,
+    "d": 0
+   }
+  ]
+ },
+ "8adfccf42f101f99731a5a9ad92ba5fc75622dc1": {
+  "team": "Impulso Stellar",
+  "repo": "orlando-vazquez-career/stellar-impulse",
+  "author": "Hans3010",
+  "date": "2026-10-04T18:17:24Z",
+  "message": "Merge pull request #28 from orlando-vazquez-career/codex/aumentos-progresion",
+  "parents": 2,
+  "files": [
+   {
+    "f": "apps/server/src/app.ts",
+    "a": 4,
+    "d": 2
+   },
+   {
+    "f": "apps/server/src/augment-room.test.ts",
+    "a": 35,
+    "d": 0
+   },
+   {
+    "f": "apps/server/src/auth.ts",
+    "a": 17,
+    "d": 0
+   },
+   {
+    "f": "apps/server/src/progression.test.ts",
+    "a": 20,
+    "d": 0
+   },
+   {
+    "f": "apps/server/src/training-room.ts",
+    "a": 100,
+    "d": 11
+   },
+   {
+    "f": "apps/web/src/visual/VisualPrototypeApp.tsx",
+    "a": 8,
+    "d": 4
+   },
+   {
+    "f": "apps/web/src/visual/game/AugmentHud.tsx",
+    "a": 53,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/visual/game/GameplayScreen.tsx",
+    "a": 19,
+    "d": 7
+   },
+   {
+    "f": "apps/web/src/visual/game/Hud.tsx",
+    "a": 63,
+    "d": 24
+   },
+   {
+    "f": "apps/web/src/visual/game/augments.css",
+    "a": 37,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/visual/game/mock-adapter.test.ts",
+    "a": 29,
+    "d": 1
+   },
+   {
+    "f": "apps/web/src/visual/game/mock-adapter.ts",
+    "a": 22,
+    "d": 3
+   },
+   {
+    "f": "apps/web/src/visual/game/model.ts",
+    "a": 17,
+    "d": 1
+   },
+   {
+    "f": "apps/web/src/visual/game/phaser/MainScene.ts",
+    "a": 53,
+    "d": 12
+   },
+   {
+    "f": "apps/web/src/visual/game/phaser/PhaserBattlefield.tsx",
+    "a": 2,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/visual/game/server-adapter.ts",
+    "a": 39,
+    "d": 12
+   },
+   {
+    "f": "apps/web/src/visual/i18n.tsx",
+    "a": 34,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/visual/lobby/PreparationLobby.tsx",
+    "a": 9,
+    "d": 3
+   },
+   {
+    "f": "apps/web/src/visual/lobby/lobby.css",
+    "a": 14,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/visual/menu/CommandCenter.tsx",
+    "a": 3,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/visual/profile/MatchProgress.tsx",
+    "a": 16,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/visual/profile/ProfileScreen.tsx",
+    "a": 38,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/visual/profile/profile.css",
+    "a": 11,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/visual/visual.css",
+    "a": 35,
+    "d": 3
+   },
+   {
+    "f": "docs/augment-balance-report.md",
+    "a": 40,
+    "d": 0
+   },
+   {
+    "f": "docs/augments.md",
+    "a": 19,
+    "d": 0
+   },
+   {
+    "f": "docs/base-upgrades.md",
+    "a": 28,
+    "d": 0
+   },
+   {
+    "f": "docs/gameplay-motion.md",
+    "a": 5,
+    "d": 1
+   },
+   {
+    "f": "docs/progression.md",
+    "a": 9,
+    "d": 0
+   },
+   {
+    "f": "docs/ship-stats.md",
+    "a": 23,
+    "d": 0
+   },
+   {
+    "f": "packages/input/src/index.test.ts",
+    "a": 14,
+    "d": 0
+   },
+   {
+    "f": "packages/input/src/index.ts",
+    "a": 25,
+    "d": 2
+   },
+   {
+    "f": "packages/sim/src/augments/balance.test.ts",
+    "a": 23,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/augments/balance.ts",
+    "a": 44,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/augments/catalog.ts",
+    "a": 87,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/augments/choices.test.ts",
+    "a": 51,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/augments/effects.test.ts",
+    "a": 79,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/augments/effects.ts",
+    "a": 66,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/augments/random.ts",
+    "a": 11,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/augments/runtime.ts",
+    "a": 194,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/economia.test.ts",
+    "a": 73,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/economia.ts",
+    "a": 13,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/index.test.ts",
+    "a": 11,
+    "d": 11
+   },
+   {
+    "f": "packages/sim/src/index.ts",
+    "a": 263,
+    "d": 81
+   },
+   {
+    "f": "packages/sim/src/inteligencia-enemiga/brain.ts",
+    "a": 4,
+    "d": 3
+   },
+   {
+    "f": "packages/sim/src/inteligencia-enemiga/conditions.ts",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "packages/sim/src/inteligencia-enemiga/estrategia.ts",
+    "a": 26,
+    "d": 12
+   },
+   {
+    "f": "packages/sim/src/inteligencia-enemiga/knowledge.test.ts",
+    "a": 13,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/inteligencia-enemiga/knowledge.ts",
+    "a": 55,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/inteligencia-enemiga/training.ts",
+    "a": 2,
+    "d": 1
+   },
+   {
+    "f": "packages/sim/src/inteligencia-enemiga/types.ts",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/mapas/sector-01.test.ts",
+    "a": 3,
+    "d": 3
+   },
+   {
+    "f": "packages/sim/src/maps/mechanics.ts",
+    "a": 55,
+    "d": 44
+   },
+   {
+    "f": "packages/sim/src/maps/pathfinding.ts",
+    "a": 24,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/maps/world.test.ts",
+    "a": 3,
+    "d": 3
+   },
+   {
+    "f": "packages/sim/src/match-modes.test.ts",
+    "a": 41,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/match-modes.ts",
+    "a": 24,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/mecanicas/orders.test.ts",
+    "a": 9,
+    "d": 3
+   },
+   {
+    "f": "packages/sim/src/mecanicas/orders.ts",
+    "a": 21,
+    "d": 6
+   },
+   {
+    "f": "packages/sim/src/mecanicas/ship-traffic.test.ts",
+    "a": 48,
+    "d": 7
+   },
+   {
+    "f": "packages/sim/src/progression.test.ts",
+    "a": 51,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/progression.ts",
+    "a": 84,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/stats.test.ts",
+    "a": 35,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/stats.ts",
+    "a": 47,
+    "d": 0
+   },
+   {
+    "f": "packages/state/src/augments.test.ts",
+    "a": 41,
+    "d": 0
+   },
+   {
+    "f": "packages/state/src/index.test.ts",
+    "a": 7,
+    "d": 1
+   },
+   {
+    "f": "packages/state/src/index.ts",
+    "a": 49,
+    "d": 12
+   },
+   {
+    "f": "playwright.config.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "scripts/balance-augments.ts",
+    "a": 23,
+    "d": 0
+   },
+   {
+    "f": "scripts/balance-parallel.ts",
+    "a": 19,
+    "d": 0
+   },
+   {
+    "f": "tests/e2e/augments.spec.ts",
+    "a": 53,
+    "d": 0
+   },
+   {
+    "f": "tests/e2e/helpers.ts",
+    "a": 7,
+    "d": 1
+   },
+   {
+    "f": "tests/e2e/match.spec.ts",
+    "a": 59,
+    "d": 1
+   },
+   {
+    "f": "tests/e2e/progression.spec.ts",
+    "a": 24,
+    "d": 0
+   },
+   {
+    "f": "tests/e2e/training.spec.ts",
+    "a": 6,
+    "d": 0
+   },
+   {
+    "f": "tests/e2e/visual.spec.ts",
+    "a": 15,
+    "d": 2
+   }
+  ]
+ },
+ "c8eca109686a802c229c50a609ff8a4c6b2b431a": {
+  "team": "Impulso Stellar",
+  "repo": "orlando-vazquez-career/stellar-impulse",
+  "author": "Hans3010",
+  "date": "2026-10-04T17:52:47Z",
+  "message": "test: make timed browser scenarios deterministic in CI",
+  "parents": 1,
+  "files": [
+   {
+    "f": "tests/e2e/augments.spec.ts",
+    "a": 9,
+    "d": 4
+   },
+   {
+    "f": "tests/e2e/visual.spec.ts",
+    "a": 15,
+    "d": 2
+   }
+  ]
+ },
+ "ee06e49b1d22786314eb66461d45cc9fa79b867d": {
+  "team": "Impulso Stellar",
+  "repo": "orlando-vazquez-career/stellar-impulse",
+  "author": "Hans3010",
+  "date": "2026-10-04T16:10:16Z",
+  "message": "feat: account XP challenges profile and match rewards",
+  "parents": 1,
+  "files": [
+   {
+    "f": "apps/server/src/app.ts",
+    "a": 4,
+    "d": 2
+   },
+   {
+    "f": "apps/server/src/augment-room.test.ts",
+    "a": 35,
+    "d": 0
+   },
+   {
+    "f": "apps/server/src/auth.ts",
+    "a": 17,
+    "d": 0
+   },
+   {
+    "f": "apps/server/src/progression.test.ts",
+    "a": 20,
+    "d": 0
+   },
+   {
+    "f": "apps/server/src/training-room.ts",
+    "a": 59,
+    "d": 7
+   },
+   {
+    "f": "apps/web/src/visual/VisualPrototypeApp.tsx",
+    "a": 4,
+    "d": 2
+   },
+   {
+    "f": "apps/web/src/visual/game/GameplayScreen.tsx",
+    "a": 2,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/visual/game/model.ts",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/visual/game/server-adapter.ts",
+    "a": 3,
+    "d": 1
+   },
+   {
+    "f": "apps/web/src/visual/i18n.tsx",
+    "a": 2,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/visual/menu/CommandCenter.tsx",
+    "a": 3,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/visual/profile/MatchProgress.tsx",
+    "a": 16,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/visual/profile/ProfileScreen.tsx",
+    "a": 38,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/visual/profile/profile.css",
+    "a": 11,
+    "d": 0
+   },
+   {
+    "f": "docs/augment-balance-report.md",
+    "a": 40,
+    "d": 0
+   },
+   {
+    "f": "docs/augments.md",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "docs/progression.md",
+    "a": 9,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/augments/balance.test.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "packages/sim/src/augments/balance.ts",
+    "a": 2,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/augments/runtime.ts",
+    "a": 6,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/index.ts",
+    "a": 8,
+    "d": 2
+   },
+   {
+    "f": "packages/sim/src/match-modes.ts",
+    "a": 2,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/progression.test.ts",
+    "a": 51,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/progression.ts",
+    "a": 84,
+    "d": 0
+   },
+   {
+    "f": "packages/state/src/index.ts",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "tests/e2e/progression.spec.ts",
+    "a": 24,
+    "d": 0
+   }
+  ]
+ },
+ "9aa60e84cb7204dd73bc886e5cc797b9765a3167": {
+  "team": "Impulso Stellar",
+  "repo": "orlando-vazquez-career/stellar-impulse",
+  "author": "Hans3010",
+  "date": "2026-10-04T13:28:52Z",
+  "message": "feat: deterministic augment catalog choices effects and rival picks",
+  "parents": 1,
+  "files": [
+   {
+    "f": "apps/server/src/training-room.ts",
+    "a": 41,
+    "d": 5
+   },
+   {
+    "f": "apps/web/src/visual/game/AugmentHud.tsx",
+    "a": 53,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/visual/game/GameplayScreen.tsx",
+    "a": 7,
+    "d": 3
+   },
+   {
+    "f": "apps/web/src/visual/game/Hud.tsx",
+    "a": 34,
+    "d": 14
+   },
+   {
+    "f": "apps/web/src/visual/game/augments.css",
+    "a": 37,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/visual/game/model.ts",
+    "a": 10,
+    "d": 2
+   },
+   {
+    "f": "apps/web/src/visual/game/phaser/MainScene.ts",
+    "a": 42,
+    "d": 10
+   },
+   {
+    "f": "apps/web/src/visual/game/phaser/PhaserBattlefield.tsx",
+    "a": 2,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/visual/game/server-adapter.ts",
+    "a": 17,
+    "d": 10
+   },
+   {
+    "f": "apps/web/src/visual/i18n.tsx",
+    "a": 4,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/visual/lobby/PreparationLobby.tsx",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "apps/web/src/visual/lobby/lobby.css",
+    "a": 10,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/visual/visual.css",
+    "a": 23,
+    "d": 3
+   },
+   {
+    "f": "docs/augments.md",
+    "a": 19,
+    "d": 0
+   },
+   {
+    "f": "docs/gameplay-motion.md",
+    "a": 5,
+    "d": 1
+   },
+   {
+    "f": "packages/sim/src/augments/balance.test.ts",
+    "a": 23,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/augments/balance.ts",
+    "a": 42,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/augments/catalog.ts",
+    "a": 87,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/augments/choices.test.ts",
+    "a": 51,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/augments/effects.test.ts",
+    "a": 79,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/augments/effects.ts",
+    "a": 66,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/augments/random.ts",
+    "a": 11,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/augments/runtime.ts",
+    "a": 188,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/index.ts",
+    "a": 182,
+    "d": 65
+   },
+   {
+    "f": "packages/sim/src/inteligencia-enemiga/brain.ts",
+    "a": 4,
+    "d": 3
+   },
+   {
+    "f": "packages/sim/src/inteligencia-enemiga/conditions.ts",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "packages/sim/src/inteligencia-enemiga/estrategia.ts",
+    "a": 22,
+    "d": 13
+   },
+   {
+    "f": "packages/sim/src/inteligencia-enemiga/knowledge.test.ts",
+    "a": 13,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/inteligencia-enemiga/knowledge.ts",
+    "a": 55,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/inteligencia-enemiga/training.ts",
+    "a": 2,
+    "d": 1
+   },
+   {
+    "f": "packages/sim/src/inteligencia-enemiga/types.ts",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/maps/mechanics.ts",
+    "a": 17,
+    "d": 13
+   },
+   {
+    "f": "packages/sim/src/maps/pathfinding.ts",
+    "a": 24,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/match-modes.test.ts",
+    "a": 19,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/match-modes.ts",
+    "a": 11,
+    "d": 2
+   },
+   {
+    "f": "packages/sim/src/mecanicas/orders.test.ts",
+    "a": 6,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/mecanicas/orders.ts",
+    "a": 21,
+    "d": 6
+   },
+   {
+    "f": "packages/sim/src/mecanicas/ship-traffic.test.ts",
+    "a": 41,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/stats.ts",
+    "a": 5,
+    "d": 3
+   },
+   {
+    "f": "packages/state/src/augments.test.ts",
+    "a": 41,
+    "d": 0
+   },
+   {
+    "f": "packages/state/src/index.ts",
+    "a": 40,
+    "d": 11
+   },
+   {
+    "f": "playwright.config.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "scripts/balance-augments.ts",
+    "a": 23,
+    "d": 0
+   },
+   {
+    "f": "scripts/balance-parallel.ts",
+    "a": 19,
+    "d": 0
+   },
+   {
+    "f": "tests/e2e/augments.spec.ts",
+    "a": 48,
+    "d": 0
+   },
+   {
+    "f": "tests/e2e/helpers.ts",
+    "a": 7,
+    "d": 1
+   },
+   {
+    "f": "tests/e2e/match.spec.ts",
+    "a": 8,
+    "d": 1
+   },
+   {
+    "f": "tests/e2e/training.spec.ts",
+    "a": 6,
+    "d": 0
+   }
+  ]
+ },
+ "9b37c785a06a37172112db18956ef2545cda3546": {
+  "team": "Impulso Stellar",
+  "repo": "orlando-vazquez-career/stellar-impulse",
+  "author": "Hans3010",
+  "date": "2026-10-04T12:50:05Z",
+  "message": "feat: full match and skirmish duration modes",
+  "parents": 1,
+  "files": [
+   {
+    "f": "apps/server/src/training-room.ts",
+    "a": 5,
+    "d": 4
+   },
+   {
+    "f": "apps/web/src/visual/VisualPrototypeApp.tsx",
+    "a": 4,
+    "d": 2
+   },
+   {
+    "f": "apps/web/src/visual/game/GameplayScreen.tsx",
+    "a": 5,
+    "d": 4
+   },
+   {
+    "f": "apps/web/src/visual/game/server-adapter.ts",
+    "a": 3,
+    "d": 2
+   },
+   {
+    "f": "apps/web/src/visual/i18n.tsx",
+    "a": 6,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/visual/lobby/PreparationLobby.tsx",
+    "a": 8,
+    "d": 2
+   },
+   {
+    "f": "apps/web/src/visual/lobby/lobby.css",
+    "a": 4,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/economia.test.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "packages/sim/src/index.ts",
+    "a": 4,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/inteligencia-enemiga/estrategia.ts",
+    "a": 7,
+    "d": 2
+   },
+   {
+    "f": "packages/sim/src/match-modes.test.ts",
+    "a": 22,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/match-modes.ts",
+    "a": 13,
+    "d": 0
+   },
+   {
+    "f": "packages/state/src/index.ts",
+    "a": 2,
+    "d": 1
+   }
+  ]
+ },
+ "f71cc381b18c738c0e2b64943c9586f580d299cf": {
+  "team": "Impulso Stellar",
+  "repo": "orlando-vazquez-career/stellar-impulse",
+  "author": "Hans3010",
+  "date": "2026-10-04T12:45:59Z",
+  "message": "feat: authoritative ship stats counters and numeric HUD",
+  "parents": 1,
+  "files": [
+   {
+    "f": "apps/server/src/training-room.ts",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "apps/web/src/visual/game/GameplayScreen.tsx",
+    "a": 5,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/visual/game/Hud.tsx",
+    "a": 29,
+    "d": 10
+   },
+   {
+    "f": "apps/web/src/visual/game/mock-adapter.test.ts",
+    "a": 29,
+    "d": 1
+   },
+   {
+    "f": "apps/web/src/visual/game/mock-adapter.ts",
+    "a": 22,
+    "d": 3
+   },
+   {
+    "f": "apps/web/src/visual/game/model.ts",
+    "a": 8,
+    "d": 1
+   },
+   {
+    "f": "apps/web/src/visual/game/phaser/MainScene.ts",
+    "a": 11,
+    "d": 2
+   },
+   {
+    "f": "apps/web/src/visual/game/server-adapter.ts",
+    "a": 24,
+    "d": 7
+   },
+   {
+    "f": "apps/web/src/visual/i18n.tsx",
+    "a": 22,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/visual/visual.css",
+    "a": 12,
+    "d": 0
+   },
+   {
+    "f": "docs/base-upgrades.md",
+    "a": 28,
+    "d": 0
+   },
+   {
+    "f": "docs/ship-stats.md",
+    "a": 23,
+    "d": 0
+   },
+   {
+    "f": "packages/input/src/index.test.ts",
+    "a": 14,
+    "d": 0
+   },
+   {
+    "f": "packages/input/src/index.ts",
+    "a": 25,
+    "d": 2
+   },
+   {
+    "f": "packages/sim/src/economia.test.ts",
+    "a": 73,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/economia.ts",
+    "a": 13,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/index.test.ts",
+    "a": 11,
+    "d": 11
+   },
+   {
+    "f": "packages/sim/src/index.ts",
+    "a": 89,
+    "d": 34
+   },
+   {
+    "f": "packages/sim/src/mapas/sector-01.test.ts",
+    "a": 3,
+    "d": 3
+   },
+   {
+    "f": "packages/sim/src/maps/mechanics.ts",
+    "a": 49,
+    "d": 42
+   },
+   {
+    "f": "packages/sim/src/maps/world.test.ts",
+    "a": 3,
+    "d": 3
+   },
+   {
+    "f": "packages/sim/src/mecanicas/orders.test.ts",
+    "a": 3,
+    "d": 3
+   },
+   {
+    "f": "packages/sim/src/mecanicas/ship-traffic.test.ts",
+    "a": 7,
+    "d": 7
+   },
+   {
+    "f": "packages/sim/src/stats.test.ts",
+    "a": 35,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/stats.ts",
+    "a": 45,
+    "d": 0
+   },
+   {
+    "f": "packages/state/src/index.test.ts",
+    "a": 7,
+    "d": 1
+   },
+   {
+    "f": "packages/state/src/index.ts",
+    "a": 10,
+    "d": 4
+   },
+   {
+    "f": "tests/e2e/match.spec.ts",
+    "a": 51,
+    "d": 0
+   }
+  ]
  }
 }

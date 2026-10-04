@@ -1,14 +1,14 @@
 {
- "generado": "2026-10-04T16:10:27+00:00",
+ "generado": "2026-10-04T20:39:19+00:00",
  "programa": "Stellar Elite",
  "start_date": "2026-09-02T00:00:00Z",
  "teams": [
   {
    "name": "Tinkazo",
-   "total": 908.0,
-   "per_capita": 908.0,
-   "commits": 105,
-   "pts_commits": 840.0,
+   "total": 973.74,
+   "per_capita": 973.74,
+   "commits": 113,
+   "pts_commits": 905.74,
    "dias_activos": 13,
    "contribuidores": [
     "nema1502"
@@ -21,10 +21,10 @@
   },
   {
    "name": "Impulso Stellar",
-   "total": 408.62,
-   "per_capita": 408.62,
-   "commits": 79,
-   "pts_commits": 348.62,
+   "total": 452.11,
+   "per_capita": 452.11,
+   "commits": 85,
+   "pts_commits": 392.11,
    "dias_activos": 9,
    "contribuidores": [
     "Hans3010",
@@ -308,7 +308,7 @@
    "2026-09-30": 29.66,
    "2026-10-01": 4.81,
    "2026-10-02": 34.17,
-   "2026-10-04": 12.4
+   "2026-10-04": 78.14
   },
   "CompraGasolinaBidon": {
    "2026-09-06": 1.0
@@ -341,7 +341,7 @@
    "2026-09-30": 40.0,
    "2026-10-01": 1.0,
    "2026-10-02": 186.59,
-   "2026-10-04": 20.0
+   "2026-10-04": 63.489999999999995
   },
   "BOLAR": {
    "2026-09-22": 9.25,
@@ -394,7 +394,7 @@
    "2026-09-30": 4,
    "2026-10-01": 1,
    "2026-10-02": 4,
-   "2026-10-04": 2
+   "2026-10-04": 10
   },
   "CompraGasolinaBidon": {
    "2026-09-06": 1
@@ -427,7 +427,7 @@
    "2026-09-30": 12,
    "2026-10-01": 2,
    "2026-10-02": 36,
-   "2026-10-04": 5
+   "2026-10-04": 11
   },
   "BOLAR": {
    "2026-09-22": 1,
@@ -450,6 +450,86 @@
  },
  "commits": [
   {
+   "sha": "c81fc04",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-10-04T19:36:38Z",
+   "msg": "Las copias de archive.org de las fuentes caídas, anotadas",
+   "pts": 5.52,
+   "nota": ""
+  },
+  {
+   "sha": "8adfccf",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "Hans3010",
+   "date": "2026-10-04T18:17:24Z",
+   "msg": "Merge pull request #28 from orlando-vazquez-career/codex/aumentos-progresion",
+   "pts": 0.0,
+   "nota": "merge"
+  },
+  {
+   "sha": "c8eca10",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "Hans3010",
+   "date": "2026-10-04T17:52:47Z",
+   "msg": "test: make timed browser scenarios deterministic in CI",
+   "pts": 5.95,
+   "nota": ""
+  },
+  {
+   "sha": "81028eb",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-10-04T17:13:15Z",
+   "msg": "Las fuentes de historia: si el sitio ajeno se cae, la copia de archive.org",
+   "pts": 6.67,
+   "nota": ""
+  },
+  {
+   "sha": "bc9d5c3",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-10-04T17:10:11Z",
+   "msg": "El README y el modelo de amenazas, claros para quien revise el GitHub",
+   "pts": 7.51,
+   "nota": ""
+  },
+  {
+   "sha": "ee06e49",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "Hans3010",
+   "date": "2026-10-04T16:10:16Z",
+   "msg": "feat: account XP challenges profile and match rewards",
+   "pts": 9.85,
+   "nota": ""
+  },
+  {
+   "sha": "040af0f",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-10-04T15:40:37Z",
+   "msg": "Todo a la vista antes de que exista el número",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "b7512c8",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-10-04T15:26:53Z",
+   "msg": "La información de las páginas, verificada contra el código",
+   "pts": 9.61,
+   "nota": ""
+  },
+  {
    "sha": "4368ca6",
    "team": "Impulso Stellar",
    "repo": "orlando-vazquez-career/stellar-impulse",
@@ -458,6 +538,16 @@
    "msg": "Merge pull request #26 from orlando-vazquez-career/codex/fluidez-colisiones-naves",
    "pts": 0.0,
    "nota": "merge"
+  },
+  {
+   "sha": "9aa60e8",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "Hans3010",
+   "date": "2026-10-04T13:28:52Z",
+   "msg": "feat: deterministic augment catalog choices effects and rival picks",
+   "pts": 10,
+   "nota": ""
   },
   {
    "sha": "392ca6c",
@@ -480,6 +570,26 @@
    "nota": "merge"
   },
   {
+   "sha": "9b37c78",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "Hans3010",
+   "date": "2026-10-04T12:50:05Z",
+   "msg": "feat: full match and skirmish duration modes",
+   "pts": 7.69,
+   "nota": ""
+  },
+  {
+   "sha": "f71cc38",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "Hans3010",
+   "date": "2026-10-04T12:45:59Z",
+   "msg": "feat: authoritative ship stats counters and numeric HUD",
+   "pts": 10,
+   "nota": ""
+  },
+  {
    "sha": "ef2e028",
    "team": "Impulso Stellar",
    "repo": "orlando-vazquez-career/stellar-impulse",
@@ -487,6 +597,16 @@
    "date": "2026-10-04T12:25:37Z",
    "msg": "fix: smooth ship movement and resolve allied traffic deadlocks",
    "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "c781031",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-10-04T11:21:13Z",
+   "msg": "La cuenta en la verificación, un sorteo real comprobado en la portada y lo que quedaba",
+   "pts": 6.43,
    "nota": ""
   },
   {
@@ -520,6 +640,16 @@
    "nota": ""
   },
   {
+   "sha": "fad4594",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-10-04T03:50:35Z",
+   "msg": "Mis sorteos de verdad, el costo de hoy y lo que encontró el evaluador",
+   "pts": 10,
+   "nota": ""
+  },
+  {
    "sha": "3dd070d",
    "team": "Puls3",
    "repo": "Zer0-Knowledge-Hack/puls3",
@@ -528,6 +658,16 @@
    "msg": "docs: add LATAM B2B market analysis and MVP proposal (#80)",
    "pts": 0.0,
    "nota": "merge"
+  },
+  {
+   "sha": "3f37039",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-10-04T02:56:23Z",
+   "msg": "La portada de verdad, un menú en todas las páginas y Cómo funciona",
+   "pts": 10,
+   "nota": ""
   },
   {
    "sha": "ed648f1",
