@@ -1,5 +1,5 @@
 {
- "generado": "2026-10-04T11:32:03+00:00",
+ "generado": "2026-10-04T16:10:27+00:00",
  "programa": "Stellar Elite",
  "start_date": "2026-09-02T00:00:00Z",
  "teams": [
@@ -20,6 +20,26 @@
    "rank": 1
   },
   {
+   "name": "Impulso Stellar",
+   "total": 408.62,
+   "per_capita": 408.62,
+   "commits": 79,
+   "pts_commits": 348.62,
+   "dias_activos": 9,
+   "contribuidores": [
+    "Hans3010",
+    "Ismaelolazo",
+    "degosenpai211",
+    "orlando-vazquez-career",
+    "srllamadev"
+   ],
+   "tamano": 1,
+   "repos": [
+    "orlando-vazquez-career/stellar-impulse"
+   ],
+   "rank": 2
+  },
+  {
    "name": "TilcAI",
    "total": 406.92,
    "per_capita": 135.64,
@@ -35,26 +55,6 @@
    "tamano": 3,
    "repos": [
     "TilcAI/tilcai-web"
-   ],
-   "rank": 2
-  },
-  {
-   "name": "Impulso Stellar",
-   "total": 383.62,
-   "per_capita": 383.62,
-   "commits": 74,
-   "pts_commits": 328.62,
-   "dias_activos": 8,
-   "contribuidores": [
-    "Hans3010",
-    "Ismaelolazo",
-    "degosenpai211",
-    "orlando-vazquez-career",
-    "srllamadev"
-   ],
-   "tamano": 1,
-   "repos": [
-    "orlando-vazquez-career/stellar-impulse"
    ],
    "rank": 3
   },
@@ -340,7 +340,8 @@
    "2026-09-29": 43.29,
    "2026-09-30": 40.0,
    "2026-10-01": 1.0,
-   "2026-10-02": 186.59
+   "2026-10-02": 186.59,
+   "2026-10-04": 20.0
   },
   "BOLAR": {
    "2026-09-22": 9.25,
@@ -425,7 +426,8 @@
    "2026-09-29": 8,
    "2026-09-30": 12,
    "2026-10-01": 2,
-   "2026-10-02": 36
+   "2026-10-02": 36,
+   "2026-10-04": 5
   },
   "BOLAR": {
    "2026-09-22": 1,
@@ -447,6 +449,46 @@
   }
  },
  "commits": [
+  {
+   "sha": "4368ca6",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "Ismaelolazo",
+   "date": "2026-10-04T14:23:15Z",
+   "msg": "Merge pull request #26 from orlando-vazquez-career/codex/fluidez-colisiones-naves",
+   "pts": 0.0,
+   "nota": "merge"
+  },
+  {
+   "sha": "392ca6c",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "Hans3010",
+   "date": "2026-10-04T13:08:32Z",
+   "msg": "Merge main (salas multijugador) en movimiento y tráfico de naves",
+   "pts": 0.0,
+   "nota": "merge"
+  },
+  {
+   "sha": "ce795b4",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "Hans3010",
+   "date": "2026-10-04T13:03:03Z",
+   "msg": "Merge pull request #25 from orlando-vazquez-career/codex/multiplayer-rooms",
+   "pts": 0.0,
+   "nota": "merge"
+  },
+  {
+   "sha": "ef2e028",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "Hans3010",
+   "date": "2026-10-04T12:25:37Z",
+   "msg": "fix: smooth ship movement and resolve allied traffic deadlocks",
+   "pts": 10,
+   "nota": ""
+  },
   {
    "sha": "54a7bb9",
    "team": "NodeXchange",
@@ -525,6 +567,16 @@
    "date": "2026-10-04T02:25:06Z",
    "msg": "El README con los doce juegos, y el sonido en el iPhone",
    "pts": 6.04,
+   "nota": ""
+  },
+  {
+   "sha": "b7b4417",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "orlando-vazquez-career",
+   "date": "2026-10-04T00:19:03Z",
+   "msg": "feat(web): connect private multiplayer rooms to gameplay",
+   "pts": 10,
    "nota": ""
   },
   {

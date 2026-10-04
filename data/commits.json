@@ -44811,5 +44811,670 @@
     "d": 0
    }
   ]
+ },
+ "4368ca63dcd4c04b3c6f7ec11bc26b2a42d6d293": {
+  "team": "Impulso Stellar",
+  "repo": "orlando-vazquez-career/stellar-impulse",
+  "author": "Ismaelolazo",
+  "date": "2026-10-04T14:23:15Z",
+  "message": "Merge pull request #26 from orlando-vazquez-career/codex/fluidez-colisiones-naves",
+  "parents": 2,
+  "files": [
+   {
+    "f": "apps/web/src/visual/game/Hud.tsx",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "apps/web/src/visual/game/mock-adapter.test.ts",
+    "a": 56,
+    "d": 9
+   },
+   {
+    "f": "apps/web/src/visual/game/mock-adapter.ts",
+    "a": 46,
+    "d": 17
+   },
+   {
+    "f": "apps/web/src/visual/game/model.ts",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/visual/game/phaser/MainScene.ts",
+    "a": 21,
+    "d": 5
+   },
+   {
+    "f": "apps/web/src/visual/game/phaser/ship-motion.test.ts",
+    "a": 28,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/visual/game/phaser/ship-motion.ts",
+    "a": 33,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/visual/game/server-adapter.ts",
+    "a": 30,
+    "d": 18
+   },
+   {
+    "f": "apps/web/src/visual/game/server-motion.test.ts",
+    "a": 46,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/visual/map/sector-map.ts",
+    "a": 20,
+    "d": 9
+   },
+   {
+    "f": "docs/gameplay-motion.md",
+    "a": 30,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/economia.test.ts",
+    "a": 2,
+    "d": 1
+   },
+   {
+    "f": "packages/sim/src/index.test.ts",
+    "a": 8,
+    "d": 7
+   },
+   {
+    "f": "packages/sim/src/index.ts",
+    "a": 147,
+    "d": 14
+   },
+   {
+    "f": "packages/sim/src/mapas/sector-01.test.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "packages/sim/src/mecanicas/orders.ts",
+    "a": 10,
+    "d": 1
+   },
+   {
+    "f": "packages/sim/src/mecanicas/ship-traffic.test.ts",
+    "a": 109,
+    "d": 0
+   },
+   {
+    "f": "tests/e2e/visual.spec.ts",
+    "a": 27,
+    "d": 0
+   }
+  ]
+ },
+ "392ca6c4eaea03cb79048bb90a18f54bfcf63717": {
+  "team": "Impulso Stellar",
+  "repo": "orlando-vazquez-career/stellar-impulse",
+  "author": "Hans3010",
+  "date": "2026-10-04T13:08:32Z",
+  "message": "Merge main (salas multijugador) en movimiento y tráfico de naves",
+  "parents": 2,
+  "files": [
+   {
+    "f": "README.md",
+    "a": 15,
+    "d": 11
+   },
+   {
+    "f": "apps/server/src/campaign-map-override.test.ts",
+    "a": 42,
+    "d": 0
+   },
+   {
+    "f": "apps/server/src/campaign-room.test.ts",
+    "a": 73,
+    "d": 1
+   },
+   {
+    "f": "apps/server/src/campaign-room.ts",
+    "a": 16,
+    "d": 5
+   },
+   {
+    "f": "apps/server/src/campaign/machine.ts",
+    "a": 6,
+    "d": 18
+   },
+   {
+    "f": "apps/web/src/login/LoginScreen.tsx",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "apps/web/src/multiplayer/session.test.ts",
+    "a": 207,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/multiplayer/session.ts",
+    "a": 303,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/visual/VisualPrototypeApp.tsx",
+    "a": 60,
+    "d": 11
+   },
+   {
+    "f": "apps/web/src/visual/game/GameplayScreen.tsx",
+    "a": 32,
+    "d": 14
+   },
+   {
+    "f": "apps/web/src/visual/game/Hud.tsx",
+    "a": 6,
+    "d": 6
+   },
+   {
+    "f": "apps/web/src/visual/game/campaign-adapter.test.ts",
+    "a": 126,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/visual/game/campaign-adapter.ts",
+    "a": 226,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/visual/game/model.ts",
+    "a": 2,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/visual/i18n.tsx",
+    "a": 11,
+    "d": 3
+   },
+   {
+    "f": "apps/web/src/visual/lobby/MultiplayerLobby.tsx",
+    "a": 435,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/visual/lobby/multiplayer-lobby.css",
+    "a": 363,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/visual/menu/CommandCenter.tsx",
+    "a": 3,
+    "d": 0
+   },
+   {
+    "f": "docs/auth-multiplayer.md",
+    "a": 23,
+    "d": 3
+   },
+   {
+    "f": "docs/protocol.md",
+    "a": 9,
+    "d": 5
+   },
+   {
+    "f": "docs/status.md",
+    "a": 22,
+    "d": 3
+   },
+   {
+    "f": "docs/testing.md",
+    "a": 11,
+    "d": 3
+   },
+   {
+    "f": "packages/input/src/protocol.test.ts",
+    "a": 8,
+    "d": 0
+   },
+   {
+    "f": "packages/input/src/protocol.ts",
+    "a": 11,
+    "d": 5
+   },
+   {
+    "f": "packages/state/src/campaign.ts",
+    "a": 26,
+    "d": 0
+   },
+   {
+    "f": "packages/state/src/index.ts",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "tests/e2e/match.spec.ts",
+    "a": 5,
+    "d": 3
+   },
+   {
+    "f": "tests/e2e/multiplayer.spec.ts",
+    "a": 146,
+    "d": 0
+   },
+   {
+    "f": "tests/e2e/visual.spec.ts",
+    "a": 5,
+    "d": 8
+   }
+  ]
+ },
+ "ce795b44d6430f1422507802a37d69f163b85c1b": {
+  "team": "Impulso Stellar",
+  "repo": "orlando-vazquez-career/stellar-impulse",
+  "author": "Hans3010",
+  "date": "2026-10-04T13:03:03Z",
+  "message": "Merge pull request #25 from orlando-vazquez-career/codex/multiplayer-rooms",
+  "parents": 2,
+  "files": [
+   {
+    "f": "README.md",
+    "a": 15,
+    "d": 11
+   },
+   {
+    "f": "apps/server/src/campaign-map-override.test.ts",
+    "a": 42,
+    "d": 0
+   },
+   {
+    "f": "apps/server/src/campaign-room.test.ts",
+    "a": 73,
+    "d": 1
+   },
+   {
+    "f": "apps/server/src/campaign-room.ts",
+    "a": 16,
+    "d": 5
+   },
+   {
+    "f": "apps/server/src/campaign/machine.ts",
+    "a": 6,
+    "d": 18
+   },
+   {
+    "f": "apps/web/src/login/LoginScreen.tsx",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "apps/web/src/multiplayer/session.test.ts",
+    "a": 207,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/multiplayer/session.ts",
+    "a": 303,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/visual/VisualPrototypeApp.tsx",
+    "a": 60,
+    "d": 11
+   },
+   {
+    "f": "apps/web/src/visual/game/GameplayScreen.tsx",
+    "a": 32,
+    "d": 14
+   },
+   {
+    "f": "apps/web/src/visual/game/Hud.tsx",
+    "a": 6,
+    "d": 6
+   },
+   {
+    "f": "apps/web/src/visual/game/campaign-adapter.test.ts",
+    "a": 126,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/visual/game/campaign-adapter.ts",
+    "a": 226,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/visual/game/model.ts",
+    "a": 2,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/visual/i18n.tsx",
+    "a": 11,
+    "d": 3
+   },
+   {
+    "f": "apps/web/src/visual/lobby/MultiplayerLobby.tsx",
+    "a": 435,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/visual/lobby/multiplayer-lobby.css",
+    "a": 363,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/visual/menu/CommandCenter.tsx",
+    "a": 3,
+    "d": 0
+   },
+   {
+    "f": "docs/auth-multiplayer.md",
+    "a": 23,
+    "d": 3
+   },
+   {
+    "f": "docs/protocol.md",
+    "a": 9,
+    "d": 5
+   },
+   {
+    "f": "docs/status.md",
+    "a": 22,
+    "d": 3
+   },
+   {
+    "f": "docs/testing.md",
+    "a": 11,
+    "d": 3
+   },
+   {
+    "f": "packages/input/src/protocol.test.ts",
+    "a": 8,
+    "d": 0
+   },
+   {
+    "f": "packages/input/src/protocol.ts",
+    "a": 11,
+    "d": 5
+   },
+   {
+    "f": "packages/state/src/campaign.ts",
+    "a": 26,
+    "d": 0
+   },
+   {
+    "f": "packages/state/src/index.ts",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "tests/e2e/match.spec.ts",
+    "a": 5,
+    "d": 3
+   },
+   {
+    "f": "tests/e2e/multiplayer.spec.ts",
+    "a": 146,
+    "d": 0
+   },
+   {
+    "f": "tests/e2e/visual.spec.ts",
+    "a": 5,
+    "d": 8
+   }
+  ]
+ },
+ "ef2e0284e67165e5bd644e2905a7aaa5eafdae55": {
+  "team": "Impulso Stellar",
+  "repo": "orlando-vazquez-career/stellar-impulse",
+  "author": "Hans3010",
+  "date": "2026-10-04T12:25:37Z",
+  "message": "fix: smooth ship movement and resolve allied traffic deadlocks",
+  "parents": 1,
+  "files": [
+   {
+    "f": "apps/web/src/visual/game/Hud.tsx",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "apps/web/src/visual/game/mock-adapter.test.ts",
+    "a": 56,
+    "d": 9
+   },
+   {
+    "f": "apps/web/src/visual/game/mock-adapter.ts",
+    "a": 46,
+    "d": 17
+   },
+   {
+    "f": "apps/web/src/visual/game/model.ts",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/visual/game/phaser/MainScene.ts",
+    "a": 21,
+    "d": 5
+   },
+   {
+    "f": "apps/web/src/visual/game/phaser/ship-motion.test.ts",
+    "a": 28,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/visual/game/phaser/ship-motion.ts",
+    "a": 33,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/visual/game/server-adapter.ts",
+    "a": 30,
+    "d": 18
+   },
+   {
+    "f": "apps/web/src/visual/game/server-motion.test.ts",
+    "a": 46,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/visual/map/sector-map.ts",
+    "a": 20,
+    "d": 9
+   },
+   {
+    "f": "docs/gameplay-motion.md",
+    "a": 30,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/economia.test.ts",
+    "a": 2,
+    "d": 1
+   },
+   {
+    "f": "packages/sim/src/index.test.ts",
+    "a": 8,
+    "d": 7
+   },
+   {
+    "f": "packages/sim/src/index.ts",
+    "a": 147,
+    "d": 14
+   },
+   {
+    "f": "packages/sim/src/mapas/sector-01.test.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "packages/sim/src/mecanicas/orders.ts",
+    "a": 10,
+    "d": 1
+   },
+   {
+    "f": "packages/sim/src/mecanicas/ship-traffic.test.ts",
+    "a": 109,
+    "d": 0
+   },
+   {
+    "f": "tests/e2e/visual.spec.ts",
+    "a": 27,
+    "d": 0
+   }
+  ]
+ },
+ "b7b4417ef799425c0411de343f63ec865d16741d": {
+  "team": "Impulso Stellar",
+  "repo": "orlando-vazquez-career/stellar-impulse",
+  "author": "orlando-vazquez-career",
+  "date": "2026-10-04T00:19:03Z",
+  "message": "feat(web): connect private multiplayer rooms to gameplay",
+  "parents": 1,
+  "files": [
+   {
+    "f": "README.md",
+    "a": 15,
+    "d": 11
+   },
+   {
+    "f": "apps/server/src/campaign-map-override.test.ts",
+    "a": 42,
+    "d": 0
+   },
+   {
+    "f": "apps/server/src/campaign-room.test.ts",
+    "a": 73,
+    "d": 1
+   },
+   {
+    "f": "apps/server/src/campaign-room.ts",
+    "a": 16,
+    "d": 5
+   },
+   {
+    "f": "apps/server/src/campaign/machine.ts",
+    "a": 6,
+    "d": 18
+   },
+   {
+    "f": "apps/web/src/login/LoginScreen.tsx",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "apps/web/src/multiplayer/session.test.ts",
+    "a": 207,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/multiplayer/session.ts",
+    "a": 303,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/visual/VisualPrototypeApp.tsx",
+    "a": 60,
+    "d": 11
+   },
+   {
+    "f": "apps/web/src/visual/game/GameplayScreen.tsx",
+    "a": 32,
+    "d": 14
+   },
+   {
+    "f": "apps/web/src/visual/game/Hud.tsx",
+    "a": 6,
+    "d": 6
+   },
+   {
+    "f": "apps/web/src/visual/game/campaign-adapter.test.ts",
+    "a": 126,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/visual/game/campaign-adapter.ts",
+    "a": 226,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/visual/game/model.ts",
+    "a": 2,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/visual/i18n.tsx",
+    "a": 11,
+    "d": 3
+   },
+   {
+    "f": "apps/web/src/visual/lobby/MultiplayerLobby.tsx",
+    "a": 435,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/visual/lobby/multiplayer-lobby.css",
+    "a": 363,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/visual/menu/CommandCenter.tsx",
+    "a": 3,
+    "d": 0
+   },
+   {
+    "f": "docs/auth-multiplayer.md",
+    "a": 23,
+    "d": 3
+   },
+   {
+    "f": "docs/protocol.md",
+    "a": 9,
+    "d": 5
+   },
+   {
+    "f": "docs/status.md",
+    "a": 22,
+    "d": 3
+   },
+   {
+    "f": "docs/testing.md",
+    "a": 11,
+    "d": 3
+   },
+   {
+    "f": "packages/input/src/protocol.test.ts",
+    "a": 8,
+    "d": 0
+   },
+   {
+    "f": "packages/input/src/protocol.ts",
+    "a": 11,
+    "d": 5
+   },
+   {
+    "f": "packages/state/src/campaign.ts",
+    "a": 26,
+    "d": 0
+   },
+   {
+    "f": "packages/state/src/index.ts",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "tests/e2e/match.spec.ts",
+    "a": 5,
+    "d": 3
+   },
+   {
+    "f": "tests/e2e/multiplayer.spec.ts",
+    "a": 146,
+    "d": 0
+   },
+   {
+    "f": "tests/e2e/visual.spec.ts",
+    "a": 5,
+    "d": 8
+   }
+  ]
  }
 }
