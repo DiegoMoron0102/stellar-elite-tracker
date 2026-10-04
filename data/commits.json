@@ -44746,5 +44746,70 @@
     "d": 0
    }
   ]
+ },
+ "54a7bb99af908d4f383143d07a1345f713c28fb4": {
+  "team": "NodeXchange",
+  "repo": "RomerTamayo/stellar-build",
+  "author": "RomerTamayo",
+  "date": "2026-10-04T04:32:49Z",
+  "message": "Rename the local Supabase project to node-xchange",
+  "parents": 1,
+  "files": [
+   {
+    "f": "supabase/config.toml",
+    "a": 1,
+    "d": 1
+   }
+  ]
+ },
+ "0ba5324447d0bed0702ac894e9f436b8250029d8": {
+  "team": "NodeXchange",
+  "repo": "RomerTamayo/stellar-build",
+  "author": "RomerTamayo",
+  "date": "2026-10-04T04:25:50Z",
+  "message": "Point repository links at RomerTamayo/node-xchange",
+  "parents": 1,
+  "files": [
+   {
+    "f": "TRADEMARK.md",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "apps/site/src/content.ts",
+    "a": 1,
+    "d": 1
+   }
+  ]
+ },
+ "0982e1f50202b6fd68007b7f62694bb7bea501f5": {
+  "team": "NodeXchange",
+  "repo": "RomerTamayo/stellar-build",
+  "author": "RomerTamayo",
+  "date": "2026-10-04T04:23:03Z",
+  "message": "Add the trademark policy, CLA and contributing guide",
+  "parents": 1,
+  "files": [
+   {
+    "f": "CLA.md",
+    "a": 51,
+    "d": 0
+   },
+   {
+    "f": "CONTRIBUTING.md",
+    "a": 9,
+    "d": 0
+   },
+   {
+    "f": "README.md",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "TRADEMARK.md",
+    "a": 36,
+    "d": 0
+   }
+  ]
  }
 }

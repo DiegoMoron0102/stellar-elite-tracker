@@ -1,5 +1,5 @@
 {
- "generado": "2026-10-04T03:26:54+00:00",
+ "generado": "2026-10-04T11:32:03+00:00",
  "programa": "Stellar Elite",
  "start_date": "2026-09-02T00:00:00Z",
  "teams": [
@@ -95,11 +95,11 @@
   },
   {
    "name": "NodeXchange",
-   "total": 174.33,
-   "per_capita": 174.33,
-   "commits": 18,
-   "pts_commits": 151.33,
-   "dias_activos": 4,
+   "total": 192.86,
+   "per_capita": 192.86,
+   "commits": 21,
+   "pts_commits": 164.86,
+   "dias_activos": 5,
    "contribuidores": [
     "RomerTamayo"
    ],
@@ -317,7 +317,8 @@
    "2026-09-05": 1.0,
    "2026-09-30": 30.0,
    "2026-10-01": 76.36,
-   "2026-10-02": 43.97
+   "2026-10-02": 43.97,
+   "2026-10-04": 13.530000000000001
   },
   "BolivianPets": {
    "2026-09-04": 1.0,
@@ -401,7 +402,8 @@
    "2026-09-05": 1,
    "2026-09-30": 3,
    "2026-10-01": 9,
-   "2026-10-02": 5
+   "2026-10-02": 5,
+   "2026-10-04": 3
   },
   "BolivianPets": {
    "2026-09-04": 1,
@@ -445,6 +447,36 @@
   }
  },
  "commits": [
+  {
+   "sha": "54a7bb9",
+   "team": "NodeXchange",
+   "repo": "RomerTamayo/stellar-build",
+   "author": "RomerTamayo",
+   "date": "2026-10-04T04:32:49Z",
+   "msg": "Rename the local Supabase project to node-xchange",
+   "pts": 2.58,
+   "nota": ""
+  },
+  {
+   "sha": "0ba5324",
+   "team": "NodeXchange",
+   "repo": "RomerTamayo/stellar-build",
+   "author": "RomerTamayo",
+   "date": "2026-10-04T04:25:50Z",
+   "msg": "Point repository links at RomerTamayo/node-xchange",
+   "pts": 3.32,
+   "nota": ""
+  },
+  {
+   "sha": "0982e1f",
+   "team": "NodeXchange",
+   "repo": "RomerTamayo/stellar-build",
+   "author": "RomerTamayo",
+   "date": "2026-10-04T04:23:03Z",
+   "msg": "Add the trademark policy, CLA and contributing guide",
+   "pts": 7.63,
+   "nota": ""
+  },
   {
    "sha": "3dd070d",
    "team": "Puls3",
