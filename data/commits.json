@@ -58836,5 +58836,1235 @@
     "d": 0
    }
   ]
+ },
+ "bf581c0194fea09728b0ac9c9dbb09cf2d40fc41": {
+  "team": "Puls3",
+  "repo": "Zer0-Knowledge-Hack/puls3",
+  "author": "moises-cisneros",
+  "date": "2026-10-05T21:54:00Z",
+  "message": "feat(flutter): load agent catalog from server with offline fallback (#90)",
+  "parents": 1,
+  "files": [
+   {
+    "f": "openspec/changes/archive/2026-10-04-fix-flutter-onchain-catalog/archive-report.md",
+    "a": 79,
+    "d": 0
+   },
+   {
+    "f": "openspec/changes/archive/2026-10-04-fix-flutter-onchain-catalog/design.md",
+    "a": 108,
+    "d": 0
+   },
+   {
+    "f": "openspec/changes/archive/2026-10-04-fix-flutter-onchain-catalog/exploration.md",
+    "a": 39,
+    "d": 0
+   },
+   {
+    "f": "openspec/changes/archive/2026-10-04-fix-flutter-onchain-catalog/proposal.md",
+    "a": 70,
+    "d": 0
+   },
+   {
+    "f": "openspec/changes/archive/2026-10-04-fix-flutter-onchain-catalog/specs/agent-rating-display/spec.md",
+    "a": 59,
+    "d": 0
+   },
+   {
+    "f": "openspec/changes/archive/2026-10-04-fix-flutter-onchain-catalog/specs/flutter-onchain-catalog/spec.md",
+    "a": 182,
+    "d": 0
+   },
+   {
+    "f": "openspec/changes/archive/2026-10-04-fix-flutter-onchain-catalog/tasks.md",
+    "a": 76,
+    "d": 0
+   },
+   {
+    "f": "openspec/changes/archive/2026-10-04-fix-flutter-onchain-catalog/verify-report.md",
+    "a": 138,
+    "d": 0
+   },
+   {
+    "f": "openspec/specs/agent-rating-display/spec.md",
+    "a": 59,
+    "d": 0
+   },
+   {
+    "f": "openspec/specs/flutter-onchain-catalog/spec.md",
+    "a": 182,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/lib/main.dart",
+    "a": 8,
+    "d": 1
+   },
+   {
+    "f": "puls3_flutter/lib/src/data/fallback_agent_repository.dart",
+    "a": 25,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/lib/src/data/server_agent_repository.dart",
+    "a": 54,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/lib/src/domain/skill_display_name.dart",
+    "a": 32,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/lib/src/ui/atoms/rating_badge.dart",
+    "a": 4,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/test/app/catalog_composition_test.dart",
+    "a": 65,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/test/data/fallback_agent_repository_test.dart",
+    "a": 119,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/test/data/server_agent_repository_test.dart",
+    "a": 149,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/test/domain/skill_display_name_test.dart",
+    "a": 45,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/test/helpers.dart",
+    "a": 4,
+    "d": 1
+   },
+   {
+    "f": "puls3_flutter/test/screens/unrated_agent_test.dart",
+    "a": 108,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/test/ui/rating_badge_test.dart",
+    "a": 41,
+    "d": 0
+   }
+  ]
+ },
+ "7d405b0e7bc1465198d65f74ffea589a72739f85": {
+  "team": "Puls3",
+  "repo": "Zer0-Knowledge-Hack/puls3",
+  "author": "moises-cisneros",
+  "date": "2026-10-05T21:51:10Z",
+  "message": "feat(server): add agent catalog endpoint backed by registry metadata (#88)",
+  "parents": 1,
+  "files": [
+   {
+    "f": "openspec/changes/archive/2026-10-04-fix-server-agent-catalog-endpoint/archive-report.md",
+    "a": 194,
+    "d": 0
+   },
+   {
+    "f": "openspec/changes/archive/2026-10-04-fix-server-agent-catalog-endpoint/design.md",
+    "a": 106,
+    "d": 0
+   },
+   {
+    "f": "openspec/changes/archive/2026-10-04-fix-server-agent-catalog-endpoint/exploration.md",
+    "a": 42,
+    "d": 0
+   },
+   {
+    "f": "openspec/changes/archive/2026-10-04-fix-server-agent-catalog-endpoint/proposal.md",
+    "a": 71,
+    "d": 0
+   },
+   {
+    "f": "openspec/changes/archive/2026-10-04-fix-server-agent-catalog-endpoint/specs/agent-catalog-endpoint/spec.md",
+    "a": 206,
+    "d": 0
+   },
+   {
+    "f": "openspec/changes/archive/2026-10-04-fix-server-agent-catalog-endpoint/specs/registry-metadata-reads/spec.md",
+    "a": 97,
+    "d": 0
+   },
+   {
+    "f": "openspec/changes/archive/2026-10-04-fix-server-agent-catalog-endpoint/tasks.md",
+    "a": 69,
+    "d": 0
+   },
+   {
+    "f": "openspec/changes/archive/2026-10-04-fix-server-agent-catalog-endpoint/verify-report.md",
+    "a": 137,
+    "d": 0
+   },
+   {
+    "f": "openspec/specs/agent-catalog-endpoint/spec.md",
+    "a": 206,
+    "d": 0
+   },
+   {
+    "f": "openspec/specs/registry-metadata-reads/spec.md",
+    "a": 97,
+    "d": 0
+   },
+   {
+    "f": "puls3_client/lib/src/protocol/agent/agent_catalog_unavailable.dart",
+    "a": 64,
+    "d": 0
+   },
+   {
+    "f": "puls3_client/lib/src/protocol/agent/agent_summary.dart",
+    "a": 162,
+    "d": 0
+   },
+   {
+    "f": "puls3_client/lib/src/protocol/client.dart",
+    "a": 80,
+    "d": 45
+   },
+   {
+    "f": "puls3_client/lib/src/protocol/protocol.dart",
+    "a": 65,
+    "d": 26
+   },
+   {
+    "f": "puls3_server/README.md",
+    "a": 29,
+    "d": 2
+   },
+   {
+    "f": "puls3_server/lib/src/agent/agent_catalog_service.dart",
+    "a": 148,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/agent/agent_catalog_unavailable.spy.yaml",
+    "a": 5,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/agent/agent_endpoint.dart",
+    "a": 65,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/agent/agent_metadata.dart",
+    "a": 79,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/agent/agent_summary.spy.yaml",
+    "a": 26,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/agent/registry_reader.dart",
+    "a": 19,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/generated/agent/agent_catalog_unavailable.dart",
+    "a": 75,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/generated/agent/agent_summary.dart",
+    "a": 178,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/generated/endpoints.dart",
+    "a": 64,
+    "d": 23
+   },
+   {
+    "f": "puls3_server/lib/src/generated/protocol.dart",
+    "a": 55,
+    "d": 16
+   },
+   {
+    "f": "puls3_server/lib/src/generated/protocol.yaml",
+    "a": 3,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/ledger/soroban_ledger.dart",
+    "a": 22,
+    "d": 1
+   },
+   {
+    "f": "puls3_server/lib/src/ledger/xdr_invoke_encoder.dart",
+    "a": 15,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/pubspec.yaml",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/test/integration/test_tools/serverpod_test_tools.dart",
+    "a": 92,
+    "d": 13
+   },
+   {
+    "f": "puls3_server/test/unit/agent/agent_catalog_service_test.dart",
+    "a": 356,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/test/unit/agent/agent_endpoint_test.dart",
+    "a": 155,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/test/unit/agent/agent_metadata_test.dart",
+    "a": 115,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/test/unit/ledger/fixtures/envelope_get_metadata_7_name.json",
+    "a": 18,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/test/unit/ledger/fixtures/simulate_get_metadata_present.json",
+    "a": 118,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/test/unit/ledger/fixtures/simulate_get_metadata_void.json",
+    "a": 114,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/test/unit/ledger/fixtures/simulate_total_agents.json",
+    "a": 90,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/test/unit/ledger/soroban_ledger_test.dart",
+    "a": 94,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/test/unit/ledger/xdr_invoke_encoder_test.dart",
+    "a": 63,
+    "d": 0
+   }
+  ]
+ },
+ "853d24b4fd4a3228b24d5fd43bdcc0f61f5dad9f": {
+  "team": "Puls3",
+  "repo": "Zer0-Knowledge-Hack/puls3",
+  "author": "moises-cisneros",
+  "date": "2026-10-05T21:47:59Z",
+  "message": "feat(server): add read-only Soroban RPC ledger adapter (#86)",
+  "parents": 1,
+  "files": [
+   {
+    "f": "openspec/changes/archive/2026-10-04-fix-server-soroban-rpc-adapter/archive-report.md",
+    "a": 214,
+    "d": 0
+   },
+   {
+    "f": "openspec/changes/archive/2026-10-04-fix-server-soroban-rpc-adapter/design.md",
+    "a": 118,
+    "d": 0
+   },
+   {
+    "f": "openspec/changes/archive/2026-10-04-fix-server-soroban-rpc-adapter/exploration.md",
+    "a": 37,
+    "d": 0
+   },
+   {
+    "f": "openspec/changes/archive/2026-10-04-fix-server-soroban-rpc-adapter/proposal.md",
+    "a": 76,
+    "d": 0
+   },
+   {
+    "f": "openspec/changes/archive/2026-10-04-fix-server-soroban-rpc-adapter/specs/soroban-contract-reads/spec.md",
+    "a": 71,
+    "d": 0
+   },
+   {
+    "f": "openspec/changes/archive/2026-10-04-fix-server-soroban-rpc-adapter/specs/soroban-rpc-ledger-adapter/spec.md",
+    "a": 179,
+    "d": 0
+   },
+   {
+    "f": "openspec/changes/archive/2026-10-04-fix-server-soroban-rpc-adapter/tasks.md",
+    "a": 68,
+    "d": 0
+   },
+   {
+    "f": "openspec/changes/archive/2026-10-04-fix-server-soroban-rpc-adapter/verify-report.md",
+    "a": 114,
+    "d": 0
+   },
+   {
+    "f": "openspec/specs/soroban-contract-reads/spec.md",
+    "a": 71,
+    "d": 0
+   },
+   {
+    "f": "openspec/specs/soroban-rpc-ledger-adapter/spec.md",
+    "a": 179,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/ledger/escrow_job.dart",
+    "a": 101,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/ledger/ledger_errors.dart",
+    "a": 28,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/ledger/sc_val_json.dart",
+    "a": 119,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/ledger/soroban_ledger.dart",
+    "a": 142,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/ledger/soroban_rpc_client.dart",
+    "a": 91,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/ledger/stellar_config.dart",
+    "a": 108,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/ledger/strkey.dart",
+    "a": 27,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/ledger/transfer_event_parser.dart",
+    "a": 108,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/ledger/xdr_invoke_encoder.dart",
+    "a": 127,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/pubspec.yaml",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/test/unit/ledger/escrow_job_test.dart",
+    "a": 121,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/test/unit/ledger/fixtures/envelope_agent_exists_7.json",
+    "a": 16,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/test/unit/ledger/fixtures/get_transaction_not_found.json",
+    "a": 17,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/test/unit/ledger/fixtures/get_transaction_success.json",
+    "a": 1611,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/test/unit/ledger/fixtures/simulate_agent_exists_false.json",
+    "a": 108,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/test/unit/ledger/fixtures/simulate_agent_exists_true.json",
+    "a": 108,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/test/unit/ledger/fixtures/simulate_agent_uri_missing.json",
+    "a": 61,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/test/unit/ledger/fixtures/simulate_agent_uri_present.json",
+    "a": 108,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/test/unit/ledger/fixtures/simulate_agent_wallet_registered.json",
+    "a": 108,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/test/unit/ledger/fixtures/simulate_agent_wallet_void.json",
+    "a": 104,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/test/unit/ledger/fixtures/simulate_escrow_job_3.json",
+    "a": 318,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/test/unit/ledger/fixtures/simulate_escrow_job_missing.json",
+    "a": 61,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/test/unit/ledger/sc_val_json_test.dart",
+    "a": 196,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/test/unit/ledger/soroban_ledger_test.dart",
+    "a": 369,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/test/unit/ledger/soroban_rpc_client_test.dart",
+    "a": 170,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/test/unit/ledger/stellar_config_test.dart",
+    "a": 105,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/test/unit/ledger/strkey_test.dart",
+    "a": 55,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/test/unit/ledger/transfer_event_parser_test.dart",
+    "a": 220,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/test/unit/ledger/xdr_invoke_encoder_test.dart",
+    "a": 121,
+    "d": 0
+   }
+  ]
+ },
+ "72907adae2eadf45a3fd1c9ba55179a7c82b14c9": {
+  "team": "Puls3",
+  "repo": "Zer0-Knowledge-Hack/puls3",
+  "author": "moises-cisneros",
+  "date": "2026-10-05T21:45:34Z",
+  "message": "chore(contracts): deploy escrow on testnet and document verifiable on-chain evidence (#84)",
+  "parents": 1,
+  "files": [
+   {
+    "f": "README.md",
+    "a": 73,
+    "d": 13
+   },
+   {
+    "f": "contracts/AGENTS.md",
+    "a": 4,
+    "d": 0
+   },
+   {
+    "f": "contracts/README.md",
+    "a": 36,
+    "d": 7
+   },
+   {
+    "f": "contracts/deployments/testnet.json",
+    "a": 53,
+    "d": 1
+   },
+   {
+    "f": "docs/verification/onchain.md",
+    "a": 127,
+    "d": 0
+   },
+   {
+    "f": "openspec/changes/archive/2026-10-04-fix-readme-onchain-evidence/archive-report.md",
+    "a": 169,
+    "d": 0
+   },
+   {
+    "f": "openspec/changes/archive/2026-10-04-fix-readme-onchain-evidence/design.md",
+    "a": 104,
+    "d": 0
+   },
+   {
+    "f": "openspec/changes/archive/2026-10-04-fix-readme-onchain-evidence/exploration.md",
+    "a": 30,
+    "d": 0
+   },
+   {
+    "f": "openspec/changes/archive/2026-10-04-fix-readme-onchain-evidence/proposal.md",
+    "a": 74,
+    "d": 0
+   },
+   {
+    "f": "openspec/changes/archive/2026-10-04-fix-readme-onchain-evidence/specs/onchain-evidence-docs/spec.md",
+    "a": 97,
+    "d": 0
+   },
+   {
+    "f": "openspec/changes/archive/2026-10-04-fix-readme-onchain-evidence/specs/testnet-escrow-deployment/spec.md",
+    "a": 115,
+    "d": 0
+   },
+   {
+    "f": "openspec/changes/archive/2026-10-04-fix-readme-onchain-evidence/tasks.md",
+    "a": 57,
+    "d": 0
+   },
+   {
+    "f": "openspec/changes/archive/2026-10-04-fix-readme-onchain-evidence/verify-report.md",
+    "a": 78,
+    "d": 0
+   },
+   {
+    "f": "openspec/specs/onchain-evidence-docs/spec.md",
+    "a": 97,
+    "d": 0
+   },
+   {
+    "f": "openspec/specs/testnet-escrow-deployment/spec.md",
+    "a": 115,
+    "d": 0
+   },
+   {
+    "f": "scripts/deploy-escrow-testnet.sh",
+    "a": 531,
+    "d": 0
+   },
+   {
+    "f": "scripts/seed-demo-agents.sh",
+    "a": 40,
+    "d": 2
+   },
+   {
+    "f": "scripts/tests/escrow-deploy.test.sh",
+    "a": 361,
+    "d": 0
+   },
+   {
+    "f": "scripts/tests/seed-preflight.test.sh",
+    "a": 45,
+    "d": 3
+   }
+  ]
+ },
+ "7bc7d205acfb35ebff9cce97f865ac166e02f554": {
+  "team": "Puls3",
+  "repo": "Zer0-Knowledge-Hack/puls3",
+  "author": "TOMOKI977",
+  "date": "2026-10-05T21:05:07Z",
+  "message": "docs: add API contract between Flutter app and Serverpod (#77)",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/architecture/api.md",
+    "a": 431,
+    "d": 0
+   },
+   {
+    "f": "docs/architecture/models/agent.spy.yaml",
+    "a": 14,
+    "d": 0
+   },
+   {
+    "f": "docs/architecture/models/chain_submission.spy.yaml",
+    "a": 22,
+    "d": 0
+   },
+   {
+    "f": "docs/architecture/models/feedback.spy.yaml",
+    "a": 11,
+    "d": 0
+   },
+   {
+    "f": "docs/architecture/models/hire.spy.yaml",
+    "a": 30,
+    "d": 0
+   },
+   {
+    "f": "docs/architecture/models/payment.spy.yaml",
+    "a": 16,
+    "d": 0
+   },
+   {
+    "f": "docs/architecture/models/prepared_transaction.spy.yaml",
+    "a": 29,
+    "d": 0
+   },
+   {
+    "f": "docs/architecture/models/puls3_api_exception.spy.yaml",
+    "a": 35,
+    "d": 0
+   },
+   {
+    "f": "docs/architecture/models/skill.spy.yaml",
+    "a": 9,
+    "d": 0
+   }
+  ]
+ },
+ "d1f6172acc71ea12f0847b365506f6072c2ca61f": {
+  "team": "Puls3",
+  "repo": "Zer0-Knowledge-Hack/puls3",
+  "author": "moises-cisneros",
+  "date": "2026-10-05T17:44:22Z",
+  "message": "feat(contracts): enforce MAX_FEE_BPS ceiling in escrow (#94)",
+  "parents": 1,
+  "files": [
+   {
+    "f": "CONTRIBUTING.md",
+    "a": 16,
+    "d": 8
+   },
+   {
+    "f": "contracts/contracts/escrow/src/lib.rs",
+    "a": 5,
+    "d": 3
+   },
+   {
+    "f": "contracts/contracts/escrow/src/test.rs",
+    "a": 32,
+    "d": 22
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/a_claimable_entry_is_bumped_and_kept_alive.1.json",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/a_failing_provider_transfer_still_pays_the_treasury.1.json",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/a_failing_treasury_transfer_still_pays_the_provider.1.json",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/a_failing_withdraw_reverts_and_the_balance_stays_claimable.1.json",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/a_fee_raised_before_fund_cannot_divert_the_budget.1.json",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/a_job_too_late_to_submit_stays_refundable.1.json",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/a_later_fee_change_keeps_earlier_snapshots.1.json",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/a_submitted_job_past_expiry_settles_by_release_not_refund.1.json",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/a_window_change_does_not_move_a_stored_deadline.1.json",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/a_working_payout_is_never_deferred.1.json",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/both_failure_layers_fall_back_to_the_claimable_balance.1.json",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/both_failure_layers_fall_back_to_the_claimable_balance.2.json",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/claim_refund_needs_no_authorization_and_pays_only_the_client.1.json",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/claim_refund_refuses_open_jobs_and_double_refunds.1.json",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/claim_refund_returns_the_budget_to_the_client_after_expiry.1.json",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/claim_refund_returns_the_full_budget_even_with_a_fee.1.json",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/claim_refund_works_exactly_at_expiry_and_not_before.1.json",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/complete_at_max_fee_bps_splits_between_provider_and_treasury.1.json",
+    "a": 56,
+    "d": 4
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/complete_defers_the_payout_when_the_provider_cannot_receive.1.json",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/complete_requires_a_submitted_job.1.json",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/complete_still_works_after_the_approval_deadline.1.json",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/complete_with_a_fee_splits_between_provider_and_treasury.1.json",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/complete_with_zero_fee_pays_the_provider_in_full.1.json",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/constructor_accepts_fee_at_max_fee_bps.1.json",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/constructor_rejects_fee_above_max_fee_bps.1.json",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/deadline_uses_the_submission_time.1.json",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/deferred_payouts_accumulate_per_recipient_and_token.1.json",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/evaluator_rejects_a_funded_job_with_a_full_refund.1.json",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/evaluator_rejects_a_submitted_job_in_the_window_without_a_fee.1.json",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/extend_ttl_keeps_a_long_funded_job_alive.1.json",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/extend_ttl_keeps_terminal_jobs_readable.1.json",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/fee_setter_validates_bps_and_treasury.1.json",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/fund_after_expiry_is_refused.1.json",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/fund_needs_the_client_auth_including_the_token_transfer.1.json",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/fund_pulls_the_budget_and_emits_job_funded.1.json",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/fund_snapshots_the_fee_in_force_at_fund_time.1.json",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/fund_twice_is_an_invalid_state.1.json",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/funded_jobs_settle_after_the_token_is_removed_from_the_allow_list.1.json",
+    "a": 4,
+    "d": 4
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/in_flight_jobs_settle_with_no_registry_call.1.json",
+    "a": 4,
+    "d": 4
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/live_funded_job_is_not_expired_but_an_expired_one_is.1.json",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/nobody_can_withdraw_for_another_recipient.1.json",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/only_the_evaluator_can_complete.1.json",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/only_the_evaluator_can_reject_a_funded_job.1.json",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/only_the_stored_provider_can_submit.1.json",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/provider_and_treasury_payouts_are_independent.1.json",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/provider_cannot_reject_a_submitted_job.1.json",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/provider_submits_a_funded_job.1.json",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/refund_paths_conserve_funds.1.json",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/reject_after_the_window_is_closed.1.json",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/rejected_is_final_for_every_function.1.json",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/rejecting_a_funded_job_refunds_in_full_even_with_a_fee.1.json",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/rejecting_a_submitted_job_leaves_the_contract_empty_even_with_a_fee.1.json",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/release_defers_the_payout_when_the_provider_cannot_receive.1.json",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/release_is_permissionless_and_pays_fee_and_provider_only.1.json",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/release_requires_a_submitted_job.1.json",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/release_works_exactly_at_the_deadline_and_not_before.1.json",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/silence_pays_the_provider_after_the_deadline.1.json",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/state_changing_calls_need_their_caller_signature.1.json",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/submit_after_expiry_is_refused.1.json",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/submit_must_leave_room_for_the_approval_window.1.json",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/submit_requires_a_funded_job.1.json",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/the_client_cannot_reclaim_a_job_whose_payout_was_deferred.1.json",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/the_client_cannot_reclaim_a_submitted_job_past_expiry.1.json",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/the_largest_budget_settles_for_several_fee_rates.1.json",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/the_largest_budget_settles_for_several_fee_rates.2.json",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/the_largest_budget_settles_for_several_fee_rates.3.json",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/the_largest_budget_settles_for_several_fee_rates.4.json",
+    "a": 5,
+    "d": 5
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/the_largest_budget_settles_for_several_fee_rates.5.json",
+    "a": 56,
+    "d": 4
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/transitions_bump_the_job_and_instance_ttl.1.json",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/withdraw_needs_the_callers_signature.1.json",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/withdraw_pays_the_deferred_amount_once_the_provider_can_receive.1.json",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/withdraw_twice_is_refused.1.json",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/withdraw_works_after_the_token_leaves_the_allow_list.1.json",
+    "a": 1,
+    "d": 1
+   }
+  ]
+ },
+ "716637a72c4c09ae8ae1c331077aa874c11ba896": {
+  "team": "Puls3",
+  "repo": "Zer0-Knowledge-Hack/puls3",
+  "author": "TOMOKI977",
+  "date": "2026-10-05T17:28:56Z",
+  "message": "feat(spike): prove Flutter Web Freighter signing and Testnet SAC payments (#70)",
+  "parents": 1,
+  "files": [
+   {
+    "f": ".gitleaks.toml",
+    "a": 3,
+    "d": 1
+   },
+   {
+    "f": "docs/spikes/flutter-stellar-wallet.md",
+    "a": 370,
+    "d": 0
+   },
+   {
+    "f": "pubspec.lock",
+    "a": 64,
+    "d": 0
+   },
+   {
+    "f": "pubspec.yaml",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "spikes/flutter-stellar-wallet/.gitignore",
+    "a": 3,
+    "d": 0
+   },
+   {
+    "f": "spikes/flutter-stellar-wallet/analysis_options.yaml",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "spikes/flutter-stellar-wallet/bin/rpc_payment_harness.dart",
+    "a": 125,
+    "d": 0
+   },
+   {
+    "f": "spikes/flutter-stellar-wallet/lib/freighter_bridge_web.dart",
+    "a": 110,
+    "d": 0
+   },
+   {
+    "f": "spikes/flutter-stellar-wallet/lib/main.dart",
+    "a": 65,
+    "d": 0
+   },
+   {
+    "f": "spikes/flutter-stellar-wallet/lib/payment_evidence.dart",
+    "a": 252,
+    "d": 0
+   },
+   {
+    "f": "spikes/flutter-stellar-wallet/lib/stellar_sdk_vm.dart",
+    "a": 20,
+    "d": 0
+   },
+   {
+    "f": "spikes/flutter-stellar-wallet/lib/transaction_events.dart",
+    "a": 99,
+    "d": 0
+   },
+   {
+    "f": "spikes/flutter-stellar-wallet/lib/wallet_port.dart",
+    "a": 57,
+    "d": 0
+   },
+   {
+    "f": "spikes/flutter-stellar-wallet/lib/wallet_service.dart",
+    "a": 274,
+    "d": 0
+   },
+   {
+    "f": "spikes/flutter-stellar-wallet/pubspec.yaml",
+    "a": 16,
+    "d": 0
+   },
+   {
+    "f": "spikes/flutter-stellar-wallet/test/fixtures/testnet_muxed_payment_events.json",
+    "a": 111,
+    "d": 0
+   },
+   {
+    "f": "spikes/flutter-stellar-wallet/test/fixtures/testnet_muxed_payment_transaction.json",
+    "a": 29,
+    "d": 0
+   },
+   {
+    "f": "spikes/flutter-stellar-wallet/test/payment_evidence_test.dart",
+    "a": 313,
+    "d": 0
+   },
+   {
+    "f": "spikes/flutter-stellar-wallet/test/rpc_payment_harness_test.dart",
+    "a": 18,
+    "d": 0
+   },
+   {
+    "f": "spikes/flutter-stellar-wallet/test/transaction_events_test.dart",
+    "a": 140,
+    "d": 0
+   },
+   {
+    "f": "spikes/flutter-stellar-wallet/test/wallet_service_test.dart",
+    "a": 585,
+    "d": 0
+   },
+   {
+    "f": "spikes/flutter-stellar-wallet/web/freighter_bridge.js",
+    "a": 54,
+    "d": 0
+   },
+   {
+    "f": "spikes/flutter-stellar-wallet/web/index.html",
+    "a": 19,
+    "d": 0
+   }
+  ]
+ },
+ "07e5993d3b14c3f83359b2f4d3b0a67d4df6b5dd": {
+  "team": "TilcAI",
+  "repo": "TilcAI/tilcai-web",
+  "author": "JHAMILCALI",
+  "date": "2026-10-05T19:15:06Z",
+  "message": "feat(styles): enhance mobile layout with improved navigation and content overflow handling",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/app/mobile.css",
+    "a": 68,
+    "d": 0
+   },
+   {
+    "f": "src/components/sections/ProductOverview.module.css",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/components/sections/TilcAIParallax.module.css",
+    "a": 2,
+    "d": 0
+   }
+  ]
  }
 }

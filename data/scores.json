@@ -1,5 +1,5 @@
 {
- "generado": "2026-10-05T13:03:20+00:00",
+ "generado": "2026-10-05T23:29:25+00:00",
  "programa": "Stellar Elite",
  "start_date": "2026-09-02T00:00:00Z",
  "teams": [
@@ -41,11 +41,11 @@
   },
   {
    "name": "TilcAI",
-   "total": 406.92,
-   "per_capita": 135.64,
-   "commits": 61,
-   "pts_commits": 369.92,
-   "dias_activos": 5,
+   "total": 419.11,
+   "per_capita": 139.7,
+   "commits": 62,
+   "pts_commits": 377.11,
+   "dias_activos": 6,
    "contribuidores": [
     "JHAMILCALI",
     "OmarQV",
@@ -60,11 +60,11 @@
   },
   {
    "name": "Puls3",
-   "total": 315.25,
-   "per_capita": 315.25,
-   "commits": 56,
-   "pts_commits": 253.25,
-   "dias_activos": 10,
+   "total": 381.25,
+   "per_capita": 381.25,
+   "commits": 63,
+   "pts_commits": 314.25,
+   "dias_activos": 11,
    "contribuidores": [
     "TOMOKI977",
     "XxHugheadxX",
@@ -295,7 +295,8 @@
    "2026-09-27": 14.45,
    "2026-09-29": 19.05,
    "2026-10-02": 20.85,
-   "2026-10-04": 11.96
+   "2026-10-04": 11.96,
+   "2026-10-05": 61.0
   },
   "Tinkazo": {
    "2026-09-16": 66.21000000000001,
@@ -363,7 +364,8 @@
    "2026-09-30": 72.42999999999999,
    "2026-10-01": 43.809999999999995,
    "2026-10-02": 195.20999999999998,
-   "2026-10-03": 34.81
+   "2026-10-03": 34.81,
+   "2026-10-05": 7.19
   },
   "GatoPago": {
    "2026-09-10": 1.0,
@@ -390,7 +392,8 @@
    "2026-09-27": 2,
    "2026-09-29": 3,
    "2026-10-02": 3,
-   "2026-10-04": 3
+   "2026-10-04": 3,
+   "2026-10-05": 7
   },
   "Tinkazo": {
    "2026-09-16": 8,
@@ -458,7 +461,8 @@
    "2026-09-30": 11,
    "2026-10-01": 8,
    "2026-10-02": 33,
-   "2026-10-03": 6
+   "2026-10-03": 6,
+   "2026-10-05": 1
   },
   "GatoPago": {
    "2026-09-10": 1,
@@ -469,6 +473,86 @@
   }
  },
  "commits": [
+  {
+   "sha": "bf581c0",
+   "team": "Puls3",
+   "repo": "Zer0-Knowledge-Hack/puls3",
+   "author": "moises-cisneros",
+   "date": "2026-10-05T21:54:00Z",
+   "msg": "feat(flutter): load agent catalog from server with offline fallback (#90)",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "7d405b0",
+   "team": "Puls3",
+   "repo": "Zer0-Knowledge-Hack/puls3",
+   "author": "moises-cisneros",
+   "date": "2026-10-05T21:51:10Z",
+   "msg": "feat(server): add agent catalog endpoint backed by registry metadata (#88)",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "853d24b",
+   "team": "Puls3",
+   "repo": "Zer0-Knowledge-Hack/puls3",
+   "author": "moises-cisneros",
+   "date": "2026-10-05T21:47:59Z",
+   "msg": "feat(server): add read-only Soroban RPC ledger adapter (#86)",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "72907ad",
+   "team": "Puls3",
+   "repo": "Zer0-Knowledge-Hack/puls3",
+   "author": "moises-cisneros",
+   "date": "2026-10-05T21:45:34Z",
+   "msg": "chore(contracts): deploy escrow on testnet and document verifiable on-chain evidence (#84)",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "7bc7d20",
+   "team": "Puls3",
+   "repo": "Zer0-Knowledge-Hack/puls3",
+   "author": "TOMOKI977",
+   "date": "2026-10-05T21:05:07Z",
+   "msg": "docs: add API contract between Flutter app and Serverpod (#77)",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "07e5993",
+   "team": "TilcAI",
+   "repo": "TilcAI/tilcai-web",
+   "author": "JHAMILCALI",
+   "date": "2026-10-05T19:15:06Z",
+   "msg": "feat(styles): enhance mobile layout with improved navigation and content overflow handling",
+   "pts": 7.19,
+   "nota": ""
+  },
+  {
+   "sha": "d1f6172",
+   "team": "Puls3",
+   "repo": "Zer0-Knowledge-Hack/puls3",
+   "author": "moises-cisneros",
+   "date": "2026-10-05T17:44:22Z",
+   "msg": "feat(contracts): enforce MAX_FEE_BPS ceiling in escrow (#94)",
+   "pts": 1.0,
+   "nota": "import masivo (76 archivos)"
+  },
+  {
+   "sha": "716637a",
+   "team": "Puls3",
+   "repo": "Zer0-Knowledge-Hack/puls3",
+   "author": "TOMOKI977",
+   "date": "2026-10-05T17:28:56Z",
+   "msg": "feat(spike): prove Flutter Web Freighter signing and Testnet SAC payments (#70)",
+   "pts": 10,
+   "nota": ""
+  },
   {
    "sha": "1092bab",
    "team": "Tinkazo",
