@@ -1,14 +1,14 @@
 {
- "generado": "2026-10-04T20:39:19+00:00",
+ "generado": "2026-10-05T03:05:32+00:00",
  "programa": "Stellar Elite",
  "start_date": "2026-09-02T00:00:00Z",
  "teams": [
   {
    "name": "Tinkazo",
-   "total": 973.74,
-   "per_capita": 973.74,
-   "commits": 113,
-   "pts_commits": 905.74,
+   "total": 1007.4,
+   "per_capita": 1007.4,
+   "commits": 118,
+   "pts_commits": 939.4,
    "dias_activos": 13,
    "contribuidores": [
     "nema1502"
@@ -21,11 +21,11 @@
   },
   {
    "name": "Impulso Stellar",
-   "total": 452.11,
-   "per_capita": 452.11,
-   "commits": 85,
-   "pts_commits": 392.11,
-   "dias_activos": 9,
+   "total": 505.55,
+   "per_capita": 505.55,
+   "commits": 94,
+   "pts_commits": 440.55,
+   "dias_activos": 10,
    "contribuidores": [
     "Hans3010",
     "Ismaelolazo",
@@ -128,6 +128,22 @@
    "rank": 7
   },
   {
+   "name": "GatoPago",
+   "total": 78.0,
+   "per_capita": 78.0,
+   "commits": 14,
+   "pts_commits": 50.0,
+   "dias_activos": 5,
+   "contribuidores": [
+    "danelerr"
+   ],
+   "tamano": 1,
+   "repos": [
+    "danelerr/parmelia-links"
+   ],
+   "rank": 8
+  },
+  {
    "name": "BolivianPets",
    "total": 22.09,
    "per_capita": 22.09,
@@ -141,7 +157,7 @@
    "repos": [
     "GuidoSV7/stellar-build"
    ],
-   "rank": 8
+   "rank": 9
   },
   {
    "name": "MinerTrace",
@@ -157,7 +173,7 @@
    "repos": [
     "Dante1128/MinerTracer"
    ],
-   "rank": 9
+   "rank": 10
   },
   {
    "name": "DrinksOnChain",
@@ -173,7 +189,7 @@
    "repos": [
     "DAVV422/drinks-on-chain-public"
    ],
-   "rank": 10
+   "rank": 11
   },
   {
    "name": "CompraGasolinaBidon",
@@ -189,7 +205,7 @@
    "repos": [
     "jjvos19/stellar-build"
    ],
-   "rank": 11
+   "rank": 12
   },
   {
    "name": "Agentx402",
@@ -204,20 +220,6 @@
    "tamano": 1,
    "repos": [
     "ZequerVirus/Stellar-P1"
-   ],
-   "rank": 12
-  },
-  {
-   "name": "GatoPago",
-   "total": 0.0,
-   "per_capita": 0.0,
-   "commits": 0,
-   "pts_commits": 0.0,
-   "dias_activos": 0,
-   "contribuidores": [],
-   "tamano": 1,
-   "repos": [
-    "danelerr/parmelia-links"
    ],
    "rank": 13
   },
@@ -308,7 +310,7 @@
    "2026-09-30": 29.66,
    "2026-10-01": 4.81,
    "2026-10-02": 34.17,
-   "2026-10-04": 78.14
+   "2026-10-04": 111.80000000000001
   },
   "CompraGasolinaBidon": {
    "2026-09-06": 1.0
@@ -341,7 +343,8 @@
    "2026-09-30": 40.0,
    "2026-10-01": 1.0,
    "2026-10-02": 186.59,
-   "2026-10-04": 63.489999999999995
+   "2026-10-04": 96.49,
+   "2026-10-05": 15.439999999999998
   },
   "BOLAR": {
    "2026-09-22": 9.25,
@@ -360,6 +363,13 @@
    "2026-10-01": 43.809999999999995,
    "2026-10-02": 195.20999999999998,
    "2026-10-03": 34.81
+  },
+  "GatoPago": {
+   "2026-09-10": 1.0,
+   "2026-09-25": 1.0,
+   "2026-09-30": 45.0,
+   "2026-10-01": 1.0,
+   "2026-10-04": 2.0
   }
  },
  "serie_commits": {
@@ -394,7 +404,7 @@
    "2026-09-30": 4,
    "2026-10-01": 1,
    "2026-10-02": 4,
-   "2026-10-04": 10
+   "2026-10-04": 15
   },
   "CompraGasolinaBidon": {
    "2026-09-06": 1
@@ -427,7 +437,8 @@
    "2026-09-30": 12,
    "2026-10-01": 2,
    "2026-10-02": 36,
-   "2026-10-04": 11
+   "2026-10-04": 15,
+   "2026-10-05": 5
   },
   "BOLAR": {
    "2026-09-22": 1,
@@ -446,9 +457,166 @@
    "2026-10-01": 8,
    "2026-10-02": 33,
    "2026-10-03": 6
+  },
+  "GatoPago": {
+   "2026-09-10": 1,
+   "2026-09-25": 1,
+   "2026-09-30": 9,
+   "2026-10-01": 1,
+   "2026-10-04": 2
   }
  },
  "commits": [
+  {
+   "sha": "9bcf6f1",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "Hans3010",
+   "date": "2026-10-05T02:06:43Z",
+   "msg": "Merge pull request #30 from orlando-vazquez-career/codex/ci-browser-timing",
+   "pts": 0.0,
+   "nota": "merge"
+  },
+  {
+   "sha": "15a9109",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "orlando-vazquez-career",
+   "date": "2026-10-05T01:56:18Z",
+   "msg": "test: stabilize opening selection and surrender on slow CI",
+   "pts": 5.46,
+   "nota": ""
+  },
+  {
+   "sha": "8fac2f7",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "orlando-vazquez-career",
+   "date": "2026-10-05T01:20:09Z",
+   "msg": "Merge pull request #29 from orlando-vazquez-career/feat/base-modulos",
+   "pts": 0.0,
+   "nota": "merge"
+  },
+  {
+   "sha": "949415d",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "Hans3010",
+   "date": "2026-10-05T00:53:22Z",
+   "msg": "test(e2e): elección del aumento inicial tolerante al reloj acelerado",
+   "pts": 5.17,
+   "nota": ""
+  },
+  {
+   "sha": "d28d4fc",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "Hans3010",
+   "date": "2026-10-05T00:34:42Z",
+   "msg": "test(e2e): base sin carrera contra la elección automática del aumento inicial",
+   "pts": 4.81,
+   "nota": ""
+  },
+  {
+   "sha": "283eb3d",
+   "team": "GatoPago",
+   "repo": "danelerr/parmelia-links",
+   "author": "danelerr",
+   "date": "2026-10-04T23:49:35Z",
+   "msg": "chore: keep only the historical archive README",
+   "pts": 1.0,
+   "nota": "import masivo (291 archivos)"
+  },
+  {
+   "sha": "1444eaf",
+   "team": "GatoPago",
+   "repo": "danelerr/parmelia-links",
+   "author": "danelerr",
+   "date": "2026-10-04T23:48:08Z",
+   "msg": "puting down this repo",
+   "pts": 1.0,
+   "nota": "import masivo (286 archivos)"
+  },
+  {
+   "sha": "4515d70",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-10-04T22:29:44Z",
+   "msg": "La carrera avisa cuántos corren, el teleférico no narra a un ganador como perdedor y ¿Quién es? pregunta por tu nombre",
+   "pts": 6.73,
+   "nota": ""
+  },
+  {
+   "sha": "d9f4c13",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-10-04T22:29:44Z",
+   "msg": "Los finales ya no delatan al ganador",
+   "pts": 7.23,
+   "nota": ""
+  },
+  {
+   "sha": "9f6a1c4",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-10-04T22:29:44Z",
+   "msg": "El sapo, nítido en el último tiro",
+   "pts": 7.04,
+   "nota": ""
+  },
+  {
+   "sha": "a596cca",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "Hans3010",
+   "date": "2026-10-04T21:01:13Z",
+   "msg": "fix(web): módulos con la misma ayuda emergente que el hangar",
+   "pts": 5.81,
+   "nota": ""
+  },
+  {
+   "sha": "aabb756",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "Hans3010",
+   "date": "2026-10-04T20:50:20Z",
+   "msg": "balance: Fragatas que se dañan entre sí y counters menos extremos",
+   "pts": 7.3,
+   "nota": ""
+  },
+  {
+   "sha": "2bedc63",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "Hans3010",
+   "date": "2026-10-04T20:20:10Z",
+   "msg": "feat: base destructible con módulos, economía de nodos y rendición",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "b659839",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-10-04T19:49:47Z",
+   "msg": "Nada técnico durante el sorteo",
+   "pts": 6.49,
+   "nota": ""
+  },
+  {
+   "sha": "8a99fe0",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-10-04T19:44:05Z",
+   "msg": "La portada se ve siempre en \"/\", también con la cuenta abierta",
+   "pts": 6.17,
+   "nota": ""
+  },
   {
    "sha": "c81fc04",
    "team": "Tinkazo",
@@ -457,6 +625,16 @@
    "date": "2026-10-04T19:36:38Z",
    "msg": "Las copias de archive.org de las fuentes caídas, anotadas",
    "pts": 5.52,
+   "nota": ""
+  },
+  {
+   "sha": "c187815",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "Hans3010",
+   "date": "2026-10-04T19:09:03Z",
+   "msg": "fix: retain ship pursuit and render weapons with reload bars",
+   "pts": 9.89,
    "nota": ""
   },
   {
@@ -1840,6 +2018,16 @@
    "nota": ""
   },
   {
+   "sha": "79a9943",
+   "team": "GatoPago",
+   "repo": "danelerr/parmelia-links",
+   "author": "danelerr",
+   "date": "2026-10-01T00:30:34Z",
+   "msg": "fix(v3): decouple projects and harden wallet runtime",
+   "pts": 1.0,
+   "nota": "import masivo (115 archivos)"
+  },
+  {
    "sha": "2fe2e43",
    "team": "NodeXchange",
    "repo": "RomerTamayo/stellar-build",
@@ -2116,6 +2304,96 @@
    "author": "Ismaelolazo",
    "date": "2026-09-30T05:26:28Z",
    "msg": "feat(rts): add free movement combat and group selection",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "381139d",
+   "team": "GatoPago",
+   "repo": "danelerr/parmelia-links",
+   "author": "danelerr",
+   "date": "2026-09-30T03:18:51Z",
+   "msg": "docs(v3): document architecture, configuration and deployments",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "ccd297e",
+   "team": "GatoPago",
+   "repo": "danelerr/parmelia-links",
+   "author": "danelerr",
+   "date": "2026-09-30T03:18:51Z",
+   "msg": "build(repo): consolidate workspace and V3 deployment tooling",
+   "pts": 1.0,
+   "nota": "import masivo (52 archivos)"
+  },
+  {
+   "sha": "6042b43",
+   "team": "GatoPago",
+   "repo": "danelerr/parmelia-links",
+   "author": "danelerr",
+   "date": "2026-09-30T03:18:51Z",
+   "msg": "chore(web): remove the obsolete client and legacy browser tests",
+   "pts": 1.0,
+   "nota": "import masivo (150 archivos)"
+  },
+  {
+   "sha": "d57fa62",
+   "team": "GatoPago",
+   "repo": "danelerr/parmelia-links",
+   "author": "danelerr",
+   "date": "2026-09-30T03:18:51Z",
+   "msg": "feat(web): connect passkey accounts to the V3 wallet runtime",
+   "pts": 1.0,
+   "nota": "import masivo (94 archivos)"
+  },
+  {
+   "sha": "40f684b",
+   "team": "GatoPago",
+   "repo": "danelerr/parmelia-links",
+   "author": "danelerr",
+   "date": "2026-09-30T03:18:51Z",
+   "msg": "refactor(flow): regularize payments and configure the V3 Worker",
+   "pts": 1.0,
+   "nota": "import masivo (100 archivos)"
+  },
+  {
+   "sha": "6f46bf6",
+   "team": "GatoPago",
+   "repo": "danelerr/parmelia-links",
+   "author": "danelerr",
+   "date": "2026-09-30T03:18:51Z",
+   "msg": "refactor(wallet-core): replace legacy server with passkey-only V3 runtime",
+   "pts": 1.0,
+   "nota": "import masivo (300 archivos)"
+  },
+  {
+   "sha": "bac069d",
+   "team": "GatoPago",
+   "repo": "danelerr/parmelia-links",
+   "author": "danelerr",
+   "date": "2026-09-30T03:18:51Z",
+   "msg": "feat(protocol): align V3 wallet types and environment fixtures",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "a87aefb",
+   "team": "GatoPago",
+   "repo": "danelerr/parmelia-links",
+   "author": "danelerr",
+   "date": "2026-09-30T03:18:51Z",
+   "msg": "chore(contracts): record verified V3 deployment on Arbitrum Sepolia",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "6a65d60",
+   "team": "GatoPago",
+   "repo": "danelerr/parmelia-links",
+   "author": "danelerr",
+   "date": "2026-09-30T03:18:51Z",
+   "msg": "test(contracts): cover V3 upgrade guards and remove V2 artifacts",
    "pts": 10,
    "nota": ""
   },
@@ -2968,6 +3246,16 @@
    "msg": "feat(contracts): contrato cosmetics como NFT listo para marketplace",
    "pts": 10,
    "nota": ""
+  },
+  {
+   "sha": "2257fa6",
+   "team": "GatoPago",
+   "repo": "danelerr/parmelia-links",
+   "author": "danelerr",
+   "date": "2026-09-25T00:52:39Z",
+   "msg": "wip(v3): checkpoint frontend and contracts with current handoff",
+   "pts": 1.0,
+   "nota": "import masivo (261 archivos)"
   },
   {
    "sha": "d8399ff",
@@ -4008,6 +4296,16 @@
    "msg": "Initial commit",
    "pts": 8.67,
    "nota": ""
+  },
+  {
+   "sha": "ab599a0",
+   "team": "GatoPago",
+   "repo": "danelerr/parmelia-links",
+   "author": "danelerr",
+   "date": "2026-09-10T11:40:50Z",
+   "msg": "wip(v3): preserve E0-E4 candidate and handoff",
+   "pts": 1.0,
+   "nota": "import masivo (277 archivos)"
   },
   {
    "sha": "345ff28",
