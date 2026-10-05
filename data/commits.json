@@ -58391,5 +58391,450 @@
     "d": 0
    }
   ]
+ },
+ "1092bab0af30ceb37cd8e2fd6c67211fedd87d72": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-05T12:34:18Z",
+  "message": "En la Chovena, el \"¡QUIETOS!\" sale en todos los cortes y la rueda se forma sin montones",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/epics.md",
+    "a": 7,
+    "d": 0
+   },
+   {
+    "f": "docs/juegos/chovena.md",
+    "a": 6,
+    "d": 6
+   },
+   {
+    "f": "scripts/lib/browser.mjs",
+    "a": 28,
+    "d": 2
+   },
+   {
+    "f": "src/games/pixi/chovena.ts",
+    "a": 144,
+    "d": 41
+   },
+   {
+    "f": "src/i18n.ts",
+    "a": 20,
+    "d": 10
+   },
+   {
+    "f": "src/styles.css",
+    "a": 2,
+    "d": 3
+   }
+  ]
+ },
+ "a5e46cba48e89a65530a7eb13407e5d69ed7c3b0": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-05T09:51:20Z",
+  "message": "En la Chovena, el \"¡QUIETOS!\" ya no tapa a nadie, ni en el celular",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/epics.md",
+    "a": 11,
+    "d": 0
+   },
+   {
+    "f": "docs/juegos.md",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "docs/juegos/chovena.md",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "public/juegos/chovena-light.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/chovena.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "scripts/capturas-juegos.mjs",
+    "a": 51,
+    "d": 11
+   },
+   {
+    "f": "src/games/pixi/chovena.ts",
+    "a": 184,
+    "d": 40
+   },
+   {
+    "f": "src/i18n.ts",
+    "a": 5,
+    "d": 1
+   },
+   {
+    "f": "src/music.ts",
+    "a": 10,
+    "d": 2
+   },
+   {
+    "f": "src/pagina.ts",
+    "a": 8,
+    "d": 1
+   },
+   {
+    "f": "src/styles.css",
+    "a": 2,
+    "d": 0
+   }
+  ]
+ },
+ "8abc7c4f15e67ae629dffaa25550941da2d1229b": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-05T08:31:08Z",
+  "message": "En las filas de la Chovena, las palmadas de los hombres se ven",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/games/pixi/chovena.ts",
+    "a": 7,
+    "d": 3
+   }
+  ]
+ },
+ "701a9f1f89a6ae12ddcb40c09a8ec74294572f27": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-05T06:55:19Z",
+  "message": "La animación del README muestra la Chovena en el lugar de luz roja",
+  "parents": 1,
+  "files": [
+   {
+    "f": "README.md",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "docs/capturas/readme/partidas.webp",
+    "a": 0,
+    "d": 0
+   }
+  ]
+ },
+ "ebe86ebd06fdc97f818df61da4809ad00cf2b3f1": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-05T05:56:45Z",
+  "message": "La Chovena entra al selector, los juegos pasan lista y el audio se mide",
+  "parents": 1,
+  "files": [
+   {
+    "f": "README.md",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "docs/epics.md",
+    "a": 77,
+    "d": 0
+   },
+   {
+    "f": "docs/juegos.md",
+    "a": 28,
+    "d": 2
+   },
+   {
+    "f": "docs/juegos/chovena.md",
+    "a": 121,
+    "d": 0
+   },
+   {
+    "f": "docs/marca.md",
+    "a": 3,
+    "d": 3
+   },
+   {
+    "f": "docs/motores.md",
+    "a": 2,
+    "d": 1
+   },
+   {
+    "f": "index.html",
+    "a": 4,
+    "d": 4
+   },
+   {
+    "f": "juegos.html",
+    "a": 4,
+    "d": 4
+   },
+   {
+    "f": "package.json",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/chovena-light.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/chovena.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "scripts/audit-emocion.mjs",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "scripts/audit-identidad.mjs",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "scripts/audit-mezcla.mjs",
+    "a": 278,
+    "d": 0
+   },
+   {
+    "f": "scripts/audit-rigor.mjs",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "scripts/audit-sound.mjs",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/games/llamas/pixi-race.ts",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "src/games/lore.ts",
+    "a": 14,
+    "d": 0
+   },
+   {
+    "f": "src/games/pixi/cablecar.ts",
+    "a": 14,
+    "d": 0
+   },
+   {
+    "f": "src/games/pixi/chovena.ts",
+    "a": 1593,
+    "d": 0
+   },
+   {
+    "f": "src/games/pixi/constellation.ts",
+    "a": 12,
+    "d": 1
+   },
+   {
+    "f": "src/games/pixi/index.ts",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "src/games/pixi/oruro.ts",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "src/games/pixi/pasanaku.ts",
+    "a": 9,
+    "d": 1
+   },
+   {
+    "f": "src/games/pixi/pinata.ts",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "src/games/pixi/quien.ts",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "src/games/pixi/sapo.ts",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "src/games/pixi/stage.ts",
+    "a": 110,
+    "d": 7
+   },
+   {
+    "f": "src/games/pixi/tombola.ts",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "src/games/pixi/trompo.ts",
+    "a": 12,
+    "d": 1
+   },
+   {
+    "f": "src/games/pixi/wheel.ts",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "src/i18n.ts",
+    "a": 64,
+    "d": 2
+   },
+   {
+    "f": "src/main.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/music.ts",
+    "a": 449,
+    "d": 15
+   },
+   {
+    "f": "src/state.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/ui/freeze.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/ui/gamecard.ts",
+    "a": 4,
+    "d": 2
+   },
+   {
+    "f": "src/ui/thumbs.ts",
+    "a": 106,
+    "d": 0
+   }
+  ]
+ },
+ "3a96f5c54c51064451dc7ef8074b683493d08f28": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-05T03:21:43Z",
+  "message": "La tómbola dice de quién es cada bola, y un auditor mide si cada uno se ve",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/juegos/tombola.md",
+    "a": 3,
+    "d": 1
+   },
+   {
+    "f": "scripts/audit-identidad.mjs",
+    "a": 125,
+    "d": 0
+   },
+   {
+    "f": "src/games/pixi/tombola.ts",
+    "a": 102,
+    "d": 2
+   }
+  ]
+ },
+ "592de868f13e23dd9714619c7a6402c9a0ea86fc": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-05T03:21:43Z",
+  "message": "La tarjeta de \"cómo se juega\" antes de cada juego, y el botón de sortear a la vista en la portada",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/juegos.md",
+    "a": 6,
+    "d": 1
+   },
+   {
+    "f": "docs/juegos/carrera-stellar.md",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "docs/juegos/constelacion-stellar.md",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "docs/juegos/teleferico.md",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "docs/motores.md",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "src/games/pixi/index.ts",
+    "a": 9,
+    "d": 1
+   },
+   {
+    "f": "src/games/pixi/stage.ts",
+    "a": 104,
+    "d": 3
+   },
+   {
+    "f": "src/i18n.ts",
+    "a": 57,
+    "d": 0
+   },
+   {
+    "f": "src/music.ts",
+    "a": 6,
+    "d": 0
+   },
+   {
+    "f": "src/state.ts",
+    "a": 29,
+    "d": 1
+   },
+   {
+    "f": "src/styles.css",
+    "a": 50,
+    "d": 0
+   },
+   {
+    "f": "src/ui/draw.ts",
+    "a": 106,
+    "d": 44
+   },
+   {
+    "f": "src/ui/gamecard.test.ts",
+    "a": 21,
+    "d": 0
+   },
+   {
+    "f": "src/ui/gamecard.ts",
+    "a": 164,
+    "d": 0
+   }
+  ]
  }
 }

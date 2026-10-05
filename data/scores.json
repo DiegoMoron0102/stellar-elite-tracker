@@ -1,15 +1,15 @@
 {
- "generado": "2026-10-05T03:05:32+00:00",
+ "generado": "2026-10-05T13:03:20+00:00",
  "programa": "Stellar Elite",
  "start_date": "2026-09-02T00:00:00Z",
  "teams": [
   {
    "name": "Tinkazo",
-   "total": 1007.4,
-   "per_capita": 1007.4,
-   "commits": 118,
-   "pts_commits": 939.4,
-   "dias_activos": 13,
+   "total": 1066.77,
+   "per_capita": 1066.77,
+   "commits": 125,
+   "pts_commits": 993.77,
+   "dias_activos": 14,
    "contribuidores": [
     "nema1502"
    ],
@@ -310,7 +310,8 @@
    "2026-09-30": 29.66,
    "2026-10-01": 4.81,
    "2026-10-02": 34.17,
-   "2026-10-04": 111.80000000000001
+   "2026-10-04": 111.80000000000001,
+   "2026-10-05": 54.37
   },
   "CompraGasolinaBidon": {
    "2026-09-06": 1.0
@@ -404,7 +405,8 @@
    "2026-09-30": 4,
    "2026-10-01": 1,
    "2026-10-02": 4,
-   "2026-10-04": 15
+   "2026-10-04": 15,
+   "2026-10-05": 7
   },
   "CompraGasolinaBidon": {
    "2026-09-06": 1
@@ -467,6 +469,76 @@
   }
  },
  "commits": [
+  {
+   "sha": "1092bab",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-10-05T12:34:18Z",
+   "msg": "En la Chovena, el \"¡QUIETOS!\" sale en todos los cortes y la rueda se forma sin montones",
+   "pts": 9.08,
+   "nota": ""
+  },
+  {
+   "sha": "a5e46cb",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-10-05T09:51:20Z",
+   "msg": "En la Chovena, el \"¡QUIETOS!\" ya no tapa a nadie, ni en el celular",
+   "pts": 9.38,
+   "nota": ""
+  },
+  {
+   "sha": "8abc7c4",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-10-05T08:31:08Z",
+   "msg": "En las filas de la Chovena, las palmadas de los hombres se ven",
+   "pts": 4.46,
+   "nota": ""
+  },
+  {
+   "sha": "701a9f1",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-10-05T06:55:19Z",
+   "msg": "La animación del README muestra la Chovena en el lugar de luz roja",
+   "pts": 2.58,
+   "nota": ""
+  },
+  {
+   "sha": "ebe86eb",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-10-05T05:56:45Z",
+   "msg": "La Chovena entra al selector, los juegos pasan lista y el audio se mide",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "3a96f5c",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-10-05T03:21:43Z",
+   "msg": "La tómbola dice de quién es cada bola, y un auditor mide si cada uno se ve",
+   "pts": 8.87,
+   "nota": ""
+  },
+  {
+   "sha": "592de86",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-10-05T03:21:43Z",
+   "msg": "La tarjeta de \"cómo se juega\" antes de cada juego, y el botón de sortear a la vista en la portada",
+   "pts": 10,
+   "nota": ""
+  },
   {
    "sha": "9bcf6f1",
    "team": "Impulso Stellar",
