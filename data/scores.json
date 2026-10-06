@@ -1,5 +1,5 @@
 {
- "generado": "2026-10-06T12:27:05+00:00",
+ "generado": "2026-10-06T22:01:46+00:00",
  "programa": "Stellar Elite",
  "start_date": "2026-09-02T00:00:00Z",
  "teams": [
@@ -40,6 +40,26 @@
    "rank": 2
   },
   {
+   "name": "Puls3",
+   "total": 433.87,
+   "per_capita": 433.87,
+   "commits": 69,
+   "pts_commits": 358.87,
+   "dias_activos": 12,
+   "contribuidores": [
+    "TOMOKI977",
+    "XxHugheadxX",
+    "anahillanos474-max",
+    "fercodes",
+    "moises-cisneros"
+   ],
+   "tamano": 1,
+   "repos": [
+    "Zer0-Knowledge-Hack/puls3"
+   ],
+   "rank": 3
+  },
+  {
    "name": "TilcAI",
    "total": 419.11,
    "per_capita": 139.7,
@@ -55,25 +75,6 @@
    "tamano": 3,
    "repos": [
     "TilcAI/tilcai-web"
-   ],
-   "rank": 3
-  },
-  {
-   "name": "Puls3",
-   "total": 381.25,
-   "per_capita": 381.25,
-   "commits": 63,
-   "pts_commits": 314.25,
-   "dias_activos": 11,
-   "contribuidores": [
-    "TOMOKI977",
-    "XxHugheadxX",
-    "anahillanos474-max",
-    "moises-cisneros"
-   ],
-   "tamano": 1,
-   "repos": [
-    "Zer0-Knowledge-Hack/puls3"
    ],
    "rank": 4
   },
@@ -296,7 +297,8 @@
    "2026-09-29": 19.05,
    "2026-10-02": 20.85,
    "2026-10-04": 11.96,
-   "2026-10-05": 61.0
+   "2026-10-05": 61.0,
+   "2026-10-06": 44.62
   },
   "Tinkazo": {
    "2026-09-16": 66.21000000000001,
@@ -394,7 +396,8 @@
    "2026-09-29": 3,
    "2026-10-02": 3,
    "2026-10-04": 3,
-   "2026-10-05": 7
+   "2026-10-05": 7,
+   "2026-10-06": 6
   },
   "Tinkazo": {
    "2026-09-16": 8,
@@ -475,6 +478,66 @@
   }
  },
  "commits": [
+  {
+   "sha": "6b0e14d",
+   "team": "Puls3",
+   "repo": "Zer0-Knowledge-Hack/puls3",
+   "author": "moises-cisneros",
+   "date": "2026-10-06T20:28:48Z",
+   "msg": "feat(flutter): hire flow UI with escrow summary and error recovery (demo signing) (#92)",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "2663098",
+   "team": "Puls3",
+   "repo": "Zer0-Knowledge-Hack/puls3",
+   "author": "moises-cisneros",
+   "date": "2026-10-06T19:59:29Z",
+   "msg": "fix(contracts): extend Claimable TTL and reject evaluator == provider in escrow (#105)",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "a3cc577",
+   "team": "Puls3",
+   "repo": "Zer0-Knowledge-Hack/puls3",
+   "author": "fercodes",
+   "date": "2026-10-06T18:03:34Z",
+   "msg": "docs(adr): mark ADR-0002 and ADR-0003 as amended by ADR-0005 (#103)",
+   "pts": 6.13,
+   "nota": ""
+  },
+  {
+   "sha": "34a8032",
+   "team": "Puls3",
+   "repo": "Zer0-Knowledge-Hack/puls3",
+   "author": "TOMOKI977",
+   "date": "2026-10-06T17:57:19Z",
+   "msg": "docs(api): align catalog contract with the AgentEndpoint implementation (#99)",
+   "pts": 7.49,
+   "nota": ""
+  },
+  {
+   "sha": "c549139",
+   "team": "Puls3",
+   "repo": "Zer0-Knowledge-Hack/puls3",
+   "author": "TOMOKI977",
+   "date": "2026-10-06T17:48:53Z",
+   "msg": "feat(server): chain submission store, sendTransaction and tracker for create_job and fund (#100)",
+   "pts": 1.0,
+   "nota": "import masivo (55 archivos)"
+  },
+  {
+   "sha": "060c954",
+   "team": "Puls3",
+   "repo": "Zer0-Knowledge-Hack/puls3",
+   "author": "moises-cisneros",
+   "date": "2026-10-06T17:24:43Z",
+   "msg": "docs(openspec): archive merged escrow changes and sync escrow specs (#104)",
+   "pts": 10,
+   "nota": ""
+  },
   {
    "sha": "e31dbac",
    "team": "Tinkazo",

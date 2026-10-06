@@ -60186,5 +60186,620 @@
     "d": 24
    }
   ]
+ },
+ "6b0e14de79cccc2255eac4aa7114db1c2bdd7171": {
+  "team": "Puls3",
+  "repo": "Zer0-Knowledge-Hack/puls3",
+  "author": "moises-cisneros",
+  "date": "2026-10-06T20:28:48Z",
+  "message": "feat(flutter): hire flow UI with escrow summary and error recovery (demo signing) (#92)",
+  "parents": 1,
+  "files": [
+   {
+    "f": "openspec/changes/archive/2026-10-04-fix-flutter-hire-escrow-flow/archive-report.md",
+    "a": 72,
+    "d": 0
+   },
+   {
+    "f": "openspec/changes/archive/2026-10-04-fix-flutter-hire-escrow-flow/design.md",
+    "a": 101,
+    "d": 0
+   },
+   {
+    "f": "openspec/changes/archive/2026-10-04-fix-flutter-hire-escrow-flow/exploration.md",
+    "a": 35,
+    "d": 0
+   },
+   {
+    "f": "openspec/changes/archive/2026-10-04-fix-flutter-hire-escrow-flow/proposal.md",
+    "a": 71,
+    "d": 0
+   },
+   {
+    "f": "openspec/changes/archive/2026-10-04-fix-flutter-hire-escrow-flow/specs/flutter-hire-escrow-flow/spec.md",
+    "a": 77,
+    "d": 0
+   },
+   {
+    "f": "openspec/changes/archive/2026-10-04-fix-flutter-hire-escrow-flow/tasks.md",
+    "a": 58,
+    "d": 0
+   },
+   {
+    "f": "openspec/changes/archive/2026-10-04-fix-flutter-hire-escrow-flow/verify-report.md",
+    "a": 78,
+    "d": 0
+   },
+   {
+    "f": "openspec/specs/flutter-hire-escrow-flow/spec.md",
+    "a": 79,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/lib/src/domain/stellar_explorer.dart",
+    "a": 20,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/lib/src/screens/hire_sheet.dart",
+    "a": 27,
+    "d": 11
+   },
+   {
+    "f": "puls3_flutter/lib/src/ui/organisms/hire_payment_view.dart",
+    "a": 70,
+    "d": 29
+   },
+   {
+    "f": "puls3_flutter/test/domain/stellar_explorer_test.dart",
+    "a": 31,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/test/screens/agent_detail_screen_test.dart",
+    "a": 4,
+    "d": 3
+   },
+   {
+    "f": "puls3_flutter/test/screens/hire_sheet_test.dart",
+    "a": 117,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/test/ui/hire_payment_view_test.dart",
+    "a": 94,
+    "d": 0
+   }
+  ]
+ },
+ "2663098d63684deaa5d222454e98047b2a5a874a": {
+  "team": "Puls3",
+  "repo": "Zer0-Knowledge-Hack/puls3",
+  "author": "moises-cisneros",
+  "date": "2026-10-06T19:59:29Z",
+  "message": "fix(contracts): extend Claimable TTL and reject evaluator == provider in escrow (#105)",
+  "parents": 1,
+  "files": [
+   {
+    "f": "contracts/README.md",
+    "a": 7,
+    "d": 1
+   },
+   {
+    "f": "contracts/contracts/escrow/src/lib.rs",
+    "a": 15,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/escrow/src/test.rs",
+    "a": 86,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/evaluator_cannot_be_the_provider.1.json",
+    "a": 733,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/evaluator_equal_to_client_is_accepted.1.json",
+    "a": 923,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/extend_claimable_ttl_for_an_unknown_entry_only_bumps_the_instance.1.json",
+    "a": 736,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/extend_claimable_ttl_restores_a_decayed_entry.1.json",
+    "a": 1507,
+    "d": 0
+   },
+   {
+    "f": "docs/architecture/api.md",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "docs/verification/onchain.md",
+    "a": 7,
+    "d": 0
+   },
+   {
+    "f": "openspec/changes/archive/2026-10-06-escrow-claimable-ttl-evaluator-guard/archive-report.md",
+    "a": 100,
+    "d": 0
+   },
+   {
+    "f": "openspec/changes/archive/2026-10-06-escrow-claimable-ttl-evaluator-guard/design.md",
+    "a": 100,
+    "d": 0
+   },
+   {
+    "f": "openspec/changes/archive/2026-10-06-escrow-claimable-ttl-evaluator-guard/exploration.md",
+    "a": 33,
+    "d": 0
+   },
+   {
+    "f": "openspec/changes/archive/2026-10-06-escrow-claimable-ttl-evaluator-guard/proposal.md",
+    "a": 69,
+    "d": 0
+   },
+   {
+    "f": "openspec/changes/archive/2026-10-06-escrow-claimable-ttl-evaluator-guard/specs/agent-escrow-lifecycle/spec.md",
+    "a": 172,
+    "d": 0
+   },
+   {
+    "f": "openspec/changes/archive/2026-10-06-escrow-claimable-ttl-evaluator-guard/tasks.md",
+    "a": 51,
+    "d": 0
+   },
+   {
+    "f": "openspec/changes/archive/2026-10-06-escrow-claimable-ttl-evaluator-guard/verify-report.md",
+    "a": 67,
+    "d": 0
+   },
+   {
+    "f": "openspec/specs/agent-escrow-lifecycle/spec.md",
+    "a": 72,
+    "d": 3
+   }
+  ]
+ },
+ "a3cc577151f788dbe8f39895d5ba3b13f102b664": {
+  "team": "Puls3",
+  "repo": "Zer0-Knowledge-Hack/puls3",
+  "author": "fercodes",
+  "date": "2026-10-06T18:03:34Z",
+  "message": "docs(adr): mark ADR-0002 and ADR-0003 as amended by ADR-0005 (#103)",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/adr/0002-agent-registry-on-soroban.md",
+    "a": 13,
+    "d": 0
+   },
+   {
+    "f": "docs/adr/0003-payment-rail-and-custody.md",
+    "a": 21,
+    "d": 0
+   }
+  ]
+ },
+ "34a80326205faaf1b1e0f6bdc5702a4b44d35c72": {
+  "team": "Puls3",
+  "repo": "Zer0-Knowledge-Hack/puls3",
+  "author": "TOMOKI977",
+  "date": "2026-10-06T17:57:19Z",
+  "message": "docs(api): align catalog contract with the AgentEndpoint implementation (#99)",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/architecture/api.md",
+    "a": 38,
+    "d": 16
+   },
+   {
+    "f": "docs/architecture/models/agent.spy.yaml",
+    "a": 2,
+    "d": 0
+   },
+   {
+    "f": "docs/architecture/models/agent_catalog_unavailable.spy.yaml",
+    "a": 5,
+    "d": 0
+   },
+   {
+    "f": "docs/architecture/models/agent_summary.spy.yaml",
+    "a": 26,
+    "d": 0
+   },
+   {
+    "f": "docs/architecture/models/skill.spy.yaml",
+    "a": 2,
+    "d": 0
+   }
+  ]
+ },
+ "c549139621f84cb80303da6dcb982410c1b07815": {
+  "team": "Puls3",
+  "repo": "Zer0-Knowledge-Hack/puls3",
+  "author": "TOMOKI977",
+  "date": "2026-10-06T17:48:53Z",
+  "message": "feat(server): chain submission store, sendTransaction and tracker for create_job and fund (#100)",
+  "parents": 1,
+  "files": [
+   {
+    "f": ".gitleaks.toml",
+    "a": 8,
+    "d": 0
+   },
+   {
+    "f": "puls3_client/lib/src/protocol/chain/chain_submission.dart",
+    "a": 171,
+    "d": 0
+   },
+   {
+    "f": "puls3_client/lib/src/protocol/protocol.dart",
+    "a": 43,
+    "d": 29
+   },
+   {
+    "f": "puls3_server/README.md",
+    "a": 19,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/server.dart",
+    "a": 10,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/chain/chain_log.dart",
+    "a": 9,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/chain/chain_submission.spy.yaml",
+    "a": 48,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/chain/chain_submission_store.dart",
+    "a": 181,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/chain/chain_submission_tracker.dart",
+    "a": 309,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/chain/chain_tracker_wiring.dart",
+    "a": 76,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/chain/escrow_effects.dart",
+    "a": 97,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/chain/serverpod_chain_submission_store.dart",
+    "a": 219,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/chain/submission_ledger.dart",
+    "a": 54,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/chain/submission_values.dart",
+    "a": 85,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/chain/tracker_loop.dart",
+    "a": 116,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/generated/chain/chain_submission.dart",
+    "a": 842,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/generated/protocol.dart",
+    "a": 214,
+    "d": 19
+   },
+   {
+    "f": "puls3_server/lib/src/ledger/contract_events.dart",
+    "a": 55,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/ledger/escrow_events.dart",
+    "a": 118,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/ledger/ledger_errors.dart",
+    "a": 15,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/ledger/soroban_ledger.dart",
+    "a": 4,
+    "d": 2
+   },
+   {
+    "f": "puls3_server/lib/src/ledger/soroban_rpc_client.dart",
+    "a": 102,
+    "d": 4
+   },
+   {
+    "f": "puls3_server/lib/src/ledger/soroban_submission_ledger.dart",
+    "a": 53,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/ledger/transfer_event_parser.dart",
+    "a": 2,
+    "d": 39
+   },
+   {
+    "f": "puls3_server/migrations/20261005222242476/definition.json",
+    "a": 3358,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/migrations/20261005222242476/definition.sql",
+    "a": 769,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/migrations/20261005222242476/definition_project.json",
+    "a": 212,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/migrations/20261005222242476/migration.json",
+    "a": 199,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/migrations/20261005222242476/migration.sql",
+    "a": 63,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/migrations/20261005231322835/definition.json",
+    "a": 3370,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/migrations/20261005231322835/definition.sql",
+    "a": 770,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/migrations/20261005231322835/definition_project.json",
+    "a": 224,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/migrations/20261005231322835/migration.json",
+    "a": 59,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/migrations/20261005231322835/migration.sql",
+    "a": 45,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/migrations/migration_registry.txt",
+    "a": 2,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/test/integration/chain_submission_store_test.dart",
+    "a": 178,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/test/integration/chain_submission_tracker_restart_test.dart",
+    "a": 109,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/test/support/chain_submission_store_contract.dart",
+    "a": 419,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/test/support/fake_escrow_effects.dart",
+    "a": 37,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/test/support/fake_submission_ledger.dart",
+    "a": 51,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/test/support/in_memory_chain_submission_store.dart",
+    "a": 148,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/test/unit/chain/chain_submission_tracker_test.dart",
+    "a": 625,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/test/unit/chain/escrow_effects_test.dart",
+    "a": 100,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/test/unit/chain/in_memory_chain_submission_store_test.dart",
+    "a": 12,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/test/unit/chain/submission_values_test.dart",
+    "a": 115,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/test/unit/chain/tracker_loop_test.dart",
+    "a": 250,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/test/unit/ledger/escrow_events_test.dart",
+    "a": 124,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/test/unit/ledger/fixtures/get_transaction_create_job_3.json",
+    "a": 2319,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/test/unit/ledger/fixtures/get_transaction_fund_job_3.json",
+    "a": 2243,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/test/unit/ledger/fixtures/send_transaction_duplicate.json",
+    "a": 10,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/test/unit/ledger/fixtures/send_transaction_error.json",
+    "a": 11,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/test/unit/ledger/fixtures/send_transaction_pending.json",
+    "a": 10,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/test/unit/ledger/fixtures/send_transaction_try_again_later.json",
+    "a": 10,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/test/unit/ledger/soroban_rpc_client_test.dart",
+    "a": 129,
+    "d": 17
+   },
+   {
+    "f": "puls3_server/test/unit/ledger/soroban_submission_ledger_test.dart",
+    "a": 181,
+    "d": 0
+   }
+  ]
+ },
+ "060c954d2fc59af9e42b88f0d92e2e44f04cfccc": {
+  "team": "Puls3",
+  "repo": "Zer0-Knowledge-Hack/puls3",
+  "author": "moises-cisneros",
+  "date": "2026-10-06T17:24:43Z",
+  "message": "docs(openspec): archive merged escrow changes and sync escrow specs (#104)",
+  "parents": 1,
+  "files": [
+   {
+    "f": "openspec/changes/archive/2026-10-02-address-testnet-deploy-pr-review/design.md",
+    "a": 101,
+    "d": 0
+   },
+   {
+    "f": "openspec/changes/archive/2026-10-02-address-testnet-deploy-pr-review/proposal.md",
+    "a": 79,
+    "d": 0
+   },
+   {
+    "f": "openspec/changes/archive/2026-10-02-address-testnet-deploy-pr-review/specs/testnet-demo-seed/spec.md",
+    "a": 143,
+    "d": 0
+   },
+   {
+    "f": "openspec/changes/archive/2026-10-02-address-testnet-deploy-pr-review/tasks.md",
+    "a": 56,
+    "d": 0
+   },
+   {
+    "f": "openspec/changes/archive/2026-10-02-agent-escrow-payment/design.md",
+    "a": 116,
+    "d": 0
+   },
+   {
+    "f": "openspec/changes/archive/2026-10-02-agent-escrow-payment/exploration.md",
+    "a": 31,
+    "d": 0
+   },
+   {
+    "f": "openspec/changes/archive/2026-10-02-agent-escrow-payment/proposal.md",
+    "a": 74,
+    "d": 0
+   },
+   {
+    "f": "openspec/changes/archive/2026-10-02-agent-escrow-payment/specs/agent-escrow-administration/spec.md",
+    "a": 152,
+    "d": 0
+   },
+   {
+    "f": "openspec/changes/archive/2026-10-02-agent-escrow-payment/specs/agent-escrow-lifecycle/spec.md",
+    "a": 514,
+    "d": 0
+   },
+   {
+    "f": "openspec/changes/archive/2026-10-02-agent-escrow-payment/tasks.md",
+    "a": 101,
+    "d": 0
+   },
+   {
+    "f": "openspec/changes/archive/2026-10-04-enforce-max-fee-bps/.openspec.yaml",
+    "a": 2,
+    "d": 0
+   },
+   {
+    "f": "openspec/changes/archive/2026-10-04-enforce-max-fee-bps/design.md",
+    "a": 59,
+    "d": 0
+   },
+   {
+    "f": "openspec/changes/archive/2026-10-04-enforce-max-fee-bps/proposal.md",
+    "a": 30,
+    "d": 0
+   },
+   {
+    "f": "openspec/changes/archive/2026-10-04-enforce-max-fee-bps/specs/agent-escrow-administration/spec.md",
+    "a": 60,
+    "d": 0
+   },
+   {
+    "f": "openspec/changes/archive/2026-10-04-enforce-max-fee-bps/tasks.md",
+    "a": 20,
+    "d": 0
+   },
+   {
+    "f": "openspec/specs/agent-escrow-administration/spec.md",
+    "a": 159,
+    "d": 0
+   },
+   {
+    "f": "openspec/specs/agent-escrow-lifecycle/spec.md",
+    "a": 514,
+    "d": 0
+   }
+  ]
  }
 }
