@@ -1,15 +1,15 @@
 {
- "generado": "2026-10-05T23:29:25+00:00",
+ "generado": "2026-10-06T03:54:29+00:00",
  "programa": "Stellar Elite",
  "start_date": "2026-09-02T00:00:00Z",
  "teams": [
   {
    "name": "Tinkazo",
-   "total": 1066.77,
-   "per_capita": 1066.77,
-   "commits": 125,
-   "pts_commits": 993.77,
-   "dias_activos": 14,
+   "total": 1087.23,
+   "per_capita": 1087.23,
+   "commits": 128,
+   "pts_commits": 1009.23,
+   "dias_activos": 15,
    "contribuidores": [
     "nema1502"
    ],
@@ -312,7 +312,8 @@
    "2026-10-01": 4.81,
    "2026-10-02": 34.17,
    "2026-10-04": 111.80000000000001,
-   "2026-10-05": 54.37
+   "2026-10-05": 54.37,
+   "2026-10-06": 15.46
   },
   "CompraGasolinaBidon": {
    "2026-09-06": 1.0
@@ -409,7 +410,8 @@
    "2026-10-01": 1,
    "2026-10-02": 4,
    "2026-10-04": 15,
-   "2026-10-05": 7
+   "2026-10-05": 7,
+   "2026-10-06": 3
   },
   "CompraGasolinaBidon": {
    "2026-09-06": 1
@@ -473,6 +475,36 @@
   }
  },
  "commits": [
+  {
+   "sha": "e31dbac",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-10-06T01:51:11Z",
+   "msg": "Los auditores borran el perfil de Chrome que crean",
+   "pts": 8.08,
+   "nota": ""
+  },
+  {
+   "sha": "7a4c5e8",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-10-06T01:21:14Z",
+   "msg": "La animación del README muestra el corte nuevo de la Chovena",
+   "pts": 0.0,
+   "nota": "sin cambios de lineas"
+  },
+  {
+   "sha": "e070313",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-10-06T00:57:59Z",
+   "msg": "El \"¡QUIETOS!\" de la Chovena cuenta adónde va a mirar la cámara",
+   "pts": 7.38,
+   "nota": ""
+  },
   {
    "sha": "bf581c0",
    "team": "Puls3",

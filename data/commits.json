@@ -60066,5 +60066,125 @@
     "d": 0
    }
   ]
+ },
+ "e31dbacc51c85ac4d5fe3df92e180439222427d8": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-06T01:51:11Z",
+  "message": "Los auditores borran el perfil de Chrome que crean",
+  "parents": 1,
+  "files": [
+   {
+    "f": "scripts/audit-choques.mjs",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "scripts/audit-emocion.mjs",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "scripts/audit-fisica.mjs",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "scripts/audit-game.mjs",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "scripts/audit-identidad.mjs",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "scripts/audit-mezcla.mjs",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "scripts/audit-rigor.mjs",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "scripts/audit-sound.mjs",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "scripts/audit-ui.mjs",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "scripts/capturas-juegos.mjs",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "scripts/check-paginas.mjs",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "scripts/check-qr.mjs",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "scripts/lib/browser.mjs",
+    "a": 93,
+    "d": 15
+   },
+   {
+    "f": "scripts/smoke.mjs",
+    "a": 1,
+    "d": 1
+   }
+  ]
+ },
+ "7a4c5e8ff124d960ded8ea8f594ea9c454d1660d": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-06T01:21:14Z",
+  "message": "La animación del README muestra el corte nuevo de la Chovena",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/capturas/readme/partidas.webp",
+    "a": 0,
+    "d": 0
+   }
+  ]
+ },
+ "e070313f6a538f7efa24874913d59d2cc89cc034": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-06T00:57:59Z",
+  "message": "El \"¡QUIETOS!\" de la Chovena cuenta adónde va a mirar la cámara",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/epics.md",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "docs/juegos/chovena.md",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/games/pixi/chovena.ts",
+    "a": 55,
+    "d": 24
+   }
+  ]
  }
 }
