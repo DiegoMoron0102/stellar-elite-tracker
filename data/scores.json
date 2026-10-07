@@ -1,5 +1,5 @@
 {
- "generado": "2026-10-07T03:22:28+00:00",
+ "generado": "2026-10-07T12:19:35+00:00",
  "programa": "Stellar Elite",
  "start_date": "2026-09-02T00:00:00Z",
  "teams": [
@@ -21,10 +21,10 @@
   },
   {
    "name": "Impulso Stellar",
-   "total": 602.42,
-   "per_capita": 602.42,
-   "commits": 115,
-   "pts_commits": 524.42,
+   "total": 629.66,
+   "per_capita": 629.66,
+   "commits": 122,
+   "pts_commits": 551.66,
    "dias_activos": 12,
    "contribuidores": [
     "Copilot",
@@ -352,8 +352,8 @@
    "2026-10-02": 186.59,
    "2026-10-04": 96.49,
    "2026-10-05": 55.78,
-   "2026-10-06": 37.89,
-   "2026-10-07": 5.64
+   "2026-10-06": 57.46,
+   "2026-10-07": 13.309999999999999
   },
   "BOLAR": {
    "2026-09-22": 9.25,
@@ -454,8 +454,8 @@
    "2026-10-02": 36,
    "2026-10-04": 15,
    "2026-10-05": 11,
-   "2026-10-06": 9,
-   "2026-10-07": 6
+   "2026-10-06": 12,
+   "2026-10-07": 10
   },
   "BOLAR": {
    "2026-09-22": 1,
@@ -486,6 +486,36 @@
  },
  "commits": [
   {
+   "sha": "d4d657d",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "orlando-vazquez-career",
+   "date": "2026-10-07T11:47:58Z",
+   "msg": "Merge pull request #33 from orlando-vazquez-career/feature/mapa",
+   "pts": 0.0,
+   "nota": "merge"
+  },
+  {
+   "sha": "5e9dbe5",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "Hans3010",
+   "date": "2026-10-07T03:00:34Z",
+   "msg": "fix(mapa): zoom de juego, cámara sobre la flota y tests del Espiral 96×96",
+   "pts": 7.67,
+   "nota": ""
+  },
+  {
+   "sha": "d6730e5",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "Hans3010",
+   "date": "2026-10-07T02:26:59Z",
+   "msg": "Merge remote-tracking branch 'origin/main' into fix/mapa-diego",
+   "pts": 0.0,
+   "nota": "merge"
+  },
+  {
    "sha": "fcafa1a",
    "team": "Impulso Stellar",
    "repo": "orlando-vazquez-career/stellar-impulse",
@@ -512,6 +542,16 @@
    "author": "Hans3010",
    "date": "2026-10-07T01:52:48Z",
    "msg": "Merge branch 'main' into test-login-v2",
+   "pts": 0.0,
+   "nota": "merge"
+  },
+  {
+   "sha": "22079b0",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "Hans3010",
+   "date": "2026-10-07T01:50:11Z",
+   "msg": "Merge branch 'main' into feature/mapa",
    "pts": 0.0,
    "nota": "merge"
   },
@@ -686,6 +726,16 @@
    "nota": ""
   },
   {
+   "sha": "92a2a6b",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "degosenpai211",
+   "date": "2026-10-06T16:33:29Z",
+   "msg": "fix(ci): typecheck del lobby y clics e2e con la vista a -30 grados",
+   "pts": 8.57,
+   "nota": ""
+  },
+  {
    "sha": "695907e",
    "team": "Impulso Stellar",
    "repo": "orlando-vazquez-career/stellar-impulse",
@@ -704,6 +754,26 @@
    "msg": "feat: add new soundtrack audio files and update license with audio copyright terms",
    "pts": 5.39,
    "nota": ""
+  },
+  {
+   "sha": "e82ac93",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "degosenpai211",
+   "date": "2026-10-06T13:13:06Z",
+   "msg": "fix(mapa): encuadrar Espiral a -30 grados sin recortar el rombo",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "78e3e8d",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "degosenpai211",
+   "date": "2026-10-06T12:15:29Z",
+   "msg": "feat(mapa): cargar Espiral desde Tiled y rotar la vista -30 grados",
+   "pts": 1.0,
+   "nota": "import masivo (91 archivos)"
   },
   {
    "sha": "e31dbac",
