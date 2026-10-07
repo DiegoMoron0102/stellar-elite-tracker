@@ -1,5 +1,5 @@
 {
- "generado": "2026-10-06T22:01:46+00:00",
+ "generado": "2026-10-07T03:22:28+00:00",
  "programa": "Stellar Elite",
  "start_date": "2026-09-02T00:00:00Z",
  "teams": [
@@ -21,12 +21,13 @@
   },
   {
    "name": "Impulso Stellar",
-   "total": 505.55,
-   "per_capita": 505.55,
-   "commits": 94,
-   "pts_commits": 440.55,
-   "dias_activos": 10,
+   "total": 602.42,
+   "per_capita": 602.42,
+   "commits": 115,
+   "pts_commits": 524.42,
+   "dias_activos": 12,
    "contribuidores": [
+    "Copilot",
     "Hans3010",
     "Ismaelolazo",
     "degosenpai211",
@@ -41,11 +42,11 @@
   },
   {
    "name": "Puls3",
-   "total": 433.87,
-   "per_capita": 433.87,
-   "commits": 69,
-   "pts_commits": 358.87,
-   "dias_activos": 12,
+   "total": 448.87,
+   "per_capita": 448.87,
+   "commits": 70,
+   "pts_commits": 368.87,
+   "dias_activos": 13,
    "contribuidores": [
     "TOMOKI977",
     "XxHugheadxX",
@@ -298,7 +299,8 @@
    "2026-10-02": 20.85,
    "2026-10-04": 11.96,
    "2026-10-05": 61.0,
-   "2026-10-06": 44.62
+   "2026-10-06": 44.62,
+   "2026-10-07": 10.0
   },
   "Tinkazo": {
    "2026-09-16": 66.21000000000001,
@@ -349,7 +351,9 @@
    "2026-10-01": 1.0,
    "2026-10-02": 186.59,
    "2026-10-04": 96.49,
-   "2026-10-05": 15.439999999999998
+   "2026-10-05": 55.78,
+   "2026-10-06": 37.89,
+   "2026-10-07": 5.64
   },
   "BOLAR": {
    "2026-09-22": 9.25,
@@ -397,7 +401,8 @@
    "2026-10-02": 3,
    "2026-10-04": 3,
    "2026-10-05": 7,
-   "2026-10-06": 6
+   "2026-10-06": 6,
+   "2026-10-07": 1
   },
   "Tinkazo": {
    "2026-09-16": 8,
@@ -448,7 +453,9 @@
    "2026-10-01": 2,
    "2026-10-02": 36,
    "2026-10-04": 15,
-   "2026-10-05": 5
+   "2026-10-05": 11,
+   "2026-10-06": 9,
+   "2026-10-07": 6
   },
   "BOLAR": {
    "2026-09-22": 1,
@@ -479,6 +486,106 @@
  },
  "commits": [
   {
+   "sha": "fcafa1a",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "Hans3010",
+   "date": "2026-10-07T02:22:57Z",
+   "msg": "Merge pull request #35 from orlando-vazquez-career/test-login-v2",
+   "pts": 0.0,
+   "nota": "merge"
+  },
+  {
+   "sha": "63fbad2",
+   "team": "Puls3",
+   "repo": "Zer0-Knowledge-Hack/puls3",
+   "author": "XxHugheadxX",
+   "date": "2026-10-07T02:14:05Z",
+   "msg": "feat(domain): align Hire lifecycle with ERC-8183 escrow states (#107)",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "f131a21",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "Hans3010",
+   "date": "2026-10-07T01:52:48Z",
+   "msg": "Merge branch 'main' into test-login-v2",
+   "pts": 0.0,
+   "nota": "merge"
+  },
+  {
+   "sha": "8ba1ba4",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "Hans3010",
+   "date": "2026-10-07T01:48:10Z",
+   "msg": "Merge pull request #32 from orlando-vazquez-career/feat/brand-system-logo",
+   "pts": 0.0,
+   "nota": "merge"
+  },
+  {
+   "sha": "d617dc2",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "Hans3010",
+   "date": "2026-10-07T01:40:02Z",
+   "msg": "Merge branch 'main' into feat/brand-system-logo",
+   "pts": 0.0,
+   "nota": "merge"
+  },
+  {
+   "sha": "27adff3",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "Hans3010",
+   "date": "2026-10-07T01:39:41Z",
+   "msg": "Merge pull request #36 from orlando-vazquez-career/fix/e2e-base-clicks",
+   "pts": 0.0,
+   "nota": "merge"
+  },
+  {
+   "sha": "daf0b05",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "orlando-vazquez-career",
+   "date": "2026-10-07T00:28:34Z",
+   "msg": "test(e2e): clics de Refinería y rendición sin límites de 2 s que nunca alcanzan",
+   "pts": 5.64,
+   "nota": ""
+  },
+  {
+   "sha": "f0a11b9",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "orlando-vazquez-career",
+   "date": "2026-10-06T22:31:25Z",
+   "msg": "Merge branch 'main' into feat/brand-system-logo",
+   "pts": 0.0,
+   "nota": "merge"
+  },
+  {
+   "sha": "c901b26",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "orlando-vazquez-career",
+   "date": "2026-10-06T22:31:08Z",
+   "msg": "Merge pull request #31 from orlando-vazquez-career/feat/movimiento-fluido",
+   "pts": 0.0,
+   "nota": "merge"
+  },
+  {
+   "sha": "65a72d3",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "Copilot",
+   "date": "2026-10-06T21:13:21Z",
+   "msg": "fix: restore localized access heading on login screen",
+   "pts": 3.0,
+   "nota": ""
+  },
+  {
    "sha": "6b0e14d",
    "team": "Puls3",
    "repo": "Zer0-Knowledge-Hack/puls3",
@@ -496,6 +603,36 @@
    "date": "2026-10-06T19:59:29Z",
    "msg": "fix(contracts): extend Claimable TTL and reject evaluator == provider in escrow (#105)",
    "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "aae2a6b",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "srllamadev",
+   "date": "2026-10-06T19:54:03Z",
+   "msg": "feat: add login screen components and match e2e tests",
+   "pts": 9.12,
+   "nota": ""
+  },
+  {
+   "sha": "1bbdd7a",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "Hans3010",
+   "date": "2026-10-06T19:33:00Z",
+   "msg": "Merge branch 'main' into feat/brand-system-logo",
+   "pts": 0.0,
+   "nota": "merge"
+  },
+  {
+   "sha": "050502e",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "srllamadev",
+   "date": "2026-10-06T19:13:30Z",
+   "msg": "feat: add cinematic space background with nebulas, twinkling stars, and parallax effects",
+   "pts": 9.56,
    "nota": ""
   },
   {
@@ -519,6 +656,16 @@
    "nota": ""
   },
   {
+   "sha": "094ad89",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "srllamadev",
+   "date": "2026-10-06T17:54:33Z",
+   "msg": "feat: add audio configuration manifest, assets documentation, and music player integration",
+   "pts": 8.24,
+   "nota": ""
+  },
+  {
    "sha": "c549139",
    "team": "Puls3",
    "repo": "Zer0-Knowledge-Hack/puls3",
@@ -536,6 +683,26 @@
    "date": "2026-10-06T17:24:43Z",
    "msg": "docs(openspec): archive merged escrow changes and sync escrow specs (#104)",
    "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "695907e",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "srllamadev",
+   "date": "2026-10-06T16:30:01Z",
+   "msg": "docs: add music copyright attribution to README and create audio asset instructions",
+   "pts": 2.58,
+   "nota": ""
+  },
+  {
+   "sha": "926c32c",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "srllamadev",
+   "date": "2026-10-06T16:16:05Z",
+   "msg": "feat: add new soundtrack audio files and update license with audio copyright terms",
+   "pts": 5.39,
    "nota": ""
   },
   {
@@ -566,6 +733,16 @@
    "date": "2026-10-06T00:57:59Z",
    "msg": "El \"¡QUIETOS!\" de la Chovena cuenta adónde va a mirar la cámara",
    "pts": 7.38,
+   "nota": ""
+  },
+  {
+   "sha": "c3fe3e7",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "Ismaelolazo",
+   "date": "2026-10-05T22:20:05Z",
+   "msg": "feat(brand): add Stellar Impulse design system",
+   "pts": 10,
    "nota": ""
   },
   {
@@ -619,6 +796,16 @@
    "nota": ""
   },
   {
+   "sha": "689a1ec",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "Hans3010",
+   "date": "2026-10-05T19:35:33Z",
+   "msg": "test(e2e): reintenta los clics de Refinería y rendición hasta ver el resultado",
+   "pts": 5.32,
+   "nota": ""
+  },
+  {
    "sha": "07e5993",
    "team": "TilcAI",
    "repo": "TilcAI/tilcai-web",
@@ -649,6 +836,16 @@
    "nota": ""
   },
   {
+   "sha": "58fba20",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "Hans3010",
+   "date": "2026-10-05T16:49:46Z",
+   "msg": "test(e2e): rendición contra la IA Fácil, que nunca asalta bases",
+   "pts": 3.0,
+   "nota": ""
+  },
+  {
    "sha": "1092bab",
    "team": "Tinkazo",
    "repo": "nema1502/tinkazo",
@@ -666,6 +863,16 @@
    "date": "2026-10-05T09:51:20Z",
    "msg": "En la Chovena, el \"¡QUIETOS!\" ya no tapa a nadie, ni en el celular",
    "pts": 9.38,
+   "nota": ""
+  },
+  {
+   "sha": "29fab56",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "Hans3010",
+   "date": "2026-10-05T09:32:46Z",
+   "msg": "fix(sim): columnas de naves sin huecos de casi dos casillas",
+   "pts": 5.86,
    "nota": ""
   },
   {
@@ -739,6 +946,16 @@
    "nota": ""
   },
   {
+   "sha": "593a281",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "Hans3010",
+   "date": "2026-10-05T01:39:36Z",
+   "msg": "fix: órdenes de movimiento con respuesta inmediata",
+   "pts": 8.49,
+   "nota": ""
+  },
+  {
    "sha": "8fac2f7",
    "team": "Impulso Stellar",
    "repo": "orlando-vazquez-career/stellar-impulse",
@@ -747,6 +964,16 @@
    "msg": "Merge pull request #29 from orlando-vazquez-career/feat/base-modulos",
    "pts": 0.0,
    "nota": "merge"
+  },
+  {
+   "sha": "0baaa09",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "Hans3010",
+   "date": "2026-10-05T01:15:34Z",
+   "msg": "fix(web): naves que se deslizan sin frenar en cada casilla",
+   "pts": 7.67,
+   "nota": ""
   },
   {
    "sha": "949415d",

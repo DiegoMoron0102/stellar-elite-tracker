@@ -60801,5 +60801,1135 @@
     "d": 0
    }
   ]
+ },
+ "63fbad2dfba9ed654ec6fcb993c43a9ee667e56b": {
+  "team": "Puls3",
+  "repo": "Zer0-Knowledge-Hack/puls3",
+  "author": "XxHugheadxX",
+  "date": "2026-10-07T02:14:05Z",
+  "message": "feat(domain): align Hire lifecycle with ERC-8183 escrow states (#107)",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/domain/hire-lifecycle.md",
+    "a": 55,
+    "d": 40
+   },
+   {
+    "f": "docs/domain/model.md",
+    "a": 11,
+    "d": 5
+   },
+   {
+    "f": "puls3_domain/lib/src/entities.dart",
+    "a": 92,
+    "d": 34
+   },
+   {
+    "f": "puls3_domain/lib/src/errors.dart",
+    "a": 34,
+    "d": 1
+   },
+   {
+    "f": "puls3_domain/lib/src/hire_status.dart",
+    "a": 16,
+    "d": 11
+   },
+   {
+    "f": "puls3_domain/test/hire_lifecycle_test.dart",
+    "a": 253,
+    "d": 81
+   }
+  ]
+ },
+ "fcafa1a2dc33905148d07c863c5f1df93e4a3639": {
+  "team": "Impulso Stellar",
+  "repo": "orlando-vazquez-career/stellar-impulse",
+  "author": "Hans3010",
+  "date": "2026-10-07T02:22:57Z",
+  "message": "Merge pull request #35 from orlando-vazquez-career/test-login-v2",
+  "parents": 2,
+  "files": [
+   {
+    "f": "LICENSE",
+    "a": 20,
+    "d": 0
+   },
+   {
+    "f": "README.md",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "apps/web/public/audio/LEEME.md",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "apps/web/public/audio/manifest.json",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "apps/web/public/audio/music/Gravity_s_Final_Path.mp3",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "apps/web/public/audio/music/Iron_Vanguard.mp3",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/login/GlitchPanel.tsx",
+    "a": 26,
+    "d": 17
+   },
+   {
+    "f": "apps/web/src/login/LoginForm.tsx",
+    "a": 57,
+    "d": 132
+   },
+   {
+    "f": "apps/web/src/login/LoginScreen.tsx",
+    "a": 15,
+    "d": 2
+   },
+   {
+    "f": "apps/web/src/login/scene/background.ts",
+    "a": 338,
+    "d": 39
+   },
+   {
+    "f": "apps/web/src/visual/VisualPrototypeApp.tsx",
+    "a": 7,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/visual/access/AccessScreen.tsx",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/visual/music.ts",
+    "a": 118,
+    "d": 17
+   },
+   {
+    "f": "apps/web/src/visual/settings/preferences.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "tests/e2e/match.spec.ts",
+    "a": 2,
+    "d": 23
+   }
+  ]
+ },
+ "f131a218b92ca78813cbc6593f4a9056eb1edd3a": {
+  "team": "Impulso Stellar",
+  "repo": "orlando-vazquez-career/stellar-impulse",
+  "author": "Hans3010",
+  "date": "2026-10-07T01:52:48Z",
+  "message": "Merge branch 'main' into test-login-v2",
+  "parents": 2,
+  "files": [
+   {
+    "f": "DESIGN.md",
+    "a": 193,
+    "d": 0
+   },
+   {
+    "f": "LICENSE",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "README.md",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "apps/web/index.html",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "apps/web/public/brand/stellar-impulse-logo-mono.svg",
+    "a": 14,
+    "d": 0
+   },
+   {
+    "f": "apps/web/public/brand/stellar-impulse-logo.svg",
+    "a": 14,
+    "d": 0
+   },
+   {
+    "f": "apps/web/public/brand/stellar-impulse-mark.svg",
+    "a": 9,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/login/LoginForm.tsx",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "apps/web/src/login/LoginScreen.tsx",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "apps/web/src/visual/VisualPrototypeApp.tsx",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "apps/web/src/visual/game/server-adapter.ts",
+    "a": 111,
+    "d": 16
+   },
+   {
+    "f": "apps/web/src/visual/game/server-motion.test.ts",
+    "a": 79,
+    "d": 6
+   },
+   {
+    "f": "apps/web/src/visual/i18n.tsx",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "apps/web/src/visual/shared/Brand.tsx",
+    "a": 2,
+    "d": 3
+   },
+   {
+    "f": "apps/web/src/visual/visual.css",
+    "a": 12,
+    "d": 6
+   },
+   {
+    "f": "contracts/cosmetics/Cargo.toml",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "contracts/cosmetics/src/lib.rs",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "docs/DESIGN-stellar-impulse.html",
+    "a": 233,
+    "d": 0
+   },
+   {
+    "f": "docs/DESIGN-stellar-impulse.pdf",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/README.md",
+    "a": 9,
+    "d": 7
+   },
+   {
+    "f": "docs/brand-manual.md",
+    "a": 222,
+    "d": 0
+   },
+   {
+    "f": "docs/qa/cuadro-pruebas-v0.01.md",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "packages/sim/src/index.test.ts",
+    "a": 6,
+    "d": 3
+   },
+   {
+    "f": "packages/sim/src/index.ts",
+    "a": 22,
+    "d": 3
+   },
+   {
+    "f": "packages/sim/src/mecanicas/pursuit.test.ts",
+    "a": 5,
+    "d": 2
+   },
+   {
+    "f": "packages/sim/src/mecanicas/ship-traffic.test.ts",
+    "a": 16,
+    "d": 5
+   },
+   {
+    "f": "tests/e2e/base.spec.ts",
+    "a": 9,
+    "d": 3
+   },
+   {
+    "f": "tokens.json",
+    "a": 48,
+    "d": 0
+   }
+  ]
+ },
+ "8ba1ba40de080bb652832212ee18f904a0922789": {
+  "team": "Impulso Stellar",
+  "repo": "orlando-vazquez-career/stellar-impulse",
+  "author": "Hans3010",
+  "date": "2026-10-07T01:48:10Z",
+  "message": "Merge pull request #32 from orlando-vazquez-career/feat/brand-system-logo",
+  "parents": 2,
+  "files": [
+   {
+    "f": "DESIGN.md",
+    "a": 193,
+    "d": 0
+   },
+   {
+    "f": "LICENSE",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "README.md",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "apps/web/index.html",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "apps/web/public/brand/stellar-impulse-logo-mono.svg",
+    "a": 14,
+    "d": 0
+   },
+   {
+    "f": "apps/web/public/brand/stellar-impulse-logo.svg",
+    "a": 14,
+    "d": 0
+   },
+   {
+    "f": "apps/web/public/brand/stellar-impulse-mark.svg",
+    "a": 9,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/login/LoginForm.tsx",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "apps/web/src/login/LoginScreen.tsx",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "apps/web/src/visual/VisualPrototypeApp.tsx",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "apps/web/src/visual/i18n.tsx",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "apps/web/src/visual/shared/Brand.tsx",
+    "a": 2,
+    "d": 3
+   },
+   {
+    "f": "apps/web/src/visual/visual.css",
+    "a": 12,
+    "d": 6
+   },
+   {
+    "f": "contracts/cosmetics/Cargo.toml",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "contracts/cosmetics/src/lib.rs",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "docs/DESIGN-stellar-impulse.html",
+    "a": 233,
+    "d": 0
+   },
+   {
+    "f": "docs/DESIGN-stellar-impulse.pdf",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/README.md",
+    "a": 9,
+    "d": 7
+   },
+   {
+    "f": "docs/brand-manual.md",
+    "a": 222,
+    "d": 0
+   },
+   {
+    "f": "docs/qa/cuadro-pruebas-v0.01.md",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "tokens.json",
+    "a": 48,
+    "d": 0
+   }
+  ]
+ },
+ "d617dc2c0d9ee7b2e14604f181674f04da7f2f60": {
+  "team": "Impulso Stellar",
+  "repo": "orlando-vazquez-career/stellar-impulse",
+  "author": "Hans3010",
+  "date": "2026-10-07T01:40:02Z",
+  "message": "Merge branch 'main' into feat/brand-system-logo",
+  "parents": 2,
+  "files": [
+   {
+    "f": "tests/e2e/base.spec.ts",
+    "a": 12,
+    "d": 12
+   }
+  ]
+ },
+ "27adff376eee60dde1eaa68d421604d0b054fbee": {
+  "team": "Impulso Stellar",
+  "repo": "orlando-vazquez-career/stellar-impulse",
+  "author": "Hans3010",
+  "date": "2026-10-07T01:39:41Z",
+  "message": "Merge pull request #36 from orlando-vazquez-career/fix/e2e-base-clicks",
+  "parents": 2,
+  "files": [
+   {
+    "f": "tests/e2e/base.spec.ts",
+    "a": 12,
+    "d": 12
+   }
+  ]
+ },
+ "daf0b05e9363453829ad01a3cc08949497286dca": {
+  "team": "Impulso Stellar",
+  "repo": "orlando-vazquez-career/stellar-impulse",
+  "author": "orlando-vazquez-career",
+  "date": "2026-10-07T00:28:34Z",
+  "message": "test(e2e): clics de Refinería y rendición sin límites de 2 s que nunca alcanzan",
+  "parents": 1,
+  "files": [
+   {
+    "f": "tests/e2e/base.spec.ts",
+    "a": 12,
+    "d": 12
+   }
+  ]
+ },
+ "f0a11b98d63af170aa2b0ca54b3affa263f475d1": {
+  "team": "Impulso Stellar",
+  "repo": "orlando-vazquez-career/stellar-impulse",
+  "author": "orlando-vazquez-career",
+  "date": "2026-10-06T22:31:25Z",
+  "message": "Merge branch 'main' into feat/brand-system-logo",
+  "parents": 2,
+  "files": [
+   {
+    "f": "apps/web/src/visual/game/server-adapter.ts",
+    "a": 111,
+    "d": 16
+   },
+   {
+    "f": "apps/web/src/visual/game/server-motion.test.ts",
+    "a": 79,
+    "d": 6
+   },
+   {
+    "f": "packages/sim/src/index.test.ts",
+    "a": 6,
+    "d": 3
+   },
+   {
+    "f": "packages/sim/src/index.ts",
+    "a": 22,
+    "d": 3
+   },
+   {
+    "f": "packages/sim/src/mecanicas/pursuit.test.ts",
+    "a": 5,
+    "d": 2
+   },
+   {
+    "f": "packages/sim/src/mecanicas/ship-traffic.test.ts",
+    "a": 16,
+    "d": 5
+   },
+   {
+    "f": "tests/e2e/base.spec.ts",
+    "a": 14,
+    "d": 8
+   }
+  ]
+ },
+ "c901b2629506b431b44ec389610cb262ee467671": {
+  "team": "Impulso Stellar",
+  "repo": "orlando-vazquez-career/stellar-impulse",
+  "author": "orlando-vazquez-career",
+  "date": "2026-10-06T22:31:08Z",
+  "message": "Merge pull request #31 from orlando-vazquez-career/feat/movimiento-fluido",
+  "parents": 2,
+  "files": [
+   {
+    "f": "apps/web/src/visual/game/server-adapter.ts",
+    "a": 111,
+    "d": 16
+   },
+   {
+    "f": "apps/web/src/visual/game/server-motion.test.ts",
+    "a": 79,
+    "d": 6
+   },
+   {
+    "f": "packages/sim/src/index.test.ts",
+    "a": 6,
+    "d": 3
+   },
+   {
+    "f": "packages/sim/src/index.ts",
+    "a": 22,
+    "d": 3
+   },
+   {
+    "f": "packages/sim/src/mecanicas/pursuit.test.ts",
+    "a": 5,
+    "d": 2
+   },
+   {
+    "f": "packages/sim/src/mecanicas/ship-traffic.test.ts",
+    "a": 16,
+    "d": 5
+   },
+   {
+    "f": "tests/e2e/base.spec.ts",
+    "a": 14,
+    "d": 8
+   }
+  ]
+ },
+ "65a72d3f0c85e5eea796cb52ee290061cb0c426a": {
+  "team": "Impulso Stellar",
+  "repo": "orlando-vazquez-career/stellar-impulse",
+  "author": "Copilot",
+  "date": "2026-10-06T21:13:21Z",
+  "message": "fix: restore localized access heading on login screen",
+  "parents": 1,
+  "files": [
+   {
+    "f": "apps/web/src/login/LoginForm.tsx",
+    "a": 2,
+    "d": 1
+   }
+  ]
+ },
+ "aae2a6ba8ac3fffe2c4d452104c0a6f99887b078": {
+  "team": "Impulso Stellar",
+  "repo": "orlando-vazquez-career/stellar-impulse",
+  "author": "srllamadev",
+  "date": "2026-10-06T19:54:03Z",
+  "message": "feat: add login screen components and match e2e tests",
+  "parents": 1,
+  "files": [
+   {
+    "f": "apps/web/src/login/GlitchPanel.tsx",
+    "a": 26,
+    "d": 17
+   },
+   {
+    "f": "apps/web/src/login/LoginForm.tsx",
+    "a": 58,
+    "d": 134
+   },
+   {
+    "f": "apps/web/src/login/LoginScreen.tsx",
+    "a": 15,
+    "d": 2
+   },
+   {
+    "f": "apps/web/src/visual/access/AccessScreen.tsx",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "tests/e2e/match.spec.ts",
+    "a": 2,
+    "d": 23
+   }
+  ]
+ },
+ "1bbdd7a44a1af84c95b554cba95df3f86a5fecc9": {
+  "team": "Impulso Stellar",
+  "repo": "orlando-vazquez-career/stellar-impulse",
+  "author": "Hans3010",
+  "date": "2026-10-06T19:33:00Z",
+  "message": "Merge branch 'main' into feat/brand-system-logo",
+  "parents": 2,
+  "files": [
+   {
+    "f": "apps/web/src/visual/game/Hud.tsx",
+    "a": 96,
+    "d": 8
+   },
+   {
+    "f": "apps/web/src/visual/game/campaign-adapter.ts",
+    "a": 2,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/visual/game/format-stat.test.ts",
+    "a": 9,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/visual/game/format-stat.ts",
+    "a": 4,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/visual/game/mock-adapter.test.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "apps/web/src/visual/game/model.ts",
+    "a": 15,
+    "d": 2
+   },
+   {
+    "f": "apps/web/src/visual/game/phaser/MainScene.ts",
+    "a": 85,
+    "d": 6
+   },
+   {
+    "f": "apps/web/src/visual/game/phaser/weapon-effects.ts",
+    "a": 71,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/visual/game/server-adapter.ts",
+    "a": 28,
+    "d": 2
+   },
+   {
+    "f": "apps/web/src/visual/game/server-motion.test.ts",
+    "a": 13,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/visual/i18n.tsx",
+    "a": 46,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/visual/visual.css",
+    "a": 22,
+    "d": 0
+   },
+   {
+    "f": "docs/base-system.md",
+    "a": 83,
+    "d": 0
+   },
+   {
+    "f": "docs/base-upgrades.md",
+    "a": 4,
+    "d": 2
+   },
+   {
+    "f": "docs/gameplay-motion.md",
+    "a": 21,
+    "d": 0
+   },
+   {
+    "f": "docs/ship-stats.md",
+    "a": 12,
+    "d": 2
+   },
+   {
+    "f": "packages/input/src/index.test.ts",
+    "a": 8,
+    "d": 0
+   },
+   {
+    "f": "packages/input/src/index.ts",
+    "a": 14,
+    "d": 2
+   },
+   {
+    "f": "packages/sim/src/augments/effects.test.ts",
+    "a": 13,
+    "d": 13
+   },
+   {
+    "f": "packages/sim/src/augments/effects.ts",
+    "a": 20,
+    "d": 4
+   },
+   {
+    "f": "packages/sim/src/base.test.ts",
+    "a": 184,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/base.ts",
+    "a": 156,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/index.test.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "packages/sim/src/index.ts",
+    "a": 146,
+    "d": 22
+   },
+   {
+    "f": "packages/sim/src/inteligencia-enemiga/estrategia.ts",
+    "a": 30,
+    "d": 3
+   },
+   {
+    "f": "packages/sim/src/maps/mechanics.ts",
+    "a": 15,
+    "d": 2
+   },
+   {
+    "f": "packages/sim/src/maps/world.ts",
+    "a": 5,
+    "d": 1
+   },
+   {
+    "f": "packages/sim/src/match-modes.ts",
+    "a": 2,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/mecanicas/orders.ts",
+    "a": 5,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/mecanicas/pursuit.test.ts",
+    "a": 81,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/mecanicas/weapons.test.ts",
+    "a": 40,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/stats.test.ts",
+    "a": 11,
+    "d": 10
+   },
+   {
+    "f": "packages/sim/src/stats.ts",
+    "a": 6,
+    "d": 5
+   },
+   {
+    "f": "packages/state/src/augments.test.ts",
+    "a": 3,
+    "d": 3
+   },
+   {
+    "f": "packages/state/src/battlefield.test.ts",
+    "a": 2,
+    "d": 1
+   },
+   {
+    "f": "packages/state/src/battlefield.ts",
+    "a": 4,
+    "d": 2
+   },
+   {
+    "f": "packages/state/src/index.ts",
+    "a": 21,
+    "d": 3
+   },
+   {
+    "f": "packages/state/src/weapons.test.ts",
+    "a": 20,
+    "d": 0
+   },
+   {
+    "f": "packages/state/src/weapons.ts",
+    "a": 21,
+    "d": 0
+   },
+   {
+    "f": "tests/e2e/augments.spec.ts",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "tests/e2e/base.spec.ts",
+    "a": 45,
+    "d": 0
+   },
+   {
+    "f": "tests/e2e/helpers.ts",
+    "a": 12,
+    "d": 3
+   },
+   {
+    "f": "tests/e2e/match.spec.ts",
+    "a": 2,
+    "d": 1
+   },
+   {
+    "f": "tests/e2e/progression.spec.ts",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "tests/e2e/weapons.spec.ts",
+    "a": 62,
+    "d": 0
+   }
+  ]
+ },
+ "050502e070f32791ede6ada409e832ebf171c3a7": {
+  "team": "Impulso Stellar",
+  "repo": "orlando-vazquez-career/stellar-impulse",
+  "author": "srllamadev",
+  "date": "2026-10-06T19:13:30Z",
+  "message": "feat: add cinematic space background with nebulas, twinkling stars, and parallax effects",
+  "parents": 1,
+  "files": [
+   {
+    "f": "apps/web/src/login/scene/background.ts",
+    "a": 338,
+    "d": 39
+   }
+  ]
+ },
+ "094ad895c005002921616900092ab7b5bf86264a": {
+  "team": "Impulso Stellar",
+  "repo": "orlando-vazquez-career/stellar-impulse",
+  "author": "srllamadev",
+  "date": "2026-10-06T17:54:33Z",
+  "message": "feat: add audio configuration manifest, assets documentation, and music player integration",
+  "parents": 1,
+  "files": [
+   {
+    "f": "apps/web/public/audio/LEEME.md",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "apps/web/public/audio/manifest.json",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "apps/web/src/visual/VisualPrototypeApp.tsx",
+    "a": 7,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/visual/music.ts",
+    "a": 118,
+    "d": 17
+   },
+   {
+    "f": "apps/web/src/visual/settings/preferences.ts",
+    "a": 1,
+    "d": 1
+   }
+  ]
+ },
+ "695907ed450768cef35a0a0b54ca3eecde40bc24": {
+  "team": "Impulso Stellar",
+  "repo": "orlando-vazquez-career/stellar-impulse",
+  "author": "srllamadev",
+  "date": "2026-10-06T16:30:01Z",
+  "message": "docs: add music copyright attribution to README and create audio asset instructions",
+  "parents": 1,
+  "files": [
+   {
+    "f": "README.md",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "apps/web/public/audio/LEEME.md",
+    "a": 1,
+    "d": 0
+   }
+  ]
+ },
+ "926c32c4e463cca3bda1e7ff82d9e84c178a70b5": {
+  "team": "Impulso Stellar",
+  "repo": "orlando-vazquez-career/stellar-impulse",
+  "author": "srllamadev",
+  "date": "2026-10-06T16:16:05Z",
+  "message": "feat: add new soundtrack audio files and update license with audio copyright terms",
+  "parents": 1,
+  "files": [
+   {
+    "f": "LICENSE",
+    "a": 20,
+    "d": 0
+   },
+   {
+    "f": "apps/web/public/audio/music/Gravity_s_Final_Path.mp3",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "apps/web/public/audio/music/Iron_Vanguard.mp3",
+    "a": 0,
+    "d": 0
+   }
+  ]
+ },
+ "c3fe3e737975c359329f01c42e7f99aef3440130": {
+  "team": "Impulso Stellar",
+  "repo": "orlando-vazquez-career/stellar-impulse",
+  "author": "Ismaelolazo",
+  "date": "2026-10-05T22:20:05Z",
+  "message": "feat(brand): add Stellar Impulse design system",
+  "parents": 1,
+  "files": [
+   {
+    "f": "DESIGN.md",
+    "a": 193,
+    "d": 0
+   },
+   {
+    "f": "LICENSE",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "README.md",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "apps/web/index.html",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "apps/web/public/brand/stellar-impulse-logo-mono.svg",
+    "a": 14,
+    "d": 0
+   },
+   {
+    "f": "apps/web/public/brand/stellar-impulse-logo.svg",
+    "a": 14,
+    "d": 0
+   },
+   {
+    "f": "apps/web/public/brand/stellar-impulse-mark.svg",
+    "a": 9,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/login/LoginForm.tsx",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "apps/web/src/login/LoginScreen.tsx",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "apps/web/src/visual/VisualPrototypeApp.tsx",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "apps/web/src/visual/i18n.tsx",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "apps/web/src/visual/shared/Brand.tsx",
+    "a": 2,
+    "d": 3
+   },
+   {
+    "f": "apps/web/src/visual/visual.css",
+    "a": 12,
+    "d": 6
+   },
+   {
+    "f": "contracts/cosmetics/Cargo.toml",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "contracts/cosmetics/src/lib.rs",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "docs/DESIGN-stellar-impulse.html",
+    "a": 233,
+    "d": 0
+   },
+   {
+    "f": "docs/DESIGN-stellar-impulse.pdf",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/README.md",
+    "a": 9,
+    "d": 7
+   },
+   {
+    "f": "docs/brand-manual.md",
+    "a": 222,
+    "d": 0
+   },
+   {
+    "f": "docs/qa/cuadro-pruebas-v0.01.md",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "tokens.json",
+    "a": 48,
+    "d": 0
+   }
+  ]
+ },
+ "689a1ecc67876a8ba8ff58dd10c1517d3d5aec0c": {
+  "team": "Impulso Stellar",
+  "repo": "orlando-vazquez-career/stellar-impulse",
+  "author": "Hans3010",
+  "date": "2026-10-05T19:35:33Z",
+  "message": "test(e2e): reintenta los clics de Refinería y rendición hasta ver el resultado",
+  "parents": 1,
+  "files": [
+   {
+    "f": "tests/e2e/base.spec.ts",
+    "a": 12,
+    "d": 7
+   }
+  ]
+ },
+ "58fba20539ad1500e05900eb122f193f3afc5096": {
+  "team": "Impulso Stellar",
+  "repo": "orlando-vazquez-career/stellar-impulse",
+  "author": "Hans3010",
+  "date": "2026-10-05T16:49:46Z",
+  "message": "test(e2e): rendición contra la IA Fácil, que nunca asalta bases",
+  "parents": 1,
+  "files": [
+   {
+    "f": "tests/e2e/base.spec.ts",
+    "a": 2,
+    "d": 1
+   }
+  ]
+ },
+ "29fab562062a8789dfd4b9b26207be957600c19a": {
+  "team": "Impulso Stellar",
+  "repo": "orlando-vazquez-career/stellar-impulse",
+  "author": "Hans3010",
+  "date": "2026-10-05T09:32:46Z",
+  "message": "fix(sim): columnas de naves sin huecos de casi dos casillas",
+  "parents": 1,
+  "files": [
+   {
+    "f": "packages/sim/src/index.ts",
+    "a": 8,
+    "d": 2
+   },
+   {
+    "f": "packages/sim/src/mecanicas/ship-traffic.test.ts",
+    "a": 14,
+    "d": 4
+   }
+  ]
+ },
+ "593a281a890d4558f60a61c3ff11bed34f064ae5": {
+  "team": "Impulso Stellar",
+  "repo": "orlando-vazquez-career/stellar-impulse",
+  "author": "Hans3010",
+  "date": "2026-10-05T01:39:36Z",
+  "message": "fix: órdenes de movimiento con respuesta inmediata",
+  "parents": 1,
+  "files": [
+   {
+    "f": "apps/web/src/visual/game/server-adapter.ts",
+    "a": 80,
+    "d": 18
+   },
+   {
+    "f": "apps/web/src/visual/game/server-motion.test.ts",
+    "a": 46,
+    "d": 1
+   },
+   {
+    "f": "packages/sim/src/index.test.ts",
+    "a": 6,
+    "d": 3
+   },
+   {
+    "f": "packages/sim/src/index.ts",
+    "a": 14,
+    "d": 1
+   },
+   {
+    "f": "packages/sim/src/mecanicas/pursuit.test.ts",
+    "a": 5,
+    "d": 2
+   },
+   {
+    "f": "packages/sim/src/mecanicas/ship-traffic.test.ts",
+    "a": 2,
+    "d": 1
+   }
+  ]
+ },
+ "0baaa09a34e131a747d127fd71e62187b61819d2": {
+  "team": "Impulso Stellar",
+  "repo": "orlando-vazquez-career/stellar-impulse",
+  "author": "Hans3010",
+  "date": "2026-10-05T01:15:34Z",
+  "message": "fix(web): naves que se deslizan sin frenar en cada casilla",
+  "parents": 1,
+  "files": [
+   {
+    "f": "apps/web/src/visual/game/server-adapter.ts",
+    "a": 47,
+    "d": 14
+   },
+   {
+    "f": "apps/web/src/visual/game/server-motion.test.ts",
+    "a": 34,
+    "d": 6
+   }
+  ]
  }
 }
