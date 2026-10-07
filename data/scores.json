@@ -1,15 +1,15 @@
 {
- "generado": "2026-10-07T12:19:35+00:00",
+ "generado": "2026-10-07T22:26:43+00:00",
  "programa": "Stellar Elite",
  "start_date": "2026-09-02T00:00:00Z",
  "teams": [
   {
    "name": "Tinkazo",
-   "total": 1087.23,
-   "per_capita": 1087.23,
-   "commits": 128,
-   "pts_commits": 1009.23,
-   "dias_activos": 15,
+   "total": 1100.25,
+   "per_capita": 1100.25,
+   "commits": 130,
+   "pts_commits": 1017.25,
+   "dias_activos": 16,
    "contribuidores": [
     "nema1502"
    ],
@@ -21,10 +21,10 @@
   },
   {
    "name": "Impulso Stellar",
-   "total": 629.66,
-   "per_capita": 629.66,
-   "commits": 122,
-   "pts_commits": 551.66,
+   "total": 638.8,
+   "per_capita": 638.8,
+   "commits": 125,
+   "pts_commits": 560.8,
    "dias_activos": 12,
    "contribuidores": [
     "Copilot",
@@ -42,12 +42,13 @@
   },
   {
    "name": "Puls3",
-   "total": 448.87,
-   "per_capita": 448.87,
-   "commits": 70,
-   "pts_commits": 368.87,
+   "total": 481.44,
+   "per_capita": 481.44,
+   "commits": 73,
+   "pts_commits": 398.44,
    "dias_activos": 13,
    "contribuidores": [
+    "Pericena",
     "TOMOKI977",
     "XxHugheadxX",
     "anahillanos474-max",
@@ -300,7 +301,7 @@
    "2026-10-04": 11.96,
    "2026-10-05": 61.0,
    "2026-10-06": 44.62,
-   "2026-10-07": 10.0
+   "2026-10-07": 39.57
   },
   "Tinkazo": {
    "2026-09-16": 66.21000000000001,
@@ -317,7 +318,8 @@
    "2026-10-02": 34.17,
    "2026-10-04": 111.80000000000001,
    "2026-10-05": 54.37,
-   "2026-10-06": 15.46
+   "2026-10-06": 18.78,
+   "2026-10-07": 4.7
   },
   "CompraGasolinaBidon": {
    "2026-09-06": 1.0
@@ -353,7 +355,7 @@
    "2026-10-04": 96.49,
    "2026-10-05": 55.78,
    "2026-10-06": 57.46,
-   "2026-10-07": 13.309999999999999
+   "2026-10-07": 22.45
   },
   "BOLAR": {
    "2026-09-22": 9.25,
@@ -402,7 +404,7 @@
    "2026-10-04": 3,
    "2026-10-05": 7,
    "2026-10-06": 6,
-   "2026-10-07": 1
+   "2026-10-07": 4
   },
   "Tinkazo": {
    "2026-09-16": 8,
@@ -419,7 +421,8 @@
    "2026-10-02": 4,
    "2026-10-04": 15,
    "2026-10-05": 7,
-   "2026-10-06": 3
+   "2026-10-06": 4,
+   "2026-10-07": 1
   },
   "CompraGasolinaBidon": {
    "2026-09-06": 1
@@ -455,7 +458,7 @@
    "2026-10-04": 15,
    "2026-10-05": 11,
    "2026-10-06": 12,
-   "2026-10-07": 10
+   "2026-10-07": 13
   },
   "BOLAR": {
    "2026-09-22": 1,
@@ -485,6 +488,76 @@
   }
  },
  "commits": [
+  {
+   "sha": "1a860e8",
+   "team": "Puls3",
+   "repo": "Zer0-Knowledge-Hack/puls3",
+   "author": "Pericena",
+   "date": "2026-10-07T21:41:29Z",
+   "msg": "feat(flutter): mobile-first theme and app shell (#111)",
+   "pts": 9.57,
+   "nota": ""
+  },
+  {
+   "sha": "8ce4cab",
+   "team": "Puls3",
+   "repo": "Zer0-Knowledge-Hack/puls3",
+   "author": "moises-cisneros",
+   "date": "2026-10-07T21:35:38Z",
+   "msg": "feat(server): hire and pay endpoint with on-chain payment verification (#93)",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "9d129b8",
+   "team": "Puls3",
+   "repo": "Zer0-Knowledge-Hack/puls3",
+   "author": "TOMOKI977",
+   "date": "2026-10-07T20:23:42Z",
+   "msg": "chore(infra): testnet configuration and secrets management (#106)",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "31c2d82",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "orlando-vazquez-career",
+   "date": "2026-10-07T17:54:33Z",
+   "msg": "Merge pull request #38 from orlando-vazquez-career/feature/mapa",
+   "pts": 0.0,
+   "nota": "merge"
+  },
+  {
+   "sha": "f478c46",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "degosenpai211",
+   "date": "2026-10-07T17:19:22Z",
+   "msg": "Merge branch 'main' into feature/mapa",
+   "pts": 0.0,
+   "nota": "merge"
+  },
+  {
+   "sha": "581bf3b",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "degosenpai211",
+   "date": "2026-10-07T16:57:01Z",
+   "msg": "feat(mapa): pronexos con radio de captura y ritmo por naves",
+   "pts": 9.14,
+   "nota": ""
+  },
+  {
+   "sha": "bf5caec",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-10-07T12:26:36Z",
+   "msg": "La escena fija acepta varios premios (?nw=N)",
+   "pts": 4.7,
+   "nota": ""
+  },
   {
    "sha": "d4d657d",
    "team": "Impulso Stellar",
@@ -673,6 +746,16 @@
    "date": "2026-10-06T19:13:30Z",
    "msg": "feat: add cinematic space background with nebulas, twinkling stars, and parallax effects",
    "pts": 9.56,
+   "nota": ""
+  },
+  {
+   "sha": "696f0d9",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-10-06T18:36:48Z",
+   "msg": "La guía de aleatoriedad en el README, en neutro",
+   "pts": 3.32,
    "nota": ""
   },
   {

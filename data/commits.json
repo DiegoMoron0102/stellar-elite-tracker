@@ -63836,5 +63836,669 @@
     "d": 2
    }
   ]
+ },
+ "1a860e883e4a82e7dafb8ed1462f96349684e6af": {
+  "team": "Puls3",
+  "repo": "Zer0-Knowledge-Hack/puls3",
+  "author": "Pericena",
+  "date": "2026-10-07T21:41:29Z",
+  "message": "feat(flutter): mobile-first theme and app shell (#111)",
+  "parents": 1,
+  "files": [
+   {
+    "f": "puls3_flutter/lib/src/app.dart",
+    "a": 4,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/lib/src/screens/agent_detail_screen.dart",
+    "a": 3,
+    "d": 1
+   },
+   {
+    "f": "puls3_flutter/lib/src/screens/app_shell.dart",
+    "a": 27,
+    "d": 3
+   },
+   {
+    "f": "puls3_flutter/lib/src/screens/landing_screen.dart",
+    "a": 2,
+    "d": 1
+   },
+   {
+    "f": "puls3_flutter/lib/src/screens/market_screen.dart",
+    "a": 4,
+    "d": 1
+   },
+   {
+    "f": "puls3_flutter/lib/src/screens/studio_screen.dart",
+    "a": 6,
+    "d": 2
+   },
+   {
+    "f": "puls3_flutter/lib/src/theme/breakpoints.dart",
+    "a": 27,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/lib/src/theme/puls3_theme.dart",
+    "a": 52,
+    "d": 36
+   },
+   {
+    "f": "puls3_flutter/lib/src/ui/atoms/content_width.dart",
+    "a": 3,
+    "d": 1
+   },
+   {
+    "f": "puls3_flutter/lib/src/ui/atoms/primary_button.dart",
+    "a": 11,
+    "d": 4
+   },
+   {
+    "f": "puls3_flutter/lib/src/ui/atoms/skeleton_box.dart",
+    "a": 26,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/lib/src/ui/molecules/screen_header.dart",
+    "a": 59,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/lib/src/ui/molecules/wallet_chip.dart",
+    "a": 9,
+    "d": 5
+   },
+   {
+    "f": "puls3_flutter/lib/src/ui/organisms/agent_grid.dart",
+    "a": 3,
+    "d": 2
+   },
+   {
+    "f": "puls3_flutter/lib/src/ui/organisms/top_bar.dart",
+    "a": 9,
+    "d": 6
+   },
+   {
+    "f": "puls3_flutter/test/ui/mobile_shell_test.dart",
+    "a": 73,
+    "d": 0
+   }
+  ]
+ },
+ "8ce4cab3b86e3e127d531f8e5198abac03c86915": {
+  "team": "Puls3",
+  "repo": "Zer0-Knowledge-Hack/puls3",
+  "author": "moises-cisneros",
+  "date": "2026-10-07T21:35:38Z",
+  "message": "feat(server): hire and pay endpoint with on-chain payment verification (#93)",
+  "parents": 1,
+  "files": [
+   {
+    "f": "openspec/specs/hire-payment/spec.md",
+    "a": 139,
+    "d": 0
+   },
+   {
+    "f": "puls3_client/lib/src/protocol/hire/agent_unavailable.dart",
+    "a": 56,
+    "d": 0
+   },
+   {
+    "f": "puls3_client/lib/src/protocol/hire/hire_configuration_missing.dart",
+    "a": 62,
+    "d": 0
+   },
+   {
+    "f": "puls3_client/lib/src/protocol/hire/hire_ledger_unavailable.dart",
+    "a": 62,
+    "d": 0
+   },
+   {
+    "f": "puls3_client/lib/src/protocol/hire/hire_request_invalid.dart",
+    "a": 58,
+    "d": 0
+   },
+   {
+    "f": "puls3_client/lib/src/protocol/hire/hire_view.dart",
+    "a": 115,
+    "d": 0
+   },
+   {
+    "f": "puls3_client/lib/src/protocol/protocol.dart",
+    "a": 86,
+    "d": 13
+   },
+   {
+    "f": "puls3_domain/lib/puls3_domain.dart",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "puls3_domain/lib/src/funding.dart",
+    "a": 136,
+    "d": 0
+   },
+   {
+    "f": "puls3_domain/lib/src/ports.dart",
+    "a": 50,
+    "d": 0
+   },
+   {
+    "f": "puls3_domain/test/funding_test.dart",
+    "a": 258,
+    "d": 0
+   },
+   {
+    "f": "puls3_domain/test/hire_repository_port_test.dart",
+    "a": 73,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/README.md",
+    "a": 13,
+    "d": 2
+   },
+   {
+    "f": "puls3_server/lib/src/chain/chain_tracker_wiring.dart",
+    "a": 21,
+    "d": 4
+   },
+   {
+    "f": "puls3_server/lib/src/generated/hire/agent_unavailable.dart",
+    "a": 67,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/generated/hire/hire.dart",
+    "a": 560,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/generated/hire/hire_configuration_missing.dart",
+    "a": 73,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/generated/hire/hire_ledger_unavailable.dart",
+    "a": 73,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/generated/hire/hire_payment.dart",
+    "a": 588,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/generated/hire/hire_request_invalid.dart",
+    "a": 69,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/generated/hire/hire_view.dart",
+    "a": 128,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/generated/protocol.dart",
+    "a": 279,
+    "d": 3
+   },
+   {
+    "f": "puls3_server/lib/src/hire/agent_unavailable.spy.yaml",
+    "a": 3,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/hire/hire.spy.yaml",
+    "a": 9,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/hire/hire_configuration_missing.spy.yaml",
+    "a": 3,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/hire/hire_escrow_effects.dart",
+    "a": 159,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/hire/hire_ledger_unavailable.spy.yaml",
+    "a": 3,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/hire/hire_payment.spy.yaml",
+    "a": 20,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/hire/hire_request_invalid.spy.yaml",
+    "a": 3,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/hire/hire_service.dart",
+    "a": 130,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/hire/hire_view.spy.yaml",
+    "a": 7,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/hire/serverpod_hire_repository.dart",
+    "a": 140,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/ledger/escrow_job.dart",
+    "a": 6,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/ledger/soroban_ledger.dart",
+    "a": 3,
+    "d": 1
+   },
+   {
+    "f": "puls3_server/migrations/20261006210458593/definition.json",
+    "a": 3559,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/migrations/20261006210458593/definition.sql",
+    "a": 800,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/migrations/20261006210458593/definition_project.json",
+    "a": 413,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/migrations/20261006210458593/migration.json",
+    "a": 204,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/migrations/20261006210458593/migration.sql",
+    "a": 67,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/migrations/migration_registry.txt",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/test/integration/hire_repository_test.dart",
+    "a": 250,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/test/unit/hire/hire_escrow_effects_test.dart",
+    "a": 391,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/test/unit/hire/hire_payment_conflict_mapping_test.dart",
+    "a": 38,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/test/unit/hire/hire_service_create_test.dart",
+    "a": 197,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/test/unit/hire/hire_test_fakes.dart",
+    "a": 107,
+    "d": 0
+   }
+  ]
+ },
+ "9d129b8c04fa8d5c81025d93237821692d9d848b": {
+  "team": "Puls3",
+  "repo": "Zer0-Knowledge-Hack/puls3",
+  "author": "TOMOKI977",
+  "date": "2026-10-07T20:23:42Z",
+  "message": "chore(infra): testnet configuration and secrets management (#106)",
+  "parents": 1,
+  "files": [
+   {
+    "f": ".env.example",
+    "a": 115,
+    "d": 9
+   },
+   {
+    "f": ".gitignore",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "CONTRIBUTING.md",
+    "a": 8,
+    "d": 24
+   },
+   {
+    "f": "README.md",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "contracts/AGENTS.md",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "contracts/README.md",
+    "a": 3,
+    "d": 2
+   },
+   {
+    "f": "docs/infra/secrets.md",
+    "a": 108,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/lib/main.dart",
+    "a": 5,
+    "d": 8
+   },
+   {
+    "f": "puls3_flutter/lib/src/data/app_config.dart",
+    "a": 23,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/lib/src/domain/stellar_explorer.dart",
+    "a": 20,
+    "d": 4
+   },
+   {
+    "f": "puls3_flutter/lib/src/ui/organisms/hire_payment_view.dart",
+    "a": 9,
+    "d": 3
+   },
+   {
+    "f": "puls3_flutter/test/data/app_config_test.dart",
+    "a": 41,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/test/domain/stellar_explorer_test.dart",
+    "a": 21,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/test/ui/hire_payment_view_test.dart",
+    "a": 13,
+    "d": 1
+   },
+   {
+    "f": "puls3_server/README.md",
+    "a": 12,
+    "d": 5
+   },
+   {
+    "f": "scripts/deploy-escrow-testnet.sh",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "scripts/deploy-testnet.sh",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "scripts/fund-testnet-accounts.sh",
+    "a": 252,
+    "d": 0
+   },
+   {
+    "f": "scripts/tests/env-inventory.test.sh",
+    "a": 124,
+    "d": 0
+   },
+   {
+    "f": "scripts/tests/escrow-deploy.test.sh",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "scripts/tests/fund-accounts.test.sh",
+    "a": 295,
+    "d": 0
+   }
+  ]
+ },
+ "bf5caec3a0dafe23e6862a909fb3b2fbc4a7e8dc": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-07T12:26:36Z",
+  "message": "La escena fija acepta varios premios (?nw=N)",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/main.ts",
+    "a": 11,
+    "d": 1
+   }
+  ]
+ },
+ "696f0d946c9aa4d22c3e126acecf68b3ec97fbaa": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-06T18:36:48Z",
+  "message": "La guía de aleatoriedad en el README, en neutro",
+  "parents": 1,
+  "files": [
+   {
+    "f": "README.es.md",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "README.md",
+    "a": 1,
+    "d": 1
+   }
+  ]
+ },
+ "31c2d829334c9e64862494736b58a48ebb258461": {
+  "team": "Impulso Stellar",
+  "repo": "orlando-vazquez-career/stellar-impulse",
+  "author": "orlando-vazquez-career",
+  "date": "2026-10-07T17:54:33Z",
+  "message": "Merge pull request #38 from orlando-vazquez-career/feature/mapa",
+  "parents": 2,
+  "files": [
+   {
+    "f": "apps/web/src/visual/game/model.ts",
+    "a": 4,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/visual/game/phaser/MainScene.ts",
+    "a": 34,
+    "d": 1
+   },
+   {
+    "f": "apps/web/src/visual/game/server-adapter.ts",
+    "a": 11,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/index.ts",
+    "a": 5,
+    "d": 2
+   },
+   {
+    "f": "packages/sim/src/mapas/espiral.test.ts",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/mapas/espiral.ts",
+    "a": 10,
+    "d": 1
+   },
+   {
+    "f": "packages/sim/src/mapas/leer-tiled.ts",
+    "a": 2,
+    "d": 1
+   },
+   {
+    "f": "packages/sim/src/maps/capture.test.ts",
+    "a": 82,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/maps/mechanics.ts",
+    "a": 33,
+    "d": 12
+   },
+   {
+    "f": "packages/sim/src/mecanicas/ship-traffic.test.ts",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/LEEME.md",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/espiral-estelar.json",
+    "a": 20,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/espiral-estelar.tmj",
+    "a": 20,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/espiral-estelar.tmx",
+    "a": 7,
+    "d": 3
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/logica/test/espiral-estelar.test.ts",
+    "a": 18,
+    "d": 2
+   },
+   {
+    "f": "packages/state/src/index.ts",
+    "a": 5,
+    "d": 1
+   }
+  ]
+ },
+ "f478c46d0451e2c254a9e2f827d62485dee199da": {
+  "team": "Impulso Stellar",
+  "repo": "orlando-vazquez-career/stellar-impulse",
+  "author": "degosenpai211",
+  "date": "2026-10-07T17:19:22Z",
+  "message": "Merge branch 'main' into feature/mapa",
+  "parents": 2,
+  "files": []
+ },
+ "581bf3b9caf6938d0b90113726261d6e25a38687": {
+  "team": "Impulso Stellar",
+  "repo": "orlando-vazquez-career/stellar-impulse",
+  "author": "degosenpai211",
+  "date": "2026-10-07T16:57:01Z",
+  "message": "feat(mapa): pronexos con radio de captura y ritmo por naves",
+  "parents": 1,
+  "files": [
+   {
+    "f": "apps/web/src/visual/game/model.ts",
+    "a": 4,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/visual/game/phaser/MainScene.ts",
+    "a": 34,
+    "d": 1
+   },
+   {
+    "f": "apps/web/src/visual/game/server-adapter.ts",
+    "a": 11,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/index.ts",
+    "a": 5,
+    "d": 2
+   },
+   {
+    "f": "packages/sim/src/mapas/espiral.test.ts",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/mapas/espiral.ts",
+    "a": 10,
+    "d": 1
+   },
+   {
+    "f": "packages/sim/src/mapas/leer-tiled.ts",
+    "a": 2,
+    "d": 1
+   },
+   {
+    "f": "packages/sim/src/maps/capture.test.ts",
+    "a": 82,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/maps/mechanics.ts",
+    "a": 33,
+    "d": 12
+   },
+   {
+    "f": "packages/sim/src/mecanicas/ship-traffic.test.ts",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/LEEME.md",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/espiral-estelar.json",
+    "a": 20,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/espiral-estelar.tmj",
+    "a": 20,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/espiral-estelar.tmx",
+    "a": 7,
+    "d": 3
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/logica/test/espiral-estelar.test.ts",
+    "a": 18,
+    "d": 2
+   },
+   {
+    "f": "packages/state/src/index.ts",
+    "a": 5,
+    "d": 1
+   }
+  ]
  }
 }
