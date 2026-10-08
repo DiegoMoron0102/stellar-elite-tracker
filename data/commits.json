@@ -67565,5 +67565,4581 @@
     "d": 0
    }
   ]
+ },
+ "3f24e7b4d7378d42a2350e5eb59a722cd2082c30": {
+  "team": "Puls3",
+  "repo": "Zer0-Knowledge-Hack/puls3",
+  "author": "XxHugheadxX",
+  "date": "2026-10-08T22:36:35Z",
+  "message": "feat(server): agent runtime runner and Anthropic Messages adapter (part 1 of #20) (#108)",
+  "parents": 1,
+  "files": [
+   {
+    "f": ".env.example",
+    "a": 3,
+    "d": 0
+   },
+   {
+    "f": "docs/infra/secrets.md",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "puls3_server/config/passwords.example.yaml",
+    "a": 3,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/runtime/adapters/anthropic_runtime.dart",
+    "a": 153,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/runtime/agent_runner.dart",
+    "a": 45,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/runtime/runtime_config.dart",
+    "a": 66,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/runtime/runtime_task.dart",
+    "a": 151,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/test/unit/runtime/agent_runner_test.dart",
+    "a": 215,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/test/unit/runtime/anthropic_runtime_test.dart",
+    "a": 369,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/test/unit/runtime/runtime_config_test.dart",
+    "a": 64,
+    "d": 0
+   }
+  ]
+ },
+ "0a45600bc69470455ca746d7e9c7573e540f83c5": {
+  "team": "Puls3",
+  "repo": "Zer0-Knowledge-Hack/puls3",
+  "author": "XxHugheadxX",
+  "date": "2026-10-08T22:27:01Z",
+  "message": "docs(blueprints): align F5-F7 and demo paths with the ADR-0005 escrow (#140)",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/blueprints/flows.md",
+    "a": 67,
+    "d": 47
+   }
+  ]
+ },
+ "6a13a73ff1d848e61ac90af3168ad5ce096af94e": {
+  "team": "Puls3",
+  "repo": "Zer0-Knowledge-Hack/puls3",
+  "author": "TOMOKI977",
+  "date": "2026-10-08T22:04:38Z",
+  "message": "feat(domain): add agent manifest draft, validation and deploy manifest (#34, 2/3) (#138)",
+  "parents": 1,
+  "files": [
+   {
+    "f": "openspec/changes/34-agent-manifest/apply-progress.md",
+    "a": 25,
+    "d": 1
+   },
+   {
+    "f": "openspec/changes/34-agent-manifest/tasks.md",
+    "a": 21,
+    "d": 10
+   },
+   {
+    "f": "puls3_domain/lib/src/manifest.dart",
+    "a": 293,
+    "d": 0
+   },
+   {
+    "f": "puls3_domain/test/manifest_test.dart",
+    "a": 499,
+    "d": 0
+   }
+  ]
+ },
+ "fc1e7afbe6249e68b20ecacc34171676383340a9": {
+  "team": "Puls3",
+  "repo": "Zer0-Knowledge-Hack/puls3",
+  "author": "TOMOKI977",
+  "date": "2026-10-08T20:57:28Z",
+  "message": "docs: publish the Serverpod Cloud API URL and update Serverpod version references (#121)",
+  "parents": 1,
+  "files": [
+   {
+    "f": "README.md",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "docs/infra/secrets.md",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "puls3_server/README.md",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "puls3_server/lib/src/cors/allowed_origins.dart",
+    "a": 1,
+    "d": 1
+   }
+  ]
+ },
+ "3d78e07135885b5e24eae155badfcda25d2ef677": {
+  "team": "Puls3",
+  "repo": "Zer0-Knowledge-Hack/puls3",
+  "author": "TOMOKI977",
+  "date": "2026-10-08T20:54:22Z",
+  "message": "feat(domain): add manifest value objects and model policy (#34, 1/4) (#135)",
+  "parents": 1,
+  "files": [
+   {
+    "f": "openspec/changes/34-agent-manifest/apply-progress.md",
+    "a": 18,
+    "d": 0
+   },
+   {
+    "f": "openspec/changes/34-agent-manifest/design.md",
+    "a": 151,
+    "d": 0
+   },
+   {
+    "f": "openspec/changes/34-agent-manifest/exploration.md",
+    "a": 88,
+    "d": 0
+   },
+   {
+    "f": "openspec/changes/34-agent-manifest/proposal.md",
+    "a": 87,
+    "d": 0
+   },
+   {
+    "f": "openspec/changes/34-agent-manifest/specs/agent-manifest/spec.md",
+    "a": 329,
+    "d": 0
+   },
+   {
+    "f": "openspec/changes/34-agent-manifest/tasks.md",
+    "a": 83,
+    "d": 0
+   },
+   {
+    "f": "openspec/config.yaml",
+    "a": 39,
+    "d": 0
+   },
+   {
+    "f": "puls3_domain/lib/puls3_domain.dart",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "puls3_domain/lib/src/errors.dart",
+    "a": 116,
+    "d": 0
+   },
+   {
+    "f": "puls3_domain/lib/src/manifest.dart",
+    "a": 113,
+    "d": 0
+   },
+   {
+    "f": "puls3_domain/test/manifest_test.dart",
+    "a": 233,
+    "d": 0
+   }
+  ]
+ },
+ "163f10ee83c02e25d3c63f7fa2bef6428c5f477f": {
+  "team": "Puls3",
+  "repo": "Zer0-Knowledge-Hack/puls3",
+  "author": "TOMOKI977",
+  "date": "2026-10-08T20:44:15Z",
+  "message": "docs: add the server escrow relay testnet evidence to the README (#137)",
+  "parents": 1,
+  "files": [
+   {
+    "f": "README.md",
+    "a": 18,
+    "d": 1
+   }
+  ]
+ },
+ "f799ca551ab5371b7cebec410aad0bb3836c4228": {
+  "team": "Puls3",
+  "repo": "Zer0-Knowledge-Hack/puls3",
+  "author": "moises-cisneros",
+  "date": "2026-10-08T19:45:16Z",
+  "message": "feat(server): escrow relay prepare and submit endpoints for hires (#96)",
+  "parents": 1,
+  "files": [
+   {
+    "f": ".env.example",
+    "a": 7,
+    "d": 0
+   },
+   {
+    "f": ".gitleaks.toml",
+    "a": 28,
+    "d": 1
+   },
+   {
+    "f": "docs/adr/0001-system-architecture.md",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "docs/adr/0003-payment-rail-and-custody.md",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "docs/architecture/api.md",
+    "a": 7,
+    "d": 7
+   },
+   {
+    "f": "openspec/changes/archive/2026-10-08-issue-96-escrow-relay/apply-progress.md",
+    "a": 113,
+    "d": 0
+   },
+   {
+    "f": "openspec/changes/archive/2026-10-08-issue-96-escrow-relay/archive-report.md",
+    "a": 182,
+    "d": 0
+   },
+   {
+    "f": "openspec/changes/archive/2026-10-08-issue-96-escrow-relay/design.md",
+    "a": 108,
+    "d": 0
+   },
+   {
+    "f": "openspec/changes/archive/2026-10-08-issue-96-escrow-relay/exploration.md",
+    "a": 38,
+    "d": 0
+   },
+   {
+    "f": "openspec/changes/archive/2026-10-08-issue-96-escrow-relay/proposal.md",
+    "a": 70,
+    "d": 0
+   },
+   {
+    "f": "openspec/changes/archive/2026-10-08-issue-96-escrow-relay/specs/escrow-relay/spec.md",
+    "a": 314,
+    "d": 0
+   },
+   {
+    "f": "openspec/changes/archive/2026-10-08-issue-96-escrow-relay/specs/hire-payment/spec.md",
+    "a": 119,
+    "d": 0
+   },
+   {
+    "f": "openspec/changes/archive/2026-10-08-issue-96-escrow-relay/tasks.md",
+    "a": 82,
+    "d": 0
+   },
+   {
+    "f": "openspec/changes/archive/2026-10-08-issue-96-escrow-relay/verify-report.md",
+    "a": 189,
+    "d": 0
+   },
+   {
+    "f": "openspec/specs/escrow-relay/spec.md",
+    "a": 314,
+    "d": 0
+   },
+   {
+    "f": "openspec/specs/hire-payment/spec.md",
+    "a": 97,
+    "d": 12
+   },
+   {
+    "f": "pubspec.lock",
+    "a": 16,
+    "d": 0
+   },
+   {
+    "f": "puls3_client/lib/src/protocol/client.dart",
+    "a": 99,
+    "d": 0
+   },
+   {
+    "f": "puls3_client/lib/src/protocol/create_hire_result.dart",
+    "a": 111,
+    "d": 0
+   },
+   {
+    "f": "puls3_client/lib/src/protocol/hire.dart",
+    "a": 226,
+    "d": 0
+   },
+   {
+    "f": "puls3_client/lib/src/protocol/hire_detail.dart",
+    "a": 263,
+    "d": 0
+   },
+   {
+    "f": "puls3_client/lib/src/protocol/payment.dart",
+    "a": 136,
+    "d": 0
+   },
+   {
+    "f": "puls3_client/lib/src/protocol/prepared_transaction.dart",
+    "a": 212,
+    "d": 0
+   },
+   {
+    "f": "puls3_client/lib/src/protocol/protocol.dart",
+    "a": 89,
+    "d": 0
+   },
+   {
+    "f": "puls3_client/lib/src/protocol/puls3_api_exception.dart",
+    "a": 129,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/README.md",
+    "a": 52,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/chain/chain_submission_store.dart",
+    "a": 12,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/chain/chain_tracker_wiring.dart",
+    "a": 13,
+    "d": 3
+   },
+   {
+    "f": "puls3_server/lib/src/chain/serverpod_chain_submission_store.dart",
+    "a": 13,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/generated/create_hire_result.dart",
+    "a": 111,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/generated/endpoints.dart",
+    "a": 163,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/generated/hire.dart",
+    "a": 226,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/generated/hire/escrow_preparation.dart",
+    "a": 901,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/generated/hire/hire.dart",
+    "a": 75,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/generated/hire_detail.dart",
+    "a": 263,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/generated/payment.dart",
+    "a": 136,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/generated/prepared_transaction.dart",
+    "a": 212,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/generated/protocol.dart",
+    "a": 292,
+    "d": 1
+   },
+   {
+    "f": "puls3_server/lib/src/generated/protocol.yaml",
+    "a": 7,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/generated/puls3_api_exception.dart",
+    "a": 129,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/hire/chain_accounts.dart",
+    "a": 66,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/hire/escrow_preparation.spy.yaml",
+    "a": 40,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/hire/escrow_preparation_store.dart",
+    "a": 140,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/hire/escrow_relay_service.dart",
+    "a": 543,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/hire/hire.spy.yaml",
+    "a": 13,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/hire/hire_endpoint.dart",
+    "a": 148,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/hire/hire_escrow_effects.dart",
+    "a": 53,
+    "d": 8
+   },
+   {
+    "f": "puls3_server/lib/src/hire/hire_lifecycle_store.dart",
+    "a": 130,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/hire/hire_relay_config.dart",
+    "a": 47,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/hire/hire_service.dart",
+    "a": 92,
+    "d": 42
+   },
+   {
+    "f": "puls3_server/lib/src/hire/hire_services.dart",
+    "a": 117,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/hire/serverpod_escrow_preparation_store.dart",
+    "a": 123,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/hire/serverpod_hire_repository.dart",
+    "a": 105,
+    "d": 2
+   },
+   {
+    "f": "puls3_server/lib/src/hire/session_wallet.dart",
+    "a": 26,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/ledger/envelope_codec.dart",
+    "a": 206,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/ledger/ledger_errors.dart",
+    "a": 9,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/ledger/soroban_ledger.dart",
+    "a": 2,
+    "d": 5
+   },
+   {
+    "f": "puls3_server/lib/src/ledger/soroban_rpc_client.dart",
+    "a": 102,
+    "d": 3
+   },
+   {
+    "f": "puls3_server/lib/src/ledger/stellar_envelope_codec.dart",
+    "a": 256,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/ledger/xdr_invoke_encoder.dart",
+    "a": 113,
+    "d": 11
+   },
+   {
+    "f": "puls3_server/lib/src/protocol/create_hire_result.spy.yaml",
+    "a": 9,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/protocol/hire.spy.yaml",
+    "a": 30,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/protocol/hire_detail.spy.yaml",
+    "a": 21,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/protocol/payment.spy.yaml",
+    "a": 16,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/protocol/prepared_transaction.spy.yaml",
+    "a": 29,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/protocol/puls3_api_exception.spy.yaml",
+    "a": 35,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/migrations/20261008045629402/definition.json",
+    "a": 3832,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/migrations/20261008045629402/definition.sql",
+    "a": 889,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/migrations/20261008045629402/definition_project.json",
+    "a": 625,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/migrations/20261008045629402/migration.json",
+    "a": 299,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/migrations/20261008045629402/migration.sql",
+    "a": 70,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/migrations/migration_registry.txt",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/pubspec.yaml",
+    "a": 2,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/test/fixtures/escrow_relay/get_ledger_entries_account.json",
+    "a": 15,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/test/fixtures/escrow_relay/get_ledger_entries_missing_account.json",
+    "a": 8,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/test/fixtures/escrow_relay/get_transaction_create_job_3_xdr.json",
+    "a": 6,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/test/fixtures/escrow_relay/get_transaction_fund_job_3_xdr.json",
+    "a": 6,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/test/fixtures/escrow_relay/simulate_create_job_3_base64.json",
+    "a": 40,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/test/fixtures/escrow_relay/simulate_fund_job_3_error_base64.json",
+    "a": 12,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/test/hire/chain_accounts_test.dart",
+    "a": 182,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/test/hire/escrow_relay_real_codec_test.dart",
+    "a": 183,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/test/hire/escrow_relay_service_test.dart",
+    "a": 604,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/test/hire/escrow_relay_submit_test.dart",
+    "a": 804,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/test/hire/hire_endpoint_test.dart",
+    "a": 449,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/test/integration/escrow_preparation_store_test.dart",
+    "a": 197,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/test/integration/hire_lifecycle_store_test.dart",
+    "a": 49,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/test/integration/hire_relay_flow_test.dart",
+    "a": 310,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/test/integration/test_tools/serverpod_test_tools.dart",
+    "a": 226,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/test/ledger/envelope_codec_test.dart",
+    "a": 708,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/test/ledger/soroban_rpc_client_relay_test.dart",
+    "a": 284,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/test/protocol/relay_protocol_test.dart",
+    "a": 163,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/test/spike/envelope_spike_test.dart",
+    "a": 93,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/test/support/chain_submission_store_contract.dart",
+    "a": 32,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/test/support/escrow_preparation_store_contract.dart",
+    "a": 202,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/test/support/fake_chain_accounts.dart",
+    "a": 37,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/test/support/fake_envelope_codec.dart",
+    "a": 119,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/test/support/hire_lifecycle_store_contract.dart",
+    "a": 125,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/test/support/in_memory_chain_submission_store.dart",
+    "a": 6,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/test/support/in_memory_escrow_preparation_store.dart",
+    "a": 123,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/test/support/in_memory_hire_lifecycle_store.dart",
+    "a": 100,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/test/support/relay_rig.dart",
+    "a": 158,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/test/unit/chain/chain_submission_tracker_test.dart",
+    "a": 7,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/test/unit/hire/hire_escrow_effects_test.dart",
+    "a": 174,
+    "d": 13
+   },
+   {
+    "f": "puls3_server/test/unit/hire/hire_service_create_test.dart",
+    "a": 356,
+    "d": 138
+   },
+   {
+    "f": "puls3_server/test/unit/hire/in_memory_escrow_preparation_store_test.dart",
+    "a": 81,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/test/unit/hire/in_memory_hire_lifecycle_store_test.dart",
+    "a": 10,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/test/unit/ledger/xdr_invoke_encoder_test.dart",
+    "a": 68,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/tool/e2e_relay_testnet.dart",
+    "a": 306,
+    "d": 0
+   }
+  ]
+ },
+ "0b492af79711c9130aedb878e9a6df30b7b089a1": {
+  "team": "Puls3",
+  "repo": "Zer0-Knowledge-Hack/puls3",
+  "author": "Pericena",
+  "date": "2026-10-08T17:10:21Z",
+  "message": "feat(flutter): wallet connection with Freighter and a mock wallet (#113)",
+  "parents": 1,
+  "files": [
+   {
+    "f": "puls3_flutter/README.md",
+    "a": 51,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/lib/main.dart",
+    "a": 21,
+    "d": 1
+   },
+   {
+    "f": "puls3_flutter/lib/src/deploy/deploy_flow_controller.dart",
+    "a": 17,
+    "d": 3
+   },
+   {
+    "f": "puls3_flutter/lib/src/deploy/fake_deploy_gateway.dart",
+    "a": 2,
+    "d": 1
+   },
+   {
+    "f": "puls3_flutter/lib/src/screens/app_shell.dart",
+    "a": 2,
+    "d": 1
+   },
+   {
+    "f": "puls3_flutter/lib/src/screens/hire_sheet.dart",
+    "a": 27,
+    "d": 5
+   },
+   {
+    "f": "puls3_flutter/lib/src/screens/wallet_sheet.dart",
+    "a": 64,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/lib/src/state/wallet_controller.dart",
+    "a": 154,
+    "d": 10
+   },
+   {
+    "f": "puls3_flutter/lib/src/ui/molecules/wallet_chip.dart",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "puls3_flutter/lib/src/ui/organisms/wallet_panel.dart",
+    "a": 437,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/lib/src/wallet/demo_envelope.dart",
+    "a": 31,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/lib/src/wallet/freighter/create_freighter_bridge.dart",
+    "a": 6,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/lib/src/wallet/freighter/freighter_bridge.dart",
+    "a": 51,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/lib/src/wallet/freighter/freighter_bridge_stub.dart",
+    "a": 31,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/lib/src/wallet/freighter/freighter_bridge_web.dart",
+    "a": 132,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/lib/src/wallet/freighter/freighter_wallet.dart",
+    "a": 261,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/lib/src/wallet/mock_wallet.dart",
+    "a": 46,
+    "d": 10
+   },
+   {
+    "f": "puls3_flutter/lib/src/wallet/wallet_port.dart",
+    "a": 64,
+    "d": 12
+   },
+   {
+    "f": "puls3_flutter/pubspec.yaml",
+    "a": 2,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/test/deploy/deploy_flow_test.dart",
+    "a": 3,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/test/screens/hire_sheet_test.dart",
+    "a": 15,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/test/screens/market_screen_test.dart",
+    "a": 5,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/test/wallet/freighter_wallet_test.dart",
+    "a": 386,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/test/wallet/wallet_connection_test.dart",
+    "a": 440,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/web/freighter_bridge.js",
+    "a": 73,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/web/index.html",
+    "a": 14,
+    "d": 1
+   }
+  ]
+ },
+ "71b577ceb74734e3bfec1c76da4d033c34714f74": {
+  "team": "Puls3",
+  "repo": "Zer0-Knowledge-Hack/puls3",
+  "author": "Pericena",
+  "date": "2026-10-08T15:34:20Z",
+  "message": "feat(flutter): deploy flow UI with stepper and error recovery (#112)",
+  "parents": 1,
+  "files": [
+   {
+    "f": "puls3_flutter/lib/src/app.dart",
+    "a": 10,
+    "d": 3
+   },
+   {
+    "f": "puls3_flutter/lib/src/deploy/deploy_flow.dart",
+    "a": 135,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/lib/src/deploy/deploy_flow_controller.dart",
+    "a": 412,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/lib/src/deploy/deploy_gateway.dart",
+    "a": 93,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/lib/src/deploy/fake_deploy_gateway.dart",
+    "a": 55,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/lib/src/screens/deploy_sheet.dart",
+    "a": 42,
+    "d": 81
+   },
+   {
+    "f": "puls3_flutter/lib/src/state/app_scope.dart",
+    "a": 4,
+    "d": 4
+   },
+   {
+    "f": "puls3_flutter/lib/src/ui/molecules/copyable_value_row.dart",
+    "a": 113,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/lib/src/ui/molecules/progress_step_row.dart",
+    "a": 89,
+    "d": 19
+   },
+   {
+    "f": "puls3_flutter/lib/src/ui/organisms/deploy/deploy_copy.dart",
+    "a": 169,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/lib/src/ui/organisms/deploy/deploy_error_panel.dart",
+    "a": 142,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/lib/src/ui/organisms/deploy/deploy_flow_view.dart",
+    "a": 223,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/lib/src/ui/organisms/deploy/deploy_phase_card.dart",
+    "a": 101,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/lib/src/ui/organisms/deploy/deploy_stepper.dart",
+    "a": 41,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/lib/src/ui/organisms/deploy/deploy_success.dart",
+    "a": 202,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/lib/src/ui/organisms/deploy_progress_view.dart",
+    "a": 0,
+    "d": 145
+   },
+   {
+    "f": "puls3_flutter/lib/src/ui/organisms/success_panel.dart",
+    "a": 0,
+    "d": 82
+   },
+   {
+    "f": "puls3_flutter/lib/src/wallet/mock_wallet.dart",
+    "a": 24,
+    "d": 2
+   },
+   {
+    "f": "puls3_flutter/lib/src/wallet/wallet_port.dart",
+    "a": 36,
+    "d": 3
+   },
+   {
+    "f": "puls3_flutter/pubspec.yaml",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/test/deploy/deploy_flow_test.dart",
+    "a": 684,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/test/helpers.dart",
+    "a": 2,
+    "d": 1
+   },
+   {
+    "f": "puls3_flutter/test/screens/hire_sheet_test.dart",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "puls3_flutter/test/screens/studio_screen_test.dart",
+    "a": 31,
+    "d": 9
+   }
+  ]
+ },
+ "2b408ada78c04fc99c69325291d80067ba892cd7": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-08T15:30:59Z",
+  "message": "La ventana de ingreso entra al auditor de interfaz, con sus colores fijos por tema",
+  "parents": 1,
+  "files": [
+   {
+    "f": "scripts/audit-ui.mjs",
+    "a": 42,
+    "d": 9
+   },
+   {
+    "f": "src/styles.css",
+    "a": 4,
+    "d": 2
+   }
+  ]
+ },
+ "c58eaa708dba8b3b30274cb19da8d4879e1c0310": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-08T15:19:43Z",
+  "message": "El campo de correo sin una dirección de ejemplo adentro",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/i18n.ts",
+    "a": 2,
+    "d": 2
+   }
+  ]
+ },
+ "b454e280399f0601f5179cbb6353c0aa9f7ea81a": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-08T15:18:45Z",
+  "message": "Los commits de Guido Salazar del PR #1 entran a la historia",
+  "parents": 2,
+  "files": []
+ },
+ "cfa59875ad909e90243df2ec605d14a9e014da84": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-08T15:18:44Z",
+  "message": "El README dice quién creó Tinkazo y con quién",
+  "parents": 1,
+  "files": [
+   {
+    "f": "README.es.md",
+    "a": 1,
+    "d": 4
+   },
+   {
+    "f": "README.md",
+    "a": 1,
+    "d": 4
+   }
+  ]
+ },
+ "8d3a49ea2978311f7fc1f12f0416ae3bb1170251": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-08T15:15:52Z",
+  "message": "La ventana de ingreso con la forma de la de Pollar, y entrar con un correo",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/i18n.ts",
+    "a": 54,
+    "d": 2
+   },
+   {
+    "f": "src/stellar/wallet-pollar.ts",
+    "a": 97,
+    "d": 13
+   },
+   {
+    "f": "src/styles.css",
+    "a": 67,
+    "d": 0
+   },
+   {
+    "f": "src/ui/wallet-ui.ts",
+    "a": 289,
+    "d": 70
+   }
+  ]
+ },
+ "91339d4bf8733dfeb1ca43e1ec83d5f7606b059f": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-08T02:07:08Z",
+  "message": "El equipo con sus roles: fundador y desarrollador principal, y desarrollador frontend",
+  "parents": 1,
+  "files": [
+   {
+    "f": "README.es.md",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "README.md",
+    "a": 2,
+    "d": 2
+   }
+  ]
+ },
+ "6e2473ca7c14115a7b5dc6f15929061b8c106df6": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-08T00:45:02Z",
+  "message": "La tómbola: la bajada traquetea y la corona queda en el vaso",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/juegos/tombola.md",
+    "a": 7,
+    "d": 7
+   },
+   {
+    "f": "src/games/pixi/tombola.ts",
+    "a": 59,
+    "d": 13
+   },
+   {
+    "f": "src/i18n.ts",
+    "a": 4,
+    "d": 0
+   }
+  ]
+ },
+ "d42af7879c8d4f4ca3b4fe8bdf3c5e73b415855c": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-08T00:44:59Z",
+  "message": "Oruro: el que gana entra al Socavón y el contrapunto sube hasta el final",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/juegos/carnaval-de-oruro.md",
+    "a": 7,
+    "d": 7
+   },
+   {
+    "f": "src/games/pixi/oruro.ts",
+    "a": 111,
+    "d": 27
+   }
+  ]
+ },
+ "90441df04d9d495e5f6287d733c6c4b85f1a4597": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-08T00:44:57Z",
+  "message": "La piñata: palos que se apuran, una rotura con peso y el final sin delatar",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/juegos/pinata.md",
+    "a": 4,
+    "d": 4
+   },
+   {
+    "f": "src/games/pixi/pinata.ts",
+    "a": 70,
+    "d": 26
+   }
+  ]
+ },
+ "8ba344f26ceb970debdd3d7e2d5be0366466b02a": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-08T01:22:04Z",
+  "message": "El teleférico: quién se baja en la última, con cara y golpe, y el tercer premio con nombre",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/juegos/teleferico.md",
+    "a": 8,
+    "d": 6
+   },
+   {
+    "f": "src/games/pixi/cablecar-plan.ts",
+    "a": 10,
+    "d": 3
+   },
+   {
+    "f": "src/games/pixi/cablecar.ts",
+    "a": 156,
+    "d": 13
+   }
+  ]
+ },
+ "dc419d0d33cc58f7ef2feecd21cfd58d164d0ad7": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-08T01:43:53Z",
+  "message": "El aguayo: mano a mano en el nudo, y ningún co-ganador sale sin nombre",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/juegos/pasanaku.md",
+    "a": 5,
+    "d": 2
+   },
+   {
+    "f": "src/games/pixi/pasanaku.ts",
+    "a": 138,
+    "d": 27
+   }
+  ]
+ },
+ "a9c57cd3a60a8bf18be282bee15c40594f97fe65": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-08T01:51:25Z",
+  "message": "La ruleta: nombres en los gajos, la parada falsa suena y el cartel no tapa al ganador",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/juegos/ruleta.md",
+    "a": 15,
+    "d": 9
+   },
+   {
+    "f": "src/games/pixi/wheel-beats.ts",
+    "a": 7,
+    "d": 1
+   },
+   {
+    "f": "src/games/pixi/wheel.ts",
+    "a": 82,
+    "d": 31
+   },
+   {
+    "f": "src/i18n.ts",
+    "a": 11,
+    "d": 0
+   }
+  ]
+ },
+ "78999975afec7bd823aca530a30e36e33c207654": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-08T01:42:43Z",
+  "message": "¿Quién es?: la respuesta que decide con silencio, sello grande y el primer premio al final",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/juegos/quien-es.md",
+    "a": 4,
+    "d": 3
+   },
+   {
+    "f": "src/games/pixi/quien.ts",
+    "a": 106,
+    "d": 14
+   },
+   {
+    "f": "src/i18n.ts",
+    "a": 5,
+    "d": 5
+   }
+  ]
+ },
+ "b08be9954a53a155a1a2150c0a4e068b3467e04f": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-08T01:07:52Z",
+  "message": "El sapo: silencio antes de la caída, tiros con nombre y el primer premio al final",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/juegos/sapo.md",
+    "a": 4,
+    "d": 3
+   },
+   {
+    "f": "src/games/pixi/sapo-plan.ts",
+    "a": 4,
+    "d": 1
+   },
+   {
+    "f": "src/games/pixi/sapo.ts",
+    "a": 62,
+    "d": 9
+   },
+   {
+    "f": "src/i18n.test.ts",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "src/i18n.ts",
+    "a": 7,
+    "d": 4
+   }
+  ]
+ },
+ "5c1273f8a8092807485126aef5e88678caf2fbce": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-08T00:36:41Z",
+  "message": "La constelación: el amague con nombre y los co-ganadores con su momento",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/juegos/constelacion-stellar.md",
+    "a": 3,
+    "d": 2
+   },
+   {
+    "f": "src/games/pixi/constellation.ts",
+    "a": 110,
+    "d": 18
+   },
+   {
+    "f": "src/i18n.ts",
+    "a": 8,
+    "d": 2
+   }
+  ]
+ },
+ "e57e819dddea49c174f874d59cc6b101d8ddc6e0": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-08T01:42:47Z",
+  "message": "El trompo: el instante que decide, el zumbido y los nombres de los que salen",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/games/pixi/trompo.ts",
+    "a": 119,
+    "d": 24
+   },
+   {
+    "f": "src/i18n.ts",
+    "a": 4,
+    "d": 0
+   }
+  ]
+ },
+ "a81cccea3f208579c98de5fd5314c28043ff40b5": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-08T01:42:47Z",
+  "message": "La Chovena: la última vuelta se mueve y el corte final suena",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/games/pixi/chovena.ts",
+    "a": 37,
+    "d": 6
+   }
+  ]
+ },
+ "c7defbb907dda6e80ec1950acd9f47b74a6a00c9": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-08T01:42:46Z",
+  "message": "La carrera: el relator a tiempo, la tribuna que explota y la ganadora a la vista",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/games/llamas/pixi-race.ts",
+    "a": 140,
+    "d": 26
+   },
+   {
+    "f": "src/games/llamas/plan.ts",
+    "a": 8,
+    "d": 2
+   }
+  ]
+ },
+ "32da72e464f88cc6a7fc13e0617fa57f0fcfcff2": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-08T01:28:57Z",
+  "message": "Guido Salazar en el equipo, con su usuario de GitHub",
+  "parents": 1,
+  "files": [
+   {
+    "f": "README.es.md",
+    "a": 6,
+    "d": 1
+   },
+   {
+    "f": "README.md",
+    "a": 6,
+    "d": 1
+   },
+   {
+    "f": "docs/epics.md",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "docs/juegos/quien-es.md",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "docs/juegos/sapo.md",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/games/pixi/quien-plan.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/games/pixi/quien.ts",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "src/games/pixi/sapo.ts",
+    "a": 2,
+    "d": 1
+   }
+  ]
+ },
+ "60e72873873b274fc21cc057ffe53954c6aa638d": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-07T19:13:30Z",
+  "message": "El README dice qué corre en la CI y cómo levantarlo en otra máquina",
+  "parents": 1,
+  "files": [
+   {
+    "f": ".env.example",
+    "a": 9,
+    "d": 0
+   },
+   {
+    "f": "README.es.md",
+    "a": 5,
+    "d": 3
+   },
+   {
+    "f": "README.md",
+    "a": 5,
+    "d": 3
+   }
+  ]
+ },
+ "16ffe5028e4167560254e3864de1d9885a129558": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-07T19:07:20Z",
+  "message": "El README en español con la Chovena, y la corona con todos los premios",
+  "parents": 1,
+  "files": [
+   {
+    "f": "README.es.md",
+    "a": 8,
+    "d": 6
+   },
+   {
+    "f": "README.md",
+    "a": 5,
+    "d": 3
+   },
+   {
+    "f": "docs/capturas/readme/partidas-es.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/luz-light.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "src/games/pixi/constellation.ts",
+    "a": 3,
+    "d": 1
+   },
+   {
+    "f": "src/games/pixi/stage.ts",
+    "a": 6,
+    "d": 2
+   }
+  ]
+ },
+ "6c78c73af486cf6587d4d8a7b7d4b43622d974bf": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-07T17:36:32Z",
+  "message": "Varios premios: cada ganador con su nombre, su cara y su momento",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/juegos.md",
+    "a": 9,
+    "d": 0
+   },
+   {
+    "f": "src/games/cablecar.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/games/constellation.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/games/ledger.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/games/llamas/pixi-race.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/games/overlay.ts",
+    "a": 3,
+    "d": 3
+   },
+   {
+    "f": "src/games/pasanaku.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/games/pixi/cablecar.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/games/pixi/chovena.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/games/pixi/constellation.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/games/pixi/ledger.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/games/pixi/luz.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/games/pixi/oruro.ts",
+    "a": 4,
+    "d": 1
+   },
+   {
+    "f": "src/games/pixi/pasanaku.ts",
+    "a": 12,
+    "d": 5
+   },
+   {
+    "f": "src/games/pixi/pinata.ts",
+    "a": 6,
+    "d": 3
+   },
+   {
+    "f": "src/games/pixi/quien.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/games/pixi/sapo.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/games/pixi/stage.ts",
+    "a": 58,
+    "d": 9
+   },
+   {
+    "f": "src/games/pixi/tombola.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/games/pixi/trompo.ts",
+    "a": 6,
+    "d": 3
+   },
+   {
+    "f": "src/games/pixi/wheel.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/games/race.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/games/tombola.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/games/wheel.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/i18n.ts",
+    "a": 20,
+    "d": 3
+   }
+  ]
+ },
+ "aec58d3184a6f307e5249ad7c14fc82a00b7d2e8": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "GuidoSV7",
+  "date": "2026-10-02T02:56:12Z",
+  "message": "test: give the Plinko landing sweep a generous timeout",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/games/pixi/plinko-plan.test.ts",
+    "a": 2,
+    "d": 1
+   }
+  ]
+ },
+ "c1144a27a322850e62c52e16ac6aa898c2914603": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "GuidoSV7",
+  "date": "2026-10-02T02:55:18Z",
+  "message": "fix: shake the wheel camera only once, at the real winner",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/juegos/ruleta.md",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "docs/motores.md",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/games/pixi/wheel-beats.test.ts",
+    "a": 49,
+    "d": 0
+   },
+   {
+    "f": "src/games/pixi/wheel-beats.ts",
+    "a": 46,
+    "d": 0
+   },
+   {
+    "f": "src/games/pixi/wheel-camera-guard.test.ts",
+    "a": 27,
+    "d": 0
+   },
+   {
+    "f": "src/games/pixi/wheel.ts",
+    "a": 12,
+    "d": 13
+   }
+  ]
+ },
+ "f84ebdaf53fbb1e809cb5ef6ec3fab4cef32bd85": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "GuidoSV7",
+  "date": "2026-10-02T02:50:24Z",
+  "message": "feat: name every Oruro devil with readable tags and a roll call",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/juegos/carnaval-de-oruro.md",
+    "a": 13,
+    "d": 1
+   },
+   {
+    "f": "src/games/pixi/oruro-tags.test.ts",
+    "a": 224,
+    "d": 0
+   },
+   {
+    "f": "src/games/pixi/oruro-tags.ts",
+    "a": 129,
+    "d": 0
+   },
+   {
+    "f": "src/games/pixi/oruro.ts",
+    "a": 143,
+    "d": 16
+   }
+  ]
+ },
+ "64aac7c942debcc9b889f0ea01072d6015483ebb": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "GuidoSV7",
+  "date": "2026-10-02T02:40:29Z",
+  "message": "fix: rebuild the winner plate when returning to the tab",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/motores.md",
+    "a": 4,
+    "d": 0
+   },
+   {
+    "f": "src/games/pixi/camera.ts",
+    "a": 23,
+    "d": 0
+   },
+   {
+    "f": "src/games/pixi/recover.test.ts",
+    "a": 113,
+    "d": 0
+   },
+   {
+    "f": "src/games/pixi/recover.ts",
+    "a": 67,
+    "d": 0
+   },
+   {
+    "f": "src/games/pixi/stage.ts",
+    "a": 38,
+    "d": 1
+   }
+  ]
+ },
+ "273974321dccff322f697b71bcddeb8ea193822f": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "GuidoSV7",
+  "date": "2026-10-02T02:34:46Z",
+  "message": "feat: show a readable name on every falling Pinata candy",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/juegos/pinata.md",
+    "a": 3,
+    "d": 1
+   },
+   {
+    "f": "src/games/pixi/pinata-labels.test.ts",
+    "a": 135,
+    "d": 0
+   },
+   {
+    "f": "src/games/pixi/pinata-labels.ts",
+    "a": 90,
+    "d": 0
+   },
+   {
+    "f": "src/games/pixi/pinata.ts",
+    "a": 141,
+    "d": 38
+   },
+   {
+    "f": "src/i18n.ts",
+    "a": 8,
+    "d": 0
+   }
+  ]
+ },
+ "864e742f52a82bb584d2bc9132cf92aa3a328d61": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "GuidoSV7",
+  "date": "2026-10-02T02:18:53Z",
+  "message": "feat: keep the wallet session until the user signs out",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/architecture.md",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "src/stellar/session-store.test.ts",
+    "a": 103,
+    "d": 0
+   },
+   {
+    "f": "src/stellar/session-store.ts",
+    "a": 60,
+    "d": 0
+   },
+   {
+    "f": "src/stellar/wallet.ts",
+    "a": 40,
+    "d": 0
+   },
+   {
+    "f": "src/ui/wallet-ui.ts",
+    "a": 68,
+    "d": 16
+   }
+  ]
+ },
+ "05c30f90219fa11a6aa20aef5ae339699f33ac12": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "GuidoSV7",
+  "date": "2026-10-01T21:35:27Z",
+  "message": "feat: add Ahorcado game where the hidden word is the winner's name",
+  "parents": 1,
+  "files": [
+   {
+    "f": "README.md",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "docs/juegos.md",
+    "a": 2,
+    "d": 1
+   },
+   {
+    "f": "docs/juegos/ahorcado.md",
+    "a": 83,
+    "d": 0
+   },
+   {
+    "f": "index.html",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "scripts/audit-emocion.mjs",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "scripts/audit-rigor.mjs",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "scripts/audit-sound.mjs",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/games/pixi/hangman-plan.test.ts",
+    "a": 328,
+    "d": 0
+   },
+   {
+    "f": "src/games/pixi/hangman-plan.ts",
+    "a": 241,
+    "d": 0
+   },
+   {
+    "f": "src/games/pixi/hangman.ts",
+    "a": 697,
+    "d": 0
+   },
+   {
+    "f": "src/games/pixi/index.ts",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "src/i18n.test.ts",
+    "a": 17,
+    "d": 0
+   },
+   {
+    "f": "src/i18n.ts",
+    "a": 40,
+    "d": 0
+   },
+   {
+    "f": "src/main.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/state.test.ts",
+    "a": 32,
+    "d": 0
+   },
+   {
+    "f": "src/state.ts",
+    "a": 19,
+    "d": 2
+   },
+   {
+    "f": "src/ui/draw.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/ui/freeze.ts",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "src/ui/thumbs.ts",
+    "a": 84,
+    "d": 0
+   }
+  ]
+ },
+ "9eee8841210ea0a20f784a23305a6c2acf922838": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "GuidoSV7",
+  "date": "2026-10-01T21:20:25Z",
+  "message": "feat: make the Sapo rules and winners clearer on screen",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/juegos/sapo.md",
+    "a": 11,
+    "d": 2
+   },
+   {
+    "f": "src/games/pixi/sapo-plan.test.ts",
+    "a": 9,
+    "d": 0
+   },
+   {
+    "f": "src/games/pixi/sapo-plan.ts",
+    "a": 7,
+    "d": 3
+   },
+   {
+    "f": "src/games/pixi/sapo.ts",
+    "a": 64,
+    "d": 1
+   },
+   {
+    "f": "src/i18n.test.ts",
+    "a": 11,
+    "d": 0
+   },
+   {
+    "f": "src/i18n.ts",
+    "a": 11,
+    "d": 2
+   }
+  ]
+ },
+ "f403752b984b9ffd2f8488db4149ae0a8b48f255": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "GuidoSV7",
+  "date": "2026-10-01T21:15:32Z",
+  "message": "fix: reapply thumbnail canvas transform every frame",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/ui/thumbs.test.ts",
+    "a": 63,
+    "d": 0
+   },
+   {
+    "f": "src/ui/thumbs.ts",
+    "a": 23,
+    "d": 3
+   }
+  ]
+ },
+ "024b2adc443d4fa7c1ffb4403af211721929401f": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "GuidoSV7",
+  "date": "2026-10-01T20:48:06Z",
+  "message": "feat: add Sapo frog-toss game with planned throws and clear roll paths",
+  "parents": 1,
+  "files": [
+   {
+    "f": "README.md",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "docs/juegos.md",
+    "a": 2,
+    "d": 1
+   },
+   {
+    "f": "docs/juegos/sapo.md",
+    "a": 70,
+    "d": 0
+   },
+   {
+    "f": "index.html",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "scripts/audit-emocion.mjs",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "scripts/audit-rigor.mjs",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "scripts/audit-sound.mjs",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/games/pixi/index.ts",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "src/games/pixi/sapo-plan.test.ts",
+    "a": 239,
+    "d": 0
+   },
+   {
+    "f": "src/games/pixi/sapo-plan.ts",
+    "a": 238,
+    "d": 0
+   },
+   {
+    "f": "src/games/pixi/sapo.ts",
+    "a": 469,
+    "d": 0
+   },
+   {
+    "f": "src/i18n.ts",
+    "a": 28,
+    "d": 0
+   },
+   {
+    "f": "src/main.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/state.ts",
+    "a": 10,
+    "d": 1
+   },
+   {
+    "f": "src/ui/freeze.ts",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "src/ui/thumbs.ts",
+    "a": 52,
+    "d": 0
+   }
+  ]
+ },
+ "2bd72aea01333be187d4812f0e02afcf6a8f91eb": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "GuidoSV7",
+  "date": "2026-10-01T19:27:35Z",
+  "message": "feat: add Plinko game with backwards-planned deterministic path",
+  "parents": 1,
+  "files": [
+   {
+    "f": "README.md",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "docs/juegos.md",
+    "a": 2,
+    "d": 1
+   },
+   {
+    "f": "docs/juegos/plinko.md",
+    "a": 63,
+    "d": 0
+   },
+   {
+    "f": "index.html",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "scripts/audit-emocion.mjs",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "scripts/audit-rigor.mjs",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "scripts/audit-sound.mjs",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/games/engine.ts",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "src/games/pixi/index.ts",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "src/games/pixi/plinko-plan.test.ts",
+    "a": 203,
+    "d": 0
+   },
+   {
+    "f": "src/games/pixi/plinko-plan.ts",
+    "a": 172,
+    "d": 0
+   },
+   {
+    "f": "src/games/pixi/plinko.ts",
+    "a": 418,
+    "d": 0
+   },
+   {
+    "f": "src/i18n.ts",
+    "a": 26,
+    "d": 0
+   },
+   {
+    "f": "src/main.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/state.ts",
+    "a": 20,
+    "d": 1
+   },
+   {
+    "f": "src/ui/draw.ts",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "src/ui/freeze.ts",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "src/ui/thumbs.ts",
+    "a": 32,
+    "d": 0
+   }
+  ]
+ },
+ "892395fecbe8c4b368165e5107ab440b2a687f9e": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "GuidoSV7",
+  "date": "2026-10-01T18:28:58Z",
+  "message": "feat: notify when animation is skipped by reduced motion and allow replay",
+  "parents": 1,
+  "files": [
+   {
+    "f": "index.html",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "src/games/overlay.ts",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "src/games/pixi/stage.ts",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "src/games/race.ts",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "src/i18n.ts",
+    "a": 2,
+    "d": 0
+   },
+   {
+    "f": "src/main.ts",
+    "a": 2,
+    "d": 1
+   },
+   {
+    "f": "src/state.test.ts",
+    "a": 74,
+    "d": 0
+   },
+   {
+    "f": "src/state.ts",
+    "a": 18,
+    "d": 0
+   },
+   {
+    "f": "src/ui/draw.ts",
+    "a": 17,
+    "d": 1
+   }
+  ]
+ },
+ "0ebfd094ac1da0a3c8cdf2e833cd9c4e801629ce": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "GuidoSV7",
+  "date": "2026-10-01T17:45:30Z",
+  "message": "build: add Dockerfile for Dokploy deployment",
+  "parents": 1,
+  "files": [
+   {
+    "f": ".dockerignore",
+    "a": 6,
+    "d": 0
+   },
+   {
+    "f": "Dockerfile",
+    "a": 11,
+    "d": 0
+   }
+  ]
+ },
+ "b238dd00a7fd5a2887efc5c2995f524aa9a0dced": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "GuidoSV7",
+  "date": "2026-10-01T17:25:42Z",
+  "message": "chore: add gentle-ai and codegraph local config",
+  "parents": 1,
+  "files": [
+   {
+    "f": ".codegraph/.gitignore",
+    "a": 5,
+    "d": 0
+   },
+   {
+    "f": ".gitignore",
+    "a": 2,
+    "d": 0
+   }
+  ]
+ },
+ "18f47598a7b85c4ef9f4a474060f967f5b18b2c8": {
+  "team": "NodeXchange",
+  "repo": "RomerTamayo/stellar-build",
+  "author": "RomerTamayo",
+  "date": "2026-10-08T17:06:06Z",
+  "message": "Describe the Supabase node as the reference node",
+  "parents": 1,
+  "files": [
+   {
+    "f": "README.md",
+    "a": 2,
+    "d": 0
+   }
+  ]
+ },
+ "09eae5ee6d3131c6808f4f637a57cc69c0be9709": {
+  "team": "Impulso Stellar",
+  "repo": "orlando-vazquez-career/stellar-impulse",
+  "author": "Hans3010",
+  "date": "2026-10-08T14:36:33Z",
+  "message": "Merge pull request #45 from orlando-vazquez-career/fix/apagado-railway",
+  "parents": 2,
+  "files": [
+   {
+    "f": "apps/server/package.json",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "apps/server/src/start-shutdown.test.ts",
+    "a": 60,
+    "d": 0
+   },
+   {
+    "f": "docs/deployment.md",
+    "a": 10,
+    "d": 0
+   },
+   {
+    "f": "pnpm-workspace.yaml",
+    "a": 4,
+    "d": 0
+   }
+  ]
+ },
+ "015dd6167c9cb9325ebad239c5a7d9f890d64383": {
+  "team": "Impulso Stellar",
+  "repo": "orlando-vazquez-career/stellar-impulse",
+  "author": "Hans3010",
+  "date": "2026-10-08T14:08:08Z",
+  "message": "Merge branch 'main' into fix/apagado-railway",
+  "parents": 2,
+  "files": [
+   {
+    "f": "README.md",
+    "a": 5,
+    "d": 4
+   },
+   {
+    "f": "apps/server/prisma/migrations/20261008040936_perfil_alias/migration.sql",
+    "a": 2,
+    "d": 0
+   },
+   {
+    "f": "apps/server/prisma/schema.prisma",
+    "a": 2,
+    "d": 0
+   },
+   {
+    "f": "apps/server/src/account-store.ts",
+    "a": 6,
+    "d": 0
+   },
+   {
+    "f": "apps/server/src/app.ts",
+    "a": 14,
+    "d": 7
+   },
+   {
+    "f": "apps/server/src/auth-limit.test.ts",
+    "a": 9,
+    "d": 1
+   },
+   {
+    "f": "apps/server/src/auth-storage.test.ts",
+    "a": 19,
+    "d": 0
+   },
+   {
+    "f": "apps/server/src/auth.test.ts",
+    "a": 55,
+    "d": 3
+   },
+   {
+    "f": "apps/server/src/auth.ts",
+    "a": 41,
+    "d": 6
+   },
+   {
+    "f": "apps/server/src/battlefield-room.test.ts",
+    "a": 7,
+    "d": 7
+   },
+   {
+    "f": "apps/server/src/battlefield-room.ts",
+    "a": 8,
+    "d": 8
+   },
+   {
+    "f": "apps/server/src/campaign-flow.test.ts",
+    "a": 55,
+    "d": 0
+   },
+   {
+    "f": "apps/server/src/campaign-map-override.test.ts",
+    "a": 0,
+    "d": 42
+   },
+   {
+    "f": "apps/server/src/campaign-rewards.test.ts",
+    "a": 10,
+    "d": 6
+   },
+   {
+    "f": "apps/server/src/campaign-room.test.ts",
+    "a": 71,
+    "d": 219
+   },
+   {
+    "f": "apps/server/src/campaign-room.ts",
+    "a": 49,
+    "d": 69
+   },
+   {
+    "f": "apps/server/src/campaign-save-failure.test.ts",
+    "a": 2,
+    "d": 1
+   },
+   {
+    "f": "apps/server/src/campaign/machine.test.ts",
+    "a": 118,
+    "d": 88
+   },
+   {
+    "f": "apps/server/src/campaign/machine.ts",
+    "a": 70,
+    "d": 51
+   },
+   {
+    "f": "apps/server/src/map-benchmark.test.ts",
+    "a": 0,
+    "d": 279
+   },
+   {
+    "f": "apps/server/src/map-catalog.ts",
+    "a": 1,
+    "d": 6
+   },
+   {
+    "f": "apps/server/src/map-e2e.test.ts",
+    "a": 0,
+    "d": 125
+   },
+   {
+    "f": "apps/server/src/postgres-store.test.ts",
+    "a": 15,
+    "d": 1
+   },
+   {
+    "f": "apps/server/src/postgres-store.ts",
+    "a": 14,
+    "d": 3
+   },
+   {
+    "f": "apps/web/src/auth/client.test.ts",
+    "a": 75,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/auth/client.ts",
+    "a": 62,
+    "d": 14
+   },
+   {
+    "f": "apps/web/src/login/LoginForm.tsx",
+    "a": 62,
+    "d": 4
+   },
+   {
+    "f": "apps/web/src/login/LoginScreen.tsx",
+    "a": 4,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/login/login.css",
+    "a": 43,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/login/pilot-alias.test.ts",
+    "a": 19,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/login/pilot-alias.ts",
+    "a": 5,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/multiplayer/campaign-transport.test.ts",
+    "a": 90,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/multiplayer/campaign-transport.ts",
+    "a": 64,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/multiplayer/session.test.ts",
+    "a": 43,
+    "d": 25
+   },
+   {
+    "f": "apps/web/src/multiplayer/session.ts",
+    "a": 43,
+    "d": 61
+   },
+   {
+    "f": "apps/web/src/visual/VisualPrototypeApp.tsx",
+    "a": 5,
+    "d": 2
+   },
+   {
+    "f": "apps/web/src/visual/access/AccessScreen.tsx",
+    "a": 20,
+    "d": 7
+   },
+   {
+    "f": "apps/web/src/visual/game/AugmentHud.tsx",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "apps/web/src/visual/game/GameplayScreen.tsx",
+    "a": 5,
+    "d": 4
+   },
+   {
+    "f": "apps/web/src/visual/game/Hud.tsx",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "apps/web/src/visual/game/campaign-adapter.test.ts",
+    "a": 0,
+    "d": 155
+   },
+   {
+    "f": "apps/web/src/visual/game/campaign-adapter.ts",
+    "a": 0,
+    "d": 244
+   },
+   {
+    "f": "apps/web/src/visual/game/server-adapter.test.ts",
+    "a": 92,
+    "d": 1
+   },
+   {
+    "f": "apps/web/src/visual/game/server-adapter.ts",
+    "a": 112,
+    "d": 32
+   },
+   {
+    "f": "apps/web/src/visual/i18n.tsx",
+    "a": 16,
+    "d": 2
+   },
+   {
+    "f": "docs/auth-multiplayer.md",
+    "a": 34,
+    "d": 10
+   },
+   {
+    "f": "docs/map-backend.md",
+    "a": 4,
+    "d": 2
+   },
+   {
+    "f": "docs/progression.md",
+    "a": 13,
+    "d": 10
+   },
+   {
+    "f": "docs/protocol.md",
+    "a": 33,
+    "d": 72
+   },
+   {
+    "f": "docs/status.md",
+    "a": 18,
+    "d": 5
+   },
+   {
+    "f": "docs/testing.md",
+    "a": 13,
+    "d": 6
+   },
+   {
+    "f": "packages/input/src/protocol.test.ts",
+    "a": 59,
+    "d": 26
+   },
+   {
+    "f": "packages/input/src/protocol.ts",
+    "a": 51,
+    "d": 18
+   },
+   {
+    "f": "packages/sim/src/augments/campaign.test.ts",
+    "a": 57,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/augments/runtime.ts",
+    "a": 35,
+    "d": 6
+   },
+   {
+    "f": "packages/sim/src/index.ts",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "packages/sim/src/progression.test.ts",
+    "a": 31,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/progression.ts",
+    "a": 14,
+    "d": 5
+   },
+   {
+    "f": "packages/state/src/campaign.ts",
+    "a": 3,
+    "d": 7
+   },
+   {
+    "f": "packages/state/src/index.test.ts",
+    "a": 33,
+    "d": 2
+   },
+   {
+    "f": "packages/state/src/index.ts",
+    "a": 5,
+    "d": 6
+   },
+   {
+    "f": "tests/e2e/account.spec.ts",
+    "a": 76,
+    "d": 0
+   },
+   {
+    "f": "tests/e2e/helpers.ts",
+    "a": 22,
+    "d": 2
+   },
+   {
+    "f": "tests/e2e/multiplayer.spec.ts",
+    "a": 22,
+    "d": 20
+   }
+  ]
+ },
+ "077fc9c7e054f8cc33924efef34b008431ad348b": {
+  "team": "Impulso Stellar",
+  "repo": "orlando-vazquez-career/stellar-impulse",
+  "author": "Hans3010",
+  "date": "2026-10-08T14:07:31Z",
+  "message": "Merge pull request #44 from orlando-vazquez-career/feat/cuenta-y-perfil",
+  "parents": 2,
+  "files": [
+   {
+    "f": "apps/server/prisma/migrations/20261008040936_perfil_alias/migration.sql",
+    "a": 2,
+    "d": 0
+   },
+   {
+    "f": "apps/server/prisma/schema.prisma",
+    "a": 2,
+    "d": 0
+   },
+   {
+    "f": "apps/server/src/account-store.ts",
+    "a": 6,
+    "d": 0
+   },
+   {
+    "f": "apps/server/src/app.ts",
+    "a": 14,
+    "d": 7
+   },
+   {
+    "f": "apps/server/src/auth-limit.test.ts",
+    "a": 9,
+    "d": 1
+   },
+   {
+    "f": "apps/server/src/auth-storage.test.ts",
+    "a": 19,
+    "d": 0
+   },
+   {
+    "f": "apps/server/src/auth.test.ts",
+    "a": 55,
+    "d": 3
+   },
+   {
+    "f": "apps/server/src/auth.ts",
+    "a": 36,
+    "d": 3
+   },
+   {
+    "f": "apps/server/src/postgres-store.test.ts",
+    "a": 15,
+    "d": 1
+   },
+   {
+    "f": "apps/server/src/postgres-store.ts",
+    "a": 14,
+    "d": 3
+   },
+   {
+    "f": "apps/web/src/auth/client.test.ts",
+    "a": 75,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/auth/client.ts",
+    "a": 62,
+    "d": 14
+   },
+   {
+    "f": "apps/web/src/login/LoginForm.tsx",
+    "a": 62,
+    "d": 4
+   },
+   {
+    "f": "apps/web/src/login/LoginScreen.tsx",
+    "a": 4,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/login/login.css",
+    "a": 43,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/login/pilot-alias.test.ts",
+    "a": 19,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/login/pilot-alias.ts",
+    "a": 5,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/visual/VisualPrototypeApp.tsx",
+    "a": 5,
+    "d": 2
+   },
+   {
+    "f": "apps/web/src/visual/access/AccessScreen.tsx",
+    "a": 20,
+    "d": 7
+   },
+   {
+    "f": "apps/web/src/visual/i18n.tsx",
+    "a": 16,
+    "d": 2
+   },
+   {
+    "f": "docs/auth-multiplayer.md",
+    "a": 23,
+    "d": 4
+   },
+   {
+    "f": "docs/progression.md",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "docs/testing.md",
+    "a": 5,
+    "d": 1
+   },
+   {
+    "f": "packages/input/src/protocol.test.ts",
+    "a": 15,
+    "d": 1
+   },
+   {
+    "f": "packages/input/src/protocol.ts",
+    "a": 9,
+    "d": 3
+   },
+   {
+    "f": "tests/e2e/account.spec.ts",
+    "a": 76,
+    "d": 0
+   }
+  ]
+ },
+ "c1e69506cd9027e1bcf08a634a2fe37821c8e003": {
+  "team": "Impulso Stellar",
+  "repo": "orlando-vazquez-career/stellar-impulse",
+  "author": "Hans3010",
+  "date": "2026-10-08T13:22:50Z",
+  "message": "Merge branch 'main' into feat/cuenta-y-perfil",
+  "parents": 2,
+  "files": []
+ },
+ "e38c0f0cda6fea34256cd2fa02bc0c7ff6f1d600": {
+  "team": "Impulso Stellar",
+  "repo": "orlando-vazquez-career/stellar-impulse",
+  "author": "Hans3010",
+  "date": "2026-10-08T13:22:33Z",
+  "message": "Merge pull request #43 from orlando-vazquez-career/feat/campana-multijugador",
+  "parents": 2,
+  "files": [
+   {
+    "f": "README.md",
+    "a": 5,
+    "d": 4
+   },
+   {
+    "f": "apps/server/src/auth.ts",
+    "a": 5,
+    "d": 3
+   },
+   {
+    "f": "apps/server/src/battlefield-room.test.ts",
+    "a": 7,
+    "d": 7
+   },
+   {
+    "f": "apps/server/src/battlefield-room.ts",
+    "a": 8,
+    "d": 8
+   },
+   {
+    "f": "apps/server/src/campaign-flow.test.ts",
+    "a": 55,
+    "d": 0
+   },
+   {
+    "f": "apps/server/src/campaign-map-override.test.ts",
+    "a": 0,
+    "d": 42
+   },
+   {
+    "f": "apps/server/src/campaign-rewards.test.ts",
+    "a": 10,
+    "d": 6
+   },
+   {
+    "f": "apps/server/src/campaign-room.test.ts",
+    "a": 71,
+    "d": 219
+   },
+   {
+    "f": "apps/server/src/campaign-room.ts",
+    "a": 49,
+    "d": 69
+   },
+   {
+    "f": "apps/server/src/campaign-save-failure.test.ts",
+    "a": 2,
+    "d": 1
+   },
+   {
+    "f": "apps/server/src/campaign/machine.test.ts",
+    "a": 118,
+    "d": 88
+   },
+   {
+    "f": "apps/server/src/campaign/machine.ts",
+    "a": 70,
+    "d": 51
+   },
+   {
+    "f": "apps/server/src/map-benchmark.test.ts",
+    "a": 0,
+    "d": 279
+   },
+   {
+    "f": "apps/server/src/map-catalog.ts",
+    "a": 1,
+    "d": 6
+   },
+   {
+    "f": "apps/server/src/map-e2e.test.ts",
+    "a": 0,
+    "d": 125
+   },
+   {
+    "f": "apps/web/src/multiplayer/campaign-transport.test.ts",
+    "a": 90,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/multiplayer/campaign-transport.ts",
+    "a": 64,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/multiplayer/session.test.ts",
+    "a": 43,
+    "d": 25
+   },
+   {
+    "f": "apps/web/src/multiplayer/session.ts",
+    "a": 43,
+    "d": 61
+   },
+   {
+    "f": "apps/web/src/visual/game/AugmentHud.tsx",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "apps/web/src/visual/game/GameplayScreen.tsx",
+    "a": 5,
+    "d": 4
+   },
+   {
+    "f": "apps/web/src/visual/game/Hud.tsx",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "apps/web/src/visual/game/campaign-adapter.test.ts",
+    "a": 0,
+    "d": 155
+   },
+   {
+    "f": "apps/web/src/visual/game/campaign-adapter.ts",
+    "a": 0,
+    "d": 244
+   },
+   {
+    "f": "apps/web/src/visual/game/server-adapter.test.ts",
+    "a": 92,
+    "d": 1
+   },
+   {
+    "f": "apps/web/src/visual/game/server-adapter.ts",
+    "a": 112,
+    "d": 32
+   },
+   {
+    "f": "docs/auth-multiplayer.md",
+    "a": 13,
+    "d": 8
+   },
+   {
+    "f": "docs/map-backend.md",
+    "a": 4,
+    "d": 2
+   },
+   {
+    "f": "docs/progression.md",
+    "a": 12,
+    "d": 9
+   },
+   {
+    "f": "docs/protocol.md",
+    "a": 33,
+    "d": 72
+   },
+   {
+    "f": "docs/status.md",
+    "a": 18,
+    "d": 5
+   },
+   {
+    "f": "docs/testing.md",
+    "a": 8,
+    "d": 5
+   },
+   {
+    "f": "packages/input/src/protocol.test.ts",
+    "a": 45,
+    "d": 26
+   },
+   {
+    "f": "packages/input/src/protocol.ts",
+    "a": 42,
+    "d": 15
+   },
+   {
+    "f": "packages/sim/src/augments/campaign.test.ts",
+    "a": 57,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/augments/runtime.ts",
+    "a": 35,
+    "d": 6
+   },
+   {
+    "f": "packages/sim/src/index.ts",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "packages/sim/src/progression.test.ts",
+    "a": 31,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/progression.ts",
+    "a": 14,
+    "d": 5
+   },
+   {
+    "f": "packages/state/src/campaign.ts",
+    "a": 3,
+    "d": 7
+   },
+   {
+    "f": "packages/state/src/index.test.ts",
+    "a": 33,
+    "d": 2
+   },
+   {
+    "f": "packages/state/src/index.ts",
+    "a": 5,
+    "d": 6
+   },
+   {
+    "f": "tests/e2e/helpers.ts",
+    "a": 22,
+    "d": 2
+   },
+   {
+    "f": "tests/e2e/multiplayer.spec.ts",
+    "a": 22,
+    "d": 20
+   }
+  ]
+ },
+ "38055fe75644f21dfe9aebcdc322a0d1cd08f14b": {
+  "team": "Impulso Stellar",
+  "repo": "orlando-vazquez-career/stellar-impulse",
+  "author": "Hans3010",
+  "date": "2026-10-08T13:04:33Z",
+  "message": "Merge branch 'main' into feat/campana-multijugador",
+  "parents": 2,
+  "files": []
+ },
+ "42dc73c75bbe91bddcc48b4d55a651b222c9fbeb": {
+  "team": "Impulso Stellar",
+  "repo": "orlando-vazquez-career/stellar-impulse",
+  "author": "Hans3010",
+  "date": "2026-10-08T13:04:17Z",
+  "message": "Merge branch 'main' into feat/cuenta-y-perfil",
+  "parents": 2,
+  "files": []
+ },
+ "df3c6f3e71860ecbaf90d5b813b595ac37412e32": {
+  "team": "Impulso Stellar",
+  "repo": "orlando-vazquez-career/stellar-impulse",
+  "author": "Hans3010",
+  "date": "2026-10-08T13:03:20Z",
+  "message": "Merge pull request #42 from orlando-vazquez-career/fix/persistencia-a-main",
+  "parents": 2,
+  "files": [
+   {
+    "f": ".github/workflows/ci.yml",
+    "a": 27,
+    "d": 0
+   },
+   {
+    "f": ".gitignore",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "apps/server/.env.example",
+    "a": 2,
+    "d": 0
+   },
+   {
+    "f": "apps/server/package.json",
+    "a": 10,
+    "d": 3
+   },
+   {
+    "f": "apps/server/prisma.config.ts",
+    "a": 8,
+    "d": 0
+   },
+   {
+    "f": "apps/server/prisma/migrations/20261007233101_cuentas_y_logros/migration.sql",
+    "a": 63,
+    "d": 0
+   },
+   {
+    "f": "apps/server/prisma/migrations/migration_lock.toml",
+    "a": 3,
+    "d": 0
+   },
+   {
+    "f": "apps/server/prisma/schema.prisma",
+    "a": 74,
+    "d": 0
+   },
+   {
+    "f": "apps/server/scripts/migrate.mjs",
+    "a": 7,
+    "d": 0
+   },
+   {
+    "f": "apps/server/src/account-store.ts",
+    "a": 92,
+    "d": 0
+   },
+   {
+    "f": "apps/server/src/app.ts",
+    "a": 28,
+    "d": 3
+   },
+   {
+    "f": "apps/server/src/augment-room.test.ts",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "apps/server/src/auth-limit.test.ts",
+    "a": 25,
+    "d": 0
+   },
+   {
+    "f": "apps/server/src/auth-storage.test.ts",
+    "a": 53,
+    "d": 0
+   },
+   {
+    "f": "apps/server/src/auth.test.ts",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "apps/server/src/auth.ts",
+    "a": 69,
+    "d": 43
+   },
+   {
+    "f": "apps/server/src/campaign-map-override.test.ts",
+    "a": 4,
+    "d": 4
+   },
+   {
+    "f": "apps/server/src/campaign-rewards.test.ts",
+    "a": 7,
+    "d": 9
+   },
+   {
+    "f": "apps/server/src/campaign-room.test.ts",
+    "a": 3,
+    "d": 3
+   },
+   {
+    "f": "apps/server/src/campaign-room.ts",
+    "a": 7,
+    "d": 5
+   },
+   {
+    "f": "apps/server/src/campaign-save-failure.test.ts",
+    "a": 53,
+    "d": 0
+   },
+   {
+    "f": "apps/server/src/index.ts",
+    "a": 8,
+    "d": 2
+   },
+   {
+    "f": "apps/server/src/map-benchmark.test.ts",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "apps/server/src/map-e2e.test.ts",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "apps/server/src/postgres-store.test.ts",
+    "a": 109,
+    "d": 0
+   },
+   {
+    "f": "apps/server/src/postgres-store.ts",
+    "a": 141,
+    "d": 0
+   },
+   {
+    "f": "apps/server/src/progression.test.ts",
+    "a": 4,
+    "d": 4
+   },
+   {
+    "f": "apps/server/src/rewards.ts",
+    "a": 16,
+    "d": 0
+   },
+   {
+    "f": "apps/server/src/training-rewards.test.ts",
+    "a": 7,
+    "d": 7
+   },
+   {
+    "f": "apps/server/src/training-room.ts",
+    "a": 10,
+    "d": 6
+   },
+   {
+    "f": "apps/web/src/multiplayer/session.test.ts",
+    "a": 2,
+    "d": 1
+   },
+   {
+    "f": "apps/web/src/visual/profile/MatchProgress.tsx",
+    "a": 2,
+    "d": 1
+   },
+   {
+    "f": "apps/web/src/visual/profile/ProfileScreen.tsx",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "docs/auth-multiplayer.md",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "docs/deployment.md",
+    "a": 15,
+    "d": 1
+   },
+   {
+    "f": "docs/development.md",
+    "a": 19,
+    "d": 0
+   },
+   {
+    "f": "docs/progression.md",
+    "a": 18,
+    "d": 0
+   },
+   {
+    "f": "docs/testing.md",
+    "a": 9,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/index.ts",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "packages/sim/src/progression.test.ts",
+    "a": 55,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/progression.ts",
+    "a": 41,
+    "d": 12
+   },
+   {
+    "f": "playwright.config.ts",
+    "a": 6,
+    "d": 1
+   },
+   {
+    "f": "pnpm-lock.yaml",
+    "a": 1242,
+    "d": 11
+   },
+   {
+    "f": "pnpm-workspace.yaml",
+    "a": 2,
+    "d": 0
+   }
+  ]
+ },
+ "58050d4ac0df84643eef25f7a535d222bf0ef84b": {
+  "team": "Impulso Stellar",
+  "repo": "orlando-vazquez-career/stellar-impulse",
+  "author": "orlando-vazquez-career",
+  "date": "2026-10-08T05:30:49Z",
+  "message": "Merge branch 'feat/campana-multijugador' into feat/cuenta-y-perfil",
+  "parents": 2,
+  "files": [
+   {
+    "f": "packages/state/src/index.test.ts",
+    "a": 11,
+    "d": 0
+   },
+   {
+    "f": "packages/state/src/index.ts",
+    "a": 0,
+    "d": 3
+   },
+   {
+    "f": "tests/e2e/helpers.ts",
+    "a": 22,
+    "d": 2
+   },
+   {
+    "f": "tests/e2e/multiplayer.spec.ts",
+    "a": 5,
+    "d": 4
+   }
+  ]
+ },
+ "e23e3a82af4a29011ecfc3147c6ae8050ba4e766": {
+  "team": "Impulso Stellar",
+  "repo": "orlando-vazquez-career/stellar-impulse",
+  "author": "orlando-vazquez-career",
+  "date": "2026-10-08T05:30:40Z",
+  "message": "test(e2e): el multijugador espera la confirmación como tarda CI",
+  "parents": 1,
+  "files": [
+   {
+    "f": "tests/e2e/multiplayer.spec.ts",
+    "a": 5,
+    "d": 4
+   }
+  ]
+ },
+ "5e7ac690be58cc1798d6a500f4d2919548e1924c": {
+  "team": "Impulso Stellar",
+  "repo": "orlando-vazquez-career/stellar-impulse",
+  "author": "orlando-vazquez-career",
+  "date": "2026-10-08T05:30:40Z",
+  "message": "perf(estado): la vista de cada tick ya no repite el terreno del mapa",
+  "parents": 1,
+  "files": [
+   {
+    "f": "packages/state/src/index.test.ts",
+    "a": 11,
+    "d": 0
+   },
+   {
+    "f": "packages/state/src/index.ts",
+    "a": 0,
+    "d": 3
+   }
+  ]
+ },
+ "fe1ca6a6dcf8801992d9d13c4333b7054a538e9a": {
+  "team": "Impulso Stellar",
+  "repo": "orlando-vazquez-career/stellar-impulse",
+  "author": "orlando-vazquez-career",
+  "date": "2026-10-08T05:17:19Z",
+  "message": "fix(server): apagado limpio al reemplazar el deploy en Railway",
+  "parents": 1,
+  "files": [
+   {
+    "f": "apps/server/package.json",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "apps/server/src/start-shutdown.test.ts",
+    "a": 60,
+    "d": 0
+   },
+   {
+    "f": "docs/deployment.md",
+    "a": 10,
+    "d": 0
+   },
+   {
+    "f": "pnpm-workspace.yaml",
+    "a": 4,
+    "d": 0
+   }
+  ]
+ },
+ "d209b21e624945a7376dc1ed3140d3ef9d34d507": {
+  "team": "Impulso Stellar",
+  "repo": "orlando-vazquez-career/stellar-impulse",
+  "author": "orlando-vazquez-career",
+  "date": "2026-10-08T05:13:39Z",
+  "message": "test(e2e): diagnóstico cuando la apertura de aumentos no se resuelve",
+  "parents": 1,
+  "files": [
+   {
+    "f": "tests/e2e/helpers.ts",
+    "a": 22,
+    "d": 2
+   }
+  ]
+ },
+ "8878a86bb1f7a4c8d28c9c38438b152089c83113": {
+  "team": "Impulso Stellar",
+  "repo": "orlando-vazquez-career/stellar-impulse",
+  "author": "orlando-vazquez-career",
+  "date": "2026-10-08T04:27:53Z",
+  "message": "docs(cuentas): crear cuenta desde el acceso y alias en la cuenta",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/auth-multiplayer.md",
+    "a": 23,
+    "d": 4
+   },
+   {
+    "f": "docs/progression.md",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "docs/testing.md",
+    "a": 5,
+    "d": 1
+   }
+  ]
+ },
+ "70f806453330e083ea473c6218dff66f7c0dbf02": {
+  "team": "Impulso Stellar",
+  "repo": "orlando-vazquez-career/stellar-impulse",
+  "author": "orlando-vazquez-career",
+  "date": "2026-10-08T04:26:53Z",
+  "message": "feat(cuentas): crear cuenta desde el juego con alias que sigue a la cuenta",
+  "parents": 1,
+  "files": [
+   {
+    "f": "apps/web/src/auth/client.test.ts",
+    "a": 75,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/auth/client.ts",
+    "a": 62,
+    "d": 14
+   },
+   {
+    "f": "apps/web/src/login/LoginForm.tsx",
+    "a": 62,
+    "d": 4
+   },
+   {
+    "f": "apps/web/src/login/LoginScreen.tsx",
+    "a": 4,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/login/login.css",
+    "a": 43,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/login/pilot-alias.test.ts",
+    "a": 19,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/login/pilot-alias.ts",
+    "a": 5,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/visual/VisualPrototypeApp.tsx",
+    "a": 5,
+    "d": 2
+   },
+   {
+    "f": "apps/web/src/visual/access/AccessScreen.tsx",
+    "a": 20,
+    "d": 7
+   },
+   {
+    "f": "apps/web/src/visual/i18n.tsx",
+    "a": 16,
+    "d": 2
+   },
+   {
+    "f": "tests/e2e/account.spec.ts",
+    "a": 76,
+    "d": 0
+   }
+  ]
+ },
+ "6b6f73fbd2416d6a7ad28cf12f47377058f62219": {
+  "team": "Impulso Stellar",
+  "repo": "orlando-vazquez-career/stellar-impulse",
+  "author": "orlando-vazquez-career",
+  "date": "2026-10-08T04:11:45Z",
+  "message": "feat(cuentas): alias de comandante guardado en la cuenta",
+  "parents": 1,
+  "files": [
+   {
+    "f": "apps/server/prisma/migrations/20261008040936_perfil_alias/migration.sql",
+    "a": 2,
+    "d": 0
+   },
+   {
+    "f": "apps/server/prisma/schema.prisma",
+    "a": 2,
+    "d": 0
+   },
+   {
+    "f": "apps/server/src/account-store.ts",
+    "a": 6,
+    "d": 0
+   },
+   {
+    "f": "apps/server/src/app.ts",
+    "a": 14,
+    "d": 7
+   },
+   {
+    "f": "apps/server/src/auth-limit.test.ts",
+    "a": 9,
+    "d": 1
+   },
+   {
+    "f": "apps/server/src/auth-storage.test.ts",
+    "a": 19,
+    "d": 0
+   },
+   {
+    "f": "apps/server/src/auth.test.ts",
+    "a": 55,
+    "d": 3
+   },
+   {
+    "f": "apps/server/src/auth.ts",
+    "a": 36,
+    "d": 3
+   },
+   {
+    "f": "apps/server/src/postgres-store.test.ts",
+    "a": 15,
+    "d": 1
+   },
+   {
+    "f": "apps/server/src/postgres-store.ts",
+    "a": 14,
+    "d": 3
+   },
+   {
+    "f": "packages/input/src/protocol.test.ts",
+    "a": 15,
+    "d": 1
+   },
+   {
+    "f": "packages/input/src/protocol.ts",
+    "a": 9,
+    "d": 3
+   }
+  ]
+ },
+ "47819c88203ed6cb60aa7b8c93625ecd857c8e60": {
+  "team": "Impulso Stellar",
+  "repo": "orlando-vazquez-career/stellar-impulse",
+  "author": "orlando-vazquez-career",
+  "date": "2026-10-08T04:48:08Z",
+  "message": "docs(campaña): protocolo 3, aumentos por sector y resultado tras recargar",
+  "parents": 1,
+  "files": [
+   {
+    "f": "README.md",
+    "a": 5,
+    "d": 4
+   },
+   {
+    "f": "apps/web/src/visual/game/server-adapter.test.ts",
+    "a": 10,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/visual/game/server-adapter.ts",
+    "a": 8,
+    "d": 1
+   },
+   {
+    "f": "docs/auth-multiplayer.md",
+    "a": 13,
+    "d": 8
+   },
+   {
+    "f": "docs/map-backend.md",
+    "a": 4,
+    "d": 2
+   },
+   {
+    "f": "docs/progression.md",
+    "a": 12,
+    "d": 9
+   },
+   {
+    "f": "docs/protocol.md",
+    "a": 33,
+    "d": 72
+   },
+   {
+    "f": "docs/status.md",
+    "a": 18,
+    "d": 5
+   },
+   {
+    "f": "docs/testing.md",
+    "a": 8,
+    "d": 5
+   },
+   {
+    "f": "tests/e2e/multiplayer.spec.ts",
+    "a": 19,
+    "d": 18
+   }
+  ]
+ },
+ "5f9c1b14804c785b837edea0d79762a4127b60fd": {
+  "team": "Impulso Stellar",
+  "repo": "orlando-vazquez-career/stellar-impulse",
+  "author": "orlando-vazquez-career",
+  "date": "2026-10-08T04:22:03Z",
+  "message": "feat(web): el multijugador juega la campaña con el motor nuevo",
+  "parents": 1,
+  "files": [
+   {
+    "f": "apps/web/src/multiplayer/campaign-transport.test.ts",
+    "a": 90,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/multiplayer/campaign-transport.ts",
+    "a": 64,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/multiplayer/session.test.ts",
+    "a": 43,
+    "d": 25
+   },
+   {
+    "f": "apps/web/src/multiplayer/session.ts",
+    "a": 43,
+    "d": 61
+   },
+   {
+    "f": "apps/web/src/visual/game/AugmentHud.tsx",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "apps/web/src/visual/game/GameplayScreen.tsx",
+    "a": 5,
+    "d": 4
+   },
+   {
+    "f": "apps/web/src/visual/game/Hud.tsx",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "apps/web/src/visual/game/campaign-adapter.test.ts",
+    "a": 0,
+    "d": 155
+   },
+   {
+    "f": "apps/web/src/visual/game/campaign-adapter.ts",
+    "a": 0,
+    "d": 244
+   },
+   {
+    "f": "apps/web/src/visual/game/server-adapter.test.ts",
+    "a": 82,
+    "d": 1
+   },
+   {
+    "f": "apps/web/src/visual/game/server-adapter.ts",
+    "a": 105,
+    "d": 32
+   },
+   {
+    "f": "packages/state/src/index.test.ts",
+    "a": 22,
+    "d": 2
+   },
+   {
+    "f": "packages/state/src/index.ts",
+    "a": 5,
+    "d": 3
+   }
+  ]
+ },
+ "40750496a2c307ba0bc5c59f28c31e983ec20f07": {
+  "team": "Impulso Stellar",
+  "repo": "orlando-vazquez-career/stellar-impulse",
+  "author": "orlando-vazquez-career",
+  "date": "2026-10-08T04:13:19Z",
+  "message": "feat(campaña): sala de campaña v3 con el motor de partida en 3 sectores",
+  "parents": 1,
+  "files": [
+   {
+    "f": "apps/server/src/auth.ts",
+    "a": 5,
+    "d": 3
+   },
+   {
+    "f": "apps/server/src/battlefield-room.test.ts",
+    "a": 7,
+    "d": 7
+   },
+   {
+    "f": "apps/server/src/battlefield-room.ts",
+    "a": 8,
+    "d": 8
+   },
+   {
+    "f": "apps/server/src/campaign-flow.test.ts",
+    "a": 55,
+    "d": 0
+   },
+   {
+    "f": "apps/server/src/campaign-map-override.test.ts",
+    "a": 0,
+    "d": 42
+   },
+   {
+    "f": "apps/server/src/campaign-rewards.test.ts",
+    "a": 10,
+    "d": 6
+   },
+   {
+    "f": "apps/server/src/campaign-room.test.ts",
+    "a": 71,
+    "d": 219
+   },
+   {
+    "f": "apps/server/src/campaign-room.ts",
+    "a": 49,
+    "d": 69
+   },
+   {
+    "f": "apps/server/src/campaign-save-failure.test.ts",
+    "a": 2,
+    "d": 1
+   },
+   {
+    "f": "apps/server/src/campaign/machine.test.ts",
+    "a": 118,
+    "d": 88
+   },
+   {
+    "f": "apps/server/src/campaign/machine.ts",
+    "a": 70,
+    "d": 51
+   },
+   {
+    "f": "apps/server/src/map-benchmark.test.ts",
+    "a": 0,
+    "d": 279
+   },
+   {
+    "f": "apps/server/src/map-catalog.ts",
+    "a": 1,
+    "d": 6
+   },
+   {
+    "f": "apps/server/src/map-e2e.test.ts",
+    "a": 0,
+    "d": 125
+   },
+   {
+    "f": "packages/input/src/protocol.test.ts",
+    "a": 45,
+    "d": 26
+   },
+   {
+    "f": "packages/input/src/protocol.ts",
+    "a": 42,
+    "d": 15
+   },
+   {
+    "f": "packages/sim/src/progression.test.ts",
+    "a": 31,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/progression.ts",
+    "a": 14,
+    "d": 5
+   },
+   {
+    "f": "packages/state/src/campaign.ts",
+    "a": 3,
+    "d": 7
+   }
+  ]
+ },
+ "c27ea263540d9f5e4d249971c2522981e037d0c9": {
+  "team": "Impulso Stellar",
+  "repo": "orlando-vazquez-career/stellar-impulse",
+  "author": "orlando-vazquez-career",
+  "date": "2026-10-08T04:00:07Z",
+  "message": "feat(sim): aumentos de campaña que se arrastran entre sectores",
+  "parents": 1,
+  "files": [
+   {
+    "f": "packages/sim/src/augments/campaign.test.ts",
+    "a": 57,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/augments/runtime.ts",
+    "a": 35,
+    "d": 6
+   },
+   {
+    "f": "packages/sim/src/index.ts",
+    "a": 2,
+    "d": 2
+   }
+  ]
+ },
+ "e76bba230bd3d428a54610c7f4af4031932d523a": {
+  "team": "Impulso Stellar",
+  "repo": "orlando-vazquez-career/stellar-impulse",
+  "author": "orlando-vazquez-career",
+  "date": "2026-10-08T03:36:03Z",
+  "message": "Merge main en la persistencia de cuentas (#40 y #41 quedaron fuera de main)",
+  "parents": 2,
+  "files": [
+   {
+    "f": "apps/web/src/login/sound.ts",
+    "a": 17,
+    "d": 3
+   },
+   {
+    "f": "apps/web/src/multiplayer/session.ts",
+    "a": 2,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/visual/VisualPrototypeApp.tsx",
+    "a": 12,
+    "d": 4
+   },
+   {
+    "f": "apps/web/src/visual/audio-mix.test.ts",
+    "a": 64,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/visual/audio-mix.ts",
+    "a": 62,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/visual/game/AugmentHud.tsx",
+    "a": 6,
+    "d": 4
+   },
+   {
+    "f": "apps/web/src/visual/game/GameplayScreen.tsx",
+    "a": 13,
+    "d": 9
+   },
+   {
+    "f": "apps/web/src/visual/game/Hud.tsx",
+    "a": 73,
+    "d": 8
+   },
+   {
+    "f": "apps/web/src/visual/game/audio.test.ts",
+    "a": 61,
+    "d": 2
+   },
+   {
+    "f": "apps/web/src/visual/game/audio.ts",
+    "a": 64,
+    "d": 19
+   },
+   {
+    "f": "apps/web/src/visual/game/campaign-adapter.test.ts",
+    "a": 29,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/visual/game/campaign-adapter.ts",
+    "a": 23,
+    "d": 7
+   },
+   {
+    "f": "apps/web/src/visual/game/formation.ts",
+    "a": 30,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/visual/game/model.ts",
+    "a": 10,
+    "d": 1
+   },
+   {
+    "f": "apps/web/src/visual/game/phaser/MainScene.ts",
+    "a": 77,
+    "d": 14
+   },
+   {
+    "f": "apps/web/src/visual/game/server-adapter.test.ts",
+    "a": 40,
+    "d": 2
+   },
+   {
+    "f": "apps/web/src/visual/game/server-adapter.ts",
+    "a": 67,
+    "d": 12
+   },
+   {
+    "f": "apps/web/src/visual/i18n.tsx",
+    "a": 32,
+    "d": 4
+   },
+   {
+    "f": "apps/web/src/visual/music.ts",
+    "a": 18,
+    "d": 7
+   },
+   {
+    "f": "apps/web/src/visual/settings/AudioControls.tsx",
+    "a": 46,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/visual/settings/SettingsScreen.tsx",
+    "a": 20,
+    "d": 15
+   },
+   {
+    "f": "apps/web/src/visual/settings/preferences.test.ts",
+    "a": 7,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/visual/settings/preferences.ts",
+    "a": 19,
+    "d": 2
+   },
+   {
+    "f": "apps/web/src/visual/settings/settings.css",
+    "a": 12,
+    "d": 2
+   },
+   {
+    "f": "apps/web/src/visual/visual.css",
+    "a": 34,
+    "d": 0
+   },
+   {
+    "f": "docs/README.md",
+    "a": 2,
+    "d": 0
+   },
+   {
+    "f": "docs/formations-audio-fog.md",
+    "a": 55,
+    "d": 0
+   },
+   {
+    "f": "docs/protocol.md",
+    "a": 3,
+    "d": 1
+   },
+   {
+    "f": "packages/input/src/battlefield.test.ts",
+    "a": 10,
+    "d": 1
+   },
+   {
+    "f": "packages/input/src/battlefield.ts",
+    "a": 13,
+    "d": 4
+   },
+   {
+    "f": "packages/input/src/index.test.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "packages/input/src/index.ts",
+    "a": 24,
+    "d": 4
+   },
+   {
+    "f": "packages/sim/src/index.ts",
+    "a": 119,
+    "d": 11
+   },
+   {
+    "f": "packages/sim/src/maps/world.test.ts",
+    "a": 19,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/maps/world.ts",
+    "a": 11,
+    "d": 4
+   },
+   {
+    "f": "packages/sim/src/mecanicas/formations.test.ts",
+    "a": 245,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/mecanicas/formations.ts",
+    "a": 227,
+    "d": 0
+   },
+   {
+    "f": "packages/state/src/index.ts",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "tests/e2e/formations.spec.ts",
+    "a": 89,
+    "d": 0
+   }
+  ]
+ },
+ "05e58ef4907817faeb7f016b8c1c736bf804a471": {
+  "team": "Impulso Stellar",
+  "repo": "orlando-vazquez-career/stellar-impulse",
+  "author": "Hans3010",
+  "date": "2026-10-08T01:36:40Z",
+  "message": "Merge pull request #41 from orlando-vazquez-career/feat/postgres-cuentas",
+  "parents": 2,
+  "files": [
+   {
+    "f": ".github/workflows/ci.yml",
+    "a": 27,
+    "d": 0
+   },
+   {
+    "f": ".gitignore",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "apps/server/.env.example",
+    "a": 2,
+    "d": 0
+   },
+   {
+    "f": "apps/server/package.json",
+    "a": 10,
+    "d": 3
+   },
+   {
+    "f": "apps/server/prisma.config.ts",
+    "a": 8,
+    "d": 0
+   },
+   {
+    "f": "apps/server/prisma/migrations/20261007233101_cuentas_y_logros/migration.sql",
+    "a": 63,
+    "d": 0
+   },
+   {
+    "f": "apps/server/prisma/migrations/migration_lock.toml",
+    "a": 3,
+    "d": 0
+   },
+   {
+    "f": "apps/server/prisma/schema.prisma",
+    "a": 74,
+    "d": 0
+   },
+   {
+    "f": "apps/server/scripts/migrate.mjs",
+    "a": 7,
+    "d": 0
+   },
+   {
+    "f": "apps/server/src/account-store.ts",
+    "a": 92,
+    "d": 0
+   },
+   {
+    "f": "apps/server/src/app.ts",
+    "a": 3,
+    "d": 3
+   },
+   {
+    "f": "apps/server/src/augment-room.test.ts",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "apps/server/src/auth-storage.test.ts",
+    "a": 7,
+    "d": 7
+   },
+   {
+    "f": "apps/server/src/auth.test.ts",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "apps/server/src/auth.ts",
+    "a": 69,
+    "d": 80
+   },
+   {
+    "f": "apps/server/src/campaign-map-override.test.ts",
+    "a": 4,
+    "d": 4
+   },
+   {
+    "f": "apps/server/src/campaign-rewards.test.ts",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "apps/server/src/campaign-room.test.ts",
+    "a": 3,
+    "d": 3
+   },
+   {
+    "f": "apps/server/src/campaign-room.ts",
+    "a": 5,
+    "d": 5
+   },
+   {
+    "f": "apps/server/src/campaign-save-failure.test.ts",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "apps/server/src/index.ts",
+    "a": 8,
+    "d": 2
+   },
+   {
+    "f": "apps/server/src/map-benchmark.test.ts",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "apps/server/src/map-e2e.test.ts",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "apps/server/src/postgres-store.test.ts",
+    "a": 109,
+    "d": 0
+   },
+   {
+    "f": "apps/server/src/postgres-store.ts",
+    "a": 141,
+    "d": 0
+   },
+   {
+    "f": "apps/server/src/progression.test.ts",
+    "a": 4,
+    "d": 4
+   },
+   {
+    "f": "apps/server/src/rewards.ts",
+    "a": 4,
+    "d": 4
+   },
+   {
+    "f": "apps/server/src/training-rewards.test.ts",
+    "a": 7,
+    "d": 7
+   },
+   {
+    "f": "apps/server/src/training-room.ts",
+    "a": 6,
+    "d": 3
+   },
+   {
+    "f": "apps/web/src/multiplayer/session.test.ts",
+    "a": 2,
+    "d": 1
+   },
+   {
+    "f": "apps/web/src/visual/profile/ProfileScreen.tsx",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "docs/deployment.md",
+    "a": 11,
+    "d": 0
+   },
+   {
+    "f": "docs/development.md",
+    "a": 19,
+    "d": 0
+   },
+   {
+    "f": "docs/progression.md",
+    "a": 16,
+    "d": 0
+   },
+   {
+    "f": "docs/testing.md",
+    "a": 9,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/index.ts",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "packages/sim/src/progression.test.ts",
+    "a": 30,
+    "d": 1
+   },
+   {
+    "f": "packages/sim/src/progression.ts",
+    "a": 22,
+    "d": 10
+   },
+   {
+    "f": "pnpm-lock.yaml",
+    "a": 1242,
+    "d": 11
+   },
+   {
+    "f": "pnpm-workspace.yaml",
+    "a": 2,
+    "d": 0
+   }
+  ]
+ },
+ "904ee330c78cdb94d32f97bbbf771484189cfaf7": {
+  "team": "Impulso Stellar",
+  "repo": "orlando-vazquez-career/stellar-impulse",
+  "author": "orlando-vazquez-career",
+  "date": "2026-10-07T23:53:20Z",
+  "message": "feat(cuentas): cuentas y logros en Postgres con Prisma",
+  "parents": 1,
+  "files": [
+   {
+    "f": ".github/workflows/ci.yml",
+    "a": 27,
+    "d": 0
+   },
+   {
+    "f": ".gitignore",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "apps/server/.env.example",
+    "a": 2,
+    "d": 0
+   },
+   {
+    "f": "apps/server/package.json",
+    "a": 10,
+    "d": 3
+   },
+   {
+    "f": "apps/server/prisma.config.ts",
+    "a": 8,
+    "d": 0
+   },
+   {
+    "f": "apps/server/prisma/migrations/20261007233101_cuentas_y_logros/migration.sql",
+    "a": 63,
+    "d": 0
+   },
+   {
+    "f": "apps/server/prisma/migrations/migration_lock.toml",
+    "a": 3,
+    "d": 0
+   },
+   {
+    "f": "apps/server/prisma/schema.prisma",
+    "a": 74,
+    "d": 0
+   },
+   {
+    "f": "apps/server/scripts/migrate.mjs",
+    "a": 7,
+    "d": 0
+   },
+   {
+    "f": "apps/server/src/account-store.ts",
+    "a": 92,
+    "d": 0
+   },
+   {
+    "f": "apps/server/src/app.ts",
+    "a": 3,
+    "d": 3
+   },
+   {
+    "f": "apps/server/src/augment-room.test.ts",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "apps/server/src/auth-storage.test.ts",
+    "a": 7,
+    "d": 7
+   },
+   {
+    "f": "apps/server/src/auth.test.ts",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "apps/server/src/auth.ts",
+    "a": 69,
+    "d": 80
+   },
+   {
+    "f": "apps/server/src/campaign-map-override.test.ts",
+    "a": 4,
+    "d": 4
+   },
+   {
+    "f": "apps/server/src/campaign-rewards.test.ts",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "apps/server/src/campaign-room.test.ts",
+    "a": 3,
+    "d": 3
+   },
+   {
+    "f": "apps/server/src/campaign-room.ts",
+    "a": 5,
+    "d": 5
+   },
+   {
+    "f": "apps/server/src/campaign-save-failure.test.ts",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "apps/server/src/index.ts",
+    "a": 8,
+    "d": 2
+   },
+   {
+    "f": "apps/server/src/map-benchmark.test.ts",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "apps/server/src/map-e2e.test.ts",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "apps/server/src/postgres-store.test.ts",
+    "a": 109,
+    "d": 0
+   },
+   {
+    "f": "apps/server/src/postgres-store.ts",
+    "a": 141,
+    "d": 0
+   },
+   {
+    "f": "apps/server/src/progression.test.ts",
+    "a": 4,
+    "d": 4
+   },
+   {
+    "f": "apps/server/src/rewards.ts",
+    "a": 4,
+    "d": 4
+   },
+   {
+    "f": "apps/server/src/training-rewards.test.ts",
+    "a": 7,
+    "d": 7
+   },
+   {
+    "f": "apps/server/src/training-room.ts",
+    "a": 6,
+    "d": 3
+   },
+   {
+    "f": "apps/web/src/multiplayer/session.test.ts",
+    "a": 2,
+    "d": 1
+   },
+   {
+    "f": "apps/web/src/visual/profile/ProfileScreen.tsx",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "docs/deployment.md",
+    "a": 11,
+    "d": 0
+   },
+   {
+    "f": "docs/development.md",
+    "a": 19,
+    "d": 0
+   },
+   {
+    "f": "docs/progression.md",
+    "a": 16,
+    "d": 0
+   },
+   {
+    "f": "docs/testing.md",
+    "a": 9,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/index.ts",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "packages/sim/src/progression.test.ts",
+    "a": 30,
+    "d": 1
+   },
+   {
+    "f": "packages/sim/src/progression.ts",
+    "a": 22,
+    "d": 10
+   },
+   {
+    "f": "pnpm-lock.yaml",
+    "a": 1242,
+    "d": 11
+   },
+   {
+    "f": "pnpm-workspace.yaml",
+    "a": 2,
+    "d": 0
+   }
+  ]
+ },
+ "b9a1caf4ea476aec2cd6cc848182b99d547197d7": {
+  "team": "Impulso Stellar",
+  "repo": "orlando-vazquez-career/stellar-impulse",
+  "author": "orlando-vazquez-career",
+  "date": "2026-10-07T23:03:17Z",
+  "message": "fix(cuentas): archivo de cuentas a prueba de cortes y límite en /auth",
+  "parents": 1,
+  "files": [
+   {
+    "f": "apps/server/src/app.ts",
+    "a": 26,
+    "d": 1
+   },
+   {
+    "f": "apps/server/src/auth-limit.test.ts",
+    "a": 25,
+    "d": 0
+   },
+   {
+    "f": "apps/server/src/auth-storage.test.ts",
+    "a": 53,
+    "d": 0
+   },
+   {
+    "f": "apps/server/src/auth.ts",
+    "a": 45,
+    "d": 8
+   },
+   {
+    "f": "apps/server/src/campaign-rewards.test.ts",
+    "a": 5,
+    "d": 7
+   },
+   {
+    "f": "apps/server/src/campaign-room.ts",
+    "a": 3,
+    "d": 1
+   },
+   {
+    "f": "apps/server/src/campaign-save-failure.test.ts",
+    "a": 53,
+    "d": 0
+   },
+   {
+    "f": "apps/server/src/rewards.ts",
+    "a": 16,
+    "d": 0
+   },
+   {
+    "f": "apps/server/src/training-room.ts",
+    "a": 4,
+    "d": 3
+   },
+   {
+    "f": "apps/web/src/visual/profile/MatchProgress.tsx",
+    "a": 2,
+    "d": 1
+   },
+   {
+    "f": "docs/auth-multiplayer.md",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "docs/deployment.md",
+    "a": 4,
+    "d": 1
+   },
+   {
+    "f": "docs/progression.md",
+    "a": 2,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/index.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "packages/sim/src/progression.test.ts",
+    "a": 26,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/progression.ts",
+    "a": 26,
+    "d": 9
+   },
+   {
+    "f": "playwright.config.ts",
+    "a": 6,
+    "d": 1
+   }
+  ]
  }
 }

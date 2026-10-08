@@ -1,16 +1,17 @@
 {
- "generado": "2026-10-08T12:29:16+00:00",
+ "generado": "2026-10-08T22:40:15+00:00",
  "programa": "Stellar Elite",
  "start_date": "2026-09-02T00:00:00Z",
  "teams": [
   {
    "name": "Tinkazo",
-   "total": 1100.25,
-   "per_capita": 1100.25,
-   "commits": 130,
-   "pts_commits": 1017.25,
-   "dias_activos": 16,
+   "total": 1370.91,
+   "per_capita": 1370.91,
+   "commits": 166,
+   "pts_commits": 1279.91,
+   "dias_activos": 17,
    "contribuidores": [
+    "GuidoSV7",
     "nema1502"
    ],
    "tamano": 1,
@@ -21,11 +22,11 @@
   },
   {
    "name": "Impulso Stellar",
-   "total": 685.18,
-   "per_capita": 685.18,
-   "commits": 137,
-   "pts_commits": 607.18,
-   "dias_activos": 12,
+   "total": 793.02,
+   "per_capita": 793.02,
+   "commits": 161,
+   "pts_commits": 710.02,
+   "dias_activos": 13,
    "contribuidores": [
     "Copilot",
     "Hans3010",
@@ -42,10 +43,10 @@
   },
   {
    "name": "Puls3",
-   "total": 497.44,
-   "per_capita": 497.44,
-   "commits": 75,
-   "pts_commits": 409.44,
+   "total": 566.07,
+   "per_capita": 566.07,
+   "commits": 84,
+   "pts_commits": 478.07,
    "dias_activos": 14,
    "contribuidores": [
     "Pericena",
@@ -98,11 +99,11 @@
   },
   {
    "name": "NodeXchange",
-   "total": 192.86,
-   "per_capita": 192.86,
-   "commits": 21,
-   "pts_commits": 164.86,
-   "dias_activos": 5,
+   "total": 200.44,
+   "per_capita": 200.44,
+   "commits": 22,
+   "pts_commits": 167.44,
+   "dias_activos": 6,
    "contribuidores": [
     "RomerTamayo"
    ],
@@ -302,7 +303,7 @@
    "2026-10-05": 61.0,
    "2026-10-06": 44.62,
    "2026-10-07": 40.57,
-   "2026-10-08": 10.0
+   "2026-10-08": 78.63
   },
   "Tinkazo": {
    "2026-09-16": 66.21000000000001,
@@ -315,12 +316,13 @@
    "2026-09-28": 72.91,
    "2026-09-29": 97.86999999999999,
    "2026-09-30": 29.66,
-   "2026-10-01": 4.81,
-   "2026-10-02": 34.17,
+   "2026-10-01": 67.41,
+   "2026-10-02": 83.23,
    "2026-10-04": 111.80000000000001,
    "2026-10-05": 54.37,
    "2026-10-06": 18.78,
-   "2026-10-07": 4.7
+   "2026-10-07": 25.020000000000003,
+   "2026-10-08": 130.68
   },
   "CompraGasolinaBidon": {
    "2026-09-06": 1.0
@@ -330,7 +332,8 @@
    "2026-09-30": 30.0,
    "2026-10-01": 76.36,
    "2026-10-02": 43.97,
-   "2026-10-04": 13.530000000000001
+   "2026-10-04": 13.530000000000001,
+   "2026-10-08": 2.58
   },
   "BolivianPets": {
    "2026-09-04": 1.0,
@@ -356,8 +359,8 @@
    "2026-10-04": 96.49,
    "2026-10-05": 55.78,
    "2026-10-06": 57.46,
-   "2026-10-07": 68.83,
-   "2026-10-08": 0.0
+   "2026-10-07": 88.21,
+   "2026-10-08": 83.46000000000001
   },
   "BOLAR": {
    "2026-09-22": 9.25,
@@ -409,7 +412,7 @@
    "2026-10-05": 7,
    "2026-10-06": 6,
    "2026-10-07": 5,
-   "2026-10-08": 1
+   "2026-10-08": 10
   },
   "Tinkazo": {
    "2026-09-16": 8,
@@ -422,12 +425,13 @@
    "2026-09-28": 9,
    "2026-09-29": 15,
    "2026-09-30": 4,
-   "2026-10-01": 1,
-   "2026-10-02": 4,
+   "2026-10-01": 9,
+   "2026-10-02": 10,
    "2026-10-04": 15,
    "2026-10-05": 7,
    "2026-10-06": 4,
-   "2026-10-07": 1
+   "2026-10-07": 4,
+   "2026-10-08": 19
   },
   "CompraGasolinaBidon": {
    "2026-09-06": 1
@@ -437,7 +441,8 @@
    "2026-09-30": 3,
    "2026-10-01": 9,
    "2026-10-02": 5,
-   "2026-10-04": 3
+   "2026-10-04": 3,
+   "2026-10-08": 1
   },
   "BolivianPets": {
    "2026-09-04": 1,
@@ -463,8 +468,8 @@
    "2026-10-04": 15,
    "2026-10-05": 11,
    "2026-10-06": 12,
-   "2026-10-07": 21,
-   "2026-10-08": 4
+   "2026-10-07": 23,
+   "2026-10-08": 26
   },
   "BOLAR": {
    "2026-09-22": 1,
@@ -497,6 +502,366 @@
  },
  "commits": [
   {
+   "sha": "3f24e7b",
+   "team": "Puls3",
+   "repo": "Zer0-Knowledge-Hack/puls3",
+   "author": "XxHugheadxX",
+   "date": "2026-10-08T22:36:35Z",
+   "msg": "feat(server): agent runtime runner and Anthropic Messages adapter (part 1 of #20) (#108)",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "0a45600",
+   "team": "Puls3",
+   "repo": "Zer0-Knowledge-Hack/puls3",
+   "author": "XxHugheadxX",
+   "date": "2026-10-08T22:27:01Z",
+   "msg": "docs(blueprints): align F5-F7 and demo paths with the ADR-0005 escrow (#140)",
+   "pts": 7.85,
+   "nota": ""
+  },
+  {
+   "sha": "6a13a73",
+   "team": "Puls3",
+   "repo": "Zer0-Knowledge-Hack/puls3",
+   "author": "TOMOKI977",
+   "date": "2026-10-08T22:04:38Z",
+   "msg": "feat(domain): add agent manifest draft, validation and deploy manifest (#34, 2/3) (#138)",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "fc1e7af",
+   "team": "Puls3",
+   "repo": "Zer0-Knowledge-Hack/puls3",
+   "author": "TOMOKI977",
+   "date": "2026-10-08T20:57:28Z",
+   "msg": "docs: publish the Serverpod Cloud API URL and update Serverpod version references (#121)",
+   "pts": 4.46,
+   "nota": ""
+  },
+  {
+   "sha": "3d78e07",
+   "team": "Puls3",
+   "repo": "Zer0-Knowledge-Hack/puls3",
+   "author": "TOMOKI977",
+   "date": "2026-10-08T20:54:22Z",
+   "msg": "feat(domain): add manifest value objects and model policy (#34, 1/4) (#135)",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "163f10e",
+   "team": "Puls3",
+   "repo": "Zer0-Knowledge-Hack/puls3",
+   "author": "TOMOKI977",
+   "date": "2026-10-08T20:44:15Z",
+   "msg": "docs: add the server escrow relay testnet evidence to the README (#137)",
+   "pts": 5.32,
+   "nota": ""
+  },
+  {
+   "sha": "f799ca5",
+   "team": "Puls3",
+   "repo": "Zer0-Knowledge-Hack/puls3",
+   "author": "moises-cisneros",
+   "date": "2026-10-08T19:45:16Z",
+   "msg": "feat(server): escrow relay prepare and submit endpoints for hires (#96)",
+   "pts": 1.0,
+   "nota": "import masivo (108 archivos)"
+  },
+  {
+   "sha": "0b492af",
+   "team": "Puls3",
+   "repo": "Zer0-Knowledge-Hack/puls3",
+   "author": "Pericena",
+   "date": "2026-10-08T17:10:21Z",
+   "msg": "feat(flutter): wallet connection with Freighter and a mock wallet (#113)",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "18f4759",
+   "team": "NodeXchange",
+   "repo": "RomerTamayo/stellar-build",
+   "author": "RomerTamayo",
+   "date": "2026-10-08T17:06:06Z",
+   "msg": "Describe the Supabase node as the reference node",
+   "pts": 2.58,
+   "nota": ""
+  },
+  {
+   "sha": "71b577c",
+   "team": "Puls3",
+   "repo": "Zer0-Knowledge-Hack/puls3",
+   "author": "Pericena",
+   "date": "2026-10-08T15:34:20Z",
+   "msg": "feat(flutter): deploy flow UI with stepper and error recovery (#112)",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "2b408ad",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-10-08T15:30:59Z",
+   "msg": "La ventana de ingreso entra al auditor de interfaz, con sus colores fijos por tema",
+   "pts": 6.86,
+   "nota": ""
+  },
+  {
+   "sha": "c58eaa7",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-10-08T15:19:43Z",
+   "msg": "El campo de correo sin una dirección de ejemplo adentro",
+   "pts": 3.32,
+   "nota": ""
+  },
+  {
+   "sha": "b454e28",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-10-08T15:18:45Z",
+   "msg": "Los commits de Guido Salazar del PR #1 entran a la historia",
+   "pts": 0.0,
+   "nota": "merge"
+  },
+  {
+   "sha": "cfa5987",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-10-08T15:18:44Z",
+   "msg": "El README dice quién creó Tinkazo y con quién",
+   "pts": 4.46,
+   "nota": ""
+  },
+  {
+   "sha": "8d3a49e",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-10-08T15:15:52Z",
+   "msg": "La ventana de ingreso con la forma de la de Pollar, y entrar con un correo",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "09eae5e",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "Hans3010",
+   "date": "2026-10-08T14:36:33Z",
+   "msg": "Merge pull request #45 from orlando-vazquez-career/fix/apagado-railway",
+   "pts": 0.0,
+   "nota": "merge"
+  },
+  {
+   "sha": "015dd61",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "Hans3010",
+   "date": "2026-10-08T14:08:08Z",
+   "msg": "Merge branch 'main' into fix/apagado-railway",
+   "pts": 0.0,
+   "nota": "merge"
+  },
+  {
+   "sha": "077fc9c",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "Hans3010",
+   "date": "2026-10-08T14:07:31Z",
+   "msg": "Merge pull request #44 from orlando-vazquez-career/feat/cuenta-y-perfil",
+   "pts": 0.0,
+   "nota": "merge"
+  },
+  {
+   "sha": "c1e6950",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "Hans3010",
+   "date": "2026-10-08T13:22:50Z",
+   "msg": "Merge branch 'main' into feat/cuenta-y-perfil",
+   "pts": 0.0,
+   "nota": "merge"
+  },
+  {
+   "sha": "e38c0f0",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "Hans3010",
+   "date": "2026-10-08T13:22:33Z",
+   "msg": "Merge pull request #43 from orlando-vazquez-career/feat/campana-multijugador",
+   "pts": 0.0,
+   "nota": "merge"
+  },
+  {
+   "sha": "38055fe",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "Hans3010",
+   "date": "2026-10-08T13:04:33Z",
+   "msg": "Merge branch 'main' into feat/campana-multijugador",
+   "pts": 0.0,
+   "nota": "merge"
+  },
+  {
+   "sha": "42dc73c",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "Hans3010",
+   "date": "2026-10-08T13:04:17Z",
+   "msg": "Merge branch 'main' into feat/cuenta-y-perfil",
+   "pts": 0.0,
+   "nota": "merge"
+  },
+  {
+   "sha": "df3c6f3",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "Hans3010",
+   "date": "2026-10-08T13:03:20Z",
+   "msg": "Merge pull request #42 from orlando-vazquez-career/fix/persistencia-a-main",
+   "pts": 0.0,
+   "nota": "merge"
+  },
+  {
+   "sha": "58050d4",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "orlando-vazquez-career",
+   "date": "2026-10-08T05:30:49Z",
+   "msg": "Merge branch 'feat/campana-multijugador' into feat/cuenta-y-perfil",
+   "pts": 0.0,
+   "nota": "merge"
+  },
+  {
+   "sha": "e23e3a8",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "orlando-vazquez-career",
+   "date": "2026-10-08T05:30:40Z",
+   "msg": "test(e2e): el multijugador espera la confirmación como tarda CI",
+   "pts": 4.32,
+   "nota": ""
+  },
+  {
+   "sha": "5e7ac69",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "orlando-vazquez-career",
+   "date": "2026-10-08T05:30:40Z",
+   "msg": "perf(estado): la vista de cada tick ya no repite el terreno del mapa",
+   "pts": 4.91,
+   "nota": ""
+  },
+  {
+   "sha": "fe1ca6a",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "orlando-vazquez-career",
+   "date": "2026-10-08T05:17:19Z",
+   "msg": "fix(server): apagado limpio al reemplazar el deploy en Railway",
+   "pts": 7.27,
+   "nota": ""
+  },
+  {
+   "sha": "d209b21",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "orlando-vazquez-career",
+   "date": "2026-10-08T05:13:39Z",
+   "msg": "test(e2e): diagnóstico cuando la apertura de aumentos no se resuelve",
+   "pts": 5.64,
+   "nota": ""
+  },
+  {
+   "sha": "47819c8",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "orlando-vazquez-career",
+   "date": "2026-10-08T04:48:08Z",
+   "msg": "docs(campaña): protocolo 3, aumentos por sector y resultado tras recargar",
+   "pts": 8.99,
+   "nota": ""
+  },
+  {
+   "sha": "8878a86",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "orlando-vazquez-career",
+   "date": "2026-10-08T04:27:53Z",
+   "msg": "docs(cuentas): crear cuenta desde el acceso y alias en la cuenta",
+   "pts": 6.17,
+   "nota": ""
+  },
+  {
+   "sha": "70f8064",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "orlando-vazquez-career",
+   "date": "2026-10-08T04:26:53Z",
+   "msg": "feat(cuentas): crear cuenta desde el juego con alias que sigue a la cuenta",
+   "pts": 9.7,
+   "nota": ""
+  },
+  {
+   "sha": "5f9c1b1",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "orlando-vazquez-career",
+   "date": "2026-10-08T04:22:03Z",
+   "msg": "feat(web): el multijugador juega la campaña con el motor nuevo",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "4075049",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "orlando-vazquez-career",
+   "date": "2026-10-08T04:13:19Z",
+   "msg": "feat(campaña): sala de campaña v3 con el motor de partida en 3 sectores",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "6b6f73f",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "orlando-vazquez-career",
+   "date": "2026-10-08T04:11:45Z",
+   "msg": "feat(cuentas): alias de comandante guardado en la cuenta",
+   "pts": 8.77,
+   "nota": ""
+  },
+  {
+   "sha": "c27ea26",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "orlando-vazquez-career",
+   "date": "2026-10-08T04:00:07Z",
+   "msg": "feat(sim): aumentos de campaña que se arrastran entre sectores",
+   "pts": 7.69,
+   "nota": ""
+  },
+  {
+   "sha": "e76bba2",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "orlando-vazquez-career",
+   "date": "2026-10-08T03:36:03Z",
+   "msg": "Merge main en la persistencia de cuentas (#40 y #41 quedaron fuera de main)",
+   "pts": 0.0,
+   "nota": "merge"
+  },
+  {
    "sha": "dd3f240",
    "team": "Impulso Stellar",
    "repo": "orlando-vazquez-career/stellar-impulse",
@@ -507,6 +872,16 @@
    "nota": "merge"
   },
   {
+   "sha": "91339d4",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-10-08T02:07:08Z",
+   "msg": "El equipo con sus roles: fundador y desarrollador principal, y desarrollador frontend",
+   "pts": 4.17,
+   "nota": ""
+  },
+  {
    "sha": "4df3ba4",
    "team": "Puls3",
    "repo": "Zer0-Knowledge-Hack/puls3",
@@ -514,6 +889,66 @@
    "date": "2026-10-08T02:00:01Z",
    "msg": "feat(server): deploy the API to Serverpod Cloud (re-land #115 on main) (#117)",
    "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "a9c57cd",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-10-08T01:51:25Z",
+   "msg": "La ruleta: nombres en los gajos, la parada falsa suena y el cartel no tapa al ganador",
+   "pts": 8.29,
+   "nota": ""
+  },
+  {
+   "sha": "dc419d0",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-10-08T01:43:53Z",
+   "msg": "El aguayo: mano a mano en el nudo, y ningún co-ganador sale sin nombre",
+   "pts": 8.43,
+   "nota": ""
+  },
+  {
+   "sha": "e57e819",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-10-08T01:42:47Z",
+   "msg": "El trompo: el instante que decide, el zumbido y los nombres de los que salen",
+   "pts": 8.21,
+   "nota": ""
+  },
+  {
+   "sha": "a81ccce",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-10-08T01:42:47Z",
+   "msg": "La Chovena: la última vuelta se mueve y el corte final suena",
+   "pts": 6.46,
+   "nota": ""
+  },
+  {
+   "sha": "c7defbb",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-10-08T01:42:46Z",
+   "msg": "La carrera: el relator a tiempo, la tribuna que explota y la ganadora a la vista",
+   "pts": 8.47,
+   "nota": ""
+  },
+  {
+   "sha": "7899997",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-10-08T01:42:43Z",
+   "msg": "¿Quién es?: la respuesta que decide con silencio, sello grande y el primer premio al final",
+   "pts": 8.11,
    "nota": ""
   },
   {
@@ -537,6 +972,16 @@
    "nota": "merge"
   },
   {
+   "sha": "05e58ef",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "Hans3010",
+   "date": "2026-10-08T01:36:40Z",
+   "msg": "Merge pull request #41 from orlando-vazquez-career/feat/postgres-cuentas",
+   "pts": 0.0,
+   "nota": "merge"
+  },
+  {
    "sha": "e37bbe5",
    "team": "Impulso Stellar",
    "repo": "orlando-vazquez-career/stellar-impulse",
@@ -545,6 +990,16 @@
    "msg": "Merge pull request #39 from orlando-vazquez-career/fix/premios-cuenta",
    "pts": 0.0,
    "nota": "merge"
+  },
+  {
+   "sha": "32da72e",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-10-08T01:28:57Z",
+   "msg": "Guido Salazar en el equipo, con su usuario de GitHub",
+   "pts": 6.0,
+   "nota": ""
   },
   {
    "sha": "b10187b",
@@ -557,6 +1012,16 @@
    "nota": "merge"
   },
   {
+   "sha": "8ba344f",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-10-08T01:22:04Z",
+   "msg": "El teleférico: quién se baja en la última, con cara y golpe, y el tercer premio con nombre",
+   "pts": 8.62,
+   "nota": ""
+  },
+  {
    "sha": "8dfe5c5",
    "team": "BOLAR",
    "repo": "bolarpay/bolar-app",
@@ -564,6 +1029,66 @@
    "date": "2026-10-08T01:13:52Z",
    "msg": "feat: update remittance form with cash options, WhatsApp support and optional QR",
    "pts": 5.46,
+   "nota": ""
+  },
+  {
+   "sha": "b08be99",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-10-08T01:07:52Z",
+   "msg": "El sapo: silencio antes de la caída, tiros con nombre y el primer premio al final",
+   "pts": 7.63,
+   "nota": ""
+  },
+  {
+   "sha": "6e2473c",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-10-08T00:45:02Z",
+   "msg": "La tómbola: la bajada traquetea y la corona queda en el vaso",
+   "pts": 7.51,
+   "nota": ""
+  },
+  {
+   "sha": "d42af78",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-10-08T00:44:59Z",
+   "msg": "Oruro: el que gana entra al Socavón y el contrapunto sube hasta el final",
+   "pts": 8.26,
+   "nota": ""
+  },
+  {
+   "sha": "90441df",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-10-08T00:44:57Z",
+   "msg": "La piñata: palos que se apuran, una rotura con peso y el final sin delatar",
+   "pts": 7.71,
+   "nota": ""
+  },
+  {
+   "sha": "5c1273f",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-10-08T00:36:41Z",
+   "msg": "La constelación: el amague con nombre y los co-ganadores con su momento",
+   "pts": 8.17,
+   "nota": ""
+  },
+  {
+   "sha": "904ee33",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "orlando-vazquez-career",
+   "date": "2026-10-07T23:53:20Z",
+   "msg": "feat(cuentas): cuentas y logros en Postgres con Prisma",
+   "pts": 10,
    "nota": ""
   },
   {
@@ -584,6 +1109,16 @@
    "date": "2026-10-07T23:07:26Z",
    "msg": "feat: improve remittance calculator and Google sign-in",
    "pts": 9.89,
+   "nota": ""
+  },
+  {
+   "sha": "b9a1caf",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "orlando-vazquez-career",
+   "date": "2026-10-07T23:03:17Z",
+   "msg": "fix(cuentas): archivo de cuentas a prueba de cortes y límite en /auth",
+   "pts": 9.38,
    "nota": ""
   },
   {
@@ -637,6 +1172,26 @@
    "nota": ""
   },
   {
+   "sha": "60e7287",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-10-07T19:13:30Z",
+   "msg": "El README dice qué corre en la CI y cómo levantarlo en otra máquina",
+   "pts": 5.7,
+   "nota": ""
+  },
+  {
+   "sha": "16ffe50",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-10-07T19:07:20Z",
+   "msg": "El README en español con la Chovena, y la corona con todos los premios",
+   "pts": 6.13,
+   "nota": ""
+  },
+  {
    "sha": "31c2d82",
    "team": "Impulso Stellar",
    "repo": "orlando-vazquez-career/stellar-impulse",
@@ -645,6 +1200,16 @@
    "msg": "Merge pull request #38 from orlando-vazquez-career/feature/mapa",
    "pts": 0.0,
    "nota": "merge"
+  },
+  {
+   "sha": "6c78c73",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-10-07T17:36:32Z",
+   "msg": "Varios premios: cada ganador con su nombre, su cara y su momento",
+   "pts": 8.49,
+   "nota": ""
   },
   {
    "sha": "f478c46",
@@ -2527,6 +3092,56 @@
    "nota": "merge"
   },
   {
+   "sha": "aec58d3",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "GuidoSV7",
+   "date": "2026-10-02T02:56:12Z",
+   "msg": "test: give the Plinko landing sweep a generous timeout",
+   "pts": 3.0,
+   "nota": ""
+  },
+  {
+   "sha": "c1144a2",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "GuidoSV7",
+   "date": "2026-10-02T02:55:18Z",
+   "msg": "fix: shake the wheel camera only once, at the real winner",
+   "pts": 8.24,
+   "nota": ""
+  },
+  {
+   "sha": "f84ebda",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "GuidoSV7",
+   "date": "2026-10-02T02:50:24Z",
+   "msg": "feat: name every Oruro devil with readable tags and a roll call",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "64aac7c",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "GuidoSV7",
+   "date": "2026-10-02T02:40:29Z",
+   "msg": "fix: rebuild the winner plate when returning to the tab",
+   "pts": 8.95,
+   "nota": ""
+  },
+  {
+   "sha": "2739743",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "GuidoSV7",
+   "date": "2026-10-02T02:34:46Z",
+   "msg": "feat: show a readable name on every falling Pinata candy",
+   "pts": 9.7,
+   "nota": ""
+  },
+  {
    "sha": "3a51c53",
    "team": "TilcAI",
    "repo": "TilcAI/tilcai-web",
@@ -2554,6 +3169,16 @@
    "date": "2026-10-02T02:26:45Z",
    "msg": "feat(web): explorar las rutas A y B del isotipo Tilcayo",
    "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "864e742",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "GuidoSV7",
+   "date": "2026-10-02T02:18:53Z",
+   "msg": "feat: keep the wallet session until the user signs out",
+   "pts": 9.17,
    "nota": ""
   },
   {
@@ -2637,12 +3262,52 @@
    "nota": ""
   },
   {
+   "sha": "05c30f9",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "GuidoSV7",
+   "date": "2026-10-01T21:35:27Z",
+   "msg": "feat: add Ahorcado game where the hidden word is the winner's name",
+   "pts": 10,
+   "nota": ""
+  },
+  {
    "sha": "9f84dd0",
    "team": "TilcAI",
    "repo": "TilcAI/tilcai-web",
    "author": "joseemen11",
    "date": "2026-10-01T21:33:19Z",
    "msg": "feat: add policy demo scenarios",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "9eee884",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "GuidoSV7",
+   "date": "2026-10-01T21:20:25Z",
+   "msg": "feat: make the Sapo rules and winners clearer on screen",
+   "pts": 7.93,
+   "nota": ""
+  },
+  {
+   "sha": "f403752",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "GuidoSV7",
+   "date": "2026-10-01T21:15:32Z",
+   "msg": "fix: reapply thumbnail canvas transform every frame",
+   "pts": 7.49,
+   "nota": ""
+  },
+  {
+   "sha": "024b2ad",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "GuidoSV7",
+   "date": "2026-10-01T20:48:06Z",
+   "msg": "feat: add Sapo frog-toss game with planned throws and clear roll paths",
    "pts": 10,
    "nota": ""
   },
@@ -2654,6 +3319,46 @@
    "date": "2026-10-01T20:26:28Z",
    "msg": "feat: add user control section",
    "pts": 9.87,
+   "nota": ""
+  },
+  {
+   "sha": "2bd72ae",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "GuidoSV7",
+   "date": "2026-10-01T19:27:35Z",
+   "msg": "feat: add Plinko game with backwards-planned deterministic path",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "892395f",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "GuidoSV7",
+   "date": "2026-10-01T18:28:58Z",
+   "msg": "feat: notify when animation is skipped by reduced motion and allow replay",
+   "pts": 8.01,
+   "nota": ""
+  },
+  {
+   "sha": "0ebfd09",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "GuidoSV7",
+   "date": "2026-10-01T17:45:30Z",
+   "msg": "build: add Dockerfile for Dokploy deployment",
+   "pts": 5.17,
+   "nota": ""
+  },
+  {
+   "sha": "b238dd0",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "GuidoSV7",
+   "date": "2026-10-01T17:25:42Z",
+   "msg": "chore: add gentle-ai and codegraph local config",
+   "pts": 4.0,
    "nota": ""
   },
   {
