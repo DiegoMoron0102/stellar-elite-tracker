@@ -1,5 +1,5 @@
 {
- "generado": "2026-10-07T22:26:43+00:00",
+ "generado": "2026-10-08T03:37:32+00:00",
  "programa": "Stellar Elite",
  "start_date": "2026-09-02T00:00:00Z",
  "teams": [
@@ -21,10 +21,10 @@
   },
   {
    "name": "Impulso Stellar",
-   "total": 638.8,
-   "per_capita": 638.8,
-   "commits": 125,
-   "pts_commits": 560.8,
+   "total": 685.18,
+   "per_capita": 685.18,
+   "commits": 137,
+   "pts_commits": 607.18,
    "dias_activos": 12,
    "contribuidores": [
     "Copilot",
@@ -42,11 +42,11 @@
   },
   {
    "name": "Puls3",
-   "total": 481.44,
-   "per_capita": 481.44,
-   "commits": 73,
-   "pts_commits": 398.44,
-   "dias_activos": 13,
+   "total": 497.44,
+   "per_capita": 497.44,
+   "commits": 75,
+   "pts_commits": 409.44,
+   "dias_activos": 14,
    "contribuidores": [
     "Pericena",
     "TOMOKI977",
@@ -114,11 +114,11 @@
   },
   {
    "name": "BOLAR",
-   "total": 107.9,
-   "per_capita": 107.9,
-   "commits": 13,
-   "pts_commits": 68.9,
-   "dias_activos": 6,
+   "total": 140.63,
+   "per_capita": 140.63,
+   "commits": 17,
+   "pts_commits": 91.63,
+   "dias_activos": 8,
    "contribuidores": [
     "JersonUCB",
     "rudyramirezc",
@@ -301,7 +301,8 @@
    "2026-10-04": 11.96,
    "2026-10-05": 61.0,
    "2026-10-06": 44.62,
-   "2026-10-07": 39.57
+   "2026-10-07": 40.57,
+   "2026-10-08": 10.0
   },
   "Tinkazo": {
    "2026-09-16": 66.21000000000001,
@@ -355,7 +356,8 @@
    "2026-10-04": 96.49,
    "2026-10-05": 55.78,
    "2026-10-06": 57.46,
-   "2026-10-07": 22.45
+   "2026-10-07": 68.83,
+   "2026-10-08": 0.0
   },
   "BOLAR": {
    "2026-09-22": 9.25,
@@ -363,7 +365,9 @@
    "2026-09-26": 16.880000000000003,
    "2026-09-28": 9.33,
    "2026-09-29": 7.92,
-   "2026-10-02": 15.329999999999998
+   "2026-10-02": 15.329999999999998,
+   "2026-10-07": 17.27,
+   "2026-10-08": 5.46
   },
   "MinerTrace": {
    "2026-09-28": 10.97
@@ -404,7 +408,8 @@
    "2026-10-04": 3,
    "2026-10-05": 7,
    "2026-10-06": 6,
-   "2026-10-07": 4
+   "2026-10-07": 5,
+   "2026-10-08": 1
   },
   "Tinkazo": {
    "2026-09-16": 8,
@@ -458,7 +463,8 @@
    "2026-10-04": 15,
    "2026-10-05": 11,
    "2026-10-06": 12,
-   "2026-10-07": 13
+   "2026-10-07": 21,
+   "2026-10-08": 4
   },
   "BOLAR": {
    "2026-09-22": 1,
@@ -466,7 +472,9 @@
    "2026-09-26": 2,
    "2026-09-28": 1,
    "2026-09-29": 2,
-   "2026-10-02": 5
+   "2026-10-02": 5,
+   "2026-10-07": 2,
+   "2026-10-08": 2
   },
   "MinerTrace": {
    "2026-09-28": 3
@@ -488,6 +496,116 @@
   }
  },
  "commits": [
+  {
+   "sha": "dd3f240",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "orlando-vazquez-career",
+   "date": "2026-10-08T02:14:21Z",
+   "msg": "Merge pull request #37 from orlando-vazquez-career/feat/formaciones-audio-niebla",
+   "pts": 0.0,
+   "nota": "merge"
+  },
+  {
+   "sha": "4df3ba4",
+   "team": "Puls3",
+   "repo": "Zer0-Knowledge-Hack/puls3",
+   "author": "TOMOKI977",
+   "date": "2026-10-08T02:00:01Z",
+   "msg": "feat(server): deploy the API to Serverpod Cloud (re-land #115 on main) (#117)",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "ffde94c",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "Hans3010",
+   "date": "2026-10-08T01:40:59Z",
+   "msg": "Merge remote-tracking branch 'origin/main' into feat/formaciones-audio-niebla",
+   "pts": 0.0,
+   "nota": "merge"
+  },
+  {
+   "sha": "7c1d873",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "Hans3010",
+   "date": "2026-10-08T01:40:58Z",
+   "msg": "Merge remote-tracking branch 'origin/main' into feat/formaciones-audio-niebla",
+   "pts": 0.0,
+   "nota": "merge"
+  },
+  {
+   "sha": "e37bbe5",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "Hans3010",
+   "date": "2026-10-08T01:35:48Z",
+   "msg": "Merge pull request #39 from orlando-vazquez-career/fix/premios-cuenta",
+   "pts": 0.0,
+   "nota": "merge"
+  },
+  {
+   "sha": "b10187b",
+   "team": "BOLAR",
+   "repo": "bolarpay/bolar-app",
+   "author": "JersonUCB",
+   "date": "2026-10-08T01:22:57Z",
+   "msg": "Merge pull request #2 from bolarpay/codex/landing-remittance-improvements",
+   "pts": 0.0,
+   "nota": "merge"
+  },
+  {
+   "sha": "8dfe5c5",
+   "team": "BOLAR",
+   "repo": "bolarpay/bolar-app",
+   "author": "JersonUCB",
+   "date": "2026-10-08T01:13:52Z",
+   "msg": "feat: update remittance form with cash options, WhatsApp support and optional QR",
+   "pts": 5.46,
+   "nota": ""
+  },
+  {
+   "sha": "c328902",
+   "team": "Puls3",
+   "repo": "Zer0-Knowledge-Hack/puls3",
+   "author": "TOMOKI977",
+   "date": "2026-10-07T23:48:44Z",
+   "msg": "build(serverpod)!: upgrade to Serverpod 4.0.4 for Cloud deployment (#114)",
+   "pts": 1.0,
+   "nota": "import masivo (52 archivos)"
+  },
+  {
+   "sha": "79afe66",
+   "team": "BOLAR",
+   "repo": "bolarpay/bolar-app",
+   "author": "JersonUCB",
+   "date": "2026-10-07T23:07:26Z",
+   "msg": "feat: improve remittance calculator and Google sign-in",
+   "pts": 9.89,
+   "nota": ""
+  },
+  {
+   "sha": "d9d1846",
+   "team": "BOLAR",
+   "repo": "bolarpay/bolar-app",
+   "author": "JersonUCB",
+   "date": "2026-10-07T22:37:48Z",
+   "msg": "docs: add BOLAR workflow guide and reporting conventions",
+   "pts": 7.38,
+   "nota": ""
+  },
+  {
+   "sha": "1234f3f",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "orlando-vazquez-career",
+   "date": "2026-10-07T22:11:08Z",
+   "msg": "fix(progresion): premios solo con rival real y XP en la campaña 1v1",
+   "pts": 8.73,
+   "nota": ""
+  },
   {
    "sha": "1a860e8",
    "team": "Puls3",
@@ -549,6 +667,26 @@
    "nota": ""
   },
   {
+   "sha": "bf55111",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "Hans3010",
+   "date": "2026-10-07T14:04:14Z",
+   "msg": "fix: complete formations and live audio across game modes",
+   "pts": 9.93,
+   "nota": ""
+  },
+  {
+   "sha": "73c38f3",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "Hans3010",
+   "date": "2026-10-07T13:15:44Z",
+   "msg": "feat(web): fog of war with memory and enemy fade at the edge of vision",
+   "pts": 8.07,
+   "nota": ""
+  },
+  {
    "sha": "bf5caec",
    "team": "Tinkazo",
    "repo": "nema1502/tinkazo",
@@ -559,6 +697,36 @@
    "nota": ""
   },
   {
+   "sha": "5838223",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "Hans3010",
+   "date": "2026-10-07T12:03:00Z",
+   "msg": "Merge branch 'fix/audio-ajustes' into prueba/local-todo",
+   "pts": 0.0,
+   "nota": "merge"
+  },
+  {
+   "sha": "ce6eb22",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "Hans3010",
+   "date": "2026-10-07T12:03:00Z",
+   "msg": "Merge remote-tracking branch 'origin/main' into feat/formaciones",
+   "pts": 0.0,
+   "nota": "merge"
+  },
+  {
+   "sha": "7fd2eca",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "Hans3010",
+   "date": "2026-10-07T11:55:15Z",
+   "msg": "Merge remote-tracking branch 'origin/main' into fix/audio-ajustes",
+   "pts": 0.0,
+   "nota": "merge"
+  },
+  {
    "sha": "d4d657d",
    "team": "Impulso Stellar",
    "repo": "orlando-vazquez-career/stellar-impulse",
@@ -567,6 +735,26 @@
    "msg": "Merge pull request #33 from orlando-vazquez-career/feature/mapa",
    "pts": 0.0,
    "nota": "merge"
+  },
+  {
+   "sha": "ff38ac7",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "Hans3010",
+   "date": "2026-10-07T11:14:51Z",
+   "msg": "fix: stop the stray lobby music and add a live sound mix",
+   "pts": 9.65,
+   "nota": ""
+  },
+  {
+   "sha": "0ada537",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "Hans3010",
+   "date": "2026-10-07T10:52:06Z",
+   "msg": "feat: squad formations for group move orders",
+   "pts": 10,
+   "nota": ""
   },
   {
    "sha": "5e9dbe5",

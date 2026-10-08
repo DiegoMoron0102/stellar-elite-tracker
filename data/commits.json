@@ -64500,5 +64500,3070 @@
     "d": 1
    }
   ]
+ },
+ "4df3ba4b8d8efb0f89bff916e4e29451bf6fe8df": {
+  "team": "Puls3",
+  "repo": "Zer0-Knowledge-Hack/puls3",
+  "author": "TOMOKI977",
+  "date": "2026-10-08T02:00:01Z",
+  "message": "feat(server): deploy the API to Serverpod Cloud (re-land #115 on main) (#117)",
+  "parents": 1,
+  "files": [
+   {
+    "f": ".env.example",
+    "a": 8,
+    "d": 0
+   },
+   {
+    "f": ".gitignore",
+    "a": 3,
+    "d": 0
+   },
+   {
+    "f": ".scloudignore",
+    "a": 38,
+    "d": 0
+   },
+   {
+    "f": "README.md",
+    "a": 9,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/README.md",
+    "a": 236,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/server.dart",
+    "a": 17,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/cors/allowed_origins.dart",
+    "a": 142,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/health/app_version.dart",
+    "a": 28,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/health/health_endpoint.dart",
+    "a": 6,
+    "d": 2
+   },
+   {
+    "f": "puls3_server/scloud.yaml",
+    "a": 15,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/test/unit/cors/allowed_origins_test.dart",
+    "a": 349,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/test/unit/deploy/deploy_sha_test.dart",
+    "a": 40,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/test/unit/health/app_version_test.dart",
+    "a": 44,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/tool/deploy_sha.dart",
+    "a": 25,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/tool/set_deploy_sha.dart",
+    "a": 33,
+    "d": 0
+   },
+   {
+    "f": "scripts/cloudflare-pages-build.sh",
+    "a": 8,
+    "d": 1
+   },
+   {
+    "f": "scripts/tests/cloudflare-pages-build.test.sh",
+    "a": 10,
+    "d": 1
+   }
+  ]
+ },
+ "c32890207d08c5e0220ae9bc0b1247ee8941ff6a": {
+  "team": "Puls3",
+  "repo": "Zer0-Knowledge-Hack/puls3",
+  "author": "TOMOKI977",
+  "date": "2026-10-07T23:48:44Z",
+  "message": "build(serverpod)!: upgrade to Serverpod 4.0.4 for Cloud deployment (#114)",
+  "parents": 1,
+  "files": [
+   {
+    "f": ".dockerignore",
+    "a": 13,
+    "d": 0
+   },
+   {
+    "f": ".env.example",
+    "a": 7,
+    "d": 0
+   },
+   {
+    "f": ".github/workflows/ci.yml",
+    "a": 53,
+    "d": 11
+   },
+   {
+    "f": "CONTRIBUTING.md",
+    "a": 8,
+    "d": 7
+   },
+   {
+    "f": "docs/operations/serverpod-4-migration.md",
+    "a": 58,
+    "d": 0
+   },
+   {
+    "f": "openspec/specs/agent-catalog-endpoint/spec.md",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "pubspec.lock",
+    "a": 180,
+    "d": 124
+   },
+   {
+    "f": "pubspec.yaml",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "puls3_client/lib/src/protocol/agent/agent_catalog_unavailable.dart",
+    "a": 15,
+    "d": 5
+   },
+   {
+    "f": "puls3_client/lib/src/protocol/agent/agent_summary.dart",
+    "a": 23,
+    "d": 8
+   },
+   {
+    "f": "puls3_client/lib/src/protocol/chain/chain_submission.dart",
+    "a": 22,
+    "d": 7
+   },
+   {
+    "f": "puls3_client/lib/src/protocol/client.dart",
+    "a": 68,
+    "d": 64
+   },
+   {
+    "f": "puls3_client/lib/src/protocol/greetings/greeting.dart",
+    "a": 17,
+    "d": 7
+   },
+   {
+    "f": "puls3_client/lib/src/protocol/health/backend_health.dart",
+    "a": 14,
+    "d": 6
+   },
+   {
+    "f": "puls3_client/lib/src/protocol/hire/agent_unavailable.dart",
+    "a": 15,
+    "d": 5
+   },
+   {
+    "f": "puls3_client/lib/src/protocol/hire/hire_configuration_missing.dart",
+    "a": 15,
+    "d": 5
+   },
+   {
+    "f": "puls3_client/lib/src/protocol/hire/hire_ledger_unavailable.dart",
+    "a": 15,
+    "d": 5
+   },
+   {
+    "f": "puls3_client/lib/src/protocol/hire/hire_request_invalid.dart",
+    "a": 15,
+    "d": 5
+   },
+   {
+    "f": "puls3_client/lib/src/protocol/hire/hire_view.dart",
+    "a": 18,
+    "d": 6
+   },
+   {
+    "f": "puls3_client/lib/src/protocol/protocol.dart",
+    "a": 125,
+    "d": 103
+   },
+   {
+    "f": "puls3_client/pubspec.yaml",
+    "a": 3,
+    "d": 3
+   },
+   {
+    "f": "puls3_domain/pubspec.yaml",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "puls3_flutter/pubspec.yaml",
+    "a": 4,
+    "d": 4
+   },
+   {
+    "f": "puls3_server/Dockerfile",
+    "a": 10,
+    "d": 7
+   },
+   {
+    "f": "puls3_server/README.md",
+    "a": 4,
+    "d": 4
+   },
+   {
+    "f": "puls3_server/analysis_options.yaml",
+    "a": 3,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/chain/serverpod_chain_submission_store.dart",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "puls3_server/lib/src/generated/agent/agent_catalog_unavailable.dart",
+    "a": 6,
+    "d": 7
+   },
+   {
+    "f": "puls3_server/lib/src/generated/agent/agent_summary.dart",
+    "a": 7,
+    "d": 8
+   },
+   {
+    "f": "puls3_server/lib/src/generated/chain/chain_submission.dart",
+    "a": 239,
+    "d": 135
+   },
+   {
+    "f": "puls3_server/lib/src/generated/endpoints.dart",
+    "a": 109,
+    "d": 107
+   },
+   {
+    "f": "puls3_server/lib/src/generated/greetings/greeting.dart",
+    "a": 6,
+    "d": 7
+   },
+   {
+    "f": "puls3_server/lib/src/generated/health/backend_health.dart",
+    "a": 5,
+    "d": 6
+   },
+   {
+    "f": "puls3_server/lib/src/generated/hire/agent_unavailable.dart",
+    "a": 6,
+    "d": 7
+   },
+   {
+    "f": "puls3_server/lib/src/generated/hire/hire.dart",
+    "a": 200,
+    "d": 96
+   },
+   {
+    "f": "puls3_server/lib/src/generated/hire/hire_configuration_missing.dart",
+    "a": 6,
+    "d": 7
+   },
+   {
+    "f": "puls3_server/lib/src/generated/hire/hire_ledger_unavailable.dart",
+    "a": 6,
+    "d": 7
+   },
+   {
+    "f": "puls3_server/lib/src/generated/hire/hire_payment.dart",
+    "a": 204,
+    "d": 100
+   },
+   {
+    "f": "puls3_server/lib/src/generated/hire/hire_request_invalid.dart",
+    "a": 6,
+    "d": 7
+   },
+   {
+    "f": "puls3_server/lib/src/generated/hire/hire_view.dart",
+    "a": 5,
+    "d": 6
+   },
+   {
+    "f": "puls3_server/lib/src/generated/protocol.dart",
+    "a": 249,
+    "d": 271
+   },
+   {
+    "f": "puls3_server/lib/src/generated/serverpod.dart",
+    "a": 60,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/migrations/20261007214534790-upgrade-4-0/definition.json",
+    "a": 3606,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/migrations/20261007214534790-upgrade-4-0/definition.sql",
+    "a": 857,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/migrations/20261007214534790-upgrade-4-0/definition_project.json",
+    "a": 399,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/migrations/20261007214534790-upgrade-4-0/migration.json",
+    "a": 627,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/migrations/20261007214534790-upgrade-4-0/migration.sql",
+    "a": 186,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/migrations/migration_registry.txt",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/pubspec.yaml",
+    "a": 4,
+    "d": 4
+   },
+   {
+    "f": "puls3_server/test/integration/test_tools/serverpod_test_tools.dart",
+    "a": 135,
+    "d": 112
+   },
+   {
+    "f": "scripts/cloudflare-pages-build.sh",
+    "a": 20,
+    "d": 0
+   },
+   {
+    "f": "scripts/tests/cloudflare-pages-build.test.sh",
+    "a": 90,
+    "d": 0
+   }
+  ]
+ },
+ "dd3f24052e6f47ee915bb9e3daa3197b9a851483": {
+  "team": "Impulso Stellar",
+  "repo": "orlando-vazquez-career/stellar-impulse",
+  "author": "orlando-vazquez-career",
+  "date": "2026-10-08T02:14:21Z",
+  "message": "Merge pull request #37 from orlando-vazquez-career/feat/formaciones-audio-niebla",
+  "parents": 2,
+  "files": [
+   {
+    "f": "apps/web/src/login/sound.ts",
+    "a": 17,
+    "d": 3
+   },
+   {
+    "f": "apps/web/src/multiplayer/session.ts",
+    "a": 2,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/visual/VisualPrototypeApp.tsx",
+    "a": 12,
+    "d": 4
+   },
+   {
+    "f": "apps/web/src/visual/audio-mix.test.ts",
+    "a": 64,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/visual/audio-mix.ts",
+    "a": 62,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/visual/game/AugmentHud.tsx",
+    "a": 6,
+    "d": 4
+   },
+   {
+    "f": "apps/web/src/visual/game/GameplayScreen.tsx",
+    "a": 13,
+    "d": 9
+   },
+   {
+    "f": "apps/web/src/visual/game/Hud.tsx",
+    "a": 73,
+    "d": 8
+   },
+   {
+    "f": "apps/web/src/visual/game/audio.test.ts",
+    "a": 61,
+    "d": 2
+   },
+   {
+    "f": "apps/web/src/visual/game/audio.ts",
+    "a": 64,
+    "d": 19
+   },
+   {
+    "f": "apps/web/src/visual/game/campaign-adapter.test.ts",
+    "a": 29,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/visual/game/campaign-adapter.ts",
+    "a": 23,
+    "d": 7
+   },
+   {
+    "f": "apps/web/src/visual/game/formation.ts",
+    "a": 30,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/visual/game/model.ts",
+    "a": 10,
+    "d": 1
+   },
+   {
+    "f": "apps/web/src/visual/game/phaser/MainScene.ts",
+    "a": 77,
+    "d": 14
+   },
+   {
+    "f": "apps/web/src/visual/game/server-adapter.test.ts",
+    "a": 40,
+    "d": 2
+   },
+   {
+    "f": "apps/web/src/visual/game/server-adapter.ts",
+    "a": 67,
+    "d": 12
+   },
+   {
+    "f": "apps/web/src/visual/i18n.tsx",
+    "a": 32,
+    "d": 4
+   },
+   {
+    "f": "apps/web/src/visual/music.ts",
+    "a": 18,
+    "d": 7
+   },
+   {
+    "f": "apps/web/src/visual/settings/AudioControls.tsx",
+    "a": 46,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/visual/settings/SettingsScreen.tsx",
+    "a": 20,
+    "d": 15
+   },
+   {
+    "f": "apps/web/src/visual/settings/preferences.test.ts",
+    "a": 7,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/visual/settings/preferences.ts",
+    "a": 19,
+    "d": 2
+   },
+   {
+    "f": "apps/web/src/visual/settings/settings.css",
+    "a": 12,
+    "d": 2
+   },
+   {
+    "f": "apps/web/src/visual/visual.css",
+    "a": 34,
+    "d": 0
+   },
+   {
+    "f": "docs/README.md",
+    "a": 2,
+    "d": 0
+   },
+   {
+    "f": "docs/formations-audio-fog.md",
+    "a": 55,
+    "d": 0
+   },
+   {
+    "f": "docs/protocol.md",
+    "a": 3,
+    "d": 1
+   },
+   {
+    "f": "packages/input/src/battlefield.test.ts",
+    "a": 10,
+    "d": 1
+   },
+   {
+    "f": "packages/input/src/battlefield.ts",
+    "a": 13,
+    "d": 4
+   },
+   {
+    "f": "packages/input/src/index.test.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "packages/input/src/index.ts",
+    "a": 24,
+    "d": 4
+   },
+   {
+    "f": "packages/sim/src/index.ts",
+    "a": 119,
+    "d": 11
+   },
+   {
+    "f": "packages/sim/src/maps/world.test.ts",
+    "a": 19,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/maps/world.ts",
+    "a": 11,
+    "d": 4
+   },
+   {
+    "f": "packages/sim/src/mecanicas/formations.test.ts",
+    "a": 245,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/mecanicas/formations.ts",
+    "a": 227,
+    "d": 0
+   },
+   {
+    "f": "packages/state/src/index.ts",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "tests/e2e/formations.spec.ts",
+    "a": 89,
+    "d": 0
+   }
+  ]
+ },
+ "ffde94c1a1fc24298b68671db1df704ab1114aae": {
+  "team": "Impulso Stellar",
+  "repo": "orlando-vazquez-career/stellar-impulse",
+  "author": "Hans3010",
+  "date": "2026-10-08T01:40:59Z",
+  "message": "Merge remote-tracking branch 'origin/main' into feat/formaciones-audio-niebla",
+  "parents": 2,
+  "files": [
+   {
+    "f": "apps/server/src/auth.ts",
+    "a": 11,
+    "d": 4
+   },
+   {
+    "f": "apps/server/src/campaign-rewards.test.ts",
+    "a": 51,
+    "d": 0
+   },
+   {
+    "f": "apps/server/src/campaign-room.ts",
+    "a": 16,
+    "d": 2
+   },
+   {
+    "f": "apps/server/src/training-rewards.test.ts",
+    "a": 36,
+    "d": 0
+   },
+   {
+    "f": "apps/server/src/training-room.ts",
+    "a": 19,
+    "d": 5
+   },
+   {
+    "f": "apps/web/src/visual/profile/MatchProgress.tsx",
+    "a": 2,
+    "d": 1
+   },
+   {
+    "f": "docs/progression.md",
+    "a": 13,
+    "d": 0
+   },
+   {
+    "f": "docs/protocol.md",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "packages/sim/src/index.ts",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "packages/sim/src/progression.test.ts",
+    "a": 25,
+    "d": 1
+   },
+   {
+    "f": "packages/sim/src/progression.ts",
+    "a": 19,
+    "d": 1
+   }
+  ]
+ },
+ "7c1d8732c08ed1456f01ddea8a1881bacf071c2f": {
+  "team": "Impulso Stellar",
+  "repo": "orlando-vazquez-career/stellar-impulse",
+  "author": "Hans3010",
+  "date": "2026-10-08T01:40:58Z",
+  "message": "Merge remote-tracking branch 'origin/main' into feat/formaciones-audio-niebla",
+  "parents": 2,
+  "files": [
+   {
+    "f": "apps/web/src/visual/game/model.ts",
+    "a": 4,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/visual/game/phaser/MainScene.ts",
+    "a": 34,
+    "d": 1
+   },
+   {
+    "f": "apps/web/src/visual/game/server-adapter.ts",
+    "a": 13,
+    "d": 1
+   },
+   {
+    "f": "packages/sim/src/index.ts",
+    "a": 5,
+    "d": 2
+   },
+   {
+    "f": "packages/sim/src/mapas/espiral.test.ts",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/mapas/espiral.ts",
+    "a": 10,
+    "d": 1
+   },
+   {
+    "f": "packages/sim/src/mapas/leer-tiled.ts",
+    "a": 2,
+    "d": 1
+   },
+   {
+    "f": "packages/sim/src/maps/capture.test.ts",
+    "a": 82,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/maps/mechanics.ts",
+    "a": 33,
+    "d": 12
+   },
+   {
+    "f": "packages/sim/src/mecanicas/ship-traffic.test.ts",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/LEEME.md",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/espiral-estelar.json",
+    "a": 20,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/espiral-estelar.tmj",
+    "a": 20,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/espiral-estelar.tmx",
+    "a": 7,
+    "d": 3
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/logica/test/espiral-estelar.test.ts",
+    "a": 18,
+    "d": 2
+   },
+   {
+    "f": "packages/state/src/index.ts",
+    "a": 5,
+    "d": 1
+   }
+  ]
+ },
+ "e37bbe5c0f5ab4b79b0b0813e980e4662bac96cd": {
+  "team": "Impulso Stellar",
+  "repo": "orlando-vazquez-career/stellar-impulse",
+  "author": "Hans3010",
+  "date": "2026-10-08T01:35:48Z",
+  "message": "Merge pull request #39 from orlando-vazquez-career/fix/premios-cuenta",
+  "parents": 2,
+  "files": [
+   {
+    "f": "apps/server/src/auth.ts",
+    "a": 11,
+    "d": 4
+   },
+   {
+    "f": "apps/server/src/campaign-rewards.test.ts",
+    "a": 51,
+    "d": 0
+   },
+   {
+    "f": "apps/server/src/campaign-room.ts",
+    "a": 16,
+    "d": 2
+   },
+   {
+    "f": "apps/server/src/training-rewards.test.ts",
+    "a": 36,
+    "d": 0
+   },
+   {
+    "f": "apps/server/src/training-room.ts",
+    "a": 19,
+    "d": 5
+   },
+   {
+    "f": "apps/web/src/visual/profile/MatchProgress.tsx",
+    "a": 2,
+    "d": 1
+   },
+   {
+    "f": "docs/progression.md",
+    "a": 13,
+    "d": 0
+   },
+   {
+    "f": "docs/protocol.md",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "packages/sim/src/index.ts",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "packages/sim/src/progression.test.ts",
+    "a": 25,
+    "d": 1
+   },
+   {
+    "f": "packages/sim/src/progression.ts",
+    "a": 19,
+    "d": 1
+   }
+  ]
+ },
+ "1234f3f95e382b4f00d044b7441b181e3ced664c": {
+  "team": "Impulso Stellar",
+  "repo": "orlando-vazquez-career/stellar-impulse",
+  "author": "orlando-vazquez-career",
+  "date": "2026-10-07T22:11:08Z",
+  "message": "fix(progresion): premios solo con rival real y XP en la campaña 1v1",
+  "parents": 1,
+  "files": [
+   {
+    "f": "apps/server/src/auth.ts",
+    "a": 11,
+    "d": 4
+   },
+   {
+    "f": "apps/server/src/campaign-rewards.test.ts",
+    "a": 51,
+    "d": 0
+   },
+   {
+    "f": "apps/server/src/campaign-room.ts",
+    "a": 16,
+    "d": 2
+   },
+   {
+    "f": "apps/server/src/training-rewards.test.ts",
+    "a": 36,
+    "d": 0
+   },
+   {
+    "f": "apps/server/src/training-room.ts",
+    "a": 19,
+    "d": 5
+   },
+   {
+    "f": "apps/web/src/visual/profile/MatchProgress.tsx",
+    "a": 2,
+    "d": 1
+   },
+   {
+    "f": "docs/progression.md",
+    "a": 13,
+    "d": 0
+   },
+   {
+    "f": "docs/protocol.md",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "packages/sim/src/index.ts",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "packages/sim/src/progression.test.ts",
+    "a": 25,
+    "d": 1
+   },
+   {
+    "f": "packages/sim/src/progression.ts",
+    "a": 19,
+    "d": 1
+   }
+  ]
+ },
+ "bf5511108263f6fab4b609ce4f34c481858c7bd4": {
+  "team": "Impulso Stellar",
+  "repo": "orlando-vazquez-career/stellar-impulse",
+  "author": "Hans3010",
+  "date": "2026-10-07T14:04:14Z",
+  "message": "fix: complete formations and live audio across game modes",
+  "parents": 1,
+  "files": [
+   {
+    "f": "apps/web/src/login/sound.ts",
+    "a": 15,
+    "d": 5
+   },
+   {
+    "f": "apps/web/src/multiplayer/session.ts",
+    "a": 2,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/visual/audio-mix.ts",
+    "a": 26,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/visual/game/AugmentHud.tsx",
+    "a": 5,
+    "d": 5
+   },
+   {
+    "f": "apps/web/src/visual/game/GameplayScreen.tsx",
+    "a": 4,
+    "d": 2
+   },
+   {
+    "f": "apps/web/src/visual/game/Hud.tsx",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "apps/web/src/visual/game/audio.test.ts",
+    "a": 61,
+    "d": 2
+   },
+   {
+    "f": "apps/web/src/visual/game/audio.ts",
+    "a": 52,
+    "d": 14
+   },
+   {
+    "f": "apps/web/src/visual/game/campaign-adapter.test.ts",
+    "a": 29,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/visual/game/campaign-adapter.ts",
+    "a": 23,
+    "d": 7
+   },
+   {
+    "f": "apps/web/src/visual/game/server-adapter.test.ts",
+    "a": 24,
+    "d": 2
+   },
+   {
+    "f": "apps/web/src/visual/game/server-adapter.ts",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "apps/web/src/visual/settings/AudioControls.tsx",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "apps/web/src/visual/visual.css",
+    "a": 4,
+    "d": 2
+   },
+   {
+    "f": "docs/README.md",
+    "a": 2,
+    "d": 0
+   },
+   {
+    "f": "docs/formations-audio-fog.md",
+    "a": 55,
+    "d": 0
+   },
+   {
+    "f": "docs/protocol.md",
+    "a": 3,
+    "d": 1
+   },
+   {
+    "f": "packages/input/src/battlefield.test.ts",
+    "a": 10,
+    "d": 1
+   },
+   {
+    "f": "packages/input/src/battlefield.ts",
+    "a": 13,
+    "d": 4
+   },
+   {
+    "f": "packages/input/src/index.test.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "packages/input/src/index.ts",
+    "a": 2,
+    "d": 1
+   },
+   {
+    "f": "packages/sim/src/index.ts",
+    "a": 5,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/maps/world.test.ts",
+    "a": 19,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/maps/world.ts",
+    "a": 11,
+    "d": 4
+   },
+   {
+    "f": "packages/sim/src/mecanicas/formations.test.ts",
+    "a": 26,
+    "d": 1
+   },
+   {
+    "f": "packages/sim/src/mecanicas/formations.ts",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "tests/e2e/formations.spec.ts",
+    "a": 30,
+    "d": 0
+   }
+  ]
+ },
+ "73c38f38bca2cc0b88213329f8d9eb0ba06d4529": {
+  "team": "Impulso Stellar",
+  "repo": "orlando-vazquez-career/stellar-impulse",
+  "author": "Hans3010",
+  "date": "2026-10-07T13:15:44Z",
+  "message": "feat(web): fog of war with memory and enemy fade at the edge of vision",
+  "parents": 1,
+  "files": [
+   {
+    "f": "apps/web/src/visual/game/Hud.tsx",
+    "a": 8,
+    "d": 2
+   },
+   {
+    "f": "apps/web/src/visual/game/model.ts",
+    "a": 4,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/visual/game/phaser/MainScene.ts",
+    "a": 36,
+    "d": 14
+   },
+   {
+    "f": "apps/web/src/visual/game/server-adapter.test.ts",
+    "a": 17,
+    "d": 1
+   },
+   {
+    "f": "apps/web/src/visual/game/server-adapter.ts",
+    "a": 45,
+    "d": 6
+   }
+  ]
+ },
+ "5838223e7e204d39fbe15bc48edef0924d2ff7a2": {
+  "team": "Impulso Stellar",
+  "repo": "orlando-vazquez-career/stellar-impulse",
+  "author": "Hans3010",
+  "date": "2026-10-07T12:03:00Z",
+  "message": "Merge branch 'fix/audio-ajustes' into prueba/local-todo",
+  "parents": 2,
+  "files": [
+   {
+    "f": "apps/web/src/login/sound.ts",
+    "a": 5,
+    "d": 1
+   },
+   {
+    "f": "apps/web/src/visual/VisualPrototypeApp.tsx",
+    "a": 12,
+    "d": 4
+   },
+   {
+    "f": "apps/web/src/visual/audio-mix.test.ts",
+    "a": 64,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/visual/audio-mix.ts",
+    "a": 36,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/visual/game/AugmentHud.tsx",
+    "a": 4,
+    "d": 2
+   },
+   {
+    "f": "apps/web/src/visual/game/GameplayScreen.tsx",
+    "a": 8,
+    "d": 8
+   },
+   {
+    "f": "apps/web/src/visual/game/Hud.tsx",
+    "a": 33,
+    "d": 3
+   },
+   {
+    "f": "apps/web/src/visual/game/audio.ts",
+    "a": 18,
+    "d": 11
+   },
+   {
+    "f": "apps/web/src/visual/i18n.tsx",
+    "a": 16,
+    "d": 4
+   },
+   {
+    "f": "apps/web/src/visual/music.ts",
+    "a": 18,
+    "d": 7
+   },
+   {
+    "f": "apps/web/src/visual/settings/AudioControls.tsx",
+    "a": 46,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/visual/settings/SettingsScreen.tsx",
+    "a": 20,
+    "d": 15
+   },
+   {
+    "f": "apps/web/src/visual/settings/preferences.test.ts",
+    "a": 7,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/visual/settings/preferences.ts",
+    "a": 19,
+    "d": 2
+   },
+   {
+    "f": "apps/web/src/visual/settings/settings.css",
+    "a": 12,
+    "d": 2
+   },
+   {
+    "f": "apps/web/src/visual/visual.css",
+    "a": 23,
+    "d": 0
+   }
+  ]
+ },
+ "ce6eb228410a7dbab96a140db096040d2dcd04c8": {
+  "team": "Impulso Stellar",
+  "repo": "orlando-vazquez-career/stellar-impulse",
+  "author": "Hans3010",
+  "date": "2026-10-07T12:03:00Z",
+  "message": "Merge remote-tracking branch 'origin/main' into feat/formaciones",
+  "parents": 2,
+  "files": [
+   {
+    "f": "apps/web/public/assets/planets/campaign.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "apps/web/public/assets/planets/credits.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "apps/web/public/assets/planets/hangar.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "apps/web/public/assets/planets/settings.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "apps/web/public/assets/planets/training.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "apps/web/public/assets/planets/versus.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/lobby/lobby-host.css",
+    "a": 32,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/lobby/modes.ts",
+    "a": 88,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/visual/VisualPrototypeApp.tsx",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "apps/web/src/visual/game/GameplayScreen.tsx",
+    "a": 4,
+    "d": 4
+   },
+   {
+    "f": "apps/web/src/visual/game/Hud.tsx",
+    "a": 21,
+    "d": 10
+   },
+   {
+    "f": "apps/web/src/visual/game/audio.ts",
+    "a": 6,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/visual/game/mock-adapter.ts",
+    "a": 2,
+    "d": 1
+   },
+   {
+    "f": "apps/web/src/visual/game/model.ts",
+    "a": 12,
+    "d": 1
+   },
+   {
+    "f": "apps/web/src/visual/game/phaser/MainScene.ts",
+    "a": 257,
+    "d": 47
+   },
+   {
+    "f": "apps/web/src/visual/game/phaser/PhaserBattlefield.tsx",
+    "a": 5,
+    "d": 2
+   },
+   {
+    "f": "apps/web/src/visual/game/phaser/isometric.test.ts",
+    "a": 41,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/visual/game/phaser/isometric.ts",
+    "a": 66,
+    "d": 7
+   },
+   {
+    "f": "apps/web/src/visual/game/phaser/robot-brain.test.ts",
+    "a": 71,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/visual/game/phaser/robot-brain.ts",
+    "a": 159,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/visual/game/phaser/robot-effects.ts",
+    "a": 139,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/visual/game/phaser/satellite-effects.ts",
+    "a": 173,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/visual/game/server-adapter.test.ts",
+    "a": 9,
+    "d": 1
+   },
+   {
+    "f": "apps/web/src/visual/game/server-adapter.ts",
+    "a": 17,
+    "d": 5
+   },
+   {
+    "f": "apps/web/src/visual/game/server-motion.test.ts",
+    "a": 5,
+    "d": 1
+   },
+   {
+    "f": "apps/web/src/visual/lobby/PreparationLobby.tsx",
+    "a": 1,
+    "d": 2
+   },
+   {
+    "f": "apps/web/src/visual/map/sector-map.test.ts",
+    "a": 12,
+    "d": 5
+   },
+   {
+    "f": "apps/web/src/visual/map/sector-map.ts",
+    "a": 58,
+    "d": 10
+   },
+   {
+    "f": "docs/Prototipo-lobby/aa.md",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/Prototipo-lobby/impulso-stellar-lobby/README.md",
+    "a": 43,
+    "d": 0
+   },
+   {
+    "f": "docs/Prototipo-lobby/impulso-stellar-lobby/assets/planets/campaing.gif",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/Prototipo-lobby/impulso-stellar-lobby/assets/planets/credits.gif",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/Prototipo-lobby/impulso-stellar-lobby/assets/planets/hangar.gif",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/Prototipo-lobby/impulso-stellar-lobby/assets/planets/s.gif",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/Prototipo-lobby/impulso-stellar-lobby/assets/planets/settings.gif",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/Prototipo-lobby/impulso-stellar-lobby/assets/planets/training.gif",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/Prototipo-lobby/impulso-stellar-lobby/assets/planets/versus.gif",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/Prototipo-lobby/impulso-stellar-lobby/assets/starfields/starfield-1.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/Prototipo-lobby/impulso-stellar-lobby/assets/starfields/starfield-2.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/Prototipo-lobby/impulso-stellar-lobby/assets/starfields/starfield-3.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/Prototipo-lobby/impulso-stellar-lobby/assets/starfields/starfield-4.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/Prototipo-lobby/impulso-stellar-lobby/css/lobby.css",
+    "a": 405,
+    "d": 0
+   },
+   {
+    "f": "docs/Prototipo-lobby/impulso-stellar-lobby/index.html",
+    "a": 208,
+    "d": 0
+   },
+   {
+    "f": "docs/Prototipo-lobby/impulso-stellar-lobby/js/alias.js",
+    "a": 78,
+    "d": 0
+   },
+   {
+    "f": "docs/Prototipo-lobby/impulso-stellar-lobby/js/lobby.js",
+    "a": 232,
+    "d": 0
+   },
+   {
+    "f": "docs/Prototipo-lobby/impulso-stellar-lobby/js/main.js",
+    "a": 49,
+    "d": 0
+   },
+   {
+    "f": "docs/Prototipo-lobby/impulso-stellar-lobby/js/modes.js",
+    "a": 51,
+    "d": 0
+   },
+   {
+    "f": "docs/Prototipo-lobby/impulso-stellar-lobby/js/sound.js",
+    "a": 68,
+    "d": 0
+   },
+   {
+    "f": "docs/Prototipo-lobby/impulso-stellar-lobby/js/starfield.js",
+    "a": 36,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/index.ts",
+    "a": 11,
+    "d": 1
+   },
+   {
+    "f": "packages/sim/src/mapas/espiral.test.ts",
+    "a": 33,
+    "d": 11
+   },
+   {
+    "f": "packages/sim/src/mapas/espiral.ts",
+    "a": 131,
+    "d": 10
+   },
+   {
+    "f": "packages/sim/src/mapas/leer-tiled.ts",
+    "a": 6,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/mapas/obstaculos.test.ts",
+    "a": 88,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/mapas/obstaculos.ts",
+    "a": 84,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/mapas/tsx-tileset.test.ts",
+    "a": 22,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/mapas/tsx-tileset.ts",
+    "a": 167,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/mecanicas/satellites.test.ts",
+    "a": 66,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/mecanicas/satellites.ts",
+    "a": 106,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/mecanicas/ship-traffic.test.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/3831233578.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/3831233578a.tsx",
+    "a": 4,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/LEEME.md",
+    "a": 4,
+    "d": 1
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/assets-externos/atlas_externos.json",
+    "a": 68,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/assets-externos/planetafondo.tsx",
+    "a": 13,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/assets-externos/robot-sal.tsx",
+    "a": 55,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/assets-externos/robotsitoo.tsx",
+    "a": 18,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/assets-externos/sprites/Hoja_de_Sprites_Sci_Fi_Isométricos.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/assets-externos/sprites/Sprite satelital en cuatro vistas is.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/assets-externos/sprites/antena_larga_1.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/assets-externos/sprites/antena_larga_2.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/assets-externos/sprites/antena_larga_3.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/assets-externos/sprites/antena_larga_4.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/assets-externos/sprites/antena_multipolar_1.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/assets-externos/sprites/antena_multipolar_2.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/assets-externos/sprites/antena_plato_1.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/assets-externos/sprites/antena_plato_2.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/assets-externos/sprites/antena_plato_3.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/assets-externos/sprites/planeta_grande.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/assets-externos/sprites/robot-sal.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/assets-externos/sprites/robotsitoo.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/assets-externos/sprites/satelite_1.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/assets-externos/sprites/satelite_2.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/assets-externos/sprites/satelite_animacion.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/assets-externos/sprites/satelite_dorsal.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/assets-externos/sprites/satelite_frontal.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/assets-juego/atlas.json",
+    "a": 13,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/assets-juego/dron.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/assets-juego/dron_sombra.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/assets-juego/onda_portal.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/assets-juego/polvo_estelar.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/assets-juego/satelite_caida.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/espiral-estelar.json",
+    "a": 3784,
+    "d": 1
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/espiral-estelar.tiled-project",
+    "a": 198,
+    "d": 1
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/espiral-estelar.tmj",
+    "a": 2913,
+    "d": 705
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/espiral-estelar.tmx",
+    "a": 1100,
+    "d": 298
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/herramientas/assets.py",
+    "a": 23,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/herramientas/assets_obstaculos.py",
+    "a": 192,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/herramientas/assets_runtime.py",
+    "a": 11,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/herramientas/catalogo.py",
+    "a": 17,
+    "d": 4
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/herramientas/diseno_espiral.py",
+    "a": 362,
+    "d": 136
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/herramientas/generar_kit.py",
+    "a": 12,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/herramientas/mapa_tiled.py",
+    "a": 43,
+    "d": 10
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/herramientas/tilesets.py",
+    "a": 11,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/herramientas/vista_previa.py",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/logica/client/critter-manager.ts",
+    "a": 68,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/logica/client/critters.ts",
+    "a": 106,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/logica/client/elevation.ts",
+    "a": 25,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/logica/client/occlusion.ts",
+    "a": 21,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/logica/client/portal-view.ts",
+    "a": 4,
+    "d": 1
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/logica/client/portal-warning.ts",
+    "a": 70,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/logica/src/collision.ts",
+    "a": 36,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/logica/src/cycle.ts",
+    "a": 20,
+    "d": 3
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/logica/src/fog-of-war.ts",
+    "a": 2,
+    "d": 1
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/logica/src/game-map.ts",
+    "a": 5,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/logica/src/index.ts",
+    "a": 2,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/logica/src/terrain.ts",
+    "a": 8,
+    "d": 1
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/logica/src/tiled-loader.ts",
+    "a": 64,
+    "d": 7
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/logica/src/watchtowers.ts",
+    "a": 20,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/logica/test/especificacion.test.ts",
+    "a": 76,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/logica/test/espiral-estelar.test.ts",
+    "a": 42,
+    "d": 8
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/logica/test/extras.test.ts",
+    "a": 65,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/planetaaas.tsx",
+    "a": 4,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/planetafondo.tsx",
+    "a": 57,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/planetas.tsx",
+    "a": 4,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/tilesets/altura.tsx",
+    "a": 6,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/tilesets/estructuras.tsx",
+    "a": 19,
+    "d": 1
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/tilesets/img/altura.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/tilesets/img/cristales.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/tilesets/img/estacion_rota.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/tilesets/img/logica.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/tilesets/img/plataformas.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/tilesets/img/satelite.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/tilesets/img/suelo.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/tilesets/img/torre_vigilancia.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/tilesets/img/valla_laser_x.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/tilesets/img/valla_laser_y.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/tilesets/logica.tsx",
+    "a": 4,
+    "d": 2
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/tilesets/plataformas.tsx",
+    "a": 7,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/tilesets/suelo.tsx",
+    "a": 5,
+    "d": 2
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/vistas-previas/mapa_completo.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/vistas-previas/mapa_con_niebla.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/vistas-previas/minimapa_logica.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "packages/state/src/index.ts",
+    "a": 3,
+    "d": 0
+   },
+   {
+    "f": "packages/ui/src/lobby/PlanetGlobe.tsx",
+    "a": 157,
+    "d": 0
+   },
+   {
+    "f": "packages/ui/src/lobby/PlanetStage.tsx",
+    "a": 73,
+    "d": 0
+   },
+   {
+    "f": "scripts/obstaculos-tmx.ts",
+    "a": 46,
+    "d": 0
+   },
+   {
+    "f": "tests/e2e/augments.spec.ts",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "tests/e2e/formations.spec.ts",
+    "a": 3,
+    "d": 15
+   },
+   {
+    "f": "tests/e2e/helpers.ts",
+    "a": 84,
+    "d": 3
+   },
+   {
+    "f": "tests/e2e/match.spec.ts",
+    "a": 6,
+    "d": 21
+   },
+   {
+    "f": "tests/e2e/multiplayer.spec.ts",
+    "a": 1,
+    "d": 10
+   },
+   {
+    "f": "tests/e2e/training.spec.ts",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "tests/e2e/visual.spec.ts",
+    "a": 5,
+    "d": 21
+   }
+  ]
+ },
+ "7fd2eca1d72b5aee24508264f8241814aab48793": {
+  "team": "Impulso Stellar",
+  "repo": "orlando-vazquez-career/stellar-impulse",
+  "author": "Hans3010",
+  "date": "2026-10-07T11:55:15Z",
+  "message": "Merge remote-tracking branch 'origin/main' into fix/audio-ajustes",
+  "parents": 2,
+  "files": [
+   {
+    "f": "apps/web/public/assets/planets/campaign.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "apps/web/public/assets/planets/credits.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "apps/web/public/assets/planets/hangar.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "apps/web/public/assets/planets/settings.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "apps/web/public/assets/planets/training.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "apps/web/public/assets/planets/versus.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/lobby/lobby-host.css",
+    "a": 32,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/lobby/modes.ts",
+    "a": 88,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/visual/VisualPrototypeApp.tsx",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "apps/web/src/visual/game/GameplayScreen.tsx",
+    "a": 4,
+    "d": 4
+   },
+   {
+    "f": "apps/web/src/visual/game/Hud.tsx",
+    "a": 21,
+    "d": 10
+   },
+   {
+    "f": "apps/web/src/visual/game/audio.ts",
+    "a": 6,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/visual/game/mock-adapter.ts",
+    "a": 2,
+    "d": 1
+   },
+   {
+    "f": "apps/web/src/visual/game/model.ts",
+    "a": 12,
+    "d": 1
+   },
+   {
+    "f": "apps/web/src/visual/game/phaser/MainScene.ts",
+    "a": 257,
+    "d": 47
+   },
+   {
+    "f": "apps/web/src/visual/game/phaser/PhaserBattlefield.tsx",
+    "a": 5,
+    "d": 2
+   },
+   {
+    "f": "apps/web/src/visual/game/phaser/isometric.test.ts",
+    "a": 41,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/visual/game/phaser/isometric.ts",
+    "a": 66,
+    "d": 7
+   },
+   {
+    "f": "apps/web/src/visual/game/phaser/robot-brain.test.ts",
+    "a": 71,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/visual/game/phaser/robot-brain.ts",
+    "a": 159,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/visual/game/phaser/robot-effects.ts",
+    "a": 139,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/visual/game/phaser/satellite-effects.ts",
+    "a": 173,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/visual/game/server-adapter.test.ts",
+    "a": 9,
+    "d": 1
+   },
+   {
+    "f": "apps/web/src/visual/game/server-adapter.ts",
+    "a": 17,
+    "d": 5
+   },
+   {
+    "f": "apps/web/src/visual/game/server-motion.test.ts",
+    "a": 5,
+    "d": 1
+   },
+   {
+    "f": "apps/web/src/visual/lobby/PreparationLobby.tsx",
+    "a": 1,
+    "d": 2
+   },
+   {
+    "f": "apps/web/src/visual/map/sector-map.test.ts",
+    "a": 12,
+    "d": 5
+   },
+   {
+    "f": "apps/web/src/visual/map/sector-map.ts",
+    "a": 58,
+    "d": 10
+   },
+   {
+    "f": "docs/Prototipo-lobby/aa.md",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/Prototipo-lobby/impulso-stellar-lobby/README.md",
+    "a": 43,
+    "d": 0
+   },
+   {
+    "f": "docs/Prototipo-lobby/impulso-stellar-lobby/assets/planets/campaing.gif",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/Prototipo-lobby/impulso-stellar-lobby/assets/planets/credits.gif",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/Prototipo-lobby/impulso-stellar-lobby/assets/planets/hangar.gif",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/Prototipo-lobby/impulso-stellar-lobby/assets/planets/s.gif",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/Prototipo-lobby/impulso-stellar-lobby/assets/planets/settings.gif",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/Prototipo-lobby/impulso-stellar-lobby/assets/planets/training.gif",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/Prototipo-lobby/impulso-stellar-lobby/assets/planets/versus.gif",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/Prototipo-lobby/impulso-stellar-lobby/assets/starfields/starfield-1.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/Prototipo-lobby/impulso-stellar-lobby/assets/starfields/starfield-2.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/Prototipo-lobby/impulso-stellar-lobby/assets/starfields/starfield-3.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/Prototipo-lobby/impulso-stellar-lobby/assets/starfields/starfield-4.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/Prototipo-lobby/impulso-stellar-lobby/css/lobby.css",
+    "a": 405,
+    "d": 0
+   },
+   {
+    "f": "docs/Prototipo-lobby/impulso-stellar-lobby/index.html",
+    "a": 208,
+    "d": 0
+   },
+   {
+    "f": "docs/Prototipo-lobby/impulso-stellar-lobby/js/alias.js",
+    "a": 78,
+    "d": 0
+   },
+   {
+    "f": "docs/Prototipo-lobby/impulso-stellar-lobby/js/lobby.js",
+    "a": 232,
+    "d": 0
+   },
+   {
+    "f": "docs/Prototipo-lobby/impulso-stellar-lobby/js/main.js",
+    "a": 49,
+    "d": 0
+   },
+   {
+    "f": "docs/Prototipo-lobby/impulso-stellar-lobby/js/modes.js",
+    "a": 51,
+    "d": 0
+   },
+   {
+    "f": "docs/Prototipo-lobby/impulso-stellar-lobby/js/sound.js",
+    "a": 68,
+    "d": 0
+   },
+   {
+    "f": "docs/Prototipo-lobby/impulso-stellar-lobby/js/starfield.js",
+    "a": 36,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/index.ts",
+    "a": 11,
+    "d": 1
+   },
+   {
+    "f": "packages/sim/src/mapas/espiral.test.ts",
+    "a": 33,
+    "d": 11
+   },
+   {
+    "f": "packages/sim/src/mapas/espiral.ts",
+    "a": 131,
+    "d": 10
+   },
+   {
+    "f": "packages/sim/src/mapas/leer-tiled.ts",
+    "a": 6,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/mapas/obstaculos.test.ts",
+    "a": 88,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/mapas/obstaculos.ts",
+    "a": 84,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/mapas/tsx-tileset.test.ts",
+    "a": 22,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/mapas/tsx-tileset.ts",
+    "a": 167,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/mecanicas/satellites.test.ts",
+    "a": 66,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/mecanicas/satellites.ts",
+    "a": 106,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/mecanicas/ship-traffic.test.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/3831233578.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/3831233578a.tsx",
+    "a": 4,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/LEEME.md",
+    "a": 4,
+    "d": 1
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/assets-externos/atlas_externos.json",
+    "a": 68,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/assets-externos/planetafondo.tsx",
+    "a": 13,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/assets-externos/robot-sal.tsx",
+    "a": 55,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/assets-externos/robotsitoo.tsx",
+    "a": 18,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/assets-externos/sprites/Hoja_de_Sprites_Sci_Fi_Isométricos.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/assets-externos/sprites/Sprite satelital en cuatro vistas is.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/assets-externos/sprites/antena_larga_1.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/assets-externos/sprites/antena_larga_2.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/assets-externos/sprites/antena_larga_3.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/assets-externos/sprites/antena_larga_4.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/assets-externos/sprites/antena_multipolar_1.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/assets-externos/sprites/antena_multipolar_2.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/assets-externos/sprites/antena_plato_1.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/assets-externos/sprites/antena_plato_2.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/assets-externos/sprites/antena_plato_3.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/assets-externos/sprites/planeta_grande.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/assets-externos/sprites/robot-sal.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/assets-externos/sprites/robotsitoo.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/assets-externos/sprites/satelite_1.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/assets-externos/sprites/satelite_2.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/assets-externos/sprites/satelite_animacion.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/assets-externos/sprites/satelite_dorsal.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/assets-externos/sprites/satelite_frontal.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/assets-juego/atlas.json",
+    "a": 13,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/assets-juego/dron.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/assets-juego/dron_sombra.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/assets-juego/onda_portal.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/assets-juego/polvo_estelar.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/assets-juego/satelite_caida.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/espiral-estelar.json",
+    "a": 3784,
+    "d": 1
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/espiral-estelar.tiled-project",
+    "a": 198,
+    "d": 1
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/espiral-estelar.tmj",
+    "a": 2913,
+    "d": 705
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/espiral-estelar.tmx",
+    "a": 1100,
+    "d": 298
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/herramientas/assets.py",
+    "a": 23,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/herramientas/assets_obstaculos.py",
+    "a": 192,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/herramientas/assets_runtime.py",
+    "a": 11,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/herramientas/catalogo.py",
+    "a": 17,
+    "d": 4
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/herramientas/diseno_espiral.py",
+    "a": 362,
+    "d": 136
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/herramientas/generar_kit.py",
+    "a": 12,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/herramientas/mapa_tiled.py",
+    "a": 43,
+    "d": 10
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/herramientas/tilesets.py",
+    "a": 11,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/herramientas/vista_previa.py",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/logica/client/critter-manager.ts",
+    "a": 68,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/logica/client/critters.ts",
+    "a": 106,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/logica/client/elevation.ts",
+    "a": 25,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/logica/client/occlusion.ts",
+    "a": 21,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/logica/client/portal-view.ts",
+    "a": 4,
+    "d": 1
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/logica/client/portal-warning.ts",
+    "a": 70,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/logica/src/collision.ts",
+    "a": 36,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/logica/src/cycle.ts",
+    "a": 20,
+    "d": 3
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/logica/src/fog-of-war.ts",
+    "a": 2,
+    "d": 1
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/logica/src/game-map.ts",
+    "a": 5,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/logica/src/index.ts",
+    "a": 2,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/logica/src/terrain.ts",
+    "a": 8,
+    "d": 1
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/logica/src/tiled-loader.ts",
+    "a": 64,
+    "d": 7
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/logica/src/watchtowers.ts",
+    "a": 20,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/logica/test/especificacion.test.ts",
+    "a": 76,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/logica/test/espiral-estelar.test.ts",
+    "a": 42,
+    "d": 8
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/logica/test/extras.test.ts",
+    "a": 65,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/planetaaas.tsx",
+    "a": 4,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/planetafondo.tsx",
+    "a": 57,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/planetas.tsx",
+    "a": 4,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/tilesets/altura.tsx",
+    "a": 6,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/tilesets/estructuras.tsx",
+    "a": 19,
+    "d": 1
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/tilesets/img/altura.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/tilesets/img/cristales.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/tilesets/img/estacion_rota.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/tilesets/img/logica.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/tilesets/img/plataformas.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/tilesets/img/satelite.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/tilesets/img/suelo.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/tilesets/img/torre_vigilancia.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/tilesets/img/valla_laser_x.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/tilesets/img/valla_laser_y.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/tilesets/logica.tsx",
+    "a": 4,
+    "d": 2
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/tilesets/plataformas.tsx",
+    "a": 7,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/tilesets/suelo.tsx",
+    "a": 5,
+    "d": 2
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/vistas-previas/mapa_completo.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/vistas-previas/mapa_con_niebla.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar/vistas-previas/minimapa_logica.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "packages/state/src/index.ts",
+    "a": 3,
+    "d": 0
+   },
+   {
+    "f": "packages/ui/src/lobby/PlanetGlobe.tsx",
+    "a": 157,
+    "d": 0
+   },
+   {
+    "f": "packages/ui/src/lobby/PlanetStage.tsx",
+    "a": 73,
+    "d": 0
+   },
+   {
+    "f": "scripts/obstaculos-tmx.ts",
+    "a": 46,
+    "d": 0
+   },
+   {
+    "f": "tests/e2e/augments.spec.ts",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "tests/e2e/helpers.ts",
+    "a": 84,
+    "d": 3
+   },
+   {
+    "f": "tests/e2e/match.spec.ts",
+    "a": 6,
+    "d": 21
+   },
+   {
+    "f": "tests/e2e/multiplayer.spec.ts",
+    "a": 1,
+    "d": 10
+   },
+   {
+    "f": "tests/e2e/training.spec.ts",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "tests/e2e/visual.spec.ts",
+    "a": 5,
+    "d": 21
+   }
+  ]
+ },
+ "ff38ac7d532c9608a17fee14343542d52d9d7c44": {
+  "team": "Impulso Stellar",
+  "repo": "orlando-vazquez-career/stellar-impulse",
+  "author": "Hans3010",
+  "date": "2026-10-07T11:14:51Z",
+  "message": "fix: stop the stray lobby music and add a live sound mix",
+  "parents": 1,
+  "files": [
+   {
+    "f": "apps/web/src/login/sound.ts",
+    "a": 5,
+    "d": 1
+   },
+   {
+    "f": "apps/web/src/visual/VisualPrototypeApp.tsx",
+    "a": 12,
+    "d": 4
+   },
+   {
+    "f": "apps/web/src/visual/audio-mix.test.ts",
+    "a": 64,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/visual/audio-mix.ts",
+    "a": 36,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/visual/game/AugmentHud.tsx",
+    "a": 4,
+    "d": 2
+   },
+   {
+    "f": "apps/web/src/visual/game/GameplayScreen.tsx",
+    "a": 8,
+    "d": 8
+   },
+   {
+    "f": "apps/web/src/visual/game/Hud.tsx",
+    "a": 33,
+    "d": 3
+   },
+   {
+    "f": "apps/web/src/visual/game/audio.ts",
+    "a": 18,
+    "d": 11
+   },
+   {
+    "f": "apps/web/src/visual/i18n.tsx",
+    "a": 16,
+    "d": 4
+   },
+   {
+    "f": "apps/web/src/visual/music.ts",
+    "a": 18,
+    "d": 7
+   },
+   {
+    "f": "apps/web/src/visual/settings/AudioControls.tsx",
+    "a": 46,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/visual/settings/SettingsScreen.tsx",
+    "a": 20,
+    "d": 15
+   },
+   {
+    "f": "apps/web/src/visual/settings/preferences.test.ts",
+    "a": 7,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/visual/settings/preferences.ts",
+    "a": 19,
+    "d": 2
+   },
+   {
+    "f": "apps/web/src/visual/settings/settings.css",
+    "a": 12,
+    "d": 2
+   },
+   {
+    "f": "apps/web/src/visual/visual.css",
+    "a": 23,
+    "d": 0
+   }
+  ]
+ },
+ "0ada5376d528dc55eb0f40ca9866a54b43fd8816": {
+  "team": "Impulso Stellar",
+  "repo": "orlando-vazquez-career/stellar-impulse",
+  "author": "Hans3010",
+  "date": "2026-10-07T10:52:06Z",
+  "message": "feat: squad formations for group move orders",
+  "parents": 1,
+  "files": [
+   {
+    "f": "apps/web/src/visual/game/GameplayScreen.tsx",
+    "a": 3,
+    "d": 1
+   },
+   {
+    "f": "apps/web/src/visual/game/Hud.tsx",
+    "a": 32,
+    "d": 3
+   },
+   {
+    "f": "apps/web/src/visual/game/formation.ts",
+    "a": 30,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/visual/game/model.ts",
+    "a": 6,
+    "d": 1
+   },
+   {
+    "f": "apps/web/src/visual/game/phaser/MainScene.ts",
+    "a": 41,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/visual/game/server-adapter.ts",
+    "a": 19,
+    "d": 4
+   },
+   {
+    "f": "apps/web/src/visual/i18n.tsx",
+    "a": 16,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/visual/visual.css",
+    "a": 9,
+    "d": 0
+   },
+   {
+    "f": "packages/input/src/index.ts",
+    "a": 22,
+    "d": 3
+   },
+   {
+    "f": "packages/sim/src/index.ts",
+    "a": 114,
+    "d": 11
+   },
+   {
+    "f": "packages/sim/src/mecanicas/formations.test.ts",
+    "a": 220,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/mecanicas/formations.ts",
+    "a": 227,
+    "d": 0
+   },
+   {
+    "f": "packages/state/src/index.ts",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "tests/e2e/formations.spec.ts",
+    "a": 71,
+    "d": 0
+   }
+  ]
+ },
+ "b10187b0019b40e675afd1e955135837ee03795c": {
+  "team": "BOLAR",
+  "repo": "bolarpay/bolar-app",
+  "author": "JersonUCB",
+  "date": "2026-10-08T01:22:57Z",
+  "message": "Merge pull request #2 from bolarpay/codex/landing-remittance-improvements",
+  "parents": 2,
+  "files": [
+   {
+    "f": ".env.example",
+    "a": 4,
+    "d": 0
+   },
+   {
+    "f": "README.md",
+    "a": 2,
+    "d": 0
+   },
+   {
+    "f": "components/landing/gated-calculator-client.tsx",
+    "a": 8,
+    "d": 5
+   },
+   {
+    "f": "components/landing/gated-calculator.tsx",
+    "a": 5,
+    "d": 5
+   },
+   {
+    "f": "components/landing/remittance-calculator.tsx",
+    "a": 97,
+    "d": 31
+   },
+   {
+    "f": "components/remittance/remittance-flow.tsx",
+    "a": 6,
+    "d": 35
+   },
+   {
+    "f": "components/remittance/remittance-steps.tsx",
+    "a": 26,
+    "d": 18
+   },
+   {
+    "f": "components/remittance/use-remittance-auth.ts",
+    "a": 37,
+    "d": 0
+   },
+   {
+    "f": "docs/landing-conversor.md",
+    "a": 43,
+    "d": 0
+   },
+   {
+    "f": "lib/exchange-rate.ts",
+    "a": 47,
+    "d": 0
+   },
+   {
+    "f": "lib/remittance-quote.ts",
+    "a": 4,
+    "d": 6
+   },
+   {
+    "f": "lib/support.ts",
+    "a": 6,
+    "d": 0
+   },
+   {
+    "f": "package.json",
+    "a": 2,
+    "d": 1
+   },
+   {
+    "f": "scripts/test-quote.mjs",
+    "a": 14,
+    "d": 0
+   },
+   {
+    "f": "tests/quote.test.mjs",
+    "a": 75,
+    "d": 0
+   }
+  ]
+ },
+ "8dfe5c53fce211b7c9b95a5b04fb84ee83a63fad": {
+  "team": "BOLAR",
+  "repo": "bolarpay/bolar-app",
+  "author": "JersonUCB",
+  "date": "2026-10-08T01:13:52Z",
+  "message": "feat: update remittance form with cash options, WhatsApp support and optional QR",
+  "parents": 1,
+  "files": [
+   {
+    "f": "components/remittance/remittance-steps.tsx",
+    "a": 9,
+    "d": 8
+   },
+   {
+    "f": "docs/landing-conversor.md",
+    "a": 2,
+    "d": 2
+   }
+  ]
+ },
+ "79afe66af1e8c43bf507ba1cfea9aab65d16d04a": {
+  "team": "BOLAR",
+  "repo": "bolarpay/bolar-app",
+  "author": "JersonUCB",
+  "date": "2026-10-07T23:07:26Z",
+  "message": "feat: improve remittance calculator and Google sign-in",
+  "parents": 1,
+  "files": [
+   {
+    "f": ".env.example",
+    "a": 4,
+    "d": 0
+   },
+   {
+    "f": "README.md",
+    "a": 2,
+    "d": 0
+   },
+   {
+    "f": "components/landing/gated-calculator-client.tsx",
+    "a": 8,
+    "d": 5
+   },
+   {
+    "f": "components/landing/gated-calculator.tsx",
+    "a": 5,
+    "d": 5
+   },
+   {
+    "f": "components/landing/remittance-calculator.tsx",
+    "a": 97,
+    "d": 31
+   },
+   {
+    "f": "components/remittance/remittance-flow.tsx",
+    "a": 6,
+    "d": 35
+   },
+   {
+    "f": "components/remittance/remittance-steps.tsx",
+    "a": 23,
+    "d": 16
+   },
+   {
+    "f": "components/remittance/use-remittance-auth.ts",
+    "a": 37,
+    "d": 0
+   },
+   {
+    "f": "docs/landing-conversor.md",
+    "a": 43,
+    "d": 0
+   },
+   {
+    "f": "lib/exchange-rate.ts",
+    "a": 47,
+    "d": 0
+   },
+   {
+    "f": "lib/remittance-quote.ts",
+    "a": 4,
+    "d": 6
+   },
+   {
+    "f": "lib/support.ts",
+    "a": 6,
+    "d": 0
+   },
+   {
+    "f": "package.json",
+    "a": 2,
+    "d": 1
+   },
+   {
+    "f": "scripts/test-quote.mjs",
+    "a": 14,
+    "d": 0
+   },
+   {
+    "f": "tests/quote.test.mjs",
+    "a": 75,
+    "d": 0
+   }
+  ]
+ },
+ "d9d18463a1f85a159c5c55e1e9e080a34c79ee7b": {
+  "team": "BOLAR",
+  "repo": "bolarpay/bolar-app",
+  "author": "JersonUCB",
+  "date": "2026-10-07T22:37:48Z",
+  "message": "docs: add BOLAR workflow guide and reporting conventions",
+  "parents": 1,
+  "files": [
+   {
+    "f": "AGENTS.md",
+    "a": 9,
+    "d": 0
+   },
+   {
+    "f": "README.md",
+    "a": 2,
+    "d": 0
+   },
+   {
+    "f": "docs/guia-de-trabajo-bolar.md",
+    "a": 71,
+    "d": 0
+   }
+  ]
  }
 }
