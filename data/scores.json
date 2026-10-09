@@ -1,5 +1,5 @@
 {
- "generado": "2026-10-09T12:18:19+00:00",
+ "generado": "2026-10-09T22:01:57+00:00",
  "programa": "Stellar Elite",
  "start_date": "2026-09-02T00:00:00Z",
  "teams": [
@@ -22,10 +22,10 @@
   },
   {
    "name": "Impulso Stellar",
-   "total": 855.3,
-   "per_capita": 855.3,
-   "commits": 173,
-   "pts_commits": 767.3,
+   "total": 1082.94,
+   "per_capita": 1082.94,
+   "commits": 216,
+   "pts_commits": 994.94,
    "dias_activos": 14,
    "contribuidores": [
     "Copilot",
@@ -43,10 +43,10 @@
   },
   {
    "name": "Puls3",
-   "total": 581.07,
-   "per_capita": 581.07,
-   "commits": 85,
-   "pts_commits": 488.07,
+   "total": 620.99,
+   "per_capita": 620.99,
+   "commits": 91,
+   "pts_commits": 527.99,
    "dias_activos": 15,
    "contribuidores": [
     "Pericena",
@@ -64,10 +64,10 @@
   },
   {
    "name": "TilcAI",
-   "total": 441.15,
-   "per_capita": 147.05,
-   "commits": 65,
-   "pts_commits": 394.15,
+   "total": 551.83,
+   "per_capita": 183.94,
+   "commits": 82,
+   "pts_commits": 504.83,
    "dias_activos": 7,
    "contribuidores": [
     "JHAMILCALI",
@@ -98,6 +98,23 @@
    "rank": 5
   },
   {
+   "name": "MinerTrace",
+   "total": 217.6,
+   "per_capita": 217.6,
+   "commits": 26,
+   "pts_commits": 191.6,
+   "dias_activos": 4,
+   "contribuidores": [
+    "Dante1128",
+    "dilanCimarChn"
+   ],
+   "tamano": 1,
+   "repos": [
+    "Dante1128/MinerTracer"
+   ],
+   "rank": 6
+  },
+  {
    "name": "NodeXchange",
    "total": 200.44,
    "per_capita": 200.44,
@@ -111,14 +128,14 @@
    "repos": [
     "RomerTamayo/stellar-build"
    ],
-   "rank": 6
+   "rank": 7
   },
   {
    "name": "BOLAR",
-   "total": 161.34,
-   "per_capita": 161.34,
-   "commits": 20,
-   "pts_commits": 107.34,
+   "total": 173.42,
+   "per_capita": 173.42,
+   "commits": 22,
+   "pts_commits": 119.42,
    "dias_activos": 9,
    "contribuidores": [
     "JersonUCB",
@@ -129,7 +146,7 @@
    "repos": [
     "bolarpay/bolar-app"
    ],
-   "rank": 7
+   "rank": 8
   },
   {
    "name": "GatoPago",
@@ -145,7 +162,7 @@
    "repos": [
     "danelerr/parmelia-links"
    ],
-   "rank": 8
+   "rank": 9
   },
   {
    "name": "CompraGasolinaBidon",
@@ -161,7 +178,23 @@
    "repos": [
     "jjvos19/stellar-build"
    ],
-   "rank": 9
+   "rank": 10
+  },
+  {
+   "name": "WAVO",
+   "total": 27.37,
+   "per_capita": 27.37,
+   "commits": 6,
+   "pts_commits": 19.37,
+   "dias_activos": 1,
+   "contribuidores": [
+    "fchambi"
+   ],
+   "tamano": 1,
+   "repos": [
+    "fchambi/Stellar_Proyecto"
+   ],
+   "rank": 11
   },
   {
    "name": "BolivianPets",
@@ -177,23 +210,7 @@
    "repos": [
     "GuidoSV7/stellar-build"
    ],
-   "rank": 10
-  },
-  {
-   "name": "MinerTrace",
-   "total": 18.97,
-   "per_capita": 18.97,
-   "commits": 3,
-   "pts_commits": 10.97,
-   "dias_activos": 1,
-   "contribuidores": [
-    "Dante1128"
-   ],
-   "tamano": 1,
-   "repos": [
-    "Dante1128/MinerTracer"
-   ],
-   "rank": 11
+   "rank": 12
   },
   {
    "name": "DrinksOnChain",
@@ -209,7 +226,7 @@
    "repos": [
     "DAVV422/drinks-on-chain-public"
    ],
-   "rank": 12
+   "rank": 13
   },
   {
    "name": "Agentx402",
@@ -225,7 +242,7 @@
    "repos": [
     "ZequerVirus/Stellar-P1"
    ],
-   "rank": 13
+   "rank": 14
   },
   {
    "name": "Veridia",
@@ -239,7 +256,7 @@
    "repos": [
     "sphinxar/veridia"
    ],
-   "rank": 14
+   "rank": 15
   },
   {
    "name": "Stellar Programmable Financial Agreements",
@@ -253,7 +270,7 @@
    "repos": [
     "xXCrIs7xDXx/Stellar-Programmable-Financial-Agreements"
    ],
-   "rank": 15
+   "rank": 16
   },
   {
    "name": "StellarFlow",
@@ -265,20 +282,6 @@
    "contribuidores": [],
    "tamano": 1,
    "repos": [],
-   "rank": 16
-  },
-  {
-   "name": "WAVO",
-   "total": 0.0,
-   "per_capita": 0.0,
-   "commits": 0,
-   "pts_commits": 0.0,
-   "dias_activos": 0,
-   "contribuidores": [],
-   "tamano": 1,
-   "repos": [
-    "fchambi/Stellar_Proyecto"
-   ],
    "rank": 17
   }
  ],
@@ -304,7 +307,7 @@
    "2026-10-06": 44.62,
    "2026-10-07": 40.57,
    "2026-10-08": 78.63,
-   "2026-10-09": 10.0
+   "2026-10-09": 49.92
   },
   "Tinkazo": {
    "2026-09-16": 66.21000000000001,
@@ -364,8 +367,8 @@
    "2026-10-05": 55.78,
    "2026-10-06": 57.46,
    "2026-10-07": 88.21,
-   "2026-10-08": 92.59,
-   "2026-10-09": 48.150000000000006
+   "2026-10-08": 107.44,
+   "2026-10-09": 260.93999999999994
   },
   "BOLAR": {
    "2026-09-22": 9.25,
@@ -376,10 +379,13 @@
    "2026-10-02": 15.329999999999998,
    "2026-10-07": 17.27,
    "2026-10-08": 5.46,
-   "2026-10-09": 15.709999999999999
+   "2026-10-09": 27.79
   },
   "MinerTrace": {
-   "2026-09-28": 10.97
+   "2026-09-28": 10.97,
+   "2026-10-05": 127.81,
+   "2026-10-06": 7.09,
+   "2026-10-09": 45.730000000000004
   },
   "TilcAI": {
    "2026-09-27": 23.66,
@@ -388,7 +394,7 @@
    "2026-10-02": 195.20999999999998,
    "2026-10-03": 34.81,
    "2026-10-05": 7.19,
-   "2026-10-09": 17.04
+   "2026-10-09": 127.72000000000001
   },
   "GatoPago": {
    "2026-09-10": 1.0,
@@ -396,6 +402,9 @@
    "2026-09-30": 45.0,
    "2026-10-01": 1.0,
    "2026-10-04": 2.0
+  },
+  "WAVO": {
+   "2026-10-09": 19.37
   }
  },
  "serie_commits": {
@@ -420,7 +429,7 @@
    "2026-10-06": 6,
    "2026-10-07": 5,
    "2026-10-08": 10,
-   "2026-10-09": 1
+   "2026-10-09": 7
   },
   "Tinkazo": {
    "2026-09-16": 8,
@@ -480,8 +489,8 @@
    "2026-10-05": 11,
    "2026-10-06": 12,
    "2026-10-07": 23,
-   "2026-10-08": 27,
-   "2026-10-09": 11
+   "2026-10-08": 30,
+   "2026-10-09": 51
   },
   "BOLAR": {
    "2026-09-22": 1,
@@ -492,10 +501,13 @@
    "2026-10-02": 5,
    "2026-10-07": 2,
    "2026-10-08": 2,
-   "2026-10-09": 3
+   "2026-10-09": 5
   },
   "MinerTrace": {
-   "2026-09-28": 3
+   "2026-09-28": 3,
+   "2026-10-05": 15,
+   "2026-10-06": 1,
+   "2026-10-09": 7
   },
   "TilcAI": {
    "2026-09-27": 3,
@@ -504,7 +516,7 @@
    "2026-10-02": 33,
    "2026-10-03": 6,
    "2026-10-05": 1,
-   "2026-10-09": 3
+   "2026-10-09": 20
   },
   "GatoPago": {
    "2026-09-10": 1,
@@ -512,9 +524,642 @@
    "2026-09-30": 9,
    "2026-10-01": 1,
    "2026-10-04": 2
+  },
+  "WAVO": {
+   "2026-10-09": 6
   }
  },
  "commits": [
+  {
+   "sha": "981afc9",
+   "team": "TilcAI",
+   "repo": "TilcAI/tilcai-web",
+   "author": "SaulChoque",
+   "date": "2026-10-09T21:55:40Z",
+   "msg": "Merge pull request #29 from TilcAI/feat/monitor-vault-stellar",
+   "pts": 0.0,
+   "nota": "merge"
+  },
+  {
+   "sha": "ac34c98",
+   "team": "TilcAI",
+   "repo": "TilcAI/tilcai-web",
+   "author": "SaulChoque",
+   "date": "2026-10-09T21:55:09Z",
+   "msg": "Merge remote-tracking branch 'origin/main' into feat/monitor-vault-stellar",
+   "pts": 0.0,
+   "nota": "merge"
+  },
+  {
+   "sha": "6d208dd",
+   "team": "TilcAI",
+   "repo": "TilcAI/tilcai-web",
+   "author": "JHAMILCALI",
+   "date": "2026-10-09T21:52:34Z",
+   "msg": "feat: add CctpDetail styles and policy demo tests",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "ab0d187",
+   "team": "TilcAI",
+   "repo": "TilcAI/tilcai-web",
+   "author": "SaulChoque",
+   "date": "2026-10-09T21:50:03Z",
+   "msg": "feat(monitor): una tarjeta de vault por red; la cookie de sesión sigue el protocolo",
+   "pts": 8.33,
+   "nota": ""
+  },
+  {
+   "sha": "bae064d",
+   "team": "MinerTrace",
+   "repo": "Dante1128/MinerTracer",
+   "author": "dilanCimarChn",
+   "date": "2026-10-09T21:07:20Z",
+   "msg": "Merge pull request #2 from Dante1128/devDC",
+   "pts": 0.0,
+   "nota": "merge"
+  },
+  {
+   "sha": "871e380",
+   "team": "TilcAI",
+   "repo": "TilcAI/tilcai-web",
+   "author": "JHAMILCALI",
+   "date": "2026-10-09T20:46:16Z",
+   "msg": "feat: add PaymentRoutesHero styles and routeArt asset definitions",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "b4950b3",
+   "team": "WAVO",
+   "repo": "fchambi/Stellar_Proyecto",
+   "author": "fchambi",
+   "date": "2026-10-09T20:40:45Z",
+   "msg": "Docs: URL de producción en Vercel y verificación",
+   "pts": 5.0,
+   "nota": ""
+  },
+  {
+   "sha": "bac94fa",
+   "team": "WAVO",
+   "repo": "fchambi/Stellar_Proyecto",
+   "author": "fchambi",
+   "date": "2026-10-09T20:39:28Z",
+   "msg": "Vercel: framework Next.js explícito",
+   "pts": 3.32,
+   "nota": ""
+  },
+  {
+   "sha": "b4afa8b",
+   "team": "WAVO",
+   "repo": "fchambi/Stellar_Proyecto",
+   "author": "fchambi",
+   "date": "2026-10-09T20:29:41Z",
+   "msg": "Deploy inicial en Vercel",
+   "pts": 0.0,
+   "nota": "solo archivos generados"
+  },
+  {
+   "sha": "9438435",
+   "team": "Puls3",
+   "repo": "Zer0-Knowledge-Hack/puls3",
+   "author": "TOMOKI977",
+   "date": "2026-10-09T20:27:03Z",
+   "msg": "feat(server): wallet-authenticated SEP-10 sessions (#147)",
+   "pts": 1.0,
+   "nota": "import masivo (66 archivos)"
+  },
+  {
+   "sha": "f92d6e3",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "orlando-vazquez-career",
+   "date": "2026-10-09T20:24:54Z",
+   "msg": "Merge pull request #53 from orlando-vazquez-career/test-menu-v2",
+   "pts": 0.0,
+   "nota": "merge"
+  },
+  {
+   "sha": "673ef9f",
+   "team": "WAVO",
+   "repo": "fchambi/Stellar_Proyecto",
+   "author": "fchambi",
+   "date": "2026-10-09T20:11:33Z",
+   "msg": "Reintento tras liberar reserva con reward_id nuevo; Supabase verificado contra base real",
+   "pts": 6.73,
+   "nota": ""
+  },
+  {
+   "sha": "1ecbdf2",
+   "team": "BOLAR",
+   "repo": "bolarpay/bolar-app",
+   "author": "sass3r",
+   "date": "2026-10-09T20:07:07Z",
+   "msg": "fix: onramp onClick action",
+   "pts": 3.58,
+   "nota": ""
+  },
+  {
+   "sha": "01fbf8a",
+   "team": "WAVO",
+   "repo": "fchambi/Stellar_Proyecto",
+   "author": "fchambi",
+   "date": "2026-10-09T20:06:56Z",
+   "msg": "Supabase: funciones de reserva como security invoker (solo service_role)",
+   "pts": 3.32,
+   "nota": ""
+  },
+  {
+   "sha": "55051b3",
+   "team": "WAVO",
+   "repo": "fchambi/Stellar_Proyecto",
+   "author": "fchambi",
+   "date": "2026-10-09T19:58:36Z",
+   "msg": "Wavo MVP: Content Rewards sobre Stellar (contrato Soroban, app Next.js, scripts Testnet, docs)",
+   "pts": 1.0,
+   "nota": "import masivo (108 archivos)"
+  },
+  {
+   "sha": "43c4771",
+   "team": "BOLAR",
+   "repo": "bolarpay/bolar-app",
+   "author": "sass3r",
+   "date": "2026-10-09T19:57:38Z",
+   "msg": "feat: add bridge onramp integration",
+   "pts": 8.5,
+   "nota": ""
+  },
+  {
+   "sha": "eea9b65",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "Hans3010",
+   "date": "2026-10-09T19:55:07Z",
+   "msg": "fix(hangar): fit the ship art and the save button in the embedded panel",
+   "pts": 6.95,
+   "nota": ""
+  },
+  {
+   "sha": "7ffd504",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "Hans3010",
+   "date": "2026-10-09T19:55:07Z",
+   "msg": "Merge main into test-menu-v2",
+   "pts": 0.0,
+   "nota": "merge"
+  },
+  {
+   "sha": "1f62563",
+   "team": "TilcAI",
+   "repo": "TilcAI/tilcai-web",
+   "author": "JHAMILCALI",
+   "date": "2026-10-09T19:41:07Z",
+   "msg": "feat: add Payment Routes section with hero, scene, timeline, and route cards",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "7a853ad",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "orlando-vazquez-career",
+   "date": "2026-10-09T19:22:52Z",
+   "msg": "Merge pull request #50 from orlando-vazquez-career/feat/visual-interface-polish",
+   "pts": 0.0,
+   "nota": "merge"
+  },
+  {
+   "sha": "31db2c7",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "Hans3010",
+   "date": "2026-10-09T19:10:12Z",
+   "msg": "Merge main into feat/visual-interface-polish",
+   "pts": 0.0,
+   "nota": "merge"
+  },
+  {
+   "sha": "61df654",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "Copilot",
+   "date": "2026-10-09T19:02:58Z",
+   "msg": "fix(visual): restore guest login gate and fit embedded hangar tabs",
+   "pts": 5.64,
+   "nota": ""
+  },
+  {
+   "sha": "07d6245",
+   "team": "MinerTrace",
+   "repo": "Dante1128/MinerTracer",
+   "author": "dilanCimarChn",
+   "date": "2026-10-09T18:55:05Z",
+   "msg": "feat: pdf de ejemplo para análisis y contra-análisis de la demo",
+   "pts": 8.74,
+   "nota": ""
+  },
+  {
+   "sha": "74cd7bc",
+   "team": "MinerTrace",
+   "repo": "Dante1128/MinerTracer",
+   "author": "dilanCimarChn",
+   "date": "2026-10-09T18:50:57Z",
+   "msg": "docs: flujo completo y roles en la guía",
+   "pts": 8.38,
+   "nota": ""
+  },
+  {
+   "sha": "cfae232",
+   "team": "MinerTrace",
+   "repo": "Dante1128/MinerTracer",
+   "author": "dilanCimarChn",
+   "date": "2026-10-09T18:49:02Z",
+   "msg": "docs: guía completa de vistas, credenciales, wallet, contrato y demo",
+   "pts": 9.88,
+   "nota": ""
+  },
+  {
+   "sha": "9584d44",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "Hans3010",
+   "date": "2026-10-09T18:43:14Z",
+   "msg": "test: give the multiplayer map announcement time to load the game art",
+   "pts": 3.58,
+   "nota": ""
+  },
+  {
+   "sha": "0401d2a",
+   "team": "TilcAI",
+   "repo": "TilcAI/tilcai-web",
+   "author": "JHAMILCALI",
+   "date": "2026-10-09T18:42:17Z",
+   "msg": "Merge branch 'main' of github.com:TilcAI/tilcai-web",
+   "pts": 0.0,
+   "nota": "merge"
+  },
+  {
+   "sha": "7b1e3e7",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "orlando-vazquez-career",
+   "date": "2026-10-09T18:42:09Z",
+   "msg": "Merge pull request #51 from orlando-vazquez-career/feature/mapa",
+   "pts": 0.0,
+   "nota": "merge"
+  },
+  {
+   "sha": "b15716d",
+   "team": "MinerTrace",
+   "repo": "Dante1128/MinerTracer",
+   "author": "dilanCimarChn",
+   "date": "2026-10-09T18:37:01Z",
+   "msg": "feat: once lotes más de oro, plata y estaño en la demo",
+   "pts": 8.89,
+   "nota": ""
+  },
+  {
+   "sha": "9f1214c",
+   "team": "TilcAI",
+   "repo": "TilcAI/tilcai-web",
+   "author": "JHAMILCALI",
+   "date": "2026-10-09T18:35:13Z",
+   "msg": "feat: add RouteAtlas component with animated route visualization and responsive design",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "b672d3b",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "srllamadev",
+   "date": "2026-10-09T18:33:05Z",
+   "msg": "fix(settings): unify controls with cyan sci-fi palette and enable live audio preview in command center",
+   "pts": 9.16,
+   "nota": ""
+  },
+  {
+   "sha": "4442b57",
+   "team": "MinerTrace",
+   "repo": "Dante1128/MinerTracer",
+   "author": "dilanCimarChn",
+   "date": "2026-10-09T18:27:31Z",
+   "msg": "feat: script para poblar la demo con datos reales en testnet",
+   "pts": 9.84,
+   "nota": ""
+  },
+  {
+   "sha": "54b624f",
+   "team": "Puls3",
+   "repo": "Zer0-Knowledge-Hack/puls3",
+   "author": "Pericena",
+   "date": "2026-10-09T18:12:56Z",
+   "msg": "feat(flutter): Agent Studio builder validated by the domain manifest (#145)",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "c5689e5",
+   "team": "MinerTrace",
+   "repo": "Dante1128/MinerTracer",
+   "author": "dilanCimarChn",
+   "date": "2026-10-09T18:12:31Z",
+   "msg": "Merge pull request #1 from Dante1128/devDC",
+   "pts": 0.0,
+   "nota": "merge"
+  },
+  {
+   "sha": "b05260d",
+   "team": "TilcAI",
+   "repo": "TilcAI/tilcai-web",
+   "author": "SaulChoque",
+   "date": "2026-10-09T18:05:54Z",
+   "msg": "docs: apartado del contenedor en inglés, como el resto del README",
+   "pts": 4.7,
+   "nota": ""
+  },
+  {
+   "sha": "6419bb3",
+   "team": "TilcAI",
+   "repo": "TilcAI/tilcai-web",
+   "author": "SaulChoque",
+   "date": "2026-10-09T18:05:32Z",
+   "msg": "feat: Dockerfile para servir el sitio y el tablero en un contenedor",
+   "pts": 7.23,
+   "nota": ""
+  },
+  {
+   "sha": "48abedb",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "degosenpai211",
+   "date": "2026-10-09T18:04:21Z",
+   "msg": "fix(ci): dar 25 min al job de browser para no cortar el teardown",
+   "pts": 3.0,
+   "nota": ""
+  },
+  {
+   "sha": "c64cb2c",
+   "team": "Puls3",
+   "repo": "Zer0-Knowledge-Hack/puls3",
+   "author": "Pericena",
+   "date": "2026-10-09T18:04:14Z",
+   "msg": "Merge pull request #146 from Zer0-Knowledge-Hack/docs/23-screen-specs",
+   "pts": 0.0,
+   "nota": "merge"
+  },
+  {
+   "sha": "fff0eb7",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "srllamadev",
+   "date": "2026-10-09T17:59:07Z",
+   "msg": "Merge branch 'main' of https://github.com/orlando-vazquez-career/stellar-impulse into test-menu-v2",
+   "pts": 0.0,
+   "nota": "merge"
+  },
+  {
+   "sha": "16472d4",
+   "team": "Puls3",
+   "repo": "Zer0-Knowledge-Hack/puls3",
+   "author": "Pericena",
+   "date": "2026-10-09T17:50:35Z",
+   "msg": "docs(blueprints): readable wireframe labels and S06 state wireframes",
+   "pts": 8.92,
+   "nota": ""
+  },
+  {
+   "sha": "f3c38fb",
+   "team": "TilcAI",
+   "repo": "TilcAI/tilcai-web",
+   "author": "JHAMILCALI",
+   "date": "2026-10-09T17:37:02Z",
+   "msg": "feat: add operation scene components and timeline animations",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "211ee4e",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "degosenpai211",
+   "date": "2026-10-09T17:31:58Z",
+   "msg": "fix(e2e): el mapa sigue encontrable a 768px y la fuente no espera a Phaser",
+   "pts": 5.09,
+   "nota": ""
+  },
+  {
+   "sha": "09375de",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "Hans3010",
+   "date": "2026-10-09T17:10:05Z",
+   "msg": "ci: give the browser job 25 minutes",
+   "pts": 2.58,
+   "nota": ""
+  },
+  {
+   "sha": "fe5efe8",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "Hans3010",
+   "date": "2026-10-09T17:09:57Z",
+   "msg": "Merge main into feat/visual-interface-polish",
+   "pts": 0.0,
+   "nota": "merge"
+  },
+  {
+   "sha": "a769ee2",
+   "team": "TilcAI",
+   "repo": "TilcAI/tilcai-web",
+   "author": "JHAMILCALI",
+   "date": "2026-10-09T16:54:46Z",
+   "msg": "feat: actualizar el historial de prompts y mejorar la sección de \"Empresas\" en el mapa de mensajes",
+   "pts": 7.75,
+   "nota": ""
+  },
+  {
+   "sha": "d90a867",
+   "team": "TilcAI",
+   "repo": "TilcAI/tilcai-web",
+   "author": "JHAMILCALI",
+   "date": "2026-10-09T16:37:14Z",
+   "msg": "feat: add ConnectionPaths component with animated connection routes and HUD elements",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "c37fe0b",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "degosenpai211",
+   "date": "2026-10-09T16:13:02Z",
+   "msg": "feat(web): run de tres sectores, anomalia de lobby y efectos de mapa",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "4f20e71",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "degosenpai211",
+   "date": "2026-10-09T16:12:25Z",
+   "msg": "feat(input): Trascendencia en practica y produccion en estaciones",
+   "pts": 6.88,
+   "nota": ""
+  },
+  {
+   "sha": "15a24ea",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "degosenpai211",
+   "date": "2026-10-09T16:11:59Z",
+   "msg": "feat(mapa): arte y lectura de Espiral para barreras y estaciones",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "303af19",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "degosenpai211",
+   "date": "2026-10-09T16:11:30Z",
+   "msg": "feat(mapa): Trascendencia Estelar como sector jugable",
+   "pts": 1.0,
+   "nota": "import masivo (153 archivos)"
+  },
+  {
+   "sha": "2d4bc9b",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "degosenpai211",
+   "date": "2026-10-09T16:10:37Z",
+   "msg": "feat(sim): barreras, cinturon, torretas y aumentos que se arrastran entre sectores",
+   "pts": 9.99,
+   "nota": ""
+  },
+  {
+   "sha": "a5ec27f",
+   "team": "TilcAI",
+   "repo": "TilcAI/tilcai-web",
+   "author": "SaulChoque",
+   "date": "2026-10-09T15:57:27Z",
+   "msg": "docs: historial de prompts (fusión de la fase SCA en main)",
+   "pts": 5.09,
+   "nota": ""
+  },
+  {
+   "sha": "7c93ee6",
+   "team": "TilcAI",
+   "repo": "TilcAI/tilcai-web",
+   "author": "SaulChoque",
+   "date": "2026-10-09T15:49:58Z",
+   "msg": "merge: eventos de cuentas de contrato en el monitor",
+   "pts": 0.0,
+   "nota": "merge"
+  },
+  {
+   "sha": "d8cf50a",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "srllamadev",
+   "date": "2026-10-09T15:48:36Z",
+   "msg": "feat: add styling for visual interface and command center in visual.css",
+   "pts": 6.7,
+   "nota": ""
+  },
+  {
+   "sha": "c36d801",
+   "team": "TilcAI",
+   "repo": "TilcAI/tilcai-web",
+   "author": "JHAMILCALI",
+   "date": "2026-10-09T15:44:54Z",
+   "msg": "Feat/landing explicacion (#28)",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "3c3bde6",
+   "team": "Puls3",
+   "repo": "Zer0-Knowledge-Hack/puls3",
+   "author": "Pericena",
+   "date": "2026-10-09T15:42:15Z",
+   "msg": "docs(blueprints): screen specs, wireframes and component inventory",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "8fa15e6",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "srllamadev",
+   "date": "2026-10-09T15:38:27Z",
+   "msg": "feat: add authentication service and client login UI with game screens",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "dc1a786",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "Ismaelolazo",
+   "date": "2026-10-09T14:08:32Z",
+   "msg": "test: stabilize camera pan e2e",
+   "pts": 5.09,
+   "nota": ""
+  },
+  {
+   "sha": "8279715",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "degosenpai211",
+   "date": "2026-10-09T14:04:52Z",
+   "msg": "Merge branch 'main' into feature/mapa",
+   "pts": 0.0,
+   "nota": "merge"
+  },
+  {
+   "sha": "d50e67a",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "orlando-vazquez-career",
+   "date": "2026-10-09T13:29:43Z",
+   "msg": "Merge pull request #49 from orlando-vazquez-career/feat/blockchain-marketplace",
+   "pts": 0.0,
+   "nota": "merge"
+  },
+  {
+   "sha": "e076483",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "Ismaelolazo",
+   "date": "2026-10-09T13:18:38Z",
+   "msg": "feat(visual): refine interface and integrate game art",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "a3e13d4",
+   "team": "Puls3",
+   "repo": "Zer0-Knowledge-Hack/puls3",
+   "author": "Pericena",
+   "date": "2026-10-09T13:01:34Z",
+   "msg": "feat(flutter): catalog and agent detail screens wired to the backend (#143)",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "1e5b574",
+   "team": "TilcAI",
+   "repo": "TilcAI/tilcai-web",
+   "author": "SaulChoque",
+   "date": "2026-10-09T12:56:55Z",
+   "msg": "feat(monitor): eventos de cuentas de contrato en el panel",
+   "pts": 7.58,
+   "nota": ""
+  },
   {
    "sha": "d538afe",
    "team": "Puls3",
@@ -522,6 +1167,46 @@
    "author": "TOMOKI977",
    "date": "2026-10-09T12:13:38Z",
    "msg": "feat(domain): agent manifest JSON, canonical form and docs (#34, 3/3) (#142)",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "1ac7f1f",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "Hans3010",
+   "date": "2026-10-09T11:46:53Z",
+   "msg": "Revert \"feat(web): rebindable keys, squads on number keys and camera shortcuts\"",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "2192825",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "Hans3010",
+   "date": "2026-10-09T11:28:51Z",
+   "msg": "Merge main into feat/blockchain-marketplace",
+   "pts": 0.0,
+   "nota": "merge"
+  },
+  {
+   "sha": "a5931fc",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "Hans3010",
+   "date": "2026-10-09T11:24:22Z",
+   "msg": "fix: one playable map catalog for lobbies and campaign admission",
+   "pts": 9.03,
+   "nota": ""
+  },
+  {
+   "sha": "2520fa1",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "Hans3010",
+   "date": "2026-10-09T11:01:05Z",
+   "msg": "feat(web): rebindable keys, squads on number keys and camera shortcuts",
    "pts": 10,
    "nota": ""
   },
@@ -636,6 +1321,16 @@
    "nota": ""
   },
   {
+   "sha": "b8b9adf",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "Hans3010",
+   "date": "2026-10-09T09:20:47Z",
+   "msg": "docs: link marketplace plan to blockchain overview",
+   "pts": 3.32,
+   "nota": ""
+  },
+  {
    "sha": "5e8744c",
    "team": "CompraGasolinaBidon",
    "repo": "jjvos19/stellar-build",
@@ -643,6 +1338,26 @@
    "date": "2026-10-09T09:20:21Z",
    "msg": "Se adiciona documentacion.",
    "pts": 9.06,
+   "nota": ""
+  },
+  {
+   "sha": "08eee00",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "Hans3010",
+   "date": "2026-10-09T09:18:56Z",
+   "msg": "docs: cosmetics v4, marketplace, wallet link and on-chain rewards",
+   "pts": 7.79,
+   "nota": ""
+  },
+  {
+   "sha": "24dfd56",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "Hans3010",
+   "date": "2026-10-09T09:17:43Z",
+   "msg": "fix(web): hangar shows actionable NFT details, rounded balance and a slimmer market row",
+   "pts": 6.21,
    "nota": ""
   },
   {
@@ -726,6 +1441,66 @@
    "nota": "merge"
   },
   {
+   "sha": "a2a5443",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "Hans3010",
+   "date": "2026-10-09T03:42:47Z",
+   "msg": "feat(chain): native XLM asset contract for balance reads",
+   "pts": 5.17,
+   "nota": ""
+  },
+  {
+   "sha": "15bd616",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "Hans3010",
+   "date": "2026-10-09T03:42:40Z",
+   "msg": "docs: marketplace, wallet link and Freighter test plan",
+   "pts": 7.43,
+   "nota": ""
+  },
+  {
+   "sha": "b6fbe15",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "Hans3010",
+   "date": "2026-10-09T03:41:23Z",
+   "msg": "feat(web): hangar wallet link, NFT pieces, Freighter purchases and player market",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "af75eb6",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "Hans3010",
+   "date": "2026-10-09T03:31:58Z",
+   "msg": "feat(server): link a wallet with a signed challenge and mint merit emblems to it",
+   "pts": 9.67,
+   "nota": ""
+  },
+  {
+   "sha": "fcb50f1",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "Hans3010",
+   "date": "2026-10-09T03:27:51Z",
+   "msg": "feat(chain): marketplace, wallet link (SEP-10) and minter rewards in the testnet client",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "6a18b1e",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "Hans3010",
+   "date": "2026-10-09T03:22:31Z",
+   "msg": "feat(contracts): deploy cosmetics v4 and marketplace to testnet with a market smoke test",
+   "pts": 8.51,
+   "nota": ""
+  },
+  {
    "sha": "d446930",
    "team": "Impulso Stellar",
    "repo": "orlando-vazquez-career/stellar-impulse",
@@ -742,6 +1517,26 @@
    "author": "orlando-vazquez-career",
    "date": "2026-10-09T03:20:43Z",
    "msg": "Merge pull request #47 from orlando-vazquez-career/feat/tutorial-primera-partida",
+   "pts": 0.0,
+   "nota": "merge"
+  },
+  {
+   "sha": "58c9be9",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "Hans3010",
+   "date": "2026-10-09T03:15:38Z",
+   "msg": "feat(contracts): non-custodial marketplace for cosmetics with 5% fee",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "bf7ae45",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "Hans3010",
+   "date": "2026-10-09T03:10:24Z",
+   "msg": "Merge remote-tracking branch 'origin/main' into feat/blockchain-marketplace",
    "pts": 0.0,
    "nota": "merge"
   },
@@ -854,6 +1649,16 @@
    "msg": "feat(domain): add agent manifest draft, validation and deploy manifest (#34, 2/3) (#138)",
    "pts": 10,
    "nota": ""
+  },
+  {
+   "sha": "51dbaa1",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "degosenpai211",
+   "date": "2026-10-08T21:17:40Z",
+   "msg": "feat(mapa): Caos Estelar como segundo mapa de entrenamiento",
+   "pts": 1.0,
+   "nota": "import masivo (98 archivos)"
   },
   {
    "sha": "fc1e7af",
@@ -1194,6 +1999,26 @@
    "msg": "Merge main en la persistencia de cuentas (#40 y #41 quedaron fuera de main)",
    "pts": 0.0,
    "nota": "merge"
+  },
+  {
+   "sha": "b84524e",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "Hans3010",
+   "date": "2026-10-08T02:27:37Z",
+   "msg": "feat(web): metadata for announcer and music cosmetic packs",
+   "pts": 7.02,
+   "nota": ""
+  },
+  {
+   "sha": "c58fe30",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "Hans3010",
+   "date": "2026-10-08T02:27:26Z",
+   "msg": "feat(contracts): announcer and music packs as cosmetic slots (v4)",
+   "pts": 6.83,
+   "nota": ""
   },
   {
    "sha": "dd3f240",
@@ -1796,6 +2621,16 @@
    "nota": "merge"
   },
   {
+   "sha": "a560c5b",
+   "team": "MinerTrace",
+   "repo": "Dante1128/MinerTracer",
+   "author": "dilanCimarChn",
+   "date": "2026-10-06T21:54:09Z",
+   "msg": "fix: navegación a todas las pantallas desde la barra superior",
+   "pts": 7.09,
+   "nota": ""
+  },
+  {
    "sha": "65a72d3",
    "team": "Impulso Stellar",
    "repo": "orlando-vazquez-career/stellar-impulse",
@@ -2056,6 +2891,96 @@
    "nota": ""
   },
   {
+   "sha": "40c12d8",
+   "team": "MinerTrace",
+   "repo": "Dante1128/MinerTracer",
+   "author": "dilanCimarChn",
+   "date": "2026-10-05T20:59:17Z",
+   "msg": "docs: plazo de garantía, nuevo contrato y evaluación de passkeys",
+   "pts": 5.7,
+   "nota": ""
+  },
+  {
+   "sha": "03ae4f3",
+   "team": "MinerTrace",
+   "repo": "Dante1128/MinerTracer",
+   "author": "dilanCimarChn",
+   "date": "2026-10-05T20:59:13Z",
+   "msg": "feat: cobro por vencimiento de la garantía en el servidor y la web",
+   "pts": 8.83,
+   "nota": ""
+  },
+  {
+   "sha": "730d47d",
+   "team": "MinerTrace",
+   "repo": "Dante1128/MinerTracer",
+   "author": "dilanCimarChn",
+   "date": "2026-10-05T20:59:12Z",
+   "msg": "feat: plazo de garantía en el contrato y cobro del vendedor al vencer",
+   "pts": 8.42,
+   "nota": ""
+  },
+  {
+   "sha": "3f642cc",
+   "team": "MinerTrace",
+   "repo": "Dante1128/MinerTracer",
+   "author": "dilanCimarChn",
+   "date": "2026-10-05T20:06:24Z",
+   "msg": "docs: firma del laboratorio con wallet en readme y agents",
+   "pts": 6.09,
+   "nota": ""
+  },
+  {
+   "sha": "0e4007f",
+   "team": "MinerTrace",
+   "repo": "Dante1128/MinerTracer",
+   "author": "dilanCimarChn",
+   "date": "2026-10-05T20:06:24Z",
+   "msg": "feat: firma con freighter en el portal del laboratorio",
+   "pts": 8.97,
+   "nota": ""
+  },
+  {
+   "sha": "c166cb6",
+   "team": "MinerTrace",
+   "repo": "Dante1128/MinerTracer",
+   "author": "dilanCimarChn",
+   "date": "2026-10-05T20:06:19Z",
+   "msg": "feat: el laboratorio firma sus análisis y contra-análisis con su wallet",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "3d243ee",
+   "team": "MinerTrace",
+   "repo": "Dante1128/MinerTracer",
+   "author": "dilanCimarChn",
+   "date": "2026-10-05T19:48:49Z",
+   "msg": "docs: marketplace en readme y agents",
+   "pts": 6.43,
+   "nota": ""
+  },
+  {
+   "sha": "1218777",
+   "team": "MinerTrace",
+   "repo": "Dante1128/MinerTracer",
+   "author": "dilanCimarChn",
+   "date": "2026-10-05T19:48:49Z",
+   "msg": "feat: mercado, mis lotes y contra-análisis con freighter en la web",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "dc717d6",
+   "team": "MinerTrace",
+   "repo": "Dante1128/MinerTracer",
+   "author": "dilanCimarChn",
+   "date": "2026-10-05T19:48:44Z",
+   "msg": "feat: marketplace con garantía y contra-análisis en el servidor",
+   "pts": 10,
+   "nota": ""
+  },
+  {
    "sha": "689a1ec",
    "team": "Impulso Stellar",
    "repo": "orlando-vazquez-career/stellar-impulse",
@@ -2066,6 +2991,36 @@
    "nota": ""
   },
   {
+   "sha": "56bcd8c",
+   "team": "MinerTrace",
+   "repo": "Dante1128/MinerTracer",
+   "author": "dilanCimarChn",
+   "date": "2026-10-05T19:28:23Z",
+   "msg": "docs: anclaje en stellar en readme, agents y env",
+   "pts": 7.41,
+   "nota": ""
+  },
+  {
+   "sha": "5dac26c",
+   "team": "MinerTrace",
+   "repo": "Dante1128/MinerTracer",
+   "author": "dilanCimarChn",
+   "date": "2026-10-05T19:28:22Z",
+   "msg": "feat: dueño del lote y red de anclaje en la web",
+   "pts": 7.25,
+   "nota": ""
+  },
+  {
+   "sha": "e686ec1",
+   "team": "MinerTrace",
+   "repo": "Dante1128/MinerTracer",
+   "author": "dilanCimarChn",
+   "date": "2026-10-05T19:28:16Z",
+   "msg": "feat: anclaje real en el contrato de stellar testnet",
+   "pts": 10,
+   "nota": ""
+  },
+  {
    "sha": "07e5993",
    "team": "TilcAI",
    "repo": "TilcAI/tilcai-web",
@@ -2073,6 +3028,36 @@
    "date": "2026-10-05T19:15:06Z",
    "msg": "feat(styles): enhance mobile layout with improved navigation and content overflow handling",
    "pts": 7.19,
+   "nota": ""
+  },
+  {
+   "sha": "292a995",
+   "team": "MinerTrace",
+   "repo": "Dante1128/MinerTracer",
+   "author": "dilanCimarChn",
+   "date": "2026-10-05T19:07:58Z",
+   "msg": "feat: script de despliegue en testnet y docs",
+   "pts": 8.71,
+   "nota": ""
+  },
+  {
+   "sha": "38f3531",
+   "team": "MinerTrace",
+   "repo": "Dante1128/MinerTracer",
+   "author": "dilanCimarChn",
+   "date": "2026-10-05T19:07:54Z",
+   "msg": "feat: contrato soroban de minertrace",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "29ea26e",
+   "team": "MinerTrace",
+   "repo": "Dante1128/MinerTracer",
+   "author": "dilanCimarChn",
+   "date": "2026-10-05T19:07:50Z",
+   "msg": "fix: limpieza del repo y arreglos antes de la fase 2",
+   "pts": 10,
    "nota": ""
   },
   {
