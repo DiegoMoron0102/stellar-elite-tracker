@@ -1,15 +1,15 @@
 {
- "generado": "2026-10-09T03:42:51+00:00",
+ "generado": "2026-10-09T12:18:19+00:00",
  "programa": "Stellar Elite",
  "start_date": "2026-09-02T00:00:00Z",
  "teams": [
   {
    "name": "Tinkazo",
-   "total": 1370.91,
-   "per_capita": 1370.91,
-   "commits": 166,
-   "pts_commits": 1279.91,
-   "dias_activos": 17,
+   "total": 1399.88,
+   "per_capita": 1399.88,
+   "commits": 170,
+   "pts_commits": 1303.88,
+   "dias_activos": 18,
    "contribuidores": [
     "GuidoSV7",
     "nema1502"
@@ -22,10 +22,10 @@
   },
   {
    "name": "Impulso Stellar",
-   "total": 850.05,
-   "per_capita": 850.05,
-   "commits": 171,
-   "pts_commits": 762.05,
+   "total": 855.3,
+   "per_capita": 855.3,
+   "commits": 173,
+   "pts_commits": 767.3,
    "dias_activos": 14,
    "contribuidores": [
     "Copilot",
@@ -43,11 +43,11 @@
   },
   {
    "name": "Puls3",
-   "total": 566.07,
-   "per_capita": 566.07,
-   "commits": 84,
-   "pts_commits": 478.07,
-   "dias_activos": 14,
+   "total": 581.07,
+   "per_capita": 581.07,
+   "commits": 85,
+   "pts_commits": 488.07,
+   "dias_activos": 15,
    "contribuidores": [
     "Pericena",
     "TOMOKI977",
@@ -64,11 +64,11 @@
   },
   {
    "name": "TilcAI",
-   "total": 419.11,
-   "per_capita": 139.7,
-   "commits": 62,
-   "pts_commits": 377.11,
-   "dias_activos": 6,
+   "total": 441.15,
+   "per_capita": 147.05,
+   "commits": 65,
+   "pts_commits": 394.15,
+   "dias_activos": 7,
    "contribuidores": [
     "JHAMILCALI",
     "OmarQV",
@@ -115,11 +115,11 @@
   },
   {
    "name": "BOLAR",
-   "total": 140.63,
-   "per_capita": 140.63,
-   "commits": 17,
-   "pts_commits": 91.63,
-   "dias_activos": 8,
+   "total": 161.34,
+   "per_capita": 161.34,
+   "commits": 20,
+   "pts_commits": 107.34,
+   "dias_activos": 9,
    "contribuidores": [
     "JersonUCB",
     "rudyramirezc",
@@ -148,6 +148,22 @@
    "rank": 8
   },
   {
+   "name": "CompraGasolinaBidon",
+   "total": 73.59,
+   "per_capita": 73.59,
+   "commits": 12,
+   "pts_commits": 55.59,
+   "dias_activos": 3,
+   "contribuidores": [
+    "jjvos19"
+   ],
+   "tamano": 1,
+   "repos": [
+    "jjvos19/stellar-build"
+   ],
+   "rank": 9
+  },
+  {
    "name": "BolivianPets",
    "total": 22.09,
    "per_capita": 22.09,
@@ -161,7 +177,7 @@
    "repos": [
     "GuidoSV7/stellar-build"
    ],
-   "rank": 9
+   "rank": 10
   },
   {
    "name": "MinerTrace",
@@ -177,7 +193,7 @@
    "repos": [
     "Dante1128/MinerTracer"
    ],
-   "rank": 10
+   "rank": 11
   },
   {
    "name": "DrinksOnChain",
@@ -192,22 +208,6 @@
    "tamano": 1,
    "repos": [
     "DAVV422/drinks-on-chain-public"
-   ],
-   "rank": 11
-  },
-  {
-   "name": "CompraGasolinaBidon",
-   "total": 9.0,
-   "per_capita": 9.0,
-   "commits": 1,
-   "pts_commits": 1.0,
-   "dias_activos": 1,
-   "contribuidores": [
-    "jjvos19"
-   ],
-   "tamano": 1,
-   "repos": [
-    "jjvos19/stellar-build"
    ],
    "rank": 12
   },
@@ -303,7 +303,8 @@
    "2026-10-05": 61.0,
    "2026-10-06": 44.62,
    "2026-10-07": 40.57,
-   "2026-10-08": 78.63
+   "2026-10-08": 78.63,
+   "2026-10-09": 10.0
   },
   "Tinkazo": {
    "2026-09-16": 66.21000000000001,
@@ -322,10 +323,13 @@
    "2026-10-05": 54.37,
    "2026-10-06": 18.78,
    "2026-10-07": 25.020000000000003,
-   "2026-10-08": 130.68
+   "2026-10-08": 130.68,
+   "2026-10-09": 23.970000000000002
   },
   "CompraGasolinaBidon": {
-   "2026-09-06": 1.0
+   "2026-09-06": 1.0,
+   "2026-10-07": 16.31,
+   "2026-10-09": 38.28
   },
   "NodeXchange": {
    "2026-09-05": 1.0,
@@ -361,7 +365,7 @@
    "2026-10-06": 57.46,
    "2026-10-07": 88.21,
    "2026-10-08": 92.59,
-   "2026-10-09": 42.900000000000006
+   "2026-10-09": 48.150000000000006
   },
   "BOLAR": {
    "2026-09-22": 9.25,
@@ -371,7 +375,8 @@
    "2026-09-29": 7.92,
    "2026-10-02": 15.329999999999998,
    "2026-10-07": 17.27,
-   "2026-10-08": 5.46
+   "2026-10-08": 5.46,
+   "2026-10-09": 15.709999999999999
   },
   "MinerTrace": {
    "2026-09-28": 10.97
@@ -382,7 +387,8 @@
    "2026-10-01": 43.809999999999995,
    "2026-10-02": 195.20999999999998,
    "2026-10-03": 34.81,
-   "2026-10-05": 7.19
+   "2026-10-05": 7.19,
+   "2026-10-09": 17.04
   },
   "GatoPago": {
    "2026-09-10": 1.0,
@@ -413,7 +419,8 @@
    "2026-10-05": 7,
    "2026-10-06": 6,
    "2026-10-07": 5,
-   "2026-10-08": 10
+   "2026-10-08": 10,
+   "2026-10-09": 1
   },
   "Tinkazo": {
    "2026-09-16": 8,
@@ -432,10 +439,13 @@
    "2026-10-05": 7,
    "2026-10-06": 4,
    "2026-10-07": 4,
-   "2026-10-08": 19
+   "2026-10-08": 19,
+   "2026-10-09": 4
   },
   "CompraGasolinaBidon": {
-   "2026-09-06": 1
+   "2026-09-06": 1,
+   "2026-10-07": 2,
+   "2026-10-09": 9
   },
   "NodeXchange": {
    "2026-09-05": 1,
@@ -471,7 +481,7 @@
    "2026-10-06": 12,
    "2026-10-07": 23,
    "2026-10-08": 27,
-   "2026-10-09": 9
+   "2026-10-09": 11
   },
   "BOLAR": {
    "2026-09-22": 1,
@@ -481,7 +491,8 @@
    "2026-09-29": 2,
    "2026-10-02": 5,
    "2026-10-07": 2,
-   "2026-10-08": 2
+   "2026-10-08": 2,
+   "2026-10-09": 3
   },
   "MinerTrace": {
    "2026-09-28": 3
@@ -492,7 +503,8 @@
    "2026-10-01": 8,
    "2026-10-02": 33,
    "2026-10-03": 6,
-   "2026-10-05": 1
+   "2026-10-05": 1,
+   "2026-10-09": 3
   },
   "GatoPago": {
    "2026-09-10": 1,
@@ -503,6 +515,226 @@
   }
  },
  "commits": [
+  {
+   "sha": "d538afe",
+   "team": "Puls3",
+   "repo": "Zer0-Knowledge-Hack/puls3",
+   "author": "TOMOKI977",
+   "date": "2026-10-09T12:13:38Z",
+   "msg": "feat(domain): agent manifest JSON, canonical form and docs (#34, 3/3) (#142)",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "44b2040",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-10-09T10:28:42Z",
+   "msg": "Precios: gratis para comunidades, y planes de evento, anual y sponsor",
+   "pts": 6.17,
+   "nota": ""
+  },
+  {
+   "sha": "bde8fee",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-10-09T10:23:25Z",
+   "msg": "Precios: se paga como en cada país, en moneda local o en cripto",
+   "pts": 5.25,
+   "nota": ""
+  },
+  {
+   "sha": "0fd8a0b",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-10-09T10:19:40Z",
+   "msg": "Precios: el pago con QR del banco, explicado, y sin confundirlo con el QR del sorteo",
+   "pts": 5.25,
+   "nota": ""
+  },
+  {
+   "sha": "7b831cc",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-10-09T10:19:13Z",
+   "msg": "Precios: cómo se sostiene Tinkazo y cómo se paga, en bolivianos o en cripto",
+   "pts": 7.3,
+   "nota": ""
+  },
+  {
+   "sha": "d5f75f3",
+   "team": "CompraGasolinaBidon",
+   "repo": "jjvos19/stellar-build",
+   "author": "jjvos19",
+   "date": "2026-10-09T10:00:51Z",
+   "msg": "Merge pull request #3 from jjvos19/jjvos19/1.0.0",
+   "pts": 0.0,
+   "nota": "merge"
+  },
+  {
+   "sha": "434608c",
+   "team": "CompraGasolinaBidon",
+   "repo": "jjvos19/stellar-build",
+   "author": "jjvos19",
+   "date": "2026-10-09T09:59:18Z",
+   "msg": "Actualizacion de documentacion.",
+   "pts": 6.46,
+   "nota": ""
+  },
+  {
+   "sha": "1bb64e6",
+   "team": "CompraGasolinaBidon",
+   "repo": "jjvos19/stellar-build",
+   "author": "jjvos19",
+   "date": "2026-10-09T09:50:55Z",
+   "msg": "Merge pull request #2 from jjvos19/jjvos19/1.0.0",
+   "pts": 0.0,
+   "nota": "merge"
+  },
+  {
+   "sha": "36f743d",
+   "team": "CompraGasolinaBidon",
+   "repo": "jjvos19/stellar-build",
+   "author": "jjvos19",
+   "date": "2026-10-09T09:49:33Z",
+   "msg": "Documentacion",
+   "pts": 3.58,
+   "nota": ""
+  },
+  {
+   "sha": "70147de",
+   "team": "CompraGasolinaBidon",
+   "repo": "jjvos19/stellar-build",
+   "author": "jjvos19",
+   "date": "2026-10-09T09:40:28Z",
+   "msg": "Merge pull request #1 from jjvos19/jjvos19/1.0.0",
+   "pts": 0.0,
+   "nota": "merge"
+  },
+  {
+   "sha": "1b6fd91",
+   "team": "CompraGasolinaBidon",
+   "repo": "jjvos19/stellar-build",
+   "author": "jjvos19",
+   "date": "2026-10-09T09:36:37Z",
+   "msg": "Correccion de codigo",
+   "pts": 3.32,
+   "nota": ""
+  },
+  {
+   "sha": "3268904",
+   "team": "CompraGasolinaBidon",
+   "repo": "jjvos19/stellar-build",
+   "author": "jjvos19",
+   "date": "2026-10-09T09:35:00Z",
+   "msg": "Actualizar documentacion.",
+   "pts": 5.86,
+   "nota": ""
+  },
+  {
+   "sha": "5e8744c",
+   "team": "CompraGasolinaBidon",
+   "repo": "jjvos19/stellar-build",
+   "author": "jjvos19",
+   "date": "2026-10-09T09:20:21Z",
+   "msg": "Se adiciona documentacion.",
+   "pts": 9.06,
+   "nota": ""
+  },
+  {
+   "sha": "9f9d2e1",
+   "team": "CompraGasolinaBidon",
+   "repo": "jjvos19/stellar-build",
+   "author": "jjvos19",
+   "date": "2026-10-09T08:59:50Z",
+   "msg": "Carga de contrato funcional y pruebas de los metodos.",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "8073e00",
+   "team": "TilcAI",
+   "repo": "TilcAI/tilcai-web",
+   "author": "SaulChoque",
+   "date": "2026-10-09T08:21:43Z",
+   "msg": "Merge pull request #26 from TilcAI/feat/monitor-events",
+   "pts": 0.0,
+   "nota": "merge"
+  },
+  {
+   "sha": "d1c5359",
+   "team": "TilcAI",
+   "repo": "TilcAI/tilcai-web",
+   "author": "SaulChoque",
+   "date": "2026-10-09T08:20:43Z",
+   "msg": "feat(monitor): receive, store and show the backend's events",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "d424f23",
+   "team": "TilcAI",
+   "repo": "TilcAI/tilcai-web",
+   "author": "SaulChoque",
+   "date": "2026-10-09T08:20:42Z",
+   "msg": "docs(agents): add the prompt and output history rule",
+   "pts": 7.04,
+   "nota": ""
+  },
+  {
+   "sha": "963cefb",
+   "team": "BOLAR",
+   "repo": "bolarpay/bolar-app",
+   "author": "JersonUCB",
+   "date": "2026-10-09T04:30:26Z",
+   "msg": "Merge branch 'codex/remittance-form-improvements' into main",
+   "pts": 0.0,
+   "nota": "merge"
+  },
+  {
+   "sha": "50308d4",
+   "team": "BOLAR",
+   "repo": "bolarpay/bolar-app",
+   "author": "JersonUCB",
+   "date": "2026-10-09T04:27:43Z",
+   "msg": "fix: unify button hover colors with BOLAR branding",
+   "pts": 7.34,
+   "nota": ""
+  },
+  {
+   "sha": "7be253e",
+   "team": "BOLAR",
+   "repo": "bolarpay/bolar-app",
+   "author": "JersonUCB",
+   "date": "2026-10-09T03:58:30Z",
+   "msg": "feat: enhance remittance form fields and BOLAR loading states",
+   "pts": 8.37,
+   "nota": ""
+  },
+  {
+   "sha": "8ee06e0",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "Hans3010",
+   "date": "2026-10-09T03:43:29Z",
+   "msg": "Merge pull request #48 from orlando-vazquez-career/docs/railway-libatomic",
+   "pts": 0.0,
+   "nota": "merge"
+  },
+  {
+   "sha": "d446930",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "orlando-vazquez-career",
+   "date": "2026-10-09T03:21:38Z",
+   "msg": "docs(deploy): libatomic1 en los paquetes apt de runtime de Railway",
+   "pts": 5.25,
+   "nota": ""
+  },
   {
    "sha": "b4c85e7",
    "team": "Impulso Stellar",
@@ -1421,6 +1653,26 @@
    "date": "2026-10-07T10:52:06Z",
    "msg": "feat: squad formations for group move orders",
    "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "c49511a",
+   "team": "CompraGasolinaBidon",
+   "repo": "jjvos19/stellar-build",
+   "author": "jjvos19",
+   "date": "2026-10-07T05:56:57Z",
+   "msg": "Inicio de contrato",
+   "pts": 8.42,
+   "nota": ""
+  },
+  {
+   "sha": "fd41be4",
+   "team": "CompraGasolinaBidon",
+   "repo": "jjvos19/stellar-build",
+   "author": "jjvos19",
+   "date": "2026-10-07T05:05:38Z",
+   "msg": "Se adiciona workflow del sistema.",
+   "pts": 7.89,
    "nota": ""
   },
   {

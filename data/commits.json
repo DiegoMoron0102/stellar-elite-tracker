@@ -72791,5 +72791,1050 @@
     "d": 0
    }
   ]
+ },
+ "d538afe0a8ed0a7e5028d61f2d1ec6f51445f331": {
+  "team": "Puls3",
+  "repo": "Zer0-Knowledge-Hack/puls3",
+  "author": "TOMOKI977",
+  "date": "2026-10-09T12:13:38Z",
+  "message": "feat(domain): agent manifest JSON, canonical form and docs (#34, 3/3) (#142)",
+  "parents": 1,
+  "files": [
+   {
+    "f": ".github/workflows/ci.yml",
+    "a": 2,
+    "d": 0
+   },
+   {
+    "f": "docs/adr/0004-agent-manifest-and-deployment.md",
+    "a": 16,
+    "d": 2
+   },
+   {
+    "f": "docs/architecture/api.md",
+    "a": 3,
+    "d": 1
+   },
+   {
+    "f": "docs/architecture/examples/agent-manifest.workers-ai.example.json",
+    "a": 31,
+    "d": 0
+   },
+   {
+    "f": "docs/domain/model.md",
+    "a": 53,
+    "d": 0
+   },
+   {
+    "f": "openspec/changes/34-agent-manifest/apply-progress.md",
+    "a": 49,
+    "d": 1
+   },
+   {
+    "f": "openspec/changes/34-agent-manifest/design.md",
+    "a": 3,
+    "d": 3
+   },
+   {
+    "f": "openspec/changes/34-agent-manifest/specs/agent-manifest/spec.md",
+    "a": 16,
+    "d": 14
+   },
+   {
+    "f": "openspec/changes/34-agent-manifest/tasks.md",
+    "a": 34,
+    "d": 14
+   },
+   {
+    "f": "openspec/changes/34-agent-manifest/verify-report.md",
+    "a": 75,
+    "d": 0
+   },
+   {
+    "f": "puls3_domain/lib/src/entities.dart",
+    "a": 3,
+    "d": 3
+   },
+   {
+    "f": "puls3_domain/lib/src/manifest.dart",
+    "a": 417,
+    "d": 7
+   },
+   {
+    "f": "puls3_domain/test/entities_test.dart",
+    "a": 70,
+    "d": 0
+   },
+   {
+    "f": "puls3_domain/test/manifest_test.dart",
+    "a": 818,
+    "d": 24
+   }
+  ]
+ },
+ "44b2040e720fe1d1cbed1c2a610714a15aff7d01": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-09T10:28:42Z",
+  "message": "Precios: gratis para comunidades, y planes de evento, anual y sponsor",
+  "parents": 1,
+  "files": [
+   {
+    "f": "precios.html",
+    "a": 4,
+    "d": 3
+   },
+   {
+    "f": "src/i18n.ts",
+    "a": 16,
+    "d": 12
+   }
+  ]
+ },
+ "bde8feee5e7ee53ed0af89e326870da08f5317e9": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-09T10:23:25Z",
+  "message": "Precios: se paga como en cada país, en moneda local o en cripto",
+  "parents": 1,
+  "files": [
+   {
+    "f": "precios.html",
+    "a": 3,
+    "d": 3
+   },
+   {
+    "f": "src/i18n.ts",
+    "a": 6,
+    "d": 6
+   }
+  ]
+ },
+ "0fd8a0b790bb5c48795842ce6a8cc6c6e6e59af8": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-09T10:19:40Z",
+  "message": "Precios: el pago con QR del banco, explicado, y sin confundirlo con el QR del sorteo",
+  "parents": 1,
+  "files": [
+   {
+    "f": "precios.html",
+    "a": 3,
+    "d": 3
+   },
+   {
+    "f": "src/i18n.ts",
+    "a": 6,
+    "d": 6
+   }
+  ]
+ },
+ "7b831ccedb86bcabe6ae059b098d23a244312538": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-09T10:19:13Z",
+  "message": "Precios: cómo se sostiene Tinkazo y cómo se paga, en bolivianos o en cripto",
+  "parents": 1,
+  "files": [
+   {
+    "f": "precios.html",
+    "a": 23,
+    "d": 5
+   },
+   {
+    "f": "src/i18n.ts",
+    "a": 36,
+    "d": 14
+   }
+  ]
+ },
+ "d5f75f31e1d3cf0e2a7c1c457e9211d6307b47ce": {
+  "team": "CompraGasolinaBidon",
+  "repo": "jjvos19/stellar-build",
+  "author": "jjvos19",
+  "date": "2026-10-09T10:00:51Z",
+  "message": "Merge pull request #3 from jjvos19/jjvos19/1.0.0",
+  "parents": 2,
+  "files": [
+   {
+    "f": "README.md",
+    "a": 42,
+    "d": 1
+   }
+  ]
+ },
+ "434608ca270d3df6bd6ad2cbdc7131c2202aee7b": {
+  "team": "CompraGasolinaBidon",
+  "repo": "jjvos19/stellar-build",
+  "author": "jjvos19",
+  "date": "2026-10-09T09:59:18Z",
+  "message": "Actualizacion de documentacion.",
+  "parents": 1,
+  "files": [
+   {
+    "f": "README.md",
+    "a": 42,
+    "d": 1
+   }
+  ]
+ },
+ "1bb64e6c6c2804d0aac9c85e5cf4934ef292b7f7": {
+  "team": "CompraGasolinaBidon",
+  "repo": "jjvos19/stellar-build",
+  "author": "jjvos19",
+  "date": "2026-10-09T09:50:55Z",
+  "message": "Merge pull request #2 from jjvos19/jjvos19/1.0.0",
+  "parents": 2,
+  "files": [
+   {
+    "f": "README.md",
+    "a": 5,
+    "d": 0
+   }
+  ]
+ },
+ "36f743dd99990079a616a429715343f6573e343b": {
+  "team": "CompraGasolinaBidon",
+  "repo": "jjvos19/stellar-build",
+  "author": "jjvos19",
+  "date": "2026-10-09T09:49:33Z",
+  "message": "Documentacion",
+  "parents": 1,
+  "files": [
+   {
+    "f": "README.md",
+    "a": 5,
+    "d": 0
+   }
+  ]
+ },
+ "70147de5c8a1aaf7b22e669aa30dd563daca7677": {
+  "team": "CompraGasolinaBidon",
+  "repo": "jjvos19/stellar-build",
+  "author": "jjvos19",
+  "date": "2026-10-09T09:40:28Z",
+  "message": "Merge pull request #1 from jjvos19/jjvos19/1.0.0",
+  "parents": 2,
+  "files": [
+   {
+    "f": "README.md",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "buy-jerrycan-gasoline/.gitignore",
+    "a": 6,
+    "d": 0
+   },
+   {
+    "f": "buy-jerrycan-gasoline/Cargo.lock",
+    "a": 2119,
+    "d": 0
+   },
+   {
+    "f": "buy-jerrycan-gasoline/Cargo.toml",
+    "a": 23,
+    "d": 0
+   },
+   {
+    "f": "buy-jerrycan-gasoline/README.md",
+    "a": 315,
+    "d": 0
+   },
+   {
+    "f": "buy-jerrycan-gasoline/contracts/buy-jerrycan-gasoline/Cargo.toml",
+    "a": 15,
+    "d": 0
+   },
+   {
+    "f": "buy-jerrycan-gasoline/contracts/buy-jerrycan-gasoline/Makefile",
+    "a": 16,
+    "d": 0
+   },
+   {
+    "f": "buy-jerrycan-gasoline/contracts/buy-jerrycan-gasoline/src/lib.rs",
+    "a": 860,
+    "d": 0
+   },
+   {
+    "f": "buy-jerrycan-gasoline/contracts/buy-jerrycan-gasoline/src/string_utils.rs",
+    "a": 46,
+    "d": 0
+   },
+   {
+    "f": "buy-jerrycan-gasoline/contracts/buy-jerrycan-gasoline/src/test.rs",
+    "a": 396,
+    "d": 0
+   },
+   {
+    "f": "buy-jerrycan-gasoline/contracts/buy-jerrycan-gasoline/test_snapshots/test/cambio_de_estado_y_bloqueo_no_valid.1.json",
+    "a": 316,
+    "d": 0
+   },
+   {
+    "f": "buy-jerrycan-gasoline/contracts/buy-jerrycan-gasoline/test_snapshots/test/carga_rechazada_por_comprador.1.json",
+    "a": 785,
+    "d": 0
+   },
+   {
+    "f": "buy-jerrycan-gasoline/contracts/buy-jerrycan-gasoline/test_snapshots/test/carga_rechazada_por_estado_del_vehiculo.1.json",
+    "a": 666,
+    "d": 0
+   },
+   {
+    "f": "buy-jerrycan-gasoline/contracts/buy-jerrycan-gasoline/test_snapshots/test/carga_sin_precio.1.json",
+    "a": 487,
+    "d": 0
+   },
+   {
+    "f": "buy-jerrycan-gasoline/contracts/buy-jerrycan-gasoline/test_snapshots/test/carga_usa_el_precio_vigente.1.json",
+    "a": 981,
+    "d": 0
+   },
+   {
+    "f": "buy-jerrycan-gasoline/contracts/buy-jerrycan-gasoline/test_snapshots/test/comprador_carnet_recortado_vacio_y_duplicado.1.json",
+    "a": 242,
+    "d": 0
+   },
+   {
+    "f": "buy-jerrycan-gasoline/contracts/buy-jerrycan-gasoline/test_snapshots/test/comprador_por_vehiculo.1.json",
+    "a": 489,
+    "d": 0
+   },
+   {
+    "f": "buy-jerrycan-gasoline/contracts/buy-jerrycan-gasoline/test_snapshots/test/constructor_define_admin.1.json",
+    "a": 74,
+    "d": 0
+   },
+   {
+    "f": "buy-jerrycan-gasoline/contracts/buy-jerrycan-gasoline/test_snapshots/test/funciones_de_admin_exigen_firma_del_admin.1.json",
+    "a": 362,
+    "d": 0
+   },
+   {
+    "f": "buy-jerrycan-gasoline/contracts/buy-jerrycan-gasoline/test_snapshots/test/limite_mensual_con_hora_de_bolivia.1.json",
+    "a": 1192,
+    "d": 0
+   },
+   {
+    "f": "buy-jerrycan-gasoline/contracts/buy-jerrycan-gasoline/test_snapshots/test/no_admin_no_puede_cambiar_precio.1.json",
+    "a": 98,
+    "d": 0
+   },
+   {
+    "f": "buy-jerrycan-gasoline/contracts/buy-jerrycan-gasoline/test_snapshots/test/placa_duplicada_y_placa_inexistente.1.json",
+    "a": 233,
+    "d": 0
+   },
+   {
+    "f": "buy-jerrycan-gasoline/contracts/buy-jerrycan-gasoline/test_snapshots/test/precio_de_gasolina.1.json",
+    "a": 167,
+    "d": 0
+   },
+   {
+    "f": "buy-jerrycan-gasoline/contracts/buy-jerrycan-gasoline/test_snapshots/test/registra_carga_y_calcula_precio.1.json",
+    "a": 777,
+    "d": 0
+   },
+   {
+    "f": "buy-jerrycan-gasoline/contracts/buy-jerrycan-gasoline/test_snapshots/test/registra_y_busca_vehiculo.1.json",
+    "a": 233,
+    "d": 0
+   },
+   {
+    "f": "buy-jerrycan-gasoline/contracts/buy-jerrycan-gasoline/test_snapshots/test/transferir_admin.1.json",
+    "a": 150,
+    "d": 0
+   },
+   {
+    "f": "docs/.$buy-jerrycan-gasoline.drawio.bkp",
+    "a": 10,
+    "d": 0
+   },
+   {
+    "f": "docs/buy-jerrycan-gasoline.drawio",
+    "a": 108,
+    "d": 0
+   }
+  ]
+ },
+ "1b6fd9109c02fed804f4301dad7c613d50dbad9b": {
+  "team": "CompraGasolinaBidon",
+  "repo": "jjvos19/stellar-build",
+  "author": "jjvos19",
+  "date": "2026-10-09T09:36:37Z",
+  "message": "Correccion de codigo",
+  "parents": 1,
+  "files": [
+   {
+    "f": "buy-jerrycan-gasoline/contracts/buy-jerrycan-gasoline/src/lib.rs",
+    "a": 2,
+    "d": 2
+   }
+  ]
+ },
+ "32689040b675c0c0e8d4e7443c949eb6a82caf56": {
+  "team": "CompraGasolinaBidon",
+  "repo": "jjvos19/stellar-build",
+  "author": "jjvos19",
+  "date": "2026-10-09T09:35:00Z",
+  "message": "Actualizar documentacion.",
+  "parents": 1,
+  "files": [
+   {
+    "f": "buy-jerrycan-gasoline/README.md",
+    "a": 28,
+    "d": 0
+   }
+  ]
+ },
+ "5e8744cae15b840a62cb271dd7238e5bb6c49fe1": {
+  "team": "CompraGasolinaBidon",
+  "repo": "jjvos19/stellar-build",
+  "author": "jjvos19",
+  "date": "2026-10-09T09:20:21Z",
+  "message": "Se adiciona documentacion.",
+  "parents": 1,
+  "files": [
+   {
+    "f": "buy-jerrycan-gasoline/README.md",
+    "a": 265,
+    "d": 0
+   }
+  ]
+ },
+ "9f9d2e17fdb800bd32d7e2e585bbae2fde51ef5a": {
+  "team": "CompraGasolinaBidon",
+  "repo": "jjvos19/stellar-build",
+  "author": "jjvos19",
+  "date": "2026-10-09T08:59:50Z",
+  "message": "Carga de contrato funcional y pruebas de los metodos.",
+  "parents": 1,
+  "files": [
+   {
+    "f": "buy-jerrycan-gasoline/contracts/buy-jerrycan-gasoline/src/lib.rs",
+    "a": 833,
+    "d": 40
+   },
+   {
+    "f": "buy-jerrycan-gasoline/contracts/buy-jerrycan-gasoline/src/string_utils.rs",
+    "a": 46,
+    "d": 0
+   },
+   {
+    "f": "buy-jerrycan-gasoline/contracts/buy-jerrycan-gasoline/src/test.rs",
+    "a": 387,
+    "d": 12
+   },
+   {
+    "f": "buy-jerrycan-gasoline/contracts/buy-jerrycan-gasoline/test_snapshots/test/cambio_de_estado_y_bloqueo_no_valid.1.json",
+    "a": 316,
+    "d": 0
+   },
+   {
+    "f": "buy-jerrycan-gasoline/contracts/buy-jerrycan-gasoline/test_snapshots/test/carga_rechazada_por_comprador.1.json",
+    "a": 785,
+    "d": 0
+   },
+   {
+    "f": "buy-jerrycan-gasoline/contracts/buy-jerrycan-gasoline/test_snapshots/test/carga_rechazada_por_estado_del_vehiculo.1.json",
+    "a": 666,
+    "d": 0
+   },
+   {
+    "f": "buy-jerrycan-gasoline/contracts/buy-jerrycan-gasoline/test_snapshots/test/carga_sin_precio.1.json",
+    "a": 487,
+    "d": 0
+   },
+   {
+    "f": "buy-jerrycan-gasoline/contracts/buy-jerrycan-gasoline/test_snapshots/test/carga_usa_el_precio_vigente.1.json",
+    "a": 981,
+    "d": 0
+   },
+   {
+    "f": "buy-jerrycan-gasoline/contracts/buy-jerrycan-gasoline/test_snapshots/test/comprador_carnet_recortado_vacio_y_duplicado.1.json",
+    "a": 242,
+    "d": 0
+   },
+   {
+    "f": "buy-jerrycan-gasoline/contracts/buy-jerrycan-gasoline/test_snapshots/test/comprador_por_vehiculo.1.json",
+    "a": 489,
+    "d": 0
+   },
+   {
+    "f": "buy-jerrycan-gasoline/contracts/buy-jerrycan-gasoline/test_snapshots/test/constructor_define_admin.1.json",
+    "a": 74,
+    "d": 0
+   },
+   {
+    "f": "buy-jerrycan-gasoline/contracts/buy-jerrycan-gasoline/test_snapshots/test/funciones_de_admin_exigen_firma_del_admin.1.json",
+    "a": 362,
+    "d": 0
+   },
+   {
+    "f": "buy-jerrycan-gasoline/contracts/buy-jerrycan-gasoline/test_snapshots/test/limite_mensual_con_hora_de_bolivia.1.json",
+    "a": 1192,
+    "d": 0
+   },
+   {
+    "f": "buy-jerrycan-gasoline/contracts/buy-jerrycan-gasoline/test_snapshots/test/no_admin_no_puede_cambiar_precio.1.json",
+    "a": 98,
+    "d": 0
+   },
+   {
+    "f": "buy-jerrycan-gasoline/contracts/buy-jerrycan-gasoline/test_snapshots/test/placa_duplicada_y_placa_inexistente.1.json",
+    "a": 233,
+    "d": 0
+   },
+   {
+    "f": "buy-jerrycan-gasoline/contracts/buy-jerrycan-gasoline/test_snapshots/test/precio_de_gasolina.1.json",
+    "a": 167,
+    "d": 0
+   },
+   {
+    "f": "buy-jerrycan-gasoline/contracts/buy-jerrycan-gasoline/test_snapshots/test/registra_carga_y_calcula_precio.1.json",
+    "a": 777,
+    "d": 0
+   },
+   {
+    "f": "buy-jerrycan-gasoline/contracts/buy-jerrycan-gasoline/test_snapshots/test/registra_y_busca_vehiculo.1.json",
+    "a": 233,
+    "d": 0
+   },
+   {
+    "f": "buy-jerrycan-gasoline/contracts/buy-jerrycan-gasoline/test_snapshots/test/transferir_admin.1.json",
+    "a": 150,
+    "d": 0
+   }
+  ]
+ },
+ "c49511aa267eaca935c2ebe1cc30d367acd412b4": {
+  "team": "CompraGasolinaBidon",
+  "repo": "jjvos19/stellar-build",
+  "author": "jjvos19",
+  "date": "2026-10-07T05:56:57Z",
+  "message": "Inicio de contrato",
+  "parents": 1,
+  "files": [
+   {
+    "f": "buy-jerrycan-gasoline/.gitignore",
+    "a": 6,
+    "d": 0
+   },
+   {
+    "f": "buy-jerrycan-gasoline/Cargo.lock",
+    "a": 2119,
+    "d": 0
+   },
+   {
+    "f": "buy-jerrycan-gasoline/Cargo.toml",
+    "a": 23,
+    "d": 0
+   },
+   {
+    "f": "buy-jerrycan-gasoline/README.md",
+    "a": 22,
+    "d": 0
+   },
+   {
+    "f": "buy-jerrycan-gasoline/contracts/buy-jerrycan-gasoline/Cargo.toml",
+    "a": 15,
+    "d": 0
+   },
+   {
+    "f": "buy-jerrycan-gasoline/contracts/buy-jerrycan-gasoline/Makefile",
+    "a": 16,
+    "d": 0
+   },
+   {
+    "f": "buy-jerrycan-gasoline/contracts/buy-jerrycan-gasoline/src/lib.rs",
+    "a": 67,
+    "d": 0
+   },
+   {
+    "f": "buy-jerrycan-gasoline/contracts/buy-jerrycan-gasoline/src/test.rs",
+    "a": 21,
+    "d": 0
+   }
+  ]
+ },
+ "fd41be4a1dd41fa96fb196a505872d1626361543": {
+  "team": "CompraGasolinaBidon",
+  "repo": "jjvos19/stellar-build",
+  "author": "jjvos19",
+  "date": "2026-10-07T05:05:38Z",
+  "message": "Se adiciona workflow del sistema.",
+  "parents": 1,
+  "files": [
+   {
+    "f": "README.md",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/.$buy-jerrycan-gasoline.drawio.bkp",
+    "a": 10,
+    "d": 0
+   },
+   {
+    "f": "docs/buy-jerrycan-gasoline.drawio",
+    "a": 108,
+    "d": 0
+   }
+  ]
+ },
+ "8ee06e0d19a73d41c7e422c8a02e8ac42a637eb9": {
+  "team": "Impulso Stellar",
+  "repo": "orlando-vazquez-career/stellar-impulse",
+  "author": "Hans3010",
+  "date": "2026-10-09T03:43:29Z",
+  "message": "Merge pull request #48 from orlando-vazquez-career/docs/railway-libatomic",
+  "parents": 2,
+  "files": [
+   {
+    "f": "docs/deployment.md",
+    "a": 18,
+    "d": 0
+   }
+  ]
+ },
+ "d446930ef2307c80bcb5bcc633ba618c6ce0aaef": {
+  "team": "Impulso Stellar",
+  "repo": "orlando-vazquez-career/stellar-impulse",
+  "author": "orlando-vazquez-career",
+  "date": "2026-10-09T03:21:38Z",
+  "message": "docs(deploy): libatomic1 en los paquetes apt de runtime de Railway",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/deployment.md",
+    "a": 18,
+    "d": 0
+   }
+  ]
+ },
+ "963cefb8578befb4ad362726b5d7fb29c4b3d669": {
+  "team": "BOLAR",
+  "repo": "bolarpay/bolar-app",
+  "author": "JersonUCB",
+  "date": "2026-10-09T04:30:26Z",
+  "message": "Merge branch 'codex/remittance-form-improvements' into main",
+  "parents": 2,
+  "files": [
+   {
+    "f": "app/globals.css",
+    "a": 12,
+    "d": 3
+   },
+   {
+    "f": "app/login-button.tsx",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "app/pollar-login-modal.css",
+    "a": 41,
+    "d": 1
+   },
+   {
+    "f": "components/landing/landing-footer.tsx",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "components/landing/landing-header.tsx",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "components/landing/remittance-calculator.tsx",
+    "a": 12,
+    "d": 9
+   },
+   {
+    "f": "components/remittance/bolar-loader.css",
+    "a": 22,
+    "d": 0
+   },
+   {
+    "f": "components/remittance/bolar-loader.tsx",
+    "a": 36,
+    "d": 0
+   },
+   {
+    "f": "components/remittance/remittance-dialog.tsx",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "components/remittance/remittance-steps.tsx",
+    "a": 55,
+    "d": 13
+   },
+   {
+    "f": "docs/landing-conversor.md",
+    "a": 24,
+    "d": 2
+   },
+   {
+    "f": "public/assets/landing/bolar-symbol.svg",
+    "a": 1,
+    "d": 0
+   }
+  ]
+ },
+ "50308d4cee304297c8b64adfe8a1acbb82529323": {
+  "team": "BOLAR",
+  "repo": "bolarpay/bolar-app",
+  "author": "JersonUCB",
+  "date": "2026-10-09T04:27:43Z",
+  "message": "fix: unify button hover colors with BOLAR branding",
+  "parents": 1,
+  "files": [
+   {
+    "f": "app/globals.css",
+    "a": 9,
+    "d": 0
+   },
+   {
+    "f": "app/login-button.tsx",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "app/pollar-login-modal.css",
+    "a": 41,
+    "d": 1
+   },
+   {
+    "f": "components/landing/landing-footer.tsx",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "components/landing/landing-header.tsx",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "components/landing/remittance-calculator.tsx",
+    "a": 4,
+    "d": 4
+   },
+   {
+    "f": "components/remittance/remittance-steps.tsx",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "docs/landing-conversor.md",
+    "a": 7,
+    "d": 0
+   }
+  ]
+ },
+ "7be253e3d5d5f42f93c51104f1a9467447e8b023": {
+  "team": "BOLAR",
+  "repo": "bolarpay/bolar-app",
+  "author": "JersonUCB",
+  "date": "2026-10-09T03:58:30Z",
+  "message": "feat: enhance remittance form fields and BOLAR loading states",
+  "parents": 1,
+  "files": [
+   {
+    "f": "app/globals.css",
+    "a": 3,
+    "d": 3
+   },
+   {
+    "f": "components/landing/remittance-calculator.tsx",
+    "a": 9,
+    "d": 6
+   },
+   {
+    "f": "components/remittance/bolar-loader.css",
+    "a": 22,
+    "d": 0
+   },
+   {
+    "f": "components/remittance/bolar-loader.tsx",
+    "a": 36,
+    "d": 0
+   },
+   {
+    "f": "components/remittance/remittance-dialog.tsx",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "components/remittance/remittance-steps.tsx",
+    "a": 53,
+    "d": 11
+   },
+   {
+    "f": "docs/landing-conversor.md",
+    "a": 17,
+    "d": 2
+   },
+   {
+    "f": "public/assets/landing/bolar-symbol.svg",
+    "a": 1,
+    "d": 0
+   }
+  ]
+ },
+ "8073e00803abd0d5382c6b098705f1d084b055f0": {
+  "team": "TilcAI",
+  "repo": "TilcAI/tilcai-web",
+  "author": "SaulChoque",
+  "date": "2026-10-09T08:21:43Z",
+  "message": "Merge pull request #26 from TilcAI/feat/monitor-events",
+  "parents": 2,
+  "files": [
+   {
+    "f": ".env.example",
+    "a": 11,
+    "d": 0
+   },
+   {
+    "f": ".gitattributes",
+    "a": 2,
+    "d": 0
+   },
+   {
+    "f": ".github/copilot-instructions.md",
+    "a": 9,
+    "d": 0
+   },
+   {
+    "f": "AGENTS.md",
+    "a": 53,
+    "d": 0
+   },
+   {
+    "f": "AGENT_HISTORY.md",
+    "a": 54,
+    "d": 0
+   },
+   {
+    "f": "GEMINI.md",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "README.md",
+    "a": 46,
+    "d": 0
+   },
+   {
+    "f": "src/app/[lang]/monitor/page.tsx",
+    "a": 28,
+    "d": 0
+   },
+   {
+    "f": "src/app/api/monitor/events/route.ts",
+    "a": 53,
+    "d": 0
+   },
+   {
+    "f": "src/app/api/monitor/session/route.ts",
+    "a": 26,
+    "d": 0
+   },
+   {
+    "f": "src/app/api/monitor/stream/route.ts",
+    "a": 55,
+    "d": 0
+   },
+   {
+    "f": "src/app/api/monitor/summary/route.ts",
+    "a": 10,
+    "d": 0
+   },
+   {
+    "f": "src/components/monitor/MonitorBoard.module.css",
+    "a": 90,
+    "d": 0
+   },
+   {
+    "f": "src/components/monitor/MonitorBoard.tsx",
+    "a": 406,
+    "d": 0
+   },
+   {
+    "f": "src/components/monitor/useMonitorFeed.ts",
+    "a": 119,
+    "d": 0
+   },
+   {
+    "f": "src/lib/monitor/access.ts",
+    "a": 39,
+    "d": 0
+   },
+   {
+    "f": "src/lib/monitor/contract.ts",
+    "a": 170,
+    "d": 0
+   },
+   {
+    "f": "src/lib/monitor/copy.ts",
+    "a": 174,
+    "d": 0
+   },
+   {
+    "f": "src/lib/monitor/interpret.ts",
+    "a": 194,
+    "d": 0
+   },
+   {
+    "f": "src/lib/monitor/signature.ts",
+    "a": 28,
+    "d": 0
+   },
+   {
+    "f": "src/lib/monitor/store.ts",
+    "a": 185,
+    "d": 0
+   },
+   {
+    "f": "test/monitor.test.ts",
+    "a": 244,
+    "d": 0
+   }
+  ]
+ },
+ "d1c53598dbbbb3fb393ab6d4bb10579bff5c2a47": {
+  "team": "TilcAI",
+  "repo": "TilcAI/tilcai-web",
+  "author": "SaulChoque",
+  "date": "2026-10-09T08:20:43Z",
+  "message": "feat(monitor): receive, store and show the backend's events",
+  "parents": 1,
+  "files": [
+   {
+    "f": ".env.example",
+    "a": 11,
+    "d": 0
+   },
+   {
+    "f": "AGENT_HISTORY.md",
+    "a": 54,
+    "d": 0
+   },
+   {
+    "f": "README.md",
+    "a": 46,
+    "d": 0
+   },
+   {
+    "f": "src/app/[lang]/monitor/page.tsx",
+    "a": 28,
+    "d": 0
+   },
+   {
+    "f": "src/app/api/monitor/events/route.ts",
+    "a": 53,
+    "d": 0
+   },
+   {
+    "f": "src/app/api/monitor/session/route.ts",
+    "a": 26,
+    "d": 0
+   },
+   {
+    "f": "src/app/api/monitor/stream/route.ts",
+    "a": 55,
+    "d": 0
+   },
+   {
+    "f": "src/app/api/monitor/summary/route.ts",
+    "a": 10,
+    "d": 0
+   },
+   {
+    "f": "src/components/monitor/MonitorBoard.module.css",
+    "a": 90,
+    "d": 0
+   },
+   {
+    "f": "src/components/monitor/MonitorBoard.tsx",
+    "a": 406,
+    "d": 0
+   },
+   {
+    "f": "src/components/monitor/useMonitorFeed.ts",
+    "a": 119,
+    "d": 0
+   },
+   {
+    "f": "src/lib/monitor/access.ts",
+    "a": 39,
+    "d": 0
+   },
+   {
+    "f": "src/lib/monitor/contract.ts",
+    "a": 170,
+    "d": 0
+   },
+   {
+    "f": "src/lib/monitor/copy.ts",
+    "a": 174,
+    "d": 0
+   },
+   {
+    "f": "src/lib/monitor/interpret.ts",
+    "a": 194,
+    "d": 0
+   },
+   {
+    "f": "src/lib/monitor/signature.ts",
+    "a": 28,
+    "d": 0
+   },
+   {
+    "f": "src/lib/monitor/store.ts",
+    "a": 185,
+    "d": 0
+   },
+   {
+    "f": "test/monitor.test.ts",
+    "a": 244,
+    "d": 0
+   }
+  ]
+ },
+ "d424f233faa28c93cffadea58cc503c6e5a1daf6": {
+  "team": "TilcAI",
+  "repo": "TilcAI/tilcai-web",
+  "author": "SaulChoque",
+  "date": "2026-10-09T08:20:42Z",
+  "message": "docs(agents): add the prompt and output history rule",
+  "parents": 1,
+  "files": [
+   {
+    "f": ".gitattributes",
+    "a": 2,
+    "d": 0
+   },
+   {
+    "f": ".github/copilot-instructions.md",
+    "a": 9,
+    "d": 0
+   },
+   {
+    "f": "AGENTS.md",
+    "a": 53,
+    "d": 0
+   },
+   {
+    "f": "GEMINI.md",
+    "a": 1,
+    "d": 0
+   }
+  ]
  }
 }
