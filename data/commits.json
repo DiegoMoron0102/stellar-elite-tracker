@@ -72141,5 +72141,655 @@
     "d": 1
    }
   ]
+ },
+ "b4c85e75c8fc18950897c38a437c506480d2e296": {
+  "team": "Impulso Stellar",
+  "repo": "orlando-vazquez-career/stellar-impulse",
+  "author": "orlando-vazquez-career",
+  "date": "2026-10-09T03:20:43Z",
+  "message": "Merge pull request #47 from orlando-vazquez-career/feat/tutorial-primera-partida",
+  "parents": 2,
+  "files": [
+   {
+    "f": "apps/web/public/cosmetics/aurora-andina.json",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "apps/web/public/cosmetics/exploracion.json",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "apps/web/public/cosmetics/img/aurora-andina.svg",
+    "a": 12,
+    "d": 0
+   },
+   {
+    "f": "apps/web/public/cosmetics/img/exploracion.svg",
+    "a": 10,
+    "d": 0
+   },
+   {
+    "f": "apps/web/public/cosmetics/img/musica-gravity-final-path.svg",
+    "a": 12,
+    "d": 0
+   },
+   {
+    "f": "apps/web/public/cosmetics/img/musica-iron-vanguard.svg",
+    "a": 9,
+    "d": 0
+   },
+   {
+    "f": "apps/web/public/cosmetics/img/primera-victoria.svg",
+    "a": 9,
+    "d": 0
+   },
+   {
+    "f": "apps/web/public/cosmetics/img/pulso-violeta.svg",
+    "a": 10,
+    "d": 0
+   },
+   {
+    "f": "apps/web/public/cosmetics/img/voz-analista.svg",
+    "a": 11,
+    "d": 0
+   },
+   {
+    "f": "apps/web/public/cosmetics/img/voz-comandante.svg",
+    "a": 11,
+    "d": 0
+   },
+   {
+    "f": "apps/web/public/cosmetics/musica-gravity-final-path.json",
+    "a": 16,
+    "d": 0
+   },
+   {
+    "f": "apps/web/public/cosmetics/musica-iron-vanguard.json",
+    "a": 16,
+    "d": 0
+   },
+   {
+    "f": "apps/web/public/cosmetics/primera-victoria.json",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "apps/web/public/cosmetics/pulso-violeta.json",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "apps/web/public/cosmetics/voz-analista.json",
+    "a": 16,
+    "d": 0
+   },
+   {
+    "f": "apps/web/public/cosmetics/voz-comandante.json",
+    "a": 16,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/visual/game/FirstMatchTutorial.tsx",
+    "a": 45,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/visual/game/GameplayScreen.tsx",
+    "a": 2,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/visual/game/tutorial.css",
+    "a": 10,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/visual/game/tutorial.test.ts",
+    "a": 71,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/visual/game/tutorial.ts",
+    "a": 51,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/visual/hangar/HangarScreen.tsx",
+    "a": 3,
+    "d": 2
+   },
+   {
+    "f": "apps/web/src/visual/hangar/catalog.ts",
+    "a": 8,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/visual/hangar/cosmetic-images.test.ts",
+    "a": 21,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/visual/hangar/hangar.css",
+    "a": 2,
+    "d": 1
+   },
+   {
+    "f": "apps/web/src/visual/i18n.tsx",
+    "a": 26,
+    "d": 0
+   },
+   {
+    "f": "docs/first-practice-tutorial.md",
+    "a": 29,
+    "d": 0
+   },
+   {
+    "f": "docs/qa/playtest-2026-10-09.md",
+    "a": 135,
+    "d": 0
+   },
+   {
+    "f": "tests/e2e/progression.spec.ts",
+    "a": 9,
+    "d": 2
+   },
+   {
+    "f": "tests/e2e/tutorial.spec.ts",
+    "a": 45,
+    "d": 0
+   },
+   {
+    "f": "tests/e2e/visual.spec.ts",
+    "a": 6,
+    "d": 0
+   }
+  ]
+ },
+ "a95acbcdde0844aec987c503c2dde2aadb71d47c": {
+  "team": "Impulso Stellar",
+  "repo": "orlando-vazquez-career/stellar-impulse",
+  "author": "Hans3010",
+  "date": "2026-10-09T02:15:02Z",
+  "message": "test: finish progression match with an official surrender",
+  "parents": 1,
+  "files": [
+   {
+    "f": "tests/e2e/progression.spec.ts",
+    "a": 9,
+    "d": 2
+   }
+  ]
+ },
+ "fb0aad2e56deca272b74126cc3a4096012e366bc": {
+  "team": "Impulso Stellar",
+  "repo": "orlando-vazquez-career/stellar-impulse",
+  "author": "Hans3010",
+  "date": "2026-10-09T02:02:42Z",
+  "message": "Merge main into feat/tutorial-primera-partida",
+  "parents": 2,
+  "files": [
+   {
+    "f": "apps/web/src/visual/game/audio.test.ts",
+    "a": 24,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/visual/game/audio.ts",
+    "a": 4,
+    "d": 1
+   },
+   {
+    "f": "apps/web/src/visual/hangar/HangarScreen.tsx",
+    "a": 7,
+    "d": 3
+   },
+   {
+    "f": "apps/web/src/visual/hangar/catalog.test.ts",
+    "a": 22,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/visual/hangar/catalog.ts",
+    "a": 10,
+    "d": 1
+   },
+   {
+    "f": "apps/web/src/visual/hangar/hangar.css",
+    "a": 3,
+    "d": 2
+   },
+   {
+    "f": "apps/web/src/visual/hangar/loadout.test.ts",
+    "a": 12,
+    "d": 2
+   },
+   {
+    "f": "apps/web/src/visual/hangar/loadout.ts",
+    "a": 8,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/visual/i18n.tsx",
+    "a": 6,
+    "d": 2
+   },
+   {
+    "f": "apps/web/src/visual/music.test.ts",
+    "a": 100,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/visual/music.ts",
+    "a": 39,
+    "d": 13
+   },
+   {
+    "f": "docs/qa/repair-augment-balance-2026-10-08.csv",
+    "a": 401,
+    "d": 0
+   },
+   {
+    "f": "docs/repair-augment-balance-2026-10-08.md",
+    "a": 92,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/augments/catalog.ts",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "packages/sim/src/augments/effects.test.ts",
+    "a": 18,
+    "d": 2
+   },
+   {
+    "f": "tests/e2e/visual.spec.ts",
+    "a": 27,
+    "d": 0
+   }
+  ]
+ },
+ "d574b408b3f71a42d2afc861da1b69729d7542c4": {
+  "team": "Impulso Stellar",
+  "repo": "orlando-vazquez-career/stellar-impulse",
+  "author": "orlando-vazquez-career",
+  "date": "2026-10-09T01:59:00Z",
+  "message": "Merge pull request #46 from orlando-vazquez-career/feat/equipar-voces-musica",
+  "parents": 2,
+  "files": [
+   {
+    "f": "apps/web/src/visual/game/audio.test.ts",
+    "a": 24,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/visual/game/audio.ts",
+    "a": 4,
+    "d": 1
+   },
+   {
+    "f": "apps/web/src/visual/hangar/HangarScreen.tsx",
+    "a": 7,
+    "d": 3
+   },
+   {
+    "f": "apps/web/src/visual/hangar/catalog.test.ts",
+    "a": 22,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/visual/hangar/catalog.ts",
+    "a": 10,
+    "d": 1
+   },
+   {
+    "f": "apps/web/src/visual/hangar/hangar.css",
+    "a": 3,
+    "d": 2
+   },
+   {
+    "f": "apps/web/src/visual/hangar/loadout.test.ts",
+    "a": 12,
+    "d": 2
+   },
+   {
+    "f": "apps/web/src/visual/hangar/loadout.ts",
+    "a": 8,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/visual/i18n.tsx",
+    "a": 6,
+    "d": 2
+   },
+   {
+    "f": "apps/web/src/visual/music.test.ts",
+    "a": 100,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/visual/music.ts",
+    "a": 39,
+    "d": 13
+   },
+   {
+    "f": "docs/qa/repair-augment-balance-2026-10-08.csv",
+    "a": 401,
+    "d": 0
+   },
+   {
+    "f": "docs/repair-augment-balance-2026-10-08.md",
+    "a": 92,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/augments/catalog.ts",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "packages/sim/src/augments/effects.test.ts",
+    "a": 18,
+    "d": 2
+   },
+   {
+    "f": "tests/e2e/visual.spec.ts",
+    "a": 21,
+    "d": 0
+   }
+  ]
+ },
+ "0aa85147d7146fd95fe5eb875e45fd9e4763626c": {
+  "team": "Impulso Stellar",
+  "repo": "orlando-vazquez-career/stellar-impulse",
+  "author": "Hans3010",
+  "date": "2026-10-09T01:02:52Z",
+  "message": "fix: rebalance field and base repair augments",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/qa/repair-augment-balance-2026-10-08.csv",
+    "a": 401,
+    "d": 0
+   },
+   {
+    "f": "docs/repair-augment-balance-2026-10-08.md",
+    "a": 92,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/augments/catalog.ts",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "packages/sim/src/augments/effects.test.ts",
+    "a": 18,
+    "d": 2
+   }
+  ]
+ },
+ "1d6e3c0cd4593d80b6db6551f80b918a7b338316": {
+  "team": "Impulso Stellar",
+  "repo": "orlando-vazquez-career/stellar-impulse",
+  "author": "Hans3010",
+  "date": "2026-10-09T00:50:44Z",
+  "message": "docs: clarify playtest module tab and third account",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/qa/playtest-2026-10-09.md",
+    "a": 2,
+    "d": 2
+   }
+  ]
+ },
+ "03b9796533caa9350a908d92c828aea266524774": {
+  "team": "Impulso Stellar",
+  "repo": "orlando-vazquez-career/stellar-impulse",
+  "author": "Hans3010",
+  "date": "2026-10-09T00:34:48Z",
+  "message": "feat: illustrate eight cosmetic cards with branded SVGs",
+  "parents": 1,
+  "files": [
+   {
+    "f": "apps/web/public/cosmetics/aurora-andina.json",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "apps/web/public/cosmetics/exploracion.json",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "apps/web/public/cosmetics/img/aurora-andina.svg",
+    "a": 12,
+    "d": 0
+   },
+   {
+    "f": "apps/web/public/cosmetics/img/exploracion.svg",
+    "a": 10,
+    "d": 0
+   },
+   {
+    "f": "apps/web/public/cosmetics/img/musica-gravity-final-path.svg",
+    "a": 12,
+    "d": 0
+   },
+   {
+    "f": "apps/web/public/cosmetics/img/musica-iron-vanguard.svg",
+    "a": 9,
+    "d": 0
+   },
+   {
+    "f": "apps/web/public/cosmetics/img/primera-victoria.svg",
+    "a": 9,
+    "d": 0
+   },
+   {
+    "f": "apps/web/public/cosmetics/img/pulso-violeta.svg",
+    "a": 10,
+    "d": 0
+   },
+   {
+    "f": "apps/web/public/cosmetics/img/voz-analista.svg",
+    "a": 11,
+    "d": 0
+   },
+   {
+    "f": "apps/web/public/cosmetics/img/voz-comandante.svg",
+    "a": 11,
+    "d": 0
+   },
+   {
+    "f": "apps/web/public/cosmetics/musica-gravity-final-path.json",
+    "a": 16,
+    "d": 0
+   },
+   {
+    "f": "apps/web/public/cosmetics/musica-iron-vanguard.json",
+    "a": 16,
+    "d": 0
+   },
+   {
+    "f": "apps/web/public/cosmetics/primera-victoria.json",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "apps/web/public/cosmetics/pulso-violeta.json",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "apps/web/public/cosmetics/voz-analista.json",
+    "a": 16,
+    "d": 0
+   },
+   {
+    "f": "apps/web/public/cosmetics/voz-comandante.json",
+    "a": 16,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/visual/hangar/HangarScreen.tsx",
+    "a": 3,
+    "d": 2
+   },
+   {
+    "f": "apps/web/src/visual/hangar/catalog.ts",
+    "a": 8,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/visual/hangar/cosmetic-images.test.ts",
+    "a": 21,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/visual/hangar/hangar.css",
+    "a": 2,
+    "d": 1
+   }
+  ]
+ },
+ "76a310191fce777ae38a34c3f6adec4d19cac167": {
+  "team": "Impulso Stellar",
+  "repo": "orlando-vazquez-career/stellar-impulse",
+  "author": "Hans3010",
+  "date": "2026-10-09T00:34:38Z",
+  "message": "feat: guide the first AI practice with five HUD steps",
+  "parents": 1,
+  "files": [
+   {
+    "f": "apps/web/src/visual/game/FirstMatchTutorial.tsx",
+    "a": 45,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/visual/game/GameplayScreen.tsx",
+    "a": 2,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/visual/game/tutorial.css",
+    "a": 10,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/visual/game/tutorial.test.ts",
+    "a": 71,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/visual/game/tutorial.ts",
+    "a": 51,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/visual/i18n.tsx",
+    "a": 26,
+    "d": 0
+   },
+   {
+    "f": "docs/first-practice-tutorial.md",
+    "a": 29,
+    "d": 0
+   },
+   {
+    "f": "tests/e2e/tutorial.spec.ts",
+    "a": 45,
+    "d": 0
+   }
+  ]
+ },
+ "0ebb6651702d71004e9e8add385a3ab80dea3773": {
+  "team": "Impulso Stellar",
+  "repo": "orlando-vazquez-career/stellar-impulse",
+  "author": "Hans3010",
+  "date": "2026-10-09T00:32:22Z",
+  "message": "docs: add October 9 manual playtest plan",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/qa/playtest-2026-10-09.md",
+    "a": 135,
+    "d": 0
+   }
+  ]
+ },
+ "d0cf48114056f8abae9575239dcc425cbcc2652e": {
+  "team": "Impulso Stellar",
+  "repo": "orlando-vazquez-career/stellar-impulse",
+  "author": "Hans3010",
+  "date": "2026-10-08T20:35:16Z",
+  "message": "feat: equip announcer voices and match music in the hangar",
+  "parents": 1,
+  "files": [
+   {
+    "f": "apps/web/src/visual/game/audio.test.ts",
+    "a": 24,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/visual/game/audio.ts",
+    "a": 4,
+    "d": 1
+   },
+   {
+    "f": "apps/web/src/visual/hangar/HangarScreen.tsx",
+    "a": 7,
+    "d": 3
+   },
+   {
+    "f": "apps/web/src/visual/hangar/catalog.test.ts",
+    "a": 22,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/visual/hangar/catalog.ts",
+    "a": 10,
+    "d": 1
+   },
+   {
+    "f": "apps/web/src/visual/hangar/hangar.css",
+    "a": 3,
+    "d": 2
+   },
+   {
+    "f": "apps/web/src/visual/hangar/loadout.test.ts",
+    "a": 12,
+    "d": 2
+   },
+   {
+    "f": "apps/web/src/visual/hangar/loadout.ts",
+    "a": 8,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/visual/i18n.tsx",
+    "a": 6,
+    "d": 2
+   },
+   {
+    "f": "apps/web/src/visual/music.test.ts",
+    "a": 100,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/visual/music.ts",
+    "a": 39,
+    "d": 13
+   },
+   {
+    "f": "tests/e2e/visual.spec.ts",
+    "a": 21,
+    "d": 0
+   }
+  ]
  }
 }

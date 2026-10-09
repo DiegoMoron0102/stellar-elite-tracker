@@ -1,5 +1,5 @@
 {
- "generado": "2026-10-08T22:40:15+00:00",
+ "generado": "2026-10-09T03:42:51+00:00",
  "programa": "Stellar Elite",
  "start_date": "2026-09-02T00:00:00Z",
  "teams": [
@@ -22,11 +22,11 @@
   },
   {
    "name": "Impulso Stellar",
-   "total": 793.02,
-   "per_capita": 793.02,
-   "commits": 161,
-   "pts_commits": 710.02,
-   "dias_activos": 13,
+   "total": 850.05,
+   "per_capita": 850.05,
+   "commits": 171,
+   "pts_commits": 762.05,
+   "dias_activos": 14,
    "contribuidores": [
     "Copilot",
     "Hans3010",
@@ -360,7 +360,8 @@
    "2026-10-05": 55.78,
    "2026-10-06": 57.46,
    "2026-10-07": 88.21,
-   "2026-10-08": 83.46000000000001
+   "2026-10-08": 92.59,
+   "2026-10-09": 42.900000000000006
   },
   "BOLAR": {
    "2026-09-22": 9.25,
@@ -469,7 +470,8 @@
    "2026-10-05": 11,
    "2026-10-06": 12,
    "2026-10-07": 23,
-   "2026-10-08": 26
+   "2026-10-08": 27,
+   "2026-10-09": 9
   },
   "BOLAR": {
    "2026-09-22": 1,
@@ -501,6 +503,96 @@
   }
  },
  "commits": [
+  {
+   "sha": "b4c85e7",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "orlando-vazquez-career",
+   "date": "2026-10-09T03:20:43Z",
+   "msg": "Merge pull request #47 from orlando-vazquez-career/feat/tutorial-primera-partida",
+   "pts": 0.0,
+   "nota": "merge"
+  },
+  {
+   "sha": "a95acbc",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "Hans3010",
+   "date": "2026-10-09T02:15:02Z",
+   "msg": "test: finish progression match with an official surrender",
+   "pts": 4.58,
+   "nota": ""
+  },
+  {
+   "sha": "fb0aad2",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "Hans3010",
+   "date": "2026-10-09T02:02:42Z",
+   "msg": "Merge main into feat/tutorial-primera-partida",
+   "pts": 0.0,
+   "nota": "merge"
+  },
+  {
+   "sha": "d574b40",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "orlando-vazquez-career",
+   "date": "2026-10-09T01:59:00Z",
+   "msg": "Merge pull request #46 from orlando-vazquez-career/feat/equipar-voces-musica",
+   "pts": 0.0,
+   "nota": "merge"
+  },
+  {
+   "sha": "0aa8514",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "Hans3010",
+   "date": "2026-10-09T01:02:52Z",
+   "msg": "fix: rebalance field and base repair augments",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "1d6e3c0",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "Hans3010",
+   "date": "2026-10-09T00:50:44Z",
+   "msg": "docs: clarify playtest module tab and third account",
+   "pts": 3.32,
+   "nota": ""
+  },
+  {
+   "sha": "03b9796",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "Hans3010",
+   "date": "2026-10-09T00:34:48Z",
+   "msg": "feat: illustrate eight cosmetic cards with branded SVGs",
+   "pts": 7.78,
+   "nota": ""
+  },
+  {
+   "sha": "76a3101",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "Hans3010",
+   "date": "2026-10-09T00:34:38Z",
+   "msg": "feat: guide the first AI practice with five HUD steps",
+   "pts": 9.13,
+   "nota": ""
+  },
+  {
+   "sha": "0ebb665",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "Hans3010",
+   "date": "2026-10-09T00:32:22Z",
+   "msg": "docs: add October 9 manual playtest plan",
+   "pts": 8.09,
+   "nota": ""
+  },
   {
    "sha": "3f24e7b",
    "team": "Puls3",
@@ -559,6 +651,16 @@
    "date": "2026-10-08T20:44:15Z",
    "msg": "docs: add the server escrow relay testnet evidence to the README (#137)",
    "pts": 5.32,
+   "nota": ""
+  },
+  {
+   "sha": "d0cf481",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "Hans3010",
+   "date": "2026-10-08T20:35:16Z",
+   "msg": "feat: equip announcer voices and match music in the hangar",
+   "pts": 9.13,
    "nota": ""
   },
   {
