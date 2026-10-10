@@ -100955,5 +100955,1250 @@
     "d": 0
    }
   ]
+ },
+ "d11174025f4968f69c0f8414a06a7118866c8819": {
+  "team": "Puls3",
+  "repo": "Zer0-Knowledge-Hack/puls3",
+  "author": "moises-cisneros",
+  "date": "2026-10-10T06:09:31Z",
+  "message": "fix(server): read the signers of real testnet accounts in wallet sign-in (#158)",
+  "parents": 1,
+  "files": [
+   {
+    "f": "puls3_server/lib/src/hire/chain_accounts.dart",
+    "a": 98,
+    "d": 16
+   },
+   {
+    "f": "puls3_server/test/unit/ledger/account_authority_test.dart",
+    "a": 63,
+    "d": 0
+   }
+  ]
+ },
+ "7cacd76e71f706b3a7442b4402d7d019ff965a3c": {
+  "team": "Puls3",
+  "repo": "Zer0-Knowledge-Hack/puls3",
+  "author": "XxHugheadxX",
+  "date": "2026-10-10T06:02:14Z",
+  "message": "fix(server): runtime follow-ups from the #141 review: encoded Workers AI model and account path, rune-counted limits, pr",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/architecture/api.md",
+    "a": 3,
+    "d": 1
+   },
+   {
+    "f": "puls3_server/lib/src/runtime/adapters/workers_ai_runtime.dart",
+    "a": 26,
+    "d": 9
+   },
+   {
+    "f": "puls3_server/lib/src/runtime/agent_runner.dart",
+    "a": 9,
+    "d": 4
+   },
+   {
+    "f": "puls3_server/lib/src/runtime/agent_runtime_wiring.dart",
+    "a": 71,
+    "d": 2
+   },
+   {
+    "f": "puls3_server/lib/src/runtime/runtime_config.dart",
+    "a": 12,
+    "d": 4
+   },
+   {
+    "f": "puls3_server/lib/src/runtime/runtime_task.dart",
+    "a": 10,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/test/unit/runtime/agent_runner_test.dart",
+    "a": 22,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/test/unit/runtime/hire_runner_test.dart",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/test/unit/runtime/provider_setup_warnings_test.dart",
+    "a": 121,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/test/unit/runtime/runtime_config_test.dart",
+    "a": 9,
+    "d": 5
+   },
+   {
+    "f": "puls3_server/test/unit/runtime/workers_ai_runtime_test.dart",
+    "a": 43,
+    "d": 0
+   }
+  ]
+ },
+ "9be890c70fff8e685fe7f261dd0a6a66331512c3": {
+  "team": "Puls3",
+  "repo": "Zer0-Knowledge-Hack/puls3",
+  "author": "XxHugheadxX",
+  "date": "2026-10-10T05:31:28Z",
+  "message": "fix(server): enqueueMissing skips only the 23505 of hire_run_hire_idx and retries a failed backfill (#152)",
+  "parents": 1,
+  "files": [
+   {
+    "f": "puls3_server/lib/src/runtime/agent_runtime_wiring.dart",
+    "a": 6,
+    "d": 9
+   },
+   {
+    "f": "puls3_server/lib/src/runtime/missed_run_backfill.dart",
+    "a": 33,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/runtime/serverpod_hire_run_store.dart",
+    "a": 16,
+    "d": 1
+   },
+   {
+    "f": "puls3_server/test/integration/hire_run_store_test.dart",
+    "a": 28,
+    "d": 1
+   },
+   {
+    "f": "puls3_server/test/unit/runtime/missed_run_backfill_test.dart",
+    "a": 87,
+    "d": 0
+   }
+  ]
+ },
+ "730f3dceabf1be76a8cfb1fb8b4a1b886a8fca99": {
+  "team": "Impulso Stellar",
+  "repo": "orlando-vazquez-career/stellar-impulse",
+  "author": "orlando-vazquez-career",
+  "date": "2026-10-10T04:21:57Z",
+  "message": "Merge pull request #55 from orlando-vazquez-career/feat/password-y-ajustes",
+  "parents": 2,
+  "files": [
+   {
+    "f": "apps/server/src/augment-room.test.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "apps/server/src/auth-limit.test.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "apps/server/src/auth-storage.test.ts",
+    "a": 8,
+    "d": 8
+   },
+   {
+    "f": "apps/server/src/auth.test.ts",
+    "a": 20,
+    "d": 9
+   },
+   {
+    "f": "apps/server/src/auth.ts",
+    "a": 3,
+    "d": 2
+   },
+   {
+    "f": "apps/server/src/campaign-flow.test.ts",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "apps/server/src/campaign-rewards.test.ts",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "apps/server/src/campaign-room.test.ts",
+    "a": 3,
+    "d": 3
+   },
+   {
+    "f": "apps/server/src/campaign-save-failure.test.ts",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "apps/server/src/postgres-store.test.ts",
+    "a": 18,
+    "d": 18
+   },
+   {
+    "f": "apps/server/src/progression.test.ts",
+    "a": 3,
+    "d": 3
+   },
+   {
+    "f": "apps/server/src/training-rewards.test.ts",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "apps/server/src/wallet-link.test.ts",
+    "a": 11,
+    "d": 11
+   },
+   {
+    "f": "apps/web/src/auth/client.test.ts",
+    "a": 7,
+    "d": 7
+   },
+   {
+    "f": "apps/web/src/login/LoginForm.tsx",
+    "a": 13,
+    "d": 5
+   },
+   {
+    "f": "apps/web/src/multiplayer/session.test.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "apps/web/src/visual/VisualPrototypeApp.tsx",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "apps/web/src/visual/i18n.tsx",
+    "a": 14,
+    "d": 4
+   },
+   {
+    "f": "apps/web/src/visual/lobby/MultiplayerLobby.tsx",
+    "a": 2,
+    "d": 5
+   },
+   {
+    "f": "apps/web/src/visual/lobby/PreparationLobby.tsx",
+    "a": 8,
+    "d": 8
+   },
+   {
+    "f": "apps/web/src/visual/lobby/lobby.css",
+    "a": 9,
+    "d": 43
+   },
+   {
+    "f": "apps/web/src/visual/map/MapPreview.tsx",
+    "a": 10,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/visual/map/SectorMapScreen.tsx",
+    "a": 170,
+    "d": 75
+   },
+   {
+    "f": "apps/web/src/visual/map/map-preview.test.ts",
+    "a": 23,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/visual/map/map-preview.ts",
+    "a": 85,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/visual/map/sector-map.css",
+    "a": 3,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/visual/menu/CommandCenter.tsx",
+    "a": 17,
+    "d": 15
+   },
+   {
+    "f": "apps/web/src/visual/run/RunWarp.tsx",
+    "a": 9,
+    "d": 1
+   },
+   {
+    "f": "apps/web/src/visual/run/run.css",
+    "a": 41,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/visual/settings/SettingsScreen.tsx",
+    "a": 54,
+    "d": 18
+   },
+   {
+    "f": "apps/web/src/visual/settings/settings.css",
+    "a": 2,
+    "d": 0
+   },
+   {
+    "f": "docs/auth-multiplayer.md",
+    "a": 3,
+    "d": 3
+   },
+   {
+    "f": "docs/qa/playtest-2026-10-09.md",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "packages/input/src/index.ts",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "packages/input/src/password.test.ts",
+    "a": 17,
+    "d": 0
+   },
+   {
+    "f": "packages/input/src/password.ts",
+    "a": 12,
+    "d": 0
+   },
+   {
+    "f": "tests/e2e/account.spec.ts",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "tests/e2e/auth.spec.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "tests/e2e/multiplayer.spec.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "tests/e2e/progression.spec.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "tests/e2e/visual.spec.ts",
+    "a": 16,
+    "d": 18
+   }
+  ]
+ },
+ "003af8b144bcaae702fd512ea39143bfa46236aa": {
+  "team": "Impulso Stellar",
+  "repo": "orlando-vazquez-career/stellar-impulse",
+  "author": "orlando-vazquez-career",
+  "date": "2026-10-10T03:27:45Z",
+  "message": "Merge branch 'main' into feat/password-y-ajustes",
+  "parents": 2,
+  "files": [
+   {
+    "f": "README.md",
+    "a": 494,
+    "d": 70
+   },
+   {
+    "f": "docs/media/README.md",
+    "a": 17,
+    "d": 0
+   },
+   {
+    "f": "docs/media/business-scenarios.svg",
+    "a": 20,
+    "d": 0
+   },
+   {
+    "f": "docs/media/command-center.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/media/gameplay.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/media/hangar.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/media/stellar-impulse-banner.svg",
+    "a": 29,
+    "d": 0
+   }
+  ]
+ },
+ "200b874e8c9f67fe102bfe269dce21af24a49abb": {
+  "team": "Impulso Stellar",
+  "repo": "orlando-vazquez-career/stellar-impulse",
+  "author": "orlando-vazquez-career",
+  "date": "2026-10-10T03:27:31Z",
+  "message": "Merge pull request #56 from orlando-vazquez-career/Test-Docs",
+  "parents": 2,
+  "files": [
+   {
+    "f": "README.md",
+    "a": 494,
+    "d": 70
+   },
+   {
+    "f": "docs/media/README.md",
+    "a": 17,
+    "d": 0
+   },
+   {
+    "f": "docs/media/business-scenarios.svg",
+    "a": 20,
+    "d": 0
+   },
+   {
+    "f": "docs/media/command-center.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/media/gameplay.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/media/hangar.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/media/stellar-impulse-banner.svg",
+    "a": 29,
+    "d": 0
+   }
+  ]
+ },
+ "4225c388c00015f4dc4cf713f0fded0386d51239": {
+  "team": "Impulso Stellar",
+  "repo": "orlando-vazquez-career/stellar-impulse",
+  "author": "srllamadev",
+  "date": "2026-10-10T02:54:57Z",
+  "message": "feat: add visual assets, detailed README documentation, and testnet deployment references for stellar-impulse",
+  "parents": 1,
+  "files": [
+   {
+    "f": "README.md",
+    "a": 494,
+    "d": 70
+   },
+   {
+    "f": "docs/media/README.md",
+    "a": 17,
+    "d": 0
+   },
+   {
+    "f": "docs/media/business-scenarios.svg",
+    "a": 20,
+    "d": 0
+   },
+   {
+    "f": "docs/media/command-center.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/media/gameplay.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/media/hangar.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/media/stellar-impulse-banner.svg",
+    "a": 29,
+    "d": 0
+   }
+  ]
+ },
+ "e79960bb80a89e9687a953e671256bfcf0955092": {
+  "team": "Impulso Stellar",
+  "repo": "orlando-vazquez-career/stellar-impulse",
+  "author": "degosenpai211",
+  "date": "2026-10-10T02:22:53Z",
+  "message": "feat(visual): preview the selected map in the lobby",
+  "parents": 1,
+  "files": [
+   {
+    "f": "apps/web/src/visual/VisualPrototypeApp.tsx",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "apps/web/src/visual/lobby/MultiplayerLobby.tsx",
+    "a": 2,
+    "d": 5
+   },
+   {
+    "f": "apps/web/src/visual/lobby/PreparationLobby.tsx",
+    "a": 8,
+    "d": 8
+   },
+   {
+    "f": "apps/web/src/visual/lobby/lobby.css",
+    "a": 9,
+    "d": 43
+   },
+   {
+    "f": "apps/web/src/visual/map/MapPreview.tsx",
+    "a": 10,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/visual/map/SectorMapScreen.tsx",
+    "a": 170,
+    "d": 75
+   },
+   {
+    "f": "apps/web/src/visual/map/map-preview.test.ts",
+    "a": 23,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/visual/map/map-preview.ts",
+    "a": 85,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/visual/map/sector-map.css",
+    "a": 3,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/visual/run/RunWarp.tsx",
+    "a": 9,
+    "d": 1
+   },
+   {
+    "f": "apps/web/src/visual/run/run.css",
+    "a": 41,
+    "d": 0
+   },
+   {
+    "f": "tests/e2e/visual.spec.ts",
+    "a": 16,
+    "d": 18
+   }
+  ]
+ },
+ "0540bbb0caed0988aa6c03050df7937feb5f79ae": {
+  "team": "Impulso Stellar",
+  "repo": "orlando-vazquez-career/stellar-impulse",
+  "author": "degosenpai211",
+  "date": "2026-10-10T02:14:42Z",
+  "message": "test(auth): use policy-compliant passwords in remaining register tests",
+  "parents": 1,
+  "files": [
+   {
+    "f": "apps/server/src/auth-limit.test.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "apps/server/src/progression.test.ts",
+    "a": 3,
+    "d": 3
+   },
+   {
+    "f": "apps/server/src/training-rewards.test.ts",
+    "a": 2,
+    "d": 2
+   }
+  ]
+ },
+ "370356191e0a7c8309600ec90bfbaa53564b11d5": {
+  "team": "Impulso Stellar",
+  "repo": "orlando-vazquez-career/stellar-impulse",
+  "author": "degosenpai211",
+  "date": "2026-10-10T02:07:45Z",
+  "message": "fix(web): keep lobby explore callback compatible with main",
+  "parents": 1,
+  "files": [
+   {
+    "f": "apps/web/src/visual/VisualPrototypeApp.tsx",
+    "a": 1,
+    "d": 1
+   }
+  ]
+ },
+ "c0e629c30653334132a95d1459c320c6e569d772": {
+  "team": "Impulso Stellar",
+  "repo": "orlando-vazquez-career/stellar-impulse",
+  "author": "degosenpai211",
+  "date": "2026-10-10T01:49:33Z",
+  "message": "feat(auth): require 8-20 mixed passwords and confirm unsaved settings",
+  "parents": 1,
+  "files": [
+   {
+    "f": "apps/server/src/augment-room.test.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "apps/server/src/auth-storage.test.ts",
+    "a": 8,
+    "d": 8
+   },
+   {
+    "f": "apps/server/src/auth.test.ts",
+    "a": 20,
+    "d": 9
+   },
+   {
+    "f": "apps/server/src/auth.ts",
+    "a": 3,
+    "d": 2
+   },
+   {
+    "f": "apps/server/src/campaign-flow.test.ts",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "apps/server/src/campaign-rewards.test.ts",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "apps/server/src/campaign-room.test.ts",
+    "a": 3,
+    "d": 3
+   },
+   {
+    "f": "apps/server/src/campaign-save-failure.test.ts",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "apps/server/src/postgres-store.test.ts",
+    "a": 18,
+    "d": 18
+   },
+   {
+    "f": "apps/server/src/wallet-link.test.ts",
+    "a": 11,
+    "d": 11
+   },
+   {
+    "f": "apps/web/src/auth/client.test.ts",
+    "a": 7,
+    "d": 7
+   },
+   {
+    "f": "apps/web/src/login/LoginForm.tsx",
+    "a": 13,
+    "d": 5
+   },
+   {
+    "f": "apps/web/src/multiplayer/session.test.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "apps/web/src/visual/VisualPrototypeApp.tsx",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "apps/web/src/visual/i18n.tsx",
+    "a": 14,
+    "d": 4
+   },
+   {
+    "f": "apps/web/src/visual/menu/CommandCenter.tsx",
+    "a": 17,
+    "d": 15
+   },
+   {
+    "f": "apps/web/src/visual/settings/SettingsScreen.tsx",
+    "a": 54,
+    "d": 18
+   },
+   {
+    "f": "apps/web/src/visual/settings/settings.css",
+    "a": 2,
+    "d": 0
+   },
+   {
+    "f": "docs/auth-multiplayer.md",
+    "a": 3,
+    "d": 3
+   },
+   {
+    "f": "docs/qa/playtest-2026-10-09.md",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "packages/input/src/index.ts",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "packages/input/src/password.test.ts",
+    "a": 17,
+    "d": 0
+   },
+   {
+    "f": "packages/input/src/password.ts",
+    "a": 12,
+    "d": 0
+   },
+   {
+    "f": "tests/e2e/account.spec.ts",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "tests/e2e/auth.spec.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "tests/e2e/multiplayer.spec.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "tests/e2e/progression.spec.ts",
+    "a": 1,
+    "d": 1
+   }
+  ]
+ },
+ "612c1e04e2bf0f3363c2a6705e6b5aa7f518b1e0": {
+  "team": "TilcAI",
+  "repo": "TilcAI/tilcai-web",
+  "author": "SaulChoque",
+  "date": "2026-10-10T08:29:01Z",
+  "message": "feat(monitor): tell testnet and mainnet backends apart",
+  "parents": 1,
+  "files": [
+   {
+    "f": ".env.example",
+    "a": 3,
+    "d": 0
+   },
+   {
+    "f": "AGENT_HISTORY.md",
+    "a": 91,
+    "d": 0
+   },
+   {
+    "f": "README.md",
+    "a": 5,
+    "d": 0
+   },
+   {
+    "f": "src/app/api/monitor/events/route.ts",
+    "a": 7,
+    "d": 5
+   },
+   {
+    "f": "src/components/monitor/MonitorBoard.module.css",
+    "a": 3,
+    "d": 1
+   },
+   {
+    "f": "src/components/monitor/MonitorBoard.tsx",
+    "a": 46,
+    "d": 15
+   },
+   {
+    "f": "src/lib/monitor/copy.ts",
+    "a": 10,
+    "d": 6
+   },
+   {
+    "f": "src/lib/monitor/interpret.ts",
+    "a": 12,
+    "d": 4
+   },
+   {
+    "f": "src/lib/monitor/signature.ts",
+    "a": 23,
+    "d": 0
+   },
+   {
+    "f": "src/lib/monitor/store.ts",
+    "a": 17,
+    "d": 10
+   },
+   {
+    "f": "src/lib/monitor/vaults.ts",
+    "a": 13,
+    "d": 6
+   },
+   {
+    "f": "test/monitor.test.ts",
+    "a": 51,
+    "d": 2
+   }
+  ]
+ },
+ "c268179390bb83677e88e908a2789e85bdf7dfb1": {
+  "team": "TilcAI",
+  "repo": "TilcAI/tilcai-web",
+  "author": "JHAMILCALI",
+  "date": "2026-10-10T08:11:02Z",
+  "message": "feat: eliminar estado del pie de página en inglés y español para simplificar el contenido",
+  "parents": 1,
+  "files": [
+   {
+    "f": "AGENT_HISTORY.md",
+    "a": 14,
+    "d": 0
+   },
+   {
+    "f": "src/app/globals.css",
+    "a": 0,
+    "d": 1
+   },
+   {
+    "f": "src/components/SiteFooter.tsx",
+    "a": 0,
+    "d": 1
+   },
+   {
+    "f": "src/lib/i18n/en.ts",
+    "a": 0,
+    "d": 1
+   },
+   {
+    "f": "src/lib/i18n/es.ts",
+    "a": 0,
+    "d": 1
+   },
+   {
+    "f": "src/lib/i18n/types.ts",
+    "a": 1,
+    "d": 1
+   }
+  ]
+ },
+ "3fd5d4789ea62575fc284a5b43bf7665b5a1306f": {
+  "team": "TilcAI",
+  "repo": "TilcAI/tilcai-web",
+  "author": "JHAMILCALI",
+  "date": "2026-10-10T07:54:08Z",
+  "message": "feat: agregar enlaces de contacto en el pie de página y ajustar estilos para mejorar la accesibilidad",
+  "parents": 1,
+  "files": [
+   {
+    "f": "AGENT_HISTORY.md",
+    "a": 46,
+    "d": 0
+   },
+   {
+    "f": "src/app/globals.css",
+    "a": 12,
+    "d": 1
+   },
+   {
+    "f": "src/app/mobile.css",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "src/components/SiteFooter.tsx",
+    "a": 38,
+    "d": 9
+   },
+   {
+    "f": "src/lib/i18n/en.ts",
+    "a": 3,
+    "d": 0
+   },
+   {
+    "f": "src/lib/i18n/es.ts",
+    "a": 3,
+    "d": 0
+   },
+   {
+    "f": "src/lib/i18n/types.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/lib/site.ts",
+    "a": 9,
+    "d": 0
+   }
+  ]
+ },
+ "ed10333319c450c763e312598840db1866187378": {
+  "team": "TilcAI",
+  "repo": "TilcAI/tilcai-web",
+  "author": "JHAMILCALI",
+  "date": "2026-10-10T07:13:44Z",
+  "message": "feat: eliminar la propiedad 'footnote' de la sección de soluciones y ajustar las pruebas correspondientes",
+  "parents": 1,
+  "files": [
+   {
+    "f": "AGENT_HISTORY.md",
+    "a": 20,
+    "d": 0
+   },
+   {
+    "f": "src/components/sections/SolutionsSection.module.css",
+    "a": 0,
+    "d": 1
+   },
+   {
+    "f": "src/components/sections/SolutionsSection.tsx",
+    "a": 0,
+    "d": 2
+   },
+   {
+    "f": "src/lib/i18n/solutions.ts",
+    "a": 0,
+    "d": 2
+   },
+   {
+    "f": "test/solutions-section.test.ts",
+    "a": 0,
+    "d": 1
+   }
+  ]
+ },
+ "7d22fc3af7e48e92520b86716521acb683a16fb5": {
+  "team": "TilcAI",
+  "repo": "TilcAI/tilcai-web",
+  "author": "JHAMILCALI",
+  "date": "2026-10-10T07:04:29Z",
+  "message": "feat: agregar verificación del equipo para las etapas de integración y ajustar pruebas",
+  "parents": 1,
+  "files": [
+   {
+    "f": "AGENT_HISTORY.md",
+    "a": 11,
+    "d": 0
+   },
+   {
+    "f": "src/components/AgentCatalog.module.css",
+    "a": 0,
+    "d": 2
+   },
+   {
+    "f": "src/components/AgentCatalog.tsx",
+    "a": 0,
+    "d": 3
+   },
+   {
+    "f": "src/lib/content/agents.ts",
+    "a": 13,
+    "d": 6
+   },
+   {
+    "f": "src/lib/i18n/en.ts",
+    "a": 5,
+    "d": 5
+   },
+   {
+    "f": "src/lib/i18n/es.ts",
+    "a": 5,
+    "d": 5
+   },
+   {
+    "f": "src/lib/i18n/types.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "test/agent-stages.test.ts",
+    "a": 10,
+    "d": 4
+   }
+  ]
+ },
+ "fbfb4d1ade313a57e43fb13c39865cfdcfffc424": {
+  "team": "TilcAI",
+  "repo": "TilcAI/tilcai-web",
+  "author": "JHAMILCALI",
+  "date": "2026-10-10T06:51:20Z",
+  "message": "feat: update network statuses and improve RouteAtlas visualization",
+  "parents": 1,
+  "files": [
+   {
+    "f": "AGENT_HISTORY.md",
+    "a": 61,
+    "d": 0
+   },
+   {
+    "f": "src/components/sections/rails/CctpDetail.module.css",
+    "a": 54,
+    "d": 15
+   },
+   {
+    "f": "src/components/sections/rails/CrosschainDetail.tsx",
+    "a": 25,
+    "d": 9
+   },
+   {
+    "f": "src/components/sections/rails/RouteAtlas.module.css",
+    "a": 2,
+    "d": 0
+   },
+   {
+    "f": "src/components/sections/rails/RouteAtlas.tsx",
+    "a": 9,
+    "d": 7
+   },
+   {
+    "f": "src/lib/content/rails.ts",
+    "a": 7,
+    "d": 6
+   },
+   {
+    "f": "src/lib/i18n/docs.en.ts",
+    "a": 6,
+    "d": 6
+   },
+   {
+    "f": "src/lib/i18n/docs.es.ts",
+    "a": 6,
+    "d": 6
+   },
+   {
+    "f": "src/lib/i18n/en.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/lib/i18n/es.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/lib/i18n/narrative.ts",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "src/lib/i18n/solutions.ts",
+    "a": 0,
+    "d": 1
+   },
+   {
+    "f": "test/landing-explain.test.ts",
+    "a": 10,
+    "d": 7
+   },
+   {
+    "f": "test/rails-atlas.test.ts",
+    "a": 3,
+    "d": 2
+   }
+  ]
+ },
+ "62ad21590b219e0f1b4d858930d6e5fc4aa46472": {
+  "team": "TilcAI",
+  "repo": "TilcAI/tilcai-web",
+  "author": "JHAMILCALI",
+  "date": "2026-10-10T06:00:44Z",
+  "message": "feat: add SolutionsSection component with styling and internationalization support",
+  "parents": 1,
+  "files": [
+   {
+    "f": "AGENT_HISTORY.md",
+    "a": 60,
+    "d": 0
+   },
+   {
+    "f": "public/assets/img/logos empresas/Baumans-Regular.ttf",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/assets/img/logos empresas/OFL.txt",
+    "a": 94,
+    "d": 0
+   },
+   {
+    "f": "public/assets/img/logos empresas/baral.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/assets/img/logos empresas/optipago_logo_vec.svg",
+    "a": 18,
+    "d": 0
+   },
+   {
+    "f": "public/assets/img/logos empresas/pago optipago.jpg",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "src/app/typography.css",
+    "a": 3,
+    "d": 3
+   },
+   {
+    "f": "src/components/HomePage.tsx",
+    "a": 2,
+    "d": 0
+   },
+   {
+    "f": "src/components/sections/OptipagosShowcase.tsx",
+    "a": 168,
+    "d": 0
+   },
+   {
+    "f": "src/components/sections/SolutionsSection.module.css",
+    "a": 216,
+    "d": 0
+   },
+   {
+    "f": "src/components/sections/SolutionsSection.tsx",
+    "a": 112,
+    "d": 0
+   },
+   {
+    "f": "src/lib/i18n/solutions.ts",
+    "a": 139,
+    "d": 0
+   },
+   {
+    "f": "test/solutions-section.test.ts",
+    "a": 65,
+    "d": 0
+   }
+  ]
+ },
+ "3cd3da549296a40e981dd1e3942e60f2bfd51f5b": {
+  "team": "TilcAI",
+  "repo": "TilcAI/tilcai-web",
+  "author": "JHAMILCALI",
+  "date": "2026-10-10T04:05:37Z",
+  "message": "feat: add official network logos for various testnets and mainnets",
+  "parents": 1,
+  "files": [
+   {
+    "f": "AGENT_HISTORY.md",
+    "a": 16,
+    "d": 0
+   },
+   {
+    "f": "public/assets/img/logos cripto/Arbitrum.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/assets/img/logos cripto/Ethereum.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/assets/img/logos cripto/arc.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/assets/img/logos cripto/avalanche.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/assets/img/logos cripto/base.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/assets/img/logos cripto/solana.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/assets/img/logos cripto/stellar.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/assets/img/logos cripto/sui.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "src/app/docs.css",
+    "a": 2,
+    "d": 0
+   },
+   {
+    "f": "src/components/office/render/holograms.ts",
+    "a": 22,
+    "d": 2
+   },
+   {
+    "f": "src/components/sections/StackSection.module.css",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "src/components/sections/StackSection.tsx",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "src/components/sections/rails/CctpDetail.module.css",
+    "a": 3,
+    "d": 2
+   },
+   {
+    "f": "src/components/sections/rails/ChainIcons.tsx",
+    "a": 12,
+    "d": 92
+   },
+   {
+    "f": "src/components/sections/rails/CrosschainDetail.tsx",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/components/sections/rails/PaymentRouteStage.tsx",
+    "a": 8,
+    "d": 2
+   },
+   {
+    "f": "src/components/sections/rails/PaymentRoutes.module.css",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/components/sections/rails/PaymentRoutesHero.module.css",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "src/lib/content/network-logos.ts",
+    "a": 11,
+    "d": 0
+   },
+   {
+    "f": "src/lib/i18n/docs.en.ts",
+    "a": 9,
+    "d": 8
+   },
+   {
+    "f": "src/lib/i18n/docs.es.ts",
+    "a": 9,
+    "d": 8
+   }
+  ]
  }
 }

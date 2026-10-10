@@ -1,5 +1,5 @@
 {
- "generado": "2026-10-10T03:25:35+00:00",
+ "generado": "2026-10-10T11:36:12+00:00",
  "programa": "Stellar Elite",
  "start_date": "2026-09-02T00:00:00Z",
  "teams": [
@@ -22,10 +22,10 @@
   },
   {
    "name": "Impulso Stellar",
-   "total": 1088.94,
-   "per_capita": 1088.94,
-   "commits": 218,
-   "pts_commits": 995.94,
+   "total": 1125.63,
+   "per_capita": 1125.63,
+   "commits": 226,
+   "pts_commits": 1032.63,
    "dias_activos": 15,
    "contribuidores": [
     "Copilot",
@@ -43,11 +43,11 @@
   },
   {
    "name": "Puls3",
-   "total": 698.84,
-   "per_capita": 698.84,
-   "commits": 106,
-   "pts_commits": 605.84,
-   "dias_activos": 15,
+   "total": 730.29,
+   "per_capita": 730.29,
+   "commits": 109,
+   "pts_commits": 632.29,
+   "dias_activos": 16,
    "contribuidores": [
     "Pericena",
     "TOMOKI977",
@@ -64,10 +64,10 @@
   },
   {
    "name": "TilcAI",
-   "total": 638.98,
-   "per_capita": 212.99,
-   "commits": 93,
-   "pts_commits": 586.98,
+   "total": 702.38,
+   "per_capita": 234.13,
+   "commits": 101,
+   "pts_commits": 650.38,
    "dias_activos": 8,
    "contribuidores": [
     "JHAMILCALI",
@@ -312,7 +312,7 @@
    "2026-10-07": 40.57,
    "2026-10-08": 78.63,
    "2026-10-09": 127.77,
-   "2026-10-10": 0.0
+   "2026-10-10": 26.450000000000003
   },
   "Tinkazo": {
    "2026-09-16": 66.21000000000001,
@@ -375,7 +375,7 @@
    "2026-10-07": 88.21,
    "2026-10-08": 107.44,
    "2026-10-09": 260.93999999999994,
-   "2026-10-10": 1.0
+   "2026-10-10": 37.69
   },
   "BOLAR": {
    "2026-09-22": 9.25,
@@ -403,7 +403,7 @@
    "2026-10-03": 34.81,
    "2026-10-05": 7.19,
    "2026-10-09": 147.72000000000003,
-   "2026-10-10": 62.15
+   "2026-10-10": 125.55
   },
   "GatoPago": {
    "2026-09-10": 1.0,
@@ -444,7 +444,7 @@
    "2026-10-07": 5,
    "2026-10-08": 10,
    "2026-10-09": 21,
-   "2026-10-10": 1
+   "2026-10-10": 4
   },
   "Tinkazo": {
    "2026-09-16": 8,
@@ -507,7 +507,7 @@
    "2026-10-07": 23,
    "2026-10-08": 30,
    "2026-10-09": 51,
-   "2026-10-10": 2
+   "2026-10-10": 10
   },
   "BOLAR": {
    "2026-09-22": 1,
@@ -535,7 +535,7 @@
    "2026-10-03": 6,
    "2026-10-05": 1,
    "2026-10-09": 23,
-   "2026-10-10": 8
+   "2026-10-10": 16
   },
   "GatoPago": {
    "2026-09-10": 1,
@@ -552,6 +552,146 @@
   }
  },
  "commits": [
+  {
+   "sha": "612c1e0",
+   "team": "TilcAI",
+   "repo": "TilcAI/tilcai-web",
+   "author": "SaulChoque",
+   "date": "2026-10-10T08:29:01Z",
+   "msg": "feat(monitor): tell testnet and mainnet backends apart",
+   "pts": 9.37,
+   "nota": ""
+  },
+  {
+   "sha": "c268179",
+   "team": "TilcAI",
+   "repo": "TilcAI/tilcai-web",
+   "author": "JHAMILCALI",
+   "date": "2026-10-10T08:11:02Z",
+   "msg": "feat: eliminar estado del pie de página en inglés y español para simplificar el contenido",
+   "pts": 5.39,
+   "nota": ""
+  },
+  {
+   "sha": "3fd5d47",
+   "team": "TilcAI",
+   "repo": "TilcAI/tilcai-web",
+   "author": "JHAMILCALI",
+   "date": "2026-10-10T07:54:08Z",
+   "msg": "feat: agregar enlaces de contacto en el pie de página y ajustar estilos para mejorar la accesibilidad",
+   "pts": 7.97,
+   "nota": ""
+  },
+  {
+   "sha": "ed10333",
+   "team": "TilcAI",
+   "repo": "TilcAI/tilcai-web",
+   "author": "JHAMILCALI",
+   "date": "2026-10-10T07:13:44Z",
+   "msg": "feat: eliminar la propiedad 'footnote' de la sección de soluciones y ajustar las pruebas correspondientes",
+   "pts": 5.75,
+   "nota": ""
+  },
+  {
+   "sha": "7d22fc3",
+   "team": "TilcAI",
+   "repo": "TilcAI/tilcai-web",
+   "author": "JHAMILCALI",
+   "date": "2026-10-10T07:04:29Z",
+   "msg": "feat: agregar verificación del equipo para las etapas de integración y ajustar pruebas",
+   "pts": 7.17,
+   "nota": ""
+  },
+  {
+   "sha": "fbfb4d1",
+   "team": "TilcAI",
+   "repo": "TilcAI/tilcai-web",
+   "author": "JHAMILCALI",
+   "date": "2026-10-10T06:51:20Z",
+   "msg": "feat: update network statuses and improve RouteAtlas visualization",
+   "pts": 8.97,
+   "nota": ""
+  },
+  {
+   "sha": "d111740",
+   "team": "Puls3",
+   "repo": "Zer0-Knowledge-Hack/puls3",
+   "author": "moises-cisneros",
+   "date": "2026-10-10T06:09:31Z",
+   "msg": "fix(server): read the signers of real testnet accounts in wallet sign-in (#158)",
+   "pts": 8.48,
+   "nota": ""
+  },
+  {
+   "sha": "7cacd76",
+   "team": "Puls3",
+   "repo": "Zer0-Knowledge-Hack/puls3",
+   "author": "XxHugheadxX",
+   "date": "2026-10-10T06:02:14Z",
+   "msg": "fix(server): runtime follow-ups from the #141 review: encoded Workers AI model and account path, rune-counted limits, pr",
+   "pts": 9.46,
+   "nota": ""
+  },
+  {
+   "sha": "62ad215",
+   "team": "TilcAI",
+   "repo": "TilcAI/tilcai-web",
+   "author": "JHAMILCALI",
+   "date": "2026-10-10T06:00:44Z",
+   "msg": "feat: add SolutionsSection component with styling and internationalization support",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "9be890c",
+   "team": "Puls3",
+   "repo": "Zer0-Knowledge-Hack/puls3",
+   "author": "XxHugheadxX",
+   "date": "2026-10-10T05:31:28Z",
+   "msg": "fix(server): enqueueMissing skips only the 23505 of hire_run_hire_idx and retries a failed backfill (#152)",
+   "pts": 8.51,
+   "nota": ""
+  },
+  {
+   "sha": "730f3dc",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "orlando-vazquez-career",
+   "date": "2026-10-10T04:21:57Z",
+   "msg": "Merge pull request #55 from orlando-vazquez-career/feat/password-y-ajustes",
+   "pts": 0.0,
+   "nota": "merge"
+  },
+  {
+   "sha": "3cd3da5",
+   "team": "TilcAI",
+   "repo": "TilcAI/tilcai-web",
+   "author": "JHAMILCALI",
+   "date": "2026-10-10T04:05:37Z",
+   "msg": "feat: add official network logos for various testnets and mainnets",
+   "pts": 8.78,
+   "nota": ""
+  },
+  {
+   "sha": "003af8b",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "orlando-vazquez-career",
+   "date": "2026-10-10T03:27:45Z",
+   "msg": "Merge branch 'main' into feat/password-y-ajustes",
+   "pts": 0.0,
+   "nota": "merge"
+  },
+  {
+   "sha": "200b874",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "orlando-vazquez-career",
+   "date": "2026-10-10T03:27:31Z",
+   "msg": "Merge pull request #56 from orlando-vazquez-career/Test-Docs",
+   "pts": 0.0,
+   "nota": "merge"
+  },
   {
    "sha": "9eec15c",
    "team": "TilcAI",
@@ -579,6 +719,16 @@
    "author": "jjvos19",
    "date": "2026-10-10T03:15:27Z",
    "msg": "Cambio e frontend, mejor presentacion",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "4225c38",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "srllamadev",
+   "date": "2026-10-10T02:54:57Z",
+   "msg": "feat: add visual assets, detailed README documentation, and testnet deployment references for stellar-impulse",
    "pts": 10,
    "nota": ""
   },
@@ -623,6 +773,26 @@
    "nota": ""
   },
   {
+   "sha": "e79960b",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "degosenpai211",
+   "date": "2026-10-10T02:22:53Z",
+   "msg": "feat(visual): preview the selected map in the lobby",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "0540bbb",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "degosenpai211",
+   "date": "2026-10-10T02:14:42Z",
+   "msg": "test(auth): use policy-compliant passwords in remaining register tests",
+   "pts": 4.7,
+   "nota": ""
+  },
+  {
    "sha": "f5d7cd5",
    "team": "TilcAI",
    "repo": "TilcAI/tilcai-web",
@@ -650,6 +820,16 @@
    "date": "2026-10-10T02:08:27Z",
    "msg": "Correcion de front",
    "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "3703561",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "degosenpai211",
+   "date": "2026-10-10T02:07:45Z",
+   "msg": "fix(web): keep lobby explore callback compatible with main",
+   "pts": 2.58,
    "nota": ""
   },
   {
@@ -710,6 +890,16 @@
    "date": "2026-10-10T01:54:47Z",
    "msg": "chore: update send and loading descriptions",
    "pts": 2.0,
+   "nota": ""
+  },
+  {
+   "sha": "c0e629c",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "degosenpai211",
+   "date": "2026-10-10T01:49:33Z",
+   "msg": "feat(auth): require 8-20 mixed passwords and confirm unsaved settings",
+   "pts": 9.41,
    "nota": ""
   },
   {
