@@ -1,8 +1,29 @@
 {
- "generado": "2026-10-10T11:36:12+00:00",
+ "generado": "2026-10-10T16:37:30+00:00",
  "programa": "Stellar Elite",
  "start_date": "2026-09-02T00:00:00Z",
  "teams": [
+  {
+   "name": "Impulso Stellar",
+   "total": 1870.03,
+   "per_capita": 1870.03,
+   "commits": 343,
+   "pts_commits": 1777.03,
+   "dias_activos": 15,
+   "contribuidores": [
+    "Copilot",
+    "Hans3010",
+    "Ismaelolazo",
+    "degosenpai211",
+    "orlando-vazquez-career",
+    "srllamadev"
+   ],
+   "tamano": 1,
+   "repos": [
+    "orlando-vazquez-career/stellar-impulse"
+   ],
+   "rank": 1
+  },
   {
    "name": "Tinkazo",
    "total": 1399.88,
@@ -18,35 +39,14 @@
    "repos": [
     "nema1502/tinkazo"
    ],
-   "rank": 1
-  },
-  {
-   "name": "Impulso Stellar",
-   "total": 1125.63,
-   "per_capita": 1125.63,
-   "commits": 226,
-   "pts_commits": 1032.63,
-   "dias_activos": 15,
-   "contribuidores": [
-    "Copilot",
-    "Hans3010",
-    "Ismaelolazo",
-    "degosenpai211",
-    "orlando-vazquez-career",
-    "srllamadev"
-   ],
-   "tamano": 1,
-   "repos": [
-    "orlando-vazquez-career/stellar-impulse"
-   ],
    "rank": 2
   },
   {
    "name": "Puls3",
-   "total": 730.29,
-   "per_capita": 730.29,
-   "commits": 109,
-   "pts_commits": 632.29,
+   "total": 740.29,
+   "per_capita": 740.29,
+   "commits": 110,
+   "pts_commits": 642.29,
    "dias_activos": 16,
    "contribuidores": [
     "Pericena",
@@ -64,10 +64,10 @@
   },
   {
    "name": "TilcAI",
-   "total": 702.38,
-   "per_capita": 234.13,
-   "commits": 101,
-   "pts_commits": 650.38,
+   "total": 723.38,
+   "per_capita": 241.13,
+   "commits": 106,
+   "pts_commits": 671.38,
    "dias_activos": 8,
    "contribuidores": [
     "JHAMILCALI",
@@ -181,6 +181,23 @@
    "rank": 10
   },
   {
+   "name": "Veridia",
+   "total": 34.0,
+   "per_capita": 34.0,
+   "commits": 5,
+   "pts_commits": 23.0,
+   "dias_activos": 1,
+   "contribuidores": [
+    "OddALaCream",
+    "sphinxar"
+   ],
+   "tamano": 1,
+   "repos": [
+    "sphinxar/veridia"
+   ],
+   "rank": 11
+  },
+  {
    "name": "WAVO",
    "total": 27.37,
    "per_capita": 27.37,
@@ -194,7 +211,7 @@
    "repos": [
     "fchambi/Stellar_Proyecto"
    ],
-   "rank": 11
+   "rank": 12
   },
   {
    "name": "BolivianPets",
@@ -209,22 +226,6 @@
    "tamano": 1,
    "repos": [
     "GuidoSV7/stellar-build"
-   ],
-   "rank": 12
-  },
-  {
-   "name": "Veridia",
-   "total": 21.0,
-   "per_capita": 21.0,
-   "commits": 4,
-   "pts_commits": 13.0,
-   "dias_activos": 1,
-   "contribuidores": [
-    "sphinxar"
-   ],
-   "tamano": 1,
-   "repos": [
-    "sphinxar/veridia"
    ],
    "rank": 13
   },
@@ -312,7 +313,7 @@
    "2026-10-07": 40.57,
    "2026-10-08": 78.63,
    "2026-10-09": 127.77,
-   "2026-10-10": 26.450000000000003
+   "2026-10-10": 36.45
   },
   "Tinkazo": {
    "2026-09-16": 66.21000000000001,
@@ -375,7 +376,7 @@
    "2026-10-07": 88.21,
    "2026-10-08": 107.44,
    "2026-10-09": 260.93999999999994,
-   "2026-10-10": 37.69
+   "2026-10-10": 782.0900000000001
   },
   "BOLAR": {
    "2026-09-22": 9.25,
@@ -403,7 +404,7 @@
    "2026-10-03": 34.81,
    "2026-10-05": 7.19,
    "2026-10-09": 147.72000000000003,
-   "2026-10-10": 125.55
+   "2026-10-10": 146.55
   },
   "GatoPago": {
    "2026-09-10": 1.0,
@@ -416,7 +417,7 @@
    "2026-10-09": 19.37
   },
   "Veridia": {
-   "2026-10-10": 13.0
+   "2026-10-10": 23.0
   }
  },
  "serie_commits": {
@@ -444,7 +445,7 @@
    "2026-10-07": 5,
    "2026-10-08": 10,
    "2026-10-09": 21,
-   "2026-10-10": 4
+   "2026-10-10": 5
   },
   "Tinkazo": {
    "2026-09-16": 8,
@@ -507,7 +508,7 @@
    "2026-10-07": 23,
    "2026-10-08": 30,
    "2026-10-09": 51,
-   "2026-10-10": 10
+   "2026-10-10": 127
   },
   "BOLAR": {
    "2026-09-22": 1,
@@ -535,7 +536,7 @@
    "2026-10-03": 6,
    "2026-10-05": 1,
    "2026-10-09": 23,
-   "2026-10-10": 16
+   "2026-10-10": 21
   },
   "GatoPago": {
    "2026-09-10": 1,
@@ -548,10 +549,200 @@
    "2026-10-09": 6
   },
   "Veridia": {
-   "2026-10-10": 4
+   "2026-10-10": 5
   }
  },
  "commits": [
+  {
+   "sha": "a930f9e",
+   "team": "Veridia",
+   "repo": "sphinxar/veridia",
+   "author": "OddALaCream",
+   "date": "2026-10-10T15:48:40Z",
+   "msg": "Redesign web UI with brand assets, add testnet deployment and tunnel dev origins",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "b330075",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "Hans3010",
+   "date": "2026-10-10T15:28:23Z",
+   "msg": "Merge pull request #59 from orlando-vazquez-career/test-docs-business",
+   "pts": 0.0,
+   "nota": "merge"
+  },
+  {
+   "sha": "f700b78",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "orlando-vazquez-career",
+   "date": "2026-10-10T15:06:07Z",
+   "msg": "test(e2e): double click the hangar queue before it drains on CI",
+   "pts": 6.21,
+   "nota": ""
+  },
+  {
+   "sha": "b1a92ca",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "orlando-vazquez-career",
+   "date": "2026-10-10T14:26:38Z",
+   "msg": "Merge branch 'main' into test-docs-business",
+   "pts": 0.0,
+   "nota": "merge"
+  },
+  {
+   "sha": "b15a068",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "srllamadev",
+   "date": "2026-10-10T14:02:53Z",
+   "msg": "Refactor code structure for improved readability and maintainability",
+   "pts": 3.81,
+   "nota": ""
+  },
+  {
+   "sha": "0dabee4",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "srllamadev",
+   "date": "2026-10-10T13:53:41Z",
+   "msg": "Add initial documentation for roadmap, tokenomics, compliance, and security policies",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "23b4a6c",
+   "team": "TilcAI",
+   "repo": "TilcAI/tilcai-web",
+   "author": "JHAMILCALI",
+   "date": "2026-10-10T13:47:51Z",
+   "msg": "feat(i18n): update environment labels and roadmap items",
+   "pts": 9.16,
+   "nota": ""
+  },
+  {
+   "sha": "d5442a6",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "Hans3010",
+   "date": "2026-10-10T12:56:39Z",
+   "msg": "Merge pull request #58 from orlando-vazquez-career/feat/feedback-ismael-colisiones-cola",
+   "pts": 0.0,
+   "nota": "merge"
+  },
+  {
+   "sha": "e55a0a9",
+   "team": "Puls3",
+   "repo": "Zer0-Knowledge-Hack/puls3",
+   "author": "XxHugheadxX",
+   "date": "2026-10-10T12:50:11Z",
+   "msg": "feat(flutter): SEP-10 wallet sign-in before a real hire (signChallenge with challenge checks, session on the Serverpod c",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "cb68272",
+   "team": "TilcAI",
+   "repo": "TilcAI/tilcai-web",
+   "author": "OmarQV",
+   "date": "2026-10-10T12:31:18Z",
+   "msg": "Merge branch 'main' of github.com:TilcAI/tilcai-web",
+   "pts": 0.0,
+   "nota": "merge"
+  },
+  {
+   "sha": "aee451b",
+   "team": "TilcAI",
+   "repo": "TilcAI/tilcai-web",
+   "author": "OmarQV",
+   "date": "2026-10-10T12:31:01Z",
+   "msg": "feat: agent history",
+   "pts": 6.52,
+   "nota": ""
+  },
+  {
+   "sha": "afe9569",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "orlando-vazquez-career",
+   "date": "2026-10-10T12:01:55Z",
+   "msg": "test(e2e): read the hangar queue behind a slow Bomber",
+   "pts": 5.17,
+   "nota": ""
+  },
+  {
+   "sha": "cde0282",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "orlando-vazquez-career",
+   "date": "2026-10-10T11:37:45Z",
+   "msg": "fix(hud): keep hangar queue buttons mounted and guard the double click",
+   "pts": 5.91,
+   "nota": ""
+  },
+  {
+   "sha": "55c7966",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "orlando-vazquez-career",
+   "date": "2026-10-10T11:11:30Z",
+   "msg": "Merge PR #58 (main with #55) into the integrated feedback branch",
+   "pts": 0.0,
+   "nota": "merge"
+  },
+  {
+   "sha": "e4120d8",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "orlando-vazquez-career",
+   "date": "2026-10-10T11:02:34Z",
+   "msg": "Merge branch 'main' into feat/feedback-ismael-colisiones-cola",
+   "pts": 0.0,
+   "nota": "merge"
+  },
+  {
+   "sha": "621e50f",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "orlando-vazquez-career",
+   "date": "2026-10-10T08:39:32Z",
+   "msg": "fix: explain refused campaign orders, voice a full queue, drop orphan copy",
+   "pts": 7.19,
+   "nota": ""
+  },
+  {
+   "sha": "d389262",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "orlando-vazquez-career",
+   "date": "2026-10-10T08:34:28Z",
+   "msg": "Merge wave2/p6-fix into feat/feedback-ismael-colisiones-cola",
+   "pts": 0.0,
+   "nota": "merge"
+  },
+  {
+   "sha": "87e4d47",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "orlando-vazquez-career",
+   "date": "2026-10-10T08:34:28Z",
+   "msg": "Merge wave2/p5-fix into feat/feedback-ismael-colisiones-cola",
+   "pts": 0.0,
+   "nota": "merge"
+  },
+  {
+   "sha": "b213869",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "orlando-vazquez-career",
+   "date": "2026-10-10T08:34:27Z",
+   "msg": "Merge wave2/p4-fix into feat/feedback-ismael-colisiones-cola",
+   "pts": 0.0,
+   "nota": "merge"
+  },
   {
    "sha": "612c1e0",
    "team": "TilcAI",
@@ -573,6 +764,36 @@
    "nota": ""
   },
   {
+   "sha": "da346f9",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "orlando-vazquez-career",
+   "date": "2026-10-10T08:02:15Z",
+   "msg": "test(e2e): server HUD layout with the hangar queue and the focused Base tab",
+   "pts": 7.7,
+   "nota": ""
+  },
+  {
+   "sha": "18b3c94",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "orlando-vazquez-career",
+   "date": "2026-10-10T08:02:14Z",
+   "msg": "fix(web): keep the Base tab shield line at 12 px or more",
+   "pts": 2.58,
+   "nota": ""
+  },
+  {
+   "sha": "b9ac358",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "orlando-vazquez-career",
+   "date": "2026-10-10T07:54:48Z",
+   "msg": "refactor(web): decide what a battlefield click selects in a pure function",
+   "pts": 7.41,
+   "nota": ""
+  },
+  {
    "sha": "3fd5d47",
    "team": "TilcAI",
    "repo": "TilcAI/tilcai-web",
@@ -580,6 +801,96 @@
    "date": "2026-10-10T07:54:08Z",
    "msg": "feat: agregar enlaces de contacto en el pie de página y ajustar estilos para mejorar la accesibilidad",
    "pts": 7.97,
+   "nota": ""
+  },
+  {
+   "sha": "c6fcf71",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "orlando-vazquez-career",
+   "date": "2026-10-10T07:53:16Z",
+   "msg": "test(web): pin OBSTACLE_RING art on the cells the obstacle closes",
+   "pts": 6.91,
+   "nota": ""
+  },
+  {
+   "sha": "430d5f3",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "orlando-vazquez-career",
+   "date": "2026-10-10T07:50:55Z",
+   "msg": "fix(web): fall back to the nexus disc on a map with no pillar at the Core",
+   "pts": 7.17,
+   "nota": ""
+  },
+  {
+   "sha": "31d26c8",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "orlando-vazquez-career",
+   "date": "2026-10-10T07:46:41Z",
+   "msg": "fix(web): keep the development panel out of multiplayer matches",
+   "pts": 4.58,
+   "nota": ""
+  },
+  {
+   "sha": "92a3f34",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "orlando-vazquez-career",
+   "date": "2026-10-10T07:46:35Z",
+   "msg": "fix(web): the in-match menu traps Tab and never hands focus back to a control",
+   "pts": 9.02,
+   "nota": ""
+  },
+  {
+   "sha": "006874b",
+   "team": "TilcAI",
+   "repo": "TilcAI/tilcai-web",
+   "author": "OmarQV",
+   "date": "2026-10-10T07:37:48Z",
+   "msg": "Merge branch 'main' of github.com:TilcAI/tilcai-web",
+   "pts": 0.0,
+   "nota": "merge"
+  },
+  {
+   "sha": "050fa04",
+   "team": "TilcAI",
+   "repo": "TilcAI/tilcai-web",
+   "author": "OmarQV",
+   "date": "2026-10-10T07:37:34Z",
+   "msg": "feat: agent history",
+   "pts": 5.32,
+   "nota": ""
+  },
+  {
+   "sha": "78b1415",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "orlando-vazquez-career",
+   "date": "2026-10-10T07:26:28Z",
+   "msg": "fix(web): one hangar cancel in flight so a double click never cancels the next order",
+   "pts": 8.75,
+   "nota": ""
+  },
+  {
+   "sha": "30f17d2",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "orlando-vazquez-career",
+   "date": "2026-10-10T07:16:11Z",
+   "msg": "test(hangar): a panel's preview stops when the panel unmounts",
+   "pts": 7.55,
+   "nota": ""
+  },
+  {
+   "sha": "4fe8f1f",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "orlando-vazquez-career",
+   "date": "2026-10-10T07:13:56Z",
+   "msg": "refactor(market): buy and equip in one tested step",
+   "pts": 8.56,
    "nota": ""
   },
   {
@@ -603,6 +914,16 @@
    "nota": ""
   },
   {
+   "sha": "6fdccb4",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "orlando-vazquez-career",
+   "date": "2026-10-10T07:03:28Z",
+   "msg": "test(server): check the merit backfill starts with createGameServer",
+   "pts": 5.17,
+   "nota": ""
+  },
+  {
    "sha": "fbfb4d1",
    "team": "TilcAI",
    "repo": "TilcAI/tilcai-web",
@@ -610,6 +931,46 @@
    "date": "2026-10-10T06:51:20Z",
    "msg": "feat: update network statuses and improve RouteAtlas visualization",
    "pts": 8.97,
+   "nota": ""
+  },
+  {
+   "sha": "482806e",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "orlando-vazquez-career",
+   "date": "2026-10-10T06:39:43Z",
+   "msg": "feat(lobby): label each room seat by the fleet colour its viewer sees",
+   "pts": 4.32,
+   "nota": ""
+  },
+  {
+   "sha": "857dc8b",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "orlando-vazquez-career",
+   "date": "2026-10-10T06:36:27Z",
+   "msg": "feat(lobby): paint the viewer's own base blue in the map preview",
+   "pts": 6.88,
+   "nota": ""
+  },
+  {
+   "sha": "9d4f4dc",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "orlando-vazquez-career",
+   "date": "2026-10-10T06:34:55Z",
+   "msg": "test(map): check the first build of every preview leaves the active map alone",
+   "pts": 5.58,
+   "nota": ""
+  },
+  {
+   "sha": "da95854",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "orlando-vazquez-career",
+   "date": "2026-10-10T06:27:45Z",
+   "msg": "test(e2e): wait for the lazy chain client before the failed-read notice",
+   "pts": 3.0,
    "nota": ""
   },
   {
@@ -643,6 +1004,16 @@
    "nota": ""
   },
   {
+   "sha": "de66f2a",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "orlando-vazquez-career",
+   "date": "2026-10-10T05:42:06Z",
+   "msg": "fix(web): anchor Tiled tile objects on their cell under the view yaw",
+   "pts": 4.91,
+   "nota": ""
+  },
+  {
    "sha": "9be890c",
    "team": "Puls3",
    "repo": "Zer0-Knowledge-Hack/puls3",
@@ -651,6 +1022,396 @@
    "msg": "fix(server): enqueueMissing skips only the 23505 of hire_run_hire_idx and retries a failed backfill (#152)",
    "pts": 8.51,
    "nota": ""
+  },
+  {
+   "sha": "2928b21",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "orlando-vazquez-career",
+   "date": "2026-10-10T05:21:59Z",
+   "msg": "docs(qa): password rule, Market transactions and practice pause cases",
+   "pts": 6.0,
+   "nota": ""
+  },
+  {
+   "sha": "cb70df7",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "orlando-vazquez-career",
+   "date": "2026-10-10T05:19:01Z",
+   "msg": "docs: Market panel, Hangar dressing room and merit backfill",
+   "pts": 7.07,
+   "nota": ""
+  },
+  {
+   "sha": "eda17b2",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "orlando-vazquez-career",
+   "date": "2026-10-10T05:17:17Z",
+   "msg": "feat(market): every NFT transaction in a Market panel of the command center",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "5d19fe3",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "orlando-vazquez-career",
+   "date": "2026-10-10T05:17:08Z",
+   "msg": "feat(hangar): the Hangar becomes the dressing room",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "b216c5a",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "orlando-vazquez-career",
+   "date": "2026-10-10T05:17:07Z",
+   "msg": "feat(market): what a seller receives after the 5% fee",
+   "pts": 5.39,
+   "nota": ""
+  },
+  {
+   "sha": "8834522",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "orlando-vazquez-career",
+   "date": "2026-10-10T05:16:54Z",
+   "msg": "test(e2e): menu pause, Base shortcut, contested Core panel and large-text HUD",
+   "pts": 8.0,
+   "nota": ""
+  },
+  {
+   "sha": "4b222e6",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "orlando-vazquez-career",
+   "date": "2026-10-10T04:41:15Z",
+   "msg": "feat(web): in-match menu with pause, hangar queue and Core panel in the HUD",
+   "pts": 9.65,
+   "nota": ""
+  },
+  {
+   "sha": "a9e3714",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "orlando-vazquez-career",
+   "date": "2026-10-10T04:39:12Z",
+   "msg": "refactor(lobby): read reduced motion from the accessibility store",
+   "pts": 4.0,
+   "nota": ""
+  },
+  {
+   "sha": "a4155dc",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "orlando-vazquez-career",
+   "date": "2026-10-10T04:38:23Z",
+   "msg": "chore(web): delete the unused lobby modes and host stylesheet",
+   "pts": 7.92,
+   "nota": ""
+  },
+  {
+   "sha": "c0ec202",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "orlando-vazquez-career",
+   "date": "2026-10-10T04:38:07Z",
+   "msg": "feat(i18n): translate the campaign notices in the match HUD",
+   "pts": 7.52,
+   "nota": ""
+  },
+  {
+   "sha": "9edce48",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "orlando-vazquez-career",
+   "date": "2026-10-10T04:37:28Z",
+   "msg": "feat(hangar): listen to a voice or a track before buying it",
+   "pts": 9.4,
+   "nota": ""
+  },
+  {
+   "sha": "37e9068",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "orlando-vazquez-career",
+   "date": "2026-10-10T04:37:08Z",
+   "msg": "feat(multiplayer): give every room error a stable reason",
+   "pts": 7.92,
+   "nota": ""
+  },
+  {
+   "sha": "442e0c8",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "orlando-vazquez-career",
+   "date": "2026-10-10T04:35:32Z",
+   "msg": "feat(i18n): add the campaign room copy in Spanish and English",
+   "pts": 8.44,
+   "nota": ""
+  },
+  {
+   "sha": "a38300b",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "orlando-vazquez-career",
+   "date": "2026-10-10T04:35:19Z",
+   "msg": "feat(market): shop, sellable pieces and per-piece listings as pure sections",
+   "pts": 7.21,
+   "nota": ""
+  },
+  {
+   "sha": "969836f",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "orlando-vazquez-career",
+   "date": "2026-10-10T04:34:41Z",
+   "msg": "feat(hangar): pure try-on loadout and equip after purchase",
+   "pts": 6.46,
+   "nota": ""
+  },
+  {
+   "sha": "351159b",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "orlando-vazquez-career",
+   "date": "2026-10-10T04:34:12Z",
+   "msg": "fix(hangar): every hull carries its own preview filter",
+   "pts": 7.0,
+   "nota": ""
+  },
+  {
+   "sha": "ae6206b",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "orlando-vazquez-career",
+   "date": "2026-10-10T04:33:45Z",
+   "msg": "feat(i18n): name run sectors from their map in the language on screen",
+   "pts": 5.95,
+   "nota": ""
+  },
+  {
+   "sha": "0e309e0",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "orlando-vazquez-career",
+   "date": "2026-10-10T04:33:36Z",
+   "msg": "feat(web): turret base and turning head, OBSTACLE_RING art on its cell",
+   "pts": 5.81,
+   "nota": ""
+  },
+  {
+   "sha": "636bc78",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "orlando-vazquez-career",
+   "date": "2026-10-10T04:33:05Z",
+   "msg": "feat(web): chain errors worded per contract code, pending sends to the explorer",
+   "pts": 7.66,
+   "nota": ""
+  },
+  {
+   "sha": "73f91ec",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "orlando-vazquez-career",
+   "date": "2026-10-10T04:32:32Z",
+   "msg": "feat(i18n): label playable maps through mapName",
+   "pts": 5.64,
+   "nota": ""
+  },
+  {
+   "sha": "8819f6b",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "orlando-vazquez-career",
+   "date": "2026-10-10T04:32:29Z",
+   "msg": "feat(web): select a command base with a click on its hull",
+   "pts": 6.58,
+   "nota": ""
+  },
+  {
+   "sha": "38368b5",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "orlando-vazquez-career",
+   "date": "2026-10-10T04:32:10Z",
+   "msg": "feat(market): Spanish and English copy for the market and contract refusals",
+   "pts": 8.35,
+   "nota": ""
+  },
+  {
+   "sha": "53d6373",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "orlando-vazquez-career",
+   "date": "2026-10-10T04:31:25Z",
+   "msg": "feat(web): Core capture area, progress sweep and floating tag",
+   "pts": 8.57,
+   "nota": ""
+  },
+  {
+   "sha": "d0e3c1f",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "orlando-vazquez-career",
+   "date": "2026-10-10T04:31:10Z",
+   "msg": "feat(server): mint merits earned while the minter key was missing",
+   "pts": 7.38,
+   "nota": ""
+  },
+  {
+   "sha": "da2caeb",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "orlando-vazquez-career",
+   "date": "2026-10-10T04:29:43Z",
+   "msg": "feat(lobby): draw the chosen map in the operation briefing",
+   "pts": 8.7,
+   "nota": ""
+  },
+  {
+   "sha": "841cd1c",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "orlando-vazquez-career",
+   "date": "2026-10-10T04:29:35Z",
+   "msg": "feat(chain): pending and refused transactions keep their hash",
+   "pts": 7.7,
+   "nota": ""
+  },
+  {
+   "sha": "410692b",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "orlando-vazquez-career",
+   "date": "2026-10-10T04:28:03Z",
+   "msg": "feat(web): clean map, single pillar nexus and bases coloured from your side",
+   "pts": 9.89,
+   "nota": ""
+  },
+  {
+   "sha": "e0195b1",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "orlando-vazquez-career",
+   "date": "2026-10-10T04:27:17Z",
+   "msg": "docs: password rule for new accounts and weak_password",
+   "pts": 5.75,
+   "nota": ""
+  },
+  {
+   "sha": "406304b",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "orlando-vazquez-career",
+   "date": "2026-10-10T04:26:58Z",
+   "msg": "feat(login): password checklist while creating an account",
+   "pts": 8.38,
+   "nota": ""
+  },
+  {
+   "sha": "1b2e137",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "orlando-vazquez-career",
+   "date": "2026-10-10T04:26:32Z",
+   "msg": "feat(web): Core tag and Core panel hint from the HUD reading",
+   "pts": 6.55,
+   "nota": ""
+  },
+  {
+   "sha": "3dc38d0",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "orlando-vazquez-career",
+   "date": "2026-10-10T04:25:53Z",
+   "msg": "feat(i18n): translate the rival AI difficulty in the preparation lobby",
+   "pts": 7.13,
+   "nota": ""
+  },
+  {
+   "sha": "46f1dbf",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "orlando-vazquez-career",
+   "date": "2026-10-10T04:24:55Z",
+   "msg": "feat(map): build a map preview straight from the training maps",
+   "pts": 8.0,
+   "nota": ""
+  },
+  {
+   "sha": "8e8aa25",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "orlando-vazquez-career",
+   "date": "2026-10-10T04:24:50Z",
+   "msg": "feat(web): match copy for rejections, notices, map labels, menu and results",
+   "pts": 9.17,
+   "nota": ""
+  },
+  {
+   "sha": "68bee08",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "orlando-vazquez-career",
+   "date": "2026-10-10T04:24:00Z",
+   "msg": "feat(web): project any map size without selecting it",
+   "pts": 7.36,
+   "nota": ""
+  },
+  {
+   "sha": "f9d89c7",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "orlando-vazquez-career",
+   "date": "2026-10-10T04:23:33Z",
+   "msg": "feat(web): name a weak password at registration with accountPasswordWeak",
+   "pts": 6.32,
+   "nota": ""
+  },
+  {
+   "sha": "6b175a5",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "orlando-vazquez-career",
+   "date": "2026-10-10T04:22:56Z",
+   "msg": "feat(web): turret art, queue icons, platform depth and obstacle anchor helpers",
+   "pts": 8.06,
+   "nota": ""
+  },
+  {
+   "sha": "d6bfba0",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "orlando-vazquez-career",
+   "date": "2026-10-10T04:22:53Z",
+   "msg": "feat(server): refuse a weak password at registration with weak_password",
+   "pts": 7.19,
+   "nota": ""
+  },
+  {
+   "sha": "9f133b6",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "orlando-vazquez-career",
+   "date": "2026-10-10T04:22:39Z",
+   "msg": "refactor(lobby): remove the Sector 01 Tiled inspector",
+   "pts": 8.78,
+   "nota": ""
+  },
+  {
+   "sha": "3340194",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "orlando-vazquez-career",
+   "date": "2026-10-10T04:21:59Z",
+   "msg": "Merge origin/main into feat/feedback-ismael-colisiones-cola",
+   "pts": 0.0,
+   "nota": "merge"
   },
   {
    "sha": "730f3dc",
@@ -663,6 +1424,76 @@
    "nota": "merge"
   },
   {
+   "sha": "37695d6",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "orlando-vazquez-career",
+   "date": "2026-10-10T04:21:30Z",
+   "msg": "test: register test accounts with passwords that meet the new rule",
+   "pts": 8.16,
+   "nota": ""
+  },
+  {
+   "sha": "9e2e6c8",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "orlando-vazquez-career",
+   "date": "2026-10-10T04:20:41Z",
+   "msg": "feat(input): password rule for new accounts",
+   "pts": 6.86,
+   "nota": ""
+  },
+  {
+   "sha": "5827344",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "orlando-vazquez-career",
+   "date": "2026-10-10T04:19:13Z",
+   "msg": "fix: offer the practice pause only when it is available, start fleets toward the Core",
+   "pts": 6.88,
+   "nota": ""
+  },
+  {
+   "sha": "b6ba5cd",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "orlando-vazquez-career",
+   "date": "2026-10-10T04:12:18Z",
+   "msg": "feat(art): Codex watch tower and neutral turret sprites",
+   "pts": 7.27,
+   "nota": ""
+  },
+  {
+   "sha": "9d426e5",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "orlando-vazquez-career",
+   "date": "2026-10-10T04:09:04Z",
+   "msg": "Merge wave1/p3-fix into feat/feedback-ismael-colisiones-cola",
+   "pts": 0.0,
+   "nota": "merge"
+  },
+  {
+   "sha": "dcd4bdf",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "orlando-vazquez-career",
+   "date": "2026-10-10T04:09:04Z",
+   "msg": "Merge wave1/p2-fix into feat/feedback-ismael-colisiones-cola",
+   "pts": 0.0,
+   "nota": "merge"
+  },
+  {
+   "sha": "498b9de",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "orlando-vazquez-career",
+   "date": "2026-10-10T04:09:03Z",
+   "msg": "Merge wave1/p1-fix into feat/feedback-ismael-colisiones-cola",
+   "pts": 0.0,
+   "nota": "merge"
+  },
+  {
    "sha": "3cd3da5",
    "team": "TilcAI",
    "repo": "TilcAI/tilcai-web",
@@ -670,6 +1501,106 @@
    "date": "2026-10-10T04:05:37Z",
    "msg": "feat: add official network logos for various testnets and mainnets",
    "pts": 8.78,
+   "nota": ""
+  },
+  {
+   "sha": "bd6c343",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "orlando-vazquez-career",
+   "date": "2026-10-10T03:55:43Z",
+   "msg": "docs: note that ships launch on the Core side first",
+   "pts": 2.58,
+   "nota": ""
+  },
+  {
+   "sha": "8d694dc",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "orlando-vazquez-career",
+   "date": "2026-10-10T03:55:28Z",
+   "msg": "test(server): seat the second human in a room that opens paused",
+   "pts": 6.52,
+   "nota": ""
+  },
+  {
+   "sha": "9a7935e",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "orlando-vazquez-career",
+   "date": "2026-10-10T03:42:29Z",
+   "msg": "fix(server): send pausable on every training view as the pause handshake",
+   "pts": 5.86,
+   "nota": ""
+  },
+  {
+   "sha": "b272922",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "orlando-vazquez-career",
+   "date": "2026-10-10T03:40:20Z",
+   "msg": "test(audio): mark the music-mute gain test as a characterization test",
+   "pts": 3.0,
+   "nota": ""
+  },
+  {
+   "sha": "d28e48b",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "orlando-vazquez-career",
+   "date": "2026-10-10T03:40:15Z",
+   "msg": "test(sim): pin the rival's empty-queue guard in rivalProduction",
+   "pts": 4.58,
+   "nota": ""
+  },
+  {
+   "sha": "cc1e5b1",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "orlando-vazquez-career",
+   "date": "2026-10-10T03:40:08Z",
+   "msg": "test(e2e): the header music switch is disabled while all sound is muted",
+   "pts": 4.7,
+   "nota": ""
+  },
+  {
+   "sha": "c292eeb",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "orlando-vazquez-career",
+   "date": "2026-10-10T03:39:32Z",
+   "msg": "fix(sim): launch hangar, augment and station ships toward the Core",
+   "pts": 7.58,
+   "nota": ""
+  },
+  {
+   "sha": "4070c68",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "orlando-vazquez-career",
+   "date": "2026-10-10T03:38:40Z",
+   "msg": "test(e2e): key recording yields to the leave dialog and ends on discard",
+   "pts": 6.58,
+   "nota": ""
+  },
+  {
+   "sha": "492d80a",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "orlando-vazquez-career",
+   "date": "2026-10-10T03:36:52Z",
+   "msg": "test(a11y): pin that a saved accessibility never flashes the previous one",
+   "pts": 6.46,
+   "nota": ""
+  },
+  {
+   "sha": "e0d2891",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "orlando-vazquez-career",
+   "date": "2026-10-10T03:34:21Z",
+   "msg": "fix(a11y): follow the system reduced-motion request until the player chooses",
+   "pts": 8.14,
    "nota": ""
   },
   {
@@ -723,6 +1654,76 @@
    "nota": ""
   },
   {
+   "sha": "c2dc310",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "orlando-vazquez-career",
+   "date": "2026-10-10T03:14:48Z",
+   "msg": "docs: describe the hangar queue, capture radii, launch rings and practice pause",
+   "pts": 7.11,
+   "nota": ""
+  },
+  {
+   "sha": "d92d74c",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "orlando-vazquez-career",
+   "date": "2026-10-10T03:14:47Z",
+   "msg": "test(e2e): cover the hangar queue, cancel and practice pause in training",
+   "pts": 6.39,
+   "nota": ""
+  },
+  {
+   "sha": "3624aab",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "orlando-vazquez-career",
+   "date": "2026-10-10T03:11:25Z",
+   "msg": "feat(web): expose the hangar queue, Core status and pause in the client contract",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "c8de79e",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "orlando-vazquez-career",
+   "date": "2026-10-10T03:05:29Z",
+   "msg": "fix(settings): hand the saved accessibility to the store on save",
+   "pts": 3.32,
+   "nota": ""
+  },
+  {
+   "sha": "1f113fc",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "orlando-vazquez-career",
+   "date": "2026-10-10T02:58:16Z",
+   "msg": "refactor(menu): remove the dead hangar and settings routes",
+   "pts": 8.11,
+   "nota": ""
+  },
+  {
+   "sha": "fb40509",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "orlando-vazquez-career",
+   "date": "2026-10-10T02:57:12Z",
+   "msg": "feat(server): let a lone human pause practice against the AI",
+   "pts": 8.53,
+   "nota": ""
+  },
+  {
+   "sha": "0b1213b",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "orlando-vazquez-career",
+   "date": "2026-10-10T02:57:05Z",
+   "msg": "feat(i18n): translate the command header badges and the page title",
+   "pts": 5.25,
+   "nota": ""
+  },
+  {
    "sha": "4225c38",
    "team": "Impulso Stellar",
    "repo": "orlando-vazquez-career/stellar-impulse",
@@ -730,6 +1731,86 @@
    "date": "2026-10-10T02:54:57Z",
    "msg": "feat: add visual assets, detailed README documentation, and testnet deployment references for stellar-impulse",
    "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "c8cbbd9",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "orlando-vazquez-career",
+   "date": "2026-10-10T02:54:53Z",
+   "msg": "feat(controls): rebindable \"select base\" shortcut, B by default",
+   "pts": 6.17,
+   "nota": ""
+  },
+  {
+   "sha": "805640f",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "orlando-vazquez-career",
+   "date": "2026-10-10T02:53:42Z",
+   "msg": "feat(a11y): real enhanced contrast and larger text",
+   "pts": 9.26,
+   "nota": ""
+  },
+  {
+   "sha": "7b8db6d",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "orlando-vazquez-career",
+   "date": "2026-10-10T02:53:41Z",
+   "msg": "feat(a11y): preview accessibility live through a shared store",
+   "pts": 8.45,
+   "nota": ""
+  },
+  {
+   "sha": "e487f36",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "orlando-vazquez-career",
+   "date": "2026-10-10T02:51:29Z",
+   "msg": "feat(web): tell the scene when to draw the top-down nexus disc",
+   "pts": 5.91,
+   "nota": ""
+  },
+  {
+   "sha": "a9b53a9",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "orlando-vazquez-career",
+   "date": "2026-10-10T02:51:14Z",
+   "msg": "feat(state): show the hangar queue and the Core capture status",
+   "pts": 8.36,
+   "nota": ""
+  },
+  {
+   "sha": "5b5cf5c",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "orlando-vazquez-career",
+   "date": "2026-10-10T02:50:45Z",
+   "msg": "fix(web): break a base pick tie in favour of the enemy base",
+   "pts": 5.25,
+   "nota": ""
+  },
+  {
+   "sha": "fd4071a",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "orlando-vazquez-career",
+   "date": "2026-10-10T02:49:29Z",
+   "msg": "test(maps): guard the watch tower bottom anchor and bit depth",
+   "pts": 7.39,
+   "nota": ""
+  },
+  {
+   "sha": "ed8c0e5",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "orlando-vazquez-career",
+   "date": "2026-10-10T02:48:31Z",
+   "msg": "feat(sim): queue up to five hangar orders and let players cancel them",
+   "pts": 9.44,
    "nota": ""
   },
   {
@@ -743,6 +1824,36 @@
    "nota": ""
   },
   {
+   "sha": "4653d6d",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "orlando-vazquez-career",
+   "date": "2026-10-10T02:44:37Z",
+   "msg": "feat(menu): drop the \"Ir atras\" button from the command center",
+   "pts": 7.87,
+   "nota": ""
+  },
+  {
+   "sha": "923d93b",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "orlando-vazquez-career",
+   "date": "2026-10-10T02:42:19Z",
+   "msg": "feat(sim): capture the Core and Metal nodes within a radius of 2",
+   "pts": 7.46,
+   "nota": ""
+  },
+  {
+   "sha": "bb4a81c",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "orlando-vazquez-career",
+   "date": "2026-10-10T02:40:56Z",
+   "msg": "feat(audio): one saved music mute shared by the header, settings and match",
+   "pts": 9.36,
+   "nota": ""
+  },
+  {
    "sha": "56de227",
    "team": "TilcAI",
    "repo": "TilcAI/tilcai-web",
@@ -750,6 +1861,56 @@
    "date": "2026-10-10T02:40:33Z",
    "msg": "feat: mejorar la sección de operación con ajustes visuales y de estilo en múltiples componentes",
    "pts": 8.1,
+   "nota": ""
+  },
+  {
+   "sha": "20dc5d1",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "orlando-vazquez-career",
+   "date": "2026-10-10T02:35:41Z",
+   "msg": "fix(sim): launch ships outside the base and station hulls",
+   "pts": 7.93,
+   "nota": ""
+  },
+  {
+   "sha": "7a959b5",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "orlando-vazquez-career",
+   "date": "2026-10-10T02:33:35Z",
+   "msg": "feat(settings): preferences context and a leave guard for unsaved settings",
+   "pts": 9.41,
+   "nota": ""
+  },
+  {
+   "sha": "8ee4d6f",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "orlando-vazquez-career",
+   "date": "2026-10-10T02:30:21Z",
+   "msg": "docs(art): sprite style rule for match entities and Tiled decor",
+   "pts": 6.39,
+   "nota": ""
+  },
+  {
+   "sha": "6b10bce",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "orlando-vazquez-career",
+   "date": "2026-10-10T02:28:58Z",
+   "msg": "feat(web): pure selection of the map objects the scene draws",
+   "pts": 8.5,
+   "nota": ""
+  },
+  {
+   "sha": "4095276",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "orlando-vazquez-career",
+   "date": "2026-10-10T02:27:40Z",
+   "msg": "refactor(sim): extract capturePresence from advanceCapture",
+   "pts": 6.25,
    "nota": ""
   },
   {
@@ -763,12 +1924,92 @@
    "nota": "merge"
   },
   {
+   "sha": "1eb67e3",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "orlando-vazquez-career",
+   "date": "2026-10-10T02:26:52Z",
+   "msg": "feat(settings): detect unsaved settings and validate stored accessibility",
+   "pts": 7.92,
+   "nota": ""
+  },
+  {
+   "sha": "62c5758",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "orlando-vazquez-career",
+   "date": "2026-10-10T02:26:37Z",
+   "msg": "feat(web): pick a command base by its on-screen ellipse",
+   "pts": 7.57,
+   "nota": ""
+  },
+  {
    "sha": "14fc514",
    "team": "CompraGasolinaBidon",
    "repo": "jjvos19/stellar-build",
    "author": "jjvos19",
    "date": "2026-10-10T02:26:29Z",
    "msg": "Actualizacion de formularios",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "6cfe134",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "orlando-vazquez-career",
+   "date": "2026-10-10T02:26:21Z",
+   "msg": "feat(input): add cancel_production command and MAX_PRODUCTION_QUEUE",
+   "pts": 6.09,
+   "nota": ""
+  },
+  {
+   "sha": "2836c7e",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "orlando-vazquez-career",
+   "date": "2026-10-10T02:26:04Z",
+   "msg": "feat(i18n): export translate, formatMessage, getActiveLocale and mapName",
+   "pts": 8.49,
+   "nota": ""
+  },
+  {
+   "sha": "d343abd",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "orlando-vazquez-career",
+   "date": "2026-10-10T02:25:50Z",
+   "msg": "feat(web): fixed Escape key and its back-out priority",
+   "pts": 6.78,
+   "nota": ""
+  },
+  {
+   "sha": "654dcab",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "orlando-vazquez-career",
+   "date": "2026-10-10T02:25:19Z",
+   "msg": "feat(web): pure capture ellipse and progress sweep geometry",
+   "pts": 7.51,
+   "nota": ""
+  },
+  {
+   "sha": "acc8c57",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "orlando-vazquez-career",
+   "date": "2026-10-10T02:24:39Z",
+   "msg": "test(maps): guard the watch tower art canvas across the three kits",
+   "pts": 7.48,
+   "nota": ""
+  },
+  {
+   "sha": "b6cf956",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "orlando-vazquez-career",
+   "date": "2026-10-10T02:24:21Z",
+   "msg": "test(e2e): split visual spec into lobby, battle and hangar files",
    "pts": 10,
    "nota": ""
   },
