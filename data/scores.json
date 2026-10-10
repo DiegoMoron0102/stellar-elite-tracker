@@ -1,5 +1,5 @@
 {
- "generado": "2026-10-09T22:01:57+00:00",
+ "generado": "2026-10-10T03:25:35+00:00",
  "programa": "Stellar Elite",
  "start_date": "2026-09-02T00:00:00Z",
  "teams": [
@@ -22,11 +22,11 @@
   },
   {
    "name": "Impulso Stellar",
-   "total": 1082.94,
-   "per_capita": 1082.94,
-   "commits": 216,
-   "pts_commits": 994.94,
-   "dias_activos": 14,
+   "total": 1088.94,
+   "per_capita": 1088.94,
+   "commits": 218,
+   "pts_commits": 995.94,
+   "dias_activos": 15,
    "contribuidores": [
     "Copilot",
     "Hans3010",
@@ -43,10 +43,10 @@
   },
   {
    "name": "Puls3",
-   "total": 620.99,
-   "per_capita": 620.99,
-   "commits": 91,
-   "pts_commits": 527.99,
+   "total": 698.84,
+   "per_capita": 698.84,
+   "commits": 106,
+   "pts_commits": 605.84,
    "dias_activos": 15,
    "contribuidores": [
     "Pericena",
@@ -64,11 +64,11 @@
   },
   {
    "name": "TilcAI",
-   "total": 551.83,
-   "per_capita": 183.94,
-   "commits": 82,
-   "pts_commits": 504.83,
-   "dias_activos": 7,
+   "total": 638.98,
+   "per_capita": 212.99,
+   "commits": 93,
+   "pts_commits": 586.98,
+   "dias_activos": 8,
    "contribuidores": [
     "JHAMILCALI",
     "OmarQV",
@@ -83,11 +83,11 @@
   },
   {
    "name": "Stellar Flash",
-   "total": 267.92,
-   "per_capita": 267.92,
-   "commits": 34,
-   "pts_commits": 244.92,
-   "dias_activos": 4,
+   "total": 294.28,
+   "per_capita": 294.28,
+   "commits": 36,
+   "pts_commits": 261.28,
+   "dias_activos": 6,
    "contribuidores": [
     "nadevrix"
    ],
@@ -99,10 +99,10 @@
   },
   {
    "name": "MinerTrace",
-   "total": 217.6,
-   "per_capita": 217.6,
-   "commits": 26,
-   "pts_commits": 191.6,
+   "total": 241.67,
+   "per_capita": 241.67,
+   "commits": 31,
+   "pts_commits": 215.67,
    "dias_activos": 4,
    "contribuidores": [
     "Dante1128",
@@ -132,11 +132,11 @@
   },
   {
    "name": "BOLAR",
-   "total": 173.42,
-   "per_capita": 173.42,
-   "commits": 22,
-   "pts_commits": 119.42,
-   "dias_activos": 9,
+   "total": 196.6,
+   "per_capita": 196.6,
+   "commits": 27,
+   "pts_commits": 137.6,
+   "dias_activos": 10,
    "contribuidores": [
     "JersonUCB",
     "rudyramirezc",
@@ -147,6 +147,22 @@
     "bolarpay/bolar-app"
    ],
    "rank": 8
+  },
+  {
+   "name": "CompraGasolinaBidon",
+   "total": 121.17,
+   "per_capita": 121.17,
+   "commits": 22,
+   "pts_commits": 98.17,
+   "dias_activos": 4,
+   "contribuidores": [
+    "jjvos19"
+   ],
+   "tamano": 1,
+   "repos": [
+    "jjvos19/stellar-build"
+   ],
+   "rank": 9
   },
   {
    "name": "GatoPago",
@@ -161,22 +177,6 @@
    "tamano": 1,
    "repos": [
     "danelerr/parmelia-links"
-   ],
-   "rank": 9
-  },
-  {
-   "name": "CompraGasolinaBidon",
-   "total": 73.59,
-   "per_capita": 73.59,
-   "commits": 12,
-   "pts_commits": 55.59,
-   "dias_activos": 3,
-   "contribuidores": [
-    "jjvos19"
-   ],
-   "tamano": 1,
-   "repos": [
-    "jjvos19/stellar-build"
    ],
    "rank": 10
   },
@@ -213,6 +213,22 @@
    "rank": 12
   },
   {
+   "name": "Veridia",
+   "total": 21.0,
+   "per_capita": 21.0,
+   "commits": 4,
+   "pts_commits": 13.0,
+   "dias_activos": 1,
+   "contribuidores": [
+    "sphinxar"
+   ],
+   "tamano": 1,
+   "repos": [
+    "sphinxar/veridia"
+   ],
+   "rank": 13
+  },
+  {
    "name": "DrinksOnChain",
    "total": 18.0,
    "per_capita": 18.0,
@@ -226,7 +242,7 @@
    "repos": [
     "DAVV422/drinks-on-chain-public"
    ],
-   "rank": 13
+   "rank": 14
   },
   {
    "name": "Agentx402",
@@ -241,20 +257,6 @@
    "tamano": 1,
    "repos": [
     "ZequerVirus/Stellar-P1"
-   ],
-   "rank": 14
-  },
-  {
-   "name": "Veridia",
-   "total": 0.0,
-   "per_capita": 0.0,
-   "commits": 0,
-   "pts_commits": 0.0,
-   "dias_activos": 0,
-   "contribuidores": [],
-   "tamano": 1,
-   "repos": [
-    "sphinxar/veridia"
    ],
    "rank": 15
   },
@@ -290,7 +292,9 @@
    "2026-09-05": 108.41,
    "2026-09-06": 53.379999999999995,
    "2026-09-07": 36.61,
-   "2026-09-09": 46.519999999999996
+   "2026-09-09": 46.519999999999996,
+   "2026-09-10": 6.36,
+   "2026-10-10": 10.0
   },
   "Puls3": {
    "2026-09-13": 8.67,
@@ -307,7 +311,8 @@
    "2026-10-06": 44.62,
    "2026-10-07": 40.57,
    "2026-10-08": 78.63,
-   "2026-10-09": 49.92
+   "2026-10-09": 127.77,
+   "2026-10-10": 0.0
   },
   "Tinkazo": {
    "2026-09-16": 66.21000000000001,
@@ -332,7 +337,8 @@
   "CompraGasolinaBidon": {
    "2026-09-06": 1.0,
    "2026-10-07": 16.31,
-   "2026-10-09": 38.28
+   "2026-10-09": 38.28,
+   "2026-10-10": 42.58
   },
   "NodeXchange": {
    "2026-09-05": 1.0,
@@ -368,7 +374,8 @@
    "2026-10-06": 57.46,
    "2026-10-07": 88.21,
    "2026-10-08": 107.44,
-   "2026-10-09": 260.93999999999994
+   "2026-10-09": 260.93999999999994,
+   "2026-10-10": 1.0
   },
   "BOLAR": {
    "2026-09-22": 9.25,
@@ -379,13 +386,14 @@
    "2026-10-02": 15.329999999999998,
    "2026-10-07": 17.27,
    "2026-10-08": 5.46,
-   "2026-10-09": 27.79
+   "2026-10-09": 33.54,
+   "2026-10-10": 12.43
   },
   "MinerTrace": {
    "2026-09-28": 10.97,
    "2026-10-05": 127.81,
    "2026-10-06": 7.09,
-   "2026-10-09": 45.730000000000004
+   "2026-10-09": 69.80000000000001
   },
   "TilcAI": {
    "2026-09-27": 23.66,
@@ -394,7 +402,8 @@
    "2026-10-02": 195.20999999999998,
    "2026-10-03": 34.81,
    "2026-10-05": 7.19,
-   "2026-10-09": 127.72000000000001
+   "2026-10-09": 147.72000000000003,
+   "2026-10-10": 62.15
   },
   "GatoPago": {
    "2026-09-10": 1.0,
@@ -405,6 +414,9 @@
   },
   "WAVO": {
    "2026-10-09": 19.37
+  },
+  "Veridia": {
+   "2026-10-10": 13.0
   }
  },
  "serie_commits": {
@@ -412,7 +424,9 @@
    "2026-09-05": 16,
    "2026-09-06": 7,
    "2026-09-07": 5,
-   "2026-09-09": 6
+   "2026-09-09": 6,
+   "2026-09-10": 1,
+   "2026-10-10": 1
   },
   "Puls3": {
    "2026-09-13": 1,
@@ -429,7 +443,8 @@
    "2026-10-06": 6,
    "2026-10-07": 5,
    "2026-10-08": 10,
-   "2026-10-09": 7
+   "2026-10-09": 21,
+   "2026-10-10": 1
   },
   "Tinkazo": {
    "2026-09-16": 8,
@@ -454,7 +469,8 @@
   "CompraGasolinaBidon": {
    "2026-09-06": 1,
    "2026-10-07": 2,
-   "2026-10-09": 9
+   "2026-10-09": 9,
+   "2026-10-10": 10
   },
   "NodeXchange": {
    "2026-09-05": 1,
@@ -490,7 +506,8 @@
    "2026-10-06": 12,
    "2026-10-07": 23,
    "2026-10-08": 30,
-   "2026-10-09": 51
+   "2026-10-09": 51,
+   "2026-10-10": 2
   },
   "BOLAR": {
    "2026-09-22": 1,
@@ -501,13 +518,14 @@
    "2026-10-02": 5,
    "2026-10-07": 2,
    "2026-10-08": 2,
-   "2026-10-09": 5
+   "2026-10-09": 6,
+   "2026-10-10": 4
   },
   "MinerTrace": {
    "2026-09-28": 3,
    "2026-10-05": 15,
    "2026-10-06": 1,
-   "2026-10-09": 7
+   "2026-10-09": 12
   },
   "TilcAI": {
    "2026-09-27": 3,
@@ -516,7 +534,8 @@
    "2026-10-02": 33,
    "2026-10-03": 6,
    "2026-10-05": 1,
-   "2026-10-09": 20
+   "2026-10-09": 23,
+   "2026-10-10": 8
   },
   "GatoPago": {
    "2026-09-10": 1,
@@ -527,9 +546,452 @@
   },
   "WAVO": {
    "2026-10-09": 6
+  },
+  "Veridia": {
+   "2026-10-10": 4
   }
  },
  "commits": [
+  {
+   "sha": "9eec15c",
+   "team": "TilcAI",
+   "repo": "TilcAI/tilcai-web",
+   "author": "JHAMILCALI",
+   "date": "2026-10-10T03:21:16Z",
+   "msg": "Enhance typography across various sections",
+   "pts": 9.17,
+   "nota": ""
+  },
+  {
+   "sha": "90e51e2",
+   "team": "CompraGasolinaBidon",
+   "repo": "jjvos19/stellar-build",
+   "author": "jjvos19",
+   "date": "2026-10-10T03:20:33Z",
+   "msg": "Merge pull request #8 from jjvos19/jjvos19/1.0.0",
+   "pts": 0.0,
+   "nota": "merge"
+  },
+  {
+   "sha": "9fa2890",
+   "team": "CompraGasolinaBidon",
+   "repo": "jjvos19/stellar-build",
+   "author": "jjvos19",
+   "date": "2026-10-10T03:15:27Z",
+   "msg": "Cambio e frontend, mejor presentacion",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "052f4ec",
+   "team": "Stellar Flash",
+   "repo": "nadevrix/stellar-flash",
+   "author": "nadevrix",
+   "date": "2026-10-10T02:46:29Z",
+   "msg": "Aislar el piloto de mainnet: allowlist y topes, sin tocar el demo de testnet.",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "56de227",
+   "team": "TilcAI",
+   "repo": "TilcAI/tilcai-web",
+   "author": "JHAMILCALI",
+   "date": "2026-10-10T02:40:33Z",
+   "msg": "feat: mejorar la sección de operación con ajustes visuales y de estilo en múltiples componentes",
+   "pts": 8.1,
+   "nota": ""
+  },
+  {
+   "sha": "8331a0c",
+   "team": "CompraGasolinaBidon",
+   "repo": "jjvos19/stellar-build",
+   "author": "jjvos19",
+   "date": "2026-10-10T02:27:30Z",
+   "msg": "Merge pull request #7 from jjvos19/jjvos19/1.0.0",
+   "pts": 0.0,
+   "nota": "merge"
+  },
+  {
+   "sha": "14fc514",
+   "team": "CompraGasolinaBidon",
+   "repo": "jjvos19/stellar-build",
+   "author": "jjvos19",
+   "date": "2026-10-10T02:26:29Z",
+   "msg": "Actualizacion de formularios",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "f5d7cd5",
+   "team": "TilcAI",
+   "repo": "TilcAI/tilcai-web",
+   "author": "JHAMILCALI",
+   "date": "2026-10-10T02:09:15Z",
+   "msg": "refactor: eliminar imágenes de fondo en secciones de rutas de pago y ajustar estilos",
+   "pts": 6.83,
+   "nota": ""
+  },
+  {
+   "sha": "7c87fd1",
+   "team": "CompraGasolinaBidon",
+   "repo": "jjvos19/stellar-build",
+   "author": "jjvos19",
+   "date": "2026-10-10T02:09:09Z",
+   "msg": "Merge pull request #6 from jjvos19/jjvos19/1.0.0",
+   "pts": 0.0,
+   "nota": "merge"
+  },
+  {
+   "sha": "524b898",
+   "team": "CompraGasolinaBidon",
+   "repo": "jjvos19/stellar-build",
+   "author": "jjvos19",
+   "date": "2026-10-10T02:08:27Z",
+   "msg": "Correcion de front",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "8b2b422",
+   "team": "CompraGasolinaBidon",
+   "repo": "jjvos19/stellar-build",
+   "author": "jjvos19",
+   "date": "2026-10-10T02:04:34Z",
+   "msg": "Merge pull request #5 from jjvos19/jjvos19/1.0.0",
+   "pts": 0.0,
+   "nota": "merge"
+  },
+  {
+   "sha": "06956fa",
+   "team": "TilcAI",
+   "repo": "TilcAI/tilcai-web",
+   "author": "JHAMILCALI",
+   "date": "2026-10-10T02:03:46Z",
+   "msg": "refactor: eliminar la capa de polvo en ConnectionPaths y ajustar pruebas asociadas",
+   "pts": 5.09,
+   "nota": ""
+  },
+  {
+   "sha": "8b139b3",
+   "team": "CompraGasolinaBidon",
+   "repo": "jjvos19/stellar-build",
+   "author": "jjvos19",
+   "date": "2026-10-10T02:03:39Z",
+   "msg": "Cambios en frontend",
+   "pts": 2.58,
+   "nota": ""
+  },
+  {
+   "sha": "4f367b9",
+   "team": "CompraGasolinaBidon",
+   "repo": "jjvos19/stellar-build",
+   "author": "jjvos19",
+   "date": "2026-10-10T01:59:05Z",
+   "msg": "Merge pull request #4 from jjvos19/jjvos19/1.0.0",
+   "pts": 0.0,
+   "nota": "merge"
+  },
+  {
+   "sha": "d6ca4e0",
+   "team": "CompraGasolinaBidon",
+   "repo": "jjvos19/stellar-build",
+   "author": "jjvos19",
+   "date": "2026-10-10T01:57:12Z",
+   "msg": "Actualizacion de frontend",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "1049397",
+   "team": "BOLAR",
+   "repo": "bolarpay/bolar-app",
+   "author": "JersonUCB",
+   "date": "2026-10-10T01:54:47Z",
+   "msg": "chore: update send and loading descriptions",
+   "pts": 2.0,
+   "nota": ""
+  },
+  {
+   "sha": "429f186",
+   "team": "TilcAI",
+   "repo": "TilcAI/tilcai-web",
+   "author": "JHAMILCALI",
+   "date": "2026-10-10T01:48:37Z",
+   "msg": "refactor: remove editorial notes from office copy and update types",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "e33b70e",
+   "team": "BOLAR",
+   "repo": "bolarpay/bolar-app",
+   "author": "JersonUCB",
+   "date": "2026-10-10T01:48:27Z",
+   "msg": "chore: update loading and completion copy",
+   "pts": 2.58,
+   "nota": ""
+  },
+  {
+   "sha": "06d697c",
+   "team": "Veridia",
+   "repo": "sphinxar/veridia",
+   "author": "sphinxar",
+   "date": "2026-10-10T01:45:49Z",
+   "msg": "first commit",
+   "pts": 1.0,
+   "nota": "import masivo (187 archivos)"
+  },
+  {
+   "sha": "2753597",
+   "team": "BOLAR",
+   "repo": "bolarpay/bolar-app",
+   "author": "JersonUCB",
+   "date": "2026-10-10T01:43:03Z",
+   "msg": "Merge branch 'codex/pix-payment-screen' into main",
+   "pts": 0.0,
+   "nota": "merge"
+  },
+  {
+   "sha": "7f9668c",
+   "team": "BOLAR",
+   "repo": "bolarpay/bolar-app",
+   "author": "JersonUCB",
+   "date": "2026-10-10T01:42:46Z",
+   "msg": "feat: update PIX payment screen and Bridge secondary actions",
+   "pts": 7.85,
+   "nota": ""
+  },
+  {
+   "sha": "dc9fe97",
+   "team": "Veridia",
+   "repo": "sphinxar/veridia",
+   "author": "sphinxar",
+   "date": "2026-10-10T01:21:34Z",
+   "msg": "Add database schema/migrations, event projections, indexer service, UI package",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "96644e4",
+   "team": "Veridia",
+   "repo": "sphinxar/veridia",
+   "author": "sphinxar",
+   "date": "2026-10-10T01:13:12Z",
+   "msg": "Make panel selection footprint-independent; add TS domain, stellar client, deploy/seed/smoke scripts",
+   "pts": 1.0,
+   "nota": "import masivo (83 archivos)"
+  },
+  {
+   "sha": "c7025d2",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "Hans3010",
+   "date": "2026-10-10T01:01:07Z",
+   "msg": "Merge pull request #54 from orlando-vazquez-career/feat/audio-elevenlabs",
+   "pts": 0.0,
+   "nota": "merge"
+  },
+  {
+   "sha": "096b15e",
+   "team": "Puls3",
+   "repo": "Zer0-Knowledge-Hack/puls3",
+   "author": "Pericena",
+   "date": "2026-10-10T01:00:34Z",
+   "msg": "Merge pull request #144 from Zer0-Knowledge-Hack/feat/91-hire-escrow-relay",
+   "pts": 0.0,
+   "nota": "merge"
+  },
+  {
+   "sha": "e928302",
+   "team": "Veridia",
+   "repo": "sphinxar/veridia",
+   "author": "sphinxar",
+   "date": "2026-10-10T00:56:56Z",
+   "msg": "Add protocol docs and Soroban contracts (escrow, registry, verification) with tests",
+   "pts": 1.0,
+   "nota": "import masivo (73 archivos)"
+  },
+  {
+   "sha": "3b822ea",
+   "team": "TilcAI",
+   "repo": "TilcAI/tilcai-web",
+   "author": "JHAMILCALI",
+   "date": "2026-10-10T00:50:26Z",
+   "msg": "feat: actualizar archivos de configuración y traducción para el monitoreo y la interfaz",
+   "pts": 6.67,
+   "nota": ""
+  },
+  {
+   "sha": "88b49cd",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "orlando-vazquez-career",
+   "date": "2026-10-10T00:45:58Z",
+   "msg": "feat(audio): VELA onboard AI voice and ElevenLabs sound effects",
+   "pts": 1.0,
+   "nota": "import masivo (248 archivos)"
+  },
+  {
+   "sha": "ee7eccb",
+   "team": "TilcAI",
+   "repo": "TilcAI/tilcai-web",
+   "author": "JHAMILCALI",
+   "date": "2026-10-10T00:15:49Z",
+   "msg": "feat: enhance AgentCatalog with terminal scene illustration and styling",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "7f82e97",
+   "team": "TilcAI",
+   "repo": "TilcAI/tilcai-web",
+   "author": "JHAMILCALI",
+   "date": "2026-10-10T00:04:13Z",
+   "msg": "feat: agregar imágenes de mascotas para OpenCode y Gemini CLI, y pruebas asociadas",
+   "pts": 6.29,
+   "nota": ""
+  },
+  {
+   "sha": "5179c90",
+   "team": "BOLAR",
+   "repo": "bolarpay/bolar-app",
+   "author": "sass3r",
+   "date": "2026-10-09T23:55:52Z",
+   "msg": "fix: demo details",
+   "pts": 5.75,
+   "nota": ""
+  },
+  {
+   "sha": "a355996",
+   "team": "TilcAI",
+   "repo": "TilcAI/tilcai-web",
+   "author": "JHAMILCALI",
+   "date": "2026-10-09T23:46:32Z",
+   "msg": "refactor: remove roadmap styles and components, introduce new modular CSS for Roadmap and Stack sections",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "c327787",
+   "team": "Puls3",
+   "repo": "Zer0-Knowledge-Hack/puls3",
+   "author": "moises-cisneros",
+   "date": "2026-10-09T23:40:18Z",
+   "msg": "fix(flutter): reset the hire flow when the wallet account changes",
+   "pts": 7.17,
+   "nota": ""
+  },
+  {
+   "sha": "9f25500",
+   "team": "Puls3",
+   "repo": "Zer0-Knowledge-Hack/puls3",
+   "author": "moises-cisneros",
+   "date": "2026-10-09T23:36:42Z",
+   "msg": "Merge branch 'main' into feat/91-hire-escrow-relay",
+   "pts": 0.0,
+   "nota": "merge"
+  },
+  {
+   "sha": "58c9bf9",
+   "team": "TilcAI",
+   "repo": "TilcAI/tilcai-web",
+   "author": "JHAMILCALI",
+   "date": "2026-10-09T23:01:02Z",
+   "msg": "Merge branch 'main' of github.com:TilcAI/tilcai-web",
+   "pts": 0.0,
+   "nota": "merge"
+  },
+  {
+   "sha": "80862a8",
+   "team": "TilcAI",
+   "repo": "TilcAI/tilcai-web",
+   "author": "JHAMILCALI",
+   "date": "2026-10-09T23:00:54Z",
+   "msg": "feat: add RoadmapPage and Entrance components with associated styles and animations",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "e4f4844",
+   "team": "Puls3",
+   "repo": "Zer0-Knowledge-Hack/puls3",
+   "author": "fercodes",
+   "date": "2026-10-09T22:45:16Z",
+   "msg": "feat(server): custodied agent wallets with encrypted secrets (#18) (#120)",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "a96b74c",
+   "team": "MinerTrace",
+   "repo": "Dante1128/MinerTracer",
+   "author": "Dante1128",
+   "date": "2026-10-09T22:32:26Z",
+   "msg": "Instalar server/ y web/ tras npm install en la raíz (builders automáticos como Railway)",
+   "pts": 3.32,
+   "nota": ""
+  },
+  {
+   "sha": "98ed9b9",
+   "team": "Puls3",
+   "repo": "Zer0-Knowledge-Hack/puls3",
+   "author": "moises-cisneros",
+   "date": "2026-10-09T22:31:13Z",
+   "msg": "Merge branch 'main' into feat/91-hire-escrow-relay",
+   "pts": 0.0,
+   "nota": "merge"
+  },
+  {
+   "sha": "49a16ff",
+   "team": "MinerTrace",
+   "repo": "Dante1128/MinerTracer",
+   "author": "Dante1128",
+   "date": "2026-10-09T22:29:55Z",
+   "msg": "Railway: compilar con el Dockerfile",
+   "pts": 4.0,
+   "nota": ""
+  },
+  {
+   "sha": "09b504e",
+   "team": "MinerTrace",
+   "repo": "Dante1128/MinerTracer",
+   "author": "Dante1128",
+   "date": "2026-10-09T22:28:21Z",
+   "msg": "doceker file",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "6aabe3f",
+   "team": "MinerTrace",
+   "repo": "Dante1128/MinerTracer",
+   "author": "Dante1128",
+   "date": "2026-10-09T22:27:44Z",
+   "msg": "Merge branch 'main' of https://github.com/Dante1128/MinerTracer",
+   "pts": 0.0,
+   "nota": "merge"
+  },
+  {
+   "sha": "63f15e3",
+   "team": "Puls3",
+   "repo": "Zer0-Knowledge-Hack/puls3",
+   "author": "fercodes",
+   "date": "2026-10-09T22:21:28Z",
+   "msg": "feat(server): index the agent catalog from the identity registry (#17) (#118)",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "e42856b",
+   "team": "Puls3",
+   "repo": "Zer0-Knowledge-Hack/puls3",
+   "author": "XxHugheadxX",
+   "date": "2026-10-09T22:12:55Z",
+   "msg": "feat(server): run the agent of every funded hire (hire_run queue, HireRunner loop) and serve getHire with run progress (",
+   "pts": 10,
+   "nota": ""
+  },
   {
    "sha": "981afc9",
    "team": "TilcAI",
@@ -571,6 +1033,16 @@
    "nota": ""
   },
   {
+   "sha": "4fb8903",
+   "team": "MinerTrace",
+   "repo": "Dante1128/MinerTracer",
+   "author": "Dante1128",
+   "date": "2026-10-09T21:35:14Z",
+   "msg": "Despliegue en Docker para Hugging Face Spaces",
+   "pts": 6.75,
+   "nota": ""
+  },
+  {
    "sha": "bae064d",
    "team": "MinerTrace",
    "repo": "Dante1128/MinerTracer",
@@ -579,6 +1051,26 @@
    "msg": "Merge pull request #2 from Dante1128/devDC",
    "pts": 0.0,
    "nota": "merge"
+  },
+  {
+   "sha": "d02b51c",
+   "team": "Puls3",
+   "repo": "Zer0-Knowledge-Hack/puls3",
+   "author": "Pericena",
+   "date": "2026-10-09T21:04:41Z",
+   "msg": "Merge remote-tracking branch 'origin/main' into feat/91-hire-escrow-relay",
+   "pts": 0.0,
+   "nota": "merge"
+  },
+  {
+   "sha": "a935499",
+   "team": "Puls3",
+   "repo": "Zer0-Knowledge-Hack/puls3",
+   "author": "Pericena",
+   "date": "2026-10-09T20:46:27Z",
+   "msg": "fix(flutter): resume unfinished hires and prepare again after final failures",
+   "pts": 10,
+   "nota": ""
   },
   {
    "sha": "871e380",
@@ -821,6 +1313,16 @@
    "nota": ""
   },
   {
+   "sha": "76a5366",
+   "team": "Puls3",
+   "repo": "Zer0-Knowledge-Hack/puls3",
+   "author": "Pericena",
+   "date": "2026-10-09T18:35:15Z",
+   "msg": "Merge remote-tracking branch 'origin/main' into feat/91-hire-escrow-relay",
+   "pts": 0.0,
+   "nota": "merge"
+  },
+  {
    "sha": "9f1214c",
    "team": "TilcAI",
    "repo": "TilcAI/tilcai-web",
@@ -841,6 +1343,16 @@
    "nota": ""
   },
   {
+   "sha": "267c474",
+   "team": "Puls3",
+   "repo": "Zer0-Knowledge-Hack/puls3",
+   "author": "Pericena",
+   "date": "2026-10-09T18:31:08Z",
+   "msg": "fix(flutter): neutral hire error once funds may have moved",
+   "pts": 6.21,
+   "nota": ""
+  },
+  {
    "sha": "4442b57",
    "team": "MinerTrace",
    "repo": "Dante1128/MinerTracer",
@@ -848,6 +1360,16 @@
    "date": "2026-10-09T18:27:31Z",
    "msg": "feat: script para poblar la demo con datos reales en testnet",
    "pts": 9.84,
+   "nota": ""
+  },
+  {
+   "sha": "6674f38",
+   "team": "Puls3",
+   "repo": "Zer0-Knowledge-Hack/puls3",
+   "author": "Pericena",
+   "date": "2026-10-09T18:18:33Z",
+   "msg": "fix(flutter): hire flow never claims more than the chain confirmed",
+   "pts": 8.18,
    "nota": ""
   },
   {
@@ -889,6 +1411,16 @@
    "msg": "feat: Dockerfile para servir el sitio y el tablero en un contenedor",
    "pts": 7.23,
    "nota": ""
+  },
+  {
+   "sha": "1effc4a",
+   "team": "Puls3",
+   "repo": "Zer0-Knowledge-Hack/puls3",
+   "author": "moises-cisneros",
+   "date": "2026-10-09T18:05:05Z",
+   "msg": "Merge branch 'main' into feat/91-hire-escrow-relay",
+   "pts": 0.0,
+   "nota": "merge"
   },
   {
    "sha": "48abedb",
@@ -1121,6 +1653,16 @@
    "nota": "merge"
   },
   {
+   "sha": "945db5b",
+   "team": "Puls3",
+   "repo": "Zer0-Knowledge-Hack/puls3",
+   "author": "Pericena",
+   "date": "2026-10-09T13:39:23Z",
+   "msg": "fix(flutter): hire sheet above the phone navigation bar, no overflow at 390 px",
+   "pts": 6.29,
+   "nota": ""
+  },
+  {
    "sha": "d50e67a",
    "team": "Impulso Stellar",
    "repo": "orlando-vazquez-career/stellar-impulse",
@@ -1129,6 +1671,16 @@
    "msg": "Merge pull request #49 from orlando-vazquez-career/feat/blockchain-marketplace",
    "pts": 0.0,
    "nota": "merge"
+  },
+  {
+   "sha": "8845198",
+   "team": "Puls3",
+   "repo": "Zer0-Knowledge-Hack/puls3",
+   "author": "Pericena",
+   "date": "2026-10-09T13:18:48Z",
+   "msg": "feat(flutter): hire flow wired to the escrow relay",
+   "pts": 10,
+   "nota": ""
   },
   {
    "sha": "e076483",
@@ -7169,6 +7721,16 @@
    "msg": "wip(v3): preserve E0-E4 candidate and handoff",
    "pts": 1.0,
    "nota": "import masivo (277 archivos)"
+  },
+  {
+   "sha": "b4f8dff",
+   "team": "Stellar Flash",
+   "repo": "nadevrix/stellar-flash",
+   "author": "nadevrix",
+   "date": "2026-09-10T03:20:21Z",
+   "msg": "Dejar claro que hay que escribir el monto: el 1.0 gris era el placeholder.",
+   "pts": 6.36,
+   "nota": ""
   },
   {
    "sha": "345ff28",
