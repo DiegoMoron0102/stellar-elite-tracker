@@ -1,5 +1,5 @@
 {
- "generado": "2026-10-11T17:02:10+00:00",
+ "generado": "2026-10-11T21:14:57+00:00",
  "programa": "Stellar Elite",
  "start_date": "2026-09-02T00:00:00Z",
  "teams": [
@@ -43,10 +43,10 @@
   },
   {
    "name": "Puls3",
-   "total": 802.36,
-   "per_capita": 802.36,
-   "commits": 117,
-   "pts_commits": 699.36,
+   "total": 820.74,
+   "per_capita": 820.74,
+   "commits": 119,
+   "pts_commits": 717.74,
    "dias_activos": 17,
    "contribuidores": [
     "Pericena",
@@ -314,7 +314,7 @@
    "2026-10-08": 78.63,
    "2026-10-09": 127.77,
    "2026-10-10": 36.45,
-   "2026-10-11": 57.07000000000001
+   "2026-10-11": 75.45
   },
   "Tinkazo": {
    "2026-09-16": 66.21000000000001,
@@ -447,7 +447,7 @@
    "2026-10-08": 10,
    "2026-10-09": 21,
    "2026-10-10": 5,
-   "2026-10-11": 7
+   "2026-10-11": 9
   },
   "Tinkazo": {
    "2026-09-16": 8,
@@ -555,6 +555,26 @@
   }
  },
  "commits": [
+  {
+   "sha": "5a2b9f8",
+   "team": "Puls3",
+   "repo": "Zer0-Knowledge-Hack/puls3",
+   "author": "Pericena",
+   "date": "2026-10-11T17:07:16Z",
+   "msg": "docs(blueprints): refresh S04/S07/S08 wireframes, complete the inventory and add a blueprint check (#167)",
+   "pts": 8.38,
+   "nota": ""
+  },
+  {
+   "sha": "e242230",
+   "team": "Puls3",
+   "repo": "Zer0-Knowledge-Hack/puls3",
+   "author": "fercodes",
+   "date": "2026-10-11T17:02:24Z",
+   "msg": "fix(contracts): expose the Stellar 8004 Ownable interface on the Identity Registry (#153) (#166)",
+   "pts": 10,
+   "nota": ""
+  },
   {
    "sha": "49d1cc2",
    "team": "Puls3",

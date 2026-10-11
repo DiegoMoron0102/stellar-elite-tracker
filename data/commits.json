@@ -109980,5 +109980,120 @@
     "d": 3
    }
   ]
+ },
+ "5a2b9f8df3eccbf3a68c03981f2f6082165acc26": {
+  "team": "Puls3",
+  "repo": "Zer0-Knowledge-Hack/puls3",
+  "author": "Pericena",
+  "date": "2026-10-11T17:07:16Z",
+  "message": "docs(blueprints): refresh S04/S07/S08 wireframes, complete the inventory and add a blueprint check (#167)",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/blueprints/screens.md",
+    "a": 8,
+    "d": 6
+   },
+   {
+    "f": "docs/blueprints/wireframes/S04-hire-sheet-1440.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/blueprints/wireframes/S04-hire-sheet-390.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/blueprints/wireframes/S07-studio-1440.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/blueprints/wireframes/S07-studio-390.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/blueprints/wireframes/S08-deploy-sheet-1440.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/blueprints/wireframes/S08-deploy-sheet-390.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/tool/wireframes/wireframes_test.dart",
+    "a": 42,
+    "d": 1
+   },
+   {
+    "f": "scripts/tests/blueprints.test.sh",
+    "a": 109,
+    "d": 0
+   }
+  ]
+ },
+ "e242230df8ada47ab6b03ea6bd652aef256c2497": {
+  "team": "Puls3",
+  "repo": "Zer0-Knowledge-Hack/puls3",
+  "author": "fercodes",
+  "date": "2026-10-11T17:02:24Z",
+  "message": "fix(contracts): expose the Stellar 8004 Ownable interface on the Identity Registry (#153) (#166)",
+  "parents": 1,
+  "files": [
+   {
+    "f": "contracts/contracts/identity-registry/src/lib.rs",
+    "a": 123,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/identity-registry/src/test.rs",
+    "a": 124,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/identity-registry/test_snapshots/test/g9_accept_after_live_until_is_rejected.1.json",
+    "a": 181,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/identity-registry/test_snapshots/test/g9_get_owner_returns_the_constructor_admin.1.json",
+    "a": 110,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/identity-registry/test_snapshots/test/g9_renounce_clears_the_owner.1.json",
+    "a": 133,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/identity-registry/test_snapshots/test/g9_renounce_with_a_pending_transfer_is_rejected.1.json",
+    "a": 181,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/identity-registry/test_snapshots/test/g9_transfer_is_two_step_and_only_changes_on_accept.1.json",
+    "a": 188,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/identity-registry/test_snapshots/test/g9_transfer_requires_the_current_owner.1.json",
+    "a": 148,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/identity-registry/test_snapshots/test/g9_transfer_to_the_current_owner_is_rejected.1.json",
+    "a": 110,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/identity-registry/test_snapshots/test/g9_transfer_with_zero_cancels_a_pending_transfer.1.json",
+    "a": 194,
+    "d": 0
+   }
+  ]
  }
 }
