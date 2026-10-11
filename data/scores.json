@@ -1,5 +1,5 @@
 {
- "generado": "2026-10-11T11:49:26+00:00",
+ "generado": "2026-10-11T17:02:10+00:00",
  "programa": "Stellar Elite",
  "start_date": "2026-09-02T00:00:00Z",
  "teams": [
@@ -43,10 +43,10 @@
   },
   {
    "name": "Puls3",
-   "total": 796.55,
-   "per_capita": 796.55,
-   "commits": 116,
-   "pts_commits": 693.55,
+   "total": 802.36,
+   "per_capita": 802.36,
+   "commits": 117,
+   "pts_commits": 699.36,
    "dias_activos": 17,
    "contribuidores": [
     "Pericena",
@@ -314,7 +314,7 @@
    "2026-10-08": 78.63,
    "2026-10-09": 127.77,
    "2026-10-10": 36.45,
-   "2026-10-11": 51.260000000000005
+   "2026-10-11": 57.07000000000001
   },
   "Tinkazo": {
    "2026-09-16": 66.21000000000001,
@@ -447,7 +447,7 @@
    "2026-10-08": 10,
    "2026-10-09": 21,
    "2026-10-10": 5,
-   "2026-10-11": 6
+   "2026-10-11": 7
   },
   "Tinkazo": {
    "2026-09-16": 8,
@@ -555,6 +555,16 @@
   }
  },
  "commits": [
+  {
+   "sha": "49d1cc2",
+   "team": "Puls3",
+   "repo": "Zer0-Knowledge-Hack/puls3",
+   "author": "XxHugheadxX",
+   "date": "2026-10-11T16:55:09Z",
+   "msg": "docs(spikes): record the #69 pre-prompt guarantees of the production Freighter adapter (#162)",
+   "pts": 5.81,
+   "nota": ""
+  },
   {
    "sha": "71d887b",
    "team": "Puls3",
