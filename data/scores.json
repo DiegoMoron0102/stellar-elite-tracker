@@ -1,5 +1,5 @@
 {
- "generado": "2026-10-10T20:53:39+00:00",
+ "generado": "2026-10-11T02:58:03+00:00",
  "programa": "Stellar Elite",
  "start_date": "2026-09-02T00:00:00Z",
  "teams": [
@@ -43,11 +43,11 @@
   },
   {
    "name": "Puls3",
-   "total": 740.29,
-   "per_capita": 740.29,
-   "commits": 110,
-   "pts_commits": 642.29,
-   "dias_activos": 16,
+   "total": 796.55,
+   "per_capita": 796.55,
+   "commits": 116,
+   "pts_commits": 693.55,
+   "dias_activos": 17,
    "contribuidores": [
     "Pericena",
     "TOMOKI977",
@@ -313,7 +313,8 @@
    "2026-10-07": 40.57,
    "2026-10-08": 78.63,
    "2026-10-09": 127.77,
-   "2026-10-10": 36.45
+   "2026-10-10": 36.45,
+   "2026-10-11": 51.260000000000005
   },
   "Tinkazo": {
    "2026-09-16": 66.21000000000001,
@@ -445,7 +446,8 @@
    "2026-10-07": 5,
    "2026-10-08": 10,
    "2026-10-09": 21,
-   "2026-10-10": 5
+   "2026-10-10": 5,
+   "2026-10-11": 6
   },
   "Tinkazo": {
    "2026-09-16": 8,
@@ -553,6 +555,66 @@
   }
  },
  "commits": [
+  {
+   "sha": "71d887b",
+   "team": "Puls3",
+   "repo": "Zer0-Knowledge-Hack/puls3",
+   "author": "fercodes",
+   "date": "2026-10-11T01:31:18Z",
+   "msg": "docs(adr): review Identity Registry for Stellar 8004 drop-in gaps (#74) (#154)",
+   "pts": 8.85,
+   "nota": ""
+  },
+  {
+   "sha": "eca081b",
+   "team": "Puls3",
+   "repo": "Zer0-Knowledge-Hack/puls3",
+   "author": "fercodes",
+   "date": "2026-10-11T01:29:57Z",
+   "msg": "feat(domain): reputation calculation rules (#11) (#151)",
+   "pts": 9.19,
+   "nota": ""
+  },
+  {
+   "sha": "ef151ec",
+   "team": "Puls3",
+   "repo": "Zer0-Knowledge-Hack/puls3",
+   "author": "XxHugheadxX",
+   "date": "2026-10-11T01:24:40Z",
+   "msg": "docs(blueprints): Agent Studio flows F8-F11 (draft, test run, new version, my agents) and S11/S12 specs and wireframes (",
+   "pts": 8.49,
+   "nota": ""
+  },
+  {
+   "sha": "a665319",
+   "team": "Puls3",
+   "repo": "Zer0-Knowledge-Hack/puls3",
+   "author": "XxHugheadxX",
+   "date": "2026-10-11T01:19:32Z",
+   "msg": "docs(server): redeploy steps for hires on testnet: wallet sign-in settings, tracker on, runtime and hire values (#31) (#",
+   "pts": 7.73,
+   "nota": ""
+  },
+  {
+   "sha": "7fdce4f",
+   "team": "Puls3",
+   "repo": "Zer0-Knowledge-Hack/puls3",
+   "author": "XxHugheadxX",
+   "date": "2026-10-11T01:13:55Z",
+   "msg": "feat(flutter): check the wallet's testnet USDC before any signature in the hire flow (#28, F5-2) (#159)",
+   "pts": 9.36,
+   "nota": ""
+  },
+  {
+   "sha": "328e5d4",
+   "team": "Puls3",
+   "repo": "Zer0-Knowledge-Hack/puls3",
+   "author": "XxHugheadxX",
+   "date": "2026-10-11T01:08:18Z",
+   "msg": "fix(flutter): tell a wallet connector that failed to load apart from a missing Freighter (#148)",
+   "pts": 7.64,
+   "nota": ""
+  },
   {
    "sha": "a930f9e",
    "team": "Veridia",

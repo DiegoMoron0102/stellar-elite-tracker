@@ -109720,5 +109720,250 @@
     "d": 0
    }
   ]
+ },
+ "71d887b731db96fff413d1f7419ec0fc2a8df204": {
+  "team": "Puls3",
+  "repo": "Zer0-Knowledge-Hack/puls3",
+  "author": "fercodes",
+  "date": "2026-10-11T01:31:18Z",
+  "message": "docs(adr): review Identity Registry for Stellar 8004 drop-in gaps (#74) (#154)",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/adr/0002-agent-registry-on-soroban.md",
+    "a": 2,
+    "d": 0
+   },
+   {
+    "f": "docs/adr/0002-identity-registry-stellar-8004-drop-in-review.md",
+    "a": 227,
+    "d": 0
+   }
+  ]
+ },
+ "eca081bebd54d1c597e8f4f4497c45a1be247403": {
+  "team": "Puls3",
+  "repo": "Zer0-Knowledge-Hack/puls3",
+  "author": "fercodes",
+  "date": "2026-10-11T01:29:57Z",
+  "message": "feat(domain): reputation calculation rules (#11) (#151)",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/domain/reputation.md",
+    "a": 96,
+    "d": 0
+   },
+   {
+    "f": "puls3_domain/lib/puls3_domain.dart",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "puls3_domain/lib/src/errors.dart",
+    "a": 8,
+    "d": 0
+   },
+   {
+    "f": "puls3_domain/lib/src/reputation.dart",
+    "a": 43,
+    "d": 0
+   },
+   {
+    "f": "puls3_domain/test/reputation_test.dart",
+    "a": 143,
+    "d": 0
+   }
+  ]
+ },
+ "ef151ec80800d94d47de180940d1dabc3c1fd601": {
+  "team": "Puls3",
+  "repo": "Zer0-Knowledge-Hack/puls3",
+  "author": "XxHugheadxX",
+  "date": "2026-10-11T01:24:40Z",
+  "message": "docs(blueprints): Agent Studio flows F8-F11 (draft, test run, new version, my agents) and S11/S12 specs and wireframes (",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/blueprints/flows.md",
+    "a": 114,
+    "d": 7
+   },
+   {
+    "f": "docs/blueprints/screens.md",
+    "a": 49,
+    "d": 9
+   },
+   {
+    "f": "docs/blueprints/wireframes/S11-playground-1440.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/blueprints/wireframes/S11-playground-390.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/blueprints/wireframes/S12-my-agents-1440.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/blueprints/wireframes/S12-my-agents-390.png",
+    "a": 0,
+    "d": 0
+   }
+  ]
+ },
+ "a665319e90076b767ca3daa8faba3efb2185a9b3": {
+  "team": "Puls3",
+  "repo": "Zer0-Knowledge-Hack/puls3",
+  "author": "XxHugheadxX",
+  "date": "2026-10-11T01:19:32Z",
+  "message": "docs(server): redeploy steps for hires on testnet: wallet sign-in settings, tracker on, runtime and hire values (#31) (#",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/infra/secrets.md",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/README.md",
+    "a": 82,
+    "d": 17
+   },
+   {
+    "f": "scripts/tests/env-inventory.test.sh",
+    "a": 3,
+    "d": 2
+   }
+  ]
+ },
+ "7fdce4f91dae87a362a643f42dc44ac38888b4e7": {
+  "team": "Puls3",
+  "repo": "Zer0-Knowledge-Hack/puls3",
+  "author": "XxHugheadxX",
+  "date": "2026-10-11T01:13:55Z",
+  "message": "feat(flutter): check the wallet's testnet USDC before any signature in the hire flow (#28, F5-2) (#159)",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/architecture/api.md",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "docs/blueprints/flows.md",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "puls3_flutter/lib/main.dart",
+    "a": 2,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/lib/src/hire/fake_hire_gateway.dart",
+    "a": 4,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/lib/src/hire/hire_flow_controller.dart",
+    "a": 7,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/lib/src/hire/hire_gateway.dart",
+    "a": 13,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/lib/src/hire/server_hire_gateway.dart",
+    "a": 23,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/lib/src/hire/wallet_funds.dart",
+    "a": 88,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/test/hire/server_hire_gateway_test.dart",
+    "a": 42,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/test/hire/wallet_funds_test.dart",
+    "a": 72,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/test/screens/hire_detail_screen_test.dart",
+    "a": 3,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/test/screens/hire_sheet_test.dart",
+    "a": 66,
+    "d": 4
+   }
+  ]
+ },
+ "328e5d46bcee2e78a2022adcfe179f74d6449716": {
+  "team": "Puls3",
+  "repo": "Zer0-Knowledge-Hack/puls3",
+  "author": "XxHugheadxX",
+  "date": "2026-10-11T01:08:18Z",
+  "message": "fix(flutter): tell a wallet connector that failed to load apart from a missing Freighter (#148)",
+  "parents": 1,
+  "files": [
+   {
+    "f": "puls3_flutter/lib/src/deploy/deploy_flow_controller.dart",
+    "a": 3,
+    "d": 1
+   },
+   {
+    "f": "puls3_flutter/lib/src/hire/hire_flow_controller.dart",
+    "a": 3,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/lib/src/ui/organisms/wallet_panel.dart",
+    "a": 7,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/lib/src/wallet/freighter/freighter_bridge.dart",
+    "a": 10,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/lib/src/wallet/freighter/freighter_bridge_web.dart",
+    "a": 12,
+    "d": 2
+   },
+   {
+    "f": "puls3_flutter/lib/src/wallet/wallet_port.dart",
+    "a": 8,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/test/wallet/bridge_missing_error_test.dart",
+    "a": 27,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/test/wallet/wallet_connection_test.dart",
+    "a": 20,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/web/index.html",
+    "a": 4,
+    "d": 2
+   }
+  ]
  }
 }
