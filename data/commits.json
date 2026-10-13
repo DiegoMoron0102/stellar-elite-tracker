@@ -110095,5 +110095,835 @@
     "d": 0
    }
   ]
+ },
+ "52e4a1b76e188a03edd13d14f18feb21fc4157b1": {
+  "team": "Puls3",
+  "repo": "Zer0-Knowledge-Hack/puls3",
+  "author": "Pericena",
+  "date": "2026-10-13T22:04:13Z",
+  "message": "feat(flutter): compact phone Marketplace with a filters sheet, active filter chips, sort order and Create agent (#169)",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/blueprints/wireframes/S02-marketplace-1440.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/blueprints/wireframes/S02-marketplace-390.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/blueprints/wireframes/S02-marketplace-empty-1440.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/blueprints/wireframes/S02-marketplace-empty-390.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/blueprints/wireframes/S02-marketplace-error-1440.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/blueprints/wireframes/S02-marketplace-error-390.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/blueprints/wireframes/S02-marketplace-loading-1440.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/blueprints/wireframes/S02-marketplace-loading-390.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/lib/src/domain/agent_filter.dart",
+    "a": 36,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/lib/src/screens/market_screen.dart",
+    "a": 270,
+    "d": 73
+   },
+   {
+    "f": "puls3_flutter/lib/src/ui/molecules/agent_card.dart",
+    "a": 10,
+    "d": 2
+   },
+   {
+    "f": "puls3_flutter/lib/src/ui/organisms/market_filters.dart",
+    "a": 140,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/test/screens/market_mobile_test.dart",
+    "a": 152,
+    "d": 0
+   }
+  ]
+ },
+ "4b789042652a6774552142615b06812bebaa46a0": {
+  "team": "Puls3",
+  "repo": "Zer0-Knowledge-Hack/puls3",
+  "author": "XxHugheadxX",
+  "date": "2026-10-13T22:00:12Z",
+  "message": "docs(blueprints): loading, empty and error wireframes for the Studio screens S07, S08, S11, S12 (#163)",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/blueprints/screens.md",
+    "a": 24,
+    "d": 24
+   },
+   {
+    "f": "docs/blueprints/wireframes/S07-studio-empty-1440.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/blueprints/wireframes/S07-studio-empty-390.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/blueprints/wireframes/S07-studio-error-1440.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/blueprints/wireframes/S07-studio-error-390.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/blueprints/wireframes/S07-studio-loading-1440.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/blueprints/wireframes/S07-studio-loading-390.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/blueprints/wireframes/S08-deploy-sheet-error-1440.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/blueprints/wireframes/S08-deploy-sheet-error-390.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/blueprints/wireframes/S08-deploy-sheet-success-1440.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/blueprints/wireframes/S08-deploy-sheet-success-390.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/blueprints/wireframes/S11-playground-empty-1440.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/blueprints/wireframes/S11-playground-empty-390.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/blueprints/wireframes/S11-playground-error-1440.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/blueprints/wireframes/S11-playground-error-390.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/blueprints/wireframes/S11-playground-loading-1440.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/blueprints/wireframes/S11-playground-loading-390.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/blueprints/wireframes/S12-my-agents-empty-1440.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/blueprints/wireframes/S12-my-agents-empty-390.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/blueprints/wireframes/S12-my-agents-error-1440.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/blueprints/wireframes/S12-my-agents-error-390.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/blueprints/wireframes/S12-my-agents-loading-1440.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/blueprints/wireframes/S12-my-agents-loading-390.png",
+    "a": 0,
+    "d": 0
+   }
+  ]
+ },
+ "484865f667a91f6d3a64c34833bfa3fdd57ff905": {
+  "team": "Puls3",
+  "repo": "Zer0-Knowledge-Hack/puls3",
+  "author": "fercodes",
+  "date": "2026-10-13T21:54:45Z",
+  "message": "feat(contracts): reputation registry drop-in (#14) (#165)",
+  "parents": 1,
+  "files": [
+   {
+    "f": "contracts/Cargo.lock",
+    "a": 8,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/reputation-registry/Cargo.toml",
+    "a": 16,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/reputation-registry/src/lib.rs",
+    "a": 756,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/reputation-registry/src/test.rs",
+    "a": 351,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/reputation-registry/test_snapshots/test/append_response_is_open_but_needs_feedback_and_a_uri.1.json",
+    "a": 697,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/reputation-registry/test_snapshots/test/feedback_for_unregistered_agent_is_rejected_cross_contract.1.json",
+    "a": 354,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/reputation-registry/test_snapshots/test/give_feedback_stores_and_emits_one_event.1.json",
+    "a": 610,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/reputation-registry/test_snapshots/test/only_the_submitter_can_revoke_their_feedback.1.json",
+    "a": 608,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/reputation-registry/test_snapshots/test/owner_cannot_rate_own_agent.1.json",
+    "a": 354,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/reputation-registry/test_snapshots/test/revoke_is_single_use_and_persists_the_flag.1.json",
+    "a": 654,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/reputation-registry/test_snapshots/test/submitter_auth_is_required_without_mock_all_auths.1.json",
+    "a": 684,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/reputation-registry/test_snapshots/test/summary_averages_excludes_revoked_and_requires_clients.1.json",
+    "a": 882,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/reputation-registry/test_snapshots/test/value_decimals_and_range_are_checked.1.json",
+    "a": 355,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/reputation-registry/test_snapshots/test/version_and_identity_registry_are_set.1.json",
+    "a": 355,
+    "d": 0
+   }
+  ]
+ },
+ "c37ab24d9c4b80579cdc27d117cb46c63f5c2327": {
+  "team": "Puls3",
+  "repo": "Zer0-Knowledge-Hack/puls3",
+  "author": "TOMOKI977",
+  "date": "2026-10-13T15:38:35Z",
+  "message": "feat(brand): publish brand guidelines and downloadable assets (#171)",
+  "parents": 1,
+  "files": [
+   {
+    "f": "assets/brand/mark/puls3-mark-c01-mono-ink.svg",
+    "a": 2,
+    "d": 0
+   },
+   {
+    "f": "assets/brand/mark/puls3-mark-c01-mono-white.svg",
+    "a": 2,
+    "d": 0
+   },
+   {
+    "f": "design/logo-lab/package.json",
+    "a": 2,
+    "d": 1
+   },
+   {
+    "f": "design/logo-lab/scripts/build-brand-kit.mjs",
+    "a": 219,
+    "d": 0
+   },
+   {
+    "f": "design/logo-lab/scripts/export-brand.tsx",
+    "a": 11,
+    "d": 0
+   },
+   {
+    "f": "odd/tasks/brand-guidelines-page.md",
+    "a": 66,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/lib/src/app.dart",
+    "a": 24,
+    "d": 1
+   },
+   {
+    "f": "puls3_flutter/lib/src/brand/brand_geometry.dart",
+    "a": 52,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/lib/src/brand/brand_kit.dart",
+    "a": 263,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/lib/src/brand/brand_policy.dart",
+    "a": 71,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/lib/src/screens/brand_screen.dart",
+    "a": 207,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/lib/src/ui/atoms/brand_logo_samples.dart",
+    "a": 94,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/lib/src/ui/atoms/copy_to_clipboard.dart",
+    "a": 18,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/lib/src/ui/atoms/dashed_line.dart",
+    "a": 66,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/lib/src/ui/atoms/outlined_numeral.dart",
+    "a": 30,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/lib/src/ui/atoms/ruler.dart",
+    "a": 71,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/lib/src/ui/molecules/brand_asset_card.dart",
+    "a": 179,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/lib/src/ui/molecules/brand_section.dart",
+    "a": 85,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/lib/src/ui/molecules/color_swatch_card.dart",
+    "a": 57,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/lib/src/ui/molecules/primary_swatch_card.dart",
+    "a": 82,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/lib/src/ui/molecules/rule_example_card.dart",
+    "a": 111,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/lib/src/ui/organisms/brand_colors_section.dart",
+    "a": 85,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/lib/src/ui/organisms/brand_guidelines_section.dart",
+    "a": 351,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/lib/src/ui/organisms/brand_hero.dart",
+    "a": 85,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/lib/src/ui/organisms/brand_logos_section.dart",
+    "a": 63,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/lib/src/ui/organisms/brand_policy_section.dart",
+    "a": 125,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/lib/src/ui/organisms/brand_usage_section.dart",
+    "a": 263,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/lib/src/ui/organisms/site_footer.dart",
+    "a": 20,
+    "d": 2
+   },
+   {
+    "f": "puls3_flutter/pubspec.yaml",
+    "a": 3,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/test/app_health_test.dart",
+    "a": 31,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/test/brand/brand_kit_test.dart",
+    "a": 150,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/test/brand/brand_policy_test.dart",
+    "a": 24,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/test/screens/brand_screen_test.dart",
+    "a": 331,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/test/ui/site_footer_test.dart",
+    "a": 31,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/web/brand/favicon/favicon-16.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/web/brand/favicon/favicon-180.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/web/brand/favicon/favicon-32.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/web/brand/favicon/favicon-512.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/web/brand/favicon/favicon-light.svg",
+    "a": 2,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/web/brand/favicon/favicon.svg",
+    "a": 2,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/web/brand/fonts/Doto[ROND,wght].ttf",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/web/brand/fonts/OFL.txt",
+    "a": 93,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/web/brand/manifest.json",
+    "a": 313,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/web/brand/png/logo/puls3-logo-dark-1024.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/web/brand/png/logo/puls3-logo-dark-2048.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/web/brand/png/logo/puls3-logo-dark-small-256.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/web/brand/png/logo/puls3-logo-dark-small-512.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/web/brand/png/logo/puls3-logo-light-1024.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/web/brand/png/logo/puls3-logo-light-2048.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/web/brand/png/logo/puls3-logo-light-small-256.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/web/brand/png/logo/puls3-logo-light-small-512.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/web/brand/png/logo/puls3-logo-mono-ink-1024.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/web/brand/png/logo/puls3-logo-mono-ink-2048.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/web/brand/png/logo/puls3-logo-mono-ink-small-256.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/web/brand/png/logo/puls3-logo-mono-ink-small-512.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/web/brand/png/logo/puls3-logo-mono-white-1024.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/web/brand/png/logo/puls3-logo-mono-white-2048.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/web/brand/png/logo/puls3-logo-mono-white-small-256.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/web/brand/png/logo/puls3-logo-mono-white-small-512.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/web/brand/png/mark/puls3-mark-c01-dark-1024.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/web/brand/png/mark/puls3-mark-c01-dark-512.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/web/brand/png/mark/puls3-mark-c01-light-1024.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/web/brand/png/mark/puls3-mark-c01-light-512.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/web/brand/png/mark/puls3-mark-c01-mono-ink-1024.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/web/brand/png/mark/puls3-mark-c01-mono-ink-512.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/web/brand/png/mark/puls3-mark-c01-mono-white-1024.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/web/brand/png/mark/puls3-mark-c01-mono-white-512.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/web/brand/png/mark/puls3-mark-c01-small-16-dark-16.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/web/brand/png/mark/puls3-mark-c01-small-16-dark-32.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/web/brand/png/mark/puls3-mark-c01-small-16-light-16.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/web/brand/png/mark/puls3-mark-c01-small-16-light-32.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/web/brand/png/mark/puls3-mark-c01-small-24-dark-24.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/web/brand/png/mark/puls3-mark-c01-small-24-dark-48.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/web/brand/png/mark/puls3-mark-c01-small-24-light-24.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/web/brand/png/mark/puls3-mark-c01-small-24-light-48.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/web/brand/png/mark/puls3-mark-c01-small-32-dark-32.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/web/brand/png/mark/puls3-mark-c01-small-32-dark-64.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/web/brand/png/mark/puls3-mark-c01-small-32-light-32.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/web/brand/png/mark/puls3-mark-c01-small-32-light-64.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/web/brand/puls3-brand-guide.pdf",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/web/brand/puls3-brand-kit.zip",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/web/brand/social/puls3-avatar-800.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/web/brand/social/puls3-og-banner-1200x630.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/web/brand/svg/logo/puls3-logo-dark-small.svg",
+    "a": 2,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/web/brand/svg/logo/puls3-logo-dark.svg",
+    "a": 2,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/web/brand/svg/logo/puls3-logo-light-small.svg",
+    "a": 2,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/web/brand/svg/logo/puls3-logo-light.svg",
+    "a": 2,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/web/brand/svg/logo/puls3-logo-mono-ink-small.svg",
+    "a": 2,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/web/brand/svg/logo/puls3-logo-mono-ink.svg",
+    "a": 2,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/web/brand/svg/logo/puls3-logo-mono-white-small.svg",
+    "a": 2,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/web/brand/svg/logo/puls3-logo-mono-white.svg",
+    "a": 2,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/web/brand/svg/mark/puls3-mark-c01-dark.svg",
+    "a": 2,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/web/brand/svg/mark/puls3-mark-c01-light.svg",
+    "a": 2,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/web/brand/svg/mark/puls3-mark-c01-mono-ink.svg",
+    "a": 2,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/web/brand/svg/mark/puls3-mark-c01-mono-white.svg",
+    "a": 2,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/web/brand/svg/mark/puls3-mark-c01-small-16-dark.svg",
+    "a": 2,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/web/brand/svg/mark/puls3-mark-c01-small-16-light.svg",
+    "a": 2,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/web/brand/svg/mark/puls3-mark-c01-small-24-dark.svg",
+    "a": 2,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/web/brand/svg/mark/puls3-mark-c01-small-24-light.svg",
+    "a": 2,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/web/brand/svg/mark/puls3-mark-c01-small-32-dark.svg",
+    "a": 2,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/web/brand/svg/mark/puls3-mark-c01-small-32-light.svg",
+    "a": 2,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/web/brand/tokens.json",
+    "a": 374,
+    "d": 0
+   }
+  ]
+ },
+ "f59551d90dd826af578b976ad65082b5b5403aad": {
+  "team": "TilcAI",
+  "repo": "TilcAI/tilcai-web",
+  "author": "SaulChoque",
+  "date": "2026-10-13T16:41:32Z",
+  "message": "feat(monitor): recognise Monad Testnet in the dashboard",
+  "parents": 1,
+  "files": [
+   {
+    "f": "AGENT_HISTORY.md",
+    "a": 13,
+    "d": 0
+   },
+   {
+    "f": "src/lib/monitor/interpret.ts",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "src/lib/monitor/vaults.ts",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "test/monitor.test.ts",
+    "a": 1,
+    "d": 1
+   }
+  ]
  }
 }

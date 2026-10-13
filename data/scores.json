@@ -1,5 +1,5 @@
 {
- "generado": "2026-10-13T13:12:02+00:00",
+ "generado": "2026-10-13T22:06:09+00:00",
  "programa": "Stellar Elite",
  "start_date": "2026-09-02T00:00:00Z",
  "teams": [
@@ -43,11 +43,11 @@
   },
   {
    "name": "Puls3",
-   "total": 820.74,
-   "per_capita": 820.74,
-   "commits": 119,
-   "pts_commits": 717.74,
-   "dias_activos": 17,
+   "total": 862.35,
+   "per_capita": 862.35,
+   "commits": 123,
+   "pts_commits": 754.35,
+   "dias_activos": 18,
    "contribuidores": [
     "Pericena",
     "TOMOKI977",
@@ -64,11 +64,11 @@
   },
   {
    "name": "TilcAI",
-   "total": 723.38,
-   "per_capita": 241.13,
-   "commits": 106,
-   "pts_commits": 671.38,
-   "dias_activos": 8,
+   "total": 733.77,
+   "per_capita": 244.59,
+   "commits": 107,
+   "pts_commits": 676.77,
+   "dias_activos": 9,
    "contribuidores": [
     "JHAMILCALI",
     "OmarQV",
@@ -314,7 +314,8 @@
    "2026-10-08": 78.63,
    "2026-10-09": 127.77,
    "2026-10-10": 36.45,
-   "2026-10-11": 75.45
+   "2026-10-11": 75.45,
+   "2026-10-13": 36.61
   },
   "Tinkazo": {
    "2026-09-16": 66.21000000000001,
@@ -405,7 +406,8 @@
    "2026-10-03": 34.81,
    "2026-10-05": 7.19,
    "2026-10-09": 147.72000000000003,
-   "2026-10-10": 146.55
+   "2026-10-10": 146.55,
+   "2026-10-13": 5.39
   },
   "GatoPago": {
    "2026-09-10": 1.0,
@@ -447,7 +449,8 @@
    "2026-10-08": 10,
    "2026-10-09": 21,
    "2026-10-10": 5,
-   "2026-10-11": 9
+   "2026-10-11": 9,
+   "2026-10-13": 4
   },
   "Tinkazo": {
    "2026-09-16": 8,
@@ -538,7 +541,8 @@
    "2026-10-03": 6,
    "2026-10-05": 1,
    "2026-10-09": 23,
-   "2026-10-10": 21
+   "2026-10-10": 21,
+   "2026-10-13": 1
   },
   "GatoPago": {
    "2026-09-10": 1,
@@ -555,6 +559,56 @@
   }
  },
  "commits": [
+  {
+   "sha": "52e4a1b",
+   "team": "Puls3",
+   "repo": "Zer0-Knowledge-Hack/puls3",
+   "author": "Pericena",
+   "date": "2026-10-13T22:04:13Z",
+   "msg": "feat(flutter): compact phone Marketplace with a filters sheet, active filter chips, sort order and Create agent (#169)",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "4b78904",
+   "team": "Puls3",
+   "repo": "Zer0-Knowledge-Hack/puls3",
+   "author": "XxHugheadxX",
+   "date": "2026-10-13T22:00:12Z",
+   "msg": "docs(blueprints): loading, empty and error wireframes for the Studio screens S07, S08, S11, S12 (#163)",
+   "pts": 6.61,
+   "nota": ""
+  },
+  {
+   "sha": "484865f",
+   "team": "Puls3",
+   "repo": "Zer0-Knowledge-Hack/puls3",
+   "author": "fercodes",
+   "date": "2026-10-13T21:54:45Z",
+   "msg": "feat(contracts): reputation registry drop-in (#14) (#165)",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "f59551d",
+   "team": "TilcAI",
+   "repo": "TilcAI/tilcai-web",
+   "author": "SaulChoque",
+   "date": "2026-10-13T16:41:32Z",
+   "msg": "feat(monitor): recognise Monad Testnet in the dashboard",
+   "pts": 5.39,
+   "nota": ""
+  },
+  {
+   "sha": "c37ab24",
+   "team": "Puls3",
+   "repo": "Zer0-Knowledge-Hack/puls3",
+   "author": "TOMOKI977",
+   "date": "2026-10-13T15:38:35Z",
+   "msg": "feat(brand): publish brand guidelines and downloadable assets (#171)",
+   "pts": 10,
+   "nota": ""
+  },
   {
    "sha": "5a2b9f8",
    "team": "Puls3",
