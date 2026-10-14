@@ -110925,5 +110925,140 @@
     "d": 1
    }
   ]
+ },
+ "8e6f98af5849871d20140260baa591bf169d6e5e": {
+  "team": "Puls3",
+  "repo": "Zer0-Knowledge-Hack/puls3",
+  "author": "Pericena",
+  "date": "2026-10-13T22:13:12Z",
+  "message": "feat(flutter): Studio playground, saved drafts and My agents behind a Studio gateway (#37) (#168)",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/blueprints/screens.md",
+    "a": 5,
+    "d": 5
+   },
+   {
+    "f": "docs/blueprints/wireframes/S07-studio-1440.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/blueprints/wireframes/S08-deploy-sheet-1440.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/blueprints/wireframes/S08-deploy-sheet-390.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/lib/src/app.dart",
+    "a": 24,
+    "d": 1
+   },
+   {
+    "f": "puls3_flutter/lib/src/screens/deploy_sheet.dart",
+    "a": 14,
+    "d": 4
+   },
+   {
+    "f": "puls3_flutter/lib/src/screens/my_agents_screen.dart",
+    "a": 158,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/lib/src/screens/playground.dart",
+    "a": 173,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/lib/src/screens/studio_deploy.dart",
+    "a": 51,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/lib/src/screens/studio_screen.dart",
+    "a": 421,
+    "d": 20
+   },
+   {
+    "f": "puls3_flutter/lib/src/screens/wallet_sheet.dart",
+    "a": 3,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/lib/src/state/app_scope.dart",
+    "a": 6,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/lib/src/studio/fake_studio_gateway.dart",
+    "a": 157,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/lib/src/studio/studio_form_check.dart",
+    "a": 37,
+    "d": 2
+   },
+   {
+    "f": "puls3_flutter/lib/src/studio/studio_gateway.dart",
+    "a": 171,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/lib/src/ui/organisms/my_agents_list.dart",
+    "a": 250,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/lib/src/ui/organisms/playground_panel.dart",
+    "a": 286,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/test/helpers.dart",
+    "a": 3,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/test/screens/hire_detail_screen_test.dart",
+    "a": 2,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/test/screens/hire_sheet_test.dart",
+    "a": 3,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/test/screens/my_agents_screen_test.dart",
+    "a": 213,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/test/screens/playground_test.dart",
+    "a": 140,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/test/screens/studio_screen_test.dart",
+    "a": 239,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/test/studio/fake_studio_gateway_test.dart",
+    "a": 125,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/test/studio/studio_fixtures.dart",
+    "a": 39,
+    "d": 0
+   }
+  ]
  }
 }
