@@ -1,5 +1,5 @@
 {
- "generado": "2026-10-14T02:45:25+00:00",
+ "generado": "2026-10-14T10:52:24+00:00",
  "programa": "Stellar Elite",
  "start_date": "2026-09-02T00:00:00Z",
  "teams": [
@@ -43,11 +43,11 @@
   },
   {
    "name": "Puls3",
-   "total": 872.35,
-   "per_capita": 872.35,
-   "commits": 124,
-   "pts_commits": 764.35,
-   "dias_activos": 18,
+   "total": 886.45,
+   "per_capita": 886.45,
+   "commits": 125,
+   "pts_commits": 773.45,
+   "dias_activos": 19,
    "contribuidores": [
     "Pericena",
     "TOMOKI977",
@@ -315,7 +315,8 @@
    "2026-10-09": 127.77,
    "2026-10-10": 36.45,
    "2026-10-11": 75.45,
-   "2026-10-13": 46.61
+   "2026-10-13": 46.61,
+   "2026-10-14": 9.1
   },
   "Tinkazo": {
    "2026-09-16": 66.21000000000001,
@@ -450,7 +451,8 @@
    "2026-10-09": 21,
    "2026-10-10": 5,
    "2026-10-11": 9,
-   "2026-10-13": 5
+   "2026-10-13": 5,
+   "2026-10-14": 1
   },
   "Tinkazo": {
    "2026-09-16": 8,
@@ -559,6 +561,16 @@
   }
  },
  "commits": [
+  {
+   "sha": "39508a4",
+   "team": "Puls3",
+   "repo": "Zer0-Knowledge-Hack/puls3",
+   "author": "XxHugheadxX",
+   "date": "2026-10-14T10:35:53Z",
+   "msg": "feat(flutter): pin the SEP-10 challenge checks to the live server before the wallet prompt (#136) (#176)",
+   "pts": 9.1,
+   "nota": ""
+  },
   {
    "sha": "8e6f98a",
    "team": "Puls3",

@@ -111060,5 +111060,70 @@
     "d": 0
    }
   ]
+ },
+ "39508a4142ad303619e76403d4753d3b7d1d3ef9": {
+  "team": "Puls3",
+  "repo": "Zer0-Knowledge-Hack/puls3",
+  "author": "XxHugheadxX",
+  "date": "2026-10-14T10:35:53Z",
+  "message": "feat(flutter): pin the SEP-10 challenge checks to the live server before the wallet prompt (#136) (#176)",
+  "parents": 1,
+  "files": [
+   {
+    "f": ".env.example",
+    "a": 8,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/lib/main.dart",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/lib/src/data/app_config.dart",
+    "a": 32,
+    "d": 13
+   },
+   {
+    "f": "puls3_flutter/lib/src/hire/wallet_session.dart",
+    "a": 3,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/lib/src/wallet/freighter/freighter_wallet.dart",
+    "a": 27,
+    "d": 2
+   },
+   {
+    "f": "puls3_flutter/lib/src/wallet/wallet_port.dart",
+    "a": 5,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/test/data/app_config_test.dart",
+    "a": 33,
+    "d": 1
+   },
+   {
+    "f": "puls3_flutter/test/wallet/freighter_wallet_test.dart",
+    "a": 58,
+    "d": 3
+   },
+   {
+    "f": "puls3_server/README.md",
+    "a": 13,
+    "d": 0
+   },
+   {
+    "f": "scripts/cloudflare-pages-build.sh",
+    "a": 27,
+    "d": 0
+   },
+   {
+    "f": "scripts/tests/cloudflare-pages-build.test.sh",
+    "a": 42,
+    "d": 5
+   }
+  ]
  }
 }
