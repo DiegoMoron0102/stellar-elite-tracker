@@ -1,5 +1,5 @@
 {
- "generado": "2026-10-14T10:52:24+00:00",
+ "generado": "2026-10-14T21:07:09+00:00",
  "programa": "Stellar Elite",
  "start_date": "2026-09-02T00:00:00Z",
  "teams": [
@@ -43,10 +43,10 @@
   },
   {
    "name": "Puls3",
-   "total": 886.45,
-   "per_capita": 886.45,
-   "commits": 125,
-   "pts_commits": 773.45,
+   "total": 935.94,
+   "per_capita": 935.94,
+   "commits": 133,
+   "pts_commits": 822.94,
    "dias_activos": 19,
    "contribuidores": [
     "Pericena",
@@ -316,7 +316,7 @@
    "2026-10-10": 36.45,
    "2026-10-11": 75.45,
    "2026-10-13": 46.61,
-   "2026-10-14": 9.1
+   "2026-10-14": 58.589999999999996
   },
   "Tinkazo": {
    "2026-09-16": 66.21000000000001,
@@ -452,7 +452,7 @@
    "2026-10-10": 5,
    "2026-10-11": 9,
    "2026-10-13": 5,
-   "2026-10-14": 1
+   "2026-10-14": 9
   },
   "Tinkazo": {
    "2026-09-16": 8,
@@ -561,6 +561,86 @@
   }
  },
  "commits": [
+  {
+   "sha": "b65c62e",
+   "team": "Puls3",
+   "repo": "Zer0-Knowledge-Hack/puls3",
+   "author": "TOMOKI977",
+   "date": "2026-10-14T20:53:59Z",
+   "msg": "feat(studio): save, test-run, and deploy agents on the server (#188)",
+   "pts": 1.0,
+   "nota": "import masivo (117 archivos)"
+  },
+  {
+   "sha": "27a6d60",
+   "team": "Puls3",
+   "repo": "Zer0-Knowledge-Hack/puls3",
+   "author": "moises-cisneros",
+   "date": "2026-10-14T17:19:55Z",
+   "msg": "feat(server): run feedback end to end on testnet through the server (#179) (#184)",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "4e3511a",
+   "team": "Puls3",
+   "repo": "Zer0-Knowledge-Hack/puls3",
+   "author": "XxHugheadxX",
+   "date": "2026-10-14T17:15:04Z",
+   "msg": "feat(server): manifest v1 for the six demo agents that had none (#20) (#180)",
+   "pts": 8.27,
+   "nota": ""
+  },
+  {
+   "sha": "2da2b21",
+   "team": "Puls3",
+   "repo": "Zer0-Knowledge-Hack/puls3",
+   "author": "fercodes",
+   "date": "2026-10-14T17:08:56Z",
+   "msg": "docs(readme): add build and run instructions (#182) (#185)",
+   "pts": 6.64,
+   "nota": ""
+  },
+  {
+   "sha": "2bb61a4",
+   "team": "Puls3",
+   "repo": "Zer0-Knowledge-Hack/puls3",
+   "author": "XxHugheadxX",
+   "date": "2026-10-14T13:57:04Z",
+   "msg": "docs(blueprints): S08 deploy error wireframes use the app's signature-rejected copy (#36) (#178)",
+   "pts": 2.58,
+   "nota": ""
+  },
+  {
+   "sha": "397d87c",
+   "team": "Puls3",
+   "repo": "Zer0-Knowledge-Hack/puls3",
+   "author": "moises-cisneros",
+   "date": "2026-10-14T13:54:11Z",
+   "msg": "feat: feedback endpoint and reputation in catalog (#21) (#172)",
+   "pts": 1.0,
+   "nota": "import masivo (78 archivos)"
+  },
+  {
+   "sha": "eea2a3f",
+   "team": "Puls3",
+   "repo": "Zer0-Knowledge-Hack/puls3",
+   "author": "TOMOKI977",
+   "date": "2026-10-14T13:42:42Z",
+   "msg": "feat(server): submit release and claim_refund after escrow deadlines (#173)",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "f2adf4a",
+   "team": "Puls3",
+   "repo": "Zer0-Knowledge-Hack/puls3",
+   "author": "fercodes",
+   "date": "2026-10-14T13:37:45Z",
+   "msg": "docs(adr): spike integrations and decide x402 agent tools (#82) (#155)",
+   "pts": 10,
+   "nota": ""
+  },
   {
    "sha": "39508a4",
    "team": "Puls3",

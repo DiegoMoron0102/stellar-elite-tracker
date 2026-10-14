@@ -111125,5 +111125,1405 @@
     "d": 5
    }
   ]
+ },
+ "b65c62ee413e07e2ffdf82be247656d0dd89ec12": {
+  "team": "Puls3",
+  "repo": "Zer0-Knowledge-Hack/puls3",
+  "author": "TOMOKI977",
+  "date": "2026-10-14T20:53:59Z",
+  "message": "feat(studio): save, test-run, and deploy agents on the server (#188)",
+  "parents": 1,
+  "files": [
+   {
+    "f": ".env.example",
+    "a": 8,
+    "d": 0
+   },
+   {
+    "f": "docs/architecture/api.md",
+    "a": 5,
+    "d": 2
+   },
+   {
+    "f": "puls3_client/lib/src/protocol/client.dart",
+    "a": 150,
+    "d": 0
+   },
+   {
+    "f": "puls3_client/lib/src/protocol/deploy_session.dart",
+    "a": 156,
+    "d": 0
+   },
+   {
+    "f": "puls3_client/lib/src/protocol/protocol.dart",
+    "a": 132,
+    "d": 0
+   },
+   {
+    "f": "puls3_client/lib/src/protocol/studio/agent_manifest_draft.dart",
+    "a": 214,
+    "d": 0
+   },
+   {
+    "f": "puls3_client/lib/src/protocol/studio/manifest_model.dart",
+    "a": 92,
+    "d": 0
+   },
+   {
+    "f": "puls3_client/lib/src/protocol/studio/manifest_price.dart",
+    "a": 92,
+    "d": 0
+   },
+   {
+    "f": "puls3_client/lib/src/protocol/studio/manifest_skill.dart",
+    "a": 123,
+    "d": 0
+   },
+   {
+    "f": "puls3_client/lib/src/protocol/studio/studio_draft.dart",
+    "a": 159,
+    "d": 0
+   },
+   {
+    "f": "puls3_client/lib/src/protocol/studio/test_run_result.dart",
+    "a": 93,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/lib/main.dart",
+    "a": 55,
+    "d": 1
+   },
+   {
+    "f": "puls3_flutter/lib/src/deploy/deploy_flow_controller.dart",
+    "a": 48,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/lib/src/deploy/deploy_gateway.dart",
+    "a": 15,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/lib/src/deploy/fake_deploy_gateway.dart",
+    "a": 9,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/lib/src/deploy/server_deploy_gateway.dart",
+    "a": 254,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/lib/src/domain/agent_draft.dart",
+    "a": 4,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/lib/src/screens/playground.dart",
+    "a": 25,
+    "d": 1
+   },
+   {
+    "f": "puls3_flutter/lib/src/screens/studio_deploy.dart",
+    "a": 3,
+    "d": 2
+   },
+   {
+    "f": "puls3_flutter/lib/src/studio/fake_studio_gateway.dart",
+    "a": 8,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/lib/src/studio/server_studio_gateway.dart",
+    "a": 278,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/lib/src/studio/studio_gateway.dart",
+    "a": 9,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/lib/src/ui/organisms/playground_panel.dart",
+    "a": 59,
+    "d": 9
+   },
+   {
+    "f": "puls3_flutter/test/deploy/deploy_flow_test.dart",
+    "a": 32,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/test/deploy/server_deploy_gateway_test.dart",
+    "a": 325,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/test/screens/playground_test.dart",
+    "a": 79,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/test/studio/server_studio_gateway_test.dart",
+    "a": 240,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/README.md",
+    "a": 3,
+    "d": 2
+   },
+   {
+    "f": "puls3_server/lib/server.dart",
+    "a": 2,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/agent/stellar_agent_wallet_custody.dart",
+    "a": 40,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/generated/deploy_session.dart",
+    "a": 156,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/generated/endpoints.dart",
+    "a": 262,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/generated/protocol.dart",
+    "a": 471,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/generated/protocol.yaml",
+    "a": 11,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/generated/studio/agent_manifest_draft.dart",
+    "a": 214,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/generated/studio/manifest_model.dart",
+    "a": 92,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/generated/studio/manifest_price.dart",
+    "a": 92,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/generated/studio/manifest_skill.dart",
+    "a": 123,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/generated/studio/studio_agent_version_record.dart",
+    "a": 677,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/generated/studio/studio_deploy_record.dart",
+    "a": 1006,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/generated/studio/studio_draft.dart",
+    "a": 159,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/generated/studio/studio_draft_record.dart",
+    "a": 752,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/generated/studio/test_run_result.dart",
+    "a": 93,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/ledger/envelope_codec.dart",
+    "a": 11,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/ledger/stellar_envelope_codec.dart",
+    "a": 39,
+    "d": 2
+   },
+   {
+    "f": "puls3_server/lib/src/ledger/xdr_invoke_encoder.dart",
+    "a": 70,
+    "d": 3
+   },
+   {
+    "f": "puls3_server/lib/src/ledger/xdr_reader.dart",
+    "a": 122,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/protocol/deploy_session.spy.yaml",
+    "a": 15,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/runtime/agent_runtime_wiring.dart",
+    "a": 50,
+    "d": 7
+   },
+   {
+    "f": "puls3_server/lib/src/runtime/hire_runner.dart",
+    "a": 8,
+    "d": 2
+   },
+   {
+    "f": "puls3_server/lib/src/runtime/run_manifest.dart",
+    "a": 15,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/runtime/studio_run_manifest_source.dart",
+    "a": 55,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/studio/agent_manifest_draft.spy.yaml",
+    "a": 15,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/studio/auth_entry.dart",
+    "a": 120,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/studio/builder_credential.dart",
+    "a": 52,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/studio/builder_task_runner.dart",
+    "a": 37,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/studio/deploy_chain.dart",
+    "a": 88,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/studio/manifest_model.spy.yaml",
+    "a": 5,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/studio/manifest_price.spy.yaml",
+    "a": 5,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/studio/manifest_skill.spy.yaml",
+    "a": 7,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/studio/memory_studio_draft_store.dart",
+    "a": 92,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/studio/registration_call.dart",
+    "a": 71,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/studio/registration_document.dart",
+    "a": 26,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/studio/registration_events.dart",
+    "a": 24,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/studio/registration_route.dart",
+    "a": 52,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/studio/serverpod_studio_agent_version_store.dart",
+    "a": 74,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/studio/serverpod_studio_deploy_store.dart",
+    "a": 117,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/studio/serverpod_studio_draft_store.dart",
+    "a": 113,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/studio/studio_agent_version.dart",
+    "a": 86,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/studio/studio_agent_version_record.spy.yaml",
+    "a": 15,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/studio/studio_deploy_record.spy.yaml",
+    "a": 29,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/studio/studio_deploy_service.dart",
+    "a": 716,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/studio/studio_deploy_store.dart",
+    "a": 185,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/studio/studio_deploy_transport.dart",
+    "a": 64,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/studio/studio_deploy_wiring.dart",
+    "a": 104,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/studio/studio_draft.spy.yaml",
+    "a": 11,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/studio/studio_draft_errors.dart",
+    "a": 24,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/studio/studio_draft_record.spy.yaml",
+    "a": 22,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/studio/studio_draft_row.dart",
+    "a": 27,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/studio/studio_draft_service.dart",
+    "a": 121,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/studio/studio_draft_store.dart",
+    "a": 41,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/studio/studio_draft_transport.dart",
+    "a": 79,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/studio/studio_endpoint.dart",
+    "a": 336,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/studio/studio_model_policy.dart",
+    "a": 7,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/studio/studio_test_errors.dart",
+    "a": 37,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/studio/studio_test_run_service.dart",
+    "a": 114,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/studio/test_run_quota.dart",
+    "a": 32,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/studio/test_run_result.spy.yaml",
+    "a": 6,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/migrations/20261014153233134/definition.json",
+    "a": 4568,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/migrations/20261014153233134/definition.sql",
+    "a": 1023,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/migrations/20261014153233134/definition_project.json",
+    "a": 1361,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/migrations/20261014153233134/migration.json",
+    "a": 111,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/migrations/20261014153233134/migration.sql",
+    "a": 55,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/migrations/20261014182841548/definition.json",
+    "a": 4740,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/migrations/20261014182841548/definition.sql",
+    "a": 1050,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/migrations/20261014182841548/definition_project.json",
+    "a": 1533,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/migrations/20261014182841548/migration.json",
+    "a": 183,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/migrations/20261014182841548/migration.sql",
+    "a": 64,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/migrations/20261014191457536/definition.json",
+    "a": 4748,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/migrations/20261014191457536/definition.sql",
+    "a": 1051,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/migrations/20261014191457536/definition_project.json",
+    "a": 1541,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/migrations/20261014191457536/migration.json",
+    "a": 33,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/migrations/20261014191457536/migration.sql",
+    "a": 41,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/migrations/20261014195857901/definition.json",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/migrations/20261014195857901/definition.sql",
+    "a": 1066,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/migrations/20261014195857901/definition_project.json",
+    "a": 1622,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/migrations/20261014195857901/migration.json",
+    "a": 92,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/migrations/20261014195857901/migration.sql",
+    "a": 52,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/migrations/migration_registry.txt",
+    "a": 4,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/test/integration/test_tools/serverpod_test_tools.dart",
+    "a": 367,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/test/studio/studio_deploy_service_test.dart",
+    "a": 545,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/test/studio/studio_draft_service_test.dart",
+    "a": 186,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/test/studio/studio_endpoint_test.dart",
+    "a": 373,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/test/studio/studio_test_run_service_test.dart",
+    "a": 255,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/test/unit/ledger/xdr_invoke_encoder_test.dart",
+    "a": 26,
+    "d": 0
+   },
+   {
+    "f": "scripts/cloudflare-pages-build.sh",
+    "a": 9,
+    "d": 4
+   },
+   {
+    "f": "scripts/tests/cloudflare-pages-build.test.sh",
+    "a": 9,
+    "d": 0
+   }
+  ]
+ },
+ "27a6d60635f74bbd21b9c103c99deee841f110c5": {
+  "team": "Puls3",
+  "repo": "Zer0-Knowledge-Hack/puls3",
+  "author": "moises-cisneros",
+  "date": "2026-10-14T17:19:55Z",
+  "message": "feat(server): run feedback end to end on testnet through the server (#179) (#184)",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/adr/0005-align-agent-commerce-with-erc-8183-and-erc-8004.md",
+    "a": 2,
+    "d": 0
+   },
+   {
+    "f": "docs/architecture/api.md",
+    "a": 5,
+    "d": 3
+   },
+   {
+    "f": "openspec/changes/archive/2026-10-14-issue-179-feedback-e2e/design.md",
+    "a": 84,
+    "d": 0
+   },
+   {
+    "f": "openspec/changes/archive/2026-10-14-issue-179-feedback-e2e/exploration.md",
+    "a": 55,
+    "d": 0
+   },
+   {
+    "f": "openspec/changes/archive/2026-10-14-issue-179-feedback-e2e/proposal.md",
+    "a": 75,
+    "d": 0
+   },
+   {
+    "f": "openspec/changes/archive/2026-10-14-issue-179-feedback-e2e/specs/agent-catalog-endpoint/spec.md",
+    "a": 60,
+    "d": 0
+   },
+   {
+    "f": "openspec/changes/archive/2026-10-14-issue-179-feedback-e2e/specs/escrow-settlement-tracking/spec.md",
+    "a": 68,
+    "d": 0
+   },
+   {
+    "f": "openspec/changes/archive/2026-10-14-issue-179-feedback-e2e/specs/hire-feedback/spec.md",
+    "a": 36,
+    "d": 0
+   },
+   {
+    "f": "openspec/changes/archive/2026-10-14-issue-179-feedback-e2e/specs/hire-payment/spec.md",
+    "a": 44,
+    "d": 0
+   },
+   {
+    "f": "openspec/changes/archive/2026-10-14-issue-179-feedback-e2e/tasks.md",
+    "a": 69,
+    "d": 0
+   },
+   {
+    "f": "openspec/changes/archive/2026-10-14-issue-179-feedback-e2e/verify-report.md",
+    "a": 83,
+    "d": 0
+   },
+   {
+    "f": "openspec/specs/agent-catalog-endpoint/spec.md",
+    "a": 36,
+    "d": 4
+   },
+   {
+    "f": "openspec/specs/escrow-settlement-tracking/spec.md",
+    "a": 68,
+    "d": 0
+   },
+   {
+    "f": "openspec/specs/hire-feedback/spec.md",
+    "a": 33,
+    "d": 0
+   },
+   {
+    "f": "openspec/specs/hire-payment/spec.md",
+    "a": 38,
+    "d": 1
+   },
+   {
+    "f": "puls3_domain/lib/src/entities.dart",
+    "a": 5,
+    "d": 1
+   },
+   {
+    "f": "puls3_domain/test/feedback_test.dart",
+    "a": 17,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/README.md",
+    "a": 19,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/agent/reputation_catalog_reader.dart",
+    "a": 24,
+    "d": 4
+   },
+   {
+    "f": "puls3_server/lib/src/chain/chain_submission_tracker.dart",
+    "a": 33,
+    "d": 1
+   },
+   {
+    "f": "puls3_server/lib/src/chain/escrow_deadline.dart",
+    "a": 19,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/chain/escrow_server_submit.dart",
+    "a": 8,
+    "d": 12
+   },
+   {
+    "f": "puls3_server/lib/src/hire/hire_lifecycle_store.dart",
+    "a": 5,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/hire/serverpod_hire_repository.dart",
+    "a": 44,
+    "d": 3
+   },
+   {
+    "f": "puls3_server/lib/src/ledger/soroban_reputation_registry.dart",
+    "a": 3,
+    "d": 3
+   },
+   {
+    "f": "puls3_server/test/agent/reputation_catalog_reader_test.dart",
+    "a": 55,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/test/integration/hire_repository_test.dart",
+    "a": 152,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/test/support/fake_feedback_ports.dart",
+    "a": 4,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/test/unit/chain/chain_submission_tracker_test.dart",
+    "a": 126,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/test/unit/chain/escrow_deadline_test.dart",
+    "a": 30,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/test/unit/chain/escrow_server_submit_test.dart",
+    "a": 58,
+    "d": 1
+   },
+   {
+    "f": "puls3_server/test/unit/ledger/soroban_reputation_registry_test.dart",
+    "a": 2,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/tool/e2e_feedback_testnet.dart",
+    "a": 363,
+    "d": 0
+   }
+  ]
+ },
+ "4e3511a9a0fb0aceb54499d78d774ac3ce7acfa9": {
+  "team": "Puls3",
+  "repo": "Zer0-Knowledge-Hack/puls3",
+  "author": "XxHugheadxX",
+  "date": "2026-10-14T17:15:04Z",
+  "message": "feat(server): manifest v1 for the six demo agents that had none (#20) (#180)",
+  "parents": 1,
+  "files": [
+   {
+    "f": "puls3_server/lib/src/runtime/demo_manifests.dart",
+    "a": 119,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/test/unit/runtime/run_manifest_test.dart",
+    "a": 30,
+    "d": 4
+   }
+  ]
+ },
+ "2da2b21b955415ddbf87e57f8c1b8ad64528a223": {
+  "team": "Puls3",
+  "repo": "Zer0-Knowledge-Hack/puls3",
+  "author": "fercodes",
+  "date": "2026-10-14T17:08:56Z",
+  "message": "docs(readme): add build and run instructions (#182) (#185)",
+  "parents": 1,
+  "files": [
+   {
+    "f": "README.md",
+    "a": 49,
+    "d": 0
+   },
+   {
+    "f": "scripts/setup-local-secrets.sh",
+    "a": 0,
+    "d": 0
+   }
+  ]
+ },
+ "2bb61a472298afdf1cdcc197faceea8319ea2563": {
+  "team": "Puls3",
+  "repo": "Zer0-Knowledge-Hack/puls3",
+  "author": "XxHugheadxX",
+  "date": "2026-10-14T13:57:04Z",
+  "message": "docs(blueprints): S08 deploy error wireframes use the app's signature-rejected copy (#36) (#178)",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/blueprints/screens.md",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "docs/blueprints/wireframes/S08-deploy-sheet-error-1440.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/blueprints/wireframes/S08-deploy-sheet-error-390.png",
+    "a": 0,
+    "d": 0
+   }
+  ]
+ },
+ "397d87c3a4b7009888305124b4078d0aefe0559b": {
+  "team": "Puls3",
+  "repo": "Zer0-Knowledge-Hack/puls3",
+  "author": "moises-cisneros",
+  "date": "2026-10-14T13:54:11Z",
+  "message": "feat: feedback endpoint and reputation in catalog (#21) (#172)",
+  "parents": 1,
+  "files": [
+   {
+    "f": ".env.example",
+    "a": 3,
+    "d": 1
+   },
+   {
+    "f": ".gitattributes",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "README.md",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "contracts/README.md",
+    "a": 6,
+    "d": 3
+   },
+   {
+    "f": "contracts/deployments/testnet.json",
+    "a": 17,
+    "d": 1
+   },
+   {
+    "f": "docs/architecture/api.md",
+    "a": 10,
+    "d": 9
+   },
+   {
+    "f": "docs/architecture/models/agent_summary.spy.yaml",
+    "a": 9,
+    "d": 0
+   },
+   {
+    "f": "docs/architecture/models/puls3_api_exception.spy.yaml",
+    "a": 2,
+    "d": 1
+   },
+   {
+    "f": "openspec/changes/archive/2026-10-13-feedback-and-reputation/archive-report.md",
+    "a": 91,
+    "d": 0
+   },
+   {
+    "f": "openspec/changes/archive/2026-10-13-feedback-and-reputation/design.md",
+    "a": 86,
+    "d": 0
+   },
+   {
+    "f": "openspec/changes/archive/2026-10-13-feedback-and-reputation/exploration.md",
+    "a": 16,
+    "d": 0
+   },
+   {
+    "f": "openspec/changes/archive/2026-10-13-feedback-and-reputation/proposal.md",
+    "a": 68,
+    "d": 0
+   },
+   {
+    "f": "openspec/changes/archive/2026-10-13-feedback-and-reputation/specs/agent-catalog-endpoint/spec.md",
+    "a": 47,
+    "d": 0
+   },
+   {
+    "f": "openspec/changes/archive/2026-10-13-feedback-and-reputation/specs/hire-feedback/spec.md",
+    "a": 85,
+    "d": 0
+   },
+   {
+    "f": "openspec/changes/archive/2026-10-13-feedback-and-reputation/tasks.md",
+    "a": 62,
+    "d": 0
+   },
+   {
+    "f": "openspec/changes/archive/2026-10-13-feedback-and-reputation/verify-report.md",
+    "a": 115,
+    "d": 0
+   },
+   {
+    "f": "openspec/specs/agent-catalog-endpoint/spec.md",
+    "a": 27,
+    "d": 3
+   },
+   {
+    "f": "openspec/specs/hire-feedback/spec.md",
+    "a": 102,
+    "d": 0
+   },
+   {
+    "f": "puls3_client/lib/src/protocol/agent/agent_summary.dart",
+    "a": 31,
+    "d": 1
+   },
+   {
+    "f": "puls3_client/lib/src/protocol/client.dart",
+    "a": 66,
+    "d": 0
+   },
+   {
+    "f": "puls3_client/lib/src/protocol/feedback/feedback_eligibility.dart",
+    "a": 110,
+    "d": 0
+   },
+   {
+    "f": "puls3_client/lib/src/protocol/protocol.dart",
+    "a": 17,
+    "d": 0
+   },
+   {
+    "f": "puls3_domain/lib/puls3_domain.dart",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "puls3_domain/lib/src/feedback.dart",
+    "a": 96,
+    "d": 0
+   },
+   {
+    "f": "puls3_domain/lib/src/ports.dart",
+    "a": 7,
+    "d": 0
+   },
+   {
+    "f": "puls3_domain/test/feedback_test.dart",
+    "a": 253,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/lib/src/data/server_agent_repository.dart",
+    "a": 3,
+    "d": 2
+   },
+   {
+    "f": "puls3_flutter/test/data/server_agent_repository_test.dart",
+    "a": 15,
+    "d": 1
+   },
+   {
+    "f": "puls3_server/README.md",
+    "a": 9,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/agent/agent_catalog_wiring.dart",
+    "a": 44,
+    "d": 7
+   },
+   {
+    "f": "puls3_server/lib/src/agent/agent_summary.spy.yaml",
+    "a": 9,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/agent/reputation_catalog_reader.dart",
+    "a": 93,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/chain/chain_submission_tracker.dart",
+    "a": 4,
+    "d": 2
+   },
+   {
+    "f": "puls3_server/lib/src/chain/escrow_effects.dart",
+    "a": 20,
+    "d": 2
+   },
+   {
+    "f": "puls3_server/lib/src/feedback/feedback_eligibility.spy.yaml",
+    "a": 10,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/feedback/feedback_endpoint.dart",
+    "a": 75,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/feedback/feedback_service.dart",
+    "a": 218,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/feedback/reputation_calls.dart",
+    "a": 123,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/feedback/reputation_wiring.dart",
+    "a": 29,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/generated/agent/agent_summary.dart",
+    "a": 31,
+    "d": 1
+   },
+   {
+    "f": "puls3_server/lib/src/generated/endpoints.dart",
+    "a": 100,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/generated/feedback/feedback_eligibility.dart",
+    "a": 110,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/generated/protocol.dart",
+    "a": 17,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/generated/protocol.yaml",
+    "a": 4,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/hire/escrow_relay_service.dart",
+    "a": 22,
+    "d": 1
+   },
+   {
+    "f": "puls3_server/lib/src/hire/hire_endpoint.dart",
+    "a": 8,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/hire/hire_escrow_effects.dart",
+    "a": 23,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/hire/hire_query_service.dart",
+    "a": 31,
+    "d": 4
+   },
+   {
+    "f": "puls3_server/lib/src/hire/hire_services.dart",
+    "a": 19,
+    "d": 1
+   },
+   {
+    "f": "puls3_server/lib/src/ledger/contract_reader.dart",
+    "a": 67,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/ledger/sc_val_json.dart",
+    "a": 7,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/ledger/soroban_ledger.dart",
+    "a": 33,
+    "d": 48
+   },
+   {
+    "f": "puls3_server/lib/src/ledger/soroban_reputation_registry.dart",
+    "a": 129,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/ledger/stellar_config.dart",
+    "a": 19,
+    "d": 1
+   },
+   {
+    "f": "puls3_server/lib/src/protocol/puls3_api_exception.spy.yaml",
+    "a": 2,
+    "d": 1
+   },
+   {
+    "f": "puls3_server/test/agent/reputation_catalog_reader_test.dart",
+    "a": 184,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/test/feedback/escrow_relay_feedback_test.dart",
+    "a": 123,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/test/feedback/fake_reputation_registry_contract_test.dart",
+    "a": 10,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/test/feedback/feedback_endpoint_test.dart",
+    "a": 143,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/test/feedback/feedback_service_test.dart",
+    "a": 323,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/test/feedback/reputation_wiring_test.dart",
+    "a": 93,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/test/feedback/soroban_reputation_calls_test.dart",
+    "a": 160,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/test/hire/hire_query_service_test.dart",
+    "a": 79,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/test/integration/test_tools/serverpod_test_tools.dart",
+    "a": 128,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/test/support/fake_escrow_effects.dart",
+    "a": 7,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/test/support/fake_feedback_ports.dart",
+    "a": 94,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/test/support/fake_reputation_chain.dart",
+    "a": 261,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/test/support/reputation_registry_contract.dart",
+    "a": 113,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/test/unit/agent/agent_catalog_wiring_test.dart",
+    "a": 27,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/test/unit/agent/agent_endpoint_test.dart",
+    "a": 10,
+    "d": 5
+   },
+   {
+    "f": "puls3_server/test/unit/chain/chain_submission_tracker_test.dart",
+    "a": 59,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/test/unit/chain/escrow_effects_test.dart",
+    "a": 10,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/test/unit/hire/hire_escrow_effects_test.dart",
+    "a": 70,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/test/unit/ledger/sc_val_json_test.dart",
+    "a": 23,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/test/unit/ledger/soroban_ledger_test.dart",
+    "a": 52,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/test/unit/ledger/soroban_reputation_registry_test.dart",
+    "a": 118,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/test/unit/ledger/stellar_config_test.dart",
+    "a": 57,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/tool/reputation_read_testnet.dart",
+    "a": 35,
+    "d": 0
+   }
+  ]
+ },
+ "eea2a3f80bed9ab1c635be262041a5940a8a631b": {
+  "team": "Puls3",
+  "repo": "Zer0-Knowledge-Hack/puls3",
+  "author": "TOMOKI977",
+  "date": "2026-10-14T13:42:42Z",
+  "message": "feat(server): submit release and claim_refund after escrow deadlines (#173)",
+  "parents": 1,
+  "files": [
+   {
+    "f": "puls3_server/README.md",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "puls3_server/lib/src/chain/chain_submission_store.dart",
+    "a": 5,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/chain/chain_submission_tracker.dart",
+    "a": 7,
+    "d": 6
+   },
+   {
+    "f": "puls3_server/lib/src/chain/chain_tracker_wiring.dart",
+    "a": 53,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/chain/escrow_deadline.dart",
+    "a": 92,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/chain/escrow_server_submit.dart",
+    "a": 293,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/chain/serverpod_chain_submission_store.dart",
+    "a": 12,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/hire/hire_lifecycle_store.dart",
+    "a": 10,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/hire/serverpod_hire_repository.dart",
+    "a": 18,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/ledger/escrow_job.dart",
+    "a": 7,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/ledger/soroban_ledger.dart",
+    "a": 8,
+    "d": 1
+   },
+   {
+    "f": "puls3_server/lib/src/ledger/soroban_rpc_client.dart",
+    "a": 19,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/ledger/stellar_envelope_codec.dart",
+    "a": 16,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/test/hire/escrow_relay_submit_test.dart",
+    "a": 4,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/test/hire/hire_query_service_test.dart",
+    "a": 12,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/test/ledger/envelope_codec_test.dart",
+    "a": 27,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/test/support/chain_submission_store_contract.dart",
+    "a": 35,
+    "d": 7
+   },
+   {
+    "f": "puls3_server/test/support/hire_lifecycle_store_contract.dart",
+    "a": 34,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/test/support/in_memory_chain_submission_store.dart",
+    "a": 8,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/test/support/in_memory_hire_lifecycle_store.dart",
+    "a": 13,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/test/unit/chain/chain_submission_tracker_test.dart",
+    "a": 30,
+    "d": 3
+   },
+   {
+    "f": "puls3_server/test/unit/chain/escrow_deadline_test.dart",
+    "a": 182,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/test/unit/chain/escrow_server_submit_test.dart",
+    "a": 389,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/test/unit/ledger/soroban_ledger_test.dart",
+    "a": 14,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/test/unit/ledger/soroban_rpc_client_test.dart",
+    "a": 22,
+    "d": 0
+   }
+  ]
+ },
+ "f2adf4a1f028d0379cdf15362c10c7da74900cb3": {
+  "team": "Puls3",
+  "repo": "Zer0-Knowledge-Hack/puls3",
+  "author": "fercodes",
+  "date": "2026-10-14T13:37:45Z",
+  "message": "docs(adr): spike integrations and decide x402 agent tools (#82) (#155)",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/adr/0006-integrations-and-agent-tools.md",
+    "a": 217,
+    "d": 0
+   },
+   {
+    "f": "docs/architecture/examples/agent-manifest.tools.example.json",
+    "a": 39,
+    "d": 0
+   },
+   {
+    "f": "docs/architecture/examples/integration-manifest.example.json",
+    "a": 124,
+    "d": 0
+   },
+   {
+    "f": "docs/spikes/integrations.md",
+    "a": 199,
+    "d": 0
+   }
+  ]
  }
 }
