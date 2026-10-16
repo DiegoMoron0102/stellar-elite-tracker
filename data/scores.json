@@ -1,5 +1,5 @@
 {
- "generado": "2026-10-16T15:47:35+00:00",
+ "generado": "2026-10-16T20:16:22+00:00",
  "programa": "Stellar Elite",
  "start_date": "2026-09-02T00:00:00Z",
  "teams": [
@@ -26,11 +26,11 @@
   },
   {
    "name": "Tinkazo",
-   "total": 1399.88,
-   "per_capita": 1399.88,
-   "commits": 170,
-   "pts_commits": 1303.88,
-   "dias_activos": 18,
+   "total": 1436.77,
+   "per_capita": 1436.77,
+   "commits": 174,
+   "pts_commits": 1335.77,
+   "dias_activos": 19,
    "contribuidores": [
     "GuidoSV7",
     "nema1502"
@@ -337,7 +337,8 @@
    "2026-10-06": 18.78,
    "2026-10-07": 25.020000000000003,
    "2026-10-08": 130.68,
-   "2026-10-09": 23.970000000000002
+   "2026-10-09": 23.970000000000002,
+   "2026-10-16": 31.89
   },
   "CompraGasolinaBidon": {
    "2026-09-06": 1.0,
@@ -477,7 +478,8 @@
    "2026-10-06": 4,
    "2026-10-07": 4,
    "2026-10-08": 19,
-   "2026-10-09": 4
+   "2026-10-09": 4,
+   "2026-10-16": 4
   },
   "CompraGasolinaBidon": {
    "2026-09-06": 1,
@@ -569,6 +571,46 @@
   }
  },
  "commits": [
+  {
+   "sha": "10588db",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-10-16T18:57:23Z",
+   "msg": "Otro premio, más claro y sin perder la lista",
+   "pts": 8.46,
+   "nota": ""
+  },
+  {
+   "sha": "e3dbc7a",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-10-16T18:24:09Z",
+   "msg": "El sitio se muda a tinkazo.app",
+   "pts": 7.41,
+   "nota": ""
+  },
+  {
+   "sha": "1a08489",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-10-16T18:21:08Z",
+   "msg": "Otro premio: la misma lista sin los ganadores, o una nueva; y la bienvenida",
+   "pts": 8.77,
+   "nota": ""
+  },
+  {
+   "sha": "6c68fc8",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-10-16T18:03:53Z",
+   "msg": "Hacer otro sorteo sin recargar la página",
+   "pts": 7.25,
+   "nota": ""
+  },
   {
    "sha": "362148f",
    "team": "Impulso Stellar",

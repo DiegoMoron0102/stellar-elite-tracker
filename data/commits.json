@@ -114590,5 +114590,275 @@
     "d": 1
    }
   ]
+ },
+ "10588dbeb0f2a6d5d0fbe3408873b76e9e2dcfb4": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-16T18:57:23Z",
+  "message": "Otro premio, más claro y sin perder la lista",
+  "parents": 1,
+  "files": [
+   {
+    "f": "index.html",
+    "a": 9,
+    "d": 7
+   },
+   {
+    "f": "src/i18n.ts",
+    "a": 22,
+    "d": 12
+   },
+   {
+    "f": "src/main.ts",
+    "a": 2,
+    "d": 1
+   },
+   {
+    "f": "src/styles.css",
+    "a": 24,
+    "d": 3
+   },
+   {
+    "f": "src/ui/draw.ts",
+    "a": 44,
+    "d": 7
+   },
+   {
+    "f": "src/ui/history.ts",
+    "a": 3,
+    "d": 1
+   },
+   {
+    "f": "src/ui/onboarding.ts",
+    "a": 16,
+    "d": 11
+   },
+   {
+    "f": "src/ui/participants.ts",
+    "a": 13,
+    "d": 0
+   }
+  ]
+ },
+ "e3dbc7a5b71036a56c9a94b12053778fc786de98": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-16T18:24:09Z",
+  "message": "El sitio se muda a tinkazo.app",
+  "parents": 1,
+  "files": [
+   {
+    "f": "README.es.md",
+    "a": 6,
+    "d": 6
+   },
+   {
+    "f": "README.md",
+    "a": 6,
+    "d": 6
+   },
+   {
+    "f": "docs/epics.md",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "docs/juegos/balsas-de-totora.md",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "docs/juegos/carnaval-de-oruro.md",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "docs/juegos/carrera-stellar.md",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "docs/juegos/chovena.md",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "docs/juegos/cierre-de-libro.md",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "docs/juegos/constelacion-stellar.md",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "docs/juegos/luz-roja-luz-verde.md",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "docs/juegos/pasanaku.md",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "docs/juegos/pinata.md",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "docs/juegos/ruleta.md",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "docs/juegos/teleferico.md",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "docs/juegos/tombola.md",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "docs/juegos/trompo.md",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "docs/marca.md",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "docs/prd.md",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "public/robots.txt",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "public/sitemap.xml",
+    "a": 7,
+    "d": 7
+   },
+   {
+    "f": "src/i18n.ts",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "src/protocol/proof.test.ts",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "src/ui/rebuild.test.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/ui/rules.test.ts",
+    "a": 1,
+    "d": 1
+   }
+  ]
+ },
+ "1a08489953cbe4c29af4d3d4ef7a005dd3c1ec81": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-16T18:21:08Z",
+  "message": "Otro premio: la misma lista sin los ganadores, o una nueva; y la bienvenida",
+  "parents": 1,
+  "files": [
+   {
+    "f": "index.html",
+    "a": 21,
+    "d": 4
+   },
+   {
+    "f": "src/i18n.ts",
+    "a": 32,
+    "d": 4
+   },
+   {
+    "f": "src/main.ts",
+    "a": 4,
+    "d": 1
+   },
+   {
+    "f": "src/styles.css",
+    "a": 36,
+    "d": 0
+   },
+   {
+    "f": "src/ui/draw.ts",
+    "a": 39,
+    "d": 11
+   },
+   {
+    "f": "src/ui/freeze.ts",
+    "a": 7,
+    "d": 6
+   },
+   {
+    "f": "src/ui/onboarding.ts",
+    "a": 51,
+    "d": 0
+   },
+   {
+    "f": "src/ui/participants.ts",
+    "a": 1,
+    "d": 1
+   }
+  ]
+ },
+ "6c68fc8b536a8d63e25c954a9f141146f4491509": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-16T18:03:53Z",
+  "message": "Hacer otro sorteo sin recargar la página",
+  "parents": 1,
+  "files": [
+   {
+    "f": "index.html",
+    "a": 4,
+    "d": 0
+   },
+   {
+    "f": "src/i18n.ts",
+    "a": 6,
+    "d": 0
+   },
+   {
+    "f": "src/main.ts",
+    "a": 2,
+    "d": 1
+   },
+   {
+    "f": "src/styles.css",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/ui/draw.ts",
+    "a": 31,
+    "d": 2
+   },
+   {
+    "f": "src/ui/freeze.ts",
+    "a": 26,
+    "d": 1
+   }
+  ]
  }
 }
