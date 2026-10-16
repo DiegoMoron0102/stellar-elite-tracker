@@ -112600,5 +112600,1995 @@
     "d": 0
    }
   ]
+ },
+ "362148f15ecaf4d6128a6ee046958de44befcf5b": {
+  "team": "Impulso Stellar",
+  "repo": "orlando-vazquez-career/stellar-impulse",
+  "author": "Hans3010",
+  "date": "2026-10-16T15:28:08Z",
+  "message": "Merge pull request #61 from orlando-vazquez-career/lab",
+  "parents": 2,
+  "files": [
+   {
+    "f": ".github/workflows/ci.yml",
+    "a": 11,
+    "d": 1
+   },
+   {
+    "f": "apps/server/src/campaign-flow.test.ts",
+    "a": 0,
+    "d": 56
+   },
+   {
+    "f": "apps/server/src/campaign-room.ts",
+    "a": 2,
+    "d": 0
+   },
+   {
+    "f": "apps/server/src/training-room.ts",
+    "a": 24,
+    "d": 9
+   },
+   {
+    "f": "apps/server/tests/unit/augment-room.test.ts",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "apps/server/tests/unit/auth-limit.test.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "apps/server/tests/unit/auth-storage.test.ts",
+    "a": 3,
+    "d": 3
+   },
+   {
+    "f": "apps/server/tests/unit/auth.test.ts",
+    "a": 3,
+    "d": 3
+   },
+   {
+    "f": "apps/server/tests/unit/battlefield-room.test.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "apps/server/tests/unit/campaign-flow.test.ts",
+    "a": 108,
+    "d": 0
+   },
+   {
+    "f": "apps/server/tests/unit/campaign-rewards.test.ts",
+    "a": 3,
+    "d": 3
+   },
+   {
+    "f": "apps/server/tests/unit/campaign-room.test.ts",
+    "a": 3,
+    "d": 3
+   },
+   {
+    "f": "apps/server/tests/unit/campaign-save-failure.test.ts",
+    "a": 3,
+    "d": 3
+   },
+   {
+    "f": "apps/server/tests/unit/campaign/machine.test.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "apps/server/tests/unit/campaign/map-parity.test.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "apps/server/tests/unit/postgres-store.test.ts",
+    "a": 3,
+    "d": 3
+   },
+   {
+    "f": "apps/server/tests/unit/progression.test.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "apps/server/tests/unit/run-carry.test.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "apps/server/tests/unit/start-shutdown.test.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "apps/server/tests/unit/training-pause.test.ts",
+    "a": 43,
+    "d": 2
+   },
+   {
+    "f": "apps/server/tests/unit/training-rewards.test.ts",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "apps/server/tests/unit/wallet-link.test.ts",
+    "a": 3,
+    "d": 3
+   },
+   {
+    "f": "apps/server/tsconfig.json",
+    "a": 2,
+    "d": 1
+   },
+   {
+    "f": "apps/web/src/multiplayer/session.ts",
+    "a": 7,
+    "d": 4
+   },
+   {
+    "f": "apps/web/src/visual/game/FirstMatchTutorial.tsx",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "apps/web/src/visual/game/GameplayScreen.tsx",
+    "a": 41,
+    "d": 13
+   },
+   {
+    "f": "apps/web/src/visual/game/Hud.tsx",
+    "a": 37,
+    "d": 10
+   },
+   {
+    "f": "apps/web/src/visual/game/battle-hud.css",
+    "a": 25,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/visual/game/control-shortcuts.ts",
+    "a": 13,
+    "d": 3
+   },
+   {
+    "f": "apps/web/src/visual/game/formation.ts",
+    "a": 5,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/visual/game/game-copy.ts",
+    "a": 12,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/visual/game/model.ts",
+    "a": 6,
+    "d": 1
+   },
+   {
+    "f": "apps/web/src/visual/game/phaser/MainScene.ts",
+    "a": 17,
+    "d": 3
+   },
+   {
+    "f": "apps/web/src/visual/game/phaser/PhaserBattlefield.tsx",
+    "a": 6,
+    "d": 1
+   },
+   {
+    "f": "apps/web/src/visual/game/phaser/click-selection.ts",
+    "a": 4,
+    "d": 1
+   },
+   {
+    "f": "apps/web/src/visual/game/phaser/structure-pick.ts",
+    "a": 21,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/visual/game/server-adapter.ts",
+    "a": 26,
+    "d": 13
+   },
+   {
+    "f": "apps/web/src/visual/i18n.tsx",
+    "a": 12,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/visual/lobby/MultiplayerLobby.tsx",
+    "a": 43,
+    "d": 2
+   },
+   {
+    "f": "apps/web/src/visual/lobby/PreparationLobby.tsx",
+    "a": 8,
+    "d": 7
+   },
+   {
+    "f": "apps/web/src/visual/lobby/lobby-copy.ts",
+    "a": 4,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/visual/lobby/lobby.css",
+    "a": 44,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/visual/map/sector-map.ts",
+    "a": 9,
+    "d": 2
+   },
+   {
+    "f": "apps/web/src/visual/settings/SettingsScreen.tsx",
+    "a": 24,
+    "d": 1
+   },
+   {
+    "f": "apps/web/src/visual/settings/control-bindings.ts",
+    "a": 24,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/visual/settings/settings.css",
+    "a": 6,
+    "d": 0
+   },
+   {
+    "f": "apps/web/tests/unit/auth/client.test.ts",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "apps/web/tests/unit/login/login-copy.test.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "apps/web/tests/unit/login/login-state.test.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "apps/web/tests/unit/login/pilot-alias.test.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "apps/web/tests/unit/multiplayer/campaign-transport.test.ts",
+    "a": 3,
+    "d": 3
+   },
+   {
+    "f": "apps/web/tests/unit/multiplayer/multiplayer-copy.test.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "apps/web/tests/unit/multiplayer/session.test.ts",
+    "a": 20,
+    "d": 3
+   },
+   {
+    "f": "apps/web/tests/unit/visual/audio-mix.test.ts",
+    "a": 3,
+    "d": 3
+   },
+   {
+    "f": "apps/web/tests/unit/visual/chain/chain-errors.test.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "apps/web/tests/unit/visual/game/audio.test.ts",
+    "a": 8,
+    "d": 8
+   },
+   {
+    "f": "apps/web/tests/unit/visual/game/control-shortcuts.test.ts",
+    "a": 9,
+    "d": 1
+   },
+   {
+    "f": "apps/web/tests/unit/visual/game/escape-action.test.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "apps/web/tests/unit/visual/game/format-stat.test.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "apps/web/tests/unit/visual/game/formation.test.ts",
+    "a": 11,
+    "d": 0
+   },
+   {
+    "f": "apps/web/tests/unit/visual/game/game-copy.test.ts",
+    "a": 3,
+    "d": 3
+   },
+   {
+    "f": "apps/web/tests/unit/visual/game/game-menu-state.test.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "apps/web/tests/unit/visual/game/hangar-queue.test.ts",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "apps/web/tests/unit/visual/game/hud-logic.test.ts",
+    "a": 3,
+    "d": 3
+   },
+   {
+    "f": "apps/web/tests/unit/visual/game/mock-adapter.test.ts",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "apps/web/tests/unit/visual/game/phaser/capture-geometry.test.ts",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "apps/web/tests/unit/visual/game/phaser/click-selection.test.ts",
+    "a": 17,
+    "d": 3
+   },
+   {
+    "f": "apps/web/tests/unit/visual/game/phaser/free-movement.test.ts",
+    "a": 3,
+    "d": 3
+   },
+   {
+    "f": "apps/web/tests/unit/visual/game/phaser/game-assets.test.ts",
+    "a": 5,
+    "d": 5
+   },
+   {
+    "f": "apps/web/tests/unit/visual/game/phaser/grid.test.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "apps/web/tests/unit/visual/game/phaser/isometric.test.ts",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "apps/web/tests/unit/visual/game/phaser/ship-motion.test.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "apps/web/tests/unit/visual/game/phaser/structure-pick.test.ts",
+    "a": 17,
+    "d": 3
+   },
+   {
+    "f": "apps/web/tests/unit/visual/game/phaser/turret-art.test.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "apps/web/tests/unit/visual/game/server-adapter.test.ts",
+    "a": 47,
+    "d": 3
+   },
+   {
+    "f": "apps/web/tests/unit/visual/game/server-motion.test.ts",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "apps/web/tests/unit/visual/game/tutorial.test.ts",
+    "a": 3,
+    "d": 3
+   },
+   {
+    "f": "apps/web/tests/unit/visual/hangar/catalog.test.ts",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "apps/web/tests/unit/visual/hangar/chain-catalog.test.ts",
+    "a": 3,
+    "d": 3
+   },
+   {
+    "f": "apps/web/tests/unit/visual/hangar/cosmetic-images.test.ts",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "apps/web/tests/unit/visual/hangar/loadout.test.ts",
+    "a": 3,
+    "d": 3
+   },
+   {
+    "f": "apps/web/tests/unit/visual/hangar/preview-audio-hook.test.ts",
+    "a": 3,
+    "d": 3
+   },
+   {
+    "f": "apps/web/tests/unit/visual/hangar/preview-audio.test.ts",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "apps/web/tests/unit/visual/hangar/purchase.test.ts",
+    "a": 4,
+    "d": 4
+   },
+   {
+    "f": "apps/web/tests/unit/visual/i18n.test.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "apps/web/tests/unit/visual/lobby/lobby-copy.test.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "apps/web/tests/unit/visual/map/map-name.test.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "apps/web/tests/unit/visual/map/map-objects.test.ts",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "apps/web/tests/unit/visual/map/map-preview.test.ts",
+    "a": 3,
+    "d": 3
+   },
+   {
+    "f": "apps/web/tests/unit/visual/map/sector-map.test.ts",
+    "a": 4,
+    "d": 4
+   },
+   {
+    "f": "apps/web/tests/unit/visual/market/market-copy.test.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "apps/web/tests/unit/visual/market/market-sections.test.ts",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "apps/web/tests/unit/visual/music.test.ts",
+    "a": 3,
+    "d": 3
+   },
+   {
+    "f": "apps/web/tests/unit/visual/run/run-state.test.ts",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "apps/web/tests/unit/visual/settings/accessibility-store.test.ts",
+    "a": 3,
+    "d": 3
+   },
+   {
+    "f": "apps/web/tests/unit/visual/settings/control-bindings.test.ts",
+    "a": 24,
+    "d": 1
+   },
+   {
+    "f": "apps/web/tests/unit/visual/settings/preferences.test.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "apps/web/tsconfig.json",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "docs/auth-multiplayer.md",
+    "a": 3,
+    "d": 3
+   },
+   {
+    "f": "docs/design.md",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "docs/map-backend.md",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "docs/protocol.md",
+    "a": 7,
+    "d": 4
+   },
+   {
+    "f": "docs/testing.md",
+    "a": 7,
+    "d": 3
+   },
+   {
+    "f": "packages/chain/tests/unit/cosmetics.test.ts",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "packages/chain/tests/unit/index.test.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "packages/chain/tests/unit/marketplace.test.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "packages/chain/tests/unit/wallet-link.test.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "packages/chain/tsconfig.json",
+    "a": 2,
+    "d": 1
+   },
+   {
+    "f": "packages/input/src/playable-maps.ts",
+    "a": 7,
+    "d": 0
+   },
+   {
+    "f": "packages/input/src/protocol.ts",
+    "a": 9,
+    "d": 4
+   },
+   {
+    "f": "packages/input/tests/unit/battlefield.test.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "packages/input/tests/unit/index.test.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "packages/input/tests/unit/password.test.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "packages/input/tests/unit/protocol.test.ts",
+    "a": 12,
+    "d": 1
+   },
+   {
+    "f": "packages/input/tsconfig.json",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "packages/sim/src/augments/catalog.ts",
+    "a": 1,
+    "d": 2
+   },
+   {
+    "f": "packages/sim/src/augments/effects.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "packages/sim/src/augments/runtime.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "packages/sim/src/engine.ts",
+    "a": 1354,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/index.ts",
+    "a": 2,
+    "d": 1415
+   },
+   {
+    "f": "packages/sim/src/inteligencia-enemiga/estrategia.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "packages/sim/src/mapas/movement-lab.ts",
+    "a": 5,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/match-modes.ts",
+    "a": 11,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/naves/index.ts",
+    "a": 5,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/naves/model.ts",
+    "a": 49,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/naves/runtime.ts",
+    "a": 34,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/naves/stats.ts",
+    "a": 4,
+    "d": 8
+   },
+   {
+    "f": "packages/sim/src/naves/types.ts",
+    "a": 26,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar_2/laboratorio-movimiento.json",
+    "a": 3171,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar_2/laboratorio-movimiento.tmx",
+    "a": 102,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/trascendencia-estelar_2/LEEME.md",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "packages/sim/src/world/rules.ts",
+    "a": 36,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/tests/unit/augments/balance.test.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "packages/sim/tests/unit/augments/campaign.test.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "packages/sim/tests/unit/augments/carry.test.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "packages/sim/tests/unit/augments/choices.test.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "packages/sim/tests/unit/augments/effects.test.ts",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "packages/sim/tests/unit/base.test.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "packages/sim/tests/unit/economia.test.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "packages/sim/tests/unit/index.test.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "packages/sim/tests/unit/inteligencia-enemiga/brain.test.ts",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "packages/sim/tests/unit/inteligencia-enemiga/knowledge.test.ts",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "packages/sim/tests/unit/mapas/alturas.test.ts",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "packages/sim/tests/unit/mapas/espiral-2.test.ts",
+    "a": 6,
+    "d": 6
+   },
+   {
+    "f": "packages/sim/tests/unit/mapas/espiral.test.ts",
+    "a": 7,
+    "d": 7
+   },
+   {
+    "f": "packages/sim/tests/unit/mapas/movement-lab.test.ts",
+    "a": 142,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/tests/unit/mapas/obstaculos.test.ts",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "packages/sim/tests/unit/mapas/sector-01.test.ts",
+    "a": 7,
+    "d": 7
+   },
+   {
+    "f": "packages/sim/tests/unit/mapas/trascendencia.test.ts",
+    "a": 3,
+    "d": 3
+   },
+   {
+    "f": "packages/sim/tests/unit/mapas/tsx-tileset.test.ts",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "packages/sim/tests/unit/maps/battlefield.test.ts",
+    "a": 5,
+    "d": 5
+   },
+   {
+    "f": "packages/sim/tests/unit/maps/capture.test.ts",
+    "a": 3,
+    "d": 3
+   },
+   {
+    "f": "packages/sim/tests/unit/maps/occupancy.test.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "packages/sim/tests/unit/maps/pathfinding.test.ts",
+    "a": 3,
+    "d": 3
+   },
+   {
+    "f": "packages/sim/tests/unit/maps/spatial-index.test.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "packages/sim/tests/unit/maps/tiled.test.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "packages/sim/tests/unit/maps/visibility.test.ts",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "packages/sim/tests/unit/maps/world.test.ts",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "packages/sim/tests/unit/match-modes.test.ts",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "packages/sim/tests/unit/mecanicas/cinturon.test.ts",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "packages/sim/tests/unit/mecanicas/formations.test.ts",
+    "a": 29,
+    "d": 23
+   },
+   {
+    "f": "packages/sim/tests/unit/mecanicas/nebulosas.test.ts",
+    "a": 3,
+    "d": 3
+   },
+   {
+    "f": "packages/sim/tests/unit/mecanicas/orders.test.ts",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "packages/sim/tests/unit/mecanicas/pursuit.test.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "packages/sim/tests/unit/mecanicas/satellites.test.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "packages/sim/tests/unit/mecanicas/ship-traffic.test.ts",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "packages/sim/tests/unit/mecanicas/torretas.test.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "packages/sim/tests/unit/mecanicas/weapons.test.ts",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "packages/sim/tests/unit/naves/stats.test.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "packages/sim/tests/unit/production-queue.test.ts",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "packages/sim/tests/unit/progression.test.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "packages/sim/tests/unit/spawn-clearance.test.ts",
+    "a": 3,
+    "d": 3
+   },
+   {
+    "f": "packages/sim/tests/unit/tiled-maps/estructuras-arte.test.ts",
+    "a": 8,
+    "d": 8
+   },
+   {
+    "f": "packages/sim/tsconfig.json",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "packages/state/tests/unit/augments.test.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "packages/state/tests/unit/battlefield.test.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "packages/state/tests/unit/index.test.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "packages/state/tests/unit/weapons.test.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "packages/state/tsconfig.json",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "tests/e2e/formations.spec.ts",
+    "a": 8,
+    "d": 26
+   },
+   {
+    "f": "tests/e2e/helpers.ts",
+    "a": 10,
+    "d": 0
+   },
+   {
+    "f": "tests/e2e/multiplayer.spec.ts",
+    "a": 125,
+    "d": 9
+   },
+   {
+    "f": "tests/e2e/visual-lobby.spec.ts",
+    "a": 341,
+    "d": 2
+   },
+   {
+    "f": "tests/e2e/visual.spec.ts",
+    "a": 5,
+    "d": 0
+   },
+   {
+    "f": "vitest.config.ts",
+    "a": 12,
+    "d": 1
+   }
+  ]
+ },
+ "63c19fff41907af5c6dcc00284d21ee2726bb335": {
+  "team": "Impulso Stellar",
+  "repo": "orlando-vazquez-career/stellar-impulse",
+  "author": "Ismaelolazo",
+  "date": "2026-10-16T02:58:34Z",
+  "message": "test: capture station discovery state in CI",
+  "parents": 1,
+  "files": [
+   {
+    "f": "apps/web/src/visual/game/GameplayScreen.tsx",
+    "a": 4,
+    "d": 1
+   },
+   {
+    "f": "tests/e2e/visual-lobby.spec.ts",
+    "a": 96,
+    "d": 1
+   }
+  ]
+ },
+ "e4c7c574d71230722fbc5c695af10174912340c0": {
+  "team": "Impulso Stellar",
+  "repo": "orlando-vazquez-career/stellar-impulse",
+  "author": "Ismaelolazo",
+  "date": "2026-10-16T02:02:32Z",
+  "message": "test: tolerate delayed CI gameplay acknowledgements",
+  "parents": 1,
+  "files": [
+   {
+    "f": "tests/e2e/multiplayer.spec.ts",
+    "a": 3,
+    "d": 13
+   },
+   {
+    "f": "tests/e2e/visual-lobby.spec.ts",
+    "a": 39,
+    "d": 11
+   }
+  ]
+ },
+ "d78068c2368795b55a0ce12774c0029575f7d6e3": {
+  "team": "Impulso Stellar",
+  "repo": "orlando-vazquez-career/stellar-impulse",
+  "author": "Ismaelolazo",
+  "date": "2026-10-16T01:29:56Z",
+  "message": "test: capture E2E failure diagnostics",
+  "parents": 1,
+  "files": [
+   {
+    "f": "apps/web/src/visual/game/GameplayScreen.tsx",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "tests/e2e/multiplayer.spec.ts",
+    "a": 101,
+    "d": 19
+   },
+   {
+    "f": "tests/e2e/visual-lobby.spec.ts",
+    "a": 134,
+    "d": 15
+   }
+  ]
+ },
+ "0adb0305182199c5ffe279780f4cbcd6a8bc8971": {
+  "team": "Impulso Stellar",
+  "repo": "orlando-vazquez-career/stellar-impulse",
+  "author": "Ismaelolazo",
+  "date": "2026-10-16T00:46:58Z",
+  "message": "ci: upload Playwright diagnostics on failure",
+  "parents": 1,
+  "files": [
+   {
+    "f": ".github/workflows/ci.yml",
+    "a": 10,
+    "d": 0
+   }
+  ]
+ },
+ "61cce69aed67ae5f1aad46e3ba75c442a44ffe99": {
+  "team": "Impulso Stellar",
+  "repo": "orlando-vazquez-career/stellar-impulse",
+  "author": "Ismaelolazo",
+  "date": "2026-10-15T04:04:12Z",
+  "message": "fix: stabilize multiplayer and station E2E checks",
+  "parents": 1,
+  "files": [
+   {
+    "f": "apps/web/tests/unit/multiplayer/session.test.ts",
+    "a": 10,
+    "d": 0
+   },
+   {
+    "f": "tests/e2e/multiplayer.spec.ts",
+    "a": 15,
+    "d": 2
+   },
+   {
+    "f": "tests/e2e/visual-lobby.spec.ts",
+    "a": 11,
+    "d": 7
+   }
+  ]
+ },
+ "95edd148558ed1fc53787a02a3e3015496206b73": {
+  "team": "Impulso Stellar",
+  "repo": "orlando-vazquez-career/stellar-impulse",
+  "author": "Ismaelolazo",
+  "date": "2026-10-15T02:56:32Z",
+  "message": "fix: resolve database CI and station E2E failures",
+  "parents": 1,
+  "files": [
+   {
+    "f": ".github/workflows/ci.yml",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "tests/e2e/visual-lobby.spec.ts",
+    "a": 11,
+    "d": 0
+   }
+  ]
+ },
+ "568e8a565c72d78565b9c0b724c64536844ed0f8": {
+  "team": "Impulso Stellar",
+  "repo": "orlando-vazquez-career/stellar-impulse",
+  "author": "Ismaelolazo",
+  "date": "2026-10-13T01:30:17Z",
+  "message": "feat: add campaign modes and movement sandbox",
+  "parents": 1,
+  "files": [
+   {
+    "f": "apps/server/src/campaign-flow.test.ts",
+    "a": 0,
+    "d": 56
+   },
+   {
+    "f": "apps/server/src/campaign-room.ts",
+    "a": 2,
+    "d": 0
+   },
+   {
+    "f": "apps/server/src/training-room.ts",
+    "a": 24,
+    "d": 9
+   },
+   {
+    "f": "apps/server/tests/unit/augment-room.test.ts",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "apps/server/tests/unit/auth-limit.test.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "apps/server/tests/unit/auth-storage.test.ts",
+    "a": 3,
+    "d": 3
+   },
+   {
+    "f": "apps/server/tests/unit/auth.test.ts",
+    "a": 3,
+    "d": 3
+   },
+   {
+    "f": "apps/server/tests/unit/battlefield-room.test.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "apps/server/tests/unit/campaign-flow.test.ts",
+    "a": 108,
+    "d": 0
+   },
+   {
+    "f": "apps/server/tests/unit/campaign-rewards.test.ts",
+    "a": 3,
+    "d": 3
+   },
+   {
+    "f": "apps/server/tests/unit/campaign-room.test.ts",
+    "a": 3,
+    "d": 3
+   },
+   {
+    "f": "apps/server/tests/unit/campaign-save-failure.test.ts",
+    "a": 3,
+    "d": 3
+   },
+   {
+    "f": "apps/server/tests/unit/campaign/machine.test.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "apps/server/tests/unit/campaign/map-parity.test.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "apps/server/tests/unit/postgres-store.test.ts",
+    "a": 3,
+    "d": 3
+   },
+   {
+    "f": "apps/server/tests/unit/progression.test.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "apps/server/tests/unit/run-carry.test.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "apps/server/tests/unit/start-shutdown.test.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "apps/server/tests/unit/training-pause.test.ts",
+    "a": 43,
+    "d": 2
+   },
+   {
+    "f": "apps/server/tests/unit/training-rewards.test.ts",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "apps/server/tests/unit/wallet-link.test.ts",
+    "a": 3,
+    "d": 3
+   },
+   {
+    "f": "apps/server/tsconfig.json",
+    "a": 2,
+    "d": 1
+   },
+   {
+    "f": "apps/web/src/multiplayer/session.ts",
+    "a": 7,
+    "d": 4
+   },
+   {
+    "f": "apps/web/src/visual/game/FirstMatchTutorial.tsx",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "apps/web/src/visual/game/GameplayScreen.tsx",
+    "a": 38,
+    "d": 13
+   },
+   {
+    "f": "apps/web/src/visual/game/Hud.tsx",
+    "a": 37,
+    "d": 10
+   },
+   {
+    "f": "apps/web/src/visual/game/battle-hud.css",
+    "a": 25,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/visual/game/control-shortcuts.ts",
+    "a": 13,
+    "d": 3
+   },
+   {
+    "f": "apps/web/src/visual/game/formation.ts",
+    "a": 5,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/visual/game/game-copy.ts",
+    "a": 12,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/visual/game/model.ts",
+    "a": 6,
+    "d": 1
+   },
+   {
+    "f": "apps/web/src/visual/game/phaser/MainScene.ts",
+    "a": 17,
+    "d": 3
+   },
+   {
+    "f": "apps/web/src/visual/game/phaser/PhaserBattlefield.tsx",
+    "a": 6,
+    "d": 1
+   },
+   {
+    "f": "apps/web/src/visual/game/phaser/click-selection.ts",
+    "a": 4,
+    "d": 1
+   },
+   {
+    "f": "apps/web/src/visual/game/phaser/structure-pick.ts",
+    "a": 21,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/visual/game/server-adapter.ts",
+    "a": 26,
+    "d": 13
+   },
+   {
+    "f": "apps/web/src/visual/i18n.tsx",
+    "a": 12,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/visual/lobby/MultiplayerLobby.tsx",
+    "a": 43,
+    "d": 2
+   },
+   {
+    "f": "apps/web/src/visual/lobby/PreparationLobby.tsx",
+    "a": 8,
+    "d": 7
+   },
+   {
+    "f": "apps/web/src/visual/lobby/lobby-copy.ts",
+    "a": 4,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/visual/lobby/lobby.css",
+    "a": 44,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/visual/map/sector-map.ts",
+    "a": 9,
+    "d": 2
+   },
+   {
+    "f": "apps/web/src/visual/settings/SettingsScreen.tsx",
+    "a": 24,
+    "d": 1
+   },
+   {
+    "f": "apps/web/src/visual/settings/control-bindings.ts",
+    "a": 24,
+    "d": 0
+   },
+   {
+    "f": "apps/web/src/visual/settings/settings.css",
+    "a": 6,
+    "d": 0
+   },
+   {
+    "f": "apps/web/tests/unit/auth/client.test.ts",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "apps/web/tests/unit/login/login-copy.test.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "apps/web/tests/unit/login/login-state.test.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "apps/web/tests/unit/login/pilot-alias.test.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "apps/web/tests/unit/multiplayer/campaign-transport.test.ts",
+    "a": 3,
+    "d": 3
+   },
+   {
+    "f": "apps/web/tests/unit/multiplayer/multiplayer-copy.test.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "apps/web/tests/unit/multiplayer/session.test.ts",
+    "a": 10,
+    "d": 3
+   },
+   {
+    "f": "apps/web/tests/unit/visual/audio-mix.test.ts",
+    "a": 3,
+    "d": 3
+   },
+   {
+    "f": "apps/web/tests/unit/visual/chain/chain-errors.test.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "apps/web/tests/unit/visual/game/audio.test.ts",
+    "a": 8,
+    "d": 8
+   },
+   {
+    "f": "apps/web/tests/unit/visual/game/control-shortcuts.test.ts",
+    "a": 9,
+    "d": 1
+   },
+   {
+    "f": "apps/web/tests/unit/visual/game/escape-action.test.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "apps/web/tests/unit/visual/game/format-stat.test.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "apps/web/tests/unit/visual/game/formation.test.ts",
+    "a": 11,
+    "d": 0
+   },
+   {
+    "f": "apps/web/tests/unit/visual/game/game-copy.test.ts",
+    "a": 3,
+    "d": 3
+   },
+   {
+    "f": "apps/web/tests/unit/visual/game/game-menu-state.test.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "apps/web/tests/unit/visual/game/hangar-queue.test.ts",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "apps/web/tests/unit/visual/game/hud-logic.test.ts",
+    "a": 3,
+    "d": 3
+   },
+   {
+    "f": "apps/web/tests/unit/visual/game/mock-adapter.test.ts",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "apps/web/tests/unit/visual/game/phaser/capture-geometry.test.ts",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "apps/web/tests/unit/visual/game/phaser/click-selection.test.ts",
+    "a": 17,
+    "d": 3
+   },
+   {
+    "f": "apps/web/tests/unit/visual/game/phaser/free-movement.test.ts",
+    "a": 3,
+    "d": 3
+   },
+   {
+    "f": "apps/web/tests/unit/visual/game/phaser/game-assets.test.ts",
+    "a": 5,
+    "d": 5
+   },
+   {
+    "f": "apps/web/tests/unit/visual/game/phaser/grid.test.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "apps/web/tests/unit/visual/game/phaser/isometric.test.ts",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "apps/web/tests/unit/visual/game/phaser/ship-motion.test.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "apps/web/tests/unit/visual/game/phaser/structure-pick.test.ts",
+    "a": 17,
+    "d": 3
+   },
+   {
+    "f": "apps/web/tests/unit/visual/game/phaser/turret-art.test.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "apps/web/tests/unit/visual/game/server-adapter.test.ts",
+    "a": 47,
+    "d": 3
+   },
+   {
+    "f": "apps/web/tests/unit/visual/game/server-motion.test.ts",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "apps/web/tests/unit/visual/game/tutorial.test.ts",
+    "a": 3,
+    "d": 3
+   },
+   {
+    "f": "apps/web/tests/unit/visual/hangar/catalog.test.ts",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "apps/web/tests/unit/visual/hangar/chain-catalog.test.ts",
+    "a": 3,
+    "d": 3
+   },
+   {
+    "f": "apps/web/tests/unit/visual/hangar/cosmetic-images.test.ts",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "apps/web/tests/unit/visual/hangar/loadout.test.ts",
+    "a": 3,
+    "d": 3
+   },
+   {
+    "f": "apps/web/tests/unit/visual/hangar/preview-audio-hook.test.ts",
+    "a": 3,
+    "d": 3
+   },
+   {
+    "f": "apps/web/tests/unit/visual/hangar/preview-audio.test.ts",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "apps/web/tests/unit/visual/hangar/purchase.test.ts",
+    "a": 4,
+    "d": 4
+   },
+   {
+    "f": "apps/web/tests/unit/visual/i18n.test.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "apps/web/tests/unit/visual/lobby/lobby-copy.test.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "apps/web/tests/unit/visual/map/map-name.test.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "apps/web/tests/unit/visual/map/map-objects.test.ts",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "apps/web/tests/unit/visual/map/map-preview.test.ts",
+    "a": 3,
+    "d": 3
+   },
+   {
+    "f": "apps/web/tests/unit/visual/map/sector-map.test.ts",
+    "a": 4,
+    "d": 4
+   },
+   {
+    "f": "apps/web/tests/unit/visual/market/market-copy.test.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "apps/web/tests/unit/visual/market/market-sections.test.ts",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "apps/web/tests/unit/visual/music.test.ts",
+    "a": 3,
+    "d": 3
+   },
+   {
+    "f": "apps/web/tests/unit/visual/run/run-state.test.ts",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "apps/web/tests/unit/visual/settings/accessibility-store.test.ts",
+    "a": 3,
+    "d": 3
+   },
+   {
+    "f": "apps/web/tests/unit/visual/settings/control-bindings.test.ts",
+    "a": 24,
+    "d": 1
+   },
+   {
+    "f": "apps/web/tests/unit/visual/settings/preferences.test.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "apps/web/tsconfig.json",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "docs/auth-multiplayer.md",
+    "a": 3,
+    "d": 3
+   },
+   {
+    "f": "docs/design.md",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "docs/map-backend.md",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "docs/protocol.md",
+    "a": 7,
+    "d": 4
+   },
+   {
+    "f": "docs/testing.md",
+    "a": 7,
+    "d": 3
+   },
+   {
+    "f": "packages/chain/tests/unit/cosmetics.test.ts",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "packages/chain/tests/unit/index.test.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "packages/chain/tests/unit/marketplace.test.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "packages/chain/tests/unit/wallet-link.test.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "packages/chain/tsconfig.json",
+    "a": 2,
+    "d": 1
+   },
+   {
+    "f": "packages/input/src/playable-maps.ts",
+    "a": 7,
+    "d": 0
+   },
+   {
+    "f": "packages/input/src/protocol.ts",
+    "a": 9,
+    "d": 4
+   },
+   {
+    "f": "packages/input/tests/unit/battlefield.test.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "packages/input/tests/unit/index.test.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "packages/input/tests/unit/password.test.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "packages/input/tests/unit/protocol.test.ts",
+    "a": 12,
+    "d": 1
+   },
+   {
+    "f": "packages/input/tsconfig.json",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "packages/sim/src/augments/catalog.ts",
+    "a": 1,
+    "d": 2
+   },
+   {
+    "f": "packages/sim/src/augments/effects.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "packages/sim/src/augments/runtime.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "packages/sim/src/engine.ts",
+    "a": 1354,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/index.ts",
+    "a": 2,
+    "d": 1415
+   },
+   {
+    "f": "packages/sim/src/inteligencia-enemiga/estrategia.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "packages/sim/src/mapas/movement-lab.ts",
+    "a": 5,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/match-modes.ts",
+    "a": 11,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/naves/index.ts",
+    "a": 5,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/naves/model.ts",
+    "a": 49,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/naves/runtime.ts",
+    "a": 34,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/naves/stats.ts",
+    "a": 4,
+    "d": 8
+   },
+   {
+    "f": "packages/sim/src/naves/types.ts",
+    "a": 26,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar_2/laboratorio-movimiento.json",
+    "a": 3171,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/espiral-estelar_2/laboratorio-movimiento.tmx",
+    "a": 102,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/src/tiled-maps/trascendencia-estelar_2/LEEME.md",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "packages/sim/src/world/rules.ts",
+    "a": 36,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/tests/unit/augments/balance.test.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "packages/sim/tests/unit/augments/campaign.test.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "packages/sim/tests/unit/augments/carry.test.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "packages/sim/tests/unit/augments/choices.test.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "packages/sim/tests/unit/augments/effects.test.ts",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "packages/sim/tests/unit/base.test.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "packages/sim/tests/unit/economia.test.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "packages/sim/tests/unit/index.test.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "packages/sim/tests/unit/inteligencia-enemiga/brain.test.ts",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "packages/sim/tests/unit/inteligencia-enemiga/knowledge.test.ts",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "packages/sim/tests/unit/mapas/alturas.test.ts",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "packages/sim/tests/unit/mapas/espiral-2.test.ts",
+    "a": 6,
+    "d": 6
+   },
+   {
+    "f": "packages/sim/tests/unit/mapas/espiral.test.ts",
+    "a": 7,
+    "d": 7
+   },
+   {
+    "f": "packages/sim/tests/unit/mapas/movement-lab.test.ts",
+    "a": 142,
+    "d": 0
+   },
+   {
+    "f": "packages/sim/tests/unit/mapas/obstaculos.test.ts",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "packages/sim/tests/unit/mapas/sector-01.test.ts",
+    "a": 7,
+    "d": 7
+   },
+   {
+    "f": "packages/sim/tests/unit/mapas/trascendencia.test.ts",
+    "a": 3,
+    "d": 3
+   },
+   {
+    "f": "packages/sim/tests/unit/mapas/tsx-tileset.test.ts",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "packages/sim/tests/unit/maps/battlefield.test.ts",
+    "a": 5,
+    "d": 5
+   },
+   {
+    "f": "packages/sim/tests/unit/maps/capture.test.ts",
+    "a": 3,
+    "d": 3
+   },
+   {
+    "f": "packages/sim/tests/unit/maps/occupancy.test.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "packages/sim/tests/unit/maps/pathfinding.test.ts",
+    "a": 3,
+    "d": 3
+   },
+   {
+    "f": "packages/sim/tests/unit/maps/spatial-index.test.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "packages/sim/tests/unit/maps/tiled.test.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "packages/sim/tests/unit/maps/visibility.test.ts",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "packages/sim/tests/unit/maps/world.test.ts",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "packages/sim/tests/unit/match-modes.test.ts",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "packages/sim/tests/unit/mecanicas/cinturon.test.ts",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "packages/sim/tests/unit/mecanicas/formations.test.ts",
+    "a": 29,
+    "d": 23
+   },
+   {
+    "f": "packages/sim/tests/unit/mecanicas/nebulosas.test.ts",
+    "a": 3,
+    "d": 3
+   },
+   {
+    "f": "packages/sim/tests/unit/mecanicas/orders.test.ts",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "packages/sim/tests/unit/mecanicas/pursuit.test.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "packages/sim/tests/unit/mecanicas/satellites.test.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "packages/sim/tests/unit/mecanicas/ship-traffic.test.ts",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "packages/sim/tests/unit/mecanicas/torretas.test.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "packages/sim/tests/unit/mecanicas/weapons.test.ts",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "packages/sim/tests/unit/naves/stats.test.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "packages/sim/tests/unit/production-queue.test.ts",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "packages/sim/tests/unit/progression.test.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "packages/sim/tests/unit/spawn-clearance.test.ts",
+    "a": 3,
+    "d": 3
+   },
+   {
+    "f": "packages/sim/tests/unit/tiled-maps/estructuras-arte.test.ts",
+    "a": 8,
+    "d": 8
+   },
+   {
+    "f": "packages/sim/tsconfig.json",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "packages/state/tests/unit/augments.test.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "packages/state/tests/unit/battlefield.test.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "packages/state/tests/unit/index.test.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "packages/state/tests/unit/weapons.test.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "packages/state/tsconfig.json",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "tests/e2e/formations.spec.ts",
+    "a": 8,
+    "d": 26
+   },
+   {
+    "f": "tests/e2e/helpers.ts",
+    "a": 10,
+    "d": 0
+   },
+   {
+    "f": "tests/e2e/multiplayer.spec.ts",
+    "a": 31,
+    "d": 0
+   },
+   {
+    "f": "tests/e2e/visual-lobby.spec.ts",
+    "a": 83,
+    "d": 1
+   },
+   {
+    "f": "tests/e2e/visual.spec.ts",
+    "a": 5,
+    "d": 0
+   },
+   {
+    "f": "vitest.config.ts",
+    "a": 12,
+    "d": 1
+   }
+  ]
  }
 }

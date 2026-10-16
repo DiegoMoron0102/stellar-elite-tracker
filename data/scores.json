@@ -1,15 +1,15 @@
 {
- "generado": "2026-10-16T10:21:38+00:00",
+ "generado": "2026-10-16T15:47:35+00:00",
  "programa": "Stellar Elite",
  "start_date": "2026-09-02T00:00:00Z",
  "teams": [
   {
    "name": "Impulso Stellar",
-   "total": 1870.03,
-   "per_capita": 1870.03,
-   "commits": 343,
-   "pts_commits": 1777.03,
-   "dias_activos": 15,
+   "total": 1925.67,
+   "per_capita": 1925.67,
+   "commits": 351,
+   "pts_commits": 1817.67,
+   "dias_activos": 18,
    "contribuidores": [
     "Copilot",
     "Hans3010",
@@ -380,7 +380,10 @@
    "2026-10-07": 88.21,
    "2026-10-08": 107.44,
    "2026-10-09": 260.93999999999994,
-   "2026-10-10": 782.0900000000001
+   "2026-10-10": 782.0900000000001,
+   "2026-10-13": 1.0,
+   "2026-10-15": 11.329999999999998,
+   "2026-10-16": 28.310000000000002
   },
   "BOLAR": {
    "2026-09-22": 9.25,
@@ -517,7 +520,10 @@
    "2026-10-07": 23,
    "2026-10-08": 30,
    "2026-10-09": 51,
-   "2026-10-10": 127
+   "2026-10-10": 127,
+   "2026-10-13": 1,
+   "2026-10-15": 2,
+   "2026-10-16": 5
   },
   "BOLAR": {
    "2026-09-22": 1,
@@ -564,6 +570,16 @@
  },
  "commits": [
   {
+   "sha": "362148f",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "Hans3010",
+   "date": "2026-10-16T15:28:08Z",
+   "msg": "Merge pull request #61 from orlando-vazquez-career/lab",
+   "pts": 0.0,
+   "nota": "merge"
+  },
+  {
    "sha": "368430b",
    "team": "Puls3",
    "repo": "Zer0-Knowledge-Hack/puls3",
@@ -581,6 +597,66 @@
    "date": "2026-10-16T03:18:24Z",
    "msg": "docs(readme): note the expected Blockaid warning on the live demo (#181) (#186)",
    "pts": 2.58,
+   "nota": ""
+  },
+  {
+   "sha": "63c19ff",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "Ismaelolazo",
+   "date": "2026-10-16T02:58:34Z",
+   "msg": "test: capture station discovery state in CI",
+   "pts": 7.69,
+   "nota": ""
+  },
+  {
+   "sha": "e4c7c57",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "Ismaelolazo",
+   "date": "2026-10-16T02:02:32Z",
+   "msg": "test: tolerate delayed CI gameplay acknowledgements",
+   "pts": 7.07,
+   "nota": ""
+  },
+  {
+   "sha": "d78068c",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "Ismaelolazo",
+   "date": "2026-10-16T01:29:56Z",
+   "msg": "test: capture E2E failure diagnostics",
+   "pts": 9.09,
+   "nota": ""
+  },
+  {
+   "sha": "0adb030",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "Ismaelolazo",
+   "date": "2026-10-16T00:46:58Z",
+   "msg": "ci: upload Playwright diagnostics on failure",
+   "pts": 4.46,
+   "nota": ""
+  },
+  {
+   "sha": "61cce69",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "Ismaelolazo",
+   "date": "2026-10-15T04:04:12Z",
+   "msg": "fix: stabilize multiplayer and station E2E checks",
+   "pts": 6.52,
+   "nota": ""
+  },
+  {
+   "sha": "95edd14",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "Ismaelolazo",
+   "date": "2026-10-15T02:56:32Z",
+   "msg": "fix: resolve database CI and station E2E failures",
+   "pts": 4.81,
    "nota": ""
   },
   {
@@ -732,6 +808,16 @@
    "msg": "feat(brand): publish brand guidelines and downloadable assets (#171)",
    "pts": 10,
    "nota": ""
+  },
+  {
+   "sha": "568e8a5",
+   "team": "Impulso Stellar",
+   "repo": "orlando-vazquez-career/stellar-impulse",
+   "author": "Ismaelolazo",
+   "date": "2026-10-13T01:30:17Z",
+   "msg": "feat: add campaign modes and movement sandbox",
+   "pts": 1.0,
+   "nota": "import masivo (184 archivos)"
   },
   {
    "sha": "5a2b9f8",
