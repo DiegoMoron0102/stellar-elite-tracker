@@ -112525,5 +112525,80 @@
     "d": 0
    }
   ]
+ },
+ "368430bc6e0948d83303442c2e2ebcf550d3a6d6": {
+  "team": "Puls3",
+  "repo": "Zer0-Knowledge-Hack/puls3",
+  "author": "Pericena",
+  "date": "2026-10-16T03:36:06Z",
+  "message": "feat(flutter): landing page that explains puls3: problem, audiences, how it works, live agents, comparison, Stellar iden",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/blueprints/wireframes/S01-landing-1440.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/blueprints/wireframes/S01-landing-390.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/lib/src/domain/landing_content.dart",
+    "a": 221,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/lib/src/domain/project_links.dart",
+    "a": 26,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/lib/src/screens/landing_screen.dart",
+    "a": 690,
+    "d": 113
+   },
+   {
+    "f": "puls3_flutter/lib/src/ui/molecules/agent_showcase_card.dart",
+    "a": 276,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/lib/src/ui/organisms/landing/how_it_works_diagram.dart",
+    "a": 380,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/lib/src/ui/organisms/landing/landing_blocks.dart",
+    "a": 552,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/lib/src/ui/organisms/landing/landing_sections.dart",
+    "a": 415,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/test/screens/landing_screen_test.dart",
+    "a": 194,
+    "d": 13
+   }
+  ]
+ },
+ "d08b4e74d30caa6f2a00a915b7dfaedc33d2503a": {
+  "team": "Puls3",
+  "repo": "Zer0-Knowledge-Hack/puls3",
+  "author": "fercodes",
+  "date": "2026-10-16T03:18:24Z",
+  "message": "docs(readme): note the expected Blockaid warning on the live demo (#181) (#186)",
+  "parents": 1,
+  "files": [
+   {
+    "f": "README.md",
+    "a": 2,
+    "d": 0
+   }
+  ]
  }
 }

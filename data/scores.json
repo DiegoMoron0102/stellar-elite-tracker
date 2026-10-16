@@ -1,5 +1,5 @@
 {
- "generado": "2026-10-16T02:18:30+00:00",
+ "generado": "2026-10-16T10:21:38+00:00",
  "programa": "Stellar Elite",
  "start_date": "2026-09-02T00:00:00Z",
  "teams": [
@@ -43,11 +43,11 @@
   },
   {
    "name": "Puls3",
-   "total": 935.94,
-   "per_capita": 935.94,
-   "commits": 133,
-   "pts_commits": 822.94,
-   "dias_activos": 19,
+   "total": 953.52,
+   "per_capita": 953.52,
+   "commits": 135,
+   "pts_commits": 835.52,
+   "dias_activos": 20,
    "contribuidores": [
     "Pericena",
     "TOMOKI977",
@@ -316,7 +316,8 @@
    "2026-10-10": 36.45,
    "2026-10-11": 75.45,
    "2026-10-13": 46.61,
-   "2026-10-14": 58.589999999999996
+   "2026-10-14": 58.589999999999996,
+   "2026-10-16": 12.58
   },
   "Tinkazo": {
    "2026-09-16": 66.21000000000001,
@@ -452,7 +453,8 @@
    "2026-10-10": 5,
    "2026-10-11": 9,
    "2026-10-13": 5,
-   "2026-10-14": 9
+   "2026-10-14": 9,
+   "2026-10-16": 2
   },
   "Tinkazo": {
    "2026-09-16": 8,
@@ -561,6 +563,26 @@
   }
  },
  "commits": [
+  {
+   "sha": "368430b",
+   "team": "Puls3",
+   "repo": "Zer0-Knowledge-Hack/puls3",
+   "author": "Pericena",
+   "date": "2026-10-16T03:36:06Z",
+   "msg": "feat(flutter): landing page that explains puls3: problem, audiences, how it works, live agents, comparison, Stellar iden",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "d08b4e7",
+   "team": "Puls3",
+   "repo": "Zer0-Knowledge-Hack/puls3",
+   "author": "fercodes",
+   "date": "2026-10-16T03:18:24Z",
+   "msg": "docs(readme): note the expected Blockaid warning on the live demo (#181) (#186)",
+   "pts": 2.58,
+   "nota": ""
+  },
   {
    "sha": "b65c62e",
    "team": "Puls3",
