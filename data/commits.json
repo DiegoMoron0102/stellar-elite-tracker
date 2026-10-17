@@ -114860,5 +114860,400 @@
     "d": 1
    }
   ]
+ },
+ "347f416422dabc1d1a3f297086f66da7ab094174": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-17T00:13:31Z",
+  "message": "La sala ve el sorteo, no el trámite",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/juegos.md",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "index.html",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "juegos.html",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/games/llamas/pixi-race.ts",
+    "a": 10,
+    "d": 3
+   },
+   {
+    "f": "src/games/pixi/pinata.ts",
+    "a": 5,
+    "d": 2
+   },
+   {
+    "f": "src/games/pixi/quien.ts",
+    "a": 9,
+    "d": 5
+   },
+   {
+    "f": "src/games/race.ts",
+    "a": 6,
+    "d": 4
+   },
+   {
+    "f": "src/i18n.ts",
+    "a": 38,
+    "d": 20
+   },
+   {
+    "f": "src/main.ts",
+    "a": 3,
+    "d": 0
+   },
+   {
+    "f": "src/state.test.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/state.ts",
+    "a": 18,
+    "d": 4
+   },
+   {
+    "f": "src/stellar/contract.ts",
+    "a": 3,
+    "d": 0
+   },
+   {
+    "f": "src/styles.css",
+    "a": 79,
+    "d": 25
+   },
+   {
+    "f": "src/ui/account.ts",
+    "a": 4,
+    "d": 1
+   },
+   {
+    "f": "src/ui/draw.ts",
+    "a": 177,
+    "d": 99
+   },
+   {
+    "f": "src/ui/freeze.ts",
+    "a": 74,
+    "d": 23
+   },
+   {
+    "f": "src/ui/gamecard.ts",
+    "a": 7,
+    "d": 4
+   },
+   {
+    "f": "src/ui/history.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/ui/onboarding.ts",
+    "a": 6,
+    "d": 2
+   },
+   {
+    "f": "src/ui/pantalla.ts",
+    "a": 61,
+    "d": 14
+   },
+   {
+    "f": "src/ui/qr.ts",
+    "a": 30,
+    "d": 8
+   },
+   {
+    "f": "src/ui/sala.ts",
+    "a": 31,
+    "d": 5
+   },
+   {
+    "f": "src/ui/wallet-ui.ts",
+    "a": 21,
+    "d": 1
+   },
+   {
+    "f": "src/verify.ts",
+    "a": 18,
+    "d": 5
+   },
+   {
+    "f": "terminos.html",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "vercel.json",
+    "a": 21,
+    "d": 1
+   },
+   {
+    "f": "verificar.html",
+    "a": 19,
+    "d": 19
+   }
+  ]
+ },
+ "cc45b469f96100a379d1e4ee6cd22e54f0182480": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-16T21:52:57Z",
+  "message": "\"No está\" y la imagen del resultado para redes",
+  "parents": 1,
+  "files": [
+   {
+    "f": "index.html",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/i18n.ts",
+    "a": 43,
+    "d": 0
+   },
+   {
+    "f": "src/main.ts",
+    "a": 4,
+    "d": 1
+   },
+   {
+    "f": "src/styles.css",
+    "a": 16,
+    "d": 1
+   },
+   {
+    "f": "src/ui/draw.ts",
+    "a": 80,
+    "d": 8
+   },
+   {
+    "f": "src/ui/imagen.ts",
+    "a": 398,
+    "d": 0
+   }
+  ]
+ },
+ "43320423544daf1e38cd36654101551191a9c9ce": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-16T21:20:54Z",
+  "message": "El contador de visitas, en su propio archivo",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/main.ts",
+    "a": 3,
+    "d": 2
+   },
+   {
+    "f": "src/pagina.ts",
+    "a": 3,
+    "d": 2
+   },
+   {
+    "f": "src/verify.ts",
+    "a": 3,
+    "d": 2
+   }
+  ]
+ },
+ "e204e1f9db0680246db1607a803731c11b1fcaac": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-16T20:58:55Z",
+  "message": "Contar visitas sin contar personas, y los términos lo dicen",
+  "parents": 1,
+  "files": [
+   {
+    "f": "README.es.md",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "README.md",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "docs/legal.md",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/analytics.test.ts",
+    "a": 31,
+    "d": 0
+   },
+   {
+    "f": "src/analytics.ts",
+    "a": 60,
+    "d": 0
+   },
+   {
+    "f": "src/i18n.ts",
+    "a": 10,
+    "d": 8
+   },
+   {
+    "f": "src/main.ts",
+    "a": 2,
+    "d": 0
+   },
+   {
+    "f": "src/pagina.ts",
+    "a": 2,
+    "d": 0
+   },
+   {
+    "f": "src/verify.ts",
+    "a": 2,
+    "d": 0
+   },
+   {
+    "f": "terminos.html",
+    "a": 5,
+    "d": 4
+   }
+  ]
+ },
+ "b3c9396eccc15156a865454a011826c97b742423": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-16T20:36:37Z",
+  "message": "¡Cuenten conmigo! y el resultado en grande para el proyector",
+  "parents": 1,
+  "files": [
+   {
+    "f": "index.html",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "src/i18n.ts",
+    "a": 10,
+    "d": 0
+   },
+   {
+    "f": "src/main.ts",
+    "a": 2,
+    "d": 1
+   },
+   {
+    "f": "src/state.ts",
+    "a": 10,
+    "d": 1
+   },
+   {
+    "f": "src/styles.css",
+    "a": 30,
+    "d": 0
+   },
+   {
+    "f": "src/ui/draw.ts",
+    "a": 10,
+    "d": 2
+   },
+   {
+    "f": "src/ui/gamecard.ts",
+    "a": 34,
+    "d": 4
+   },
+   {
+    "f": "src/ui/pantalla.ts",
+    "a": 71,
+    "d": 0
+   }
+  ]
+ },
+ "b25dcf6fb3b0c1dc4c129da9b1b5eb395a3bf6e6": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-16T19:46:07Z",
+  "message": "Al compartir un enlace, se ve Tinkazo",
+  "parents": 1,
+  "files": [
+   {
+    "f": "como-funciona.html",
+    "a": 10,
+    "d": 0
+   },
+   {
+    "f": "historia.html",
+    "a": 10,
+    "d": 0
+   },
+   {
+    "f": "index.html",
+    "a": 10,
+    "d": 0
+   },
+   {
+    "f": "juegos.html",
+    "a": 10,
+    "d": 0
+   },
+   {
+    "f": "lista.html",
+    "a": 10,
+    "d": 0
+   },
+   {
+    "f": "precios.html",
+    "a": 10,
+    "d": 0
+   },
+   {
+    "f": "public/404.html",
+    "a": 47,
+    "d": 0
+   },
+   {
+    "f": "public/apple-touch-icon.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/og-verificar.jpg",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/og.jpg",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "seguridad.html",
+    "a": 10,
+    "d": 0
+   },
+   {
+    "f": "terminos.html",
+    "a": 10,
+    "d": 0
+   },
+   {
+    "f": "verificar.html",
+    "a": 13,
+    "d": 0
+   }
+  ]
  }
 }

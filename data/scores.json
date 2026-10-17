@@ -1,5 +1,5 @@
 {
- "generado": "2026-10-16T20:16:22+00:00",
+ "generado": "2026-10-17T02:10:54+00:00",
  "programa": "Stellar Elite",
  "start_date": "2026-09-02T00:00:00Z",
  "teams": [
@@ -26,11 +26,11 @@
   },
   {
    "name": "Tinkazo",
-   "total": 1436.77,
-   "per_capita": 1436.77,
-   "commits": 174,
-   "pts_commits": 1335.77,
-   "dias_activos": 19,
+   "total": 1491.41,
+   "per_capita": 1491.41,
+   "commits": 180,
+   "pts_commits": 1385.41,
+   "dias_activos": 20,
    "contribuidores": [
     "GuidoSV7",
     "nema1502"
@@ -338,7 +338,8 @@
    "2026-10-07": 25.020000000000003,
    "2026-10-08": 130.68,
    "2026-10-09": 23.970000000000002,
-   "2026-10-16": 31.89
+   "2026-10-16": 71.53,
+   "2026-10-17": 10.0
   },
   "CompraGasolinaBidon": {
    "2026-09-06": 1.0,
@@ -479,7 +480,8 @@
    "2026-10-07": 4,
    "2026-10-08": 19,
    "2026-10-09": 4,
-   "2026-10-16": 4
+   "2026-10-16": 9,
+   "2026-10-17": 1
   },
   "CompraGasolinaBidon": {
    "2026-09-06": 1,
@@ -571,6 +573,66 @@
   }
  },
  "commits": [
+  {
+   "sha": "347f416",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-10-17T00:13:31Z",
+   "msg": "La sala ve el sorteo, no el trámite",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "cc45b46",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-10-16T21:52:57Z",
+   "msg": "\"No está\" y la imagen del resultado para redes",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "4332042",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-10-16T21:20:54Z",
+   "msg": "El contador de visitas, en su propio archivo",
+   "pts": 5.0,
+   "nota": ""
+  },
+  {
+   "sha": "e204e1f",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-10-16T20:58:55Z",
+   "msg": "Contar visitas sin contar personas, y los términos lo dicen",
+   "pts": 8.03,
+   "nota": ""
+  },
+  {
+   "sha": "b3c9396",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-10-16T20:36:37Z",
+   "msg": "¡Cuenten conmigo! y el resultado en grande para el proyector",
+   "pts": 8.47,
+   "nota": ""
+  },
+  {
+   "sha": "b25dcf6",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-10-16T19:46:07Z",
+   "msg": "Al compartir un enlace, se ve Tinkazo",
+   "pts": 8.14,
+   "nota": ""
+  },
   {
    "sha": "10588db",
    "team": "Tinkazo",
