@@ -1,5 +1,5 @@
 {
- "generado": "2026-10-17T14:40:23+00:00",
+ "generado": "2026-10-17T19:51:37+00:00",
  "programa": "Stellar Elite",
  "start_date": "2026-09-02T00:00:00Z",
  "teams": [
@@ -43,11 +43,11 @@
   },
   {
    "name": "Puls3",
-   "total": 953.52,
-   "per_capita": 953.52,
-   "commits": 135,
-   "pts_commits": 835.52,
-   "dias_activos": 20,
+   "total": 966.92,
+   "per_capita": 966.92,
+   "commits": 136,
+   "pts_commits": 843.92,
+   "dias_activos": 21,
    "contribuidores": [
     "Pericena",
     "TOMOKI977",
@@ -317,7 +317,8 @@
    "2026-10-11": 75.45,
    "2026-10-13": 46.61,
    "2026-10-14": 58.589999999999996,
-   "2026-10-16": 12.58
+   "2026-10-16": 12.58,
+   "2026-10-17": 8.4
   },
   "Tinkazo": {
    "2026-09-16": 66.21000000000001,
@@ -459,7 +460,8 @@
    "2026-10-11": 9,
    "2026-10-13": 5,
    "2026-10-14": 9,
-   "2026-10-16": 2
+   "2026-10-16": 2,
+   "2026-10-17": 1
   },
   "Tinkazo": {
    "2026-09-16": 8,
@@ -573,6 +575,16 @@
   }
  },
  "commits": [
+  {
+   "sha": "a8d6c09",
+   "team": "Puls3",
+   "repo": "Zer0-Knowledge-Hack/puls3",
+   "author": "fercodes",
+   "date": "2026-10-17T16:49:39Z",
+   "msg": "docs(submission): land the Serverpod submission document (#181) (#183)",
+   "pts": 8.4,
+   "nota": ""
+  },
   {
    "sha": "dc94159",
    "team": "Tinkazo",

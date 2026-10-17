@@ -115270,5 +115270,20 @@
     "d": 2
    }
   ]
+ },
+ "a8d6c09a8e60a71914602728067b23a0d5148e92": {
+  "team": "Puls3",
+  "repo": "Zer0-Knowledge-Hack/puls3",
+  "author": "fercodes",
+  "date": "2026-10-17T16:49:39Z",
+  "message": "docs(submission): land the Serverpod submission document (#181) (#183)",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/submission/serverpod.md",
+    "a": 168,
+    "d": 0
+   }
+  ]
  }
 }
