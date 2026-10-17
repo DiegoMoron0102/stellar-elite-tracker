@@ -115255,5 +115255,20 @@
     "d": 0
    }
   ]
+ },
+ "dc94159e7888a5f0f567ce68a6b76855d10efcfe": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-17T02:27:03Z",
+  "message": "La imagen para redes: el premio, en dos renglones",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/ui/imagen.ts",
+    "a": 3,
+    "d": 2
+   }
+  ]
  }
 }
