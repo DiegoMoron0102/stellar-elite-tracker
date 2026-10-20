@@ -115285,5 +115285,230 @@
     "d": 0
    }
   ]
+ },
+ "1e2652e696ac470d3a15f0a6110adb3469698606": {
+  "team": "Puls3",
+  "repo": "Zer0-Knowledge-Hack/puls3",
+  "author": "moises-cisneros",
+  "date": "2026-10-19T23:13:19Z",
+  "message": "chore(server): harden the chain submission tracker correctness paths (#101) (#189)",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/architecture/api.md",
+    "a": 17,
+    "d": 11
+   },
+   {
+    "f": "openspec/changes/archive/2026-10-19-issue-101-tracker-correctness/design.md",
+    "a": 89,
+    "d": 0
+   },
+   {
+    "f": "openspec/changes/archive/2026-10-19-issue-101-tracker-correctness/exploration.md",
+    "a": 45,
+    "d": 0
+   },
+   {
+    "f": "openspec/changes/archive/2026-10-19-issue-101-tracker-correctness/proposal.md",
+    "a": 68,
+    "d": 0
+   },
+   {
+    "f": "openspec/changes/archive/2026-10-19-issue-101-tracker-correctness/specs/chain-submission-tracking/spec.md",
+    "a": 196,
+    "d": 0
+   },
+   {
+    "f": "openspec/changes/archive/2026-10-19-issue-101-tracker-correctness/specs/escrow-relay/spec.md",
+    "a": 56,
+    "d": 0
+   },
+   {
+    "f": "openspec/changes/archive/2026-10-19-issue-101-tracker-correctness/specs/soroban-rpc-ledger-adapter/spec.md",
+    "a": 58,
+    "d": 0
+   },
+   {
+    "f": "openspec/changes/archive/2026-10-19-issue-101-tracker-correctness/tasks.md",
+    "a": 68,
+    "d": 0
+   },
+   {
+    "f": "openspec/changes/archive/2026-10-19-issue-101-tracker-correctness/verify-report.md",
+    "a": 68,
+    "d": 0
+   },
+   {
+    "f": "openspec/specs/chain-submission-tracking/spec.md",
+    "a": 196,
+    "d": 0
+   },
+   {
+    "f": "openspec/specs/escrow-relay/spec.md",
+    "a": 21,
+    "d": 6
+   },
+   {
+    "f": "openspec/specs/soroban-rpc-ledger-adapter/spec.md",
+    "a": 23,
+    "d": 1
+   },
+   {
+    "f": "puls3_server/README.md",
+    "a": 23,
+    "d": 2
+   },
+   {
+    "f": "puls3_server/lib/src/chain/chain_submission_tracker.dart",
+    "a": 157,
+    "d": 34
+   },
+   {
+    "f": "puls3_server/lib/src/chain/escrow_effects.dart",
+    "a": 49,
+    "d": 7
+   },
+   {
+    "f": "puls3_server/lib/src/chain/escrow_server_submit.dart",
+    "a": 14,
+    "d": 3
+   },
+   {
+    "f": "puls3_server/lib/src/chain/submission_ledger.dart",
+    "a": 18,
+    "d": 8
+   },
+   {
+    "f": "puls3_server/lib/src/chain/submission_values.dart",
+    "a": 5,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/hire/escrow_relay_service.dart",
+    "a": 11,
+    "d": 1
+   },
+   {
+    "f": "puls3_server/lib/src/hire/hire_escrow_effects.dart",
+    "a": 96,
+    "d": 26
+   },
+   {
+    "f": "puls3_server/lib/src/ledger/escrow_events.dart",
+    "a": 15,
+    "d": 12
+   },
+   {
+    "f": "puls3_server/lib/src/ledger/soroban_rpc_client.dart",
+    "a": 12,
+    "d": 1
+   },
+   {
+    "f": "puls3_server/lib/src/ledger/soroban_submission_ledger.dart",
+    "a": 7,
+    "d": 4
+   },
+   {
+    "f": "puls3_server/lib/src/protocol/puls3_api_exception.spy.yaml",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "puls3_server/lib/src/studio/studio_deploy_service.dart",
+    "a": 5,
+    "d": 5
+   },
+   {
+    "f": "puls3_server/test/feedback/escrow_relay_feedback_test.dart",
+    "a": 18,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/test/hire/escrow_relay_service_test.dart",
+    "a": 65,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/test/hire/escrow_relay_submit_test.dart",
+    "a": 16,
+    "d": 8
+   },
+   {
+    "f": "puls3_server/test/integration/chain_submission_tracker_restart_test.dart",
+    "a": 8,
+    "d": 6
+   },
+   {
+    "f": "puls3_server/test/integration/hire_relay_flow_test.dart",
+    "a": 7,
+    "d": 4
+   },
+   {
+    "f": "puls3_server/test/studio/studio_deploy_service_test.dart",
+    "a": 14,
+    "d": 5
+   },
+   {
+    "f": "puls3_server/test/support/chain_submission_store_contract.dart",
+    "a": 13,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/test/support/fake_escrow_effects.dart",
+    "a": 25,
+    "d": 3
+   },
+   {
+    "f": "puls3_server/test/support/fake_submission_ledger.dart",
+    "a": 11,
+    "d": 3
+   },
+   {
+    "f": "puls3_server/test/unit/chain/chain_submission_tracker_test.dart",
+    "a": 450,
+    "d": 36
+   },
+   {
+    "f": "puls3_server/test/unit/chain/escrow_effects_test.dart",
+    "a": 30,
+    "d": 16
+   },
+   {
+    "f": "puls3_server/test/unit/chain/escrow_server_submit_test.dart",
+    "a": 5,
+    "d": 1
+   },
+   {
+    "f": "puls3_server/test/unit/chain/submission_values_test.dart",
+    "a": 4,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/test/unit/hire/hire_escrow_effects_test.dart",
+    "a": 270,
+    "d": 19
+   },
+   {
+    "f": "puls3_server/test/unit/ledger/escrow_events_test.dart",
+    "a": 61,
+    "d": 17
+   },
+   {
+    "f": "puls3_server/test/unit/ledger/soroban_rpc_client_test.dart",
+    "a": 43,
+    "d": 8
+   },
+   {
+    "f": "puls3_server/test/unit/ledger/soroban_submission_ledger_test.dart",
+    "a": 43,
+    "d": 10
+   },
+   {
+    "f": "puls3_server/tool/e2e_feedback_testnet.dart",
+    "a": 1,
+    "d": 1
+   }
+  ]
  }
 }
