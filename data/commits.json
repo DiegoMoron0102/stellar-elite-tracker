@@ -115510,5 +115510,3265 @@
     "d": 1
    }
   ]
+ },
+ "889899369f06556b4b5ed5330ef42d960a497a59": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-20T06:57:59Z",
+  "message": "Docs: la chovena y la ruleta cuentan los nombres, la cámara y el relator como quedaron",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/juegos/chovena.md",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "docs/juegos/ruleta.md",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "docs/motores.md",
+    "a": 1,
+    "d": 1
+   }
+  ]
+ },
+ "329c94e7a11447752ab1a159a74d84a1fee5232d": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-20T06:51:51Z",
+  "message": "Ruleta: el relator nombra el gajo que la flecha tiene debajo y no uno que ya pasó",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/games/pixi/wheel.ts",
+    "a": 9,
+    "d": 6
+   }
+  ]
+ },
+ "5a98103a57eaf144c2d738b0e975e255f400ea7e": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-20T06:51:51Z",
+  "message": "Chovena: la pareja final no se tapa las cabezas, pasar lista de a cuatro y los nombres no pisan lo reservado",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/games/pixi/chovena.ts",
+    "a": 71,
+    "d": 17
+   }
+  ]
+ },
+ "2295c93a6fcff4c990e7dd4870bd57ecf429684d": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-20T11:58:25Z",
+  "message": "Prueba que styles.css cierra todos sus bloques",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/estilos.test.ts",
+    "a": 53,
+    "d": 0
+   }
+  ]
+ },
+ "95b53f5849554b3ad5413d87132472765000e37a": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-20T11:22:08Z",
+  "message": "Cierra el bloque de pantalla baja que quedó abierto al juntar los fondos: sus reglas solo valían con menos de 520 px de ",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/styles.css",
+    "a": 1,
+    "d": 0
+   }
+  ]
+ },
+ "d6cf306ffcc1d815d16be3aba569cc0b4541f7d2": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-20T10:56:53Z",
+  "message": "La prueba del sorteo en mainnet sigue la regla: sin grifo y sin caja de fondos para Pollar",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/ui/anchor.test.ts",
+    "a": 2,
+    "d": 2
+   }
+  ]
+ },
+ "3c6072027f5f780760074a8bbf15a900d8f05ce0": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-20T08:04:16Z",
+  "message": "Los README suman ?grifo=0 a los parámetros de URL útiles",
+  "parents": 1,
+  "files": [
+   {
+    "f": "README.es.md",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "README.md",
+    "a": 1,
+    "d": 1
+   }
+  ]
+ },
+ "ae863bcf0b73b2b3bea7998ad082bd25ccef9eca": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-20T07:48:18Z",
+  "message": "Documenta la espera de la cuenta, ?grifo=0 y cómo comprobar quién paga la comisión",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/architecture.md",
+    "a": 29,
+    "d": 3
+   }
+  ]
+ },
+ "043ecd45dd8c33b69fa673a655063bc9c0111b61": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-20T07:39:21Z",
+  "message": "Si la espera de la cuenta se comió el margen de la ronda, se pide otra antes de mandar el sello",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/ui/anchor.test.ts",
+    "a": 94,
+    "d": 3
+   },
+   {
+    "f": "src/ui/anchor.ts",
+    "a": 31,
+    "d": 0
+   }
+  ]
+ },
+ "63523ca5388c01fce62e48efd0da266be6bc24a1": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-20T07:01:51Z",
+  "message": "verificar-patrocinio.mjs: que la red diga quién pagó la comisión",
+  "parents": 1,
+  "files": [
+   {
+    "f": "scripts/lib/muestras-patrocinio/tx-patrocinada-draw.json",
+    "a": 68,
+    "d": 0
+   },
+   {
+    "f": "scripts/lib/muestras-patrocinio/tx-patrocinada-seal.json",
+    "a": 68,
+    "d": 0
+   },
+   {
+    "f": "scripts/lib/muestras-patrocinio/tx-propia-draw.json",
+    "a": 55,
+    "d": 0
+   },
+   {
+    "f": "scripts/lib/patrocinio.mjs",
+    "a": 228,
+    "d": 0
+   },
+   {
+    "f": "scripts/lib/patrocinio.test.mjs",
+    "a": 296,
+    "d": 0
+   },
+   {
+    "f": "scripts/verificar-patrocinio.mjs",
+    "a": 363,
+    "d": 0
+   }
+  ]
+ },
+ "fd2eff44788192d50da610ae2337dcbd4aa80225": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-20T06:49:04Z",
+  "message": "Pruebas: lo que no es falta de saldo, y mainnet sin caja de fondos para Pollar",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/stellar/contract.test.ts",
+    "a": 60,
+    "d": 0
+   },
+   {
+    "f": "src/ui/anchor.test.ts",
+    "a": 81,
+    "d": 0
+   }
+  ]
+ },
+ "720840e3648682e2087defd7152dd782accd33ef": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-20T06:48:31Z",
+  "message": "Sellar y sortear con Pollar espera a que la cuenta exista antes de simular",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/i18n.ts",
+    "a": 4,
+    "d": 0
+   },
+   {
+    "f": "src/stellar/contract.test.ts",
+    "a": 43,
+    "d": 4
+   },
+   {
+    "f": "src/stellar/contract.ts",
+    "a": 42,
+    "d": 12
+   },
+   {
+    "f": "src/stellar/wallet-lite.ts",
+    "a": 0,
+    "d": 16
+   },
+   {
+    "f": "src/ui/anchor.test.ts",
+    "a": 246,
+    "d": 10
+   },
+   {
+    "f": "src/ui/anchor.ts",
+    "a": 95,
+    "d": 50
+   }
+  ]
+ },
+ "035058c47ffa897dde8628da0c792979f989f2c8": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-20T06:48:20Z",
+  "message": "La espera a que exista la cuenta de Pollar, como lógica pura",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/ui/reintento.test.ts",
+    "a": 342,
+    "d": 1
+   },
+   {
+    "f": "src/ui/reintento.ts",
+    "a": 201,
+    "d": 3
+   }
+  ]
+ },
+ "ec5d60f3ac30709ec3afe298c7f0ba0ab7e886cb": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-20T06:29:36Z",
+  "message": "Con el grifo apagado, la interfaz lo dice y no lo ofrece en ningún lado",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/i18n.ts",
+    "a": 14,
+    "d": 0
+   },
+   {
+    "f": "src/styles.css",
+    "a": 8,
+    "d": 0
+   },
+   {
+    "f": "src/ui/account-model.test.ts",
+    "a": 9,
+    "d": 0
+   },
+   {
+    "f": "src/ui/account-model.ts",
+    "a": 4,
+    "d": 3
+   },
+   {
+    "f": "src/ui/account.ts",
+    "a": 7,
+    "d": 2
+   },
+   {
+    "f": "src/ui/wallet-ui.ts",
+    "a": 27,
+    "d": 6
+   }
+  ]
+ },
+ "d1f90ddc0f312da4e049ba727eb26d125ef43e76": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-20T06:29:14Z",
+  "message": "Con ?grifo=0 el grifo de testnet queda apagado: no se ofrece ni se pide solo",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/stellar/grifo.test.ts",
+    "a": 174,
+    "d": 0
+   },
+   {
+    "f": "src/stellar/grifo.ts",
+    "a": 94,
+    "d": 0
+   },
+   {
+    "f": "src/stellar/wallet-lite.test.ts",
+    "a": 84,
+    "d": 0
+   },
+   {
+    "f": "src/stellar/wallet-lite.ts",
+    "a": 5,
+    "d": 1
+   },
+   {
+    "f": "src/ui/anchor.test.ts",
+    "a": 64,
+    "d": 3
+   },
+   {
+    "f": "src/ui/anchor.ts",
+    "a": 7,
+    "d": 1
+   }
+  ]
+ },
+ "291e8d207c6df3512c45571df08987f6f140979e": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-20T07:53:40Z",
+  "message": "La documentación de UX cuenta el defecto del error fuera de la pantalla",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/ux.md",
+    "a": 4,
+    "d": 1
+   }
+  ]
+ },
+ "c9ccf805919a37e864803c42ea18c5de8f054a89": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-20T07:52:19Z",
+  "message": "Ajusta en la documentación cuánto tarda el auditor de flujo",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/ux.md",
+    "a": 1,
+    "d": 1
+   }
+  ]
+ },
+ "eee284d3ea6dc35952162b9285ab1b288e090c64": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-20T07:51:03Z",
+  "message": "Documenta el caso del sellado que falla en la UX",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/ux.md",
+    "a": 5,
+    "d": 3
+   }
+  ]
+ },
+ "7fb7b71670ea6f06dfdc79e67cde6c272937fe8b": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-20T07:51:02Z",
+  "message": "El auditor de flujo prueba qué pasa cuando el sellado falla, apretado desde la barra",
+  "parents": 1,
+  "files": [
+   {
+    "f": "scripts/audit-flujo.mjs",
+    "a": 121,
+    "d": 17
+   }
+  ]
+ },
+ "d3b2c408b35b8280aac651c936a90962fe4e6016": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-20T07:50:39Z",
+  "message": "La barra no deja el foco en el aire al irse, y el aviso de paso se repite si el texto vuelve a ser el mismo",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/ui/siguiente.ts",
+    "a": 10,
+    "d": 1
+   }
+  ]
+ },
+ "755832ff11837f38fc2466f7931e7b60cbd117fd": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-20T07:50:30Z",
+  "message": "Si el sellado o el sorteo falla desde la barra, el motivo se ve en la pantalla",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/ui/draw.ts",
+    "a": 8,
+    "d": 1
+   },
+   {
+    "f": "src/ui/freeze.ts",
+    "a": 3,
+    "d": 1
+   },
+   {
+    "f": "src/ui/siguiente.ts",
+    "a": 18,
+    "d": 0
+   }
+  ]
+ },
+ "5b47a0214464282ab3c579a7a5e95794266287e2": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-20T07:18:41Z",
+  "message": "La barra de lo que sigue no rompe el sitio si el navegador no tiene IntersectionObserver",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/ui/siguiente.ts",
+    "a": 3,
+    "d": 0
+   }
+  ]
+ },
+ "28256e6392720d62a286fdb8d9d809f34c9eef60": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-20T07:12:12Z",
+  "message": "Documenta la medida definitiva del flujo y los anchos de celular",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/ux.md",
+    "a": 25,
+    "d": 6
+   }
+  ]
+ },
+ "0f1c077e60af4e28e2297719e7ed95deff4b9f24": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-20T07:12:12Z",
+  "message": "El auditor de flujo mira también los anchos de celular, de 320 a 414 px",
+  "parents": 1,
+  "files": [
+   {
+    "f": "scripts/audit-flujo.mjs",
+    "a": 132,
+    "d": 2
+   }
+  ]
+ },
+ "33fd763170655f69b8fee99e89ce314b677be594": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-20T06:15:33Z",
+  "message": "El auditor de flujo no pisa sus capturas, mide el indicador y cuenta la bienvenida",
+  "parents": 1,
+  "files": [
+   {
+    "f": "scripts/audit-flujo.mjs",
+    "a": 27,
+    "d": 5
+   }
+  ]
+ },
+ "31db08c9a8b7923a8f7dc256eb06c7a956add30a": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-20T06:15:33Z",
+  "message": "Con la lista cargada, Entendido de la bienvenida deja de competir con lo que sigue",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/ui/siguiente.ts",
+    "a": 16,
+    "d": 0
+   }
+  ]
+ },
+ "5367cb4eaa237b3244805dfd53b415d3fbd88704": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-20T06:11:30Z",
+  "message": "Prueba que el contador de siguiente premio no se separa de su número",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/ui/pasos.test.ts",
+    "a": 6,
+    "d": 0
+   }
+  ]
+ },
+ "7815754348f7f4a47610c299de86c5b7261a4166": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-20T06:09:28Z",
+  "message": "En el celular, Siguiente premio se parte limpio y el indicador de pasos entra a 320 px",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/i18n.ts",
+    "a": 3,
+    "d": 2
+   },
+   {
+    "f": "src/styles.css",
+    "a": 14,
+    "d": 2
+   }
+  ]
+ },
+ "33c13dec49aa7e3a26f505c306b77a57013b810e": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-20T06:09:28Z",
+  "message": "Afina en los README lo que comprueba el auditor de flujo",
+  "parents": 1,
+  "files": [
+   {
+    "f": "README.es.md",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "README.md",
+    "a": 1,
+    "d": 1
+   }
+  ]
+ },
+ "da0e41dc577febe3bf2434ab3c3be5c0fc6a743a": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-20T02:13:30Z",
+  "message": "El juego elegido se traduce cuando cambia el idioma",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/ui/freeze.ts",
+    "a": 3,
+    "d": 1
+   }
+  ]
+ },
+ "05349a1e584c959bff9e1b8c57e7be7b3e821884": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-20T02:08:57Z",
+  "message": "En el celular, el juego elegido y \"Siguiente premio\" caben mejor",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/styles.css",
+    "a": 7,
+    "d": 1
+   }
+  ]
+ },
+ "ef5b725d8e74d388b0ad78a1cd5d43a621d49b95": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-20T02:08:57Z",
+  "message": "La barra mide su alto con el texto puesto: en el celular no tapa el pie",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/styles.css",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/ui/siguiente.ts",
+    "a": 16,
+    "d": 2
+   }
+  ]
+ },
+ "2cae507b0689abda9abe708144105c5cc0a46e70": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-20T01:53:13Z",
+  "message": "Documenta la UX: principios, lista de comprobación y el auditor de flujo",
+  "parents": 1,
+  "files": [
+   {
+    "f": "README.es.md",
+    "a": 4,
+    "d": 3
+   },
+   {
+    "f": "README.md",
+    "a": 4,
+    "d": 3
+   },
+   {
+    "f": "docs/ux.md",
+    "a": 85,
+    "d": 0
+   }
+  ]
+ },
+ "7ade1da3c540af316f6840c0cb84fbbb4b7b9459": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-20T01:53:02Z",
+  "message": "Agrega el auditor de flujo, la QA de UX",
+  "parents": 1,
+  "files": [
+   {
+    "f": "scripts/audit-flujo.mjs",
+    "a": 543,
+    "d": 0
+   }
+  ]
+ },
+ "9281b969972e5c82da1b2c4832089ca1fa627995": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-20T01:52:40Z",
+  "message": "Prueba que index.html conserva sus ids y sus textos en los dos idiomas",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/ui/index-textos.test.ts",
+    "a": 45,
+    "d": 0
+   }
+  ]
+ },
+ "25484396e65d4de3ce5050271549543c98b1caf8": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-20T01:52:20Z",
+  "message": "Después del ganador, lo que sigue va pegado al ganador",
+  "parents": 1,
+  "files": [
+   {
+    "f": "index.html",
+    "a": 19,
+    "d": 17
+   },
+   {
+    "f": "src/i18n.ts",
+    "a": 10,
+    "d": 8
+   },
+   {
+    "f": "src/styles.css",
+    "a": 23,
+    "d": 0
+   },
+   {
+    "f": "src/ui/draw.ts",
+    "a": 15,
+    "d": 3
+   },
+   {
+    "f": "src/ui/pasos.test.ts",
+    "a": 18,
+    "d": 0
+   }
+  ]
+ },
+ "a0b8a2b87da0531f76a9a83ff21387c21468d06a": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-20T01:52:01Z",
+  "message": "La lista sellada pone el botón de sortear a la vista en las cinco pantallas",
+  "parents": 1,
+  "files": [
+   {
+    "f": "index.html",
+    "a": 38,
+    "d": 23
+   },
+   {
+    "f": "src/i18n.ts",
+    "a": 6,
+    "d": 2
+   },
+   {
+    "f": "src/main.ts",
+    "a": 2,
+    "d": 1
+   },
+   {
+    "f": "src/styles.css",
+    "a": 65,
+    "d": 0
+   },
+   {
+    "f": "src/ui/draw.ts",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "src/ui/freeze.ts",
+    "a": 34,
+    "d": 1
+   },
+   {
+    "f": "src/ui/pasos.test.ts",
+    "a": 14,
+    "d": 0
+   }
+  ]
+ },
+ "a36b654956fcc066c78d7976e567fe283b1f02f0": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-20T01:51:45Z",
+  "message": "Agrega el indicador de pasos y la barra de lo que sigue",
+  "parents": 1,
+  "files": [
+   {
+    "f": "index.html",
+    "a": 20,
+    "d": 1
+   },
+   {
+    "f": "src/i18n.ts",
+    "a": 30,
+    "d": 2
+   },
+   {
+    "f": "src/main.ts",
+    "a": 3,
+    "d": 0
+   },
+   {
+    "f": "src/styles.css",
+    "a": 74,
+    "d": 0
+   },
+   {
+    "f": "src/ui/draw.ts",
+    "a": 3,
+    "d": 0
+   },
+   {
+    "f": "src/ui/freeze.ts",
+    "a": 9,
+    "d": 3
+   },
+   {
+    "f": "src/ui/pasos.test.ts",
+    "a": 73,
+    "d": 0
+   },
+   {
+    "f": "src/ui/pasos.ts",
+    "a": 54,
+    "d": 0
+   },
+   {
+    "f": "src/ui/siguiente.ts",
+    "a": 289,
+    "d": 0
+   }
+  ]
+ },
+ "085ca8bd46c78596deed1b81d05227157291f999": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-20T07:37:54Z",
+  "message": "El sello que entró a un ledger y falló se reintenta también con Freighter y con la cuenta de prueba",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/architecture.md",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "src/ui/anchor.test.ts",
+    "a": 57,
+    "d": 0
+   },
+   {
+    "f": "src/ui/anchor.ts",
+    "a": 27,
+    "d": 2
+   }
+  ]
+ },
+ "11ffbb25107c459a659a0d18154d0c4a0e4d9be0": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-20T06:30:15Z",
+  "message": "epics.md: con una cuenta de Pollar no se muestra el costo ni la pantalla de fondos",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/epics.md",
+    "a": 2,
+    "d": 0
+   }
+  ]
+ },
+ "2f4b0032b8bb04c6bd38aa83206a4a677e9e6ea6": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-20T06:21:51Z",
+  "message": "El sorteo en la cadena también se prueba con la ayuda de fondos",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/ui/anchor.test.ts",
+    "a": 86,
+    "d": 3
+   }
+  ]
+ },
+ "8434e561d006af2e3b9e04b5ec7ee66fe1d9d15a": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-20T02:16:44Z",
+  "message": "La caja de fondos del último recurso no se esconde al cambiar de idioma",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/i18n.ts",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "src/ui/wallet-ui.ts",
+    "a": 9,
+    "d": 1
+   }
+  ]
+ },
+ "827d01dbc262dc843f404cfe947829f89261c7cb": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-20T02:16:44Z",
+  "message": "El grifo que no contesta no deja el sellado colgado",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/ui/anchor.test.ts",
+    "a": 23,
+    "d": 0
+   },
+   {
+    "f": "src/ui/anchor.ts",
+    "a": 4,
+    "d": 2
+   },
+   {
+    "f": "src/ui/reintento.test.ts",
+    "a": 31,
+    "d": 2
+   },
+   {
+    "f": "src/ui/reintento.ts",
+    "a": 22,
+    "d": 0
+   }
+  ]
+ },
+ "8ef82d1eaa86b75d578b55fa9eb6e688c41b7f24": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-20T02:11:00Z",
+  "message": "Documenta quién paga la comisión de quien entra con Google (D-16)",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/architecture.md",
+    "a": 14,
+    "d": 0
+   }
+  ]
+ },
+ "67bea4d8438de5ef8cc4707550d330e7e7435e5f": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-20T01:57:47Z",
+  "message": "Pollar: si la simulación falló no se manda una transacción sin armar",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/ui/anchor.test.ts",
+    "a": 52,
+    "d": 1
+   },
+   {
+    "f": "src/ui/anchor.ts",
+    "a": 11,
+    "d": 1
+   }
+  ]
+ },
+ "9ea5ba37153851115b51d2cf8e2545a8acf8989a": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-20T01:27:34Z",
+  "message": "El sello que entró y falló se reintenta también con una cuenta de Pollar",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/stellar/contract.test.ts",
+    "a": 3,
+    "d": 0
+   },
+   {
+    "f": "src/stellar/contract.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/ui/anchor.test.ts",
+    "a": 23,
+    "d": 1
+   },
+   {
+    "f": "src/ui/anchor.ts",
+    "a": 18,
+    "d": 0
+   },
+   {
+    "f": "src/ui/freeze.ts",
+    "a": 1,
+    "d": 13
+   }
+  ]
+ },
+ "256962f54ba173324a9699ceaf44f8d991ff0348": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-20T01:23:41Z",
+  "message": "Quien entra con Google o con un correo ya no se encuentra con la pantalla de fondos",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/i18n.ts",
+    "a": 24,
+    "d": 22
+   },
+   {
+    "f": "src/ui/wallet-ui.ts",
+    "a": 40,
+    "d": 5
+   }
+  ]
+ },
+ "b560e35404138415f6ab0c2d7e4bb8cf33031001": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-20T01:21:05Z",
+  "message": "Sellar y sortear con Pollar: se intenta, y si falta saldo en testnet la cuenta se prepara sola",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/i18n.ts",
+    "a": 4,
+    "d": 0
+   },
+   {
+    "f": "src/stellar/wallet-lite.ts",
+    "a": 20,
+    "d": 3
+   },
+   {
+    "f": "src/ui/anchor.test.ts",
+    "a": 204,
+    "d": 0
+   },
+   {
+    "f": "src/ui/anchor.ts",
+    "a": 95,
+    "d": 8
+   }
+  ]
+ },
+ "25ea027c6139710860ed8dc1807f47e457f287fa": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-20T01:17:38Z",
+  "message": "Fondos: primero se intenta, y solo si la red dice que no hay saldo se ayuda",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/ui/reintento.test.ts",
+    "a": 196,
+    "d": 0
+   },
+   {
+    "f": "src/ui/reintento.ts",
+    "a": 98,
+    "d": 0
+   }
+  ]
+ },
+ "b1f61e9dec0036d65335acef984419dd1aa88989": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-20T01:16:12Z",
+  "message": "Pollar: el motivo de un envío fallido se lee venga por el campo que venga",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/stellar/wallet-pollar.test.ts",
+    "a": 106,
+    "d": 0
+   },
+   {
+    "f": "src/stellar/wallet-pollar.ts",
+    "a": 35,
+    "d": 7
+   }
+  ]
+ },
+ "e94351430880c320b2347becd81394ccccd7f163": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-20T01:15:13Z",
+  "message": "Falta de saldo: el error se reconoce por su motivo y no por una palabra suelta",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/stellar/contract.test.ts",
+    "a": 89,
+    "d": 0
+   },
+   {
+    "f": "src/stellar/contract.ts",
+    "a": 17,
+    "d": 1
+   }
+  ]
+ },
+ "3283a83831f62eca7883d7edc503ac8dcb61e861": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-20T02:14:56Z",
+  "message": "El foco de Copiar rodea la palabra y no tapa el nombre",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/styles.css",
+    "a": 4,
+    "d": 0
+   },
+   {
+    "f": "src/ui/account.ts",
+    "a": 3,
+    "d": 3
+   }
+  ]
+ },
+ "0c4afbf74e9e3611795bd7e015ca86575a314c31": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-20T02:08:13Z",
+  "message": "El auditor distingue la ventana que entra de la que se recorre",
+  "parents": 1,
+  "files": [
+   {
+    "f": "scripts/audit-ui.mjs",
+    "a": 18,
+    "d": 8
+   }
+  ]
+ },
+ "4c8f8b056bd8b6e80697f82f0581e54fc8ec478c": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-20T02:08:13Z",
+  "message": "El panel en poca altura deja más aire arriba del cuerpo",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/styles.css",
+    "a": 1,
+    "d": 1
+   }
+  ]
+ },
+ "fcc725f0fb19081c70740e3861e5a54464cbac42": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-20T02:02:16Z",
+  "message": "El saldo que no es un número cuenta como un saldo que no se pudo leer",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/ui/account-model.test.ts",
+    "a": 5,
+    "d": 0
+   },
+   {
+    "f": "src/ui/account-model.ts",
+    "a": 3,
+    "d": 1
+   }
+  ]
+ },
+ "14c00e851179d75aa0d787a1e6fac6071f9a6303": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-20T02:01:21Z",
+  "message": "marca.md: una ventana siempre entra en la pantalla o se recorre",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/marca.md",
+    "a": 33,
+    "d": 0
+   }
+  ]
+ },
+ "b0cc4b28425e83f97f1bd8c8a36c6f33012c7955": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-20T02:01:21Z",
+  "message": "El auditor de interfaz suma la ventana de rearmar y reintenta el sello",
+  "parents": 1,
+  "files": [
+   {
+    "f": "scripts/audit-ui.mjs",
+    "a": 53,
+    "d": 10
+   }
+  ]
+ },
+ "1e2c35da55a6f7baf1ef8b8fa4108b8570af4f53": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-20T02:01:21Z",
+  "message": "El panel respeta la grilla de 8 px y marca el botón que está al copiar",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/styles.css",
+    "a": 11,
+    "d": 11
+   },
+   {
+    "f": "src/ui/account.ts",
+    "a": 5,
+    "d": 2
+   }
+  ]
+ },
+ "63ef4a52b3396f4ca6ac033c54650a18b01afe3f": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-20T01:36:14Z",
+  "message": "El auditor de interfaz mira las pantallas donde las ventanas se cortaban",
+  "parents": 1,
+  "files": [
+   {
+    "f": "scripts/audit-ui.mjs",
+    "a": 408,
+    "d": 64
+   },
+   {
+    "f": "scripts/lib/freighter-falsa.mjs",
+    "a": 46,
+    "d": 0
+   },
+   {
+    "f": "src/ui/account.ts",
+    "a": 5,
+    "d": 3
+   }
+  ]
+ },
+ "589184d8bc5849ed7ff8f1f1c5a791bc81a6d1a7": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-20T01:16:52Z",
+  "message": "El panel de la cuenta se rediseña: encabezado y pie fijos, cuerpo que se recorre",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/i18n.ts",
+    "a": 34,
+    "d": 0
+   },
+   {
+    "f": "src/styles.css",
+    "a": 109,
+    "d": 12
+   },
+   {
+    "f": "src/ui/account-model.test.ts",
+    "a": 108,
+    "d": 0
+   },
+   {
+    "f": "src/ui/account-model.ts",
+    "a": 87,
+    "d": 0
+   },
+   {
+    "f": "src/ui/account.ts",
+    "a": 331,
+    "d": 153
+   }
+  ]
+ },
+ "f5d67bf4d4f7c25597ad3f36838552bc8220b8db": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-20T01:02:43Z",
+  "message": "Ninguna ventana se corta: el fondo se recorre y la tarjeta se centra con margin auto",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/styles.css",
+    "a": 15,
+    "d": 3
+   }
+  ]
+ },
+ "25c237e721ea25210dcec8989bdbdf1ee70a76be": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-20T01:20:41Z",
+  "message": "Junta la ruleta y la chovena: la ruleta al medio y nadie metido en otro en las ruedas chicas",
+  "parents": 2,
+  "files": [
+   {
+    "f": "docs/juegos/chovena.md",
+    "a": 3,
+    "d": 3
+   },
+   {
+    "f": "docs/juegos/ruleta.md",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/games/pixi/chovena.ts",
+    "a": 136,
+    "d": 29
+   },
+   {
+    "f": "src/games/pixi/wheel.ts",
+    "a": 65,
+    "d": 13
+   }
+  ]
+ },
+ "bcbdc0d8871ce5587a6c7716e92c7390b2a0ad22": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-20T01:20:41Z",
+  "message": "Junta los nombres legibles: chips a 19 px y enteros en el celular",
+  "parents": 2,
+  "files": [
+   {
+    "f": "docs/juegos/carnaval-de-oruro.md",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "docs/juegos/pinata.md",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "docs/motores.md",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/games/llamas/pixi-race.ts",
+    "a": 72,
+    "d": 22
+   },
+   {
+    "f": "src/games/pixi/chovena.ts",
+    "a": 10,
+    "d": 6
+   },
+   {
+    "f": "src/games/pixi/luz.ts",
+    "a": 3,
+    "d": 1
+   },
+   {
+    "f": "src/games/pixi/oruro-tags.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/games/pixi/oruro.ts",
+    "a": 24,
+    "d": 15
+   },
+   {
+    "f": "src/games/pixi/pinata.ts",
+    "a": 13,
+    "d": 8
+   },
+   {
+    "f": "src/games/pixi/sapo.ts",
+    "a": 12,
+    "d": 3
+   },
+   {
+    "f": "src/games/pixi/stage.ts",
+    "a": 44,
+    "d": 7
+   },
+   {
+    "f": "src/games/pixi/tombola.ts",
+    "a": 14,
+    "d": 2
+   },
+   {
+    "f": "src/games/pixi/trompo.ts",
+    "a": 14,
+    "d": 7
+   }
+  ]
+ },
+ "fc89ea9e4bf9608320357592c83caa7be4016264": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-20T01:20:34Z",
+  "message": "Junta Oruro y la piñata: la cámara encuadra los cuerpos y el palo mide como el chico",
+  "parents": 2,
+  "files": [
+   {
+    "f": "docs/motores.md",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "src/games/pixi/oruro.ts",
+    "a": 164,
+    "d": 31
+   },
+   {
+    "f": "src/games/pixi/pinata.ts",
+    "a": 243,
+    "d": 65
+   }
+  ]
+ },
+ "c7c0d2fd4c320e7f25ef0913d1ac4bc9f681e089": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-20T01:20:34Z",
+  "message": "Junta el aguayo y la constelación: nadie sale sin nombre y los nombres no tapan el paquete",
+  "parents": 2,
+  "files": [
+   {
+    "f": "docs/juegos/constelacion-stellar.md",
+    "a": 4,
+    "d": 1
+   },
+   {
+    "f": "docs/juegos/pasanaku.md",
+    "a": 4,
+    "d": 2
+   },
+   {
+    "f": "docs/motores.md",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "src/games/pixi/constellation.ts",
+    "a": 131,
+    "d": 28
+   },
+   {
+    "f": "src/games/pixi/pasanaku.ts",
+    "a": 129,
+    "d": 26
+   }
+  ]
+ },
+ "1fc507b0d16d084c2ccdb803cc01fcff1b757c04": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-20T01:20:33Z",
+  "message": "Junta el teleférico: andén con nombres, apagón que se nota y mordaza que se ve",
+  "parents": 2,
+  "files": [
+   {
+    "f": "docs/juegos.md",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "docs/juegos/teleferico.md",
+    "a": 8,
+    "d": 6
+   },
+   {
+    "f": "docs/motores.md",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/games/pixi/cablecar-plan.ts",
+    "a": 15,
+    "d": 1
+   },
+   {
+    "f": "src/games/pixi/cablecar.ts",
+    "a": 655,
+    "d": 102
+   }
+  ]
+ },
+ "4038a3cefd15e2193d6e463d7b87af3dd956bc73": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-19T19:57:01Z",
+  "message": "La ventana de ingreso no se prepara durante el sorteo",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/ui/wallet-ui.ts",
+    "a": 7,
+    "d": 0
+   }
+  ]
+ },
+ "80d9872085576798f3fe7a7225d14efc2a186b0a": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-19T16:02:44Z",
+  "message": "Los auditores no se enganchan al Chrome de otro",
+  "parents": 1,
+  "files": [
+   {
+    "f": "scripts/lib/browser.mjs",
+    "a": 24,
+    "d": 0
+   }
+  ]
+ },
+ "b8b2eaccff2b1d4d45fa7ced922c5043f0beab54": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-19T10:50:39Z",
+  "message": "La clasificatoria de la carrera entra con su campanita",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/games/llamas/pixi-race.ts",
+    "a": 7,
+    "d": 1
+   }
+  ]
+ },
+ "3027920685fb8e4c24020d9468cf019d810e2bf0": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-19T10:50:39Z",
+  "message": "La cuenta de la tarjeta suena dentro de la escala",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/ui/draw.ts",
+    "a": 3,
+    "d": 2
+   }
+  ]
+ },
+ "478223991d62c28050c4a625b0d8f3b544ff35ff": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-19T10:48:55Z",
+  "message": "Chovena: los dos de la final no se atraviesan al formar la pareja",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/juegos/chovena.md",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/games/pixi/chovena.ts",
+    "a": 8,
+    "d": 2
+   }
+  ]
+ },
+ "da5c02097c5c86e3d5cf8e4f1a01d2c0351a4283": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-19T10:41:54Z",
+  "message": "Teleférico: el que salta sube de capa solo cuando hace falta",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/games/pixi/cablecar.ts",
+    "a": 4,
+    "d": 1
+   }
+  ]
+ },
+ "f1bc0c91f2f15c0fab990837d0d79c43c9438fa8": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-19T10:35:55Z",
+  "message": "Constelación: el nombre de una estrella de arriba, debajo de ella",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/games/pixi/constellation.ts",
+    "a": 4,
+    "d": 1
+   }
+  ]
+ },
+ "a94c09195ba82a8da880b5e62ffde38a108b0172": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-19T10:33:32Z",
+  "message": "Teleférico: el nombre del que salta, arriba de todo",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/games/pixi/cablecar.ts",
+    "a": 23,
+    "d": 8
+   }
+  ]
+ },
+ "6b3703fd2c39defb369b4c7ca79e701b5f7f375d": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-19T10:29:12Z",
+  "message": "Sapo: en el celular, los nombres de la mesa como estaban",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/games/pixi/sapo.ts",
+    "a": 4,
+    "d": 4
+   }
+  ]
+ },
+ "319ca186c93a30d54e69f13cc69fec6cefab689b": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-19T10:24:37Z",
+  "message": "Teleférico: el nombre del que va solo no tapa la lista de la estación",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/games/pixi/cablecar.ts",
+    "a": 9,
+    "d": 0
+   }
+  ]
+ },
+ "7071f03ffc45ad0241718ffdb70c9a26c94c9f72": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-19T10:13:21Z",
+  "message": "Pasar lista: si la columna se llena, la de al lado",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/games/pixi/stage.ts",
+    "a": 23,
+    "d": 2
+   }
+  ]
+ },
+ "13744e7088de3c992c1f1a0103c89a859237d90c": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-19T09:52:49Z",
+  "message": "Docs: el tamaño legible de los chips",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/juegos/carnaval-de-oruro.md",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "docs/juegos/pinata.md",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "docs/motores.md",
+    "a": 1,
+    "d": 1
+   }
+  ]
+ },
+ "e8317c60d032dd9ba28405c08d7c2b5375d69b1c": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-19T09:44:08Z",
+  "message": "La ruleta en su documento: al medio sin columna, y la placa del nombre arriba",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/juegos/ruleta.md",
+    "a": 1,
+    "d": 1
+   }
+  ]
+ },
+ "d16ab8699216cf8a3fbc514e4949ba9c9d6794f7": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-19T09:43:52Z",
+  "message": "Chovena: la rueda de tres a seis se abre a lo hondo y nadie queda metido en otro",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/juegos/chovena.md",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "src/games/pixi/chovena.ts",
+    "a": 128,
+    "d": 27
+   }
+  ]
+ },
+ "acd365b1e99dfb0c14bd0e97aff19fd9cdcb59db": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-19T09:41:06Z",
+  "message": "En el celular, los nombres grandes vuelven a la base legible",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/games/pixi/chovena.ts",
+    "a": 5,
+    "d": 3
+   },
+   {
+    "f": "src/games/pixi/oruro.ts",
+    "a": 5,
+    "d": 3
+   },
+   {
+    "f": "src/games/pixi/pinata.ts",
+    "a": 6,
+    "d": 3
+   },
+   {
+    "f": "src/games/pixi/sapo.ts",
+    "a": 7,
+    "d": 1
+   },
+   {
+    "f": "src/games/pixi/trompo.ts",
+    "a": 7,
+    "d": 3
+   }
+  ]
+ },
+ "b2071a9fd5142d6b4f53bb947349fd6ec067cfd5": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-19T09:41:02Z",
+  "message": "Tómbola: el nombre del ganador, entero en la pantalla",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/games/pixi/tombola.ts",
+    "a": 14,
+    "d": 2
+   }
+  ]
+ },
+ "9b3606fa605229df0ff1fb35806cb3970da831d8": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-19T09:41:02Z",
+  "message": "Constelación: los nombres no crecen con la cámara y quedan enteros",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/games/pixi/constellation.ts",
+    "a": 26,
+    "d": 2
+   }
+  ]
+ },
+ "9f39b11a7972c9e7396c21c4c00183f91d9c81c0": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-19T09:41:01Z",
+  "message": "Teleférico: los nombres no crecen con la cámara, y el del que salta entra",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/games/pixi/cablecar.ts",
+    "a": 21,
+    "d": 0
+   }
+  ]
+ },
+ "4acd7b9cd308727cec6bc494c3ef8e21d5ade98c": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-19T02:53:29Z",
+  "message": "Piñata: en las vueltas, el chico de costado y no un palito",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/games/pixi/pinata.ts",
+    "a": 4,
+    "d": 3
+   }
+  ]
+ },
+ "c77862012c1c7cefdc32220d1764a20726811b3b": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-19T02:41:58Z",
+  "message": "Teleférico: la cabecera del archivo cuenta la cámara de la mordaza y del apagón como es ahora",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/games/pixi/cablecar.ts",
+    "a": 3,
+    "d": 2
+   }
+  ]
+ },
+ "39d3f35940ed625333aead4981b891734465e6b0": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-19T02:24:08Z",
+  "message": "Documentación: el aguayo y la constelación, con sus nombres y sin desenfoque al final",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/juegos/constelacion-stellar.md",
+    "a": 4,
+    "d": 1
+   },
+   {
+    "f": "docs/juegos/pasanaku.md",
+    "a": 4,
+    "d": 2
+   },
+   {
+    "f": "docs/motores.md",
+    "a": 2,
+    "d": 2
+   }
+  ]
+ },
+ "ef270898342f611f9d6282fa5817d1efdb643bf1": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-19T02:23:12Z",
+  "message": "Integra las mejoras de velocidad",
+  "parents": 2,
+  "files": [
+   {
+    "f": "src/analytics.ts",
+    "a": 6,
+    "d": 0
+   },
+   {
+    "f": "src/i18n.ts",
+    "a": 10,
+    "d": 72
+   },
+   {
+    "f": "src/idioma.ts",
+    "a": 117,
+    "d": 0
+   },
+   {
+    "f": "src/lista.ts",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "src/main.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/pagina.ts",
+    "a": 7,
+    "d": 5
+   },
+   {
+    "f": "src/protocol/bls.worker.ts",
+    "a": 24,
+    "d": 0
+   },
+   {
+    "f": "src/protocol/drand.ts",
+    "a": 7,
+    "d": 112
+   },
+   {
+    "f": "src/protocol/firma.test.ts",
+    "a": 22,
+    "d": 0
+   },
+   {
+    "f": "src/protocol/firma.ts",
+    "a": 91,
+    "d": 0
+   },
+   {
+    "f": "src/protocol/quicknet.ts",
+    "a": 120,
+    "d": 0
+   },
+   {
+    "f": "src/sound.ts",
+    "a": 57,
+    "d": 4
+   },
+   {
+    "f": "src/stellar/contract.ts",
+    "a": 11,
+    "d": 6
+   },
+   {
+    "f": "src/stellar/wallet-lite.ts",
+    "a": 203,
+    "d": 0
+   },
+   {
+    "f": "src/stellar/wallet.ts",
+    "a": 4,
+    "d": 184
+   },
+   {
+    "f": "src/textos.test.ts",
+    "a": 27,
+    "d": 0
+   },
+   {
+    "f": "src/ui/draw.ts",
+    "a": 9,
+    "d": 4
+   },
+   {
+    "f": "src/ui/freeze.ts",
+    "a": 34,
+    "d": 2
+   },
+   {
+    "f": "src/ui/rebuild.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/ui/sala.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/ui/thumbs.ts",
+    "a": 59,
+    "d": 34
+   },
+   {
+    "f": "src/ui/wallet-ui.ts",
+    "a": 82,
+    "d": 28
+   },
+   {
+    "f": "src/verify.ts",
+    "a": 10,
+    "d": 13
+   },
+   {
+    "f": "vite.config.ts",
+    "a": 121,
+    "d": 2
+   }
+  ]
+ },
+ "5f4f4057f0ae8443623e68d820d919afd34be71c": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-19T02:14:51Z",
+  "message": "La constelación: los nombres no tapan el paquete ni las estrellas con nombre",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/games/pixi/constellation.ts",
+    "a": 66,
+    "d": 35
+   }
+  ]
+ },
+ "e7809fd455947e3d22df964cc0f2507763cf5395": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-19T02:14:22Z",
+  "message": "Teleférico, la documentación: el andén con nombres, la mordaza y el apagón",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/juegos.md",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "docs/juegos/teleferico.md",
+    "a": 8,
+    "d": 6
+   },
+   {
+    "f": "docs/motores.md",
+    "a": 1,
+    "d": 1
+   }
+  ]
+ },
+ "eb4ffd7c9a97facbe454a4787a335515b8675257": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-19T01:56:04Z",
+  "message": "Teleférico: los renglones del andén se arman antes de la parada",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/games/pixi/cablecar.ts",
+    "a": 64,
+    "d": 15
+   }
+  ]
+ },
+ "582780a3f98b153d07b3ad4535255db0c943f8c5": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-19T01:53:26Z",
+  "message": "Motores: las cámaras de Oruro y la piñata, como quedaron",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/motores.md",
+    "a": 2,
+    "d": 2
+   }
+  ]
+ },
+ "134ae36ec5f83694aa8ad71f0eb92bbd439e0f0f": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-19T01:39:20Z",
+  "message": "La carrera: el nombre no crece con los acercamientos",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/games/llamas/pixi-race.ts",
+    "a": 5,
+    "d": 1
+   }
+  ]
+ },
+ "51d68e4a515555670aef80a3775466385cd842ba": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-19T01:39:20Z",
+  "message": "Los nombres se apilan por el alto de verdad del chip",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/games/pixi/chovena.ts",
+    "a": 5,
+    "d": 3
+   },
+   {
+    "f": "src/games/pixi/luz.ts",
+    "a": 3,
+    "d": 1
+   },
+   {
+    "f": "src/games/pixi/pasanaku.ts",
+    "a": 3,
+    "d": 1
+   },
+   {
+    "f": "src/games/pixi/pinata.ts",
+    "a": 7,
+    "d": 5
+   },
+   {
+    "f": "src/games/pixi/sapo.ts",
+    "a": 5,
+    "d": 2
+   },
+   {
+    "f": "src/games/pixi/trompo.ts",
+    "a": 7,
+    "d": 4
+   }
+  ]
+ },
+ "6ef670f099f2865db90469f68f00ec678d7bb459": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-19T01:39:19Z",
+  "message": "Teleférico: los nombres de cada estación, apilados y enteros",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/games/pixi/cablecar.ts",
+    "a": 26,
+    "d": 6
+   }
+  ]
+ },
+ "50363fa5bda76bad96839cddc76628f70c0085ba": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-19T01:39:18Z",
+  "message": "Oruro: lo que se dibuja sobre el chip, en las unidades del chip",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/games/pixi/oruro-tags.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/games/pixi/oruro.ts",
+    "a": 22,
+    "d": 15
+   }
+  ]
+ },
+ "2b9eab613be9bde93182bc910064a7fb2615fc7a": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-19T01:34:08Z",
+  "message": "Piñata: el palo del tamaño del chico y un arranque con acción",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/games/pixi/pinata.ts",
+    "a": 242,
+    "d": 65
+   }
+  ]
+ },
+ "67187087aeaf9bb093c158520b45afb6b4200cab": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-19T01:23:07Z",
+  "message": "La constelación: el nombre que no entra al costado va encima o debajo de su estrella",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/games/pixi/constellation.ts",
+    "a": 11,
+    "d": 3
+   }
+  ]
+ },
+ "273d3a93301349845947a7991a59746de61dc239": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-19T01:09:18Z",
+  "message": "Teleférico: el andén con nombres, el apagón que se nota y la mordaza que se ve",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/games/pixi/cablecar-plan.ts",
+    "a": 15,
+    "d": 1
+   },
+   {
+    "f": "src/games/pixi/cablecar.ts",
+    "a": 603,
+    "d": 100
+   }
+  ]
+ },
+ "959db30c46347ebed05634189656888fc3b2d0d4": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-19T01:09:10Z",
+  "message": "El aguayo: el nombre del que sale dura lo que tarda en llegar a la fila",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/games/pixi/pasanaku.ts",
+    "a": 7,
+    "d": 2
+   }
+  ]
+ },
+ "ea4a025379d08fb58a2588aec729b257f36320ae": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-18T07:40:58Z",
+  "message": "La ruleta al medio sin columna, y la placa del nombre arriba, sin tapar la rueda",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/games/pixi/wheel.ts",
+    "a": 65,
+    "d": 13
+   }
+  ]
+ },
+ "8e6057e2378f558fd13c95a3b2f737d5e86cf2d1": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-18T07:39:51Z",
+  "message": "Las páginas de lectura se adelantan al pasar el mouse",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/analytics.ts",
+    "a": 6,
+    "d": 0
+   },
+   {
+    "f": "vite.config.ts",
+    "a": 20,
+    "d": 1
+   }
+  ]
+ },
+ "5da964cb1bc763e26110b89bda3c98afb0edc234": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-18T07:39:49Z",
+  "message": "La carrera: grilla medida con los chips y nombres siempre adentro",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/games/llamas/pixi-race.ts",
+    "a": 67,
+    "d": 21
+   }
+  ]
+ },
+ "0e37ef47ebb03f4da0090c653aabe28e24349511": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-18T07:39:20Z",
+  "message": "Los chips con nombre, a letra legible desde el fondo",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/games/pixi/stage.ts",
+    "a": 21,
+    "d": 5
+   }
+  ]
+ },
+ "8dd13ec470b70ff9b4aaa60514492afef7f0942e": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-18T07:36:30Z",
+  "message": "El aguayo: los que salen, con cara y nombre, y sin desenfoque desde el filo",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/games/pixi/pasanaku.ts",
+    "a": 124,
+    "d": 26
+   }
+  ]
+ },
+ "9846d948a16ead9436affbf11c2fb9317acb8b20": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-18T07:36:23Z",
+  "message": "La constelación: los nombres en la interfaz, enteros en el celular y sin desenfoque al final",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/games/pixi/constellation.ts",
+    "a": 89,
+    "d": 25
+   }
+  ]
+ },
+ "2d1e0c0d382b0b16a9de94eba39b8d415521c9b6": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-18T07:34:38Z",
+  "message": "Oruro: la cámara encuadra los cuerpos, no el asfalto",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/games/pixi/oruro.ts",
+    "a": 164,
+    "d": 31
+   }
+  ]
+ },
+ "467845d7d3b06e5367304ea9d422746457ef4ec8": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-18T07:32:26Z",
+  "message": "La prueba de la firma en worker hace un solo emparejamiento",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/protocol/firma.test.ts",
+    "a": 6,
+    "d": 5
+   }
+  ]
+ },
+ "2e67708241cdeaa128bdc63090ec8e71c7bf9a38": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-18T07:24:23Z",
+  "message": "La ventana de ingreso abre sin el SDK de Stellar",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/stellar/contract.ts",
+    "a": 11,
+    "d": 6
+   },
+   {
+    "f": "src/stellar/wallet-lite.ts",
+    "a": 203,
+    "d": 0
+   },
+   {
+    "f": "src/stellar/wallet.ts",
+    "a": 4,
+    "d": 184
+   },
+   {
+    "f": "src/ui/wallet-ui.ts",
+    "a": 82,
+    "d": 28
+   }
+  ]
+ },
+ "10ce17261ed5022339e38740031ba74b8b32bf83": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-18T06:57:59Z",
+  "message": "El primer toque ya no espera a que nazca el audio",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/sound.ts",
+    "a": 57,
+    "d": 4
+   }
+  ]
+ },
+ "05bb79b10994298fbdce348d8aad48007d9d44ca": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-18T07:16:04Z",
+  "message": "Las pruebas no corren las copias de trabajo de git",
+  "parents": 1,
+  "files": [
+   {
+    "f": "vite.config.ts",
+    "a": 8,
+    "d": 0
+   }
+  ]
+ },
+ "8fd7f0f6fd1e5f91d5620965c854b98079481385": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-18T07:10:08Z",
+  "message": "Integra los arreglos del importador CSV",
+  "parents": 2,
+  "files": [
+   {
+    "f": "src/i18n.ts",
+    "a": 36,
+    "d": 8
+   },
+   {
+    "f": "src/ui/csv.test.ts",
+    "a": 190,
+    "d": 2
+   },
+   {
+    "f": "src/ui/csv.ts",
+    "a": 352,
+    "d": 44
+   },
+   {
+    "f": "src/ui/importer.ts",
+    "a": 62,
+    "d": 15
+   },
+   {
+    "f": "src/ui/participants.ts",
+    "a": 88,
+    "d": 14
+   }
+  ]
+ },
+ "81ce3031630c5c25a2957be94e8c4cca57d7605a": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-18T07:01:33Z",
+  "message": "Homónimos: las dos opciones a la vista y el correo, después",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/ui/importer.ts",
+    "a": 17,
+    "d": 13
+   }
+  ]
+ },
+ "8f6f63b11a3c8cc40a1c64119ef8bed63a8df102": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-18T06:56:58Z",
+  "message": "Las filas sin leer, en la cabecera de la ventana",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/ui/importer.ts",
+    "a": 7,
+    "d": 7
+   }
+  ]
+ },
+ "3dda50955e93665a5969cbad11f400250487fdf4": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-18T06:54:40Z",
+  "message": "Pegar una tabla es lo mismo que subirla",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/ui/participants.ts",
+    "a": 22,
+    "d": 1
+   }
+  ]
+ },
+ "e6104345f4f73635c28c0e720b98efaf7d55f0f5": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-18T06:53:41Z",
+  "message": "Inscritos y los que vinieron, sin \"registrados\"",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/i18n.ts",
+    "a": 11,
+    "d": 8
+   },
+   {
+    "f": "src/ui/importer.ts",
+    "a": 2,
+    "d": 1
+   }
+  ]
+ },
+ "6f87f547a4614aa352999368b8f09a72757cd922": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-18T06:52:41Z",
+  "message": "Homónimos: cada nombre repetido se decide aparte",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/i18n.ts",
+    "a": 4,
+    "d": 0
+   },
+   {
+    "f": "src/ui/csv.test.ts",
+    "a": 38,
+    "d": 1
+   },
+   {
+    "f": "src/ui/csv.ts",
+    "a": 39,
+    "d": 5
+   },
+   {
+    "f": "src/ui/importer.ts",
+    "a": 44,
+    "d": 15
+   }
+  ]
+ },
+ "3e13ac4110b62fc38e31381f5fa0982567d7abc4": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-18T06:52:15Z",
+  "message": "El importador ya no pierde nombres ni borra la lista",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/i18n.ts",
+    "a": 21,
+    "d": 0
+   },
+   {
+    "f": "src/ui/csv.test.ts",
+    "a": 153,
+    "d": 2
+   },
+   {
+    "f": "src/ui/csv.ts",
+    "a": 313,
+    "d": 39
+   },
+   {
+    "f": "src/ui/importer.ts",
+    "a": 14,
+    "d": 1
+   },
+   {
+    "f": "src/ui/participants.ts",
+    "a": 66,
+    "d": 13
+   }
+  ]
+ },
+ "ae969278e0eb19e09a7fa95b975047e3bae2cb0e": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-18T02:43:00Z",
+  "message": "Épico, 45 segundos: lo que alcanzan los doce juegos sin cámara lenta",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/juegos.md",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "scripts/audit-rigor.mjs",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/state.ts",
+    "a": 5,
+    "d": 4
+   }
+  ]
+ },
+ "969bf807ed62a33c4ca3dc9474f957893ae0e45d": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-18T02:19:20Z",
+  "message": "Las miniaturas se dibujan solo si se ven, a 30 cuadros",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/ui/thumbs.ts",
+    "a": 59,
+    "d": 34
+   }
+  ]
+ },
+ "90619cce249748ce8f5c82f8516fdccc151ff9dc": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-18T01:51:57Z",
+  "message": "Cada página trae solo los textos que usa",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/i18n.ts",
+    "a": 10,
+    "d": 72
+   },
+   {
+    "f": "src/idioma.ts",
+    "a": 117,
+    "d": 0
+   },
+   {
+    "f": "src/lista.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/pagina.ts",
+    "a": 7,
+    "d": 5
+   },
+   {
+    "f": "src/textos.test.ts",
+    "a": 27,
+    "d": 0
+   },
+   {
+    "f": "src/verify.ts",
+    "a": 4,
+    "d": 2
+   },
+   {
+    "f": "vite.config.ts",
+    "a": 102,
+    "d": 2
+   }
+  ]
+ },
+ "e4458ec212c145f601682826f88bf9bca4438d51": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-18T01:50:22Z",
+  "message": "La espera en grande, como opción y sin la cuenta final",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/i18n.ts",
+    "a": 2,
+    "d": 10
+   },
+   {
+    "f": "src/styles.css",
+    "a": 0,
+    "d": 9
+   },
+   {
+    "f": "src/ui/espera.ts",
+    "a": 18,
+    "d": 57
+   },
+   {
+    "f": "src/ui/freeze.ts",
+    "a": 6,
+    "d": 11
+   }
+  ]
+ },
+ "11501ff14db4d75d55b171d31cab628e2e6d7b3c": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-18T01:46:43Z",
+  "message": "La espera en grande: la cuenta, el premio y los nombres, para la sala",
+  "parents": 1,
+  "files": [
+   {
+    "f": "index.html",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "src/i18n.ts",
+    "a": 22,
+    "d": 2
+   },
+   {
+    "f": "src/styles.css",
+    "a": 40,
+    "d": 0
+   },
+   {
+    "f": "src/ui/espera.ts",
+    "a": 143,
+    "d": 0
+   },
+   {
+    "f": "src/ui/freeze.ts",
+    "a": 20,
+    "d": 0
+   }
+  ]
+ },
+ "e1ec2f49aa8b03ad51e97fcc8e64963572c0dcbf": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-18T01:46:41Z",
+  "message": "La carrera, con todos: clasificatoria, presentación y más tiempo",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/juegos.md",
+    "a": 3,
+    "d": 3
+   },
+   {
+    "f": "scripts/audit-identidad.mjs",
+    "a": 7,
+    "d": 3
+   },
+   {
+    "f": "scripts/audit-rigor.mjs",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/games/llamas/pixi-race.ts",
+    "a": 271,
+    "d": 17
+   },
+   {
+    "f": "src/games/pixi/qualifier.test.ts",
+    "a": 31,
+    "d": 1
+   },
+   {
+    "f": "src/games/pixi/qualifier.ts",
+    "a": 32,
+    "d": 13
+   },
+   {
+    "f": "src/i18n.ts",
+    "a": 20,
+    "d": 0
+   },
+   {
+    "f": "src/state.ts",
+    "a": 9,
+    "d": 2
+   }
+  ]
+ },
+ "8d02c920a62e000a84f770c446f57148f0844a4c": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-18T01:46:26Z",
+  "message": "La conexión con drand se abre antes de que nazca la ronda",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/ui/freeze.ts",
+    "a": 27,
+    "d": 1
+   }
+  ]
+ },
+ "d4162dde61c0ca934eb034df1c8a134734dfaa4a": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-18T01:43:37Z",
+  "message": "La firma de la ronda se verifica en un worker",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/protocol/bls.worker.ts",
+    "a": 24,
+    "d": 0
+   },
+   {
+    "f": "src/protocol/firma.test.ts",
+    "a": 21,
+    "d": 0
+   },
+   {
+    "f": "src/protocol/firma.ts",
+    "a": 91,
+    "d": 0
+   },
+   {
+    "f": "src/ui/draw.ts",
+    "a": 8,
+    "d": 12
+   },
+   {
+    "f": "src/ui/freeze.ts",
+    "a": 7,
+    "d": 3
+   },
+   {
+    "f": "src/verify.ts",
+    "a": 5,
+    "d": 2
+   }
+  ]
+ },
+ "e312df3c0b84d929bbc4e2cab2338db545e7e498": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-18T01:41:28Z",
+  "message": "La portada ya no baja la curva del sorteo",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/lista.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/main.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/protocol/drand.ts",
+    "a": 7,
+    "d": 112
+   },
+   {
+    "f": "src/protocol/quicknet.ts",
+    "a": 120,
+    "d": 0
+   },
+   {
+    "f": "src/ui/draw.ts",
+    "a": 12,
+    "d": 3
+   },
+   {
+    "f": "src/ui/freeze.ts",
+    "a": 4,
+    "d": 2
+   },
+   {
+    "f": "src/ui/rebuild.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/ui/sala.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/verify.ts",
+    "a": 2,
+    "d": 10
+   }
+  ]
+ },
+ "5c5701e9d7d7d7b439ab67d2bce1d5579191d54e": {
+  "team": "TilcAI",
+  "repo": "TilcAI/tilcai-web",
+  "author": "OmarQV",
+  "date": "2026-10-20T12:05:51Z",
+  "message": "docs(history): registrar actualizacion del portal y ajustes",
+  "parents": 1,
+  "files": [
+   {
+    "f": "AGENT_HISTORY.md",
+    "a": 141,
+    "d": 0
+   }
+  ]
+ },
+ "0cd908f1c1ed41f6aa87380f8d7c0c9ea85ef3e0": {
+  "team": "TilcAI",
+  "repo": "TilcAI/tilcai-web",
+  "author": "OmarQV",
+  "date": "2026-10-20T12:05:50Z",
+  "message": "docs(qa): agregar evidencias visuales desktop y movil",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/qa-portal/desktop-home.jpg",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/qa-portal/desktop-mainnet-evidence.jpg",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/qa-portal/desktop-networks.jpg",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/qa-portal/mobile-api-table.jpg",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/qa-portal/mobile-monad.jpg",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/qa-portal/mobile-quickstart-compact.jpg",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/qa-portal/tablet-architecture.jpg",
+    "a": 0,
+    "d": 0
+   }
+  ]
+ },
+ "3024493f3e07c6f152309b068d80f394caf4238f": {
+  "team": "TilcAI",
+  "repo": "TilcAI/tilcai-web",
+  "author": "OmarQV",
+  "date": "2026-10-20T12:05:49Z",
+  "message": "docs: registrar arquitectura visual recursos y validaciones",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/portal-documentation.md",
+    "a": 71,
+    "d": 0
+   }
+  ]
+ },
+ "524c97100f2ad3f0eb25b7d59bf0e4afd92aebc5": {
+  "team": "TilcAI",
+  "repo": "TilcAI/tilcai-web",
+  "author": "OmarQV",
+  "date": "2026-10-20T12:05:49Z",
+  "message": "docs(readme): actualizar estado y rutas del sitio",
+  "parents": 1,
+  "files": [
+   {
+    "f": "README.md",
+    "a": 5,
+    "d": 4
+   }
+  ]
+ },
+ "a21faa5a4e5fc028b1c2a509efb41054b5206f42": {
+  "team": "TilcAI",
+  "repo": "TilcAI/tilcai-web",
+  "author": "OmarQV",
+  "date": "2026-10-20T12:05:49Z",
+  "message": "fix(test): admitir terminadores CRLF en Windows",
+  "parents": 1,
+  "files": [
+   {
+    "f": "test/agent-stages.test.ts",
+    "a": 1,
+    "d": 1
+   }
+  ]
+ },
+ "e9518b3ffe3e82a05987c4cace164094f4a009ff": {
+  "team": "TilcAI",
+  "repo": "TilcAI/tilcai-web",
+  "author": "OmarQV",
+  "date": "2026-10-20T12:05:49Z",
+  "message": "test(docs): validar alcance desde el contenido centralizado",
+  "parents": 1,
+  "files": [
+   {
+    "f": "test/landing-explain.test.ts",
+    "a": 3,
+    "d": 2
+   }
+  ]
+ },
+ "4417d0abe5a40837a063f89760fd38b69b9318e6": {
+  "team": "TilcAI",
+  "repo": "TilcAI/tilcai-web",
+  "author": "OmarQV",
+  "date": "2026-10-20T12:05:48Z",
+  "message": "fix(docs): enlazar landing con las nuevas guias",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/components/sections/ControlSection.tsx",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/components/sections/HeroScene.tsx",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/components/sections/SolutionsSection.tsx",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/components/sections/StackSection.tsx",
+    "a": 1,
+    "d": 1
+   }
+  ]
+ },
+ "d95451ba810766be5dce68a9c2961abf138de62d": {
+  "team": "TilcAI",
+  "repo": "TilcAI/tilcai-web",
+  "author": "OmarQV",
+  "date": "2026-10-20T12:05:48Z",
+  "message": "docs(seo): actualizar metadatos del portal",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/lib/i18n/en.ts",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "src/lib/i18n/es.ts",
+    "a": 2,
+    "d": 2
+   }
+  ]
+ },
+ "2e2b006be5f18b209cd7752a5345918f563226dc": {
+  "team": "TilcAI",
+  "repo": "TilcAI/tilcai-web",
+  "author": "OmarQV",
+  "date": "2026-10-20T12:05:48Z",
+  "message": "fix(docs): conservar articulo al cambiar idioma",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/components/SiteHeaderBar.tsx",
+    "a": 3,
+    "d": 1
+   }
+  ]
+ },
+ "e1919bb128fdd4c2c1d13c4b2fcf407cbcd12d80": {
+  "team": "TilcAI",
+  "repo": "TilcAI/tilcai-web",
+  "author": "OmarQV",
+  "date": "2026-10-20T12:05:47Z",
+  "message": "feat(docs): generar rutas y metadatos por articulo",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/app/[lang]/docs/[slug]/page.tsx",
+    "a": 34,
+    "d": 0
+   }
+  ]
+ },
+ "7c482ad5dfc1fcf1fa38347702793ef39de07e95": {
+  "team": "TilcAI",
+  "repo": "TilcAI/tilcai-web",
+  "author": "OmarQV",
+  "date": "2026-10-20T12:05:47Z",
+  "message": "style(docs): refinar diseno responsive y compactar espaciado",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/app/docs.css",
+    "a": 262,
+    "d": 355
+   }
+  ]
+ },
+ "0de0e1d56937d6562f8a41a0553ed3f92fea4444": {
+  "team": "TilcAI",
+  "repo": "TilcAI/tilcai-web",
+  "author": "OmarQV",
+  "date": "2026-10-20T12:05:47Z",
+  "message": "feat(docs): transformar documentacion en portal de guias",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/components/DocsPage.tsx",
+    "a": 74,
+    "d": 83
+   }
+  ]
+ },
+ "ea7dd36ae7ed4276543e1de42e7db93b171f8f77": {
+  "team": "TilcAI",
+  "repo": "TilcAI/tilcai-web",
+  "author": "OmarQV",
+  "date": "2026-10-20T12:05:47Z",
+  "message": "docs(mainnet): incorporar evidencia visual de Vaquita",
+  "parents": 1,
+  "files": [
+   {
+    "f": "public/docs/vaquita-mainnet-demo.jpg",
+    "a": 0,
+    "d": 0
+   }
+  ]
+ },
+ "804fddfdee05658d77117376b2c34f37721c7ce2": {
+  "team": "TilcAI",
+  "repo": "TilcAI/tilcai-web",
+  "author": "OmarQV",
+  "date": "2026-10-20T12:05:46Z",
+  "message": "feat(docs): incorporar ilustracion editorial optimizada",
+  "parents": 1,
+  "files": [
+   {
+    "f": "public/docs/infrastructure-editorial.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/docs/infrastructure-editorial.webp",
+    "a": 0,
+    "d": 0
+   }
+  ]
+ },
+ "b66f78568dad547e95c1f549bcb4b657f6afa98a": {
+  "team": "TilcAI",
+  "repo": "TilcAI/tilcai-web",
+  "author": "OmarQV",
+  "date": "2026-10-20T12:05:46Z",
+  "message": "feat(docs): incorporar diagramas de arquitectura y redes",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/components/docs/DocsDiagrams.tsx",
+    "a": 43,
+    "d": 0
+   }
+  ]
+ },
+ "2585e7d2e53e49f72ff1f3d6c6ebeeac62529a4b": {
+  "team": "TilcAI",
+  "repo": "TilcAI/tilcai-web",
+  "author": "OmarQV",
+  "date": "2026-10-20T12:05:46Z",
+  "message": "feat(docs): agregar copia de codigo e indice de lectura",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/components/docs/DocsArticleTools.tsx",
+    "a": 65,
+    "d": 0
+   }
+  ]
+ },
+ "fd66a0b496bf8a565a2b293a765f96a9bd9b6cef": {
+  "team": "TilcAI",
+  "repo": "TilcAI/tilcai-web",
+  "author": "OmarQV",
+  "date": "2026-10-20T12:05:45Z",
+  "message": "feat(docs): implementar busqueda local con atajos",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/components/docs/DocsSearch.tsx",
+    "a": 49,
+    "d": 0
+   }
+  ]
+ },
+ "e03dabac8208098e98dc39508e49ced20e1651e8": {
+  "team": "TilcAI",
+  "repo": "TilcAI/tilcai-web",
+  "author": "OmarQV",
+  "date": "2026-10-20T12:05:45Z",
+  "message": "feat(docs): agregar navegacion lateral y menu movil",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/components/docs/DocsNavigation.tsx",
+    "a": 42,
+    "d": 0
+   }
+  ]
+ },
+ "c10f93e21b25e295deee1983129d62e6c6114fc9": {
+  "team": "TilcAI",
+  "repo": "TilcAI/tilcai-web",
+  "author": "OmarQV",
+  "date": "2026-10-20T12:05:45Z",
+  "message": "feat(docs): agregar anclas unicas y validar enlaces",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/lib/docs-html.ts",
+    "a": 16,
+    "d": 0
+   },
+   {
+    "f": "test/docs-page.test.ts",
+    "a": 22,
+    "d": 1
+   }
+  ]
+ },
+ "ea11ac82c458d31ebbb59cd790a23a268ef378f8": {
+  "team": "TilcAI",
+  "repo": "TilcAI/tilcai-web",
+  "author": "OmarQV",
+  "date": "2026-10-20T12:05:45Z",
+  "message": "feat(docs): actualizar guias bilingues y estado del proyecto",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/lib/content/docs-content.ts",
+    "a": 293,
+    "d": 0
+   },
+   {
+    "f": "src/lib/i18n/docs.en.ts",
+    "a": 14,
+    "d": 485
+   },
+   {
+    "f": "src/lib/i18n/docs.es.ts",
+    "a": 14,
+    "d": 485
+   },
+   {
+    "f": "src/lib/i18n/types.ts",
+    "a": 1,
+    "d": 1
+   }
+  ]
  }
 }
