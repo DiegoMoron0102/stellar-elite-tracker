@@ -1,14 +1,14 @@
 {
- "generado": "2026-10-20T16:03:39+00:00",
+ "generado": "2026-10-20T21:01:04+00:00",
  "programa": "Stellar Elite",
  "start_date": "2026-09-02T00:00:00Z",
  "teams": [
   {
    "name": "Tinkazo",
-   "total": 2260.36,
-   "per_capita": 2260.36,
-   "commits": 308,
-   "pts_commits": 2139.36,
+   "total": 2586.6,
+   "per_capita": 2586.6,
+   "commits": 375,
+   "pts_commits": 2465.6,
    "dias_activos": 23,
    "contribuidores": [
     "GuidoSV7",
@@ -344,7 +344,7 @@
    "2026-10-17": 13.58,
    "2026-10-18": 188.71000000000004,
    "2026-10-19": 174.88,
-   "2026-10-20": 386.78000000000003
+   "2026-10-20": 713.0200000000003
   },
   "CompraGasolinaBidon": {
    "2026-09-06": 1.0,
@@ -492,7 +492,7 @@
    "2026-10-17": 2,
    "2026-10-18": 27,
    "2026-10-19": 34,
-   "2026-10-20": 66
+   "2026-10-20": 133
   },
   "CompraGasolinaBidon": {
    "2026-09-06": 1,
@@ -585,6 +585,666 @@
   }
  },
  "commits": [
+  {
+   "sha": "9432cce",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-10-20T17:24:21Z",
+   "msg": "Carrera: la tabla de posiciones tapa lo que pasa detrás",
+   "pts": 2.58,
+   "nota": ""
+  },
+  {
+   "sha": "0ca1cf3",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-10-20T17:23:05Z",
+   "msg": "Luz roja: la cámara no pierde al que acaba de caer y la pila de nombres no baja de la pista",
+   "pts": 5.32,
+   "nota": ""
+  },
+  {
+   "sha": "26b2384",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-10-20T17:17:03Z",
+   "msg": "Tómbola: sobre la compuerta la rueda no se corta por el borde izquierdo",
+   "pts": 3.81,
+   "nota": ""
+  },
+  {
+   "sha": "56101ea",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-10-20T17:10:39Z",
+   "msg": "El evento se reparte en enlaces por tamaño, sin tope de sorteos: ningún sorteo queda afuera",
+   "pts": 8.61,
+   "nota": ""
+  },
+  {
+   "sha": "1581916",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-10-20T17:10:25Z",
+   "msg": "Sapo: con doce nombres o menos, la grilla de la presentación cae sobre la mesa",
+   "pts": 4.91,
+   "nota": ""
+  },
+  {
+   "sha": "e424452",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-10-20T17:10:15Z",
+   "msg": "Sapo: los nombres de los costados se ven en 4:3 y 5:4",
+   "pts": 4.32,
+   "nota": ""
+  },
+  {
+   "sha": "dfbb99d",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-10-20T17:04:40Z",
+   "msg": "Compartir el evento avisa antes de copiar: si el enlace es largo, o si hay más sorteos de los que entran",
+   "pts": 5.25,
+   "nota": ""
+  },
+  {
+   "sha": "1c192e8",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-10-20T17:03:05Z",
+   "msg": "Trompo: la lista va de a cinco en celular y ningún nombre tapa el contador",
+   "pts": 7.13,
+   "nota": ""
+  },
+  {
+   "sha": "afaae0c",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-10-20T16:55:13Z",
+   "msg": "Carrera: la tabla de posiciones se lee desde la sala",
+   "pts": 5.39,
+   "nota": ""
+  },
+  {
+   "sha": "35f4bd1",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-10-20T16:49:32Z",
+   "msg": "Docs: los nombres de la constelación, como quedaron",
+   "pts": 2.58,
+   "nota": ""
+  },
+  {
+   "sha": "0f9aed9",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-10-20T16:49:14Z",
+   "msg": "Constelación: si un nombre pisa a otro en el último salto, sube encima",
+   "pts": 4.0,
+   "nota": ""
+  },
+  {
+   "sha": "134311a",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-10-20T16:49:13Z",
+   "msg": "Constelación: el amague entra entre la cabecera y el relator",
+   "pts": 3.32,
+   "nota": ""
+  },
+  {
+   "sha": "4ed71aa",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-10-20T16:49:11Z",
+   "msg": "Constelación: la estrella bajo la cabecera también tiene su nombre",
+   "pts": 3.81,
+   "nota": ""
+  },
+  {
+   "sha": "3e4f144",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-10-20T16:49:09Z",
+   "msg": "Constelación: el contador SALTO no lo tapan los nombres",
+   "pts": 4.91,
+   "nota": ""
+  },
+  {
+   "sha": "3619572",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-10-20T16:49:07Z",
+   "msg": "Constelación: en la nova, el cartel no tapa el nombre de un co-ganador",
+   "pts": 4.46,
+   "nota": ""
+  },
+  {
+   "sha": "6fabe66",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-10-20T16:49:05Z",
+   "msg": "Constelación: ningún nombre tapa la estrella de otra persona",
+   "pts": 4.7,
+   "nota": ""
+  },
+  {
+   "sha": "5279c9e",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-10-20T16:49:02Z",
+   "msg": "Constelación: los nombres no crecen con el zoom y el paquete se ve",
+   "pts": 4.32,
+   "nota": ""
+  },
+  {
+   "sha": "51163af",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-10-20T16:48:59Z",
+   "msg": "Constelación: el contador de saltos y la barra se leen en celular",
+   "pts": 4.17,
+   "nota": ""
+  },
+  {
+   "sha": "eb029d1",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-10-20T16:48:56Z",
+   "msg": "Aguayo: los bultos que ya se apagaron sueltan su nombre",
+   "pts": 4.32,
+   "nota": ""
+  },
+  {
+   "sha": "91246f9",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-10-20T16:48:52Z",
+   "msg": "Aguayo: en el nudo, cada nombre busca una altura libre",
+   "pts": 5.64,
+   "nota": ""
+  },
+  {
+   "sha": "75b2b7a",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-10-20T16:48:48Z",
+   "msg": "Aguayo: con 65 o más personas, los nombres no aparecen y se apagan de golpe",
+   "pts": 4.32,
+   "nota": ""
+  },
+  {
+   "sha": "191cc66",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-10-20T16:48:46Z",
+   "msg": "Aguayo: los nombres de los que salen buscan lugar al costado o más arriba",
+   "pts": 5.95,
+   "nota": ""
+  },
+  {
+   "sha": "355f6f7",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-10-20T16:48:45Z",
+   "msg": "Aguayo: en celular de pie la tela se acerca en la caída y el apretón",
+   "pts": 4.46,
+   "nota": ""
+  },
+  {
+   "sha": "e6f020d",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-10-20T16:48:42Z",
+   "msg": "Aguayo: el contador de la tela y el rótulo del apretón se leen",
+   "pts": 4.7,
+   "nota": ""
+  },
+  {
+   "sha": "2d70683",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-10-20T16:48:37Z",
+   "msg": "Aguayo: en el apretón con ocho o menos, cada nombre queda debajo del anterior sin pisarlo",
+   "pts": 3.32,
+   "nota": ""
+  },
+  {
+   "sha": "121bb65",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-10-20T16:47:19Z",
+   "msg": "Carrera: la foto final deja a la ganadora debajo del cartel GANA",
+   "pts": 6.73,
+   "nota": ""
+  },
+  {
+   "sha": "050ecc1",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-10-20T16:40:35Z",
+   "msg": "Carrera: el nombre no tapa a su llama en el celular ni en 4:3",
+   "pts": 7.13,
+   "nota": ""
+  },
+  {
+   "sha": "092fb86",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-10-20T16:38:00Z",
+   "msg": "La sonda de la billetera espera mientras el estadio se ve, también en la escena fija: mira el estilo calculado, no el de",
+   "pts": 3.58,
+   "nota": ""
+  },
+  {
+   "sha": "08d8073",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-10-20T16:32:14Z",
+   "msg": "Chovena: al tambalearse, las manos estiradas no hacen una cadena como palo",
+   "pts": 3.81,
+   "nota": ""
+  },
+  {
+   "sha": "574a878",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-10-20T16:03:10Z",
+   "msg": "Piñata: pruebas de que los nombres no pisan el contador ni se corren de la lista",
+   "pts": 4.91,
+   "nota": ""
+  },
+  {
+   "sha": "9ff9c12",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-10-20T16:02:08Z",
+   "msg": "Reacomoda el párrafo de la cabecera del teleférico",
+   "pts": 4.0,
+   "nota": ""
+  },
+  {
+   "sha": "31c3e62",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-10-20T16:01:08Z",
+   "msg": "En celular acostado, la cara del que se baja en la última estación ya no queda debajo de la barra",
+   "pts": 4.46,
+   "nota": ""
+  },
+  {
+   "sha": "6278291",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-10-20T15:59:13Z",
+   "msg": "El rótulo CUMBRE se lee entero en 4:3, debajo de SONIDO y Saltar",
+   "pts": 4.0,
+   "nota": ""
+  },
+  {
+   "sha": "52834fd",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-10-20T15:58:02Z",
+   "msg": "Docs de Oruro y la piñata: cómo se mueven, cómo se encuadran y qué falta",
+   "pts": 5.64,
+   "nota": ""
+  },
+  {
+   "sha": "1647fa8",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-10-20T15:57:58Z",
+   "msg": "Mide en la documentación cuánto pesa un enlace de evento",
+   "pts": 2.58,
+   "nota": ""
+  },
+  {
+   "sha": "f45c656",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-10-20T15:57:10Z",
+   "msg": "La banderita de la cumbre se oculta cuando sale el cartel del ganador",
+   "pts": 2.58,
+   "nota": ""
+  },
+  {
+   "sha": "d73df5f",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-10-20T15:55:42Z",
+   "msg": "En celular acostado ninguna finalista se queda sin nombre y el de arriba queda pegado a su cabina",
+   "pts": 4.46,
+   "nota": ""
+  },
+  {
+   "sha": "5f5efb0",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-10-20T15:55:19Z",
+   "msg": "Piñata: la lista de los últimos caídos se lee en un celular acostado",
+   "pts": 3.58,
+   "nota": ""
+  },
+  {
+   "sha": "844d6b3",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-10-20T15:54:22Z",
+   "msg": "Piñata: con tres premios, el cartel de la corona no tapa la cabeza del chico",
+   "pts": 3.32,
+   "nota": ""
+  },
+  {
+   "sha": "1008ae4",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-10-20T15:53:40Z",
+   "msg": "Documenta el enlace de evento: qué junta, qué se comprueba y qué no",
+   "pts": 7.29,
+   "nota": ""
+  },
+  {
+   "sha": "715121e",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-10-20T15:52:21Z",
+   "msg": "La lista de la página de evento va sin marco y el aviso del tope se lee bien",
+   "pts": 5.86,
+   "nota": ""
+  },
+  {
+   "sha": "7e501f1",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-10-20T15:51:46Z",
+   "msg": "Piñata: con dos adentro, la toma encuadra también al chico del palo",
+   "pts": 5.39,
+   "nota": ""
+  },
+  {
+   "sha": "b697896",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-10-20T15:50:48Z",
+   "msg": "Las notas del teleférico dicen en qué se distingue el plan del motor de siempre",
+   "pts": 5.32,
+   "nota": ""
+  },
+  {
+   "sha": "1965920",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-10-20T15:49:39Z",
+   "msg": "La guía del teleférico dice cuántos nombres entran en el andén del celular",
+   "pts": 3.32,
+   "nota": ""
+  },
+  {
+   "sha": "db0ce00",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-10-20T15:48:41Z",
+   "msg": "Con tres a cinco que quedan, los nombres de las cabinas vuelven a la letra base en escritorio",
+   "pts": 3.32,
+   "nota": ""
+  },
+  {
+   "sha": "a0b00c6",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-10-20T15:45:28Z",
+   "msg": "En celular los nombres de las cabinas vuelven a la base legible y no caen sobre su cabina",
+   "pts": 4.7,
+   "nota": ""
+  },
+  {
+   "sha": "35d8779",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-10-20T15:44:57Z",
+   "msg": "Piñata: el chico se queda quieto cuando rompen la piñata",
+   "pts": 3.0,
+   "nota": ""
+  },
+  {
+   "sha": "47c9fe1",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-10-20T15:44:31Z",
+   "msg": "Piñata: la lista de los que siguen adentro no se desarma en celular",
+   "pts": 4.81,
+   "nota": ""
+  },
+  {
+   "sha": "f1362db",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-10-20T15:43:38Z",
+   "msg": "Piñata: el contador y el chico del palo no quedan tapados por los nombres",
+   "pts": 5.0,
+   "nota": ""
+  },
+  {
+   "sha": "07e53c3",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-10-20T15:42:08Z",
+   "msg": "Los nombres de las cabinas ya no se pisan entre sí ni tapan el número de la estación",
+   "pts": 6.55,
+   "nota": ""
+  },
+  {
+   "sha": "e174058",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-10-20T15:39:59Z",
+   "msg": "Pruebas del enlace de evento, de la agrupación y de los mensajes",
+   "pts": 8.93,
+   "nota": ""
+  },
+  {
+   "sha": "d28251a",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-10-20T15:38:15Z",
+   "msg": "Oruro: la llama que se quedó en la vereda sigue en cuadro al volver del primer plano",
+   "pts": 3.0,
+   "nota": ""
+  },
+  {
+   "sha": "2419359",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-10-20T15:38:09Z",
+   "msg": "Mis sorteos agrupa los sorteos de un evento y copia su enlace",
+   "pts": 8.85,
+   "nota": ""
+  },
+  {
+   "sha": "178b956",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-10-20T15:36:27Z",
+   "msg": "Oruro: el contador y el rótulo de la cuadra no se achican en un celular acostado",
+   "pts": 3.58,
+   "nota": ""
+  },
+  {
+   "sha": "fe5e49d",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-10-20T15:35:51Z",
+   "msg": "Un enlace de evento junta varios sorteos y los revisa sin la cadena",
+   "pts": 9.68,
+   "nota": ""
+  },
+  {
+   "sha": "73cf1f9",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-10-20T15:35:36Z",
+   "msg": "Oruro: el nombre del contrapunto sigue el salto y no tapa la máscara",
+   "pts": 5.0,
+   "nota": ""
+  },
+  {
+   "sha": "16d0c40",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-10-20T15:35:11Z",
+   "msg": "En escritorio el andén vuelve a la letra base y deja libre el contador de QUEDAN",
+   "pts": 3.32,
+   "nota": ""
+  },
+  {
+   "sha": "71ad665",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-10-20T15:32:15Z",
+   "msg": "Oruro: el rótulo \"CUADRA N DE K\" se lee sobre los diablos",
+   "pts": 4.46,
+   "nota": ""
+  },
+  {
+   "sha": "b999b42",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-10-20T15:32:06Z",
+   "msg": "Los renglones del andén ya no se enciman y la cara que aterriza tiene el tamaño del chip",
+   "pts": 4.7,
+   "nota": ""
+  },
+  {
+   "sha": "970a7d8",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-10-20T15:31:54Z",
+   "msg": "Oruro: en una pantalla vertical grande los nombres no quedan más chicos",
+   "pts": 4.0,
+   "nota": ""
+  },
+  {
+   "sha": "8c3dc4b",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-10-20T15:31:34Z",
+   "msg": "Oruro: el nombre que se presenta o se tacha no se corta por la derecha",
+   "pts": 4.91,
+   "nota": ""
+  },
+  {
+   "sha": "766caa4",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-10-20T15:30:07Z",
+   "msg": "Oruro: en pantallas anchas se leen más nombres y las páginas quedan parejas",
+   "pts": 6.21,
+   "nota": ""
+  },
+  {
+   "sha": "5e6c96c",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-10-20T15:29:06Z",
+   "msg": "El mensaje de compartir dice cómo verificar y termina con la marca",
+   "pts": 7.75,
+   "nota": ""
+  },
+  {
+   "sha": "d2a474e",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-10-20T14:31:59Z",
+   "msg": "El +N del andén tiene la misma letra que los nombres de arriba",
+   "pts": 3.32,
+   "nota": ""
+  },
+  {
+   "sha": "4eb4107",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-10-20T14:29:39Z",
+   "msg": "El nombre del que se baja no queda flotando cuando su cara ya salió de cuadro",
+   "pts": 3.81,
+   "nota": ""
+  },
+  {
+   "sha": "c8cb943",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-10-20T12:08:26Z",
+   "msg": "Los botones de premio entran cuatro por renglón en el celular",
+   "pts": 3.58,
+   "nota": ""
+  },
   {
    "sha": "5c5701e",
    "team": "TilcAI",
@@ -783,6 +1443,16 @@
    "date": "2026-10-20T12:05:45Z",
    "msg": "feat(docs): actualizar guias bilingues y estado del proyecto",
    "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "cac2d23",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-10-20T11:58:46Z",
+   "msg": "El premio se elige con botones y se puede escribir otro: los más comunes y los últimos usados",
+   "pts": 9.5,
    "nota": ""
   },
   {

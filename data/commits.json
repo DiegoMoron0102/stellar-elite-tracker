@@ -118770,5 +118770,1235 @@
     "d": 1
    }
   ]
+ },
+ "9432cce913e5614c8a756ec8a5ff871f1734ba69": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-20T17:24:21Z",
+  "message": "Carrera: la tabla de posiciones tapa lo que pasa detrás",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/games/llamas/pixi-race.ts",
+    "a": 1,
+    "d": 1
+   }
+  ]
+ },
+ "0ca1cf37feea266297cd34716b584c5a9c50659e": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-20T17:23:05Z",
+  "message": "Luz roja: la cámara no pierde al que acaba de caer y la pila de nombres no baja de la pista",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/games/pixi/luz.ts",
+    "a": 17,
+    "d": 2
+   }
+  ]
+ },
+ "26b238462e0b5b3c2ee68b30a843e29e39dd4ac3": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-20T17:17:03Z",
+  "message": "Tómbola: sobre la compuerta la rueda no se corta por el borde izquierdo",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/games/pixi/tombola.ts",
+    "a": 5,
+    "d": 1
+   }
+  ]
+ },
+ "15819164a5693764620ec26cf5c8699ddce4cfa6": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-20T17:10:25Z",
+  "message": "Sapo: con doce nombres o menos, la grilla de la presentación cae sobre la mesa",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/games/pixi/sapo.ts",
+    "a": 12,
+    "d": 2
+   }
+  ]
+ },
+ "e424452cc48557a813925713616fb0ef2bdb4519": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-20T17:10:15Z",
+  "message": "Sapo: los nombres de los costados se ven en 4:3 y 5:4",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/games/pixi/sapo.ts",
+    "a": 6,
+    "d": 3
+   }
+  ]
+ },
+ "1c192e83dfe5480e8b27f9965e9f5620756ef2cc": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-20T17:03:05Z",
+  "message": "Trompo: la lista va de a cinco en celular y ningún nombre tapa el contador",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/games/pixi/stage.ts",
+    "a": 7,
+    "d": 7
+   },
+   {
+    "f": "src/games/pixi/trompo.ts",
+    "a": 37,
+    "d": 18
+   }
+  ]
+ },
+ "afaae0cd2803649377137c7bdeb4b09428b0f6d7": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-20T16:55:13Z",
+  "message": "Carrera: la tabla de posiciones se lee desde la sala",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/games/llamas/pixi-race.ts",
+    "a": 12,
+    "d": 8
+   }
+  ]
+ },
+ "121bb65f5188179a0634ab54042a47da4359b60e": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-20T16:47:19Z",
+  "message": "Carrera: la foto final deja a la ganadora debajo del cartel GANA",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/games/llamas/pixi-race.ts",
+    "a": 24,
+    "d": 6
+   },
+   {
+    "f": "src/games/pixi/stage.ts",
+    "a": 21,
+    "d": 1
+   }
+  ]
+ },
+ "050ecc112ff7d26e0384636f34db064a1c886396": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-20T16:40:35Z",
+  "message": "Carrera: el nombre no tapa a su llama en el celular ni en 4:3",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/games/llamas/pixi-race.ts",
+    "a": 66,
+    "d": 3
+   }
+  ]
+ },
+ "08d8073e13985f6a56ee845ee355c1320e3151cb": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-20T16:32:14Z",
+  "message": "Chovena: al tambalearse, las manos estiradas no hacen una cadena como palo",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/games/pixi/chovena.ts",
+    "a": 4,
+    "d": 2
+   }
+  ]
+ },
+ "35f4bd1790c1bd819c8da9f6f6754b67afe30796": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-20T16:49:32Z",
+  "message": "Docs: los nombres de la constelación, como quedaron",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/juegos/constelacion-stellar.md",
+    "a": 1,
+    "d": 1
+   }
+  ]
+ },
+ "0f9aed96a50cddada0b820a4f05b4b796186b59d": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-20T16:49:14Z",
+  "message": "Constelación: si un nombre pisa a otro en el último salto, sube encima",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/games/pixi/constellation.ts",
+    "a": 7,
+    "d": 0
+   }
+  ]
+ },
+ "134311a410ddfa132aa5e14bab45bc45cac13712": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-20T16:49:13Z",
+  "message": "Constelación: el amague entra entre la cabecera y el relator",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/games/pixi/constellation.ts",
+    "a": 3,
+    "d": 1
+   }
+  ]
+ },
+ "4ed71aa6256a03066be2e7b9421589bcf00f6930": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-20T16:49:11Z",
+  "message": "Constelación: la estrella bajo la cabecera también tiene su nombre",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/games/pixi/constellation.ts",
+    "a": 4,
+    "d": 2
+   }
+  ]
+ },
+ "3e4f144d44a5c33a73279c87a92988729e0c1e39": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-20T16:49:09Z",
+  "message": "Constelación: el contador SALTO no lo tapan los nombres",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/games/pixi/constellation.ts",
+    "a": 12,
+    "d": 2
+   }
+  ]
+ },
+ "36195724a2929f600d9c76e98a1851db1fc65f81": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-20T16:49:07Z",
+  "message": "Constelación: en la nova, el cartel no tapa el nombre de un co-ganador",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/games/pixi/constellation.ts",
+    "a": 10,
+    "d": 0
+   }
+  ]
+ },
+ "6fabe6675ef73fb2c826fc9671245399821300d5": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-20T16:49:05Z",
+  "message": "Constelación: ningún nombre tapa la estrella de otra persona",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/games/pixi/constellation.ts",
+    "a": 8,
+    "d": 4
+   }
+  ]
+ },
+ "5279c9ed9341bd21045f44040946316c4e0dd0b9": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-20T16:49:02Z",
+  "message": "Constelación: los nombres no crecen con el zoom y el paquete se ve",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/games/pixi/constellation.ts",
+    "a": 5,
+    "d": 4
+   }
+  ]
+ },
+ "51163afd2412dfa33316994bfe8eb813dfd56e95": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-20T16:48:59Z",
+  "message": "Constelación: el contador de saltos y la barra se leen en celular",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/games/pixi/constellation.ts",
+    "a": 5,
+    "d": 3
+   }
+  ]
+ },
+ "eb029d173161a3a395f57faddea0aa9a657fc365": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-20T16:48:56Z",
+  "message": "Aguayo: los bultos que ya se apagaron sueltan su nombre",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/games/pixi/pasanaku.ts",
+    "a": 9,
+    "d": 0
+   }
+  ]
+ },
+ "91246f90505a6731e989a0f9d3668408555ee5c5": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-20T16:48:52Z",
+  "message": "Aguayo: en el nudo, cada nombre busca una altura libre",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/games/pixi/pasanaku.ts",
+    "a": 18,
+    "d": 6
+   }
+  ]
+ },
+ "75b2b7a85e6f709d300e041395a0e2c6989d2912": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-20T16:48:48Z",
+  "message": "Aguayo: con 65 o más personas, los nombres no aparecen y se apagan de golpe",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/games/pixi/pasanaku.ts",
+    "a": 7,
+    "d": 2
+   }
+  ]
+ },
+ "191cc660cddf4cf9dbb2dd357a58331c16b1c0b7": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-20T16:48:46Z",
+  "message": "Aguayo: los nombres de los que salen buscan lugar al costado o más arriba",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/games/pixi/pasanaku.ts",
+    "a": 24,
+    "d": 6
+   }
+  ]
+ },
+ "355f6f7e3072c5bee6acd25d50e71a75a4e86c89": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-20T16:48:45Z",
+  "message": "Aguayo: en celular de pie la tela se acerca en la caída y el apretón",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/games/pixi/pasanaku.ts",
+    "a": 7,
+    "d": 3
+   }
+  ]
+ },
+ "e6f020d9284f595535e1b69f34e73cd94b11bfc5": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-20T16:48:42Z",
+  "message": "Aguayo: el contador de la tela y el rótulo del apretón se leen",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/games/pixi/pasanaku.ts",
+    "a": 7,
+    "d": 5
+   }
+  ]
+ },
+ "2d706837d065a8e70464a3f867d35121fd2317bb": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-20T16:48:37Z",
+  "message": "Aguayo: en el apretón con ocho o menos, cada nombre queda debajo del anterior sin pisarlo",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/games/pixi/pasanaku.ts",
+    "a": 3,
+    "d": 1
+   }
+  ]
+ },
+ "56101ea8649941241b2fbffcad41ade8fcb2ae3e": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-20T17:10:39Z",
+  "message": "El evento se reparte en enlaces por tamaño, sin tope de sorteos: ningún sorteo queda afuera",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/evento.md",
+    "a": 2,
+    "d": 3
+   },
+   {
+    "f": "evento.html",
+    "a": 0,
+    "d": 1
+   },
+   {
+    "f": "src/evento.ts",
+    "a": 3,
+    "d": 6
+   },
+   {
+    "f": "src/i18n.ts",
+    "a": 6,
+    "d": 8
+   },
+   {
+    "f": "src/mensaje.test.ts",
+    "a": 4,
+    "d": 2
+   },
+   {
+    "f": "src/protocol/evento.test.ts",
+    "a": 38,
+    "d": 8
+   },
+   {
+    "f": "src/protocol/evento.ts",
+    "a": 57,
+    "d": 23
+   },
+   {
+    "f": "src/ui/history.ts",
+    "a": 16,
+    "d": 17
+   }
+  ]
+ },
+ "dfbb99d337c21292c4d370f80a2d795ed7df85b0": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-20T17:04:40Z",
+  "message": "Compartir el evento avisa antes de copiar: si el enlace es largo, o si hay más sorteos de los que entran",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/i18n.ts",
+    "a": 4,
+    "d": 0
+   },
+   {
+    "f": "src/protocol/evento.ts",
+    "a": 2,
+    "d": 0
+   },
+   {
+    "f": "src/ui/history.ts",
+    "a": 9,
+    "d": 3
+   }
+  ]
+ },
+ "1647fa82e838dc12e9c256e7539d535143cf8059": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-20T15:57:58Z",
+  "message": "Mide en la documentación cuánto pesa un enlace de evento",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/evento.md",
+    "a": 1,
+    "d": 1
+   }
+  ]
+ },
+ "1008ae4fb4dc14435c913703691a5ed6db13baff": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-20T15:53:40Z",
+  "message": "Documenta el enlace de evento: qué junta, qué se comprueba y qué no",
+  "parents": 1,
+  "files": [
+   {
+    "f": "README.es.md",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "README.md",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "docs/evento.md",
+    "a": 73,
+    "d": 0
+   }
+  ]
+ },
+ "715121e63d7a12487f1d6a58665293033094e6da": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-20T15:52:21Z",
+  "message": "La lista de la página de evento va sin marco y el aviso del tope se lee bien",
+  "parents": 1,
+  "files": [
+   {
+    "f": "evento.html",
+    "a": 6,
+    "d": 8
+   },
+   {
+    "f": "src/evento.ts",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "src/i18n.ts",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "src/styles.css",
+    "a": 4,
+    "d": 2
+   }
+  ]
+ },
+ "e174058154fc70f185ef929fd5322657f29571ce": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-20T15:39:59Z",
+  "message": "Pruebas del enlace de evento, de la agrupación y de los mensajes",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/evento-textos.test.ts",
+    "a": 34,
+    "d": 0
+   },
+   {
+    "f": "src/mensaje.test.ts",
+    "a": 76,
+    "d": 0
+   },
+   {
+    "f": "src/protocol/evento.test.ts",
+    "a": 69,
+    "d": 0
+   },
+   {
+    "f": "src/ui/agrupar.test.ts",
+    "a": 64,
+    "d": 0
+   }
+  ]
+ },
+ "2419359917b1df1da3db7ec097681f0f5e9feada": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-20T15:38:09Z",
+  "message": "Mis sorteos agrupa los sorteos de un evento y copia su enlace",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/i18n.ts",
+    "a": 8,
+    "d": 0
+   },
+   {
+    "f": "src/styles.css",
+    "a": 8,
+    "d": 0
+   },
+   {
+    "f": "src/ui/agrupar.ts",
+    "a": 50,
+    "d": 0
+   },
+   {
+    "f": "src/ui/history.ts",
+    "a": 134,
+    "d": 29
+   }
+  ]
+ },
+ "fe5e49d41618e9723506cdaab1f0aefc3d45eb26": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-20T15:35:51Z",
+  "message": "Un enlace de evento junta varios sorteos y los revisa sin la cadena",
+  "parents": 1,
+  "files": [
+   {
+    "f": "evento.html",
+    "a": 76,
+    "d": 0
+   },
+   {
+    "f": "src/evento.ts",
+    "a": 173,
+    "d": 0
+   },
+   {
+    "f": "src/i18n.ts",
+    "a": 52,
+    "d": 0
+   },
+   {
+    "f": "src/protocol/evento.ts",
+    "a": 87,
+    "d": 0
+   },
+   {
+    "f": "src/protocol/proof.ts",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "src/ui/agrupar.ts",
+    "a": 16,
+    "d": 0
+   },
+   {
+    "f": "vite.config.ts",
+    "a": 1,
+    "d": 0
+   }
+  ]
+ },
+ "5e6c96c2cf8bcfd0f697e36c9d20288c4a3f277b": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-20T15:29:06Z",
+  "message": "El mensaje de compartir dice cómo verificar y termina con la marca",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/ux.md",
+    "a": 3,
+    "d": 3
+   },
+   {
+    "f": "index.html",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "scripts/audit-flujo.mjs",
+    "a": 4,
+    "d": 4
+   },
+   {
+    "f": "src/i18n.ts",
+    "a": 7,
+    "d": 7
+   },
+   {
+    "f": "src/ui/draw.ts",
+    "a": 46,
+    "d": 29
+   }
+  ]
+ },
+ "c8cb94386e42e1f862a68b08237ae90c7f7e5baa": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-20T12:08:26Z",
+  "message": "Los botones de premio entran cuatro por renglón en el celular",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/styles.css",
+    "a": 5,
+    "d": 0
+   }
+  ]
+ },
+ "cac2d23cec32c11d89f6c288e0521c2c689f58be": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-20T11:58:46Z",
+  "message": "El premio se elige con botones y se puede escribir otro: los más comunes y los últimos usados",
+  "parents": 1,
+  "files": [
+   {
+    "f": "index.html",
+    "a": 5,
+    "d": 3
+   },
+   {
+    "f": "src/i18n.ts",
+    "a": 9,
+    "d": 4
+   },
+   {
+    "f": "src/main.ts",
+    "a": 2,
+    "d": 0
+   },
+   {
+    "f": "src/styles.css",
+    "a": 19,
+    "d": 0
+   },
+   {
+    "f": "src/ui/draw.ts",
+    "a": 6,
+    "d": 1
+   },
+   {
+    "f": "src/ui/freeze.ts",
+    "a": 8,
+    "d": 4
+   },
+   {
+    "f": "src/ui/premios.test.ts",
+    "a": 100,
+    "d": 0
+   },
+   {
+    "f": "src/ui/premios.ts",
+    "a": 200,
+    "d": 0
+   }
+  ]
+ },
+ "574a8783c39b6325903e533ac059196fd2f0f046": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-20T16:03:10Z",
+  "message": "Piñata: pruebas de que los nombres no pisan el contador ni se corren de la lista",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/games/pixi/pinata-labels.test.ts",
+    "a": 14,
+    "d": 0
+   }
+  ]
+ },
+ "52834fdf5175f6a7c03af790afa2cba296f50809": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-20T15:58:02Z",
+  "message": "Docs de Oruro y la piñata: cómo se mueven, cómo se encuadran y qué falta",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/juegos/carnaval-de-oruro.md",
+    "a": 6,
+    "d": 6
+   },
+   {
+    "f": "docs/juegos/pinata.md",
+    "a": 6,
+    "d": 6
+   }
+  ]
+ },
+ "5f5efb0ba6f5536f6abd2b61932c33c77deaab82": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-20T15:55:19Z",
+  "message": "Piñata: la lista de los últimos caídos se lee en un celular acostado",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/games/pixi/pinata.ts",
+    "a": 3,
+    "d": 2
+   }
+  ]
+ },
+ "844d6b30c053335ef3878200ae8a0761def99180": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-20T15:54:22Z",
+  "message": "Piñata: con tres premios, el cartel de la corona no tapa la cabeza del chico",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/games/pixi/pinata.ts",
+    "a": 3,
+    "d": 1
+   }
+  ]
+ },
+ "7e501f1542c1a07e6003e3a21ce7e39a795d75af": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-20T15:51:46Z",
+  "message": "Piñata: con dos adentro, la toma encuadra también al chico del palo",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/games/pixi/pinata.ts",
+    "a": 15,
+    "d": 5
+   }
+  ]
+ },
+ "35d87792dfda482baef15815887881e4ccb7131f": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-20T15:44:57Z",
+  "message": "Piñata: el chico se queda quieto cuando rompen la piñata",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/games/pixi/pinata.ts",
+    "a": 2,
+    "d": 1
+   }
+  ]
+ },
+ "47c9fe1b870efb941c7d17debfec4539651a999f": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-20T15:44:31Z",
+  "message": "Piñata: la lista de los que siguen adentro no se desarma en celular",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/games/pixi/pinata-labels.ts",
+    "a": 5,
+    "d": 2
+   },
+   {
+    "f": "src/games/pixi/pinata.ts",
+    "a": 3,
+    "d": 3
+   }
+  ]
+ },
+ "f1362db7124bde974801f8849292a7e144ef7167": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-20T15:43:38Z",
+  "message": "Piñata: el contador y el chico del palo no quedan tapados por los nombres",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/games/pixi/pinata-labels.ts",
+    "a": 5,
+    "d": 4
+   },
+   {
+    "f": "src/games/pixi/pinata.ts",
+    "a": 4,
+    "d": 2
+   }
+  ]
+ },
+ "d28251ac4731425dcc4562dddd7d18ae74d752bd": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-20T15:38:15Z",
+  "message": "Oruro: la llama que se quedó en la vereda sigue en cuadro al volver del primer plano",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/games/pixi/oruro.ts",
+    "a": 3,
+    "d": 0
+   }
+  ]
+ },
+ "178b9564a2b2692a09cd6f302147e2621af86ed2": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-20T15:36:27Z",
+  "message": "Oruro: el contador y el rótulo de la cuadra no se achican en un celular acostado",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/games/pixi/oruro.ts",
+    "a": 3,
+    "d": 2
+   }
+  ]
+ },
+ "73cf1f9af00f33a063be9c8472edbed84d4178c2": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-20T15:35:36Z",
+  "message": "Oruro: el nombre del contrapunto sigue el salto y no tapa la máscara",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/games/pixi/oruro.ts",
+    "a": 11,
+    "d": 4
+   }
+  ]
+ },
+ "71ad66525a6fa6a50f6d18b682658997055721a9": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-20T15:32:15Z",
+  "message": "Oruro: el rótulo \"CUADRA N DE K\" se lee sobre los diablos",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/games/pixi/oruro.ts",
+    "a": 9,
+    "d": 1
+   }
+  ]
+ },
+ "970a7d899184777b2c7873bd7788f7fdc0ef23b5": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-20T15:31:54Z",
+  "message": "Oruro: en una pantalla vertical grande los nombres no quedan más chicos",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/games/pixi/oruro.ts",
+    "a": 4,
+    "d": 3
+   }
+  ]
+ },
+ "8c3dc4b3638690fd12e63c092ee0fd09030a3aa8": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-20T15:31:34Z",
+  "message": "Oruro: el nombre que se presenta o se tacha no se corta por la derecha",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/games/pixi/oruro.ts",
+    "a": 9,
+    "d": 5
+   }
+  ]
+ },
+ "766caa4f7a564144f57987dc7b00a4d9562f27da": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-20T15:30:07Z",
+  "message": "Oruro: en pantallas anchas se leen más nombres y las páginas quedan parejas",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/games/pixi/oruro-tags.test.ts",
+    "a": 18,
+    "d": 0
+   },
+   {
+    "f": "src/games/pixi/oruro-tags.ts",
+    "a": 15,
+    "d": 3
+   }
+  ]
+ },
+ "9ff9c1212a1209406200c363e78e084a29325045": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-20T16:02:08Z",
+  "message": "Reacomoda el párrafo de la cabecera del teleférico",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/games/pixi/cablecar.ts",
+    "a": 3,
+    "d": 4
+   }
+  ]
+ },
+ "31c3e62456e821eea2a8987973feda2bb06a9553": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-20T16:01:08Z",
+  "message": "En celular acostado, la cara del que se baja en la última estación ya no queda debajo de la barra",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/games/pixi/cablecar.ts",
+    "a": 8,
+    "d": 2
+   }
+  ]
+ },
+ "627829156e7000452691430f551f0a7b5ffbb968": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-20T15:59:13Z",
+  "message": "El rótulo CUMBRE se lee entero en 4:3, debajo de SONIDO y Saltar",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/games/pixi/cablecar.ts",
+    "a": 7,
+    "d": 0
+   }
+  ]
+ },
+ "f45c65687a0d11742799538127f0b66e88e08660": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-20T15:57:10Z",
+  "message": "La banderita de la cumbre se oculta cuando sale el cartel del ganador",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/games/pixi/cablecar.ts",
+    "a": 2,
+    "d": 0
+   }
+  ]
+ },
+ "d73df5f493d23d226b71856f22e14a14ed791cc5": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-20T15:55:42Z",
+  "message": "En celular acostado ninguna finalista se queda sin nombre y el de arriba queda pegado a su cabina",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/games/pixi/cablecar.ts",
+    "a": 7,
+    "d": 3
+   }
+  ]
+ },
+ "b6978966ebcd55e8f9db852d76df507bc3b73376": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-20T15:50:48Z",
+  "message": "Las notas del teleférico dicen en qué se distingue el plan del motor de siempre",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/motores.md",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/games/pixi/cablecar-plan.ts",
+    "a": 6,
+    "d": 5
+   },
+   {
+    "f": "src/games/pixi/cablecar.ts",
+    "a": 4,
+    "d": 2
+   }
+  ]
+ },
+ "1965920bb435c7a08842fc40019eb7fa7c35c9e7": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-20T15:49:39Z",
+  "message": "La guía del teleférico dice cuántos nombres entran en el andén del celular",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/juegos/teleferico.md",
+    "a": 2,
+    "d": 2
+   }
+  ]
+ },
+ "db0ce006e0cec5af08329907c6ebad2ba2f012ee": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-20T15:48:41Z",
+  "message": "Con tres a cinco que quedan, los nombres de las cabinas vuelven a la letra base en escritorio",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/games/pixi/cablecar.ts",
+    "a": 3,
+    "d": 1
+   }
+  ]
+ },
+ "a0b00c69f87142d2eabbe0fd6ba4f77ea72087fa": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-20T15:45:28Z",
+  "message": "En celular los nombres de las cabinas vuelven a la base legible y no caen sobre su cabina",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/games/pixi/cablecar.ts",
+    "a": 8,
+    "d": 4
+   }
+  ]
+ },
+ "07e53c3e1a8b0c244df4fd00e0495541db5449c5": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-20T15:42:08Z",
+  "message": "Los nombres de las cabinas ya no se pisan entre sí ni tapan el número de la estación",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/games/pixi/cablecar.ts",
+    "a": 42,
+    "d": 4
+   }
+  ]
+ },
+ "16d0c40e5647604643204bff386c9ef7955fc562": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-20T15:35:11Z",
+  "message": "En escritorio el andén vuelve a la letra base y deja libre el contador de QUEDAN",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/games/pixi/cablecar.ts",
+    "a": 3,
+    "d": 1
+   }
+  ]
+ },
+ "b999b427aff88cc440340d9ee293abd0ea44c82a": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-20T15:32:06Z",
+  "message": "Los renglones del andén ya no se enciman y la cara que aterriza tiene el tamaño del chip",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/games/pixi/cablecar.ts",
+    "a": 7,
+    "d": 5
+   }
+  ]
+ },
+ "d2a474ea359784cf853e2f79be48b392173d7568": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-20T14:31:59Z",
+  "message": "El +N del andén tiene la misma letra que los nombres de arriba",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/games/pixi/cablecar.ts",
+    "a": 2,
+    "d": 2
+   }
+  ]
+ },
+ "4eb4107cf49e8b219fb4f4926cd52d59a636a4ee": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-20T14:29:39Z",
+  "message": "El nombre del que se baja no queda flotando cuando su cara ya salió de cuadro",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/games/pixi/cablecar.ts",
+    "a": 6,
+    "d": 0
+   }
+  ]
+ },
+ "092fb86983dbe92db9cc2b8e35312abdd3b4ce08": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-20T16:38:00Z",
+  "message": "La sonda de la billetera espera mientras el estadio se ve, también en la escena fija: mira el estilo calculado, no el de",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/ui/wallet-ui.ts",
+    "a": 4,
+    "d": 1
+   }
+  ]
  }
 }
