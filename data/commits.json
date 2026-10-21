@@ -120000,5 +120000,2925 @@
     "d": 1
    }
   ]
+ },
+ "f61d24c3f0acf1e1a7536ed50879f914485ce60f": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-21T01:44:03Z",
+  "message": "Integra jue/trompo-sapo: el sapo no nombra al co-ganador y el mano a mano del trompo se ve en celular",
+  "parents": 2,
+  "files": [
+   {
+    "f": "docs/juegos/sapo.md",
+    "a": 3,
+    "d": 2
+   },
+   {
+    "f": "docs/juegos/trompo.md",
+    "a": 7,
+    "d": 4
+   },
+   {
+    "f": "src/games/pixi/sapo-boca.test.ts",
+    "a": 118,
+    "d": 0
+   },
+   {
+    "f": "src/games/pixi/sapo-plan.ts",
+    "a": 26,
+    "d": 1
+   },
+   {
+    "f": "src/games/pixi/sapo.ts",
+    "a": 72,
+    "d": 10
+   },
+   {
+    "f": "src/games/pixi/trompo.ts",
+    "a": 64,
+    "d": 19
+   },
+   {
+    "f": "src/i18n.test.ts",
+    "a": 4,
+    "d": 3
+   },
+   {
+    "f": "src/i18n.ts",
+    "a": 13,
+    "d": 7
+   }
+  ]
+ },
+ "640932f8e34ef5d050d3bb87c17991aa5de19022": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-21T01:43:55Z",
+  "message": "Integra ux/cabecera-formulario: cabecera en celular, formulario sin cuenta y og por idioma",
+  "parents": 2,
+  "files": [
+   {
+    "f": "como-funciona.html",
+    "a": 9,
+    "d": 4
+   },
+   {
+    "f": "docs/ux.md",
+    "a": 9,
+    "d": 0
+   },
+   {
+    "f": "evento.html",
+    "a": 9,
+    "d": 4
+   },
+   {
+    "f": "historia.html",
+    "a": 9,
+    "d": 4
+   },
+   {
+    "f": "index.html",
+    "a": 11,
+    "d": 5
+   },
+   {
+    "f": "juegos.html",
+    "a": 9,
+    "d": 4
+   },
+   {
+    "f": "lista.html",
+    "a": 9,
+    "d": 4
+   },
+   {
+    "f": "precios.html",
+    "a": 9,
+    "d": 4
+   },
+   {
+    "f": "scripts/audit-flujo.mjs",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "scripts/audit-ui.mjs",
+    "a": 67,
+    "d": 1
+   },
+   {
+    "f": "scripts/check-paginas.mjs",
+    "a": 3,
+    "d": 0
+   },
+   {
+    "f": "seguridad.html",
+    "a": 9,
+    "d": 4
+   },
+   {
+    "f": "sorteo-en-clase.html",
+    "a": 9,
+    "d": 4
+   },
+   {
+    "f": "sorteo-para-meetup.html",
+    "a": 9,
+    "d": 4
+   },
+   {
+    "f": "sorteo-verificable.html",
+    "a": 9,
+    "d": 4
+   },
+   {
+    "f": "src/i18n.ts",
+    "a": 10,
+    "d": 2
+   },
+   {
+    "f": "src/idioma.ts",
+    "a": 31,
+    "d": 7
+   },
+   {
+    "f": "src/main.ts",
+    "a": 7,
+    "d": 1
+   },
+   {
+    "f": "src/pagina.ts",
+    "a": 10,
+    "d": 8
+   },
+   {
+    "f": "src/seo.test.ts",
+    "a": 33,
+    "d": 0
+   },
+   {
+    "f": "src/styles.css",
+    "a": 45,
+    "d": 9
+   },
+   {
+    "f": "src/ui/menu.ts",
+    "a": 35,
+    "d": 0
+   },
+   {
+    "f": "src/ui/onboarding.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/ui/wallet-ui.ts",
+    "a": 14,
+    "d": 5
+   },
+   {
+    "f": "src/verify.ts",
+    "a": 8,
+    "d": 6
+   },
+   {
+    "f": "terminos.html",
+    "a": 9,
+    "d": 4
+   },
+   {
+    "f": "verificar.html",
+    "a": 9,
+    "d": 4
+   }
+  ]
+ },
+ "68ae2713f3c84b0b45bbc60531e13124bb9d1b4e": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-21T01:27:57Z",
+  "message": "Integra jue/ruleta-pinata: la ruleta sin palos de flecha desfasados y la piñata con cara y nombres legibles",
+  "parents": 2,
+  "files": [
+   {
+    "f": "docs/juegos/pinata.md",
+    "a": 12,
+    "d": 0
+   },
+   {
+    "f": "docs/juegos/ruleta.md",
+    "a": 21,
+    "d": 0
+   },
+   {
+    "f": "src/games/pixi/pinata-labels.ts",
+    "a": 20,
+    "d": 0
+   },
+   {
+    "f": "src/games/pixi/pinata-lista.test.ts",
+    "a": 43,
+    "d": 0
+   },
+   {
+    "f": "src/games/pixi/pinata-plan.test.ts",
+    "a": 64,
+    "d": 0
+   },
+   {
+    "f": "src/games/pixi/pinata-plan.ts",
+    "a": 53,
+    "d": 0
+   },
+   {
+    "f": "src/games/pixi/pinata.ts",
+    "a": 126,
+    "d": 43
+   },
+   {
+    "f": "src/games/pixi/wheel.ts",
+    "a": 30,
+    "d": 14
+   },
+   {
+    "f": "src/i18n.ts",
+    "a": 3,
+    "d": 0
+   }
+  ]
+ },
+ "ea51aad212117329c9932d1d87940d141a263d42": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-21T01:27:48Z",
+  "message": "Integra jue/teleferico: el teleférico por grupos (sección 7.7 de la auditoría)",
+  "parents": 2,
+  "files": [
+   {
+    "f": "docs/juegos.md",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "docs/juegos/teleferico.md",
+    "a": 28,
+    "d": 25
+   },
+   {
+    "f": "docs/motores.md",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "juegos.html",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "public/juegos/teleferico-light.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/teleferico.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "src/games/grupos.test.ts",
+    "a": 45,
+    "d": 0
+   },
+   {
+    "f": "src/games/grupos.ts",
+    "a": 51,
+    "d": 0
+   },
+   {
+    "f": "src/games/pixi/cablecar-plan.test.ts",
+    "a": 80,
+    "d": 0
+   },
+   {
+    "f": "src/games/pixi/cablecar-plan.ts",
+    "a": 98,
+    "d": 70
+   },
+   {
+    "f": "src/games/pixi/cablecar.ts",
+    "a": 94,
+    "d": 230
+   },
+   {
+    "f": "src/i18n.ts",
+    "a": 38,
+    "d": 10
+   },
+   {
+    "f": "src/lista.ts",
+    "a": 15,
+    "d": 1
+   }
+  ]
+ },
+ "ba673c1848e67b388e2444b98b627441189b6960": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-21T01:20:46Z",
+  "message": "La revisión de páginas espera a que cargue cada una",
+  "parents": 1,
+  "files": [
+   {
+    "f": "scripts/check-paginas.mjs",
+    "a": 3,
+    "d": 0
+   }
+  ]
+ },
+ "acadbf6c71eb8b22106b4fdc7a9e7d7a992d4203": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-21T01:20:46Z",
+  "message": "El sellado sin cuenta se bloquea en el botón, no en freeze()",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/ux.md",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "src/main.ts",
+    "a": 5,
+    "d": 1
+   },
+   {
+    "f": "src/ui/freeze.ts",
+    "a": 1,
+    "d": 4
+   },
+   {
+    "f": "src/ui/onboarding.ts",
+    "a": 1,
+    "d": 2
+   },
+   {
+    "f": "src/ui/wallet-ui.ts",
+    "a": 1,
+    "d": 1
+   }
+  ]
+ },
+ "91a1f95168873eaeea78b06ce0da1bfad73ea59d": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-21T01:09:30Z",
+  "message": "Docs: la ruleta y la piñata cuentan lo que cambió en la revisión del 20 de octubre",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/juegos/pinata.md",
+    "a": 12,
+    "d": 0
+   },
+   {
+    "f": "docs/juegos/ruleta.md",
+    "a": 21,
+    "d": 0
+   }
+  ]
+ },
+ "2609c6c5d3913a1d64d5d8766e8a16546ca3b3ad": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-21T01:09:09Z",
+  "message": "Piñata: en la lista de caídos, el nombre largo se corta por la inicial, no por el medio",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/games/pixi/pinata.ts",
+    "a": 11,
+    "d": 2
+   }
+  ]
+ },
+ "9c31f5107b524c70f3803400cebacdda8016a1c7": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-21T00:47:50Z",
+  "message": "La página de juegos describe el teleférico por grupos",
+  "parents": 1,
+  "files": [
+   {
+    "f": "juegos.html",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/i18n.ts",
+    "a": 2,
+    "d": 2
+   }
+  ]
+ },
+ "22e9742d77530fe39861a6452264a9e5087cd7cc": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-21T00:47:18Z",
+  "message": "En celular, la cámara del mano a mano deja entrar a los dos trompos",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/juegos/trompo.md",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/games/pixi/trompo.ts",
+    "a": 7,
+    "d": 3
+   }
+  ]
+ },
+ "45c1b7639fdeb73c6a414704f927d55c67b0cfbf": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-21T00:46:44Z",
+  "message": "El trompo llama picazo al sacado, palabra prestada de Tarija",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/juegos/trompo.md",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/i18n.ts",
+    "a": 2,
+    "d": 2
+   }
+  ]
+ },
+ "ab00f02dd85c2453c54d8df19d8746b7891dd9d0": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-21T00:46:15Z",
+  "message": "En la tapada, la ganadora no baila siempre en el mismo lugar",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/juegos/trompo.md",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/games/pixi/trompo.ts",
+    "a": 8,
+    "d": 4
+   }
+  ]
+ },
+ "3b8488e460de56628b25706f5998d96b3e9eac92": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-21T00:45:23Z",
+  "message": "Capturas del teleférico por grupos en la página de juegos",
+  "parents": 1,
+  "files": [
+   {
+    "f": "public/juegos/teleferico-light.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/teleferico.webp",
+    "a": 0,
+    "d": 0
+   }
+  ]
+ },
+ "187ab4daa2b54cea88a665d6caf2e4fa52898977": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-21T00:45:14Z",
+  "message": "El mano a mano del trompo tiene duda: en cada choque cabecea uno de los dos",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/juegos/trompo.md",
+    "a": 2,
+    "d": 0
+   },
+   {
+    "f": "src/games/pixi/trompo.ts",
+    "a": 30,
+    "d": 2
+   },
+   {
+    "f": "src/i18n.ts",
+    "a": 3,
+    "d": 0
+   }
+  ]
+ },
+ "f3525baf7a39dd4a9559fb3ec6d03f173c319f8b": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-21T00:44:13Z",
+  "message": "En celular, los rótulos de grupo van un poco más chicos",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/games/pixi/cablecar-plan.test.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/games/pixi/cablecar.ts",
+    "a": 7,
+    "d": 3
+   }
+  ]
+ },
+ "a28ca1f798db67c16fb18108a76d151138f7b06f": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-21T00:43:43Z",
+  "message": "Las pruebas de evento con varias partes usan nombres que sí pasan el presupuesto",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/ui/compartir.test.ts",
+    "a": 20,
+    "d": 7
+   }
+  ]
+ },
+ "f55b03a6e3a35fd7d6adfe1422e892c71ef3de24": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-21T00:34:06Z",
+  "message": "Cabecera en celular: Más para lo secundario, y una sola acción: Sortear",
+  "parents": 1,
+  "files": [
+   {
+    "f": "como-funciona.html",
+    "a": 9,
+    "d": 4
+   },
+   {
+    "f": "docs/ux.md",
+    "a": 8,
+    "d": 0
+   },
+   {
+    "f": "evento.html",
+    "a": 9,
+    "d": 4
+   },
+   {
+    "f": "historia.html",
+    "a": 9,
+    "d": 4
+   },
+   {
+    "f": "index.html",
+    "a": 9,
+    "d": 4
+   },
+   {
+    "f": "juegos.html",
+    "a": 9,
+    "d": 4
+   },
+   {
+    "f": "lista.html",
+    "a": 9,
+    "d": 4
+   },
+   {
+    "f": "precios.html",
+    "a": 9,
+    "d": 4
+   },
+   {
+    "f": "seguridad.html",
+    "a": 9,
+    "d": 4
+   },
+   {
+    "f": "sorteo-en-clase.html",
+    "a": 9,
+    "d": 4
+   },
+   {
+    "f": "sorteo-para-meetup.html",
+    "a": 9,
+    "d": 4
+   },
+   {
+    "f": "sorteo-verificable.html",
+    "a": 9,
+    "d": 4
+   },
+   {
+    "f": "src/i18n.ts",
+    "a": 6,
+    "d": 2
+   },
+   {
+    "f": "src/main.ts",
+    "a": 2,
+    "d": 0
+   },
+   {
+    "f": "src/pagina.ts",
+    "a": 10,
+    "d": 8
+   },
+   {
+    "f": "src/styles.css",
+    "a": 31,
+    "d": 4
+   },
+   {
+    "f": "src/ui/menu.ts",
+    "a": 35,
+    "d": 0
+   },
+   {
+    "f": "src/ui/wallet-ui.ts",
+    "a": 4,
+    "d": 4
+   },
+   {
+    "f": "src/verify.ts",
+    "a": 8,
+    "d": 6
+   },
+   {
+    "f": "terminos.html",
+    "a": 9,
+    "d": 4
+   },
+   {
+    "f": "verificar.html",
+    "a": 9,
+    "d": 4
+   }
+  ]
+ },
+ "18a64a32204fcb0a203c1ff6415c0bbc624d50f9": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-21T00:33:56Z",
+  "message": "La lista del QR dice la cabina de cada uno",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/i18n.ts",
+    "a": 22,
+    "d": 0
+   },
+   {
+    "f": "src/lista.ts",
+    "a": 15,
+    "d": 1
+   }
+  ]
+ },
+ "2ef9ada43db0d7639b677bd5f8d5a9e6d185eab7": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-21T00:33:47Z",
+  "message": "Con dos personas, el trompo va directo al mano a mano, sin baile ni amagues",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/juegos/trompo.md",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/games/pixi/trompo.ts",
+    "a": 17,
+    "d": 11
+   }
+  ]
+ },
+ "c0fe2e28f4af7df7eba070dfa0caa1cc04b211fd": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-21T00:30:13Z",
+  "message": "docs/evento.md: eventos con nombre, compartir y decisiones abiertas",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/evento.md",
+    "a": 51,
+    "d": 7
+   }
+  ]
+ },
+ "0de89a8be8f2c417c003ca9828f5e241235fcb5b": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-21T00:30:12Z",
+  "message": "La línea de error de evento.html separa título y detalle",
+  "parents": 1,
+  "files": [
+   {
+    "f": "evento.html",
+    "a": 3,
+    "d": 1
+   }
+  ]
+ },
+ "36be760a9c5dc4cbe6a504aade4c570eb20c4519": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-21T00:30:11Z",
+  "message": "La verificación tiene Compartir este sorteo, con el mismo mensaje y el QR",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/verify.ts",
+    "a": 8,
+    "d": 0
+   },
+   {
+    "f": "verificar.html",
+    "a": 1,
+    "d": 0
+   }
+  ]
+ },
+ "b61de751385193ee850a8ae357003521270c289a": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-21T00:30:03Z",
+  "message": "Mis sorteos: compartir cada comprobante y armar eventos con nombre",
+  "parents": 1,
+  "files": [
+   {
+    "f": "index.html",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "src/styles.css",
+    "a": 31,
+    "d": 0
+   },
+   {
+    "f": "src/ui/history.ts",
+    "a": 291,
+    "d": 85
+   }
+  ]
+ },
+ "11f97f380187b873fee5427dc134f3a747555ed1": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-21T00:29:46Z",
+  "message": "Compartir un sorteo otra vez: mensaje, imagen con el QR y diálogo",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/ui/compartir.test.ts",
+    "a": 131,
+    "d": 0
+   },
+   {
+    "f": "src/ui/compartir.ts",
+    "a": 273,
+    "d": 0
+   }
+  ]
+ },
+ "c44e7d126575f5be9309244304eff1cce903141e": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-21T00:29:06Z",
+  "message": "Eventos con nombre: el almacén de este equipo y sus pruebas",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/ui/eventos.test.ts",
+    "a": 154,
+    "d": 0
+   },
+   {
+    "f": "src/ui/eventos.ts",
+    "a": 140,
+    "d": 0
+   }
+  ]
+ },
+ "d5099c34f0c57be20f9beee96c67226ca799be2e": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-21T00:29:04Z",
+  "message": "El QR sale como lienzo, y la tarjeta para compartir se arma con él",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/ui/qr.ts",
+    "a": 16,
+    "d": 3
+   },
+   {
+    "f": "src/ui/tarjeta-qr.ts",
+    "a": 141,
+    "d": 0
+   }
+  ]
+ },
+ "e2d1935b1c21bd173732f2424e123dc033550fbc": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-21T00:28:43Z",
+  "message": "Textos de compartir un sorteo y de Mis eventos, en español e inglés",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/i18n.ts",
+    "a": 48,
+    "d": 0
+   }
+  ]
+ },
+ "db1598a14154da2796f394795e6819b50998eb85": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-21T00:27:56Z",
+  "message": "El trompo nombra a todos hasta 14 personas, mientras bailan",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/juegos/trompo.md",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "src/games/pixi/trompo.ts",
+    "a": 4,
+    "d": 1
+   }
+  ]
+ },
+ "1a30f7c8cfacde8ea1ba4bbacbeb1853dd014d0f": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-21T00:26:45Z",
+  "message": "La etiqueta del ganador del sapo va sobre su propio aro en celular, sin tapar a los vecinos",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/juegos/sapo.md",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/games/pixi/sapo.ts",
+    "a": 9,
+    "d": 4
+   }
+  ]
+ },
+ "8a303fa22e6654b0e188323756bf78bdc6f14e12": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-21T00:25:52Z",
+  "message": "Ruleta: los últimos clics mueven la flecha",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/games/pixi/wheel.ts",
+    "a": 6,
+    "d": 2
+   }
+  ]
+ },
+ "524b9a555e1d9d5d7ae2bb9cd5b902d6ef6b2c33": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-21T00:18:16Z",
+  "message": "Piñata: la lista de los caídos escribe cada nombre, y cada caramelo tiene su cara",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/games/pixi/pinata-labels.ts",
+    "a": 20,
+    "d": 0
+   },
+   {
+    "f": "src/games/pixi/pinata-lista.test.ts",
+    "a": 43,
+    "d": 0
+   },
+   {
+    "f": "src/games/pixi/pinata.ts",
+    "a": 104,
+    "d": 23
+   }
+  ]
+ },
+ "a073c3b2f98cac59a5aed64ee18a18295d63ed28": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-21T00:13:07Z",
+  "message": "La rana del sapo se traga una argolla por show y la escupe sobre un aro libre",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/juegos/sapo.md",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "src/games/pixi/sapo-boca.test.ts",
+    "a": 118,
+    "d": 0
+   },
+   {
+    "f": "src/games/pixi/sapo-plan.ts",
+    "a": 26,
+    "d": 1
+   },
+   {
+    "f": "src/games/pixi/sapo.ts",
+    "a": 60,
+    "d": 5
+   },
+   {
+    "f": "src/i18n.ts",
+    "a": 3,
+    "d": 0
+   }
+  ]
+ },
+ "e855ff6785343226b5037aefed0dbd15e0d7d1a7": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-21T00:12:34Z",
+  "message": "Sin cuenta, la lista se lee y solo el botón de sellar queda apagado",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/ux.md",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "index.html",
+    "a": 2,
+    "d": 1
+   },
+   {
+    "f": "scripts/audit-flujo.mjs",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "scripts/audit-ui.mjs",
+    "a": 67,
+    "d": 1
+   },
+   {
+    "f": "src/i18n.ts",
+    "a": 4,
+    "d": 0
+   },
+   {
+    "f": "src/styles.css",
+    "a": 14,
+    "d": 5
+   },
+   {
+    "f": "src/ui/freeze.ts",
+    "a": 4,
+    "d": 1
+   },
+   {
+    "f": "src/ui/onboarding.ts",
+    "a": 2,
+    "d": 1
+   },
+   {
+    "f": "src/ui/wallet-ui.ts",
+    "a": 10,
+    "d": 1
+   }
+  ]
+ },
+ "8a1e997d20012cb32f4b4105ac52b5c00254dfac": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-21T00:12:32Z",
+  "message": "Documentación del teleférico por grupos",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/juegos.md",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "docs/juegos/teleferico.md",
+    "a": 28,
+    "d": 25
+   },
+   {
+    "f": "docs/motores.md",
+    "a": 2,
+    "d": 2
+   }
+  ]
+ },
+ "8f86a0e6226ce53b61398f4ffa6550bce06eb451": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-21T00:12:05Z",
+  "message": "El teleférico baja un grupo entero en cada estación",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/games/pixi/cablecar-plan.test.ts",
+    "a": 80,
+    "d": 0
+   },
+   {
+    "f": "src/games/pixi/cablecar-plan.ts",
+    "a": 98,
+    "d": 70
+   },
+   {
+    "f": "src/games/pixi/cablecar.ts",
+    "a": 90,
+    "d": 230
+   },
+   {
+    "f": "src/i18n.ts",
+    "a": 14,
+    "d": 8
+   }
+  ]
+ },
+ "a7fdcf8de36982d1c7a072d6ba76babe5d4271d4": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-21T00:09:53Z",
+  "message": "Grupos automáticos: la lista se reparte sola, de a cuatro y hasta diez",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/games/grupos.test.ts",
+    "a": 45,
+    "d": 0
+   },
+   {
+    "f": "src/games/grupos.ts",
+    "a": 51,
+    "d": 0
+   }
+  ]
+ },
+ "c19038b1fcc241dd9d34d6a554349f8f60245343": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-21T00:06:05Z",
+  "message": "Piñata: sin palos vacíos con poca gente, y el co-ganador que sale no se nombra",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/games/pixi/pinata-plan.test.ts",
+    "a": 64,
+    "d": 0
+   },
+   {
+    "f": "src/games/pixi/pinata-plan.ts",
+    "a": 53,
+    "d": 0
+   },
+   {
+    "f": "src/games/pixi/pinata.ts",
+    "a": 14,
+    "d": 21
+   },
+   {
+    "f": "src/i18n.ts",
+    "a": 3,
+    "d": 0
+   }
+  ]
+ },
+ "53b8a616941185dabf0519d0379ad56d19d031d8": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-20T23:57:22Z",
+  "message": "Páginas de sorteo: og:title y og:description en el idioma de la página",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/idioma.ts",
+    "a": 31,
+    "d": 7
+   },
+   {
+    "f": "src/seo.test.ts",
+    "a": 33,
+    "d": 0
+   }
+  ]
+ },
+ "bd91ec4cb37a26a946ac259ad831d3784891f83f": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-20T23:57:03Z",
+  "message": "Ruleta: la flecha para en cualquier punto del gajo ganador y el frenado varía; la caja del relator no tapa la rueda",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/games/pixi/wheel.ts",
+    "a": 24,
+    "d": 12
+   }
+  ]
+ },
+ "2ac6a003560df7196a5ec69d6f21548b3038ae11": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-20T23:50:01Z",
+  "message": "El sapo no nombra al co-ganador cuando cae: dice el número de su premio",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/juegos/sapo.md",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/games/pixi/sapo.ts",
+    "a": 3,
+    "d": 1
+   },
+   {
+    "f": "src/i18n.test.ts",
+    "a": 4,
+    "d": 3
+   },
+   {
+    "f": "src/i18n.ts",
+    "a": 3,
+    "d": 3
+   }
+  ]
+ },
+ "ffe646ea556b88085210dbefc82926d142b57008": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-20T23:46:28Z",
+  "message": "El casi del sapo ya no dice que alguien se ilusiona",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/i18n.ts",
+    "a": 2,
+    "d": 2
+   }
+  ]
+ },
+ "0945f94bb92427741c234bb23d159b5f9ee9d65b": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-20T23:28:08Z",
+  "message": "La portada rota la palabra del sticker: Sorteá para tu meetup, clase, evento, taller, charla o congreso",
+  "parents": 1,
+  "files": [
+   {
+    "f": "index.html",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/i18n.ts",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "src/main.ts",
+    "a": 3,
+    "d": 0
+   },
+   {
+    "f": "src/seo.test.ts",
+    "a": 23,
+    "d": 5
+   },
+   {
+    "f": "src/styles.css",
+    "a": 3,
+    "d": 0
+   },
+   {
+    "f": "src/ui/rotar.test.ts",
+    "a": 32,
+    "d": 0
+   },
+   {
+    "f": "src/ui/rotar.ts",
+    "a": 31,
+    "d": 0
+   }
+  ]
+ },
+ "afec473b45350af47ca48a3495c12190b32c5567": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-20T23:09:53Z",
+  "message": "Meetup y verificación: el número sale de un faro público, y compartir el comprobante comparte la lista",
+  "parents": 1,
+  "files": [
+   {
+    "f": "sorteo-para-meetup.html",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "sorteo-verificable.html",
+    "a": 5,
+    "d": 5
+   },
+   {
+    "f": "src/i18n.ts",
+    "a": 8,
+    "d": 8
+   }
+  ]
+ },
+ "e9648058e53e59dc963b2577bfe06523dbad3dc4": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-20T23:05:45Z",
+  "message": "Idioma: los botones ES y EN tienen 44 px de ancho en celular",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/styles.css",
+    "a": 1,
+    "d": 1
+   }
+  ]
+ },
+ "940d57c5baa6699bed0ddc46ac980d8bd5620d24": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-20T23:05:20Z",
+  "message": "Clase en inglés: tombola en vez de ball drum, y What it can't check is the list",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/i18n.ts",
+    "a": 2,
+    "d": 2
+   }
+  ]
+ },
+ "85747ef11a0cc3cd9f4af0411b1d56adabded296": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-20T23:04:50Z",
+  "message": "Páginas de sorteo: título y descripción en el idioma de la página",
+  "parents": 1,
+  "files": [
+   {
+    "f": "sorteo-en-clase.html",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "sorteo-para-meetup.html",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "sorteo-verificable.html",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/i18n.ts",
+    "a": 14,
+    "d": 0
+   },
+   {
+    "f": "src/idioma.ts",
+    "a": 8,
+    "d": 0
+   },
+   {
+    "f": "src/seo.test.ts",
+    "a": 32,
+    "d": 1
+   },
+   {
+    "f": "vite.config.ts",
+    "a": 3,
+    "d": 2
+   }
+  ]
+ },
+ "2ff85d882ca2fdb15daf75128b2a96e8288c5ce7": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-20T23:02:10Z",
+  "message": "Portada: la huella y el contrato se dicen con palabras llanas",
+  "parents": 1,
+  "files": [
+   {
+    "f": "index.html",
+    "a": 3,
+    "d": 3
+   },
+   {
+    "f": "src/i18n.ts",
+    "a": 6,
+    "d": 6
+   }
+  ]
+ },
+ "d6051f66327ca19de515a434589af37a11c20141": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-20T23:01:24Z",
+  "message": "Portada: Para saber más suma Términos y privacidad, con cuatro tarjetas por fila",
+  "parents": 1,
+  "files": [
+   {
+    "f": "index.html",
+    "a": 4,
+    "d": 0
+   },
+   {
+    "f": "src/i18n.ts",
+    "a": 2,
+    "d": 0
+   }
+  ]
+ },
+ "a06ead05f71241e667711899f2a05f8cdb205645": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-20T23:00:50Z",
+  "message": "Clase: Nadie elige el número, en vez de al ganador",
+  "parents": 1,
+  "files": [
+   {
+    "f": "sorteo-en-clase.html",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/i18n.ts",
+    "a": 2,
+    "d": 2
+   }
+  ]
+ },
+ "b4dd719b5dbfa83b21ebdc932f6a70347a5111ee": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-20T23:00:22Z",
+  "message": "Meetup: la lista técnica de Stellar pasa a Detalles técnicos y el texto de nombres queda llano",
+  "parents": 1,
+  "files": [
+   {
+    "f": "sorteo-para-meetup.html",
+    "a": 7,
+    "d": 3
+   },
+   {
+    "f": "src/i18n.ts",
+    "a": 8,
+    "d": 6
+   },
+   {
+    "f": "src/seo.test.ts",
+    "a": 1,
+    "d": 1
+   }
+  ]
+ },
+ "10115941e978b967bbf0ac89adfa3e3e2fcf873a": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-20T22:59:02Z",
+  "message": "Portada: Para saber más se ve en la portada y la herramienta lo oculta",
+  "parents": 1,
+  "files": [
+   {
+    "f": "index.html",
+    "a": 1,
+    "d": 1
+   }
+  ]
+ },
+ "ef0c9f6b5525060b024e4df7d74e2974143f1052": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-20T22:22:39Z",
+  "message": "Herramienta: la línea de la prueba se traduce, y el auditor reconoce el texto en los dos idiomas",
+  "parents": 1,
+  "files": [
+   {
+    "f": "scripts/audit-game.mjs",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "src/i18n.ts",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "src/ui/draw.ts",
+    "a": 1,
+    "d": 1
+   }
+  ]
+ },
+ "14598234ca11102d47ad19c18895b04502574feb": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-20T22:22:00Z",
+  "message": "Comentarios de los juegos: el número del sorteo y el faro público, sin cambiar código",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/games/overlay.ts",
+    "a": 3,
+    "d": 3
+   },
+   {
+    "f": "src/games/pixi/wheel.ts",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "src/games/race.ts",
+    "a": 3,
+    "d": 3
+   },
+   {
+    "f": "src/games/wheel.ts",
+    "a": 1,
+    "d": 1
+   }
+  ]
+ },
+ "6774ad22a813ffe5c8497147eb8baba9a53e545e": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-20T22:21:23Z",
+  "message": "Documentación: la prueba de la ronda reemplaza a la firma, y la cita de drand queda como anterior",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/epics.md",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "docs/evento.md",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "docs/juegos.md",
+    "a": 1,
+    "d": 1
+   }
+  ]
+ },
+ "773af4321a3c41b367788a3c9868af413ca1ef08": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-20T22:21:10Z",
+  "message": "Preguntas: la hora del sello y la del sorteo se dicen por separado",
+  "parents": 1,
+  "files": [
+   {
+    "f": "index.html",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/i18n.ts",
+    "a": 2,
+    "d": 2
+   }
+  ]
+ },
+ "021c87db0cc119013cf9160a8e2f3a6168a3972f": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-20T22:20:58Z",
+  "message": "Juegos: en inglés, la carrera es el juego insignia",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/i18n.ts",
+    "a": 1,
+    "d": 1
+   }
+  ]
+ },
+ "dab3e545dd83a76a3e4d431e0af64c4581c21eb0": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-20T22:20:44Z",
+  "message": "Precios: la meta y la nota dicen que el cobro se anuncia antes",
+  "parents": 1,
+  "files": [
+   {
+    "f": "precios.html",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "src/i18n.ts",
+    "a": 2,
+    "d": 2
+   }
+  ]
+ },
+ "15f261fd5685df9a4f845a6d2b010cdeeec61a4f": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-20T22:20:25Z",
+  "message": "Lista de lo que viaja a la cadena: suma si ya se sorteó",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/amenazas.md",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "docs/threat-model.en.md",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "seguridad.html",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "sorteo-para-meetup.html",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/i18n.ts",
+    "a": 6,
+    "d": 6
+   },
+   {
+    "f": "src/seo.test.ts",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "terminos.html",
+    "a": 1,
+    "d": 1
+   }
+  ]
+ },
+ "718697aa361bb4c16e26526b30d916f8f44aa77a": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-20T22:19:25Z",
+  "message": "Pruebas: la lista se comprueba en el modelo de amenazas, y la revisión visual busca la palabra entera",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/seo.test.ts",
+    "a": 11,
+    "d": 2
+   }
+  ]
+ },
+ "fb61a495a868bf78318fa52464ab5b1ea02db71b": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-20T21:50:23Z",
+  "message": "Pruebas: la revisión visual no lleva nombre propio y el sorteo no se llama faro de azar",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/seo.test.ts",
+    "a": 40,
+    "d": 1
+   }
+  ]
+ },
+ "9667376ace93cb0d428349e15e11e6c90a2c9a09": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-20T21:49:24Z",
+  "message": "README: el contrato anota, entre otras cosas, la huella y la ronda",
+  "parents": 1,
+  "files": [
+   {
+    "f": "README.es.md",
+    "a": 1,
+    "d": 1
+   }
+  ]
+ },
+ "7039c765b4eea89ea20e4d44d621bdd6d86c40f2": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-20T21:49:15Z",
+  "message": "Comentarios y documentos: la revisión visual, sin nombre propio",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/motores.md",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "scripts/audit-ui.mjs",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "scripts/capturas-juegos.mjs",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/styles.css",
+    "a": 4,
+    "d": 4
+   }
+  ]
+ },
+ "0e84d4dbb69a0b357349e3f0000dea05a7d8a8d1": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-20T21:48:55Z",
+  "message": "Sapo: el comentario de la revisión visual, sin el artículo repetido",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/games/pixi/sapo.ts",
+    "a": 1,
+    "d": 2
+   }
+  ]
+ },
+ "f053daa88fce7544dcb156ea222fe278af028052": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-20T21:48:42Z",
+  "message": "Número del sorteo: el cartel de la rueda y los mensajes de espera y de error",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/i18n.ts",
+    "a": 8,
+    "d": 8
+   }
+  ]
+ },
+ "8cc7e57ac501d68bd7a094a3e85dd68246e02582": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-20T21:48:19Z",
+  "message": "Herramienta: la prueba reemplaza a la firma en los mensajes, la billetera y la portada",
+  "parents": 1,
+  "files": [
+   {
+    "f": "index.html",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "src/i18n.ts",
+    "a": 10,
+    "d": 10
+   }
+  ]
+ },
+ "b39707d7180166204e4f876c270248fe9a347bf0": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-20T21:47:43Z",
+  "message": "Evento: la prueba de cada ronda reemplaza a la firma en la página y el veredicto",
+  "parents": 1,
+  "files": [
+   {
+    "f": "evento.html",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/i18n.ts",
+    "a": 8,
+    "d": 8
+   }
+  ]
+ },
+ "f5f6ac0af16367496daeeef7f988e3710dacdcc4": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-20T21:47:24Z",
+  "message": "Faro público: los términos y el mensaje al ganador no dicen faro de azar",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/i18n.ts",
+    "a": 5,
+    "d": 5
+   },
+   {
+    "f": "terminos.html",
+    "a": 1,
+    "d": 1
+   }
+  ]
+ },
+ "3bbb6b42b47352e6409c9df7f70447fef5bc3398": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-20T21:47:07Z",
+  "message": "Lista de lo que viaja a la cadena: suma el número que decidió la ronda",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/amenazas.md",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "docs/threat-model.en.md",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "seguridad.html",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "sorteo-para-meetup.html",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/i18n.ts",
+    "a": 6,
+    "d": 6
+   },
+   {
+    "f": "src/seo.test.ts",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "terminos.html",
+    "a": 1,
+    "d": 1
+   }
+  ]
+ },
+ "b7ff1a00675692f6c92433ca302f277648faeb65": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-20T20:33:38Z",
+  "message": "Juegos: los comentarios citan la revisión visual, sin cambiar código",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/games/llamas/pixi-race.ts",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "src/games/pixi/camera.ts",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "src/games/pixi/chovena.ts",
+    "a": 8,
+    "d": 8
+   },
+   {
+    "f": "src/games/pixi/pasanaku.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/games/pixi/quien-plan.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/games/pixi/sapo-plan.ts",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "src/games/pixi/sapo.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/games/pixi/stage.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/games/pixi/trompo.ts",
+    "a": 1,
+    "d": 1
+   }
+  ]
+ },
+ "820647bb516d0855cd43911b9afa71b7fdf42fdc": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-20T20:33:27Z",
+  "message": "Documentación: la revisión visual va sin nombre propio, y la arquitectura habla de colaboradores",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/architecture.md",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "docs/epics.md",
+    "a": 10,
+    "d": 10
+   },
+   {
+    "f": "docs/juegos/quien-es.md",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "docs/juegos/sapo.md",
+    "a": 1,
+    "d": 1
+   }
+  ]
+ },
+ "3ebfa281d5381bdf46bb37731eb62b4ad40decb8": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-20T20:33:23Z",
+  "message": "Meetup: el título de la sección dice que el sorteo se puede comprobar",
+  "parents": 1,
+  "files": [
+   {
+    "f": "sorteo-para-meetup.html",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/i18n.ts",
+    "a": 2,
+    "d": 2
+   }
+  ]
+ },
+ "810cbace1905a9d5956172a36d62925930a1a0ec": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-20T20:33:17Z",
+  "message": "Precios: el cobro llega con mainnet, no se cobra ahora",
+  "parents": 1,
+  "files": [
+   {
+    "f": "precios.html",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "src/i18n.ts",
+    "a": 2,
+    "d": 2
+   }
+  ]
+ },
+ "bd5822ceceb67d1ab00b7bc44ea68dcd2a8c743d": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-20T20:33:12Z",
+  "message": "Herramienta: los mensajes de error y de aprobación hablan del faro y de tu billetera",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/i18n.ts",
+    "a": 6,
+    "d": 6
+   }
+  ]
+ },
+ "1a2614c593c364abc5ae2e56eca04cd57c1f01cc": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-20T20:33:00Z",
+  "message": "Portada, juegos y términos: el número lo publica un faro público, no drand",
+  "parents": 1,
+  "files": [
+   {
+    "f": "index.html",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "juegos.html",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/i18n.ts",
+    "a": 6,
+    "d": 6
+   },
+   {
+    "f": "terminos.html",
+    "a": 1,
+    "d": 1
+   }
+  ]
+ },
+ "43663b05439e10bb75c2d4c86a1635e95e99b1ab": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-20T20:32:56Z",
+  "message": "Historia: quien lo construye invita a rehacer el sorteo, sin pedir confianza",
+  "parents": 1,
+  "files": [
+   {
+    "f": "historia.html",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/i18n.ts",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "src/seo.test.ts",
+    "a": 1,
+    "d": 1
+   }
+  ]
+ },
+ "d921235c82846e603e4997ac38fa2e98ec8130bd": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-20T20:32:51Z",
+  "message": "Portada y cómo funciona: lo que queda en Stellar, con la lista completa en Seguridad",
+  "parents": 1,
+  "files": [
+   {
+    "f": "como-funciona.html",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "index.html",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/i18n.ts",
+    "a": 4,
+    "d": 4
+   }
+  ]
+ },
+ "ab03caa1a4da816e874e5f32b4d5ad1a66ca6bf1": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-20T20:32:46Z",
+  "message": "Documentación: la lista que sube a Stellar, igual que en la interfaz",
+  "parents": 1,
+  "files": [
+   {
+    "f": "README.md",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "docs/amenazas.md",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "docs/threat-model.en.md",
+    "a": 1,
+    "d": 1
+   }
+  ]
+ },
+ "c82558a3c2a2d60d90207b520868f296abf6f2b1": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-20T20:32:38Z",
+  "message": "Lo que sube a Stellar: la misma lista en términos, meetup y seguridad",
+  "parents": 1,
+  "files": [
+   {
+    "f": "seguridad.html",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "sorteo-para-meetup.html",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/i18n.ts",
+    "a": 6,
+    "d": 6
+   },
+   {
+    "f": "src/seo.test.ts",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "terminos.html",
+    "a": 1,
+    "d": 1
+   }
+  ]
+ },
+ "0369fa27a28f976d465d9d76b4103d6bb0574448": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-20T20:02:08Z",
+  "message": "Descripciones: de 120 a 160 caracteres en todas las páginas públicas, y la prueba mira todas",
+  "parents": 1,
+  "files": [
+   {
+    "f": "como-funciona.html",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "juegos.html",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "precios.html",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/seo.test.ts",
+    "a": 5,
+    "d": 2
+   }
+  ]
+ },
+ "6115d91e09cf3d2136bca9cb2f4a577975b6ec16": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-20T20:01:54Z",
+  "message": "Aulas y talleres: la versión en inglés dice lo mismo que el español, y tiene su prueba",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/i18n.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/seo.test.ts",
+    "a": 6,
+    "d": 0
+   }
+  ]
+ },
+ "ce7db675c9f6e0ab34223993a03dc9ba1e27f4dc": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-20T20:01:31Z",
+  "message": "Documentación: cada paso se puede comprobar, sin pedir confianza en Tinkazo ni citar a drand",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/amenazas.md",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "docs/epics.md",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "docs/prd.md",
+    "a": 1,
+    "d": 1
+   }
+  ]
+ },
+ "49a1a4c1c9cca2d9250f492017e1b69920e8e5ad": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-20T20:01:05Z",
+  "message": "Verificación y cómo funciona: «cada paso se puede comprobar» en vez de «no hace falta creer en Tinkazo»",
+  "parents": 1,
+  "files": [
+   {
+    "f": "como-funciona.html",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "sorteo-verificable.html",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/i18n.ts",
+    "a": 4,
+    "d": 4
+   },
+   {
+    "f": "src/seo.test.ts",
+    "a": 1,
+    "d": 1
+   }
+  ]
+ },
+ "7a1c2855bcf2a4fea20609b4ca16093266cac0f9": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-20T20:00:55Z",
+  "message": "Sorteo verificable: el veredicto amarillo habla de la billetera de quien organiza, no de la cuenta",
+  "parents": 1,
+  "files": [
+   {
+    "f": "sorteo-verificable.html",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/i18n.ts",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "src/seo.test.ts",
+    "a": 2,
+    "d": 0
+   }
+  ]
+ },
+ "2cf8643024959c30c2d1575b96e522e1692507d5": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-20T20:00:45Z",
+  "message": "Lo que sube a Stellar: la lista completa, con el número del sorteo y la hora del sorteo, sin la firma de la ronda",
+  "parents": 1,
+  "files": [
+   {
+    "f": "seguridad.html",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "sorteo-para-meetup.html",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/i18n.ts",
+    "a": 6,
+    "d": 6
+   },
+   {
+    "f": "src/seo.test.ts",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "terminos.html",
+    "a": 1,
+    "d": 1
+   }
+  ]
+ },
+ "b128555ee4c7afce09cd93b5f6fbf92ce7ec50da": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-20T20:00:31Z",
+  "message": "README: la privacidad dice que la cadena guarda también los otros datos del sorteo",
+  "parents": 1,
+  "files": [
+   {
+    "f": "README.es.md",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "README.md",
+    "a": 1,
+    "d": 1
+   }
+  ]
+ },
+ "fffc3089101d590cf812104d5e93b79d71f594b4": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-20T19:38:21Z",
+  "message": "Pruebas: el texto de cada página contra el diccionario, y lo que no se dice en la portada",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/seo.test.ts",
+    "a": 131,
+    "d": 12
+   }
+  ]
+ },
+ "06c1b3f5ae3f640c57f735fc2b77ae3992aa5f71": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-20T19:36:04Z",
+  "message": "Portada: la copia de aulas y talleres sin «a dedo»",
+  "parents": 1,
+  "files": [
+   {
+    "f": "index.html",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/i18n.ts",
+    "a": 1,
+    "d": 1
+   }
+  ]
+ },
+ "b945bf5c6c777151b421787cf9144dc12a4bfb7d": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-20T19:35:58Z",
+  "message": "Sorteo verificable: la lista, el ganador y el sello dicen lo que comprueba el celular",
+  "parents": 1,
+  "files": [
+   {
+    "f": "sorteo-verificable.html",
+    "a": 3,
+    "d": 3
+   },
+   {
+    "f": "src/i18n.ts",
+    "a": 5,
+    "d": 5
+   }
+  ]
+ },
+ "59467d6813d388209a22ff2bc8333d84b08efd30": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-20T19:35:53Z",
+  "message": "Copias estáticas iguales a su clave: el sello de la portada y el ataque abierto en seguridad",
+  "parents": 1,
+  "files": [
+   {
+    "f": "index.html",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "seguridad.html",
+    "a": 1,
+    "d": 1
+   }
+  ]
+ },
+ "1edb06079ce521d38213ec88bacfaf9e36b3cce6": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-20T19:35:49Z",
+  "message": "Sorteo verificable: los detalles técnicos van al protocolo y a Seguridad",
+  "parents": 1,
+  "files": [
+   {
+    "f": "sorteo-verificable.html",
+    "a": 2,
+    "d": 1
+   },
+   {
+    "f": "src/i18n.ts",
+    "a": 4,
+    "d": 2
+   }
+  ]
+ },
+ "c97a2b4ebbb135412a70f72e422f186e69eb1b5e": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-20T19:35:43Z",
+  "message": "Amenazas: lo que viaja a la cadena, con la lista completa",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/amenazas.md",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "docs/threat-model.en.md",
+    "a": 1,
+    "d": 1
+   }
+  ]
+ },
+ "5be413ceb0dbb0f96d73232084eccfa70d0ee4bd": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-20T19:35:39Z",
+  "message": "Lo que sube a Stellar: la lista completa en seguridad, meetup y términos",
+  "parents": 1,
+  "files": [
+   {
+    "f": "seguridad.html",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "sorteo-para-meetup.html",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/i18n.ts",
+    "a": 6,
+    "d": 6
+   },
+   {
+    "f": "terminos.html",
+    "a": 1,
+    "d": 1
+   }
+  ]
+ },
+ "3663de077e8392d3df1b6225726d3ec379f008b4": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-20T19:35:36Z",
+  "message": "Seguridad: el veredicto parcial se dice veredicto amarillo, como en la verificación",
+  "parents": 1,
+  "files": [
+   {
+    "f": "seguridad.html",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/i18n.ts",
+    "a": 2,
+    "d": 2
+   }
+  ]
+ },
+ "bd546ecd85dd1d1a6bbd280d8fb685243a096429": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-20T19:35:09Z",
+  "message": "Sorteo verificable: el número y el título sin «nadie controla» ni «confiar en Tinkazo»",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/prd.md",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "index.html",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "sorteo-verificable.html",
+    "a": 5,
+    "d": 5
+   },
+   {
+    "f": "src/i18n.ts",
+    "a": 6,
+    "d": 6
+   },
+   {
+    "f": "src/seo.test.ts",
+    "a": 2,
+    "d": 2
+   }
+  ]
+ },
+ "995d2163cc9a7d0b6af2d95bd74e1c521c1def2e": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-20T19:07:09Z",
+  "message": "Pruebas: palabras prohibidas y el texto de cada elemento contra el diccionario",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/seo.test.ts",
+    "a": 41,
+    "d": 1
+   }
+  ]
+ },
+ "89d33c3295a0a60429b9f14fc88a961449de7915": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-20T19:06:47Z",
+  "message": "Lectura adelantada: las tres páginas de sorteo entran en las reglas",
+  "parents": 1,
+  "files": [
+   {
+    "f": "vite.config.ts",
+    "a": 4,
+    "d": 3
+   }
+  ]
+ },
+ "6c05083d7872dbf7869ed575174195dafce086b1": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-20T19:06:37Z",
+  "message": "Portada: la misma descripción en la meta, Open Graph y datos estructurados; sin hreflang",
+  "parents": 1,
+  "files": [
+   {
+    "f": "index.html",
+    "a": 3,
+    "d": 6
+   },
+   {
+    "f": "src/seo.test.ts",
+    "a": 3,
+    "d": 6
+   }
+  ]
+ },
+ "9475b683405c32fcaeeef9696b6d86f582f47a93": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-20T19:06:25Z",
+  "message": "Botón de sorteo: el mismo texto en las tres páginas nuevas",
+  "parents": 1,
+  "files": [
+   {
+    "f": "sorteo-en-clase.html",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "sorteo-para-meetup.html",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "sorteo-verificable.html",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/i18n.ts",
+    "a": 2,
+    "d": 2
+   }
+  ]
+ },
+ "e718b325fe972b8efbb1a1854d0f1919497980d7": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-20T19:06:13Z",
+  "message": "Lo que sube a Stellar: límites de seguridad y términos según el contrato",
+  "parents": 1,
+  "files": [
+   {
+    "f": "seguridad.html",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "src/i18n.ts",
+    "a": 6,
+    "d": 6
+   },
+   {
+    "f": "terminos.html",
+    "a": 1,
+    "d": 1
+   }
+  ]
+ },
+ "0e8264121bf5be68481c45cf0f07e351b796ab2a": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-20T19:06:01Z",
+  "message": "Sorteo para meetup: nombres, límites y la lista con QR en la sala",
+  "parents": 1,
+  "files": [
+   {
+    "f": "sorteo-para-meetup.html",
+    "a": 3,
+    "d": 2
+   },
+   {
+    "f": "src/i18n.ts",
+    "a": 4,
+    "d": 2
+   }
+  ]
+ },
+ "4f886ab09cb0dad4aa22711a8fdea3a2fc76302e": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-20T19:05:52Z",
+  "message": "Sorteo verificable: descripción, h1 y sello en el diccionario",
+  "parents": 1,
+  "files": [
+   {
+    "f": "index.html",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "sorteo-verificable.html",
+    "a": 6,
+    "d": 6
+   },
+   {
+    "f": "src/i18n.ts",
+    "a": 6,
+    "d": 6
+   },
+   {
+    "f": "src/seo.test.ts",
+    "a": 1,
+    "d": 1
+   }
+  ]
+ },
+ "52b12522f042ef3eb757f0b8284f8b8d813ef889": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-20T19:05:39Z",
+  "message": "Sorteo en clase: el texto de la página y de la portada es el del diccionario",
+  "parents": 1,
+  "files": [
+   {
+    "f": "index.html",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "sorteo-en-clase.html",
+    "a": 4,
+    "d": 4
+   },
+   {
+    "f": "src/i18n.ts",
+    "a": 7,
+    "d": 7
+   }
+  ]
+ },
+ "7e8fd90aaf8cfd64ba2e13e9ce2966cc80ebe73c": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-20T18:36:54Z",
+  "message": "SEO: pruebas de canonical, idiomas, datos estructurados, mapa del sitio, robots.txt y enlaces",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/seo.test.ts",
+    "a": 233,
+    "d": 0
+   }
+  ]
+ },
+ "542f26615e094e4483030cdbc8fe5bf62e5f8bcc": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-20T18:35:17Z",
+  "message": "SEO: enlaces a las páginas nuevas desde Para saber más y desde los pies",
+  "parents": 1,
+  "files": [
+   {
+    "f": "como-funciona.html",
+    "a": 3,
+    "d": 0
+   },
+   {
+    "f": "historia.html",
+    "a": 3,
+    "d": 0
+   },
+   {
+    "f": "index.html",
+    "a": 15,
+    "d": 0
+   },
+   {
+    "f": "juegos.html",
+    "a": 3,
+    "d": 0
+   },
+   {
+    "f": "precios.html",
+    "a": 3,
+    "d": 0
+   },
+   {
+    "f": "seguridad.html",
+    "a": 3,
+    "d": 0
+   },
+   {
+    "f": "src/i18n.ts",
+    "a": 6,
+    "d": 0
+   },
+   {
+    "f": "terminos.html",
+    "a": 3,
+    "d": 0
+   }
+  ]
+ },
+ "03a0f3ae3a7af4c1922a219859fa9f69aca9cd55": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-20T18:34:25Z",
+  "message": "SEO: mapa del sitio con las páginas públicas, sin las de uso interno",
+  "parents": 1,
+  "files": [
+   {
+    "f": "public/sitemap.xml",
+    "a": 10,
+    "d": 7
+   }
+  ]
+ },
+ "88bb537c988c47d7fa43b703640ff30a39e89760": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-20T18:34:11Z",
+  "message": "SEO: tres páginas para buscar sorteos (meetup, clase y sorteo verificable)",
+  "parents": 1,
+  "files": [
+   {
+    "f": "scripts/check-paginas.mjs",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "sorteo-en-clase.html",
+    "a": 122,
+    "d": 0
+   },
+   {
+    "f": "sorteo-para-meetup.html",
+    "a": 125,
+    "d": 0
+   },
+   {
+    "f": "sorteo-verificable.html",
+    "a": 130,
+    "d": 0
+   },
+   {
+    "f": "src/i18n.ts",
+    "a": 164,
+    "d": 0
+   },
+   {
+    "f": "vite.config.ts",
+    "a": 3,
+    "d": 0
+   }
+  ]
+ },
+ "afe3d240666fa9078c791bf50f4ad3dd9543022f": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-20T18:29:24Z",
+  "message": "SEO: robots.txt deja rastrear verificar.html, que ya tiene noindex",
+  "parents": 1,
+  "files": [
+   {
+    "f": "public/robots.txt",
+    "a": 0,
+    "d": 1
+   }
+  ]
+ },
+ "26ff5ca4c60951365b39ee401d8804d7e43fd1ec": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-20T18:28:34Z",
+  "message": "SEO: hreflang es, en y x-default en la portada",
+  "parents": 1,
+  "files": [
+   {
+    "f": "index.html",
+    "a": 3,
+    "d": 0
+   }
+  ]
+ },
+ "51b6a7eea8210ac4d494cc074bf44c495edcb22e": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-20T18:28:29Z",
+  "message": "SEO: datos estructurados de la portada (WebSite, Organization, SoftwareApplication)",
+  "parents": 1,
+  "files": [
+   {
+    "f": "index.html",
+    "a": 34,
+    "d": 0
+   }
+  ]
+ },
+ "a25ef38b28569913ef203c677b5267f1e830422f": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-20T18:28:08Z",
+  "message": "SEO: canonical de cada página pública, apuntando a su propia URL",
+  "parents": 1,
+  "files": [
+   {
+    "f": "como-funciona.html",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "historia.html",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "index.html",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "juegos.html",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "precios.html",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "seguridad.html",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "terminos.html",
+    "a": 1,
+    "d": 0
+   }
+  ]
  }
 }

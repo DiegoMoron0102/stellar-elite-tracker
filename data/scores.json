@@ -1,15 +1,15 @@
 {
- "generado": "2026-10-20T21:01:04+00:00",
+ "generado": "2026-10-21T02:34:58+00:00",
  "programa": "Stellar Elite",
  "start_date": "2026-09-02T00:00:00Z",
  "teams": [
   {
    "name": "Tinkazo",
-   "total": 2586.6,
-   "per_capita": 2586.6,
-   "commits": 375,
-   "pts_commits": 2465.6,
-   "dias_activos": 23,
+   "total": 3151.56,
+   "per_capita": 3151.56,
+   "commits": 485,
+   "pts_commits": 3025.56,
+   "dias_activos": 24,
    "contribuidores": [
     "GuidoSV7",
     "nema1502"
@@ -344,7 +344,8 @@
    "2026-10-17": 13.58,
    "2026-10-18": 188.71000000000004,
    "2026-10-19": 174.88,
-   "2026-10-20": 713.0200000000003
+   "2026-10-20": 1069.2000000000005,
+   "2026-10-21": 203.77999999999997
   },
   "CompraGasolinaBidon": {
    "2026-09-06": 1.0,
@@ -492,7 +493,8 @@
    "2026-10-17": 2,
    "2026-10-18": 27,
    "2026-10-19": 34,
-   "2026-10-20": 133
+   "2026-10-20": 206,
+   "2026-10-21": 37
   },
   "CompraGasolinaBidon": {
    "2026-09-06": 1,
@@ -585,6 +587,1106 @@
   }
  },
  "commits": [
+  {
+   "sha": "f61d24c",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-10-21T01:44:03Z",
+   "msg": "Integra jue/trompo-sapo: el sapo no nombra al co-ganador y el mano a mano del trompo se ve en celular",
+   "pts": 0.0,
+   "nota": "merge"
+  },
+  {
+   "sha": "640932f",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-10-21T01:43:55Z",
+   "msg": "Integra ux/cabecera-formulario: cabecera en celular, formulario sin cuenta y og por idioma",
+   "pts": 0.0,
+   "nota": "merge"
+  },
+  {
+   "sha": "68ae271",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-10-21T01:27:57Z",
+   "msg": "Integra jue/ruleta-pinata: la ruleta sin palos de flecha desfasados y la piñata con cara y nombres legibles",
+   "pts": 0.0,
+   "nota": "merge"
+  },
+  {
+   "sha": "ea51aad",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-10-21T01:27:48Z",
+   "msg": "Integra jue/teleferico: el teleférico por grupos (sección 7.7 de la auditoría)",
+   "pts": 0.0,
+   "nota": "merge"
+  },
+  {
+   "sha": "ba673c1",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-10-21T01:20:46Z",
+   "msg": "La revisión de páginas espera a que cargue cada una",
+   "pts": 3.0,
+   "nota": ""
+  },
+  {
+   "sha": "acadbf6",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-10-21T01:20:46Z",
+   "msg": "El sellado sin cuenta se bloquea en el botón, no en freeze()",
+   "pts": 5.39,
+   "nota": ""
+  },
+  {
+   "sha": "91a1f95",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-10-21T01:09:30Z",
+   "msg": "Docs: la ruleta y la piñata cuentan lo que cambió en la revisión del 20 de octubre",
+   "pts": 6.09,
+   "nota": ""
+  },
+  {
+   "sha": "2609c6c",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-10-21T01:09:09Z",
+   "msg": "Piñata: en la lista de caídos, el nombre largo se corta por la inicial, no por el medio",
+   "pts": 4.81,
+   "nota": ""
+  },
+  {
+   "sha": "9c31f51",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-10-21T00:47:50Z",
+   "msg": "La página de juegos describe el teleférico por grupos",
+   "pts": 3.81,
+   "nota": ""
+  },
+  {
+   "sha": "22e9742",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-10-21T00:47:18Z",
+   "msg": "En celular, la cámara del mano a mano deja entrar a los dos trompos",
+   "pts": 4.7,
+   "nota": ""
+  },
+  {
+   "sha": "45c1b76",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-10-21T00:46:44Z",
+   "msg": "El trompo llama picazo al sacado, palabra prestada de Tarija",
+   "pts": 3.81,
+   "nota": ""
+  },
+  {
+   "sha": "ab00f02",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-10-21T00:46:15Z",
+   "msg": "En la tapada, la ganadora no baila siempre en el mismo lugar",
+   "pts": 4.91,
+   "nota": ""
+  },
+  {
+   "sha": "3b8488e",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-10-21T00:45:23Z",
+   "msg": "Capturas del teleférico por grupos en la página de juegos",
+   "pts": 0.0,
+   "nota": "sin cambios de lineas"
+  },
+  {
+   "sha": "187ab4d",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-10-21T00:45:14Z",
+   "msg": "El mano a mano del trompo tiene duda: en cada choque cabecea uno de los dos",
+   "pts": 6.25,
+   "nota": ""
+  },
+  {
+   "sha": "f3525ba",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-10-21T00:44:13Z",
+   "msg": "En celular, los rótulos de grupo van un poco más chicos",
+   "pts": 4.7,
+   "nota": ""
+  },
+  {
+   "sha": "a28ca1f",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-10-21T00:43:43Z",
+   "msg": "Las pruebas de evento con varias partes usan nombres que sí pasan el presupuesto",
+   "pts": 5.81,
+   "nota": ""
+  },
+  {
+   "sha": "f55b03a",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-10-21T00:34:06Z",
+   "msg": "Cabecera en celular: Más para lo secundario, y una sola acción: Sortear",
+   "pts": 9.22,
+   "nota": ""
+  },
+  {
+   "sha": "18a64a3",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-10-21T00:33:56Z",
+   "msg": "La lista del QR dice la cabina de cada uno",
+   "pts": 6.29,
+   "nota": ""
+  },
+  {
+   "sha": "2ef9ada",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-10-21T00:33:47Z",
+   "msg": "Con dos personas, el trompo va directo al mano a mano, sin baile ni amagues",
+   "pts": 5.95,
+   "nota": ""
+  },
+  {
+   "sha": "c0fe2e2",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-10-21T00:30:13Z",
+   "msg": "docs/evento.md: eventos con nombre, compartir y decisiones abiertas",
+   "pts": 6.88,
+   "nota": ""
+  },
+  {
+   "sha": "0de89a8",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-10-21T00:30:12Z",
+   "msg": "La línea de error de evento.html separa título y detalle",
+   "pts": 3.32,
+   "nota": ""
+  },
+  {
+   "sha": "36be760",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-10-21T00:30:11Z",
+   "msg": "La verificación tiene Compartir este sorteo, con el mismo mensaje y el QR",
+   "pts": 4.32,
+   "nota": ""
+  },
+  {
+   "sha": "b61de75",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-10-21T00:30:03Z",
+   "msg": "Mis sorteos: compartir cada comprobante y armar eventos con nombre",
+   "pts": 9.68,
+   "nota": ""
+  },
+  {
+   "sha": "11f97f3",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-10-21T00:29:46Z",
+   "msg": "Compartir un sorteo otra vez: mensaje, imagen con el QR y diálogo",
+   "pts": 9.66,
+   "nota": ""
+  },
+  {
+   "sha": "c44e7d1",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-10-21T00:29:06Z",
+   "msg": "Eventos con nombre: el almacén de este equipo y sus pruebas",
+   "pts": 9.2,
+   "nota": ""
+  },
+  {
+   "sha": "d5099c3",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-10-21T00:29:04Z",
+   "msg": "El QR sale como lienzo, y la tarjeta para compartir se arma con él",
+   "pts": 8.33,
+   "nota": ""
+  },
+  {
+   "sha": "e2d1935",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-10-21T00:28:43Z",
+   "msg": "Textos de compartir un sorteo y de Mis eventos, en español e inglés",
+   "pts": 6.61,
+   "nota": ""
+  },
+  {
+   "sha": "db1598a",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-10-21T00:27:56Z",
+   "msg": "El trompo nombra a todos hasta 14 personas, mientras bailan",
+   "pts": 3.81,
+   "nota": ""
+  },
+  {
+   "sha": "1a30f7c",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-10-21T00:26:45Z",
+   "msg": "La etiqueta del ganador del sapo va sobre su propio aro en celular, sin tapar a los vecinos",
+   "pts": 5.0,
+   "nota": ""
+  },
+  {
+   "sha": "8a303fa",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-10-21T00:25:52Z",
+   "msg": "Ruleta: los últimos clics mueven la flecha",
+   "pts": 4.17,
+   "nota": ""
+  },
+  {
+   "sha": "524b9a5",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-10-21T00:18:16Z",
+   "msg": "Piñata: la lista de los caídos escribe cada nombre, y cada caramelo tiene su cara",
+   "pts": 8.58,
+   "nota": ""
+  },
+  {
+   "sha": "a073c3b",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-10-21T00:13:07Z",
+   "msg": "La rana del sapo se traga una argolla por show y la escupe sobre un aro libre",
+   "pts": 8.75,
+   "nota": ""
+  },
+  {
+   "sha": "e855ff6",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-10-21T00:12:34Z",
+   "msg": "Sin cuenta, la lista se lee y solo el botón de sellar queda apagado",
+   "pts": 7.89,
+   "nota": ""
+  },
+  {
+   "sha": "8a1e997",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-10-21T00:12:32Z",
+   "msg": "Documentación del teleférico por grupos",
+   "pts": 6.95,
+   "nota": ""
+  },
+  {
+   "sha": "8f86a0e",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-10-21T00:12:05Z",
+   "msg": "El teleférico baja un grupo entero en cada estación",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "a7fdcf8",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-10-21T00:09:53Z",
+   "msg": "Grupos automáticos: la lista se reparte sola, de a cuatro y hasta diez",
+   "pts": 7.6,
+   "nota": ""
+  },
+  {
+   "sha": "c19038b",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-10-21T00:06:05Z",
+   "msg": "Piñata: sin palos vacíos con poca gente, y el co-ganador que sale no se nombra",
+   "pts": 8.29,
+   "nota": ""
+  },
+  {
+   "sha": "53b8a61",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-10-20T23:57:22Z",
+   "msg": "Páginas de sorteo: og:title y og:description en el idioma de la página",
+   "pts": 7.17,
+   "nota": ""
+  },
+  {
+   "sha": "bd91ec4",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-10-20T23:57:03Z",
+   "msg": "Ruleta: la flecha para en cualquier punto del gajo ganador y el frenado varía; la caja del relator no tapa la rueda",
+   "pts": 6.21,
+   "nota": ""
+  },
+  {
+   "sha": "2ac6a00",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-10-20T23:50:01Z",
+   "msg": "El sapo no nombra al co-ganador cuando cae: dice el número de su premio",
+   "pts": 5.32,
+   "nota": ""
+  },
+  {
+   "sha": "ffe646e",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-10-20T23:46:28Z",
+   "msg": "El casi del sapo ya no dice que alguien se ilusiona",
+   "pts": 3.32,
+   "nota": ""
+  },
+  {
+   "sha": "0945f94",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-10-20T23:28:08Z",
+   "msg": "La portada rota la palabra del sticker: Sorteá para tu meetup, clase, evento, taller, charla o congreso",
+   "pts": 7.7,
+   "nota": ""
+  },
+  {
+   "sha": "afec473",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-10-20T23:09:53Z",
+   "msg": "Meetup y verificación: el número sale de un faro público, y compartir el comprobante comparte la lista",
+   "pts": 5.95,
+   "nota": ""
+  },
+  {
+   "sha": "e964805",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-10-20T23:05:45Z",
+   "msg": "Idioma: los botones ES y EN tienen 44 px de ancho en celular",
+   "pts": 2.58,
+   "nota": ""
+  },
+  {
+   "sha": "940d57c",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-10-20T23:05:20Z",
+   "msg": "Clase en inglés: tombola en vez de ball drum, y What it can't check is the list",
+   "pts": 3.32,
+   "nota": ""
+  },
+  {
+   "sha": "85747ef",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-10-20T23:04:50Z",
+   "msg": "Páginas de sorteo: título y descripción en el idioma de la página",
+   "pts": 7.07,
+   "nota": ""
+  },
+  {
+   "sha": "2ff85d8",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-10-20T23:02:10Z",
+   "msg": "Portada: la huella y el contrato se dicen con palabras llanas",
+   "pts": 5.25,
+   "nota": ""
+  },
+  {
+   "sha": "d6051f6",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-10-20T23:01:24Z",
+   "msg": "Portada: Para saber más suma Términos y privacidad, con cuatro tarjetas por fila",
+   "pts": 3.81,
+   "nota": ""
+  },
+  {
+   "sha": "a06ead0",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-10-20T23:00:50Z",
+   "msg": "Clase: Nadie elige el número, en vez de al ganador",
+   "pts": 3.81,
+   "nota": ""
+  },
+  {
+   "sha": "b4dd719",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-10-20T23:00:22Z",
+   "msg": "Meetup: la lista técnica de Stellar pasa a Detalles técnicos y el texto de nombres queda llano",
+   "pts": 5.75,
+   "nota": ""
+  },
+  {
+   "sha": "1011594",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-10-20T22:59:02Z",
+   "msg": "Portada: Para saber más se ve en la portada y la herramienta lo oculta",
+   "pts": 2.58,
+   "nota": ""
+  },
+  {
+   "sha": "ef0c9f6",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-10-20T22:22:39Z",
+   "msg": "Herramienta: la línea de la prueba se traduce, y el auditor reconoce el texto en los dos idiomas",
+   "pts": 4.46,
+   "nota": ""
+  },
+  {
+   "sha": "1459823",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-10-20T22:22:00Z",
+   "msg": "Comentarios de los juegos: el número del sorteo y el faro público, sin cambiar código",
+   "pts": 5.25,
+   "nota": ""
+  },
+  {
+   "sha": "6774ad2",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-10-20T22:21:23Z",
+   "msg": "Documentación: la prueba de la ronda reemplaza a la firma, y la cita de drand queda como anterior",
+   "pts": 3.81,
+   "nota": ""
+  },
+  {
+   "sha": "773af43",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-10-20T22:21:10Z",
+   "msg": "Preguntas: la hora del sello y la del sorteo se dicen por separado",
+   "pts": 3.81,
+   "nota": ""
+  },
+  {
+   "sha": "021c87d",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-10-20T22:20:58Z",
+   "msg": "Juegos: en inglés, la carrera es el juego insignia",
+   "pts": 2.58,
+   "nota": ""
+  },
+  {
+   "sha": "dab3e54",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-10-20T22:20:44Z",
+   "msg": "Precios: la meta y la nota dicen que el cobro se anuncia antes",
+   "pts": 4.17,
+   "nota": ""
+  },
+  {
+   "sha": "15f261f",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-10-20T22:20:25Z",
+   "msg": "Lista de lo que viaja a la cadena: suma si ya se sorteó",
+   "pts": 5.75,
+   "nota": ""
+  },
+  {
+   "sha": "718697a",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-10-20T22:19:25Z",
+   "msg": "Pruebas: la lista se comprueba en el modelo de amenazas, y la revisión visual busca la palabra entera",
+   "pts": 4.81,
+   "nota": ""
+  },
+  {
+   "sha": "fb61a49",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-10-20T21:50:23Z",
+   "msg": "Pruebas: la revisión visual no lleva nombre propio y el sorteo no se llama faro de azar",
+   "pts": 6.39,
+   "nota": ""
+  },
+  {
+   "sha": "9667376",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-10-20T21:49:24Z",
+   "msg": "README: el contrato anota, entre otras cosas, la huella y la ronda",
+   "pts": 2.58,
+   "nota": ""
+  },
+  {
+   "sha": "7039c76",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-10-20T21:49:15Z",
+   "msg": "Comentarios y documentos: la revisión visual, sin nombre propio",
+   "pts": 4.91,
+   "nota": ""
+  },
+  {
+   "sha": "0e84d4d",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-10-20T21:48:55Z",
+   "msg": "Sapo: el comentario de la revisión visual, sin el artículo repetido",
+   "pts": 3.0,
+   "nota": ""
+  },
+  {
+   "sha": "f053daa",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-10-20T21:48:42Z",
+   "msg": "Número del sorteo: el cartel de la rueda y los mensajes de espera y de error",
+   "pts": 5.09,
+   "nota": ""
+  },
+  {
+   "sha": "8cc7e57",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-10-20T21:48:19Z",
+   "msg": "Herramienta: la prueba reemplaza a la firma en los mensajes, la billetera y la portada",
+   "pts": 5.64,
+   "nota": ""
+  },
+  {
+   "sha": "b39707d",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-10-20T21:47:43Z",
+   "msg": "Evento: la prueba de cada ronda reemplaza a la firma en la página y el veredicto",
+   "pts": 5.25,
+   "nota": ""
+  },
+  {
+   "sha": "f5f6ac0",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-10-20T21:47:24Z",
+   "msg": "Faro público: los términos y el mensaje al ganador no dicen faro de azar",
+   "pts": 4.7,
+   "nota": ""
+  },
+  {
+   "sha": "3bbb6b4",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-10-20T21:47:07Z",
+   "msg": "Lista de lo que viaja a la cadena: suma el número que decidió la ronda",
+   "pts": 5.75,
+   "nota": ""
+  },
+  {
+   "sha": "b7ff1a0",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-10-20T20:33:38Z",
+   "msg": "Juegos: los comentarios citan la revisión visual, sin cambiar código",
+   "pts": 6.29,
+   "nota": ""
+  },
+  {
+   "sha": "820647b",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-10-20T20:33:27Z",
+   "msg": "Documentación: la revisión visual va sin nombre propio, y la arquitectura habla de colaboradores",
+   "pts": 5.75,
+   "nota": ""
+  },
+  {
+   "sha": "3ebfa28",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-10-20T20:33:23Z",
+   "msg": "Meetup: el título de la sección dice que el sorteo se puede comprobar",
+   "pts": 3.81,
+   "nota": ""
+  },
+  {
+   "sha": "810cbac",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-10-20T20:33:17Z",
+   "msg": "Precios: el cobro llega con mainnet, no se cobra ahora",
+   "pts": 4.17,
+   "nota": ""
+  },
+  {
+   "sha": "bd5822c",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-10-20T20:33:12Z",
+   "msg": "Herramienta: los mensajes de error y de aprobación hablan del faro y de tu billetera",
+   "pts": 4.7,
+   "nota": ""
+  },
+  {
+   "sha": "1a2614c",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-10-20T20:33:00Z",
+   "msg": "Portada, juegos y términos: el número lo publica un faro público, no drand",
+   "pts": 5.25,
+   "nota": ""
+  },
+  {
+   "sha": "43663b0",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-10-20T20:32:56Z",
+   "msg": "Historia: quien lo construye invita a rehacer el sorteo, sin pedir confianza",
+   "pts": 4.17,
+   "nota": ""
+  },
+  {
+   "sha": "d921235",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-10-20T20:32:51Z",
+   "msg": "Portada y cómo funciona: lo que queda en Stellar, con la lista completa en Seguridad",
+   "pts": 4.7,
+   "nota": ""
+  },
+  {
+   "sha": "ab03caa",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-10-20T20:32:46Z",
+   "msg": "Documentación: la lista que sube a Stellar, igual que en la interfaz",
+   "pts": 3.81,
+   "nota": ""
+  },
+  {
+   "sha": "c82558a",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-10-20T20:32:38Z",
+   "msg": "Lo que sube a Stellar: la misma lista en términos, meetup y seguridad",
+   "pts": 5.52,
+   "nota": ""
+  },
+  {
+   "sha": "0369fa2",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-10-20T20:02:08Z",
+   "msg": "Descripciones: de 120 a 160 caracteres en todas las páginas públicas, y la prueba mira todas",
+   "pts": 4.81,
+   "nota": ""
+  },
+  {
+   "sha": "6115d91",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-10-20T20:01:54Z",
+   "msg": "Aulas y talleres: la versión en inglés dice lo mismo que el español, y tiene su prueba",
+   "pts": 4.17,
+   "nota": ""
+  },
+  {
+   "sha": "ce7db67",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-10-20T20:01:31Z",
+   "msg": "Documentación: cada paso se puede comprobar, sin pedir confianza en Tinkazo ni citar a drand",
+   "pts": 3.81,
+   "nota": ""
+  },
+  {
+   "sha": "49a1a4c",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-10-20T20:01:05Z",
+   "msg": "Verificación y cómo funciona: «cada paso se puede comprobar» en vez de «no hace falta creer en Tinkazo»",
+   "pts": 4.91,
+   "nota": ""
+  },
+  {
+   "sha": "7a1c285",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-10-20T20:00:55Z",
+   "msg": "Sorteo verificable: el veredicto amarillo habla de la billetera de quien organiza, no de la cuenta",
+   "pts": 4.17,
+   "nota": ""
+  },
+  {
+   "sha": "2cf8643",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-10-20T20:00:45Z",
+   "msg": "Lo que sube a Stellar: la lista completa, con el número del sorteo y la hora del sorteo, sin la firma de la ronda",
+   "pts": 5.52,
+   "nota": ""
+  },
+  {
+   "sha": "b128555",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-10-20T20:00:31Z",
+   "msg": "README: la privacidad dice que la cadena guarda también los otros datos del sorteo",
+   "pts": 3.32,
+   "nota": ""
+  },
+  {
+   "sha": "fffc308",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-10-20T19:38:21Z",
+   "msg": "Pruebas: el texto de cada página contra el diccionario, y lo que no se dice en la portada",
+   "pts": 8.17,
+   "nota": ""
+  },
+  {
+   "sha": "06c1b3f",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-10-20T19:36:04Z",
+   "msg": "Portada: la copia de aulas y talleres sin «a dedo»",
+   "pts": 3.32,
+   "nota": ""
+  },
+  {
+   "sha": "b945bf5",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-10-20T19:35:58Z",
+   "msg": "Sorteo verificable: la lista, el ganador y el sello dicen lo que comprueba el celular",
+   "pts": 5.09,
+   "nota": ""
+  },
+  {
+   "sha": "59467d6",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-10-20T19:35:53Z",
+   "msg": "Copias estáticas iguales a su clave: el sello de la portada y el ataque abierto en seguridad",
+   "pts": 3.32,
+   "nota": ""
+  },
+  {
+   "sha": "1edb060",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-10-20T19:35:49Z",
+   "msg": "Sorteo verificable: los detalles técnicos van al protocolo y a Seguridad",
+   "pts": 4.32,
+   "nota": ""
+  },
+  {
+   "sha": "c97a2b4",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-10-20T19:35:43Z",
+   "msg": "Amenazas: lo que viaja a la cadena, con la lista completa",
+   "pts": 3.32,
+   "nota": ""
+  },
+  {
+   "sha": "5be413c",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-10-20T19:35:39Z",
+   "msg": "Lo que sube a Stellar: la lista completa en seguridad, meetup y términos",
+   "pts": 5.25,
+   "nota": ""
+  },
+  {
+   "sha": "3663de0",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-10-20T19:35:36Z",
+   "msg": "Seguridad: el veredicto parcial se dice veredicto amarillo, como en la verificación",
+   "pts": 3.81,
+   "nota": ""
+  },
+  {
+   "sha": "bd546ec",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-10-20T19:35:09Z",
+   "msg": "Sorteo verificable: el número y el título sin «nadie controla» ni «confiar en Tinkazo»",
+   "pts": 5.95,
+   "nota": ""
+  },
+  {
+   "sha": "995d216",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-10-20T19:07:09Z",
+   "msg": "Pruebas: palabras prohibidas y el texto de cada elemento contra el diccionario",
+   "pts": 6.43,
+   "nota": ""
+  },
+  {
+   "sha": "89d33c3",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-10-20T19:06:47Z",
+   "msg": "Lectura adelantada: las tres páginas de sorteo entran en las reglas",
+   "pts": 4.0,
+   "nota": ""
+  },
+  {
+   "sha": "6c05083",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-10-20T19:06:37Z",
+   "msg": "Portada: la misma descripción en la meta, Open Graph y datos estructurados; sin hreflang",
+   "pts": 5.25,
+   "nota": ""
+  },
+  {
+   "sha": "9475b68",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-10-20T19:06:25Z",
+   "msg": "Botón de sorteo: el mismo texto en las tres páginas nuevas",
+   "pts": 4.46,
+   "nota": ""
+  },
+  {
+   "sha": "e718b32",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-10-20T19:06:13Z",
+   "msg": "Lo que sube a Stellar: límites de seguridad y términos según el contrato",
+   "pts": 5.25,
+   "nota": ""
+  },
+  {
+   "sha": "0e82641",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-10-20T19:06:01Z",
+   "msg": "Sorteo para meetup: nombres, límites y la lista con QR en la sala",
+   "pts": 4.58,
+   "nota": ""
+  },
+  {
+   "sha": "4f886ab",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-10-20T19:05:52Z",
+   "msg": "Sorteo verificable: descripción, h1 y sello en el diccionario",
+   "pts": 5.86,
+   "nota": ""
+  },
+  {
+   "sha": "52b1252",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-10-20T19:05:39Z",
+   "msg": "Sorteo en clase: el texto de la página y de la portada es el del diccionario",
+   "pts": 5.64,
+   "nota": ""
+  },
+  {
+   "sha": "7e8fd90",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-10-20T18:36:54Z",
+   "msg": "SEO: pruebas de canonical, idiomas, datos estructurados, mapa del sitio, robots.txt y enlaces",
+   "pts": 8.87,
+   "nota": ""
+  },
+  {
+   "sha": "542f266",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-10-20T18:35:17Z",
+   "msg": "SEO: enlaces a las páginas nuevas desde Para saber más y desde los pies",
+   "pts": 6.32,
+   "nota": ""
+  },
+  {
+   "sha": "03a0f3a",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-10-20T18:34:25Z",
+   "msg": "SEO: mapa del sitio con las páginas públicas, sin las de uso interno",
+   "pts": 5.17,
+   "nota": ""
+  },
+  {
+   "sha": "88bb537",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-10-20T18:34:11Z",
+   "msg": "SEO: tres páginas para buscar sorteos (meetup, clase y sorteo verificable)",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "afe3d24",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-10-20T18:29:24Z",
+   "msg": "SEO: robots.txt deja rastrear verificar.html, que ya tiene noindex",
+   "pts": 2.0,
+   "nota": ""
+  },
+  {
+   "sha": "26ff5ca",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-10-20T18:28:34Z",
+   "msg": "SEO: hreflang es, en y x-default en la portada",
+   "pts": 3.0,
+   "nota": ""
+  },
+  {
+   "sha": "51b6a7e",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-10-20T18:28:29Z",
+   "msg": "SEO: datos estructurados de la portada (WebSite, Organization, SoftwareApplication)",
+   "pts": 6.13,
+   "nota": ""
+  },
+  {
+   "sha": "a25ef38",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-10-20T18:28:08Z",
+   "msg": "SEO: canonical de cada página pública, apuntando a su propia URL",
+   "pts": 4.0,
+   "nota": ""
+  },
   {
    "sha": "9432cce",
    "team": "Tinkazo",
