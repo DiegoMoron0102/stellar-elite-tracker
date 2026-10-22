@@ -135055,5 +135055,510 @@
     "d": 0
    }
   ]
+ },
+ "460d7434d39ac68ca7aa4cd4ba91df698a38fc04": {
+  "team": "BolivianPets",
+  "repo": "GuidoSV7/stellar-build",
+  "author": "GuidoSV7",
+  "date": "2026-10-22T16:32:49Z",
+  "message": "build: upgrade Node to 24.22.1 (October 2026 security release)",
+  "parents": 1,
+  "files": [
+   {
+    "f": "frontend/Dockerfile",
+    "a": 1,
+    "d": 1
+   }
+  ]
+ },
+ "76e2b3a767b4568f96aa7c8f237ff7471d0fae41": {
+  "team": "BolivianPets",
+  "repo": "GuidoSV7/stellar-build",
+  "author": "GuidoSV7",
+  "date": "2026-09-13T23:21:40Z",
+  "message": "Renombrar frontend a identificadores english-first.",
+  "parents": 1,
+  "files": [
+   {
+    "f": "frontend/src/app/_componentes/ProveedorNotificaciones.tsx",
+    "a": 0,
+    "d": 65
+   },
+   {
+    "f": "frontend/src/app/_componentes/autenticacion/ModalAutenticacionDemo.tsx",
+    "a": 0,
+    "d": 1
+   },
+   {
+    "f": "frontend/src/app/_componentes/autenticacion/tiposAuth.ts",
+    "a": 0,
+    "d": 1
+   },
+   {
+    "f": "frontend/src/app/_componentes/inicio/PaginaCompraSegura.tsx",
+    "a": 0,
+    "d": 50
+   },
+   {
+    "f": "frontend/src/app/_components/NotificationsProvider.tsx",
+    "a": 65,
+    "d": 0
+   },
+   {
+    "f": "frontend/src/app/_components/TopNotification.tsx",
+    "a": 122,
+    "d": 122
+   },
+   {
+    "f": "frontend/src/app/_components/auth/AuthDemoModal.tsx",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "frontend/src/app/_components/auth/auth-modal.module.css",
+    "a": 366,
+    "d": 366
+   },
+   {
+    "f": "frontend/src/app/_components/auth/auth-types.ts",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "frontend/src/app/_components/home/BolivianpetsLandingContent.tsx",
+    "a": 435,
+    "d": 435
+   },
+   {
+    "f": "frontend/src/app/_components/home/BolivianpetsLandingIcons.tsx",
+    "a": 236,
+    "d": 236
+   },
+   {
+    "f": "frontend/src/app/_components/home/LandingMockupHero.tsx",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "frontend/src/app/_components/home/SafePurchaseFooter.tsx",
+    "a": 85,
+    "d": 85
+   },
+   {
+    "f": "frontend/src/app/_components/home/SafePurchaseHeader.tsx",
+    "a": 38,
+    "d": 38
+   },
+   {
+    "f": "frontend/src/app/_components/home/SafePurchaseHero.tsx",
+    "a": 56,
+    "d": 56
+   },
+   {
+    "f": "frontend/src/app/_components/home/SafePurchaseIcons.tsx",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "frontend/src/app/_components/home/SafePurchasePage.tsx",
+    "a": 50,
+    "d": 0
+   },
+   {
+    "f": "frontend/src/app/_components/notification.module.css",
+    "a": 71,
+    "d": 71
+   },
+   {
+    "f": "frontend/src/app/_lib/bolivianpets-api.ts",
+    "a": 975,
+    "d": 975
+   },
+   {
+    "f": "frontend/src/app/_lib/businessMetricsMock.ts",
+    "a": 53,
+    "d": 53
+   },
+   {
+    "f": "frontend/src/app/_lib/resolveQrView.ts",
+    "a": 90,
+    "d": 90
+   },
+   {
+    "f": "frontend/src/app/admin/AdminLayout.tsx",
+    "a": 140,
+    "d": 140
+   },
+   {
+    "f": "frontend/src/app/admin/_components/analytics/AnalyticsVolumeTrendsChart.tsx",
+    "a": 186,
+    "d": 186
+   },
+   {
+    "f": "frontend/src/app/admin/_components/analytics/CentralAnalyticsContent.tsx",
+    "a": 208,
+    "d": 208
+   },
+   {
+    "f": "frontend/src/app/admin/_components/analytics/MerchantBusinessVolumeDistribution.tsx",
+    "a": 113,
+    "d": 113
+   },
+   {
+    "f": "frontend/src/app/admin/_components/analytics/MerchantEscrowFunnel.tsx",
+    "a": 91,
+    "d": 91
+   },
+   {
+    "f": "frontend/src/app/admin/_components/analytics/MerchantTopBusinessesTable.tsx",
+    "a": 112,
+    "d": 112
+   },
+   {
+    "f": "frontend/src/app/admin/_components/analytics/central-analytics-content.module.css",
+    "a": 307,
+    "d": 307
+   },
+   {
+    "f": "frontend/src/app/admin/_components/customers/AdminUserDetailModal.tsx",
+    "a": 69,
+    "d": 69
+   },
+   {
+    "f": "frontend/src/app/admin/_components/customers/AdminUserDetailView.tsx",
+    "a": 372,
+    "d": 372
+   },
+   {
+    "f": "frontend/src/app/admin/_components/customers/CustomersKpiCards.tsx",
+    "a": 33,
+    "d": 33
+   },
+   {
+    "f": "frontend/src/app/admin/_components/customers/CustomersListTable.tsx",
+    "a": 75,
+    "d": 75
+   },
+   {
+    "f": "frontend/src/app/admin/_components/customers/admin-user-detail-modal.module.css",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "frontend/src/app/admin/_components/customers/customer-detail.module.css",
+    "a": 324,
+    "d": 324
+   },
+   {
+    "f": "frontend/src/app/admin/_components/customers/customers-kpi-cards.module.css",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "frontend/src/app/admin/_components/customers/customers-list.module.css",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "frontend/src/app/admin/_components/dashboard-section-headers.module.css",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "frontend/src/app/admin/_components/dashboard/AnalyticsBusinessFilter.tsx",
+    "a": 52,
+    "d": 52
+   },
+   {
+    "f": "frontend/src/app/admin/_components/dashboard/AnalyticsDateFilter.tsx",
+    "a": 76,
+    "d": 76
+   },
+   {
+    "f": "frontend/src/app/admin/_components/dashboard/DashboardHeader.tsx",
+    "a": 69,
+    "d": 69
+   },
+   {
+    "f": "frontend/src/app/admin/_components/dashboard/DashboardKpiCards.tsx",
+    "a": 144,
+    "d": 144
+   },
+   {
+    "f": "frontend/src/app/admin/_components/dashboard/DashboardProfitabilitySection.tsx",
+    "a": 138,
+    "d": 138
+   },
+   {
+    "f": "frontend/src/app/admin/_components/dashboard/MerchantEscrowMetricsTable.tsx",
+    "a": 156,
+    "d": 156
+   },
+   {
+    "f": "frontend/src/app/admin/_components/dashboard/RevenueBarChart.tsx",
+    "a": 134,
+    "d": 134
+   },
+   {
+    "f": "frontend/src/app/admin/_components/dashboard/TransactionVolumeChart.tsx",
+    "a": 136,
+    "d": 136
+   },
+   {
+    "f": "frontend/src/app/admin/_components/dashboard/dashboard-header.module.css",
+    "a": 145,
+    "d": 145
+   },
+   {
+    "f": "frontend/src/app/admin/_components/dashboard/dashboard-kpi-cards.module.css",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "frontend/src/app/admin/_components/dashboard/dashboard-profitability-section.module.css",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "frontend/src/app/admin/_components/dashboard/revenue-bar-chart.module.css",
+    "a": 137,
+    "d": 137
+   },
+   {
+    "f": "frontend/src/app/admin/_components/dashboard/transaction-volume-chart.module.css",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "frontend/src/app/admin/_components/icon-mask.module.css",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "frontend/src/app/admin/_components/layout-dashboard.module.css",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "frontend/src/app/admin/_components/settings/AdminCommissionsSection.tsx",
+    "a": 131,
+    "d": 131
+   },
+   {
+    "f": "frontend/src/app/admin/_components/settings/commissions-section.module.css",
+    "a": 80,
+    "d": 80
+   },
+   {
+    "f": "frontend/src/app/admin/_components/transactions/AdminTransactionsTable.tsx",
+    "a": 101,
+    "d": 101
+   },
+   {
+    "f": "frontend/src/app/admin/_components/transactions/TransactionsKpiCards.tsx",
+    "a": 32,
+    "d": 32
+   },
+   {
+    "f": "frontend/src/app/admin/_components/transactions/admin-transactions-table.module.css",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "frontend/src/app/admin/_data/adminAccountsDemoData.ts",
+    "a": 222,
+    "d": 222
+   },
+   {
+    "f": "frontend/src/app/admin/_data/dashboardDemoData.ts",
+    "a": 54,
+    "d": 54
+   },
+   {
+    "f": "frontend/src/app/admin/_utils/iconMaskStyle.ts",
+    "a": 13,
+    "d": 13
+   },
+   {
+    "f": "frontend/src/app/admin/admin-styles.module.css",
+    "a": 211,
+    "d": 211
+   },
+   {
+    "f": "frontend/src/app/admin/analytics/page.tsx",
+    "a": 30,
+    "d": 30
+   },
+   {
+    "f": "frontend/src/app/admin/customers/[id]/page.tsx",
+    "a": 17,
+    "d": 17
+   },
+   {
+    "f": "frontend/src/app/admin/customers/page.tsx",
+    "a": 155,
+    "d": 155
+   },
+   {
+    "f": "frontend/src/app/admin/layout.tsx",
+    "a": 11,
+    "d": 11
+   },
+   {
+    "f": "frontend/src/app/admin/page.tsx",
+    "a": 37,
+    "d": 37
+   },
+   {
+    "f": "frontend/src/app/admin/settings/page.tsx",
+    "a": 20,
+    "d": 20
+   },
+   {
+    "f": "frontend/src/app/admin/transactions/page.tsx",
+    "a": 45,
+    "d": 45
+   },
+   {
+    "f": "frontend/src/app/bolivianpets-api/[...path]/route.ts",
+    "a": 92,
+    "d": 92
+   },
+   {
+    "f": "frontend/src/app/globals.css",
+    "a": 113,
+    "d": 113
+   },
+   {
+    "f": "frontend/src/app/home.module.css",
+    "a": 1661,
+    "d": 1661
+   },
+   {
+    "f": "frontend/src/app/layout.tsx",
+    "a": 53,
+    "d": 53
+   },
+   {
+    "f": "frontend/src/app/page.tsx",
+    "a": 11,
+    "d": 11
+   },
+   {
+    "f": "frontend/src/app/providers.tsx",
+    "a": 10,
+    "d": 10
+   },
+   {
+    "f": "frontend/src/app/sign-in.module.css",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "frontend/src/app/theme/RouteThemeProvider.tsx",
+    "a": 21,
+    "d": 21
+   },
+   {
+    "f": "frontend/src/features/README.md",
+    "a": 19,
+    "d": 19
+   },
+   {
+    "f": "frontend/src/features/auth/api/auth.service.ts",
+    "a": 59,
+    "d": 59
+   },
+   {
+    "f": "frontend/src/features/auth/components/AuthDemoModal.tsx",
+    "a": 433,
+    "d": 433
+   },
+   {
+    "f": "frontend/src/features/auth/components/auth-modal.module.css",
+    "a": 286,
+    "d": 286
+   },
+   {
+    "f": "frontend/src/features/auth/types/auth.types.ts",
+    "a": 19,
+    "d": 19
+   },
+   {
+    "f": "frontend/src/features/merchant-analytics/analytics-business-filter.ts",
+    "a": 39,
+    "d": 0
+   },
+   {
+    "f": "frontend/src/features/merchant-analytics/date-filter-range.ts",
+    "a": 89,
+    "d": 89
+   },
+   {
+    "f": "frontend/src/features/merchant-analytics/filtro-negocio-analitica.ts",
+    "a": 0,
+    "d": 39
+   },
+   {
+    "f": "frontend/src/features/public-marketing/index.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "frontend/src/lib/api-auth-policy.ts",
+    "a": 35,
+    "d": 35
+   },
+   {
+    "f": "frontend/src/lib/axios.ts",
+    "a": 28,
+    "d": 28
+   },
+   {
+    "f": "frontend/src/lib/bolivianpets-api-origin.ts",
+    "a": 59,
+    "d": 59
+   },
+   {
+    "f": "frontend/src/lib/errors.ts",
+    "a": 30,
+    "d": 30
+   },
+   {
+    "f": "frontend/src/stores/auth-session.ts",
+    "a": 77,
+    "d": 72
+   },
+   {
+    "f": "frontend/test/features/auth/api/auth.service.test.ts",
+    "a": 75,
+    "d": 75
+   },
+   {
+    "f": "frontend/test/features/auth/stores/auth-session.test.ts",
+    "a": 127,
+    "d": 106
+   },
+   {
+    "f": "frontend/test/features/merchant-analytics/analytics-business-filter.test.ts",
+    "a": 48,
+    "d": 0
+   },
+   {
+    "f": "frontend/test/features/merchant-analytics/date-filter-range.test.ts",
+    "a": 71,
+    "d": 71
+   },
+   {
+    "f": "frontend/test/features/merchant-analytics/filtro-negocio-analitica.test.ts",
+    "a": 0,
+    "d": 48
+   },
+   {
+    "f": "frontend/test/lib/bolivianpets-api-origin.test.ts",
+    "a": 74,
+    "d": 74
+   }
+  ]
  }
 }

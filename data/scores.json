@@ -1,5 +1,5 @@
 {
- "generado": "2026-10-22T16:20:52+00:00",
+ "generado": "2026-10-22T20:58:58+00:00",
  "programa": "Stellar Elite",
  "start_date": "2026-09-02T00:00:00Z",
  "teams": [
@@ -198,6 +198,22 @@
    "rank": 11
   },
   {
+   "name": "BolivianPets",
+   "total": 30.67,
+   "per_capita": 30.67,
+   "commits": 7,
+   "pts_commits": 12.67,
+   "dias_activos": 3,
+   "contribuidores": [
+    "GuidoSV7"
+   ],
+   "tamano": 1,
+   "repos": [
+    "GuidoSV7/stellar-build"
+   ],
+   "rank": 12
+  },
+  {
    "name": "WAVO",
    "total": 27.37,
    "per_capita": 27.37,
@@ -210,22 +226,6 @@
    "tamano": 1,
    "repos": [
     "fchambi/Stellar_Proyecto"
-   ],
-   "rank": 12
-  },
-  {
-   "name": "BolivianPets",
-   "total": 22.09,
-   "per_capita": 22.09,
-   "commits": 5,
-   "pts_commits": 9.09,
-   "dias_activos": 2,
-   "contribuidores": [
-    "GuidoSV7"
-   ],
-   "tamano": 1,
-   "repos": [
-    "GuidoSV7/stellar-build"
    ],
    "rank": 13
   },
@@ -364,7 +364,8 @@
   },
   "BolivianPets": {
    "2026-09-04": 1.0,
-   "2026-09-13": 8.09
+   "2026-09-13": 9.09,
+   "2026-10-22": 2.58
   },
   "DrinksOnChain": {
    "2026-09-14": 10.0
@@ -514,7 +515,8 @@
   },
   "BolivianPets": {
    "2026-09-04": 1,
-   "2026-09-13": 4
+   "2026-09-13": 5,
+   "2026-10-22": 1
   },
   "DrinksOnChain": {
    "2026-09-14": 1
@@ -589,6 +591,16 @@
   }
  },
  "commits": [
+  {
+   "sha": "460d743",
+   "team": "BolivianPets",
+   "repo": "GuidoSV7/stellar-build",
+   "author": "GuidoSV7",
+   "date": "2026-10-22T16:32:49Z",
+   "msg": "build: upgrade Node to 24.22.1 (October 2026 security release)",
+   "pts": 2.58,
+   "nota": ""
+  },
   {
    "sha": "6e11556",
    "team": "Tinkazo",
@@ -15788,6 +15800,16 @@
    "msg": "feat: inicializar proyecto publico",
    "pts": 10,
    "nota": ""
+  },
+  {
+   "sha": "76e2b3a",
+   "team": "BolivianPets",
+   "repo": "GuidoSV7/stellar-build",
+   "author": "GuidoSV7",
+   "date": "2026-09-13T23:21:40Z",
+   "msg": "Renombrar frontend a identificadores english-first.",
+   "pts": 1.0,
+   "nota": "import masivo (96 archivos)"
   },
   {
    "sha": "dffbc90",
