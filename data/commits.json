@@ -135560,5 +135560,145 @@
     "d": 74
    }
   ]
+ },
+ "543ac339b8cfe01b7456e735d1776825921e63aa": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-25T13:13:54Z",
+  "message": "Registro: el contrato vigente de testnet pasa al de entradas de 7 días",
+  "parents": 1,
+  "files": [
+   {
+    "f": "README.es.md",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "README.md",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "como-funciona.html",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "docs/architecture.md",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "docs/deployments.md",
+    "a": 3,
+    "d": 2
+   },
+   {
+    "f": "src/protocol/verificacion.test.ts",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "src/stellar/deployments.json",
+    "a": 9,
+    "d": 3
+   },
+   {
+    "f": "src/stellar/registro.test.ts",
+    "a": 1,
+    "d": 0
+   }
+  ]
+ },
+ "bb014db198fe4a238866d4da04cab3bffbc4e42a": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-25T01:50:06Z",
+  "message": "Las pruebas del intento pendiente usan una hora fija y no caducan con el paso del tiempo",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/ui/sello-seguro.test.ts",
+    "a": 10,
+    "d": 7
+   }
+  ]
+ },
+ "cf0718973e2d3bb8aaa17a6df16eacd33f1b6ef9": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-25T12:48:02Z",
+  "message": "Testnet: las entradas del sorteo guardan 7 días, no 120",
+  "parents": 1,
+  "files": [
+   {
+    "f": "contracts/raffle/src/lib.rs",
+    "a": 16,
+    "d": 6
+   },
+   {
+    "f": "contracts/raffle/test_snapshots/test/draw_emits_drawn_event.1.json",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "contracts/raffle/test_snapshots/test/draw_needs_no_authorization.1.json",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "contracts/raffle/test_snapshots/test/draw_only_once_and_only_existing_raffles.1.json",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "contracts/raffle/test_snapshots/test/draw_rejects_a_valid_point_that_is_not_the_round_signature.1.json",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "contracts/raffle/test_snapshots/test/draw_rejects_before_the_round_exists.1.json",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "contracts/raffle/test_snapshots/test/draw_rejects_the_signature_of_another_round.1.json",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "contracts/raffle/test_snapshots/test/draw_verifies_the_real_quicknet_signature_and_records_the_result.1.json",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "contracts/raffle/test_snapshots/test/extend_works_for_existing_raffles_only.1.json",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "contracts/raffle/test_snapshots/test/seal_assigns_sequential_ids_and_stores_the_raffle.1.json",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "contracts/raffle/test_snapshots/test/seal_emits_sealed_event.1.json",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "contracts/raffle/test_snapshots/test/seal_enforces_round_window.1.json",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "contracts/raffle/test_snapshots/test/seal_rejects_invalid_inputs.1.json",
+    "a": 1,
+    "d": 1
+   }
+  ]
  }
 }

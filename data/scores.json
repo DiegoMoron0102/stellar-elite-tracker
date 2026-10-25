@@ -1,15 +1,15 @@
 {
- "generado": "2026-10-25T10:24:52+00:00",
+ "generado": "2026-10-25T15:16:56+00:00",
  "programa": "Stellar Elite",
  "start_date": "2026-09-02T00:00:00Z",
  "teams": [
   {
    "name": "Tinkazo",
-   "total": 4764.39,
-   "per_capita": 4764.39,
-   "commits": 780,
-   "pts_commits": 4633.39,
-   "dias_activos": 25,
+   "total": 4787.57,
+   "per_capita": 4787.57,
+   "commits": 783,
+   "pts_commits": 4651.57,
+   "dias_activos": 26,
    "contribuidores": [
     "GuidoSV7",
     "nema1502"
@@ -346,7 +346,8 @@
    "2026-10-19": 174.88,
    "2026-10-20": 1078.7100000000005,
    "2026-10-21": 1002.7200000000004,
-   "2026-10-22": 799.3799999999997
+   "2026-10-22": 799.3799999999997,
+   "2026-10-25": 18.18
   },
   "CompraGasolinaBidon": {
    "2026-09-06": 1.0,
@@ -497,7 +498,8 @@
    "2026-10-19": 34,
    "2026-10-20": 207,
    "2026-10-21": 174,
-   "2026-10-22": 157
+   "2026-10-22": 157,
+   "2026-10-25": 3
   },
   "CompraGasolinaBidon": {
    "2026-09-06": 1,
@@ -591,6 +593,36 @@
   }
  },
  "commits": [
+  {
+   "sha": "543ac33",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-10-25T13:13:54Z",
+   "msg": "Registro: el contrato vigente de testnet pasa al de entradas de 7 días",
+   "pts": 6.13,
+   "nota": ""
+  },
+  {
+   "sha": "cf07189",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-10-25T12:48:02Z",
+   "msg": "Testnet: las entradas del sorteo guardan 7 días, no 120",
+   "pts": 6.88,
+   "nota": ""
+  },
+  {
+   "sha": "bb014db",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-10-25T01:50:06Z",
+   "msg": "Las pruebas del intento pendiente usan una hora fija y no caducan con el paso del tiempo",
+   "pts": 5.17,
+   "nota": ""
+  },
   {
    "sha": "460d743",
    "team": "BolivianPets",
