@@ -1,5 +1,5 @@
 {
- "generado": "2026-10-25T15:16:56+00:00",
+ "generado": "2026-10-25T20:09:40+00:00",
  "programa": "Stellar Elite",
  "start_date": "2026-09-02T00:00:00Z",
  "teams": [
@@ -43,11 +43,11 @@
   },
   {
    "name": "Puls3",
-   "total": 981.92,
-   "per_capita": 981.92,
-   "commits": 137,
-   "pts_commits": 853.92,
-   "dias_activos": 22,
+   "total": 995.82,
+   "per_capita": 995.82,
+   "commits": 138,
+   "pts_commits": 862.82,
+   "dias_activos": 23,
    "contribuidores": [
     "Pericena",
     "TOMOKI977",
@@ -319,7 +319,8 @@
    "2026-10-14": 58.589999999999996,
    "2026-10-16": 12.58,
    "2026-10-17": 8.4,
-   "2026-10-19": 10.0
+   "2026-10-19": 10.0,
+   "2026-10-25": 8.9
   },
   "Tinkazo": {
    "2026-09-16": 66.21000000000001,
@@ -471,7 +472,8 @@
    "2026-10-14": 9,
    "2026-10-16": 2,
    "2026-10-17": 1,
-   "2026-10-19": 1
+   "2026-10-19": 1,
+   "2026-10-25": 1
   },
   "Tinkazo": {
    "2026-09-16": 8,
@@ -593,6 +595,16 @@
   }
  },
  "commits": [
+  {
+   "sha": "58fe84b",
+   "team": "Puls3",
+   "repo": "Zer0-Knowledge-Hack/puls3",
+   "author": "moises-cisneros",
+   "date": "2026-10-25T19:11:50Z",
+   "msg": "chore(server): make the Soroban RPC timeout configurable and log swallowed catalog errors (#190) (#192)",
+   "pts": 8.9,
+   "nota": ""
+  },
   {
    "sha": "543ac33",
    "team": "Tinkazo",

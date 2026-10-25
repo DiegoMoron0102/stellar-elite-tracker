@@ -135700,5 +135700,70 @@
     "d": 1
    }
   ]
+ },
+ "58fe84bba15d99cce7088d1f5455cd8f001f35a4": {
+  "team": "Puls3",
+  "repo": "Zer0-Knowledge-Hack/puls3",
+  "author": "moises-cisneros",
+  "date": "2026-10-25T19:11:50Z",
+  "message": "chore(server): make the Soroban RPC timeout configurable and log swallowed catalog errors (#190) (#192)",
+  "parents": 1,
+  "files": [
+   {
+    "f": ".env.example",
+    "a": 3,
+    "d": 0
+   },
+   {
+    "f": "CONTRIBUTING.md",
+    "a": 17,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/agent/agent_catalog_service.dart",
+    "a": 13,
+    "d": 2
+   },
+   {
+    "f": "puls3_server/lib/src/agent/agent_catalog_wiring.dart",
+    "a": 27,
+    "d": 15
+   },
+   {
+    "f": "puls3_server/lib/src/agent/catalog_indexer_wiring.dart",
+    "a": 1,
+    "d": 3
+   },
+   {
+    "f": "puls3_server/lib/src/chain/chain_tracker_wiring.dart",
+    "a": 1,
+    "d": 3
+   },
+   {
+    "f": "puls3_server/lib/src/hire/hire_services.dart",
+    "a": 3,
+    "d": 5
+   },
+   {
+    "f": "puls3_server/lib/src/ledger/stellar_config.dart",
+    "a": 31,
+    "d": 2
+   },
+   {
+    "f": "puls3_server/lib/src/runtime/agent_runtime_wiring.dart",
+    "a": 1,
+    "d": 2
+   },
+   {
+    "f": "puls3_server/test/unit/agent/agent_catalog_service_test.dart",
+    "a": 74,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/test/unit/ledger/stellar_config_test.dart",
+    "a": 35,
+    "d": 0
+   }
+  ]
  }
 }
