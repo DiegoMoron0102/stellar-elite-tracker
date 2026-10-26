@@ -136340,5 +136340,3055 @@
     "d": 13
    }
   ]
+ },
+ "da3f64d294a774401dd75e25dc60bd2ce5583141": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-26T15:43:13Z",
+  "message": "La vigilancia de la red trae también red-umbrales.json: el runner solo bajaba scripts/ y el detector fallaba al arrancar",
+  "parents": 1,
+  "files": [
+   {
+    "f": ".github/workflows/vigilar-red.yml",
+    "a": 4,
+    "d": 1
+   }
+  ]
+ },
+ "e493ad889dc8813ea4e30c2d87807b177d36bb97": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-26T15:34:56Z",
+  "message": "El corredor guarda sus resúmenes en docs/capturas/auditorias y los textos dejan de citar carpetas locales",
+  "parents": 1,
+  "files": [
+   {
+    "f": ".gitignore",
+    "a": 0,
+    "d": 1
+   },
+   {
+    "f": "docs/juegos.md",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "scripts/audit-todo.mjs",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "src/stellar/chequeo-red.ts",
+    "a": 2,
+    "d": 1
+   },
+   {
+    "f": "workers/enlaces/README.md",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "workers/enlaces/src/conteo.ts",
+    "a": 2,
+    "d": 2
+   }
+  ]
+ },
+ "9a34ea31235ec7f820f6f0926afc9f6489f72b1c": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-26T14:59:01Z",
+  "message": "Zoom 200 % en una laptop chica: el relleno de scroll de 76 px solo va con la cabecera fija, y el primer ganador entra so",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/styles.css",
+    "a": 12,
+    "d": 1
+   }
+  ]
+ },
+ "a11a41f3ddf0cb0de112291a24e031b1f36e0377": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-26T14:52:15Z",
+  "message": "Seguir sin sello nunca suena a sellado: la espera, el título, la sala y el QR dicen que no hay sello",
+  "parents": 1,
+  "files": [
+   {
+    "f": "scripts/audit-flujo.mjs",
+    "a": 135,
+    "d": 6
+   },
+   {
+    "f": "src/i18n.ts",
+    "a": 20,
+    "d": 0
+   },
+   {
+    "f": "src/lista.ts",
+    "a": 9,
+    "d": 2
+   },
+   {
+    "f": "src/styles.css",
+    "a": 3,
+    "d": 1
+   },
+   {
+    "f": "src/ui/draw.ts",
+    "a": 3,
+    "d": 0
+   },
+   {
+    "f": "src/ui/espera.ts",
+    "a": 11,
+    "d": 3
+   },
+   {
+    "f": "src/ui/freeze.ts",
+    "a": 18,
+    "d": 1
+   },
+   {
+    "f": "src/ui/pantalla.ts",
+    "a": 3,
+    "d": 2
+   },
+   {
+    "f": "src/ui/sala.ts",
+    "a": 7,
+    "d": 3
+   },
+   {
+    "f": "src/ui/sin-sello-textos.test.ts",
+    "a": 184,
+    "d": 0
+   },
+   {
+    "f": "src/ui/sin-sello-textos.ts",
+    "a": 58,
+    "d": 0
+   }
+  ]
+ },
+ "51a519757f321cf3ac6ff3f0266c4ed98b169a9e": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-26T12:37:37Z",
+  "message": "La red a la vista, tras el rebase y la revisión del evaluador: el sello pedido sigue solo al volver la red, y los arregl",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/ux.md",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "index.html",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "scripts/audit-flujo.mjs",
+    "a": 11,
+    "d": 1
+   },
+   {
+    "f": "src/i18n.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/styles.css",
+    "a": 6,
+    "d": 4
+   },
+   {
+    "f": "src/ui/red-acciones.test.ts",
+    "a": 7,
+    "d": 2
+   },
+   {
+    "f": "src/ui/red-acciones.ts",
+    "a": 7,
+    "d": 1
+   },
+   {
+    "f": "src/ui/red.test.ts",
+    "a": 53,
+    "d": 6
+   },
+   {
+    "f": "src/ui/red.ts",
+    "a": 92,
+    "d": 24
+   }
+  ]
+ },
+ "6ea5b4555a04e6f66a5f3abe22c13991f8b4b1f7": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-26T11:58:07Z",
+  "message": "El detector de la red lee los umbrales de red-umbrales.json y la prueba del ensayo mira conCuenta",
+  "parents": 1,
+  "files": [
+   {
+    "f": "scripts/lib/vigilar-red.mjs",
+    "a": 13,
+    "d": 16
+   },
+   {
+    "f": "src/ensayo-modo.test.ts",
+    "a": 3,
+    "d": 1
+   }
+  ]
+ },
+ "50d38694ed0cc64a4fdc269baf52cfb057309794": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-26T09:29:23Z",
+  "message": "La app y el detector de la red comparten los umbrales: red-umbrales.json es la única fuente",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/architecture.md",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "scripts/lib/umbrales-red.mjs",
+    "a": 47,
+    "d": 0
+   },
+   {
+    "f": "scripts/lib/umbrales-red.test.mjs",
+    "a": 88,
+    "d": 0
+   },
+   {
+    "f": "src/stellar/red-umbrales.json",
+    "a": 14,
+    "d": 4
+   }
+  ]
+ },
+ "8a3ccd81b36ee108b9c925310d67adadea8ffba1": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-26T09:27:36Z",
+  "message": "Un sorteo sin sello queda marcado en todo lo que sale de la app: el comprobante lleva la marca sinSello",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/architecture.md",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "docs/evento.md",
+    "a": 4,
+    "d": 0
+   },
+   {
+    "f": "docs/protocol.en.md",
+    "a": 2,
+    "d": 0
+   },
+   {
+    "f": "docs/protocolo.md",
+    "a": 2,
+    "d": 0
+   },
+   {
+    "f": "docs/ux.md",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/evento.ts",
+    "a": 3,
+    "d": 0
+   },
+   {
+    "f": "src/i18n.ts",
+    "a": 59,
+    "d": 16
+   },
+   {
+    "f": "src/protocol/evento.ts",
+    "a": 6,
+    "d": 5
+   },
+   {
+    "f": "src/protocol/proof.ts",
+    "a": 40,
+    "d": 5
+   },
+   {
+    "f": "src/protocol/sin-sello.test.ts",
+    "a": 137,
+    "d": 0
+   },
+   {
+    "f": "src/styles.css",
+    "a": 3,
+    "d": 0
+   },
+   {
+    "f": "src/ui/compartir-sin-sello.test.ts",
+    "a": 195,
+    "d": 0
+   },
+   {
+    "f": "src/ui/compartir.ts",
+    "a": 89,
+    "d": 37
+   },
+   {
+    "f": "src/ui/draw.ts",
+    "a": 12,
+    "d": 6
+   },
+   {
+    "f": "src/ui/foto.ts",
+    "a": 19,
+    "d": 3
+   },
+   {
+    "f": "src/ui/history.ts",
+    "a": 9,
+    "d": 0
+   },
+   {
+    "f": "src/ui/pantalla.ts",
+    "a": 4,
+    "d": 2
+   },
+   {
+    "f": "src/ui/red-acciones.test.ts",
+    "a": 3,
+    "d": 0
+   },
+   {
+    "f": "src/verify.ts",
+    "a": 16,
+    "d": 1
+   },
+   {
+    "f": "verificar.html",
+    "a": 2,
+    "d": 0
+   }
+  ]
+ },
+ "9b9eaae992e036e56309c5f400b76f6088b6aac9": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-26T03:14:48Z",
+  "message": "La lista cerrada sin sello no dice 'sellada'; los ids nuevos y los textos de sin sello entran en las pruebas",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/i18n.ts",
+    "a": 2,
+    "d": 0
+   },
+   {
+    "f": "src/ui/freeze.ts",
+    "a": 2,
+    "d": 1
+   },
+   {
+    "f": "src/ui/index-textos.test.ts",
+    "a": 2,
+    "d": 0
+   },
+   {
+    "f": "src/ui/red-acciones.test.ts",
+    "a": 8,
+    "d": 1
+   }
+  ]
+ },
+ "f57ce345e0a893787d84b64db878b81e3250f061": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-26T03:12:39Z",
+  "message": "El docstring de firmarYConfirmar vuelve a su función",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/ui/envio-sdk.ts",
+    "a": 3,
+    "d": 3
+   }
+  ]
+ },
+ "8ebb126834a415c5be1aa6b893c08a33b6e99ce2": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-26T03:11:47Z",
+  "message": "Decisión D-21 en la arquitectura: qué hace la app cuando la red no deja sellar",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/architecture.md",
+    "a": 1,
+    "d": 0
+   }
+  ]
+ },
+ "463ef7bf55ec27e568c2217c3cc2e2bd91aa29bb": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-26T03:10:42Z",
+  "message": "Auditor de flujo: la red que falla en cuatro casos (los dos RPC cortados, el primero cortado, costo alto y sin saldo), d",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/protocol.en.md",
+    "a": 2,
+    "d": 0
+   },
+   {
+    "f": "docs/protocolo.md",
+    "a": 2,
+    "d": 0
+   },
+   {
+    "f": "docs/ux.md",
+    "a": 21,
+    "d": 1
+   },
+   {
+    "f": "scripts/audit-flujo.mjs",
+    "a": 312,
+    "d": 66
+   },
+   {
+    "f": "src/ui/freeze.ts",
+    "a": 28,
+    "d": 5
+   },
+   {
+    "f": "src/ui/red.test.ts",
+    "a": 21,
+    "d": 0
+   },
+   {
+    "f": "src/ui/red.ts",
+    "a": 23,
+    "d": 0
+   }
+  ]
+ },
+ "e5bbb805b7c128f7078933c96e89422e73dbbbcb": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-26T03:06:11Z",
+  "message": "La pantalla de la red, probada sin Chrome: cada caso en testnet y en mainnet, la cuenta atrás, tres intentos y la confir",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/ui/red.test.ts",
+    "a": 586,
+    "d": 0
+   },
+   {
+    "f": "src/ui/red.ts",
+    "a": 17,
+    "d": 7
+   }
+  ]
+ },
+ "86e919ee6c4c824ed4c893ce82573ecb415e90fc": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-26T03:01:23Z",
+  "message": "La red a la vista antes de sellar: una frase, una acción, el botón de un toque y seguir sin sello con la misma ronda",
+  "parents": 1,
+  "files": [
+   {
+    "f": "index.html",
+    "a": 8,
+    "d": 0
+   },
+   {
+    "f": "src/main.ts",
+    "a": 5,
+    "d": 0
+   },
+   {
+    "f": "src/state.ts",
+    "a": 17,
+    "d": 0
+   },
+   {
+    "f": "src/styles.css",
+    "a": 15,
+    "d": 0
+   },
+   {
+    "f": "src/ui/chequeo-red-sdk.ts",
+    "a": 47,
+    "d": 0
+   },
+   {
+    "f": "src/ui/compartir.ts",
+    "a": 4,
+    "d": 0
+   },
+   {
+    "f": "src/ui/draw.ts",
+    "a": 9,
+    "d": 1
+   },
+   {
+    "f": "src/ui/freeze.ts",
+    "a": 176,
+    "d": 9
+   },
+   {
+    "f": "src/ui/history.ts",
+    "a": 6,
+    "d": 0
+   },
+   {
+    "f": "src/ui/red.ts",
+    "a": 589,
+    "d": 0
+   }
+  ]
+ },
+ "62e48ae48110c68ea54b9a96958575509858ce43": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-26T03:01:23Z",
+  "message": "Casos 1 y 4: el costo del sello de verdad se mira antes de firmar, y se puede sellar pagando con la cuenta",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/stellar/envio.ts",
+    "a": 3,
+    "d": 0
+   },
+   {
+    "f": "src/stellar/wallet-pollar.ts",
+    "a": 14,
+    "d": 0
+   },
+   {
+    "f": "src/ui/anchor.test.ts",
+    "a": 149,
+    "d": 4
+   },
+   {
+    "f": "src/ui/anchor.ts",
+    "a": 36,
+    "d": 6
+   },
+   {
+    "f": "src/ui/envio-sdk.ts",
+    "a": 44,
+    "d": 10
+   }
+  ]
+ },
+ "b6d78263ff688e3680c44b05ea9789344cb57d91": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-26T03:01:11Z",
+  "message": "Qué se dice y qué única acción se ofrece en cada caso de la red; seguir sin sello con la misma ronda",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/i18n.ts",
+    "a": 60,
+    "d": 0
+   },
+   {
+    "f": "src/ui/red-acciones.test.ts",
+    "a": 226,
+    "d": 0
+   },
+   {
+    "f": "src/ui/red-acciones.ts",
+    "a": 164,
+    "d": 0
+   },
+   {
+    "f": "src/ui/sello-seguro.ts",
+    "a": 10,
+    "d": 5
+   },
+   {
+    "f": "src/ui/sin-sello.test.ts",
+    "a": 222,
+    "d": 0
+   },
+   {
+    "f": "src/ui/sin-sello.ts",
+    "a": 136,
+    "d": 0
+   }
+  ]
+ },
+ "17f8cb648ca1ce4f1316367c3c47713df3552696": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-26T02:45:20Z",
+  "message": "El chequeo de la red antes de sellar: costo simulado, niveles, umbrales por red, caché de 60 s y registro sin datos pers",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/stellar/chequeo-red.test.ts",
+    "a": 430,
+    "d": 0
+   },
+   {
+    "f": "src/stellar/chequeo-red.ts",
+    "a": 412,
+    "d": 0
+   },
+   {
+    "f": "src/stellar/fixtures/rpc-getFeeStats.json",
+    "a": 43,
+    "d": 0
+   },
+   {
+    "f": "src/stellar/fixtures/rpc-getLatestLedger.json",
+    "a": 10,
+    "d": 0
+   },
+   {
+    "f": "src/stellar/fixtures/rpc-getNetwork.json",
+    "a": 9,
+    "d": 0
+   },
+   {
+    "f": "src/stellar/fixtures/rpc-simulate-sello-caro.json",
+    "a": 36,
+    "d": 0
+   },
+   {
+    "f": "src/stellar/fixtures/rpc-simulate-sello-restaurar.json",
+    "a": 40,
+    "d": 0
+   },
+   {
+    "f": "src/stellar/fixtures/rpc-simulate-sello.json",
+    "a": 36,
+    "d": 0
+   },
+   {
+    "f": "src/stellar/red-umbrales.json",
+    "a": 29,
+    "d": 0
+   },
+   {
+    "f": "src/stellar/registro-red.test.ts",
+    "a": 166,
+    "d": 0
+   },
+   {
+    "f": "src/stellar/registro-red.ts",
+    "a": 180,
+    "d": 0
+   },
+   {
+    "f": "src/stellar/rpc-falso.ts",
+    "a": 93,
+    "d": 0
+   }
+  ]
+ },
+ "b78c6904825f192968b7b727bc1cc74c1915e313": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-26T02:39:22Z",
+  "message": "Dos RPC por red con cambio automático: el segundo entra cuando el primero se corta, tarda, da 429 o 5xx",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/stellar/config.ts",
+    "a": 14,
+    "d": 2
+   },
+   {
+    "f": "src/stellar/contract.ts",
+    "a": 31,
+    "d": 3
+   },
+   {
+    "f": "src/stellar/rpc-red.test.ts",
+    "a": 186,
+    "d": 0
+   },
+   {
+    "f": "src/stellar/rpc-red.ts",
+    "a": 162,
+    "d": 0
+   },
+   {
+    "f": "src/stellar/seals.ts",
+    "a": 21,
+    "d": 1
+   },
+   {
+    "f": "src/ui/anchor.ts",
+    "a": 31,
+    "d": 2
+   },
+   {
+    "f": "src/ui/envio-sdk.ts",
+    "a": 4,
+    "d": 3
+   },
+   {
+    "f": "src/ui/sello-enseguida.test.ts",
+    "a": 2,
+    "d": 1
+   }
+  ]
+ },
+ "838c520aad5edd36e5c3c3c943a0ad8d3ee926c9": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-26T11:46:54Z",
+  "message": "audit-detalles: la comprobación de 320 px dice cuánto mide la línea",
+  "parents": 1,
+  "files": [
+   {
+    "f": "scripts/audit-detalles.mjs",
+    "a": 2,
+    "d": 2
+   }
+  ]
+ },
+ "179bbd14ae56aa697c93924d39e4972a26f00445": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-26T11:46:54Z",
+  "message": "audit-legible: la herramienta se mide con 16 y 22, no con la regla del proyector",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/juegos.md",
+    "a": 6,
+    "d": 5
+   },
+   {
+    "f": "scripts/audit-legible.mjs",
+    "a": 14,
+    "d": 8
+   },
+   {
+    "f": "scripts/lib/legible.mjs",
+    "a": 49,
+    "d": 12
+   },
+   {
+    "f": "scripts/lib/legible.test.mjs",
+    "a": 44,
+    "d": 0
+   }
+  ]
+ },
+ "b9206cb9ea8ea597f41210302fce05fd7b9d957c": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-26T11:46:38Z",
+  "message": "audit-game: la comprobación 7 dice «apagado» si el botón del juego está oculto en el selector",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/juegos.md",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "scripts/audit-game.mjs",
+    "a": 5,
+    "d": 5
+   },
+   {
+    "f": "scripts/lib/juegos.mjs",
+    "a": 14,
+    "d": 0
+   },
+   {
+    "f": "scripts/lib/resumen.test.mjs",
+    "a": 19,
+    "d": 1
+   }
+  ]
+ },
+ "2eb0c6e9e97e7c74522ebaaf88147492ff8ca9eb": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-26T02:59:26Z",
+  "message": "Legible y zoom: enterarse de que el show cerró aunque el juego ya no pida cuadros",
+  "parents": 1,
+  "files": [
+   {
+    "f": "scripts/audit-emocion.mjs",
+    "a": 7,
+    "d": 3
+   },
+   {
+    "f": "scripts/audit-legible.mjs",
+    "a": 2,
+    "d": 1
+   },
+   {
+    "f": "scripts/lib/legible.mjs",
+    "a": 4,
+    "d": 1
+   },
+   {
+    "f": "scripts/lib/legible.test.mjs",
+    "a": 30,
+    "d": 0
+   }
+  ]
+ },
+ "1954ecbd10f1307934b8ffd09d4346766302902d": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-26T02:56:15Z",
+  "message": "Audit-emocion mide el zoom del golpe, y --json trae el zoom por juego",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/juegos.md",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "scripts/audit-emocion.mjs",
+    "a": 53,
+    "d": 1
+   },
+   {
+    "f": "scripts/lib/bateria.mjs",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "scripts/lib/bateria.test.mjs",
+    "a": 7,
+    "d": 0
+   },
+   {
+    "f": "scripts/lib/resumen.mjs",
+    "a": 5,
+    "d": 3
+   },
+   {
+    "f": "scripts/lib/resumen.test.mjs",
+    "a": 6,
+    "d": 0
+   },
+   {
+    "f": "scripts/lib/zoom.mjs",
+    "a": 76,
+    "d": 0
+   },
+   {
+    "f": "scripts/lib/zoom.test.mjs",
+    "a": 98,
+    "d": 0
+   },
+   {
+    "f": "src/games/pixi/camera.ts",
+    "a": 5,
+    "d": 0
+   },
+   {
+    "f": "src/games/pixi/stage.ts",
+    "a": 4,
+    "d": 0
+   }
+  ]
+ },
+ "cac4a81ae948549b982ac9759bcf9f703a505c29": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-26T02:48:38Z",
+  "message": "Auditor de legibilidad: ¿se lee desde el fondo de la sala y en el celular?",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/juegos.md",
+    "a": 21,
+    "d": 0
+   },
+   {
+    "f": "package.json",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "scripts/audit-legible.mjs",
+    "a": 225,
+    "d": 0
+   },
+   {
+    "f": "scripts/lib/bateria-recortes.test.mjs",
+    "a": 5,
+    "d": 4
+   },
+   {
+    "f": "scripts/lib/bateria.mjs",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "scripts/lib/legible.mjs",
+    "a": 311,
+    "d": 0
+   },
+   {
+    "f": "scripts/lib/legible.test.mjs",
+    "a": 182,
+    "d": 0
+   }
+  ]
+ },
+ "487cf8ac58a38135df61cf3acf62cbca5f42d8f0": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-26T02:40:00Z",
+  "message": "Menos repeticiones en la batería: pantalla dentro de rigor y un solo selector",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/juegos.md",
+    "a": 29,
+    "d": 0
+   },
+   {
+    "f": "scripts/audit-delatores.mjs",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "scripts/audit-emocion.mjs",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "scripts/audit-identidad.mjs",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "scripts/audit-mezcla.mjs",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "scripts/audit-pantalla.mjs",
+    "a": 8,
+    "d": 3
+   },
+   {
+    "f": "scripts/audit-rigor.mjs",
+    "a": 51,
+    "d": 5
+   },
+   {
+    "f": "scripts/audit-sound.mjs",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "scripts/lib/bateria-recortes.test.mjs",
+    "a": 91,
+    "d": 0
+   },
+   {
+    "f": "scripts/lib/bateria.mjs",
+    "a": 3,
+    "d": 3
+   }
+  ]
+ },
+ "2cbdff578326c91128ab81a085d1daaf7f55f4c6": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-26T02:35:48Z",
+  "message": "Revisor de español neutral: pnpm check:glosario",
+  "parents": 1,
+  "files": [
+   {
+    "f": ".github/workflows/ci.yml",
+    "a": 4,
+    "d": 0
+   },
+   {
+    "f": "docs/marca.md",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "package.json",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "scripts/check-glosario.mjs",
+    "a": 75,
+    "d": 0
+   },
+   {
+    "f": "scripts/lib/bateria.mjs",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "scripts/lib/glosario-neutral.json",
+    "a": 135,
+    "d": 0
+   },
+   {
+    "f": "scripts/lib/glosario.mjs",
+    "a": 135,
+    "d": 0
+   },
+   {
+    "f": "scripts/lib/glosario.test.mjs",
+    "a": 143,
+    "d": 0
+   }
+  ]
+ },
+ "b75c977589b578b3bc5f6612b7a505261c22bfcb": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-26T02:31:03Z",
+  "message": "Un corredor para toda la batería: pnpm audit:todo, y --json en cada auditor",
+  "parents": 1,
+  "files": [
+   {
+    "f": ".gitignore",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "docs/juegos.md",
+    "a": 32,
+    "d": 0
+   },
+   {
+    "f": "package.json",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "scripts/audit-choques.mjs",
+    "a": 2,
+    "d": 0
+   },
+   {
+    "f": "scripts/audit-delatores.mjs",
+    "a": 15,
+    "d": 1
+   },
+   {
+    "f": "scripts/audit-detalles.mjs",
+    "a": 4,
+    "d": 0
+   },
+   {
+    "f": "scripts/audit-emocion.mjs",
+    "a": 2,
+    "d": 0
+   },
+   {
+    "f": "scripts/audit-encuadre.mjs",
+    "a": 2,
+    "d": 0
+   },
+   {
+    "f": "scripts/audit-espera.mjs",
+    "a": 4,
+    "d": 0
+   },
+   {
+    "f": "scripts/audit-fisica.mjs",
+    "a": 2,
+    "d": 0
+   },
+   {
+    "f": "scripts/audit-flujo.mjs",
+    "a": 5,
+    "d": 0
+   },
+   {
+    "f": "scripts/audit-game.mjs",
+    "a": 2,
+    "d": 0
+   },
+   {
+    "f": "scripts/audit-identidad.mjs",
+    "a": 2,
+    "d": 0
+   },
+   {
+    "f": "scripts/audit-mezcla.mjs",
+    "a": 6,
+    "d": 0
+   },
+   {
+    "f": "scripts/audit-pantalla.mjs",
+    "a": 3,
+    "d": 0
+   },
+   {
+    "f": "scripts/audit-rigor.mjs",
+    "a": 2,
+    "d": 0
+   },
+   {
+    "f": "scripts/audit-sound.mjs",
+    "a": 5,
+    "d": 0
+   },
+   {
+    "f": "scripts/audit-todo.mjs",
+    "a": 163,
+    "d": 0
+   },
+   {
+    "f": "scripts/audit-ui.mjs",
+    "a": 2,
+    "d": 0
+   },
+   {
+    "f": "scripts/check-lore.mjs",
+    "a": 13,
+    "d": 0
+   },
+   {
+    "f": "scripts/check-paginas.mjs",
+    "a": 4,
+    "d": 0
+   },
+   {
+    "f": "scripts/check-qr.mjs",
+    "a": 5,
+    "d": 0
+   },
+   {
+    "f": "scripts/check-renta.mjs",
+    "a": 8,
+    "d": 1
+   },
+   {
+    "f": "scripts/check-verificacion.mjs",
+    "a": 4,
+    "d": 0
+   },
+   {
+    "f": "scripts/lib/bateria-proceso.mjs",
+    "a": 159,
+    "d": 0
+   },
+   {
+    "f": "scripts/lib/bateria-proceso.test.mjs",
+    "a": 79,
+    "d": 0
+   },
+   {
+    "f": "scripts/lib/bateria.mjs",
+    "a": 342,
+    "d": 0
+   },
+   {
+    "f": "scripts/lib/bateria.test.mjs",
+    "a": 251,
+    "d": 0
+   },
+   {
+    "f": "scripts/lib/juegos.mjs",
+    "a": 23,
+    "d": 0
+   },
+   {
+    "f": "scripts/lib/pantalla-comprobaciones.mjs",
+    "a": 28,
+    "d": 0
+   },
+   {
+    "f": "scripts/lib/resumen.mjs",
+    "a": 94,
+    "d": 0
+   },
+   {
+    "f": "scripts/lib/resumen.test.mjs",
+    "a": 136,
+    "d": 0
+   },
+   {
+    "f": "scripts/smoke.mjs",
+    "a": 8,
+    "d": 1
+   }
+  ]
+ },
+ "8b28cb7f073af39181abf6d669a73fc9f24b5fde": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-26T11:10:39Z",
+  "message": "docs/operacion.md: qué hacer si cae cada pieza (RPC, Pollar, Worker, drand, renta, detector, Vercel, dominio) y dónde vi",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/operacion.md",
+    "a": 74,
+    "d": 0
+   }
+  ]
+ },
+ "2a60598d9f2a0afba7a0c38d867a92c57a0f0586": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-26T11:10:38Z",
+  "message": "SECURITY.md: cómo reportar una vulnerabilidad, qué está en alcance y en cuántos días se responde",
+  "parents": 1,
+  "files": [
+   {
+    "f": "SECURITY.md",
+    "a": 35,
+    "d": 0
+   }
+  ]
+ },
+ "5102c68bdf65a337ee0a6b208e98c6a5ab4fd6c5": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-26T11:07:36Z",
+  "message": "Las acciones de GitHub van fijadas por SHA y el detector de la red manda un latido a un servicio de alarma",
+  "parents": 1,
+  "files": [
+   {
+    "f": ".github/workflows/ci.yml",
+    "a": 15,
+    "d": 6
+   },
+   {
+    "f": ".github/workflows/release.yml",
+    "a": 10,
+    "d": 5
+   },
+   {
+    "f": ".github/workflows/vigilar-red.yml",
+    "a": 26,
+    "d": 7
+   },
+   {
+    "f": "docs/deployments.md",
+    "a": 3,
+    "d": 0
+   }
+  ]
+ },
+ "8358577c06f53158edea0bdc9e26cd9ba4da9d97": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-26T11:06:37Z",
+  "message": "El Worker de enlaces baja el tope de altas por día de 20.000 a 2.000",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/amenazas.md",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "docs/architecture.md",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "docs/threat-model.en.md",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "workers/enlaces/README.md",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "workers/enlaces/src/index.ts",
+    "a": 7,
+    "d": 2
+   }
+  ]
+ },
+ "b130373b20f8dec7f86d3dbcd51c74bf97f2d2b5": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-26T11:02:19Z",
+  "message": "La promesa en inglés dice «receipt», como el resto del sitio",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/i18n.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/seo.test.ts",
+    "a": 1,
+    "d": 1
+   }
+  ]
+ },
+ "627f17a975e00ab477553e0113f48075afcc3282": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-26T10:48:55Z",
+  "message": "Cómo funciona: qué queda de tu sorteo y por cuánto tiempo (el sello es la prueba, el comprobante es tuyo y la red de pru",
+  "parents": 1,
+  "files": [
+   {
+    "f": "como-funciona.html",
+    "a": 11,
+    "d": 0
+   },
+   {
+    "f": "precios.html",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "src/i18n.ts",
+    "a": 14,
+    "d": 0
+   },
+   {
+    "f": "src/seo.test.ts",
+    "a": 44,
+    "d": 1
+   },
+   {
+    "f": "src/styles.css",
+    "a": 2,
+    "d": 0
+   }
+  ]
+ },
+ "786c3cecf27224671fc77cb6d809f89ca41e6d39": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-26T10:47:20Z",
+  "message": "La página de precios abre diciendo que hoy es gratis, saca el recargo de afuera de Latinoamérica y el SDK gratis, y expl",
+  "parents": 1,
+  "files": [
+   {
+    "f": "precios.html",
+    "a": 15,
+    "d": 15
+   },
+   {
+    "f": "src/i18n.ts",
+    "a": 33,
+    "d": 33
+   },
+   {
+    "f": "src/seo.test.ts",
+    "a": 29,
+    "d": 0
+   }
+  ]
+ },
+ "c39ebc3084dd34bb0db223e33d97068a91ac4e8d": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-26T10:10:57Z",
+  "message": "El foco del ganador: silencio, penumbra, luz sobre quien gana, corona y latidos graves",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/juegos/chovena.md",
+    "a": 4,
+    "d": 0
+   },
+   {
+    "f": "docs/juegos/la-entrada.md",
+    "a": 4,
+    "d": 0
+   },
+   {
+    "f": "docs/juegos/sapo.md",
+    "a": 4,
+    "d": 0
+   },
+   {
+    "f": "docs/juegos/teleferico.md",
+    "a": 5,
+    "d": 1
+   },
+   {
+    "f": "docs/motores.md",
+    "a": 18,
+    "d": 0
+   },
+   {
+    "f": "src/games/pixi/cablecar.ts",
+    "a": 48,
+    "d": 8
+   },
+   {
+    "f": "src/games/pixi/chovena.ts",
+    "a": 40,
+    "d": 8
+   },
+   {
+    "f": "src/games/pixi/foco-juegos.test.ts",
+    "a": 34,
+    "d": 0
+   },
+   {
+    "f": "src/games/pixi/foco-vista.ts",
+    "a": 332,
+    "d": 0
+   },
+   {
+    "f": "src/games/pixi/foco.test.ts",
+    "a": 190,
+    "d": 0
+   },
+   {
+    "f": "src/games/pixi/foco.ts",
+    "a": 216,
+    "d": 0
+   },
+   {
+    "f": "src/games/pixi/oruro.ts",
+    "a": 33,
+    "d": 8
+   },
+   {
+    "f": "src/games/pixi/sapo.ts",
+    "a": 29,
+    "d": 7
+   },
+   {
+    "f": "src/games/pixi/stage.ts",
+    "a": 79,
+    "d": 15
+   },
+   {
+    "f": "src/vibrar.test.ts",
+    "a": 26,
+    "d": 2
+   },
+   {
+    "f": "src/vibrar.ts",
+    "a": 19,
+    "d": 6
+   }
+  ]
+ },
+ "707b2b7d4ec84c2921860139dde73ceec52ffafa": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-26T08:03:57Z",
+  "message": "La carrera de llamas para hasta 30 personas: el pelotón que se echa, los nombres legibles y la duración según la cantida",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/juegos.md",
+    "a": 3,
+    "d": 1
+   },
+   {
+    "f": "docs/juegos/carrera.md",
+    "a": 16,
+    "d": 0
+   },
+   {
+    "f": "scripts/audit-game.mjs",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "scripts/audit-identidad.mjs",
+    "a": 30,
+    "d": 5
+   },
+   {
+    "f": "scripts/audit-mezcla.mjs",
+    "a": 3,
+    "d": 2
+   },
+   {
+    "f": "scripts/audit-rigor.mjs",
+    "a": 29,
+    "d": 2
+   },
+   {
+    "f": "scripts/lib/delatores-senales.mjs",
+    "a": 49,
+    "d": 2
+   },
+   {
+    "f": "scripts/lib/delatores-senales.test.mjs",
+    "a": 38,
+    "d": 0
+   },
+   {
+    "f": "src/duraciones.test.ts",
+    "a": 56,
+    "d": 0
+   },
+   {
+    "f": "src/duraciones.ts",
+    "a": 47,
+    "d": 0
+   },
+   {
+    "f": "src/games/llamas/peloton-forma.test.ts",
+    "a": 186,
+    "d": 0
+   },
+   {
+    "f": "src/games/llamas/peloton-forma.ts",
+    "a": 218,
+    "d": 0
+   },
+   {
+    "f": "src/games/llamas/peloton-plan.test.ts",
+    "a": 217,
+    "d": 0
+   },
+   {
+    "f": "src/games/llamas/peloton-plan.ts",
+    "a": 262,
+    "d": 0
+   },
+   {
+    "f": "src/games/llamas/pixi-peloton.ts",
+    "a": 746,
+    "d": 0
+   },
+   {
+    "f": "src/games/llamas/pixi-race.ts",
+    "a": 169,
+    "d": 26
+   },
+   {
+    "f": "src/games/nombres.test.ts",
+    "a": 255,
+    "d": 0
+   },
+   {
+    "f": "src/games/nombres.ts",
+    "a": 277,
+    "d": 0
+   },
+   {
+    "f": "src/games/pixi/stage.ts",
+    "a": 23,
+    "d": 3
+   },
+   {
+    "f": "src/i18n.ts",
+    "a": 52,
+    "d": 4
+   },
+   {
+    "f": "src/main.ts",
+    "a": 7,
+    "d": 1
+   },
+   {
+    "f": "src/state.ts",
+    "a": 20,
+    "d": 3
+   },
+   {
+    "f": "src/ui/gamecard.ts",
+    "a": 3,
+    "d": 1
+   },
+   {
+    "f": "src/ui/recomendar.test.ts",
+    "a": 20,
+    "d": 14
+   },
+   {
+    "f": "src/ui/recomendar.ts",
+    "a": 2,
+    "d": 1
+   },
+   {
+    "f": "src/vibrar.test.ts",
+    "a": 79,
+    "d": 28
+   },
+   {
+    "f": "src/vibrar.ts",
+    "a": 24,
+    "d": 11
+   }
+  ]
+ },
+ "7165560223272cf329acbedd56c5dff3e1f30aaa": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-26T04:31:45Z",
+  "message": "Los terminos dejan de decir que ya se cuentan los pasos, y De pie se recomienda de 8 a 100",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/juegos.md",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "docs/juegos/quien-es.md",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/contar.test.ts",
+    "a": 11,
+    "d": 0
+   },
+   {
+    "f": "src/contar.ts",
+    "a": 7,
+    "d": 1
+   },
+   {
+    "f": "src/i18n.ts",
+    "a": 6,
+    "d": 6
+   },
+   {
+    "f": "src/ui/recomendar.test.ts",
+    "a": 7,
+    "d": 6
+   },
+   {
+    "f": "src/ui/recomendar.ts",
+    "a": 4,
+    "d": 2
+   },
+   {
+    "f": "terminos.html",
+    "a": 2,
+    "d": 2
+   }
+  ]
+ },
+ "59bd5918ab99fe8b520f395636d528f5ca6d4761": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-26T02:20:15Z",
+  "message": "El selector da rango de personas a Piñata, De pie y La Entrada",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/juegos/quien-es.md",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/i18n.ts",
+    "a": 14,
+    "d": 0
+   },
+   {
+    "f": "src/ui/recomendar.test.ts",
+    "a": 49,
+    "d": 26
+   },
+   {
+    "f": "src/ui/recomendar.ts",
+    "a": 13,
+    "d": 6
+   }
+  ]
+ },
+ "9779133658da07ef67a702c08fbcdd8778457513": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-26T10:18:50Z",
+  "message": "Unión: un comprobante que el historial no pudo confirmar también se cuenta en el embudo",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/verify.ts",
+    "a": 1,
+    "d": 0
+   }
+  ]
+ },
+ "e845f0c8a7f866dff105a9bbc86c3d43f3e50eee": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-26T02:11:05Z",
+  "message": "Primer sorteo sin trabas: ensayo que no graba, letra grande y \"Siguiente premio\" grande",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/architecture.md",
+    "a": 4,
+    "d": 1
+   },
+   {
+    "f": "docs/epics.md",
+    "a": 22,
+    "d": 0
+   },
+   {
+    "f": "docs/ux.md",
+    "a": 77,
+    "d": 6
+   },
+   {
+    "f": "index.html",
+    "a": 125,
+    "d": 41
+   },
+   {
+    "f": "public/manifest.webmanifest",
+    "a": 17,
+    "d": 0
+   },
+   {
+    "f": "scripts/audit-detalles.mjs",
+    "a": 13,
+    "d": 7
+   },
+   {
+    "f": "scripts/audit-espera.mjs",
+    "a": 4,
+    "d": 3
+   },
+   {
+    "f": "scripts/audit-flujo.mjs",
+    "a": 14,
+    "d": 3
+   },
+   {
+    "f": "scripts/audit-primer-sorteo.mjs",
+    "a": 464,
+    "d": 0
+   },
+   {
+    "f": "scripts/audit-ui.mjs",
+    "a": 149,
+    "d": 1
+   },
+   {
+    "f": "scripts/check-qr.mjs",
+    "a": 6,
+    "d": 2
+   },
+   {
+    "f": "scripts/lib/texto-minimo.mjs",
+    "a": 98,
+    "d": 0
+   },
+   {
+    "f": "scripts/medir-fps.mjs",
+    "a": 85,
+    "d": 0
+   },
+   {
+    "f": "scripts/medir-texto.mjs",
+    "a": 120,
+    "d": 0
+   },
+   {
+    "f": "src/c.ts",
+    "a": 8,
+    "d": 3
+   },
+   {
+    "f": "src/contar.test.ts",
+    "a": 317,
+    "d": 0
+   },
+   {
+    "f": "src/contar.ts",
+    "a": 252,
+    "d": 0
+   },
+   {
+    "f": "src/enlace-corto.test.ts",
+    "a": 3,
+    "d": 2
+   },
+   {
+    "f": "src/ensayo-modo.test.ts",
+    "a": 197,
+    "d": 0
+   },
+   {
+    "f": "src/ensayo-modo.ts",
+    "a": 76,
+    "d": 0
+   },
+   {
+    "f": "src/evento.ts",
+    "a": 10,
+    "d": 0
+   },
+   {
+    "f": "src/games/overlay.ts",
+    "a": 4,
+    "d": 30
+   },
+   {
+    "f": "src/games/pixi/cablecar.ts",
+    "a": 6,
+    "d": 6
+   },
+   {
+    "f": "src/games/pixi/chovena.ts",
+    "a": 5,
+    "d": 4
+   },
+   {
+    "f": "src/games/pixi/luz.ts",
+    "a": 3,
+    "d": 3
+   },
+   {
+    "f": "src/games/pixi/oruro.ts",
+    "a": 5,
+    "d": 5
+   },
+   {
+    "f": "src/games/pixi/pinata.ts",
+    "a": 5,
+    "d": 5
+   },
+   {
+    "f": "src/games/pixi/quien.ts",
+    "a": 4,
+    "d": 4
+   },
+   {
+    "f": "src/games/pixi/sapo.ts",
+    "a": 4,
+    "d": 4
+   },
+   {
+    "f": "src/games/pixi/stage.ts",
+    "a": 56,
+    "d": 3
+   },
+   {
+    "f": "src/games/pixi/trompo.ts",
+    "a": 5,
+    "d": 5
+   },
+   {
+    "f": "src/i18n.ts",
+    "a": 145,
+    "d": 32
+   },
+   {
+    "f": "src/main.ts",
+    "a": 107,
+    "d": 18
+   },
+   {
+    "f": "src/navegador.test.ts",
+    "a": 25,
+    "d": 0
+   },
+   {
+    "f": "src/navegador.ts",
+    "a": 9,
+    "d": 0
+   },
+   {
+    "f": "src/state.ts",
+    "a": 15,
+    "d": 3
+   },
+   {
+    "f": "src/stellar/wallet-pollar.ts",
+    "a": 5,
+    "d": 0
+   },
+   {
+    "f": "src/styles.css",
+    "a": 501,
+    "d": 154
+   },
+   {
+    "f": "src/ui/anchor.ts",
+    "a": 20,
+    "d": 4
+   },
+   {
+    "f": "src/ui/compartir.ts",
+    "a": 32,
+    "d": 7
+   },
+   {
+    "f": "src/ui/despierta.test.ts",
+    "a": 76,
+    "d": 0
+   },
+   {
+    "f": "src/ui/despierta.ts",
+    "a": 78,
+    "d": 0
+   },
+   {
+    "f": "src/ui/draw.ts",
+    "a": 65,
+    "d": 13
+   },
+   {
+    "f": "src/ui/ensayo.ts",
+    "a": 153,
+    "d": 0
+   },
+   {
+    "f": "src/ui/espera.ts",
+    "a": 15,
+    "d": 2
+   },
+   {
+    "f": "src/ui/estadio-controles.ts",
+    "a": 47,
+    "d": 0
+   },
+   {
+    "f": "src/ui/firma.test.ts",
+    "a": 3,
+    "d": 1
+   },
+   {
+    "f": "src/ui/foto.ts",
+    "a": 7,
+    "d": 2
+   },
+   {
+    "f": "src/ui/freeze.ts",
+    "a": 73,
+    "d": 13
+   },
+   {
+    "f": "src/ui/history.ts",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "src/ui/index-textos.test.ts",
+    "a": 20,
+    "d": 0
+   },
+   {
+    "f": "src/ui/menu.ts",
+    "a": 24,
+    "d": 0
+   },
+   {
+    "f": "src/ui/onboarding.ts",
+    "a": 54,
+    "d": 46
+   },
+   {
+    "f": "src/ui/pantalla.ts",
+    "a": 13,
+    "d": 3
+   },
+   {
+    "f": "src/ui/participants.ts",
+    "a": 153,
+    "d": 21
+   },
+   {
+    "f": "src/ui/pasos.test.ts",
+    "a": 3,
+    "d": 2
+   },
+   {
+    "f": "src/ui/pasos.ts",
+    "a": 2,
+    "d": 1
+   },
+   {
+    "f": "src/ui/premios.ts",
+    "a": 2,
+    "d": 0
+   },
+   {
+    "f": "src/ui/qr.ts",
+    "a": 12,
+    "d": 0
+   },
+   {
+    "f": "src/ui/recomendar.test.ts",
+    "a": 18,
+    "d": 1
+   },
+   {
+    "f": "src/ui/recomendar.ts",
+    "a": 16,
+    "d": 0
+   },
+   {
+    "f": "src/ui/sala.ts",
+    "a": 3,
+    "d": 0
+   },
+   {
+    "f": "src/ui/siguiente.ts",
+    "a": 40,
+    "d": 23
+   },
+   {
+    "f": "src/ui/tutorial.test.ts",
+    "a": 27,
+    "d": 0
+   },
+   {
+    "f": "src/ui/tutorial.ts",
+    "a": 184,
+    "d": 0
+   },
+   {
+    "f": "src/ui/wallet-ui.ts",
+    "a": 226,
+    "d": 75
+   },
+   {
+    "f": "src/verify.ts",
+    "a": 35,
+    "d": 0
+   },
+   {
+    "f": "src/vibrar.test.ts",
+    "a": 55,
+    "d": 0
+   },
+   {
+    "f": "src/vibrar.ts",
+    "a": 44,
+    "d": 0
+   },
+   {
+    "f": "terminos.html",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "verificar.html",
+    "a": 3,
+    "d": 1
+   },
+   {
+    "f": "workers/enlaces/README.md",
+    "a": 63,
+    "d": 3
+   },
+   {
+    "f": "workers/enlaces/probar.mjs",
+    "a": 106,
+    "d": 0
+   },
+   {
+    "f": "workers/enlaces/src/conteo.test.ts",
+    "a": 239,
+    "d": 0
+   },
+   {
+    "f": "workers/enlaces/src/conteo.ts",
+    "a": 291,
+    "d": 0
+   },
+   {
+    "f": "workers/enlaces/src/index.ts",
+    "a": 213,
+    "d": 0
+   },
+   {
+    "f": "workers/enlaces/wrangler.toml",
+    "a": 10,
+    "d": 1
+   }
+  ]
+ },
+ "af5535b339cc55dbab5be8a5dfc964c96c84461d": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-26T01:30:51Z",
+  "message": "Los textos públicos dejan de prometer premios en dinero y de sonar a apuesta",
+  "parents": 1,
+  "files": [
+   {
+    "f": "README.es.md",
+    "a": 7,
+    "d": 7
+   },
+   {
+    "f": "README.md",
+    "a": 6,
+    "d": 6
+   },
+   {
+    "f": "docs/epics.md",
+    "a": 4,
+    "d": 2
+   },
+   {
+    "f": "docs/juegos.md",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "docs/juegos/ruleta.md",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "docs/juegos/tombola.md",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "docs/prd.md",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "docs/premios.md",
+    "a": 32,
+    "d": 75
+   },
+   {
+    "f": "precios.html",
+    "a": 18,
+    "d": 8
+   },
+   {
+    "f": "public/sitemap.xml",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "sorteo-en-clase.html",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/i18n.ts",
+    "a": 89,
+    "d": 25
+   }
+  ]
+ },
+ "dddc9ec190a27d0017370132a1116d756dd9b716": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-26T01:23:06Z",
+  "message": "Emblemas: 32 figuras en hoja de sprites, una por persona y sin azar",
+  "parents": 1,
+  "files": [
+   {
+    "f": "public/emblemas/CREDITOS.txt",
+    "a": 48,
+    "d": 0
+   },
+   {
+    "f": "public/emblemas/LICENCIA-TWEMOJI-CC-BY-4.0.txt",
+    "a": 393,
+    "d": 0
+   },
+   {
+    "f": "scripts/audit-emblemas.mjs",
+    "a": 254,
+    "d": 0
+   },
+   {
+    "f": "scripts/emblemas-hoja.mjs",
+    "a": 70,
+    "d": 0
+   },
+   {
+    "f": "src/games/emblemas-dibujo.test.ts",
+    "a": 111,
+    "d": 0
+   },
+   {
+    "f": "src/games/emblemas-dibujo.ts",
+    "a": 174,
+    "d": 0
+   },
+   {
+    "f": "src/games/emblemas.test.ts",
+    "a": 137,
+    "d": 0
+   },
+   {
+    "f": "src/games/emblemas.ts",
+    "a": 205,
+    "d": 0
+   },
+   {
+    "f": "src/games/emblemas/hoja.svg",
+    "a": 35,
+    "d": 0
+   },
+   {
+    "f": "src/games/emblemas/propios/aguayo.svg",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "src/games/emblemas/propios/bombo.svg",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "src/games/emblemas/propios/cantuta.svg",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "src/games/emblemas/propios/capibara.svg",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "src/games/emblemas/propios/charango.svg",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "src/games/emblemas/propios/condor.svg",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "src/games/emblemas/propios/cunape.svg",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "src/games/emblemas/propios/oso.svg",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "src/games/emblemas/propios/saltena.svg",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "src/games/emblemas/propios/sombrero.svg",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "src/games/emblemas/propios/tatu.svg",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "src/games/emblemas/propios/toborochi.svg",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "src/games/emblemas/propios/trompo.svg",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "src/games/emblemas/propios/tucan.svg",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "src/games/emblemas/propios/zampona.svg",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "src/games/emblemas/twemoji/aji.svg",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "src/games/emblemas/twemoji/bufeo.svg",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "src/games/emblemas/twemoji/cactus.svg",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "src/games/emblemas/twemoji/caiman.svg",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "src/games/emblemas/twemoji/flamenco.svg",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "src/games/emblemas/twemoji/jaguar.svg",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "src/games/emblemas/twemoji/llama.svg",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "src/games/emblemas/twemoji/maiz.svg",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "src/games/emblemas/twemoji/mariposa.svg",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "src/games/emblemas/twemoji/montana.svg",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "src/games/emblemas/twemoji/palmera.svg",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "src/games/emblemas/twemoji/papa.svg",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "src/games/emblemas/twemoji/paraba.svg",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "src/games/emblemas/twemoji/perezoso.svg",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "src/games/emblemas/twemoji/rana.svg",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "src/games/emblemas/twemoji/sol.svg",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "src/games/emblemas/twemoji/teleferico.svg",
+    "a": 1,
+    "d": 0
+   }
+  ]
+ },
+ "314f36133559ef4eb39b6874d6d017196d49c7d6": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-26T01:52:14Z",
+  "message": "La vigilancia guarda el nivel en la caché de Actions y recuerda a diario",
+  "parents": 1,
+  "files": [
+   {
+    "f": ".github/workflows/vigilar-red.yml",
+    "a": 52,
+    "d": 9
+   },
+   {
+    "f": "docs/deployments.md",
+    "a": 9,
+    "d": 3
+   }
+  ]
+ },
+ "9c85ed4f5954724d886796d4c221bc3070bc71fb": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-26T01:52:14Z",
+  "message": "El detector avisa solo cuando algo cambia: nivel entre corridas, recordatorio diario y RPC de respaldo",
+  "parents": 1,
+  "files": [
+   {
+    "f": "scripts/lib/vigilar-red.mjs",
+    "a": 207,
+    "d": 31
+   },
+   {
+    "f": "scripts/lib/vigilar-red.test.mjs",
+    "a": 281,
+    "d": 21
+   },
+   {
+    "f": "scripts/vigilar-red.mjs",
+    "a": 55,
+    "d": 48
+   }
+  ]
+ },
+ "64d73b6b5a7f76b426af3be9f01cf58365ee6768": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-26T01:37:49Z",
+  "message": "Pule los avisos del detector y aclara el reinicio de testnet",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/deployments.md",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "scripts/vigilar-red.mjs",
+    "a": 1,
+    "d": 1
+   }
+  ]
+ },
+ "27e913c4a5408d5581bb128adfe08620b95cc17b": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-26T01:36:14Z",
+  "message": "Documenta la vigilancia de la red",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/deployments.md",
+    "a": 32,
+    "d": 0
+   }
+  ]
+ },
+ "5d7cc4cfd127e73786ebebf645eb599b2242f182": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-26T01:36:14Z",
+  "message": "La vigilancia de la red corre en GitHub cada media hora",
+  "parents": 1,
+  "files": [
+   {
+    "f": ".github/workflows/vigilar-red.yml",
+    "a": 43,
+    "d": 0
+   }
+  ]
+ },
+ "24480e9b326699edbccc94ea4fe031c3ca9d73b2": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-26T01:36:14Z",
+  "message": "Pruebas del detector de la red, sin tocar la red",
+  "parents": 1,
+  "files": [
+   {
+    "f": "scripts/lib/vigilar-red.test.mjs",
+    "a": 417,
+    "d": 0
+   }
+  ]
+ },
+ "536a1ceb0a7450312fea3c6778717e3fe51f36bf": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-26T01:36:07Z",
+  "message": "Un detector de la red de Stellar: parámetros de costo y estado frente al objetivo",
+  "parents": 1,
+  "files": [
+   {
+    "f": "package.json",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "scripts/lib/vigilar-red.mjs",
+    "a": 487,
+    "d": 0
+   },
+   {
+    "f": "scripts/vigilar-red.base.json",
+    "a": 51,
+    "d": 0
+   },
+   {
+    "f": "scripts/vigilar-red.mjs",
+    "a": 186,
+    "d": 0
+   }
+  ]
+ },
+ "e730ea7d71fcd80138829357c90f10c6f5e438d2": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-26T01:45:12Z",
+  "message": "La hora de cierre de las cabeceras no puede retroceder, pero puede repetirse",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/protocol.en.md",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "docs/protocolo.md",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "scripts/lib/archivo-historial.mjs",
+    "a": 3,
+    "d": 2
+   },
+   {
+    "f": "scripts/lib/archivo-historial.test.mjs",
+    "a": 19,
+    "d": 2
+   }
+  ]
+ },
+ "c5fa2717870dadc0644846e4c36ec12d8bc6f24e": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-26T01:42:15Z",
+  "message": "Los motivos de una fuente que no cuadra se leen como una frase, y la advertencia final solo sale si no falló",
+  "parents": 1,
+  "files": [
+   {
+    "f": "scripts/lib/archivo-historial.mjs",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "scripts/verificar-archivo.mjs",
+    "a": 4,
+    "d": 2
+   }
+  ]
+ },
+ "9f918e12082e9ca4a768871e4b984791bdeeda92": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-26T01:39:49Z",
+  "message": "Protocolo 7.2: la comprobación contra los archivos de historial, qué prueba y qué no",
+  "parents": 1,
+  "files": [
+   {
+    "f": "README.es.md",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "README.md",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "docs/protocol.en.md",
+    "a": 36,
+    "d": 0
+   },
+   {
+    "f": "docs/protocolo.md",
+    "a": 36,
+    "d": 0
+   }
+  ]
+ },
+ "7f22198856efd17efb50f5960d0839fb7059f193": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-26T01:37:43Z",
+  "message": "Pruebas del verificador de archivos de historial: sin red y con cabeceras reales de testnet",
+  "parents": 1,
+  "files": [
+   {
+    "f": "scripts/lib/archivo-historial.test.mjs",
+    "a": 640,
+    "d": 0
+   },
+   {
+    "f": "scripts/lib/muestras-archivo/cabeceras-testnet-5382105-5382106.json",
+    "a": 22,
+    "d": 0
+   }
+  ]
+ },
+ "23948adc5430813c489179a36aa63d0fc0a612bf": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-26T01:37:42Z",
+  "message": "Un verificador de línea de comandos comprueba una transacción contra los archivos de historial de Stellar",
+  "parents": 1,
+  "files": [
+   {
+    "f": "scripts/lib/archivo-historial.mjs",
+    "a": 580,
+    "d": 0
+   },
+   {
+    "f": "scripts/lib/fuentes-historial.json",
+    "a": 20,
+    "d": 0
+   },
+   {
+    "f": "scripts/verificar-archivo.mjs",
+    "a": 194,
+    "d": 0
+   }
+  ]
+ },
+ "20b0560442e2361dd87316b879f269e02aa3f2c2": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-26T01:38:21Z",
+  "message": "Protocolo 30: el sello se da por perdido solo con un ledger posterior al límite",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/stellar/envio.test.ts",
+    "a": 54,
+    "d": 0
+   },
+   {
+    "f": "src/stellar/envio.ts",
+    "a": 16,
+    "d": 5
+   },
+   {
+    "f": "src/stellar/errores.test.ts",
+    "a": 11,
+    "d": 0
+   },
+   {
+    "f": "src/stellar/errores.ts",
+    "a": 7,
+    "d": 2
+   }
+  ]
+ },
+ "a9826ed02e2f40faafa4155ccb209616dd3eee09": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-26T01:30:33Z",
+  "message": "Documentación del Protocolo 30 (Bell): fechas, qué se hizo y qué queda pendiente",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/architecture.md",
+    "a": 16,
+    "d": 2
+   }
+  ]
+ },
+ "ef6ce1d5d382725448481f57707f8b96558195bc": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-25T19:26:23Z",
+  "message": "Mis sorteos lee el contrato vigente y los anteriores, y avisa si la lista se corta",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/deployments.md",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "docs/epics.md",
+    "a": 2,
+    "d": 0
+   },
+   {
+    "f": "index.html",
+    "a": 2,
+    "d": 0
+   },
+   {
+    "f": "src/i18n.ts",
+    "a": 4,
+    "d": 0
+   },
+   {
+    "f": "src/stellar/rpc-falso.ts",
+    "a": 157,
+    "d": 0
+   },
+   {
+    "f": "src/stellar/seals-contratos.test.ts",
+    "a": 281,
+    "d": 0
+   },
+   {
+    "f": "src/stellar/seals.test.ts",
+    "a": 6,
+    "d": 0
+   },
+   {
+    "f": "src/stellar/seals.ts",
+    "a": 106,
+    "d": 8
+   },
+   {
+    "f": "src/styles.css",
+    "a": 2,
+    "d": 0
+   },
+   {
+    "f": "src/ui/draw.ts",
+    "a": 2,
+    "d": 0
+   },
+   {
+    "f": "src/ui/freeze.ts",
+    "a": 2,
+    "d": 0
+   },
+   {
+    "f": "src/ui/history.test.ts",
+    "a": 342,
+    "d": 2
+   },
+   {
+    "f": "src/ui/history.ts",
+    "a": 71,
+    "d": 21
+   },
+   {
+    "f": "src/ui/rebuild.test.ts",
+    "a": 24,
+    "d": 0
+   },
+   {
+    "f": "src/ui/rebuild.ts",
+    "a": 7,
+    "d": 2
+   }
+  ]
+ },
+ "d88dfa8a3624d9e6a00b88d88e825735bf717146": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-25T22:08:07Z",
+  "message": "Verificación por el historial de transacciones: el comprobante lleva los hashes del sello y del sorteo",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/amenazas.md",
+    "a": 12,
+    "d": 2
+   },
+   {
+    "f": "docs/architecture.md",
+    "a": 5,
+    "d": 3
+   },
+   {
+    "f": "docs/deployments.md",
+    "a": 12,
+    "d": 3
+   },
+   {
+    "f": "docs/protocol.en.md",
+    "a": 21,
+    "d": 0
+   },
+   {
+    "f": "docs/protocolo.md",
+    "a": 21,
+    "d": 0
+   },
+   {
+    "f": "src/enlace-corto.test.ts",
+    "a": 19,
+    "d": 1
+   },
+   {
+    "f": "src/evento.ts",
+    "a": 46,
+    "d": 23
+   },
+   {
+    "f": "src/i18n.ts",
+    "a": 60,
+    "d": 2
+   },
+   {
+    "f": "src/protocol/evento.test.ts",
+    "a": 27,
+    "d": 2
+   },
+   {
+    "f": "src/protocol/evento.ts",
+    "a": 5,
+    "d": 3
+   },
+   {
+    "f": "src/protocol/proof.test.ts",
+    "a": 108,
+    "d": 1
+   },
+   {
+    "f": "src/protocol/proof.ts",
+    "a": 45,
+    "d": 4
+   },
+   {
+    "f": "src/protocol/verificacion-anterior.test.ts",
+    "a": 145,
+    "d": 0
+   },
+   {
+    "f": "src/protocol/verificacion-historial-ataques.test.ts",
+    "a": 618,
+    "d": 0
+   },
+   {
+    "f": "src/protocol/verificacion-historial.test.ts",
+    "a": 618,
+    "d": 0
+   },
+   {
+    "f": "src/protocol/verificacion.ts",
+    "a": 254,
+    "d": 27
+   },
+   {
+    "f": "src/stellar/config.ts",
+    "a": 19,
+    "d": 1
+   },
+   {
+    "f": "src/stellar/deployments.json",
+    "a": 5,
+    "d": 3
+   },
+   {
+    "f": "src/stellar/fixtures/horizon-0a8671d0.json",
+    "a": 55,
+    "d": 0
+   },
+   {
+    "f": "src/stellar/fixtures/horizon-2d6b998c.json",
+    "a": 49,
+    "d": 0
+   },
+   {
+    "f": "src/stellar/fixtures/horizon-5c1eaa8e.json",
+    "a": 68,
+    "d": 0
+   },
+   {
+    "f": "src/stellar/fixtures/horizon-65060673-por-el-hash-interior.json",
+    "a": 68,
+    "d": 0
+   },
+   {
+    "f": "src/stellar/fixtures/horizon-66f498d7.json",
+    "a": 49,
+    "d": 0
+   },
+   {
+    "f": "src/stellar/fixtures/horizon-b5075505.json",
+    "a": 55,
+    "d": 0
+   },
+   {
+    "f": "src/stellar/fixtures/horizon-e418ebc4.json",
+    "a": 55,
+    "d": 0
+   },
+   {
+    "f": "src/stellar/fixtures/horizon-ea551981-por-el-hash-interior.json",
+    "a": 68,
+    "d": 0
+   },
+   {
+    "f": "src/stellar/fixtures/horizon-ea551981.json",
+    "a": 68,
+    "d": 0
+   },
+   {
+    "f": "src/stellar/historial.test.ts",
+    "a": 448,
+    "d": 0
+   },
+   {
+    "f": "src/stellar/historial.ts",
+    "a": 384,
+    "d": 0
+   },
+   {
+    "f": "src/stellar/horizon-falso.ts",
+    "a": 121,
+    "d": 0
+   },
+   {
+    "f": "src/stellar/oficiales.test.ts",
+    "a": 29,
+    "d": 1
+   },
+   {
+    "f": "src/stellar/oficiales.ts",
+    "a": 22,
+    "d": 1
+   },
+   {
+    "f": "src/stellar/registro.test.ts",
+    "a": 8,
+    "d": 0
+   },
+   {
+    "f": "src/stellar/registro.ts",
+    "a": 2,
+    "d": 0
+   },
+   {
+    "f": "src/stellar/wallet-lite.ts",
+    "a": 2,
+    "d": 3
+   },
+   {
+    "f": "src/ui/compartir.test.ts",
+    "a": 6,
+    "d": 0
+   },
+   {
+    "f": "src/ui/compartir.ts",
+    "a": 3,
+    "d": 1
+   },
+   {
+    "f": "src/ui/draw.ts",
+    "a": 11,
+    "d": 1
+   },
+   {
+    "f": "src/ui/rebuild.ts",
+    "a": 8,
+    "d": 1
+   },
+   {
+    "f": "src/verificacion-textos.test.ts",
+    "a": 260,
+    "d": 0
+   },
+   {
+    "f": "src/verificacion-textos.ts",
+    "a": 87,
+    "d": 12
+   },
+   {
+    "f": "src/verify.ts",
+    "a": 83,
+    "d": 15
+   },
+   {
+    "f": "verificar.html",
+    "a": 1,
+    "d": 0
+   }
+  ]
+ },
+ "1660d12d5d967eadb42ed99b80199ffaacf156be": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-25T19:24:58Z",
+  "message": "SDK de Stellar 17.3.0: el que soporta el Protocolo 30 (Bell)",
+  "parents": 1,
+  "files": [
+   {
+    "f": "package.json",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "pnpm-lock.yaml",
+    "a": 5,
+    "d": 5
+   }
+  ]
  }
 }

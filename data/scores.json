@@ -1,15 +1,15 @@
 {
- "generado": "2026-10-26T11:53:45+00:00",
+ "generado": "2026-10-26T17:56:48+00:00",
  "programa": "Stellar Elite",
  "start_date": "2026-09-02T00:00:00Z",
  "teams": [
   {
    "name": "Tinkazo",
-   "total": 4787.57,
-   "per_capita": 4787.57,
-   "commits": 783,
-   "pts_commits": 4651.57,
-   "dias_activos": 26,
+   "total": 5227.92,
+   "per_capita": 5227.92,
+   "commits": 842,
+   "pts_commits": 5086.92,
+   "dias_activos": 27,
    "contribuidores": [
     "GuidoSV7",
     "nema1502"
@@ -349,7 +349,8 @@
    "2026-10-20": 1078.7100000000005,
    "2026-10-21": 1002.7200000000004,
    "2026-10-22": 799.3799999999997,
-   "2026-10-25": 18.18
+   "2026-10-25": 40.76,
+   "2026-10-26": 412.7699999999999
   },
   "CompraGasolinaBidon": {
    "2026-09-06": 1.0,
@@ -503,7 +504,8 @@
    "2026-10-20": 207,
    "2026-10-21": 174,
    "2026-10-22": 157,
-   "2026-10-25": 3
+   "2026-10-25": 6,
+   "2026-10-26": 56
   },
   "CompraGasolinaBidon": {
    "2026-09-06": 1,
@@ -598,6 +600,216 @@
  },
  "commits": [
   {
+   "sha": "da3f64d",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-10-26T15:43:13Z",
+   "msg": "La vigilancia de la red trae también red-umbrales.json: el runner solo bajaba scripts/ y el detector fallaba al arrancar",
+   "pts": 3.58,
+   "nota": ""
+  },
+  {
+   "sha": "e493ad8",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-10-26T15:34:56Z",
+   "msg": "El corredor guarda sus resúmenes en docs/capturas/auditorias y los textos dejan de citar carpetas locales",
+   "pts": 5.25,
+   "nota": ""
+  },
+  {
+   "sha": "9a34ea3",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-10-26T14:59:01Z",
+   "msg": "Zoom 200 % en una laptop chica: el relleno de scroll de 76 px solo va con la cabecera fija, y el primer ganador entra so",
+   "pts": 4.81,
+   "nota": ""
+  },
+  {
+   "sha": "a11a41f",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-10-26T14:52:15Z",
+   "msg": "Seguir sin sello nunca suena a sellado: la espera, el título, la sala y el QR dicen que no hay sello",
+   "pts": 9.88,
+   "nota": ""
+  },
+  {
+   "sha": "51a5197",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-10-26T12:37:37Z",
+   "msg": "La red a la vista, tras el rebase y la revisión del evaluador: el sello pedido sigue solo al volver la red, y los arregl",
+   "pts": 8.8,
+   "nota": ""
+  },
+  {
+   "sha": "6ea5b45",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-10-26T11:58:07Z",
+   "msg": "El detector de la red lee los umbrales de red-umbrales.json y la prueba del ensayo mira conCuenta",
+   "pts": 6.09,
+   "nota": ""
+  },
+  {
+   "sha": "838c520",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-10-26T11:46:54Z",
+   "msg": "audit-detalles: la comprobación de 320 px dice cuánto mide la línea",
+   "pts": 3.32,
+   "nota": ""
+  },
+  {
+   "sha": "179bbd1",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-10-26T11:46:54Z",
+   "msg": "audit-legible: la herramienta se mide con 16 y 22, no con la regla del proyector",
+   "pts": 8.12,
+   "nota": ""
+  },
+  {
+   "sha": "b9206cb",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-10-26T11:46:38Z",
+   "msg": "audit-game: la comprobación 7 dice «apagado» si el botón del juego está oculto en el selector",
+   "pts": 6.55,
+   "nota": ""
+  },
+  {
+   "sha": "8b28cb7",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-10-26T11:10:39Z",
+   "msg": "docs/operacion.md: qué hacer si cae cada pieza (RPC, Pollar, Worker, drand, renta, detector, Vercel, dominio) y dónde vi",
+   "pts": 7.23,
+   "nota": ""
+  },
+  {
+   "sha": "2a60598",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-10-26T11:10:38Z",
+   "msg": "SECURITY.md: cómo reportar una vulnerabilidad, qué está en alcance y en cuántos días se responde",
+   "pts": 6.17,
+   "nota": ""
+  },
+  {
+   "sha": "5102c68",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-10-26T11:07:36Z",
+   "msg": "Las acciones de GitHub van fijadas por SHA y el detector de la red manda un latido a un servicio de alarma",
+   "pts": 7.19,
+   "nota": ""
+  },
+  {
+   "sha": "8358577",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-10-26T11:06:37Z",
+   "msg": "El Worker de enlaces baja el tope de altas por día de 20.000 a 2.000",
+   "pts": 5.17,
+   "nota": ""
+  },
+  {
+   "sha": "b130373",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-10-26T11:02:19Z",
+   "msg": "La promesa en inglés dice «receipt», como el resto del sitio",
+   "pts": 3.32,
+   "nota": ""
+  },
+  {
+   "sha": "627f17a",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-10-26T10:48:55Z",
+   "msg": "Cómo funciona: qué queda de tu sorteo y por cuánto tiempo (el sello es la prueba, el comprobante es tuyo y la red de pru",
+   "pts": 7.21,
+   "nota": ""
+  },
+  {
+   "sha": "786c3ce",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-10-26T10:47:20Z",
+   "msg": "La página de precios abre diciendo que hoy es gratis, saca el recargo de afuera de Latinoamérica y el SDK gratis, y expl",
+   "pts": 7.98,
+   "nota": ""
+  },
+  {
+   "sha": "9779133",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-10-26T10:18:50Z",
+   "msg": "Unión: un comprobante que el historial no pudo confirmar también se cuenta en el embudo",
+   "pts": 2.0,
+   "nota": ""
+  },
+  {
+   "sha": "c39ebc3",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-10-26T10:10:57Z",
+   "msg": "El foco del ganador: silencio, penumbra, luz sobre quien gana, corona y latidos graves",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "50d3869",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-10-26T09:29:23Z",
+   "msg": "La app y el detector de la red comparten los umbrales: red-umbrales.json es la única fuente",
+   "pts": 8.29,
+   "nota": ""
+  },
+  {
+   "sha": "8a3ccd8",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-10-26T09:27:36Z",
+   "msg": "Un sorteo sin sello queda marcado en todo lo que sale de la app: el comprobante lleva la marca sinSello",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "707b2b7",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-10-26T08:03:57Z",
+   "msg": "La carrera de llamas para hasta 30 personas: el pelotón que se echa, los nombres legibles y la duración según la cantida",
+   "pts": 10,
+   "nota": ""
+  },
+  {
    "sha": "4c6365e",
    "team": "Puls3",
    "repo": "Zer0-Knowledge-Hack/puls3",
@@ -608,6 +820,16 @@
    "nota": ""
   },
   {
+   "sha": "7165560",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-10-26T04:31:45Z",
+   "msg": "Los terminos dejan de decir que ya se cuentan los pasos, y De pie se recomienda de 8 a 100",
+   "pts": 6.88,
+   "nota": ""
+  },
+  {
    "sha": "5f226b7",
    "team": "Puls3",
    "repo": "Zer0-Knowledge-Hack/puls3",
@@ -615,6 +837,346 @@
    "date": "2026-10-26T03:31:47Z",
    "msg": "fix(app): remove the backend status banner from the public UI (#195) (#196)",
    "pts": 8.89,
+   "nota": ""
+  },
+  {
+   "sha": "9b9eaae",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-10-26T03:14:48Z",
+   "msg": "La lista cerrada sin sello no dice 'sellada'; los ids nuevos y los textos de sin sello entran en las pruebas",
+   "pts": 5.09,
+   "nota": ""
+  },
+  {
+   "sha": "f57ce34",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-10-26T03:12:39Z",
+   "msg": "El docstring de firmarYConfirmar vuelve a su función",
+   "pts": 3.81,
+   "nota": ""
+  },
+  {
+   "sha": "8ebb126",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-10-26T03:11:47Z",
+   "msg": "Decisión D-21 en la arquitectura: qué hace la app cuando la red no deja sellar",
+   "pts": 2.0,
+   "nota": ""
+  },
+  {
+   "sha": "463ef7b",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-10-26T03:10:42Z",
+   "msg": "Auditor de flujo: la red que falla en cuatro casos (los dos RPC cortados, el primero cortado, costo alto y sin saldo), d",
+   "pts": 9.91,
+   "nota": ""
+  },
+  {
+   "sha": "e5bbb80",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-10-26T03:06:11Z",
+   "msg": "La pantalla de la red, probada sin Chrome: cada caso en testnet y en mainnet, la cuenta atrás, tres intentos y la confir",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "86e919e",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-10-26T03:01:23Z",
+   "msg": "La red a la vista antes de sellar: una frase, una acción, el botón de un toque y seguir sin sello con la misma ronda",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "62e48ae",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-10-26T03:01:23Z",
+   "msg": "Casos 1 y 4: el costo del sello de verdad se mira antes de firmar, y se puede sellar pagando con la cuenta",
+   "pts": 9.06,
+   "nota": ""
+  },
+  {
+   "sha": "b6d7826",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-10-26T03:01:11Z",
+   "msg": "Qué se dice y qué única acción se ofrece en cada caso de la red; seguir sin sello con la misma ronda",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "2eb0c6e",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-10-26T02:59:26Z",
+   "msg": "Legible y zoom: enterarse de que el show cerró aunque el juego ya no pida cuadros",
+   "pts": 6.61,
+   "nota": ""
+  },
+  {
+   "sha": "1954ecb",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-10-26T02:56:15Z",
+   "msg": "Audit-emocion mide el zoom del golpe, y --json trae el zoom por juego",
+   "pts": 9.04,
+   "nota": ""
+  },
+  {
+   "sha": "cac4a81",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-10-26T02:48:38Z",
+   "msg": "Auditor de legibilidad: ¿se lee desde el fondo de la sala y en el celular?",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "17f8cb6",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-10-26T02:45:20Z",
+   "msg": "El chequeo de la red antes de sellar: costo simulado, niveles, umbrales por red, caché de 60 s y registro sin datos pers",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "487cf8a",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-10-26T02:40:00Z",
+   "msg": "Menos repeticiones en la batería: pantalla dentro de rigor y un solo selector",
+   "pts": 8.69,
+   "nota": ""
+  },
+  {
+   "sha": "b78c690",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-10-26T02:39:22Z",
+   "msg": "Dos RPC por red con cambio automático: el segundo entra cuando el primero se corta, tarda, da 429 o 5xx",
+   "pts": 9.86,
+   "nota": ""
+  },
+  {
+   "sha": "2cbdff5",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-10-26T02:35:48Z",
+   "msg": "Revisor de español neutral: pnpm check:glosario",
+   "pts": 9.95,
+   "nota": ""
+  },
+  {
+   "sha": "b75c977",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-10-26T02:31:03Z",
+   "msg": "Un corredor para toda la batería: pnpm audit:todo, y --json en cada auditor",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "59bd591",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-10-26T02:20:15Z",
+   "msg": "El selector da rango de personas a Piñata, De pie y La Entrada",
+   "pts": 7.79,
+   "nota": ""
+  },
+  {
+   "sha": "e845f0c",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-10-26T02:11:05Z",
+   "msg": "Primer sorteo sin trabas: ensayo que no graba, letra grande y \"Siguiente premio\" grande",
+   "pts": 1.0,
+   "nota": "import masivo (77 archivos)"
+  },
+  {
+   "sha": "314f361",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-10-26T01:52:14Z",
+   "msg": "La vigilancia guarda el nivel en la caché de Actions y recuerda a diario",
+   "pts": 7.21,
+   "nota": ""
+  },
+  {
+   "sha": "9c85ed4",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-10-26T01:52:14Z",
+   "msg": "El detector avisa solo cuando algo cambia: nivel entre corridas, recordatorio diario y RPC de respaldo",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "e730ea7",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-10-26T01:45:12Z",
+   "msg": "La hora de cierre de las cabeceras no puede retroceder, pero puede repetirse",
+   "pts": 5.95,
+   "nota": ""
+  },
+  {
+   "sha": "c5fa271",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-10-26T01:42:15Z",
+   "msg": "Los motivos de una fuente que no cuadra se leen como una frase, y la advertencia final solo sale si no falló",
+   "pts": 4.17,
+   "nota": ""
+  },
+  {
+   "sha": "9f918e1",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-10-26T01:39:49Z",
+   "msg": "Protocolo 7.2: la comprobación contra los archivos de historial, qué prueba y qué no",
+   "pts": 7.23,
+   "nota": ""
+  },
+  {
+   "sha": "20b0560",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-10-26T01:38:21Z",
+   "msg": "Protocolo 30: el sello se da por perdido solo con un ledger posterior al límite",
+   "pts": 7.58,
+   "nota": ""
+  },
+  {
+   "sha": "64d73b6",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-10-26T01:37:49Z",
+   "msg": "Pule los avisos del detector y aclara el reinicio de testnet",
+   "pts": 3.32,
+   "nota": ""
+  },
+  {
+   "sha": "7f22198",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-10-26T01:37:43Z",
+   "msg": "Pruebas del verificador de archivos de historial: sin red y con cabeceras reales de testnet",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "23948ad",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-10-26T01:37:42Z",
+   "msg": "Un verificador de línea de comandos comprueba una transacción contra los archivos de historial de Stellar",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "27e913c",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-10-26T01:36:14Z",
+   "msg": "Documenta la vigilancia de la red",
+   "pts": 6.04,
+   "nota": ""
+  },
+  {
+   "sha": "5d7cc4c",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-10-26T01:36:14Z",
+   "msg": "La vigilancia de la red corre en GitHub cada media hora",
+   "pts": 6.46,
+   "nota": ""
+  },
+  {
+   "sha": "24480e9",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-10-26T01:36:14Z",
+   "msg": "Pruebas del detector de la red, sin tocar la red",
+   "pts": 9.71,
+   "nota": ""
+  },
+  {
+   "sha": "536a1ce",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-10-26T01:36:07Z",
+   "msg": "Un detector de la red de Stellar: parámetros de costo y estado frente al objetivo",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "af5535b",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-10-26T01:30:51Z",
+   "msg": "Los textos públicos dejan de prometer premios en dinero y de sonar a apuesta",
+   "pts": 9.2,
+   "nota": ""
+  },
+  {
+   "sha": "a9826ed",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-10-26T01:30:33Z",
+   "msg": "Documentación del Protocolo 30 (Bell): fechas, qué se hizo y qué queda pendiente",
+   "pts": 5.25,
+   "nota": ""
+  },
+  {
+   "sha": "dddc9ec",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-10-26T01:23:06Z",
+   "msg": "Emblemas: 32 figuras en hoja de sprites, una por persona y sin azar",
+   "pts": 10,
    "nota": ""
   },
   {
@@ -636,6 +1198,36 @@
    "msg": "feat(app): add Spanish and Portuguese locale switcher (#193)",
    "pts": 1.0,
    "nota": "import masivo (57 archivos)"
+  },
+  {
+   "sha": "d88dfa8",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-10-25T22:08:07Z",
+   "msg": "Verificación por el historial de transacciones: el comprobante lleva los hashes del sello y del sorteo",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "ef6ce1d",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-10-25T19:26:23Z",
+   "msg": "Mis sorteos lee el contrato vigente y los anteriores, y avisa si la lista se corta",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "1660d12",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-10-25T19:24:58Z",
+   "msg": "SDK de Stellar 17.3.0: el que soporta el Protocolo 30 (Bell)",
+   "pts": 2.58,
+   "nota": ""
   },
   {
    "sha": "58fe84b",
