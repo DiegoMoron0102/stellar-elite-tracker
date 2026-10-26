@@ -135765,5 +135765,315 @@
     "d": 0
    }
   ]
+ },
+ "fae5c1220bfe56a63af78d998e53765a4ca679e2": {
+  "team": "Puls3",
+  "repo": "Zer0-Knowledge-Hack/puls3",
+  "author": "TOMOKI977",
+  "date": "2026-10-25T22:56:47Z",
+  "message": "Update live demo link in README.md (#194)",
+  "parents": 1,
+  "files": [
+   {
+    "f": "README.md",
+    "a": 1,
+    "d": 1
+   }
+  ]
+ },
+ "30ac6c4e48bb91ff59b90fe6a20572c5a523dd18": {
+  "team": "Puls3",
+  "repo": "Zer0-Knowledge-Hack/puls3",
+  "author": "TOMOKI977",
+  "date": "2026-10-25T22:47:50Z",
+  "message": "feat(app): add Spanish and Portuguese locale switcher (#193)",
+  "parents": 1,
+  "files": [
+   {
+    "f": "puls3_flutter/l10n.yaml",
+    "a": 7,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/lib/l10n/app_en.arb",
+    "a": 419,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/lib/l10n/app_es.arb",
+    "a": 297,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/lib/l10n/app_pt.arb",
+    "a": 297,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/lib/l10n/app_pt_BR.arb",
+    "a": 297,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/lib/l10n/app_pt_PT.arb",
+    "a": 297,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/lib/l10n/generated/app_localizations.dart",
+    "a": 1918,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/lib/l10n/generated/app_localizations_en.dart",
+    "a": 1009,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/lib/l10n/generated/app_localizations_es.dart",
+    "a": 1026,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/lib/l10n/generated/app_localizations_pt.dart",
+    "a": 3052,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/lib/src/app.dart",
+    "a": 57,
+    "d": 30
+   },
+   {
+    "f": "puls3_flutter/lib/src/domain/skill_display_name.dart",
+    "a": 8,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/lib/src/l10n/create_locale_store.dart",
+    "a": 2,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/lib/src/l10n/l10n.dart",
+    "a": 71,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/lib/src/l10n/locale_controller.dart",
+    "a": 80,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/lib/src/l10n/locale_store.dart",
+    "a": 22,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/lib/src/l10n/locale_store_stub.dart",
+    "a": 4,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/lib/src/l10n/locale_store_web.dart",
+    "a": 43,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/lib/src/screens/agent_detail_screen.dart",
+    "a": 11,
+    "d": 16
+   },
+   {
+    "f": "puls3_flutter/lib/src/screens/app_shell.dart",
+    "a": 27,
+    "d": 18
+   },
+   {
+    "f": "puls3_flutter/lib/src/screens/landing_screen.dart",
+    "a": 72,
+    "d": 48
+   },
+   {
+    "f": "puls3_flutter/lib/src/screens/market_screen.dart",
+    "a": 36,
+    "d": 30
+   },
+   {
+    "f": "puls3_flutter/lib/src/screens/my_agents_screen.dart",
+    "a": 10,
+    "d": 9
+   },
+   {
+    "f": "puls3_flutter/lib/src/screens/playground.dart",
+    "a": 11,
+    "d": 8
+   },
+   {
+    "f": "puls3_flutter/lib/src/screens/studio_screen.dart",
+    "a": 35,
+    "d": 31
+   },
+   {
+    "f": "puls3_flutter/lib/src/state/app_scope.dart",
+    "a": 7,
+    "d": 1
+   },
+   {
+    "f": "puls3_flutter/lib/src/studio/studio_form_check.dart",
+    "a": 144,
+    "d": 129
+   },
+   {
+    "f": "puls3_flutter/lib/src/ui/atoms/price_tag.dart",
+    "a": 7,
+    "d": 4
+   },
+   {
+    "f": "puls3_flutter/lib/src/ui/molecules/agent_card.dart",
+    "a": 3,
+    "d": 2
+   },
+   {
+    "f": "puls3_flutter/lib/src/ui/molecules/agent_showcase_card.dart",
+    "a": 9,
+    "d": 8
+   },
+   {
+    "f": "puls3_flutter/lib/src/ui/molecules/error_banner.dart",
+    "a": 2,
+    "d": 1
+   },
+   {
+    "f": "puls3_flutter/lib/src/ui/molecules/language_menu.dart",
+    "a": 94,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/lib/src/ui/molecules/wallet_chip.dart",
+    "a": 4,
+    "d": 2
+   },
+   {
+    "f": "puls3_flutter/lib/src/ui/organisms/agent_detail_view.dart",
+    "a": 29,
+    "d": 15
+   },
+   {
+    "f": "puls3_flutter/lib/src/ui/organisms/agent_form.dart",
+    "a": 41,
+    "d": 35
+   },
+   {
+    "f": "puls3_flutter/lib/src/ui/organisms/agent_grid.dart",
+    "a": 9,
+    "d": 4
+   },
+   {
+    "f": "puls3_flutter/lib/src/ui/organisms/hire_detail_view.dart",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "puls3_flutter/lib/src/ui/organisms/hire_payment_view.dart",
+    "a": 47,
+    "d": 46
+   },
+   {
+    "f": "puls3_flutter/lib/src/ui/organisms/landing/landing_sections.dart",
+    "a": 21,
+    "d": 9
+   },
+   {
+    "f": "puls3_flutter/lib/src/ui/organisms/market_filters.dart",
+    "a": 17,
+    "d": 10
+   },
+   {
+    "f": "puls3_flutter/lib/src/ui/organisms/my_agents_list.dart",
+    "a": 30,
+    "d": 17
+   },
+   {
+    "f": "puls3_flutter/lib/src/ui/organisms/playground_panel.dart",
+    "a": 23,
+    "d": 20
+   },
+   {
+    "f": "puls3_flutter/lib/src/ui/organisms/site_footer.dart",
+    "a": 3,
+    "d": 2
+   },
+   {
+    "f": "puls3_flutter/lib/src/ui/organisms/top_bar.dart",
+    "a": 8,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/pubspec.yaml",
+    "a": 4,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/test/app/catalog_composition_test.dart",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "puls3_flutter/test/helpers.dart",
+    "a": 19,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/test/l10n/language_menu_test.dart",
+    "a": 79,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/test/l10n/locale_controller_test.dart",
+    "a": 48,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/test/screens/brand_screen_test.dart",
+    "a": 1,
+    "d": 2
+   },
+   {
+    "f": "puls3_flutter/test/screens/catalog_states_test.dart",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "puls3_flutter/test/screens/hire_detail_screen_test.dart",
+    "a": 10,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/test/screens/hire_sheet_test.dart",
+    "a": 17,
+    "d": 1
+   },
+   {
+    "f": "puls3_flutter/test/screens/my_agents_screen_test.dart",
+    "a": 2,
+    "d": 1
+   },
+   {
+    "f": "puls3_flutter/test/screens/playground_test.dart",
+    "a": 3,
+    "d": 4
+   },
+   {
+    "f": "puls3_flutter/test/screens/unrated_agent_test.dart",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "puls3_flutter/test/ui/hire_payment_view_test.dart",
+    "a": 6,
+    "d": 4
+   }
+  ]
  }
 }
