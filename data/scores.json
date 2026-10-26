@@ -1,5 +1,5 @@
 {
- "generado": "2026-10-26T02:21:44+00:00",
+ "generado": "2026-10-26T11:53:45+00:00",
  "programa": "Stellar Elite",
  "start_date": "2026-09-02T00:00:00Z",
  "teams": [
@@ -43,11 +43,11 @@
   },
   {
    "name": "Puls3",
-   "total": 999.4,
-   "per_capita": 999.4,
-   "commits": 140,
-   "pts_commits": 866.4,
-   "dias_activos": 23,
+   "total": 1023.29,
+   "per_capita": 1023.29,
+   "commits": 142,
+   "pts_commits": 885.29,
+   "dias_activos": 24,
    "contribuidores": [
     "Pericena",
     "TOMOKI977",
@@ -320,7 +320,8 @@
    "2026-10-16": 12.58,
    "2026-10-17": 8.4,
    "2026-10-19": 10.0,
-   "2026-10-25": 12.48
+   "2026-10-25": 12.48,
+   "2026-10-26": 18.89
   },
   "Tinkazo": {
    "2026-09-16": 66.21000000000001,
@@ -473,7 +474,8 @@
    "2026-10-16": 2,
    "2026-10-17": 1,
    "2026-10-19": 1,
-   "2026-10-25": 3
+   "2026-10-25": 3,
+   "2026-10-26": 2
   },
   "Tinkazo": {
    "2026-09-16": 8,
@@ -595,6 +597,26 @@
   }
  },
  "commits": [
+  {
+   "sha": "4c6365e",
+   "team": "Puls3",
+   "repo": "Zer0-Knowledge-Hack/puls3",
+   "author": "TOMOKI977",
+   "date": "2026-10-26T04:49:31Z",
+   "msg": "feat: tell the hire story on shared chrome and allow puls3.org (#198)",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "5f226b7",
+   "team": "Puls3",
+   "repo": "Zer0-Knowledge-Hack/puls3",
+   "author": "moises-cisneros",
+   "date": "2026-10-26T03:31:47Z",
+   "msg": "fix(app): remove the backend status banner from the public UI (#195) (#196)",
+   "pts": 8.89,
+   "nota": ""
+  },
   {
    "sha": "fae5c12",
    "team": "Puls3",

@@ -136075,5 +136075,270 @@
     "d": 4
    }
   ]
+ },
+ "4c6365e93a16e972fa40552f9ae58922b195714f": {
+  "team": "Puls3",
+  "repo": "Zer0-Knowledge-Hack/puls3",
+  "author": "TOMOKI977",
+  "date": "2026-10-26T04:49:31Z",
+  "message": "feat: tell the hire story on shared chrome and allow puls3.org (#198)",
+  "parents": 1,
+  "files": [
+   {
+    "f": ".env.example",
+    "a": 3,
+    "d": 1
+   },
+   {
+    "f": "README.md",
+    "a": 3,
+    "d": 3
+   },
+   {
+    "f": "puls3_flutter/lib/l10n/app_en.arb",
+    "a": 70,
+    "d": 4
+   },
+   {
+    "f": "puls3_flutter/lib/l10n/app_es.arb",
+    "a": 70,
+    "d": 4
+   },
+   {
+    "f": "puls3_flutter/lib/l10n/app_pt.arb",
+    "a": 70,
+    "d": 4
+   },
+   {
+    "f": "puls3_flutter/lib/l10n/app_pt_BR.arb",
+    "a": 70,
+    "d": 4
+   },
+   {
+    "f": "puls3_flutter/lib/l10n/app_pt_PT.arb",
+    "a": 70,
+    "d": 4
+   },
+   {
+    "f": "puls3_flutter/lib/l10n/generated/app_localizations.dart",
+    "a": 370,
+    "d": 4
+   },
+   {
+    "f": "puls3_flutter/lib/l10n/generated/app_localizations_en.dart",
+    "a": 207,
+    "d": 5
+   },
+   {
+    "f": "puls3_flutter/lib/l10n/generated/app_localizations_es.dart",
+    "a": 210,
+    "d": 5
+   },
+   {
+    "f": "puls3_flutter/lib/l10n/generated/app_localizations_pt.dart",
+    "a": 628,
+    "d": 15
+   },
+   {
+    "f": "puls3_flutter/lib/src/app.dart",
+    "a": 4,
+    "d": 1
+   },
+   {
+    "f": "puls3_flutter/lib/src/domain/landing_content.dart",
+    "a": 1,
+    "d": 32
+   },
+   {
+    "f": "puls3_flutter/lib/src/screens/app_shell.dart",
+    "a": 44,
+    "d": 13
+   },
+   {
+    "f": "puls3_flutter/lib/src/screens/landing_screen.dart",
+    "a": 224,
+    "d": 684
+   },
+   {
+    "f": "puls3_flutter/lib/src/screens/market_screen.dart",
+    "a": 17,
+    "d": 45
+   },
+   {
+    "f": "puls3_flutter/lib/src/ui/atoms/primary_button.dart",
+    "a": 4,
+    "d": 1
+   },
+   {
+    "f": "puls3_flutter/lib/src/ui/molecules/agent_showcase_card.dart",
+    "a": 6,
+    "d": 4
+   },
+   {
+    "f": "puls3_flutter/lib/src/ui/molecules/built_on_stellar.dart",
+    "a": 7,
+    "d": 3
+   },
+   {
+    "f": "puls3_flutter/lib/src/ui/organisms/landing/how_it_works_diagram.dart",
+    "a": 47,
+    "d": 15
+   },
+   {
+    "f": "puls3_flutter/lib/src/ui/organisms/landing/landing_bento.dart",
+    "a": 944,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/lib/src/ui/organisms/landing/landing_sections.dart",
+    "a": 40,
+    "d": 52
+   },
+   {
+    "f": "puls3_flutter/lib/src/ui/organisms/landing/scroll_reveal.dart",
+    "a": 101,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/lib/src/ui/organisms/site_footer.dart",
+    "a": 139,
+    "d": 36
+   },
+   {
+    "f": "puls3_flutter/lib/src/ui/organisms/top_bar.dart",
+    "a": 5,
+    "d": 3
+   },
+   {
+    "f": "puls3_flutter/test/l10n/language_menu_test.dart",
+    "a": 10,
+    "d": 6
+   },
+   {
+    "f": "puls3_flutter/test/screens/landing_screen_test.dart",
+    "a": 83,
+    "d": 72
+   },
+   {
+    "f": "puls3_flutter/test/screens/market_mobile_test.dart",
+    "a": 8,
+    "d": 3
+   },
+   {
+    "f": "puls3_flutter/test/ui/mobile_shell_test.dart",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "puls3_server/README.md",
+    "a": 4,
+    "d": 2
+   },
+   {
+    "f": "puls3_server/lib/src/cors/allowed_origins.dart",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "puls3_server/lib/src/studio/registration_document.dart",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "puls3_server/test/studio/studio_deploy_service_test.dart",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/test/unit/cors/allowed_origins_test.dart",
+    "a": 12,
+    "d": 0
+   }
+  ]
+ },
+ "5f226b76cb658ef3a68b79511ac44ab5d06bdebf": {
+  "team": "Puls3",
+  "repo": "Zer0-Knowledge-Hack/puls3",
+  "author": "moises-cisneros",
+  "date": "2026-10-26T03:31:47Z",
+  "message": "fix(app): remove the backend status banner from the public UI (#195) (#196)",
+  "parents": 1,
+  "files": [
+   {
+    "f": "puls3_flutter/lib/l10n/app_en.arb",
+    "a": 0,
+    "d": 8
+   },
+   {
+    "f": "puls3_flutter/lib/l10n/app_es.arb",
+    "a": 0,
+    "d": 3
+   },
+   {
+    "f": "puls3_flutter/lib/l10n/app_pt.arb",
+    "a": 0,
+    "d": 3
+   },
+   {
+    "f": "puls3_flutter/lib/l10n/app_pt_BR.arb",
+    "a": 0,
+    "d": 3
+   },
+   {
+    "f": "puls3_flutter/lib/l10n/app_pt_PT.arb",
+    "a": 0,
+    "d": 3
+   },
+   {
+    "f": "puls3_flutter/lib/l10n/generated/app_localizations.dart",
+    "a": 0,
+    "d": 18
+   },
+   {
+    "f": "puls3_flutter/lib/l10n/generated/app_localizations_en.dart",
+    "a": 0,
+    "d": 11
+   },
+   {
+    "f": "puls3_flutter/lib/l10n/generated/app_localizations_es.dart",
+    "a": 0,
+    "d": 11
+   },
+   {
+    "f": "puls3_flutter/lib/l10n/generated/app_localizations_pt.dart",
+    "a": 0,
+    "d": 33
+   },
+   {
+    "f": "puls3_flutter/lib/main.dart",
+    "a": 0,
+    "d": 1
+   },
+   {
+    "f": "puls3_flutter/lib/src/app.dart",
+    "a": 0,
+    "d": 71
+   },
+   {
+    "f": "puls3_flutter/test/app_health_test.dart",
+    "a": 0,
+    "d": 45
+   },
+   {
+    "f": "puls3_flutter/test/app_no_backend_status_test.dart",
+    "a": 12,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/test/helpers.dart",
+    "a": 0,
+    "d": 2
+   },
+   {
+    "f": "puls3_flutter/test/ui/site_footer_test.dart",
+    "a": 0,
+    "d": 13
+   }
+  ]
  }
 }
