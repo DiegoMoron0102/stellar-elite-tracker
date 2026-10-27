@@ -140820,5 +140820,165 @@
     "d": 29
    }
   ]
+ },
+ "728bc35f74e2d56f01a2b91c79ec6358d4a6c40e": {
+  "team": "Puls3",
+  "repo": "Zer0-Knowledge-Hack/puls3",
+  "author": "TOMOKI977",
+  "date": "2026-10-27T14:46:11Z",
+  "message": "chore(infra): rebind demo agents to custodied wallets (#214)",
+  "parents": 1,
+  "files": [
+   {
+    "f": "contracts/README.md",
+    "a": 7,
+    "d": 3
+   },
+   {
+    "f": "docs/infra/secrets.md",
+    "a": 37,
+    "d": 3
+   },
+   {
+    "f": "puls3_server/lib/src/agent/demo_wallet_rebinder.dart",
+    "a": 234,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/studio/auth_entry_signer.dart",
+    "a": 110,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/test/unit/agent/demo_wallet_rebinder_test.dart",
+    "a": 244,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/test/unit/studio/auth_entry_signer_test.dart",
+    "a": 72,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/tool/rebind_demo_wallets.dart",
+    "a": 194,
+    "d": 0
+   },
+   {
+    "f": "scripts/seed-demo-agents.sh",
+    "a": 13,
+    "d": 8
+   },
+   {
+    "f": "scripts/tests/seed-preflight.test.sh",
+    "a": 3,
+    "d": 2
+   }
+  ]
+ },
+ "6ff6a4e8d45c211fb19b5f2bf758c62ed60db217": {
+  "team": "Puls3",
+  "repo": "Zer0-Knowledge-Hack/puls3",
+  "author": "TOMOKI977",
+  "date": "2026-10-27T14:37:44Z",
+  "message": "feat(app): approve and reject on hire detail (F6) (#215)",
+  "parents": 1,
+  "files": [
+   {
+    "f": "puls3_flutter/lib/l10n/app_en.arb",
+    "a": 17,
+    "d": 1
+   },
+   {
+    "f": "puls3_flutter/lib/l10n/app_es.arb",
+    "a": 12,
+    "d": 1
+   },
+   {
+    "f": "puls3_flutter/lib/l10n/app_pt.arb",
+    "a": 12,
+    "d": 1
+   },
+   {
+    "f": "puls3_flutter/lib/l10n/app_pt_BR.arb",
+    "a": 12,
+    "d": 1
+   },
+   {
+    "f": "puls3_flutter/lib/l10n/app_pt_PT.arb",
+    "a": 12,
+    "d": 1
+   },
+   {
+    "f": "puls3_flutter/lib/l10n/generated/app_localizations.dart",
+    "a": 66,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/lib/l10n/generated/app_localizations_en.dart",
+    "a": 37,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/lib/l10n/generated/app_localizations_es.dart",
+    "a": 39,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/lib/l10n/generated/app_localizations_pt.dart",
+    "a": 117,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/lib/main.dart",
+    "a": 2,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/lib/src/hire/fake_hire_gateway.dart",
+    "a": 65,
+    "d": 5
+   },
+   {
+    "f": "puls3_flutter/lib/src/hire/hire_gateway.dart",
+    "a": 39,
+    "d": 1
+   },
+   {
+    "f": "puls3_flutter/lib/src/hire/server_hire_gateway.dart",
+    "a": 25,
+    "d": 1
+   },
+   {
+    "f": "puls3_flutter/lib/src/screens/hire_detail_screen.dart",
+    "a": 81,
+    "d": 4
+   },
+   {
+    "f": "puls3_flutter/lib/src/ui/organisms/hire_detail_view.dart",
+    "a": 105,
+    "d": 1
+   },
+   {
+    "f": "puls3_flutter/test/hire/server_hire_gateway_test.dart",
+    "a": 69,
+    "d": 1
+   },
+   {
+    "f": "puls3_flutter/test/hire/wallet_session_test.dart",
+    "a": 2,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/test/screens/hire_detail_screen_test.dart",
+    "a": 247,
+    "d": 6
+   },
+   {
+    "f": "puls3_flutter/test/screens/hire_sheet_test.dart",
+    "a": 8,
+    "d": 0
+   }
+  ]
  }
 }

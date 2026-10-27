@@ -1,5 +1,5 @@
 {
- "generado": "2026-10-27T11:16:56+00:00",
+ "generado": "2026-10-27T17:02:47+00:00",
  "programa": "Stellar Elite",
  "start_date": "2026-09-02T00:00:00Z",
  "teams": [
@@ -43,11 +43,11 @@
   },
   {
    "name": "Puls3",
-   "total": 1023.29,
-   "per_capita": 1023.29,
-   "commits": 142,
-   "pts_commits": 885.29,
-   "dias_activos": 24,
+   "total": 1048.29,
+   "per_capita": 1048.29,
+   "commits": 144,
+   "pts_commits": 905.29,
+   "dias_activos": 25,
    "contribuidores": [
     "Pericena",
     "TOMOKI977",
@@ -321,7 +321,8 @@
    "2026-10-17": 8.4,
    "2026-10-19": 10.0,
    "2026-10-25": 12.48,
-   "2026-10-26": 18.89
+   "2026-10-26": 18.89,
+   "2026-10-27": 20.0
   },
   "Tinkazo": {
    "2026-09-16": 66.21000000000001,
@@ -477,7 +478,8 @@
    "2026-10-17": 1,
    "2026-10-19": 1,
    "2026-10-25": 3,
-   "2026-10-26": 2
+   "2026-10-26": 2,
+   "2026-10-27": 2
   },
   "Tinkazo": {
    "2026-09-16": 8,
@@ -601,6 +603,26 @@
   }
  },
  "commits": [
+  {
+   "sha": "728bc35",
+   "team": "Puls3",
+   "repo": "Zer0-Knowledge-Hack/puls3",
+   "author": "TOMOKI977",
+   "date": "2026-10-27T14:46:11Z",
+   "msg": "chore(infra): rebind demo agents to custodied wallets (#214)",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "6ff6a4e",
+   "team": "Puls3",
+   "repo": "Zer0-Knowledge-Hack/puls3",
+   "author": "TOMOKI977",
+   "date": "2026-10-27T14:37:44Z",
+   "msg": "feat(app): approve and reject on hire detail (F6) (#215)",
+   "pts": 10,
+   "nota": ""
+  },
   {
    "sha": "e05a802",
    "team": "Tinkazo",
