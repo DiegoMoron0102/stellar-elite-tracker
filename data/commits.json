@@ -139390,5 +139390,1435 @@
     "d": 5
    }
   ]
+ },
+ "e05a802c6bf6932962d766bdcb7b4e276be33c28": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-27T00:16:21Z",
+  "message": "El cierre del barrido: ocho juegos en todas partes, la letra en celular y el golpe que no tapa a quien gana",
+  "parents": 1,
+  "files": [
+   {
+    "f": "README.es.md",
+    "a": 5,
+    "d": 7
+   },
+   {
+    "f": "README.md",
+    "a": 5,
+    "d": 7
+   },
+   {
+    "f": "docs/amenazas.md",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "docs/architecture.md",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "docs/juegos.md",
+    "a": 11,
+    "d": 10
+   },
+   {
+    "f": "docs/juegos/quien-es.md",
+    "a": 2,
+    "d": 0
+   },
+   {
+    "f": "docs/juegos/trueque.md",
+    "a": 2,
+    "d": 0
+   },
+   {
+    "f": "docs/marca.md",
+    "a": 3,
+    "d": 5
+   },
+   {
+    "f": "docs/motores.md",
+    "a": 5,
+    "d": 3
+   },
+   {
+    "f": "docs/ux.md",
+    "a": 3,
+    "d": 3
+   },
+   {
+    "f": "index.html",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "juegos.html",
+    "a": 3,
+    "d": 23
+   },
+   {
+    "f": "public/sitemap.xml",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "scripts/audit-delatores.mjs",
+    "a": 5,
+    "d": 5
+   },
+   {
+    "f": "scripts/audit-emocion.mjs",
+    "a": 41,
+    "d": 14
+   },
+   {
+    "f": "scripts/audit-game.mjs",
+    "a": 3,
+    "d": 3
+   },
+   {
+    "f": "scripts/audit-identidad.mjs",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "scripts/audit-legible.mjs",
+    "a": 11,
+    "d": 6
+   },
+   {
+    "f": "scripts/audit-mezcla.mjs",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "scripts/audit-pantalla.mjs",
+    "a": 3,
+    "d": 3
+   },
+   {
+    "f": "scripts/audit-rigor.mjs",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "scripts/audit-sound.mjs",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "scripts/audit-todo.mjs",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "scripts/audit-ui.mjs",
+    "a": 9,
+    "d": 3
+   },
+   {
+    "f": "scripts/lib/bateria-recortes.test.mjs",
+    "a": 4,
+    "d": 2
+   },
+   {
+    "f": "scripts/lib/bateria.mjs",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "scripts/lib/bateria.test.mjs",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "scripts/lib/delatores-senales.test.mjs",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "scripts/lib/juegos.mjs",
+    "a": 21,
+    "d": 6
+   },
+   {
+    "f": "scripts/lib/juegos.test.mjs",
+    "a": 4,
+    "d": 2
+   },
+   {
+    "f": "scripts/lib/legible.mjs",
+    "a": 60,
+    "d": 10
+   },
+   {
+    "f": "scripts/lib/legible.test.mjs",
+    "a": 51,
+    "d": 0
+   },
+   {
+    "f": "scripts/lib/resumen.test.mjs",
+    "a": 47,
+    "d": 1
+   },
+   {
+    "f": "scripts/lib/zoom.mjs",
+    "a": 67,
+    "d": 0
+   },
+   {
+    "f": "scripts/lib/zoom.test.mjs",
+    "a": 76,
+    "d": 1
+   },
+   {
+    "f": "sorteo-en-clase.html",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "sorteo-para-meetup.html",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/games/llamas/pixi-race.ts",
+    "a": 33,
+    "d": 6
+   },
+   {
+    "f": "src/games/nombres.test.ts",
+    "a": 117,
+    "d": 1
+   },
+   {
+    "f": "src/games/nombres.ts",
+    "a": 84,
+    "d": 0
+   },
+   {
+    "f": "src/games/pixi/cablecar.ts",
+    "a": 19,
+    "d": 6
+   },
+   {
+    "f": "src/games/pixi/chovena.ts",
+    "a": 5,
+    "d": 0
+   },
+   {
+    "f": "src/games/pixi/letra.test.ts",
+    "a": 49,
+    "d": 1
+   },
+   {
+    "f": "src/games/pixi/letra.ts",
+    "a": 35,
+    "d": 0
+   },
+   {
+    "f": "src/games/pixi/oruro.ts",
+    "a": 58,
+    "d": 15
+   },
+   {
+    "f": "src/games/pixi/pinata.ts",
+    "a": 23,
+    "d": 3
+   },
+   {
+    "f": "src/games/pixi/quien.ts",
+    "a": 66,
+    "d": 14
+   },
+   {
+    "f": "src/games/pixi/sapo.ts",
+    "a": 125,
+    "d": 18
+   },
+   {
+    "f": "src/games/pixi/stage.ts",
+    "a": 96,
+    "d": 16
+   },
+   {
+    "f": "src/games/pixi/trompo.ts",
+    "a": 25,
+    "d": 1
+   },
+   {
+    "f": "src/games/pixi/trueque.ts",
+    "a": 23,
+    "d": 1
+   },
+   {
+    "f": "src/games/pixi/wheel.ts",
+    "a": 32,
+    "d": 5
+   },
+   {
+    "f": "src/i18n.ts",
+    "a": 20,
+    "d": 16
+   },
+   {
+    "f": "src/main.ts",
+    "a": 3,
+    "d": 3
+   },
+   {
+    "f": "src/styles.css",
+    "a": 35,
+    "d": 13
+   },
+   {
+    "f": "src/ui/draw.ts",
+    "a": 3,
+    "d": 0
+   },
+   {
+    "f": "src/ui/freeze.ts",
+    "a": 6,
+    "d": 4
+   },
+   {
+    "f": "src/ui/plegable.test.ts",
+    "a": 32,
+    "d": 0
+   },
+   {
+    "f": "src/ui/plegable.ts",
+    "a": 35,
+    "d": 0
+   },
+   {
+    "f": "src/ui/recomendar.test.ts",
+    "a": 33,
+    "d": 0
+   },
+   {
+    "f": "src/ui/recomendar.ts",
+    "a": 9,
+    "d": 5
+   }
+  ]
+ },
+ "b4f36cdc5dce9b1521a18621eb41f2ffc3290c8b": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-27T00:03:09Z",
+  "message": "La cuenta siempre a la vista y la pantalla completa al sellar: quien organiza entra, sella y proyecta sin pasos de más",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/ux.md",
+    "a": 62,
+    "d": 11
+   },
+   {
+    "f": "index.html",
+    "a": 10,
+    "d": 5
+   },
+   {
+    "f": "scripts/audit-espera.mjs",
+    "a": 226,
+    "d": 0
+   },
+   {
+    "f": "scripts/audit-flujo.mjs",
+    "a": 18,
+    "d": 3
+   },
+   {
+    "f": "scripts/audit-ui.mjs",
+    "a": 139,
+    "d": 3
+   },
+   {
+    "f": "src/games/overlay.ts",
+    "a": 4,
+    "d": 2
+   },
+   {
+    "f": "src/i18n.test.ts",
+    "a": 28,
+    "d": 0
+   },
+   {
+    "f": "src/i18n.ts",
+    "a": 76,
+    "d": 10
+   },
+   {
+    "f": "src/main.ts",
+    "a": 48,
+    "d": 11
+   },
+   {
+    "f": "src/pagina.ts",
+    "a": 51,
+    "d": 11
+   },
+   {
+    "f": "src/stellar/wallet-lite.ts",
+    "a": 6,
+    "d": 0
+   },
+   {
+    "f": "src/stellar/wallet-pollar-sesion.test.ts",
+    "a": 333,
+    "d": 0
+   },
+   {
+    "f": "src/stellar/wallet-pollar.ts",
+    "a": 170,
+    "d": 13
+   },
+   {
+    "f": "src/styles.css",
+    "a": 203,
+    "d": 33
+   },
+   {
+    "f": "src/ui/account.ts",
+    "a": 31,
+    "d": 5
+   },
+   {
+    "f": "src/ui/aviso-cuenta.ts",
+    "a": 70,
+    "d": 0
+   },
+   {
+    "f": "src/ui/cuenta-chip.ts",
+    "a": 158,
+    "d": 0
+   },
+   {
+    "f": "src/ui/cuenta-estado.test.ts",
+    "a": 221,
+    "d": 0
+   },
+   {
+    "f": "src/ui/cuenta-estado.ts",
+    "a": 181,
+    "d": 0
+   },
+   {
+    "f": "src/ui/draw.ts",
+    "a": 22,
+    "d": 29
+   },
+   {
+    "f": "src/ui/espera.ts",
+    "a": 211,
+    "d": 33
+   },
+   {
+    "f": "src/ui/freeze.ts",
+    "a": 80,
+    "d": 29
+   },
+   {
+    "f": "src/ui/index-textos.test.ts",
+    "a": 22,
+    "d": 1
+   },
+   {
+    "f": "src/ui/pantalla-completa.ts",
+    "a": 50,
+    "d": 0
+   },
+   {
+    "f": "src/ui/plegable.ts",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "src/ui/recomendar.test.ts",
+    "a": 17,
+    "d": 1
+   },
+   {
+    "f": "src/ui/recomendar.ts",
+    "a": 9,
+    "d": 0
+   },
+   {
+    "f": "src/ui/siguiente.ts",
+    "a": 9,
+    "d": 2
+   },
+   {
+    "f": "src/ui/vista-grande.test.ts",
+    "a": 137,
+    "d": 20
+   },
+   {
+    "f": "src/ui/vista-grande.ts",
+    "a": 98,
+    "d": 21
+   },
+   {
+    "f": "src/ui/wallet-ui.ts",
+    "a": 228,
+    "d": 98
+   }
+  ]
+ },
+ "98770befa0fe524a6af758a9c8f033234559543a": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-26T22:52:44Z",
+  "message": "El Trueque y De pie salen del selector: quedan ocho juegos",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/juegos.md",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "index.html",
+    "a": 7,
+    "d": 8
+   },
+   {
+    "f": "scripts/audit-emocion.mjs",
+    "a": 4,
+    "d": 4
+   },
+   {
+    "f": "scripts/lib/bateria-recortes.test.mjs",
+    "a": 9,
+    "d": 7
+   },
+   {
+    "f": "scripts/lib/juegos.mjs",
+    "a": 10,
+    "d": 3
+   },
+   {
+    "f": "scripts/lib/juegos.test.mjs",
+    "a": 4,
+    "d": 3
+   },
+   {
+    "f": "scripts/lib/resumen.test.mjs",
+    "a": 3,
+    "d": 3
+   },
+   {
+    "f": "sorteo-en-clase.html",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "sorteo-para-meetup.html",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/games/pixi/kit/catalogo.ts",
+    "a": 3,
+    "d": 2
+   },
+   {
+    "f": "src/i18n.ts",
+    "a": 8,
+    "d": 8
+   },
+   {
+    "f": "src/ui/recomendar.test.ts",
+    "a": 28,
+    "d": 39
+   },
+   {
+    "f": "src/ui/recomendar.ts",
+    "a": 5,
+    "d": 6
+   }
+  ]
+ },
+ "a99b380b37d2b72281bf74e1b985aecb7752b95f": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-26T22:51:30Z",
+  "message": "La letra de la regla en toda la sala, el golpe de cámara en los diez juegos, el español más neutral y la portada y la li",
+  "parents": 1,
+  "files": [
+   {
+    "f": "como-funciona.html",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "docs/marca.md",
+    "a": 13,
+    "d": 1
+   },
+   {
+    "f": "docs/motores.md",
+    "a": 2,
+    "d": 0
+   },
+   {
+    "f": "docs/ux.md",
+    "a": 11,
+    "d": 2
+   },
+   {
+    "f": "historia.html",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "index.html",
+    "a": 33,
+    "d": 21
+   },
+   {
+    "f": "scripts/audit-emocion.mjs",
+    "a": 3,
+    "d": 2
+   },
+   {
+    "f": "scripts/audit-identidad.mjs",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "scripts/audit-primer-sorteo.mjs",
+    "a": 2,
+    "d": 0
+   },
+   {
+    "f": "scripts/audit-ui.mjs",
+    "a": 3,
+    "d": 3
+   },
+   {
+    "f": "scripts/lib/delatores-senales.mjs",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "scripts/lib/glosario-neutral.json",
+    "a": 56,
+    "d": 2
+   },
+   {
+    "f": "scripts/lib/glosario.test.mjs",
+    "a": 2,
+    "d": 1
+   },
+   {
+    "f": "scripts/lib/texto-minimo.mjs",
+    "a": 5,
+    "d": 2
+   },
+   {
+    "f": "sorteo-para-meetup.html",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "src/games/grupos.ts",
+    "a": 3,
+    "d": 3
+   },
+   {
+    "f": "src/games/llamas/pixi-peloton.ts",
+    "a": 3,
+    "d": 2
+   },
+   {
+    "f": "src/games/llamas/pixi-race.ts",
+    "a": 45,
+    "d": 18
+   },
+   {
+    "f": "src/games/pixi/cablecar.ts",
+    "a": 5,
+    "d": 3
+   },
+   {
+    "f": "src/games/pixi/chovena.ts",
+    "a": 3,
+    "d": 2
+   },
+   {
+    "f": "src/games/pixi/letra.test.ts",
+    "a": 31,
+    "d": 0
+   },
+   {
+    "f": "src/games/pixi/letra.ts",
+    "a": 35,
+    "d": 0
+   },
+   {
+    "f": "src/games/pixi/oruro.ts",
+    "a": 10,
+    "d": 7
+   },
+   {
+    "f": "src/games/pixi/pinata.ts",
+    "a": 6,
+    "d": 4
+   },
+   {
+    "f": "src/games/pixi/quien.ts",
+    "a": 10,
+    "d": 2
+   },
+   {
+    "f": "src/games/pixi/sapo.ts",
+    "a": 13,
+    "d": 4
+   },
+   {
+    "f": "src/games/pixi/stage.ts",
+    "a": 35,
+    "d": 19
+   },
+   {
+    "f": "src/games/pixi/trompo.ts",
+    "a": 5,
+    "d": 2
+   },
+   {
+    "f": "src/games/pixi/trueque.ts",
+    "a": 14,
+    "d": 4
+   },
+   {
+    "f": "src/games/pixi/wheel.ts",
+    "a": 3,
+    "d": 2
+   },
+   {
+    "f": "src/i18n.ts",
+    "a": 85,
+    "d": 82
+   },
+   {
+    "f": "src/main.ts",
+    "a": 2,
+    "d": 0
+   },
+   {
+    "f": "src/styles.css",
+    "a": 63,
+    "d": 40
+   },
+   {
+    "f": "src/ui/freeze.ts",
+    "a": 23,
+    "d": 2
+   },
+   {
+    "f": "src/ui/gamecard.ts",
+    "a": 4,
+    "d": 8
+   },
+   {
+    "f": "src/ui/pantalla.ts",
+    "a": 3,
+    "d": 1
+   },
+   {
+    "f": "src/ui/plegable.ts",
+    "a": 20,
+    "d": 0
+   },
+   {
+    "f": "src/ui/recomendar.ts",
+    "a": 9,
+    "d": 0
+   },
+   {
+    "f": "src/ui/red-acciones.test.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/ui/sala.ts",
+    "a": 8,
+    "d": 1
+   },
+   {
+    "f": "src/ui/vista-grande.test.ts",
+    "a": 30,
+    "d": 0
+   },
+   {
+    "f": "src/ui/vista-grande.ts",
+    "a": 44,
+    "d": 0
+   },
+   {
+    "f": "terminos.html",
+    "a": 2,
+    "d": 2
+   }
+  ]
+ },
+ "07ad97086098f4c411adc9413b97106c4e189954": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-26T22:38:19Z",
+  "message": "La carrera de llamas nueva, la que entiende un niño: una sola pista, una borla amarilla que marca quién va adelante y qu",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/juegos.md",
+    "a": 4,
+    "d": 4
+   },
+   {
+    "f": "docs/juegos/carrera.md",
+    "a": 41,
+    "d": 68
+   },
+   {
+    "f": "juegos.html",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "scripts/audit-delatores.mjs",
+    "a": 186,
+    "d": 71
+   },
+   {
+    "f": "scripts/audit-emocion.mjs",
+    "a": 2,
+    "d": 1
+   },
+   {
+    "f": "scripts/audit-rigor.mjs",
+    "a": 5,
+    "d": 5
+   },
+   {
+    "f": "scripts/lib/delatores-carrera.mjs",
+    "a": 295,
+    "d": 0
+   },
+   {
+    "f": "scripts/lib/delatores-carrera.test.mjs",
+    "a": 188,
+    "d": 0
+   },
+   {
+    "f": "scripts/lib/delatores-senales.mjs",
+    "a": 7,
+    "d": 2
+   },
+   {
+    "f": "scripts/lib/delatores.mjs",
+    "a": 118,
+    "d": 5
+   },
+   {
+    "f": "scripts/lib/delatores.test.mjs",
+    "a": 133,
+    "d": 1
+   },
+   {
+    "f": "src/duraciones.test.ts",
+    "a": 43,
+    "d": 23
+   },
+   {
+    "f": "src/duraciones.ts",
+    "a": 26,
+    "d": 26
+   },
+   {
+    "f": "src/games/llamas/carrera-base.ts",
+    "a": 51,
+    "d": 0
+   },
+   {
+    "f": "src/games/llamas/carrera-duracion.ts",
+    "a": 31,
+    "d": 0
+   },
+   {
+    "f": "src/games/llamas/carrera-forma.test.ts",
+    "a": 81,
+    "d": 0
+   },
+   {
+    "f": "src/games/llamas/carrera-forma.ts",
+    "a": 194,
+    "d": 0
+   },
+   {
+    "f": "src/games/llamas/carrera-orden.test.ts",
+    "a": 149,
+    "d": 0
+   },
+   {
+    "f": "src/games/llamas/carrera-orden.ts",
+    "a": 164,
+    "d": 0
+   },
+   {
+    "f": "src/games/llamas/carrera-prueba.ts",
+    "a": 27,
+    "d": 0
+   },
+   {
+    "f": "src/games/llamas/carrera-show.test.ts",
+    "a": 218,
+    "d": 0
+   },
+   {
+    "f": "src/games/llamas/carrera-show.ts",
+    "a": 455,
+    "d": 0
+   },
+   {
+    "f": "src/games/llamas/carrera-tandas.test.ts",
+    "a": 104,
+    "d": 0
+   },
+   {
+    "f": "src/games/llamas/carrera-tandas.ts",
+    "a": 161,
+    "d": 0
+   },
+   {
+    "f": "src/games/llamas/carrera-textos.ts",
+    "a": 74,
+    "d": 0
+   },
+   {
+    "f": "src/games/llamas/carrera-tiempos.test.ts",
+    "a": 55,
+    "d": 0
+   },
+   {
+    "f": "src/games/llamas/carrera-tiempos.ts",
+    "a": 149,
+    "d": 0
+   },
+   {
+    "f": "src/games/llamas/carrera.ts",
+    "a": 883,
+    "d": 0
+   },
+   {
+    "f": "src/games/llamas/llama.ts",
+    "a": 181,
+    "d": 0
+   },
+   {
+    "f": "src/games/llamas/plan.test.ts",
+    "a": 51,
+    "d": 11
+   },
+   {
+    "f": "src/games/llamas/plan.ts",
+    "a": 45,
+    "d": 18
+   },
+   {
+    "f": "src/games/pixi/index.ts",
+    "a": 0,
+    "d": 4
+   },
+   {
+    "f": "src/games/pixi/kit/anfitrion.ts",
+    "a": 3,
+    "d": 3
+   },
+   {
+    "f": "src/games/pixi/kit/catalogo.ts",
+    "a": 8,
+    "d": 0
+   },
+   {
+    "f": "src/games/pixi/kit/crear.ts",
+    "a": 3,
+    "d": 3
+   },
+   {
+    "f": "src/games/pixi/kit/marcas.test.ts",
+    "a": 28,
+    "d": 0
+   },
+   {
+    "f": "src/games/pixi/kit/marcas.ts",
+    "a": 16,
+    "d": 0
+   },
+   {
+    "f": "src/games/pixi/kit/tipos.ts",
+    "a": 5,
+    "d": 0
+   },
+   {
+    "f": "src/i18n.ts",
+    "a": 19,
+    "d": 11
+   },
+   {
+    "f": "src/styles.css",
+    "a": 6,
+    "d": 5
+   },
+   {
+    "f": "src/ui/ensayo.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/ui/freeze.ts",
+    "a": 6,
+    "d": 3
+   },
+   {
+    "f": "src/ui/gamecard.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/ui/recomendar.test.ts",
+    "a": 56,
+    "d": 11
+   },
+   {
+    "f": "src/ui/recomendar.ts",
+    "a": 25,
+    "d": 12
+   }
+  ]
+ },
+ "1f9cfeb7fc038c7c76ff11ea5cbba8ea3318b48c": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-26T22:35:59Z",
+  "message": "El kit de juegos y la prueba del niño: un juego nuevo nace con la letra, la cámara y el relator de la regla ya puestos",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/juegos.md",
+    "a": 133,
+    "d": 3
+   },
+   {
+    "f": "docs/motores.md",
+    "a": 4,
+    "d": 0
+   },
+   {
+    "f": "index.html",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "scripts/audit-emocion.mjs",
+    "a": 3,
+    "d": 2
+   },
+   {
+    "f": "scripts/audit-nino.mjs",
+    "a": 262,
+    "d": 0
+   },
+   {
+    "f": "scripts/lib/juegos.mjs",
+    "a": 14,
+    "d": 0
+   },
+   {
+    "f": "scripts/lib/juegos.test.mjs",
+    "a": 38,
+    "d": 0
+   },
+   {
+    "f": "scripts/lib/nino.mjs",
+    "a": 256,
+    "d": 0
+   },
+   {
+    "f": "scripts/lib/nino.test.mjs",
+    "a": 319,
+    "d": 0
+   },
+   {
+    "f": "scripts/lib/nuevo-juego.mjs",
+    "a": 222,
+    "d": 0
+   },
+   {
+    "f": "scripts/lib/nuevo-juego.test.mjs",
+    "a": 222,
+    "d": 0
+   },
+   {
+    "f": "scripts/nuevo-juego.mjs",
+    "a": 57,
+    "d": 0
+   },
+   {
+    "f": "scripts/plantillas/juego/diseno.md.tpl",
+    "a": 51,
+    "d": 0
+   },
+   {
+    "f": "scripts/plantillas/juego/escena.ts.tpl",
+    "a": 81,
+    "d": 0
+   },
+   {
+    "f": "scripts/plantillas/juego/plan.test.ts.tpl",
+    "a": 213,
+    "d": 0
+   },
+   {
+    "f": "scripts/plantillas/juego/plan.ts.tpl",
+    "a": 205,
+    "d": 0
+   },
+   {
+    "f": "scripts/plantillas/juego/textos.ts.tpl",
+    "a": 31,
+    "d": 0
+   },
+   {
+    "f": "scripts/prompt-nino.md",
+    "a": 55,
+    "d": 0
+   },
+   {
+    "f": "src/games/llamas/pixi-race.ts",
+    "a": 20,
+    "d": 0
+   },
+   {
+    "f": "src/games/llamas/race-nino.test.ts",
+    "a": 95,
+    "d": 0
+   },
+   {
+    "f": "src/games/llamas/race-nino.ts",
+    "a": 144,
+    "d": 0
+   },
+   {
+    "f": "src/games/lore.ts",
+    "a": 12,
+    "d": 1
+   },
+   {
+    "f": "src/games/pixi/index.ts",
+    "a": 3,
+    "d": 1
+   },
+   {
+    "f": "src/games/pixi/kit/anfitrion.ts",
+    "a": 91,
+    "d": 0
+   },
+   {
+    "f": "src/games/pixi/kit/azar.ts",
+    "a": 46,
+    "d": 0
+   },
+   {
+    "f": "src/games/pixi/kit/catalogo.test.ts",
+    "a": 76,
+    "d": 0
+   },
+   {
+    "f": "src/games/pixi/kit/catalogo.ts",
+    "a": 84,
+    "d": 0
+   },
+   {
+    "f": "src/games/pixi/kit/crear.ts",
+    "a": 176,
+    "d": 0
+   },
+   {
+    "f": "src/games/pixi/kit/director.test.ts",
+    "a": 281,
+    "d": 0
+   },
+   {
+    "f": "src/games/pixi/kit/director.ts",
+    "a": 278,
+    "d": 0
+   },
+   {
+    "f": "src/games/pixi/kit/figuras.test.ts",
+    "a": 52,
+    "d": 0
+   },
+   {
+    "f": "src/games/pixi/kit/figuras.ts",
+    "a": 62,
+    "d": 0
+   },
+   {
+    "f": "src/games/pixi/kit/frontera.test.ts",
+    "a": 61,
+    "d": 0
+   },
+   {
+    "f": "src/games/pixi/kit/guion.test.ts",
+    "a": 160,
+    "d": 0
+   },
+   {
+    "f": "src/games/pixi/kit/guion.ts",
+    "a": 156,
+    "d": 0
+   },
+   {
+    "f": "src/games/pixi/kit/index.ts",
+    "a": 32,
+    "d": 0
+   },
+   {
+    "f": "src/games/pixi/kit/leyenda.test.ts",
+    "a": 46,
+    "d": 0
+   },
+   {
+    "f": "src/games/pixi/kit/leyenda.ts",
+    "a": 49,
+    "d": 0
+   },
+   {
+    "f": "src/games/pixi/kit/marcador-vista.ts",
+    "a": 50,
+    "d": 0
+   },
+   {
+    "f": "src/games/pixi/kit/marcador.ts",
+    "a": 73,
+    "d": 0
+   },
+   {
+    "f": "src/games/pixi/kit/nino.test.ts",
+    "a": 278,
+    "d": 0
+   },
+   {
+    "f": "src/games/pixi/kit/nombres.test.ts",
+    "a": 189,
+    "d": 0
+   },
+   {
+    "f": "src/games/pixi/kit/nombres.ts",
+    "a": 165,
+    "d": 0
+   },
+   {
+    "f": "src/games/pixi/kit/respuestas.ts",
+    "a": 106,
+    "d": 0
+   },
+   {
+    "f": "src/games/pixi/kit/sonido.test.ts",
+    "a": 150,
+    "d": 0
+   },
+   {
+    "f": "src/games/pixi/kit/sonido.ts",
+    "a": 129,
+    "d": 0
+   },
+   {
+    "f": "src/games/pixi/kit/tipos.ts",
+    "a": 219,
+    "d": 0
+   },
+   {
+    "f": "src/games/pixi/nino.ts",
+    "a": 28,
+    "d": 0
+   },
+   {
+    "f": "src/games/pixi/quien-show.test.ts",
+    "a": 282,
+    "d": 0
+   },
+   {
+    "f": "src/games/pixi/quien-show.ts",
+    "a": 361,
+    "d": 0
+   },
+   {
+    "f": "src/games/pixi/quien.ts",
+    "a": 108,
+    "d": 366
+   },
+   {
+    "f": "src/games/pixi/stage.ts",
+    "a": 33,
+    "d": 0
+   },
+   {
+    "f": "src/games/pixi/wheel-nino.test.ts",
+    "a": 108,
+    "d": 0
+   },
+   {
+    "f": "src/games/pixi/wheel-nino.ts",
+    "a": 82,
+    "d": 0
+   },
+   {
+    "f": "src/games/pixi/wheel.ts",
+    "a": 14,
+    "d": 0
+   },
+   {
+    "f": "src/i18n.ts",
+    "a": 6,
+    "d": 0
+   },
+   {
+    "f": "src/main.ts",
+    "a": 5,
+    "d": 1
+   },
+   {
+    "f": "src/state.ts",
+    "a": 7,
+    "d": 2
+   },
+   {
+    "f": "src/styles.css",
+    "a": 2,
+    "d": 0
+   },
+   {
+    "f": "src/ui/botones-kit.ts",
+    "a": 35,
+    "d": 0
+   },
+   {
+    "f": "src/ui/draw.ts",
+    "a": 4,
+    "d": 1
+   },
+   {
+    "f": "src/ui/freeze.ts",
+    "a": 14,
+    "d": 3
+   },
+   {
+    "f": "src/ui/gamecard.ts",
+    "a": 16,
+    "d": 6
+   },
+   {
+    "f": "src/ui/leyenda.test.ts",
+    "a": 49,
+    "d": 0
+   },
+   {
+    "f": "src/ui/leyenda.ts",
+    "a": 41,
+    "d": 0
+   },
+   {
+    "f": "src/ui/recomendar.test.ts",
+    "a": 5,
+    "d": 2
+   },
+   {
+    "f": "src/ui/recomendar.ts",
+    "a": 12,
+    "d": 2
+   },
+   {
+    "f": "src/verify.ts",
+    "a": 5,
+    "d": 0
+   },
+   {
+    "f": "verificar.html",
+    "a": 3,
+    "d": 0
+   }
+  ]
+ },
+ "3e67acb6f8bc2031c0c09b4604b0801ed976f29a": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-26T22:33:44Z",
+  "message": "El detector de la red avisa una sola vez cuando cambian los parámetros y nombra los tipos de costo",
+  "parents": 1,
+  "files": [
+   {
+    "f": ".github/workflows/vigilar-red.yml",
+    "a": 30,
+    "d": 17
+   },
+   {
+    "f": "docs/deployments.md",
+    "a": 23,
+    "d": 6
+   },
+   {
+    "f": "docs/operacion.md",
+    "a": 4,
+    "d": 4
+   },
+   {
+    "f": "scripts/lib/tipos-de-costo.mjs",
+    "a": 37,
+    "d": 0
+   },
+   {
+    "f": "scripts/lib/tipos-de-costo.test.mjs",
+    "a": 39,
+    "d": 0
+   },
+   {
+    "f": "scripts/lib/vigilar-red-rpc-falso.mjs",
+    "a": 66,
+    "d": 0
+   },
+   {
+    "f": "scripts/lib/vigilar-red.mjs",
+    "a": 230,
+    "d": 34
+   },
+   {
+    "f": "scripts/lib/vigilar-red.test.mjs",
+    "a": 734,
+    "d": 15
+   },
+   {
+    "f": "scripts/vigilar-red.base.json",
+    "a": 3,
+    "d": 3
+   },
+   {
+    "f": "scripts/vigilar-red.mjs",
+    "a": 29,
+    "d": 29
+   }
+  ]
  }
 }

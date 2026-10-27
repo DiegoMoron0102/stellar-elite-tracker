@@ -1,15 +1,15 @@
 {
- "generado": "2026-10-26T22:08:25+00:00",
+ "generado": "2026-10-27T02:57:22+00:00",
  "programa": "Stellar Elite",
  "start_date": "2026-09-02T00:00:00Z",
  "teams": [
   {
    "name": "Tinkazo",
-   "total": 5227.92,
-   "per_capita": 5227.92,
-   "commits": 842,
-   "pts_commits": 5086.92,
-   "dias_activos": 27,
+   "total": 5283.35,
+   "per_capita": 5283.35,
+   "commits": 849,
+   "pts_commits": 5137.35,
+   "dias_activos": 28,
    "contribuidores": [
     "GuidoSV7",
     "nema1502"
@@ -350,7 +350,8 @@
    "2026-10-21": 1002.7200000000004,
    "2026-10-22": 799.3799999999997,
    "2026-10-25": 40.76,
-   "2026-10-26": 412.7699999999999
+   "2026-10-26": 452.19999999999993,
+   "2026-10-27": 11.0
   },
   "CompraGasolinaBidon": {
    "2026-09-06": 1.0,
@@ -505,7 +506,8 @@
    "2026-10-21": 174,
    "2026-10-22": 157,
    "2026-10-25": 6,
-   "2026-10-26": 56
+   "2026-10-26": 61,
+   "2026-10-27": 2
   },
   "CompraGasolinaBidon": {
    "2026-09-06": 1,
@@ -599,6 +601,76 @@
   }
  },
  "commits": [
+  {
+   "sha": "e05a802",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-10-27T00:16:21Z",
+   "msg": "El cierre del barrido: ocho juegos en todas partes, la letra en celular y el golpe que no tapa a quien gana",
+   "pts": 1.0,
+   "nota": "import masivo (61 archivos)"
+  },
+  {
+   "sha": "b4f36cd",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-10-27T00:03:09Z",
+   "msg": "La cuenta siempre a la vista y la pantalla completa al sellar: quien organiza entra, sella y proyecta sin pasos de más",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "98770be",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-10-26T22:52:44Z",
+   "msg": "El Trueque y De pie salen del selector: quedan ocho juegos",
+   "pts": 8.43,
+   "nota": ""
+  },
+  {
+   "sha": "a99b380",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-10-26T22:51:30Z",
+   "msg": "La letra de la regla en toda la sala, el golpe de cámara en los diez juegos, el español más neutral y la portada y la li",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "07ad970",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-10-26T22:38:19Z",
+   "msg": "La carrera de llamas nueva, la que entiende un niño: una sola pista, una borla amarilla que marca quién va adelante y qu",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "1f9cfeb",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-10-26T22:35:59Z",
+   "msg": "El kit de juegos y la prueba del niño: un juego nuevo nace con la letra, la cámara y el relator de la regla ya puestos",
+   "pts": 1.0,
+   "nota": "import masivo (69 archivos)"
+  },
+  {
+   "sha": "3e67acb",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-10-26T22:33:44Z",
+   "msg": "El detector de la red avisa una sola vez cuando cambian los parámetros y nombra los tipos de costo",
+   "pts": 10,
+   "nota": ""
+  },
   {
    "sha": "da3f64d",
    "team": "Tinkazo",
