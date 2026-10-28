@@ -1,5 +1,5 @@
 {
- "generado": "2026-10-28T03:07:07+00:00",
+ "generado": "2026-10-28T11:51:00+00:00",
  "programa": "Stellar Elite",
  "start_date": "2026-09-02T00:00:00Z",
  "teams": [
@@ -115,6 +115,24 @@
    "rank": 6
   },
   {
+   "name": "BOLAR",
+   "total": 216.39,
+   "per_capita": 216.39,
+   "commits": 30,
+   "pts_commits": 152.39,
+   "dias_activos": 11,
+   "contribuidores": [
+    "JersonUCB",
+    "rudyramirezc",
+    "sass3r"
+   ],
+   "tamano": 1,
+   "repos": [
+    "bolarpay/bolar-app"
+   ],
+   "rank": 7
+  },
+  {
    "name": "NodeXchange",
    "total": 200.44,
    "per_capita": 200.44,
@@ -127,24 +145,6 @@
    "tamano": 1,
    "repos": [
     "RomerTamayo/stellar-build"
-   ],
-   "rank": 7
-  },
-  {
-   "name": "BOLAR",
-   "total": 196.6,
-   "per_capita": 196.6,
-   "commits": 27,
-   "pts_commits": 137.6,
-   "dias_activos": 10,
-   "contribuidores": [
-    "JersonUCB",
-    "rudyramirezc",
-    "sass3r"
-   ],
-   "tamano": 1,
-   "repos": [
-    "bolarpay/bolar-app"
    ],
    "rank": 8
   },
@@ -411,7 +411,8 @@
    "2026-10-07": 17.27,
    "2026-10-08": 5.46,
    "2026-10-09": 33.54,
-   "2026-10-10": 12.43
+   "2026-10-10": 12.43,
+   "2026-10-28": 14.79
   },
   "MinerTrace": {
    "2026-09-28": 10.97,
@@ -568,7 +569,8 @@
    "2026-10-07": 2,
    "2026-10-08": 2,
    "2026-10-09": 6,
-   "2026-10-10": 4
+   "2026-10-10": 4,
+   "2026-10-28": 3
   },
   "MinerTrace": {
    "2026-09-28": 3,
@@ -603,6 +605,36 @@
   }
  },
  "commits": [
+  {
+   "sha": "fb66a20",
+   "team": "BOLAR",
+   "repo": "bolarpay/bolar-app",
+   "author": "JersonUCB",
+   "date": "2026-10-28T10:54:34Z",
+   "msg": "fix: restore original footer and keep BOLAR favicon and logo",
+   "pts": 7.43,
+   "nota": ""
+  },
+  {
+   "sha": "94c1462",
+   "team": "BOLAR",
+   "repo": "bolarpay/bolar-app",
+   "author": "JersonUCB",
+   "date": "2026-10-28T10:49:29Z",
+   "msg": "Merge branch 'codex/bolar-branding-metadata' into main",
+   "pts": 0.0,
+   "nota": "merge"
+  },
+  {
+   "sha": "f5fab79",
+   "team": "BOLAR",
+   "repo": "bolarpay/bolar-app",
+   "author": "JersonUCB",
+   "date": "2026-10-28T10:49:18Z",
+   "msg": "fix: replace Next.js favicon and complete BOLAR branding",
+   "pts": 7.36,
+   "nota": ""
+  },
   {
    "sha": "728bc35",
    "team": "Puls3",

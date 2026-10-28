@@ -140980,5 +140980,180 @@
     "d": 0
    }
   ]
+ },
+ "fb66a20b6599bc34475b0a611af9eeda89c209fb": {
+  "team": "BOLAR",
+  "repo": "bolarpay/bolar-app",
+  "author": "JersonUCB",
+  "date": "2026-10-28T10:54:34Z",
+  "message": "fix: restore original footer and keep BOLAR favicon and logo",
+  "parents": 1,
+  "files": [
+   {
+    "f": "app/acceso/page.tsx",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "app/apple-icon.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "app/icon.svg",
+    "a": 0,
+    "d": 1
+   },
+   {
+    "f": "app/layout.tsx",
+    "a": 1,
+    "d": 11
+   },
+   {
+    "f": "app/opengraph-image.alt.txt",
+    "a": 0,
+    "d": 1
+   },
+   {
+    "f": "app/opengraph-image.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "components/landing/landing-footer.tsx",
+    "a": 24,
+    "d": 19
+   },
+   {
+    "f": "components/landing/landing-header.tsx",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "docs/identidad-web.md",
+    "a": 7,
+    "d": 19
+   }
+  ]
+ },
+ "94c1462796420bf9f46c0669e887bd88fb960f00": {
+  "team": "BOLAR",
+  "repo": "bolarpay/bolar-app",
+  "author": "JersonUCB",
+  "date": "2026-10-28T10:49:29Z",
+  "message": "Merge branch 'codex/bolar-branding-metadata' into main",
+  "parents": 2,
+  "files": [
+   {
+    "f": "app/acceso/page.tsx",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "app/apple-icon.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "app/favicon.ico",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "app/icon.svg",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "app/layout.tsx",
+    "a": 11,
+    "d": 1
+   },
+   {
+    "f": "app/opengraph-image.alt.txt",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "app/opengraph-image.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "components/landing/landing-footer.tsx",
+    "a": 19,
+    "d": 24
+   },
+   {
+    "f": "components/landing/landing-header.tsx",
+    "a": 0,
+    "d": 1
+   },
+   {
+    "f": "docs/identidad-web.md",
+    "a": 22,
+    "d": 0
+   }
+  ]
+ },
+ "f5fab797c75c4838c038250ae5db414d5782bb99": {
+  "team": "BOLAR",
+  "repo": "bolarpay/bolar-app",
+  "author": "JersonUCB",
+  "date": "2026-10-28T10:49:18Z",
+  "message": "fix: replace Next.js favicon and complete BOLAR branding",
+  "parents": 1,
+  "files": [
+   {
+    "f": "app/acceso/page.tsx",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "app/apple-icon.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "app/favicon.ico",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "app/icon.svg",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "app/layout.tsx",
+    "a": 11,
+    "d": 1
+   },
+   {
+    "f": "app/opengraph-image.alt.txt",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "app/opengraph-image.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "components/landing/landing-footer.tsx",
+    "a": 19,
+    "d": 24
+   },
+   {
+    "f": "components/landing/landing-header.tsx",
+    "a": 0,
+    "d": 1
+   },
+   {
+    "f": "docs/identidad-web.md",
+    "a": 22,
+    "d": 0
+   }
+  ]
  }
 }
