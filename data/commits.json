@@ -141155,5 +141155,465 @@
     "d": 0
    }
   ]
+ },
+ "6c583e98ee0864be13297297f7521097cc494b53": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-01T11:03:33Z",
+  "message": "El aviso de verificación se puede reenviar sin compilar otro release",
+  "parents": 1,
+  "files": [
+   {
+    "f": ".github/workflows/reenviar-verificacion.yml",
+    "a": 59,
+    "d": 0
+   },
+   {
+    "f": ".github/workflows/release.yml",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "docs/deployments.md",
+    "a": 2,
+    "d": 2
+   }
+  ]
+ },
+ "1519eca35cb2d1e9aae688f73c6586cf9d5ff565": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-01T03:38:56Z",
+  "message": "Los títulos del sitio van sin punto medio: se leen como una frase",
+  "parents": 1,
+  "files": [
+   {
+    "f": "index.html",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "lista.html",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "public/404.html",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "src/evento.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/i18n.ts",
+    "a": 4,
+    "d": 4
+   },
+   {
+    "f": "src/seo.test.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "verificar.html",
+    "a": 1,
+    "d": 1
+   }
+  ]
+ },
+ "d8898514936686fd6b1c3acd5e69cec1a45021a2": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-10-28T01:18:27Z",
+  "message": "Los documentos y comentarios hablan del proyecto, no de notas de trabajo",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/architecture.md",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "docs/epics.md",
+    "a": 6,
+    "d": 6
+   },
+   {
+    "f": "docs/evento.md",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "docs/juegos.md",
+    "a": 7,
+    "d": 7
+   },
+   {
+    "f": "docs/juegos/carrera.md",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "docs/juegos/pinata.md",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "docs/juegos/ruleta.md",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "docs/juegos/teleferico.md",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "docs/marca.md",
+    "a": 3,
+    "d": 3
+   },
+   {
+    "f": "docs/motores.md",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "docs/operacion.md",
+    "a": 6,
+    "d": 6
+   },
+   {
+    "f": "docs/prd.md",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "docs/ux.md",
+    "a": 8,
+    "d": 8
+   },
+   {
+    "f": "index.html",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "scripts/audit-detalles.mjs",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "scripts/audit-emocion.mjs",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "scripts/audit-espera.mjs",
+    "a": 2,
+    "d": 3
+   },
+   {
+    "f": "scripts/audit-identidad.mjs",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "scripts/audit-legible.mjs",
+    "a": 3,
+    "d": 3
+   },
+   {
+    "f": "scripts/audit-primer-sorteo.mjs",
+    "a": 12,
+    "d": 13
+   },
+   {
+    "f": "scripts/audit-ui.mjs",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "scripts/check-glosario.mjs",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "scripts/check-paginas.mjs",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "scripts/lib/glosario-neutral.json",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "scripts/lib/glosario.mjs",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "scripts/lib/legible.mjs",
+    "a": 4,
+    "d": 4
+   },
+   {
+    "f": "scripts/lib/legible.test.mjs",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "scripts/lib/nuevo-juego.mjs",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "scripts/lib/zoom.mjs",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "scripts/plantillas/juego/diseno.md.tpl",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/contar.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/enlace-corto.test.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/games/llamas/carrera-prueba.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/games/llamas/pixi-race.ts",
+    "a": 4,
+    "d": 4
+   },
+   {
+    "f": "src/games/nombres.test.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/games/nombres.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/games/pixi/cablecar-plan.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/games/pixi/cablecar.ts",
+    "a": 4,
+    "d": 4
+   },
+   {
+    "f": "src/games/pixi/calidad.ts",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "src/games/pixi/camera.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/games/pixi/chovena.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/games/pixi/kit/director.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/games/pixi/kit/nombres.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/games/pixi/letra.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/games/pixi/oruro.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/games/pixi/pinata-labels.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/games/pixi/quien.ts",
+    "a": 4,
+    "d": 4
+   },
+   {
+    "f": "src/games/pixi/sapo.ts",
+    "a": 4,
+    "d": 4
+   },
+   {
+    "f": "src/games/pixi/tombola.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/games/pixi/trompo.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/games/pixi/trueque.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/games/pixi/wheel.ts",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "src/i18n.test.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/i18n.ts",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "src/main.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/protocol/verificacion.test.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/state.ts",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "src/stellar/errores.ts",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "src/stellar/registro.test.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/stellar/wallet-pollar.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/styles.css",
+    "a": 5,
+    "d": 5
+   },
+   {
+    "f": "src/ui/account-model.test.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/ui/csv.test.ts",
+    "a": 12,
+    "d": 12
+   },
+   {
+    "f": "src/ui/csv.ts",
+    "a": 3,
+    "d": 3
+   },
+   {
+    "f": "src/ui/draw.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/ui/foto.ts",
+    "a": 1,
+    "d": 2
+   },
+   {
+    "f": "src/ui/freeze.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/ui/gamecard.ts",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "src/ui/pantalla.ts",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "src/ui/plegable.ts",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "src/ui/recomendar.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/ui/sin-sello-textos.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/ui/tutorial.ts",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "src/verify.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "vite.config.ts",
+    "a": 1,
+    "d": 2
+   },
+   {
+    "f": "workers/enlaces/README.md",
+    "a": 2,
+    "d": 2
+   }
+  ]
  }
 }

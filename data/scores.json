@@ -1,15 +1,15 @@
 {
- "generado": "2026-11-01T03:19:31+00:00",
+ "generado": "2026-11-01T12:20:41+00:00",
  "programa": "Stellar Elite",
  "start_date": "2026-09-02T00:00:00Z",
  "teams": [
   {
    "name": "Tinkazo",
-   "total": 5283.35,
-   "per_capita": 5283.35,
-   "commits": 849,
-   "pts_commits": 5137.35,
-   "dias_activos": 28,
+   "total": 5307.03,
+   "per_capita": 5307.03,
+   "commits": 852,
+   "pts_commits": 5151.03,
+   "dias_activos": 30,
    "contribuidores": [
     "GuidoSV7",
     "nema1502"
@@ -352,7 +352,9 @@
    "2026-10-22": 799.3799999999997,
    "2026-10-25": 40.76,
    "2026-10-26": 452.19999999999993,
-   "2026-10-27": 11.0
+   "2026-10-27": 11.0,
+   "2026-10-28": 1.0,
+   "2026-11-01": 12.68
   },
   "CompraGasolinaBidon": {
    "2026-09-06": 1.0,
@@ -510,7 +512,9 @@
    "2026-10-22": 157,
    "2026-10-25": 6,
    "2026-10-26": 61,
-   "2026-10-27": 2
+   "2026-10-27": 2,
+   "2026-10-28": 1,
+   "2026-11-01": 2
   },
   "CompraGasolinaBidon": {
    "2026-09-06": 1,
@@ -606,6 +610,26 @@
  },
  "commits": [
   {
+   "sha": "6c583e9",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-01T11:03:33Z",
+   "msg": "El aviso de verificación se puede reenviar sin compilar otro release",
+   "pts": 7.04,
+   "nota": ""
+  },
+  {
+   "sha": "1519eca",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-01T03:38:56Z",
+   "msg": "Los títulos del sitio van sin punto medio: se leen como una frase",
+   "pts": 5.64,
+   "nota": ""
+  },
+  {
    "sha": "fb66a20",
    "team": "BOLAR",
    "repo": "bolarpay/bolar-app",
@@ -634,6 +658,16 @@
    "msg": "fix: replace Next.js favicon and complete BOLAR branding",
    "pts": 7.36,
    "nota": ""
+  },
+  {
+   "sha": "d889851",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-10-28T01:18:27Z",
+   "msg": "Los documentos y comentarios hablan del proyecto, no de notas de trabajo",
+   "pts": 1.0,
+   "nota": "import masivo (76 archivos)"
   },
   {
    "sha": "728bc35",
