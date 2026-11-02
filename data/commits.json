@@ -141615,5 +141615,25 @@
     "d": 2
    }
   ]
+ },
+ "9e3f763ae38cb7ac3e610aaf8b2b075de133b9de": {
+  "team": "TilcAI",
+  "repo": "TilcAI/tilcai-web",
+  "author": "SaulChoque",
+  "date": "2026-11-02T01:15:09Z",
+  "message": "docs: update README with published delivery and integration status",
+  "parents": 1,
+  "files": [
+   {
+    "f": "AGENT_HISTORY.md",
+    "a": 14,
+    "d": 0
+   },
+   {
+    "f": "README.md",
+    "a": 15,
+    "d": 0
+   }
+  ]
  }
 }

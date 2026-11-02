@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-01T21:30:09+00:00",
+ "generado": "2026-11-02T03:29:00+00:00",
  "programa": "Stellar Elite",
  "start_date": "2026-09-02T00:00:00Z",
  "teams": [
@@ -64,11 +64,11 @@
   },
   {
    "name": "TilcAI",
-   "total": 843.55,
-   "per_capita": 281.18,
-   "commits": 127,
-   "pts_commits": 781.55,
-   "dias_activos": 10,
+   "total": 854.46,
+   "per_capita": 284.82,
+   "commits": 128,
+   "pts_commits": 787.46,
+   "dias_activos": 11,
    "contribuidores": [
     "JHAMILCALI",
     "OmarQV",
@@ -432,7 +432,8 @@
    "2026-10-09": 147.72000000000003,
    "2026-10-10": 146.55,
    "2026-10-13": 5.39,
-   "2026-10-20": 104.78
+   "2026-10-20": 104.78,
+   "2026-11-02": 5.91
   },
   "GatoPago": {
    "2026-09-10": 1.0,
@@ -592,7 +593,8 @@
    "2026-10-09": 23,
    "2026-10-10": 21,
    "2026-10-13": 1,
-   "2026-10-20": 20
+   "2026-10-20": 20,
+   "2026-11-02": 1
   },
   "GatoPago": {
    "2026-09-10": 1,
@@ -609,6 +611,16 @@
   }
  },
  "commits": [
+  {
+   "sha": "9e3f763",
+   "team": "TilcAI",
+   "repo": "TilcAI/tilcai-web",
+   "author": "SaulChoque",
+   "date": "2026-11-02T01:15:09Z",
+   "msg": "docs: update README with published delivery and integration status",
+   "pts": 5.91,
+   "nota": ""
+  },
   {
    "sha": "6c583e9",
    "team": "Tinkazo",
