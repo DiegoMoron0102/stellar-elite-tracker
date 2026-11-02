@@ -141635,5 +141635,125 @@
     "d": 0
    }
   ]
+ },
+ "c1ca45f5e9423c15232ea09c919f74c16a016b51": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-02T03:04:17Z",
+  "message": "El aviso de error del ingreso no tapa la X y dice qué hacer",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/i18n.ts",
+    "a": 12,
+    "d": 14
+   },
+   {
+    "f": "src/styles.css",
+    "a": 11,
+    "d": 1
+   },
+   {
+    "f": "src/ui/ingreso-errores.test.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/ui/wallet-ui.ts",
+    "a": 23,
+    "d": 22
+   }
+  ]
+ },
+ "08b0391742227338b44b0a92211010796fbf3374": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "GuidoSV7",
+  "date": "2026-11-02T03:04:17Z",
+  "message": "El sitio en celular: cabecera a 320 px y errores que dicen qué hacer",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/ux-celular-cabecera.md",
+    "a": 18,
+    "d": 0
+   },
+   {
+    "f": "docs/ux.md",
+    "a": 5,
+    "d": 1
+   },
+   {
+    "f": "index.html",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/i18n.ts",
+    "a": 28,
+    "d": 10
+   },
+   {
+    "f": "src/styles.css",
+    "a": 19,
+    "d": 1
+   },
+   {
+    "f": "src/ui/anchor.ts",
+    "a": 20,
+    "d": 5
+   },
+   {
+    "f": "src/ui/draw-recuperacion.test.ts",
+    "a": 16,
+    "d": 0
+   },
+   {
+    "f": "src/ui/draw.ts",
+    "a": 56,
+    "d": 2
+   },
+   {
+    "f": "src/ui/error-accion.test.ts",
+    "a": 18,
+    "d": 0
+   },
+   {
+    "f": "src/ui/error-accion.ts",
+    "a": 14,
+    "d": 0
+   },
+   {
+    "f": "src/ui/errores-flujo.test.ts",
+    "a": 30,
+    "d": 0
+   },
+   {
+    "f": "src/ui/espera.ts",
+    "a": 5,
+    "d": 3
+   },
+   {
+    "f": "src/ui/ingreso-errores.test.ts",
+    "a": 24,
+    "d": 0
+   },
+   {
+    "f": "src/ui/ingreso-errores.ts",
+    "a": 10,
+    "d": 0
+   },
+   {
+    "f": "src/ui/siguiente.ts",
+    "a": 3,
+    "d": 2
+   },
+   {
+    "f": "src/ui/wallet-ui.ts",
+    "a": 41,
+    "d": 16
+   }
+  ]
  }
 }

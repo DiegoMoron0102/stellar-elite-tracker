@@ -1,15 +1,15 @@
 {
- "generado": "2026-11-02T03:29:00+00:00",
+ "generado": "2026-11-02T14:14:55+00:00",
  "programa": "Stellar Elite",
  "start_date": "2026-09-02T00:00:00Z",
  "teams": [
   {
    "name": "Tinkazo",
-   "total": 5307.03,
-   "per_capita": 5307.03,
-   "commits": 852,
-   "pts_commits": 5151.03,
-   "dias_activos": 30,
+   "total": 5328.91,
+   "per_capita": 5328.91,
+   "commits": 854,
+   "pts_commits": 5167.91,
+   "dias_activos": 31,
    "contribuidores": [
     "GuidoSV7",
     "nema1502"
@@ -354,7 +354,8 @@
    "2026-10-26": 452.19999999999993,
    "2026-10-27": 11.0,
    "2026-10-28": 1.0,
-   "2026-11-01": 12.68
+   "2026-11-01": 12.68,
+   "2026-11-02": 16.88
   },
   "CompraGasolinaBidon": {
    "2026-09-06": 1.0,
@@ -515,7 +516,8 @@
    "2026-10-26": 61,
    "2026-10-27": 2,
    "2026-10-28": 1,
-   "2026-11-01": 2
+   "2026-11-01": 2,
+   "2026-11-02": 2
   },
   "CompraGasolinaBidon": {
    "2026-09-06": 1,
@@ -611,6 +613,26 @@
   }
  },
  "commits": [
+  {
+   "sha": "c1ca45f",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-02T03:04:17Z",
+   "msg": "El aviso de error del ingreso no tapa la X y dice qué hacer",
+   "pts": 7.43,
+   "nota": ""
+  },
+  {
+   "sha": "08b0391",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "GuidoSV7",
+   "date": "2026-11-02T03:04:17Z",
+   "msg": "El sitio en celular: cabecera a 320 px y errores que dicen qué hacer",
+   "pts": 9.45,
+   "nota": ""
+  },
   {
    "sha": "9e3f763",
    "team": "TilcAI",
