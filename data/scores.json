@@ -1,15 +1,15 @@
 {
- "generado": "2026-11-03T00:12:42+00:00",
+ "generado": "2026-11-03T13:17:30+00:00",
  "programa": "Stellar Elite",
  "start_date": "2026-09-02T00:00:00Z",
  "teams": [
   {
    "name": "Tinkazo",
-   "total": 5721.61,
-   "per_capita": 5721.61,
-   "commits": 904,
-   "pts_commits": 5560.61,
-   "dias_activos": 31,
+   "total": 5892.23,
+   "per_capita": 5892.23,
+   "commits": 935,
+   "pts_commits": 5726.23,
+   "dias_activos": 32,
    "contribuidores": [
     "GuidoSV7",
     "nema1502"
@@ -355,7 +355,8 @@
    "2026-10-27": 11.0,
    "2026-10-28": 1.0,
    "2026-11-01": 12.68,
-   "2026-11-02": 409.5799999999999
+   "2026-11-02": 409.5799999999999,
+   "2026-11-03": 165.61999999999998
   },
   "CompraGasolinaBidon": {
    "2026-09-06": 1.0,
@@ -517,7 +518,8 @@
    "2026-10-27": 2,
    "2026-10-28": 1,
    "2026-11-01": 2,
-   "2026-11-02": 52
+   "2026-11-02": 52,
+   "2026-11-03": 31
   },
   "CompraGasolinaBidon": {
    "2026-09-06": 1,
@@ -613,6 +615,316 @@
   }
  },
  "commits": [
+  {
+   "sha": "8d62a45",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-03T07:24:05Z",
+   "msg": "Las miniaturas de la portada del Guajojó, el Toborochi, la ruleta y la carrera van sin nombres que no se leen a ese tama",
+   "pts": 0.0,
+   "nota": "sin cambios de lineas"
+  },
+  {
+   "sha": "a4e63ec",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-03T06:25:39Z",
+   "msg": "Carrera: las fichas de nombre no pisan el letrero SALIDA mientras se ve",
+   "pts": 4.46,
+   "nota": ""
+  },
+  {
+   "sha": "d8b73dd",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-03T06:25:30Z",
+   "msg": "Carrera: la ficha amarilla se ubica primero y pegada a su llama, y la que el relator nombra busca lugar debajo de su lla",
+   "pts": 7.15,
+   "nota": ""
+  },
+  {
+   "sha": "98c870f",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-03T06:24:50Z",
+   "msg": "El trompo ya no deja un nombre entero tapado por otro al pasar lista: si después de los intentos una ficha sigue encima ",
+   "pts": 4.81,
+   "nota": ""
+  },
+  {
+   "sha": "e60319a",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-03T06:20:44Z",
+   "msg": "El cartel del ganador ya no parte palabras largas en el celular: con la cara al costado el nombre tiene unos 170 px y un",
+   "pts": 9.53,
+   "nota": ""
+  },
+  {
+   "sha": "656d635",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-03T06:18:13Z",
+   "msg": "Teleférico en celular: al arrancar, los nombres que se pasan lista esquivan los rótulos de grupo de las cabinas y ya no ",
+   "pts": 3.0,
+   "nota": ""
+  },
+  {
+   "sha": "3d49abb",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-03T06:16:40Z",
+   "msg": "Teleférico en celular: la subida final y el letrero CUMBRE quedan debajo del contador, que ahora lleva su placa, y la ba",
+   "pts": 5.86,
+   "nota": ""
+  },
+  {
+   "sha": "a0e3199",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-03T04:51:37Z",
+   "msg": "La imagen de la carrera muestra todos los nombres enteros: el recorte ya no corta a nadie en el borde ni deja asomar el ",
+   "pts": 0.0,
+   "nota": "sin cambios de lineas"
+  },
+  {
+   "sha": "4894d14",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-03T04:47:54Z",
+   "msg": "Las imágenes de los juegos se rehacen con el show de hoy: la carrera con pocas llamas grandes y la ficha del que va adel",
+   "pts": 1.0,
+   "nota": "import masivo (65 archivos)"
+  },
+  {
+   "sha": "9383493",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-03T03:38:12Z",
+   "msg": "Los nombres de los juegos del kit ya no se enciman ni tapan el contador: una pasada final separa los que se pisan más de",
+   "pts": 8.64,
+   "nota": ""
+  },
+  {
+   "sha": "5de0c74",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-03T02:50:11Z",
+   "msg": "El contador de los juegos del kit se reserva como dos cajas (el contador y la placa de marcas) y no como una que las abr",
+   "pts": 5.46,
+   "nota": ""
+  },
+  {
+   "sha": "7c72a6f",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-03T02:38:11Z",
+   "msg": "Guajojó: el rectángulo que los nombres esquivan es el del contador de verdad (desde donde el kit lo pone y con su alto y",
+   "pts": 4.17,
+   "nota": ""
+  },
+  {
+   "sha": "18617c2",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-03T01:31:42Z",
+   "msg": "En un celular el contador y sus marcas se van mientras entra el cartel del ganador (no quedan restos al costado), y los ",
+   "pts": 4.46,
+   "nota": ""
+  },
+  {
+   "sha": "c11a439",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-03T01:20:15Z",
+   "msg": "El Toborochi: una prueba fija que la cámara reparte entre las dos finalistas desde «quedan dos» hasta el golpe y recién ",
+   "pts": 5.32,
+   "nota": ""
+  },
+  {
+   "sha": "0e9c0ef",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-03T01:10:21Z",
+   "msg": "El Toborochi: cada visita del colibrí (¿Será Camila?) sale en mayúsculas grandes, la de la ganadora igual que las demás,",
+   "pts": 5.17,
+   "nota": ""
+  },
+  {
+   "sha": "cf4b393",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-03T01:09:44Z",
+   "msg": "El Toborochi en el celular: las fichas dejan de usar alfa (opacas al volar, se oscurecen antes de irse), el contador res",
+   "pts": 5.39,
+   "nota": ""
+  },
+  {
+   "sha": "115f70c",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-03T01:09:44Z",
+   "msg": "El sapo deja su lugar al contador: el encuadre reserva su caja con la fila de marcas y cuenta los nombres sentados, el c",
+   "pts": 6.81,
+   "nota": ""
+  },
+  {
+   "sha": "1cb48c4",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-03T01:09:43Z",
+   "msg": "En la chovena el nombre de quien ya salió se lee entero: la raya roja pasa detrás de la letra y es más fina",
+   "pts": 3.58,
+   "nota": ""
+  },
+  {
+   "sha": "6249a62",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-03T01:09:43Z",
+   "msg": "En el teleférico los nombres de quienes se bajaron se leen enteros: la raya roja pasa detrás de la cara y de la letra y ",
+   "pts": 3.0,
+   "nota": ""
+  },
+  {
+   "sha": "ed08c2c",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-03T01:09:42Z",
+   "msg": "La Entrada se lee en el celular: el bombo y su rótulo van en una fila propia debajo del contador y ya no tapan el total,",
+   "pts": 5.64,
+   "nota": ""
+  },
+  {
+   "sha": "097e203",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-03T01:07:37Z",
+   "msg": "Guajojó: el nombre de quien se sienta dura 1,8 s con el mismo fundido y entran hasta 5 a la vez en proyector; esos nombr",
+   "pts": 6.25,
+   "nota": ""
+  },
+  {
+   "sha": "aa13776",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-03T01:07:37Z",
+   "msg": "Guajojó: el show con 18 baja de 44 a 40 s de Normal (llamada, cantos, silencios y tandas más cortos) y desde el tercer c",
+   "pts": 6.52,
+   "nota": ""
+  },
+  {
+   "sha": "ebca4ef",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-03T01:06:36Z",
+   "msg": "Guajojó: el grito del cartel es «¡Quietos!» en cada silencio y no el nombre de quien se sienta; con su prueba en los dos",
+   "pts": 5.75,
+   "nota": ""
+  },
+  {
+   "sha": "f40753e",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-03T01:06:10Z",
+   "msg": "Guajojó: la ganadora lleva su nombre desde el último crac hasta el palo y el amanecer dura 1,8 s en vez de 2,6, así no c",
+   "pts": 4.81,
+   "nota": ""
+  },
+  {
+   "sha": "a1c786a",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-03T00:59:31Z",
+   "msg": "La regla del Toborochi cuenta lo que se ve, el viento que se lleva las flores y el colibrí que se posa en la que gana, y",
+   "pts": 5.46,
+   "nota": ""
+  },
+  {
+   "sha": "4bce597",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-03T00:59:26Z",
+   "msg": "En la carrera el rótulo META queda entero y a la vista: debajo del medallón de la cinta y dentro de los bordes de la pan",
+   "pts": 6.29,
+   "nota": ""
+  },
+  {
+   "sha": "fdb64a1",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-03T00:59:20Z",
+   "msg": "En la carrera las fichas de nombre no se pisan: la que el relator nombra manda, después la amarilla y las echadas; la qu",
+   "pts": 8.87,
+   "nota": ""
+  },
+  {
+   "sha": "b1f044d",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-03T00:46:18Z",
+   "msg": "La lista de la piñata se lee en los dos temas: la fila resaltada va con tinta sobre la mostaza (era crema, 1,8 a 1), el ",
+   "pts": 6.04,
+   "nota": ""
+  },
+  {
+   "sha": "a20efcd",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-03T00:40:58Z",
+   "msg": "El cartel de quien gana ya no parte un nombre a mitad de palabra: antes de partir por letras prueba todas las escalas y ",
+   "pts": 7.02,
+   "nota": ""
+  },
+  {
+   "sha": "69b028b",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-03T00:39:51Z",
+   "msg": "El auditor de pantalla cuenta un trazo como contorno solo si es oscuro, de 1,5 px y contrasta 3 a 1 con la letra: la tin",
+   "pts": 7.19,
+   "nota": ""
+  },
+  {
+   "sha": "aafa077",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-03T00:08:37Z",
+   "msg": "El auditor de pantalla frena un borde que se come la letra: si el borde es del mismo tono que el texto y pasa del 8 % de",
+   "pts": 7.97,
+   "nota": ""
+  },
   {
    "sha": "eb494c2",
    "team": "Tinkazo",

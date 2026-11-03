@@ -145290,5 +145290,1020 @@
     "d": 17
    }
   ]
+ },
+ "8d62a4563d99d21f793abcef1b4bde1088ca568d": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-03T07:24:05Z",
+  "message": "Las miniaturas de la portada del Guajojó, el Toborochi, la ruleta y la carrera van sin nombres que no se leen a ese tama",
+  "parents": 1,
+  "files": [
+   {
+    "f": "public/juegos/guajojo-light.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/guajojo.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/portada/guajojo-light.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/portada/guajojo.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/portada/race-light.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/portada/race.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/portada/toborochi-light.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/portada/toborochi.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/portada/wheel-light.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/portada/wheel.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/race-light.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/race.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/toborochi-light.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/toborochi.webp",
+    "a": 0,
+    "d": 0
+   }
+  ]
+ },
+ "a4e63ec4c26ab7b5911706d50ade074139a4e6b1": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-03T06:25:39Z",
+  "message": "Carrera: las fichas de nombre no pisan el letrero SALIDA mientras se ve",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/games/llamas/carrera.ts",
+    "a": 10,
+    "d": 0
+   }
+  ]
+ },
+ "d8b73dddaf4ef02c15821cd868bf0bd08553001c": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-03T06:25:30Z",
+  "message": "Carrera: la ficha amarilla se ubica primero y pegada a su llama, y la que el relator nombra busca lugar debajo de su lla",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/games/llamas/carrera-fichas.test.ts",
+    "a": 13,
+    "d": 0
+   },
+   {
+    "f": "src/games/llamas/carrera-fichas.ts",
+    "a": 4,
+    "d": 3
+   },
+   {
+    "f": "src/games/llamas/carrera.ts",
+    "a": 41,
+    "d": 9
+   }
+  ]
+ },
+ "656d63541ef57f3adb8bfead99cdf1f34bacf501": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-03T06:18:13Z",
+  "message": "Teleférico en celular: al arrancar, los nombres que se pasan lista esquivan los rótulos de grupo de las cabinas y ya no ",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/games/pixi/cablecar.ts",
+    "a": 2,
+    "d": 1
+   }
+  ]
+ },
+ "3d49abb612c1ad8f5630ced71975e6ffb2860f9a": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-03T06:16:40Z",
+  "message": "Teleférico en celular: la subida final y el letrero CUMBRE quedan debajo del contador, que ahora lleva su placa, y la ba",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/games/pixi/cablecar.ts",
+    "a": 25,
+    "d": 3
+   }
+  ]
+ },
+ "98c870fe6bb61d827aebbaa99312a7c1f7606105": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-03T06:24:50Z",
+  "message": "El trompo ya no deja un nombre entero tapado por otro al pasar lista: si después de los intentos una ficha sigue encima ",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/games/pixi/stage.ts",
+    "a": 13,
+    "d": 0
+   }
+  ]
+ },
+ "e60319af63e2244db7892bb91abef364c6fa0b53": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-03T06:20:44Z",
+  "message": "El cartel del ganador ya no parte palabras largas en el celular: con la cara al costado el nombre tiene unos 170 px y un",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/games/nombres.test.ts",
+    "a": 153,
+    "d": 3
+   },
+   {
+    "f": "src/games/nombres.ts",
+    "a": 149,
+    "d": 15
+   },
+   {
+    "f": "src/games/pixi/stage.ts",
+    "a": 39,
+    "d": 10
+   }
+  ]
+ },
+ "a0e31991ca46ffd803487162e23cd05b8a04592a": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-03T04:51:37Z",
+  "message": "La imagen de la carrera muestra todos los nombres enteros: el recorte ya no corta a nadie en el borde ni deja asomar el ",
+  "parents": 1,
+  "files": [
+   {
+    "f": "public/juegos/portada/race-light.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/portada/race.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/race-light.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/race.webp",
+    "a": 0,
+    "d": 0
+   }
+  ]
+ },
+ "4894d145468d6667b56e3fa508ca24be61f6b6b7": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-03T04:47:54Z",
+  "message": "Las imágenes de los juegos se rehacen con el show de hoy: la carrera con pocas llamas grandes y la ficha del que va adel",
+  "parents": 1,
+  "files": [
+   {
+    "f": "package.json",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/chovena-light.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/chovena.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/guajojo-light.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/guajojo.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/oruro-light.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/oruro.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/pinata-light.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/pinata.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/portada/chovena-light.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/portada/chovena.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/portada/guajojo-light.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/portada/guajojo.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/portada/oruro-light.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/portada/oruro.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/portada/pinata-light.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/portada/pinata.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/portada/race-light.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/portada/race.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/portada/sapo-light.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/portada/sapo.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/portada/teleferico-light.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/portada/teleferico.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/portada/toborochi-light.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/portada/toborochi.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/portada/trompo-light.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/portada/trompo.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/portada/wheel-light.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/portada/wheel.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/race-light.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/race.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/sapo-light.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/sapo.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/selector/chovena-light.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/selector/chovena.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/selector/guajojo-light.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/selector/guajojo.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/selector/oruro-light.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/selector/oruro.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/selector/pinata-light.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/selector/pinata.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/selector/race-light.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/selector/race.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/selector/sapo-light.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/selector/sapo.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/selector/teleferico-light.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/selector/teleferico.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/selector/toborochi-light.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/selector/toborochi.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/selector/trompo-light.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/selector/trompo.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/selector/wheel-light.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/selector/wheel.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/teleferico-light.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/teleferico.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/toborochi-light.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/toborochi.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/trompo-light.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/trompo.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/wheel-light.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/wheel.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "scripts/capturas-juegos.mjs",
+    "a": 21,
+    "d": 1
+   },
+   {
+    "f": "scripts/check-imagenes.mjs",
+    "a": 36,
+    "d": 0
+   },
+   {
+    "f": "scripts/lib/imagenes-viejas.mjs",
+    "a": 51,
+    "d": 0
+   },
+   {
+    "f": "scripts/lib/imagenes-viejas.test.mjs",
+    "a": 48,
+    "d": 0
+   }
+  ]
+ },
+ "7c72a6f8e6794e49d76fe770e4977f0be0139afd": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-03T02:38:11Z",
+  "message": "Guajojó: el rectángulo que los nombres esquivan es el del contador de verdad (desde donde el kit lo pone y con su alto y",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/games/pixi/guajojo.ts",
+    "a": 5,
+    "d": 3
+   }
+  ]
+ },
+ "c11a4398c96b9ecc53bed9e07a48282ea6da43fc": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-03T01:20:15Z",
+  "message": "El Toborochi: una prueba fija que la cámara reparte entre las dos finalistas desde «quedan dos» hasta el golpe y recién ",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/games/pixi/toborochi-plan.test.ts",
+    "a": 19,
+    "d": 0
+   }
+  ]
+ },
+ "0e9c0ef1991e6788dc46e5ff6704ea6ade71972e": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-03T01:10:21Z",
+  "message": "El Toborochi: cada visita del colibrí (¿Será Camila?) sale en mayúsculas grandes, la de la ganadora igual que las demás,",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/games/pixi/toborochi-plan.test.ts",
+    "a": 14,
+    "d": 0
+   },
+   {
+    "f": "src/games/pixi/toborochi-plan.ts",
+    "a": 2,
+    "d": 1
+   }
+  ]
+ },
+ "097e203e51e4bcf392d84639c4c11285b6a35b0d": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-03T01:07:37Z",
+  "message": "Guajojó: el nombre de quien se sienta dura 1,8 s con el mismo fundido y entran hasta 5 a la vez en proyector; esos nombr",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/games/pixi/guajojo.ts",
+    "a": 25,
+    "d": 12
+   }
+  ]
+ },
+ "aa1377600b95a7f45bf04486bf0f81147bb67930": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-03T01:07:37Z",
+  "message": "Guajojó: el show con 18 baja de 44 a 40 s de Normal (llamada, cantos, silencios y tandas más cortos) y desde el tercer c",
+  "parents": 1,
+  "files": [
+   {
+    "f": "scripts/audit-rigor.mjs",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/duraciones.test.ts",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "src/games/pixi/guajojo-duracion.ts",
+    "a": 5,
+    "d": 5
+   },
+   {
+    "f": "src/games/pixi/guajojo-plan.test.ts",
+    "a": 17,
+    "d": 3
+   },
+   {
+    "f": "src/games/pixi/guajojo-plan.ts",
+    "a": 3,
+    "d": 2
+   },
+   {
+    "f": "src/games/pixi/guajojo-textos.ts",
+    "a": 4,
+    "d": 0
+   }
+  ]
+ },
+ "ebca4ef37a698e90be87736e6b7ff45b6669892b": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-03T01:06:36Z",
+  "message": "Guajojó: el grito del cartel es «¡Quietos!» en cada silencio y no el nombre de quien se sienta; con su prueba en los dos",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/games/pixi/guajojo-plan.test.ts",
+    "a": 18,
+    "d": 3
+   },
+   {
+    "f": "src/games/pixi/guajojo-plan.ts",
+    "a": 3,
+    "d": 2
+   }
+  ]
+ },
+ "f40753e481164f1426f04624c3a1c9da73d96133": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-03T01:06:10Z",
+  "message": "Guajojó: la ganadora lleva su nombre desde el último crac hasta el palo y el amanecer dura 1,8 s en vez de 2,6, así no c",
+  "parents": 1,
+  "files": [
+   {
+    "f": "scripts/audit-rigor.mjs",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/duraciones.test.ts",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "src/games/pixi/guajojo-duracion.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/games/pixi/guajojo-plan.test.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/games/pixi/guajojo.ts",
+    "a": 2,
+    "d": 1
+   }
+  ]
+ },
+ "5de0c74dd03e9023c5aece87c20c358b3cfd7187": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-03T02:50:11Z",
+  "message": "El contador de los juegos del kit se reserva como dos cajas (el contador y la placa de marcas) y no como una que las abr",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/games/pixi/kit/marcador-vista.ts",
+    "a": 8,
+    "d": 3
+   },
+   {
+    "f": "src/games/pixi/stage.ts",
+    "a": 5,
+    "d": 5
+   }
+  ]
+ },
+ "18617c2aec7d087dd4edd427baff997579ab9df0": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-03T01:31:42Z",
+  "message": "En un celular el contador y sus marcas se van mientras entra el cartel del ganador (no quedan restos al costado), y los ",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/games/pixi/stage.ts",
+    "a": 9,
+    "d": 1
+   }
+  ]
+ },
+ "938349321b39006f7bc524d5fd02f2b633d0d817": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-03T03:38:12Z",
+  "message": "Los nombres de los juegos del kit ya no se enciman ni tapan el contador: una pasada final separa los que se pisan más de",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/games/pixi/kit/marcador-vista.ts",
+    "a": 12,
+    "d": 0
+   },
+   {
+    "f": "src/games/pixi/kit/nombres.test.ts",
+    "a": 72,
+    "d": 0
+   },
+   {
+    "f": "src/games/pixi/kit/nombres.ts",
+    "a": 70,
+    "d": 0
+   },
+   {
+    "f": "src/games/pixi/stage.ts",
+    "a": 44,
+    "d": 1
+   }
+  ]
+ },
+ "a20efcd7e26c75dd4e3052e86ceccf143ed4201c": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-03T00:40:58Z",
+  "message": "El cartel de quien gana ya no parte un nombre a mitad de palabra: antes de partir por letras prueba todas las escalas y ",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/games/nombres.test.ts",
+    "a": 33,
+    "d": 1
+   },
+   {
+    "f": "src/games/nombres.ts",
+    "a": 23,
+    "d": 7
+   }
+  ]
+ },
+ "cf4b39304933e8d575336e5ec36e46562f12680b": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-03T01:09:44Z",
+  "message": "El Toborochi en el celular: las fichas dejan de usar alfa (opacas al volar, se oscurecen antes de irse), el contador res",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/games/pixi/toborochi.ts",
+    "a": 13,
+    "d": 7
+   }
+  ]
+ },
+ "115f70c196479f917a8b1dddc46a91e40e368cf4": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-03T01:09:44Z",
+  "message": "El sapo deja su lugar al contador: el encuadre reserva su caja con la fila de marcas y cuenta los nombres sentados, el c",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/games/pixi/sapo.ts",
+    "a": 51,
+    "d": 4
+   }
+  ]
+ },
+ "1cb48c4d8f0862e89f9953fc38431cc84f233453": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-03T01:09:43Z",
+  "message": "En la chovena el nombre de quien ya salió se lee entero: la raya roja pasa detrás de la letra y es más fina",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/games/pixi/chovena.ts",
+    "a": 3,
+    "d": 2
+   }
+  ]
+ },
+ "6249a62da46dc354398f25a8c9f71a96bee72b13": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-03T01:09:43Z",
+  "message": "En el teleférico los nombres de quienes se bajaron se leen enteros: la raya roja pasa detrás de la cara y de la letra y ",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/games/pixi/cablecar.ts",
+    "a": 2,
+    "d": 1
+   }
+  ]
+ },
+ "ed08c2c874821d1dce9040330f5a127f29b42da2": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-03T01:09:42Z",
+  "message": "La Entrada se lee en el celular: el bombo y su rótulo van en una fila propia debajo del contador y ya no tapan el total,",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/games/pixi/oruro.ts",
+    "a": 16,
+    "d": 8
+   }
+  ]
+ },
+ "b1f044d00a13ed3eaaa7318a233dde5d51a735b7": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-03T00:46:18Z",
+  "message": "La lista de la piñata se lee en los dos temas: la fila resaltada va con tinta sobre la mostaza (era crema, 1,8 a 1), el ",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/games/pixi/pinata.ts",
+    "a": 28,
+    "d": 4
+   }
+  ]
+ },
+ "4bce5973c3d0b828af0e46964975e0474f7fc7b3": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-03T00:59:26Z",
+  "message": "En la carrera el rótulo META queda entero y a la vista: debajo del medallón de la cinta y dentro de los bordes de la pan",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/games/llamas/carrera.ts",
+    "a": 37,
+    "d": 1
+   }
+  ]
+ },
+ "fdb64a171e0e2485ed362f7bbe395f8e8c18393d": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-03T00:59:20Z",
+  "message": "En la carrera las fichas de nombre no se pisan: la que el relator nombra manda, después la amarilla y las echadas; la qu",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/games/llamas/carrera-fichas.test.ts",
+    "a": 76,
+    "d": 0
+   },
+   {
+    "f": "src/games/llamas/carrera-fichas.ts",
+    "a": 63,
+    "d": 0
+   },
+   {
+    "f": "src/games/llamas/carrera.ts",
+    "a": 70,
+    "d": 24
+   }
+  ]
+ },
+ "69b028b8f2ebad6192a7fd9c51804542819fe258": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-03T00:39:51Z",
+  "message": "El auditor de pantalla cuenta un trazo como contorno solo si es oscuro, de 1,5 px y contrasta 3 a 1 con la letra: la tin",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/juegos.md",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "scripts/audit-pantalla.mjs",
+    "a": 5,
+    "d": 11
+   },
+   {
+    "f": "scripts/lib/pantalla-comprobaciones.mjs",
+    "a": 25,
+    "d": 0
+   },
+   {
+    "f": "scripts/lib/pantalla-comprobaciones.test.mjs",
+    "a": 28,
+    "d": 1
+   }
+  ]
+ },
+ "aafa07777f3e64270bdd0f2e0304594c849a58b3": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-03T00:08:37Z",
+  "message": "El auditor de pantalla frena un borde que se come la letra: si el borde es del mismo tono que el texto y pasa del 8 % de",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/juegos.md",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "scripts/audit-pantalla.mjs",
+    "a": 17,
+    "d": 3
+   },
+   {
+    "f": "scripts/lib/pantalla-comprobaciones.mjs",
+    "a": 39,
+    "d": 1
+   },
+   {
+    "f": "scripts/lib/pantalla-comprobaciones.test.mjs",
+    "a": 57,
+    "d": 0
+   },
+   {
+    "f": "scripts/lib/resumen.test.mjs",
+    "a": 3,
+    "d": 3
+   }
+  ]
+ },
+ "a1c786a778d9270cec85300cb499e77b4ca9c58d": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-03T00:59:31Z",
+  "message": "La regla del Toborochi cuenta lo que se ve, el viento que se lleva las flores y el colibrí que se posa en la que gana, y",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/games/pixi/kit/catalogo.test.ts",
+    "a": 9,
+    "d": 0
+   },
+   {
+    "f": "src/i18n.ts",
+    "a": 6,
+    "d": 6
+   }
+  ]
  }
 }
