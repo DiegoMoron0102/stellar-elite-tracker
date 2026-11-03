@@ -141755,5 +141755,3540 @@
     "d": 16
    }
   ]
+ },
+ "eb494c2a4f1bdb99b5d7e1b0c18dd2f05755a16e": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-02T23:44:02Z",
+  "message": "El Guajojó y El Toborochi entran al selector y la portada: botón, tarjeta, ficha, notas de recomendación y capturas en l",
+  "parents": 1,
+  "files": [
+   {
+    "f": "README.md",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "docs/juegos.md",
+    "a": 9,
+    "d": 12
+   },
+   {
+    "f": "index.html",
+    "a": 7,
+    "d": 3
+   },
+   {
+    "f": "juegos.html",
+    "a": 23,
+    "d": 3
+   },
+   {
+    "f": "public/juegos/guajojo-light.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/guajojo.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/portada/guajojo-light.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/portada/guajojo.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/portada/toborochi-light.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/portada/toborochi.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/race-light.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/race.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/selector/guajojo-light.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/selector/guajojo.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/selector/toborochi-light.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/selector/toborochi.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/toborochi-light.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/toborochi.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "scripts/audit-emocion.mjs",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "scripts/audit-pantalla.mjs",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "scripts/lib/bateria-recortes.test.mjs",
+    "a": 8,
+    "d": 8
+   },
+   {
+    "f": "scripts/lib/boleta.mjs",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "scripts/lib/juegos.mjs",
+    "a": 8,
+    "d": 8
+   },
+   {
+    "f": "scripts/lib/juegos.test.mjs",
+    "a": 8,
+    "d": 8
+   },
+   {
+    "f": "scripts/lib/resumen.test.mjs",
+    "a": 8,
+    "d": 8
+   },
+   {
+    "f": "sorteo-en-clase.html",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "sorteo-para-meetup.html",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "src/games/pixi/kit/catalogo.ts",
+    "a": 3,
+    "d": 3
+   },
+   {
+    "f": "src/i18n.ts",
+    "a": 30,
+    "d": 10
+   },
+   {
+    "f": "src/styles.css",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "src/ui/gamecard.test.ts",
+    "a": 3,
+    "d": 1
+   },
+   {
+    "f": "src/ui/recomendar.test.ts",
+    "a": 18,
+    "d": 16
+   }
+  ]
+ },
+ "79b78c95bacfffed2b22d684f1e1160fa952d91a": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-02T23:43:57Z",
+  "message": "El selector de la herramienta muestra una captura real de cada juego, en el tema del sitio, y un juego que no encaja con",
+  "parents": 1,
+  "files": [
+   {
+    "f": "index.html",
+    "a": 8,
+    "d": 8
+   },
+   {
+    "f": "public/juegos/selector/chovena-light.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/selector/chovena.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/selector/oruro-light.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/selector/oruro.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/selector/pinata-light.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/selector/pinata.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/selector/race-light.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/selector/race.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/selector/sapo-light.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/selector/sapo.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/selector/teleferico-light.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/selector/teleferico.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/selector/trompo-light.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/selector/trompo.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/selector/wheel-light.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/selector/wheel.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "scripts/audit-ui.mjs",
+    "a": 15,
+    "d": 21
+   },
+   {
+    "f": "scripts/lib/nuevo-juego.mjs",
+    "a": 6,
+    "d": 1
+   },
+   {
+    "f": "scripts/lib/nuevo-juego.test.mjs",
+    "a": 11,
+    "d": 7
+   },
+   {
+    "f": "src/main.ts",
+    "a": 0,
+    "d": 3
+   },
+   {
+    "f": "src/styles.css",
+    "a": 13,
+    "d": 4
+   },
+   {
+    "f": "src/ui/botones-kit.ts",
+    "a": 16,
+    "d": 1
+   },
+   {
+    "f": "src/ui/thumbs.test.ts",
+    "a": 0,
+    "d": 63
+   },
+   {
+    "f": "src/ui/thumbs.ts",
+    "a": 0,
+    "d": 1164
+   }
+  ]
+ },
+ "be839df7bafe2881592673b1e4faeecd7c8fd4e6": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-02T23:04:38Z",
+  "message": "Las tarjetas de El show en la portada muestran una captura nítida de cada juego en su mejor momento, en el tema del siti",
+  "parents": 1,
+  "files": [
+   {
+    "f": "index.html",
+    "a": 8,
+    "d": 8
+   },
+   {
+    "f": "public/juegos/portada/chovena-light.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/portada/chovena.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/portada/oruro-light.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/portada/oruro.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/portada/pinata-light.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/portada/pinata.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/portada/race-light.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/portada/race.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/portada/sapo-light.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/portada/sapo.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/portada/teleferico-light.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/portada/teleferico.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/portada/trompo-light.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/portada/trompo.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/portada/wheel-light.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/portada/wheel.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/race-light.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/race.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "scripts/capturas-juegos.mjs",
+    "a": 70,
+    "d": 18
+   },
+   {
+    "f": "src/games/pixi/stage.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/styles.css",
+    "a": 9,
+    "d": 1
+   }
+  ]
+ },
+ "c647cae80b521b4eccd2c22959e7f2d5dd80d50a": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-02T23:34:06Z",
+  "message": "La chovena vuelve con su presentación nueva: en la final los dos nombres se acomodan por su lugar en la pantalla y no pr",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/juegos.md",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "docs/juegos/chovena.md",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/games/pixi/chovena.ts",
+    "a": 40,
+    "d": 6
+   }
+  ]
+ },
+ "e99360f60b0324152ce6319b47b3b4dc1d55ecc4": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-02T23:34:30Z",
+  "message": "La prueba de las fuentes distingue un sitio que no deja pasar robots de un enlace roto: un 401, 403 o 429 avisa, un 404 ",
+  "parents": 1,
+  "files": [
+   {
+    "f": "scripts/check-lore.mjs",
+    "a": 13,
+    "d": 3
+   }
+  ]
+ },
+ "19e2a27af573eda8d96de781c70c79e57a9edefa": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-02T23:34:30Z",
+  "message": "El nombre de quien va adelante en la carrera se lee: la ficha amarilla lleva letra de tinta sin borde oscuro y más aire ",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/games/llamas/carrera.ts",
+    "a": 6,
+    "d": 4
+   }
+  ]
+ },
+ "bac2dd8e3a6ad0ba21f26184d3b9bef3ebc86c61": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-02T17:11:16Z",
+  "message": "El portero llama registrar a lo que anota en su registro de eventos",
+  "parents": 1,
+  "files": [
+   {
+    "f": "workers/patrocinio/src/index.ts",
+    "a": 4,
+    "d": 4
+   }
+  ]
+ },
+ "922b6b3241df2fbf692d92bd19320309a73a7a5f": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-02T17:08:48Z",
+  "message": "El sitio puede pagar las comisiones a través del portero: quien rige lo dice el servicio, el cupo se ve junto a sellar y",
+  "parents": 1,
+  "files": [
+   {
+    "f": "index.html",
+    "a": 2,
+    "d": 0
+   },
+   {
+    "f": "precios.html",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "src/contar.test.ts",
+    "a": 40,
+    "d": 1
+   },
+   {
+    "f": "src/contar.ts",
+    "a": 33,
+    "d": 3
+   },
+   {
+    "f": "src/i18n.ts",
+    "a": 32,
+    "d": 0
+   },
+   {
+    "f": "src/main.ts",
+    "a": 3,
+    "d": 0
+   },
+   {
+    "f": "src/stellar/chequeo-red.ts",
+    "a": 15,
+    "d": 1
+   },
+   {
+    "f": "src/stellar/envio.test.ts",
+    "a": 15,
+    "d": 0
+   },
+   {
+    "f": "src/stellar/envio.ts",
+    "a": 11,
+    "d": 2
+   },
+   {
+    "f": "src/stellar/errores.ts",
+    "a": 63,
+    "d": 0
+   },
+   {
+    "f": "src/stellar/patrocinador.test.ts",
+    "a": 327,
+    "d": 0
+   },
+   {
+    "f": "src/stellar/patrocinador.ts",
+    "a": 392,
+    "d": 0
+   },
+   {
+    "f": "src/styles.css",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "src/ui/anchor.ts",
+    "a": 26,
+    "d": 13
+   },
+   {
+    "f": "src/ui/cupo-patrocinio.ts",
+    "a": 72,
+    "d": 0
+   },
+   {
+    "f": "src/ui/detalle-error.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/ui/draw-propio.test.ts",
+    "a": 119,
+    "d": 0
+   },
+   {
+    "f": "src/ui/draw.ts",
+    "a": 44,
+    "d": 7
+   },
+   {
+    "f": "src/ui/envio-portero.test.ts",
+    "a": 208,
+    "d": 0
+   },
+   {
+    "f": "src/ui/envio-sdk.ts",
+    "a": 72,
+    "d": 8
+   },
+   {
+    "f": "src/ui/error-accion.ts",
+    "a": 7,
+    "d": 2
+   },
+   {
+    "f": "src/ui/espera.ts",
+    "a": 11,
+    "d": 4
+   },
+   {
+    "f": "src/ui/freeze-proteger.test.ts",
+    "a": 2,
+    "d": 0
+   },
+   {
+    "f": "src/ui/freeze.ts",
+    "a": 9,
+    "d": 2
+   },
+   {
+    "f": "src/ui/red-acciones.ts",
+    "a": 30,
+    "d": 2
+   },
+   {
+    "f": "src/ui/red-patrocinio.test.ts",
+    "a": 129,
+    "d": 0
+   },
+   {
+    "f": "src/ui/red.ts",
+    "a": 66,
+    "d": 6
+   },
+   {
+    "f": "src/ui/siguiente.ts",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "src/ui/sortear-propio.ts",
+    "a": 56,
+    "d": 0
+   },
+   {
+    "f": "terminos.html",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "workers/enlaces/src/conteo.ts",
+    "a": 10,
+    "d": 1
+   }
+  ]
+ },
+ "07d45ae57d490a8944ea3af5a095eb7c69028f4a": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-02T17:06:07Z",
+  "message": "El portero del patrocinio: un Worker que cuenta y paga las comisiones de sellar y sortear con tope por cuenta y por día,",
+  "parents": 1,
+  "files": [
+   {
+    "f": ".github/workflows/vigilar-red.yml",
+    "a": 14,
+    "d": 0
+   },
+   {
+    "f": "docs/architecture.md",
+    "a": 2,
+    "d": 0
+   },
+   {
+    "f": "package.json",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "pnpm-lock.yaml",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "workers/patrocinio/.gitignore",
+    "a": 4,
+    "d": 0
+   },
+   {
+    "f": "workers/patrocinio/README.md",
+    "a": 232,
+    "d": 0
+   },
+   {
+    "f": "workers/patrocinio/preparar-testnet.mjs",
+    "a": 108,
+    "d": 0
+   },
+   {
+    "f": "workers/patrocinio/probar.mjs",
+    "a": 499,
+    "d": 0
+   },
+   {
+    "f": "workers/patrocinio/src/armar.ts",
+    "a": 93,
+    "d": 0
+   },
+   {
+    "f": "workers/patrocinio/src/config.ts",
+    "a": 189,
+    "d": 0
+   },
+   {
+    "f": "workers/patrocinio/src/cupos.test.ts",
+    "a": 314,
+    "d": 0
+   },
+   {
+    "f": "workers/patrocinio/src/cupos.ts",
+    "a": 279,
+    "d": 0
+   },
+   {
+    "f": "workers/patrocinio/src/index.ts",
+    "a": 224,
+    "d": 0
+   },
+   {
+    "f": "workers/patrocinio/src/lista-blanca.test.ts",
+    "a": 162,
+    "d": 0
+   },
+   {
+    "f": "workers/patrocinio/src/lista-blanca.ts",
+    "a": 234,
+    "d": 0
+   },
+   {
+    "f": "workers/patrocinio/src/por-ip.test.ts",
+    "a": 27,
+    "d": 0
+   },
+   {
+    "f": "workers/patrocinio/src/por-ip.ts",
+    "a": 32,
+    "d": 0
+   },
+   {
+    "f": "workers/patrocinio/src/red.ts",
+    "a": 172,
+    "d": 0
+   },
+   {
+    "f": "workers/patrocinio/src/servicio.test.ts",
+    "a": 724,
+    "d": 0
+   },
+   {
+    "f": "workers/patrocinio/src/servicio.ts",
+    "a": 393,
+    "d": 0
+   },
+   {
+    "f": "workers/patrocinio/src/sqlite-prueba.ts",
+    "a": 18,
+    "d": 0
+   },
+   {
+    "f": "workers/patrocinio/testnet.mjs",
+    "a": 52,
+    "d": 0
+   },
+   {
+    "f": "workers/patrocinio/wrangler.toml",
+    "a": 28,
+    "d": 0
+   }
+  ]
+ },
+ "4be9773b6d54d8a119d00a780241d9c9a3a4e99a": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-02T22:26:48Z",
+  "message": "En los juegos de quedar de pie el contador dice cuántos quedan de cuántos eran, con una marca por persona; la piñata mue",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/juegos.md",
+    "a": 5,
+    "d": 3
+   },
+   {
+    "f": "docs/juegos/guajojo.md",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "docs/juegos/pinata.md",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "docs/juegos/sapo.md",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "docs/juegos/teleferico.md",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "docs/juegos/toborochi.md",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "docs/juegos/trompo.md",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/games/pixi/cablecar-nino.test.ts",
+    "a": 12,
+    "d": 1
+   },
+   {
+    "f": "src/games/pixi/cablecar-nino.ts",
+    "a": 14,
+    "d": 1
+   },
+   {
+    "f": "src/games/pixi/cablecar.ts",
+    "a": 28,
+    "d": 4
+   },
+   {
+    "f": "src/games/pixi/guajojo-textos.ts",
+    "a": 0,
+    "d": 2
+   },
+   {
+    "f": "src/games/pixi/guajojo.ts",
+    "a": 4,
+    "d": 2
+   },
+   {
+    "f": "src/games/pixi/kit/crear.ts",
+    "a": 3,
+    "d": 1
+   },
+   {
+    "f": "src/games/pixi/kit/index.ts",
+    "a": 2,
+    "d": 1
+   },
+   {
+    "f": "src/games/pixi/kit/marcador-vista.ts",
+    "a": 55,
+    "d": 4
+   },
+   {
+    "f": "src/games/pixi/kit/marcador.ts",
+    "a": 76,
+    "d": 0
+   },
+   {
+    "f": "src/games/pixi/kit/nino.test.ts",
+    "a": 51,
+    "d": 1
+   },
+   {
+    "f": "src/games/pixi/kit/respuestas.ts",
+    "a": 17,
+    "d": 0
+   },
+   {
+    "f": "src/games/pixi/nino.ts",
+    "a": 6,
+    "d": 0
+   },
+   {
+    "f": "src/games/pixi/oruro-nino.test.ts",
+    "a": 11,
+    "d": 2
+   },
+   {
+    "f": "src/games/pixi/oruro-nino.ts",
+    "a": 11,
+    "d": 1
+   },
+   {
+    "f": "src/games/pixi/oruro-tags.test.ts",
+    "a": 1,
+    "d": 11
+   },
+   {
+    "f": "src/games/pixi/oruro-tags.ts",
+    "a": 0,
+    "d": 3
+   },
+   {
+    "f": "src/games/pixi/oruro.ts",
+    "a": 21,
+    "d": 9
+   },
+   {
+    "f": "src/games/pixi/pinata-labels.ts",
+    "a": 24,
+    "d": 0
+   },
+   {
+    "f": "src/games/pixi/pinata-lista.test.ts",
+    "a": 30,
+    "d": 1
+   },
+   {
+    "f": "src/games/pixi/pinata.ts",
+    "a": 113,
+    "d": 57
+   },
+   {
+    "f": "src/games/pixi/sapo.ts",
+    "a": 11,
+    "d": 4
+   },
+   {
+    "f": "src/games/pixi/toborochi-textos.ts",
+    "a": 0,
+    "d": 2
+   },
+   {
+    "f": "src/games/pixi/toborochi.ts",
+    "a": 4,
+    "d": 2
+   },
+   {
+    "f": "src/games/pixi/trompo.ts",
+    "a": 13,
+    "d": 7
+   },
+   {
+    "f": "src/i18n.ts",
+    "a": 4,
+    "d": 10
+   }
+  ]
+ },
+ "baaa7eed9ab0e3d67fd60f2e3a02bd6690a4dbfc": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-02T22:26:47Z",
+  "message": "La prueba del niño, tercera y cuarta vuelta: adónde mirar decide solo en la carrera y en la rueda con la zona vecina, y ",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/juegos.md",
+    "a": 72,
+    "d": 6
+   },
+   {
+    "f": "scripts/audit-nino.mjs",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "scripts/lib/nino.mjs",
+    "a": 79,
+    "d": 19
+   },
+   {
+    "f": "scripts/lib/nino.test.mjs",
+    "a": 126,
+    "d": 8
+   },
+   {
+    "f": "scripts/prompt-nino.md",
+    "a": 1,
+    "d": 1
+   }
+  ]
+ },
+ "d6d206bc5355c1c3cd021c175ac80b0eba8923a8": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-02T22:02:37Z",
+  "message": "El auditor de palabras ya no necesita la excepción de la meta de la carrera",
+  "parents": 1,
+  "files": [
+   {
+    "f": "scripts/lib/palabras-prohibidas.json",
+    "a": 1,
+    "d": 2
+   }
+  ]
+ },
+ "13e810e3421e2c841a6cbdec9d2e1c71b648d83c": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-02T22:02:37Z",
+  "message": "El auditor exigente lee al ganador del cartel, así un relator que calla al coronar no cuenta como falla de la pestaña es",
+  "parents": 1,
+  "files": [
+   {
+    "f": "scripts/lib/pestana.mjs",
+    "a": 15,
+    "d": 2
+   },
+   {
+    "f": "scripts/lib/pestana.test.mjs",
+    "a": 18,
+    "d": 1
+   }
+  ]
+ },
+ "15fcc200fcb5b25872fa788c96c2f704e9a8c346": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-02T22:00:25Z",
+  "message": "La carrera de siempre y el 3D le dicen al auditor dónde queda quien gana, el 3D dibuja la manta y no pisa las fichas, y ",
+  "parents": 1,
+  "files": [
+   {
+    "f": "scripts/capturas-3d.mjs",
+    "a": 3,
+    "d": 1
+   },
+   {
+    "f": "src/games/llamas/carrera-3d-mapa.ts",
+    "a": 2,
+    "d": 0
+   },
+   {
+    "f": "src/games/llamas/carrera-3d.ts",
+    "a": 19,
+    "d": 1
+   },
+   {
+    "f": "src/games/llamas/carrera-textos.ts",
+    "a": 4,
+    "d": 2
+   },
+   {
+    "f": "src/games/llamas/carrera.ts",
+    "a": 27,
+    "d": 11
+   }
+  ]
+ },
+ "2b9efadaa6b6c80527673840ed27d29e83621fa6": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-02T22:00:25Z",
+  "message": "La carrera nueva en el celular: quien va primera lleva ADELANTE junto a su ficha y no queda tapada, el cartel final no p",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/games/llamas/carrera-nueva.test.ts",
+    "a": 5,
+    "d": 0
+   },
+   {
+    "f": "src/games/llamas/carrera-show.test.ts",
+    "a": 5,
+    "d": 0
+   },
+   {
+    "f": "src/games/llamas/carrera-show.ts",
+    "a": 2,
+    "d": 0
+   },
+   {
+    "f": "src/games/llamas/carrera-textos.ts",
+    "a": 2,
+    "d": 0
+   },
+   {
+    "f": "src/games/llamas/carrera.ts",
+    "a": 47,
+    "d": 7
+   },
+   {
+    "f": "src/games/pixi/kit/crear.ts",
+    "a": 3,
+    "d": 1
+   },
+   {
+    "f": "src/games/pixi/kit/marcador-vista.ts",
+    "a": 5,
+    "d": 0
+   },
+   {
+    "f": "src/games/pixi/kit/tipos.ts",
+    "a": 6,
+    "d": 0
+   }
+  ]
+ },
+ "75aaf8a415efe2946a02707716e7b9b1d1ddd078": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-02T22:00:13Z",
+  "message": "La sala se publica como dominio propio, s.tinkazo.app: el despliegue crea el registro y el certificado, en el plan grati",
+  "parents": 1,
+  "files": [
+   {
+    "f": "workers/sala/README.md",
+    "a": 3,
+    "d": 4
+   },
+   {
+    "f": "workers/sala/wrangler.toml",
+    "a": 2,
+    "d": 1
+   }
+  ]
+ },
+ "9a89bce799a0b3a3db1d0f51213e55fccaf4b9b9": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-02T21:47:08Z",
+  "message": "La página del comprobante no corta los pasos para rehacerlo con fuentes más anchas",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/styles.css",
+    "a": 8,
+    "d": 9
+   }
+  ]
+ },
+ "240d545f11c269daf19b9faf43c1993e6ba775b9": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-02T21:58:34Z",
+  "message": "Las tarjetas de historia dicen solo lo que sostienen sus fuentes: el trompo según el diccionario, el stroop como parte d",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/boletas-vetos.json",
+    "a": 8,
+    "d": 1
+   },
+   {
+    "f": "src/i18n.ts",
+    "a": 8,
+    "d": 8
+   }
+  ]
+ },
+ "75d726755c0cf4fee1c3dd00f93978b6a062301d": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-02T18:41:26Z",
+  "message": "El auditor exigente mide el cartel en tiempo de juego, así una corrida lenta por carga no cuenta como falla de la pestañ",
+  "parents": 1,
+  "files": [
+   {
+    "f": "scripts/lib/pestana.mjs",
+    "a": 17,
+    "d": 8
+   },
+   {
+    "f": "scripts/lib/pestana.test.mjs",
+    "a": 20,
+    "d": 0
+   }
+  ]
+ },
+ "5de28ae582e0299c7b3d258eccd5624a573f8b75": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-02T18:13:06Z",
+  "message": "pnpm audit:todo --boleta deja la boleta escrita y, con --json, su línea de resumen al final",
+  "parents": 1,
+  "files": [
+   {
+    "f": "scripts/audit-todo.mjs",
+    "a": 10,
+    "d": 2
+   },
+   {
+    "f": "scripts/boleta.mjs",
+    "a": 13,
+    "d": 19
+   },
+   {
+    "f": "scripts/lib/boleta-archivo.mjs",
+    "a": 37,
+    "d": 0
+   },
+   {
+    "f": "scripts/lib/boleta-archivo.test.mjs",
+    "a": 23,
+    "d": 0
+   }
+  ]
+ },
+ "934065f83f98d87a8aa4f36b66593a35f6603e1f": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-02T18:12:05Z",
+  "message": "La fila de verdad y respeto de la boleta encuentra las tarjetas de los juegos del kit: check-lore y la boleta leen las t",
+  "parents": 1,
+  "files": [
+   {
+    "f": "scripts/boleta.mjs",
+    "a": 4,
+    "d": 2
+   },
+   {
+    "f": "scripts/check-lore.mjs",
+    "a": 2,
+    "d": 5
+   },
+   {
+    "f": "scripts/lib/boleta.mjs",
+    "a": 4,
+    "d": 7
+   },
+   {
+    "f": "scripts/lib/boleta.test.mjs",
+    "a": 20,
+    "d": 0
+   },
+   {
+    "f": "scripts/lib/tarjetas.mjs",
+    "a": 32,
+    "d": 0
+   }
+  ]
+ },
+ "44790a8d5b37241d0cdde173cd588f302aaa7599": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-02T17:50:59Z",
+  "message": "La documentación de la boleta habla de revisiones y vetos sin nombrar a nadie",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/juegos.md",
+    "a": 3,
+    "d": 3
+   },
+   {
+    "f": "scripts/lib/boleta.mjs",
+    "a": 5,
+    "d": 5
+   },
+   {
+    "f": "scripts/lib/palabras-prohibidas.json",
+    "a": 1,
+    "d": 1
+   }
+  ]
+ },
+ "df0ad9aa6e9b1f9614e1ee97ec1cbd92b6b66198": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-02T17:47:37Z",
+  "message": "Si quien organiza cambia de pestaña en el medio del show, al volver el show sigue donde iba, con el ganador correcto y s",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/juegos.md",
+    "a": 25,
+    "d": 0
+   },
+   {
+    "f": "scripts/audit-rigor.mjs",
+    "a": 37,
+    "d": 0
+   },
+   {
+    "f": "scripts/lib/pestana.mjs",
+    "a": 269,
+    "d": 0
+   },
+   {
+    "f": "scripts/lib/pestana.test.mjs",
+    "a": 195,
+    "d": 0
+   },
+   {
+    "f": "src/music.ts",
+    "a": 14,
+    "d": 1
+   }
+  ]
+ },
+ "af0eda8469fb9435f7d97b71031ca2ac625f8f18": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-02T17:46:11Z",
+  "message": "El Toborochi se entiende mejor: el tronco es un árbol y no una maceta, el colibrí pasa al empezar para que se sepa que e",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/games/pixi/toborochi.ts",
+    "a": 72,
+    "d": 16
+   }
+  ]
+ },
+ "6f89c343e5653b0f810cbb2eca87e6f7857a5e32": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-02T16:52:26Z",
+  "message": "La prueba del niño, segunda vuelta: cuánto falta solo donde se ve, adónde mirar siempre por zona, el olor a apuesta por ",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/juegos.md",
+    "a": 14,
+    "d": 9
+   },
+   {
+    "f": "scripts/lib/nino.mjs",
+    "a": 49,
+    "d": 15
+   },
+   {
+    "f": "scripts/lib/nino.test.mjs",
+    "a": 69,
+    "d": 11
+   },
+   {
+    "f": "scripts/prompt-nino.md",
+    "a": 3,
+    "d": 3
+   },
+   {
+    "f": "src/games/llamas/pixi-race.ts",
+    "a": 4,
+    "d": 4
+   },
+   {
+    "f": "src/games/llamas/race-nino.test.ts",
+    "a": 16,
+    "d": 0
+   },
+   {
+    "f": "src/games/llamas/race-nino.ts",
+    "a": 9,
+    "d": 5
+   },
+   {
+    "f": "src/games/pixi/kit/crear.ts",
+    "a": 4,
+    "d": 2
+   },
+   {
+    "f": "src/games/pixi/kit/nino.test.ts",
+    "a": 21,
+    "d": 1
+   },
+   {
+    "f": "src/games/pixi/kit/respuestas.ts",
+    "a": 32,
+    "d": 0
+   },
+   {
+    "f": "src/games/pixi/wheel-nino.test.ts",
+    "a": 6,
+    "d": 0
+   },
+   {
+    "f": "src/games/pixi/wheel-nino.ts",
+    "a": 8,
+    "d": 2
+   }
+  ]
+ },
+ "e79cde8ccf2387312029ecb6cf4fc2f7c003b070": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-02T16:41:05Z",
+  "message": "La prueba de \"Stellar no contesta\" ya no falla a veces: cada prueba cancela los temporizadores que dejó, para que el che",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/ui/red.test.ts",
+    "a": 20,
+    "d": 0
+   }
+  ]
+ },
+ "ecef1350b156f14ab3c4735dc9dda6be812eb9fc": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-02T14:23:53Z",
+  "message": "La piñata, el teleférico y Oruro exponen el gancho de la prueba del niño y pasan a la forma de pie, con quienes siguen, ",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/juegos.md",
+    "a": 5,
+    "d": 1
+   },
+   {
+    "f": "scripts/lib/nino.mjs",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "scripts/lib/nino.test.mjs",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "src/games/pixi/cablecar-nino.test.ts",
+    "a": 122,
+    "d": 0
+   },
+   {
+    "f": "src/games/pixi/cablecar-nino.ts",
+    "a": 80,
+    "d": 0
+   },
+   {
+    "f": "src/games/pixi/cablecar.ts",
+    "a": 33,
+    "d": 0
+   },
+   {
+    "f": "src/games/pixi/oruro-nino.test.ts",
+    "a": 127,
+    "d": 0
+   },
+   {
+    "f": "src/games/pixi/oruro-nino.ts",
+    "a": 71,
+    "d": 0
+   },
+   {
+    "f": "src/games/pixi/oruro.ts",
+    "a": 30,
+    "d": 6
+   },
+   {
+    "f": "src/games/pixi/pinata-nino.test.ts",
+    "a": 133,
+    "d": 0
+   },
+   {
+    "f": "src/games/pixi/pinata-nino.ts",
+    "a": 52,
+    "d": 0
+   },
+   {
+    "f": "src/games/pixi/pinata-plan.ts",
+    "a": 25,
+    "d": 0
+   },
+   {
+    "f": "src/games/pixi/pinata.ts",
+    "a": 21,
+    "d": 9
+   },
+   {
+    "f": "src/games/pixi/salidas-nino.test.ts",
+    "a": 42,
+    "d": 0
+   },
+   {
+    "f": "src/games/pixi/salidas-nino.ts",
+    "a": 75,
+    "d": 0
+   }
+  ]
+ },
+ "4c517fb444874785a7720f72936ac4b9d5519a91": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-02T14:21:37Z",
+  "message": "El sapo, el trompo y la chovena exponen el gancho de la prueba del niño y pasan a la forma de pie, con quienes siguen, a",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/juegos.md",
+    "a": 7,
+    "d": 1
+   },
+   {
+    "f": "scripts/lib/nino.mjs",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "scripts/lib/nino.test.mjs",
+    "a": 3,
+    "d": 2
+   },
+   {
+    "f": "src/games/pixi/chovena-nino.test.ts",
+    "a": 108,
+    "d": 0
+   },
+   {
+    "f": "src/games/pixi/chovena-nino.ts",
+    "a": 28,
+    "d": 0
+   },
+   {
+    "f": "src/games/pixi/chovena.ts",
+    "a": 37,
+    "d": 0
+   },
+   {
+    "f": "src/games/pixi/de-pie-nino.ts",
+    "a": 65,
+    "d": 0
+   },
+   {
+    "f": "src/games/pixi/sapo-nino.test.ts",
+    "a": 141,
+    "d": 0
+   },
+   {
+    "f": "src/games/pixi/sapo-nino.ts",
+    "a": 103,
+    "d": 0
+   },
+   {
+    "f": "src/games/pixi/sapo-tiempos.ts",
+    "a": 64,
+    "d": 0
+   },
+   {
+    "f": "src/games/pixi/sapo.ts",
+    "a": 48,
+    "d": 48
+   },
+   {
+    "f": "src/games/pixi/trompo-nino.test.ts",
+    "a": 112,
+    "d": 0
+   },
+   {
+    "f": "src/games/pixi/trompo-nino.ts",
+    "a": 28,
+    "d": 0
+   },
+   {
+    "f": "src/games/pixi/trompo.ts",
+    "a": 42,
+    "d": 0
+   }
+  ]
+ },
+ "8b73f62b682f4bd0f0164ec338d208e5823c408f": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-02T14:19:31Z",
+  "message": "Las tarjetas de historia siguen más de cerca a su fuente (el tincazo, la piñata de Acolman) y la del Toborochi cuenta el",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/games/lore.ts",
+    "a": 13,
+    "d": 6
+   },
+   {
+    "f": "src/i18n.ts",
+    "a": 8,
+    "d": 8
+   }
+  ]
+ },
+ "d9707411e40c793f87bbf3a307b5f6f597d62108": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-02T13:43:01Z",
+  "message": "La boleta corre el auditor de palabras por juego y no confunde el olor a apuesta con la comprensión",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/juegos.md",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "scripts/audit-todo.mjs",
+    "a": 2,
+    "d": 0
+   },
+   {
+    "f": "scripts/lib/bateria.mjs",
+    "a": 7,
+    "d": 4
+   },
+   {
+    "f": "scripts/lib/bateria.test.mjs",
+    "a": 11,
+    "d": 0
+   },
+   {
+    "f": "scripts/lib/boleta.mjs",
+    "a": 23,
+    "d": 7
+   },
+   {
+    "f": "scripts/lib/boleta.test.mjs",
+    "a": 37,
+    "d": 1
+   }
+  ]
+ },
+ "ef698bbb58675980867cb031a5a1da1ad28571a2": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-02T13:39:44Z",
+  "message": "El auditor de emoción mide el ritmo de los hechos desde el plan: huecos, información temprana, silencio antes del golpe ",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/juegos.md",
+    "a": 39,
+    "d": 5
+   },
+   {
+    "f": "scripts/audit-emocion.mjs",
+    "a": 68,
+    "d": 3
+   },
+   {
+    "f": "scripts/audit-sound.mjs",
+    "a": 5,
+    "d": 1
+   },
+   {
+    "f": "scripts/lib/ritmo.mjs",
+    "a": 296,
+    "d": 0
+   },
+   {
+    "f": "scripts/lib/ritmo.test.mjs",
+    "a": 256,
+    "d": 0
+   }
+  ]
+ },
+ "b99e9255b8aff804e9143f1293912ce1c8da18ee": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-02T13:38:18Z",
+  "message": "La prueba del niño entiende la forma de cada juego: cada uno declara la suya, el juez saca la tira de tres cuadros, vere",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/juegos.md",
+    "a": 52,
+    "d": 24
+   },
+   {
+    "f": "scripts/audit-nino.mjs",
+    "a": 215,
+    "d": 87
+   },
+   {
+    "f": "scripts/lib/nino.mjs",
+    "a": 247,
+    "d": 64
+   },
+   {
+    "f": "scripts/lib/nino.test.mjs",
+    "a": 305,
+    "d": 82
+   },
+   {
+    "f": "scripts/lib/nuevo-juego.mjs",
+    "a": 2,
+    "d": 0
+   },
+   {
+    "f": "scripts/plantillas/juego/diseno.md.tpl",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "scripts/prompt-nino.md",
+    "a": 32,
+    "d": 23
+   },
+   {
+    "f": "src/games/llamas/pixi-race.ts",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "src/games/pixi/kit/catalogo.test.ts",
+    "a": 13,
+    "d": 0
+   },
+   {
+    "f": "src/games/pixi/kit/catalogo.ts",
+    "a": 11,
+    "d": 0
+   },
+   {
+    "f": "src/games/pixi/kit/crear.ts",
+    "a": 3,
+    "d": 1
+   },
+   {
+    "f": "src/games/pixi/kit/respuestas.ts",
+    "a": 21,
+    "d": 7
+   },
+   {
+    "f": "src/games/pixi/nino.ts",
+    "a": 7,
+    "d": 3
+   },
+   {
+    "f": "src/games/pixi/wheel.ts",
+    "a": 1,
+    "d": 0
+   }
+  ]
+ },
+ "061b21dfc9eae3f11821f0ded89d10768d720daf": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-02T13:36:42Z",
+  "message": "La boleta: un veredicto por juego con las cosas que tiene que demostrar, armado con lo que dejan los auditores, con las ",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/boletas-vetos.json",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "docs/juegos.md",
+    "a": 30,
+    "d": 0
+   },
+   {
+    "f": "scripts/audit-todo.mjs",
+    "a": 21,
+    "d": 9
+   },
+   {
+    "f": "scripts/boleta.mjs",
+    "a": 66,
+    "d": 0
+   },
+   {
+    "f": "scripts/lib/boleta.mjs",
+    "a": 345,
+    "d": 0
+   },
+   {
+    "f": "scripts/lib/boleta.test.mjs",
+    "a": 211,
+    "d": 0
+   }
+  ]
+ },
+ "bb0a696defaac7badf66c64ef22760070a130d63": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-02T13:34:46Z",
+  "message": "El auditor de palabras: apuesta y vocabulario en dos listas, sin Chrome, en la batería, y dos textos que decían «ganador",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/juegos.md",
+    "a": 15,
+    "d": 0
+   },
+   {
+    "f": "index.html",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "package.json",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "scripts/audit-palabras.mjs",
+    "a": 105,
+    "d": 0
+   },
+   {
+    "f": "scripts/lib/bateria.mjs",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "scripts/lib/glosario.mjs",
+    "a": 5,
+    "d": 3
+   },
+   {
+    "f": "scripts/lib/palabras-prohibidas.json",
+    "a": 204,
+    "d": 0
+   },
+   {
+    "f": "scripts/lib/palabras.mjs",
+    "a": 329,
+    "d": 0
+   },
+   {
+    "f": "scripts/lib/palabras.test.mjs",
+    "a": 138,
+    "d": 0
+   },
+   {
+    "f": "src/i18n.ts",
+    "a": 3,
+    "d": 3
+   }
+  ]
+ },
+ "deaf7513390359869b1c60a541b8a3d57b6c2779": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-02T10:23:28Z",
+  "message": "En el stand, en el celular, aparece la barra con \"Empezar la ronda\" cuando el botón queda abajo, y en el ensayo vuelve a",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/ui/siguiente.ts",
+    "a": 17,
+    "d": 9
+   },
+   {
+    "f": "src/ui/stand.ts",
+    "a": 3,
+    "d": 1
+   }
+  ]
+ },
+ "1456f7c004954e6542fff3760bbdac6e643d0a59": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-02T08:28:39Z",
+  "message": "El Toborochi, un juego nuevo: el árbol de Santa Cruz en flor, el surazo que se lleva flores y el colibrí que se posa en ",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/juegos.md",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "docs/juegos/toborochi.md",
+    "a": 110,
+    "d": 0
+   },
+   {
+    "f": "docs/motores.md",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/toborochi-light.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/toborochi.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "scripts/audit-emocion.mjs",
+    "a": 9,
+    "d": 0
+   },
+   {
+    "f": "scripts/audit-nino.mjs",
+    "a": 5,
+    "d": 2
+   },
+   {
+    "f": "scripts/lib/delatores-senales.mjs",
+    "a": 11,
+    "d": 0
+   },
+   {
+    "f": "scripts/lib/delatores-senales.test.mjs",
+    "a": 9,
+    "d": 0
+   },
+   {
+    "f": "src/games/pixi/kit/anfitrion.ts",
+    "a": 3,
+    "d": 1
+   },
+   {
+    "f": "src/games/pixi/kit/catalogo.ts",
+    "a": 33,
+    "d": 0
+   },
+   {
+    "f": "src/games/pixi/kit/sonido.test.ts",
+    "a": 41,
+    "d": 0
+   },
+   {
+    "f": "src/games/pixi/kit/sonido.ts",
+    "a": 22,
+    "d": 0
+   },
+   {
+    "f": "src/games/pixi/toborochi-arbol.test.ts",
+    "a": 122,
+    "d": 0
+   },
+   {
+    "f": "src/games/pixi/toborochi-arbol.ts",
+    "a": 206,
+    "d": 0
+   },
+   {
+    "f": "src/games/pixi/toborochi-plan.test.ts",
+    "a": 409,
+    "d": 0
+   },
+   {
+    "f": "src/games/pixi/toborochi-plan.ts",
+    "a": 624,
+    "d": 0
+   },
+   {
+    "f": "src/games/pixi/toborochi-textos.ts",
+    "a": 62,
+    "d": 0
+   },
+   {
+    "f": "src/games/pixi/toborochi.ts",
+    "a": 689,
+    "d": 0
+   },
+   {
+    "f": "src/i18n.ts",
+    "a": 16,
+    "d": 0
+   },
+   {
+    "f": "src/sound.ts",
+    "a": 87,
+    "d": 0
+   }
+  ]
+ },
+ "24197d95ba46deb94a29c4231e80d2be963d752d": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-02T08:27:24Z",
+  "message": "El Guajojó, un juego nuevo con su historia: el ave que canta de noche y quien aguanta más quieto sin que nadie sepa quié",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/juegos.md",
+    "a": 6,
+    "d": 0
+   },
+   {
+    "f": "docs/juegos/guajojo.md",
+    "a": 102,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/guajojo-light.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/guajojo.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "scripts/audit-nino.mjs",
+    "a": 2,
+    "d": 1
+   },
+   {
+    "f": "scripts/audit-rigor.mjs",
+    "a": 6,
+    "d": 1
+   },
+   {
+    "f": "src/duraciones.test.ts",
+    "a": 33,
+    "d": 3
+   },
+   {
+    "f": "src/duraciones.ts",
+    "a": 3,
+    "d": 0
+   },
+   {
+    "f": "src/games/pixi/guajojo-duracion.ts",
+    "a": 57,
+    "d": 0
+   },
+   {
+    "f": "src/games/pixi/guajojo-plan.test.ts",
+    "a": 452,
+    "d": 0
+   },
+   {
+    "f": "src/games/pixi/guajojo-plan.ts",
+    "a": 706,
+    "d": 0
+   },
+   {
+    "f": "src/games/pixi/guajojo-textos.ts",
+    "a": 49,
+    "d": 0
+   },
+   {
+    "f": "src/games/pixi/guajojo.ts",
+    "a": 537,
+    "d": 0
+   },
+   {
+    "f": "src/games/pixi/kit/catalogo.ts",
+    "a": 31,
+    "d": 0
+   },
+   {
+    "f": "src/i18n.ts",
+    "a": 16,
+    "d": 0
+   },
+   {
+    "f": "src/state.ts",
+    "a": 9,
+    "d": 2
+   }
+  ]
+ },
+ "04fdff7fdcc6d4e29f64aaefa2d156c85ce7fda8": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-02T08:25:38Z",
+  "message": "Un prototipo de la carrera en 3D, detrás de ?motor=3d, con las llamas más grandes, la cámara en altura y los nombres ent",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/motores.md",
+    "a": 23,
+    "d": 1
+   },
+   {
+    "f": "package.json",
+    "a": 3,
+    "d": 1
+   },
+   {
+    "f": "pnpm-lock.yaml",
+    "a": 54,
+    "d": 0
+   },
+   {
+    "f": "scripts/audit-rigor.mjs",
+    "a": 4,
+    "d": 1
+   },
+   {
+    "f": "scripts/capturas-3d.mjs",
+    "a": 102,
+    "d": 0
+   },
+   {
+    "f": "src/games/engine.ts",
+    "a": 21,
+    "d": 1
+   },
+   {
+    "f": "src/games/llamas/carrera-3d-ids.ts",
+    "a": 22,
+    "d": 0
+   },
+   {
+    "f": "src/games/llamas/carrera-3d-mapa.ts",
+    "a": 209,
+    "d": 0
+   },
+   {
+    "f": "src/games/llamas/carrera-3d.test.ts",
+    "a": 153,
+    "d": 0
+   },
+   {
+    "f": "src/games/llamas/carrera-3d.ts",
+    "a": 733,
+    "d": 0
+   },
+   {
+    "f": "src/games/llamas/carrera.ts",
+    "a": 123,
+    "d": 15
+   },
+   {
+    "f": "src/games/permite3d.ts",
+    "a": 20,
+    "d": 0
+   },
+   {
+    "f": "src/games/pixi/index.ts",
+    "a": 12,
+    "d": 0
+   },
+   {
+    "f": "src/games/pixi/stage.ts",
+    "a": 6,
+    "d": 0
+   }
+  ]
+ },
+ "73a6a992f8697172810cb887e3d06b3de5265b44": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-02T08:23:49Z",
+  "message": "La carrera con aura, detrás de ?carrera=nueva: una pista de verdad, una ficha amarilla que marca quién va adelante y una",
+  "parents": 1,
+  "files": [
+   {
+    "f": "scripts/audit-delatores.mjs",
+    "a": 53,
+    "d": 1
+   },
+   {
+    "f": "scripts/audit-recta.mjs",
+    "a": 19,
+    "d": 0
+   },
+   {
+    "f": "scripts/lib/bateria.mjs",
+    "a": 3,
+    "d": 0
+   },
+   {
+    "f": "scripts/lib/browser.mjs",
+    "a": 2,
+    "d": 0
+   },
+   {
+    "f": "scripts/lib/delatores-bayes.mjs",
+    "a": 176,
+    "d": 0
+   },
+   {
+    "f": "scripts/lib/delatores-carrera.mjs",
+    "a": 25,
+    "d": 7
+   },
+   {
+    "f": "src/games/llamas/carrera-nueva.test.ts",
+    "a": 238,
+    "d": 0
+   },
+   {
+    "f": "src/games/llamas/carrera-orden.ts",
+    "a": 17,
+    "d": 2
+   },
+   {
+    "f": "src/games/llamas/carrera-recta.ts",
+    "a": 220,
+    "d": 0
+   },
+   {
+    "f": "src/games/llamas/carrera-show.ts",
+    "a": 76,
+    "d": 13
+   },
+   {
+    "f": "src/games/llamas/carrera.ts",
+    "a": 215,
+    "d": 22
+   },
+   {
+    "f": "src/games/llamas/llama-aguayo.ts",
+    "a": 224,
+    "d": 0
+   },
+   {
+    "f": "src/games/llamas/llama.ts",
+    "a": 36,
+    "d": 0
+   },
+   {
+    "f": "src/games/pixi/kit/crear.ts",
+    "a": 7,
+    "d": 1
+   }
+  ]
+ },
+ "7b15476a7a0f462f1e952d473acb49cd88188395": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-02T08:22:47Z",
+  "message": "Modo stand: rondas de ejemplo con la gente que pasa, y una sala por QR para que cada quien sume su nombre desde el celul",
+  "parents": 1,
+  "files": [
+   {
+    "f": ".gitignore",
+    "a": 4,
+    "d": 0
+   },
+   {
+    "f": "index.html",
+    "a": 46,
+    "d": 1
+   },
+   {
+    "f": "scripts/probar-sala.mjs",
+    "a": 180,
+    "d": 0
+   },
+   {
+    "f": "scripts/probar-stand.mjs",
+    "a": 151,
+    "d": 0
+   },
+   {
+    "f": "src/ensayo-modo.ts",
+    "a": 101,
+    "d": 2
+   },
+   {
+    "f": "src/games/pixi/stage.ts",
+    "a": 10,
+    "d": 1
+   },
+   {
+    "f": "src/i18n.ts",
+    "a": 94,
+    "d": 6
+   },
+   {
+    "f": "src/main.ts",
+    "a": 15,
+    "d": 3
+   },
+   {
+    "f": "src/sala/cifra.ts",
+    "a": 58,
+    "d": 0
+   },
+   {
+    "f": "src/sala/cliente.ts",
+    "a": 222,
+    "d": 0
+   },
+   {
+    "f": "src/sala/filtro.ts",
+    "a": 111,
+    "d": 0
+   },
+   {
+    "f": "src/sala/sala.test.ts",
+    "a": 255,
+    "d": 0
+   },
+   {
+    "f": "src/stand-modo.test.ts",
+    "a": 244,
+    "d": 0
+   },
+   {
+    "f": "src/styles.css",
+    "a": 70,
+    "d": 26
+   },
+   {
+    "f": "src/ui/draw.ts",
+    "a": 13,
+    "d": 3
+   },
+   {
+    "f": "src/ui/ensayo.ts",
+    "a": 3,
+    "d": 2
+   },
+   {
+    "f": "src/ui/freeze-proteger.test.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/ui/freeze.ts",
+    "a": 32,
+    "d": 10
+   },
+   {
+    "f": "src/ui/onboarding.ts",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "src/ui/participants.ts",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "src/ui/siguiente.ts",
+    "a": 6,
+    "d": 2
+   },
+   {
+    "f": "src/ui/stand-sala.ts",
+    "a": 397,
+    "d": 0
+   },
+   {
+    "f": "src/ui/stand.ts",
+    "a": 166,
+    "d": 0
+   },
+   {
+    "f": "src/ui/tutorial.ts",
+    "a": 3,
+    "d": 3
+   },
+   {
+    "f": "src/ui/wallet-ui.ts",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "terminos.html",
+    "a": 2,
+    "d": 1
+   },
+   {
+    "f": "workers/sala/README.md",
+    "a": 76,
+    "d": 0
+   },
+   {
+    "f": "workers/sala/probar.mjs",
+    "a": 202,
+    "d": 0
+   },
+   {
+    "f": "workers/sala/src/index.ts",
+    "a": 451,
+    "d": 0
+   },
+   {
+    "f": "workers/sala/src/logica.ts",
+    "a": 132,
+    "d": 0
+   },
+   {
+    "f": "workers/sala/src/pagina.ts",
+    "a": 172,
+    "d": 0
+   },
+   {
+    "f": "workers/sala/wrangler.toml",
+    "a": 23,
+    "d": 0
+   }
+  ]
+ },
+ "d5932cf1c5c1afd43f81afa1642e17693f2dd6d1": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-02T08:20:30Z",
+  "message": "Pollar 0.12: la firma se confirma en código y, si la cuenta lo pide, se abre Protegé tu cuenta y se vuelve a sellar sin ",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/architecture.md",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "package.json",
+    "a": 2,
+    "d": 1
+   },
+   {
+    "f": "pnpm-lock.yaml",
+    "a": 587,
+    "d": 7
+   },
+   {
+    "f": "src/i18n.ts",
+    "a": 56,
+    "d": 0
+   },
+   {
+    "f": "src/stellar/errores.test.ts",
+    "a": 25,
+    "d": 0
+   },
+   {
+    "f": "src/stellar/errores.ts",
+    "a": 27,
+    "d": 1
+   },
+   {
+    "f": "src/stellar/passkey.test.ts",
+    "a": 34,
+    "d": 0
+   },
+   {
+    "f": "src/stellar/passkey.ts",
+    "a": 100,
+    "d": 0
+   },
+   {
+    "f": "src/stellar/wallet-pollar-firma.test.ts",
+    "a": 267,
+    "d": 0
+   },
+   {
+    "f": "src/stellar/wallet-pollar.ts",
+    "a": 160,
+    "d": 8
+   },
+   {
+    "f": "src/styles.css",
+    "a": 2,
+    "d": 0
+   },
+   {
+    "f": "src/ui/anchor.test.ts",
+    "a": 23,
+    "d": 5
+   },
+   {
+    "f": "src/ui/anchor.ts",
+    "a": 24,
+    "d": 1
+   },
+   {
+    "f": "src/ui/detalle-error.ts",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "src/ui/draw-proteger.test.ts",
+    "a": 131,
+    "d": 0
+   },
+   {
+    "f": "src/ui/draw.ts",
+    "a": 23,
+    "d": 3
+   },
+   {
+    "f": "src/ui/freeze-proteger.test.ts",
+    "a": 185,
+    "d": 0
+   },
+   {
+    "f": "src/ui/freeze.ts",
+    "a": 28,
+    "d": 3
+   },
+   {
+    "f": "src/ui/proteger-cuenta.test.ts",
+    "a": 266,
+    "d": 0
+   },
+   {
+    "f": "src/ui/proteger-cuenta.ts",
+    "a": 305,
+    "d": 0
+   },
+   {
+    "f": "src/ui/proteger-flujo.ts",
+    "a": 25,
+    "d": 0
+   },
+   {
+    "f": "src/ui/red-acciones.test.ts",
+    "a": 8,
+    "d": 0
+   },
+   {
+    "f": "src/ui/red-acciones.ts",
+    "a": 5,
+    "d": 1
+   },
+   {
+    "f": "src/ui/red.test.ts",
+    "a": 4,
+    "d": 3
+   },
+   {
+    "f": "src/ui/red.ts",
+    "a": 2,
+    "d": 0
+   },
+   {
+    "f": "workers/enlaces/src/conteo.ts",
+    "a": 6,
+    "d": 0
+   }
+  ]
+ },
+ "eeb0d31954fc33ce132071236e38307936328f66": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-02T08:17:21Z",
+  "message": "La prueba del niño pasa a una sola vara: alguien de 7 años o más",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/juegos.md",
+    "a": 8,
+    "d": 8
+   },
+   {
+    "f": "scripts/audit-nino.mjs",
+    "a": 8,
+    "d": 11
+   },
+   {
+    "f": "scripts/lib/nino.mjs",
+    "a": 27,
+    "d": 52
+   },
+   {
+    "f": "scripts/lib/nino.test.mjs",
+    "a": 24,
+    "d": 39
+   },
+   {
+    "f": "scripts/prompt-nino.md",
+    "a": 5,
+    "d": 8
+   }
+  ]
+ },
+ "b2fc02eb24c2aa4919b96331ca0d1fd8d1c9d53d": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-02T08:16:35Z",
+  "message": "Las miniaturas de los ocho juegos del selector, rehechas en los dos temas",
+  "parents": 1,
+  "files": [
+   {
+    "f": "public/juegos/chovena-light.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/chovena.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/oruro-light.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/oruro.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/pinata-light.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/pinata.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/race-light.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/race.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/sapo-light.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/sapo.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/teleferico-light.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/teleferico.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/trompo-light.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/trompo.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/wheel-light.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/wheel.webp",
+    "a": 0,
+    "d": 0
+   }
+  ]
+ },
+ "5966742be0c553ae8a89dd03e02531deddec5a42": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-02T08:15:48Z",
+  "message": "El logo de la comunidad: se pone antes de sellar y sale en el estadio, el resultado, la foto y la página de comprobar",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/amenazas.md",
+    "a": 2,
+    "d": 0
+   },
+   {
+    "f": "docs/evento.md",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "docs/ux.md",
+    "a": 17,
+    "d": 0
+   },
+   {
+    "f": "evento.html",
+    "a": 3,
+    "d": 0
+   },
+   {
+    "f": "index.html",
+    "a": 16,
+    "d": 0
+   },
+   {
+    "f": "precios.html",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "public/sitemap.xml",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "src/c.ts",
+    "a": 3,
+    "d": 1
+   },
+   {
+    "f": "src/enlace-corto-logo.test.ts",
+    "a": 275,
+    "d": 0
+   },
+   {
+    "f": "src/enlace-corto.ts",
+    "a": 107,
+    "d": 23
+   },
+   {
+    "f": "src/ensayo-modo.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/evento.ts",
+    "a": 9,
+    "d": 0
+   },
+   {
+    "f": "src/i18n.ts",
+    "a": 42,
+    "d": 6
+   },
+   {
+    "f": "src/logo-guardado.ts",
+    "a": 191,
+    "d": 0
+   },
+   {
+    "f": "src/logo-textos.test.ts",
+    "a": 102,
+    "d": 0
+   },
+   {
+    "f": "src/logo.css",
+    "a": 95,
+    "d": 0
+   },
+   {
+    "f": "src/logo.test.ts",
+    "a": 386,
+    "d": 0
+   },
+   {
+    "f": "src/logo.ts",
+    "a": 362,
+    "d": 0
+   },
+   {
+    "f": "src/main.ts",
+    "a": 9,
+    "d": 1
+   },
+   {
+    "f": "src/state.ts",
+    "a": 7,
+    "d": 0
+   },
+   {
+    "f": "src/ui/compartir.ts",
+    "a": 25,
+    "d": 10
+   },
+   {
+    "f": "src/ui/draw.ts",
+    "a": 11,
+    "d": 1
+   },
+   {
+    "f": "src/ui/foto-logo.test.ts",
+    "a": 132,
+    "d": 0
+   },
+   {
+    "f": "src/ui/foto.ts",
+    "a": 41,
+    "d": 0
+   },
+   {
+    "f": "src/ui/freeze.ts",
+    "a": 8,
+    "d": 0
+   },
+   {
+    "f": "src/ui/history.ts",
+    "a": 17,
+    "d": 4
+   },
+   {
+    "f": "src/ui/logo-franja.ts",
+    "a": 46,
+    "d": 0
+   },
+   {
+    "f": "src/ui/logo-pieza.ts",
+    "a": 63,
+    "d": 0
+   },
+   {
+    "f": "src/ui/logo-sorteo.ts",
+    "a": 80,
+    "d": 0
+   },
+   {
+    "f": "src/ui/logo-ui.ts",
+    "a": 114,
+    "d": 0
+   },
+   {
+    "f": "src/ui/pantalla.ts",
+    "a": 5,
+    "d": 0
+   },
+   {
+    "f": "src/verify.ts",
+    "a": 14,
+    "d": 0
+   },
+   {
+    "f": "terminos.html",
+    "a": 7,
+    "d": 3
+   },
+   {
+    "f": "verificar.html",
+    "a": 3,
+    "d": 0
+   },
+   {
+    "f": "workers/enlaces/README.md",
+    "a": 1,
+    "d": 0
+   }
+  ]
+ },
+ "c035a3227963ed07c51a09821d2145f7337a48cb": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-02T08:14:44Z",
+  "message": "Luma a la vista: un signo de pregunta enseña a bajar la lista, los pasos nombran los botones reales y después del result",
+  "parents": 1,
+  "files": [
+   {
+    "f": "index.html",
+    "a": 15,
+    "d": 2
+   },
+   {
+    "f": "src/i18n.ts",
+    "a": 20,
+    "d": 2
+   },
+   {
+    "f": "src/main.ts",
+    "a": 2,
+    "d": 0
+   },
+   {
+    "f": "src/styles.css",
+    "a": 20,
+    "d": 0
+   },
+   {
+    "f": "src/ui/draw.ts",
+    "a": 5,
+    "d": 1
+   },
+   {
+    "f": "src/ui/luma-ayuda.test.ts",
+    "a": 43,
+    "d": 0
+   },
+   {
+    "f": "src/ui/luma-ayuda.ts",
+    "a": 32,
+    "d": 0
+   },
+   {
+    "f": "src/ui/participants.ts",
+    "a": 4,
+    "d": 0
+   },
+   {
+    "f": "src/ui/plegable.ts",
+    "a": 2,
+    "d": 1
+   }
+  ]
+ },
+ "c414e43bde37c9e0ed01cef5e9fb70501b89fb9e": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-02T08:13:50Z",
+  "message": "La ventana de ingreso en celular: el aviso de error de Google queda pegado a su botón, el botón del correo se lee en los",
+  "parents": 1,
+  "files": [
+   {
+    "f": "index.html",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/i18n.ts",
+    "a": 2,
+    "d": 0
+   },
+   {
+    "f": "src/main.ts",
+    "a": 4,
+    "d": 2
+   },
+   {
+    "f": "src/styles.css",
+    "a": 5,
+    "d": 2
+   },
+   {
+    "f": "src/ui/wallet-ui.ts",
+    "a": 6,
+    "d": 1
+   }
+  ]
+ },
+ "481b42926d736962c84753e0b056b848245d82ff": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-02T08:12:56Z",
+  "message": "Las bases se copian antes de sellar, y las de después ya no tienen tecnicismos",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/ux.md",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "index.html",
+    "a": 4,
+    "d": 0
+   },
+   {
+    "f": "src/i18n.ts",
+    "a": 47,
+    "d": 12
+   },
+   {
+    "f": "src/main.ts",
+    "a": 2,
+    "d": 1
+   },
+   {
+    "f": "src/styles.css",
+    "a": 3,
+    "d": 0
+   },
+   {
+    "f": "src/ui/freeze.ts",
+    "a": 26,
+    "d": 0
+   },
+   {
+    "f": "src/ui/participants.ts",
+    "a": 2,
+    "d": 0
+   },
+   {
+    "f": "src/ui/rules.test.ts",
+    "a": 25,
+    "d": 5
+   }
+  ]
+ },
+ "88cddcda9a9b16971452b1c53368340c43e9676a": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-02T08:12:05Z",
+  "message": "Un enlace para opinar, al final del resultado y en el pie",
+  "parents": 1,
+  "files": [
+   {
+    "f": "c.html",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "como-funciona.html",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "evento.html",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "historia.html",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "index.html",
+    "a": 2,
+    "d": 0
+   },
+   {
+    "f": "juegos.html",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "lista.html",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "precios.html",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "public/sitemap.xml",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "scripts/check-paginas.mjs",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "seguridad.html",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "sorteo-en-clase.html",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "sorteo-para-meetup.html",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "sorteo-verificable.html",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "src/feedback.test.ts",
+    "a": 23,
+    "d": 0
+   },
+   {
+    "f": "src/feedback.ts",
+    "a": 80,
+    "d": 0
+   },
+   {
+    "f": "src/i18n.ts",
+    "a": 8,
+    "d": 4
+   },
+   {
+    "f": "src/main.ts",
+    "a": 5,
+    "d": 0
+   },
+   {
+    "f": "src/pagina.ts",
+    "a": 2,
+    "d": 0
+   },
+   {
+    "f": "src/styles.css",
+    "a": 4,
+    "d": 0
+   },
+   {
+    "f": "terminos.html",
+    "a": 3,
+    "d": 1
+   },
+   {
+    "f": "verificar.html",
+    "a": 1,
+    "d": 0
+   }
+  ]
+ },
+ "46ea1541cdde229e903eec4e0122e900093ee762": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-02T08:11:12Z",
+  "message": "El avance del sorteo se ve en una barra de cuatro tramos: se van las pestañas repetidas y las cajas de más",
+  "parents": 1,
+  "files": [
+   {
+    "f": "c.html",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "como-funciona.html",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "docs/epics.md",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "docs/ux.md",
+    "a": 11,
+    "d": 11
+   },
+   {
+    "f": "evento.html",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "historia.html",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "index.html",
+    "a": 15,
+    "d": 20
+   },
+   {
+    "f": "juegos.html",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "lista.html",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "precios.html",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "scripts/audit-detalles.mjs",
+    "a": 5,
+    "d": 5
+   },
+   {
+    "f": "scripts/audit-espera.mjs",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "scripts/audit-flujo.mjs",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "scripts/audit-primer-sorteo.mjs",
+    "a": 11,
+    "d": 7
+   },
+   {
+    "f": "scripts/audit-ui.mjs",
+    "a": 13,
+    "d": 9
+   },
+   {
+    "f": "seguridad.html",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "sorteo-en-clase.html",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "sorteo-verificable.html",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/ensayo-modo.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/i18n.ts",
+    "a": 29,
+    "d": 31
+   },
+   {
+    "f": "src/main.ts",
+    "a": 4,
+    "d": 17
+   },
+   {
+    "f": "src/styles.css",
+    "a": 46,
+    "d": 67
+   },
+   {
+    "f": "src/ui/aviso-cuenta.ts",
+    "a": 0,
+    "d": 70
+   },
+   {
+    "f": "src/ui/cuenta-estado.test.ts",
+    "a": 1,
+    "d": 35
+   },
+   {
+    "f": "src/ui/cuenta-estado.ts",
+    "a": 0,
+    "d": 27
+   },
+   {
+    "f": "src/ui/freeze.ts",
+    "a": 4,
+    "d": 4
+   },
+   {
+    "f": "src/ui/onboarding.ts",
+    "a": 2,
+    "d": 6
+   },
+   {
+    "f": "src/ui/participants.ts",
+    "a": 7,
+    "d": 3
+   },
+   {
+    "f": "src/ui/pasos.test.ts",
+    "a": 12,
+    "d": 4
+   },
+   {
+    "f": "src/ui/pasos.ts",
+    "a": 11,
+    "d": 6
+   },
+   {
+    "f": "src/ui/red.test.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/ui/red.ts",
+    "a": 3,
+    "d": 3
+   },
+   {
+    "f": "src/ui/siguiente.ts",
+    "a": 18,
+    "d": 12
+   },
+   {
+    "f": "src/ui/tutorial.test.ts",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "src/ui/tutorial.ts",
+    "a": 6,
+    "d": 31
+   },
+   {
+    "f": "src/ui/wallet-ui.ts",
+    "a": 21,
+    "d": 9
+   },
+   {
+    "f": "terminos.html",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "verificar.html",
+    "a": 1,
+    "d": 1
+   }
+  ]
+ },
+ "fe02a90179280c86786ddeb91ec648765b200f85": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-02T08:09:41Z",
+  "message": "El sitio se lee como una frase: sin punto medio, con la letra de 14 px como mínimo y el indicador de pasos que entra en ",
+  "parents": 1,
+  "files": [
+   {
+    "f": "README.es.md",
+    "a": 5,
+    "d": 5
+   },
+   {
+    "f": "README.md",
+    "a": 5,
+    "d": 5
+   },
+   {
+    "f": "docs/ux.md",
+    "a": 9,
+    "d": 0
+   },
+   {
+    "f": "index.html",
+    "a": 5,
+    "d": 5
+   },
+   {
+    "f": "lista.html",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "package.json",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "scripts/audit-legible.mjs",
+    "a": 109,
+    "d": 8
+   },
+   {
+    "f": "scripts/audit-ui.mjs",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "scripts/lib/legible.mjs",
+    "a": 40,
+    "d": 5
+   },
+   {
+    "f": "src/evento.ts",
+    "a": 3,
+    "d": 3
+   },
+   {
+    "f": "src/games/lore.ts",
+    "a": 16,
+    "d": 16
+   },
+   {
+    "f": "src/games/pixi/chovena.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/games/pixi/oruro.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/games/pixi/tombola.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/games/race.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/i18n.ts",
+    "a": 49,
+    "d": 49
+   },
+   {
+    "f": "src/main.ts",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "src/mensaje.test.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/protocol/evento.test.ts",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "src/protocol/evento.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/styles.css",
+    "a": 38,
+    "d": 38
+   },
+   {
+    "f": "src/ui/account-model.test.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/ui/account-model.ts",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "src/ui/account.ts",
+    "a": 3,
+    "d": 3
+   },
+   {
+    "f": "src/ui/compartir-sin-sello.test.ts",
+    "a": 7,
+    "d": 7
+   },
+   {
+    "f": "src/ui/compartir.test.ts",
+    "a": 7,
+    "d": 7
+   },
+   {
+    "f": "src/ui/compartir.ts",
+    "a": 6,
+    "d": 6
+   },
+   {
+    "f": "src/ui/draw.ts",
+    "a": 3,
+    "d": 3
+   },
+   {
+    "f": "src/ui/ensayo.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/ui/espera.ts",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "src/ui/foto.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/ui/freeze.ts",
+    "a": 4,
+    "d": 4
+   },
+   {
+    "f": "src/ui/history.ts",
+    "a": 4,
+    "d": 4
+   },
+   {
+    "f": "src/ui/importer.ts",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "src/ui/participants.ts",
+    "a": 3,
+    "d": 3
+   },
+   {
+    "f": "src/ui/pasos.test.ts",
+    "a": 9,
+    "d": 9
+   },
+   {
+    "f": "src/ui/pasos.ts",
+    "a": 5,
+    "d": 5
+   },
+   {
+    "f": "src/ui/premios.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/ui/rebuild.ts",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "src/ui/siguiente.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/ui/wallet-ui.ts",
+    "a": 3,
+    "d": 3
+   },
+   {
+    "f": "src/verify.ts",
+    "a": 17,
+    "d": 17
+   }
+  ]
  }
 }

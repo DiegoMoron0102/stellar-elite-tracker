@@ -1,14 +1,14 @@
 {
- "generado": "2026-11-02T14:14:55+00:00",
+ "generado": "2026-11-03T00:12:42+00:00",
  "programa": "Stellar Elite",
  "start_date": "2026-09-02T00:00:00Z",
  "teams": [
   {
    "name": "Tinkazo",
-   "total": 5328.91,
-   "per_capita": 5328.91,
-   "commits": 854,
-   "pts_commits": 5167.91,
+   "total": 5721.61,
+   "per_capita": 5721.61,
+   "commits": 904,
+   "pts_commits": 5560.61,
    "dias_activos": 31,
    "contribuidores": [
     "GuidoSV7",
@@ -355,7 +355,7 @@
    "2026-10-27": 11.0,
    "2026-10-28": 1.0,
    "2026-11-01": 12.68,
-   "2026-11-02": 16.88
+   "2026-11-02": 409.5799999999999
   },
   "CompraGasolinaBidon": {
    "2026-09-06": 1.0,
@@ -517,7 +517,7 @@
    "2026-10-27": 2,
    "2026-10-28": 1,
    "2026-11-01": 2,
-   "2026-11-02": 2
+   "2026-11-02": 52
   },
   "CompraGasolinaBidon": {
    "2026-09-06": 1,
@@ -613,6 +613,506 @@
   }
  },
  "commits": [
+  {
+   "sha": "eb494c2",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-02T23:44:02Z",
+   "msg": "El Guajojó y El Toborochi entran al selector y la portada: botón, tarjeta, ficha, notas de recomendación y capturas en l",
+   "pts": 8.81,
+   "nota": ""
+  },
+  {
+   "sha": "79b78c9",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-02T23:43:57Z",
+   "msg": "El selector de la herramienta muestra una captura real de cada juego, en el tema del sitio, y un juego que no encaja con",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "e99360f",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-02T23:34:30Z",
+   "msg": "La prueba de las fuentes distingue un sitio que no deja pasar robots de un enlace roto: un 401, 403 o 429 avisa, un 404 ",
+   "pts": 5.09,
+   "nota": ""
+  },
+  {
+   "sha": "19e2a27",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-02T23:34:30Z",
+   "msg": "El nombre de quien va adelante en la carrera se lee: la ficha amarilla lleva letra de tinta sin borde oscuro y más aire ",
+   "pts": 4.46,
+   "nota": ""
+  },
+  {
+   "sha": "c647cae",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-02T23:34:06Z",
+   "msg": "La chovena vuelve con su presentación nueva: en la final los dos nombres se acomodan por su lugar en la pantalla y no pr",
+   "pts": 6.73,
+   "nota": ""
+  },
+  {
+   "sha": "be839df",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-02T23:04:38Z",
+   "msg": "Las tarjetas de El show en la portada muestran una captura nítida de cada juego en su mejor momento, en el tema del siti",
+   "pts": 7.87,
+   "nota": ""
+  },
+  {
+   "sha": "4be9773",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-02T22:26:48Z",
+   "msg": "En los juegos de quedar de pie el contador dice cuántos quedan de cuántos eran, con una marca por persona; la piñata mue",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "baaa7ee",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-02T22:26:47Z",
+   "msg": "La prueba del niño, tercera y cuarta vuelta: adónde mirar decide solo en la carrera y en la rueda con la zona vecina, y ",
+   "pts": 9.3,
+   "nota": ""
+  },
+  {
+   "sha": "d6d206b",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-02T22:02:37Z",
+   "msg": "El auditor de palabras ya no necesita la excepción de la meta de la carrera",
+   "pts": 3.0,
+   "nota": ""
+  },
+  {
+   "sha": "13e810e",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-02T22:02:37Z",
+   "msg": "El auditor exigente lee al ganador del cartel, así un relator que calla al coronar no cuenta como falla de la pestaña es",
+   "pts": 6.21,
+   "nota": ""
+  },
+  {
+   "sha": "15fcc20",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-02T22:00:25Z",
+   "msg": "La carrera de siempre y el 3D le dicen al auditor dónde queda quien gana, el 3D dibuja la manta y no pisa las fichas, y ",
+   "pts": 7.15,
+   "nota": ""
+  },
+  {
+   "sha": "2b9efad",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-02T22:00:25Z",
+   "msg": "La carrera nueva en el celular: quien va primera lleva ADELANTE junto a su ficha y no queda tapada, el cartel final no p",
+   "pts": 7.39,
+   "nota": ""
+  },
+  {
+   "sha": "75aaf8a",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-02T22:00:13Z",
+   "msg": "La sala se publica como dominio propio, s.tinkazo.app: el despliegue crea el registro y el certificado, en el plan grati",
+   "pts": 4.46,
+   "nota": ""
+  },
+  {
+   "sha": "240d545",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-02T21:58:34Z",
+   "msg": "Las tarjetas de historia dicen solo lo que sostienen sus fuentes: el trompo según el diccionario, el stroop como parte d",
+   "pts": 5.7,
+   "nota": ""
+  },
+  {
+   "sha": "9a89bce",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-02T21:47:08Z",
+   "msg": "La página del comprobante no corta los pasos para rehacerlo con fuentes más anchas",
+   "pts": 5.17,
+   "nota": ""
+  },
+  {
+   "sha": "75d7267",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-02T18:41:26Z",
+   "msg": "El auditor exigente mide el cartel en tiempo de juego, así una corrida lenta por carga no cuenta como falla de la pestañ",
+   "pts": 6.52,
+   "nota": ""
+  },
+  {
+   "sha": "5de28ae",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-02T18:13:06Z",
+   "msg": "pnpm audit:todo --boleta deja la boleta escrita y, con --json, su línea de resumen al final",
+   "pts": 7.71,
+   "nota": ""
+  },
+  {
+   "sha": "934065f",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-02T18:12:05Z",
+   "msg": "La fila de verdad y respeto de la boleta encuentra las tarjetas de los juegos del kit: check-lore y la boleta leen las t",
+   "pts": 7.27,
+   "nota": ""
+  },
+  {
+   "sha": "44790a8",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-02T17:50:59Z",
+   "msg": "La documentación de la boleta habla de revisiones y vetos sin nombrar a nadie",
+   "pts": 5.25,
+   "nota": ""
+  },
+  {
+   "sha": "df0ad9a",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-02T17:47:37Z",
+   "msg": "Si quien organiza cambia de pestaña en el medio del show, al volver el show sigue donde iba, con el ganador correcto y s",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "af0eda8",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-02T17:46:11Z",
+   "msg": "El Toborochi se entiende mejor: el tronco es un árbol y no una maceta, el colibrí pasa al empezar para que se sepa que e",
+   "pts": 7.48,
+   "nota": ""
+  },
+  {
+   "sha": "bac2dd8",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-02T17:11:16Z",
+   "msg": "El portero llama registrar a lo que anota en su registro de eventos",
+   "pts": 4.17,
+   "nota": ""
+  },
+  {
+   "sha": "922b6b3",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-02T17:08:48Z",
+   "msg": "El sitio puede pagar las comisiones a través del portero: quien rige lo dice el servicio, el cupo se ve junto a sellar y",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "07d45ae",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-02T17:06:07Z",
+   "msg": "El portero del patrocinio: un Worker que cuenta y paga las comisiones de sellar y sortear con tope por cuenta y por día,",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "6f89c34",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-02T16:52:26Z",
+   "msg": "La prueba del niño, segunda vuelta: cuánto falta solo donde se ve, adónde mirar siempre por zona, el olor a apuesta por ",
+   "pts": 9.17,
+   "nota": ""
+  },
+  {
+   "sha": "e79cde8",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-02T16:41:05Z",
+   "msg": "La prueba de \"Stellar no contesta\" ya no falla a veces: cada prueba cancela los temporizadores que dejó, para que el che",
+   "pts": 5.39,
+   "nota": ""
+  },
+  {
+   "sha": "ecef135",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-02T14:23:53Z",
+   "msg": "La piñata, el teleférico y Oruro exponen el gancho de la prueba del niño y pasan a la forma de pie, con quienes siguen, ",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "4c517fb",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-02T14:21:37Z",
+   "msg": "El sapo, el trompo y la chovena exponen el gancho de la prueba del niño y pasan a la forma de pie, con quienes siguen, a",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "8b73f62",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-02T14:19:31Z",
+   "msg": "Las tarjetas de historia siguen más de cerca a su fuente (el tincazo, la piñata de Acolman) y la del Toborochi cuenta el",
+   "pts": 6.17,
+   "nota": ""
+  },
+  {
+   "sha": "d970741",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-02T13:43:01Z",
+   "msg": "La boleta corre el auditor de palabras por juego y no confunde el olor a apuesta con la comprensión",
+   "pts": 7.6,
+   "nota": ""
+  },
+  {
+   "sha": "ef698bb",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-02T13:39:44Z",
+   "msg": "El auditor de emoción mide el ritmo de los hechos desde el plan: huecos, información temprana, silencio antes del golpe ",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "b99e925",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-02T13:38:18Z",
+   "msg": "La prueba del niño entiende la forma de cada juego: cada uno declara la suya, el juez saca la tira de tres cuadros, vere",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "061b21d",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-02T13:36:42Z",
+   "msg": "La boleta: un veredicto por juego con las cosas que tiene que demostrar, armado con lo que dejan los auditores, con las ",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "bb0a696",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-02T13:34:46Z",
+   "msg": "El auditor de palabras: apuesta y vocabulario en dos listas, sin Chrome, en la batería, y dos textos que decían «ganador",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "deaf751",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-02T10:23:28Z",
+   "msg": "En el stand, en el celular, aparece la barra con \"Empezar la ronda\" cuando el botón queda abajo, y en el ensayo vuelve a",
+   "pts": 5.95,
+   "nota": ""
+  },
+  {
+   "sha": "1456f7c",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-02T08:28:39Z",
+   "msg": "El Toborochi, un juego nuevo: el árbol de Santa Cruz en flor, el surazo que se lleva flores y el colibrí que se posa en ",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "24197d9",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-02T08:27:24Z",
+   "msg": "El Guajojó, un juego nuevo con su historia: el ave que canta de noche y quien aguanta más quieto sin que nadie sepa quié",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "04fdff7",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-02T08:25:38Z",
+   "msg": "Un prototipo de la carrera en 3D, detrás de ?motor=3d, con las llamas más grandes, la cámara en altura y los nombres ent",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "73a6a99",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-02T08:23:49Z",
+   "msg": "La carrera con aura, detrás de ?carrera=nueva: una pista de verdad, una ficha amarilla que marca quién va adelante y una",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "7b15476",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-02T08:22:47Z",
+   "msg": "Modo stand: rondas de ejemplo con la gente que pasa, y una sala por QR para que cada quien sume su nombre desde el celul",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "d5932cf",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-02T08:20:30Z",
+   "msg": "Pollar 0.12: la firma se confirma en código y, si la cuenta lo pide, se abre Protegé tu cuenta y se vuelve a sellar sin ",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "eeb0d31",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-02T08:17:21Z",
+   "msg": "La prueba del niño pasa a una sola vara: alguien de 7 años o más",
+   "pts": 8.58,
+   "nota": ""
+  },
+  {
+   "sha": "b2fc02e",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-02T08:16:35Z",
+   "msg": "Las miniaturas de los ocho juegos del selector, rehechas en los dos temas",
+   "pts": 0.0,
+   "nota": "sin cambios de lineas"
+  },
+  {
+   "sha": "5966742",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-02T08:15:48Z",
+   "msg": "El logo de la comunidad: se pone antes de sellar y sale en el estadio, el resultado, la foto y la página de comprobar",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "c035a32",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-02T08:14:44Z",
+   "msg": "Luma a la vista: un signo de pregunta enseña a bajar la lista, los pasos nombran los botones reales y después del result",
+   "pts": 8.23,
+   "nota": ""
+  },
+  {
+   "sha": "c414e43",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-02T08:13:50Z",
+   "msg": "La ventana de ingreso en celular: el aviso de error de Google queda pegado a su botón, el botón del correo se lee en los",
+   "pts": 5.64,
+   "nota": ""
+  },
+  {
+   "sha": "481b429",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-02T08:12:56Z",
+   "msg": "Las bases se copian antes de sellar, y las de después ya no tienen tecnicismos",
+   "pts": 8.01,
+   "nota": ""
+  },
+  {
+   "sha": "88cddcd",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-02T08:12:05Z",
+   "msg": "Un enlace para opinar, al final del resultado y en el pie",
+   "pts": 8.22,
+   "nota": ""
+  },
+  {
+   "sha": "46ea154",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-02T08:11:12Z",
+   "msg": "El avance del sorteo se ve en una barra de cuatro tramos: se van las pestañas repetidas y las cajas de más",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "fe02a90",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-02T08:09:41Z",
+   "msg": "El sitio se lee como una frase: sin punto medio, con la letra de 14 px como mínimo y el indicador de pasos que entra en ",
+   "pts": 10,
+   "nota": ""
+  },
   {
    "sha": "c1ca45f",
    "team": "Tinkazo",
