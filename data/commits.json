@@ -146905,5 +146905,190 @@
     "d": 4
    }
   ]
+ },
+ "e8aab0d5026f7922aa9437caa3c9bfba1910595d": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-04T09:24:34Z",
+  "message": "La carrera de llamas se puede ver en 3D desde el selector, con el interruptor Ver en 3D apagado por defecto y solo en eq",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/motores.md",
+    "a": 14,
+    "d": 5
+   },
+   {
+    "f": "index.html",
+    "a": 4,
+    "d": 0
+   },
+   {
+    "f": "scripts/audit-delatores.mjs",
+    "a": 3,
+    "d": 1
+   },
+   {
+    "f": "scripts/audit-identidad.mjs",
+    "a": 3,
+    "d": 1
+   },
+   {
+    "f": "scripts/audit-legible.mjs",
+    "a": 3,
+    "d": 1
+   },
+   {
+    "f": "scripts/audit-nino.mjs",
+    "a": 4,
+    "d": 2
+   },
+   {
+    "f": "scripts/audit-pantalla.mjs",
+    "a": 3,
+    "d": 1
+   },
+   {
+    "f": "scripts/capturas-3d.mjs",
+    "a": 16,
+    "d": 1
+   },
+   {
+    "f": "src/games/engine.ts",
+    "a": 14,
+    "d": 4
+   },
+   {
+    "f": "src/games/llamas/carrera-3d-lider.test.ts",
+    "a": 15,
+    "d": 0
+   },
+   {
+    "f": "src/games/llamas/carrera-3d-lider.ts",
+    "a": 348,
+    "d": 0
+   },
+   {
+    "f": "src/games/llamas/carrera-3d-mapa.ts",
+    "a": 25,
+    "d": 0
+   },
+   {
+    "f": "src/games/llamas/carrera-3d.test.ts",
+    "a": 25,
+    "d": 1
+   },
+   {
+    "f": "src/games/llamas/carrera-3d.ts",
+    "a": 56,
+    "d": 37
+   },
+   {
+    "f": "src/games/llamas/carrera.ts",
+    "a": 47,
+    "d": 10
+   },
+   {
+    "f": "src/games/permite3d.ts",
+    "a": 9,
+    "d": 1
+   },
+   {
+    "f": "src/i18n.ts",
+    "a": 6,
+    "d": 0
+   },
+   {
+    "f": "src/main.ts",
+    "a": 2,
+    "d": 0
+   },
+   {
+    "f": "src/state.ts",
+    "a": 24,
+    "d": 0
+   },
+   {
+    "f": "src/styles.css",
+    "a": 3,
+    "d": 0
+   },
+   {
+    "f": "src/ui/freeze.ts",
+    "a": 2,
+    "d": 0
+   },
+   {
+    "f": "src/ui/ver3d.ts",
+    "a": 34,
+    "d": 0
+   }
+  ]
+ },
+ "7db62b26d0abf737beb57f7c7b4710736b44d9d6": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-04T05:12:17Z",
+  "message": "En el Guajojó el farolito de quien gana ya no brilla más que los demás antes del final: brillaba desde el primer cuadro ",
+  "parents": 1,
+  "files": [
+   {
+    "f": "scripts/lib/delatores-grabador.mjs",
+    "a": 6,
+    "d": 2
+   },
+   {
+    "f": "scripts/lib/delatores-grabador.test.mjs",
+    "a": 10,
+    "d": 0
+   },
+   {
+    "f": "scripts/lib/delatores-senales.mjs",
+    "a": 44,
+    "d": 3
+   },
+   {
+    "f": "scripts/lib/delatores-senales.test.mjs",
+    "a": 41,
+    "d": 4
+   },
+   {
+    "f": "src/games/pixi/guajojo.ts",
+    "a": 6,
+    "d": 1
+   }
+  ]
+ },
+ "41d504b2db357d38b1b585e59c3d986a5b4694b8": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-04T04:31:55Z",
+  "message": "Mainnet, listo para el día: la configuración toma el contrato y el RPC de la lista oficial en cuanto existan, el script ",
+  "parents": 1,
+  "files": [
+   {
+    "f": "scripts/deploy.sh",
+    "a": 5,
+    "d": 4
+   },
+   {
+    "f": "src/stellar/config.ts",
+    "a": 5,
+    "d": 2
+   },
+   {
+    "f": "workers/patrocinio/crear-patrocinadora.mjs",
+    "a": 143,
+    "d": 0
+   },
+   {
+    "f": "workers/patrocinio/ensayo-remoto.mjs",
+    "a": 119,
+    "d": 0
+   }
+  ]
  }
 }
