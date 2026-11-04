@@ -147090,5 +147090,4385 @@
     "d": 0
    }
   ]
+ },
+ "670b03311dc709bd24c69c6f87050e42fd9f056e": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-04T21:26:58Z",
+  "message": "Los juegos que ganaron la comparación a ciegas se ven en 3D sin tocar nada",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/juegos.md",
+    "a": 6,
+    "d": 0
+   },
+   {
+    "f": "docs/motores.md",
+    "a": 12,
+    "d": 8
+   },
+   {
+    "f": "index.html",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "scripts/audit-game.mjs",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "scripts/audit-identidad.mjs",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "scripts/audit-rigor.mjs",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "scripts/audit-sound.mjs",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "scripts/audit-ui.mjs",
+    "a": 25,
+    "d": 0
+   },
+   {
+    "f": "scripts/medir-3d.mjs",
+    "a": 93,
+    "d": 0
+   },
+   {
+    "f": "src/games/engine.ts",
+    "a": 20,
+    "d": 11
+   },
+   {
+    "f": "src/games/llamas/carrera-3d.test.ts",
+    "a": 3,
+    "d": 9
+   },
+   {
+    "f": "src/games/permite3d.test.ts",
+    "a": 152,
+    "d": 0
+   },
+   {
+    "f": "src/games/permite3d.ts",
+    "a": 55,
+    "d": 10
+   },
+   {
+    "f": "src/games/pixi/index.ts",
+    "a": 6,
+    "d": 6
+   },
+   {
+    "f": "src/games/tres/README.md",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/games/tres/ofrecidos.ts",
+    "a": 4,
+    "d": 4
+   },
+   {
+    "f": "src/i18n.ts",
+    "a": 8,
+    "d": 6
+   },
+   {
+    "f": "src/state.ts",
+    "a": 15,
+    "d": 8
+   },
+   {
+    "f": "src/ui/ver3d.ts",
+    "a": 10,
+    "d": 8
+   }
+  ]
+ },
+ "823223f642b9de56d6b13ff18e01fd92c53c2425": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-04T21:26:14Z",
+  "message": "El pase final de la carrera se ve venir y el pelotón llega apretado",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/juegos/carrera.md",
+    "a": 15,
+    "d": 4
+   },
+   {
+    "f": "scripts/capturas-carrera-final.mjs",
+    "a": 134,
+    "d": 0
+   },
+   {
+    "f": "scripts/medir-final-carrera.mjs",
+    "a": 147,
+    "d": 0
+   },
+   {
+    "f": "src/duraciones.test.ts",
+    "a": 5,
+    "d": 5
+   },
+   {
+    "f": "src/games/llamas/carrera-3d-lider.test.ts",
+    "a": 15,
+    "d": 1
+   },
+   {
+    "f": "src/games/llamas/carrera-3d-lider.ts",
+    "a": 7,
+    "d": 3
+   },
+   {
+    "f": "src/games/llamas/carrera-base.ts",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "src/games/llamas/carrera-cierre.ts",
+    "a": 135,
+    "d": 3
+   },
+   {
+    "f": "src/games/llamas/carrera-drama.test.ts",
+    "a": 74,
+    "d": 15
+   },
+   {
+    "f": "src/games/llamas/carrera-duracion.ts",
+    "a": 3,
+    "d": 2
+   },
+   {
+    "f": "src/games/llamas/carrera-obstaculos.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/games/llamas/carrera-ritmo.test.ts",
+    "a": 53,
+    "d": 0
+   },
+   {
+    "f": "src/games/llamas/carrera-ritmo.ts",
+    "a": 78,
+    "d": 0
+   },
+   {
+    "f": "src/games/llamas/carrera-show.ts",
+    "a": 4,
+    "d": 8
+   },
+   {
+    "f": "src/games/llamas/carrera-tandas.ts",
+    "a": 3,
+    "d": 2
+   },
+   {
+    "f": "src/games/llamas/carrera.ts",
+    "a": 35,
+    "d": 11
+   }
+  ]
+ },
+ "ff17b56241be976e88b1c4a0bf8a1ef738373ecc": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-04T20:32:27Z",
+  "message": "El auditor de flujo corta los dos servidores de la red y la música no arranca notas atrasadas",
+  "parents": 1,
+  "files": [
+   {
+    "f": "scripts/audit-flujo.mjs",
+    "a": 9,
+    "d": 2
+   },
+   {
+    "f": "src/music-atraso.test.ts",
+    "a": 48,
+    "d": 0
+   },
+   {
+    "f": "src/music.ts",
+    "a": 21,
+    "d": 1
+   },
+   {
+    "f": "src/stellar/rpc-auditor-flujo.test.ts",
+    "a": 22,
+    "d": 0
+   }
+  ]
+ },
+ "9a1f1631ba4d08650d0b005efc4584a93deb44bd": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-04T20:03:28Z",
+  "message": "El sitio se presenta mejor en los buscadores",
+  "parents": 1,
+  "files": [
+   {
+    "f": "c.html",
+    "a": 3,
+    "d": 1
+   },
+   {
+    "f": "como-funciona.html",
+    "a": 16,
+    "d": 6
+   },
+   {
+    "f": "evento.html",
+    "a": 3,
+    "d": 1
+   },
+   {
+    "f": "historia.html",
+    "a": 16,
+    "d": 6
+   },
+   {
+    "f": "index.html",
+    "a": 25,
+    "d": 46
+   },
+   {
+    "f": "juegos.html",
+    "a": 16,
+    "d": 6
+   },
+   {
+    "f": "lista.html",
+    "a": 3,
+    "d": 1
+   },
+   {
+    "f": "marca.html",
+    "a": 14,
+    "d": 3
+   },
+   {
+    "f": "precios.html",
+    "a": 16,
+    "d": 6
+   },
+   {
+    "f": "public/favicon.ico",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/favicon.svg",
+    "a": 4,
+    "d": 0
+   },
+   {
+    "f": "public/icon-96.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/sitemap.xml",
+    "a": 66,
+    "d": 12
+   },
+   {
+    "f": "ruleta-de-nombres.html",
+    "a": 163,
+    "d": 0
+   },
+   {
+    "f": "scripts/check-paginas.mjs",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "seguridad.html",
+    "a": 16,
+    "d": 6
+   },
+   {
+    "f": "sorteo-en-clase.html",
+    "a": 15,
+    "d": 4
+   },
+   {
+    "f": "sorteo-para-eventos.html",
+    "a": 159,
+    "d": 0
+   },
+   {
+    "f": "sorteo-para-meetup.html",
+    "a": 15,
+    "d": 4
+   },
+   {
+    "f": "sorteo-verificable.html",
+    "a": 15,
+    "d": 4
+   },
+   {
+    "f": "src/i18n.ts",
+    "a": 205,
+    "d": 15
+   },
+   {
+    "f": "src/idioma.ts",
+    "a": 16,
+    "d": 0
+   },
+   {
+    "f": "src/logo-textos.test.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/seo-paginas.test.ts",
+    "a": 207,
+    "d": 0
+   },
+   {
+    "f": "src/seo.test.ts",
+    "a": 41,
+    "d": 19
+   },
+   {
+    "f": "terminos.html",
+    "a": 16,
+    "d": 6
+   },
+   {
+    "f": "verificar.html",
+    "a": 3,
+    "d": 1
+   },
+   {
+    "f": "vite.config.ts",
+    "a": 5,
+    "d": 3
+   }
+  ]
+ },
+ "fb6e56eb731683a467789bc4ea72043d715aae12": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-04T19:49:47Z",
+  "message": "La carrera reparte el final y suma obstáculos que le tocan a cualquiera",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/juegos/carrera.md",
+    "a": 20,
+    "d": 1
+   },
+   {
+    "f": "scripts/capturas-carrera-drama.mjs",
+    "a": 118,
+    "d": 0
+   },
+   {
+    "f": "scripts/lib/delatores-carrera.mjs",
+    "a": 13,
+    "d": 1
+   },
+   {
+    "f": "scripts/lib/delatores-carrera.test.mjs",
+    "a": 3,
+    "d": 2
+   },
+   {
+    "f": "scripts/lib/drama-carrera.mjs",
+    "a": 208,
+    "d": 0
+   },
+   {
+    "f": "scripts/medir-drama-carrera.mjs",
+    "a": 47,
+    "d": 0
+   },
+   {
+    "f": "src/games/llamas/carrera-3d-mapa.ts",
+    "a": 32,
+    "d": 0
+   },
+   {
+    "f": "src/games/llamas/carrera-3d-obstaculos.ts",
+    "a": 149,
+    "d": 0
+   },
+   {
+    "f": "src/games/llamas/carrera-3d.test.ts",
+    "a": 4,
+    "d": 2
+   },
+   {
+    "f": "src/games/llamas/carrera-3d.ts",
+    "a": 26,
+    "d": 1
+   },
+   {
+    "f": "src/games/llamas/carrera-cierre.ts",
+    "a": 217,
+    "d": 0
+   },
+   {
+    "f": "src/games/llamas/carrera-drama.test.ts",
+    "a": 221,
+    "d": 0
+   },
+   {
+    "f": "src/games/llamas/carrera-obstaculos.ts",
+    "a": 231,
+    "d": 0
+   },
+   {
+    "f": "src/games/llamas/carrera-show.test.ts",
+    "a": 2,
+    "d": 1
+   },
+   {
+    "f": "src/games/llamas/carrera-show.ts",
+    "a": 48,
+    "d": 1
+   },
+   {
+    "f": "src/games/llamas/carrera-textos.ts",
+    "a": 8,
+    "d": 0
+   },
+   {
+    "f": "src/games/llamas/carrera.ts",
+    "a": 126,
+    "d": 8
+   },
+   {
+    "f": "src/games/llamas/llama-aguayo.ts",
+    "a": 11,
+    "d": 1
+   },
+   {
+    "f": "src/games/llamas/llama-obstaculos.ts",
+    "a": 44,
+    "d": 0
+   },
+   {
+    "f": "src/games/llamas/llama.ts",
+    "a": 11,
+    "d": 1
+   },
+   {
+    "f": "src/games/llamas/plan.ts",
+    "a": 10,
+    "d": 0
+   }
+  ]
+ },
+ "84b45e0fa30840ccea94d404010b6c3b70017a7d": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-04T18:35:22Z",
+  "message": "El árbol del Toborochi en 3D tiene tronco de botella, ramas gruesas y flores de cinco pétalos",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/juegos/toborochi.md",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/games/tres/toborochi-3d-piezas.ts",
+    "a": 127,
+    "d": 0
+   },
+   {
+    "f": "src/games/tres/toborochi-3d.ts",
+    "a": 145,
+    "d": 154
+   }
+  ]
+ },
+ "0a8b821b543be80356d46f9d73381feafb41a1b1": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-04T18:32:36Z",
+  "message": "Los sonidos de archivo quedan apagados hasta que alguien los elija con oídos",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/juegos.md",
+    "a": 2,
+    "d": 0
+   },
+   {
+    "f": "scripts/audit-sound.mjs",
+    "a": 2,
+    "d": 1
+   },
+   {
+    "f": "src/sonidos/banco-apagado.test.ts",
+    "a": 63,
+    "d": 0
+   },
+   {
+    "f": "src/sonidos/banco-musica.test.ts",
+    "a": 7,
+    "d": 2
+   },
+   {
+    "f": "src/sonidos/banco.ts",
+    "a": 28,
+    "d": 2
+   }
+  ]
+ },
+ "baf548c32aa40904d75f8616b2fc71a6c58227ba": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-04T18:25:47Z",
+  "message": "El ensayo deja probar todos los juegos y ver el resultado de nuevo con otro",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/ux.md",
+    "a": 11,
+    "d": 1
+   },
+   {
+    "f": "index.html",
+    "a": 5,
+    "d": 2
+   },
+   {
+    "f": "scripts/audit-espera.mjs",
+    "a": 9,
+    "d": 11
+   },
+   {
+    "f": "scripts/audit-primer-sorteo.mjs",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/i18n.ts",
+    "a": 8,
+    "d": 0
+   },
+   {
+    "f": "src/main.ts",
+    "a": 2,
+    "d": 1
+   },
+   {
+    "f": "src/styles.css",
+    "a": 11,
+    "d": 0
+   },
+   {
+    "f": "src/ui/draw-propio.test.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/ui/draw-proteger.test.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/ui/draw.ts",
+    "a": 36,
+    "d": 3
+   },
+   {
+    "f": "src/ui/ensayo.ts",
+    "a": 5,
+    "d": 1
+   },
+   {
+    "f": "src/ui/freeze.ts",
+    "a": 78,
+    "d": 4
+   },
+   {
+    "f": "src/ui/index-textos.test.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/ui/selector-de-juego.test.ts",
+    "a": 167,
+    "d": 0
+   },
+   {
+    "f": "src/ui/siguiente.ts",
+    "a": 3,
+    "d": 3
+   },
+   {
+    "f": "src/ui/ver-de-nuevo.test.ts",
+    "a": 161,
+    "d": 0
+   }
+  ]
+ },
+ "6d2ac5ea1232246d0efb99f1763f17ca41b2d717": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-04T17:18:53Z",
+  "message": "El guion de capturas del Toborochi y la guía del kit 3D terminan de hablar como el resto del repo",
+  "parents": 1,
+  "files": [
+   {
+    "f": "scripts/capturas-toborochi-3d.mjs",
+    "a": 3,
+    "d": 3
+   },
+   {
+    "f": "src/games/tres/README.md",
+    "a": 1,
+    "d": 1
+   }
+  ]
+ },
+ "2a86bb47f9a8bdfd51ce81c5bc30f2a925c5292a": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-04T17:07:03Z",
+  "message": "La licencia del audio, la guía del kit 3D y el guion de capturas del Guajojó hablan como el resto del repo",
+  "parents": 1,
+  "files": [
+   {
+    "f": "public/sonidos/LICENCIA.md",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "scripts/capturas-guajojo-3d.mjs",
+    "a": 3,
+    "d": 3
+   },
+   {
+    "f": "src/games/tres/README.md",
+    "a": 2,
+    "d": 2
+   }
+  ]
+ },
+ "4700a6daec5c7031b357114274a0d0047dced8cd": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-04T17:05:07Z",
+  "message": "Merge remote-tracking branch 'origin/main' into integ-c",
+  "parents": 2,
+  "files": [
+   {
+    "f": "docs/marca.md",
+    "a": 15,
+    "d": 0
+   },
+   {
+    "f": "marca.html",
+    "a": 243,
+    "d": 8
+   },
+   {
+    "f": "public/marca/afiche-evento-a3-claro-en.pdf",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/afiche-evento-a3-claro-en.svg",
+    "a": 74,
+    "d": 0
+   },
+   {
+    "f": "public/marca/afiche-evento-a3-claro-es.pdf",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/afiche-evento-a3-claro-es.svg",
+    "a": 74,
+    "d": 0
+   },
+   {
+    "f": "public/marca/afiche-evento-a3-oscuro-en.pdf",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/afiche-evento-a3-oscuro-en.svg",
+    "a": 74,
+    "d": 0
+   },
+   {
+    "f": "public/marca/afiche-evento-a3-oscuro-es.pdf",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/afiche-evento-a3-oscuro-es.svg",
+    "a": 74,
+    "d": 0
+   },
+   {
+    "f": "public/marca/afiche-evento-a4-claro-en.pdf",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/afiche-evento-a4-claro-en.svg",
+    "a": 74,
+    "d": 0
+   },
+   {
+    "f": "public/marca/afiche-evento-a4-claro-es.pdf",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/afiche-evento-a4-claro-es.svg",
+    "a": 74,
+    "d": 0
+   },
+   {
+    "f": "public/marca/afiche-evento-a4-oscuro-en.pdf",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/afiche-evento-a4-oscuro-en.svg",
+    "a": 74,
+    "d": 0
+   },
+   {
+    "f": "public/marca/afiche-evento-a4-oscuro-es.pdf",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/afiche-evento-a4-oscuro-es.svg",
+    "a": 74,
+    "d": 0
+   },
+   {
+    "f": "public/marca/cartel-mesa-a5-claro-en.pdf",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/cartel-mesa-a5-claro-en.svg",
+    "a": 51,
+    "d": 0
+   },
+   {
+    "f": "public/marca/cartel-mesa-a5-claro-es.pdf",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/cartel-mesa-a5-claro-es.svg",
+    "a": 51,
+    "d": 0
+   },
+   {
+    "f": "public/marca/cartel-mesa-a5-oscuro-en.pdf",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/cartel-mesa-a5-oscuro-en.svg",
+    "a": 50,
+    "d": 0
+   },
+   {
+    "f": "public/marca/cartel-mesa-a5-oscuro-es.pdf",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/cartel-mesa-a5-oscuro-es.svg",
+    "a": 50,
+    "d": 0
+   },
+   {
+    "f": "public/marca/kit-portada-en.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/kit-portada.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/logo-web-apilado-oscuro.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/logo-web-apilado-oscuro.svg",
+    "a": 8,
+    "d": 0
+   },
+   {
+    "f": "public/marca/logo-web-apilado.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/logo-web-apilado.svg",
+    "a": 8,
+    "d": 0
+   },
+   {
+    "f": "public/marca/logo-web-horizontal-oscuro.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/logo-web-horizontal-oscuro.svg",
+    "a": 8,
+    "d": 0
+   },
+   {
+    "f": "public/marca/logo-web-horizontal.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/logo-web-horizontal.svg",
+    "a": 8,
+    "d": 0
+   },
+   {
+    "f": "public/marca/redes-cabecera-claro-en.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/redes-cabecera-claro-es.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/redes-cabecera-oscuro-en.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/redes-cabecera-oscuro-es.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/redes-cuadrada-claro-en.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/redes-cuadrada-claro-es.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/redes-cuadrada-oscuro-en.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/redes-cuadrada-oscuro-es.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/redes-historia-claro-en.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/redes-historia-claro-es.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/redes-historia-oscuro-en.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/redes-historia-oscuro-es.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/redes-linkedin-claro-en.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/redes-linkedin-claro-es.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/redes-linkedin-oscuro-en.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/redes-linkedin-oscuro-es.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/redes-patrocinio-ancha-claro-en.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/redes-patrocinio-ancha-claro-es.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/redes-patrocinio-ancha-oscuro-en.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/redes-patrocinio-ancha-oscuro-es.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/redes-patrocinio-cuadrada-claro-en.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/redes-patrocinio-cuadrada-claro-es.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/redes-patrocinio-cuadrada-oscuro-en.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/redes-patrocinio-cuadrada-oscuro-es.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/redes-portada-claro-en.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/redes-portada-claro-es.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/redes-portada-oscuro-en.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/redes-portada-oscuro-es.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/sticker-cuadrado-5cm.pdf",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/sticker-cuadrado-7cm.pdf",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/sticker-escanea-en-5cm.pdf",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/sticker-escanea-en-5cm.svg",
+    "a": 18,
+    "d": 0
+   },
+   {
+    "f": "public/marca/sticker-escanea-en-7cm.pdf",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/sticker-escanea-en-7cm.svg",
+    "a": 18,
+    "d": 0
+   },
+   {
+    "f": "public/marca/sticker-escanea-es-5cm.pdf",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/sticker-escanea-es-5cm.svg",
+    "a": 18,
+    "d": 0
+   },
+   {
+    "f": "public/marca/sticker-escanea-es-7cm.pdf",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/sticker-escanea-es-7cm.svg",
+    "a": 18,
+    "d": 0
+   },
+   {
+    "f": "public/marca/sticker-evento-en-5cm.pdf",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/sticker-evento-en-5cm.svg",
+    "a": 22,
+    "d": 0
+   },
+   {
+    "f": "public/marca/sticker-evento-en-7cm.pdf",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/sticker-evento-en-7cm.svg",
+    "a": 22,
+    "d": 0
+   },
+   {
+    "f": "public/marca/sticker-evento-es-5cm.pdf",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/sticker-evento-es-5cm.svg",
+    "a": 22,
+    "d": 0
+   },
+   {
+    "f": "public/marca/sticker-evento-es-7cm.pdf",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/sticker-evento-es-7cm.svg",
+    "a": 22,
+    "d": 0
+   },
+   {
+    "f": "public/marca/sticker-gratis-en-5cm.pdf",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/sticker-gratis-en-5cm.svg",
+    "a": 22,
+    "d": 0
+   },
+   {
+    "f": "public/marca/sticker-gratis-en-7cm.pdf",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/sticker-gratis-en-7cm.svg",
+    "a": 22,
+    "d": 0
+   },
+   {
+    "f": "public/marca/sticker-gratis-es-5cm.pdf",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/sticker-gratis-es-5cm.svg",
+    "a": 22,
+    "d": 0
+   },
+   {
+    "f": "public/marca/sticker-gratis-es-7cm.pdf",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/sticker-gratis-es-7cm.svg",
+    "a": 22,
+    "d": 0
+   },
+   {
+    "f": "public/marca/sticker-llama-recortada-5cm.pdf",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/sticker-llama-recortada-5cm.svg",
+    "a": 11,
+    "d": 0
+   },
+   {
+    "f": "public/marca/sticker-llama-recortada-7cm.pdf",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/sticker-llama-recortada-7cm.svg",
+    "a": 11,
+    "d": 0
+   },
+   {
+    "f": "public/marca/sticker-redondo-5cm.pdf",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/sticker-redondo-7cm.pdf",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/sticker-redondo-oscuro-5cm.pdf",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/sticker-redondo-oscuro-7cm.pdf",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/sticker-verificable-en-5cm.pdf",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/sticker-verificable-en-5cm.svg",
+    "a": 22,
+    "d": 0
+   },
+   {
+    "f": "public/marca/sticker-verificable-en-7cm.pdf",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/sticker-verificable-en-7cm.svg",
+    "a": 22,
+    "d": 0
+   },
+   {
+    "f": "public/marca/sticker-verificable-es-5cm.pdf",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/sticker-verificable-es-5cm.svg",
+    "a": 22,
+    "d": 0
+   },
+   {
+    "f": "public/marca/sticker-verificable-es-7cm.pdf",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/sticker-verificable-es-7cm.svg",
+    "a": 22,
+    "d": 0
+   },
+   {
+    "f": "public/marca/sticker-web-5cm.pdf",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/sticker-web-5cm.svg",
+    "a": 15,
+    "d": 0
+   },
+   {
+    "f": "public/marca/sticker-web-7cm.pdf",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/sticker-web-7cm.svg",
+    "a": 15,
+    "d": 0
+   },
+   {
+    "f": "public/marca/sticker-web-oscuro-5cm.pdf",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/sticker-web-oscuro-5cm.svg",
+    "a": 15,
+    "d": 0
+   },
+   {
+    "f": "public/marca/sticker-web-oscuro-7cm.pdf",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/sticker-web-oscuro-7cm.svg",
+    "a": 15,
+    "d": 0
+   },
+   {
+    "f": "public/marca/stickers-hoja-a4-7cm-en.pdf",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/stickers-hoja-a4-7cm-en.svg",
+    "a": 93,
+    "d": 0
+   },
+   {
+    "f": "public/marca/stickers-hoja-a4-7cm-es.pdf",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/stickers-hoja-a4-7cm-es.svg",
+    "a": 93,
+    "d": 0
+   },
+   {
+    "f": "public/marca/stickers-hoja-a4-en.pdf",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/stickers-hoja-a4-en.svg",
+    "a": 195,
+    "d": 0
+   },
+   {
+    "f": "public/marca/stickers-hoja-a4-es.pdf",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/stickers-hoja-a4-es.svg",
+    "a": 195,
+    "d": 0
+   },
+   {
+    "f": "public/marca/tinkazo-kit-marca.zip",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "scripts/generar-marca.mjs",
+    "a": 22,
+    "d": 216
+   },
+   {
+    "f": "scripts/marca/afiches.mjs",
+    "a": 104,
+    "d": 0
+   },
+   {
+    "f": "scripts/marca/base.mjs",
+    "a": 337,
+    "d": 0
+   },
+   {
+    "f": "scripts/marca/dibujo.mjs",
+    "a": 173,
+    "d": 0
+   },
+   {
+    "f": "scripts/marca/logos.mjs",
+    "a": 70,
+    "d": 0
+   },
+   {
+    "f": "scripts/marca/piezas.mjs",
+    "a": 109,
+    "d": 0
+   },
+   {
+    "f": "scripts/marca/portada.mjs",
+    "a": 67,
+    "d": 0
+   },
+   {
+    "f": "scripts/marca/qr.mjs",
+    "a": 38,
+    "d": 0
+   },
+   {
+    "f": "scripts/marca/redes.mjs",
+    "a": 143,
+    "d": 0
+   },
+   {
+    "f": "scripts/marca/stickers.mjs",
+    "a": 195,
+    "d": 0
+   },
+   {
+    "f": "src/i18n.ts",
+    "a": 90,
+    "d": 6
+   },
+   {
+    "f": "src/marca.css",
+    "a": 32,
+    "d": 0
+   },
+   {
+    "f": "src/marca.test.ts",
+    "a": 254,
+    "d": 8
+   },
+   {
+    "f": "src/marca.ts",
+    "a": 18,
+    "d": 2
+   }
+  ]
+ },
+ "1aa8dc04ee1e42743b81054cca0bc1eb948707f1": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-04T16:55:45Z",
+  "message": "La página de marca iguala el alto de las vistas de redes, la imagen cuadrada gana una llama más grande y la guía de marc",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/marca.md",
+    "a": 15,
+    "d": 0
+   },
+   {
+    "f": "public/marca/redes-cuadrada-claro-en.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/redes-cuadrada-claro-es.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/redes-cuadrada-oscuro-en.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/redes-cuadrada-oscuro-es.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/tinkazo-kit-marca.zip",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "scripts/marca/redes.mjs",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "src/marca.css",
+    "a": 4,
+    "d": 0
+   }
+  ]
+ },
+ "247a707019dbd0243c4ee2de22ee10a9a7cd9666": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-04T16:46:43Z",
+  "message": "El kit de marca trae más aura: el logo con la dirección tinkazo.app, seis stickers nuevos con la llama recortada y un QR",
+  "parents": 1,
+  "files": [
+   {
+    "f": "marca.html",
+    "a": 243,
+    "d": 8
+   },
+   {
+    "f": "public/marca/afiche-evento-a3-claro-en.pdf",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/afiche-evento-a3-claro-en.svg",
+    "a": 74,
+    "d": 0
+   },
+   {
+    "f": "public/marca/afiche-evento-a3-claro-es.pdf",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/afiche-evento-a3-claro-es.svg",
+    "a": 74,
+    "d": 0
+   },
+   {
+    "f": "public/marca/afiche-evento-a3-oscuro-en.pdf",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/afiche-evento-a3-oscuro-en.svg",
+    "a": 74,
+    "d": 0
+   },
+   {
+    "f": "public/marca/afiche-evento-a3-oscuro-es.pdf",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/afiche-evento-a3-oscuro-es.svg",
+    "a": 74,
+    "d": 0
+   },
+   {
+    "f": "public/marca/afiche-evento-a4-claro-en.pdf",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/afiche-evento-a4-claro-en.svg",
+    "a": 74,
+    "d": 0
+   },
+   {
+    "f": "public/marca/afiche-evento-a4-claro-es.pdf",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/afiche-evento-a4-claro-es.svg",
+    "a": 74,
+    "d": 0
+   },
+   {
+    "f": "public/marca/afiche-evento-a4-oscuro-en.pdf",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/afiche-evento-a4-oscuro-en.svg",
+    "a": 74,
+    "d": 0
+   },
+   {
+    "f": "public/marca/afiche-evento-a4-oscuro-es.pdf",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/afiche-evento-a4-oscuro-es.svg",
+    "a": 74,
+    "d": 0
+   },
+   {
+    "f": "public/marca/cartel-mesa-a5-claro-en.pdf",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/cartel-mesa-a5-claro-en.svg",
+    "a": 51,
+    "d": 0
+   },
+   {
+    "f": "public/marca/cartel-mesa-a5-claro-es.pdf",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/cartel-mesa-a5-claro-es.svg",
+    "a": 51,
+    "d": 0
+   },
+   {
+    "f": "public/marca/cartel-mesa-a5-oscuro-en.pdf",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/cartel-mesa-a5-oscuro-en.svg",
+    "a": 50,
+    "d": 0
+   },
+   {
+    "f": "public/marca/cartel-mesa-a5-oscuro-es.pdf",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/cartel-mesa-a5-oscuro-es.svg",
+    "a": 50,
+    "d": 0
+   },
+   {
+    "f": "public/marca/kit-portada-en.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/kit-portada.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/logo-web-apilado-oscuro.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/logo-web-apilado-oscuro.svg",
+    "a": 8,
+    "d": 0
+   },
+   {
+    "f": "public/marca/logo-web-apilado.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/logo-web-apilado.svg",
+    "a": 8,
+    "d": 0
+   },
+   {
+    "f": "public/marca/logo-web-horizontal-oscuro.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/logo-web-horizontal-oscuro.svg",
+    "a": 8,
+    "d": 0
+   },
+   {
+    "f": "public/marca/logo-web-horizontal.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/logo-web-horizontal.svg",
+    "a": 8,
+    "d": 0
+   },
+   {
+    "f": "public/marca/redes-cabecera-claro-en.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/redes-cabecera-claro-es.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/redes-cabecera-oscuro-en.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/redes-cabecera-oscuro-es.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/redes-cuadrada-claro-en.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/redes-cuadrada-claro-es.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/redes-cuadrada-oscuro-en.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/redes-cuadrada-oscuro-es.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/redes-historia-claro-en.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/redes-historia-claro-es.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/redes-historia-oscuro-en.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/redes-historia-oscuro-es.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/redes-linkedin-claro-en.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/redes-linkedin-claro-es.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/redes-linkedin-oscuro-en.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/redes-linkedin-oscuro-es.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/redes-patrocinio-ancha-claro-en.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/redes-patrocinio-ancha-claro-es.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/redes-patrocinio-ancha-oscuro-en.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/redes-patrocinio-ancha-oscuro-es.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/redes-patrocinio-cuadrada-claro-en.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/redes-patrocinio-cuadrada-claro-es.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/redes-patrocinio-cuadrada-oscuro-en.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/redes-patrocinio-cuadrada-oscuro-es.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/redes-portada-claro-en.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/redes-portada-claro-es.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/redes-portada-oscuro-en.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/redes-portada-oscuro-es.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/sticker-cuadrado-5cm.pdf",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/sticker-cuadrado-7cm.pdf",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/sticker-escanea-en-5cm.pdf",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/sticker-escanea-en-5cm.svg",
+    "a": 18,
+    "d": 0
+   },
+   {
+    "f": "public/marca/sticker-escanea-en-7cm.pdf",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/sticker-escanea-en-7cm.svg",
+    "a": 18,
+    "d": 0
+   },
+   {
+    "f": "public/marca/sticker-escanea-es-5cm.pdf",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/sticker-escanea-es-5cm.svg",
+    "a": 18,
+    "d": 0
+   },
+   {
+    "f": "public/marca/sticker-escanea-es-7cm.pdf",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/sticker-escanea-es-7cm.svg",
+    "a": 18,
+    "d": 0
+   },
+   {
+    "f": "public/marca/sticker-evento-en-5cm.pdf",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/sticker-evento-en-5cm.svg",
+    "a": 22,
+    "d": 0
+   },
+   {
+    "f": "public/marca/sticker-evento-en-7cm.pdf",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/sticker-evento-en-7cm.svg",
+    "a": 22,
+    "d": 0
+   },
+   {
+    "f": "public/marca/sticker-evento-es-5cm.pdf",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/sticker-evento-es-5cm.svg",
+    "a": 22,
+    "d": 0
+   },
+   {
+    "f": "public/marca/sticker-evento-es-7cm.pdf",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/sticker-evento-es-7cm.svg",
+    "a": 22,
+    "d": 0
+   },
+   {
+    "f": "public/marca/sticker-gratis-en-5cm.pdf",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/sticker-gratis-en-5cm.svg",
+    "a": 22,
+    "d": 0
+   },
+   {
+    "f": "public/marca/sticker-gratis-en-7cm.pdf",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/sticker-gratis-en-7cm.svg",
+    "a": 22,
+    "d": 0
+   },
+   {
+    "f": "public/marca/sticker-gratis-es-5cm.pdf",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/sticker-gratis-es-5cm.svg",
+    "a": 22,
+    "d": 0
+   },
+   {
+    "f": "public/marca/sticker-gratis-es-7cm.pdf",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/sticker-gratis-es-7cm.svg",
+    "a": 22,
+    "d": 0
+   },
+   {
+    "f": "public/marca/sticker-llama-recortada-5cm.pdf",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/sticker-llama-recortada-5cm.svg",
+    "a": 11,
+    "d": 0
+   },
+   {
+    "f": "public/marca/sticker-llama-recortada-7cm.pdf",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/sticker-llama-recortada-7cm.svg",
+    "a": 11,
+    "d": 0
+   },
+   {
+    "f": "public/marca/sticker-redondo-5cm.pdf",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/sticker-redondo-7cm.pdf",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/sticker-redondo-oscuro-5cm.pdf",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/sticker-redondo-oscuro-7cm.pdf",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/sticker-verificable-en-5cm.pdf",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/sticker-verificable-en-5cm.svg",
+    "a": 22,
+    "d": 0
+   },
+   {
+    "f": "public/marca/sticker-verificable-en-7cm.pdf",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/sticker-verificable-en-7cm.svg",
+    "a": 22,
+    "d": 0
+   },
+   {
+    "f": "public/marca/sticker-verificable-es-5cm.pdf",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/sticker-verificable-es-5cm.svg",
+    "a": 22,
+    "d": 0
+   },
+   {
+    "f": "public/marca/sticker-verificable-es-7cm.pdf",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/sticker-verificable-es-7cm.svg",
+    "a": 22,
+    "d": 0
+   },
+   {
+    "f": "public/marca/sticker-web-5cm.pdf",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/sticker-web-5cm.svg",
+    "a": 15,
+    "d": 0
+   },
+   {
+    "f": "public/marca/sticker-web-7cm.pdf",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/sticker-web-7cm.svg",
+    "a": 15,
+    "d": 0
+   },
+   {
+    "f": "public/marca/sticker-web-oscuro-5cm.pdf",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/sticker-web-oscuro-5cm.svg",
+    "a": 15,
+    "d": 0
+   },
+   {
+    "f": "public/marca/sticker-web-oscuro-7cm.pdf",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/sticker-web-oscuro-7cm.svg",
+    "a": 15,
+    "d": 0
+   },
+   {
+    "f": "public/marca/stickers-hoja-a4-7cm-en.pdf",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/stickers-hoja-a4-7cm-en.svg",
+    "a": 93,
+    "d": 0
+   },
+   {
+    "f": "public/marca/stickers-hoja-a4-7cm-es.pdf",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/stickers-hoja-a4-7cm-es.svg",
+    "a": 93,
+    "d": 0
+   },
+   {
+    "f": "public/marca/stickers-hoja-a4-en.pdf",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/stickers-hoja-a4-en.svg",
+    "a": 195,
+    "d": 0
+   },
+   {
+    "f": "public/marca/stickers-hoja-a4-es.pdf",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/stickers-hoja-a4-es.svg",
+    "a": 195,
+    "d": 0
+   },
+   {
+    "f": "public/marca/tinkazo-kit-marca.zip",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "scripts/generar-marca.mjs",
+    "a": 19,
+    "d": 5
+   },
+   {
+    "f": "scripts/marca/afiches.mjs",
+    "a": 104,
+    "d": 0
+   },
+   {
+    "f": "scripts/marca/base.mjs",
+    "a": 16,
+    "d": 11
+   },
+   {
+    "f": "scripts/marca/dibujo.mjs",
+    "a": 173,
+    "d": 0
+   },
+   {
+    "f": "scripts/marca/logos.mjs",
+    "a": 70,
+    "d": 0
+   },
+   {
+    "f": "scripts/marca/piezas.mjs",
+    "a": 109,
+    "d": 1
+   },
+   {
+    "f": "scripts/marca/portada.mjs",
+    "a": 67,
+    "d": 0
+   },
+   {
+    "f": "scripts/marca/qr.mjs",
+    "a": 38,
+    "d": 0
+   },
+   {
+    "f": "scripts/marca/redes.mjs",
+    "a": 143,
+    "d": 0
+   },
+   {
+    "f": "scripts/marca/stickers.mjs",
+    "a": 195,
+    "d": 0
+   },
+   {
+    "f": "src/i18n.ts",
+    "a": 90,
+    "d": 6
+   },
+   {
+    "f": "src/marca.css",
+    "a": 28,
+    "d": 0
+   },
+   {
+    "f": "src/marca.test.ts",
+    "a": 227,
+    "d": 1
+   },
+   {
+    "f": "src/marca.ts",
+    "a": 18,
+    "d": 2
+   }
+  ]
+ },
+ "996c6339f16a0837ba962b4c19839d5a63c6ecaa": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-04T16:33:50Z",
+  "message": "La prueba de reproducibilidad de la marca ya no compara contra archivos hechos en otro equipo: mide dos corridas en el m",
+  "parents": 1,
+  "files": [
+   {
+    "f": "public/marca/tinkazo-kit-marca.zip",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "scripts/generar-marca.mjs",
+    "a": 3,
+    "d": 211
+   },
+   {
+    "f": "scripts/marca/base.mjs",
+    "a": 332,
+    "d": 0
+   },
+   {
+    "f": "scripts/marca/piezas.mjs",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "src/marca.test.ts",
+    "a": 27,
+    "d": 7
+   }
+  ]
+ },
+ "507195d22d6324011549e362f2e3db89e38c5c15": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-04T16:24:29Z",
+  "message": "Merge remote-tracking branch 'origin/main' into integ-c",
+  "parents": 2,
+  "files": [
+   {
+    "f": ".gitattributes",
+    "a": 5,
+    "d": 0
+   },
+   {
+    "f": ".gitignore",
+    "a": 2,
+    "d": 0
+   },
+   {
+    "f": "docs/marca.md",
+    "a": 14,
+    "d": 2
+   },
+   {
+    "f": "marca.html",
+    "a": 95,
+    "d": 1
+   },
+   {
+    "f": "package.json",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "pnpm-lock.yaml",
+    "a": 9,
+    "d": 0
+   },
+   {
+    "f": "public/marca/logo-apilado-oscuro.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/logo-apilado-oscuro.svg",
+    "a": 6,
+    "d": 0
+   },
+   {
+    "f": "public/marca/logo-apilado.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/logo-apilado.svg",
+    "a": 6,
+    "d": 0
+   },
+   {
+    "f": "public/marca/logo-horizontal-oscuro.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/logo-horizontal-oscuro.svg",
+    "a": 6,
+    "d": 0
+   },
+   {
+    "f": "public/marca/logo-horizontal.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/logo-horizontal.svg",
+    "a": 6,
+    "d": 0
+   },
+   {
+    "f": "public/marca/sello-en.svg",
+    "a": 3,
+    "d": 1
+   },
+   {
+    "f": "public/marca/sello-es.svg",
+    "a": 3,
+    "d": 1
+   },
+   {
+    "f": "public/marca/sticker-cuadrado-5cm.pdf",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/sticker-cuadrado-5cm.svg",
+    "a": 13,
+    "d": 0
+   },
+   {
+    "f": "public/marca/sticker-cuadrado-7cm.pdf",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/sticker-cuadrado-7cm.svg",
+    "a": 13,
+    "d": 0
+   },
+   {
+    "f": "public/marca/sticker-redondo-5cm.pdf",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/sticker-redondo-5cm.svg",
+    "a": 13,
+    "d": 0
+   },
+   {
+    "f": "public/marca/sticker-redondo-7cm.pdf",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/sticker-redondo-7cm.svg",
+    "a": 13,
+    "d": 0
+   },
+   {
+    "f": "public/marca/sticker-redondo-oscuro-5cm.pdf",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/sticker-redondo-oscuro-5cm.svg",
+    "a": 13,
+    "d": 0
+   },
+   {
+    "f": "public/marca/sticker-redondo-oscuro-7cm.pdf",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/sticker-redondo-oscuro-7cm.svg",
+    "a": 13,
+    "d": 0
+   },
+   {
+    "f": "public/marca/tinkazo-kit-marca.zip",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "scripts/generar-marca.mjs",
+    "a": 377,
+    "d": 7
+   },
+   {
+    "f": "scripts/marca/fuentes/Montserrat-Black.ttf",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "scripts/marca/fuentes/Montserrat-Bold.ttf",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "scripts/marca/fuentes/OFL.txt",
+    "a": 93,
+    "d": 0
+   },
+   {
+    "f": "src/i18n.ts",
+    "a": 66,
+    "d": 2
+   },
+   {
+    "f": "src/marca.css",
+    "a": 27,
+    "d": 0
+   },
+   {
+    "f": "src/marca.test.ts",
+    "a": 143,
+    "d": 6
+   }
+  ]
+ },
+ "36ea306848b8339c1a08292e62767ac4d46c2467": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-04T16:12:46Z",
+  "message": "La página de marca trae el kit para patrocinios y eventos: el logo completo con el nombre, claro y oscuro, horizontal y ",
+  "parents": 1,
+  "files": [
+   {
+    "f": ".gitattributes",
+    "a": 5,
+    "d": 0
+   },
+   {
+    "f": ".gitignore",
+    "a": 3,
+    "d": 0
+   },
+   {
+    "f": "docs/marca.md",
+    "a": 14,
+    "d": 2
+   },
+   {
+    "f": "marca.html",
+    "a": 95,
+    "d": 1
+   },
+   {
+    "f": "package.json",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "pnpm-lock.yaml",
+    "a": 9,
+    "d": 0
+   },
+   {
+    "f": "public/marca/logo-apilado-oscuro.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/logo-apilado-oscuro.svg",
+    "a": 6,
+    "d": 0
+   },
+   {
+    "f": "public/marca/logo-apilado.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/logo-apilado.svg",
+    "a": 6,
+    "d": 0
+   },
+   {
+    "f": "public/marca/logo-horizontal-oscuro.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/logo-horizontal-oscuro.svg",
+    "a": 6,
+    "d": 0
+   },
+   {
+    "f": "public/marca/logo-horizontal.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/logo-horizontal.svg",
+    "a": 6,
+    "d": 0
+   },
+   {
+    "f": "public/marca/sello-en.svg",
+    "a": 3,
+    "d": 1
+   },
+   {
+    "f": "public/marca/sello-es.svg",
+    "a": 3,
+    "d": 1
+   },
+   {
+    "f": "public/marca/sticker-cuadrado-5cm.pdf",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/sticker-cuadrado-5cm.svg",
+    "a": 13,
+    "d": 0
+   },
+   {
+    "f": "public/marca/sticker-cuadrado-7cm.pdf",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/sticker-cuadrado-7cm.svg",
+    "a": 13,
+    "d": 0
+   },
+   {
+    "f": "public/marca/sticker-redondo-5cm.pdf",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/sticker-redondo-5cm.svg",
+    "a": 13,
+    "d": 0
+   },
+   {
+    "f": "public/marca/sticker-redondo-7cm.pdf",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/sticker-redondo-7cm.svg",
+    "a": 13,
+    "d": 0
+   },
+   {
+    "f": "public/marca/sticker-redondo-oscuro-5cm.pdf",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/sticker-redondo-oscuro-5cm.svg",
+    "a": 13,
+    "d": 0
+   },
+   {
+    "f": "public/marca/sticker-redondo-oscuro-7cm.pdf",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/sticker-redondo-oscuro-7cm.svg",
+    "a": 13,
+    "d": 0
+   },
+   {
+    "f": "public/marca/tinkazo-kit-marca.zip",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "scripts/generar-marca.mjs",
+    "a": 377,
+    "d": 7
+   },
+   {
+    "f": "scripts/marca/fuentes/Montserrat-Black.ttf",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "scripts/marca/fuentes/Montserrat-Bold.ttf",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "scripts/marca/fuentes/OFL.txt",
+    "a": 93,
+    "d": 0
+   },
+   {
+    "f": "src/i18n.ts",
+    "a": 66,
+    "d": 2
+   },
+   {
+    "f": "src/marca.css",
+    "a": 27,
+    "d": 0
+   },
+   {
+    "f": "src/marca.test.ts",
+    "a": 143,
+    "d": 6
+   }
+  ]
+ },
+ "8ad85bf32fab0570d3f88b78361d857d1d498eaa": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-04T15:09:43Z",
+  "message": "El teleférico en 3D: la cabina ganadora grande y encendida, el apagón con las cabinas claras y el mundo dorado en el gol",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/games/pixi/cablecar.ts",
+    "a": 8,
+    "d": 2
+   },
+   {
+    "f": "src/games/tres/teleferico-3d.ts",
+    "a": 161,
+    "d": 25
+   }
+  ]
+ },
+ "5548091e95060e88e466e0862b3c63f8eef6241f": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-04T15:09:34Z",
+  "message": "El Guajojó en 3D se ve desde el selector: la ficha sobre quien gana, quien gana con su foco cálido y de cuerpo entero, l",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/games/tres/guajojo-3d.ts",
+    "a": 27,
+    "d": 11
+   },
+   {
+    "f": "src/games/tres/ofrecidos.test.ts",
+    "a": 7,
+    "d": 1
+   },
+   {
+    "f": "src/games/tres/ofrecidos.ts",
+    "a": 1,
+    "d": 1
+   }
+  ]
+ },
+ "114426fe627658425796dfc3513bff30ddec12fc": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-04T14:54:20Z",
+  "message": "En el trompo en 3D el rótulo CHOQUE 2/3 se lee sobre la tierra del patio: letra crema con contorno de tinta, como los de",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/games/pixi/trompo.ts",
+    "a": 5,
+    "d": 1
+   }
+  ]
+ },
+ "cb306bb937913220ee99aeca657d6622b472db16": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-04T14:17:31Z",
+  "message": "La entrada de Oruro se puede ver en 3D con ?motor=3d, con las caras y los nombres de siempre encima; todavía no está en ",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/games/pixi/oruro.ts",
+    "a": 115,
+    "d": 14
+   },
+   {
+    "f": "src/games/tres/oruro-3d-escenario.ts",
+    "a": 532,
+    "d": 0
+   },
+   {
+    "f": "src/games/tres/oruro-3d-recortes.ts",
+    "a": 440,
+    "d": 0
+   },
+   {
+    "f": "src/games/tres/oruro-3d-tipos.ts",
+    "a": 225,
+    "d": 0
+   },
+   {
+    "f": "src/games/tres/oruro-3d.test.ts",
+    "a": 227,
+    "d": 0
+   },
+   {
+    "f": "src/games/tres/oruro-3d.ts",
+    "a": 219,
+    "d": 0
+   }
+  ]
+ },
+ "5ff4c2f9db90a8a04dbe250d2fea745badd24d22": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-04T14:16:07Z",
+  "message": "La chovena se puede ver en 3D con ?motor=3d: la plaza, la gente y los brazos en perspectiva con las caras y los nombres ",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/juegos/chovena.md",
+    "a": 10,
+    "d": 0
+   },
+   {
+    "f": "src/games/pixi/chovena.ts",
+    "a": 176,
+    "d": 12
+   },
+   {
+    "f": "src/games/tres/chovena-3d-auditoria.ts",
+    "a": 145,
+    "d": 0
+   },
+   {
+    "f": "src/games/tres/chovena-3d-brazos.ts",
+    "a": 245,
+    "d": 0
+   },
+   {
+    "f": "src/games/tres/chovena-3d-gente.ts",
+    "a": 282,
+    "d": 0
+   },
+   {
+    "f": "src/games/tres/chovena-3d-plaza.ts",
+    "a": 481,
+    "d": 0
+   },
+   {
+    "f": "src/games/tres/chovena-3d-tipos.ts",
+    "a": 89,
+    "d": 0
+   },
+   {
+    "f": "src/games/tres/chovena-3d.test.ts",
+    "a": 451,
+    "d": 0
+   },
+   {
+    "f": "src/games/tres/chovena-3d.ts",
+    "a": 279,
+    "d": 0
+   }
+  ]
+ },
+ "a18d2119ad49058c73434a76f0085874a636de68": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-04T14:14:40Z",
+  "message": "La ruleta se puede ver en 3D con ?motor=3d, con las caras y los nombres de siempre encima; todavía no está en el selecto",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/games/pixi/wheel.ts",
+    "a": 40,
+    "d": 4
+   },
+   {
+    "f": "src/games/tres/wheel-3d.test.ts",
+    "a": 180,
+    "d": 0
+   },
+   {
+    "f": "src/games/tres/wheel-3d.ts",
+    "a": 659,
+    "d": 0
+   }
+  ]
+ },
+ "cbf613298b1ad9a7d144c1165753bda2f8d1ab39": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-04T14:14:36Z",
+  "message": "El sapo se puede ver en 3D desde el selector: la mesa con sus agujeros en perspectiva, la argolla que vuela con altura r",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/juegos/sapo.md",
+    "a": 4,
+    "d": 0
+   },
+   {
+    "f": "src/games/pixi/sapo.ts",
+    "a": 170,
+    "d": 36
+   },
+   {
+    "f": "src/games/tres/ofrecidos.test.ts",
+    "a": 8,
+    "d": 2
+   },
+   {
+    "f": "src/games/tres/ofrecidos.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/games/tres/sapo-3d.test.ts",
+    "a": 271,
+    "d": 0
+   },
+   {
+    "f": "src/games/tres/sapo-3d.ts",
+    "a": 848,
+    "d": 0
+   }
+  ]
+ },
+ "3fcd5b487d7729893f2e49aeaccf50ff7ddb77a9": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-04T14:11:39Z",
+  "message": "El teleférico tiene versión en 3D con ?motor=3d: una ladera al atardecer con cabinas de vidrio, gente adentro, torres, e",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/games/pixi/cablecar.ts",
+    "a": 103,
+    "d": 27
+   },
+   {
+    "f": "src/games/tres/teleferico-3d.test.ts",
+    "a": 182,
+    "d": 0
+   },
+   {
+    "f": "src/games/tres/teleferico-3d.ts",
+    "a": 1079,
+    "d": 0
+   },
+   {
+    "f": "src/games/tres/teleferico-mapa.ts",
+    "a": 78,
+    "d": 0
+   }
+  ]
+ },
+ "1008548c3a275fe001b070a36f744ad5f5407f17": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-04T14:11:34Z",
+  "message": "El Guajojó tiene versión en 3D con ?motor=3d: el sendero, el palo con sus ojos, la gente con farolito y el amanecer con ",
+  "parents": 1,
+  "files": [
+   {
+    "f": "scripts/capturas-guajojo-3d.mjs",
+    "a": 154,
+    "d": 0
+   },
+   {
+    "f": "src/games/pixi/guajojo.ts",
+    "a": 66,
+    "d": 5
+   },
+   {
+    "f": "src/games/tres/guajojo-3d-mapa.ts",
+    "a": 240,
+    "d": 0
+   },
+   {
+    "f": "src/games/tres/guajojo-3d.test.ts",
+    "a": 286,
+    "d": 0
+   },
+   {
+    "f": "src/games/tres/guajojo-3d.ts",
+    "a": 753,
+    "d": 0
+   }
+  ]
+ },
+ "6364e72574a4a92ed42cf7eb54fd03ec6f2007b5": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-04T14:09:55Z",
+  "message": "El Toborochi se puede ver en 3D desde el selector: el tronco panzón con espinas, la copa con profundidad, las flores que",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/juegos/toborochi.md",
+    "a": 11,
+    "d": 0
+   },
+   {
+    "f": "scripts/capturas-toborochi-3d.mjs",
+    "a": 158,
+    "d": 0
+   },
+   {
+    "f": "scripts/medir-toborochi-3d.mjs",
+    "a": 66,
+    "d": 0
+   },
+   {
+    "f": "src/games/pixi/toborochi.ts",
+    "a": 180,
+    "d": 20
+   },
+   {
+    "f": "src/games/tres/ofrecidos.test.ts",
+    "a": 7,
+    "d": 1
+   },
+   {
+    "f": "src/games/tres/ofrecidos.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/games/tres/toborochi-3d-mapa.ts",
+    "a": 211,
+    "d": 0
+   },
+   {
+    "f": "src/games/tres/toborochi-3d.test.ts",
+    "a": 225,
+    "d": 0
+   },
+   {
+    "f": "src/games/tres/toborochi-3d.ts",
+    "a": 873,
+    "d": 0
+   }
+  ]
+ },
+ "70312230f5f5fd57c636c78d3d58ff93c8fe49db": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-04T14:06:58Z",
+  "message": "El sitio en tinkazo.app sella y sortea por el servicio de comisiones de testnet sin configurar nada, y si no contesta pa",
+  "parents": 1,
+  "files": [
+   {
+    "f": "public/sitemap.xml",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/i18n.ts",
+    "a": 4,
+    "d": 4
+   },
+   {
+    "f": "src/logo-textos.test.ts",
+    "a": 2,
+    "d": 1
+   },
+   {
+    "f": "src/stellar/patrocinador.test.ts",
+    "a": 75,
+    "d": 0
+   },
+   {
+    "f": "src/stellar/patrocinador.ts",
+    "a": 28,
+    "d": 12
+   },
+   {
+    "f": "src/stellar/patrocinio-config.test.ts",
+    "a": 21,
+    "d": 0
+   },
+   {
+    "f": "src/stellar/patrocinio-config.ts",
+    "a": 48,
+    "d": 0
+   },
+   {
+    "f": "src/ui/envio-portero.test.ts",
+    "a": 23,
+    "d": 0
+   },
+   {
+    "f": "terminos.html",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "workers/patrocinio/README.md",
+    "a": 1,
+    "d": 1
+   }
+  ]
+ },
+ "9273eafefca37d9a1da33e1675defa6cb08cd58b": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-04T14:05:37Z",
+  "message": "La música de los juegos sale de un servicio propio y solo para el sitio: un Worker que entrega las camas únicamente a ti",
+  "parents": 1,
+  "files": [
+   {
+    "f": ".gitignore",
+    "a": 3,
+    "d": 0
+   },
+   {
+    "f": "workers/musica/README.md",
+    "a": 116,
+    "d": 0
+   },
+   {
+    "f": "workers/musica/src/index.ts",
+    "a": 22,
+    "d": 0
+   },
+   {
+    "f": "workers/musica/src/logica.ts",
+    "a": 162,
+    "d": 0
+   },
+   {
+    "f": "workers/musica/src/musica.test.ts",
+    "a": 203,
+    "d": 0
+   },
+   {
+    "f": "workers/musica/subir.mjs",
+    "a": 96,
+    "d": 0
+   },
+   {
+    "f": "workers/musica/wrangler.r2.toml",
+    "a": 16,
+    "d": 0
+   },
+   {
+    "f": "workers/musica/wrangler.toml",
+    "a": 20,
+    "d": 0
+   }
+  ]
+ },
+ "10df18db5d2dd27a1beb6a7d696acb29b9dfa39f": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-04T14:03:54Z",
+  "message": "Los diez juegos suenan con efectos e instrumentos de verdad en lugar de los pitidos de siempre: el casco de la llama, el",
+  "parents": 1,
+  "files": [
+   {
+    "f": ".gitignore",
+    "a": 3,
+    "d": 0
+   },
+   {
+    "f": "docs/juegos.md",
+    "a": 17,
+    "d": 1
+   },
+   {
+    "f": "public/sonidos/LICENCIA.md",
+    "a": 7,
+    "d": 0
+   },
+   {
+    "f": "public/sonidos/PROMPTS.md",
+    "a": 66,
+    "d": 0
+   },
+   {
+    "f": "public/sonidos/chovena/corte.mp3",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/sonidos/chovena/ganador.mp3",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/sonidos/chovena/pisada-1.mp3",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/sonidos/chovena/pisada-2.mp3",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/sonidos/comun/campana-hi.mp3",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/sonidos/comun/campana-lo.mp3",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/sonidos/comun/impacto.mp3",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/sonidos/comun/kalimba-hi.mp3",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/sonidos/comun/kalimba-lo.mp3",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/sonidos/comun/madera-hi.mp3",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/sonidos/comun/madera-lo.mp3",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/sonidos/comun/zampona-hi.mp3",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/sonidos/comun/zampona-lo.mp3",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/sonidos/guajojo/ganador.mp3",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/sonidos/guajojo/grillo-1.mp3",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/sonidos/guajojo/grillo-2.mp3",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/sonidos/oruro/bombo.mp3",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/sonidos/oruro/bronce-hi.mp3",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/sonidos/oruro/bronce-lo.mp3",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/sonidos/oruro/campana.mp3",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/sonidos/oruro/ganador.mp3",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/sonidos/oruro/paso.mp3",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/sonidos/oruro/redoblante.mp3",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/sonidos/pinata/caramelos-1.mp3",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/sonidos/pinata/caramelos-2.mp3",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/sonidos/pinata/ganador.mp3",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/sonidos/pinata/palo-1.mp3",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/sonidos/pinata/palo-2.mp3",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/sonidos/pinata/rotura.mp3",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/sonidos/pinata/soga.mp3",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/sonidos/pinata/traqueteo-1.mp3",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/sonidos/pinata/traqueteo-2.mp3",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/sonidos/race/casco-1.mp3",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/sonidos/race/casco-2.mp3",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/sonidos/race/casco-3.mp3",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/sonidos/race/ganador.mp3",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/sonidos/race/redoble.mp3",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/sonidos/race/resoplido.mp3",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/sonidos/race/tropiezo-1.mp3",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/sonidos/race/tropiezo-2.mp3",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/sonidos/sapo/boca.mp3",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/sonidos/sapo/ficha-1.mp3",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/sonidos/sapo/ficha-2.mp3",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/sonidos/sapo/ganador.mp3",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/sonidos/teleferico/apagon.mp3",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/sonidos/teleferico/cable.mp3",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/sonidos/teleferico/ganador.mp3",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/sonidos/teleferico/llegada.mp3",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/sonidos/teleferico/torre.mp3",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/sonidos/toborochi/colibri.mp3",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/sonidos/toborochi/ganador.mp3",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/sonidos/toborochi/viento.mp3",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/sonidos/trompo/cae.mp3",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/sonidos/trompo/choque-1.mp3",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/sonidos/trompo/choque-2.mp3",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/sonidos/trompo/ganador.mp3",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/sonidos/trompo/roce-1.mp3",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/sonidos/trompo/roce-2.mp3",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/sonidos/trompo/zumbido.mp3",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/sonidos/wheel/clavija-1.mp3",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/sonidos/wheel/clavija-2.mp3",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/sonidos/wheel/clavija-3.mp3",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/sonidos/wheel/ganador.mp3",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/sonidos/wheel/tum.mp3",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "scripts/audit-mezcla.mjs",
+    "a": 43,
+    "d": 0
+   },
+   {
+    "f": "scripts/audit-sound.mjs",
+    "a": 33,
+    "d": 5
+   },
+   {
+    "f": "scripts/sonidos/generar.mjs",
+    "a": 68,
+    "d": 0
+   },
+   {
+    "f": "scripts/sonidos/indice.json",
+    "a": 497,
+    "d": 0
+   },
+   {
+    "f": "scripts/sonidos/manifiesto.json",
+    "a": 461,
+    "d": 0
+   },
+   {
+    "f": "scripts/sonidos/procesar.py",
+    "a": 253,
+    "d": 0
+   },
+   {
+    "f": "src/games/pixi/index.ts",
+    "a": 3,
+    "d": 0
+   },
+   {
+    "f": "src/music.ts",
+    "a": 118,
+    "d": 1
+   },
+   {
+    "f": "src/sonidos/archivos.ts",
+    "a": 67,
+    "d": 0
+   },
+   {
+    "f": "src/sonidos/banco-musica.test.ts",
+    "a": 39,
+    "d": 0
+   },
+   {
+    "f": "src/sonidos/banco.test.ts",
+    "a": 159,
+    "d": 0
+   },
+   {
+    "f": "src/sonidos/banco.ts",
+    "a": 534,
+    "d": 0
+   },
+   {
+    "f": "src/sonidos/musica-remota.test.ts",
+    "a": 48,
+    "d": 0
+   },
+   {
+    "f": "src/sonidos/musica-remota.ts",
+    "a": 52,
+    "d": 0
+   },
+   {
+    "f": "src/sound.ts",
+    "a": 118,
+    "d": 5
+   },
+   {
+    "f": "src/ui/draw.ts",
+    "a": 3,
+    "d": 1
+   }
+  ]
+ },
+ "49a563d78202057c9c18f4b712c267674760b86b": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-04T11:13:03Z",
+  "message": "La piñata se puede ver en 3D desde el selector: el patio con papel picado, la olla facetada que se rompe en gajos, el ch",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/games/pixi/pinata.ts",
+    "a": 70,
+    "d": 2
+   },
+   {
+    "f": "src/games/tres/ofrecidos.test.ts",
+    "a": 7,
+    "d": 1
+   },
+   {
+    "f": "src/games/tres/ofrecidos.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/games/tres/pinata-3d-chico.ts",
+    "a": 164,
+    "d": 0
+   },
+   {
+    "f": "src/games/tres/pinata-3d-mapa.ts",
+    "a": 189,
+    "d": 0
+   },
+   {
+    "f": "src/games/tres/pinata-3d-patio.ts",
+    "a": 211,
+    "d": 0
+   },
+   {
+    "f": "src/games/tres/pinata-3d-piezas.ts",
+    "a": 116,
+    "d": 0
+   },
+   {
+    "f": "src/games/tres/pinata-3d-pina.ts",
+    "a": 226,
+    "d": 0
+   },
+   {
+    "f": "src/games/tres/pinata-3d-tipos.ts",
+    "a": 85,
+    "d": 0
+   },
+   {
+    "f": "src/games/tres/pinata-3d.test.ts",
+    "a": 313,
+    "d": 0
+   },
+   {
+    "f": "src/games/tres/pinata-3d.ts",
+    "a": 307,
+    "d": 0
+   }
+  ]
+ },
+ "15ae031fe47e5db09bc7f2d93f7931dae23ec412": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-04T09:56:40Z",
+  "message": "El interruptor Ver en 3D aparece con cualquier juego que tenga versión 3D aprobada, hoy la carrera y el trompo, con un t",
+  "parents": 1,
+  "files": [
+   {
+    "f": "index.html",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/games/tres/ofrecidos.test.ts",
+    "a": 33,
+    "d": 0
+   },
+   {
+    "f": "src/games/tres/ofrecidos.ts",
+    "a": 21,
+    "d": 0
+   },
+   {
+    "f": "src/i18n.ts",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "src/ui/ver3d.ts",
+    "a": 9,
+    "d": 5
+   }
+  ]
+ },
+ "945ad3793fbffc88c73a580381b0942cec1bad53": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-04T09:49:11Z",
+  "message": "Los juegos comparten un kit para verse en 3D: un solo three.js que se baja una vez, la cámara del director en perspectiv",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/motores.md",
+    "a": 14,
+    "d": 0
+   },
+   {
+    "f": "scripts/audit-choques.mjs",
+    "a": 3,
+    "d": 1
+   },
+   {
+    "f": "src/games/pixi/index.ts",
+    "a": 6,
+    "d": 2
+   },
+   {
+    "f": "src/games/pixi/trompo.ts",
+    "a": 95,
+    "d": 22
+   },
+   {
+    "f": "src/games/tres/README.md",
+    "a": 224,
+    "d": 0
+   },
+   {
+    "f": "src/games/tres/calidad.ts",
+    "a": 104,
+    "d": 0
+   },
+   {
+    "f": "src/games/tres/camara.ts",
+    "a": 153,
+    "d": 0
+   },
+   {
+    "f": "src/games/tres/enchufe.ts",
+    "a": 60,
+    "d": 0
+   },
+   {
+    "f": "src/games/tres/escena.ts",
+    "a": 431,
+    "d": 0
+   },
+   {
+    "f": "src/games/tres/etiquetas-pixi.ts",
+    "a": 86,
+    "d": 0
+   },
+   {
+    "f": "src/games/tres/etiquetas.ts",
+    "a": 108,
+    "d": 0
+   },
+   {
+    "f": "src/games/tres/figuras.ts",
+    "a": 200,
+    "d": 0
+   },
+   {
+    "f": "src/games/tres/ids.ts",
+    "a": 43,
+    "d": 0
+   },
+   {
+    "f": "src/games/tres/motor.ts",
+    "a": 276,
+    "d": 0
+   },
+   {
+    "f": "src/games/tres/prueba.ts",
+    "a": 66,
+    "d": 0
+   },
+   {
+    "f": "src/games/tres/registro.ts",
+    "a": 40,
+    "d": 0
+   },
+   {
+    "f": "src/games/tres/tipos.ts",
+    "a": 81,
+    "d": 0
+   },
+   {
+    "f": "src/games/tres/tres.test.ts",
+    "a": 273,
+    "d": 0
+   },
+   {
+    "f": "src/games/tres/trompo-3d.test.ts",
+    "a": 68,
+    "d": 0
+   },
+   {
+    "f": "src/games/tres/trompo-3d.ts",
+    "a": 550,
+    "d": 0
+   },
+   {
+    "f": "vite.config.ts",
+    "a": 9,
+    "d": 3
+   }
+  ]
+ },
+ "2a66d4aa5e7d0492a1d2b6642b246c2a64852891": {
+  "team": "TilcAI",
+  "repo": "TilcAI/tilcai-web",
+  "author": "JHAMILCALI",
+  "date": "2026-11-04T20:01:36Z",
+  "message": "chore(assets): depurar fuentes y recursos del hero",
+  "parents": 1,
+  "files": [
+   {
+    "f": "AGENT_HISTORY.md",
+    "a": 14,
+    "d": 0
+   },
+   {
+    "f": "public/assets/hero-cat-transparent.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/assets/hero-city-transparent.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/assets/neon-cat-city.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "src/app/[lang]/layout.tsx",
+    "a": 4,
+    "d": 3
+   },
+   {
+    "f": "src/components/sections/HeroExperience.tsx",
+    "a": 10,
+    "d": 2
+   },
+   {
+    "f": "src/fonts/Anton-OFL.txt",
+    "a": 93,
+    "d": 0
+   },
+   {
+    "f": "src/fonts/Anton-Regular.ttf",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "src/fonts/PlusJakartaSans-OFL.txt",
+    "a": 93,
+    "d": 0
+   },
+   {
+    "f": "src/fonts/PlusJakartaSans-VariableFont_wght.ttf",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "src/fonts/Poppins-Bold.ttf",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "src/fonts/Poppins-Medium.ttf",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "src/fonts/Poppins-OFL.txt",
+    "a": 93,
+    "d": 0
+   },
+   {
+    "f": "src/fonts/Poppins-Regular.ttf",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "src/fonts/Poppins-SemiBold.ttf",
+    "a": 0,
+    "d": 0
+   }
+  ]
+ },
+ "1aac01d9353e50bc68a2dfa0edd40c1597fecf8c": {
+  "team": "TilcAI",
+  "repo": "TilcAI/tilcai-web",
+  "author": "JHAMILCALI",
+  "date": "2026-11-04T19:54:11Z",
+  "message": "feat(hero): actualizar portada y diseño adaptable",
+  "parents": 1,
+  "files": [
+   {
+    "f": "AGENT_HISTORY.md",
+    "a": 451,
+    "d": 0
+   },
+   {
+    "f": "public/assets/img/inicio/gato inicio.svg",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "public/assets/img/inicio/orbita.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "src/app/hero.css",
+    "a": 56,
+    "d": 104
+   },
+   {
+    "f": "src/app/mobile.css",
+    "a": 6,
+    "d": 7
+   },
+   {
+    "f": "src/components/Antigravity.tsx",
+    "a": 0,
+    "d": 197
+   },
+   {
+    "f": "src/components/sections/HeroBackdrop.tsx",
+    "a": 0,
+    "d": 76
+   },
+   {
+    "f": "src/components/sections/HeroExperience.tsx",
+    "a": 51,
+    "d": 27
+   },
+   {
+    "f": "src/components/sections/HeroScene.tsx",
+    "a": 11,
+    "d": 71
+   },
+   {
+    "f": "src/components/sections/useHeroAnimation.ts",
+    "a": 0,
+    "d": 10
+   },
+   {
+    "f": "src/lib/i18n/en.ts",
+    "a": 6,
+    "d": 5
+   },
+   {
+    "f": "src/lib/i18n/es.ts",
+    "a": 5,
+    "d": 4
+   },
+   {
+    "f": "src/lib/i18n/types.ts",
+    "a": 2,
+    "d": 0
+   }
+  ]
+ },
+ "63905f8c5a9c0a4eb5eca34610d3f79b5e360ab2": {
+  "team": "TilcAI",
+  "repo": "TilcAI/tilcai-web",
+  "author": "OmarQV",
+  "date": "2026-11-04T14:53:40Z",
+  "message": "docs(history): entradas de OmarQV pendientes de commit",
+  "parents": 1,
+  "files": [
+   {
+    "f": "AGENT_HISTORY.md",
+    "a": 27,
+    "d": 0
+   }
+  ]
+ },
+ "4bbca82db14475fd12d682718cee3f0f5fea0bd7": {
+  "team": "TilcAI",
+  "repo": "TilcAI/tilcai-web",
+  "author": "OmarQV",
+  "date": "2026-11-04T14:40:21Z",
+  "message": "Merge pull request #30 from TilcAI/feat/monitor-gap-til07",
+  "parents": 2,
+  "files": [
+   {
+    "f": "AGENT_HISTORY.md",
+    "a": 133,
+    "d": 0
+   },
+   {
+    "f": "README.md",
+    "a": 28,
+    "d": 0
+   },
+   {
+    "f": "docs/portal-documentation.md",
+    "a": 7,
+    "d": 1
+   },
+   {
+    "f": "src/components/monitor/MonitorBoard.tsx",
+    "a": 19,
+    "d": 0
+   },
+   {
+    "f": "src/lib/content/docs-content.ts",
+    "a": 34,
+    "d": 6
+   },
+   {
+    "f": "src/lib/content/rails.ts",
+    "a": 11,
+    "d": 5
+   },
+   {
+    "f": "src/lib/i18n/en.ts",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "src/lib/i18n/es.ts",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "src/lib/i18n/narrative.ts",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "src/lib/monitor/contract.ts",
+    "a": 51,
+    "d": 1
+   },
+   {
+    "f": "src/lib/monitor/copy.ts",
+    "a": 47,
+    "d": 3
+   },
+   {
+    "f": "src/lib/monitor/gaps.ts",
+    "a": 23,
+    "d": 0
+   },
+   {
+    "f": "src/lib/monitor/interpret.ts",
+    "a": 39,
+    "d": 1
+   },
+   {
+    "f": "src/lib/monitor/store.ts",
+    "a": 67,
+    "d": 4
+   },
+   {
+    "f": "test/docs-page.test.ts",
+    "a": 22,
+    "d": 0
+   },
+   {
+    "f": "test/landing-explain.test.ts",
+    "a": 5,
+    "d": 8
+   },
+   {
+    "f": "test/monitor.test.ts",
+    "a": 105,
+    "d": 6
+   },
+   {
+    "f": "test/rails-atlas.test.ts",
+    "a": 16,
+    "d": 2
+   }
+  ]
+ },
+ "182761a67c0c7e69bce14f44035c4dc2baf9dae4": {
+  "team": "TilcAI",
+  "repo": "TilcAI/tilcai-web",
+  "author": "OmarQV",
+  "date": "2026-11-04T14:39:51Z",
+  "message": "docs(readme): check-in con los PRs de infra ya mergeados",
+  "parents": 1,
+  "files": [
+   {
+    "f": "AGENT_HISTORY.md",
+    "a": 15,
+    "d": 0
+   },
+   {
+    "f": "README.md",
+    "a": 7,
+    "d": 6
+   }
+  ]
+ },
+ "a45e2a6e27f474a7f6f9f14918b8546701d5a299": {
+  "team": "TilcAI",
+  "repo": "TilcAI/tilcai-web",
+  "author": "OmarQV",
+  "date": "2026-11-03T15:32:02Z",
+  "message": "fix(monitor): contrato contra tilcai-core y eventos del gateway de QR",
+  "parents": 1,
+  "files": [
+   {
+    "f": "AGENT_HISTORY.md",
+    "a": 28,
+    "d": 0
+   },
+   {
+    "f": "src/lib/monitor/contract.ts",
+    "a": 4,
+    "d": 0
+   },
+   {
+    "f": "src/lib/monitor/interpret.ts",
+    "a": 16,
+    "d": 0
+   },
+   {
+    "f": "test/monitor.test.ts",
+    "a": 11,
+    "d": 5
+   }
+  ]
+ },
+ "8fcae1693d455871a8802610ddb1876469e45773": {
+  "team": "TilcAI",
+  "repo": "TilcAI/tilcai-web",
+  "author": "OmarQV",
+  "date": "2026-11-03T15:30:00Z",
+  "message": "Merge origin/main into feat/monitor-gap-til07",
+  "parents": 2,
+  "files": [
+   {
+    "f": "AGENT_HISTORY.md",
+    "a": 13,
+    "d": 0
+   },
+   {
+    "f": "README.md",
+    "a": 15,
+    "d": 0
+   }
+  ]
+ },
+ "0163b4c37495accf3d58276309e819cd5423ead1": {
+  "team": "TilcAI",
+  "repo": "TilcAI/tilcai-web",
+  "author": "OmarQV",
+  "date": "2026-11-03T13:29:12Z",
+  "message": "fix(monitor): las brechas sobreviven a un reinicio del sitio",
+  "parents": 1,
+  "files": [
+   {
+    "f": "AGENT_HISTORY.md",
+    "a": 28,
+    "d": 0
+   },
+   {
+    "f": "README.md",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/lib/monitor/store.ts",
+    "a": 59,
+    "d": 5
+   },
+   {
+    "f": "test/monitor.test.ts",
+    "a": 37,
+    "d": 1
+   }
+  ]
+ },
+ "e0a5799dd1ed9e97283b7e5b845c5127f99952a3": {
+  "team": "TilcAI",
+  "repo": "TilcAI/tilcai-web",
+  "author": "OmarQV",
+  "date": "2026-11-02T01:45:12Z",
+  "message": "docs(readme): el check-in indica la migración 8 de N-11",
+  "parents": 1,
+  "files": [
+   {
+    "f": "AGENT_HISTORY.md",
+    "a": 29,
+    "d": 0
+   },
+   {
+    "f": "README.md",
+    "a": 1,
+    "d": 1
+   }
+  ]
+ },
+ "b0f36a339884fc31dd2b8edb0063de7d410f0007": {
+  "team": "TilcAI",
+  "repo": "TilcAI/tilcai-web",
+  "author": "OmarQV",
+  "date": "2026-11-01T21:29:04Z",
+  "message": "docs(readme): check-in del 1 de noviembre para el equipo",
+  "parents": 1,
+  "files": [
+   {
+    "f": "AGENT_HISTORY.md",
+    "a": 34,
+    "d": 0
+   },
+   {
+    "f": "README.md",
+    "a": 27,
+    "d": 0
+   }
+  ]
+ },
+ "1ddcda53f9dfb81caafa87fc1996933cc4e8e66a": {
+  "team": "TilcAI",
+  "repo": "TilcAI/tilcai-web",
+  "author": "OmarQV",
+  "date": "2026-11-01T21:28:12Z",
+  "message": "docs(portal): registrar la actualización del 1 de noviembre",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/portal-documentation.md",
+    "a": 7,
+    "d": 1
+   }
+  ]
+ },
+ "85d500f7c1dbe9b530b41cd0f84433f77052f12c": {
+  "team": "TilcAI",
+  "repo": "TilcAI/tilcai-web",
+  "author": "OmarQV",
+  "date": "2026-11-01T21:26:44Z",
+  "message": "test(docs): el portal documenta /ready, la retención, las claves y el escritor único",
+  "parents": 1,
+  "files": [
+   {
+    "f": "test/docs-page.test.ts",
+    "a": 22,
+    "d": 0
+   }
+  ]
+ },
+ "6f1c7f69720a40cd5e165719e0bd5697cabbb506": {
+  "team": "TilcAI",
+  "repo": "TilcAI/tilcai-web",
+  "author": "OmarQV",
+  "date": "2026-11-01T21:26:26Z",
+  "message": "docs(portal): fuentes de la revisión del 1 de noviembre",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/lib/content/docs-content.ts",
+    "a": 6,
+    "d": 1
+   }
+  ]
+ },
+ "0a4eb8216abe4971ec4030e49946e1c5dcedb062": {
+  "team": "TilcAI",
+  "repo": "TilcAI/tilcai-web",
+  "author": "OmarQV",
+  "date": "2026-11-01T21:25:50Z",
+  "message": "docs(portal): estado de capacidades al 1 de noviembre y enlaces a Operación",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/lib/content/docs-content.ts",
+    "a": 3,
+    "d": 2
+   }
+  ]
+ },
+ "3943d740cd5660ba37e6690276469348ae14f7c8": {
+  "team": "TilcAI",
+  "repo": "TilcAI/tilcai-web",
+  "author": "OmarQV",
+  "date": "2026-11-01T21:24:58Z",
+  "message": "docs(portal): nueva sección «Operación y despliegue»",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/lib/content/docs-content.ts",
+    "a": 12,
+    "d": 0
+   }
+  ]
+ },
+ "ab06bb769eb151ebdd6d484a254c62b9b5c1453a": {
+  "team": "TilcAI",
+  "repo": "TilcAI/tilcai-web",
+  "author": "OmarQV",
+  "date": "2026-11-01T21:24:14Z",
+  "message": "docs(portal): arranque cerrado, readiness y escritor único en seguridad y límites",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/lib/content/docs-content.ts",
+    "a": 4,
+    "d": 2
+   }
+  ]
+ },
+ "91e3544b9d1123c8f54d6c28fff11df728d6aa21": {
+  "team": "TilcAI",
+  "repo": "TilcAI/tilcai-web",
+  "author": "OmarQV",
+  "date": "2026-11-01T21:23:44Z",
+  "message": "docs(portal): retención del monitor y eventos perdidos",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/lib/content/docs-content.ts",
+    "a": 5,
+    "d": 0
+   }
+  ]
+ },
+ "4b1195afd9528037588a32f01153859d58f53403": {
+  "team": "TilcAI",
+  "repo": "TilcAI/tilcai-web",
+  "author": "OmarQV",
+  "date": "2026-11-01T21:23:25Z",
+  "message": "docs(portal): /health como liveness y la nueva /ready en la referencia de la API",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/lib/content/docs-content.ts",
+    "a": 5,
+    "d": 2
+   }
+  ]
+ },
+ "057b7e53bbae99c03f580ac9d2f50e35c6a29f57": {
+  "team": "TilcAI",
+  "repo": "TilcAI/tilcai-web",
+  "author": "OmarQV",
+  "date": "2026-11-01T21:22:50Z",
+  "message": "fix(narrative): el mapa de rutas nombra solo Fuji como verificada",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/lib/i18n/narrative.ts",
+    "a": 2,
+    "d": 2
+   }
+  ]
+ },
+ "3a8acfee0f2afc37cc141b052951cad7c658a48d": {
+  "team": "TilcAI",
+  "repo": "TilcAI/tilcai-web",
+  "author": "OmarQV",
+  "date": "2026-11-01T21:22:39Z",
+  "message": "fix(copy): hoja de ruta y preguntas frecuentes con una sola red verificada",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/lib/i18n/en.ts",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "src/lib/i18n/es.ts",
+    "a": 2,
+    "d": 2
+   }
+  ]
+ },
+ "50698d1ef099fb408677e5be534f38681817e41f": {
+  "team": "TilcAI",
+  "repo": "TilcAI/tilcai-web",
+  "author": "OmarQV",
+  "date": "2026-11-01T21:22:19Z",
+  "message": "test(rails): ninguna red figura como verificada sin un pago que la respalde",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/lib/content/rails.ts",
+    "a": 4,
+    "d": 0
+   },
+   {
+    "f": "test/rails-atlas.test.ts",
+    "a": 13,
+    "d": 0
+   }
+  ]
+ },
+ "92e87bc43d4e4bc9d13881c45a7d9bebac6aacea": {
+  "team": "TilcAI",
+  "repo": "TilcAI/tilcai-web",
+  "author": "OmarQV",
+  "date": "2026-11-01T21:21:52Z",
+  "message": "fix(rails): Ethereum, Arbitrum y Base Sepolia vuelven a laboratorio",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/lib/content/rails.ts",
+    "a": 7,
+    "d": 5
+   },
+   {
+    "f": "test/landing-explain.test.ts",
+    "a": 5,
+    "d": 8
+   },
+   {
+    "f": "test/rails-atlas.test.ts",
+    "a": 3,
+    "d": 2
+   }
+  ]
+ },
+ "17f42ed836e907d90cfa8f996867bac98c632091": {
+  "team": "TilcAI",
+  "repo": "TilcAI/tilcai-web",
+  "author": "OmarQV",
+  "date": "2026-11-01T21:21:04Z",
+  "message": "test(monitor): el tablero muestra la pérdida en ambos idiomas y sin APIs de Node",
+  "parents": 1,
+  "files": [
+   {
+    "f": "test/monitor.test.ts",
+    "a": 16,
+    "d": 0
+   }
+  ]
+ },
+ "a71c10725eb60916b3aa414f1b2fce5bb3e5a087": {
+  "team": "TilcAI",
+  "repo": "TilcAI/tilcai-web",
+  "author": "OmarQV",
+  "date": "2026-11-01T21:20:44Z",
+  "message": "feat(monitor): mostrar en el tablero los eventos perdidos y la retención",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/components/monitor/MonitorBoard.tsx",
+    "a": 19,
+    "d": 0
+   },
+   {
+    "f": "src/lib/monitor/copy.ts",
+    "a": 47,
+    "d": 3
+   }
+  ]
+ },
+ "d193d15c02fc370906d97e5e35fd50d20a811d17": {
+  "team": "TilcAI",
+  "repo": "TilcAI/tilcai-web",
+  "author": "OmarQV",
+  "date": "2026-11-01T21:20:41Z",
+  "message": "refactor(monitor): llevar el cálculo de brechas a un módulo sin Node",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/lib/monitor/gaps.ts",
+    "a": 23,
+    "d": 0
+   },
+   {
+    "f": "src/lib/monitor/store.ts",
+    "a": 1,
+    "d": 17
+   },
+   {
+    "f": "test/monitor.test.ts",
+    "a": 2,
+    "d": 1
+   }
+  ]
+ },
+ "1faef4bc267371e5d829299f3629c0d06f5ffcfb": {
+  "team": "TilcAI",
+  "repo": "TilcAI/tilcai-web",
+  "author": "OmarQV",
+  "date": "2026-11-01T21:19:20Z",
+  "message": "feat(monitor): guardar por backend los eventos que nunca llegaron",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/lib/monitor/store.ts",
+    "a": 27,
+    "d": 2
+   },
+   {
+    "f": "test/monitor.test.ts",
+    "a": 22,
+    "d": 1
+   }
+  ]
+ },
+ "e1e23cf30763615c548458fc4b377d3658b5fee7": {
+  "team": "TilcAI",
+  "repo": "TilcAI/tilcai-web",
+  "author": "OmarQV",
+  "date": "2026-11-01T21:18:15Z",
+  "message": "feat(monitor): retención y brechas en la foto de recursos del backend",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/lib/monitor/contract.ts",
+    "a": 21,
+    "d": 1
+   }
+  ]
+ },
+ "1008ac7970972ff2838e4d7c693e95e83e2ee4bb": {
+  "team": "TilcAI",
+  "repo": "TilcAI/tilcai-web",
+  "author": "OmarQV",
+  "date": "2026-11-01T21:17:10Z",
+  "message": "feat(monitor): validar el campo gap de cada entrega",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/lib/monitor/contract.ts",
+    "a": 11,
+    "d": 0
+   },
+   {
+    "f": "test/monitor.test.ts",
+    "a": 19,
+    "d": 0
+   }
+  ]
+ },
+ "8ba407678317b47b268d56394e8b988bf78e4a5f": {
+  "team": "TilcAI",
+  "repo": "TilcAI/tilcai-web",
+  "author": "OmarQV",
+  "date": "2026-11-01T21:15:49Z",
+  "message": "feat(monitor): reflejar monitor.gap y las alertas de retención del backend",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/lib/monitor/contract.ts",
+    "a": 15,
+    "d": 0
+   },
+   {
+    "f": "src/lib/monitor/interpret.ts",
+    "a": 23,
+    "d": 1
+   }
+  ]
  }
 }

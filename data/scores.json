@@ -1,14 +1,14 @@
 {
- "generado": "2026-11-04T13:29:46+00:00",
+ "generado": "2026-11-04T23:00:22+00:00",
  "programa": "Stellar Elite",
  "start_date": "2026-09-02T00:00:00Z",
  "teams": [
   {
    "name": "Tinkazo",
-   "total": 6010.37,
-   "per_capita": 6010.37,
-   "commits": 951,
-   "pts_commits": 5839.37,
+   "total": 6266.27,
+   "per_capita": 6266.27,
+   "commits": 983,
+   "pts_commits": 6095.27,
    "dias_activos": 33,
    "contribuidores": [
     "GuidoSV7",
@@ -64,11 +64,11 @@
   },
   {
    "name": "TilcAI",
-   "total": 854.46,
-   "per_capita": 284.82,
-   "commits": 128,
-   "pts_commits": 787.46,
-   "dias_activos": 11,
+   "total": 1023.65,
+   "per_capita": 341.22,
+   "commits": 157,
+   "pts_commits": 941.65,
+   "dias_activos": 14,
    "contribuidores": [
     "JHAMILCALI",
     "OmarQV",
@@ -357,7 +357,7 @@
    "2026-11-01": 12.68,
    "2026-11-02": 409.5799999999999,
    "2026-11-03": 223.31999999999996,
-   "2026-11-04": 55.44
+   "2026-11-04": 311.34
   },
   "CompraGasolinaBidon": {
    "2026-09-06": 1.0,
@@ -436,7 +436,10 @@
    "2026-10-10": 146.55,
    "2026-10-13": 5.39,
    "2026-10-20": 104.78,
-   "2026-11-02": 5.91
+   "2026-11-01": 102.15,
+   "2026-11-02": 11.91,
+   "2026-11-03": 15.08,
+   "2026-11-04": 30.959999999999997
   },
   "GatoPago": {
    "2026-09-10": 1.0,
@@ -521,7 +524,7 @@
    "2026-11-01": 2,
    "2026-11-02": 52,
    "2026-11-03": 38,
-   "2026-11-04": 9
+   "2026-11-04": 41
   },
   "CompraGasolinaBidon": {
    "2026-09-06": 1,
@@ -600,7 +603,10 @@
    "2026-10-10": 21,
    "2026-10-13": 1,
    "2026-10-20": 20,
-   "2026-11-02": 1
+   "2026-11-01": 20,
+   "2026-11-02": 2,
+   "2026-11-03": 3,
+   "2026-11-04": 5
   },
   "GatoPago": {
    "2026-09-10": 1,
@@ -617,6 +623,376 @@
   }
  },
  "commits": [
+  {
+   "sha": "670b033",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-04T21:26:58Z",
+   "msg": "Los juegos que ganaron la comparación a ciegas se ven en 3D sin tocar nada",
+   "pts": 9.95,
+   "nota": ""
+  },
+  {
+   "sha": "823223f",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-04T21:26:14Z",
+   "msg": "El pase final de la carrera se ve venir y el pelotón llega apretado",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "ff17b56",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-04T20:32:27Z",
+   "msg": "El auditor de flujo corta los dos servidores de la red y la música no arranca notas atrasadas",
+   "pts": 7.7,
+   "nota": ""
+  },
+  {
+   "sha": "9a1f163",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-04T20:03:28Z",
+   "msg": "El sitio se presenta mejor en los buscadores",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "2a66d4a",
+   "team": "TilcAI",
+   "repo": "TilcAI/tilcai-web",
+   "author": "JHAMILCALI",
+   "date": "2026-11-04T20:01:36Z",
+   "msg": "chore(assets): depurar fuentes y recursos del hero",
+   "pts": 9.29,
+   "nota": ""
+  },
+  {
+   "sha": "1aac01d",
+   "team": "TilcAI",
+   "repo": "TilcAI/tilcai-web",
+   "author": "JHAMILCALI",
+   "date": "2026-11-04T19:54:11Z",
+   "msg": "feat(hero): actualizar portada y diseño adaptable",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "fb6e56e",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-04T19:49:47Z",
+   "msg": "La carrera reparte el final y suma obstáculos que le tocan a cualquiera",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "84b45e0",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-04T18:35:22Z",
+   "msg": "El árbol del Toborochi en 3D tiene tronco de botella, ramas gruesas y flores de cinco pétalos",
+   "pts": 9.74,
+   "nota": ""
+  },
+  {
+   "sha": "0a8b821",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-04T18:32:36Z",
+   "msg": "Los sonidos de archivo quedan apagados hasta que alguien los elija con oídos",
+   "pts": 7.75,
+   "nota": ""
+  },
+  {
+   "sha": "baf548c",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-04T18:25:47Z",
+   "msg": "El ensayo deja probar todos los juegos y ver el resultado de nuevo con otro",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "6d2ac5e",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-04T17:18:53Z",
+   "msg": "El guion de capturas del Toborochi y la guía del kit 3D terminan de hablar como el resto del repo",
+   "pts": 4.17,
+   "nota": ""
+  },
+  {
+   "sha": "2a86bb4",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-04T17:07:03Z",
+   "msg": "La licencia del audio, la guía del kit 3D y el guion de capturas del Guajojó hablan como el resto del repo",
+   "pts": 4.91,
+   "nota": ""
+  },
+  {
+   "sha": "4700a6d",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-04T17:05:07Z",
+   "msg": "Merge remote-tracking branch 'origin/main' into integ-c",
+   "pts": 0.0,
+   "nota": "merge"
+  },
+  {
+   "sha": "1aa8dc0",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-04T16:55:45Z",
+   "msg": "La página de marca iguala el alto de las vistas de redes, la imagen cuadrada gana una llama más grande y la guía de marc",
+   "pts": 5.58,
+   "nota": ""
+  },
+  {
+   "sha": "247a707",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-04T16:46:43Z",
+   "msg": "El kit de marca trae más aura: el logo con la dirección tinkazo.app, seis stickers nuevos con la llama recortada y un QR",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "996c633",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-04T16:33:50Z",
+   "msg": "La prueba de reproducibilidad de la marca ya no compara contra archivos hechos en otro equipo: mide dos corridas en el m",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "507195d",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-04T16:24:29Z",
+   "msg": "Merge remote-tracking branch 'origin/main' into integ-c",
+   "pts": 0.0,
+   "nota": "merge"
+  },
+  {
+   "sha": "36ea306",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-04T16:12:46Z",
+   "msg": "La página de marca trae el kit para patrocinios y eventos: el logo completo con el nombre, claro y oscuro, horizontal y ",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "8ad85bf",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-04T15:09:43Z",
+   "msg": "El teleférico en 3D: la cabina ganadora grande y encendida, el apagón con las cabinas claras y el mundo dorado en el gol",
+   "pts": 8.62,
+   "nota": ""
+  },
+  {
+   "sha": "5548091",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-04T15:09:34Z",
+   "msg": "El Guajojó en 3D se ve desde el selector: la ficha sobre quien gana, quien gana con su foco cálido y de cuerpo entero, l",
+   "pts": 6.61,
+   "nota": ""
+  },
+  {
+   "sha": "114426f",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-04T14:54:20Z",
+   "msg": "En el trompo en 3D el rótulo CHOQUE 2/3 se lee sobre la tierra del patio: letra crema con contorno de tinta, como los de",
+   "pts": 3.81,
+   "nota": ""
+  },
+  {
+   "sha": "63905f8",
+   "team": "TilcAI",
+   "repo": "TilcAI/tilcai-web",
+   "author": "OmarQV",
+   "date": "2026-11-04T14:53:40Z",
+   "msg": "docs(history): entradas de OmarQV pendientes de commit",
+   "pts": 5.81,
+   "nota": ""
+  },
+  {
+   "sha": "4bbca82",
+   "team": "TilcAI",
+   "repo": "TilcAI/tilcai-web",
+   "author": "OmarQV",
+   "date": "2026-11-04T14:40:21Z",
+   "msg": "Merge pull request #30 from TilcAI/feat/monitor-gap-til07",
+   "pts": 0.0,
+   "nota": "merge"
+  },
+  {
+   "sha": "182761a",
+   "team": "TilcAI",
+   "repo": "TilcAI/tilcai-web",
+   "author": "OmarQV",
+   "date": "2026-11-04T14:39:51Z",
+   "msg": "docs(readme): check-in con los PRs de infra ya mergeados",
+   "pts": 5.86,
+   "nota": ""
+  },
+  {
+   "sha": "cb306bb",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-04T14:17:31Z",
+   "msg": "La entrada de Oruro se puede ver en 3D con ?motor=3d, con las caras y los nombres de siempre encima; todavía no está en ",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "5ff4c2f",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-04T14:16:07Z",
+   "msg": "La chovena se puede ver en 3D con ?motor=3d: la plaza, la gente y los brazos en perspectiva con las caras y los nombres ",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "a18d211",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-04T14:14:40Z",
+   "msg": "La ruleta se puede ver en 3D con ?motor=3d, con las caras y los nombres de siempre encima; todavía no está en el selecto",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "cbf6132",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-04T14:14:36Z",
+   "msg": "El sapo se puede ver en 3D desde el selector: la mesa con sus agujeros en perspectiva, la argolla que vuela con altura r",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "3fcd5b4",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-04T14:11:39Z",
+   "msg": "El teleférico tiene versión en 3D con ?motor=3d: una ladera al atardecer con cabinas de vidrio, gente adentro, torres, e",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "1008548",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-04T14:11:34Z",
+   "msg": "El Guajojó tiene versión en 3D con ?motor=3d: el sendero, el palo con sus ojos, la gente con farolito y el amanecer con ",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "6364e72",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-04T14:09:55Z",
+   "msg": "El Toborochi se puede ver en 3D desde el selector: el tronco panzón con espinas, la copa con profundidad, las flores que",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "7031223",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-04T14:06:58Z",
+   "msg": "El sitio en tinkazo.app sella y sortea por el servicio de comisiones de testnet sin configurar nada, y si no contesta pa",
+   "pts": 8.83,
+   "nota": ""
+  },
+  {
+   "sha": "9273eaf",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-04T14:05:37Z",
+   "msg": "La música de los juegos sale de un servicio propio y solo para el sitio: un Worker que entrega las camas únicamente a ti",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "10df18d",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-04T14:03:54Z",
+   "msg": "Los diez juegos suenan con efectos e instrumentos de verdad en lugar de los pitidos de siempre: el casco de la llama, el",
+   "pts": 1.0,
+   "nota": "import masivo (84 archivos)"
+  },
+  {
+   "sha": "49a563d",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-04T11:13:03Z",
+   "msg": "La piñata se puede ver en 3D desde el selector: el patio con papel picado, la olla facetada que se rompe en gajos, el ch",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "15ae031",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-04T09:56:40Z",
+   "msg": "El interruptor Ver en 3D aparece con cualquier juego que tenga versión 3D aprobada, hoy la carrera y el trompo, con un t",
+   "pts": 7.23,
+   "nota": ""
+  },
+  {
+   "sha": "945ad37",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-04T09:49:11Z",
+   "msg": "Los juegos comparten un kit para verse en 3D: un solo three.js que se baja una vez, la cámara del director en perspectiv",
+   "pts": 10,
+   "nota": ""
+  },
   {
    "sha": "e8aab0d",
    "team": "Tinkazo",
@@ -775,6 +1151,36 @@
    "date": "2026-11-03T23:08:31Z",
    "msg": "La línea base de la red de prueba pasa al Protocolo 30: la red sumó costos para operaciones nuevas y el sello sigue cost",
    "pts": 4.17,
+   "nota": ""
+  },
+  {
+   "sha": "a45e2a6",
+   "team": "TilcAI",
+   "repo": "TilcAI/tilcai-web",
+   "author": "OmarQV",
+   "date": "2026-11-03T15:32:02Z",
+   "msg": "fix(monitor): contrato contra tilcai-core y eventos del gateway de QR",
+   "pts": 7.02,
+   "nota": ""
+  },
+  {
+   "sha": "8fcae16",
+   "team": "TilcAI",
+   "repo": "TilcAI/tilcai-web",
+   "author": "OmarQV",
+   "date": "2026-11-03T15:30:00Z",
+   "msg": "Merge origin/main into feat/monitor-gap-til07",
+   "pts": 0.0,
+   "nota": "merge"
+  },
+  {
+   "sha": "0163b4c",
+   "team": "TilcAI",
+   "repo": "TilcAI/tilcai-web",
+   "author": "OmarQV",
+   "date": "2026-11-03T13:29:12Z",
+   "msg": "fix(monitor): las brechas sobreviven a un reinicio del sitio",
+   "pts": 8.06,
    "nota": ""
   },
   {
@@ -1608,6 +2014,16 @@
    "nota": ""
   },
   {
+   "sha": "e0a5799",
+   "team": "TilcAI",
+   "repo": "TilcAI/tilcai-web",
+   "author": "OmarQV",
+   "date": "2026-11-02T01:45:12Z",
+   "msg": "docs(readme): el check-in indica la migración 8 de N-11",
+   "pts": 6.0,
+   "nota": ""
+  },
+  {
    "sha": "9e3f763",
    "team": "TilcAI",
    "repo": "TilcAI/tilcai-web",
@@ -1615,6 +2031,206 @@
    "date": "2026-11-02T01:15:09Z",
    "msg": "docs: update README with published delivery and integration status",
    "pts": 5.91,
+   "nota": ""
+  },
+  {
+   "sha": "b0f36a3",
+   "team": "TilcAI",
+   "repo": "TilcAI/tilcai-web",
+   "author": "OmarQV",
+   "date": "2026-11-01T21:29:04Z",
+   "msg": "docs(readme): check-in del 1 de noviembre para el equipo",
+   "pts": 6.95,
+   "nota": ""
+  },
+  {
+   "sha": "1ddcda5",
+   "team": "TilcAI",
+   "repo": "TilcAI/tilcai-web",
+   "author": "OmarQV",
+   "date": "2026-11-01T21:28:12Z",
+   "msg": "docs(portal): registrar la actualización del 1 de noviembre",
+   "pts": 4.17,
+   "nota": ""
+  },
+  {
+   "sha": "85d500f",
+   "team": "TilcAI",
+   "repo": "TilcAI/tilcai-web",
+   "author": "OmarQV",
+   "date": "2026-11-01T21:26:44Z",
+   "msg": "test(docs): el portal documenta /ready, la retención, las claves y el escritor único",
+   "pts": 5.52,
+   "nota": ""
+  },
+  {
+   "sha": "6f1c7f6",
+   "team": "TilcAI",
+   "repo": "TilcAI/tilcai-web",
+   "author": "OmarQV",
+   "date": "2026-11-01T21:26:26Z",
+   "msg": "docs(portal): fuentes de la revisión del 1 de noviembre",
+   "pts": 4.0,
+   "nota": ""
+  },
+  {
+   "sha": "0a4eb82",
+   "team": "TilcAI",
+   "repo": "TilcAI/tilcai-web",
+   "author": "OmarQV",
+   "date": "2026-11-01T21:25:50Z",
+   "msg": "docs(portal): estado de capacidades al 1 de noviembre y enlaces a Operación",
+   "pts": 3.58,
+   "nota": ""
+  },
+  {
+   "sha": "3943d74",
+   "team": "TilcAI",
+   "repo": "TilcAI/tilcai-web",
+   "author": "OmarQV",
+   "date": "2026-11-01T21:24:58Z",
+   "msg": "docs(portal): nueva sección «Operación y despliegue»",
+   "pts": 4.7,
+   "nota": ""
+  },
+  {
+   "sha": "ab06bb7",
+   "team": "TilcAI",
+   "repo": "TilcAI/tilcai-web",
+   "author": "OmarQV",
+   "date": "2026-11-01T21:24:14Z",
+   "msg": "docs(portal): arranque cerrado, readiness y escritor único en seguridad y límites",
+   "pts": 3.81,
+   "nota": ""
+  },
+  {
+   "sha": "91e3544",
+   "team": "TilcAI",
+   "repo": "TilcAI/tilcai-web",
+   "author": "OmarQV",
+   "date": "2026-11-01T21:23:44Z",
+   "msg": "docs(portal): retención del monitor y eventos perdidos",
+   "pts": 3.58,
+   "nota": ""
+  },
+  {
+   "sha": "4b1195a",
+   "team": "TilcAI",
+   "repo": "TilcAI/tilcai-web",
+   "author": "OmarQV",
+   "date": "2026-11-01T21:23:25Z",
+   "msg": "docs(portal): /health como liveness y la nueva /ready en la referencia de la API",
+   "pts": 4.0,
+   "nota": ""
+  },
+  {
+   "sha": "057b7e5",
+   "team": "TilcAI",
+   "repo": "TilcAI/tilcai-web",
+   "author": "OmarQV",
+   "date": "2026-11-01T21:22:50Z",
+   "msg": "fix(narrative): el mapa de rutas nombra solo Fuji como verificada",
+   "pts": 3.32,
+   "nota": ""
+  },
+  {
+   "sha": "3a8acfe",
+   "team": "TilcAI",
+   "repo": "TilcAI/tilcai-web",
+   "author": "OmarQV",
+   "date": "2026-11-01T21:22:39Z",
+   "msg": "fix(copy): hoja de ruta y preguntas frecuentes con una sola red verificada",
+   "pts": 4.17,
+   "nota": ""
+  },
+  {
+   "sha": "50698d1",
+   "team": "TilcAI",
+   "repo": "TilcAI/tilcai-web",
+   "author": "OmarQV",
+   "date": "2026-11-01T21:22:19Z",
+   "msg": "test(rails): ninguna red figura como verificada sin un pago que la respalde",
+   "pts": 5.17,
+   "nota": ""
+  },
+  {
+   "sha": "92e87bc",
+   "team": "TilcAI",
+   "repo": "TilcAI/tilcai-web",
+   "author": "OmarQV",
+   "date": "2026-11-01T21:21:52Z",
+   "msg": "fix(rails): Ethereum, Arbitrum y Base Sepolia vuelven a laboratorio",
+   "pts": 5.95,
+   "nota": ""
+  },
+  {
+   "sha": "17f42ed",
+   "team": "TilcAI",
+   "repo": "TilcAI/tilcai-web",
+   "author": "OmarQV",
+   "date": "2026-11-01T21:21:04Z",
+   "msg": "test(monitor): el tablero muestra la pérdida en ambos idiomas y sin APIs de Node",
+   "pts": 5.09,
+   "nota": ""
+  },
+  {
+   "sha": "a71c107",
+   "team": "TilcAI",
+   "repo": "TilcAI/tilcai-web",
+   "author": "OmarQV",
+   "date": "2026-11-01T21:20:44Z",
+   "msg": "feat(monitor): mostrar en el tablero los eventos perdidos y la retención",
+   "pts": 7.13,
+   "nota": ""
+  },
+  {
+   "sha": "d193d15",
+   "team": "TilcAI",
+   "repo": "TilcAI/tilcai-web",
+   "author": "OmarQV",
+   "date": "2026-11-01T21:20:41Z",
+   "msg": "refactor(monitor): llevar el cálculo de brechas a un módulo sin Node",
+   "pts": 6.49,
+   "nota": ""
+  },
+  {
+   "sha": "1faef4b",
+   "team": "TilcAI",
+   "repo": "TilcAI/tilcai-web",
+   "author": "OmarQV",
+   "date": "2026-11-01T21:19:20Z",
+   "msg": "feat(monitor): guardar por backend los eventos que nunca llegaron",
+   "pts": 6.73,
+   "nota": ""
+  },
+  {
+   "sha": "e1e23cf",
+   "team": "TilcAI",
+   "repo": "TilcAI/tilcai-web",
+   "author": "OmarQV",
+   "date": "2026-11-01T21:18:15Z",
+   "msg": "feat(monitor): retención y brechas en la foto de recursos del backend",
+   "pts": 5.52,
+   "nota": ""
+  },
+  {
+   "sha": "1008ac7",
+   "team": "TilcAI",
+   "repo": "TilcAI/tilcai-web",
+   "author": "OmarQV",
+   "date": "2026-11-01T21:17:10Z",
+   "msg": "feat(monitor): validar el campo gap de cada entrega",
+   "pts": 5.95,
+   "nota": ""
+  },
+  {
+   "sha": "8ba4076",
+   "team": "TilcAI",
+   "repo": "TilcAI/tilcai-web",
+   "author": "OmarQV",
+   "date": "2026-11-01T21:15:49Z",
+   "msg": "feat(monitor): reflejar monitor.gap y las alertas de retención del backend",
+   "pts": 6.32,
    "nota": ""
   },
   {
