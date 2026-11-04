@@ -1,15 +1,15 @@
 {
- "generado": "2026-11-03T22:42:15+00:00",
+ "generado": "2026-11-04T03:57:34+00:00",
  "programa": "Stellar Elite",
  "start_date": "2026-09-02T00:00:00Z",
  "teams": [
   {
    "name": "Tinkazo",
-   "total": 5892.23,
-   "per_capita": 5892.23,
-   "commits": 935,
-   "pts_commits": 5726.23,
-   "dias_activos": 32,
+   "total": 5983.37,
+   "per_capita": 5983.37,
+   "commits": 948,
+   "pts_commits": 5812.37,
+   "dias_activos": 33,
    "contribuidores": [
     "GuidoSV7",
     "nema1502"
@@ -356,7 +356,8 @@
    "2026-10-28": 1.0,
    "2026-11-01": 12.68,
    "2026-11-02": 409.5799999999999,
-   "2026-11-03": 165.61999999999998
+   "2026-11-03": 223.31999999999996,
+   "2026-11-04": 28.44
   },
   "CompraGasolinaBidon": {
    "2026-09-06": 1.0,
@@ -519,7 +520,8 @@
    "2026-10-28": 1,
    "2026-11-01": 2,
    "2026-11-02": 52,
-   "2026-11-03": 31
+   "2026-11-03": 38,
+   "2026-11-04": 6
   },
   "CompraGasolinaBidon": {
    "2026-09-06": 1,
@@ -615,6 +617,136 @@
   }
  },
  "commits": [
+  {
+   "sha": "c3ff1a4",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-04T00:58:17Z",
+   "msg": "Los auditores esperan hasta 30 segundos a que arranque Chrome, porque en la máquina de GitHub el primero a veces tarda m",
+   "pts": 3.32,
+   "nota": ""
+  },
+  {
+   "sha": "c15fbdf",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-04T00:47:41Z",
+   "msg": "Marca en el pie de todas las páginas, también en verificar; cada llama con sus descargas debajo y sobre el fondo para el",
+   "pts": 7.32,
+   "nota": ""
+  },
+  {
+   "sha": "9251430",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-04T00:35:08Z",
+   "msg": "La línea base de mainnet suma la cuarta llave congelada de la red, del 2 de noviembre: no cambia lo que cuesta sellar, y",
+   "pts": 3.32,
+   "nota": ""
+  },
+  {
+   "sha": "f6514af",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-04T00:23:09Z",
+   "msg": "La dirección impresa en la tarjeta de mesa se corta en la barra o antes del numeral, no a mitad de palabra",
+   "pts": 3.32,
+   "nota": ""
+  },
+  {
+   "sha": "27c7874",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-04T00:15:51Z",
+   "msg": "Los nombres de los tipos de costo suman los nueve del Protocolo 30, las firmas ML-DSA, así el detector de la red los nom",
+   "pts": 5.91,
+   "nota": ""
+  },
+  {
+   "sha": "d8d17e1",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-04T00:13:31Z",
+   "msg": "La tarjeta de mesa impresa entra entera en su mitad de la hoja: el QR pasa a una columna a la derecha, con la frase prin",
+   "pts": 5.25,
+   "nota": ""
+  },
+  {
+   "sha": "946aeeb",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-03T23:52:40Z",
+   "msg": "Marca: sin punto medio, el enlace en los pies de todas las páginas, la llama para fondo oscuro y el bloque de cómo se es",
+   "pts": 8.57,
+   "nota": ""
+  },
+  {
+   "sha": "93d0f7f",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "GuidoSV7",
+   "date": "2026-11-03T23:46:41Z",
+   "msg": "Página de marca con la llama y el sello para descargar, la paleta para copiar y la letra que usa Tinkazo, en español e i",
+   "pts": 9.65,
+   "nota": ""
+  },
+  {
+   "sha": "1667695",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-03T23:46:09Z",
+   "msg": "La pregunta de confianza queda justo debajo del veredicto, como franja baja y secundaria, y se responde una vez por nave",
+   "pts": 7.0,
+   "nota": ""
+  },
+  {
+   "sha": "224453c",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "GuidoSV7",
+   "date": "2026-11-03T23:42:31Z",
+   "msg": "Después de comprobar un resultado se podrá responder si se confió en él, con Sí, No o No sé, sin nombres ni cuenta, y la",
+   "pts": 9.93,
+   "nota": ""
+  },
+  {
+   "sha": "83037cd",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-03T23:42:05Z",
+   "msg": "La guía del organizador: el botón se llama como en la app, el índice sin doble número, las negritas de cada etiqueta, la",
+   "pts": 8.59,
+   "nota": ""
+  },
+  {
+   "sha": "15d3256",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "GuidoSV7",
+   "date": "2026-11-03T23:39:36Z",
+   "msg": "La página para organizar un sorteo en un evento trae la guía completa en español y en inglés, para imprimir en A4, y una",
+   "pts": 9.79,
+   "nota": ""
+  },
+  {
+   "sha": "7d7143a",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-03T23:08:31Z",
+   "msg": "La línea base de la red de prueba pasa al Protocolo 30: la red sumó costos para operaciones nuevas y el sello sigue cost",
+   "pts": 4.17,
+   "nota": ""
+  },
   {
    "sha": "8d62a45",
    "team": "Tinkazo",

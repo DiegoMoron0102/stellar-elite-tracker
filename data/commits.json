@@ -146305,5 +146305,605 @@
     "d": 6
    }
   ]
+ },
+ "c3ff1a4610c0c73cfd16a4c46c4751541d6124ac": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-04T00:58:17Z",
+  "message": "Los auditores esperan hasta 30 segundos a que arranque Chrome, porque en la máquina de GitHub el primero a veces tarda m",
+  "parents": 1,
+  "files": [
+   {
+    "f": "scripts/lib/browser.mjs",
+    "a": 3,
+    "d": 1
+   }
+  ]
+ },
+ "c15fbdf7fb4f9bc14bb73ab4de36a8d40dd9e05f": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-04T00:47:41Z",
+  "message": "Marca en el pie de todas las páginas, también en verificar; cada llama con sus descargas debajo y sobre el fondo para el",
+  "parents": 1,
+  "files": [
+   {
+    "f": "c.html",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "evento.html",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "lista.html",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "marca.html",
+    "a": 17,
+    "d": 9
+   },
+   {
+    "f": "src/i18n.ts",
+    "a": 10,
+    "d": 8
+   },
+   {
+    "f": "src/kit-organizador.css",
+    "a": 4,
+    "d": 1
+   },
+   {
+    "f": "src/marca.css",
+    "a": 9,
+    "d": 3
+   },
+   {
+    "f": "src/marca.test.ts",
+    "a": 13,
+    "d": 1
+   },
+   {
+    "f": "verificar.html",
+    "a": 1,
+    "d": 0
+   }
+  ]
+ },
+ "9251430e2dc239d782ca9bcad720ebc24a46eb82": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-04T00:35:08Z",
+  "message": "La línea base de mainnet suma la cuarta llave congelada de la red, del 2 de noviembre: no cambia lo que cuesta sellar, y",
+  "parents": 1,
+  "files": [
+   {
+    "f": "scripts/vigilar-red.base.json",
+    "a": 2,
+    "d": 2
+   }
+  ]
+ },
+ "f6514afbc2eb389ef6a4c78e961683da92515fc4": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-04T00:23:09Z",
+  "message": "La dirección impresa en la tarjeta de mesa se corta en la barra o antes del numeral, no a mitad de palabra",
+  "parents": 1,
+  "files": [
+   {
+    "f": "sorteo-para-meetup.html",
+    "a": 2,
+    "d": 2
+   }
+  ]
+ },
+ "27c7874b96c328706cfd69a651572dacfbff4127": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-04T00:15:51Z",
+  "message": "Los nombres de los tipos de costo suman los nueve del Protocolo 30, las firmas ML-DSA, así el detector de la red los nom",
+  "parents": 1,
+  "files": [
+   {
+    "f": "scripts/lib/tipos-de-costo.mjs",
+    "a": 7,
+    "d": 4
+   },
+   {
+    "f": "scripts/lib/tipos-de-costo.test.mjs",
+    "a": 5,
+    "d": 4
+   },
+   {
+    "f": "scripts/lib/vigilar-red.test.mjs",
+    "a": 5,
+    "d": 4
+   }
+  ]
+ },
+ "d8d17e1fe5bf8afcba39f4d054b0124aa66d7e27": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-04T00:13:31Z",
+  "message": "La tarjeta de mesa impresa entra entera en su mitad de la hoja: el QR pasa a una columna a la derecha, con la frase prin",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/kit-organizador.md",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/kit-organizador.css",
+    "a": 7,
+    "d": 7
+   },
+   {
+    "f": "src/kit-organizador.test.ts",
+    "a": 1,
+    "d": 1
+   }
+  ]
+ },
+ "946aeebd1d7f038f03a07b68d315f9b0212d917b": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-03T23:52:40Z",
+  "message": "Marca: sin punto medio, el enlace en los pies de todas las páginas, la llama para fondo oscuro y el bloque de cómo se es",
+  "parents": 1,
+  "files": [
+   {
+    "f": "como-funciona.html",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "docs/marca.md",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "historia.html",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "juegos.html",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "marca.html",
+    "a": 25,
+    "d": 12
+   },
+   {
+    "f": "precios.html",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "public/marca/llama-oscuro.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/llama-oscuro.svg",
+    "a": 13,
+    "d": 0
+   },
+   {
+    "f": "public/sitemap.xml",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "scripts/generar-marca.mjs",
+    "a": 23,
+    "d": 10
+   },
+   {
+    "f": "scripts/lib/legible.mjs",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "seguridad.html",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "sorteo-en-clase.html",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "sorteo-para-meetup.html",
+    "a": 2,
+    "d": 1
+   },
+   {
+    "f": "sorteo-verificable.html",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "src/i18n.ts",
+    "a": 44,
+    "d": 14
+   },
+   {
+    "f": "src/marca.css",
+    "a": 8,
+    "d": 4
+   },
+   {
+    "f": "src/marca.test.ts",
+    "a": 26,
+    "d": 2
+   },
+   {
+    "f": "src/seo.test.ts",
+    "a": 2,
+    "d": 1
+   },
+   {
+    "f": "terminos.html",
+    "a": 1,
+    "d": 0
+   }
+  ]
+ },
+ "93d0f7f0b7c3182f9f8682ca82351f96bb749162": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "GuidoSV7",
+  "date": "2026-11-03T23:46:41Z",
+  "message": "Página de marca con la llama y el sello para descargar, la paleta para copiar y la letra que usa Tinkazo, en español e i",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/marca.md",
+    "a": 14,
+    "d": 0
+   },
+   {
+    "f": "index.html",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "marca.html",
+    "a": 102,
+    "d": 0
+   },
+   {
+    "f": "public/marca/llama.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/llama.svg",
+    "a": 13,
+    "d": 0
+   },
+   {
+    "f": "public/marca/sello-en.svg",
+    "a": 16,
+    "d": 0
+   },
+   {
+    "f": "public/marca/sello-es.svg",
+    "a": 16,
+    "d": 0
+   },
+   {
+    "f": "public/sitemap.xml",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "scripts/check-paginas.mjs",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "scripts/generar-marca.mjs",
+    "a": 41,
+    "d": 0
+   },
+   {
+    "f": "src/i18n.ts",
+    "a": 50,
+    "d": 0
+   },
+   {
+    "f": "src/marca.css",
+    "a": 36,
+    "d": 0
+   },
+   {
+    "f": "src/marca.test.ts",
+    "a": 101,
+    "d": 0
+   },
+   {
+    "f": "src/marca.ts",
+    "a": 50,
+    "d": 0
+   },
+   {
+    "f": "src/seo.test.ts",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "vite.config.ts",
+    "a": 1,
+    "d": 0
+   }
+  ]
+ },
+ "166769563df81aaa43a272f43c8d42f547744cd8": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-03T23:46:09Z",
+  "message": "La pregunta de confianza queda justo debajo del veredicto, como franja baja y secundaria, y se responde una vez por nave",
+  "parents": 1,
+  "files": [
+   {
+    "f": "scripts/lib/conteos-confianza.mjs",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "scripts/lib/conteos-confianza.test.mjs",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/i18n.ts",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "src/respuestas-confianza.test.ts",
+    "a": 5,
+    "d": 5
+   },
+   {
+    "f": "src/respuestas-confianza.ts",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "src/ui/confianza.css",
+    "a": 7,
+    "d": 5
+   },
+   {
+    "f": "src/ui/confianza.test.ts",
+    "a": 11,
+    "d": 2
+   },
+   {
+    "f": "terminos.html",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "verificar.html",
+    "a": 3,
+    "d": 3
+   },
+   {
+    "f": "workers/enlaces/README.md",
+    "a": 4,
+    "d": 4
+   }
+  ]
+ },
+ "224453c7064a11a31a1dcacc75470bfe45bdfbfa": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "GuidoSV7",
+  "date": "2026-11-03T23:42:31Z",
+  "message": "Después de comprobar un resultado se podrá responder si se confió en él, con Sí, No o No sé, sin nombres ni cuenta, y la",
+  "parents": 1,
+  "files": [
+   {
+    "f": "scripts/conteos-confianza.mjs",
+    "a": 28,
+    "d": 0
+   },
+   {
+    "f": "scripts/lib/conteos-confianza.mjs",
+    "a": 58,
+    "d": 0
+   },
+   {
+    "f": "scripts/lib/conteos-confianza.test.mjs",
+    "a": 53,
+    "d": 0
+   },
+   {
+    "f": "src/confianza-activacion.ts",
+    "a": 2,
+    "d": 0
+   },
+   {
+    "f": "src/i18n.ts",
+    "a": 18,
+    "d": 0
+   },
+   {
+    "f": "src/respuestas-confianza.test.ts",
+    "a": 87,
+    "d": 0
+   },
+   {
+    "f": "src/respuestas-confianza.ts",
+    "a": 46,
+    "d": 0
+   },
+   {
+    "f": "src/ui/confianza.css",
+    "a": 9,
+    "d": 0
+   },
+   {
+    "f": "src/ui/confianza.test.ts",
+    "a": 18,
+    "d": 0
+   },
+   {
+    "f": "src/ui/confianza.ts",
+    "a": 41,
+    "d": 0
+   },
+   {
+    "f": "src/verify.ts",
+    "a": 2,
+    "d": 0
+   },
+   {
+    "f": "terminos.html",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "verificar.html",
+    "a": 3,
+    "d": 0
+   },
+   {
+    "f": "workers/enlaces/README.md",
+    "a": 15,
+    "d": 0
+   },
+   {
+    "f": "workers/enlaces/probar-confianza.mjs",
+    "a": 52,
+    "d": 0
+   },
+   {
+    "f": "workers/enlaces/src/conteo.test.ts",
+    "a": 27,
+    "d": 0
+   },
+   {
+    "f": "workers/enlaces/src/conteo.ts",
+    "a": 25,
+    "d": 1
+   }
+  ]
+ },
+ "83037cda3884c803560947fa3a43b6ec1c49b22d": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-03T23:42:05Z",
+  "message": "La guía del organizador: el botón se llama como en la app, el índice sin doble número, las negritas de cada etiqueta, la",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/kit-organizador.md",
+    "a": 41,
+    "d": 0
+   },
+   {
+    "f": "sorteo-para-meetup.html",
+    "a": 51,
+    "d": 49
+   },
+   {
+    "f": "src/i18n.ts",
+    "a": 0,
+    "d": 22
+   },
+   {
+    "f": "src/kit-organizador.css",
+    "a": 18,
+    "d": 9
+   },
+   {
+    "f": "src/kit-organizador.test.ts",
+    "a": 1,
+    "d": 1
+   }
+  ]
+ },
+ "15d3256fe31cb908f9e500f03c4317b92d3b13a9": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "GuidoSV7",
+  "date": "2026-11-03T23:39:36Z",
+  "message": "La página para organizar un sorteo en un evento trae la guía completa en español y en inglés, para imprimir en A4, y una",
+  "parents": 1,
+  "files": [
+   {
+    "f": "public/kit-organizador/comprobacion.svg",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "sorteo-para-meetup.html",
+    "a": 197,
+    "d": 15
+   },
+   {
+    "f": "src/i18n.ts",
+    "a": 20,
+    "d": 0
+   },
+   {
+    "f": "src/kit-organizador.css",
+    "a": 87,
+    "d": 0
+   },
+   {
+    "f": "src/kit-organizador.test.ts",
+    "a": 91,
+    "d": 0
+   },
+   {
+    "f": "src/kit-organizador.ts",
+    "a": 18,
+    "d": 0
+   },
+   {
+    "f": "src/seo.test.ts",
+    "a": 13,
+    "d": 1
+   }
+  ]
+ },
+ "7d7143aab607047543e734b8527a42e675b9f84b": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-03T23:08:31Z",
+  "message": "La línea base de la red de prueba pasa al Protocolo 30: la red sumó costos para operaciones nuevas y el sello sigue cost",
+  "parents": 1,
+  "files": [
+   {
+    "f": "scripts/vigilar-red.base.json",
+    "a": 4,
+    "d": 4
+   }
+  ]
  }
 }
