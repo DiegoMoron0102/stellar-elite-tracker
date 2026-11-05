@@ -151470,5 +151470,1695 @@
     "d": 1
    }
   ]
+ },
+ "922053a17e9623c88e95631bad0f50f63fecbb7a": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-05T02:58:17Z",
+  "message": "El bloque del DevFest Tarija tiene un botón para compartirlo por WhatsApp",
+  "parents": 1,
+  "files": [
+   {
+    "f": "marca.html",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "src/i18n.ts",
+    "a": 4,
+    "d": 0
+   },
+   {
+    "f": "src/marca-devfest.test.ts",
+    "a": 24,
+    "d": 0
+   },
+   {
+    "f": "src/marca.css",
+    "a": 2,
+    "d": 0
+   },
+   {
+    "f": "src/marca.ts",
+    "a": 6,
+    "d": 0
+   }
+  ]
+ },
+ "012eddec412ebdb400f24b24f8357c11446897e9": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-05T02:53:28Z",
+  "message": "El roll-up, el banner y las imágenes para redes llevan el sticker de código en lugar del sapo",
+  "parents": 1,
+  "files": [
+   {
+    "f": "public/marca/redes-sponsor-banner-claro-en.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/redes-sponsor-banner-claro-es.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/redes-sponsor-banner-oscuro-en.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/redes-sponsor-banner-oscuro-es.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/redes-sponsor-historia-claro-en.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/redes-sponsor-historia-claro-es.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/redes-sponsor-historia-oscuro-en.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/redes-sponsor-historia-oscuro-es.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/redes-sponsor-linkedin-claro-en.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/redes-sponsor-linkedin-claro-es.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/redes-sponsor-linkedin-oscuro-en.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/redes-sponsor-linkedin-oscuro-es.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/redes-sponsor-panoramica-claro-en.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/redes-sponsor-panoramica-claro-es.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/redes-sponsor-panoramica-oscuro-en.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/redes-sponsor-panoramica-oscuro-es.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/redes-sponsor-post-claro-en.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/redes-sponsor-post-claro-es.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/redes-sponsor-post-oscuro-en.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/redes-sponsor-post-oscuro-es.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/redes-sponsor-x-claro-en.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/redes-sponsor-x-claro-es.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/redes-sponsor-x-oscuro-en.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/redes-sponsor-x-oscuro-es.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/rollup-100x200-en.pdf",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/rollup-100x200-en.svg",
+    "a": 117,
+    "d": 124
+   },
+   {
+    "f": "public/marca/rollup-100x200-es.pdf",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/rollup-100x200-es.svg",
+    "a": 117,
+    "d": 124
+   },
+   {
+    "f": "public/marca/rollup-85x200-en.pdf",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/rollup-85x200-en.svg",
+    "a": 117,
+    "d": 124
+   },
+   {
+    "f": "public/marca/rollup-85x200-es.pdf",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/rollup-85x200-es.svg",
+    "a": 117,
+    "d": 124
+   },
+   {
+    "f": "public/marca/tinkazo-kit-impresos.zip",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/tinkazo-kit-sponsor.zip",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/vista-rollup-85x200-en.svg",
+    "a": 117,
+    "d": 124
+   },
+   {
+    "f": "public/marca/vista-rollup-85x200-es.svg",
+    "a": 117,
+    "d": 124
+   },
+   {
+    "f": "scripts/marca/impresos.mjs",
+    "a": 2,
+    "d": 2
+   }
+  ]
+ },
+ "a131fd9dc5bf2c96620d8ef4aead37f9b291ba6e": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-05T02:45:25Z",
+  "message": "La página de marca anuncia el DevFest Tarija 2026 con su afiche y el enlace para reservar lugar",
+  "parents": 1,
+  "files": [
+   {
+    "f": "marca.html",
+    "a": 11,
+    "d": 0
+   },
+   {
+    "f": "public/marca/devfest/devfest-tarija-2026.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/devfest/gdg-lockup.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "src/i18n.ts",
+    "a": 16,
+    "d": 0
+   },
+   {
+    "f": "src/marca.css",
+    "a": 15,
+    "d": 0
+   },
+   {
+    "f": "src/marca.test.ts",
+    "a": 5,
+    "d": 2
+   }
+  ]
+ },
+ "7d0a96ba82b2774be358d8d163d93a8f31b967fb": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-05T02:13:14Z",
+  "message": "La página de marca trae el kit completo: stickers, impresos, sponsors y creadores",
+  "parents": 1,
+  "files": [
+   {
+    "f": ".gitignore",
+    "a": 3,
+    "d": 0
+   },
+   {
+    "f": "c.html",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "como-funciona.html",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "docs/marca.md",
+    "a": 53,
+    "d": 1
+   },
+   {
+    "f": "evento.html",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "historia.html",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "index.html",
+    "a": 2,
+    "d": 1
+   },
+   {
+    "f": "juegos.html",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "lista.html",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "marca.html",
+    "a": 487,
+    "d": 13
+   },
+   {
+    "f": "precios.html",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "public/kit-clips/chovena.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/kit-clips/guajojo.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/kit-clips/oruro.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/kit-clips/pinata.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/kit-clips/race.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/kit-clips/sapo.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/kit-clips/teleferico.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/kit-clips/toborochi.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/kit-clips/trompo.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/kit-clips/wheel.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/banner-mesa-120x40-en.pdf",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/banner-mesa-120x40-en.svg",
+    "a": 58,
+    "d": 0
+   },
+   {
+    "f": "public/marca/banner-mesa-120x40-es.pdf",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/banner-mesa-120x40-es.svg",
+    "a": 59,
+    "d": 0
+   },
+   {
+    "f": "public/marca/coleccion/apthapi-en.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/coleccion/apthapi-es.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/coleccion/bolivia-en.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/coleccion/bolivia-es.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/coleccion/cacharpaya-en.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/coleccion/cacharpaya-es.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/coleccion/caravana-en.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/coleccion/caravana-es.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/coleccion/carrera-en.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/coleccion/carrera-es.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/coleccion/chovena-en.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/coleccion/chovena-es.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/coleccion/con-k-en.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/coleccion/con-k-es.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/coleccion/dev-404-en.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/coleccion/dev-404-es.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/coleccion/dev-commit.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/coleccion/dev-hola-en.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/coleccion/dev-hola-es.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/coleccion/dev-mi-llama-en.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/coleccion/dev-mi-llama-es.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/coleccion/dev-tests-en.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/coleccion/dev-tests-es.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/coleccion/entrada-en.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/coleccion/entrada-es.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/coleccion/frases.txt",
+    "a": 91,
+    "d": 0
+   },
+   {
+    "f": "public/marca/coleccion/guajojo-en.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/coleccion/guajojo-es.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/coleccion/hoja-a3-en.pdf",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/coleccion/hoja-a3-en.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/coleccion/hoja-a3-es.pdf",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/coleccion/hoja-a3-es.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/coleccion/hoja-a4-frases-en.pdf",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/coleccion/hoja-a4-frases-en.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/coleccion/hoja-a4-frases-es.pdf",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/coleccion/hoja-a4-frases-es.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/coleccion/hoja-a4-juegos-en.pdf",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/coleccion/hoja-a4-juegos-en.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/coleccion/hoja-a4-juegos-es.pdf",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/coleccion/hoja-a4-juegos-es.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/coleccion/llama-corazon-en.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/coleccion/llama-corazon-es.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/coleccion/llama-dormida-en.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/coleccion/llama-dormida-es.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/coleccion/llama-salio-en.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/coleccion/llama-salio-es.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/coleccion/pinata-en.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/coleccion/pinata-es.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/coleccion/ruleta-en.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/coleccion/ruleta-es.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/coleccion/sapo-en.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/coleccion/sapo-es.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/coleccion/sin-trampa-en.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/coleccion/sin-trampa-es.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/coleccion/teleferico-en.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/coleccion/teleferico-es.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/coleccion/tinkazo-stickers.zip",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/coleccion/toborochi-en.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/coleccion/toborochi-es.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/coleccion/todos-adentro-en.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/coleccion/todos-adentro-es.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/coleccion/trompo-en.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/coleccion/trompo-es.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/coleccion/verificalo-en.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/coleccion/verificalo-es.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/juego-guajojo.jpg",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/juego-oruro.jpg",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/juego-pinata.jpg",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/juego-race.jpg",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/juego-toborochi.jpg",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/juego-wheel.jpg",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/logo-pared-cuadrado-2400.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/logo-pared-cuadrado-blanco-2400.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/logo-pared-cuadrado-blanco.pdf",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/logo-pared-cuadrado-blanco.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/logo-pared-cuadrado-blanco.svg",
+    "a": 6,
+    "d": 0
+   },
+   {
+    "f": "public/marca/logo-pared-cuadrado-negro-2400.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/logo-pared-cuadrado-negro.pdf",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/logo-pared-cuadrado-negro.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/logo-pared-cuadrado-negro.svg",
+    "a": 6,
+    "d": 0
+   },
+   {
+    "f": "public/marca/logo-pared-cuadrado-oscuro-2400.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/logo-pared-cuadrado-oscuro.pdf",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/logo-pared-cuadrado-oscuro.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/logo-pared-cuadrado-oscuro.svg",
+    "a": 6,
+    "d": 0
+   },
+   {
+    "f": "public/marca/logo-pared-cuadrado.pdf",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/logo-pared-cuadrado.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/logo-pared-cuadrado.svg",
+    "a": 6,
+    "d": 0
+   },
+   {
+    "f": "public/marca/logo-pared-horizontal-2400.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/logo-pared-horizontal-blanco-2400.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/logo-pared-horizontal-blanco.pdf",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/logo-pared-horizontal-blanco.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/logo-pared-horizontal-blanco.svg",
+    "a": 6,
+    "d": 0
+   },
+   {
+    "f": "public/marca/logo-pared-horizontal-negro-2400.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/logo-pared-horizontal-negro.pdf",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/logo-pared-horizontal-negro.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/logo-pared-horizontal-negro.svg",
+    "a": 6,
+    "d": 0
+   },
+   {
+    "f": "public/marca/logo-pared-horizontal-oscuro-2400.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/logo-pared-horizontal-oscuro.pdf",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/logo-pared-horizontal-oscuro.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/logo-pared-horizontal-oscuro.svg",
+    "a": 6,
+    "d": 0
+   },
+   {
+    "f": "public/marca/logo-pared-horizontal.pdf",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/logo-pared-horizontal.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/logo-pared-horizontal.svg",
+    "a": 6,
+    "d": 0
+   },
+   {
+    "f": "public/marca/preguntas-organizadores.txt",
+    "a": 33,
+    "d": 0
+   },
+   {
+    "f": "public/marca/redes-sponsor-banner-claro-en.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/redes-sponsor-banner-claro-es.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/redes-sponsor-banner-oscuro-en.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/redes-sponsor-banner-oscuro-es.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/redes-sponsor-historia-claro-en.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/redes-sponsor-historia-claro-es.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/redes-sponsor-historia-juegos-claro-en.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/redes-sponsor-historia-juegos-claro-es.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/redes-sponsor-historia-juegos-oscuro-en.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/redes-sponsor-historia-juegos-oscuro-es.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/redes-sponsor-historia-oscuro-en.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/redes-sponsor-historia-oscuro-es.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/redes-sponsor-linkedin-claro-en.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/redes-sponsor-linkedin-claro-es.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/redes-sponsor-linkedin-oscuro-en.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/redes-sponsor-linkedin-oscuro-es.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/redes-sponsor-panoramica-claro-en.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/redes-sponsor-panoramica-claro-es.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/redes-sponsor-panoramica-juegos-claro-en.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/redes-sponsor-panoramica-juegos-claro-es.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/redes-sponsor-panoramica-juegos-oscuro-en.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/redes-sponsor-panoramica-juegos-oscuro-es.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/redes-sponsor-panoramica-oscuro-en.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/redes-sponsor-panoramica-oscuro-es.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/redes-sponsor-post-claro-en.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/redes-sponsor-post-claro-es.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/redes-sponsor-post-juegos-claro-en.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/redes-sponsor-post-juegos-claro-es.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/redes-sponsor-post-juegos-oscuro-en.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/redes-sponsor-post-juegos-oscuro-es.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/redes-sponsor-post-oscuro-en.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/redes-sponsor-post-oscuro-es.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/redes-sponsor-x-claro-en.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/redes-sponsor-x-claro-es.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/redes-sponsor-x-oscuro-en.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/redes-sponsor-x-oscuro-es.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/rollup-100x200-en.pdf",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/rollup-100x200-en.svg",
+    "a": 226,
+    "d": 0
+   },
+   {
+    "f": "public/marca/rollup-100x200-es.pdf",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/rollup-100x200-es.svg",
+    "a": 227,
+    "d": 0
+   },
+   {
+    "f": "public/marca/rollup-85x200-en.pdf",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/rollup-85x200-en.svg",
+    "a": 226,
+    "d": 0
+   },
+   {
+    "f": "public/marca/rollup-85x200-es.pdf",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/rollup-85x200-es.svg",
+    "a": 227,
+    "d": 0
+   },
+   {
+    "f": "public/marca/textos-sponsor.txt",
+    "a": 67,
+    "d": 0
+   },
+   {
+    "f": "public/marca/tinkazo-kit-impresos.zip",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/tinkazo-kit-marca.zip",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/tinkazo-kit-sponsor.zip",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/vista-banner-mesa-120x40-en.svg",
+    "a": 58,
+    "d": 0
+   },
+   {
+    "f": "public/marca/vista-banner-mesa-120x40-es.svg",
+    "a": 59,
+    "d": 0
+   },
+   {
+    "f": "public/marca/vista-rollup-85x200-en.svg",
+    "a": 226,
+    "d": 0
+   },
+   {
+    "f": "public/marca/vista-rollup-85x200-es.svg",
+    "a": 227,
+    "d": 0
+   },
+   {
+    "f": "ruleta-de-nombres.html",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "scripts/check-paginas.mjs",
+    "a": 4,
+    "d": 2
+   },
+   {
+    "f": "scripts/generar-marca.mjs",
+    "a": 21,
+    "d": 4
+   },
+   {
+    "f": "scripts/marca/base.mjs",
+    "a": 97,
+    "d": 4
+   },
+   {
+    "f": "scripts/marca/coleccion.mjs",
+    "a": 910,
+    "d": 0
+   },
+   {
+    "f": "scripts/marca/fotos-juegos.mjs",
+    "a": 137,
+    "d": 0
+   },
+   {
+    "f": "scripts/marca/fotos/guajojo-chica.jpg",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "scripts/marca/fotos/guajojo-media.jpg",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "scripts/marca/fotos/guajojo-red.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "scripts/marca/fotos/guajojo.jpg",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "scripts/marca/fotos/oruro-chica.jpg",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "scripts/marca/fotos/oruro-media.jpg",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "scripts/marca/fotos/oruro-red.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "scripts/marca/fotos/oruro.jpg",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "scripts/marca/fotos/pinata-chica.jpg",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "scripts/marca/fotos/pinata-media.jpg",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "scripts/marca/fotos/pinata-red.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "scripts/marca/fotos/pinata.jpg",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "scripts/marca/fotos/race-chica.jpg",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "scripts/marca/fotos/race-media.jpg",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "scripts/marca/fotos/race-red.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "scripts/marca/fotos/race.jpg",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "scripts/marca/fotos/toborochi-chica.jpg",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "scripts/marca/fotos/toborochi-media.jpg",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "scripts/marca/fotos/toborochi-red.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "scripts/marca/fotos/toborochi.jpg",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "scripts/marca/fotos/wheel-chica.jpg",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "scripts/marca/fotos/wheel-media.jpg",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "scripts/marca/fotos/wheel-red.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "scripts/marca/fotos/wheel.jpg",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "scripts/marca/impresos.mjs",
+    "a": 360,
+    "d": 0
+   },
+   {
+    "f": "scripts/marca/piezas.mjs",
+    "a": 63,
+    "d": 3
+   },
+   {
+    "f": "scripts/marca/silueta.mjs",
+    "a": 168,
+    "d": 0
+   },
+   {
+    "f": "scripts/marca/textos-sponsor.mjs",
+    "a": 91,
+    "d": 0
+   },
+   {
+    "f": "scripts/marca/videos/armar-kit.mjs",
+    "a": 42,
+    "d": 0
+   },
+   {
+    "f": "scripts/marca/videos/cuadros.js",
+    "a": 49,
+    "d": 0
+   },
+   {
+    "f": "scripts/marca/videos/grabar-clips.mjs",
+    "a": 210,
+    "d": 0
+   },
+   {
+    "f": "scripts/marca/videos/guiones.mjs",
+    "a": 126,
+    "d": 0
+   },
+   {
+    "f": "scripts/marca/videos/logo-animado-pagina.js",
+    "a": 217,
+    "d": 0
+   },
+   {
+    "f": "scripts/marca/videos/logo-animado.mjs",
+    "a": 113,
+    "d": 0
+   },
+   {
+    "f": "scripts/marca/videos/posters.mjs",
+    "a": 49,
+    "d": 0
+   },
+   {
+    "f": "scripts/marca/videos/reloj-virtual.js",
+    "a": 53,
+    "d": 0
+   },
+   {
+    "f": "scripts/marca/videos/salida.mjs",
+    "a": 14,
+    "d": 0
+   },
+   {
+    "f": "scripts/marca/videos/ventanas.json",
+    "a": 15,
+    "d": 0
+   },
+   {
+    "f": "seguridad.html",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "sorteo-en-clase.html",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "sorteo-para-eventos.html",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "sorteo-para-meetup.html",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "sorteo-verificable.html",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "src/i18n.ts",
+    "a": 271,
+    "d": 12
+   },
+   {
+    "f": "src/marca-creadores-textos.ts",
+    "a": 93,
+    "d": 0
+   },
+   {
+    "f": "src/marca-creadores-ui.ts",
+    "a": 184,
+    "d": 0
+   },
+   {
+    "f": "src/marca-creadores.test.ts",
+    "a": 260,
+    "d": 0
+   },
+   {
+    "f": "src/marca-creadores.ts",
+    "a": 463,
+    "d": 0
+   },
+   {
+    "f": "src/marca.css",
+    "a": 155,
+    "d": 0
+   },
+   {
+    "f": "src/marca.test.ts",
+    "a": 338,
+    "d": 6
+   },
+   {
+    "f": "src/marca.ts",
+    "a": 17,
+    "d": 0
+   },
+   {
+    "f": "src/seo.test.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "terminos.html",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "verificar.html",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "workers/musica/README.md",
+    "a": 40,
+    "d": 0
+   },
+   {
+    "f": "workers/musica/src/index.ts",
+    "a": 13,
+    "d": 4
+   },
+   {
+    "f": "workers/musica/src/kit.test.ts",
+    "a": 191,
+    "d": 0
+   },
+   {
+    "f": "workers/musica/src/kit.ts",
+    "a": 88,
+    "d": 0
+   },
+   {
+    "f": "workers/musica/subir-kit.mjs",
+    "a": 106,
+    "d": 0
+   },
+   {
+    "f": "workers/musica/wrangler.r2.toml",
+    "a": 6,
+    "d": 0
+   }
+  ]
+ },
+ "d194d2a9ae96c25aef09dd42cd4e730457522146": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-05T00:05:50Z",
+  "message": "Se cuentan, sin saber quién es, los pasos del sorteo",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/c.ts",
+    "a": 3,
+    "d": 2
+   },
+   {
+    "f": "src/contar.test.ts",
+    "a": 118,
+    "d": 1
+   },
+   {
+    "f": "src/contar.ts",
+    "a": 101,
+    "d": 20
+   },
+   {
+    "f": "src/i18n.ts",
+    "a": 4,
+    "d": 4
+   },
+   {
+    "f": "src/main.ts",
+    "a": 4,
+    "d": 1
+   },
+   {
+    "f": "src/respuestas-confianza.test.ts",
+    "a": 3,
+    "d": 2
+   },
+   {
+    "f": "src/ui/freeze.ts",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "terminos.html",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "workers/enlaces/README.md",
+    "a": 17,
+    "d": 7
+   },
+   {
+    "f": "workers/enlaces/src/conteo.test.ts",
+    "a": 54,
+    "d": 0
+   },
+   {
+    "f": "workers/enlaces/src/conteo.ts",
+    "a": 28,
+    "d": 4
+   }
+  ]
+ },
+ "cc3c830d1c663294dbe0d99cea7bbf53d941b76a": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-04T22:34:55Z",
+  "message": "Los comentarios y la documentación usan nombres descriptivos",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/juegos.md",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "docs/marca.md",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "docs/motores.md",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "scripts/audit-delatores.mjs",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "scripts/audit-recta.mjs",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "scripts/lib/bateria.mjs",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "scripts/lib/browser.mjs",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/games/llamas/carrera-3d-lider.ts",
+    "a": 4,
+    "d": 4
+   },
+   {
+    "f": "src/games/llamas/carrera-nueva.test.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/games/llamas/carrera-show.ts",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "src/games/llamas/carrera.ts",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "src/games/llamas/llama-aguayo.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/games/tres/trompo-3d.ts",
+    "a": 13,
+    "d": 13
+   }
+  ]
+ },
+ "dee96a62825573054a67283267dbd98085a84862": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-04T22:30:41Z",
+  "message": "La vigilancia de la red toma la recalibración de mainnet del 4 de noviembre",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/deployments.md",
+    "a": 3,
+    "d": 1
+   },
+   {
+    "f": "scripts/vigilar-red.base.json",
+    "a": 2,
+    "d": 2
+   }
+  ]
+ },
+ "ee54f25f4b47ae394cd4e83dc63b9ee4c929426c": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-04T22:30:37Z",
+  "message": "La carrera ya no arranca con cuatro segundos de silencio",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/games/llamas/carrera-show.ts",
+    "a": 3,
+    "d": 0
+   }
+  ]
  }
 }

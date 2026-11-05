@@ -1,15 +1,15 @@
 {
- "generado": "2026-11-04T23:00:22+00:00",
+ "generado": "2026-11-05T04:18:46+00:00",
  "programa": "Stellar Elite",
  "start_date": "2026-09-02T00:00:00Z",
  "teams": [
   {
    "name": "Tinkazo",
-   "total": 6266.27,
-   "per_capita": 6266.27,
-   "commits": 983,
-   "pts_commits": 6095.27,
-   "dias_activos": 33,
+   "total": 6312.21,
+   "per_capita": 6312.21,
+   "commits": 991,
+   "pts_commits": 6136.21,
+   "dias_activos": 34,
    "contribuidores": [
     "GuidoSV7",
     "nema1502"
@@ -357,7 +357,8 @@
    "2026-11-01": 12.68,
    "2026-11-02": 409.5799999999999,
    "2026-11-03": 223.31999999999996,
-   "2026-11-04": 311.34
+   "2026-11-04": 325.49,
+   "2026-11-05": 26.79
   },
   "CompraGasolinaBidon": {
    "2026-09-06": 1.0,
@@ -524,7 +525,8 @@
    "2026-11-01": 2,
    "2026-11-02": 52,
    "2026-11-03": 38,
-   "2026-11-04": 41
+   "2026-11-04": 44,
+   "2026-11-05": 5
   },
   "CompraGasolinaBidon": {
    "2026-09-06": 1,
@@ -623,6 +625,86 @@
   }
  },
  "commits": [
+  {
+   "sha": "922053a",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-05T02:58:17Z",
+   "msg": "El bloque del DevFest Tarija tiene un botón para compartirlo por WhatsApp",
+   "pts": 6.25,
+   "nota": ""
+  },
+  {
+   "sha": "012edde",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-05T02:53:28Z",
+   "msg": "El roll-up, el banner y las imágenes para redes llevan el sticker de código en lugar del sapo",
+   "pts": 3.32,
+   "nota": ""
+  },
+  {
+   "sha": "a131fd9",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-05T02:45:25Z",
+   "msg": "La página de marca anuncia el DevFest Tarija 2026 con su afiche y el enlace para reservar lugar",
+   "pts": 6.64,
+   "nota": ""
+  },
+  {
+   "sha": "7d0a96b",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-05T02:13:14Z",
+   "msg": "La página de marca trae el kit completo: stickers, impresos, sponsors y creadores",
+   "pts": 1.0,
+   "nota": "import masivo (66 archivos)"
+  },
+  {
+   "sha": "d194d2a",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-05T00:05:50Z",
+   "msg": "Se cuentan, sin saber quién es, los pasos del sorteo",
+   "pts": 9.58,
+   "nota": ""
+  },
+  {
+   "sha": "cc3c830",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-04T22:34:55Z",
+   "msg": "Los comentarios y la documentación usan nombres descriptivos",
+   "pts": 6.98,
+   "nota": ""
+  },
+  {
+   "sha": "dee96a6",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-04T22:30:41Z",
+   "msg": "La vigilancia de la red toma la recalibración de mainnet del 4 de noviembre",
+   "pts": 4.17,
+   "nota": ""
+  },
+  {
+   "sha": "ee54f25",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-04T22:30:37Z",
+   "msg": "La carrera ya no arranca con cuatro segundos de silencio",
+   "pts": 3.0,
+   "nota": ""
+  },
   {
    "sha": "670b033",
    "team": "Tinkazo",
