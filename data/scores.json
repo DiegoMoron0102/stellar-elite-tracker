@@ -1,15 +1,15 @@
 {
- "generado": "2026-11-06T13:28:04+00:00",
+ "generado": "2026-11-06T22:32:27+00:00",
  "programa": "Stellar Elite",
  "start_date": "2026-09-02T00:00:00Z",
  "teams": [
   {
    "name": "Tinkazo",
-   "total": 6312.21,
-   "per_capita": 6312.21,
-   "commits": 991,
-   "pts_commits": 6136.21,
-   "dias_activos": 34,
+   "total": 6447.75,
+   "per_capita": 6447.75,
+   "commits": 1009,
+   "pts_commits": 6266.75,
+   "dias_activos": 35,
    "contribuidores": [
     "GuidoSV7",
     "nema1502"
@@ -43,10 +43,10 @@
   },
   {
    "name": "TilcAI",
-   "total": 1160.88,
-   "per_capita": 386.96,
-   "commits": 173,
-   "pts_commits": 1068.88,
+   "total": 1177.65,
+   "per_capita": 392.55,
+   "commits": 175,
+   "pts_commits": 1085.65,
    "dias_activos": 16,
    "contribuidores": [
     "JHAMILCALI",
@@ -62,11 +62,11 @@
   },
   {
    "name": "Puls3",
-   "total": 1048.29,
-   "per_capita": 1048.29,
-   "commits": 144,
-   "pts_commits": 905.29,
-   "dias_activos": 25,
+   "total": 1073.29,
+   "per_capita": 1073.29,
+   "commits": 146,
+   "pts_commits": 925.29,
+   "dias_activos": 26,
    "contribuidores": [
     "Pericena",
     "TOMOKI977",
@@ -322,7 +322,8 @@
    "2026-10-19": 10.0,
    "2026-10-25": 12.48,
    "2026-10-26": 18.89,
-   "2026-10-27": 20.0
+   "2026-10-27": 20.0,
+   "2026-11-06": 20.0
   },
   "Tinkazo": {
    "2026-09-16": 66.21000000000001,
@@ -358,7 +359,8 @@
    "2026-11-02": 409.5799999999999,
    "2026-11-03": 223.31999999999996,
    "2026-11-04": 325.49,
-   "2026-11-05": 26.79
+   "2026-11-05": 55.97,
+   "2026-11-06": 101.36
   },
   "CompraGasolinaBidon": {
    "2026-09-06": 1.0,
@@ -442,7 +444,7 @@
    "2026-11-03": 15.08,
    "2026-11-04": 30.959999999999997,
    "2026-11-05": 18.09,
-   "2026-11-06": 109.14
+   "2026-11-06": 125.91
   },
   "GatoPago": {
    "2026-09-10": 1.0,
@@ -492,7 +494,8 @@
    "2026-10-19": 1,
    "2026-10-25": 3,
    "2026-10-26": 2,
-   "2026-10-27": 2
+   "2026-10-27": 2,
+   "2026-11-06": 2
   },
   "Tinkazo": {
    "2026-09-16": 8,
@@ -528,7 +531,8 @@
    "2026-11-02": 52,
    "2026-11-03": 38,
    "2026-11-04": 44,
-   "2026-11-05": 5
+   "2026-11-05": 8,
+   "2026-11-06": 15
   },
   "CompraGasolinaBidon": {
    "2026-09-06": 1,
@@ -612,7 +616,7 @@
    "2026-11-03": 3,
    "2026-11-04": 5,
    "2026-11-05": 2,
-   "2026-11-06": 14
+   "2026-11-06": 16
   },
   "GatoPago": {
    "2026-09-10": 1,
@@ -629,6 +633,196 @@
   }
  },
  "commits": [
+  {
+   "sha": "ee718e1",
+   "team": "TilcAI",
+   "repo": "TilcAI/tilcai-web",
+   "author": "JHAMILCALI",
+   "date": "2026-11-06T22:01:44Z",
+   "msg": "feat(demo): agregar página de demostración con contenido y estilos",
+   "pts": 8.11,
+   "nota": ""
+  },
+  {
+   "sha": "bd8969d",
+   "team": "TilcAI",
+   "repo": "TilcAI/tilcai-web",
+   "author": "JHAMILCALI",
+   "date": "2026-11-06T21:37:41Z",
+   "msg": "feat(seo): mejorar SEO técnico y metadatos, agregar sitemap y robots.txt",
+   "pts": 8.66,
+   "nota": ""
+  },
+  {
+   "sha": "dd2a83d",
+   "team": "Puls3",
+   "repo": "Zer0-Knowledge-Hack/puls3",
+   "author": "TOMOKI977",
+   "date": "2026-11-06T19:43:55Z",
+   "msg": "feat(server): agent-signed escrow submit and persist submitted/completed/rejected (#213)",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "59b2bcb",
+   "team": "Puls3",
+   "repo": "Zer0-Knowledge-Hack/puls3",
+   "author": "Pericena",
+   "date": "2026-11-06T19:23:57Z",
+   "msg": "feat(reputation): make the served rating verifiable from the chain (#202) (#230)",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "4fea38b",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-06T15:25:00Z",
+   "msg": "La portada deja de mostrar el bloque de números",
+   "pts": 6.52,
+   "nota": ""
+  },
+  {
+   "sha": "017bef4",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-06T15:23:35Z",
+   "msg": "Menos letras: portada corta y nada técnico a la vista",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "a5af23b",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-06T14:28:18Z",
+   "msg": "La frase de la marca se lee sobre el amarillo en el tema oscuro",
+   "pts": 4.0,
+   "nota": ""
+  },
+  {
+   "sha": "1dc93d4",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-06T14:14:52Z",
+   "msg": "La página de marca abre con la frase: tinkazo.app, el lema y que participar es gratis",
+   "pts": 6.91,
+   "nota": ""
+  },
+  {
+   "sha": "682c5a6",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-06T13:54:40Z",
+   "msg": "La prueba del ZIP de stickers compara las frases por líneas y no por bytes",
+   "pts": 3.58,
+   "nota": ""
+  },
+  {
+   "sha": "641e083",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-06T12:37:59Z",
+   "msg": "Muchos ganadores: la lista se lee de corrido y el atajo elegido sigue a la vista",
+   "pts": 4.17,
+   "nota": ""
+  },
+  {
+   "sha": "a41275c",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-06T11:34:56Z",
+   "msg": "La verificación por historial nombra el tope de ganadores por su constante",
+   "pts": 3.32,
+   "nota": ""
+  },
+  {
+   "sha": "637b814",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-06T11:30:35Z",
+   "msg": "La verificación pasa sola del estado del contrato al historial de la transacción",
+   "pts": 9.58,
+   "nota": ""
+  },
+  {
+   "sha": "a724f15",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-06T11:29:14Z",
+   "msg": "El tope de ganadores por sorteo es 300",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "463d7f0",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-06T11:08:30Z",
+   "msg": "El sitio acepta hasta 100 ganadores por sorteo",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "03da886",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-06T11:07:33Z",
+   "msg": "El portero del patrocinio se publica en testnet como dominio propio, p.tinkazo.app",
+   "pts": 5.0,
+   "nota": ""
+  },
+  {
+   "sha": "8c61507",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-06T11:07:21Z",
+   "msg": "El contrato admite hasta 100 ganadores por sorteo",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "11a33c3",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-06T10:52:07Z",
+   "msg": "El reenvío del aviso de verificación ya no trae por defecto los datos del release v0.1.0",
+   "pts": 5.75,
+   "nota": ""
+  },
+  {
+   "sha": "f64d90b",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-06T10:50:27Z",
+   "msg": "Las entradas del sorteo se renuevan a 120 días en cualquier red, el valor de mainnet",
+   "pts": 9.95,
+   "nota": ""
+  },
+  {
+   "sha": "656e8db",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-06T10:27:32Z",
+   "msg": "El contrato pasa a la versión 0.2.0, porque el workflow de StellarExpert nombra el .wasm y el release con la versión del",
+   "pts": 2.58,
+   "nota": ""
+  },
   {
    "sha": "5553e60",
    "team": "TilcAI",
@@ -787,6 +981,36 @@
    "date": "2026-11-05T22:41:19Z",
    "msg": "feat: add problem section to homepage and update messaging",
    "pts": 9.44,
+   "nota": ""
+  },
+  {
+   "sha": "f5d5be1",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-05T07:28:57Z",
+   "msg": "Pollar: arreglos al flujo de protección de la cuenta, a la co-firma y a los errores",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "d70975a",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-05T04:56:25Z",
+   "msg": "Los números del contrato se calculan desde la cadena y cualquiera los recalcula",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "cf53406",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-05T04:50:39Z",
+   "msg": "El README y el sitio en inglés presentan la selección verificable de ganadores",
+   "pts": 9.18,
    "nota": ""
   },
   {

@@ -153840,5 +153840,1505 @@
     "d": 0
    }
   ]
+ },
+ "dd2a83d70faa6e9dda3a0a97ea721541d406629a": {
+  "team": "Puls3",
+  "repo": "Zer0-Knowledge-Hack/puls3",
+  "author": "TOMOKI977",
+  "date": "2026-11-06T19:43:55Z",
+  "message": "feat(server): agent-signed escrow submit and persist submitted/completed/rejected (#213)",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/architecture/api.md",
+    "a": 3,
+    "d": 3
+   },
+   {
+    "f": "docs/blueprints/screens.md",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "docs/domain/hire-lifecycle.md",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "docs/infra/secrets.md",
+    "a": 2,
+    "d": 1
+   },
+   {
+    "f": "openspec/specs/chain-submission-tracking/spec.md",
+    "a": 17,
+    "d": 11
+   },
+   {
+    "f": "openspec/specs/escrow-relay/spec.md",
+    "a": 8,
+    "d": 9
+   },
+   {
+    "f": "openspec/specs/hire-payment/spec.md",
+    "a": 7,
+    "d": 7
+   },
+   {
+    "f": "puls3_server/README.md",
+    "a": 53,
+    "d": 11
+   },
+   {
+    "f": "puls3_server/lib/src/chain/agent_submit_sender.dart",
+    "a": 230,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/chain/chain_submission_tracker.dart",
+    "a": 17,
+    "d": 17
+   },
+   {
+    "f": "puls3_server/lib/src/hire/hire_lifecycle_store.dart",
+    "a": 5,
+    "d": 4
+   },
+   {
+    "f": "puls3_server/lib/src/hire/hire_query_service.dart",
+    "a": 29,
+    "d": 2
+   },
+   {
+    "f": "puls3_server/lib/src/hire/hire_services.dart",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/hire/hire_settlement.dart",
+    "a": 41,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/hire/serverpod_hire_repository.dart",
+    "a": 43,
+    "d": 21
+   },
+   {
+    "f": "puls3_server/lib/src/runtime/agent_runtime_wiring.dart",
+    "a": 107,
+    "d": 8
+   },
+   {
+    "f": "puls3_server/lib/src/runtime/hire_runner.dart",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "puls3_server/lib/src/runtime/serverpod_due_submit_source.dart",
+    "a": 129,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/test/hire/hire_query_service_test.dart",
+    "a": 83,
+    "d": 1
+   },
+   {
+    "f": "puls3_server/test/integration/due_submit_source_test.dart",
+    "a": 185,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/test/integration/hire_repository_test.dart",
+    "a": 81,
+    "d": 1
+   },
+   {
+    "f": "puls3_server/test/support/chain_submission_store_contract.dart",
+    "a": 8,
+    "d": 8
+   },
+   {
+    "f": "puls3_server/test/unit/chain/agent_submit_sender_test.dart",
+    "a": 217,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/test/unit/chain/chain_submission_tracker_test.dart",
+    "a": 13,
+    "d": 9
+   },
+   {
+    "f": "puls3_server/test/unit/hire/hire_settlement_test.dart",
+    "a": 74,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/tool/e2e_submit_testnet.dart",
+    "a": 320,
+    "d": 0
+   }
+  ]
+ },
+ "59b2bcbd19f7543db3d3df4c432914ee800a4cb3": {
+  "team": "Puls3",
+  "repo": "Zer0-Knowledge-Hack/puls3",
+  "author": "Pericena",
+  "date": "2026-11-06T19:23:57Z",
+  "message": "feat(reputation): make the served rating verifiable from the chain (#202) (#230)",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/domain/reputation.md",
+    "a": 102,
+    "d": 0
+   },
+   {
+    "f": "docs/verification/reputation.md",
+    "a": 92,
+    "d": 0
+   },
+   {
+    "f": "puls3_domain/lib/puls3_domain.dart",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "puls3_domain/lib/src/feedback_record.dart",
+    "a": 98,
+    "d": 0
+   },
+   {
+    "f": "puls3_domain/test/feedback_record_test.dart",
+    "a": 133,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/ledger/soroban_reputation_registry.dart",
+    "a": 47,
+    "d": 33
+   },
+   {
+    "f": "puls3_server/test/support/fake_reputation_chain.dart",
+    "a": 8,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/test/unit/ledger/soroban_reputation_registry_test.dart",
+    "a": 132,
+    "d": 0
+   },
+   {
+    "f": "scripts/verify_reputation.dart",
+    "a": 170,
+    "d": 0
+   }
+  ]
+ },
+ "4fea38b587dd88d0cf8dc4b357f43bb5d8ed652e": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-06T15:25:00Z",
+  "message": "La portada deja de mostrar el bloque de números",
+  "parents": 1,
+  "files": [
+   {
+    "f": "index.html",
+    "a": 0,
+    "d": 10
+   },
+   {
+    "f": "src/i18n.ts",
+    "a": 0,
+    "d": 12
+   },
+   {
+    "f": "src/sin-jerga-a-la-vista.test.ts",
+    "a": 9,
+    "d": 3
+   },
+   {
+    "f": "src/styles.css",
+    "a": 0,
+    "d": 11
+   }
+  ]
+ },
+ "017bef4aa9c86559f7559bb10cb128901babc45a": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-06T15:23:35Z",
+  "message": "Menos letras: portada corta y nada técnico a la vista",
+  "parents": 1,
+  "files": [
+   {
+    "f": "como-funciona.html",
+    "a": 5,
+    "d": 1
+   },
+   {
+    "f": "docs/ux.md",
+    "a": 3,
+    "d": 3
+   },
+   {
+    "f": "index.html",
+    "a": 19,
+    "d": 22
+   },
+   {
+    "f": "precios.html",
+    "a": 8,
+    "d": 7
+   },
+   {
+    "f": "scripts/audit-flujo.mjs",
+    "a": 4,
+    "d": 4
+   },
+   {
+    "f": "scripts/lib/palabras-prohibidas.json",
+    "a": 0,
+    "d": 7
+   },
+   {
+    "f": "sorteo-verificable.html",
+    "a": 8,
+    "d": 8
+   },
+   {
+    "f": "src/i18n.ts",
+    "a": 167,
+    "d": 276
+   },
+   {
+    "f": "src/seo.test.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/sin-jerga-a-la-vista.test.ts",
+    "a": 59,
+    "d": 0
+   },
+   {
+    "f": "src/styles.css",
+    "a": 24,
+    "d": 1
+   },
+   {
+    "f": "src/ui/anchor.test.ts",
+    "a": 8,
+    "d": 8
+   },
+   {
+    "f": "src/ui/anchor.ts",
+    "a": 2,
+    "d": 1
+   },
+   {
+    "f": "src/ui/compartir.test.ts",
+    "a": 5,
+    "d": 5
+   },
+   {
+    "f": "src/ui/firma.test.ts",
+    "a": 4,
+    "d": 4
+   },
+   {
+    "f": "src/ui/red.test.ts",
+    "a": 8,
+    "d": 8
+   },
+   {
+    "f": "terminos.html",
+    "a": 18,
+    "d": 8
+   }
+  ]
+ },
+ "a5af23b4bfb4aaea00eff4cf6c5152733a38b96d": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-06T14:28:18Z",
+  "message": "La frase de la marca se lee sobre el amarillo en el tema oscuro",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/marca.css",
+    "a": 4,
+    "d": 3
+   }
+  ]
+ },
+ "1dc93d45ef51d89899d1306ed7301432cf3b0c30": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-06T14:14:52Z",
+  "message": "La página de marca abre con la frase: tinkazo.app, el lema y que participar es gratis",
+  "parents": 1,
+  "files": [
+   {
+    "f": "marca.html",
+    "a": 13,
+    "d": 0
+   },
+   {
+    "f": "src/i18n.ts",
+    "a": 12,
+    "d": 0
+   },
+   {
+    "f": "src/marca.css",
+    "a": 9,
+    "d": 0
+   },
+   {
+    "f": "src/marca.test.ts",
+    "a": 25,
+    "d": 0
+   }
+  ]
+ },
+ "682c5a6dd33a3e433d91c6f17b7ded20ff2d0c19": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-06T13:54:40Z",
+  "message": "La prueba del ZIP de stickers compara las frases por líneas y no por bytes",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/marca.test.ts",
+    "a": 4,
+    "d": 1
+   }
+  ]
+ },
+ "641e08357d895668f161f3123f1d82ab1e6271e6": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-06T12:37:59Z",
+  "message": "Muchos ganadores: la lista se lee de corrido y el atajo elegido sigue a la vista",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/styles.css",
+    "a": 6,
+    "d": 2
+   }
+  ]
+ },
+ "a41275c3d4d9e6f0dd7e138cf2f518b7b191933e": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-06T11:34:56Z",
+  "message": "La verificación por historial nombra el tope de ganadores por su constante",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/protocol.en.md",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "docs/protocolo.md",
+    "a": 1,
+    "d": 1
+   }
+  ]
+ },
+ "637b814350dabe43e1844404a3ae343ed2732c2d": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-06T11:30:35Z",
+  "message": "La verificación pasa sola del estado del contrato al historial de la transacción",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/amenazas.md",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "docs/protocol.en.md",
+    "a": 4,
+    "d": 0
+   },
+   {
+    "f": "docs/protocolo.md",
+    "a": 4,
+    "d": 0
+   },
+   {
+    "f": "src/i18n.ts",
+    "a": 18,
+    "d": 10
+   },
+   {
+    "f": "src/protocol/verificacion-historial-red.test.ts",
+    "a": 121,
+    "d": 0
+   },
+   {
+    "f": "src/protocol/verificacion-historial.test.ts",
+    "a": 91,
+    "d": 7
+   },
+   {
+    "f": "src/protocol/verificacion.ts",
+    "a": 11,
+    "d": 4
+   },
+   {
+    "f": "src/stellar/registro.test.ts",
+    "a": 25,
+    "d": 0
+   },
+   {
+    "f": "src/verificacion-textos.test.ts",
+    "a": 50,
+    "d": 2
+   },
+   {
+    "f": "src/verificacion-textos.ts",
+    "a": 21,
+    "d": 1
+   },
+   {
+    "f": "src/verify.ts",
+    "a": 10,
+    "d": 2
+   }
+  ]
+ },
+ "a724f15b56d722d3b14fdbfb371e7a937fed14b9": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-06T11:29:14Z",
+  "message": "El tope de ganadores por sorteo es 300",
+  "parents": 1,
+  "files": [
+   {
+    "f": "contracts/raffle/src/lib.rs",
+    "a": 7,
+    "d": 6
+   },
+   {
+    "f": "contracts/raffle/src/test.rs",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "contracts/raffle/test_snapshots/test/draw_with_cap_winners_of_a_long_list_has_no_repeats.1.json",
+    "a": 1535,
+    "d": 335
+   },
+   {
+    "f": "contracts/raffle/test_snapshots/test/draw_with_cap_winners_of_cap_entries_is_a_full_permutation.1.json",
+    "a": 1459,
+    "d": 259
+   },
+   {
+    "f": "contracts/raffle/test_snapshots/test/seal_accepts_the_cap_and_rejects_one_more.1.json",
+    "a": 6,
+    "d": 6
+   },
+   {
+    "f": "docs/deployments.md",
+    "a": 21,
+    "d": 17
+   },
+   {
+    "f": "docs/epics.md",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "docs/juegos.md",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "docs/prd.md",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "docs/protocol.en.md",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "docs/protocolo.md",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "docs/ux.md",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "docs/vectors.json",
+    "a": 612,
+    "d": 0
+   },
+   {
+    "f": "index.html",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/games/pixi/premios-muchos.test.ts",
+    "a": 3,
+    "d": 3
+   },
+   {
+    "f": "src/pose.test.ts",
+    "a": 2,
+    "d": 1
+   },
+   {
+    "f": "src/protocol/carga.test.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/protocol/select.test.ts",
+    "a": 24,
+    "d": 2
+   },
+   {
+    "f": "src/protocol/select.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/protocol/verificacion.test.ts",
+    "a": 14,
+    "d": 3
+   },
+   {
+    "f": "src/stellar/config-tope.test.ts",
+    "a": 4,
+    "d": 4
+   },
+   {
+    "f": "src/stellar/config.ts",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "src/stellar/deployments.json",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/stellar/errores.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/ui/ganadores.test.ts",
+    "a": 10,
+    "d": 10
+   },
+   {
+    "f": "src/ui/ganadores.ts",
+    "a": 3,
+    "d": 3
+   },
+   {
+    "f": "src/ui/participants-ganadores.test.ts",
+    "a": 3,
+    "d": 3
+   },
+   {
+    "f": "src/ui/recomendar.test.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/ui/resultado-ganadores.test.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/ui/resultado-ganadores.ts",
+    "a": 2,
+    "d": 2
+   }
+  ]
+ },
+ "463d7f0d2aaa2d9409a5fc69f1115fce6cecee00": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-06T11:08:30Z",
+  "message": "El sitio acepta hasta 100 ganadores por sorteo",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/juegos.md",
+    "a": 2,
+    "d": 1
+   },
+   {
+    "f": "docs/ux.md",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "docs/vectors.json",
+    "a": 212,
+    "d": 0
+   },
+   {
+    "f": "index.html",
+    "a": 11,
+    "d": 2
+   },
+   {
+    "f": "scripts/audit-ui.mjs",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/games/pixi/premios-muchos.test.ts",
+    "a": 98,
+    "d": 0
+   },
+   {
+    "f": "src/i18n.ts",
+    "a": 12,
+    "d": 0
+   },
+   {
+    "f": "src/main.ts",
+    "a": 5,
+    "d": 2
+   },
+   {
+    "f": "src/pose.test.ts",
+    "a": 6,
+    "d": 6
+   },
+   {
+    "f": "src/pose.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/protocol/carga.test.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/protocol/select.test.ts",
+    "a": 47,
+    "d": 5
+   },
+   {
+    "f": "src/protocol/select.ts",
+    "a": 11,
+    "d": 2
+   },
+   {
+    "f": "src/protocol/verificacion.test.ts",
+    "a": 57,
+    "d": 1
+   },
+   {
+    "f": "src/stellar/config-tope.test.ts",
+    "a": 39,
+    "d": 0
+   },
+   {
+    "f": "src/stellar/config.ts",
+    "a": 24,
+    "d": 1
+   },
+   {
+    "f": "src/stellar/deployments.json",
+    "a": 2,
+    "d": 1
+   },
+   {
+    "f": "src/stellar/errores.test.ts",
+    "a": 17,
+    "d": 2
+   },
+   {
+    "f": "src/stellar/errores.ts",
+    "a": 8,
+    "d": 0
+   },
+   {
+    "f": "src/styles.css",
+    "a": 44,
+    "d": 1
+   },
+   {
+    "f": "src/ui/anchor.test.ts",
+    "a": 18,
+    "d": 0
+   },
+   {
+    "f": "src/ui/anchor.ts",
+    "a": 11,
+    "d": 6
+   },
+   {
+    "f": "src/ui/detalle-error.ts",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "src/ui/draw-propio.test.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/ui/draw-proteger.test.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/ui/draw.ts",
+    "a": 10,
+    "d": 45
+   },
+   {
+    "f": "src/ui/freeze-proteger.test.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/ui/freeze.ts",
+    "a": 9,
+    "d": 8
+   },
+   {
+    "f": "src/ui/ganadores.test.ts",
+    "a": 255,
+    "d": 0
+   },
+   {
+    "f": "src/ui/ganadores.ts",
+    "a": 133,
+    "d": 0
+   },
+   {
+    "f": "src/ui/pantalla-muchos.test.ts",
+    "a": 65,
+    "d": 0
+   },
+   {
+    "f": "src/ui/pantalla.ts",
+    "a": 22,
+    "d": 12
+   },
+   {
+    "f": "src/ui/participants-ganadores.test.ts",
+    "a": 107,
+    "d": 0
+   },
+   {
+    "f": "src/ui/participants.ts",
+    "a": 11,
+    "d": 7
+   },
+   {
+    "f": "src/ui/plegable.ts",
+    "a": 2,
+    "d": 1
+   },
+   {
+    "f": "src/ui/recomendar.test.ts",
+    "a": 74,
+    "d": 3
+   },
+   {
+    "f": "src/ui/recomendar.ts",
+    "a": 34,
+    "d": 14
+   },
+   {
+    "f": "src/ui/resultado-ganadores.test.ts",
+    "a": 134,
+    "d": 0
+   },
+   {
+    "f": "src/ui/resultado-ganadores.ts",
+    "a": 108,
+    "d": 0
+   },
+   {
+    "f": "src/ui/selector-de-juego.test.ts",
+    "a": 1,
+    "d": 1
+   }
+  ]
+ },
+ "03da886c040858057856c201006b5cd3660dd6b1": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-06T11:07:33Z",
+  "message": "El portero del patrocinio se publica en testnet como dominio propio, p.tinkazo.app",
+  "parents": 1,
+  "files": [
+   {
+    "f": "workers/patrocinio/README.md",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "workers/patrocinio/wrangler.toml",
+    "a": 8,
+    "d": 3
+   }
+  ]
+ },
+ "11a33c37a5d18bd413c0bcd1ef8668994073e0b5": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-06T10:52:07Z",
+  "message": "El reenvío del aviso de verificación ya no trae por defecto los datos del release v0.1.0",
+  "parents": 1,
+  "files": [
+   {
+    "f": ".github/workflows/reenviar-verificacion.yml",
+    "a": 11,
+    "d": 6
+   },
+   {
+    "f": "docs/deployments.md",
+    "a": 8,
+    "d": 1
+   }
+  ]
+ },
+ "f64d90b6e23bded0da7886a91c561e6db8e5eb2a": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-06T10:50:27Z",
+  "message": "Las entradas del sorteo se renuevan a 120 días en cualquier red, el valor de mainnet",
+  "parents": 1,
+  "files": [
+   {
+    "f": "contracts/raffle/src/lib.rs",
+    "a": 15,
+    "d": 12
+   },
+   {
+    "f": "contracts/raffle/src/test.rs",
+    "a": 57,
+    "d": 1
+   },
+   {
+    "f": "contracts/raffle/test_snapshots/test/draw_emits_drawn_event.1.json",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "contracts/raffle/test_snapshots/test/draw_needs_no_authorization.1.json",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "contracts/raffle/test_snapshots/test/draw_only_once_and_only_existing_raffles.1.json",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "contracts/raffle/test_snapshots/test/draw_rejects_a_valid_point_that_is_not_the_round_signature.1.json",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "contracts/raffle/test_snapshots/test/draw_rejects_before_the_round_exists.1.json",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "contracts/raffle/test_snapshots/test/draw_rejects_the_signature_of_another_round.1.json",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "contracts/raffle/test_snapshots/test/draw_verifies_the_real_quicknet_signature_and_records_the_result.1.json",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "contracts/raffle/test_snapshots/test/draw_with_cap_winners_of_a_long_list_has_no_repeats.1.json",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "contracts/raffle/test_snapshots/test/draw_with_cap_winners_of_cap_entries_is_a_full_permutation.1.json",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "contracts/raffle/test_snapshots/test/extend_works_for_existing_raffles_only.1.json",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "contracts/raffle/test_snapshots/test/las_entradas_del_sorteo_viven_120_dias_y_extend_las_renueva_bajo_los_30.1.json",
+    "a": 337,
+    "d": 0
+   },
+   {
+    "f": "contracts/raffle/test_snapshots/test/seal_accepts_the_cap_and_rejects_one_more.1.json",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "contracts/raffle/test_snapshots/test/seal_assigns_sequential_ids_and_stores_the_raffle.1.json",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "contracts/raffle/test_snapshots/test/seal_emits_sealed_event.1.json",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "contracts/raffle/test_snapshots/test/seal_enforces_round_window.1.json",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "contracts/raffle/test_snapshots/test/seal_rejects_invalid_inputs.1.json",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "docs/architecture.md",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "docs/deployments.md",
+    "a": 13,
+    "d": 5
+   }
+  ]
+ },
+ "656e8db14571485ef114a85bb78d90862dbe7af6": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-06T10:27:32Z",
+  "message": "El contrato pasa a la versión 0.2.0, porque el workflow de StellarExpert nombra el .wasm y el release con la versión del",
+  "parents": 1,
+  "files": [
+   {
+    "f": "Cargo.lock",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "contracts/raffle/Cargo.toml",
+    "a": 1,
+    "d": 1
+   }
+  ]
+ },
+ "8c61507a29b41de40f253bae4c6ed7862639cca3": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-06T11:07:21Z",
+  "message": "El contrato admite hasta 100 ganadores por sorteo",
+  "parents": 1,
+  "files": [
+   {
+    "f": "contracts/raffle/src/lib.rs",
+    "a": 12,
+    "d": 1
+   },
+   {
+    "f": "contracts/raffle/src/test.rs",
+    "a": 381,
+    "d": 1
+   },
+   {
+    "f": "contracts/raffle/test_snapshots/test/draw_with_cap_winners_of_a_long_list_has_no_repeats.1.json",
+    "a": 975,
+    "d": 0
+   },
+   {
+    "f": "contracts/raffle/test_snapshots/test/draw_with_cap_winners_of_cap_entries_is_a_full_permutation.1.json",
+    "a": 975,
+    "d": 0
+   },
+   {
+    "f": "contracts/raffle/test_snapshots/test/seal_accepts_the_cap_and_rejects_one_more.1.json",
+    "a": 410,
+    "d": 0
+   },
+   {
+    "f": "docs/deployments.md",
+    "a": 55,
+    "d": 0
+   },
+   {
+    "f": "docs/epics.md",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "docs/prd.md",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "docs/protocol.en.md",
+    "a": 3,
+    "d": 3
+   },
+   {
+    "f": "docs/protocolo.md",
+    "a": 3,
+    "d": 3
+   }
+  ]
+ },
+ "d70975acdd9362069f12730a3db17c45a77c9746": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-05T04:56:25Z",
+  "message": "Los números del contrato se calculan desde la cadena y cualquiera los recalcula",
+  "parents": 1,
+  "files": [
+   {
+    "f": ".github/workflows/metricas-cadena.yml",
+    "a": 83,
+    "d": 0
+   },
+   {
+    "f": "docs/cuentas-internas.json",
+    "a": 17,
+    "d": 0
+   },
+   {
+    "f": "docs/metricas/README.md",
+    "a": 77,
+    "d": 0
+   },
+   {
+    "f": "docs/metricas/totales-testnet.json",
+    "a": 2238,
+    "d": 0
+   },
+   {
+    "f": "package.json",
+    "a": 2,
+    "d": 1
+   },
+   {
+    "f": "scripts/lib/metricas-cadena.mjs",
+    "a": 610,
+    "d": 0
+   },
+   {
+    "f": "scripts/lib/metricas-cadena.test.mjs",
+    "a": 271,
+    "d": 0
+   },
+   {
+    "f": "scripts/metricas-cadena.mjs",
+    "a": 288,
+    "d": 0
+   }
+  ]
+ },
+ "cf53406cb175a7882de7decbdb33be89f78869d5": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-05T04:50:39Z",
+  "message": "El README y el sitio en inglés presentan la selección verificable de ganadores",
+  "parents": 1,
+  "files": [
+   {
+    "f": "README.es.md",
+    "a": 24,
+    "d": 30
+   },
+   {
+    "f": "README.md",
+    "a": 30,
+    "d": 36
+   },
+   {
+    "f": "como-funciona.html",
+    "a": 4,
+    "d": 2
+   },
+   {
+    "f": "docs/amenazas.md",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "docs/evento.md",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "historia.html",
+    "a": 4,
+    "d": 2
+   },
+   {
+    "f": "index.html",
+    "a": 4,
+    "d": 2
+   },
+   {
+    "f": "juegos.html",
+    "a": 4,
+    "d": 2
+   },
+   {
+    "f": "marca.html",
+    "a": 4,
+    "d": 2
+   },
+   {
+    "f": "precios.html",
+    "a": 4,
+    "d": 2
+   },
+   {
+    "f": "ruleta-de-nombres.html",
+    "a": 4,
+    "d": 2
+   },
+   {
+    "f": "seguridad.html",
+    "a": 4,
+    "d": 2
+   },
+   {
+    "f": "sorteo-en-clase.html",
+    "a": 4,
+    "d": 2
+   },
+   {
+    "f": "sorteo-para-eventos.html",
+    "a": 4,
+    "d": 2
+   },
+   {
+    "f": "sorteo-para-meetup.html",
+    "a": 4,
+    "d": 2
+   },
+   {
+    "f": "sorteo-verificable.html",
+    "a": 4,
+    "d": 2
+   },
+   {
+    "f": "src/i18n.ts",
+    "a": 9,
+    "d": 9
+   },
+   {
+    "f": "src/idioma.ts",
+    "a": 5,
+    "d": 10
+   },
+   {
+    "f": "src/seo.test.ts",
+    "a": 39,
+    "d": 14
+   },
+   {
+    "f": "terminos.html",
+    "a": 5,
+    "d": 3
+   }
+  ]
+ },
+ "f5d5be192b6c6f3f0e9fbaab97abd61207004a8e": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-05T07:28:57Z",
+  "message": "Pollar: arreglos al flujo de protección de la cuenta, a la co-firma y a los errores",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/architecture.md",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/i18n.ts",
+    "a": 8,
+    "d": 2
+   },
+   {
+    "f": "src/stellar/errores.test.ts",
+    "a": 20,
+    "d": 0
+   },
+   {
+    "f": "src/stellar/errores.ts",
+    "a": 19,
+    "d": 7
+   },
+   {
+    "f": "src/stellar/wallet-pollar.test.ts",
+    "a": 47,
+    "d": 1
+   },
+   {
+    "f": "src/stellar/wallet-pollar.ts",
+    "a": 15,
+    "d": 3
+   },
+   {
+    "f": "src/styles.css",
+    "a": 2,
+    "d": 0
+   },
+   {
+    "f": "src/ui/anchor.test.ts",
+    "a": 20,
+    "d": 0
+   },
+   {
+    "f": "src/ui/anchor.ts",
+    "a": 4,
+    "d": 2
+   },
+   {
+    "f": "src/ui/draw-propio.test.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/ui/draw-proteger.test.ts",
+    "a": 11,
+    "d": 2
+   },
+   {
+    "f": "src/ui/draw.ts",
+    "a": 3,
+    "d": 3
+   },
+   {
+    "f": "src/ui/envio-sdk.ts",
+    "a": 5,
+    "d": 3
+   },
+   {
+    "f": "src/ui/espera.ts",
+    "a": 2,
+    "d": 0
+   },
+   {
+    "f": "src/ui/freeze-proteger.test.ts",
+    "a": 10,
+    "d": 1
+   },
+   {
+    "f": "src/ui/freeze.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/ui/proteger-cuenta.test.ts",
+    "a": 310,
+    "d": 2
+   },
+   {
+    "f": "src/ui/proteger-cuenta.ts",
+    "a": 134,
+    "d": 21
+   },
+   {
+    "f": "src/ui/proteger-flujo.test.ts",
+    "a": 42,
+    "d": 0
+   },
+   {
+    "f": "src/ui/proteger-flujo.ts",
+    "a": 8,
+    "d": 3
+   },
+   {
+    "f": "src/ui/sorteo-seguro.test.ts",
+    "a": 30,
+    "d": 1
+   },
+   {
+    "f": "src/ui/sorteo-seguro.ts",
+    "a": 12,
+    "d": 0
+   },
+   {
+    "f": "workers/enlaces/src/conteo.ts",
+    "a": 2,
+    "d": 0
+   }
+  ]
+ },
+ "ee718e10c4c0d56b8359aeb44c2ca795794a0f27": {
+  "team": "TilcAI",
+  "repo": "TilcAI/tilcai-web",
+  "author": "JHAMILCALI",
+  "date": "2026-11-06T22:01:44Z",
+  "message": "feat(demo): agregar página de demostración con contenido y estilos",
+  "parents": 1,
+  "files": [
+   {
+    "f": "next.config.ts",
+    "a": 3,
+    "d": 0
+   },
+   {
+    "f": "src/app/[lang]/demo/demo.module.css",
+    "a": 62,
+    "d": 0
+   },
+   {
+    "f": "src/app/[lang]/demo/page.tsx",
+    "a": 38,
+    "d": 0
+   },
+   {
+    "f": "src/components/PageShell.tsx",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/components/SiteFooter.tsx",
+    "a": 3,
+    "d": 2
+   },
+   {
+    "f": "src/components/SiteHeader.tsx",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/components/SiteHeaderBar.tsx",
+    "a": 5,
+    "d": 4
+   },
+   {
+    "f": "src/lib/i18n/en.ts",
+    "a": 7,
+    "d": 0
+   },
+   {
+    "f": "src/lib/i18n/es.ts",
+    "a": 7,
+    "d": 0
+   },
+   {
+    "f": "src/lib/i18n/types.ts",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "src/lib/site.ts",
+    "a": 1,
+    "d": 0
+   }
+  ]
+ },
+ "bd8969d8e40a28820a6abb6eae53aa6198c678db": {
+  "team": "TilcAI",
+  "repo": "TilcAI/tilcai-web",
+  "author": "JHAMILCALI",
+  "date": "2026-11-06T21:37:41Z",
+  "message": "feat(seo): mejorar SEO técnico y metadatos, agregar sitemap y robots.txt",
+  "parents": 1,
+  "files": [
+   {
+    "f": "AGENT_HISTORY.md",
+    "a": 19,
+    "d": 1
+   },
+   {
+    "f": "README.md",
+    "a": 3,
+    "d": 1
+   },
+   {
+    "f": "next.config.ts",
+    "a": 5,
+    "d": 5
+   },
+   {
+    "f": "src/app/[lang]/docs/[slug]/page.tsx",
+    "a": 7,
+    "d": 5
+   },
+   {
+    "f": "src/app/[lang]/layout.tsx",
+    "a": 3,
+    "d": 0
+   },
+   {
+    "f": "src/app/[lang]/page.tsx",
+    "a": 30,
+    "d": 3
+   },
+   {
+    "f": "src/app/robots.ts",
+    "a": 17,
+    "d": 0
+   },
+   {
+    "f": "src/app/sitemap.ts",
+    "a": 21,
+    "d": 0
+   },
+   {
+    "f": "src/lib/i18n/en.ts",
+    "a": 4,
+    "d": 4
+   },
+   {
+    "f": "src/lib/i18n/es.ts",
+    "a": 4,
+    "d": 4
+   },
+   {
+    "f": "src/lib/metadata.ts",
+    "a": 30,
+    "d": 8
+   },
+   {
+    "f": "src/lib/site.ts",
+    "a": 2,
+    "d": 25
+   }
+  ]
  }
 }
