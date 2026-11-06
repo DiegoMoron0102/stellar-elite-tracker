@@ -153160,5 +153160,685 @@
     "d": 0
    }
   ]
+ },
+ "5553e603e11ed4669a29a2a6bf969c291315730c": {
+  "team": "TilcAI",
+  "repo": "TilcAI/tilcai-web",
+  "author": "JHAMILCALI",
+  "date": "2026-11-06T07:00:20Z",
+  "message": "feat(animation): agregar gestos animados al gato en secciones de solución y tecnología",
+  "parents": 1,
+  "files": [
+   {
+    "f": "AGENT_HISTORY.md",
+    "a": 14,
+    "d": 1
+   },
+   {
+    "f": "src/components/sections/CtaSection.module.css",
+    "a": 14,
+    "d": 13
+   },
+   {
+    "f": "src/components/sections/SolutionIntroSection.module.css",
+    "a": 19,
+    "d": 10
+   },
+   {
+    "f": "src/components/sections/SolutionIntroSection.tsx",
+    "a": 3,
+    "d": 1
+   },
+   {
+    "f": "src/components/sections/TechIntroSection.module.css",
+    "a": 25,
+    "d": 7
+   },
+   {
+    "f": "src/components/sections/TechIntroSection.tsx",
+    "a": 6,
+    "d": 2
+   }
+  ]
+ },
+ "62a705821ec225f7f22f8289e897f7f513fe974d": {
+  "team": "TilcAI",
+  "repo": "TilcAI/tilcai-web",
+  "author": "JHAMILCALI",
+  "date": "2026-11-06T06:37:25Z",
+  "message": "feat(animation): agregar animaciones y efectos de movimiento a secciones clave",
+  "parents": 1,
+  "files": [
+   {
+    "f": "AGENT_HISTORY.md",
+    "a": 14,
+    "d": 0
+   },
+   {
+    "f": "src/components/RevealObserver.tsx",
+    "a": 22,
+    "d": 1
+   },
+   {
+    "f": "src/components/sections/CtaSection.module.css",
+    "a": 9,
+    "d": 0
+   },
+   {
+    "f": "src/components/sections/ProblemSection.module.css",
+    "a": 11,
+    "d": 3
+   },
+   {
+    "f": "src/components/sections/SolutionIntroSection.module.css",
+    "a": 11,
+    "d": 3
+   },
+   {
+    "f": "src/components/sections/TechIntroSection.module.css",
+    "a": 26,
+    "d": 5
+   }
+  ]
+ },
+ "7819810350531b89406e9efdcb50d4e9ff102208": {
+  "team": "TilcAI",
+  "repo": "TilcAI/tilcai-web",
+  "author": "JHAMILCALI",
+  "date": "2026-11-06T06:07:58Z",
+  "message": "feat(nav): actualizar etiquetas de navegación y secciones en inglés y español",
+  "parents": 1,
+  "files": [
+   {
+    "f": "AGENT_HISTORY.md",
+    "a": 22,
+    "d": 0
+   },
+   {
+    "f": "src/components/SiteFooter.tsx",
+    "a": 4,
+    "d": 4
+   },
+   {
+    "f": "src/components/SiteHeader.module.css",
+    "a": 30,
+    "d": 16
+   },
+   {
+    "f": "src/components/SiteHeaderBar.tsx",
+    "a": 32,
+    "d": 11
+   },
+   {
+    "f": "src/lib/i18n/en.ts",
+    "a": 1,
+    "d": 2
+   },
+   {
+    "f": "src/lib/i18n/es.ts",
+    "a": 1,
+    "d": 2
+   },
+   {
+    "f": "src/lib/i18n/types.ts",
+    "a": 1,
+    "d": 3
+   }
+  ]
+ },
+ "332b5fde6cf2bca89fbeb94f7b655c3ae9348a4f": {
+  "team": "TilcAI",
+  "repo": "TilcAI/tilcai-web",
+  "author": "JHAMILCALI",
+  "date": "2026-11-06T06:04:28Z",
+  "message": "feat(footer): rediseñar el footer con nuevas secciones y estilos",
+  "parents": 1,
+  "files": [
+   {
+    "f": "AGENT_HISTORY.md",
+    "a": 14,
+    "d": 0
+   },
+   {
+    "f": "src/app/globals.css",
+    "a": 0,
+    "d": 21
+   },
+   {
+    "f": "src/app/mobile.css",
+    "a": 0,
+    "d": 6
+   },
+   {
+    "f": "src/components/SiteFooter.module.css",
+    "a": 89,
+    "d": 0
+   },
+   {
+    "f": "src/components/SiteFooter.tsx",
+    "a": 80,
+    "d": 46
+   },
+   {
+    "f": "src/lib/i18n/en.ts",
+    "a": 7,
+    "d": 0
+   },
+   {
+    "f": "src/lib/i18n/es.ts",
+    "a": 7,
+    "d": 0
+   },
+   {
+    "f": "src/lib/i18n/types.ts",
+    "a": 6,
+    "d": 1
+   }
+  ]
+ },
+ "c409c2e0c1e4c932e9f8226f7f8765ceece9b710": {
+  "team": "TilcAI",
+  "repo": "TilcAI/tilcai-web",
+  "author": "JHAMILCALI",
+  "date": "2026-11-06T06:00:47Z",
+  "message": "feat(home): eliminar secciones obsoletas y mejorar el cierre de la portada",
+  "parents": 1,
+  "files": [
+   {
+    "f": "AGENT_HISTORY.md",
+    "a": 43,
+    "d": 0
+   },
+   {
+    "f": "src/components/HomePage.tsx",
+    "a": 0,
+    "d": 4
+   },
+   {
+    "f": "src/components/sections/CtaSection.module.css",
+    "a": 104,
+    "d": 0
+   },
+   {
+    "f": "src/components/sections/CtaSection.tsx",
+    "a": 78,
+    "d": 12
+   },
+   {
+    "f": "src/components/sections/Narrative.module.css",
+    "a": 0,
+    "d": 8
+   },
+   {
+    "f": "src/lib/i18n/narrative.ts",
+    "a": 22,
+    "d": 3
+   }
+  ]
+ },
+ "118f725d0b1831adf35d749c1cb9a75d41fd334e": {
+  "team": "TilcAI",
+  "repo": "TilcAI/tilcai-web",
+  "author": "JHAMILCALI",
+  "date": "2026-11-06T05:46:55Z",
+  "message": "feat(TechIntroSection): agregar sección de tecnología con animaciones y estilos",
+  "parents": 1,
+  "files": [
+   {
+    "f": "AGENT_HISTORY.md",
+    "a": 14,
+    "d": 0
+   },
+   {
+    "f": "src/components/HomePage.tsx",
+    "a": 2,
+    "d": 0
+   },
+   {
+    "f": "src/components/Icon.tsx",
+    "a": 9,
+    "d": 0
+   },
+   {
+    "f": "src/components/sections/TechIntroSection.module.css",
+    "a": 146,
+    "d": 0
+   },
+   {
+    "f": "src/components/sections/TechIntroSection.tsx",
+    "a": 94,
+    "d": 0
+   },
+   {
+    "f": "src/lib/i18n/en.ts",
+    "a": 17,
+    "d": 0
+   },
+   {
+    "f": "src/lib/i18n/es.ts",
+    "a": 17,
+    "d": 0
+   },
+   {
+    "f": "src/lib/i18n/types.ts",
+    "a": 2,
+    "d": 0
+   }
+  ]
+ },
+ "1bb8596f8ae2a03ea9f1799ad08afaf803280f2a": {
+  "team": "TilcAI",
+  "repo": "TilcAI/tilcai-web",
+  "author": "JHAMILCALI",
+  "date": "2026-11-06T05:34:33Z",
+  "message": "refactor(home): reducir la portada a hero, problema, solución, stack, FAQ y CTA",
+  "parents": 1,
+  "files": [
+   {
+    "f": "AGENT_HISTORY.md",
+    "a": 138,
+    "d": 0
+   },
+   {
+    "f": "src/components/HomePage.tsx",
+    "a": 3,
+    "d": 24
+   }
+  ]
+ },
+ "f0d72b18d62ca1387e9290b00b506e0e7825ce51": {
+  "team": "TilcAI",
+  "repo": "TilcAI/tilcai-web",
+  "author": "JHAMILCALI",
+  "date": "2026-11-06T05:34:31Z",
+  "message": "feat(solution): añadir la sección 3 «La solución»",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/components/Icon.tsx",
+    "a": 26,
+    "d": 0
+   },
+   {
+    "f": "src/components/sections/SolutionIntroSection.module.css",
+    "a": 127,
+    "d": 0
+   },
+   {
+    "f": "src/components/sections/SolutionIntroSection.tsx",
+    "a": 96,
+    "d": 0
+   },
+   {
+    "f": "src/lib/i18n/en.ts",
+    "a": 14,
+    "d": 0
+   },
+   {
+    "f": "src/lib/i18n/es.ts",
+    "a": 14,
+    "d": 0
+   },
+   {
+    "f": "src/lib/i18n/types.ts",
+    "a": 2,
+    "d": 0
+   }
+  ]
+ },
+ "37c0148d4454a14848e4801171d87001a0c4b855": {
+  "team": "TilcAI",
+  "repo": "TilcAI/tilcai-web",
+  "author": "JHAMILCALI",
+  "date": "2026-11-06T05:34:30Z",
+  "message": "perf(problem): suavizar la llegada a «El problema»",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/components/sections/ProblemSection.module.css",
+    "a": 23,
+    "d": 8
+   },
+   {
+    "f": "src/components/sections/ProblemSection.tsx",
+    "a": 45,
+    "d": 33
+   },
+   {
+    "f": "src/components/sections/RevealText.module.css",
+    "a": 25,
+    "d": 0
+   },
+   {
+    "f": "src/components/sections/RevealText.tsx",
+    "a": 49,
+    "d": 0
+   },
+   {
+    "f": "src/components/sections/sectionFont.ts",
+    "a": 13,
+    "d": 0
+   }
+  ]
+ },
+ "7927a25157456302912d8da5791fee4276693040": {
+  "team": "TilcAI",
+  "repo": "TilcAI/tilcai-web",
+  "author": "JHAMILCALI",
+  "date": "2026-11-06T05:34:29Z",
+  "message": "fix(reveal): activar las entradas antes de hidratar sin error de hidratación",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/app/[lang]/layout.tsx",
+    "a": 23,
+    "d": 0
+   },
+   {
+    "f": "src/components/AgentCatalog.tsx",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/components/BusinessGrid.tsx",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/components/CodeTabs.tsx",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/components/FaqSection.tsx",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "src/components/RevealObserver.tsx",
+    "a": 3,
+    "d": 3
+   },
+   {
+    "f": "src/components/sections/CapabilitiesSection.tsx",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "src/components/sections/CompareSection.tsx",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "src/components/sections/DemoSection.tsx",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/components/sections/InterfaceSection.tsx",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/components/sections/ProductOverview.tsx",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "src/components/sections/RoadmapSection.tsx",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "src/components/sections/SolutionsSection.tsx",
+    "a": 4,
+    "d": 4
+   },
+   {
+    "f": "src/components/sections/StackSection.tsx",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/components/sections/shared.tsx",
+    "a": 1,
+    "d": 1
+   }
+  ]
+ },
+ "6fcafcbd2d57ea21aa2255cd3e8c691bb92baeb1": {
+  "team": "TilcAI",
+  "repo": "TilcAI/tilcai-web",
+  "author": "JHAMILCALI",
+  "date": "2026-11-06T01:57:43Z",
+  "message": "feat(ProblemSection): agregar animación de giro a la cabeza del gato y ajustar estilos",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/components/sections/ProblemSection.module.css",
+    "a": 8,
+    "d": 0
+   },
+   {
+    "f": "src/components/sections/ProblemSection.tsx",
+    "a": 1,
+    "d": 1
+   }
+  ]
+ },
+ "69d6a761314b59ba7263ea96055a9ab079efcbac": {
+  "team": "TilcAI",
+  "repo": "TilcAI/tilcai-web",
+  "author": "JHAMILCALI",
+  "date": "2026-11-06T01:54:50Z",
+  "message": "feat(ProblemSection): agregar componente ThoughtCloud con animaciones de trazo y relleno",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/components/sections/ProblemSection.module.css",
+    "a": 8,
+    "d": 0
+   },
+   {
+    "f": "src/components/sections/ProblemSection.tsx",
+    "a": 20,
+    "d": 1
+   }
+  ]
+ },
+ "c990dc0911eea97551a58dd0eb98fab67ac7c7a3": {
+  "team": "TilcAI",
+  "repo": "TilcAI/tilcai-web",
+  "author": "JHAMILCALI",
+  "date": "2026-11-06T01:42:20Z",
+  "message": "Refactor code structure for improved readability and maintainability",
+  "parents": 1,
+  "files": [
+   {
+    "f": "AGENT_HISTORY.md",
+    "a": 57,
+    "d": 1
+   },
+   {
+    "f": "public/assets/img/section_problema/cabeza gato.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/assets/img/section_problema/nube.svg",
+    "a": 37,
+    "d": 0
+   },
+   {
+    "f": "public/assets/img/section_problema/patitas.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "src/components/sections/ProblemSection.module.css",
+    "a": 52,
+    "d": 41
+   },
+   {
+    "f": "src/components/sections/ProblemSection.tsx",
+    "a": 8,
+    "d": 15
+   }
+  ]
+ },
+ "7119fb0d3916a310b8d0930a99c67f8e759c964a": {
+  "team": "TilcAI",
+  "repo": "TilcAI/tilcai-web",
+  "author": "JHAMILCALI",
+  "date": "2026-11-06T00:02:06Z",
+  "message": "feat(hero): eliminar enlace \"Descubre el problema\" y ajustar estilos relacionados",
+  "parents": 1,
+  "files": [
+   {
+    "f": "AGENT_HISTORY.md",
+    "a": 14,
+    "d": 1
+   },
+   {
+    "f": "src/app/hero.css",
+    "a": 0,
+    "d": 5
+   },
+   {
+    "f": "src/app/mobile.css",
+    "a": 0,
+    "d": 1
+   },
+   {
+    "f": "src/components/sections/HeroExperience.tsx",
+    "a": 0,
+    "d": 3
+   },
+   {
+    "f": "src/lib/i18n/en.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/lib/i18n/es.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/lib/i18n/types.ts",
+    "a": 1,
+    "d": 1
+   }
+  ]
+ },
+ "43b9bdf37e1b2c8363ec3e30b716f1a4233bcf59": {
+  "team": "TilcAI",
+  "repo": "TilcAI/tilcai-web",
+  "author": "JHAMILCALI",
+  "date": "2026-11-05T23:37:07Z",
+  "message": "feat(hero): mejorar animaciones de entrada para el texto del hero",
+  "parents": 1,
+  "files": [
+   {
+    "f": "AGENT_HISTORY.md",
+    "a": 134,
+    "d": 0
+   },
+   {
+    "f": "src/app/hero.css",
+    "a": 31,
+    "d": 2
+   },
+   {
+    "f": "src/components/sections/HeroExperience.tsx",
+    "a": 14,
+    "d": 8
+   },
+   {
+    "f": "src/components/sections/useHeroAnimation.ts",
+    "a": 1,
+    "d": 10
+   }
+  ]
+ },
+ "14a0ff1b113d385d0761e3a12ff1ce0375a7af9c": {
+  "team": "TilcAI",
+  "repo": "TilcAI/tilcai-web",
+  "author": "JHAMILCALI",
+  "date": "2026-11-05T22:41:19Z",
+  "message": "feat: add problem section to homepage and update messaging",
+  "parents": 1,
+  "files": [
+   {
+    "f": "AGENT_HISTORY.md",
+    "a": 112,
+    "d": 0
+   },
+   {
+    "f": "docs/messaging-map.md",
+    "a": 3,
+    "d": 2
+   },
+   {
+    "f": "src/app/hero.css",
+    "a": 0,
+    "d": 2
+   },
+   {
+    "f": "src/components/HomePage.tsx",
+    "a": 2,
+    "d": 0
+   },
+   {
+    "f": "src/components/office/OfficeHero.tsx",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/components/sections/HeroExperience.tsx",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/components/sections/HeroSection.tsx",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/components/sections/ProblemSection.module.css",
+    "a": 87,
+    "d": 0
+   },
+   {
+    "f": "src/components/sections/ProblemSection.tsx",
+    "a": 79,
+    "d": 0
+   },
+   {
+    "f": "src/components/sections/ProductOverview.tsx",
+    "a": 3,
+    "d": 3
+   },
+   {
+    "f": "src/components/sections/useHeroAnimation.ts",
+    "a": 7,
+    "d": 7
+   },
+   {
+    "f": "src/lib/i18n/en.ts",
+    "a": 14,
+    "d": 2
+   },
+   {
+    "f": "src/lib/i18n/es.ts",
+    "a": 14,
+    "d": 2
+   },
+   {
+    "f": "src/lib/i18n/types.ts",
+    "a": 1,
+    "d": 0
+   }
+  ]
  }
 }
