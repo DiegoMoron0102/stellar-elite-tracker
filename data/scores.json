@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-07T12:07:12+00:00",
+ "generado": "2026-11-07T21:14:07+00:00",
  "programa": "Stellar Elite",
  "start_date": "2026-09-02T00:00:00Z",
  "teams": [
@@ -62,11 +62,11 @@
   },
   {
    "name": "Puls3",
-   "total": 1073.29,
-   "per_capita": 1073.29,
-   "commits": 146,
-   "pts_commits": 925.29,
-   "dias_activos": 26,
+   "total": 1115.22,
+   "per_capita": 1115.22,
+   "commits": 150,
+   "pts_commits": 962.22,
+   "dias_activos": 27,
    "contribuidores": [
     "Pericena",
     "TOMOKI977",
@@ -323,7 +323,8 @@
    "2026-10-25": 12.48,
    "2026-10-26": 18.89,
    "2026-10-27": 20.0,
-   "2026-11-06": 20.0
+   "2026-11-06": 20.0,
+   "2026-11-07": 36.93
   },
   "Tinkazo": {
    "2026-09-16": 66.21000000000001,
@@ -496,7 +497,8 @@
    "2026-10-25": 3,
    "2026-10-26": 2,
    "2026-10-27": 2,
-   "2026-11-06": 2
+   "2026-11-06": 2,
+   "2026-11-07": 4
   },
   "Tinkazo": {
    "2026-09-16": 8,
@@ -635,6 +637,46 @@
   }
  },
  "commits": [
+  {
+   "sha": "2fb64b9",
+   "team": "Puls3",
+   "repo": "Zer0-Knowledge-Hack/puls3",
+   "author": "XxHugheadxX",
+   "date": "2026-11-07T19:38:53Z",
+   "msg": "spike: pay TIA's testnet x402 API from Dart (#164) (#218)",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "b4a34e8",
+   "team": "Puls3",
+   "repo": "Zer0-Knowledge-Hack/puls3",
+   "author": "XxHugheadxX",
+   "date": "2026-11-07T14:39:01Z",
+   "msg": "fix(server): return a hire's result only once the agent submitted it (#204) (#240)",
+   "pts": 6.93,
+   "nota": ""
+  },
+  {
+   "sha": "7e0e606",
+   "team": "Puls3",
+   "repo": "Zer0-Knowledge-Hack/puls3",
+   "author": "XxHugheadxX",
+   "date": "2026-11-07T14:00:11Z",
+   "msg": "fix(contracts): reject feedback from the agent's payment wallet (#200) (#237)",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "5c4ed3a",
+   "team": "Puls3",
+   "repo": "Zer0-Knowledge-Hack/puls3",
+   "author": "XxHugheadxX",
+   "date": "2026-11-07T13:04:16Z",
+   "msg": "fix(contracts): audit hardening R-4, R-5, R-6 and E-3 (#205) (#241)",
+   "pts": 10,
+   "nota": ""
+  },
   {
    "sha": "f57b75e",
    "team": "TilcAI",

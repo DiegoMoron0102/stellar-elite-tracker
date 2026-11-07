@@ -155440,5 +155440,295 @@
     "d": 0
    }
   ]
+ },
+ "2fb64b9cf35026f1a242c9363baf6f4e91514fad": {
+  "team": "Puls3",
+  "repo": "Zer0-Knowledge-Hack/puls3",
+  "author": "XxHugheadxX",
+  "date": "2026-11-07T19:38:53Z",
+  "message": "spike: pay TIA's testnet x402 API from Dart (#164) (#218)",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/adr/0006-integrations-and-agent-tools.md",
+    "a": 2,
+    "d": 1
+   },
+   {
+    "f": "docs/spikes/x402-dart.md",
+    "a": 151,
+    "d": 0
+   },
+   {
+    "f": "spikes/x402-dart/.gitignore",
+    "a": 3,
+    "d": 0
+   },
+   {
+    "f": "spikes/x402-dart/README.md",
+    "a": 34,
+    "d": 0
+   },
+   {
+    "f": "spikes/x402-dart/analysis_options.yaml",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "spikes/x402-dart/bin/pay.dart",
+    "a": 120,
+    "d": 0
+   },
+   {
+    "f": "spikes/x402-dart/lib/src/client.dart",
+    "a": 187,
+    "d": 0
+   },
+   {
+    "f": "spikes/x402-dart/lib/src/rpc.dart",
+    "a": 126,
+    "d": 0
+   },
+   {
+    "f": "spikes/x402-dart/lib/src/signer.dart",
+    "a": 56,
+    "d": 0
+   },
+   {
+    "f": "spikes/x402-dart/lib/src/soroban.dart",
+    "a": 284,
+    "d": 0
+   },
+   {
+    "f": "spikes/x402-dart/lib/src/terms.dart",
+    "a": 162,
+    "d": 0
+   },
+   {
+    "f": "spikes/x402-dart/lib/src/xdr.dart",
+    "a": 99,
+    "d": 0
+   },
+   {
+    "f": "spikes/x402-dart/lib/x402_dart.dart",
+    "a": 9,
+    "d": 0
+   },
+   {
+    "f": "spikes/x402-dart/pubspec.lock",
+    "a": 429,
+    "d": 0
+   },
+   {
+    "f": "spikes/x402-dart/pubspec.yaml",
+    "a": 16,
+    "d": 0
+   },
+   {
+    "f": "spikes/x402-dart/reference/package-lock.json",
+    "a": 597,
+    "d": 0
+   },
+   {
+    "f": "spikes/x402-dart/reference/package.json",
+    "a": 14,
+    "d": 0
+   },
+   {
+    "f": "spikes/x402-dart/reference/pay.mjs",
+    "a": 32,
+    "d": 0
+   },
+   {
+    "f": "spikes/x402-dart/test/cli_test.dart",
+    "a": 73,
+    "d": 0
+   },
+   {
+    "f": "spikes/x402-dart/test/client_test.dart",
+    "a": 168,
+    "d": 0
+   },
+   {
+    "f": "spikes/x402-dart/test/soroban_test.dart",
+    "a": 83,
+    "d": 0
+   },
+   {
+    "f": "spikes/x402-dart/test/support.dart",
+    "a": 171,
+    "d": 0
+   }
+  ]
+ },
+ "b4a34e82229923e9ad84c0c27b0a24bef0d94c01": {
+  "team": "Puls3",
+  "repo": "Zer0-Knowledge-Hack/puls3",
+  "author": "XxHugheadxX",
+  "date": "2026-11-07T14:39:01Z",
+  "message": "fix(server): return a hire's result only once the agent submitted it (#204) (#240)",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/architecture/api.md",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "puls3_server/lib/src/hire/hire_query_service.dart",
+    "a": 12,
+    "d": 1
+   },
+   {
+    "f": "puls3_server/test/hire/hire_query_service_test.dart",
+    "a": 31,
+    "d": 12
+   }
+  ]
+ },
+ "7e0e6065c55d53c6a1c2bb8f502ea32ecb23446f": {
+  "team": "Puls3",
+  "repo": "Zer0-Knowledge-Hack/puls3",
+  "author": "XxHugheadxX",
+  "date": "2026-11-07T14:00:11Z",
+  "message": "fix(contracts): reject feedback from the agent's payment wallet (#200) (#237)",
+  "parents": 1,
+  "files": [
+   {
+    "f": "contracts/contracts/reputation-registry/src/lib.rs",
+    "a": 6,
+    "d": 1
+   },
+   {
+    "f": "contracts/contracts/reputation-registry/src/test.rs",
+    "a": 84,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/reputation-registry/test_snapshots/test/agent_wallet_cannot_rate_own_agent.1.json",
+    "a": 700,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/reputation-registry/test_snapshots/test/agent_without_wallet_accepts_client_feedback.1.json",
+    "a": 624,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/reputation-registry/test_snapshots/test/former_agent_wallet_can_rate_after_it_is_replaced.1.json",
+    "a": 785,
+    "d": 0
+   },
+   {
+    "f": "docs/adr/0002-agent-registry-on-soroban.md",
+    "a": 3,
+    "d": 2
+   }
+  ]
+ },
+ "5c4ed3ab468d9a576ad5180d18c5e9d0a4663006": {
+  "team": "Puls3",
+  "repo": "Zer0-Knowledge-Hack/puls3",
+  "author": "XxHugheadxX",
+  "date": "2026-11-07T13:04:16Z",
+  "message": "fix(contracts): audit hardening R-4, R-5, R-6 and E-3 (#205) (#241)",
+  "parents": 1,
+  "files": [
+   {
+    "f": "contracts/contracts/escrow/src/lib.rs",
+    "a": 88,
+    "d": 5
+   },
+   {
+    "f": "contracts/contracts/escrow/src/test.rs",
+    "a": 102,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/admin_handover_moves_authority.1.json",
+    "a": 41,
+    "d": 1
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/fund_accepts_a_fee_at_or_below_the_clients_maximum.1.json",
+    "a": 81,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/fund_snapshots_the_fee_in_force_at_fund_time.1.json",
+    "a": 27,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/proposing_the_current_admin_cancels_the_transfer.1.json",
+    "a": 818,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/set_admin_is_two_step_and_a_typo_loses_nothing.1.json",
+    "a": 901,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/set_treasury_does_not_redirect_a_funded_job.1.json",
+    "a": 1885,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/the_treasury_snapshot_is_removed_when_the_job_ends.1.json",
+    "a": 1743,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/reputation-registry/src/lib.rs",
+    "a": 134,
+    "d": 13
+   },
+   {
+    "f": "contracts/contracts/reputation-registry/src/test.rs",
+    "a": 177,
+    "d": 2
+   },
+   {
+    "f": "contracts/contracts/reputation-registry/test_snapshots/test/summary_does_not_extend_ttl.1.json",
+    "a": 612,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/reputation-registry/test_snapshots/test/summary_reads_at_most_max_summary_records.1.json",
+    "a": 8235,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/reputation-registry/test_snapshots/test/third_party_responses_are_capped_but_the_agent_can_always_answer.1.json",
+    "a": 1919,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/reputation-registry/test_snapshots/test/upgrade_proposal_and_cancel_emit_events.1.json",
+    "a": 428,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/reputation-registry/test_snapshots/test/upgrade_proposal_expires_after_its_window.1.json",
+    "a": 464,
+    "d": 0
+   },
+   {
+    "f": "docs/adr/0002-agent-registry-on-soroban.md",
+    "a": 11,
+    "d": 3
+   },
+   {
+    "f": "docs/infra/secrets.md",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "openspec/specs/agent-escrow-administration/spec.md",
+    "a": 8,
+    "d": 4
+   }
+  ]
  }
 }
