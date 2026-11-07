@@ -155340,5 +155340,105 @@
     "d": 25
    }
   ]
+ },
+ "f57b75e7bc3b5f44c6e9553bebbb26ce52b8393e": {
+  "team": "TilcAI",
+  "repo": "TilcAI/tilcai-web",
+  "author": "JHAMILCALI",
+  "date": "2026-11-07T05:18:30Z",
+  "message": "feat(demo): agregar video de YouTube en la página de demostración y ajustar estilos",
+  "parents": 1,
+  "files": [
+   {
+    "f": "AGENT_HISTORY.md",
+    "a": 28,
+    "d": 0
+   },
+   {
+    "f": "src/app/[lang]/demo/demo.module.css",
+    "a": 29,
+    "d": 21
+   },
+   {
+    "f": "src/app/[lang]/demo/page.tsx",
+    "a": 14,
+    "d": 2
+   },
+   {
+    "f": "src/lib/i18n/en.ts",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "src/lib/i18n/es.ts",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "src/lib/i18n/types.ts",
+    "a": 2,
+    "d": 1
+   }
+  ]
+ },
+ "eb76901cc730c1ba1bf1df46c48042460b8b21d2": {
+  "team": "TilcAI",
+  "repo": "TilcAI/tilcai-web",
+  "author": "JHAMILCALI",
+  "date": "2026-11-07T05:05:04Z",
+  "message": "feat(allies): agregar página de aliados con contenido, estilos y rutas localizadas",
+  "parents": 1,
+  "files": [
+   {
+    "f": "AGENT_HISTORY.md",
+    "a": 70,
+    "d": 0
+   },
+   {
+    "f": "next.config.ts",
+    "a": 4,
+    "d": 1
+   },
+   {
+    "f": "src/app/[lang]/aliados/aliados.module.css",
+    "a": 86,
+    "d": 0
+   },
+   {
+    "f": "src/app/[lang]/aliados/page.tsx",
+    "a": 103,
+    "d": 0
+   },
+   {
+    "f": "src/app/sitemap.ts",
+    "a": 11,
+    "d": 2
+   },
+   {
+    "f": "src/components/PageShell.tsx",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/components/SiteFooter.tsx",
+    "a": 3,
+    "d": 2
+   },
+   {
+    "f": "src/components/SiteHeader.module.css",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/components/SiteHeaderBar.tsx",
+    "a": 5,
+    "d": 4
+   },
+   {
+    "f": "src/lib/site.ts",
+    "a": 1,
+    "d": 0
+   }
+  ]
  }
 }
