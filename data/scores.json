@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-08T12:28:05+00:00",
+ "generado": "2026-11-08T21:29:08+00:00",
  "programa": "Stellar Elite",
  "start_date": "2026-09-02T00:00:00Z",
  "teams": [
@@ -62,10 +62,10 @@
   },
   {
    "name": "Puls3",
-   "total": 1135.82,
-   "per_capita": 1135.82,
-   "commits": 152,
-   "pts_commits": 977.82,
+   "total": 1165.82,
+   "per_capita": 1165.82,
+   "commits": 155,
+   "pts_commits": 1007.82,
    "dias_activos": 28,
    "contribuidores": [
     "Pericena",
@@ -325,7 +325,7 @@
    "2026-10-27": 20.0,
    "2026-11-06": 20.0,
    "2026-11-07": 36.93,
-   "2026-11-08": 15.600000000000001
+   "2026-11-08": 45.6
   },
   "Tinkazo": {
    "2026-09-16": 66.21000000000001,
@@ -501,7 +501,7 @@
    "2026-10-27": 2,
    "2026-11-06": 2,
    "2026-11-07": 4,
-   "2026-11-08": 2
+   "2026-11-08": 5
   },
   "Tinkazo": {
    "2026-09-16": 8,
@@ -641,6 +641,36 @@
   }
  },
  "commits": [
+  {
+   "sha": "2e648f5",
+   "team": "Puls3",
+   "repo": "Zer0-Knowledge-Hack/puls3",
+   "author": "XxHugheadxX",
+   "date": "2026-11-08T17:01:05Z",
+   "msg": "spike: anchor and verify a Nirium receipt for a settled escrow job (#246) (#248)",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "d067e33",
+   "team": "Puls3",
+   "repo": "Zer0-Knowledge-Hack/puls3",
+   "author": "Pericena",
+   "date": "2026-11-08T16:53:46Z",
+   "msg": "fix(reputation): prevent poisoned feedback summary overflow (#238)",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "0a158ed",
+   "team": "Puls3",
+   "repo": "Zer0-Knowledge-Hack/puls3",
+   "author": "XxHugheadxX",
+   "date": "2026-11-08T16:39:11Z",
+   "msg": "feat(app): rate a completed hire (F7) (#211) (#217)",
+   "pts": 10,
+   "nota": ""
+  },
   {
    "sha": "0194e77",
    "team": "TilcAI",

@@ -155970,5 +155970,425 @@
     "d": 0
    }
   ]
+ },
+ "2e648f5f47696be887ea58bf70313dd6d1ac213a": {
+  "team": "Puls3",
+  "repo": "Zer0-Knowledge-Hack/puls3",
+  "author": "XxHugheadxX",
+  "date": "2026-11-08T17:01:05Z",
+  "message": "spike: anchor and verify a Nirium receipt for a settled escrow job (#246) (#248)",
+  "parents": 1,
+  "files": [
+   {
+    "f": ".gitleaks.toml",
+    "a": 14,
+    "d": 0
+   },
+   {
+    "f": "docs/spikes/nirium-audit.md",
+    "a": 174,
+    "d": 0
+   },
+   {
+    "f": "spikes/nirium-audit-dart/.gitattributes",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "spikes/nirium-audit-dart/.gitignore",
+    "a": 4,
+    "d": 0
+   },
+   {
+    "f": "spikes/nirium-audit-dart/README.md",
+    "a": 53,
+    "d": 0
+   },
+   {
+    "f": "spikes/nirium-audit-dart/analysis_options.yaml",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "spikes/nirium-audit-dart/bin/receipt.dart",
+    "a": 334,
+    "d": 0
+   },
+   {
+    "f": "spikes/nirium-audit-dart/evidence/job3-hash-anchor.json",
+    "a": 26,
+    "d": 0
+   },
+   {
+    "f": "spikes/nirium-audit-dart/evidence/measure-hash-20.json",
+    "a": 173,
+    "d": 0
+   },
+   {
+    "f": "spikes/nirium-audit-dart/lib/nirium_audit.dart",
+    "a": 11,
+    "d": 0
+   },
+   {
+    "f": "spikes/nirium-audit-dart/lib/src/cid.dart",
+    "a": 75,
+    "d": 0
+   },
+   {
+    "f": "spikes/nirium-audit-dart/lib/src/clients.dart",
+    "a": 165,
+    "d": 0
+   },
+   {
+    "f": "spikes/nirium-audit-dart/lib/src/escrow_job.dart",
+    "a": 102,
+    "d": 0
+   },
+   {
+    "f": "spikes/nirium-audit-dart/lib/src/receipt.dart",
+    "a": 198,
+    "d": 0
+   },
+   {
+    "f": "spikes/nirium-audit-dart/lib/src/settlement.dart",
+    "a": 143,
+    "d": 0
+   },
+   {
+    "f": "spikes/nirium-audit-dart/lib/src/strkey.dart",
+    "a": 90,
+    "d": 0
+   },
+   {
+    "f": "spikes/nirium-audit-dart/lib/src/verify.dart",
+    "a": 173,
+    "d": 0
+   },
+   {
+    "f": "spikes/nirium-audit-dart/pubspec.lock",
+    "a": 429,
+    "d": 0
+   },
+   {
+    "f": "spikes/nirium-audit-dart/pubspec.yaml",
+    "a": 17,
+    "d": 0
+   },
+   {
+    "f": "spikes/nirium-audit-dart/test/cid_job_test.dart",
+    "a": 57,
+    "d": 0
+   },
+   {
+    "f": "spikes/nirium-audit-dart/test/fixtures/QmSSRjPwEzpmr9xbEhgAc6xR1Y4rtjJyjckTELR1ra8TuB.ipfs",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "spikes/nirium-audit-dart/test/fixtures/QmUrMP68deCRbwyt4EVgkjL2ENWMSgvRQzVFkjSTJGkNWf.ipfs",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "spikes/nirium-audit-dart/test/fixtures/complete-job3-ops.json",
+    "a": 80,
+    "d": 0
+   },
+   {
+    "f": "spikes/nirium-audit-dart/test/fixtures/complete-job3-tx.json",
+    "a": 49,
+    "d": 0
+   },
+   {
+    "f": "spikes/nirium-audit-dart/test/fixtures/escrow-job3-entry.json",
+    "a": 7,
+    "d": 0
+   },
+   {
+    "f": "spikes/nirium-audit-dart/test/fixtures/hash-only-audit.json",
+    "a": 15,
+    "d": 0
+   },
+   {
+    "f": "spikes/nirium-audit-dart/test/fixtures/valid-audit.json",
+    "a": 22,
+    "d": 0
+   },
+   {
+    "f": "spikes/nirium-audit-dart/test/receipt_test.dart",
+    "a": 271,
+    "d": 0
+   },
+   {
+    "f": "spikes/nirium-audit-dart/test/support.dart",
+    "a": 80,
+    "d": 0
+   },
+   {
+    "f": "spikes/nirium-audit-dart/test/verify_test.dart",
+    "a": 386,
+    "d": 0
+   }
+  ]
+ },
+ "d067e332ff9ea05805c98638378cb4842984becd": {
+  "team": "Puls3",
+  "repo": "Zer0-Knowledge-Hack/puls3",
+  "author": "Pericena",
+  "date": "2026-11-08T16:53:46Z",
+  "message": "fix(reputation): prevent poisoned feedback summary overflow (#238)",
+  "parents": 1,
+  "files": [
+   {
+    "f": "contracts/contracts/reputation-registry/src/lib.rs",
+    "a": 32,
+    "d": 7
+   },
+   {
+    "f": "contracts/contracts/reputation-registry/src/test.rs",
+    "a": 291,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/reputation-registry/test_snapshots/test/a_poisoned_stored_record_is_skipped_and_the_summary_still_returns.1.json",
+    "a": 1000,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/reputation-registry/test_snapshots/test/a_summary_of_only_poisoned_records_is_empty_not_an_error.1.json",
+    "a": 546,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/reputation-registry/test_snapshots/test/an_empty_client_list_is_still_an_error.1.json",
+    "a": 354,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/reputation-registry/test_snapshots/test/audit_poc_value_1e30_is_rejected_at_give_feedback.1.json",
+    "a": 356,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/reputation-registry/test_snapshots/test/many_records_at_the_bound_still_sum_without_overflow.1.json",
+    "a": 4256,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/reputation-registry/test_snapshots/test/normal_values_with_mixed_decimals_still_average_correctly.1.json",
+    "a": 1062,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/reputation-registry/test_snapshots/test/revoked_records_are_skipped_before_normalization.1.json",
+    "a": 955,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/reputation-registry/test_snapshots/test/skipped_records_still_use_up_the_summary_read_cap.1.json",
+    "a": 4449,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/reputation-registry/test_snapshots/test/stored_records_whose_negative_sum_overflows_are_skipped_not_fatal.1.json",
+    "a": 938,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/reputation-registry/test_snapshots/test/stored_records_whose_sum_overflows_are_skipped_not_fatal.1.json",
+    "a": 938,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/reputation-registry/test_snapshots/test/the_audit_cumulative_case_is_rejected_at_write_time.1.json",
+    "a": 354,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/reputation-registry/test_snapshots/test/wad_bound_accepts_the_limit_and_rejects_one_more_for_every_decimals.1.json",
+    "a": 1576,
+    "d": 0
+   },
+   {
+    "f": "docs/adr/0002-agent-registry-on-soroban.md",
+    "a": 8,
+    "d": 2
+   },
+   {
+    "f": "docs/security/issue-199/01-current-implementation.md",
+    "a": 79,
+    "d": 0
+   },
+   {
+    "f": "docs/security/issue-199/02-requirements-analysis.md",
+    "a": 37,
+    "d": 0
+   },
+   {
+    "f": "docs/security/issue-199/03-vulnerability-reproduction.md",
+    "a": 53,
+    "d": 0
+   },
+   {
+    "f": "docs/security/issue-199/04-technical-design.md",
+    "a": 91,
+    "d": 0
+   },
+   {
+    "f": "docs/security/issue-199/05-implementation.md",
+    "a": 93,
+    "d": 0
+   },
+   {
+    "f": "docs/security/issue-199/06-test-results.md",
+    "a": 94,
+    "d": 0
+   },
+   {
+    "f": "docs/security/issue-199/07-security-review.md",
+    "a": 72,
+    "d": 0
+   },
+   {
+    "f": "docs/security/issue-199/08-final-report.md",
+    "a": 86,
+    "d": 0
+   },
+   {
+    "f": "docs/security/issue-199/README.md",
+    "a": 43,
+    "d": 0
+   }
+  ]
+ },
+ "0a158ed4ef9d165dc097aff5331d2d982f52f5f6": {
+  "team": "Puls3",
+  "repo": "Zer0-Knowledge-Hack/puls3",
+  "author": "XxHugheadxX",
+  "date": "2026-11-08T16:39:11Z",
+  "message": "feat(app): rate a completed hire (F7) (#211) (#217)",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/blueprints/screens.md",
+    "a": 6,
+    "d": 4
+   },
+   {
+    "f": "puls3_domain/lib/src/entities.dart",
+    "a": 6,
+    "d": 2
+   },
+   {
+    "f": "puls3_flutter/lib/l10n/app_en.arb",
+    "a": 53,
+    "d": 1
+   },
+   {
+    "f": "puls3_flutter/lib/l10n/app_es.arb",
+    "a": 24,
+    "d": 1
+   },
+   {
+    "f": "puls3_flutter/lib/l10n/app_pt.arb",
+    "a": 24,
+    "d": 1
+   },
+   {
+    "f": "puls3_flutter/lib/l10n/app_pt_BR.arb",
+    "a": 24,
+    "d": 1
+   },
+   {
+    "f": "puls3_flutter/lib/l10n/app_pt_PT.arb",
+    "a": 24,
+    "d": 1
+   },
+   {
+    "f": "puls3_flutter/lib/l10n/generated/app_localizations.dart",
+    "a": 138,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/lib/l10n/generated/app_localizations_en.dart",
+    "a": 84,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/lib/l10n/generated/app_localizations_es.dart",
+    "a": 87,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/lib/l10n/generated/app_localizations_pt.dart",
+    "a": 258,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/lib/main.dart",
+    "a": 2,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/lib/src/hire/fake_hire_gateway.dart",
+    "a": 41,
+    "d": 2
+   },
+   {
+    "f": "puls3_flutter/lib/src/hire/hire_gateway.dart",
+    "a": 103,
+    "d": 1
+   },
+   {
+    "f": "puls3_flutter/lib/src/hire/server_hire_gateway.dart",
+    "a": 88,
+    "d": 4
+   },
+   {
+    "f": "puls3_flutter/lib/src/screens/hire_detail_screen.dart",
+    "a": 38,
+    "d": 6
+   },
+   {
+    "f": "puls3_flutter/lib/src/screens/rate_hire_sheet.dart",
+    "a": 148,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/lib/src/ui/molecules/score_picker.dart",
+    "a": 74,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/lib/src/ui/organisms/hire_detail_view.dart",
+    "a": 82,
+    "d": 2
+   },
+   {
+    "f": "puls3_flutter/lib/src/ui/organisms/rate_sheet_view.dart",
+    "a": 137,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/test/hire/server_hire_gateway_test.dart",
+    "a": 163,
+    "d": 2
+   },
+   {
+    "f": "puls3_flutter/test/hire/wallet_session_test.dart",
+    "a": 2,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/test/screens/hire_detail_screen_test.dart",
+    "a": 446,
+    "d": 7
+   },
+   {
+    "f": "puls3_flutter/test/screens/hire_sheet_test.dart",
+    "a": 14,
+    "d": 0
+   }
+  ]
  }
 }
