@@ -155730,5 +155730,130 @@
     "d": 4
    }
   ]
+ },
+ "fdc716a53ea1575c866da2cb502375d1bbbf8dd2": {
+  "team": "Puls3",
+  "repo": "Zer0-Knowledge-Hack/puls3",
+  "author": "TOMOKI977",
+  "date": "2026-11-08T02:47:09Z",
+  "message": "fix(deps): resolve pubspec.lock with Flutter 3.44.4 and enforce it in CI (#251)",
+  "parents": 1,
+  "files": [
+   {
+    "f": ".github/workflows/ci.yml",
+    "a": 3,
+    "d": 3
+   },
+   {
+    "f": "pubspec.lock",
+    "a": 14,
+    "d": 14
+   }
+  ]
+ },
+ "b96507d40079a7409c73bb114e79499cffda379c": {
+  "team": "Puls3",
+  "repo": "Zer0-Knowledge-Hack/puls3",
+  "author": "fercodes",
+  "date": "2026-11-08T00:39:01Z",
+  "message": "feat(app): run Agent Studio live on the production build (#219) (#232)",
+  "parents": 1,
+  "files": [
+   {
+    "f": ".env.example",
+    "a": 8,
+    "d": 2
+   },
+   {
+    "f": "puls3_flutter/lib/l10n/app_en.arb",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/lib/l10n/app_es.arb",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/lib/l10n/app_pt.arb",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/lib/l10n/app_pt_BR.arb",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/lib/l10n/app_pt_PT.arb",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/lib/l10n/generated/app_localizations.dart",
+    "a": 6,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/lib/l10n/generated/app_localizations_en.dart",
+    "a": 4,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/lib/l10n/generated/app_localizations_es.dart",
+    "a": 4,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/lib/l10n/generated/app_localizations_pt.dart",
+    "a": 12,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/lib/src/screens/playground.dart",
+    "a": 6,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/lib/src/studio/server_studio_gateway.dart",
+    "a": 1,
+    "d": 3
+   },
+   {
+    "f": "puls3_flutter/lib/src/studio/studio_gateway.dart",
+    "a": 8,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/lib/src/ui/organisms/playground_panel.dart",
+    "a": 18,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/test/screens/playground_test.dart",
+    "a": 184,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/test/studio/server_studio_gateway_test.dart",
+    "a": 3,
+    "d": 3
+   },
+   {
+    "f": "puls3_server/README.md",
+    "a": 6,
+    "d": 3
+   },
+   {
+    "f": "scripts/cloudflare-pages-build.sh",
+    "a": 21,
+    "d": 6
+   },
+   {
+    "f": "scripts/tests/cloudflare-pages-build.test.sh",
+    "a": 51,
+    "d": 0
+   }
+  ]
  }
 }
