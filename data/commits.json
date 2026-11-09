@@ -156390,5 +156390,45 @@
     "d": 0
    }
   ]
+ },
+ "e8eaa4271188691f78b8c4221116813d1715fb9d": {
+  "team": "Puls3",
+  "repo": "Zer0-Knowledge-Hack/puls3",
+  "author": "fercodes",
+  "date": "2026-11-08T23:02:25Z",
+  "message": "chore(infra): add a local Soroban sandbox and contract deployer (#253) (#257)",
+  "parents": 1,
+  "files": [
+   {
+    "f": ".env.example",
+    "a": 9,
+    "d": 0
+   },
+   {
+    "f": "README.md",
+    "a": 2,
+    "d": 0
+   },
+   {
+    "f": "docs/testing/local-environment.md",
+    "a": 148,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/docker-compose.yaml",
+    "a": 20,
+    "d": 0
+   },
+   {
+    "f": "scripts/setup-local-soroban.sh",
+    "a": 221,
+    "d": 0
+   },
+   {
+    "f": "scripts/tests/local-soroban.test.sh",
+    "a": 190,
+    "d": 0
+   }
+  ]
  }
 }
