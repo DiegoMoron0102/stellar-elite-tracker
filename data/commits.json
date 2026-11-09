@@ -156430,5 +156430,2970 @@
     "d": 0
    }
   ]
+ },
+ "cebd8a8f57770239acca67c72eee0c518fd13ce0": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-09T05:02:25Z",
+  "message": "La espera muestra el nombre de cada equipo en la cinta, no su cuenta",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/ui/espera-cintas.test.ts",
+    "a": 38,
+    "d": 0
+   },
+   {
+    "f": "src/ui/espera.ts",
+    "a": 7,
+    "d": 2
+   }
+  ]
+ },
+ "ed95b0fa4e2033c3201d75d297f5811d8398533f": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-09T05:37:12Z",
+  "message": "La portada dice Hecho con Stellar, con el aviso de marca en el pie",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/marca.md",
+    "a": 36,
+    "d": 0
+   },
+   {
+    "f": "index.html",
+    "a": 4,
+    "d": 0
+   },
+   {
+    "f": "public/terceros/stellar/stellar-logo-blanco-511x128.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/terceros/stellar/stellar-logo-negro-511x128.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "src/hecho-con-stellar.test.ts",
+    "a": 120,
+    "d": 0
+   },
+   {
+    "f": "src/i18n.ts",
+    "a": 4,
+    "d": 0
+   },
+   {
+    "f": "src/styles.css",
+    "a": 20,
+    "d": 0
+   }
+  ]
+ },
+ "9a0bae97a517309a60d982c151cc639083c3793d": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-09T05:08:32Z",
+  "message": "La sala valida la cuenta con su función y prueba la alarma aparte",
+  "parents": 1,
+  "files": [
+   {
+    "f": "precios.html",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "src/equipos/equipos.test.ts",
+    "a": 1,
+    "d": 3
+   },
+   {
+    "f": "src/ui/equipos-sala.test.ts",
+    "a": 20,
+    "d": 0
+   },
+   {
+    "f": "src/ui/equipos-sala.ts",
+    "a": 4,
+    "d": 3
+   },
+   {
+    "f": "workers/sala/README.md",
+    "a": 7,
+    "d": 3
+   },
+   {
+    "f": "workers/sala/probar.mjs",
+    "a": 36,
+    "d": 17
+   },
+   {
+    "f": "workers/sala/src/index.ts",
+    "a": 7,
+    "d": 6
+   },
+   {
+    "f": "workers/sala/src/logica.ts",
+    "a": 0,
+    "d": 2
+   }
+  ]
+ },
+ "b18b83c2d4bbf2e887dc4a14fda226e06d0e09c5": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-09T04:59:11Z",
+  "message": "Textos visibles: sin repeticiones, inglés parejo y más llanos",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/architecture.md",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "marca.html",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "precios.html",
+    "a": 7,
+    "d": 7
+   },
+   {
+    "f": "src/equipos/redaccion.test.ts",
+    "a": 28,
+    "d": 0
+   },
+   {
+    "f": "src/equipos/textos.ts",
+    "a": 7,
+    "d": 7
+   },
+   {
+    "f": "src/i18n.ts",
+    "a": 16,
+    "d": 16
+   },
+   {
+    "f": "src/revision-textos.test.ts",
+    "a": 65,
+    "d": 0
+   },
+   {
+    "f": "src/ui/monedas-vista.test.ts",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "src/ui/pagos-textos.ts",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "src/ui/plan.test.ts",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "workers/cuenta/README.md",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "workers/cuenta/src/reglas.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "workers/cuenta/src/servidor.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "workers/patrocinio/README.md",
+    "a": 1,
+    "d": 1
+   }
+  ]
+ },
+ "d14b0f06509926642bc8fa1478fc22c4bcaff712": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-09T04:59:11Z",
+  "message": "Un premio no se paga dos veces y los cupones se leen enteros",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/equipos/equipos.test.ts",
+    "a": 13,
+    "d": 10
+   },
+   {
+    "f": "src/equipos/horizon.test.ts",
+    "a": 246,
+    "d": 0
+   },
+   {
+    "f": "src/equipos/horizon.ts",
+    "a": 173,
+    "d": 20
+   },
+   {
+    "f": "src/equipos/textos.ts",
+    "a": 2,
+    "d": 0
+   },
+   {
+    "f": "src/ui/equipos-sala.test.ts",
+    "a": 56,
+    "d": 0
+   },
+   {
+    "f": "src/ui/equipos-sala.ts",
+    "a": 34,
+    "d": 5
+   },
+   {
+    "f": "src/ui/pagar-premio.test.ts",
+    "a": 226,
+    "d": 8
+   },
+   {
+    "f": "src/ui/pagar-premio.ts",
+    "a": 147,
+    "d": 24
+   },
+   {
+    "f": "src/ui/pagos-resultado.ts",
+    "a": 3,
+    "d": 2
+   },
+   {
+    "f": "src/ui/pagos-textos.ts",
+    "a": 16,
+    "d": 2
+   }
+  ]
+ },
+ "65814bb1168dcf8574ae690ef2138c72a4e99dce": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-09T04:58:55Z",
+  "message": "El registro de un equipo solo lo cambia el celular que lo anotó",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/equipos/celular.ts",
+    "a": 33,
+    "d": 0
+   },
+   {
+    "f": "src/equipos/equipos.test.ts",
+    "a": 8,
+    "d": 7
+   },
+   {
+    "f": "src/equipos/llave.test.ts",
+    "a": 64,
+    "d": 0
+   },
+   {
+    "f": "src/equipos/registro.test.ts",
+    "a": 31,
+    "d": 3
+   },
+   {
+    "f": "src/equipos/registro.ts",
+    "a": 7,
+    "d": 2
+   },
+   {
+    "f": "src/equipos/textos.ts",
+    "a": 4,
+    "d": 0
+   },
+   {
+    "f": "src/sala/equipos.ts",
+    "a": 14,
+    "d": 5
+   },
+   {
+    "f": "src/sala/registro-equipos.test.ts",
+    "a": 198,
+    "d": 0
+   },
+   {
+    "f": "workers/sala/README.md",
+    "a": 20,
+    "d": 2
+   },
+   {
+    "f": "workers/sala/probar.mjs",
+    "a": 62,
+    "d": 9
+   },
+   {
+    "f": "workers/sala/src/index.ts",
+    "a": 33,
+    "d": 35
+   },
+   {
+    "f": "workers/sala/src/registro.ts",
+    "a": 132,
+    "d": 0
+   }
+  ]
+ },
+ "db9419c0936450c97c36a3a6eab46e4bb000a6f8": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-09T04:57:25Z",
+  "message": "Una cuenta mal copiada no deja a todos los equipos sin cupón",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/equipos-registro.ts",
+    "a": 2,
+    "d": 1
+   },
+   {
+    "f": "src/equipos/equipos.test.ts",
+    "a": 34,
+    "d": 2
+   },
+   {
+    "f": "src/equipos/estado.ts",
+    "a": 11,
+    "d": 5
+   },
+   {
+    "f": "src/equipos/modelo.ts",
+    "a": 7,
+    "d": 2
+   },
+   {
+    "f": "src/equipos/registro.test.ts",
+    "a": 5,
+    "d": 0
+   },
+   {
+    "f": "src/equipos/registro.ts",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "src/equipos/textos.ts",
+    "a": 12,
+    "d": 0
+   },
+   {
+    "f": "src/ui/draw-equipos-nota.test.ts",
+    "a": 97,
+    "d": 0
+   },
+   {
+    "f": "src/ui/draw.ts",
+    "a": 6,
+    "d": 1
+   },
+   {
+    "f": "src/ui/equipos-sala.test.ts",
+    "a": 60,
+    "d": 0
+   },
+   {
+    "f": "src/ui/equipos-sala.ts",
+    "a": 33,
+    "d": 7
+   },
+   {
+    "f": "workers/sala/probar.mjs",
+    "a": 8,
+    "d": 5
+   },
+   {
+    "f": "workers/sala/src/logica.ts",
+    "a": 37,
+    "d": 3
+   }
+  ]
+ },
+ "fe0660c07bf9056ef247a5775b5deeb9e4ac9dcd": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-09T03:29:33Z",
+  "message": "Los nombres de la carrera cambian con fundido y la llegada se acerca",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/motores.md",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/games/llamas/carrera-camara.ts",
+    "a": 14,
+    "d": 7
+   },
+   {
+    "f": "src/games/llamas/carrera-cara.test.ts",
+    "a": 177,
+    "d": 0
+   },
+   {
+    "f": "src/games/llamas/carrera-cara.ts",
+    "a": 111,
+    "d": 0
+   },
+   {
+    "f": "src/games/llamas/carrera-etiqueta.test.ts",
+    "a": 275,
+    "d": 0
+   },
+   {
+    "f": "src/games/llamas/carrera-etiqueta.ts",
+    "a": 148,
+    "d": 0
+   },
+   {
+    "f": "src/games/llamas/carrera-fichas-mov.ts",
+    "a": 4,
+    "d": 3
+   },
+   {
+    "f": "src/games/llamas/carrera-final-2d.test.ts",
+    "a": 80,
+    "d": 1
+   },
+   {
+    "f": "src/games/llamas/carrera-nombre-nivel.test.ts",
+    "a": 73,
+    "d": 0
+   },
+   {
+    "f": "src/games/llamas/carrera-nombre-nivel.ts",
+    "a": 99,
+    "d": 0
+   },
+   {
+    "f": "src/games/llamas/carrera.ts",
+    "a": 57,
+    "d": 121
+   }
+  ]
+ },
+ "7cac4afa121f72d8afd8233be45c79ab00da37a1": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-09T03:06:52Z",
+  "message": "El sello con portero apunta a una ronda a 65 s y reintenta más lejos",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/architecture.md",
+    "a": 3,
+    "d": 3
+   },
+   {
+    "f": "index.html",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "sorteo-para-meetup.html",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "src/i18n.ts",
+    "a": 6,
+    "d": 4
+   },
+   {
+    "f": "src/state.ts",
+    "a": 3,
+    "d": 1
+   },
+   {
+    "f": "src/ui/anchor.test.ts",
+    "a": 21,
+    "d": 0
+   },
+   {
+    "f": "src/ui/anchor.ts",
+    "a": 31,
+    "d": 6
+   },
+   {
+    "f": "src/ui/freeze-proteger.test.ts",
+    "a": 61,
+    "d": 2
+   },
+   {
+    "f": "src/ui/freeze.ts",
+    "a": 10,
+    "d": 10
+   },
+   {
+    "f": "src/ui/selector-de-juego.test.ts",
+    "a": 2,
+    "d": 1
+   },
+   {
+    "f": "src/ui/sello-seguro.test.ts",
+    "a": 187,
+    "d": 1
+   },
+   {
+    "f": "src/ui/sello-seguro.ts",
+    "a": 77,
+    "d": 13
+   },
+   {
+    "f": "src/ui/sin-sello.ts",
+    "a": 2,
+    "d": 1
+   },
+   {
+    "f": "workers/patrocinio/README.md",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "workers/patrocinio/probar.mjs",
+    "a": 31,
+    "d": 15
+   }
+  ]
+ },
+ "7c5d62f76c9014d731262de16b686cc41dec3b40": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-09T02:40:02Z",
+  "message": "La pantalla del stand: equipos, cupones y cuenta regresiva",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/ux.md",
+    "a": 10,
+    "d": 0
+   },
+   {
+    "f": "src/duraciones.test.ts",
+    "a": 5,
+    "d": 1
+   },
+   {
+    "f": "src/equipos-registro.ts",
+    "a": 12,
+    "d": 5
+   },
+   {
+    "f": "src/equipos/equipos.css",
+    "a": 77,
+    "d": 9
+   },
+   {
+    "f": "src/equipos/etiquetas.ts",
+    "a": 3,
+    "d": 0
+   },
+   {
+    "f": "src/equipos/pantalla-stand.test.ts",
+    "a": 127,
+    "d": 0
+   },
+   {
+    "f": "src/equipos/pantalla-stand.ts",
+    "a": 138,
+    "d": 0
+   },
+   {
+    "f": "src/equipos/registro.ts",
+    "a": 4,
+    "d": 3
+   },
+   {
+    "f": "src/equipos/sesion.test.ts",
+    "a": 86,
+    "d": 0
+   },
+   {
+    "f": "src/equipos/sesion.ts",
+    "a": 60,
+    "d": 0
+   },
+   {
+    "f": "src/equipos/textos.ts",
+    "a": 35,
+    "d": 4
+   },
+   {
+    "f": "src/games/llamas/carrera-base.ts",
+    "a": 5,
+    "d": 1
+   },
+   {
+    "f": "src/games/nombres-enteros.test.ts",
+    "a": 67,
+    "d": 0
+   },
+   {
+    "f": "src/games/nombres-enteros.ts",
+    "a": 18,
+    "d": 0
+   },
+   {
+    "f": "src/games/nombres.ts",
+    "a": 5,
+    "d": 1
+   },
+   {
+    "f": "src/styles.css",
+    "a": 4,
+    "d": 1
+   },
+   {
+    "f": "src/ui/draw.ts",
+    "a": 4,
+    "d": 1
+   },
+   {
+    "f": "src/ui/equipos-sala.test.ts",
+    "a": 122,
+    "d": 0
+   },
+   {
+    "f": "src/ui/equipos-sala.ts",
+    "a": 68,
+    "d": 10
+   },
+   {
+    "f": "src/ui/pantalla-stand.test.ts",
+    "a": 124,
+    "d": 0
+   },
+   {
+    "f": "src/ui/pantalla-stand.ts",
+    "a": 284,
+    "d": 0
+   }
+  ]
+ },
+ "771596923157166a937f6e75fbee66d0c54f3e6b": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-09T02:40:01Z",
+  "message": "Cuatro entradas arriba, Precios dice muy pronto y lo técnico plegado",
+  "parents": 1,
+  "files": [
+   {
+    "f": "c.html",
+    "a": 0,
+    "d": 2
+   },
+   {
+    "f": "como-funciona.html",
+    "a": 9,
+    "d": 8
+   },
+   {
+    "f": "docs/ux.md",
+    "a": 4,
+    "d": 4
+   },
+   {
+    "f": "equipos.html",
+    "a": 0,
+    "d": 2
+   },
+   {
+    "f": "evento.html",
+    "a": 0,
+    "d": 2
+   },
+   {
+    "f": "historia.html",
+    "a": 0,
+    "d": 2
+   },
+   {
+    "f": "index.html",
+    "a": 1,
+    "d": 53
+   },
+   {
+    "f": "juegos.html",
+    "a": 0,
+    "d": 2
+   },
+   {
+    "f": "lista.html",
+    "a": 0,
+    "d": 2
+   },
+   {
+    "f": "marca.html",
+    "a": 0,
+    "d": 2
+   },
+   {
+    "f": "precios.html",
+    "a": 8,
+    "d": 37
+   },
+   {
+    "f": "public/sitemap.xml",
+    "a": 5,
+    "d": 5
+   },
+   {
+    "f": "ruleta-de-nombres.html",
+    "a": 2,
+    "d": 4
+   },
+   {
+    "f": "seguridad.html",
+    "a": 10,
+    "d": 4
+   },
+   {
+    "f": "sorteo-en-clase.html",
+    "a": 0,
+    "d": 2
+   },
+   {
+    "f": "sorteo-para-eventos.html",
+    "a": 0,
+    "d": 2
+   },
+   {
+    "f": "sorteo-para-meetup.html",
+    "a": 0,
+    "d": 2
+   },
+   {
+    "f": "sorteo-verificable.html",
+    "a": 0,
+    "d": 2
+   },
+   {
+    "f": "src/i18n.ts",
+    "a": 16,
+    "d": 12
+   },
+   {
+    "f": "src/logo-textos.test.ts",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "src/seo.test.ts",
+    "a": 33,
+    "d": 20
+   },
+   {
+    "f": "src/styles.css",
+    "a": 10,
+    "d": 5
+   },
+   {
+    "f": "terminos.html",
+    "a": 0,
+    "d": 2
+   },
+   {
+    "f": "verificar.html",
+    "a": 0,
+    "d": 2
+   }
+  ]
+ },
+ "a2cca728ff231876fb004cf64cf5427f6746b1fd": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-09T01:40:50Z",
+  "message": "La llegada de la carrera en 3D se ve sin corte",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/juegos/carrera.md",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "docs/motores.md",
+    "a": 2,
+    "d": 3
+   },
+   {
+    "f": "src/games/llamas/carrera-3d.ts",
+    "a": 3,
+    "d": 1
+   },
+   {
+    "f": "src/games/llamas/carrera-camara-prueba.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/games/llamas/carrera-camara.test.ts",
+    "a": 56,
+    "d": 24
+   },
+   {
+    "f": "src/games/llamas/carrera-camara.ts",
+    "a": 118,
+    "d": 115
+   },
+   {
+    "f": "src/games/llamas/carrera-final-2d.test.ts",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "src/games/llamas/carrera.ts",
+    "a": 12,
+    "d": 26
+   }
+  ]
+ },
+ "d947017931a619c9a0b7fc1e2c940dffbc6db8fa": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-09T01:09:46Z",
+  "message": "La carrera de llamas: marcha sin saltos, final junto y relator claro",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/juegos.md",
+    "a": 39,
+    "d": 1
+   },
+   {
+    "f": "docs/juegos/carrera.md",
+    "a": 34,
+    "d": 5
+   },
+   {
+    "f": "docs/motores.md",
+    "a": 56,
+    "d": 1
+   },
+   {
+    "f": "index.html",
+    "a": 2,
+    "d": 0
+   },
+   {
+    "f": "scripts/audit-encuadre.mjs",
+    "a": 51,
+    "d": 18
+   },
+   {
+    "f": "scripts/audit-lavado.mjs",
+    "a": 307,
+    "d": 0
+   },
+   {
+    "f": "scripts/audit-mezcla.mjs",
+    "a": 132,
+    "d": 30
+   },
+   {
+    "f": "scripts/audit-sound.mjs",
+    "a": 4,
+    "d": 1
+   },
+   {
+    "f": "scripts/audit-tacto.mjs",
+    "a": 347,
+    "d": 0
+   },
+   {
+    "f": "scripts/capturas-3d.mjs",
+    "a": 13,
+    "d": 4
+   },
+   {
+    "f": "scripts/lib/browser.mjs",
+    "a": 10,
+    "d": 0
+   },
+   {
+    "f": "scripts/lib/contraste.mjs",
+    "a": 151,
+    "d": 0
+   },
+   {
+    "f": "scripts/lib/contraste.test.mjs",
+    "a": 132,
+    "d": 0
+   },
+   {
+    "f": "scripts/lib/delatores-carrera.mjs",
+    "a": 13,
+    "d": 1
+   },
+   {
+    "f": "scripts/lib/delatores-carrera.test.mjs",
+    "a": 20,
+    "d": 6
+   },
+   {
+    "f": "scripts/lib/delatores.mjs",
+    "a": 6,
+    "d": 4
+   },
+   {
+    "f": "scripts/lib/delatores.test.mjs",
+    "a": 10,
+    "d": 0
+   },
+   {
+    "f": "scripts/lib/drama-show.mjs",
+    "a": 328,
+    "d": 0
+   },
+   {
+    "f": "scripts/lib/drama-show.test.mjs",
+    "a": 225,
+    "d": 0
+   },
+   {
+    "f": "scripts/lib/escala-carrera.mjs",
+    "a": 137,
+    "d": 0
+   },
+   {
+    "f": "scripts/lib/escala-carrera.test.mjs",
+    "a": 128,
+    "d": 0
+   },
+   {
+    "f": "scripts/lib/final-carrera.mjs",
+    "a": 235,
+    "d": 0
+   },
+   {
+    "f": "scripts/lib/final-carrera.test.mjs",
+    "a": 200,
+    "d": 0
+   },
+   {
+    "f": "scripts/lib/medir-3d-motor.mjs",
+    "a": 70,
+    "d": 0
+   },
+   {
+    "f": "scripts/lib/medir-3d-motor.test.mjs",
+    "a": 72,
+    "d": 0
+   },
+   {
+    "f": "scripts/lib/mezcla-captura.mjs",
+    "a": 44,
+    "d": 0
+   },
+   {
+    "f": "scripts/lib/mezcla-captura.test.mjs",
+    "a": 46,
+    "d": 0
+   },
+   {
+    "f": "scripts/lib/ram.mjs",
+    "a": 35,
+    "d": 0
+   },
+   {
+    "f": "scripts/lib/ram.test.mjs",
+    "a": 31,
+    "d": 0
+   },
+   {
+    "f": "scripts/lib/reloj-turbo.mjs",
+    "a": 39,
+    "d": 0
+   },
+   {
+    "f": "scripts/lib/senal.mjs",
+    "a": 283,
+    "d": 0
+   },
+   {
+    "f": "scripts/lib/senal.test.mjs",
+    "a": 64,
+    "d": 0
+   },
+   {
+    "f": "scripts/medir-3d.mjs",
+    "a": 66,
+    "d": 15
+   },
+   {
+    "f": "scripts/medir-drama-carrera.mjs",
+    "a": 106,
+    "d": 11
+   },
+   {
+    "f": "scripts/medir-escala-carrera.mjs",
+    "a": 108,
+    "d": 0
+   },
+   {
+    "f": "scripts/medir-final-carrera.mjs",
+    "a": 99,
+    "d": 17
+   },
+   {
+    "f": "scripts/sonidos/carrera-aplicar-lib.mjs",
+    "a": 105,
+    "d": 0
+   },
+   {
+    "f": "scripts/sonidos/carrera-aplicar-lib.test.mjs",
+    "a": 91,
+    "d": 0
+   },
+   {
+    "f": "scripts/sonidos/carrera-aplicar.mjs",
+    "a": 61,
+    "d": 0
+   },
+   {
+    "f": "scripts/sonidos/carrera-armar-escucha.mjs",
+    "a": 222,
+    "d": 0
+   },
+   {
+    "f": "scripts/sonidos/carrera-auditar.mjs",
+    "a": 117,
+    "d": 0
+   },
+   {
+    "f": "scripts/sonidos/carrera-auditar.test.mjs",
+    "a": 34,
+    "d": 0
+   },
+   {
+    "f": "scripts/sonidos/carrera-calibrar-lib.mjs",
+    "a": 64,
+    "d": 0
+   },
+   {
+    "f": "scripts/sonidos/carrera-calibrar-lib.test.mjs",
+    "a": 40,
+    "d": 0
+   },
+   {
+    "f": "scripts/sonidos/carrera-calibrar.mjs",
+    "a": 34,
+    "d": 0
+   },
+   {
+    "f": "scripts/sonidos/carrera-juicio.mjs",
+    "a": 64,
+    "d": 0
+   },
+   {
+    "f": "scripts/sonidos/carrera-medir.mjs",
+    "a": 93,
+    "d": 0
+   },
+   {
+    "f": "scripts/sonidos/carrera-render.mjs",
+    "a": 121,
+    "d": 0
+   },
+   {
+    "f": "src/games/llamas/carrera-3d-lider.test.ts",
+    "a": 30,
+    "d": 12
+   },
+   {
+    "f": "src/games/llamas/carrera-3d-lider.ts",
+    "a": 6,
+    "d": 14
+   },
+   {
+    "f": "src/games/llamas/carrera-3d-mapa.ts",
+    "a": 23,
+    "d": 0
+   },
+   {
+    "f": "src/games/llamas/carrera-3d-obstaculos.test.ts",
+    "a": 88,
+    "d": 0
+   },
+   {
+    "f": "src/games/llamas/carrera-3d-obstaculos.ts",
+    "a": 19,
+    "d": 9
+   },
+   {
+    "f": "src/games/llamas/carrera-3d.ts",
+    "a": 88,
+    "d": 19
+   },
+   {
+    "f": "src/games/llamas/carrera-camara-prueba.ts",
+    "a": 109,
+    "d": 0
+   },
+   {
+    "f": "src/games/llamas/carrera-camara.test.ts",
+    "a": 662,
+    "d": 0
+   },
+   {
+    "f": "src/games/llamas/carrera-camara.ts",
+    "a": 705,
+    "d": 0
+   },
+   {
+    "f": "src/games/llamas/carrera-caminata-datos.ts",
+    "a": 119,
+    "d": 0
+   },
+   {
+    "f": "src/games/llamas/carrera-caminata.test.ts",
+    "a": 128,
+    "d": 0
+   },
+   {
+    "f": "src/games/llamas/carrera-caminata.ts",
+    "a": 272,
+    "d": 0
+   },
+   {
+    "f": "src/games/llamas/carrera-drama.test.ts",
+    "a": 33,
+    "d": 27
+   },
+   {
+    "f": "src/games/llamas/carrera-fichas-mov.test.ts",
+    "a": 242,
+    "d": 0
+   },
+   {
+    "f": "src/games/llamas/carrera-fichas-mov.ts",
+    "a": 149,
+    "d": 0
+   },
+   {
+    "f": "src/games/llamas/carrera-final-2d.test.ts",
+    "a": 142,
+    "d": 0
+   },
+   {
+    "f": "src/games/llamas/carrera-forma.test.ts",
+    "a": 14,
+    "d": 1
+   },
+   {
+    "f": "src/games/llamas/carrera-forma.ts",
+    "a": 17,
+    "d": 1
+   },
+   {
+    "f": "src/games/llamas/carrera-luz.test.ts",
+    "a": 147,
+    "d": 0
+   },
+   {
+    "f": "src/games/llamas/carrera-luz.ts",
+    "a": 145,
+    "d": 0
+   },
+   {
+    "f": "src/games/llamas/carrera-marca.test.ts",
+    "a": 266,
+    "d": 0
+   },
+   {
+    "f": "src/games/llamas/carrera-marcha-datos.ts",
+    "a": 52,
+    "d": 0
+   },
+   {
+    "f": "src/games/llamas/carrera-marcha.test.ts",
+    "a": 262,
+    "d": 0
+   },
+   {
+    "f": "src/games/llamas/carrera-marcha.ts",
+    "a": 555,
+    "d": 0
+   },
+   {
+    "f": "src/games/llamas/carrera-nueva.test.ts",
+    "a": 3,
+    "d": 3
+   },
+   {
+    "f": "src/games/llamas/carrera-obstaculos.ts",
+    "a": 47,
+    "d": 49
+   },
+   {
+    "f": "src/games/llamas/carrera-orden.test.ts",
+    "a": 11,
+    "d": 7
+   },
+   {
+    "f": "src/games/llamas/carrera-orden.ts",
+    "a": 130,
+    "d": 84
+   },
+   {
+    "f": "src/games/llamas/carrera-show.test.ts",
+    "a": 65,
+    "d": 5
+   },
+   {
+    "f": "src/games/llamas/carrera-show.ts",
+    "a": 285,
+    "d": 31
+   },
+   {
+    "f": "src/games/llamas/carrera-tandas.test.ts",
+    "a": 6,
+    "d": 3
+   },
+   {
+    "f": "src/games/llamas/carrera-tandas.ts",
+    "a": 40,
+    "d": 8
+   },
+   {
+    "f": "src/games/llamas/carrera-tarjeta.test.ts",
+    "a": 165,
+    "d": 0
+   },
+   {
+    "f": "src/games/llamas/carrera-tarjeta.ts",
+    "a": 202,
+    "d": 0
+   },
+   {
+    "f": "src/games/llamas/carrera-textos.ts",
+    "a": 4,
+    "d": 0
+   },
+   {
+    "f": "src/games/llamas/carrera-tope.test.ts",
+    "a": 122,
+    "d": 0
+   },
+   {
+    "f": "src/games/llamas/carrera-tope.ts",
+    "a": 125,
+    "d": 0
+   },
+   {
+    "f": "src/games/llamas/carrera.ts",
+    "a": 578,
+    "d": 144
+   },
+   {
+    "f": "src/games/llamas/llama-obstaculos.ts",
+    "a": 6,
+    "d": 1
+   },
+   {
+    "f": "src/games/llamas/pixi-race.ts",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "src/games/llamas/plan.ts",
+    "a": 3,
+    "d": 0
+   },
+   {
+    "f": "src/games/nombres.test.ts",
+    "a": 67,
+    "d": 0
+   },
+   {
+    "f": "src/games/nombres.ts",
+    "a": 97,
+    "d": 5
+   },
+   {
+    "f": "src/games/pixi/foco-tres.test.ts",
+    "a": 54,
+    "d": 0
+   },
+   {
+    "f": "src/games/pixi/foco-vista.ts",
+    "a": 16,
+    "d": 6
+   },
+   {
+    "f": "src/games/pixi/kit/anfitrion.ts",
+    "a": 4,
+    "d": 0
+   },
+   {
+    "f": "src/games/pixi/kit/anuncio-lector.test.ts",
+    "a": 59,
+    "d": 0
+   },
+   {
+    "f": "src/games/pixi/kit/crear.ts",
+    "a": 26,
+    "d": 5
+   },
+   {
+    "f": "src/games/pixi/kit/marcador-vista.ts",
+    "a": 5,
+    "d": 0
+   },
+   {
+    "f": "src/games/pixi/kit/sonido.ts",
+    "a": 5,
+    "d": 2
+   },
+   {
+    "f": "src/games/pixi/kit/tipos.ts",
+    "a": 12,
+    "d": 4
+   },
+   {
+    "f": "src/games/pixi/luz.ts",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "src/games/pixi/nino.ts",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "src/games/pixi/pasanaku.ts",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "src/games/pixi/stage.ts",
+    "a": 55,
+    "d": 13
+   },
+   {
+    "f": "src/games/pixi/tombola.ts",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "src/games/pixi/trompo.ts",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "src/games/tres/enchufe.ts",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "src/main.ts",
+    "a": 4,
+    "d": 0
+   },
+   {
+    "f": "src/music-mezcla.test.ts",
+    "a": 221,
+    "d": 0
+   },
+   {
+    "f": "src/music.ts",
+    "a": 357,
+    "d": 34
+   },
+   {
+    "f": "src/sonidos/carrera-eleccion.test.ts",
+    "a": 90,
+    "d": 0
+   },
+   {
+    "f": "src/sonidos/carrera-eleccion.ts",
+    "a": 93,
+    "d": 0
+   },
+   {
+    "f": "src/sonidos/carrera-elegidas.ts",
+    "a": 24,
+    "d": 0
+   },
+   {
+    "f": "src/sonidos/carrera-ganchos.ts",
+    "a": 34,
+    "d": 0
+   },
+   {
+    "f": "src/sonidos/carrera-niveles.ts",
+    "a": 31,
+    "d": 0
+   },
+   {
+    "f": "src/sonidos/carrera-render.ts",
+    "a": 165,
+    "d": 0
+   },
+   {
+    "f": "src/sonidos/carrera-uso.ts",
+    "a": 167,
+    "d": 0
+   },
+   {
+    "f": "src/sonidos/carrera.test.ts",
+    "a": 289,
+    "d": 0
+   },
+   {
+    "f": "src/sonidos/carrera.ts",
+    "a": 810,
+    "d": 0
+   },
+   {
+    "f": "src/sound.ts",
+    "a": 145,
+    "d": 68
+   },
+   {
+    "f": "src/state.test.ts",
+    "a": 24,
+    "d": 0
+   },
+   {
+    "f": "src/state.ts",
+    "a": 17,
+    "d": 0
+   },
+   {
+    "f": "src/styles.css",
+    "a": 5,
+    "d": 0
+   }
+  ]
+ },
+ "74124b995f9b22c64c0776f31b7f24945dca9615": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-08T16:55:57Z",
+  "message": "El QR de la marca y la colección de stickers",
+  "parents": 1,
+  "files": [
+   {
+    "f": ".gitattributes",
+    "a": 2,
+    "d": 0
+   },
+   {
+    "f": "docs/marca.md",
+    "a": 27,
+    "d": 8
+   },
+   {
+    "f": "marca.html",
+    "a": 186,
+    "d": 34
+   },
+   {
+    "f": "public/marca/coleccion/apthapi-en.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/coleccion/apthapi-es.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/coleccion/bolivia-en.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/coleccion/bolivia-es.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/coleccion/cacharpaya-en.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/coleccion/cacharpaya-es.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/coleccion/caravana-en.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/coleccion/caravana-es.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/coleccion/carrera-en.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/coleccion/carrera-es.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/coleccion/chovena-en.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/coleccion/chovena-es.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/coleccion/con-k-en.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/coleccion/con-k-es.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/coleccion/dev-404-en.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/coleccion/dev-404-es.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/coleccion/dev-commit.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/coleccion/dev-hola-en.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/coleccion/dev-hola-es.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/coleccion/dev-mi-llama-en.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/coleccion/dev-mi-llama-es.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/coleccion/dev-tests-en.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/coleccion/dev-tests-es.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/coleccion/entrada-en.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/coleccion/entrada-es.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/coleccion/frases.txt",
+    "a": 18,
+    "d": 6
+   },
+   {
+    "f": "public/marca/coleccion/guajojo-en.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/coleccion/guajojo-es.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/coleccion/hoja-a3-en.pdf",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/coleccion/hoja-a3-en.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/coleccion/hoja-a3-es.pdf",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/coleccion/hoja-a3-es.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/coleccion/hoja-a4-frases-en.pdf",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/coleccion/hoja-a4-frases-en.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/coleccion/hoja-a4-frases-es.pdf",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/coleccion/hoja-a4-frases-es.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/coleccion/hoja-a4-juegos-en.pdf",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/coleccion/hoja-a4-juegos-en.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/coleccion/hoja-a4-juegos-es.pdf",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/coleccion/hoja-a4-juegos-es.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/coleccion/hoja-a4-laptop-en.pdf",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/coleccion/hoja-a4-laptop-en.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/coleccion/hoja-a4-laptop-es.pdf",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/coleccion/hoja-a4-laptop-es.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/coleccion/llama-corazon-en.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/coleccion/llama-corazon-es.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/coleccion/llama-dormida-en.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/coleccion/llama-dormida-es.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/coleccion/llama-salio-en.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/coleccion/llama-salio-es.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/coleccion/pinata-en.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/coleccion/pinata-es.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/coleccion/ruleta-en.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/coleccion/ruleta-es.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/coleccion/sapo-en.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/coleccion/sapo-es.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/coleccion/sin-trampa-en.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/coleccion/sin-trampa-es.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/coleccion/tarija-en.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/coleccion/tarija-es.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/coleccion/tarija-laptop.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/coleccion/teleferico-en.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/coleccion/teleferico-es.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/coleccion/tinkazo-stickers-png.zip",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/coleccion/tinkazo-stickers.zip",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/coleccion/toborochi-en.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/coleccion/toborochi-es.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/coleccion/todos-adentro-en.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/coleccion/todos-adentro-es.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/coleccion/todos-lista-en.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/coleccion/todos-lista-es.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/coleccion/trompo-en.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/coleccion/trompo-es.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/coleccion/verificalo-en.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/coleccion/verificalo-es.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/qr/qr-comprobar-blanco.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/qr/qr-comprobar-blanco.svg",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "public/marca/qr/qr-demo-carrera-blanco.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/qr/qr-demo-carrera-blanco.svg",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "public/marca/qr/qr-etiqueta-amarilla.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/qr/qr-etiqueta-magenta.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/qr/qr-instagram-blanco.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/qr/qr-instagram-blanco.svg",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "public/marca/qr/qr-juegos-blanco.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/qr/qr-juegos-blanco.svg",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "public/marca/qr/qr-tarjeta-cuadrada-amarillo-en.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/qr/qr-tarjeta-cuadrada-amarillo-es.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/qr/qr-tarjeta-cuadrada-noche-en.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/qr/qr-tarjeta-cuadrada-noche-es.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/qr/qr-tarjeta-cuadrada-papel-en.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/qr/qr-tarjeta-cuadrada-papel-es.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/qr/qr-tarjeta-historia-amarillo-en.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/qr/qr-tarjeta-historia-amarillo-es.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/qr/qr-tarjeta-historia-noche-en.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/qr/qr-tarjeta-historia-noche-es.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/qr/qr-tarjeta-historia-papel-en.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/qr/qr-tarjeta-historia-papel-es.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/qr/qr-tinkazo-app-blanco.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/qr/qr-tinkazo-app-blanco.svg",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "public/marca/qr/qr-tinkazo-app-papel.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/qr/qr-tinkazo-app-papel.svg",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "public/marca/qr/qr-tinkazo-app-transparente.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/qr/qr-tinkazo-app-transparente.svg",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "public/marca/qr/tinkazo-qr.zip",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/redes-sponsor-banner-claro-en.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/redes-sponsor-banner-claro-es.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/redes-sponsor-banner-oscuro-en.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/redes-sponsor-banner-oscuro-es.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/redes-sponsor-historia-claro-en.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/redes-sponsor-historia-claro-es.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/redes-sponsor-historia-oscuro-en.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/redes-sponsor-historia-oscuro-es.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/redes-sponsor-linkedin-claro-en.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/redes-sponsor-linkedin-claro-es.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/redes-sponsor-linkedin-oscuro-en.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/redes-sponsor-linkedin-oscuro-es.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/redes-sponsor-panoramica-claro-en.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/redes-sponsor-panoramica-claro-es.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/redes-sponsor-panoramica-oscuro-en.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/redes-sponsor-panoramica-oscuro-es.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/redes-sponsor-post-claro-en.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/redes-sponsor-post-claro-es.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/redes-sponsor-post-oscuro-en.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/redes-sponsor-post-oscuro-es.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/redes-sponsor-x-claro-en.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/redes-sponsor-x-claro-es.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/redes-sponsor-x-oscuro-en.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/redes-sponsor-x-oscuro-es.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/rollup-100x200-en.pdf",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/rollup-100x200-en.svg",
+    "a": 96,
+    "d": 117
+   },
+   {
+    "f": "public/marca/rollup-100x200-es.pdf",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/rollup-100x200-es.svg",
+    "a": 96,
+    "d": 117
+   },
+   {
+    "f": "public/marca/rollup-85x200-en.pdf",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/rollup-85x200-en.svg",
+    "a": 96,
+    "d": 117
+   },
+   {
+    "f": "public/marca/rollup-85x200-es.pdf",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/rollup-85x200-es.svg",
+    "a": 96,
+    "d": 117
+   },
+   {
+    "f": "public/marca/tinkazo-kit-impresos.zip",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/tinkazo-kit-sponsor.zip",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/vista-rollup-85x200-en.svg",
+    "a": 96,
+    "d": 117
+   },
+   {
+    "f": "public/marca/vista-rollup-85x200-es.svg",
+    "a": 96,
+    "d": 117
+   },
+   {
+    "f": "scripts/generar-marca.mjs",
+    "a": 14,
+    "d": 1
+   },
+   {
+    "f": "scripts/marca/coleccion.mjs",
+    "a": 354,
+    "d": 117
+   },
+   {
+    "f": "scripts/marca/impresos.mjs",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "scripts/marca/qr-clave.mjs",
+    "a": 207,
+    "d": 0
+   },
+   {
+    "f": "src/i18n.ts",
+    "a": 118,
+    "d": 14
+   },
+   {
+    "f": "src/marca-qr.test.ts",
+    "a": 334,
+    "d": 0
+   },
+   {
+    "f": "src/marca.css",
+    "a": 50,
+    "d": 3
+   },
+   {
+    "f": "src/marca.test.ts",
+    "a": 37,
+    "d": 12
+   }
+  ]
+ },
+ "f1275cb1dfbcd73adf9a43ca6b4f79e59da3787e": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-08T04:41:43Z",
+  "message": "Equipos con cupón, premios pagados, saldo y monedas, tras banderas",
+  "parents": 1,
+  "files": [
+   {
+    "f": ".env.example",
+    "a": 28,
+    "d": 0
+   },
+   {
+    "f": "docs/deployments.md",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "docs/legal.md",
+    "a": 2,
+    "d": 0
+   },
+   {
+    "f": "docs/marca.md",
+    "a": 2,
+    "d": 1
+   },
+   {
+    "f": "docs/premios.md",
+    "a": 16,
+    "d": 0
+   },
+   {
+    "f": "docs/ux.md",
+    "a": 10,
+    "d": 0
+   },
+   {
+    "f": "equipos.html",
+    "a": 120,
+    "d": 0
+   },
+   {
+    "f": "index.html",
+    "a": 2,
+    "d": 0
+   },
+   {
+    "f": "marca.html",
+    "a": 41,
+    "d": 10
+   },
+   {
+    "f": "public/marca/devfest/qr-devfest-tarija-2026.svg",
+    "a": 5,
+    "d": 0
+   },
+   {
+    "f": "public/marca/redes-sponsor-historia-claro-en.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/redes-sponsor-historia-claro-es.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/redes-sponsor-historia-juegos-claro-en.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/redes-sponsor-historia-juegos-claro-es.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/redes-sponsor-historia-juegos-oscuro-en.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/redes-sponsor-historia-juegos-oscuro-es.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/redes-sponsor-historia-oscuro-en.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/redes-sponsor-historia-oscuro-es.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/redes-sponsor-panoramica-claro-en.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/redes-sponsor-panoramica-claro-es.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/redes-sponsor-panoramica-juegos-claro-en.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/redes-sponsor-panoramica-juegos-claro-es.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/redes-sponsor-panoramica-juegos-oscuro-en.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/redes-sponsor-panoramica-juegos-oscuro-es.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/redes-sponsor-panoramica-oscuro-en.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/redes-sponsor-panoramica-oscuro-es.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/redes-sponsor-post-claro-en.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/redes-sponsor-post-claro-es.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/redes-sponsor-post-juegos-claro-en.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/redes-sponsor-post-juegos-claro-es.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/redes-sponsor-post-juegos-oscuro-en.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/redes-sponsor-post-juegos-oscuro-es.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/redes-sponsor-post-oscuro-en.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/redes-sponsor-post-oscuro-es.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/space-apps/qr-space-apps-santa-cruz-2026.svg",
+    "a": 5,
+    "d": 0
+   },
+   {
+    "f": "public/marca/tinkazo-kit-sponsor.zip",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "scripts/audit-encuadre.mjs",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "scripts/generar-marca.mjs",
+    "a": 3,
+    "d": 0
+   },
+   {
+    "f": "scripts/marca/eventos.mjs",
+    "a": 37,
+    "d": 0
+   },
+   {
+    "f": "scripts/marca/impresos.mjs",
+    "a": 53,
+    "d": 27
+   },
+   {
+    "f": "scripts/marca/piezas.mjs",
+    "a": 3,
+    "d": 0
+   },
+   {
+    "f": "scripts/pagos-testnet.mjs",
+    "a": 79,
+    "d": 0
+   },
+   {
+    "f": "src/equipos-registro.ts",
+    "a": 62,
+    "d": 0
+   },
+   {
+    "f": "src/equipos/bandera.ts",
+    "a": 9,
+    "d": 0
+   },
+   {
+    "f": "src/equipos/celular.ts",
+    "a": 95,
+    "d": 0
+   },
+   {
+    "f": "src/equipos/datos.ts",
+    "a": 54,
+    "d": 0
+   },
+   {
+    "f": "src/equipos/enlace.ts",
+    "a": 38,
+    "d": 0
+   },
+   {
+    "f": "src/equipos/envio.ts",
+    "a": 46,
+    "d": 0
+   },
+   {
+    "f": "src/equipos/equipos.css",
+    "a": 73,
+    "d": 0
+   },
+   {
+    "f": "src/equipos/equipos.test.ts",
+    "a": 627,
+    "d": 0
+   },
+   {
+    "f": "src/equipos/estado.ts",
+    "a": 109,
+    "d": 0
+   },
+   {
+    "f": "src/equipos/etiquetas.ts",
+    "a": 69,
+    "d": 0
+   },
+   {
+    "f": "src/equipos/horizon.ts",
+    "a": 189,
+    "d": 0
+   },
+   {
+    "f": "src/equipos/modelo.ts",
+    "a": 134,
+    "d": 0
+   },
+   {
+    "f": "src/equipos/registro.test.ts",
+    "a": 367,
+    "d": 0
+   },
+   {
+    "f": "src/equipos/registro.ts",
+    "a": 311,
+    "d": 0
+   },
+   {
+    "f": "src/equipos/sorteos.ts",
+    "a": 74,
+    "d": 0
+   },
+   {
+    "f": "src/equipos/textos.ts",
+    "a": 315,
+    "d": 0
+   },
+   {
+    "f": "src/equipos/transacciones.ts",
+    "a": 84,
+    "d": 0
+   },
+   {
+    "f": "src/games/llamas/pixi-race.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/games/pixi/camera.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/games/pixi/encuadre.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/i18n.ts",
+    "a": 246,
+    "d": 2
+   },
+   {
+    "f": "src/main.ts",
+    "a": 7,
+    "d": 0
+   },
+   {
+    "f": "src/marca-devfest.test.ts",
+    "a": 129,
+    "d": 3
+   },
+   {
+    "f": "src/marca.css",
+    "a": 29,
+    "d": 10
+   },
+   {
+    "f": "src/marca.test.ts",
+    "a": 3,
+    "d": 3
+   },
+   {
+    "f": "src/sala/cliente.ts",
+    "a": 43,
+    "d": 1
+   },
+   {
+    "f": "src/sala/equipos.ts",
+    "a": 104,
+    "d": 0
+   },
+   {
+    "f": "src/stand-coordinacion.test.ts",
+    "a": 45,
+    "d": 0
+   },
+   {
+    "f": "src/stellar/carga.test.ts",
+    "a": 97,
+    "d": 0
+   },
+   {
+    "f": "src/stellar/carga.ts",
+    "a": 34,
+    "d": 0
+   },
+   {
+    "f": "src/stellar/cuenta-api.ts",
+    "a": 112,
+    "d": 0
+   },
+   {
+    "f": "src/stellar/cuenta-config.test.ts",
+    "a": 50,
+    "d": 0
+   },
+   {
+    "f": "src/stellar/cuenta-config.ts",
+    "a": 71,
+    "d": 0
+   },
+   {
+    "f": "src/stellar/fixtures/horizon-cuenta-con-linea.json",
+    "a": 85,
+    "d": 0
+   },
+   {
+    "f": "src/stellar/fixtures/horizon-pagos-premio.json",
+    "a": 194,
+    "d": 0
+   },
+   {
+    "f": "src/stellar/fixtures/rpc-getEvents-pagos.json",
+    "a": 81,
+    "d": 0
+   },
+   {
+    "f": "src/stellar/monedas-eventos.ts",
+    "a": 13,
+    "d": 0
+   },
+   {
+    "f": "src/stellar/pagos-bandera.ts",
+    "a": 10,
+    "d": 0
+   },
+   {
+    "f": "src/stellar/pagos-envio.test.ts",
+    "a": 223,
+    "d": 0
+   },
+   {
+    "f": "src/stellar/pagos-envio.ts",
+    "a": 215,
+    "d": 0
+   },
+   {
+    "f": "src/stellar/pagos-red.test.ts",
+    "a": 478,
+    "d": 0
+   },
+   {
+    "f": "src/stellar/pagos-red.ts",
+    "a": 415,
+    "d": 0
+   },
+   {
+    "f": "src/stellar/pagos.test.ts",
+    "a": 212,
+    "d": 0
+   },
+   {
+    "f": "src/stellar/pagos.ts",
+    "a": 198,
+    "d": 0
+   },
+   {
+    "f": "src/stellar/rampa-pollar.test.ts",
+    "a": 120,
+    "d": 0
+   },
+   {
+    "f": "src/stellar/rampa-pollar.ts",
+    "a": 132,
+    "d": 0
+   },
+   {
+    "f": "src/stellar/wallet-pollar.ts",
+    "a": 9,
+    "d": 0
+   },
+   {
+    "f": "src/styles.css",
+    "a": 100,
+    "d": 0
+   },
+   {
+    "f": "src/ui/account.ts",
+    "a": 95,
+    "d": 0
+   },
+   {
+    "f": "src/ui/canje.test.ts",
+    "a": 175,
+    "d": 0
+   },
+   {
+    "f": "src/ui/canje.ts",
+    "a": 218,
+    "d": 0
+   },
+   {
+    "f": "src/ui/dialogo.ts",
+    "a": 124,
+    "d": 0
+   },
+   {
+    "f": "src/ui/draw.ts",
+    "a": 21,
+    "d": 4
+   },
+   {
+    "f": "src/ui/equipos-sala.test.ts",
+    "a": 551,
+    "d": 0
+   },
+   {
+    "f": "src/ui/equipos-sala.ts",
+    "a": 828,
+    "d": 0
+   },
+   {
+    "f": "src/ui/escaner.ts",
+    "a": 60,
+    "d": 0
+   },
+   {
+    "f": "src/ui/monedas-vista.test.ts",
+    "a": 144,
+    "d": 0
+   },
+   {
+    "f": "src/ui/monedas-vista.ts",
+    "a": 107,
+    "d": 0
+   },
+   {
+    "f": "src/ui/pagar-premio.test.ts",
+    "a": 416,
+    "d": 0
+   },
+   {
+    "f": "src/ui/pagar-premio.ts",
+    "a": 385,
+    "d": 0
+   },
+   {
+    "f": "src/ui/pagos-comprobante.test.ts",
+    "a": 125,
+    "d": 0
+   },
+   {
+    "f": "src/ui/pagos-comprobante.ts",
+    "a": 56,
+    "d": 0
+   },
+   {
+    "f": "src/ui/pagos-resultado.test.ts",
+    "a": 164,
+    "d": 0
+   },
+   {
+    "f": "src/ui/pagos-resultado.ts",
+    "a": 51,
+    "d": 0
+   },
+   {
+    "f": "src/ui/pagos-textos.ts",
+    "a": 134,
+    "d": 0
+   },
+   {
+    "f": "src/ui/panel-ganadores.test.ts",
+    "a": 375,
+    "d": 0
+   },
+   {
+    "f": "src/ui/panel-ganadores.ts",
+    "a": 389,
+    "d": 0
+   },
+   {
+    "f": "src/ui/pantalla-equipos.test.ts",
+    "a": 45,
+    "d": 0
+   },
+   {
+    "f": "src/ui/pantalla.ts",
+    "a": 4,
+    "d": 2
+   },
+   {
+    "f": "src/ui/participants.ts",
+    "a": 2,
+    "d": 1
+   },
+   {
+    "f": "src/ui/plan.test.ts",
+    "a": 204,
+    "d": 0
+   },
+   {
+    "f": "src/ui/plan.ts",
+    "a": 91,
+    "d": 0
+   },
+   {
+    "f": "src/ui/sala.ts",
+    "a": 2,
+    "d": 1
+   },
+   {
+    "f": "src/ui/saldo.test.ts",
+    "a": 168,
+    "d": 0
+   },
+   {
+    "f": "src/ui/saldo.ts",
+    "a": 107,
+    "d": 0
+   },
+   {
+    "f": "src/verify.ts",
+    "a": 12,
+    "d": 0
+   },
+   {
+    "f": "verificar.html",
+    "a": 6,
+    "d": 0
+   },
+   {
+    "f": "vite.config.ts",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "workers/cuenta/README.md",
+    "a": 111,
+    "d": 0
+   },
+   {
+    "f": "workers/cuenta/src/horizon-falso.ts",
+    "a": 85,
+    "d": 0
+   },
+   {
+    "f": "workers/cuenta/src/index.ts",
+    "a": 24,
+    "d": 0
+   },
+   {
+    "f": "workers/cuenta/src/mundo-falso.ts",
+    "a": 68,
+    "d": 0
+   },
+   {
+    "f": "workers/cuenta/src/pagos.test.ts",
+    "a": 134,
+    "d": 0
+   },
+   {
+    "f": "workers/cuenta/src/pagos.ts",
+    "a": 125,
+    "d": 0
+   },
+   {
+    "f": "workers/cuenta/src/por-ip.test.ts",
+    "a": 20,
+    "d": 0
+   },
+   {
+    "f": "workers/cuenta/src/por-ip.ts",
+    "a": 45,
+    "d": 0
+   },
+   {
+    "f": "workers/cuenta/src/reglas.test.ts",
+    "a": 244,
+    "d": 0
+   },
+   {
+    "f": "workers/cuenta/src/reglas.ts",
+    "a": 343,
+    "d": 0
+   },
+   {
+    "f": "workers/cuenta/src/servidor.test.ts",
+    "a": 533,
+    "d": 0
+   },
+   {
+    "f": "workers/cuenta/src/servidor.ts",
+    "a": 278,
+    "d": 0
+   },
+   {
+    "f": "workers/cuenta/wrangler.toml",
+    "a": 27,
+    "d": 0
+   },
+   {
+    "f": "workers/patrocinio/README.md",
+    "a": 25,
+    "d": 8
+   },
+   {
+    "f": "workers/patrocinio/src/config.ts",
+    "a": 9,
+    "d": 0
+   },
+   {
+    "f": "workers/patrocinio/src/index.ts",
+    "a": 5,
+    "d": 1
+   },
+   {
+    "f": "workers/patrocinio/src/plan.test.ts",
+    "a": 249,
+    "d": 0
+   },
+   {
+    "f": "workers/patrocinio/src/plan.ts",
+    "a": 157,
+    "d": 0
+   },
+   {
+    "f": "workers/patrocinio/src/servicio.test.ts",
+    "a": 183,
+    "d": 15
+   },
+   {
+    "f": "workers/patrocinio/src/servicio.ts",
+    "a": 19,
+    "d": 3
+   },
+   {
+    "f": "workers/patrocinio/wrangler.toml",
+    "a": 4,
+    "d": 0
+   },
+   {
+    "f": "workers/sala/README.md",
+    "a": 19,
+    "d": 1
+   },
+   {
+    "f": "workers/sala/probar.mjs",
+    "a": 78,
+    "d": 0
+   },
+   {
+    "f": "workers/sala/src/index.ts",
+    "a": 205,
+    "d": 3
+   },
+   {
+    "f": "workers/sala/src/logica.ts",
+    "a": 72,
+    "d": 0
+   }
+  ]
  }
 }

@@ -1,15 +1,15 @@
 {
- "generado": "2026-11-09T03:43:17+00:00",
+ "generado": "2026-11-09T14:43:30+00:00",
  "programa": "Stellar Elite",
  "start_date": "2026-09-02T00:00:00Z",
  "teams": [
   {
    "name": "Tinkazo",
-   "total": 6447.75,
-   "per_capita": 6447.75,
-   "commits": 1009,
-   "pts_commits": 6266.75,
-   "dias_activos": 35,
+   "total": 6579.24,
+   "per_capita": 6579.24,
+   "commits": 1024,
+   "pts_commits": 6388.24,
+   "dias_activos": 37,
    "contribuidores": [
     "GuidoSV7",
     "nema1502"
@@ -362,7 +362,9 @@
    "2026-11-03": 223.31999999999996,
    "2026-11-04": 325.49,
    "2026-11-05": 55.97,
-   "2026-11-06": 101.36
+   "2026-11-06": 101.36,
+   "2026-11-08": 11.0,
+   "2026-11-09": 110.49
   },
   "CompraGasolinaBidon": {
    "2026-09-06": 1.0,
@@ -538,7 +540,9 @@
    "2026-11-03": 38,
    "2026-11-04": 44,
    "2026-11-05": 8,
-   "2026-11-06": 15
+   "2026-11-06": 15,
+   "2026-11-08": 2,
+   "2026-11-09": 13
   },
   "CompraGasolinaBidon": {
    "2026-09-06": 1,
@@ -642,6 +646,136 @@
  },
  "commits": [
   {
+   "sha": "ed95b0f",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-09T05:37:12Z",
+   "msg": "La portada dice Hecho con Stellar, con el aviso de marca en el pie",
+   "pts": 8.53,
+   "nota": ""
+  },
+  {
+   "sha": "9a0bae9",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-09T05:08:32Z",
+   "msg": "La sala valida la cuenta con su función y prueba la alarma aparte",
+   "pts": 7.83,
+   "nota": ""
+  },
+  {
+   "sha": "cebd8a8",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-09T05:02:25Z",
+   "msg": "La espera muestra el nombre de cada equipo en la cinta, no su cuenta",
+   "pts": 6.58,
+   "nota": ""
+  },
+  {
+   "sha": "b18b83c",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-09T04:59:11Z",
+   "msg": "Textos visibles: sin repeticiones, inglés parejo y más llanos",
+   "pts": 8.49,
+   "nota": ""
+  },
+  {
+   "sha": "d14b0f0",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-09T04:59:11Z",
+   "msg": "Un premio no se paga dos veces y los cupones se leen enteros",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "65814bb",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-09T04:58:55Z",
+   "msg": "El registro de un equipo solo lo cambia el celular que lo anotó",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "db9419c",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-09T04:57:25Z",
+   "msg": "Una cuenta mal copiada no deja a todos los equipos sin cupón",
+   "pts": 9.42,
+   "nota": ""
+  },
+  {
+   "sha": "fe0660c",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-09T03:29:33Z",
+   "msg": "Los nombres de la carrera cambian con fundido y la llegada se acerca",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "7cac4af",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-09T03:06:52Z",
+   "msg": "El sello con portero apunta a una ronda a 65 s y reintenta más lejos",
+   "pts": 9.98,
+   "nota": ""
+  },
+  {
+   "sha": "7c5d62f",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-09T02:40:02Z",
+   "msg": "La pantalla del stand: equipos, cupones y cuenta regresiva",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "7715969",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-09T02:40:01Z",
+   "msg": "Cuatro entradas arriba, Precios dice muy pronto y lo técnico plegado",
+   "pts": 9.13,
+   "nota": ""
+  },
+  {
+   "sha": "a2cca72",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-09T01:40:50Z",
+   "msg": "La llegada de la carrera en 3D se ve sin corte",
+   "pts": 9.53,
+   "nota": ""
+  },
+  {
+   "sha": "d947017",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-09T01:09:46Z",
+   "msg": "La carrera de llamas: marcha sin saltos, final junto y relator claro",
+   "pts": 1.0,
+   "nota": "import masivo (122 archivos)"
+  },
+  {
    "sha": "e8eaa42",
    "team": "Puls3",
    "repo": "Zer0-Knowledge-Hack/puls3",
@@ -658,6 +792,16 @@
    "author": "XxHugheadxX",
    "date": "2026-11-08T17:01:05Z",
    "msg": "spike: anchor and verify a Nirium receipt for a settled escrow job (#246) (#248)",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "74124b9",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-08T16:55:57Z",
+   "msg": "El QR de la marca y la colección de stickers",
    "pts": 10,
    "nota": ""
   },
@@ -700,6 +844,16 @@
    "msg": "feat(demo): modelo de negocio, GTM y roadmap animados desde Notion; contacto@tilcai.com",
    "pts": 10,
    "nota": ""
+  },
+  {
+   "sha": "f1275cb",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-08T04:41:43Z",
+   "msg": "Equipos con cupón, premios pagados, saldo y monedas, tras banderas",
+   "pts": 1.0,
+   "nota": "import masivo (118 archivos)"
   },
   {
    "sha": "fdc716a",
