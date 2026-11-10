@@ -159395,5 +159395,805 @@
     "d": 0
    }
   ]
+ },
+ "34eef3cbd28b6e9a0e05a59caf4e4f34f8cbf2eb": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-09T17:36:23Z",
+  "message": "Sitio: Precios en frases completas, pie en celular y firma legible",
+  "parents": 1,
+  "files": [
+   {
+    "f": "precios.html",
+    "a": 4,
+    "d": 4
+   },
+   {
+    "f": "src/hecho-con-stellar.test.ts",
+    "a": 14,
+    "d": 0
+   },
+   {
+    "f": "src/i18n.ts",
+    "a": 8,
+    "d": 8
+   },
+   {
+    "f": "src/pie.test.ts",
+    "a": 9,
+    "d": 0
+   },
+   {
+    "f": "src/precios.test.ts",
+    "a": 14,
+    "d": 0
+   },
+   {
+    "f": "src/revision-textos.test.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/styles.css",
+    "a": 10,
+    "d": 5
+   }
+  ]
+ },
+ "e205ae2ba4f1d9d26af519a556cda413e2f78135": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-09T17:36:23Z",
+  "message": "Auditores del sitio: esperan a las imágenes y miden el ejemplo de hoy",
+  "parents": 1,
+  "files": [
+   {
+    "f": "scripts/audit-detalles.mjs",
+    "a": 59,
+    "d": 21
+   },
+   {
+    "f": "scripts/check-paginas.mjs",
+    "a": 67,
+    "d": 26
+   },
+   {
+    "f": "src/auditor-detalles.test.ts",
+    "a": 17,
+    "d": 8
+   }
+  ]
+ },
+ "f905c153e77b9c709f849c8c2a978ebbc147218a": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-09T17:36:22Z",
+  "message": "Si quien cubre la comisión no contesta, se ofrece volver a probar",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/ui/red-acciones.ts",
+    "a": 12,
+    "d": 5
+   },
+   {
+    "f": "src/ui/red-patrocinio.test.ts",
+    "a": 19,
+    "d": 7
+   }
+  ]
+ },
+ "3751684d42881bf479c0caf3c9b613603a3ec5d4": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-09T17:36:22Z",
+  "message": "Stand de equipos: lista completa de cupones y detalles de pantalla",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/equipos/equipos.css",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "src/equipos/equipos.test.ts",
+    "a": 27,
+    "d": 0
+   },
+   {
+    "f": "src/equipos/estado.ts",
+    "a": 8,
+    "d": 4
+   },
+   {
+    "f": "src/equipos/pantalla-stand.test.ts",
+    "a": 10,
+    "d": 0
+   },
+   {
+    "f": "src/equipos/pantalla-stand.ts",
+    "a": 10,
+    "d": 2
+   },
+   {
+    "f": "src/equipos/registro.test.ts",
+    "a": 58,
+    "d": 0
+   },
+   {
+    "f": "src/equipos/registro.ts",
+    "a": 67,
+    "d": 26
+   },
+   {
+    "f": "src/equipos/textos.ts",
+    "a": 16,
+    "d": 6
+   },
+   {
+    "f": "src/ui/equipos-sala.test.ts",
+    "a": 181,
+    "d": 1
+   },
+   {
+    "f": "src/ui/equipos-sala.ts",
+    "a": 96,
+    "d": 26
+   },
+   {
+    "f": "src/ui/pantalla-stand.test.ts",
+    "a": 21,
+    "d": 2
+   },
+   {
+    "f": "src/ui/pantalla-stand.ts",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "src/ui/siguiente.test.ts",
+    "a": 74,
+    "d": 0
+   },
+   {
+    "f": "src/ui/siguiente.ts",
+    "a": 38,
+    "d": 1
+   }
+  ]
+ },
+ "98c8715e742aab7e0d8a9d23c3cbf655f9cf362a": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-09T17:36:21Z",
+  "message": "Sitio: cabecera pareja y detalles de Precios, portada y pie",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/ux.md",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "precios.html",
+    "a": 4,
+    "d": 4
+   },
+   {
+    "f": "scripts/audit-detalles.mjs",
+    "a": 18,
+    "d": 2
+   },
+   {
+    "f": "src/auditor-detalles.test.ts",
+    "a": 36,
+    "d": 0
+   },
+   {
+    "f": "src/cabecera.test.ts",
+    "a": 49,
+    "d": 0
+   },
+   {
+    "f": "src/pie.test.ts",
+    "a": 34,
+    "d": 0
+   },
+   {
+    "f": "src/portada-cta.test.ts",
+    "a": 18,
+    "d": 0
+   },
+   {
+    "f": "src/precios.test.ts",
+    "a": 42,
+    "d": 0
+   },
+   {
+    "f": "src/styles.css",
+    "a": 23,
+    "d": 10
+   }
+  ]
+ },
+ "73e92f3e136c1648e7002f97bfe6870f30a5315e": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-09T17:36:20Z",
+  "message": "Carrera 3D: fichas del final y de la largada sin pisarse",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/games/llamas/carrera-3d-mapa.ts",
+    "a": 24,
+    "d": 0
+   },
+   {
+    "f": "src/games/llamas/carrera-3d.ts",
+    "a": 15,
+    "d": 3
+   },
+   {
+    "f": "src/games/llamas/carrera-final-fichas.test.ts",
+    "a": 213,
+    "d": 0
+   },
+   {
+    "f": "src/games/llamas/carrera-final-fichas.ts",
+    "a": 66,
+    "d": 0
+   },
+   {
+    "f": "src/games/llamas/carrera.ts",
+    "a": 38,
+    "d": 12
+   }
+  ]
+ },
+ "bb671e2b425bc46b34d28aa18cddb56ec3126826": {
+  "team": "MinerTrace",
+  "repo": "Dante1128/MinerTracer",
+  "author": "dilanCimarChn",
+  "date": "2026-11-09T16:26:19Z",
+  "message": "Merge pull request #3 from Dante1128/devDC",
+  "parents": 2,
+  "files": [
+   {
+    "f": "GUIA.md",
+    "a": 4,
+    "d": 2
+   },
+   {
+    "f": "MinerTrace.md",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "PRODUCCION.md",
+    "a": 79,
+    "d": 0
+   },
+   {
+    "f": "README.md",
+    "a": 12,
+    "d": 2
+   },
+   {
+    "f": "TECNICO.md",
+    "a": 463,
+    "d": 0
+   },
+   {
+    "f": "package.json",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "server/.env.example",
+    "a": 19,
+    "d": 1
+   },
+   {
+    "f": "server/package-lock.json",
+    "a": 36,
+    "d": 167
+   },
+   {
+    "f": "server/package.json",
+    "a": 3,
+    "d": 2
+   },
+   {
+    "f": "server/scripts/crear-supervisor.ts",
+    "a": 42,
+    "d": 0
+   },
+   {
+    "f": "server/scripts/poblar-demo.ts",
+    "a": 45,
+    "d": 19
+   },
+   {
+    "f": "server/src/app.ts",
+    "a": 11,
+    "d": 1
+   },
+   {
+    "f": "server/src/auth.ts",
+    "a": 65,
+    "d": 21
+   },
+   {
+    "f": "server/src/config.ts",
+    "a": 28,
+    "d": 0
+   },
+   {
+    "f": "server/src/contexto.ts",
+    "a": 3,
+    "d": 1
+   },
+   {
+    "f": "server/src/correo.ts",
+    "a": 80,
+    "d": 0
+   },
+   {
+    "f": "server/src/db/esquema.ts",
+    "a": 39,
+    "d": 0
+   },
+   {
+    "f": "server/src/db/index.ts",
+    "a": 22,
+    "d": 1
+   },
+   {
+    "f": "server/src/index.ts",
+    "a": 5,
+    "d": 1
+   },
+   {
+    "f": "server/src/rutas/contraAnalisis.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "server/src/rutas/cuentas.ts",
+    "a": 136,
+    "d": 0
+   },
+   {
+    "f": "server/src/rutas/demo.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "server/src/rutas/laboratorio.ts",
+    "a": 3,
+    "d": 20
+   },
+   {
+    "f": "server/src/seguridad.ts",
+    "a": 39,
+    "d": 0
+   },
+   {
+    "f": "server/src/servicios/cuentas.ts",
+    "a": 53,
+    "d": 0
+   },
+   {
+    "f": "server/test/cuentas.test.ts",
+    "a": 294,
+    "d": 0
+   },
+   {
+    "f": "server/test/firmaWallet.test.ts",
+    "a": 20,
+    "d": 18
+   },
+   {
+    "f": "server/test/flujo.test.ts",
+    "a": 33,
+    "d": 17
+   },
+   {
+    "f": "server/test/mercado.test.ts",
+    "a": 3,
+    "d": 1
+   },
+   {
+    "f": "server/test/seguridad.test.ts",
+    "a": 47,
+    "d": 0
+   },
+   {
+    "f": "web/src/api.ts",
+    "a": 28,
+    "d": 25
+   },
+   {
+    "f": "web/src/componentes/Layout.tsx",
+    "a": 15,
+    "d": 2
+   },
+   {
+    "f": "web/src/main.tsx",
+    "a": 6,
+    "d": 0
+   },
+   {
+    "f": "web/src/paginas/Login.tsx",
+    "a": 6,
+    "d": 3
+   },
+   {
+    "f": "web/src/paginas/MiCuenta.tsx",
+    "a": 48,
+    "d": 0
+   },
+   {
+    "f": "web/src/paginas/NuevoAnalisis.tsx",
+    "a": 23,
+    "d": 4
+   },
+   {
+    "f": "web/src/paginas/Panel.tsx",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "web/src/paginas/RecuperarAcceso.tsx",
+    "a": 62,
+    "d": 0
+   },
+   {
+    "f": "web/src/paginas/Usuarios.tsx",
+    "a": 77,
+    "d": 0
+   },
+   {
+    "f": "web/src/sesion.tsx",
+    "a": 32,
+    "d": 15
+   }
+  ]
+ },
+ "ac00436cb1fc09c743359508e2c187a0ca27da35": {
+  "team": "MinerTrace",
+  "repo": "Dante1128/MinerTracer",
+  "author": "dilanCimarChn",
+  "date": "2026-11-05T00:37:54Z",
+  "message": "docs: actualizar acceso y despliegue",
+  "parents": 1,
+  "files": [
+   {
+    "f": "GUIA.md",
+    "a": 2,
+    "d": 1
+   },
+   {
+    "f": "MinerTrace.md",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "PRODUCCION.md",
+    "a": 58,
+    "d": 11
+   },
+   {
+    "f": "README.md",
+    "a": 10,
+    "d": 1
+   }
+  ]
+ },
+ "9ec5329b2403c1aa9f91f7e3faaf1b4304a4a94c": {
+  "team": "MinerTrace",
+  "repo": "Dante1128/MinerTracer",
+  "author": "dilanCimarChn",
+  "date": "2026-11-05T00:37:52Z",
+  "message": "fix: adaptar demo a sesiones con cookies",
+  "parents": 1,
+  "files": [
+   {
+    "f": "server/scripts/poblar-demo.ts",
+    "a": 45,
+    "d": 19
+   }
+  ]
+ },
+ "37a6603c22fcdcd5c981ae9eb232812030442a37": {
+  "team": "MinerTrace",
+  "repo": "Dante1128/MinerTracer",
+  "author": "dilanCimarChn",
+  "date": "2026-11-05T00:37:29Z",
+  "message": "feat: gestionar cuentas y sesiones seguras",
+  "parents": 1,
+  "files": [
+   {
+    "f": "package.json",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "server/.env.example",
+    "a": 18,
+    "d": 0
+   },
+   {
+    "f": "server/package-lock.json",
+    "a": 36,
+    "d": 167
+   },
+   {
+    "f": "server/package.json",
+    "a": 3,
+    "d": 2
+   },
+   {
+    "f": "server/scripts/crear-supervisor.ts",
+    "a": 42,
+    "d": 0
+   },
+   {
+    "f": "server/src/app.ts",
+    "a": 7,
+    "d": 1
+   },
+   {
+    "f": "server/src/auth.ts",
+    "a": 65,
+    "d": 22
+   },
+   {
+    "f": "server/src/config.ts",
+    "a": 21,
+    "d": 0
+   },
+   {
+    "f": "server/src/contexto.ts",
+    "a": 3,
+    "d": 1
+   },
+   {
+    "f": "server/src/correo.ts",
+    "a": 80,
+    "d": 0
+   },
+   {
+    "f": "server/src/db/esquema.ts",
+    "a": 39,
+    "d": 0
+   },
+   {
+    "f": "server/src/db/index.ts",
+    "a": 22,
+    "d": 1
+   },
+   {
+    "f": "server/src/index.ts",
+    "a": 4,
+    "d": 0
+   },
+   {
+    "f": "server/src/rutas/contraAnalisis.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "server/src/rutas/cuentas.ts",
+    "a": 136,
+    "d": 0
+   },
+   {
+    "f": "server/src/rutas/demo.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "server/src/rutas/laboratorio.ts",
+    "a": 3,
+    "d": 30
+   },
+   {
+    "f": "server/src/seguridad.ts",
+    "a": 23,
+    "d": 16
+   },
+   {
+    "f": "server/src/servicios/cuentas.ts",
+    "a": 53,
+    "d": 0
+   },
+   {
+    "f": "server/test/cuentas.test.ts",
+    "a": 294,
+    "d": 0
+   },
+   {
+    "f": "server/test/firmaWallet.test.ts",
+    "a": 20,
+    "d": 18
+   },
+   {
+    "f": "server/test/flujo.test.ts",
+    "a": 19,
+    "d": 17
+   },
+   {
+    "f": "server/test/mercado.test.ts",
+    "a": 3,
+    "d": 1
+   },
+   {
+    "f": "server/test/seguridad.test.ts",
+    "a": 26,
+    "d": 1
+   },
+   {
+    "f": "web/src/api.ts",
+    "a": 28,
+    "d": 25
+   },
+   {
+    "f": "web/src/componentes/Layout.tsx",
+    "a": 15,
+    "d": 2
+   },
+   {
+    "f": "web/src/main.tsx",
+    "a": 6,
+    "d": 0
+   },
+   {
+    "f": "web/src/paginas/Login.tsx",
+    "a": 6,
+    "d": 3
+   },
+   {
+    "f": "web/src/paginas/MiCuenta.tsx",
+    "a": 48,
+    "d": 0
+   },
+   {
+    "f": "web/src/paginas/RecuperarAcceso.tsx",
+    "a": 62,
+    "d": 0
+   },
+   {
+    "f": "web/src/paginas/Usuarios.tsx",
+    "a": 77,
+    "d": 0
+   },
+   {
+    "f": "web/src/sesion.tsx",
+    "a": 32,
+    "d": 15
+   }
+  ]
+ },
+ "3fb0efd127c9fb21188777861401c0bdb87e2fd3": {
+  "team": "MinerTrace",
+  "repo": "Dante1128/MinerTracer",
+  "author": "dilanCimarChn",
+  "date": "2026-11-03T23:53:45Z",
+  "message": "docs: agregar guía de producción y mejoras",
+  "parents": 1,
+  "files": [
+   {
+    "f": "PRODUCCION.md",
+    "a": 32,
+    "d": 0
+   }
+  ]
+ },
+ "8f66546d9aaf0cab86526f40ea449bfa1d14cf49": {
+  "team": "MinerTrace",
+  "repo": "Dante1128/MinerTracer",
+  "author": "dilanCimarChn",
+  "date": "2026-11-03T23:53:42Z",
+  "message": "feat: simplificar registro y firma de análisis",
+  "parents": 1,
+  "files": [
+   {
+    "f": "web/src/paginas/NuevoAnalisis.tsx",
+    "a": 23,
+    "d": 4
+   },
+   {
+    "f": "web/src/paginas/Panel.tsx",
+    "a": 1,
+    "d": 0
+   }
+  ]
+ },
+ "d32e50f58e3ce475827af58b05687712d62544bb": {
+  "team": "MinerTrace",
+  "repo": "Dante1128/MinerTracer",
+  "author": "dilanCimarChn",
+  "date": "2026-11-03T23:53:25Z",
+  "message": "fix: reforzar seguridad y acceso en producción",
+  "parents": 1,
+  "files": [
+   {
+    "f": "server/.env.example",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "server/src/app.ts",
+    "a": 4,
+    "d": 0
+   },
+   {
+    "f": "server/src/auth.ts",
+    "a": 2,
+    "d": 1
+   },
+   {
+    "f": "server/src/config.ts",
+    "a": 7,
+    "d": 0
+   },
+   {
+    "f": "server/src/index.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "server/src/rutas/laboratorio.ts",
+    "a": 11,
+    "d": 1
+   },
+   {
+    "f": "server/src/seguridad.ts",
+    "a": 32,
+    "d": 0
+   },
+   {
+    "f": "server/test/flujo.test.ts",
+    "a": 14,
+    "d": 0
+   },
+   {
+    "f": "server/test/seguridad.test.ts",
+    "a": 22,
+    "d": 0
+   }
+  ]
+ },
+ "2db2ea29f6008584c4a25a40dda9149382a314d8": {
+  "team": "MinerTrace",
+  "repo": "Dante1128/MinerTracer",
+  "author": "dilanCimarChn",
+  "date": "2026-10-10T13:07:10Z",
+  "message": "docs: documento técnico de la capa blockchain",
+  "parents": 1,
+  "files": [
+   {
+    "f": "GUIA.md",
+    "a": 2,
+    "d": 1
+   },
+   {
+    "f": "README.md",
+    "a": 2,
+    "d": 1
+   },
+   {
+    "f": "TECNICO.md",
+    "a": 463,
+    "d": 0
+   }
+  ]
  }
 }

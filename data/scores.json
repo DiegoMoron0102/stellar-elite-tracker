@@ -1,14 +1,14 @@
 {
- "generado": "2026-11-09T14:43:30+00:00",
+ "generado": "2026-11-10T00:59:19+00:00",
  "programa": "Stellar Elite",
  "start_date": "2026-09-02T00:00:00Z",
  "teams": [
   {
    "name": "Tinkazo",
-   "total": 6579.24,
-   "per_capita": 6579.24,
-   "commits": 1024,
-   "pts_commits": 6388.24,
+   "total": 6630.1,
+   "per_capita": 6630.1,
+   "commits": 1030,
+   "pts_commits": 6439.1,
    "dias_activos": 37,
    "contribuidores": [
     "GuidoSV7",
@@ -82,6 +82,23 @@
    "rank": 4
   },
   {
+   "name": "MinerTrace",
+   "total": 310.53,
+   "per_capita": 310.53,
+   "commits": 39,
+   "pts_commits": 269.53,
+   "dias_activos": 7,
+   "contribuidores": [
+    "Dante1128",
+    "dilanCimarChn"
+   ],
+   "tamano": 1,
+   "repos": [
+    "Dante1128/MinerTracer"
+   ],
+   "rank": 5
+  },
+  {
    "name": "Stellar Flash",
    "total": 294.28,
    "per_capita": 294.28,
@@ -94,23 +111,6 @@
    "tamano": 1,
    "repos": [
     "nadevrix/stellar-flash"
-   ],
-   "rank": 5
-  },
-  {
-   "name": "MinerTrace",
-   "total": 241.67,
-   "per_capita": 241.67,
-   "commits": 31,
-   "pts_commits": 215.67,
-   "dias_activos": 4,
-   "contribuidores": [
-    "Dante1128",
-    "dilanCimarChn"
-   ],
-   "tamano": 1,
-   "repos": [
-    "Dante1128/MinerTracer"
    ],
    "rank": 6
   },
@@ -364,7 +364,7 @@
    "2026-11-05": 55.97,
    "2026-11-06": 101.36,
    "2026-11-08": 11.0,
-   "2026-11-09": 110.49
+   "2026-11-09": 161.34999999999997
   },
   "CompraGasolinaBidon": {
    "2026-09-06": 1.0,
@@ -430,7 +430,11 @@
    "2026-09-28": 10.97,
    "2026-10-05": 127.81,
    "2026-10-06": 7.09,
-   "2026-10-09": 69.80000000000001
+   "2026-10-09": 69.80000000000001,
+   "2026-10-10": 9.88,
+   "2026-11-03": 19.53,
+   "2026-11-05": 24.45,
+   "2026-11-09": 0.0
   },
   "TilcAI": {
    "2026-09-27": 23.66,
@@ -542,7 +546,7 @@
    "2026-11-05": 8,
    "2026-11-06": 15,
    "2026-11-08": 2,
-   "2026-11-09": 13
+   "2026-11-09": 19
   },
   "CompraGasolinaBidon": {
    "2026-09-06": 1,
@@ -608,7 +612,11 @@
    "2026-09-28": 3,
    "2026-10-05": 15,
    "2026-10-06": 1,
-   "2026-10-09": 12
+   "2026-10-09": 12,
+   "2026-10-10": 1,
+   "2026-11-03": 3,
+   "2026-11-05": 3,
+   "2026-11-09": 1
   },
   "TilcAI": {
    "2026-09-27": 3,
@@ -645,6 +653,76 @@
   }
  },
  "commits": [
+  {
+   "sha": "34eef3c",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-09T17:36:23Z",
+   "msg": "Sitio: Precios en frases completas, pie en celular y firma legible",
+   "pts": 7.3,
+   "nota": ""
+  },
+  {
+   "sha": "e205ae2",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-09T17:36:23Z",
+   "msg": "Auditores del sitio: esperan a las imágenes y miden el ejemplo de hoy",
+   "pts": 8.64,
+   "nota": ""
+  },
+  {
+   "sha": "f905c15",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-09T17:36:22Z",
+   "msg": "Si quien cubre la comisión no contesta, se ofrece volver a probar",
+   "pts": 6.46,
+   "nota": ""
+  },
+  {
+   "sha": "3751684",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-09T17:36:22Z",
+   "msg": "Stand de equipos: lista completa de cupones y detalles de pantalla",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "98c8715",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-09T17:36:21Z",
+   "msg": "Sitio: cabecera pareja y detalles de Precios, portada y pie",
+   "pts": 8.92,
+   "nota": ""
+  },
+  {
+   "sha": "73e92f3",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-09T17:36:20Z",
+   "msg": "Carrera 3D: fichas del final y de la largada sin pisarse",
+   "pts": 9.54,
+   "nota": ""
+  },
+  {
+   "sha": "bb671e2",
+   "team": "MinerTrace",
+   "repo": "Dante1128/MinerTracer",
+   "author": "dilanCimarChn",
+   "date": "2026-11-09T16:26:19Z",
+   "msg": "Merge pull request #3 from Dante1128/devDC",
+   "pts": 0.0,
+   "nota": "merge"
+  },
   {
    "sha": "ed95b0f",
    "team": "Tinkazo",
@@ -1356,6 +1434,36 @@
    "nota": "import masivo (66 archivos)"
   },
   {
+   "sha": "ac00436",
+   "team": "MinerTrace",
+   "repo": "Dante1128/MinerTracer",
+   "author": "dilanCimarChn",
+   "date": "2026-11-05T00:37:54Z",
+   "msg": "docs: actualizar acceso y despliegue",
+   "pts": 7.43,
+   "nota": ""
+  },
+  {
+   "sha": "9ec5329",
+   "team": "MinerTrace",
+   "repo": "Dante1128/MinerTracer",
+   "author": "dilanCimarChn",
+   "date": "2026-11-05T00:37:52Z",
+   "msg": "fix: adaptar demo a sesiones con cookies",
+   "pts": 7.02,
+   "nota": ""
+  },
+  {
+   "sha": "37a6603",
+   "team": "MinerTrace",
+   "repo": "Dante1128/MinerTracer",
+   "author": "dilanCimarChn",
+   "date": "2026-11-05T00:37:29Z",
+   "msg": "feat: gestionar cuentas y sesiones seguras",
+   "pts": 10,
+   "nota": ""
+  },
+  {
    "sha": "d194d2a",
    "team": "Tinkazo",
    "repo": "nema1502/tinkazo",
@@ -1853,6 +1961,36 @@
    "date": "2026-11-04T00:13:31Z",
    "msg": "La tarjeta de mesa impresa entra entera en su mitad de la hoja: el QR pasa a una columna a la derecha, con la frase prin",
    "pts": 5.25,
+   "nota": ""
+  },
+  {
+   "sha": "3fb0efd",
+   "team": "MinerTrace",
+   "repo": "Dante1128/MinerTracer",
+   "author": "dilanCimarChn",
+   "date": "2026-11-03T23:53:45Z",
+   "msg": "docs: agregar guía de producción y mejoras",
+   "pts": 6.04,
+   "nota": ""
+  },
+  {
+   "sha": "8f66546",
+   "team": "MinerTrace",
+   "repo": "Dante1128/MinerTracer",
+   "author": "dilanCimarChn",
+   "date": "2026-11-03T23:53:42Z",
+   "msg": "feat: simplificar registro y firma de análisis",
+   "pts": 5.86,
+   "nota": ""
+  },
+  {
+   "sha": "d32e50f",
+   "team": "MinerTrace",
+   "repo": "Dante1128/MinerTracer",
+   "author": "dilanCimarChn",
+   "date": "2026-11-03T23:53:25Z",
+   "msg": "fix: reforzar seguridad y acceso en producción",
+   "pts": 7.63,
    "nota": ""
   },
   {
@@ -10563,6 +10701,16 @@
    "date": "2026-10-10T13:47:51Z",
    "msg": "feat(i18n): update environment labels and roadmap items",
    "pts": 9.16,
+   "nota": ""
+  },
+  {
+   "sha": "2db2ea2",
+   "team": "MinerTrace",
+   "repo": "Dante1128/MinerTracer",
+   "author": "dilanCimarChn",
+   "date": "2026-10-10T13:07:10Z",
+   "msg": "docs: documento técnico de la capa blockchain",
+   "pts": 9.88,
    "nota": ""
   },
   {
