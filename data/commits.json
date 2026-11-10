@@ -160195,5 +160195,1210 @@
     "d": 0
    }
   ]
+ },
+ "38d7c9fcef21cea488949b972b79e734f56c1c61": {
+  "team": "Puls3",
+  "repo": "Zer0-Knowledge-Hack/puls3",
+  "author": "XxHugheadxX",
+  "date": "2026-11-10T05:51:03Z",
+  "message": "feat(mcp): add puls3_mcp, a stdio MCP server over puls3_sdk (#226) (#267)",
+  "parents": 1,
+  "files": [
+   {
+    "f": ".github/workflows/ci.yml",
+    "a": 3,
+    "d": 1
+   },
+   {
+    "f": "README.md",
+    "a": 3,
+    "d": 0
+   },
+   {
+    "f": "docs/adr/0007-developer-sdk.md",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "docs/mcp/setup.md",
+    "a": 104,
+    "d": 0
+   },
+   {
+    "f": "pubspec.lock",
+    "a": 24,
+    "d": 0
+   },
+   {
+    "f": "pubspec.yaml",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "puls3_mcp/README.md",
+    "a": 45,
+    "d": 0
+   },
+   {
+    "f": "puls3_mcp/analysis_options.yaml",
+    "a": 9,
+    "d": 0
+   },
+   {
+    "f": "puls3_mcp/bin/puls3_mcp.dart",
+    "a": 40,
+    "d": 0
+   },
+   {
+    "f": "puls3_mcp/lib/puls3_mcp.dart",
+    "a": 6,
+    "d": 0
+   },
+   {
+    "f": "puls3_mcp/lib/src/puls3_mcp_server.dart",
+    "a": 221,
+    "d": 0
+   },
+   {
+    "f": "puls3_mcp/pubspec.yaml",
+    "a": 23,
+    "d": 0
+   },
+   {
+    "f": "puls3_mcp/test/puls3_mcp_server_test.dart",
+    "a": 327,
+    "d": 0
+   }
+  ]
+ },
+ "1633d1e7696232a4ee205c3de643cb82957b1b80": {
+  "team": "Puls3",
+  "repo": "Zer0-Knowledge-Hack/puls3",
+  "author": "XxHugheadxX",
+  "date": "2026-11-10T05:28:53Z",
+  "message": "test(server): lock that a Studio hire runs the published version on the builder credential (#220) (#233)",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/domain/hire-lifecycle.md",
+    "a": 4,
+    "d": 0
+   },
+   {
+    "f": "docs/infra/secrets.md",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/README.md",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "puls3_server/lib/src/generated/protocol.dart",
+    "a": 103,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/generated/studio/builder_credential_record.dart",
+    "a": 763,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/runtime/agent_runtime_wiring.dart",
+    "a": 20,
+    "d": 25
+   },
+   {
+    "f": "puls3_server/lib/src/runtime/run_execution.dart",
+    "a": 49,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/studio/builder_credential_record.spy.yaml",
+    "a": 36,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/studio/serverpod_builder_credential_store.dart",
+    "a": 118,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/studio/studio_endpoint.dart",
+    "a": 50,
+    "d": 9
+   },
+   {
+    "f": "puls3_server/migrations/20261107055052324/definition.json",
+    "a": 4934,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/migrations/20261107055052324/definition.sql",
+    "a": 1084,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/migrations/20261107055052324/definition_project.json",
+    "a": 1727,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/migrations/20261107055052324/migration.json",
+    "a": 116,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/migrations/20261107055052324/migration.sql",
+    "a": 55,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/migrations/migration_registry.txt",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/test/integration/builder_credential_store_test.dart",
+    "a": 214,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/test/studio/studio_endpoint_test.dart",
+    "a": 77,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/test/unit/runtime/studio_hire_run_test.dart",
+    "a": 347,
+    "d": 0
+   }
+  ]
+ },
+ "f3bbdfe8738d6178cdb31e2bcc2ae150d48e3b53": {
+  "team": "Puls3",
+  "repo": "Zer0-Knowledge-Hack/puls3",
+  "author": "XxHugheadxX",
+  "date": "2026-11-10T05:23:43Z",
+  "message": "fix(app): forget the session when a call is refused after a failed refresh (#261) (#265)",
+  "parents": 1,
+  "files": [
+   {
+    "f": "puls3_flutter/lib/src/hire/server_hire_gateway.dart",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/test/hire/wallet_session_test.dart",
+    "a": 30,
+    "d": 0
+   }
+  ]
+ },
+ "e525e2d73a980024aba012256b5ccb07edac99c4": {
+  "team": "Puls3",
+  "repo": "Zer0-Knowledge-Hack/puls3",
+  "author": "XxHugheadxX",
+  "date": "2026-11-10T05:14:48Z",
+  "message": "docs: add the Stellar friction log for the HackMeridian developer survey (#228)",
+  "parents": 1,
+  "files": [
+   {
+    "f": "FrictionLog.md",
+    "a": 161,
+    "d": 0
+   }
+  ]
+ },
+ "4a4a7ed48d5f04192ead1f5c08b9ebc46cb1ef42": {
+  "team": "Puls3",
+  "repo": "Zer0-Knowledge-Hack/puls3",
+  "author": "XxHugheadxX",
+  "date": "2026-11-10T05:13:33Z",
+  "message": "docs(sdk): add the SDK quickstart for the catalog (#223) (#260)",
+  "parents": 1,
+  "files": [
+   {
+    "f": "README.md",
+    "a": 2,
+    "d": 0
+   },
+   {
+    "f": "docs/adr/0007-developer-sdk.md",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "docs/sdk/quickstart.md",
+    "a": 117,
+    "d": 0
+   },
+   {
+    "f": "puls3_sdk/example/list_catalog.dart",
+    "a": 24,
+    "d": 1
+   }
+  ]
+ },
+ "91f344b3ee491fe782c57841b154d42650a6d77e": {
+  "team": "Puls3",
+  "repo": "Zer0-Knowledge-Hack/puls3",
+  "author": "fercodes",
+  "date": "2026-11-10T02:59:04Z",
+  "message": "fix(app): forget the wallet session on disconnect (#261) (#263)",
+  "parents": 1,
+  "files": [
+   {
+    "f": "puls3_flutter/lib/main.dart",
+    "a": 13,
+    "d": 9
+   },
+   {
+    "f": "puls3_flutter/lib/src/app.dart",
+    "a": 9,
+    "d": 1
+   },
+   {
+    "f": "puls3_flutter/lib/src/hire/server_hire_gateway.dart",
+    "a": 5,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/lib/src/state/wallet_controller.dart",
+    "a": 18,
+    "d": 4
+   },
+   {
+    "f": "puls3_flutter/test/helpers.dart",
+    "a": 2,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/test/hire/hire_flow_controller_test.dart",
+    "a": 25,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/test/hire/server_hire_gateway_test.dart",
+    "a": 31,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/test/wallet/wallet_connection_test.dart",
+    "a": 23,
+    "d": 1
+   }
+  ]
+ },
+ "64ccad61e3273d2b04adfb594a88b11eb81f421d": {
+  "team": "Puls3",
+  "repo": "Zer0-Knowledge-Hack/puls3",
+  "author": "XxHugheadxX",
+  "date": "2026-11-10T02:39:07Z",
+  "message": "docs(studio): add the Agent Studio builder guide (#221) (#234)",
+  "parents": 1,
+  "files": [
+   {
+    "f": "README.md",
+    "a": 2,
+    "d": 0
+   },
+   {
+    "f": "docs/studio/builder-guide.md",
+    "a": 115,
+    "d": 0
+   }
+  ]
+ },
+ "4730bd43ee98da19328de3b685b219c181716403": {
+  "team": "Puls3",
+  "repo": "Zer0-Knowledge-Hack/puls3",
+  "author": "XxHugheadxX",
+  "date": "2026-11-10T01:59:27Z",
+  "message": "feat(sdk): add puls3_sdk with the catalog and ADR-0007 (#222) (#229)",
+  "parents": 1,
+  "files": [
+   {
+    "f": ".github/workflows/ci.yml",
+    "a": 28,
+    "d": 6
+   },
+   {
+    "f": "docs/adr/0007-developer-sdk.md",
+    "a": 76,
+    "d": 0
+   },
+   {
+    "f": "docs/architecture/api.md",
+    "a": 2,
+    "d": 0
+   },
+   {
+    "f": "pubspec.yaml",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "puls3_sdk/README.md",
+    "a": 70,
+    "d": 0
+   },
+   {
+    "f": "puls3_sdk/analysis_options.yaml",
+    "a": 9,
+    "d": 0
+   },
+   {
+    "f": "puls3_sdk/example/list_catalog.dart",
+    "a": 38,
+    "d": 0
+   },
+   {
+    "f": "puls3_sdk/lib/puls3_sdk.dart",
+    "a": 12,
+    "d": 0
+   },
+   {
+    "f": "puls3_sdk/lib/src/catalog.dart",
+    "a": 25,
+    "d": 0
+   },
+   {
+    "f": "puls3_sdk/lib/src/puls3_sdk.dart",
+    "a": 83,
+    "d": 0
+   },
+   {
+    "f": "puls3_sdk/pubspec.yaml",
+    "a": 16,
+    "d": 0
+   },
+   {
+    "f": "puls3_sdk/test/catalog_test.dart",
+    "a": 138,
+    "d": 0
+   }
+  ]
+ },
+ "ae070b6bb2502d9c71856b20b9eed4590aef039e": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-10T02:53:28Z",
+  "message": "El tope por prueba sube a un minuto para no confundir carga con falla",
+  "parents": 1,
+  "files": [
+   {
+    "f": "vite.config.ts",
+    "a": 4,
+    "d": 3
+   }
+  ]
+ },
+ "9cf31735bc353b570976aff6af4d4cd5050c75f1": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-10T02:04:43Z",
+  "message": "La cinta dentro de la cabecera fija no tapa lo que se lleva a la vista",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/styles.css",
+    "a": 7,
+    "d": 5
+   },
+   {
+    "f": "src/version-nueva.test.ts",
+    "a": 72,
+    "d": 0
+   },
+   {
+    "f": "src/version-nueva.ts",
+    "a": 14,
+    "d": 5
+   }
+  ]
+ },
+ "c308ac46348ea07b87ac6345785be486d8406aa7": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-10T00:38:41Z",
+  "message": "El auditor de flujo espera a la red de pruebas en el costo alto",
+  "parents": 1,
+  "files": [
+   {
+    "f": "scripts/audit-flujo.mjs",
+    "a": 18,
+    "d": 2
+   }
+  ]
+ },
+ "8b4949c6f4528654a990f581cfbf59419e716852": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-09T21:50:45Z",
+  "message": "La cinta de versión nueva se acomoda mejor en celular",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/styles.css",
+    "a": 12,
+    "d": 7
+   },
+   {
+    "f": "src/version-nueva.test.ts",
+    "a": 246,
+    "d": 0
+   },
+   {
+    "f": "src/version-nueva.ts",
+    "a": 52,
+    "d": 5
+   }
+  ]
+ },
+ "53b28df0701e085a5ed99bb972ef93d668f915bc": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-09T21:25:04Z",
+  "message": "Junta en uno los dos imports de la lista de turnos en verificar",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/verify.ts",
+    "a": 1,
+    "d": 2
+   }
+  ]
+ },
+ "59111cad13514481adb4a7ce1fa2bf607bdba2ad": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-09T21:25:04Z",
+  "message": "La foto del evento cuenta un orden de turnos por personas",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/ui/compartir.test.ts",
+    "a": 13,
+    "d": 0
+   },
+   {
+    "f": "src/ui/compartir.ts",
+    "a": 22,
+    "d": 8
+   }
+  ]
+ },
+ "1ec9574e5a64a2e4837e49b72100260470727fb4": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-09T21:11:40Z",
+  "message": "La prueba del plan del equipo deja de depender del azar",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/stellar/cuenta-config.test.ts",
+    "a": 3,
+    "d": 1
+   }
+  ]
+ },
+ "0bacd8614ea8498c38a1f0430ab8bf11057c649f": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-09T21:11:16Z",
+  "message": "Deja listo el cambio entre el modo de prueba y el oficial",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/architecture.md",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "index.html",
+    "a": 6,
+    "d": 0
+   },
+   {
+    "f": "src/equipos-registro.ts",
+    "a": 6,
+    "d": 5
+   },
+   {
+    "f": "src/equipos/enlace.ts",
+    "a": 14,
+    "d": 1
+   },
+   {
+    "f": "src/equipos/equipos.test.ts",
+    "a": 25,
+    "d": 1
+   },
+   {
+    "f": "src/evento-modo.test.ts",
+    "a": 101,
+    "d": 0
+   },
+   {
+    "f": "src/evento-modo.ts",
+    "a": 31,
+    "d": 0
+   },
+   {
+    "f": "src/evento.ts",
+    "a": 7,
+    "d": 2
+   },
+   {
+    "f": "src/i18n-modo-oficial.ts",
+    "a": 65,
+    "d": 0
+   },
+   {
+    "f": "src/i18n.test.ts",
+    "a": 73,
+    "d": 1
+   },
+   {
+    "f": "src/i18n.ts",
+    "a": 56,
+    "d": 0
+   },
+   {
+    "f": "src/pagina.ts",
+    "a": 2,
+    "d": 1
+   },
+   {
+    "f": "src/revision-textos.test.ts",
+    "a": 25,
+    "d": 3
+   },
+   {
+    "f": "src/stellar/config-modo.test.ts",
+    "a": 140,
+    "d": 0
+   },
+   {
+    "f": "src/stellar/config.ts",
+    "a": 123,
+    "d": 4
+   },
+   {
+    "f": "src/stellar/patrocinador.test.ts",
+    "a": 66,
+    "d": 4
+   },
+   {
+    "f": "src/stellar/patrocinador.ts",
+    "a": 18,
+    "d": 6
+   },
+   {
+    "f": "src/stellar/patrocinio-config.test.ts",
+    "a": 78,
+    "d": 9
+   },
+   {
+    "f": "src/stellar/patrocinio-config.ts",
+    "a": 36,
+    "d": 14
+   },
+   {
+    "f": "src/stellar/pollar-config.test.ts",
+    "a": 58,
+    "d": 0
+   },
+   {
+    "f": "src/stellar/pollar-config.ts",
+    "a": 49,
+    "d": 0
+   },
+   {
+    "f": "src/stellar/wallet-pollar-sesion.test.ts",
+    "a": 92,
+    "d": 0
+   },
+   {
+    "f": "src/stellar/wallet-pollar.ts",
+    "a": 19,
+    "d": 9
+   },
+   {
+    "f": "src/styles.css",
+    "a": 15,
+    "d": 0
+   },
+   {
+    "f": "src/ui/account.ts",
+    "a": 8,
+    "d": 2
+   },
+   {
+    "f": "src/ui/anchor.ts",
+    "a": 3,
+    "d": 3
+   },
+   {
+    "f": "src/ui/compartir.test.ts",
+    "a": 5,
+    "d": 2
+   },
+   {
+    "f": "src/ui/compartir.ts",
+    "a": 17,
+    "d": 7
+   },
+   {
+    "f": "src/ui/envio-portero.test.ts",
+    "a": 4,
+    "d": 4
+   },
+   {
+    "f": "src/ui/equipos-sala.test.ts",
+    "a": 96,
+    "d": 1
+   },
+   {
+    "f": "src/ui/equipos-sala.ts",
+    "a": 13,
+    "d": 5
+   },
+   {
+    "f": "src/ui/espera.ts",
+    "a": 3,
+    "d": 0
+   },
+   {
+    "f": "src/ui/freeze-otra-red.test.ts",
+    "a": 390,
+    "d": 0
+   },
+   {
+    "f": "src/ui/freeze.ts",
+    "a": 54,
+    "d": 13
+   },
+   {
+    "f": "src/ui/history-otro-modo.test.ts",
+    "a": 73,
+    "d": 0
+   },
+   {
+    "f": "src/ui/history-vacio-oficial.test.ts",
+    "a": 94,
+    "d": 0
+   },
+   {
+    "f": "src/ui/history.ts",
+    "a": 37,
+    "d": 1
+   },
+   {
+    "f": "src/ui/modo-ui-confirmar.test.ts",
+    "a": 113,
+    "d": 0
+   },
+   {
+    "f": "src/ui/modo-ui.test.ts",
+    "a": 76,
+    "d": 0
+   },
+   {
+    "f": "src/ui/modo-ui.ts",
+    "a": 165,
+    "d": 0
+   },
+   {
+    "f": "src/ui/wallet-otra-red.test.ts",
+    "a": 233,
+    "d": 0
+   },
+   {
+    "f": "src/ui/wallet-ui.ts",
+    "a": 84,
+    "d": 14
+   },
+   {
+    "f": "src/verificacion-modo.test.ts",
+    "a": 66,
+    "d": 0
+   },
+   {
+    "f": "src/verificacion-modo.ts",
+    "a": 32,
+    "d": 0
+   },
+   {
+    "f": "src/verify.ts",
+    "a": 19,
+    "d": 5
+   }
+  ]
+ },
+ "f2ff0783bf128de1c655234f0b633f07ff4ced66": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-09T21:09:47Z",
+  "message": "Varias participaciones y turnos cuentan igual en todas las pantallas",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/ux.md",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "index.html",
+    "a": 38,
+    "d": 1
+   },
+   {
+    "f": "scripts/audit-modos.mjs",
+    "a": 813,
+    "d": 0
+   },
+   {
+    "f": "scripts/lib/modos-comprobaciones.mjs",
+    "a": 53,
+    "d": 0
+   },
+   {
+    "f": "scripts/lib/modos-comprobaciones.test.mjs",
+    "a": 55,
+    "d": 0
+   },
+   {
+    "f": "src/auditor-detalles.test.ts",
+    "a": 3,
+    "d": 3
+   },
+   {
+    "f": "src/c.ts",
+    "a": 6,
+    "d": 4
+   },
+   {
+    "f": "src/enlace-corto.test.ts",
+    "a": 8,
+    "d": 0
+   },
+   {
+    "f": "src/enlace-corto.ts",
+    "a": 5,
+    "d": 3
+   },
+   {
+    "f": "src/evento-textos.test.ts",
+    "a": 8,
+    "d": 0
+   },
+   {
+    "f": "src/evento.ts",
+    "a": 16,
+    "d": 3
+   },
+   {
+    "f": "src/i18n.ts",
+    "a": 435,
+    "d": 96
+   },
+   {
+    "f": "src/lista.ts",
+    "a": 11,
+    "d": 1
+   },
+   {
+    "f": "src/main.ts",
+    "a": 8,
+    "d": 1
+   },
+   {
+    "f": "src/modos/bandera.test.ts",
+    "a": 82,
+    "d": 0
+   },
+   {
+    "f": "src/modos/bandera.ts",
+    "a": 88,
+    "d": 0
+   },
+   {
+    "f": "src/modos/comprobante-turnos.test.ts",
+    "a": 139,
+    "d": 0
+   },
+   {
+    "f": "src/modos/mensajes-turnos.test.ts",
+    "a": 220,
+    "d": 0
+   },
+   {
+    "f": "src/modos/mensajes.ts",
+    "a": 41,
+    "d": 0
+   },
+   {
+    "f": "src/modos/turnos.test.ts",
+    "a": 117,
+    "d": 0
+   },
+   {
+    "f": "src/modos/turnos.ts",
+    "a": 85,
+    "d": 0
+   },
+   {
+    "f": "src/participaciones.test.ts",
+    "a": 587,
+    "d": 0
+   },
+   {
+    "f": "src/participaciones.ts",
+    "a": 416,
+    "d": 0
+   },
+   {
+    "f": "src/styles.css",
+    "a": 67,
+    "d": 0
+   },
+   {
+    "f": "src/textos.test.ts",
+    "a": 79,
+    "d": 1
+   },
+   {
+    "f": "src/ui/account-model.test.ts",
+    "a": 35,
+    "d": 1
+   },
+   {
+    "f": "src/ui/account-model.ts",
+    "a": 2,
+    "d": 1
+   },
+   {
+    "f": "src/ui/compartir-sin-sello.test.ts",
+    "a": 14,
+    "d": 0
+   },
+   {
+    "f": "src/ui/compartir.test.ts",
+    "a": 50,
+    "d": 0
+   },
+   {
+    "f": "src/ui/compartir.ts",
+    "a": 67,
+    "d": 11
+   },
+   {
+    "f": "src/ui/cuenta-entrada.ts",
+    "a": 33,
+    "d": 0
+   },
+   {
+    "f": "src/ui/cuenta-sellada.test.ts",
+    "a": 141,
+    "d": 0
+   },
+   {
+    "f": "src/ui/draw-repartida.test.ts",
+    "a": 197,
+    "d": 0
+   },
+   {
+    "f": "src/ui/draw.ts",
+    "a": 80,
+    "d": 21
+   },
+   {
+    "f": "src/ui/freeze-renumerar.test.ts",
+    "a": 148,
+    "d": 0
+   },
+   {
+    "f": "src/ui/freeze.ts",
+    "a": 81,
+    "d": 13
+   },
+   {
+    "f": "src/ui/ganadores-de-la-verificacion.ts",
+    "a": 39,
+    "d": 0
+   },
+   {
+    "f": "src/ui/ganadores.ts",
+    "a": 22,
+    "d": 3
+   },
+   {
+    "f": "src/ui/history-turnos.test.ts",
+    "a": 84,
+    "d": 0
+   },
+   {
+    "f": "src/ui/history.ts",
+    "a": 22,
+    "d": 5
+   },
+   {
+    "f": "src/ui/lista-de-turnos.ts",
+    "a": 85,
+    "d": 0
+   },
+   {
+    "f": "src/ui/orden-de-turnos.test.ts",
+    "a": 295,
+    "d": 0
+   },
+   {
+    "f": "src/ui/pantalla.ts",
+    "a": 23,
+    "d": 6
+   },
+   {
+    "f": "src/ui/participaciones.test.ts",
+    "a": 448,
+    "d": 0
+   },
+   {
+    "f": "src/ui/participants.ts",
+    "a": 316,
+    "d": 16
+   },
+   {
+    "f": "src/ui/pasos.test.ts",
+    "a": 5,
+    "d": 1
+   },
+   {
+    "f": "src/ui/pasos.ts",
+    "a": 3,
+    "d": 2
+   },
+   {
+    "f": "src/ui/recomendar-turnos.test.ts",
+    "a": 39,
+    "d": 0
+   },
+   {
+    "f": "src/ui/recomendar.test.ts",
+    "a": 28,
+    "d": 0
+   },
+   {
+    "f": "src/ui/recomendar.ts",
+    "a": 17,
+    "d": 7
+   },
+   {
+    "f": "src/ui/red.test.ts",
+    "a": 27,
+    "d": 0
+   },
+   {
+    "f": "src/ui/red.ts",
+    "a": 6,
+    "d": 2
+   },
+   {
+    "f": "src/ui/resultado-ganadores.test.ts",
+    "a": 37,
+    "d": 0
+   },
+   {
+    "f": "src/ui/resultado-ganadores.ts",
+    "a": 19,
+    "d": 4
+   },
+   {
+    "f": "src/ui/sala.ts",
+    "a": 16,
+    "d": 1
+   },
+   {
+    "f": "src/ui/siguiente-varias.test.ts",
+    "a": 32,
+    "d": 0
+   },
+   {
+    "f": "src/ui/siguiente.ts",
+    "a": 21,
+    "d": 3
+   },
+   {
+    "f": "src/ui/turnos.test.ts",
+    "a": 461,
+    "d": 0
+   },
+   {
+    "f": "src/ui/turnos.ts",
+    "a": 172,
+    "d": 0
+   },
+   {
+    "f": "src/verify-reparto.test.ts",
+    "a": 245,
+    "d": 0
+   },
+   {
+    "f": "src/verify.ts",
+    "a": 79,
+    "d": 22
+   },
+   {
+    "f": "verificar.html",
+    "a": 1,
+    "d": 1
+   }
+  ]
+ },
+ "c9874f7ce168ee3171bb651498cd3e30bf38efaf": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-09T21:09:19Z",
+  "message": "El sitio avisa cuando hay una versión nueva y ofrece recargar",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/c.ts",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "src/carga-opcional.ts",
+    "a": 26,
+    "d": 0
+   },
+   {
+    "f": "src/equipos-registro.ts",
+    "a": 3,
+    "d": 1
+   },
+   {
+    "f": "src/evento.ts",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "src/i18n.ts",
+    "a": 6,
+    "d": 0
+   },
+   {
+    "f": "src/kit-organizador.ts",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "src/lista.ts",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "src/main.ts",
+    "a": 4,
+    "d": 2
+   },
+   {
+    "f": "src/marca.test.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/marca.ts",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "src/pagina.ts",
+    "a": 4,
+    "d": 2
+   },
+   {
+    "f": "src/stellar/wallet-pollar.ts",
+    "a": 2,
+    "d": 1
+   },
+   {
+    "f": "src/styles.css",
+    "a": 9,
+    "d": 4
+   },
+   {
+    "f": "src/ui/siguiente-cinta.test.ts",
+    "a": 98,
+    "d": 0
+   },
+   {
+    "f": "src/ui/siguiente.ts",
+    "a": 16,
+    "d": 5
+   },
+   {
+    "f": "src/verify.ts",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "src/version-nueva-entradas.test.ts",
+    "a": 47,
+    "d": 0
+   },
+   {
+    "f": "src/version-nueva.test.ts",
+    "a": 460,
+    "d": 0
+   },
+   {
+    "f": "src/version-nueva.ts",
+    "a": 336,
+    "d": 0
+   }
+  ]
+ },
+ "df64d055d4bd3d6647ad59b8f08dfd359334d33e": {
+  "team": "TilcAI",
+  "repo": "TilcAI/tilcai-web",
+  "author": "JHAMILCALI",
+  "date": "2026-11-10T06:32:40Z",
+  "message": "feat(demo): actualizar videos de presentación y mejorar títulos en inglés y español",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/app/[lang]/demo/page.tsx",
+    "a": 5,
+    "d": 2
+   },
+   {
+    "f": "src/app/[lang]/layout.tsx",
+    "a": 9,
+    "d": 3
+   },
+   {
+    "f": "src/lib/i18n/en.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/lib/i18n/es.ts",
+    "a": 1,
+    "d": 1
+   }
+  ]
  }
 }

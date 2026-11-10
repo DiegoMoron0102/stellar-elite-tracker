@@ -1,15 +1,15 @@
 {
- "generado": "2026-11-10T00:59:19+00:00",
+ "generado": "2026-11-10T13:58:38+00:00",
  "programa": "Stellar Elite",
  "start_date": "2026-09-02T00:00:00Z",
  "teams": [
   {
    "name": "Tinkazo",
-   "total": 6630.1,
-   "per_capita": 6630.1,
-   "commits": 1030,
-   "pts_commits": 6439.1,
-   "dias_activos": 37,
+   "total": 6695.31,
+   "per_capita": 6695.31,
+   "commits": 1040,
+   "pts_commits": 6499.31,
+   "dias_activos": 38,
    "contribuidores": [
     "GuidoSV7",
     "nema1502"
@@ -42,31 +42,12 @@
    "rank": 2
   },
   {
-   "name": "TilcAI",
-   "total": 1222.44,
-   "per_capita": 407.48,
-   "commits": 179,
-   "pts_commits": 1120.44,
-   "dias_activos": 18,
-   "contribuidores": [
-    "JHAMILCALI",
-    "OmarQV",
-    "SaulChoque",
-    "joseemen11"
-   ],
-   "tamano": 3,
-   "repos": [
-    "TilcAI/tilcai-web"
-   ],
-   "rank": 3
-  },
-  {
    "name": "Puls3",
-   "total": 1175.82,
-   "per_capita": 1175.82,
-   "commits": 156,
-   "pts_commits": 1017.82,
-   "dias_activos": 28,
+   "total": 1249.37,
+   "per_capita": 1249.37,
+   "commits": 164,
+   "pts_commits": 1086.37,
+   "dias_activos": 29,
    "contribuidores": [
     "Pericena",
     "TOMOKI977",
@@ -78,6 +59,25 @@
    "tamano": 1,
    "repos": [
     "Zer0-Knowledge-Hack/puls3"
+   ],
+   "rank": 3
+  },
+  {
+   "name": "TilcAI",
+   "total": 1233.02,
+   "per_capita": 411.01,
+   "commits": 180,
+   "pts_commits": 1126.02,
+   "dias_activos": 19,
+   "contribuidores": [
+    "JHAMILCALI",
+    "OmarQV",
+    "SaulChoque",
+    "joseemen11"
+   ],
+   "tamano": 3,
+   "repos": [
+    "TilcAI/tilcai-web"
    ],
    "rank": 4
   },
@@ -325,7 +325,8 @@
    "2026-10-27": 20.0,
    "2026-11-06": 20.0,
    "2026-11-07": 36.93,
-   "2026-11-08": 55.6
+   "2026-11-08": 55.6,
+   "2026-11-10": 68.55000000000001
   },
   "Tinkazo": {
    "2026-09-16": 66.21000000000001,
@@ -364,7 +365,8 @@
    "2026-11-05": 55.97,
    "2026-11-06": 101.36,
    "2026-11-08": 11.0,
-   "2026-11-09": 161.34999999999997
+   "2026-11-09": 204.46999999999997,
+   "2026-11-10": 17.09
   },
   "CompraGasolinaBidon": {
    "2026-09-06": 1.0,
@@ -454,7 +456,8 @@
    "2026-11-05": 18.09,
    "2026-11-06": 125.91,
    "2026-11-07": 16.94,
-   "2026-11-08": 17.85
+   "2026-11-08": 17.85,
+   "2026-11-10": 5.58
   },
   "GatoPago": {
    "2026-09-10": 1.0,
@@ -507,7 +510,8 @@
    "2026-10-27": 2,
    "2026-11-06": 2,
    "2026-11-07": 4,
-   "2026-11-08": 6
+   "2026-11-08": 6,
+   "2026-11-10": 8
   },
   "Tinkazo": {
    "2026-09-16": 8,
@@ -546,7 +550,8 @@
    "2026-11-05": 8,
    "2026-11-06": 15,
    "2026-11-08": 2,
-   "2026-11-09": 19
+   "2026-11-09": 26,
+   "2026-11-10": 3
   },
   "CompraGasolinaBidon": {
    "2026-09-06": 1,
@@ -636,7 +641,8 @@
    "2026-11-05": 2,
    "2026-11-06": 16,
    "2026-11-07": 2,
-   "2026-11-08": 2
+   "2026-11-08": 2,
+   "2026-11-10": 1
   },
   "GatoPago": {
    "2026-09-10": 1,
@@ -653,6 +659,196 @@
   }
  },
  "commits": [
+  {
+   "sha": "df64d05",
+   "team": "TilcAI",
+   "repo": "TilcAI/tilcai-web",
+   "author": "JHAMILCALI",
+   "date": "2026-11-10T06:32:40Z",
+   "msg": "feat(demo): actualizar videos de presentación y mejorar títulos en inglés y español",
+   "pts": 5.58,
+   "nota": ""
+  },
+  {
+   "sha": "38d7c9f",
+   "team": "Puls3",
+   "repo": "Zer0-Knowledge-Hack/puls3",
+   "author": "XxHugheadxX",
+   "date": "2026-11-10T05:51:03Z",
+   "msg": "feat(mcp): add puls3_mcp, a stdio MCP server over puls3_sdk (#226) (#267)",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "1633d1e",
+   "team": "Puls3",
+   "repo": "Zer0-Knowledge-Hack/puls3",
+   "author": "XxHugheadxX",
+   "date": "2026-11-10T05:28:53Z",
+   "msg": "test(server): lock that a Studio hire runs the published version on the builder credential (#220) (#233)",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "f3bbdfe",
+   "team": "Puls3",
+   "repo": "Zer0-Knowledge-Hack/puls3",
+   "author": "XxHugheadxX",
+   "date": "2026-11-10T05:23:43Z",
+   "msg": "fix(app): forget the session when a call is refused after a failed refresh (#261) (#265)",
+   "pts": 6.0,
+   "nota": ""
+  },
+  {
+   "sha": "e525e2d",
+   "team": "Puls3",
+   "repo": "Zer0-Knowledge-Hack/puls3",
+   "author": "XxHugheadxX",
+   "date": "2026-11-10T05:14:48Z",
+   "msg": "docs: add the Stellar friction log for the HackMeridian developer survey (#228)",
+   "pts": 8.34,
+   "nota": ""
+  },
+  {
+   "sha": "4a4a7ed",
+   "team": "Puls3",
+   "repo": "Zer0-Knowledge-Hack/puls3",
+   "author": "XxHugheadxX",
+   "date": "2026-11-10T05:13:33Z",
+   "msg": "docs(sdk): add the SDK quickstart for the catalog (#223) (#260)",
+   "pts": 8.2,
+   "nota": ""
+  },
+  {
+   "sha": "91f344b",
+   "team": "Puls3",
+   "repo": "Zer0-Knowledge-Hack/puls3",
+   "author": "fercodes",
+   "date": "2026-11-10T02:59:04Z",
+   "msg": "fix(app): forget the wallet session on disconnect (#261) (#263)",
+   "pts": 8.15,
+   "nota": ""
+  },
+  {
+   "sha": "ae070b6",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-10T02:53:28Z",
+   "msg": "El tope por prueba sube a un minuto para no confundir carga con falla",
+   "pts": 4.0,
+   "nota": ""
+  },
+  {
+   "sha": "64ccad6",
+   "team": "Puls3",
+   "repo": "Zer0-Knowledge-Hack/puls3",
+   "author": "XxHugheadxX",
+   "date": "2026-11-10T02:39:07Z",
+   "msg": "docs(studio): add the Agent Studio builder guide (#221) (#234)",
+   "pts": 7.88,
+   "nota": ""
+  },
+  {
+   "sha": "9cf3173",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-10T02:04:43Z",
+   "msg": "La cinta dentro de la cabecera fija no tapa lo que se lleva a la vista",
+   "pts": 7.7,
+   "nota": ""
+  },
+  {
+   "sha": "4730bd4",
+   "team": "Puls3",
+   "repo": "Zer0-Knowledge-Hack/puls3",
+   "author": "XxHugheadxX",
+   "date": "2026-11-10T01:59:27Z",
+   "msg": "feat(sdk): add puls3_sdk with the catalog and ADR-0007 (#222) (#229)",
+   "pts": 9.98,
+   "nota": ""
+  },
+  {
+   "sha": "c308ac4",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-10T00:38:41Z",
+   "msg": "El auditor de flujo espera a la red de pruebas en el costo alto",
+   "pts": 5.39,
+   "nota": ""
+  },
+  {
+   "sha": "8b4949c",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-09T21:50:45Z",
+   "msg": "La cinta de versión nueva se acomoda mejor en celular",
+   "pts": 9.34,
+   "nota": ""
+  },
+  {
+   "sha": "53b28df",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-09T21:25:04Z",
+   "msg": "Junta en uno los dos imports de la lista de turnos en verificar",
+   "pts": 3.0,
+   "nota": ""
+  },
+  {
+   "sha": "59111ca",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-09T21:25:04Z",
+   "msg": "La foto del evento cuenta un orden de turnos por personas",
+   "pts": 6.46,
+   "nota": ""
+  },
+  {
+   "sha": "1ec9574",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-09T21:11:40Z",
+   "msg": "La prueba del plan del equipo deja de depender del azar",
+   "pts": 3.32,
+   "nota": ""
+  },
+  {
+   "sha": "0bacd86",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-09T21:11:16Z",
+   "msg": "Deja listo el cambio entre el modo de prueba y el oficial",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "f2ff078",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-09T21:09:47Z",
+   "msg": "Varias participaciones y turnos cuentan igual en todas las pantallas",
+   "pts": 1.0,
+   "nota": "import masivo (62 archivos)"
+  },
+  {
+   "sha": "c9874f7",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-09T21:09:19Z",
+   "msg": "El sitio avisa cuando hay una versión nueva y ofrece recargar",
+   "pts": 10,
+   "nota": ""
+  },
   {
    "sha": "34eef3c",
    "team": "Tinkazo",
