@@ -161400,5 +161400,40 @@
     "d": 1
    }
   ]
+ },
+ "e2199ba28eec6fe90c8f7ce07c47a019b113f627": {
+  "team": "Puls3",
+  "repo": "Zer0-Knowledge-Hack/puls3",
+  "author": "Pericena",
+  "date": "2026-11-10T20:45:05Z",
+  "message": "test(server): cover the agent-signed hire lifecycle end to end (#208) (#252)",
+  "parents": 1,
+  "files": [
+   {
+    "f": "puls3_server/test/unit/chain/hire_lifecycle_flow_test.dart",
+    "a": 373,
+    "d": 0
+   }
+  ]
+ },
+ "51e4757065a7553e6ed80a9553e5ffbe4e938928": {
+  "team": "Puls3",
+  "repo": "Zer0-Knowledge-Hack/puls3",
+  "author": "XxHugheadxX",
+  "date": "2026-11-10T19:42:43Z",
+  "message": "docs(adr): record that the reputation formula stays off chain (#203) (#266)",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/adr/0008-reputation-formula-off-chain.md",
+    "a": 52,
+    "d": 0
+   },
+   {
+    "f": "docs/domain/reputation.md",
+    "a": 2,
+    "d": 1
+   }
+  ]
  }
 }
