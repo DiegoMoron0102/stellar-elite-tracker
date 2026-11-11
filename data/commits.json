@@ -162725,5 +162725,1390 @@
     "d": 2
    }
   ]
+ },
+ "ee021ce99c0edf1ad573c8981795d1e3daae3d31": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-11T17:29:11Z",
+  "message": "Las páginas dicen que con un cupón de evento el modo Oficial es gratis",
+  "parents": 1,
+  "files": [
+   {
+    "f": "README.es.md",
+    "a": 3,
+    "d": 3
+   },
+   {
+    "f": "README.md",
+    "a": 3,
+    "d": 3
+   },
+   {
+    "f": "como-funciona.html",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "docs/operacion.md",
+    "a": 2,
+    "d": 1
+   },
+   {
+    "f": "index.html",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "precios.html",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "src/alta-textos-con-cupon.test.ts",
+    "a": 0,
+    "d": 95
+   },
+   {
+    "f": "src/alta-textos-con-cupon.ts",
+    "a": 0,
+    "d": 43
+   },
+   {
+    "f": "src/alta-textos-precios.test.ts",
+    "a": 0,
+    "d": 40
+   },
+   {
+    "f": "src/alta-textos-precios.ts",
+    "a": 0,
+    "d": 23
+   },
+   {
+    "f": "src/i18n-modo-oficial.ts",
+    "a": 17,
+    "d": 9
+   },
+   {
+    "f": "src/i18n.ts",
+    "a": 6,
+    "d": 17
+   },
+   {
+    "f": "src/revision-textos.test.ts",
+    "a": 15,
+    "d": 1
+   },
+   {
+    "f": "src/seo.test.ts",
+    "a": 5,
+    "d": 5
+   },
+   {
+    "f": "src/stellar/alta-build.ts",
+    "a": 11,
+    "d": 0
+   },
+   {
+    "f": "src/stellar/alta-config.test.ts",
+    "a": 44,
+    "d": 0
+   },
+   {
+    "f": "src/textos-con-cupon.test.ts",
+    "a": 110,
+    "d": 0
+   },
+   {
+    "f": "terminos.html",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "vite.config.ts",
+    "a": 5,
+    "d": 3
+   },
+   {
+    "f": "workers/patrocinio/README.md",
+    "a": 1,
+    "d": 1
+   }
+  ]
+ },
+ "fec93c198644b591d7583402e065ba746f646567": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-11T18:54:53Z",
+  "message": "La cuenta de la prueba interna de mainnet se descuenta de las métricas",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/cuentas-internas.json",
+    "a": 6,
+    "d": 0
+   }
+  ]
+ },
+ "3e8d3803c6ec3ba7db899762efdc2bc88f95c9aa": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-11T18:53:12Z",
+  "message": "Proteger la cuenta: el código admite letras y el aviso cubre el vencido",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/i18n.ts",
+    "a": 4,
+    "d": 4
+   },
+   {
+    "f": "src/ui/cuenta-lista.test.ts",
+    "a": 77,
+    "d": 1
+   },
+   {
+    "f": "src/ui/cuenta-lista.ts",
+    "a": 9,
+    "d": 3
+   },
+   {
+    "f": "src/ui/proteger-cuenta.test.ts",
+    "a": 17,
+    "d": 0
+   },
+   {
+    "f": "src/ui/proteger-cuenta.ts",
+    "a": 24,
+    "d": 2
+   }
+  ]
+ },
+ "8d27a806accde57569d9358905553d21d042d509": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-11T18:53:12Z",
+  "message": "El aviso de código equivocado reconoce los nombres que existen de verdad",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/ui/ingreso-errores.test.ts",
+    "a": 30,
+    "d": 0
+   },
+   {
+    "f": "src/ui/ingreso-errores.ts",
+    "a": 22,
+    "d": 3
+   }
+  ]
+ },
+ "f4d3cfa9427c18dde8175bb3f1afee1074ec2cc0": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-11T18:53:11Z",
+  "message": "La barra de lo que sigue no mira la página si ya no existe",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/ui/siguiente-desarmada.test.ts",
+    "a": 50,
+    "d": 0
+   },
+   {
+    "f": "src/ui/siguiente.ts",
+    "a": 8,
+    "d": 1
+   }
+  ]
+ },
+ "6015cedded9f4606e40ca9aed795375844b0fefa": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-11T18:53:11Z",
+  "message": "Las pruebas del sellado esperan las cargas antes de mover el reloj",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/ui/anchor.test.ts",
+    "a": 29,
+    "d": 12
+   }
+  ]
+ },
+ "266920db1658dc8288625a68a8c3563df836cdc6": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-11T16:54:12Z",
+  "message": "El aviso de marca de Stellar pasa de la portada a los términos",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/marca.md",
+    "a": 8,
+    "d": 8
+   },
+   {
+    "f": "index.html",
+    "a": 0,
+    "d": 1
+   },
+   {
+    "f": "src/hecho-con-stellar.test.ts",
+    "a": 48,
+    "d": 18
+   },
+   {
+    "f": "src/i18n.ts",
+    "a": 3,
+    "d": 2
+   },
+   {
+    "f": "src/sin-jerga-a-la-vista.test.ts",
+    "a": 9,
+    "d": 2
+   },
+   {
+    "f": "src/styles.css",
+    "a": 0,
+    "d": 7
+   },
+   {
+    "f": "terminos.html",
+    "a": 1,
+    "d": 0
+   }
+  ]
+ },
+ "b3f7a5d47ebb22c99c6e24f32bb7462a5100b28d": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-11T16:12:13Z",
+  "message": "El README del portero ya no dice que la regla de Cloudflare cubre /cupo",
+  "parents": 1,
+  "files": [
+   {
+    "f": "workers/patrocinio/README.md",
+    "a": 1,
+    "d": 1
+   }
+  ]
+ },
+ "b6ca6c9cdd4cb7f93fc284f60fb79808d06ec4a8": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-11T16:09:41Z",
+  "message": "La vigilancia del portero avisa si algo empeora y no publica cifras",
+  "parents": 1,
+  "files": [
+   {
+    "f": ".github/workflows/vigilar-portero.yml",
+    "a": 36,
+    "d": 16
+   },
+   {
+    "f": "docs/operacion.md",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "scripts/lib/vigilar-portero.mjs",
+    "a": 114,
+    "d": 46
+   },
+   {
+    "f": "scripts/lib/vigilar-portero.test.mjs",
+    "a": 333,
+    "d": 32
+   },
+   {
+    "f": "scripts/lib/vigilar-red-workflow.test.mjs",
+    "a": 43,
+    "d": 2
+   },
+   {
+    "f": "workers/patrocinio/README.md",
+    "a": 2,
+    "d": 2
+   }
+  ]
+ },
+ "f15729228f5c9dc081abe336f4f1d65445d1a4ed": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-11T15:33:49Z",
+  "message": "Mientras se revisa el acceso, el paso avisa que puede tardar",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/ui/cuenta-lista-acceso-vista.test.ts",
+    "a": 8,
+    "d": 0
+   },
+   {
+    "f": "src/ui/cuenta-lista-cupon.test.ts",
+    "a": 59,
+    "d": 0
+   },
+   {
+    "f": "src/ui/cuenta-lista-estado.test.ts",
+    "a": 9,
+    "d": 0
+   },
+   {
+    "f": "src/ui/cuenta-lista-estado.ts",
+    "a": 6,
+    "d": 1
+   },
+   {
+    "f": "src/ui/cuenta-lista.ts",
+    "a": 20,
+    "d": 3
+   }
+  ]
+ },
+ "15973e47bea39bae1bdc49c569657e81b93e9fb5": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-11T15:31:00Z",
+  "message": "El comentario del cupo ya no dice que la regla de Cloudflare lo cubre",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/stellar/hoja-de-operacion.test.ts",
+    "a": 6,
+    "d": 0
+   },
+   {
+    "f": "workers/patrocinio/src/por-ip.ts",
+    "a": 3,
+    "d": 2
+   }
+  ]
+ },
+ "469e6427eaa73953d952572f7e5c47b4d525f938": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-11T15:30:21Z",
+  "message": "Los documentos del portero dicen lo que hay en GitHub y Cloudflare",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/operacion.md",
+    "a": 8,
+    "d": 3
+   },
+   {
+    "f": "src/stellar/hoja-de-operacion.test.ts",
+    "a": 113,
+    "d": 6
+   },
+   {
+    "f": "workers/patrocinio/README.md",
+    "a": 15,
+    "d": 7
+   }
+  ]
+ },
+ "39649db0ef73c8dfe81e206bbfbfe54affc3394f": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-11T15:24:18Z",
+  "message": "La vigilancia del portero avisa cuando algo cambia, no cada hora",
+  "parents": 1,
+  "files": [
+   {
+    "f": ".github/workflows/vigilar-portero.yml",
+    "a": 43,
+    "d": 10
+   },
+   {
+    "f": "scripts/lib/vigilar-portero.mjs",
+    "a": 124,
+    "d": 26
+   },
+   {
+    "f": "scripts/lib/vigilar-portero.test.mjs",
+    "a": 242,
+    "d": 4
+   },
+   {
+    "f": "scripts/lib/vigilar-red-workflow.test.mjs",
+    "a": 68,
+    "d": 1
+   },
+   {
+    "f": "workers/patrocinio/README.md",
+    "a": 1,
+    "d": 1
+   }
+  ]
+ },
+ "b0dbe88e660a680b399161438c315373ad2ac0ed": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-11T14:52:45Z",
+  "message": "La hoja de operación dice qué hacer con un acceso en otra cuenta",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/operacion.md",
+    "a": 3,
+    "d": 1
+   },
+   {
+    "f": "src/stellar/hoja-de-operacion.test.ts",
+    "a": 76,
+    "d": 0
+   },
+   {
+    "f": "workers/patrocinio/README.md",
+    "a": 3,
+    "d": 1
+   }
+  ]
+ },
+ "a81294dc4cc4c80569b6de550d0ce017ceb8135b": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-11T14:48:49Z",
+  "message": "Las lecturas del acceso esperan a los dos topes de adentro",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/stellar/pollar-config.ts",
+    "a": 8,
+    "d": 0
+   },
+   {
+    "f": "src/stellar/wallet-pollar.ts",
+    "a": 3,
+    "d": 6
+   },
+   {
+    "f": "src/ui/cuenta-lista-cupon.test.ts",
+    "a": 114,
+    "d": 2
+   },
+   {
+    "f": "src/ui/cuenta-lista.ts",
+    "a": 13,
+    "d": 5
+   }
+  ]
+ },
+ "79cc80fde54bfb0f154f39db4877706e18c023f0": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-11T14:44:26Z",
+  "message": "El canje que llega tarde no borra el cupón de otra persona",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/ui/cuenta-lista-cupon.test.ts",
+    "a": 68,
+    "d": 5
+   },
+   {
+    "f": "src/ui/cuenta-lista.ts",
+    "a": 16,
+    "d": 5
+   }
+  ]
+ },
+ "af04d80b15f15394d1df298654760d97175d6bac": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-11T14:27:24Z",
+  "message": "La vigilancia del portero de mainnet corre en un workflow aparte",
+  "parents": 1,
+  "files": [
+   {
+    "f": ".github/workflows/vigilar-portero.yml",
+    "a": 54,
+    "d": 0
+   },
+   {
+    "f": ".github/workflows/vigilar-red.yml",
+    "a": 0,
+    "d": 20
+   },
+   {
+    "f": "scripts/lib/vigilar-red-workflow.test.mjs",
+    "a": 46,
+    "d": 12
+   },
+   {
+    "f": "workers/patrocinio/README.md",
+    "a": 1,
+    "d": 1
+   }
+  ]
+ },
+ "d0fe17708aef5dcf253ffd79f4f56b9f646aff7a": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-11T13:49:50Z",
+  "message": "Un stand entero puede mirar el cupo, y un acceso no pasa a otra cuenta",
+  "parents": 1,
+  "files": [
+   {
+    "f": "workers/patrocinio/README.md",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "workers/patrocinio/src/index.ts",
+    "a": 2,
+    "d": 4
+   },
+   {
+    "f": "workers/patrocinio/src/por-ip.test.ts",
+    "a": 32,
+    "d": 1
+   },
+   {
+    "f": "workers/patrocinio/src/por-ip.ts",
+    "a": 10,
+    "d": 0
+   },
+   {
+    "f": "workers/patrocinio/src/rutas-altas.test.ts",
+    "a": 60,
+    "d": 0
+   },
+   {
+    "f": "workers/patrocinio/src/rutas-altas.ts",
+    "a": 21,
+    "d": 2
+   }
+  ]
+ },
+ "9860a76349976acade502a0dd81d05022469b858": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-11T13:49:49Z",
+  "message": "Los cupones de evento abren el modo Oficial a las cuentas de Google",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/operacion.md",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "docs/ux.md",
+    "a": 22,
+    "d": 1
+   },
+   {
+    "f": "src/alta-textos-con-cupon.test.ts",
+    "a": 95,
+    "d": 0
+   },
+   {
+    "f": "src/alta-textos-con-cupon.ts",
+    "a": 43,
+    "d": 0
+   },
+   {
+    "f": "src/alta-textos-cuenta.test.ts",
+    "a": 53,
+    "d": 0
+   },
+   {
+    "f": "src/alta-textos-cuenta.ts",
+    "a": 27,
+    "d": 0
+   },
+   {
+    "f": "src/alta-textos-paso.test.ts",
+    "a": 43,
+    "d": 0
+   },
+   {
+    "f": "src/alta-textos-paso.ts",
+    "a": 19,
+    "d": 0
+   },
+   {
+    "f": "src/alta-textos-precios.test.ts",
+    "a": 40,
+    "d": 0
+   },
+   {
+    "f": "src/alta-textos-precios.ts",
+    "a": 23,
+    "d": 0
+   },
+   {
+    "f": "src/alta-textos-sin-pago.test.ts",
+    "a": 88,
+    "d": 0
+   },
+   {
+    "f": "src/alta-textos-sin-pago.ts",
+    "a": 29,
+    "d": 0
+   },
+   {
+    "f": "src/alta-textos.test.ts",
+    "a": 112,
+    "d": 0
+   },
+   {
+    "f": "src/alta-textos.ts",
+    "a": 122,
+    "d": 0
+   },
+   {
+    "f": "src/i18n.ts",
+    "a": 29,
+    "d": 0
+   },
+   {
+    "f": "src/main.ts",
+    "a": 3,
+    "d": 0
+   },
+   {
+    "f": "src/stellar/acceso-oficial.test.ts",
+    "a": 139,
+    "d": 0
+   },
+   {
+    "f": "src/stellar/acceso-oficial.ts",
+    "a": 93,
+    "d": 0
+   },
+   {
+    "f": "src/stellar/alta-api.test.ts",
+    "a": 321,
+    "d": 0
+   },
+   {
+    "f": "src/stellar/alta-api.ts",
+    "a": 337,
+    "d": 0
+   },
+   {
+    "f": "src/stellar/alta-build.ts",
+    "a": 70,
+    "d": 0
+   },
+   {
+    "f": "src/stellar/alta-config.test.ts",
+    "a": 125,
+    "d": 0
+   },
+   {
+    "f": "src/stellar/alta-config.ts",
+    "a": 60,
+    "d": 0
+   },
+   {
+    "f": "src/stellar/cobro-oficial.ts",
+    "a": 50,
+    "d": 0
+   },
+   {
+    "f": "src/stellar/cupo-oficial.test.ts",
+    "a": 118,
+    "d": 0
+   },
+   {
+    "f": "src/stellar/cupo-oficial.ts",
+    "a": 90,
+    "d": 0
+   },
+   {
+    "f": "src/stellar/cupon-codigo.test.ts",
+    "a": 40,
+    "d": 0
+   },
+   {
+    "f": "src/stellar/cupon-codigo.ts",
+    "a": 33,
+    "d": 0
+   },
+   {
+    "f": "src/stellar/cupon-guardado.test.ts",
+    "a": 79,
+    "d": 0
+   },
+   {
+    "f": "src/stellar/cupon-guardado.ts",
+    "a": 106,
+    "d": 0
+   },
+   {
+    "f": "src/stellar/cupon-vectores.json",
+    "a": 29,
+    "d": 0
+   },
+   {
+    "f": "src/stellar/errores.ts",
+    "a": 13,
+    "d": 3
+   },
+   {
+    "f": "src/stellar/patrocinador-oficial.test.ts",
+    "a": 55,
+    "d": 0
+   },
+   {
+    "f": "src/stellar/patrocinador.ts",
+    "a": 65,
+    "d": 11
+   },
+   {
+    "f": "src/stellar/pollar-falso.ts",
+    "a": 26,
+    "d": 5
+   },
+   {
+    "f": "src/stellar/wallet-pollar-token.test.ts",
+    "a": 108,
+    "d": 0
+   },
+   {
+    "f": "src/stellar/wallet-pollar.ts",
+    "a": 57,
+    "d": 0
+   },
+   {
+    "f": "src/styles.css",
+    "a": 10,
+    "d": 0
+   },
+   {
+    "f": "src/ui/anchor-sin-alta.test.ts",
+    "a": 97,
+    "d": 0
+   },
+   {
+    "f": "src/ui/anchor.test.ts",
+    "a": 186,
+    "d": 12
+   },
+   {
+    "f": "src/ui/anchor.ts",
+    "a": 11,
+    "d": 1
+   },
+   {
+    "f": "src/ui/cuenta-lista-acceso-vista.test.ts",
+    "a": 324,
+    "d": 0
+   },
+   {
+    "f": "src/ui/cuenta-lista-acceso.test.ts",
+    "a": 103,
+    "d": 0
+   },
+   {
+    "f": "src/ui/cuenta-lista-acceso.ts",
+    "a": 103,
+    "d": 0
+   },
+   {
+    "f": "src/ui/cuenta-lista-cupon.test.ts",
+    "a": 728,
+    "d": 0
+   },
+   {
+    "f": "src/ui/cuenta-lista-estado.ts",
+    "a": 214,
+    "d": 12
+   },
+   {
+    "f": "src/ui/cuenta-lista-flujo.test.ts",
+    "a": 30,
+    "d": 0
+   },
+   {
+    "f": "src/ui/cuenta-lista-flujo.ts",
+    "a": 18,
+    "d": 7
+   },
+   {
+    "f": "src/ui/cuenta-lista-red-principal.test.ts",
+    "a": 86,
+    "d": 0
+   },
+   {
+    "f": "src/ui/cuenta-lista.ts",
+    "a": 590,
+    "d": 21
+   },
+   {
+    "f": "src/ui/cupo-patrocinio.test.ts",
+    "a": 188,
+    "d": 0
+   },
+   {
+    "f": "src/ui/cupo-patrocinio.ts",
+    "a": 60,
+    "d": 4
+   },
+   {
+    "f": "src/ui/cupon-enlace-entorno.ts",
+    "a": 70,
+    "d": 0
+   },
+   {
+    "f": "src/ui/cupon-enlace.test.ts",
+    "a": 230,
+    "d": 0
+   },
+   {
+    "f": "src/ui/cupon-enlace.ts",
+    "a": 183,
+    "d": 0
+   },
+   {
+    "f": "src/ui/cupon-franja.css",
+    "a": 10,
+    "d": 0
+   },
+   {
+    "f": "src/ui/draw-sin-acceso.test.ts",
+    "a": 194,
+    "d": 0
+   },
+   {
+    "f": "src/ui/draw.ts",
+    "a": 64,
+    "d": 8
+   },
+   {
+    "f": "src/ui/envio-acceso.test.ts",
+    "a": 186,
+    "d": 0
+   },
+   {
+    "f": "src/ui/envio-sdk.ts",
+    "a": 10,
+    "d": 0
+   },
+   {
+    "f": "src/ui/firma-oficial-tabla.test.ts",
+    "a": 235,
+    "d": 0
+   },
+   {
+    "f": "src/ui/freeze-sin-sorteos.test.ts",
+    "a": 351,
+    "d": 0
+   },
+   {
+    "f": "src/ui/freeze.ts",
+    "a": 71,
+    "d": 0
+   },
+   {
+    "f": "src/ui/red-acciones.ts",
+    "a": 54,
+    "d": 7
+   },
+   {
+    "f": "src/ui/red-oficial.test.ts",
+    "a": 190,
+    "d": 0
+   },
+   {
+    "f": "src/ui/red-patrocinio.test.ts",
+    "a": 45,
+    "d": 0
+   },
+   {
+    "f": "src/ui/red.test.ts",
+    "a": 44,
+    "d": 21
+   },
+   {
+    "f": "src/ui/red.ts",
+    "a": 38,
+    "d": 8
+   },
+   {
+    "f": "src/ui/sin-pago-propio.test.ts",
+    "a": 283,
+    "d": 0
+   },
+   {
+    "f": "src/ui/sin-sorteos.ts",
+    "a": 147,
+    "d": 0
+   },
+   {
+    "f": "src/ui/sortear-propio.ts",
+    "a": 5,
+    "d": 1
+   },
+   {
+    "f": "vite.config.ts",
+    "a": 19,
+    "d": 2
+   }
+  ]
+ },
+ "8ed6d805b55739cb20d0bac25c397e2a58c415e7": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-11T13:28:30Z",
+  "message": "El README cuenta lo que hoy está vivo: mainnet, dos modos y diez juegos",
+  "parents": 1,
+  "files": [
+   {
+    "f": "README.es.md",
+    "a": 63,
+    "d": 32
+   },
+   {
+    "f": "README.md",
+    "a": 63,
+    "d": 32
+   },
+   {
+    "f": "docs/capturas/readme/hero-es.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/readme/hero.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/readme/importar-es.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/readme/importar.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/readme/modo-hoja-es.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/readme/modo-hoja.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/readme/partidas-es.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/readme/partidas.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/readme/resultado-celular-es.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/readme/resultado-celular.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/readme/verificar-es.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/readme/verificar.webp",
+    "a": 0,
+    "d": 0
+   }
+  ]
+ },
+ "371a27896bfd3f513e54eeba3754148025291c9d": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-11T13:28:30Z",
+  "message": "Las miniaturas de los diez juegos muestran su mejor momento",
+  "parents": 1,
+  "files": [
+   {
+    "f": "public/juegos/chovena-light.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/chovena.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/guajojo-light.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/guajojo.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/oruro-light.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/oruro.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/pinata-light.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/pinata.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/portada/chovena-light.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/portada/chovena.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/portada/guajojo-light.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/portada/guajojo.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/portada/oruro-light.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/portada/oruro.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/portada/pinata-light.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/portada/pinata.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/portada/race-light.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/portada/race.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/portada/sapo-light.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/portada/sapo.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/portada/teleferico-light.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/portada/teleferico.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/portada/toborochi-light.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/portada/toborochi.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/portada/trompo-light.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/portada/trompo.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/portada/wheel-light.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/portada/wheel.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/race-light.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/race.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/sapo-light.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/sapo.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/selector/chovena-light.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/selector/chovena.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/selector/guajojo-light.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/selector/guajojo.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/selector/oruro-light.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/selector/oruro.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/selector/pinata-light.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/selector/pinata.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/selector/race-light.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/selector/race.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/selector/sapo-light.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/selector/sapo.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/selector/teleferico-light.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/selector/teleferico.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/selector/toborochi-light.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/selector/toborochi.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/selector/trompo-light.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/selector/trompo.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/selector/wheel-light.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/selector/wheel.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/teleferico-light.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/teleferico.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/toborochi-light.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/toborochi.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/trompo-light.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/trompo.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/wheel-light.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/wheel.webp",
+    "a": 0,
+    "d": 0
+   }
+  ]
+ },
+ "509ad439f50ae7d008a54fafe8b721ea949bfac3": {
+  "team": "MinerTrace",
+  "repo": "Dante1128/MinerTracer",
+  "author": "dilanCimarChn",
+  "date": "2026-11-11T21:49:18Z",
+  "message": "Merge pull request #5 from Dante1128/devDC",
+  "parents": 2,
+  "files": [
+   {
+    "f": "web/src/paginas/Mercado.tsx",
+    "a": 50,
+    "d": 5
+   },
+   {
+    "f": "web/src/paginas/MisLotes.tsx",
+    "a": 10,
+    "d": 2
+   }
+  ]
+ },
+ "6ce25e543cba4abcc8874684399bd1667b323930": {
+  "team": "MinerTrace",
+  "repo": "Dante1128/MinerTracer",
+  "author": "dilanCimarChn",
+  "date": "2026-11-11T02:04:46Z",
+  "message": "fix: descartar lotes anteriores al cambiar de wallet y permitir reintentos",
+  "parents": 1,
+  "files": [
+   {
+    "f": "web/src/paginas/MisLotes.tsx",
+    "a": 10,
+    "d": 2
+   }
+  ]
+ },
+ "98f399463d570ade30049320ec02fc48f1d2de27": {
+  "team": "MinerTrace",
+  "repo": "Dante1128/MinerTracer",
+  "author": "dilanCimarChn",
+  "date": "2026-11-11T02:04:46Z",
+  "message": "feat: buscar y ordenar lotes del mercado por pureza",
+  "parents": 1,
+  "files": [
+   {
+    "f": "web/src/paginas/Mercado.tsx",
+    "a": 50,
+    "d": 5
+   }
+  ]
  }
 }
