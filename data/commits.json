@@ -161480,5 +161480,1250 @@
     "d": 1
    }
   ]
+ },
+ "6295dc8f7fbb8eae533320d8d9d2c5e96c841d0a": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-11T10:20:42Z",
+  "message": "Las participaciones y los turnos se leen bien en celular y al compartir",
+  "parents": 1,
+  "files": [
+   {
+    "f": "README.es.md",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "README.md",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "docs/epics.md",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "docs/ux.md",
+    "a": 4,
+    "d": 4
+   },
+   {
+    "f": "index.html",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "scripts/audit-detalles.mjs",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "scripts/audit-modos.mjs",
+    "a": 376,
+    "d": 16
+   },
+   {
+    "f": "sorteo-para-meetup.html",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "src/evento-ganadores.test.ts",
+    "a": 38,
+    "d": 0
+   },
+   {
+    "f": "src/evento-tarjeta.ts",
+    "a": 22,
+    "d": 0
+   },
+   {
+    "f": "src/evento.ts",
+    "a": 5,
+    "d": 3
+   },
+   {
+    "f": "src/i18n.ts",
+    "a": 36,
+    "d": 10
+   },
+   {
+    "f": "src/lista.ts",
+    "a": 3,
+    "d": 3
+   },
+   {
+    "f": "src/participaciones.ts",
+    "a": 13,
+    "d": 0
+   },
+   {
+    "f": "src/styles.css",
+    "a": 47,
+    "d": 11
+   },
+   {
+    "f": "src/ui/agrupar.test.ts",
+    "a": 9,
+    "d": 0
+   },
+   {
+    "f": "src/ui/agrupar.ts",
+    "a": 3,
+    "d": 2
+   },
+   {
+    "f": "src/ui/compartir-sin-sello.test.ts",
+    "a": 4,
+    "d": 1
+   },
+   {
+    "f": "src/ui/compartir.test.ts",
+    "a": 84,
+    "d": 0
+   },
+   {
+    "f": "src/ui/compartir.ts",
+    "a": 51,
+    "d": 17
+   },
+   {
+    "f": "src/ui/cuenta-sellada.test.ts",
+    "a": 26,
+    "d": 0
+   },
+   {
+    "f": "src/ui/draw-repartida.test.ts",
+    "a": 86,
+    "d": 0
+   },
+   {
+    "f": "src/ui/draw.ts",
+    "a": 35,
+    "d": 15
+   },
+   {
+    "f": "src/ui/foto.ts",
+    "a": 23,
+    "d": 7
+   },
+   {
+    "f": "src/ui/freeze-cabecera.test.ts",
+    "a": 38,
+    "d": 0
+   },
+   {
+    "f": "src/ui/freeze.ts",
+    "a": 20,
+    "d": 9
+   },
+   {
+    "f": "src/ui/ganadores-de-la-verificacion.test.ts",
+    "a": 30,
+    "d": 0
+   },
+   {
+    "f": "src/ui/ganadores-de-la-verificacion.ts",
+    "a": 15,
+    "d": 3
+   },
+   {
+    "f": "src/ui/lista-de-turnos.ts",
+    "a": 8,
+    "d": 2
+   },
+   {
+    "f": "src/ui/orden-de-turnos.test.ts",
+    "a": 14,
+    "d": 0
+   },
+   {
+    "f": "src/ui/pantalla-letra.test.ts",
+    "a": 104,
+    "d": 0
+   },
+   {
+    "f": "src/ui/pantalla-muchos.test.ts",
+    "a": 24,
+    "d": 3
+   },
+   {
+    "f": "src/ui/pantalla.ts",
+    "a": 94,
+    "d": 20
+   },
+   {
+    "f": "src/ui/participaciones.test.ts",
+    "a": 16,
+    "d": 0
+   },
+   {
+    "f": "src/ui/participants.ts",
+    "a": 28,
+    "d": 8
+   },
+   {
+    "f": "src/ui/pasos.test.ts",
+    "a": 35,
+    "d": 0
+   },
+   {
+    "f": "src/ui/repeated-names.test.ts",
+    "a": 20,
+    "d": 0
+   },
+   {
+    "f": "src/ui/repeated-names.ts",
+    "a": 32,
+    "d": 0
+   },
+   {
+    "f": "src/ui/resultado-ganadores.test.ts",
+    "a": 72,
+    "d": 6
+   },
+   {
+    "f": "src/ui/resultado-ganadores.ts",
+    "a": 16,
+    "d": 5
+   },
+   {
+    "f": "src/ui/sala-cuenta.test.ts",
+    "a": 71,
+    "d": 0
+   },
+   {
+    "f": "src/ui/sala.ts",
+    "a": 5,
+    "d": 5
+   },
+   {
+    "f": "src/ui/siguiente-varias.test.ts",
+    "a": 110,
+    "d": 10
+   },
+   {
+    "f": "src/ui/siguiente.ts",
+    "a": 22,
+    "d": 10
+   },
+   {
+    "f": "src/ui/textos-de-siempre.test.ts",
+    "a": 57,
+    "d": 0
+   },
+   {
+    "f": "src/verify.ts",
+    "a": 8,
+    "d": 5
+   },
+   {
+    "f": "workers/enlaces/README.md",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "workers/enlaces/src/conteo.ts",
+    "a": 1,
+    "d": 1
+   }
+  ]
+ },
+ "6157fa1dd2140b7734cbb2db87f12f4998134fe8": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-11T10:19:49Z",
+  "message": "El portero de la red principal suma pagos y sorteo por el servidor",
+  "parents": 1,
+  "files": [
+   {
+    "f": ".github/workflows/vigilar-red.yml",
+    "a": 20,
+    "d": 0
+   },
+   {
+    "f": "docs/operacion.md",
+    "a": 71,
+    "d": 77
+   },
+   {
+    "f": "scripts/cupones.mjs",
+    "a": 109,
+    "d": 9
+   },
+   {
+    "f": "scripts/cupones.test.mjs",
+    "a": 134,
+    "d": 0
+   },
+   {
+    "f": "scripts/lib/vigilar-portero.mjs",
+    "a": 73,
+    "d": 0
+   },
+   {
+    "f": "scripts/lib/vigilar-portero.test.mjs",
+    "a": 90,
+    "d": 0
+   },
+   {
+    "f": "scripts/lib/vigilar-red-workflow.test.mjs",
+    "a": 34,
+    "d": 0
+   },
+   {
+    "f": "workers/patrocinio/README.md",
+    "a": 40,
+    "d": 3
+   },
+   {
+    "f": "workers/patrocinio/src/abrir.test.ts",
+    "a": 195,
+    "d": 0
+   },
+   {
+    "f": "workers/patrocinio/src/admin.ts",
+    "a": 124,
+    "d": 4
+   },
+   {
+    "f": "workers/patrocinio/src/altas-prueba.ts",
+    "a": 32,
+    "d": 3
+   },
+   {
+    "f": "workers/patrocinio/src/altas.ts",
+    "a": 29,
+    "d": 0
+   },
+   {
+    "f": "workers/patrocinio/src/cobros-admin.test.ts",
+    "a": 273,
+    "d": 0
+   },
+   {
+    "f": "workers/patrocinio/src/cobros-prueba.ts",
+    "a": 115,
+    "d": 0
+   },
+   {
+    "f": "workers/patrocinio/src/cobros.test.ts",
+    "a": 528,
+    "d": 0
+   },
+   {
+    "f": "workers/patrocinio/src/cobros.ts",
+    "a": 690,
+    "d": 0
+   },
+   {
+    "f": "workers/patrocinio/src/config.test.ts",
+    "a": 6,
+    "d": 0
+   },
+   {
+    "f": "workers/patrocinio/src/config.ts",
+    "a": 13,
+    "d": 0
+   },
+   {
+    "f": "workers/patrocinio/src/cupos.ts",
+    "a": 63,
+    "d": 2
+   },
+   {
+    "f": "workers/patrocinio/src/index.ts",
+    "a": 69,
+    "d": 9
+   },
+   {
+    "f": "workers/patrocinio/src/lista-blanca.ts",
+    "a": 16,
+    "d": 1
+   },
+   {
+    "f": "workers/patrocinio/src/pollar.ts",
+    "a": 83,
+    "d": 2
+   },
+   {
+    "f": "workers/patrocinio/src/red.test.ts",
+    "a": 66,
+    "d": 0
+   },
+   {
+    "f": "workers/patrocinio/src/red.ts",
+    "a": 19,
+    "d": 5
+   },
+   {
+    "f": "workers/patrocinio/src/rutas-altas.ts",
+    "a": 256,
+    "d": 8
+   },
+   {
+    "f": "workers/patrocinio/src/servicio.test.ts",
+    "a": 6,
+    "d": 3
+   },
+   {
+    "f": "workers/patrocinio/src/servicio.ts",
+    "a": 159,
+    "d": 1
+   },
+   {
+    "f": "workers/patrocinio/src/sorteadora.test.ts",
+    "a": 691,
+    "d": 0
+   },
+   {
+    "f": "workers/patrocinio/src/sorteadora.ts",
+    "a": 275,
+    "d": 0
+   },
+   {
+    "f": "workers/patrocinio/src/vigilancia.test.ts",
+    "a": 173,
+    "d": 0
+   },
+   {
+    "f": "workers/patrocinio/src/vigilancia.ts",
+    "a": 69,
+    "d": 0
+   },
+   {
+    "f": "workers/patrocinio/wrangler.toml",
+    "a": 3,
+    "d": 0
+   }
+  ]
+ },
+ "88399ca1b99a175e4a938ae1ea37b94f105eec0b": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-11T08:49:54Z",
+  "message": "El portero de la red principal paga solo a cuentas con cupón o alta",
+  "parents": 1,
+  "files": [
+   {
+    "f": "scripts/cupones.mjs",
+    "a": 445,
+    "d": 0
+   },
+   {
+    "f": "scripts/cupones.test.mjs",
+    "a": 321,
+    "d": 0
+   },
+   {
+    "f": "workers/patrocinio/README.md",
+    "a": 59,
+    "d": 3
+   },
+   {
+    "f": "workers/patrocinio/src/admin.test.ts",
+    "a": 302,
+    "d": 0
+   },
+   {
+    "f": "workers/patrocinio/src/admin.ts",
+    "a": 238,
+    "d": 0
+   },
+   {
+    "f": "workers/patrocinio/src/altas-prueba.ts",
+    "a": 117,
+    "d": 0
+   },
+   {
+    "f": "workers/patrocinio/src/altas.test.ts",
+    "a": 328,
+    "d": 0
+   },
+   {
+    "f": "workers/patrocinio/src/altas.ts",
+    "a": 266,
+    "d": 0
+   },
+   {
+    "f": "workers/patrocinio/src/armar.ts",
+    "a": 3,
+    "d": 1
+   },
+   {
+    "f": "workers/patrocinio/src/config.test.ts",
+    "a": 260,
+    "d": 0
+   },
+   {
+    "f": "workers/patrocinio/src/config.ts",
+    "a": 144,
+    "d": 5
+   },
+   {
+    "f": "workers/patrocinio/src/cupon-codigo.ts",
+    "a": 38,
+    "d": 0
+   },
+   {
+    "f": "workers/patrocinio/src/cupon-vectores.json",
+    "a": 29,
+    "d": 0
+   },
+   {
+    "f": "workers/patrocinio/src/cupos.ts",
+    "a": 344,
+    "d": 30
+   },
+   {
+    "f": "workers/patrocinio/src/derechos.test.ts",
+    "a": 264,
+    "d": 0
+   },
+   {
+    "f": "workers/patrocinio/src/http.ts",
+    "a": 28,
+    "d": 0
+   },
+   {
+    "f": "workers/patrocinio/src/index.ts",
+    "a": 92,
+    "d": 32
+   },
+   {
+    "f": "workers/patrocinio/src/libro.test.ts",
+    "a": 140,
+    "d": 0
+   },
+   {
+    "f": "workers/patrocinio/src/lista-blanca.test.ts",
+    "a": 11,
+    "d": 0
+   },
+   {
+    "f": "workers/patrocinio/src/lista-blanca.ts",
+    "a": 27,
+    "d": 2
+   },
+   {
+    "f": "workers/patrocinio/src/piso.test.ts",
+    "a": 174,
+    "d": 0
+   },
+   {
+    "f": "workers/patrocinio/src/pollar.test.ts",
+    "a": 354,
+    "d": 0
+   },
+   {
+    "f": "workers/patrocinio/src/pollar.ts",
+    "a": 391,
+    "d": 0
+   },
+   {
+    "f": "workers/patrocinio/src/registrador.test.ts",
+    "a": 96,
+    "d": 0
+   },
+   {
+    "f": "workers/patrocinio/src/registrador.ts",
+    "a": 50,
+    "d": 0
+   },
+   {
+    "f": "workers/patrocinio/src/rutas-altas.test.ts",
+    "a": 399,
+    "d": 0
+   },
+   {
+    "f": "workers/patrocinio/src/rutas-altas.ts",
+    "a": 404,
+    "d": 0
+   },
+   {
+    "f": "workers/patrocinio/src/servicio.test.ts",
+    "a": 320,
+    "d": 0
+   },
+   {
+    "f": "workers/patrocinio/src/servicio.ts",
+    "a": 46,
+    "d": 10
+   },
+   {
+    "f": "workers/patrocinio/src/servidores.ts",
+    "a": 44,
+    "d": 0
+   },
+   {
+    "f": "workers/patrocinio/src/sqlite-prueba.ts",
+    "a": 20,
+    "d": 1
+   },
+   {
+    "f": "workers/patrocinio/wrangler.toml",
+    "a": 58,
+    "d": 0
+   }
+  ]
+ },
+ "9d514822379b8cee35b7eb3ba3d8e32ae3df1039": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-11T08:49:53Z",
+  "message": "Dejá tu cuenta lista: el paso obligatorio antes de sortear en Oficial",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/architecture.md",
+    "a": 10,
+    "d": 0
+   },
+   {
+    "f": "docs/ux.md",
+    "a": 17,
+    "d": 0
+   },
+   {
+    "f": "src/i18n.ts",
+    "a": 146,
+    "d": 14
+   },
+   {
+    "f": "src/main.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/stellar/activar-solo-desde-el-paso.test.ts",
+    "a": 47,
+    "d": 0
+   },
+   {
+    "f": "src/stellar/errores.test.ts",
+    "a": 2,
+    "d": 0
+   },
+   {
+    "f": "src/stellar/errores.ts",
+    "a": 7,
+    "d": 0
+   },
+   {
+    "f": "src/stellar/pollar-falso.ts",
+    "a": 218,
+    "d": 0
+   },
+   {
+    "f": "src/stellar/pollar-kit.test.ts",
+    "a": 32,
+    "d": 0
+   },
+   {
+    "f": "src/stellar/wallet-pollar-activacion.test.ts",
+    "a": 248,
+    "d": 0
+   },
+   {
+    "f": "src/stellar/wallet-pollar-activar.test.ts",
+    "a": 414,
+    "d": 0
+   },
+   {
+    "f": "src/stellar/wallet-pollar-aparato.test.ts",
+    "a": 139,
+    "d": 0
+   },
+   {
+    "f": "src/stellar/wallet-pollar-estado.test.ts",
+    "a": 382,
+    "d": 0
+   },
+   {
+    "f": "src/stellar/wallet-pollar-testigo.test.ts",
+    "a": 154,
+    "d": 0
+   },
+   {
+    "f": "src/stellar/wallet-pollar.ts",
+    "a": 780,
+    "d": 1
+   },
+   {
+    "f": "src/styles.css",
+    "a": 238,
+    "d": 0
+   },
+   {
+    "f": "src/ui/aviso-no-cargo.ts",
+    "a": 55,
+    "d": 0
+   },
+   {
+    "f": "src/ui/cuenta-lista-estado.test.ts",
+    "a": 364,
+    "d": 0
+   },
+   {
+    "f": "src/ui/cuenta-lista-estado.ts",
+    "a": 417,
+    "d": 0
+   },
+   {
+    "f": "src/ui/cuenta-lista-flujo.test.ts",
+    "a": 318,
+    "d": 0
+   },
+   {
+    "f": "src/ui/cuenta-lista-flujo.ts",
+    "a": 249,
+    "d": 0
+   },
+   {
+    "f": "src/ui/cuenta-lista-sin-bucle.test.ts",
+    "a": 81,
+    "d": 0
+   },
+   {
+    "f": "src/ui/cuenta-lista-textos.test.ts",
+    "a": 52,
+    "d": 0
+   },
+   {
+    "f": "src/ui/cuenta-lista.test.ts",
+    "a": 558,
+    "d": 0
+   },
+   {
+    "f": "src/ui/cuenta-lista.ts",
+    "a": 1055,
+    "d": 0
+   },
+   {
+    "f": "src/ui/draw-cuenta-lista.test.ts",
+    "a": 161,
+    "d": 0
+   },
+   {
+    "f": "src/ui/draw.ts",
+    "a": 14,
+    "d": 0
+   },
+   {
+    "f": "src/ui/freeze-cuenta-lista.test.ts",
+    "a": 244,
+    "d": 0
+   },
+   {
+    "f": "src/ui/freeze.ts",
+    "a": 46,
+    "d": 0
+   },
+   {
+    "f": "src/ui/modo-ui.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/ui/proteger-cuenta.test.ts",
+    "a": 46,
+    "d": 504
+   },
+   {
+    "f": "src/ui/proteger-cuenta.ts",
+    "a": 12,
+    "d": 344
+   },
+   {
+    "f": "src/ui/proteger-flujo.test.ts",
+    "a": 28,
+    "d": 1
+   },
+   {
+    "f": "src/ui/proteger-flujo.ts",
+    "a": 28,
+    "d": 11
+   },
+   {
+    "f": "src/ui/siguiente.test.ts",
+    "a": 42,
+    "d": 1
+   },
+   {
+    "f": "src/ui/siguiente.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/ui/wallet-ui.ts",
+    "a": 65,
+    "d": 1
+   },
+   {
+    "f": "workers/enlaces/src/conteo.ts",
+    "a": 2,
+    "d": 0
+   }
+  ]
+ },
+ "7cb0d684af772e1489135cbe5517565afcd49636": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-11T09:09:49Z",
+  "message": "El sitio conoce el contrato de la red principal y abre el modo Oficial",
+  "parents": 1,
+  "files": [
+   {
+    "f": "como-funciona.html",
+    "a": 3,
+    "d": 3
+   },
+   {
+    "f": "docs/cuentas-internas.json",
+    "a": 6,
+    "d": 0
+   },
+   {
+    "f": "docs/deployments.md",
+    "a": 16,
+    "d": 6
+   },
+   {
+    "f": "index.html",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "precios.html",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "public/sitemap.xml",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "scripts/lib/deploy-sh.test.mjs",
+    "a": 4,
+    "d": 1
+   },
+   {
+    "f": "seguridad.html",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "sorteo-verificable.html",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/i18n-modo-oficial.ts",
+    "a": 22,
+    "d": 5
+   },
+   {
+    "f": "src/logo-textos.test.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/stellar/deployments.json",
+    "a": 9,
+    "d": 1
+   },
+   {
+    "f": "src/styles.css",
+    "a": 6,
+    "d": 0
+   },
+   {
+    "f": "src/ui/history-vacio-oficial.test.ts",
+    "a": 3,
+    "d": 1
+   },
+   {
+    "f": "src/ui/modo-ui-estilo.test.ts",
+    "a": 163,
+    "d": 0
+   },
+   {
+    "f": "src/ui/modo-ui.test.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/ui/modo-ui.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "terminos.html",
+    "a": 4,
+    "d": 4
+   }
+  ]
+ },
+ "34d6f815e2104b2104587b9f969005f00880530e": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-11T04:36:59Z",
+  "message": "Deja listo el día del despliegue en la red principal",
+  "parents": 1,
+  "files": [
+   {
+    "f": ".env.example",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": ".gitattributes",
+    "a": 2,
+    "d": 0
+   },
+   {
+    "f": ".github/workflows/release.yml",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": ".github/workflows/vigilar-red.yml",
+    "a": 3,
+    "d": 1
+   },
+   {
+    "f": ".gitignore",
+    "a": 3,
+    "d": 0
+   },
+   {
+    "f": "como-funciona.html",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "docs/deployments.md",
+    "a": 25,
+    "d": 2
+   },
+   {
+    "f": "docs/premios.md",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "scripts/check-renta.mjs",
+    "a": 16,
+    "d": 7
+   },
+   {
+    "f": "scripts/deploy.sh",
+    "a": 226,
+    "d": 11
+   },
+   {
+    "f": "scripts/ensayo-entrada-oficial.mjs",
+    "a": 369,
+    "d": 0
+   },
+   {
+    "f": "scripts/lib/correr-con-tope.mjs",
+    "a": 39,
+    "d": 0
+   },
+   {
+    "f": "scripts/lib/correr-con-tope.test.mjs",
+    "a": 27,
+    "d": 0
+   },
+   {
+    "f": "scripts/lib/deploy-sh.test.mjs",
+    "a": 427,
+    "d": 0
+   },
+   {
+    "f": "scripts/lib/ensayo-oficial.mjs",
+    "a": 292,
+    "d": 0
+   },
+   {
+    "f": "scripts/lib/ensayo-oficial.test.mjs",
+    "a": 538,
+    "d": 0
+   },
+   {
+    "f": "scripts/lib/metricas-cadena.test.mjs",
+    "a": 5,
+    "d": 2
+   },
+   {
+    "f": "scripts/lib/prevuelo.mjs",
+    "a": 155,
+    "d": 0
+   },
+   {
+    "f": "scripts/lib/prevuelo.test.mjs",
+    "a": 201,
+    "d": 0
+   },
+   {
+    "f": "scripts/lib/renta.mjs",
+    "a": 47,
+    "d": 0
+   },
+   {
+    "f": "scripts/lib/renta.test.mjs",
+    "a": 77,
+    "d": 0
+   },
+   {
+    "f": "scripts/lib/vigilar-red-workflow.test.mjs",
+    "a": 105,
+    "d": 0
+   },
+   {
+    "f": "scripts/medir-cabecera-oficial.mjs",
+    "a": 94,
+    "d": 0
+   },
+   {
+    "f": "scripts/preflight-mainnet.mjs",
+    "a": 85,
+    "d": 44
+   },
+   {
+    "f": "src/enlace-contrato.test.ts",
+    "a": 83,
+    "d": 0
+   },
+   {
+    "f": "src/enlace-contrato.ts",
+    "a": 15,
+    "d": 0
+   },
+   {
+    "f": "src/i18n-modo-oficial.ts",
+    "a": 21,
+    "d": 5
+   },
+   {
+    "f": "src/i18n.test.ts",
+    "a": 15,
+    "d": 1
+   },
+   {
+    "f": "src/marca-del-modo.test.ts",
+    "a": 125,
+    "d": 0
+   },
+   {
+    "f": "src/pagina.ts",
+    "a": 6,
+    "d": 1
+   },
+   {
+    "f": "src/stand-coordinacion.test.ts",
+    "a": 16,
+    "d": 3
+   },
+   {
+    "f": "src/stellar/config-modo.test.ts",
+    "a": 65,
+    "d": 2
+   },
+   {
+    "f": "src/stellar/config-tope.test.ts",
+    "a": 52,
+    "d": 4
+   },
+   {
+    "f": "src/stellar/oficiales.test.ts",
+    "a": 43,
+    "d": 6
+   },
+   {
+    "f": "src/stellar/pagos-bandera.ts",
+    "a": 4,
+    "d": 3
+   },
+   {
+    "f": "src/stellar/pagos.test.ts",
+    "a": 4,
+    "d": 2
+   },
+   {
+    "f": "src/styles.css",
+    "a": 37,
+    "d": 6
+   },
+   {
+    "f": "src/ui/freeze-proteger.test.ts",
+    "a": 9,
+    "d": 1
+   },
+   {
+    "f": "src/ui/freeze-renumerar.test.ts",
+    "a": 9,
+    "d": 1
+   },
+   {
+    "f": "src/ui/pagos-resultado.test.ts",
+    "a": 4,
+    "d": 2
+   },
+   {
+    "f": "src/ui/wallet-ui.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "workers/enlaces/src/conteo.test.ts",
+    "a": 29,
+    "d": 4
+   },
+   {
+    "f": "workers/patrocinio/src/servicio.test.ts",
+    "a": 53,
+    "d": 5
+   }
+  ]
+ },
+ "9f388f91d46190e0415eea965180b8d2f35d98fd": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-11T03:51:32Z",
+  "message": "La hoja de operación dice quién paga y cómo cortar el portero",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/operacion.md",
+    "a": 13,
+    "d": 2
+   }
+  ]
+ },
+ "1bf893f76206ddcdba158601d37677170c7b7dd9": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-11T03:51:56Z",
+  "message": "Los auditores de modos y de primer sorteo abren en modo de prueba",
+  "parents": 1,
+  "files": [
+   {
+    "f": "scripts/audit-modos.mjs",
+    "a": 5,
+    "d": 5
+   },
+   {
+    "f": "scripts/audit-primer-sorteo.mjs",
+    "a": 4,
+    "d": 3
+   }
+  ]
+ },
+ "ffd73f241db8bda2c1f2e353e52e79c1292dc143": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "GuidoSV7",
+  "date": "2026-11-10T15:27:27Z",
+  "message": "El registro de equipos avisa cuando Google no deja entrar desde una app",
+  "parents": 1,
+  "files": [
+   {
+    "f": "equipos.html",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "src/equipos-registro.ts",
+    "a": 6,
+    "d": 1
+   },
+   {
+    "f": "src/equipos/registro.test.ts",
+    "a": 20,
+    "d": 1
+   },
+   {
+    "f": "src/equipos/registro.ts",
+    "a": 5,
+    "d": 0
+   },
+   {
+    "f": "src/equipos/textos.ts",
+    "a": 2,
+    "d": 0
+   }
+  ]
+ },
+ "093d7288caf228e189ddf03cb9e3fc82b407a257": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "GuidoSV7",
+  "date": "2026-11-10T13:57:25Z",
+  "message": "La hoja de operación pone al portero de comisiones en su lugar",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/deployments.md",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "docs/operacion.md",
+    "a": 14,
+    "d": 4
+   }
+  ]
+ },
+ "08ebfe6c3c42b36d47cb8491c2f62d0b8c24cdb8": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "GuidoSV7",
+  "date": "2026-11-10T14:41:35Z",
+  "message": "Los auditores de flujo y de interfaz abren el sitio en modo de prueba",
+  "parents": 1,
+  "files": [
+   {
+    "f": "scripts/audit-flujo.mjs",
+    "a": 18,
+    "d": 3
+   },
+   {
+    "f": "scripts/audit-ui.mjs",
+    "a": 4,
+    "d": 4
+   }
+  ]
+ },
+ "fa349dc48a4f87bc8f397ca33832a7a6e9bc540c": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "GuidoSV7",
+  "date": "2026-11-10T13:51:53Z",
+  "message": "La caja de fondos del modo oficial dice que falta saldo",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/i18n.test.ts",
+    "a": 11,
+    "d": 0
+   },
+   {
+    "f": "src/i18n.ts",
+    "a": 2,
+    "d": 2
+   }
+  ]
  }
 }

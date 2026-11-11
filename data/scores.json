@@ -1,15 +1,15 @@
 {
- "generado": "2026-11-11T03:49:16+00:00",
+ "generado": "2026-11-11T13:14:11+00:00",
  "programa": "Stellar Elite",
  "start_date": "2026-09-02T00:00:00Z",
  "teams": [
   {
    "name": "Tinkazo",
-   "total": 6695.31,
-   "per_capita": 6695.31,
-   "commits": 1040,
-   "pts_commits": 6499.31,
-   "dias_activos": 38,
+   "total": 6792.22,
+   "per_capita": 6792.22,
+   "commits": 1052,
+   "pts_commits": 6591.22,
+   "dias_activos": 39,
    "contribuidores": [
     "GuidoSV7",
     "nema1502"
@@ -366,7 +366,8 @@
    "2026-11-06": 101.36,
    "2026-11-08": 11.0,
    "2026-11-09": 204.46999999999997,
-   "2026-11-10": 17.09
+   "2026-11-10": 39.730000000000004,
+   "2026-11-11": 69.27
   },
   "CompraGasolinaBidon": {
    "2026-09-06": 1.0,
@@ -552,7 +553,8 @@
    "2026-11-06": 15,
    "2026-11-08": 2,
    "2026-11-09": 26,
-   "2026-11-10": 3
+   "2026-11-10": 7,
+   "2026-11-11": 8
   },
   "CompraGasolinaBidon": {
    "2026-09-06": 1,
@@ -662,6 +664,86 @@
  },
  "commits": [
   {
+   "sha": "6295dc8",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-11T10:20:42Z",
+   "msg": "Las participaciones y los turnos se leen bien en celular y al compartir",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "6157fa1",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-11T10:19:49Z",
+   "msg": "El portero de la red principal suma pagos y sorteo por el servidor",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "7cb0d68",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-11T09:09:49Z",
+   "msg": "El sitio conoce el contrato de la red principal y abre el modo Oficial",
+   "pts": 9.1,
+   "nota": ""
+  },
+  {
+   "sha": "88399ca",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-11T08:49:54Z",
+   "msg": "El portero de la red principal paga solo a cuentas con cupón o alta",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "9d51482",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-11T08:49:53Z",
+   "msg": "Dejá tu cuenta lista: el paso obligatorio antes de sortear en Oficial",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "34d6f81",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-11T04:36:59Z",
+   "msg": "Deja listo el día del despliegue en la red principal",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "1bf893f",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-11T03:51:56Z",
+   "msg": "Los auditores de modos y de primer sorteo abren en modo de prueba",
+   "pts": 5.17,
+   "nota": ""
+  },
+  {
+   "sha": "9f388f9",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-11T03:51:32Z",
+   "msg": "La hoja de operación dice quién paga y cómo cortar el portero",
+   "pts": 5.0,
+   "nota": ""
+  },
+  {
    "sha": "f0c722a",
    "team": "MinerTrace",
    "repo": "Dante1128/MinerTracer",
@@ -709,6 +791,46 @@
    "date": "2026-11-10T19:42:43Z",
    "msg": "docs(adr): record that the reputation formula stays off chain (#203) (#266)",
    "pts": 6.81,
+   "nota": ""
+  },
+  {
+   "sha": "ffd73f2",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "GuidoSV7",
+   "date": "2026-11-10T15:27:27Z",
+   "msg": "El registro de equipos avisa cuando Google no deja entrar desde una app",
+   "pts": 6.21,
+   "nota": ""
+  },
+  {
+   "sha": "08ebfe6",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "GuidoSV7",
+   "date": "2026-11-10T14:41:35Z",
+   "msg": "Los auditores de flujo y de interfaz abren el sitio en modo de prueba",
+   "pts": 5.91,
+   "nota": ""
+  },
+  {
+   "sha": "093d728",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "GuidoSV7",
+   "date": "2026-11-10T13:57:25Z",
+   "msg": "La hoja de operación pone al portero de comisiones en su lugar",
+   "pts": 5.52,
+   "nota": ""
+  },
+  {
+   "sha": "fa349dc",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "GuidoSV7",
+   "date": "2026-11-10T13:51:53Z",
+   "msg": "La caja de fondos del modo oficial dice que falta saldo",
+   "pts": 5.0,
    "nota": ""
   },
   {
