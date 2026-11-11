@@ -161435,5 +161435,50 @@
     "d": 1
    }
   ]
+ },
+ "f0c722a53473070365801615e2bdb31c863e470e": {
+  "team": "MinerTrace",
+  "repo": "Dante1128/MinerTracer",
+  "author": "dilanCimarChn",
+  "date": "2026-11-11T01:58:45Z",
+  "message": "Merge pull request #4 from Dante1128/devDC",
+  "parents": 2,
+  "files": [
+   {
+    "f": "web/src/paginas/Login.tsx",
+    "a": 13,
+    "d": 2
+   }
+  ]
+ },
+ "0e6e378d9969203d87b44f1fd029ccb94c110658": {
+  "team": "MinerTrace",
+  "repo": "Dante1128/MinerTracer",
+  "author": "dilanCimarChn",
+  "date": "2026-11-11T01:56:59Z",
+  "message": "fix: evitar reenvíos y anunciar errores de inicio de sesión",
+  "parents": 1,
+  "files": [
+   {
+    "f": "web/src/paginas/Login.tsx",
+    "a": 2,
+    "d": 1
+   }
+  ]
+ },
+ "3d80e11ea493b159e70f33481fd64d3895c6e614": {
+  "team": "MinerTrace",
+  "repo": "Dante1128/MinerTracer",
+  "author": "dilanCimarChn",
+  "date": "2026-11-11T01:54:12Z",
+  "message": "feat: permitir mostrar y ocultar la contraseña al ingresar",
+  "parents": 1,
+  "files": [
+   {
+    "f": "web/src/paginas/Login.tsx",
+    "a": 11,
+    "d": 1
+   }
+  ]
  }
 }

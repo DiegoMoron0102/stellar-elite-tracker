@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-10T22:39:50+00:00",
+ "generado": "2026-11-11T03:49:16+00:00",
  "programa": "Stellar Elite",
  "start_date": "2026-09-02T00:00:00Z",
  "teams": [
@@ -83,11 +83,11 @@
   },
   {
    "name": "MinerTrace",
-   "total": 310.53,
-   "per_capita": 310.53,
-   "commits": 39,
-   "pts_commits": 269.53,
-   "dias_activos": 7,
+   "total": 323.23,
+   "per_capita": 323.23,
+   "commits": 42,
+   "pts_commits": 277.23,
+   "dias_activos": 8,
    "contribuidores": [
     "Dante1128",
     "dilanCimarChn"
@@ -436,7 +436,8 @@
    "2026-10-10": 9.88,
    "2026-11-03": 19.53,
    "2026-11-05": 24.45,
-   "2026-11-09": 0.0
+   "2026-11-09": 0.0,
+   "2026-11-11": 7.7
   },
   "TilcAI": {
    "2026-09-27": 23.66,
@@ -621,7 +622,8 @@
    "2026-10-10": 1,
    "2026-11-03": 3,
    "2026-11-05": 3,
-   "2026-11-09": 1
+   "2026-11-09": 1,
+   "2026-11-11": 3
   },
   "TilcAI": {
    "2026-09-27": 3,
@@ -659,6 +661,36 @@
   }
  },
  "commits": [
+  {
+   "sha": "f0c722a",
+   "team": "MinerTrace",
+   "repo": "Dante1128/MinerTracer",
+   "author": "dilanCimarChn",
+   "date": "2026-11-11T01:58:45Z",
+   "msg": "Merge pull request #4 from Dante1128/devDC",
+   "pts": 0.0,
+   "nota": "merge"
+  },
+  {
+   "sha": "0e6e378",
+   "team": "MinerTrace",
+   "repo": "Dante1128/MinerTracer",
+   "author": "dilanCimarChn",
+   "date": "2026-11-11T01:56:59Z",
+   "msg": "fix: evitar reenvíos y anunciar errores de inicio de sesión",
+   "pts": 3.0,
+   "nota": ""
+  },
+  {
+   "sha": "3d80e11",
+   "team": "MinerTrace",
+   "repo": "Dante1128/MinerTracer",
+   "author": "dilanCimarChn",
+   "date": "2026-11-11T01:54:12Z",
+   "msg": "feat: permitir mostrar y ocultar la contraseña al ingresar",
+   "pts": 4.7,
+   "nota": ""
+  },
   {
    "sha": "e2199ba",
    "team": "Puls3",
