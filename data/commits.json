@@ -164110,5 +164110,225 @@
     "d": 5
    }
   ]
+ },
+ "97125f0c33db6b9853ce1120dd689b56b01c3c53": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-12T02:14:15Z",
+  "message": "Los textos del sitio, sin comillas angulares ni punto y coma",
+  "parents": 1,
+  "files": [
+   {
+    "f": "como-funciona.html",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "docs/amenazas.md",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "docs/marca.md",
+    "a": 3,
+    "d": 0
+   },
+   {
+    "f": "docs/threat-model.en.md",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "index.html",
+    "a": 9,
+    "d": 9
+   },
+   {
+    "f": "juegos.html",
+    "a": 5,
+    "d": 5
+   },
+   {
+    "f": "marca.html",
+    "a": 19,
+    "d": 19
+   },
+   {
+    "f": "package.json",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "precios.html",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "public/marca/qr/tinkazo-qr.zip",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/textos-sponsor.txt",
+    "a": 4,
+    "d": 4
+   },
+   {
+    "f": "public/marca/tinkazo-kit-marca.zip",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/tinkazo-kit-sponsor.zip",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "ruleta-de-nombres.html",
+    "a": 3,
+    "d": 3
+   },
+   {
+    "f": "scripts/check-escritura.mjs",
+    "a": 102,
+    "d": 0
+   },
+   {
+    "f": "scripts/generar-marca.mjs",
+    "a": 18,
+    "d": 18
+   },
+   {
+    "f": "scripts/lib/escritura-exclusiones.json",
+    "a": 38,
+    "d": 0
+   },
+   {
+    "f": "scripts/lib/escritura.mjs",
+    "a": 626,
+    "d": 0
+   },
+   {
+    "f": "scripts/lib/escritura.test.mjs",
+    "a": 429,
+    "d": 0
+   },
+   {
+    "f": "scripts/marca/qr-clave.mjs",
+    "a": 6,
+    "d": 6
+   },
+   {
+    "f": "scripts/marca/textos-sponsor.mjs",
+    "a": 4,
+    "d": 4
+   },
+   {
+    "f": "seguridad.html",
+    "a": 3,
+    "d": 3
+   },
+   {
+    "f": "sorteo-para-eventos.html",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "sorteo-para-meetup.html",
+    "a": 43,
+    "d": 43
+   },
+   {
+    "f": "src/equipos/redaccion.test.ts",
+    "a": 11,
+    "d": 0
+   },
+   {
+    "f": "src/equipos/textos.ts",
+    "a": 16,
+    "d": 16
+   },
+   {
+    "f": "src/i18n-modo-oficial.ts",
+    "a": 12,
+    "d": 12
+   },
+   {
+    "f": "src/i18n.test.ts",
+    "a": 71,
+    "d": 0
+   },
+   {
+    "f": "src/i18n.ts",
+    "a": 208,
+    "d": 204
+   },
+   {
+    "f": "src/kit-organizador.test.ts",
+    "a": 6,
+    "d": 0
+   },
+   {
+    "f": "src/logo-textos.test.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/marca-creadores.ts",
+    "a": 26,
+    "d": 26
+   },
+   {
+    "f": "src/marca-qr.test.ts",
+    "a": 4,
+    "d": 0
+   },
+   {
+    "f": "src/marca.test.ts",
+    "a": 33,
+    "d": 2
+   },
+   {
+    "f": "src/seo.test.ts",
+    "a": 8,
+    "d": 7
+   },
+   {
+    "f": "src/textos-con-cupon.test.ts",
+    "a": 26,
+    "d": 4
+   },
+   {
+    "f": "src/ui/cuenta-lista.test.ts",
+    "a": 2,
+    "d": 1
+   },
+   {
+    "f": "src/ui/pagar-premio.test.ts",
+    "a": 3,
+    "d": 1
+   },
+   {
+    "f": "src/ui/pagos-textos.ts",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "src/ui/premios.test.ts",
+    "a": 2,
+    "d": 1
+   },
+   {
+    "f": "src/ui/textos-de-siempre.test.ts",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "terminos.html",
+    "a": 9,
+    "d": 9
+   }
+  ]
  }
 }
