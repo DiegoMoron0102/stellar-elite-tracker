@@ -1,14 +1,14 @@
 {
- "generado": "2026-11-12T04:56:55+00:00",
+ "generado": "2026-11-12T14:17:34+00:00",
  "programa": "Stellar Elite",
  "start_date": "2026-09-02T00:00:00Z",
  "teams": [
   {
    "name": "Tinkazo",
-   "total": 6950.09,
-   "per_capita": 6950.09,
-   "commits": 1074,
-   "pts_commits": 6744.09,
+   "total": 7037.98,
+   "per_capita": 7037.98,
+   "commits": 1086,
+   "pts_commits": 6831.98,
    "dias_activos": 40,
    "contribuidores": [
     "GuidoSV7",
@@ -363,12 +363,12 @@
    "2026-11-03": 223.31999999999996,
    "2026-11-04": 325.49,
    "2026-11-05": 55.97,
-   "2026-11-06": 101.36,
+   "2026-11-06": 109.84,
    "2026-11-08": 11.0,
-   "2026-11-09": 204.46999999999997,
+   "2026-11-09": 209.46999999999997,
    "2026-11-10": 39.730000000000004,
    "2026-11-11": 212.14000000000001,
-   "2026-11-12": 10.0
+   "2026-11-12": 84.41
   },
   "CompraGasolinaBidon": {
    "2026-09-06": 1.0,
@@ -551,12 +551,12 @@
    "2026-11-03": 38,
    "2026-11-04": 44,
    "2026-11-05": 8,
-   "2026-11-06": 15,
+   "2026-11-06": 16,
    "2026-11-08": 2,
-   "2026-11-09": 26,
+   "2026-11-09": 27,
    "2026-11-10": 7,
    "2026-11-11": 29,
-   "2026-11-12": 1
+   "2026-11-12": 11
   },
   "CompraGasolinaBidon": {
    "2026-09-06": 1,
@@ -666,6 +666,96 @@
  },
  "commits": [
   {
+   "sha": "1b681ba",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-12T12:56:50Z",
+   "msg": "El panel de juegos de la espera entra en cada pantalla y se entiende",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "bbbb1a6",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-12T12:56:49Z",
+   "msg": "Sorprendeme elige un juego por la persona y respeta los premios",
+   "pts": 8.73,
+   "nota": ""
+  },
+  {
+   "sha": "6a8efd6",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-12T10:28:08Z",
+   "msg": "La prueba del correo colgado no depende de la velocidad del equipo",
+   "pts": 6.0,
+   "nota": ""
+  },
+  {
+   "sha": "225f4e7",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-12T09:15:28Z",
+   "msg": "El sorteo sin cuenta se deja fuera de Mis sorteos en su propia condición",
+   "pts": 3.32,
+   "nota": ""
+  },
+  {
+   "sha": "8405f85",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-12T07:29:44Z",
+   "msg": "Un vigilante mira el portero cada diez minutos y avisa por correo",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "8be115d",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-12T06:57:57Z",
+   "msg": "Si entrar con cuenta falla por el proveedor, se puede sortear sin cuenta",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "625a4cd",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-12T05:29:04Z",
+   "msg": "Las pruebas de textos y el auditor de palabras vuelven a mirar",
+   "pts": 5.09,
+   "nota": ""
+  },
+  {
+   "sha": "c53c3ce",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-12T05:29:04Z",
+   "msg": "Los textos suenan más naturales en español y en inglés",
+   "pts": 8.71,
+   "nota": ""
+  },
+  {
+   "sha": "92b1d83",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-12T03:26:59Z",
+   "msg": "El comentario de la prueba del sello pasa a español",
+   "pts": 2.58,
+   "nota": ""
+  },
+  {
    "sha": "97125f0",
    "team": "Tinkazo",
    "repo": "nema1502/tinkazo",
@@ -673,6 +763,16 @@
    "date": "2026-11-12T02:14:15Z",
    "msg": "Los textos del sitio, sin comillas angulares ni punto y coma",
    "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "3f8d615",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "GuidoSV7",
+   "date": "2026-11-12T01:35:12Z",
+   "msg": "feat(espera): botón «Al azar» en Elegí el juego, con ruleta sembrada",
+   "pts": 9.98,
    "nota": ""
   },
   {
@@ -1416,6 +1516,16 @@
    "nota": ""
   },
   {
+   "sha": "c7e1196",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "GuidoSV7",
+   "date": "2026-11-09T03:52:41Z",
+   "msg": "test(sellar): congelar el reloj de la prueba del sello",
+   "pts": 5.0,
+   "nota": ""
+  },
+  {
    "sha": "fe0660c",
    "team": "Tinkazo",
    "repo": "nema1502/tinkazo",
@@ -1673,6 +1783,16 @@
    "date": "2026-11-06T19:23:57Z",
    "msg": "feat(reputation): make the served rating verifiable from the chain (#202) (#230)",
    "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "3716d10",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "GuidoSV7",
+   "date": "2026-11-06T15:40:44Z",
+   "msg": "feat(ui): el panel Elegí el juego en grid compacto con la captura de cada juego",
+   "pts": 8.48,
    "nota": ""
   },
   {

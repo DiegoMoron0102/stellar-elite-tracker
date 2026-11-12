@@ -164330,5 +164330,645 @@
     "d": 9
    }
   ]
+ },
+ "1b681bad980f53869061648f229e513950407c16": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-12T12:56:50Z",
+  "message": "El panel de juegos de la espera entra en cada pantalla y se entiende",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/ux.md",
+    "a": 7,
+    "d": 1
+   },
+   {
+    "f": "scripts/medir-panel-espera.mjs",
+    "a": 486,
+    "d": 0
+   },
+   {
+    "f": "src/i18n.ts",
+    "a": 4,
+    "d": 0
+   },
+   {
+    "f": "src/styles.css",
+    "a": 79,
+    "d": 12
+   },
+   {
+    "f": "src/ui/azar.test.ts",
+    "a": 115,
+    "d": 1
+   },
+   {
+    "f": "src/ui/azar.ts",
+    "a": 39,
+    "d": 3
+   },
+   {
+    "f": "src/ui/espera-panel.test.ts",
+    "a": 243,
+    "d": 36
+   },
+   {
+    "f": "src/ui/espera.test.ts",
+    "a": 484,
+    "d": 46
+   },
+   {
+    "f": "src/ui/espera.ts",
+    "a": 129,
+    "d": 40
+   },
+   {
+    "f": "src/ui/freeze.ts",
+    "a": 2,
+    "d": 0
+   }
+  ]
+ },
+ "3716d10574c068b1752f9c17f95d92ada975e486": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "GuidoSV7",
+  "date": "2026-11-06T15:40:44Z",
+  "message": "feat(ui): el panel Elegí el juego en grid compacto con la captura de cada juego",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/styles.css",
+    "a": 21,
+    "d": 1
+   },
+   {
+    "f": "src/ui/espera-panel.test.ts",
+    "a": 122,
+    "d": 0
+   },
+   {
+    "f": "src/ui/espera.ts",
+    "a": 27,
+    "d": 7
+   }
+  ]
+ },
+ "bbbb1a667d0251e7e626158422915c21caff130b": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-12T12:56:49Z",
+  "message": "Sorprendeme elige un juego por la persona y respeta los premios",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/i18n.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/ui/azar.test.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/ui/azar.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/ui/espera.test.ts",
+    "a": 159,
+    "d": 20
+   },
+   {
+    "f": "src/ui/espera.ts",
+    "a": 20,
+    "d": 6
+   },
+   {
+    "f": "src/ui/freeze.ts",
+    "a": 1,
+    "d": 0
+   }
+  ]
+ },
+ "3f8d615313b8033cb9b0fda9709d714c236509ce": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "GuidoSV7",
+  "date": "2026-11-12T01:35:12Z",
+  "message": "feat(espera): botón «Al azar» en Elegí el juego, con ruleta sembrada",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/i18n.ts",
+    "a": 2,
+    "d": 0
+   },
+   {
+    "f": "src/ui/azar.test.ts",
+    "a": 159,
+    "d": 0
+   },
+   {
+    "f": "src/ui/azar.ts",
+    "a": 129,
+    "d": 0
+   },
+   {
+    "f": "src/ui/espera.test.ts",
+    "a": 143,
+    "d": 0
+   },
+   {
+    "f": "src/ui/espera.ts",
+    "a": 68,
+    "d": 2
+   }
+  ]
+ },
+ "92b1d83e3b9f8d6bdeaef40394554834963204ca": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-12T03:26:59Z",
+  "message": "El comentario de la prueba del sello pasa a español",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/stellar/historial.test.ts",
+    "a": 1,
+    "d": 1
+   }
+  ]
+ },
+ "c7e11964c748c9c5f17590c6b0e9faf353b26eff": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "GuidoSV7",
+  "date": "2026-11-09T03:52:41Z",
+  "message": "test(sellar): congelar el reloj de la prueba del sello",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/stellar/historial.test.ts",
+    "a": 12,
+    "d": 3
+   }
+  ]
+ },
+ "6a8efd64335b5de79a3b3c2c031a6cf2894d784b": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-12T10:28:08Z",
+  "message": "La prueba del correo colgado no depende de la velocidad del equipo",
+  "parents": 1,
+  "files": [
+   {
+    "f": "workers/vigilante/src/correo-colgado.test.ts",
+    "a": 29,
+    "d": 2
+   }
+  ]
+ },
+ "225f4e73fd4a0e33c5b9754b4bb12deb8fda541e": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-12T09:15:28Z",
+  "message": "El sorteo sin cuenta se deja fuera de Mis sorteos en su propia condición",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/ui/draw.ts",
+    "a": 2,
+    "d": 2
+   }
+  ]
+ },
+ "8405f85d300e9b8c5bb5dca880943d18c491ab23": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-12T07:29:44Z",
+  "message": "Un vigilante mira el portero cada diez minutos y avisa por correo",
+  "parents": 1,
+  "files": [
+   {
+    "f": ".github/workflows/vigilar-portero.yml",
+    "a": 8,
+    "d": 2
+   },
+   {
+    "f": "docs/operacion.md",
+    "a": 70,
+    "d": 1
+   },
+   {
+    "f": "scripts/lib/revision-portero.d.mts",
+    "a": 39,
+    "d": 0
+   },
+   {
+    "f": "scripts/lib/revision-portero.mjs",
+    "a": 219,
+    "d": 0
+   },
+   {
+    "f": "scripts/lib/revision-portero.test.mjs",
+    "a": 124,
+    "d": 0
+   },
+   {
+    "f": "scripts/lib/vigilar-portero.mjs",
+    "a": 21,
+    "d": 116
+   },
+   {
+    "f": "scripts/lib/vigilar-portero.test.mjs",
+    "a": 157,
+    "d": 2
+   },
+   {
+    "f": "workers/patrocinio/README.md",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "workers/vigilante/.gitignore",
+    "a": 7,
+    "d": 0
+   },
+   {
+    "f": "workers/vigilante/README.md",
+    "a": 121,
+    "d": 0
+   },
+   {
+    "f": "workers/vigilante/src/clave-de-prueba.test.ts",
+    "a": 80,
+    "d": 0
+   },
+   {
+    "f": "workers/vigilante/src/config.test.ts",
+    "a": 104,
+    "d": 0
+   },
+   {
+    "f": "workers/vigilante/src/config.ts",
+    "a": 98,
+    "d": 0
+   },
+   {
+    "f": "workers/vigilante/src/correo-colgado.test.ts",
+    "a": 93,
+    "d": 0
+   },
+   {
+    "f": "workers/vigilante/src/documentos.test.ts",
+    "a": 360,
+    "d": 0
+   },
+   {
+    "f": "workers/vigilante/src/envio.ts",
+    "a": 73,
+    "d": 0
+   },
+   {
+    "f": "workers/vigilante/src/index.test.ts",
+    "a": 67,
+    "d": 0
+   },
+   {
+    "f": "workers/vigilante/src/index.ts",
+    "a": 38,
+    "d": 0
+   },
+   {
+    "f": "workers/vigilante/src/memoria-ruta.ts",
+    "a": 44,
+    "d": 0
+   },
+   {
+    "f": "workers/vigilante/src/mensaje.test.ts",
+    "a": 352,
+    "d": 0
+   },
+   {
+    "f": "workers/vigilante/src/mensaje.ts",
+    "a": 426,
+    "d": 0
+   },
+   {
+    "f": "workers/vigilante/src/mundo-falso.ts",
+    "a": 205,
+    "d": 0
+   },
+   {
+    "f": "workers/vigilante/src/portero-host.test.ts",
+    "a": 83,
+    "d": 0
+   },
+   {
+    "f": "workers/vigilante/src/prueba.test.ts",
+    "a": 137,
+    "d": 0
+   },
+   {
+    "f": "workers/vigilante/src/publica.test.ts",
+    "a": 188,
+    "d": 0
+   },
+   {
+    "f": "workers/vigilante/src/publica.ts",
+    "a": 129,
+    "d": 0
+   },
+   {
+    "f": "workers/vigilante/src/registro.ts",
+    "a": 45,
+    "d": 0
+   },
+   {
+    "f": "workers/vigilante/src/ruta-cache.test.ts",
+    "a": 101,
+    "d": 0
+   },
+   {
+    "f": "workers/vigilante/src/sin-acceso.test.ts",
+    "a": 93,
+    "d": 0
+   },
+   {
+    "f": "workers/vigilante/src/vuelta.test.ts",
+    "a": 894,
+    "d": 0
+   },
+   {
+    "f": "workers/vigilante/src/vuelta.ts",
+    "a": 375,
+    "d": 0
+   },
+   {
+    "f": "workers/vigilante/wrangler.toml",
+    "a": 44,
+    "d": 0
+   }
+  ]
+ },
+ "8be115d74b427637a88fb2ff0c256ec96798c935": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-12T06:57:57Z",
+  "message": "Si entrar con cuenta falla por el proveedor, se puede sortear sin cuenta",
+  "parents": 1,
+  "files": [
+   {
+    "f": ".env.example",
+    "a": 4,
+    "d": 0
+   },
+   {
+    "f": "docs/operacion.md",
+    "a": 7,
+    "d": 1
+   },
+   {
+    "f": "docs/ux.md",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "src/i18n.ts",
+    "a": 13,
+    "d": 0
+   },
+   {
+    "f": "src/state.ts",
+    "a": 5,
+    "d": 0
+   },
+   {
+    "f": "src/stellar/alta-build.ts",
+    "a": 5,
+    "d": 2
+   },
+   {
+    "f": "src/stellar/ingreso-bandera.ts",
+    "a": 24,
+    "d": 0
+   },
+   {
+    "f": "src/stellar/wallet-pollar.ts",
+    "a": 4,
+    "d": 1
+   },
+   {
+    "f": "src/styles.css",
+    "a": 19,
+    "d": 0
+   },
+   {
+    "f": "src/ui/draw.ts",
+    "a": 2,
+    "d": 1
+   },
+   {
+    "f": "src/ui/freeze.ts",
+    "a": 4,
+    "d": 1
+   },
+   {
+    "f": "src/ui/ingreso-errores.ts",
+    "a": 12,
+    "d": 4
+   },
+   {
+    "f": "src/ui/ingreso-plan-b-ui.test.ts",
+    "a": 761,
+    "d": 0
+   },
+   {
+    "f": "src/ui/ingreso-plan-b.test.ts",
+    "a": 234,
+    "d": 0
+   },
+   {
+    "f": "src/ui/ingreso-plan-b.ts",
+    "a": 109,
+    "d": 0
+   },
+   {
+    "f": "src/ui/sin-cuenta-franja.test.ts",
+    "a": 105,
+    "d": 0
+   },
+   {
+    "f": "src/ui/sin-cuenta-franja.ts",
+    "a": 50,
+    "d": 0
+   },
+   {
+    "f": "src/ui/sin-cuenta-registro.test.ts",
+    "a": 112,
+    "d": 0
+   },
+   {
+    "f": "src/ui/sin-cuenta-sellar.test.ts",
+    "a": 195,
+    "d": 0
+   },
+   {
+    "f": "src/ui/sin-cuenta-sortear.test.ts",
+    "a": 179,
+    "d": 0
+   },
+   {
+    "f": "src/ui/sin-cuenta.test.ts",
+    "a": 190,
+    "d": 0
+   },
+   {
+    "f": "src/ui/sin-cuenta.ts",
+    "a": 73,
+    "d": 0
+   },
+   {
+    "f": "src/ui/wallet-ui.ts",
+    "a": 167,
+    "d": 8
+   }
+  ]
+ },
+ "625a4cd18e5beb92ab208354ec5b4018b3ebb111": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-12T05:29:04Z",
+  "message": "Las pruebas de textos y el auditor de palabras vuelven a mirar",
+  "parents": 1,
+  "files": [
+   {
+    "f": "scripts/lib/palabras.mjs",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "src/games/pixi/kit/nino.test.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/games/pixi/kit/respuestas.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/i18n.test.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/revision-textos.test.ts",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "src/ui/sorteo-seguro.test.ts",
+    "a": 1,
+    "d": 1
+   }
+  ]
+ },
+ "c53c3cea81fa3fd56095ecec85913922b56f0f81": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-12T05:29:04Z",
+  "message": "Los textos suenan más naturales en español y en inglés",
+  "parents": 1,
+  "files": [
+   {
+    "f": "como-funciona.html",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "docs/ux.md",
+    "a": 5,
+    "d": 5
+   },
+   {
+    "f": "index.html",
+    "a": 11,
+    "d": 11
+   },
+   {
+    "f": "marca.html",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "scripts/audit-detalles.mjs",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "scripts/marca/videos/guiones.mjs",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "src/i18n-modo-oficial.ts",
+    "a": 5,
+    "d": 5
+   },
+   {
+    "f": "src/i18n.ts",
+    "a": 63,
+    "d": 63
+   },
+   {
+    "f": "src/portada-cta.test.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/seo.test.ts",
+    "a": 7,
+    "d": 3
+   },
+   {
+    "f": "src/styles.css",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/textos-con-cupon.test.ts",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "src/ui/pagar-premio.test.ts",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "src/ui/pagos-textos.ts",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "src/ui/turnos.test.ts",
+    "a": 1,
+    "d": 1
+   }
+  ]
  }
 }
