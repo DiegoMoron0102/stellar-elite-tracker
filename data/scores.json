@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-12T22:58:52+00:00",
+ "generado": "2026-11-13T04:10:12+00:00",
  "programa": "Stellar Elite",
  "start_date": "2026-09-02T00:00:00Z",
  "teams": [
@@ -83,11 +83,11 @@
   },
   {
    "name": "MinerTrace",
-   "total": 334.74,
-   "per_capita": 334.74,
-   "commits": 45,
-   "pts_commits": 288.74,
-   "dias_activos": 8,
+   "total": 359.44,
+   "per_capita": 359.44,
+   "commits": 50,
+   "pts_commits": 308.44,
+   "dias_activos": 9,
    "contribuidores": [
     "Dante1128",
     "dilanCimarChn"
@@ -439,7 +439,8 @@
    "2026-11-03": 19.53,
    "2026-11-05": 24.45,
    "2026-11-09": 0.0,
-   "2026-11-11": 19.21
+   "2026-11-11": 19.21,
+   "2026-11-12": 19.700000000000003
   },
   "TilcAI": {
    "2026-09-27": 23.66,
@@ -627,7 +628,8 @@
    "2026-11-03": 3,
    "2026-11-05": 3,
    "2026-11-09": 1,
-   "2026-11-11": 6
+   "2026-11-11": 6,
+   "2026-11-12": 5
   },
   "TilcAI": {
    "2026-09-27": 3,
@@ -665,6 +667,56 @@
   }
  },
  "commits": [
+  {
+   "sha": "0b3416f",
+   "team": "MinerTrace",
+   "repo": "Dante1128/MinerTracer",
+   "author": "dilanCimarChn",
+   "date": "2026-11-12T23:05:02Z",
+   "msg": "Merge pull request #6 from Dante1128/devDC",
+   "pts": 0.0,
+   "nota": "merge"
+  },
+  {
+   "sha": "345be70",
+   "team": "MinerTrace",
+   "repo": "Dante1128/MinerTracer",
+   "author": "dilanCimarChn",
+   "date": "2026-11-12T23:01:02Z",
+   "msg": "feat(panel): buscar analisis y lotes desde el listado",
+   "pts": 5.17,
+   "nota": ""
+  },
+  {
+   "sha": "3bac8e5",
+   "team": "MinerTrace",
+   "repo": "Dante1128/MinerTracer",
+   "author": "dilanCimarChn",
+   "date": "2026-11-12T23:01:01Z",
+   "msg": "feat(registro): simplificar opciones del lote y explicar la firma",
+   "pts": 6.04,
+   "nota": ""
+  },
+  {
+   "sha": "7b00ce2",
+   "team": "MinerTrace",
+   "repo": "Dante1128/MinerTracer",
+   "author": "dilanCimarChn",
+   "date": "2026-11-12T23:01:01Z",
+   "msg": "feat(analisis): simplificar resultados y mostrar el PDF seleccionado",
+   "pts": 5.17,
+   "nota": ""
+  },
+  {
+   "sha": "7e89ecf",
+   "team": "MinerTrace",
+   "repo": "Dante1128/MinerTracer",
+   "author": "dilanCimarChn",
+   "date": "2026-11-12T23:01:01Z",
+   "msg": "fix(analisis): evitar valores iniciales ajenos al informe",
+   "pts": 3.32,
+   "nota": ""
+  },
   {
    "sha": "1b681ba",
    "team": "Tinkazo",

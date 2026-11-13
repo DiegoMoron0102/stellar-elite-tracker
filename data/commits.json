@@ -164970,5 +164970,90 @@
     "d": 1
    }
   ]
+ },
+ "0b3416f1ab787e8d566acf331732a9e953df1eba": {
+  "team": "MinerTrace",
+  "repo": "Dante1128/MinerTracer",
+  "author": "dilanCimarChn",
+  "date": "2026-11-12T23:05:02Z",
+  "message": "Merge pull request #6 from Dante1128/devDC",
+  "parents": 2,
+  "files": [
+   {
+    "f": "web/src/componentes/CamposAnalisis.tsx",
+    "a": 12,
+    "d": 9
+   },
+   {
+    "f": "web/src/paginas/NuevoAnalisis.tsx",
+    "a": 21,
+    "d": 11
+   },
+   {
+    "f": "web/src/paginas/Panel.tsx",
+    "a": 15,
+    "d": 2
+   }
+  ]
+ },
+ "345be70acda13ee5a13f10ba69c9f14cd2829c52": {
+  "team": "MinerTrace",
+  "repo": "Dante1128/MinerTracer",
+  "author": "dilanCimarChn",
+  "date": "2026-11-12T23:01:02Z",
+  "message": "feat(panel): buscar analisis y lotes desde el listado",
+  "parents": 1,
+  "files": [
+   {
+    "f": "web/src/paginas/Panel.tsx",
+    "a": 15,
+    "d": 2
+   }
+  ]
+ },
+ "3bac8e5332a7e35bdc2fd7d1bcffe99c187fdfb3": {
+  "team": "MinerTrace",
+  "repo": "Dante1128/MinerTracer",
+  "author": "dilanCimarChn",
+  "date": "2026-11-12T23:01:01Z",
+  "message": "feat(registro): simplificar opciones del lote y explicar la firma",
+  "parents": 1,
+  "files": [
+   {
+    "f": "web/src/paginas/NuevoAnalisis.tsx",
+    "a": 21,
+    "d": 11
+   }
+  ]
+ },
+ "7b00ce22b3598b7c57af78654088a9e987ecb726": {
+  "team": "MinerTrace",
+  "repo": "Dante1128/MinerTracer",
+  "author": "dilanCimarChn",
+  "date": "2026-11-12T23:01:01Z",
+  "message": "feat(analisis): simplificar resultados y mostrar el PDF seleccionado",
+  "parents": 1,
+  "files": [
+   {
+    "f": "web/src/componentes/CamposAnalisis.tsx",
+    "a": 10,
+    "d": 7
+   }
+  ]
+ },
+ "7e89ecfbc7ddd125b3bcde6fa5fec6aefbe7ef09": {
+  "team": "MinerTrace",
+  "repo": "Dante1128/MinerTracer",
+  "author": "dilanCimarChn",
+  "date": "2026-11-12T23:01:01Z",
+  "message": "fix(analisis): evitar valores iniciales ajenos al informe",
+  "parents": 1,
+  "files": [
+   {
+    "f": "web/src/componentes/CamposAnalisis.tsx",
+    "a": 2,
+    "d": 2
+   }
+  ]
  }
 }
