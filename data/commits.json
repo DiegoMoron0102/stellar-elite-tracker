@@ -165055,5 +165055,495 @@
     "d": 2
    }
   ]
+ },
+ "447aee4a5a8d0e1887aad6b7330f70cd3841dff1": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-13T11:05:23Z",
+  "message": "El servidor suma la venta de paquetes y la compra con QR, cerradas",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/operacion.md",
+    "a": 84,
+    "d": 3
+   },
+   {
+    "f": "scripts/cupones.mjs",
+    "a": 105,
+    "d": 10
+   },
+   {
+    "f": "scripts/cupones.test.mjs",
+    "a": 186,
+    "d": 2
+   },
+   {
+    "f": "scripts/lib/revision-portero.mjs",
+    "a": 15,
+    "d": 2
+   },
+   {
+    "f": "scripts/lib/revision-portero.test.mjs",
+    "a": 36,
+    "d": 0
+   },
+   {
+    "f": "scripts/lib/vigilar-portero.mjs",
+    "a": 3,
+    "d": 1
+   },
+   {
+    "f": "scripts/lib/vigilar-portero.test.mjs",
+    "a": 29,
+    "d": 2
+   },
+   {
+    "f": "workers/patrocinio/README.md",
+    "a": 31,
+    "d": 10
+   },
+   {
+    "f": "workers/patrocinio/src/admin.test.ts",
+    "a": 21,
+    "d": 1
+   },
+   {
+    "f": "workers/patrocinio/src/admin.ts",
+    "a": 130,
+    "d": 3
+   },
+   {
+    "f": "workers/patrocinio/src/altas-prueba.ts",
+    "a": 3,
+    "d": 2
+   },
+   {
+    "f": "workers/patrocinio/src/arranque-datos-viejos.test.ts",
+    "a": 175,
+    "d": 0
+   },
+   {
+    "f": "workers/patrocinio/src/carga.test.ts",
+    "a": 171,
+    "d": 0
+   },
+   {
+    "f": "workers/patrocinio/src/cerrar-orden.test.ts",
+    "a": 147,
+    "d": 0
+   },
+   {
+    "f": "workers/patrocinio/src/cobros-admin.test.ts",
+    "a": 41,
+    "d": 11
+   },
+   {
+    "f": "workers/patrocinio/src/cobros-prueba.ts",
+    "a": 43,
+    "d": 6
+   },
+   {
+    "f": "workers/patrocinio/src/cobros.test.ts",
+    "a": 32,
+    "d": 10
+   },
+   {
+    "f": "workers/patrocinio/src/cobros.ts",
+    "a": 218,
+    "d": 57
+   },
+   {
+    "f": "workers/patrocinio/src/columnas-fallidas.test.ts",
+    "a": 98,
+    "d": 0
+   },
+   {
+    "f": "workers/patrocinio/src/compras-anular-forma.test.ts",
+    "a": 53,
+    "d": 0
+   },
+   {
+    "f": "workers/patrocinio/src/compras-anular.test.ts",
+    "a": 333,
+    "d": 0
+   },
+   {
+    "f": "workers/patrocinio/src/compras-avisos.test.ts",
+    "a": 70,
+    "d": 0
+   },
+   {
+    "f": "workers/patrocinio/src/compras-cargando.test.ts",
+    "a": 128,
+    "d": 0
+   },
+   {
+    "f": "workers/patrocinio/src/compras-config.test.ts",
+    "a": 191,
+    "d": 0
+   },
+   {
+    "f": "workers/patrocinio/src/compras-firmas.test.ts",
+    "a": 58,
+    "d": 0
+   },
+   {
+    "f": "workers/patrocinio/src/compras-piloto-dos.test.ts",
+    "a": 97,
+    "d": 0
+   },
+   {
+    "f": "workers/patrocinio/src/compras-piloto.test.ts",
+    "a": 138,
+    "d": 0
+   },
+   {
+    "f": "workers/patrocinio/src/compras-recargo.test.ts",
+    "a": 95,
+    "d": 0
+   },
+   {
+    "f": "workers/patrocinio/src/compras-soltar.test.ts",
+    "a": 77,
+    "d": 0
+   },
+   {
+    "f": "workers/patrocinio/src/compras-topes.test.ts",
+    "a": 125,
+    "d": 0
+   },
+   {
+    "f": "workers/patrocinio/src/compras.test.ts",
+    "a": 503,
+    "d": 0
+   },
+   {
+    "f": "workers/patrocinio/src/compras.ts",
+    "a": 461,
+    "d": 0
+   },
+   {
+    "f": "workers/patrocinio/src/config.test.ts",
+    "a": 68,
+    "d": 3
+   },
+   {
+    "f": "workers/patrocinio/src/config.ts",
+    "a": 188,
+    "d": 7
+   },
+   {
+    "f": "workers/patrocinio/src/cupos.ts",
+    "a": 77,
+    "d": 16
+   },
+   {
+    "f": "workers/patrocinio/src/estado-venta.test.ts",
+    "a": 76,
+    "d": 0
+   },
+   {
+    "f": "workers/patrocinio/src/index.ts",
+    "a": 49,
+    "d": 6
+   },
+   {
+    "f": "workers/patrocinio/src/minimo-recargo.test.ts",
+    "a": 76,
+    "d": 0
+   },
+   {
+    "f": "workers/patrocinio/src/orden-piloto.test.ts",
+    "a": 129,
+    "d": 0
+   },
+   {
+    "f": "workers/patrocinio/src/ordenes-reemplazadas.test.ts",
+    "a": 298,
+    "d": 0
+   },
+   {
+    "f": "workers/patrocinio/src/patrocinio-permitido.test.ts",
+    "a": 36,
+    "d": 0
+   },
+   {
+    "f": "workers/patrocinio/src/rutas-altas.ts",
+    "a": 511,
+    "d": 35
+   },
+   {
+    "f": "workers/patrocinio/src/variables-enteras.test.ts",
+    "a": 77,
+    "d": 0
+   },
+   {
+    "f": "workers/patrocinio/src/venta-cerrada.test.ts",
+    "a": 109,
+    "d": 0
+   },
+   {
+    "f": "workers/patrocinio/src/vigilancia.test.ts",
+    "a": 69,
+    "d": 2
+   },
+   {
+    "f": "workers/patrocinio/src/vigilancia.ts",
+    "a": 7,
+    "d": 3
+   },
+   {
+    "f": "workers/patrocinio/wrangler.toml",
+    "a": 32,
+    "d": 5
+   },
+   {
+    "f": "workers/vigilante/README.md",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "workers/vigilante/src/documentos.test.ts",
+    "a": 25,
+    "d": 0
+   },
+   {
+    "f": "workers/vigilante/src/mensaje.test.ts",
+    "a": 45,
+    "d": 0
+   },
+   {
+    "f": "workers/vigilante/src/mensaje.ts",
+    "a": 36,
+    "d": 1
+   },
+   {
+    "f": "workers/vigilante/src/mundo-falso.ts",
+    "a": 2,
+    "d": 1
+   },
+   {
+    "f": "workers/vigilante/src/vuelta.test.ts",
+    "a": 7,
+    "d": 0
+   }
+  ]
+ },
+ "9ac09c55361a349d838b0ea3e3688cbbc19d2a40": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-12T15:06:11Z",
+  "message": "El trompo en 3D deja de avisar a three.js con propiedades sin valor",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/games/tres/sapo-3d.ts",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "src/games/tres/trompo-3d.test.ts",
+    "a": 27,
+    "d": 2
+   },
+   {
+    "f": "src/games/tres/trompo-3d.ts",
+    "a": 11,
+    "d": 2
+   }
+  ]
+ },
+ "939a4022b348f4fb9f18dbef0ada8db42c37bfa4": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-12T15:06:01Z",
+  "message": "La billetera del navegador pasa a llamarse Varial en textos y docs",
+  "parents": 1,
+  "files": [
+   {
+    "f": "README.es.md",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "README.md",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "como-funciona.html",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "docs/architecture.md",
+    "a": 9,
+    "d": 9
+   },
+   {
+    "f": "docs/epics.md",
+    "a": 4,
+    "d": 4
+   },
+   {
+    "f": "docs/marca.md",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "docs/prd.md",
+    "a": 6,
+    "d": 6
+   },
+   {
+    "f": "docs/premios.md",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "docs/ux.md",
+    "a": 7,
+    "d": 7
+   },
+   {
+    "f": "scripts/audit-ui.mjs",
+    "a": 6,
+    "d": 6
+   },
+   {
+    "f": "scripts/lib/freighter-falsa.mjs",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "scripts/pagos-testnet.mjs",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/i18n-modo-oficial.ts",
+    "a": 4,
+    "d": 4
+   },
+   {
+    "f": "src/i18n.ts",
+    "a": 14,
+    "d": 14
+   },
+   {
+    "f": "src/stellar/wallet-lite.ts",
+    "a": 8,
+    "d": 3
+   },
+   {
+    "f": "src/ui/cuenta-estado.test.ts",
+    "a": 5,
+    "d": 3
+   },
+   {
+    "f": "src/ui/cuenta-estado.ts",
+    "a": 6,
+    "d": 3
+   },
+   {
+    "f": "src/ui/pagos-textos.ts",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "src/ui/wallet-ui.ts",
+    "a": 5,
+    "d": 5
+   },
+   {
+    "f": "src/varial-textos.test.ts",
+    "a": 83,
+    "d": 0
+   },
+   {
+    "f": "workers/patrocinio/README.md",
+    "a": 3,
+    "d": 3
+   }
+  ]
+ },
+ "88e6586290fb938caae75e8c350413a3bc409632": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-12T12:45:45Z",
+  "message": "La tarjeta de la carrera con varios premios dice su regla y no la clave",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/i18n.ts",
+    "a": 2,
+    "d": 0
+   },
+   {
+    "f": "src/ui/gamecard-varios.test.ts",
+    "a": 114,
+    "d": 0
+   },
+   {
+    "f": "src/ui/gamecard.ts",
+    "a": 10,
+    "d": 1
+   }
+  ]
+ },
+ "e805410a18b53bec64e9dcaee1338079c31d4e58": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-12T12:45:44Z",
+  "message": "La barra de abajo mide su renglón y muestra el premio entero si entra",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/ux.md",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "scripts/audit-detalles.mjs",
+    "a": 11,
+    "d": 0
+   },
+   {
+    "f": "src/ui/siguiente-premio.test.ts",
+    "a": 261,
+    "d": 0
+   },
+   {
+    "f": "src/ui/siguiente.ts",
+    "a": 63,
+    "d": 7
+   }
+  ]
+ },
+ "6718274765a00553508d0650c10bdc9379e281c1": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-12T12:45:40Z",
+  "message": "El premio largo se corta entre palabras y nunca a media palabra",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/ui/pasos.test.ts",
+    "a": 150,
+    "d": 3
+   },
+   {
+    "f": "src/ui/pasos.ts",
+    "a": 57,
+    "d": 8
+   }
+  ]
  }
 }

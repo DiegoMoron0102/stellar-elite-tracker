@@ -1,15 +1,15 @@
 {
- "generado": "2026-11-13T04:10:12+00:00",
+ "generado": "2026-11-13T13:39:24+00:00",
  "programa": "Stellar Elite",
  "start_date": "2026-09-02T00:00:00Z",
  "teams": [
   {
    "name": "Tinkazo",
-   "total": 7037.98,
-   "per_capita": 7037.98,
-   "commits": 1086,
-   "pts_commits": 6831.98,
-   "dias_activos": 40,
+   "total": 7085.72,
+   "per_capita": 7085.72,
+   "commits": 1092,
+   "pts_commits": 6874.72,
+   "dias_activos": 41,
    "contribuidores": [
     "GuidoSV7",
     "nema1502"
@@ -368,7 +368,8 @@
    "2026-11-09": 209.46999999999997,
    "2026-11-10": 39.730000000000004,
    "2026-11-11": 212.14000000000001,
-   "2026-11-12": 84.41
+   "2026-11-12": 126.14999999999999,
+   "2026-11-13": 1.0
   },
   "CompraGasolinaBidon": {
    "2026-09-06": 1.0,
@@ -557,7 +558,8 @@
    "2026-11-09": 27,
    "2026-11-10": 7,
    "2026-11-11": 29,
-   "2026-11-12": 11
+   "2026-11-12": 16,
+   "2026-11-13": 1
   },
   "CompraGasolinaBidon": {
    "2026-09-06": 1,
@@ -668,6 +670,16 @@
  },
  "commits": [
   {
+   "sha": "447aee4",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-13T11:05:23Z",
+   "msg": "El servidor suma la venta de paquetes y la compra con QR, cerradas",
+   "pts": 1.0,
+   "nota": "import masivo (53 archivos)"
+  },
+  {
    "sha": "0b3416f",
    "team": "MinerTrace",
    "repo": "Dante1128/MinerTracer",
@@ -718,6 +730,26 @@
    "nota": ""
   },
   {
+   "sha": "9ac09c5",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-12T15:06:11Z",
+   "msg": "El trompo en 3D deja de avisar a three.js con propiedades sin valor",
+   "pts": 6.55,
+   "nota": ""
+  },
+  {
+   "sha": "939a402",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-12T15:06:01Z",
+   "msg": "La billetera del navegador pasa a llamarse Varial en textos y docs",
+   "pts": 8.99,
+   "nota": ""
+  },
+  {
    "sha": "1b681ba",
    "team": "Tinkazo",
    "repo": "nema1502/tinkazo",
@@ -735,6 +767,36 @@
    "date": "2026-11-12T12:56:49Z",
    "msg": "Sorprendeme elige un juego por la persona y respeta los premios",
    "pts": 8.73,
+   "nota": ""
+  },
+  {
+   "sha": "88e6586",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-12T12:45:45Z",
+   "msg": "La tarjeta de la carrera con varios premios dice su regla y no la clave",
+   "pts": 8.0,
+   "nota": ""
+  },
+  {
+   "sha": "e805410",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-12T12:45:44Z",
+   "msg": "La barra de abajo mide su renglón y muestra el premio entero si entra",
+   "pts": 9.43,
+   "nota": ""
+  },
+  {
+   "sha": "6718274",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-12T12:45:40Z",
+   "msg": "El premio largo se corta entre palabras y nunca a media palabra",
+   "pts": 8.77,
    "nota": ""
   },
   {
