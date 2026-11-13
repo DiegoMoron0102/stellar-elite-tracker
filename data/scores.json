@@ -1,15 +1,15 @@
 {
- "generado": "2026-11-13T13:39:24+00:00",
+ "generado": "2026-11-13T23:02:00+00:00",
  "programa": "Stellar Elite",
  "start_date": "2026-09-02T00:00:00Z",
  "teams": [
   {
    "name": "Tinkazo",
-   "total": 7085.72,
-   "per_capita": 7085.72,
-   "commits": 1092,
-   "pts_commits": 6874.72,
-   "dias_activos": 41,
+   "total": 7694.36,
+   "per_capita": 7694.36,
+   "commits": 1167,
+   "pts_commits": 7478.36,
+   "dias_activos": 42,
    "contribuidores": [
     "GuidoSV7",
     "nema1502"
@@ -362,14 +362,15 @@
    "2026-11-02": 409.5799999999999,
    "2026-11-03": 223.31999999999996,
    "2026-11-04": 325.49,
-   "2026-11-05": 55.97,
-   "2026-11-06": 109.84,
+   "2026-11-05": 224.63,
+   "2026-11-06": 269.37,
+   "2026-11-07": 78.1,
    "2026-11-08": 11.0,
    "2026-11-09": 209.46999999999997,
-   "2026-11-10": 39.730000000000004,
+   "2026-11-10": 66.29,
    "2026-11-11": 212.14000000000001,
    "2026-11-12": 126.14999999999999,
-   "2026-11-13": 1.0
+   "2026-11-13": 171.79000000000002
   },
   "CompraGasolinaBidon": {
    "2026-09-06": 1.0,
@@ -552,14 +553,15 @@
    "2026-11-02": 52,
    "2026-11-03": 38,
    "2026-11-04": 44,
-   "2026-11-05": 8,
-   "2026-11-06": 16,
+   "2026-11-05": 26,
+   "2026-11-06": 34,
+   "2026-11-07": 12,
    "2026-11-08": 2,
    "2026-11-09": 27,
-   "2026-11-10": 7,
+   "2026-11-10": 10,
    "2026-11-11": 29,
    "2026-11-12": 16,
-   "2026-11-13": 1
+   "2026-11-13": 25
   },
   "CompraGasolinaBidon": {
    "2026-09-06": 1,
@@ -670,6 +672,226 @@
  },
  "commits": [
   {
+   "sha": "8b96eb5",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-13T17:46:02Z",
+   "msg": "Junta producción con la candidata del sábado",
+   "pts": 0.0,
+   "nota": "merge"
+  },
+  {
+   "sha": "af1307a",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-13T17:43:13Z",
+   "msg": "La excepción del vocabulario del panel final sigue al rótulo nuevo",
+   "pts": 2.58,
+   "nota": ""
+  },
+  {
+   "sha": "fcca271",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-13T17:24:26Z",
+   "msg": "El intento guardado del sello tiene un lugar por cuenta y por lista",
+   "pts": 9.69,
+   "nota": ""
+  },
+  {
+   "sha": "ae396eb",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-13T17:22:43Z",
+   "msg": "Tras averiguar un sello que no entró, la ronda se elige de nuevo",
+   "pts": 6.29,
+   "nota": ""
+  },
+  {
+   "sha": "192b1ce",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-13T16:08:25Z",
+   "msg": "Suma el reproductor de la música de archivo, apagado por defecto",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "cf096b1",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-13T16:07:51Z",
+   "msg": "Pule los modos de orden de turnos y de varias participaciones",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "f699ce7",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-13T16:01:12Z",
+   "msg": "El sapo vuelve a las argollas amarillas y a los acentos de la casa",
+   "pts": 9.47,
+   "nota": ""
+  },
+  {
+   "sha": "99d3414",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-13T16:00:57Z",
+   "msg": "El cierre del ganador no adelanta nombres ni corre al cuerpo",
+   "pts": 9.26,
+   "nota": ""
+  },
+  {
+   "sha": "53c8eb7",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-13T16:00:35Z",
+   "msg": "La medición del video cumple las reglas de escritura de la casa",
+   "pts": 7.04,
+   "nota": ""
+  },
+  {
+   "sha": "ebffb5a",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-13T16:00:17Z",
+   "msg": "Bolillas cumple las reglas de escritura y la historia no nombra a nadie",
+   "pts": 8.4,
+   "nota": ""
+  },
+  {
+   "sha": "50b853b",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-13T15:59:26Z",
+   "msg": "La foto con el dibujo del juego entra apagada y sin pedir elegir",
+   "pts": 9.14,
+   "nota": ""
+  },
+  {
+   "sha": "4f06409",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-13T15:58:35Z",
+   "msg": "Con equipos, los textos, el cuadro y el mensaje dicen equipos",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "364608c",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-13T15:57:29Z",
+   "msg": "La página con el tema forzado se comprueba en un navegador real",
+   "pts": 9.4,
+   "nota": ""
+  },
+  {
+   "sha": "4a7398a",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-13T15:45:31Z",
+   "msg": "La arquitectura cuenta el intento guardado antes de mandar el sello",
+   "pts": 2.58,
+   "nota": ""
+  },
+  {
+   "sha": "e72bc70",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-13T15:33:29Z",
+   "msg": "El sello queda anotado antes de mandarlo: recargar no lo duplica",
+   "pts": 8.56,
+   "nota": ""
+  },
+  {
+   "sha": "3c870de",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-13T15:30:26Z",
+   "msg": "Seguir sin sello no vuelve a sellar una lista que ya tiene un sello",
+   "pts": 9.43,
+   "nota": ""
+  },
+  {
+   "sha": "247a308",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-13T14:46:50Z",
+   "msg": "El botón del modo del panel de la cuenta mide 44 px en cualquier pantalla",
+   "pts": 2.58,
+   "nota": ""
+  },
+  {
+   "sha": "db48e14",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-13T13:50:47Z",
+   "msg": "El LEEME de los stickers sigue las reglas de escritura de la casa",
+   "pts": 5.17,
+   "nota": ""
+  },
+  {
+   "sha": "91671a3",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-13T13:00:48Z",
+   "msg": "El botón del modo en el panel de la cuenta mide 48 px en el celular",
+   "pts": 2.58,
+   "nota": ""
+  },
+  {
+   "sha": "4ffef39",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-13T12:57:34Z",
+   "msg": "Los auditores toman el botón de la puerta solo si la puerta se ve",
+   "pts": 7.0,
+   "nota": ""
+  },
+  {
+   "sha": "c31c61a",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-13T12:32:36Z",
+   "msg": "Los textos dicen qué pasó y qué hacer en cada paso del sorteo",
+   "pts": 8.35,
+   "nota": ""
+  },
+  {
+   "sha": "11bd9d5",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-13T12:32:18Z",
+   "msg": "El sorteo no se pierde ni se repite aunque la red o la pantalla fallen",
+   "pts": 10,
+   "nota": ""
+  },
+  {
    "sha": "447aee4",
    "team": "Tinkazo",
    "repo": "nema1502/tinkazo",
@@ -678,6 +900,26 @@
    "msg": "El servidor suma la venta de paquetes y la compra con QR, cerradas",
    "pts": 1.0,
    "nota": "import masivo (53 archivos)"
+  },
+  {
+   "sha": "43e275b",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-13T11:03:20Z",
+   "msg": "Los auditores vuelven a tocar el botón de entrar de la cabecera",
+   "pts": 8.57,
+   "nota": ""
+  },
+  {
+   "sha": "dc07532",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-13T03:03:48Z",
+   "msg": "La carrera de autos cumple las reglas de escritura de la casa",
+   "pts": 4.7,
+   "nota": ""
   },
   {
    "sha": "0b3416f",
@@ -1260,6 +1502,26 @@
    "nota": ""
   },
   {
+   "sha": "ac34072",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "GuidoSV7",
+   "date": "2026-11-10T17:33:08Z",
+   "msg": "Medición del video del sorteo, detrás de una bandera apagada (issue 31)",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "a9a161f",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "GuidoSV7",
+   "date": "2026-11-10T16:01:18Z",
+   "msg": "Con el tema forzado, cada captura pide la versión del tema",
+   "pts": 7.95,
+   "nota": ""
+  },
+  {
    "sha": "ffd73f2",
    "team": "Tinkazo",
    "repo": "nema1502/tinkazo",
@@ -1277,6 +1539,16 @@
    "date": "2026-11-10T14:41:35Z",
    "msg": "Los auditores de flujo y de interfaz abren el sitio en modo de prueba",
    "pts": 5.91,
+   "nota": ""
+  },
+  {
+   "sha": "3afdb4a",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "GuidoSV7",
+   "date": "2026-11-10T14:38:54Z",
+   "msg": "Con equipos, los textos de la lista dicen equipos y no personas",
+   "pts": 8.61,
    "nota": ""
   },
   {
@@ -1800,6 +2072,26 @@
    "nota": ""
   },
   {
+   "sha": "a8c6a84",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "GuidoSV7",
+   "date": "2026-11-07T20:30:58Z",
+   "msg": "fix(juegos): el polvo y las chispas de Bolillas se achican con el zoom del cierre",
+   "pts": 5.52,
+   "nota": ""
+  },
+  {
+   "sha": "04b6b51",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "GuidoSV7",
+   "date": "2026-11-07T20:05:19Z",
+   "msg": "fix(juegos): Bolillas sin las manchas de tierra y con nombres cortos en las fichas",
+   "pts": 6.29,
+   "nota": ""
+  },
+  {
    "sha": "2fb64b9",
    "team": "Puls3",
    "repo": "Zer0-Knowledge-Hack/puls3",
@@ -1807,6 +2099,26 @@
    "date": "2026-11-07T19:38:53Z",
    "msg": "spike: pay TIA's testnet x402 API from Dart (#164) (#218)",
    "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "657ffbf",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "GuidoSV7",
+   "date": "2026-11-07T19:10:06Z",
+   "msg": "fix(juegos): el foco del cierre en Bolillas se mide sobre la canica",
+   "pts": 3.58,
+   "nota": ""
+  },
+  {
+   "sha": "ee46477",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "GuidoSV7",
+   "date": "2026-11-07T18:57:05Z",
+   "msg": "feat(juegos): el show de Bolillas termina con la canica ganadora en grande",
+   "pts": 6.39,
    "nota": ""
   },
   {
@@ -1830,6 +2142,16 @@
    "nota": ""
   },
   {
+   "sha": "bc9801f",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "GuidoSV7",
+   "date": "2026-11-07T13:35:22Z",
+   "msg": "fix(juegos): Bolillas sin arcos en el vidrio, la linea visible en 3D, el cierre mas lento y con el ganador a la vista",
+   "pts": 7.38,
+   "nota": ""
+  },
+  {
    "sha": "5c4ed3a",
    "team": "Puls3",
    "repo": "Zer0-Knowledge-Hack/puls3",
@@ -1837,6 +2159,36 @@
    "date": "2026-11-07T13:04:16Z",
    "msg": "fix(contracts): audit hardening R-4, R-5, R-6 and E-3 (#205) (#241)",
    "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "41bac57",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "GuidoSV7",
+   "date": "2026-11-07T12:42:21Z",
+   "msg": "fix(juegos): las canicas de Bolillas sin trazos sueltos, guiones parejos y sin el foco del kit",
+   "pts": 9.85,
+   "nota": ""
+  },
+  {
+   "sha": "8afd085",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "GuidoSV7",
+   "date": "2026-11-07T11:56:53Z",
+   "msg": "fix(juegos): la linea del anuncio tambien se ve en 3D",
+   "pts": 6.04,
+   "nota": ""
+  },
+  {
+   "sha": "9cd3238",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "GuidoSV7",
+   "date": "2026-11-07T11:56:53Z",
+   "msg": "feat(juegos): la camara lenta del cierre de Bolillas, mas lenta todavia",
+   "pts": 5.58,
    "nota": ""
   },
   {
@@ -1857,6 +2209,96 @@
    "date": "2026-11-07T05:05:04Z",
    "msg": "feat(allies): agregar página de aliados con contenido, estilos y rutas localizadas",
    "pts": 9.21,
+   "nota": ""
+  },
+  {
+   "sha": "197c36b",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "GuidoSV7",
+   "date": "2026-11-07T02:17:18Z",
+   "msg": "feat(juegos): el choque del cierre de Bolillas va en camara lenta",
+   "pts": 7.11,
+   "nota": ""
+  },
+  {
+   "sha": "6ad548c",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "GuidoSV7",
+   "date": "2026-11-07T01:39:07Z",
+   "msg": "fix(juegos): en Bolillas la troya no mueve la camara y la linea del anuncio se ve",
+   "pts": 6.55,
+   "nota": ""
+  },
+  {
+   "sha": "2d9fd1e",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "GuidoSV7",
+   "date": "2026-11-07T01:08:13Z",
+   "msg": "feat(juegos): en Bolillas las eliminadas salen del juego, el golpe se achica y el anuncio muestra la linea",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "88f69fa",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "GuidoSV7",
+   "date": "2026-11-07T01:08:12Z",
+   "msg": "fix(juegos): la canica que gana titila sobre la tiza, no a mitad de camino",
+   "pts": 3.81,
+   "nota": ""
+  },
+  {
+   "sha": "085d122",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "GuidoSV7",
+   "date": "2026-11-06T23:44:04Z",
+   "msg": "feat(juegos): la persecucion de la ganadora en el ultimo golpe de Bolillas",
+   "pts": 8.77,
+   "nota": ""
+  },
+  {
+   "sha": "bfc2ea6",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "GuidoSV7",
+   "date": "2026-11-06T22:25:06Z",
+   "msg": "feat(juegos): la cadena del turno y el estallido de pelea en Bolillas 3D",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "8d470d2",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "GuidoSV7",
+   "date": "2026-11-06T22:23:37Z",
+   "msg": "feat(juegos): la cadena del turno y el estallido de pelea en Bolillas 2D",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "b4b5940",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "GuidoSV7",
+   "date": "2026-11-06T22:08:48Z",
+   "msg": "fix(juegos): el anuncio de la diana ya no nombra el parametro del sorteo fijo",
+   "pts": 2.58,
+   "nota": ""
+  },
+  {
+   "sha": "87a3c6d",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "GuidoSV7",
+   "date": "2026-11-06T22:08:48Z",
+   "msg": "feat(juegos): la troya tira en cadena y la canica golpeada sale adelante",
+   "pts": 9.53,
    "nota": ""
   },
   {
@@ -1900,6 +2342,56 @@
    "nota": ""
   },
   {
+   "sha": "3f1a52a",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "GuidoSV7",
+   "date": "2026-11-06T18:25:14Z",
+   "msg": "feat(juegos): fichas 2s al inicio, anillo rayado anuncia la diana y canicas al doble",
+   "pts": 9.64,
+   "nota": ""
+  },
+  {
+   "sha": "af704b8",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "GuidoSV7",
+   "date": "2026-11-06T17:04:19Z",
+   "msg": "feat(juegos): Bolillas mas cerca y mas grande, con nombres solo para los finalistas",
+   "pts": 8.88,
+   "nota": ""
+  },
+  {
+   "sha": "7f57f93",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "GuidoSV7",
+   "date": "2026-11-06T16:02:35Z",
+   "msg": "feat(juegos): la 3D de Bolillas acercan a la bolilla ganadora girando, con sombras de contacto",
+   "pts": 8.94,
+   "nota": ""
+  },
+  {
+   "sha": "3562570",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "GuidoSV7",
+   "date": "2026-11-06T16:02:35Z",
+   "msg": "feat(juegos): chispas y un choque que se escucha en Bolillas, con el velo de fichas del acercamiento",
+   "pts": 9.09,
+   "nota": ""
+  },
+  {
+   "sha": "ebfb32d",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "GuidoSV7",
+   "date": "2026-11-06T15:58:40Z",
+   "msg": "fix(juegos): las fichas de Bolillas miden en proporción y el ganador no aparece dos veces",
+   "pts": 7.98,
+   "nota": ""
+  },
+  {
    "sha": "3716d10",
    "team": "Tinkazo",
    "repo": "nema1502/tinkazo",
@@ -1930,6 +2422,16 @@
    "nota": ""
   },
   {
+   "sha": "61b210b",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "GuidoSV7",
+   "date": "2026-11-06T14:48:30Z",
+   "msg": "feat(juegos): el enchufe del 3D en Bolillas, con una sola voz de sonido",
+   "pts": 9.31,
+   "nota": ""
+  },
+  {
    "sha": "a5af23b",
    "team": "Tinkazo",
    "repo": "nema1502/tinkazo",
@@ -1940,6 +2442,36 @@
    "nota": ""
   },
   {
+   "sha": "78bd134",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "GuidoSV7",
+   "date": "2026-11-06T14:23:38Z",
+   "msg": "feat(juegos): la escena 3D de Bolillas, enchufada pero apagada",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "f38e2a3",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "GuidoSV7",
+   "date": "2026-11-06T14:20:18Z",
+   "msg": "feat(juegos): la escena 2D de Bolillas lanza, choca y titilea sobre el plan",
+   "pts": 8.93,
+   "nota": ""
+  },
+  {
+   "sha": "22d9726",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "GuidoSV7",
+   "date": "2026-11-06T14:20:18Z",
+   "msg": "feat(juegos): arte, efectos y sonido de los choques de Bolillas, con sus pruebas",
+   "pts": 10,
+   "nota": ""
+  },
+  {
    "sha": "1dc93d4",
    "team": "Tinkazo",
    "repo": "nema1502/tinkazo",
@@ -1947,6 +2479,36 @@
    "date": "2026-11-06T14:14:52Z",
    "msg": "La página de marca abre con la frase: tinkazo.app, el lema y que participar es gratis",
    "pts": 6.91,
+   "nota": ""
+  },
+  {
+   "sha": "5779c5e",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "GuidoSV7",
+   "date": "2026-11-06T14:01:12Z",
+   "msg": "feat(juegos): nace Bolillas en el catálogo, apagada en el selector",
+   "pts": 7.75,
+   "nota": ""
+  },
+  {
+   "sha": "1006c28",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "GuidoSV7",
+   "date": "2026-11-06T14:01:12Z",
+   "msg": "feat(juegos): la escena base de Bolillas",
+   "pts": 8.13,
+   "nota": ""
+  },
+  {
+   "sha": "f278970",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "GuidoSV7",
+   "date": "2026-11-06T14:01:12Z",
+   "msg": "feat(juegos): el plan puro de Bolillas, con sus pruebas",
+   "pts": 10,
    "nota": ""
   },
   {
@@ -1967,6 +2529,16 @@
    "date": "2026-11-06T12:37:59Z",
    "msg": "Muchos ganadores: la lista se lee de corrido y el atajo elegido sigue a la vista",
    "pts": 4.17,
+   "nota": ""
+  },
+  {
+   "sha": "76a133e",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "GuidoSV7",
+   "date": "2026-11-06T12:32:14Z",
+   "msg": "El sapo tira con la mano, el aro se mueve y la mesa es rústica",
+   "pts": 10,
    "nota": ""
   },
   {
@@ -2200,6 +2772,36 @@
    "nota": ""
   },
   {
+   "sha": "8a4e3da",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "GuidoSV7",
+   "date": "2026-11-05T23:55:04Z",
+   "msg": "feat(juegos): la escena de Carrera de autos",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "a3b1377",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "GuidoSV7",
+   "date": "2026-11-05T23:55:04Z",
+   "msg": "feat(juegos): el plan puro de Carrera de autos, con sus pruebas",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "fc2c313",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "GuidoSV7",
+   "date": "2026-11-05T23:55:04Z",
+   "msg": "feat(juegos): nace Carrera de autos en el catálogo, apagada en el selector",
+   "pts": 7.54,
+   "nota": ""
+  },
+  {
    "sha": "43b9bdf",
    "team": "TilcAI",
    "repo": "TilcAI/tilcai-web",
@@ -2217,6 +2819,156 @@
    "date": "2026-11-05T22:41:19Z",
    "msg": "feat: add problem section to homepage and update messaging",
    "pts": 9.44,
+   "nota": ""
+  },
+  {
+   "sha": "6adc781",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "GuidoSV7",
+   "date": "2026-11-05T21:56:04Z",
+   "msg": "feat(compartir): la foto del juego para los diez juegos del selector",
+   "pts": 5.86,
+   "nota": ""
+  },
+  {
+   "sha": "c9df42a",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "GuidoSV7",
+   "date": "2026-11-05T21:56:04Z",
+   "msg": "feat(compartir): fondos del guajojó y el toborochi para la foto",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "7054ec0",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "GuidoSV7",
+   "date": "2026-11-05T21:56:04Z",
+   "msg": "feat(compartir): fondos de la chovena y la entrada para la foto",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "cd63c7f",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "GuidoSV7",
+   "date": "2026-11-05T21:56:04Z",
+   "msg": "feat(compartir): fondos del teleférico y el trompo para la foto",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "8c97f82",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "GuidoSV7",
+   "date": "2026-11-05T21:56:04Z",
+   "msg": "feat(compartir): fondos de la piñata y la ruleta para la foto del juego",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "ec0fbba",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "GuidoSV7",
+   "date": "2026-11-05T21:42:52Z",
+   "msg": "refactor(compartir): separar los pinceles de los fondos de la foto",
+   "pts": 9.57,
+   "nota": ""
+  },
+  {
+   "sha": "b5f5f6d",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "GuidoSV7",
+   "date": "2026-11-05T21:40:58Z",
+   "msg": "feat(compartir): sumar la foto con el fondo del juego que se jugó",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "21ffcdd",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "GuidoSV7",
+   "date": "2026-11-05T21:40:58Z",
+   "msg": "feat(compartir): ilustraciones planas de la carrera y el sapo",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "53f037a",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "GuidoSV7",
+   "date": "2026-11-05T16:50:11Z",
+   "msg": "Los juegos en 3D piden un píxel de holgura al despejar al ganador",
+   "pts": 6.83,
+   "nota": ""
+  },
+  {
+   "sha": "cb92e1a",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "GuidoSV7",
+   "date": "2026-11-05T13:57:36Z",
+   "msg": "fix(sorteos): despejar en 3D el caramelo de la piñata como se ve",
+   "pts": 9.76,
+   "nota": ""
+  },
+  {
+   "sha": "fcbf959",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "GuidoSV7",
+   "date": "2026-11-05T13:57:35Z",
+   "msg": "fix(juegos): acercar el cierre del sapo también en 3D",
+   "pts": 9.44,
+   "nota": ""
+  },
+  {
+   "sha": "38407bf",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "GuidoSV7",
+   "date": "2026-11-05T13:57:35Z",
+   "msg": "El auditor del cierre mide solo el nombre que cuenta y elige el motor",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "bf677f3",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "GuidoSV7",
+   "date": "2026-11-05T12:43:41Z",
+   "msg": "El cierre del sapo y la ruleta se acerca a quien gana en el celular",
+   "pts": 9.89,
+   "nota": ""
+  },
+  {
+   "sha": "e27c573",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "GuidoSV7",
+   "date": "2026-11-05T12:33:41Z",
+   "msg": "test(sorteos): auditar en navegador que el ganador quede a la vista",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "17f2313",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "GuidoSV7",
+   "date": "2026-11-05T12:33:41Z",
+   "msg": "fix(sorteos): separar al ganador del cartel y del relator",
+   "pts": 9.77,
    "nota": ""
   },
   {
