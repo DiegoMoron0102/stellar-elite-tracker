@@ -1,15 +1,15 @@
 {
- "generado": "2026-11-13T23:02:00+00:00",
+ "generado": "2026-11-14T04:06:27+00:00",
  "programa": "Stellar Elite",
  "start_date": "2026-09-02T00:00:00Z",
  "teams": [
   {
    "name": "Tinkazo",
-   "total": 7694.36,
-   "per_capita": 7694.36,
-   "commits": 1167,
-   "pts_commits": 7478.36,
-   "dias_activos": 42,
+   "total": 7873.61,
+   "per_capita": 7873.61,
+   "commits": 1188,
+   "pts_commits": 7652.61,
+   "dias_activos": 43,
    "contribuidores": [
     "GuidoSV7",
     "nema1502"
@@ -370,7 +370,8 @@
    "2026-11-10": 66.29,
    "2026-11-11": 212.14000000000001,
    "2026-11-12": 126.14999999999999,
-   "2026-11-13": 171.79000000000002
+   "2026-11-13": 331.89,
+   "2026-11-14": 14.149999999999999
   },
   "CompraGasolinaBidon": {
    "2026-09-06": 1.0,
@@ -561,7 +562,8 @@
    "2026-11-10": 10,
    "2026-11-11": 29,
    "2026-11-12": 16,
-   "2026-11-13": 25
+   "2026-11-13": 44,
+   "2026-11-14": 2
   },
   "CompraGasolinaBidon": {
    "2026-09-06": 1,
@@ -672,6 +674,206 @@
  },
  "commits": [
   {
+   "sha": "9a9cbc6",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-14T02:09:45Z",
+   "msg": "El sello no le entrega al portero una firma que llegó tarde",
+   "pts": 8.2,
+   "nota": ""
+  },
+  {
+   "sha": "e6500a4",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-14T00:43:19Z",
+   "msg": "Las pruebas largas tienen tres veces su tiempo en la CI como límite",
+   "pts": 5.95,
+   "nota": ""
+  },
+  {
+   "sha": "fdaefa1",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-13T23:11:05Z",
+   "msg": "La guía de la carrera trae las metas del final antes y después",
+   "pts": 7.57,
+   "nota": ""
+  },
+  {
+   "sha": "d94df47",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-13T23:02:10Z",
+   "msg": "Las pruebas de la carga traen su candado cuando Node no lo tiene",
+   "pts": 6.29,
+   "nota": ""
+  },
+  {
+   "sha": "5496b49",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-13T22:40:45Z",
+   "msg": "El camino del cupón no pide Object.hasOwn, como en producción",
+   "pts": 7.29,
+   "nota": ""
+  },
+  {
+   "sha": "88bbc2b",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-13T22:40:31Z",
+   "msg": "La línea del cupo deja la compra si la marca del piloto se va",
+   "pts": 8.14,
+   "nota": ""
+  },
+  {
+   "sha": "08e2a34",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-13T22:27:39Z",
+   "msg": "La guía de la carrera: nada atraviesa nada y la marcha pareja",
+   "pts": 7.71,
+   "nota": ""
+  },
+  {
+   "sha": "b847ee1",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-13T22:27:39Z",
+   "msg": "Los auditores miden sólidos, delatores de la recta y adelantamientos",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "7635e99",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-13T22:27:33Z",
+   "msg": "En la carrera nada atraviesa nada y no se adivina a la ganadora",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "34a7f1c",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-13T21:20:15Z",
+   "msg": "El modo del sorteo se elige con dos botones arriba de la lista",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "3581705",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-13T20:42:07Z",
+   "msg": "En el teleférico, a la cumbre llegan exactamente quienes ganan",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "efc4104",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-13T20:41:27Z",
+   "msg": "Las animaciones de aviso entran apagadas y la cuenta guarda su lugar",
+   "pts": 8.75,
+   "nota": ""
+  },
+  {
+   "sha": "0b1a2ed",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-13T20:40:43Z",
+   "msg": "Los auditores de sonido y de mezcla oyen la música de archivo",
+   "pts": 6.93,
+   "nota": ""
+  },
+  {
+   "sha": "3654ca7",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-13T20:40:43Z",
+   "msg": "La música nueva suena por defecto en la carrera y la piñata",
+   "pts": 8.61,
+   "nota": ""
+  },
+  {
+   "sha": "9f82fbd",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-13T19:48:27Z",
+   "msg": "La guía de la venta de paquetes, de la compra con QR y del piloto",
+   "pts": 7.88,
+   "nota": ""
+  },
+  {
+   "sha": "0401c00",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-13T19:48:04Z",
+   "msg": "Las páginas de lectura dicen la compra y la verificación vuelve al sitio",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "2f3f153",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-13T19:47:51Z",
+   "msg": "Las pantallas de la compra de sorteos y su motor",
+   "pts": 1.0,
+   "nota": "import masivo (54 archivos)"
+  },
+  {
+   "sha": "38ffe45",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-13T19:47:32Z",
+   "msg": "El cliente del portero y la billetera para pagar la compra",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "5728e21",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-13T19:47:10Z",
+   "msg": "Los textos de la compra de sorteos, en español y en inglés",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "3f50dac",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-13T19:47:04Z",
+   "msg": "La venta queda en piloto aunque sus banderas estén prendidas",
+   "pts": 9.93,
+   "nota": ""
+  },
+  {
    "sha": "8b96eb5",
    "team": "Tinkazo",
    "repo": "nema1502/tinkazo",
@@ -709,6 +911,16 @@
    "date": "2026-11-13T17:22:43Z",
    "msg": "Tras averiguar un sello que no entró, la ronda se elige de nuevo",
    "pts": 6.29,
+   "nota": ""
+  },
+  {
+   "sha": "3daa212",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "GuidoSV7",
+   "date": "2026-11-13T16:53:59Z",
+   "msg": "feat(atencion): cinco animaciones de aviso y el FOUC de la recarga, sin tocar el sorteo",
+   "pts": 10,
    "nota": ""
   },
   {

@@ -169075,5 +169075,1525 @@
     "d": 0
    }
   ]
+ },
+ "9a9cbc6df2477b1b4267cc877ec78d9e26f42435": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-14T02:09:45Z",
+  "message": "El sello no le entrega al portero una firma que llegó tarde",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/ui/anchor.test.ts",
+    "a": 89,
+    "d": 3
+   },
+   {
+    "f": "src/ui/anchor.ts",
+    "a": 22,
+    "d": 1
+   },
+   {
+    "f": "src/ui/envio-portero.test.ts",
+    "a": 23,
+    "d": 0
+   },
+   {
+    "f": "src/ui/envio-sdk.ts",
+    "a": 7,
+    "d": 1
+   }
+  ]
+ },
+ "e6500a429db8e3d40757087dc8badb93f101fbb5": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-14T00:43:19Z",
+  "message": "Las pruebas largas tienen tres veces su tiempo en la CI como límite",
+  "parents": 1,
+  "files": [
+   {
+    "f": "scripts/lib/delatores-carrera.test.mjs",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "src/games/llamas/carrera-drama.test.ts",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "src/games/llamas/carrera-marcha.test.ts",
+    "a": 5,
+    "d": 5
+   },
+   {
+    "f": "src/games/llamas/carrera-nueva.test.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/games/llamas/carrera-piedritas.test.ts",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "src/games/llamas/carrera-show.test.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/games/llamas/carrera-tandas.test.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/marca.test.ts",
+    "a": 1,
+    "d": 1
+   }
+  ]
+ },
+ "fdaefa17d8240a31ff3b60b0359d7b34f8bda121": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-13T23:11:05Z",
+  "message": "La guía de la carrera trae las metas del final antes y después",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/juegos.md",
+    "a": 35,
+    "d": 3
+   },
+   {
+    "f": "docs/juegos/carrera.md",
+    "a": 36,
+    "d": 4
+   },
+   {
+    "f": "scripts/lib/delatores-carrera.mjs",
+    "a": 10,
+    "d": 6
+   }
+  ]
+ },
+ "08e2a340e741d5f77782f79081701f06fda2a216": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-13T22:27:39Z",
+  "message": "La guía de la carrera: nada atraviesa nada y la marcha pareja",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/juegos.md",
+    "a": 43,
+    "d": 0
+   },
+   {
+    "f": "docs/juegos/carrera.md",
+    "a": 50,
+    "d": 11
+   }
+  ]
+ },
+ "b847ee1ed83596855340971850e58ae9134ce819": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-13T22:27:39Z",
+  "message": "Los auditores miden sólidos, delatores de la recta y adelantamientos",
+  "parents": 1,
+  "files": [
+   {
+    "f": "scripts/audit-delatores.mjs",
+    "a": 19,
+    "d": 13
+   },
+   {
+    "f": "scripts/audit-solidos.mjs",
+    "a": 230,
+    "d": 0
+   },
+   {
+    "f": "scripts/audit-tacto.mjs",
+    "a": 31,
+    "d": 5
+   },
+   {
+    "f": "scripts/lib/delatores-carrera.mjs",
+    "a": 524,
+    "d": 8
+   },
+   {
+    "f": "scripts/lib/delatores-carrera.test.mjs",
+    "a": 619,
+    "d": 12
+   },
+   {
+    "f": "scripts/lib/delatores.mjs",
+    "a": 22,
+    "d": 0
+   },
+   {
+    "f": "scripts/lib/delatores.test.mjs",
+    "a": 24,
+    "d": 1
+   },
+   {
+    "f": "scripts/lib/solidos-carrera.mjs",
+    "a": 516,
+    "d": 0
+   },
+   {
+    "f": "scripts/lib/solidos-navegador.mjs",
+    "a": 107,
+    "d": 0
+   },
+   {
+    "f": "scripts/lib/solidos.mjs",
+    "a": 174,
+    "d": 0
+   },
+   {
+    "f": "scripts/lib/solidos.test.mjs",
+    "a": 263,
+    "d": 0
+   }
+  ]
+ },
+ "7635e99dba0ee06bd50b16a9728f26439d31dc5d": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-13T22:27:33Z",
+  "message": "En la carrera nada atraviesa nada y no se adivina a la ganadora",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/games/llamas/carrera-3d-mapa.ts",
+    "a": 99,
+    "d": 2
+   },
+   {
+    "f": "src/games/llamas/carrera-3d-obstaculos.test.ts",
+    "a": 42,
+    "d": 1
+   },
+   {
+    "f": "src/games/llamas/carrera-3d-obstaculos.ts",
+    "a": 76,
+    "d": 27
+   },
+   {
+    "f": "src/games/llamas/carrera-3d.test.ts",
+    "a": 38,
+    "d": 4
+   },
+   {
+    "f": "src/games/llamas/carrera-3d.ts",
+    "a": 137,
+    "d": 25
+   },
+   {
+    "f": "src/games/llamas/carrera-base.ts",
+    "a": 8,
+    "d": 0
+   },
+   {
+    "f": "src/games/llamas/carrera-caminata-datos.ts",
+    "a": 241,
+    "d": 20
+   },
+   {
+    "f": "src/games/llamas/carrera-caminata.test.ts",
+    "a": 204,
+    "d": 8
+   },
+   {
+    "f": "src/games/llamas/carrera-caminata.ts",
+    "a": 645,
+    "d": 61
+   },
+   {
+    "f": "src/games/llamas/carrera-drama.test.ts",
+    "a": 220,
+    "d": 24
+   },
+   {
+    "f": "src/games/llamas/carrera-etiqueta.test.ts",
+    "a": 20,
+    "d": 0
+   },
+   {
+    "f": "src/games/llamas/carrera-etiqueta.ts",
+    "a": 6,
+    "d": 4
+   },
+   {
+    "f": "src/games/llamas/carrera-filas.test.ts",
+    "a": 293,
+    "d": 0
+   },
+   {
+    "f": "src/games/llamas/carrera-filas.ts",
+    "a": 237,
+    "d": 0
+   },
+   {
+    "f": "src/games/llamas/carrera-forma.test.ts",
+    "a": 49,
+    "d": 0
+   },
+   {
+    "f": "src/games/llamas/carrera-forma.ts",
+    "a": 24,
+    "d": 7
+   },
+   {
+    "f": "src/games/llamas/carrera-franjas.ts",
+    "a": 125,
+    "d": 0
+   },
+   {
+    "f": "src/games/llamas/carrera-huella.json",
+    "a": 530,
+    "d": 0
+   },
+   {
+    "f": "src/games/llamas/carrera-huella.test.ts",
+    "a": 111,
+    "d": 0
+   },
+   {
+    "f": "src/games/llamas/carrera-marca.test.ts",
+    "a": 9,
+    "d": 4
+   },
+   {
+    "f": "src/games/llamas/carrera-marcha-datos.ts",
+    "a": 27,
+    "d": 1
+   },
+   {
+    "f": "src/games/llamas/carrera-marcha.test.ts",
+    "a": 63,
+    "d": 23
+   },
+   {
+    "f": "src/games/llamas/carrera-marcha.ts",
+    "a": 203,
+    "d": 19
+   },
+   {
+    "f": "src/games/llamas/carrera-obstaculos-vista.test.ts",
+    "a": 148,
+    "d": 0
+   },
+   {
+    "f": "src/games/llamas/carrera-obstaculos-vista.ts",
+    "a": 359,
+    "d": 0
+   },
+   {
+    "f": "src/games/llamas/carrera-obstaculos.ts",
+    "a": 145,
+    "d": 38
+   },
+   {
+    "f": "src/games/llamas/carrera-piedras-cerro.test.ts",
+    "a": 119,
+    "d": 0
+   },
+   {
+    "f": "src/games/llamas/carrera-piedritas.test.ts",
+    "a": 327,
+    "d": 0
+   },
+   {
+    "f": "src/games/llamas/carrera-piedritas.ts",
+    "a": 322,
+    "d": 0
+   },
+   {
+    "f": "src/games/llamas/carrera-rocas.test.ts",
+    "a": 186,
+    "d": 0
+   },
+   {
+    "f": "src/games/llamas/carrera-rocas.ts",
+    "a": 296,
+    "d": 0
+   },
+   {
+    "f": "src/games/llamas/carrera-senuelos.test.ts",
+    "a": 448,
+    "d": 0
+   },
+   {
+    "f": "src/games/llamas/carrera-show.test.ts",
+    "a": 204,
+    "d": 6
+   },
+   {
+    "f": "src/games/llamas/carrera-show.ts",
+    "a": 175,
+    "d": 19
+   },
+   {
+    "f": "src/games/llamas/carrera-subfilas.test.ts",
+    "a": 575,
+    "d": 0
+   },
+   {
+    "f": "src/games/llamas/carrera-subfilas.ts",
+    "a": 500,
+    "d": 0
+   },
+   {
+    "f": "src/games/llamas/carrera-textos.ts",
+    "a": 12,
+    "d": 7
+   },
+   {
+    "f": "src/games/llamas/carrera-trayectorias.test.ts",
+    "a": 376,
+    "d": 0
+   },
+   {
+    "f": "src/games/llamas/carrera-trayectorias.ts",
+    "a": 496,
+    "d": 0
+   },
+   {
+    "f": "src/games/llamas/carrera.ts",
+    "a": 284,
+    "d": 174
+   },
+   {
+    "f": "src/games/llamas/llama-aguayo.ts",
+    "a": 6,
+    "d": 6
+   },
+   {
+    "f": "src/games/llamas/llama-obstaculos.ts",
+    "a": 15,
+    "d": 1
+   },
+   {
+    "f": "src/games/llamas/llama.ts",
+    "a": 7,
+    "d": 7
+   },
+   {
+    "f": "src/games/llamas/plan-carril.test.ts",
+    "a": 122,
+    "d": 0
+   },
+   {
+    "f": "src/games/llamas/plan.ts",
+    "a": 53,
+    "d": 20
+   }
+  ]
+ },
+ "5496b4960a1e1124647375cdf4d157013e17ffdc": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-13T22:40:45Z",
+  "message": "El camino del cupón no pide Object.hasOwn, como en producción",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/stellar/alta-api-ios-viejo.test.ts",
+    "a": 67,
+    "d": 0
+   },
+   {
+    "f": "src/stellar/alta-api.ts",
+    "a": 9,
+    "d": 1
+   }
+  ]
+ },
+ "88bbc2b5ec51c68e613c8f6683208ce1488ffa15": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-13T22:40:31Z",
+  "message": "La línea del cupo deja la compra si la marca del piloto se va",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/ui/cupo-marca-vencida.test.ts",
+    "a": 135,
+    "d": 0
+   },
+   {
+    "f": "src/ui/cupo-patrocinio.ts",
+    "a": 3,
+    "d": 2
+   }
+  ]
+ },
+ "d94df4784ef735e7fc00b20906dd3844f478eaaa": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-13T23:02:10Z",
+  "message": "Las pruebas de la carga traen su candado cuando Node no lo tiene",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/stellar/wallet-pollar-carga.test.ts",
+    "a": 38,
+    "d": 0
+   }
+  ]
+ },
+ "34a7f1cfe11840c3f0b09fd04f27a882b2754041": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-13T21:20:15Z",
+  "message": "El modo del sorteo se elige con dos botones arriba de la lista",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/ux.md",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "index.html",
+    "a": 22,
+    "d": 11
+   },
+   {
+    "f": "scripts/audit-modos.mjs",
+    "a": 1,
+    "d": 3
+   },
+   {
+    "f": "src/i18n.ts",
+    "a": 20,
+    "d": 10
+   },
+   {
+    "f": "src/modos/textos-del-pulido.test.ts",
+    "a": 3,
+    "d": 1
+   },
+   {
+    "f": "src/styles.css",
+    "a": 72,
+    "d": 0
+   },
+   {
+    "f": "src/ui/freeze.ts",
+    "a": 5,
+    "d": 1
+   },
+   {
+    "f": "src/ui/participants.ts",
+    "a": 6,
+    "d": 3
+   },
+   {
+    "f": "src/ui/plegable.ts",
+    "a": 13,
+    "d": 4
+   },
+   {
+    "f": "src/ui/retomar-modo.test.ts",
+    "a": 173,
+    "d": 0
+   },
+   {
+    "f": "src/ui/turnos-pliegue.test.ts",
+    "a": 17,
+    "d": 14
+   },
+   {
+    "f": "src/ui/turnos-selector.test.ts",
+    "a": 321,
+    "d": 0
+   },
+   {
+    "f": "src/ui/turnos.test.ts",
+    "a": 54,
+    "d": 4
+   },
+   {
+    "f": "src/ui/turnos.ts",
+    "a": 65,
+    "d": 29
+   }
+  ]
+ },
+ "9f82fbd37440abab05f6ecf1a05969728eefc176": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-13T19:48:27Z",
+  "message": "La guía de la venta de paquetes, de la compra con QR y del piloto",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/operacion.md",
+    "a": 89,
+    "d": 0
+   },
+   {
+    "f": "docs/premios.md",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "docs/ux.md",
+    "a": 26,
+    "d": 0
+   }
+  ]
+ },
+ "0401c00849a87c63bcd2a9f58ee79ed1529d14ad": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-13T19:48:04Z",
+  "message": "Las páginas de lectura dicen la compra y la verificación vuelve al sitio",
+  "parents": 1,
+  "files": [
+   {
+    "f": "muestras/llama.html",
+    "a": 19,
+    "d": 0
+   },
+   {
+    "f": "precios.html",
+    "a": 10,
+    "d": 0
+   },
+   {
+    "f": "public/verificado.html",
+    "a": 86,
+    "d": 0
+   },
+   {
+    "f": "scripts/check-paginas.mjs",
+    "a": 2,
+    "d": 0
+   },
+   {
+    "f": "src/cobro-en-la-pagina.ts",
+    "a": 13,
+    "d": 0
+   },
+   {
+    "f": "src/muestra-llama.css",
+    "a": 23,
+    "d": 0
+   },
+   {
+    "f": "src/muestra-llama.ts",
+    "a": 171,
+    "d": 0
+   },
+   {
+    "f": "src/pagina.ts",
+    "a": 9,
+    "d": 0
+   },
+   {
+    "f": "src/paginas-cobro.test.ts",
+    "a": 200,
+    "d": 0
+   },
+   {
+    "f": "src/paginas-cobro.ts",
+    "a": 154,
+    "d": 0
+   },
+   {
+    "f": "src/stellar/venta-piloto.test.ts",
+    "a": 298,
+    "d": 0
+   },
+   {
+    "f": "src/verificado-pagina.test.ts",
+    "a": 113,
+    "d": 0
+   },
+   {
+    "f": "terminos.html",
+    "a": 14,
+    "d": 0
+   }
+  ]
+ },
+ "2f3f1537f1a4f0fd737eb7d66169b40b032cee12": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-13T19:47:51Z",
+  "message": "Las pantallas de la compra de sorteos y su motor",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/compra-qr-apagada.test.ts",
+    "a": 57,
+    "d": 0
+   },
+   {
+    "f": "src/main.ts",
+    "a": 3,
+    "d": 0
+   },
+   {
+    "f": "src/styles.css",
+    "a": 62,
+    "d": 2
+   },
+   {
+    "f": "src/ui/compra-con-boton.test.ts",
+    "a": 382,
+    "d": 0
+   },
+   {
+    "f": "src/ui/compra-demo.test.ts",
+    "a": 235,
+    "d": 0
+   },
+   {
+    "f": "src/ui/compra-demo.ts",
+    "a": 611,
+    "d": 0
+   },
+   {
+    "f": "src/ui/compra-entrada.test.ts",
+    "a": 46,
+    "d": 0
+   },
+   {
+    "f": "src/ui/compra-entrada.ts",
+    "a": 100,
+    "d": 0
+   },
+   {
+    "f": "src/ui/compra-motor.test.ts",
+    "a": 885,
+    "d": 0
+   },
+   {
+    "f": "src/ui/compra-motor.ts",
+    "a": 1297,
+    "d": 0
+   },
+   {
+    "f": "src/ui/compra-qr-estado.test.ts",
+    "a": 838,
+    "d": 0
+   },
+   {
+    "f": "src/ui/compra-qr-estado.ts",
+    "a": 1075,
+    "d": 0
+   },
+   {
+    "f": "src/ui/compra-qr.css",
+    "a": 173,
+    "d": 0
+   },
+   {
+    "f": "src/ui/compra-qr.test.ts",
+    "a": 709,
+    "d": 0
+   },
+   {
+    "f": "src/ui/compra-qr.ts",
+    "a": 841,
+    "d": 0
+   },
+   {
+    "f": "src/ui/cuenta-lista-acceso.test.ts",
+    "a": 49,
+    "d": 0
+   },
+   {
+    "f": "src/ui/cuenta-lista-acceso.ts",
+    "a": 80,
+    "d": 4
+   },
+   {
+    "f": "src/ui/cuenta-lista-estado.ts",
+    "a": 221,
+    "d": 6
+   },
+   {
+    "f": "src/ui/cuenta-lista-flujo.ts",
+    "a": 118,
+    "d": 5
+   },
+   {
+    "f": "src/ui/cuenta-lista-pago-vista.test.ts",
+    "a": 382,
+    "d": 0
+   },
+   {
+    "f": "src/ui/cuenta-lista-pago.test.ts",
+    "a": 409,
+    "d": 0
+   },
+   {
+    "f": "src/ui/cuenta-lista-retomar.test.ts",
+    "a": 210,
+    "d": 0
+   },
+   {
+    "f": "src/ui/cuenta-lista-saldo.test.ts",
+    "a": 263,
+    "d": 0
+   },
+   {
+    "f": "src/ui/cuenta-lista.ts",
+    "a": 548,
+    "d": 8
+   },
+   {
+    "f": "src/ui/cupo-patrocinio.ts",
+    "a": 71,
+    "d": 3
+   },
+   {
+    "f": "src/ui/firma-oficial-tabla.test.ts",
+    "a": 41,
+    "d": 2
+   },
+   {
+    "f": "src/ui/llama-guia-estado.test.ts",
+    "a": 165,
+    "d": 0
+   },
+   {
+    "f": "src/ui/llama-guia-estado.ts",
+    "a": 213,
+    "d": 0
+   },
+   {
+    "f": "src/ui/llama-guia.css",
+    "a": 133,
+    "d": 0
+   },
+   {
+    "f": "src/ui/llama-guia.test.ts",
+    "a": 271,
+    "d": 0
+   },
+   {
+    "f": "src/ui/llama-guia.ts",
+    "a": 269,
+    "d": 0
+   },
+   {
+    "f": "src/ui/llama-poses.test.ts",
+    "a": 119,
+    "d": 0
+   },
+   {
+    "f": "src/ui/llama-poses.ts",
+    "a": 190,
+    "d": 0
+   },
+   {
+    "f": "src/ui/mandar-usdc-pago.test.ts",
+    "a": 69,
+    "d": 0
+   },
+   {
+    "f": "src/ui/mandar-usdc.test.ts",
+    "a": 280,
+    "d": 0
+   },
+   {
+    "f": "src/ui/mandar-usdc.ts",
+    "a": 360,
+    "d": 0
+   },
+   {
+    "f": "src/ui/medio-de-pago.test.ts",
+    "a": 119,
+    "d": 0
+   },
+   {
+    "f": "src/ui/medio-de-pago.ts",
+    "a": 112,
+    "d": 0
+   },
+   {
+    "f": "src/ui/pagar-premio.test.ts",
+    "a": 5,
+    "d": 1
+   },
+   {
+    "f": "src/ui/pagar-premio.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/ui/pago-panel.test.ts",
+    "a": 159,
+    "d": 0
+   },
+   {
+    "f": "src/ui/pago-panel.ts",
+    "a": 170,
+    "d": 0
+   },
+   {
+    "f": "src/ui/pago-paquete-saldo.test.ts",
+    "a": 301,
+    "d": 0
+   },
+   {
+    "f": "src/ui/pago-paquete.test.ts",
+    "a": 365,
+    "d": 0
+   },
+   {
+    "f": "src/ui/pago-paquete.ts",
+    "a": 648,
+    "d": 0
+   },
+   {
+    "f": "src/ui/pago-poco-texto.test.ts",
+    "a": 206,
+    "d": 0
+   },
+   {
+    "f": "src/ui/pago-saldo.test.ts",
+    "a": 103,
+    "d": 0
+   },
+   {
+    "f": "src/ui/pago-saldo.ts",
+    "a": 157,
+    "d": 0
+   },
+   {
+    "f": "src/ui/pago-sondeo.test.ts",
+    "a": 99,
+    "d": 0
+   },
+   {
+    "f": "src/ui/pago-sondeo.ts",
+    "a": 75,
+    "d": 0
+   },
+   {
+    "f": "src/ui/pago-vista.ts",
+    "a": 152,
+    "d": 0
+   },
+   {
+    "f": "src/ui/saldo.test.ts",
+    "a": 455,
+    "d": 99
+   },
+   {
+    "f": "src/ui/saldo.ts",
+    "a": 554,
+    "d": 88
+   },
+   {
+    "f": "src/ui/sin-sorteos.ts",
+    "a": 48,
+    "d": 7
+   }
+  ]
+ },
+ "38ffe456e9b2f88f7599ce18a946d3b4559ed644": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-13T19:47:32Z",
+  "message": "El cliente del portero y la billetera para pagar la compra",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/alta-textos-pago.test.ts",
+    "a": 127,
+    "d": 0
+   },
+   {
+    "f": "src/alta-textos.test.ts",
+    "a": 15,
+    "d": 5
+   },
+   {
+    "f": "src/equipos/envio.ts",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "src/oficial-como-produccion.test.ts",
+    "a": 36,
+    "d": 0
+   },
+   {
+    "f": "src/stellar/alta-api-compra.test.ts",
+    "a": 244,
+    "d": 0
+   },
+   {
+    "f": "src/stellar/alta-api-pago.test.ts",
+    "a": 281,
+    "d": 0
+   },
+   {
+    "f": "src/stellar/alta-api.ts",
+    "a": 356,
+    "d": 21
+   },
+   {
+    "f": "src/stellar/alta-oferta.test.ts",
+    "a": 217,
+    "d": 0
+   },
+   {
+    "f": "src/stellar/alta-oferta.ts",
+    "a": 137,
+    "d": 0
+   },
+   {
+    "f": "src/stellar/compra-monto.test.ts",
+    "a": 146,
+    "d": 0
+   },
+   {
+    "f": "src/stellar/compra-monto.ts",
+    "a": 130,
+    "d": 0
+   },
+   {
+    "f": "src/stellar/cuenta-config.test.ts",
+    "a": 79,
+    "d": 4
+   },
+   {
+    "f": "src/stellar/cuenta-config.ts",
+    "a": 54,
+    "d": 4
+   },
+   {
+    "f": "src/stellar/cupo-oficial.ts",
+    "a": 5,
+    "d": 2
+   },
+   {
+    "f": "src/stellar/errores.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/stellar/hoja-de-operacion.test.ts",
+    "a": 3,
+    "d": 2
+   },
+   {
+    "f": "src/stellar/hoja-de-pagos.test.ts",
+    "a": 112,
+    "d": 0
+   },
+   {
+    "f": "src/stellar/linea-propia.test.ts",
+    "a": 162,
+    "d": 0
+   },
+   {
+    "f": "src/stellar/linea-propia.ts",
+    "a": 115,
+    "d": 0
+   },
+   {
+    "f": "src/stellar/pago-con-saldo.test.ts",
+    "a": 209,
+    "d": 0
+   },
+   {
+    "f": "src/stellar/pago-con-saldo.ts",
+    "a": 195,
+    "d": 0
+   },
+   {
+    "f": "src/stellar/pagos-envio.ts",
+    "a": 2,
+    "d": 36
+   },
+   {
+    "f": "src/stellar/pollar-falso.ts",
+    "a": 26,
+    "d": 3
+   },
+   {
+    "f": "src/stellar/pollar-kit.test.ts",
+    "a": 12,
+    "d": 0
+   },
+   {
+    "f": "src/stellar/rampa-pollar.test.ts",
+    "a": 862,
+    "d": 68
+   },
+   {
+    "f": "src/stellar/rampa-pollar.ts",
+    "a": 928,
+    "d": 79
+   },
+   {
+    "f": "src/stellar/rampa-regla.test.ts",
+    "a": 652,
+    "d": 0
+   },
+   {
+    "f": "src/stellar/rampa-regla.ts",
+    "a": 433,
+    "d": 0
+   },
+   {
+    "f": "src/stellar/recargo-qr.test.ts",
+    "a": 57,
+    "d": 0
+   },
+   {
+    "f": "src/stellar/saldo-dolares.test.ts",
+    "a": 68,
+    "d": 0
+   },
+   {
+    "f": "src/stellar/saldo-dolares.ts",
+    "a": 90,
+    "d": 0
+   },
+   {
+    "f": "src/stellar/usdc-cuenta.test.ts",
+    "a": 329,
+    "d": 0
+   },
+   {
+    "f": "src/stellar/usdc-cuenta.ts",
+    "a": 288,
+    "d": 0
+   },
+   {
+    "f": "src/stellar/venta-oficial.test.ts",
+    "a": 33,
+    "d": 0
+   },
+   {
+    "f": "src/stellar/venta-oficial.ts",
+    "a": 33,
+    "d": 0
+   },
+   {
+    "f": "src/stellar/wallet-pollar-carga.test.ts",
+    "a": 1296,
+    "d": 0
+   },
+   {
+    "f": "src/stellar/wallet-pollar-firma.test.ts",
+    "a": 230,
+    "d": 3
+   },
+   {
+    "f": "src/stellar/wallet-pollar-pago.test.ts",
+    "a": 379,
+    "d": 0
+   },
+   {
+    "f": "src/stellar/wallet-pollar.ts",
+    "a": 1209,
+    "d": 13
+   }
+  ]
+ },
+ "5728e21864b6a5e50a23d98d3fced6d662fef127": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-13T19:47:10Z",
+  "message": "Los textos de la compra de sorteos, en español y en inglés",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/alta-textos-con-cobro.test.ts",
+    "a": 203,
+    "d": 0
+   },
+   {
+    "f": "src/alta-textos-con-cobro.ts",
+    "a": 231,
+    "d": 0
+   },
+   {
+    "f": "src/alta-textos-pago.ts",
+    "a": 162,
+    "d": 0
+   },
+   {
+    "f": "src/alta-textos-sin-pago.test.ts",
+    "a": 26,
+    "d": 5
+   },
+   {
+    "f": "src/alta-textos-sin-pago.ts",
+    "a": 18,
+    "d": 4
+   },
+   {
+    "f": "src/alta-textos.ts",
+    "a": 24,
+    "d": 17
+   },
+   {
+    "f": "src/compra-textos.test.ts",
+    "a": 571,
+    "d": 0
+   },
+   {
+    "f": "src/compra-textos.ts",
+    "a": 560,
+    "d": 0
+   },
+   {
+    "f": "src/i18n.test.ts",
+    "a": 0,
+    "d": 3
+   },
+   {
+    "f": "src/i18n.ts",
+    "a": 191,
+    "d": 51
+   },
+   {
+    "f": "src/paginas-con-cobro-freno.test.ts",
+    "a": 104,
+    "d": 0
+   },
+   {
+    "f": "src/revision-textos.test.ts",
+    "a": 0,
+    "d": 6
+   },
+   {
+    "f": "src/ui/costos-textos.test.ts",
+    "a": 34,
+    "d": 0
+   },
+   {
+    "f": "src/ui/costos-textos.ts",
+    "a": 17,
+    "d": 0
+   },
+   {
+    "f": "vite.config.ts",
+    "a": 25,
+    "d": 2
+   }
+  ]
+ },
+ "3f50dacdf73254649bbbe3018218db76abfe85f5": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-13T19:47:04Z",
+  "message": "La venta queda en piloto aunque sus banderas estén prendidas",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/stellar/alta-build.ts",
+    "a": 25,
+    "d": 8
+   },
+   {
+    "f": "src/stellar/alta-config.test.ts",
+    "a": 7,
+    "d": 7
+   },
+   {
+    "f": "src/stellar/alta-config.ts",
+    "a": 42,
+    "d": 8
+   },
+   {
+    "f": "src/stellar/compra-qr-config.test.ts",
+    "a": 73,
+    "d": 0
+   },
+   {
+    "f": "src/stellar/pago-con-saldo-config.test.ts",
+    "a": 57,
+    "d": 0
+   },
+   {
+    "f": "src/stellar/venta-piloto.ts",
+    "a": 183,
+    "d": 0
+   },
+   {
+    "f": "src/ui/cuenta-lista-acceso.test.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/venta-piloto-lecturas.test.ts",
+    "a": 74,
+    "d": 0
+   }
+  ]
+ },
+ "35817053f4f53ca25c9f09bc2940152bbdeb7ab8": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-13T20:42:07Z",
+  "message": "En el teleférico, a la cumbre llegan exactamente quienes ganan",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/juegos.md",
+    "a": 4,
+    "d": 4
+   },
+   {
+    "f": "docs/juegos/teleferico.md",
+    "a": 58,
+    "d": 15
+   },
+   {
+    "f": "scripts/lib/delatores-senales.mjs",
+    "a": 24,
+    "d": 1
+   },
+   {
+    "f": "scripts/lib/delatores-senales.test.mjs",
+    "a": 32,
+    "d": 1
+   },
+   {
+    "f": "src/games/pixi/cablecar-nino.test.ts",
+    "a": 8,
+    "d": 5
+   },
+   {
+    "f": "src/games/pixi/cablecar-nino.ts",
+    "a": 6,
+    "d": 5
+   },
+   {
+    "f": "src/games/pixi/cablecar-plan.test.ts",
+    "a": 199,
+    "d": 37
+   },
+   {
+    "f": "src/games/pixi/cablecar-plan.ts",
+    "a": 186,
+    "d": 52
+   },
+   {
+    "f": "src/games/pixi/cablecar.ts",
+    "a": 100,
+    "d": 41
+   },
+   {
+    "f": "src/games/pixi/premios-muchos.test.ts",
+    "a": 6,
+    "d": 3
+   },
+   {
+    "f": "src/i18n.ts",
+    "a": 4,
+    "d": 4
+   }
+  ]
+ },
+ "efc41043963bab6966b5106a2277bde4e49430df": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-13T20:41:27Z",
+  "message": "Las animaciones de aviso entran apagadas y la cuenta guarda su lugar",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/boton-entrar-visible.test.ts",
+    "a": 32,
+    "d": 0
+   },
+   {
+    "f": "src/estilos-atencion.test.ts",
+    "a": 55,
+    "d": 0
+   },
+   {
+    "f": "src/estilos-atencion.ts",
+    "a": 51,
+    "d": 8
+   },
+   {
+    "f": "src/main.ts",
+    "a": 2,
+    "d": 1
+   },
+   {
+    "f": "src/pagina.test.ts",
+    "a": 13,
+    "d": 0
+   },
+   {
+    "f": "src/pagina.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/styles.css",
+    "a": 7,
+    "d": 2
+   },
+   {
+    "f": "src/ui/espera.test.ts",
+    "a": 30,
+    "d": 0
+   },
+   {
+    "f": "src/ui/espera.ts",
+    "a": 8,
+    "d": 3
+   }
+  ]
+ },
+ "3daa212b1bf950b35789fc2cdba2cda4d5870af4": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "GuidoSV7",
+  "date": "2026-11-13T16:53:59Z",
+  "message": "feat(atencion): cinco animaciones de aviso y el FOUC de la recarga, sin tocar el sorteo",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/estilos-atencion.test.ts",
+    "a": 253,
+    "d": 0
+   },
+   {
+    "f": "src/estilos-atencion.ts",
+    "a": 199,
+    "d": 0
+   },
+   {
+    "f": "src/main.test.ts",
+    "a": 24,
+    "d": 0
+   },
+   {
+    "f": "src/main.ts",
+    "a": 9,
+    "d": 0
+   },
+   {
+    "f": "src/pagina.test.ts",
+    "a": 68,
+    "d": 1
+   },
+   {
+    "f": "src/pagina.ts",
+    "a": 6,
+    "d": 0
+   },
+   {
+    "f": "src/styles.css",
+    "a": 83,
+    "d": 2
+   },
+   {
+    "f": "src/ui/espera.test.ts",
+    "a": 59,
+    "d": 0
+   },
+   {
+    "f": "src/ui/espera.ts",
+    "a": 64,
+    "d": 0
+   }
+  ]
+ },
+ "0b1a2ed5bf73990884bb32aa99188b4cdd5ffd97": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-13T20:40:43Z",
+  "message": "Los auditores de sonido y de mezcla oyen la música de archivo",
+  "parents": 1,
+  "files": [
+   {
+    "f": "scripts/audit-mezcla.mjs",
+    "a": 30,
+    "d": 10
+   },
+   {
+    "f": "scripts/audit-sound.mjs",
+    "a": 18,
+    "d": 2
+   }
+  ]
+ },
+ "3654ca7d58013ac85d92d69ecc75a9634fc1df4d": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-13T20:40:43Z",
+  "message": "La música nueva suena por defecto en la carrera y la piñata",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/music-pistas.test.ts",
+    "a": 38,
+    "d": 22
+   },
+   {
+    "f": "src/sonidos/pistas-enganche.test.ts",
+    "a": 12,
+    "d": 8
+   },
+   {
+    "f": "src/sonidos/pistas-enganche.ts",
+    "a": 9,
+    "d": 3
+   },
+   {
+    "f": "src/sonidos/pistas-lista.test.ts",
+    "a": 3,
+    "d": 2
+   },
+   {
+    "f": "src/sonidos/pistas-lista.ts",
+    "a": 10,
+    "d": 9
+   },
+   {
+    "f": "src/sonidos/pistas-sitio.test.ts",
+    "a": 72,
+    "d": 4
+   },
+   {
+    "f": "workers/musica/README.md",
+    "a": 1,
+    "d": 1
+   }
+  ]
  }
 }
