@@ -1,15 +1,15 @@
 {
- "generado": "2026-11-16T03:52:44+00:00",
+ "generado": "2026-11-16T14:19:40+00:00",
  "programa": "Stellar Elite",
  "start_date": "2026-09-02T00:00:00Z",
  "teams": [
   {
    "name": "Tinkazo",
-   "total": 7873.61,
-   "per_capita": 7873.61,
-   "commits": 1188,
-   "pts_commits": 7652.61,
-   "dias_activos": 43,
+   "total": 8062.22,
+   "per_capita": 8062.22,
+   "commits": 1211,
+   "pts_commits": 7836.22,
+   "dias_activos": 44,
    "contribuidores": [
     "GuidoSV7",
     "nema1502"
@@ -371,7 +371,8 @@
    "2026-11-11": 212.14000000000001,
    "2026-11-12": 126.14999999999999,
    "2026-11-13": 331.89,
-   "2026-11-14": 14.149999999999999
+   "2026-11-14": 30.15,
+   "2026-11-16": 167.61
   },
   "CompraGasolinaBidon": {
    "2026-09-06": 1.0,
@@ -563,7 +564,8 @@
    "2026-11-11": 29,
    "2026-11-12": 16,
    "2026-11-13": 44,
-   "2026-11-14": 2
+   "2026-11-14": 4,
+   "2026-11-16": 21
   },
   "CompraGasolinaBidon": {
    "2026-09-06": 1,
@@ -673,6 +675,236 @@
   }
  },
  "commits": [
+  {
+   "sha": "e9333b1",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-16T09:38:20Z",
+   "msg": "Los casos de No llegó llegan a la pantalla del pago",
+   "pts": 8.69,
+   "nota": ""
+  },
+  {
+   "sha": "cbfd8f3",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-16T09:00:52Z",
+   "msg": "La entrada de la página de eventos en inglés vuelve a su tope de palabras",
+   "pts": 2.58,
+   "nota": ""
+  },
+  {
+   "sha": "f61ec5c",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-16T09:00:52Z",
+   "msg": "La prueba de la red simula también los botones de Cuántos ganan",
+   "pts": 2.0,
+   "nota": ""
+  },
+  {
+   "sha": "3cba5e1",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-16T08:32:05Z",
+   "msg": "La barra de la espera en grande ya no tapa la cuenta en el celular",
+   "pts": 7.13,
+   "nota": ""
+  },
+  {
+   "sha": "36fe2cd",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-16T08:23:41Z",
+   "msg": "El enlace al registro empieza con mayúscula tras Sorteo guardado",
+   "pts": 4.7,
+   "nota": ""
+  },
+  {
+   "sha": "6c94706",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-16T08:19:11Z",
+   "msg": "Pasada editorial de los textos en inglés",
+   "pts": 9.74,
+   "nota": ""
+  },
+  {
+   "sha": "06e528d",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-16T08:19:11Z",
+   "msg": "El celular que mira cuenta la tarjeta cuando la sala lanzó tarde",
+   "pts": 8.59,
+   "nota": ""
+  },
+  {
+   "sha": "94bdbe7",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-16T08:19:11Z",
+   "msg": "Tres arreglos en el celular: la pastilla, el stand y el orden de turnos",
+   "pts": 8.52,
+   "nota": ""
+  },
+  {
+   "sha": "0aba843",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-16T08:19:11Z",
+   "msg": "El juego arranca cuando nace el número y el sorteo se guarda aparte",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "d327ae0",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-16T08:19:11Z",
+   "msg": "El portero devuelve el sorteo de un sello que entró tarde",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "f37902c",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-16T08:19:11Z",
+   "msg": "Agrega el reconocimiento y el reparto del modo Amigo secreto",
+   "pts": 8.48,
+   "nota": ""
+  },
+  {
+   "sha": "e9defbd",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-16T08:19:11Z",
+   "msg": "Pasa el modo de orden a la tarjeta de la vista de espectador",
+   "pts": 6.09,
+   "nota": ""
+  },
+  {
+   "sha": "12c61f6",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-16T08:19:10Z",
+   "msg": "El stand explica sus rondas y lleva su lista a un sorteo de verdad",
+   "pts": 9.9,
+   "nota": ""
+  },
+  {
+   "sha": "b84235c",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-16T08:19:10Z",
+   "msg": "La sala por QR anota una vez por celular y no repite nombres",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "e2be524",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-16T08:19:10Z",
+   "msg": "Los turnos se anuncian como orden y Cuántos ganan queda a la vista",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "43dfcb2",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-16T06:33:57Z",
+   "msg": "Ajusta dos pruebas: el simulado del modo y la espera del historial",
+   "pts": 3.81,
+   "nota": ""
+  },
+  {
+   "sha": "5ff5795",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "GuidoSV7",
+   "date": "2026-11-16T05:59:26Z",
+   "msg": "feat: explicar tras No llegó los pagos en otra moneda o sin la nota",
+   "pts": 7.38,
+   "nota": ""
+  },
+  {
+   "sha": "d3344dd",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-16T05:06:13Z",
+   "msg": "El camino a Oficial: los cupones abren Oficial y cada modo tiene su cuenta",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "64bc704",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-16T05:05:50Z",
+   "msg": "La foto del juego queda prendida para los diez juegos",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "c96e6c4",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-16T05:04:49Z",
+   "msg": "Espectadores y compartir: el celular sigue a la sala y no se adelanta",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "f9d95de",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-16T03:02:11Z",
+   "msg": "Espectadores: el celular no se adelanta a la sala y el QR va cifrado",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "988bdb0",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "GuidoSV7",
+   "date": "2026-11-14T21:26:02Z",
+   "msg": "feat(espectadores): el sorteo se ve en vivo desde un QR, sin servidor nuevo",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "e24562b",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "GuidoSV7",
+   "date": "2026-11-14T20:01:09Z",
+   "msg": "feat(compartir): Facebook e Instagram en el diálogo del sorteo",
+   "pts": 6.0,
+   "nota": ""
+  },
   {
    "sha": "9a9cbc6",
    "team": "Tinkazo",

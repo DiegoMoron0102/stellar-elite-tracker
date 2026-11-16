@@ -170595,5 +170595,1685 @@
     "d": 1
    }
   ]
+ },
+ "e9333b19e0488255f5494b1c125d9538c69b4f02": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-16T09:38:20Z",
+  "message": "Los casos de No llegó llegan a la pantalla del pago",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/alta-textos-pago.test.ts",
+    "a": 5,
+    "d": 2
+   },
+   {
+    "f": "src/alta-textos-pago.ts",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "src/compra-textos.test.ts",
+    "a": 10,
+    "d": 2
+   },
+   {
+    "f": "src/compra-textos.ts",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "src/ui/compra-qr-estado.test.ts",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "src/ui/compra-qr-estado.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/ui/cuenta-lista-pago.test.ts",
+    "a": 41,
+    "d": 0
+   },
+   {
+    "f": "src/ui/cuenta-lista.ts",
+    "a": 8,
+    "d": 14
+   },
+   {
+    "f": "src/ui/pago-panel.test.ts",
+    "a": 46,
+    "d": 1
+   },
+   {
+    "f": "src/ui/pago-panel.ts",
+    "a": 25,
+    "d": 3
+   },
+   {
+    "f": "src/ui/pago-paquete.test.ts",
+    "a": 28,
+    "d": 0
+   },
+   {
+    "f": "src/ui/pago-paquete.ts",
+    "a": 3,
+    "d": 4
+   }
+  ]
+ },
+ "5ff57951fb2b6bf5437e58a22ef2d0a2138dc9bc": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "GuidoSV7",
+  "date": "2026-11-16T05:59:26Z",
+  "message": "feat: explicar tras No llegó los pagos en otra moneda o sin la nota",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/alta-textos-pago.test.ts",
+    "a": 14,
+    "d": 2
+   },
+   {
+    "f": "src/alta-textos-pago.ts",
+    "a": 4,
+    "d": 0
+   },
+   {
+    "f": "src/compra-textos.test.ts",
+    "a": 12,
+    "d": 5
+   },
+   {
+    "f": "src/compra-textos.ts",
+    "a": 2,
+    "d": 0
+   },
+   {
+    "f": "src/ui/cuenta-lista-estado.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/ui/cuenta-lista-pago-vista.test.ts",
+    "a": 14,
+    "d": 1
+   },
+   {
+    "f": "src/ui/pago-paquete.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/ui/pago-poco-texto.test.ts",
+    "a": 10,
+    "d": 1
+   },
+   {
+    "f": "src/ui/pago-vista.ts",
+    "a": 8,
+    "d": 5
+   }
+  ]
+ },
+ "cbfd8f3a4f738998651da118c8f3125b724339e2": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-16T09:00:52Z",
+  "message": "La entrada de la página de eventos en inglés vuelve a su tope de palabras",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/i18n.ts",
+    "a": 1,
+    "d": 1
+   }
+  ]
+ },
+ "f61ec5c7fc5603076f5912b9ddee66367057d808": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-16T09:00:52Z",
+  "message": "La prueba de la red simula también los botones de Cuántos ganan",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/ui/red.test.ts",
+    "a": 1,
+    "d": 0
+   }
+  ]
+ },
+ "3cba5e17e2858603eff4854ffa8ee90ec94ed999": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-16T08:32:05Z",
+  "message": "La barra de la espera en grande ya no tapa la cuenta en el celular",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/styles.css",
+    "a": 13,
+    "d": 0
+   },
+   {
+    "f": "src/ui/espera-cabecera-angosta.test.ts",
+    "a": 56,
+    "d": 0
+   }
+  ]
+ },
+ "36fe2cd1be0c7ecea8ee1ad746d08ce3ba1870a7": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-16T08:23:41Z",
+  "message": "El enlace al registro empieza con mayúscula tras Sorteo guardado",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/ui/draw.ts",
+    "a": 8,
+    "d": 4
+   }
+  ]
+ },
+ "6c94706d1d8c3886fde3c59f5648aea29ae26c79": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-16T08:19:11Z",
+  "message": "Pasada editorial de los textos en inglés",
+  "parents": 1,
+  "files": [
+   {
+    "f": "scripts/lib/modos-comprobaciones.mjs",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "scripts/lib/modos-comprobaciones.test.mjs",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "sorteo-para-eventos.html",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "sorteo-para-meetup.html",
+    "a": 3,
+    "d": 3
+   },
+   {
+    "f": "src/alta-textos-con-cobro.ts",
+    "a": 3,
+    "d": 3
+   },
+   {
+    "f": "src/games/llamas/carrera-textos.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/i18n-modo-oficial.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/i18n.ts",
+    "a": 87,
+    "d": 85
+   },
+   {
+    "f": "src/modos/textos-del-pulido.test.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/participaciones.test.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/seo.test.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/textos-con-cupon.test.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/textos-ingles-armados.test.ts",
+    "a": 213,
+    "d": 0
+   },
+   {
+    "f": "src/ui/i18n.test.ts",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "src/ui/resultado-ganadores.test.ts",
+    "a": 1,
+    "d": 1
+   }
+  ]
+ },
+ "06e528d62dcb05bcc18439ed612c56825ee61698": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-16T08:19:11Z",
+  "message": "El celular que mira cuenta la tarjeta cuando la sala lanzó tarde",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/ui/draw.ts",
+    "a": 3,
+    "d": 3
+   },
+   {
+    "f": "src/ui/espectador-regla.test.ts",
+    "a": 66,
+    "d": 2
+   },
+   {
+    "f": "src/ui/espectador-regla.ts",
+    "a": 50,
+    "d": 9
+   },
+   {
+    "f": "src/ui/espectador.test.ts",
+    "a": 39,
+    "d": 3
+   },
+   {
+    "f": "src/ui/espectador.ts",
+    "a": 10,
+    "d": 7
+   }
+  ]
+ },
+ "94bdbe754dc17415fd4932587174d529d380b7d4": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-16T08:19:11Z",
+  "message": "Tres arreglos en el celular: la pastilla, el stand y el orden de turnos",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/i18n.ts",
+    "a": 4,
+    "d": 0
+   },
+   {
+    "f": "src/styles.css",
+    "a": 10,
+    "d": 2
+   },
+   {
+    "f": "src/ui/espectador.test.ts",
+    "a": 63,
+    "d": 3
+   },
+   {
+    "f": "src/ui/espectador.ts",
+    "a": 8,
+    "d": 4
+   },
+   {
+    "f": "src/ui/espera-cabecera-angosta.test.ts",
+    "a": 45,
+    "d": 0
+   },
+   {
+    "f": "src/ui/stand-ganadores.test.ts",
+    "a": 43,
+    "d": 0
+   }
+  ]
+ },
+ "0aba8431db4df9ec0f8df5a3ad4048b4298fc708": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-16T08:19:11Z",
+  "message": "El juego arranca cuando nace el número y el sorteo se guarda aparte",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/architecture.md",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "docs/ux.md",
+    "a": 16,
+    "d": 1
+   },
+   {
+    "f": "index.html",
+    "a": 2,
+    "d": 0
+   },
+   {
+    "f": "scripts/audit-espera.mjs",
+    "a": 4,
+    "d": 2
+   },
+   {
+    "f": "src/arranque-del-show.test.ts",
+    "a": 33,
+    "d": 0
+   },
+   {
+    "f": "src/arranque-del-show.ts",
+    "a": 69,
+    "d": 0
+   },
+   {
+    "f": "src/i18n.ts",
+    "a": 25,
+    "d": 2
+   },
+   {
+    "f": "src/main.ts",
+    "a": 2,
+    "d": 0
+   },
+   {
+    "f": "src/sorteo-local.test.ts",
+    "a": 35,
+    "d": 0
+   },
+   {
+    "f": "src/sorteo-local.ts",
+    "a": 32,
+    "d": 0
+   },
+   {
+    "f": "src/state.ts",
+    "a": 16,
+    "d": 0
+   },
+   {
+    "f": "src/styles.css",
+    "a": 5,
+    "d": 0
+   },
+   {
+    "f": "src/ui/cortina-turnos.test.ts",
+    "a": 38,
+    "d": 11
+   },
+   {
+    "f": "src/ui/draw-grande-guardado.test.ts",
+    "a": 193,
+    "d": 0
+   },
+   {
+    "f": "src/ui/draw-mientras-graba.test.ts",
+    "a": 143,
+    "d": 0
+   },
+   {
+    "f": "src/ui/draw-no-coincide.test.ts",
+    "a": 186,
+    "d": 0
+   },
+   {
+    "f": "src/ui/draw-por-guardar.test.ts",
+    "a": 143,
+    "d": 0
+   },
+   {
+    "f": "src/ui/draw-proteger.test.ts",
+    "a": 3,
+    "d": 2
+   },
+   {
+    "f": "src/ui/draw-show-falla.test.ts",
+    "a": 155,
+    "d": 0
+   },
+   {
+    "f": "src/ui/draw-sin-esperar.test.ts",
+    "a": 275,
+    "d": 0
+   },
+   {
+    "f": "src/ui/draw.ts",
+    "a": 457,
+    "d": 169
+   },
+   {
+    "f": "src/ui/espectador-cadena.ts",
+    "a": 8,
+    "d": 0
+   },
+   {
+    "f": "src/ui/espectador-regla.test.ts",
+    "a": 37,
+    "d": 17
+   },
+   {
+    "f": "src/ui/espectador-regla.ts",
+    "a": 52,
+    "d": 30
+   },
+   {
+    "f": "src/ui/espectador.test.ts",
+    "a": 26,
+    "d": 16
+   },
+   {
+    "f": "src/ui/espectador.ts",
+    "a": 6,
+    "d": 4
+   },
+   {
+    "f": "src/ui/espera.ts",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "src/ui/freeze-adelantado.test.ts",
+    "a": 283,
+    "d": 0
+   },
+   {
+    "f": "src/ui/freeze.ts",
+    "a": 50,
+    "d": 18
+   },
+   {
+    "f": "src/ui/gamecard.ts",
+    "a": 6,
+    "d": 3
+   },
+   {
+    "f": "src/ui/grabacion-en-curso.ts",
+    "a": 41,
+    "d": 0
+   },
+   {
+    "f": "src/ui/grabar-sorteo.test.ts",
+    "a": 120,
+    "d": 0
+   },
+   {
+    "f": "src/ui/grabar-sorteo.ts",
+    "a": 102,
+    "d": 0
+   },
+   {
+    "f": "src/ui/history-grabando.test.ts",
+    "a": 131,
+    "d": 0
+   },
+   {
+    "f": "src/ui/history-guardarlo-ahora.test.ts",
+    "a": 128,
+    "d": 0
+   },
+   {
+    "f": "src/ui/history-no-coincide.test.ts",
+    "a": 116,
+    "d": 0
+   },
+   {
+    "f": "src/ui/history-por-grabar.test.ts",
+    "a": 47,
+    "d": 0
+   },
+   {
+    "f": "src/ui/history.ts",
+    "a": 141,
+    "d": 8
+   },
+   {
+    "f": "src/ui/pantalla.ts",
+    "a": 95,
+    "d": 11
+   },
+   {
+    "f": "src/ui/retomar-modo.test.ts",
+    "a": 11,
+    "d": 0
+   },
+   {
+    "f": "src/ui/sorteo-en-marcha.ts",
+    "a": 27,
+    "d": 0
+   }
+  ]
+ },
+ "d327ae08ec14d1bff7ba403c0695a310e2f840ae": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-16T08:19:11Z",
+  "message": "El portero devuelve el sorteo de un sello que entró tarde",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/architecture.md",
+    "a": 2,
+    "d": 0
+   },
+   {
+    "f": "src/i18n.ts",
+    "a": 12,
+    "d": 0
+   },
+   {
+    "f": "src/stellar/patrocinador-devuelve.test.ts",
+    "a": 66,
+    "d": 0
+   },
+   {
+    "f": "src/stellar/patrocinador.ts",
+    "a": 13,
+    "d": 0
+   },
+   {
+    "f": "src/ui/freeze-sin-sorteos.test.ts",
+    "a": 120,
+    "d": 5
+   },
+   {
+    "f": "src/ui/freeze.ts",
+    "a": 22,
+    "d": 0
+   },
+   {
+    "f": "src/ui/sello-tarde-aviso.test.ts",
+    "a": 103,
+    "d": 0
+   },
+   {
+    "f": "src/ui/sello-tarde-aviso.ts",
+    "a": 59,
+    "d": 0
+   },
+   {
+    "f": "src/ui/sello-tarde-detector.test.ts",
+    "a": 39,
+    "d": 0
+   },
+   {
+    "f": "workers/patrocinio/README.md",
+    "a": 37,
+    "d": 6
+   },
+   {
+    "f": "workers/patrocinio/src/admin.test.ts",
+    "a": 2,
+    "d": 0
+   },
+   {
+    "f": "workers/patrocinio/src/armar.ts",
+    "a": 3,
+    "d": 1
+   },
+   {
+    "f": "workers/patrocinio/src/cadena-prueba.ts",
+    "a": 81,
+    "d": 0
+   },
+   {
+    "f": "workers/patrocinio/src/cupos.ts",
+    "a": 164,
+    "d": 3
+   },
+   {
+    "f": "workers/patrocinio/src/devolucion-anuncio.test.ts",
+    "a": 126,
+    "d": 0
+   },
+   {
+    "f": "workers/patrocinio/src/devolucion-bordes.test.ts",
+    "a": 94,
+    "d": 0
+   },
+   {
+    "f": "workers/patrocinio/src/devolucion-freno.test.ts",
+    "a": 108,
+    "d": 0
+   },
+   {
+    "f": "workers/patrocinio/src/devolucion-prueba.ts",
+    "a": 87,
+    "d": 0
+   },
+   {
+    "f": "workers/patrocinio/src/devolucion-reintento.test.ts",
+    "a": 119,
+    "d": 0
+   },
+   {
+    "f": "workers/patrocinio/src/devolucion-tope-general.test.ts",
+    "a": 64,
+    "d": 0
+   },
+   {
+    "f": "workers/patrocinio/src/devolucion-vencido.test.ts",
+    "a": 75,
+    "d": 0
+   },
+   {
+    "f": "workers/patrocinio/src/devolucion.test.ts",
+    "a": 388,
+    "d": 0
+   },
+   {
+    "f": "workers/patrocinio/src/red.ts",
+    "a": 45,
+    "d": 6
+   },
+   {
+    "f": "workers/patrocinio/src/sello-tarde-real.json",
+    "a": 55,
+    "d": 0
+   },
+   {
+    "f": "workers/patrocinio/src/sello-tarde-real.test.ts",
+    "a": 80,
+    "d": 0
+   },
+   {
+    "f": "workers/patrocinio/src/sello-tarde.test.ts",
+    "a": 119,
+    "d": 0
+   },
+   {
+    "f": "workers/patrocinio/src/sello-tarde.ts",
+    "a": 142,
+    "d": 0
+   },
+   {
+    "f": "workers/patrocinio/src/servicio.test.ts",
+    "a": 5,
+    "d": 1
+   },
+   {
+    "f": "workers/patrocinio/src/servicio.ts",
+    "a": 206,
+    "d": 9
+   }
+  ]
+ },
+ "f37902ce075d8632db04661aaca22a16aa18ada2": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-16T08:19:11Z",
+  "message": "Agrega el reconocimiento y el reparto del modo Amigo secreto",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/modos/amigo.test.ts",
+    "a": 119,
+    "d": 0
+   },
+   {
+    "f": "src/modos/amigo.ts",
+    "a": 45,
+    "d": 0
+   },
+   {
+    "f": "src/modos/bandera.test.ts",
+    "a": 6,
+    "d": 0
+   },
+   {
+    "f": "src/modos/bandera.ts",
+    "a": 6,
+    "d": 2
+   }
+  ]
+ },
+ "e9defbd581382295a9e6895b84c878bf095f5362": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-16T08:19:11Z",
+  "message": "Pasa el modo de orden a la tarjeta de la vista de espectador",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/ui/draw.ts",
+    "a": 5,
+    "d": 4
+   },
+   {
+    "f": "src/ui/espectador-regla.test.ts",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "src/ui/show-espectador.test.ts",
+    "a": 18,
+    "d": 2
+   }
+  ]
+ },
+ "12c61f6e13df03cd4f694bfb6d2754d08eebf77f": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-16T08:19:10Z",
+  "message": "El stand explica sus rondas y lleva su lista a un sorteo de verdad",
+  "parents": 1,
+  "files": [
+   {
+    "f": "index.html",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/equipos/equipos.css",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "src/i18n.test.ts",
+    "a": 7,
+    "d": 0
+   },
+   {
+    "f": "src/i18n.ts",
+    "a": 20,
+    "d": 4
+   },
+   {
+    "f": "src/lista.test.ts",
+    "a": 67,
+    "d": 0
+   },
+   {
+    "f": "src/lista.ts",
+    "a": 2,
+    "d": 1
+   },
+   {
+    "f": "src/stand-modo.test.ts",
+    "a": 8,
+    "d": 0
+   },
+   {
+    "f": "src/styles.css",
+    "a": 9,
+    "d": 2
+   },
+   {
+    "f": "src/ui/participants.ts",
+    "a": 44,
+    "d": 1
+   },
+   {
+    "f": "src/ui/sala-cuenta.test.ts",
+    "a": 15,
+    "d": 0
+   },
+   {
+    "f": "src/ui/sala.ts",
+    "a": 2,
+    "d": 0
+   },
+   {
+    "f": "src/ui/stand-lista.test.ts",
+    "a": 190,
+    "d": 0
+   },
+   {
+    "f": "src/ui/stand-sala.test.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/ui/stand-sala.ts",
+    "a": 5,
+    "d": 1
+   },
+   {
+    "f": "src/ui/stand.ts",
+    "a": 66,
+    "d": 3
+   },
+   {
+    "f": "src/verify-comprobar.test.ts",
+    "a": 20,
+    "d": 0
+   },
+   {
+    "f": "verificar.html",
+    "a": 2,
+    "d": 2
+   }
+  ]
+ },
+ "b84235c2c8ab3f89f39c2a4c514e76b1217283de": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-16T08:19:10Z",
+  "message": "La sala por QR anota una vez por celular y no repite nombres",
+  "parents": 1,
+  "files": [
+   {
+    "f": "scripts/probar-sala.mjs",
+    "a": 36,
+    "d": 9
+   },
+   {
+    "f": "src/sala/cifra.ts",
+    "a": 27,
+    "d": 0
+   },
+   {
+    "f": "src/sala/cliente.ts",
+    "a": 7,
+    "d": 5
+   },
+   {
+    "f": "src/sala/nombres.test.ts",
+    "a": 130,
+    "d": 0
+   },
+   {
+    "f": "src/sala/pagina.test.ts",
+    "a": 215,
+    "d": 0
+   },
+   {
+    "f": "src/sala/sala.test.ts",
+    "a": 92,
+    "d": 3
+   },
+   {
+    "f": "src/sala/topes-equipos.test.ts",
+    "a": 8,
+    "d": 5
+   },
+   {
+    "f": "src/ui/stand-sala.test.ts",
+    "a": 70,
+    "d": 0
+   },
+   {
+    "f": "src/ui/stand-sala.ts",
+    "a": 6,
+    "d": 2
+   },
+   {
+    "f": "workers/sala/README.md",
+    "a": 21,
+    "d": 9
+   },
+   {
+    "f": "workers/sala/probar.mjs",
+    "a": 49,
+    "d": 19
+   },
+   {
+    "f": "workers/sala/src/index.ts",
+    "a": 27,
+    "d": 29
+   },
+   {
+    "f": "workers/sala/src/logica.ts",
+    "a": 8,
+    "d": 4
+   },
+   {
+    "f": "workers/sala/src/nombres.ts",
+    "a": 149,
+    "d": 0
+   },
+   {
+    "f": "workers/sala/src/pagina.ts",
+    "a": 45,
+    "d": 18
+   }
+  ]
+ },
+ "e2be5242d60f5aa0c340e81ee6cbd14496aeb023": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-16T08:19:10Z",
+  "message": "Los turnos se anuncian como orden y Cuántos ganan queda a la vista",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/ux.md",
+    "a": 3,
+    "d": 3
+   },
+   {
+    "f": "index.html",
+    "a": 22,
+    "d": 15
+   },
+   {
+    "f": "scripts/audit-flujo.mjs",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "scripts/audit-modos.mjs",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "scripts/audit-ui.mjs",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "sorteo-para-meetup.html",
+    "a": 4,
+    "d": 4
+   },
+   {
+    "f": "src/games/llamas/carrera-show.test.ts",
+    "a": 18,
+    "d": 0
+   },
+   {
+    "f": "src/games/llamas/carrera-textos.ts",
+    "a": 4,
+    "d": 3
+   },
+   {
+    "f": "src/games/pixi/chovena-turnos.test.ts",
+    "a": 17,
+    "d": 0
+   },
+   {
+    "f": "src/games/pixi/chovena.ts",
+    "a": 4,
+    "d": 3
+   },
+   {
+    "f": "src/games/pixi/guajojo-plan.test.ts",
+    "a": 23,
+    "d": 0
+   },
+   {
+    "f": "src/games/pixi/guajojo-plan.ts",
+    "a": 2,
+    "d": 1
+   },
+   {
+    "f": "src/i18n.test.ts",
+    "a": 3,
+    "d": 3
+   },
+   {
+    "f": "src/i18n.ts",
+    "a": 31,
+    "d": 11
+   },
+   {
+    "f": "src/styles.css",
+    "a": 22,
+    "d": 10
+   },
+   {
+    "f": "src/ui/cortina-turnos.test.ts",
+    "a": 127,
+    "d": 0
+   },
+   {
+    "f": "src/ui/draw.ts",
+    "a": 22,
+    "d": 12
+   },
+   {
+    "f": "src/ui/espera-turnos.test.ts",
+    "a": 101,
+    "d": 0
+   },
+   {
+    "f": "src/ui/espera.ts",
+    "a": 22,
+    "d": 5
+   },
+   {
+    "f": "src/ui/gamecard-turnos.test.ts",
+    "a": 77,
+    "d": 0
+   },
+   {
+    "f": "src/ui/gamecard.test.ts",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "src/ui/gamecard.ts",
+    "a": 19,
+    "d": 8
+   },
+   {
+    "f": "src/ui/ganadores.test.ts",
+    "a": 77,
+    "d": 26
+   },
+   {
+    "f": "src/ui/ganadores.ts",
+    "a": 46,
+    "d": 33
+   },
+   {
+    "f": "src/ui/history-orden-sin-sello.test.ts",
+    "a": 7,
+    "d": 0
+   },
+   {
+    "f": "src/ui/history-turnos.test.ts",
+    "a": 11,
+    "d": 11
+   },
+   {
+    "f": "src/ui/history.ts",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "src/ui/participants-ganadores.test.ts",
+    "a": 15,
+    "d": 3
+   },
+   {
+    "f": "src/ui/participants.ts",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "src/ui/plegable.test.ts",
+    "a": 39,
+    "d": 7
+   },
+   {
+    "f": "src/ui/plegable.ts",
+    "a": 8,
+    "d": 14
+   },
+   {
+    "f": "src/ui/turnos-pliegue.test.ts",
+    "a": 6,
+    "d": 6
+   },
+   {
+    "f": "src/ui/turnos-selector.test.ts",
+    "a": 4,
+    "d": 4
+   },
+   {
+    "f": "src/ui/turnos-tope-barra.test.ts",
+    "a": 3,
+    "d": 3
+   },
+   {
+    "f": "src/ui/turnos.test.ts",
+    "a": 16,
+    "d": 12
+   },
+   {
+    "f": "src/ui/turnos.ts",
+    "a": 1,
+    "d": 1
+   }
+  ]
+ },
+ "43dfcb209db3006bf0ce689b8ec13243811c1926": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-16T06:33:57Z",
+  "message": "Ajusta dos pruebas: el simulado del modo y la espera del historial",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/ui/compra-con-boton.test.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/ui/history-otro-modo.test.ts",
+    "a": 2,
+    "d": 2
+   }
+  ]
+ },
+ "d3344dd0a25b433a13c84486820cecbb270df9e3": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-16T05:06:13Z",
+  "message": "El camino a Oficial: los cupones abren Oficial y cada modo tiene su cuenta",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/ux.md",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/i18n-modo-oficial.ts",
+    "a": 4,
+    "d": 1
+   },
+   {
+    "f": "src/i18n.test.ts",
+    "a": 36,
+    "d": 1
+   },
+   {
+    "f": "src/i18n.ts",
+    "a": 17,
+    "d": 3
+   },
+   {
+    "f": "src/main.test.ts",
+    "a": 9,
+    "d": 0
+   },
+   {
+    "f": "src/main.ts",
+    "a": 4,
+    "d": 0
+   },
+   {
+    "f": "src/stellar/config-modo.test.ts",
+    "a": 41,
+    "d": 2
+   },
+   {
+    "f": "src/stellar/config-sin-ui.test.ts",
+    "a": 14,
+    "d": 0
+   },
+   {
+    "f": "src/stellar/config.ts",
+    "a": 26,
+    "d": 13
+   },
+   {
+    "f": "src/stellar/cupon-guardado.test.ts",
+    "a": 9,
+    "d": 3
+   },
+   {
+    "f": "src/stellar/cupon-guardado.ts",
+    "a": 12,
+    "d": 15
+   },
+   {
+    "f": "src/stellar/cupon-paso-guardado.test.ts",
+    "a": 19,
+    "d": 0
+   },
+   {
+    "f": "src/stellar/cupon-paso-guardado.ts",
+    "a": 15,
+    "d": 0
+   },
+   {
+    "f": "src/styles.css",
+    "a": 3,
+    "d": 0
+   },
+   {
+    "f": "src/ui/cuenta-lista-estado.test.ts",
+    "a": 5,
+    "d": 0
+   },
+   {
+    "f": "src/ui/cuenta-lista-estado.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/ui/cuenta-lista-flujo.test.ts",
+    "a": 27,
+    "d": 0
+   },
+   {
+    "f": "src/ui/cuenta-lista-flujo.ts",
+    "a": 8,
+    "d": 0
+   },
+   {
+    "f": "src/ui/cuenta-lista.test.ts",
+    "a": 41,
+    "d": 0
+   },
+   {
+    "f": "src/ui/cuenta-lista.ts",
+    "a": 9,
+    "d": 1
+   },
+   {
+    "f": "src/ui/cupon-paso.ts",
+    "a": 43,
+    "d": 0
+   },
+   {
+    "f": "src/ui/modo-ui.test.ts",
+    "a": 165,
+    "d": 9
+   },
+   {
+    "f": "src/ui/modo-ui.ts",
+    "a": 89,
+    "d": 5
+   }
+  ]
+ },
+ "64bc70481603e9f2935a6712f776821f7393c1e0": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-16T05:05:50Z",
+  "message": "La foto del juego queda prendida para los diez juegos",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/ux.md",
+    "a": 3,
+    "d": 3
+   },
+   {
+    "f": "src/ui/compartir.ts",
+    "a": 10,
+    "d": 8
+   },
+   {
+    "f": "src/ui/foto-fondos.ts",
+    "a": 7,
+    "d": 2
+   },
+   {
+    "f": "src/ui/foto-juego-bandera.test.ts",
+    "a": 48,
+    "d": 10
+   },
+   {
+    "f": "src/ui/foto-juego-bandera.ts",
+    "a": 19,
+    "d": 6
+   },
+   {
+    "f": "src/ui/foto-juego.test.ts",
+    "a": 149,
+    "d": 8
+   },
+   {
+    "f": "src/ui/foto.ts",
+    "a": 216,
+    "d": 40
+   }
+  ]
+ },
+ "c96e6c42ad7982388e206a4a0c7fe9e723cb90cd": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-16T05:04:49Z",
+  "message": "Espectadores y compartir: el celular sigue a la sala y no se adelanta",
+  "parents": 1,
+  "files": [
+   {
+    "f": "index.html",
+    "a": 2,
+    "d": 0
+   },
+   {
+    "f": "scripts/audit-espectador.mjs",
+    "a": 42,
+    "d": 5
+   },
+   {
+    "f": "src/games/overlay.ts",
+    "a": 3,
+    "d": 1
+   },
+   {
+    "f": "src/i18n.test.ts",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "src/i18n.ts",
+    "a": 8,
+    "d": 2
+   },
+   {
+    "f": "src/main.ts",
+    "a": 16,
+    "d": 1
+   },
+   {
+    "f": "src/solo-mirar.ts",
+    "a": 15,
+    "d": 0
+   },
+   {
+    "f": "src/stellar/registro.test.ts",
+    "a": 13,
+    "d": 1
+   },
+   {
+    "f": "src/stellar/registro.ts",
+    "a": 11,
+    "d": 6
+   },
+   {
+    "f": "src/styles.css",
+    "a": 4,
+    "d": 1
+   },
+   {
+    "f": "src/ui/compartir-redes.test.ts",
+    "a": 116,
+    "d": 0
+   },
+   {
+    "f": "src/ui/compartir.ts",
+    "a": 11,
+    "d": 7
+   },
+   {
+    "f": "src/ui/espectador-cadena.test.ts",
+    "a": 86,
+    "d": 0
+   },
+   {
+    "f": "src/ui/espectador-cadena.ts",
+    "a": 60,
+    "d": 21
+   },
+   {
+    "f": "src/ui/espectador-enlace.ts",
+    "a": 28,
+    "d": 27
+   },
+   {
+    "f": "src/ui/espectador-fijo.test.ts",
+    "a": 25,
+    "d": 0
+   },
+   {
+    "f": "src/ui/espectador-fijo.ts",
+    "a": 33,
+    "d": 0
+   },
+   {
+    "f": "src/ui/espectador-qr.test.ts",
+    "a": 12,
+    "d": 5
+   },
+   {
+    "f": "src/ui/espectador-regla.test.ts",
+    "a": 43,
+    "d": 3
+   },
+   {
+    "f": "src/ui/espectador-regla.ts",
+    "a": 72,
+    "d": 10
+   },
+   {
+    "f": "src/ui/espectador.test.ts",
+    "a": 142,
+    "d": 38
+   },
+   {
+    "f": "src/ui/espectador.ts",
+    "a": 69,
+    "d": 25
+   },
+   {
+    "f": "src/ui/espera.test.ts",
+    "a": 38,
+    "d": 6
+   },
+   {
+    "f": "src/ui/espera.ts",
+    "a": 33,
+    "d": 11
+   },
+   {
+    "f": "src/ui/freeze.ts",
+    "a": 15,
+    "d": 1
+   },
+   {
+    "f": "src/ui/gamecard.ts",
+    "a": 4,
+    "d": 1
+   },
+   {
+    "f": "src/ui/selector-de-juego.test.ts",
+    "a": 24,
+    "d": 0
+   },
+   {
+    "f": "src/ui/solo-mirar.test.ts",
+    "a": 76,
+    "d": 0
+   }
+  ]
+ },
+ "e24562bc5fdd382dcd8069dabef8f1d8bbf9f9b7": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "GuidoSV7",
+  "date": "2026-11-14T20:01:09Z",
+  "message": "feat(compartir): Facebook e Instagram en el diálogo del sorteo",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/i18n.ts",
+    "a": 2,
+    "d": 0
+   },
+   {
+    "f": "src/styles.css",
+    "a": 2,
+    "d": 0
+   },
+   {
+    "f": "src/ui/compartir.ts",
+    "a": 27,
+    "d": 0
+   }
+  ]
+ },
+ "f9d95deae75191e4c9dc0dcb47da81f403061eb1": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-16T03:02:11Z",
+  "message": "Espectadores: el celular no se adelanta a la sala y el QR va cifrado",
+  "parents": 1,
+  "files": [
+   {
+    "f": "scripts/audit-espectador.mjs",
+    "a": 249,
+    "d": 0
+   },
+   {
+    "f": "src/i18n.test.ts",
+    "a": 22,
+    "d": 5
+   },
+   {
+    "f": "src/i18n.ts",
+    "a": 24,
+    "d": 6
+   },
+   {
+    "f": "src/main.ts",
+    "a": 2,
+    "d": 1
+   },
+   {
+    "f": "src/styles.css",
+    "a": 16,
+    "d": 11
+   },
+   {
+    "f": "src/ui/draw.ts",
+    "a": 53,
+    "d": 0
+   },
+   {
+    "f": "src/ui/espectador-cadena.ts",
+    "a": 164,
+    "d": 0
+   },
+   {
+    "f": "src/ui/espectador-enlace.ts",
+    "a": 249,
+    "d": 0
+   },
+   {
+    "f": "src/ui/espectador-qr.test.ts",
+    "a": 127,
+    "d": 0
+   },
+   {
+    "f": "src/ui/espectador-regla.test.ts",
+    "a": 40,
+    "d": 0
+   },
+   {
+    "f": "src/ui/espectador-regla.ts",
+    "a": 53,
+    "d": 0
+   },
+   {
+    "f": "src/ui/espectador-reloj.ts",
+    "a": 65,
+    "d": 0
+   },
+   {
+    "f": "src/ui/espectador.test.ts",
+    "a": 297,
+    "d": 102
+   },
+   {
+    "f": "src/ui/espectador.ts",
+    "a": 224,
+    "d": 194
+   },
+   {
+    "f": "src/ui/espera.test.ts",
+    "a": 44,
+    "d": 1
+   },
+   {
+    "f": "src/ui/espera.ts",
+    "a": 33,
+    "d": 24
+   },
+   {
+    "f": "src/ui/pantalla.ts",
+    "a": 1,
+    "d": 23
+   },
+   {
+    "f": "src/ui/show-espectador.test.ts",
+    "a": 193,
+    "d": 0
+   }
+  ]
+ },
+ "988bdb020b08bc47576546ea8460810daaac98b2": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "GuidoSV7",
+  "date": "2026-11-14T21:26:02Z",
+  "message": "feat(espectadores): el sorteo se ve en vivo desde un QR, sin servidor nuevo",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/enlace-corto.test.ts",
+    "a": 27,
+    "d": 0
+   },
+   {
+    "f": "src/enlace-corto.ts",
+    "a": 4,
+    "d": 2
+   },
+   {
+    "f": "src/i18n.test.ts",
+    "a": 14,
+    "d": 0
+   },
+   {
+    "f": "src/i18n.ts",
+    "a": 10,
+    "d": 0
+   },
+   {
+    "f": "src/main.test.ts",
+    "a": 11,
+    "d": 0
+   },
+   {
+    "f": "src/main.ts",
+    "a": 9,
+    "d": 0
+   },
+   {
+    "f": "src/styles.css",
+    "a": 18,
+    "d": 0
+   },
+   {
+    "f": "src/ui/espectador.test.ts",
+    "a": 232,
+    "d": 0
+   },
+   {
+    "f": "src/ui/espectador.ts",
+    "a": 293,
+    "d": 0
+   },
+   {
+    "f": "src/ui/espera.test.ts",
+    "a": 31,
+    "d": 1
+   },
+   {
+    "f": "src/ui/espera.ts",
+    "a": 29,
+    "d": 2
+   },
+   {
+    "f": "src/ui/pantalla.ts",
+    "a": 23,
+    "d": 1
+   }
+  ]
  }
 }
