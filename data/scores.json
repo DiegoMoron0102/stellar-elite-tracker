@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-17T01:18:23+00:00",
+ "generado": "2026-11-17T15:11:49+00:00",
  "programa": "Stellar Elite",
  "start_date": "2026-09-02T00:00:00Z",
  "teams": [
@@ -43,11 +43,11 @@
   },
   {
    "name": "Puls3",
-   "total": 1374.19,
-   "per_capita": 1374.19,
-   "commits": 177,
-   "pts_commits": 1206.19,
-   "dias_activos": 30,
+   "total": 1578.08,
+   "per_capita": 1578.08,
+   "commits": 199,
+   "pts_commits": 1405.08,
+   "dias_activos": 31,
    "contribuidores": [
     "Pericena",
     "TOMOKI977",
@@ -327,7 +327,8 @@
    "2026-11-07": 36.93,
    "2026-11-08": 55.6,
    "2026-11-10": 84.91000000000001,
-   "2026-11-16": 103.46000000000001
+   "2026-11-16": 103.46000000000001,
+   "2026-11-17": 198.89
   },
   "Tinkazo": {
    "2026-09-16": 66.21000000000001,
@@ -521,7 +522,8 @@
    "2026-11-07": 4,
    "2026-11-08": 6,
    "2026-11-10": 10,
-   "2026-11-16": 11
+   "2026-11-16": 11,
+   "2026-11-17": 22
   },
   "Tinkazo": {
    "2026-09-16": 8,
@@ -677,6 +679,226 @@
   }
  },
  "commits": [
+  {
+   "sha": "b2c9d75",
+   "team": "Puls3",
+   "repo": "Zer0-Knowledge-Hack/puls3",
+   "author": "TOMOKI977",
+   "date": "2026-11-17T15:10:28Z",
+   "msg": "feat(hire): let the user's live agent pay a hire from the hire sheet (#312) (#342)",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "59854a0",
+   "team": "Puls3",
+   "repo": "Zer0-Knowledge-Hack/puls3",
+   "author": "TOMOKI977",
+   "date": "2026-11-17T14:06:06Z",
+   "msg": "fix: open Studio agents by catalog id and hide unpublished ones from hiring (#341)",
+   "pts": 9.29,
+   "nota": ""
+  },
+  {
+   "sha": "ab7b405",
+   "team": "Puls3",
+   "repo": "Zer0-Knowledge-Hack/puls3",
+   "author": "TOMOKI977",
+   "date": "2026-11-17T13:48:59Z",
+   "msg": "fix(web): make browsers revalidate the app files after every deploy (#340)",
+   "pts": 4.0,
+   "nota": ""
+  },
+  {
+   "sha": "924ae7a",
+   "team": "Puls3",
+   "repo": "Zer0-Knowledge-Hack/puls3",
+   "author": "TOMOKI977",
+   "date": "2026-11-17T13:37:05Z",
+   "msg": "feat(hire): list a wallet's hires in a My hires screen (#338)",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "9a08c5c",
+   "team": "Puls3",
+   "repo": "Zer0-Knowledge-Hack/puls3",
+   "author": "TOMOKI977",
+   "date": "2026-11-17T12:48:13Z",
+   "msg": "feat(studio): let a builder's live agent hire another agent from the web (#332)",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "2a96833",
+   "team": "Puls3",
+   "repo": "Zer0-Knowledge-Hack/puls3",
+   "author": "TOMOKI977",
+   "date": "2026-11-17T12:22:34Z",
+   "msg": "feat(studio): let a builder's live agent hire another agent from the CLI (#329)",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "d0eb326",
+   "team": "Puls3",
+   "repo": "Zer0-Knowledge-Hack/puls3",
+   "author": "TOMOKI977",
+   "date": "2026-11-17T12:09:06Z",
+   "msg": "fix(studio): add the USDC trustline to custodied agent wallets (#328)",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "e759fbf",
+   "team": "Puls3",
+   "repo": "Zer0-Knowledge-Hack/puls3",
+   "author": "TOMOKI977",
+   "date": "2026-11-17T11:51:53Z",
+   "msg": "test(e2e): custody the browser E2E agent and run the journey in Docker (#290) (#303)",
+   "pts": 9.96,
+   "nota": ""
+  },
+  {
+   "sha": "3fd94fd",
+   "team": "Puls3",
+   "repo": "Zer0-Knowledge-Hack/puls3",
+   "author": "moises-cisneros",
+   "date": "2026-11-17T11:44:18Z",
+   "msg": "feat(reputation): store the escrow per hire and trust a list of escrows (#273, item 3) (#310)",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "b5d737c",
+   "team": "Puls3",
+   "repo": "Zer0-Knowledge-Hack/puls3",
+   "author": "TOMOKI977",
+   "date": "2026-11-17T11:33:19Z",
+   "msg": "feat(cli): run an agent locally from its manifest (#311) (#326)",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "31b6402",
+   "team": "Puls3",
+   "repo": "Zer0-Knowledge-Hack/puls3",
+   "author": "TOMOKI977",
+   "date": "2026-11-17T11:28:14Z",
+   "msg": "feat(server): let a custodied agent hire and pay another agent (#312) (#317)",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "a1def58",
+   "team": "Puls3",
+   "repo": "Zer0-Knowledge-Hack/puls3",
+   "author": "moises-cisneros",
+   "date": "2026-11-17T11:12:01Z",
+   "msg": "feat(reputation): ratings survive escrow job archival and an archived escrow is unavailable (#273, items 1-2) (#306)",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "6f26ae9",
+   "team": "Puls3",
+   "repo": "Zer0-Knowledge-Hack/puls3",
+   "author": "Pericena",
+   "date": "2026-11-17T10:57:36Z",
+   "msg": "feat(cli): add hire get, prepare-complete/-reject and studio test-run (#224) (#271)",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "a4a2911",
+   "team": "Puls3",
+   "repo": "Zer0-Knowledge-Hack/puls3",
+   "author": "TOMOKI977",
+   "date": "2026-11-17T10:49:05Z",
+   "msg": "fix(indexer): keep registry events when RPC omits inSuccessfulContractCall (#325)",
+   "pts": 7.48,
+   "nota": ""
+  },
+  {
+   "sha": "2aa5256",
+   "team": "Puls3",
+   "repo": "Zer0-Knowledge-Hack/puls3",
+   "author": "TOMOKI977",
+   "date": "2026-11-17T08:37:57Z",
+   "msg": "ci(deploy): deploy the server to Serverpod Cloud after CI passes on main (#322)",
+   "pts": 7.74,
+   "nota": ""
+  },
+  {
+   "sha": "a495b7a",
+   "team": "Puls3",
+   "repo": "Zer0-Knowledge-Hack/puls3",
+   "author": "TOMOKI977",
+   "date": "2026-11-17T08:33:05Z",
+   "msg": "fix(studio): resume a deploy whose registration is already on chain (#323)",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "f222ffe",
+   "team": "Puls3",
+   "repo": "Zer0-Knowledge-Hack/puls3",
+   "author": "TOMOKI977",
+   "date": "2026-11-17T07:33:57Z",
+   "msg": "fix(studio): give the wallet authorization entry a real expiration ledger (#316)",
+   "pts": 9.25,
+   "nota": ""
+  },
+  {
+   "sha": "21b9252",
+   "team": "Puls3",
+   "repo": "Zer0-Knowledge-Hack/puls3",
+   "author": "moises-cisneros",
+   "date": "2026-11-17T03:23:12Z",
+   "msg": "ci(contracts): run cargo-audit as its own non-gating workflow (#281) (#286)",
+   "pts": 7.29,
+   "nota": ""
+  },
+  {
+   "sha": "4269ec8",
+   "team": "Puls3",
+   "repo": "Zer0-Knowledge-Hack/puls3",
+   "author": "TOMOKI977",
+   "date": "2026-11-17T03:10:56Z",
+   "msg": "fix(test): make the local E2E suites pass on a fresh sandbox (#290) (#294)",
+   "pts": 8.52,
+   "nota": ""
+  },
+  {
+   "sha": "ff152e6",
+   "team": "Puls3",
+   "repo": "Zer0-Knowledge-Hack/puls3",
+   "author": "TOMOKI977",
+   "date": "2026-11-17T02:33:44Z",
+   "msg": "fix(hire): accept agent 0, the registry's first id (#291) (#293)",
+   "pts": 6.13,
+   "nota": ""
+  },
+  {
+   "sha": "a6bb6ac",
+   "team": "Puls3",
+   "repo": "Zer0-Knowledge-Hack/puls3",
+   "author": "Pericena",
+   "date": "2026-11-17T02:24:30Z",
+   "msg": "fix(escrow): change the identity registry only through a timelock (#206) (#289)",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "22a9b3a",
+   "team": "Puls3",
+   "repo": "Zer0-Knowledge-Hack/puls3",
+   "author": "Pericena",
+   "date": "2026-11-17T02:18:04Z",
+   "msg": "fix(hire): look up the hired agent by id, not the whole catalog (#206) (#288)",
+   "pts": 9.23,
+   "nota": ""
+  },
   {
    "sha": "1b5d75d",
    "team": "Puls3",
