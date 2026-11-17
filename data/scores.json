@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-16T14:19:40+00:00",
+ "generado": "2026-11-17T01:18:23+00:00",
  "programa": "Stellar Elite",
  "start_date": "2026-09-02T00:00:00Z",
  "teams": [
@@ -43,11 +43,11 @@
   },
   {
    "name": "Puls3",
-   "total": 1265.73,
-   "per_capita": 1265.73,
-   "commits": 166,
-   "pts_commits": 1102.73,
-   "dias_activos": 29,
+   "total": 1374.19,
+   "per_capita": 1374.19,
+   "commits": 177,
+   "pts_commits": 1206.19,
+   "dias_activos": 30,
    "contribuidores": [
     "Pericena",
     "TOMOKI977",
@@ -326,7 +326,8 @@
    "2026-11-06": 20.0,
    "2026-11-07": 36.93,
    "2026-11-08": 55.6,
-   "2026-11-10": 84.91000000000001
+   "2026-11-10": 84.91000000000001,
+   "2026-11-16": 103.46000000000001
   },
   "Tinkazo": {
    "2026-09-16": 66.21000000000001,
@@ -519,7 +520,8 @@
    "2026-11-06": 2,
    "2026-11-07": 4,
    "2026-11-08": 6,
-   "2026-11-10": 10
+   "2026-11-10": 10,
+   "2026-11-16": 11
   },
   "Tinkazo": {
    "2026-09-16": 8,
@@ -675,6 +677,116 @@
   }
  },
  "commits": [
+  {
+   "sha": "1b5d75d",
+   "team": "Puls3",
+   "repo": "Zer0-Knowledge-Hack/puls3",
+   "author": "Pericena",
+   "date": "2026-11-16T23:13:59Z",
+   "msg": "feat(auth): CLI sessions for programs without the app (#259) (#272)",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "c988542",
+   "team": "Puls3",
+   "repo": "Zer0-Knowledge-Hack/puls3",
+   "author": "moises-cisneros",
+   "date": "2026-11-16T21:36:19Z",
+   "msg": "test(server): add E2E hire relay and feedback suites on the local sandbox (#255) (#280)",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "0d9ddb6",
+   "team": "Puls3",
+   "repo": "Zer0-Knowledge-Hack/puls3",
+   "author": "XxHugheadxX",
+   "date": "2026-11-16T21:28:06Z",
+   "msg": "feat(cli): add the puls3 command with catalog list and get (#224) (#247)",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "dd9412d",
+   "team": "Puls3",
+   "repo": "Zer0-Knowledge-Hack/puls3",
+   "author": "moises-cisneros",
+   "date": "2026-11-16T20:35:12Z",
+   "msg": "fix(app): read typed errors the browser client cannot decode (#282) (#283)",
+   "pts": 8.71,
+   "nota": ""
+  },
+  {
+   "sha": "56b6f94",
+   "team": "Puls3",
+   "repo": "Zer0-Knowledge-Hack/puls3",
+   "author": "fercodes",
+   "date": "2026-11-16T20:15:57Z",
+   "msg": "feat(app): show the rating score after a reload (#242) (#264)",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "a789326",
+   "team": "Puls3",
+   "repo": "Zer0-Knowledge-Hack/puls3",
+   "author": "fercodes",
+   "date": "2026-11-16T19:49:03Z",
+   "msg": "fix(hire): refuse a hire the server cannot deliver (#276) (#279)",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "777be84",
+   "team": "Puls3",
+   "repo": "Zer0-Knowledge-Hack/puls3",
+   "author": "Pericena",
+   "date": "2026-11-16T19:30:54Z",
+   "msg": "feat(reputation): tie each on-chain rating to its paid hire (#239)",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "0113cc6",
+   "team": "Puls3",
+   "repo": "Zer0-Knowledge-Hack/puls3",
+   "author": "fercodes",
+   "date": "2026-11-16T19:09:03Z",
+   "msg": "fix(studio): split credential failures into distinct error codes (#249) (#270)",
+   "pts": 9.71,
+   "nota": ""
+  },
+  {
+   "sha": "0d146ac",
+   "team": "Puls3",
+   "repo": "Zer0-Knowledge-Hack/puls3",
+   "author": "Pericena",
+   "date": "2026-11-16T18:57:52Z",
+   "msg": "ci(contracts): audit Rust dependencies with cargo-audit (#206) (#269)",
+   "pts": 5.58,
+   "nota": ""
+  },
+  {
+   "sha": "6f9575a",
+   "team": "Puls3",
+   "repo": "Zer0-Knowledge-Hack/puls3",
+   "author": "fercodes",
+   "date": "2026-11-16T18:33:53Z",
+   "msg": "fix(server): stop retrying a deterministic submit simulation (#262) (#268)",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "6494120",
+   "team": "Puls3",
+   "repo": "Zer0-Knowledge-Hack/puls3",
+   "author": "fercodes",
+   "date": "2026-11-16T18:27:16Z",
+   "msg": "chore(infra): add Melos workspace scripts (#254) (#258)",
+   "pts": 9.46,
+   "nota": ""
+  },
   {
    "sha": "e9333b1",
    "team": "Tinkazo",
