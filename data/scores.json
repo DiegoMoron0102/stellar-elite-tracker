@@ -1,14 +1,14 @@
 {
- "generado": "2026-11-18T14:49:42+00:00",
+ "generado": "2026-11-18T23:42:52+00:00",
  "programa": "Stellar Elite",
  "start_date": "2026-09-02T00:00:00Z",
  "teams": [
   {
    "name": "Tinkazo",
-   "total": 8184.71,
-   "per_capita": 8184.71,
-   "commits": 1227,
-   "pts_commits": 7953.71,
+   "total": 8348.08,
+   "per_capita": 8348.08,
+   "commits": 1245,
+   "pts_commits": 8117.08,
    "dias_activos": 45,
    "contribuidores": [
     "GuidoSV7",
@@ -43,10 +43,10 @@
   },
   {
    "name": "Puls3",
-   "total": 1599.49,
-   "per_capita": 1599.49,
-   "commits": 201,
-   "pts_commits": 1421.49,
+   "total": 1655.67,
+   "per_capita": 1655.67,
+   "commits": 208,
+   "pts_commits": 1477.67,
    "dias_activos": 32,
    "contribuidores": [
     "Pericena",
@@ -329,7 +329,7 @@
    "2026-11-10": 84.91000000000001,
    "2026-11-16": 103.46000000000001,
    "2026-11-17": 198.89,
-   "2026-11-18": 16.41
+   "2026-11-18": 72.59
   },
   "Tinkazo": {
    "2026-09-16": 66.21000000000001,
@@ -376,7 +376,7 @@
    "2026-11-13": 331.89,
    "2026-11-14": 30.15,
    "2026-11-16": 228.72,
-   "2026-11-18": 56.38000000000001
+   "2026-11-18": 219.75
   },
   "CompraGasolinaBidon": {
    "2026-09-06": 1.0,
@@ -526,7 +526,7 @@
    "2026-11-10": 10,
    "2026-11-16": 11,
    "2026-11-17": 22,
-   "2026-11-18": 2
+   "2026-11-18": 9
   },
   "Tinkazo": {
    "2026-09-16": 8,
@@ -573,7 +573,7 @@
    "2026-11-13": 44,
    "2026-11-14": 4,
    "2026-11-16": 29,
-   "2026-11-18": 8
+   "2026-11-18": 26
   },
   "CompraGasolinaBidon": {
    "2026-09-06": 1,
@@ -683,6 +683,256 @@
   }
  },
  "commits": [
+  {
+   "sha": "d46d4b1",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-18T20:50:00Z",
+   "msg": "La comisión de una campaña, antes de abrir la inscripción",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "5389e02",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-18T19:26:25Z",
+   "msg": "El panel para que una empresa arme su campaña",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "4bef8e9",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-18T19:07:00Z",
+   "msg": "Documentos y términos de la campaña de una empresa",
+   "pts": 9.21,
+   "nota": ""
+  },
+  {
+   "sha": "1d6b201",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-18T18:53:38Z",
+   "msg": "Ajusta un nombre del portero y la prueba de la sala cerrada",
+   "pts": 5.64,
+   "nota": ""
+  },
+  {
+   "sha": "b70b8e3",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-18T18:37:48Z",
+   "msg": "Pagar premio no invita a pagar dos veces",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "97bd6d5",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-18T18:10:50Z",
+   "msg": "El correo a quien gana lleva a recibir el premio",
+   "pts": 7.83,
+   "nota": ""
+  },
+  {
+   "sha": "c9432bb",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-18T17:46:15Z",
+   "msg": "La cuenta de Google paga el premio adentro y carga dólares",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "80d747b",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-18T17:45:31Z",
+   "msg": "El portero ata cada sello a un solo sorteo y cuida los pagos en duda",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "4e751ea",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-18T17:42:49Z",
+   "msg": "La puerta del premio respeta el margen de la ronda",
+   "pts": 9.69,
+   "nota": ""
+  },
+  {
+   "sha": "f991839",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-18T17:36:40Z",
+   "msg": "La lista de la campaña pasa al sorteo y el resultado vuelve a la sala",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "64a6793",
+   "team": "Puls3",
+   "repo": "Zer0-Knowledge-Hack/puls3",
+   "author": "fercodes",
+   "date": "2026-11-18T17:09:16Z",
+   "msg": "docs(sdk): explain how to get a CLI session outside the app (#350) (#354)",
+   "pts": 9.02,
+   "nota": ""
+  },
+  {
+   "sha": "a4f42cf",
+   "team": "Puls3",
+   "repo": "Zer0-Knowledge-Hack/puls3",
+   "author": "moises-cisneros",
+   "date": "2026-11-18T17:07:13Z",
+   "msg": "test(server): make the CLI session argument test independent of line endings (#348) (#352)",
+   "pts": 7.19,
+   "nota": ""
+  },
+  {
+   "sha": "3fe4eb1",
+   "team": "Puls3",
+   "repo": "Zer0-Knowledge-Hack/puls3",
+   "author": "Pericena",
+   "date": "2026-11-18T17:02:34Z",
+   "msg": "fix(escrow): cap max_expiry so a live job cannot archive before its deadline (#206) (#333)",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "1e5cb51",
+   "team": "Puls3",
+   "repo": "Zer0-Knowledge-Hack/puls3",
+   "author": "fercodes",
+   "date": "2026-11-18T17:00:22Z",
+   "msg": "feat(studio): a four-field form for non-technical builders (#319) (#343)",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "6963f0a",
+   "team": "Puls3",
+   "repo": "Zer0-Knowledge-Hack/puls3",
+   "author": "Pericena",
+   "date": "2026-11-18T16:55:44Z",
+   "msg": "docs(audits): land the 2026-10-25 audit as a findings register (#207) (#337)",
+   "pts": 7.44,
+   "nota": ""
+  },
+  {
+   "sha": "a7be22b",
+   "team": "Puls3",
+   "repo": "Zer0-Knowledge-Hack/puls3",
+   "author": "Pericena",
+   "date": "2026-11-18T16:53:42Z",
+   "msg": "docs(cli): complete the puls3 reference and keep it in step with the binary (#225) (#331)",
+   "pts": 8.21,
+   "nota": ""
+  },
+  {
+   "sha": "3f0a25c",
+   "team": "Puls3",
+   "repo": "Zer0-Knowledge-Hack/puls3",
+   "author": "Pericena",
+   "date": "2026-11-18T16:51:08Z",
+   "msg": "ci(contracts): ignore the unused chrono advisory, with its way out (#206) (#335)",
+   "pts": 4.32,
+   "nota": ""
+  },
+  {
+   "sha": "5543850",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-18T16:30:05Z",
+   "msg": "El portero paga premios y retiros y da de alta a quien ganó",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "6305a66",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-18T16:08:41Z",
+   "msg": "El panel de quien organiza una campaña",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "7e171ac",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-18T15:46:30Z",
+   "msg": "La sala de campaña y la página del celular para anotarse",
+   "pts": 1.0,
+   "nota": "import masivo (78 archivos)"
+  },
+  {
+   "sha": "9f93abd",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-18T15:23:31Z",
+   "msg": "El navegador vota solo la transacción que armó la página",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "a0fc91e",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-18T15:14:11Z",
+   "msg": "Pagar el premio y retirar dólares digitales con su costo",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "f725635",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-18T15:02:25Z",
+   "msg": "Quien gana un sorteo de empresa recibe el premio en su cuenta",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "73c7794",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-18T14:21:21Z",
+   "msg": "El paso Dejá tu cuenta lista, con poco texto y a pantalla completa",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "7e0407a",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-18T13:42:26Z",
+   "msg": "El stand pone el QR al frente y aprovecha toda la pantalla",
+   "pts": 10,
+   "nota": ""
+  },
   {
    "sha": "ed3113f",
    "team": "Puls3",

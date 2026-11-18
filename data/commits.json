@@ -176970,5 +176970,2940 @@
     "d": 5
    }
   ]
+ },
+ "64a6793947507b16cf8b39a09499c5b7770c7366": {
+  "team": "Puls3",
+  "repo": "Zer0-Knowledge-Hack/puls3",
+  "author": "fercodes",
+  "date": "2026-11-18T17:09:16Z",
+  "message": "docs(sdk): explain how to get a CLI session outside the app (#350) (#354)",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/sdk/quickstart.md",
+    "a": 3,
+    "d": 3
+   },
+   {
+    "f": "docs/sdk/sessions.md",
+    "a": 253,
+    "d": 0
+   }
+  ]
+ },
+ "a4f42cfe126cdf02e254f9378df8a1cca949a406": {
+  "team": "Puls3",
+  "repo": "Zer0-Knowledge-Hack/puls3",
+  "author": "moises-cisneros",
+  "date": "2026-11-18T17:07:13Z",
+  "message": "test(server): make the CLI session argument test independent of line endings (#348) (#352)",
+  "parents": 1,
+  "files": [
+   {
+    "f": "puls3_server/test/integration/cli_session_test.dart",
+    "a": 42,
+    "d": 30
+   }
+  ]
+ },
+ "3fe4eb1d79e4ba14b65e31d274e33ba507a8608f": {
+  "team": "Puls3",
+  "repo": "Zer0-Knowledge-Hack/puls3",
+  "author": "Pericena",
+  "date": "2026-11-18T17:02:34Z",
+  "message": "fix(escrow): cap max_expiry so a live job cannot archive before its deadline (#206) (#333)",
+  "parents": 1,
+  "files": [
+   {
+    "f": "contracts/contracts/escrow/src/lib.rs",
+    "a": 20,
+    "d": 1
+   },
+   {
+    "f": "contracts/contracts/escrow/src/test.rs",
+    "a": 90,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/a_funded_job_at_the_longest_deadline_is_still_live_to_refund.1.json",
+    "a": 1089,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/constructor_accepts_max_expiry_at_the_ceiling.1.json",
+    "a": 134,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/constructor_rejects_max_expiry_above_the_ceiling.1.json",
+    "a": 37,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/the_admin_cannot_raise_max_expiry_past_the_ceiling.1.json",
+    "a": 775,
+    "d": 0
+   },
+   {
+    "f": "openspec/specs/agent-escrow-administration/spec.md",
+    "a": 2,
+    "d": 1
+   }
+  ]
+ },
+ "1e5cb51f77065481a23a39d698b3d45652d431a2": {
+  "team": "Puls3",
+  "repo": "Zer0-Knowledge-Hack/puls3",
+  "author": "fercodes",
+  "date": "2026-11-18T17:00:22Z",
+  "message": "feat(studio): a four-field form for non-technical builders (#319) (#343)",
+  "parents": 1,
+  "files": [
+   {
+    "f": "puls3_flutter/lib/l10n/app_en.arb",
+    "a": 16,
+    "d": 10
+   },
+   {
+    "f": "puls3_flutter/lib/l10n/app_es.arb",
+    "a": 16,
+    "d": 10
+   },
+   {
+    "f": "puls3_flutter/lib/l10n/app_pt.arb",
+    "a": 16,
+    "d": 10
+   },
+   {
+    "f": "puls3_flutter/lib/l10n/app_pt_BR.arb",
+    "a": 16,
+    "d": 10
+   },
+   {
+    "f": "puls3_flutter/lib/l10n/app_pt_PT.arb",
+    "a": 16,
+    "d": 10
+   },
+   {
+    "f": "puls3_flutter/lib/l10n/generated/app_localizations.dart",
+    "a": 46,
+    "d": 10
+   },
+   {
+    "f": "puls3_flutter/lib/l10n/generated/app_localizations_en.dart",
+    "a": 30,
+    "d": 10
+   },
+   {
+    "f": "puls3_flutter/lib/l10n/generated/app_localizations_es.dart",
+    "a": 30,
+    "d": 10
+   },
+   {
+    "f": "puls3_flutter/lib/l10n/generated/app_localizations_pt.dart",
+    "a": 91,
+    "d": 33
+   },
+   {
+    "f": "puls3_flutter/lib/src/screens/studio_screen.dart",
+    "a": 139,
+    "d": 15
+   },
+   {
+    "f": "puls3_flutter/lib/src/studio/studio_brief.dart",
+    "a": 62,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/lib/src/ui/organisms/agent_form.dart",
+    "a": 197,
+    "d": 127
+   },
+   {
+    "f": "puls3_flutter/test/screens/studio_screen_test.dart",
+    "a": 82,
+    "d": 19
+   },
+   {
+    "f": "puls3_flutter/test/studio/studio_brief_test.dart",
+    "a": 57,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/test/studio/studio_form_check_test.dart",
+    "a": 2,
+    "d": 2
+   }
+  ]
+ },
+ "6963f0a24d3fd09ba05c8178b3cad7a972413737": {
+  "team": "Puls3",
+  "repo": "Zer0-Knowledge-Hack/puls3",
+  "author": "Pericena",
+  "date": "2026-11-18T16:55:44Z",
+  "message": "docs(audits): land the 2026-10-25 audit as a findings register (#207) (#337)",
+  "parents": 1,
+  "files": [
+   {
+    "f": "CONTRIBUTING.md",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "README.md",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "docs/audits/2026-10-25-smart-contract-audit.md",
+    "a": 84,
+    "d": 0
+   }
+  ]
+ },
+ "a7be22b015b76846e39efc17727081a0312c22a8": {
+  "team": "Puls3",
+  "repo": "Zer0-Knowledge-Hack/puls3",
+  "author": "Pericena",
+  "date": "2026-11-18T16:53:42Z",
+  "message": "docs(cli): complete the puls3 reference and keep it in step with the binary (#225) (#331)",
+  "parents": 1,
+  "files": [
+   {
+    "f": "README.md",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "docs/cli/reference.md",
+    "a": 27,
+    "d": 1
+   },
+   {
+    "f": "puls3_cli/test/reference_doc_test.dart",
+    "a": 117,
+    "d": 0
+   }
+  ]
+ },
+ "3f0a25ce8360733444e87debc510557c72a0b967": {
+  "team": "Puls3",
+  "repo": "Zer0-Knowledge-Hack/puls3",
+  "author": "Pericena",
+  "date": "2026-11-18T16:51:08Z",
+  "message": "ci(contracts): ignore the unused chrono advisory, with its way out (#206) (#335)",
+  "parents": 1,
+  "files": [
+   {
+    "f": "contracts/.cargo/audit.toml",
+    "a": 8,
+    "d": 1
+   }
+  ]
+ },
+ "d46d4b1949ade92609017dc7cc58f7da2bf1e721": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-18T20:50:00Z",
+  "message": "La comisión de una campaña, antes de abrir la inscripción",
+  "parents": 1,
+  "files": [
+   {
+    "f": ".env.example",
+    "a": 13,
+    "d": 0
+   },
+   {
+    "f": "docs/operacion.md",
+    "a": 31,
+    "d": 0
+   },
+   {
+    "f": "precios.html",
+    "a": 11,
+    "d": 1
+   },
+   {
+    "f": "scripts/campana-comision.mjs",
+    "a": 364,
+    "d": 0
+   },
+   {
+    "f": "scripts/campana-comision.test.mjs",
+    "a": 317,
+    "d": 0
+   },
+   {
+    "f": "scripts/campana-firmar.mjs",
+    "a": 13,
+    "d": 3
+   },
+   {
+    "f": "src/campana/campana-sala-css.test.ts",
+    "a": 14,
+    "d": 2
+   },
+   {
+    "f": "src/campana/campana-sala.css",
+    "a": 58,
+    "d": 8
+   },
+   {
+    "f": "src/campana/comision-panel.test.ts",
+    "a": 149,
+    "d": 0
+   },
+   {
+    "f": "src/campana/comision-panel.ts",
+    "a": 100,
+    "d": 0
+   },
+   {
+    "f": "src/campana/comision-red.test.ts",
+    "a": 329,
+    "d": 0
+   },
+   {
+    "f": "src/campana/comision-red.ts",
+    "a": 288,
+    "d": 0
+   },
+   {
+    "f": "src/campana/comision.test.ts",
+    "a": 186,
+    "d": 0
+   },
+   {
+    "f": "src/campana/comision.ts",
+    "a": 125,
+    "d": 0
+   },
+   {
+    "f": "src/campana/textos-sala.test.ts",
+    "a": 2,
+    "d": 1
+   },
+   {
+    "f": "src/campana/textos-sala.ts",
+    "a": 60,
+    "d": 0
+   },
+   {
+    "f": "src/comision-texto.test.ts",
+    "a": 246,
+    "d": 0
+   },
+   {
+    "f": "src/comision-texto.ts",
+    "a": 73,
+    "d": 0
+   },
+   {
+    "f": "src/costo-del-retiro-portada.test.ts",
+    "a": 59,
+    "d": 0
+   },
+   {
+    "f": "src/costo-del-retiro-portada.ts",
+    "a": 44,
+    "d": 7
+   },
+   {
+    "f": "src/i18n.ts",
+    "a": 27,
+    "d": 0
+   },
+   {
+    "f": "src/pagina.ts",
+    "a": 3,
+    "d": 0
+   },
+   {
+    "f": "src/sala/campana-firmar.test.ts",
+    "a": 18,
+    "d": 0
+   },
+   {
+    "f": "src/stellar/comision-config.test.ts",
+    "a": 137,
+    "d": 0
+   },
+   {
+    "f": "src/stellar/comision-config.ts",
+    "a": 121,
+    "d": 0
+   },
+   {
+    "f": "src/stellar/pagos-red.ts",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "src/stellar/premios-build-comision.test.ts",
+    "a": 142,
+    "d": 0
+   },
+   {
+    "f": "src/stellar/premios-build.ts",
+    "a": 85,
+    "d": 0
+   },
+   {
+    "f": "src/ui/campana-comision-real.test.ts",
+    "a": 274,
+    "d": 0
+   },
+   {
+    "f": "src/ui/campana-comision-real.ts",
+    "a": 99,
+    "d": 0
+   },
+   {
+    "f": "src/ui/campana-comision.ts",
+    "a": 588,
+    "d": 0
+   },
+   {
+    "f": "src/ui/campana-sala-comision.test.ts",
+    "a": 890,
+    "d": 0
+   },
+   {
+    "f": "src/ui/campana-sala.ts",
+    "a": 212,
+    "d": 25
+   },
+   {
+    "f": "terminos.html",
+    "a": 8,
+    "d": 0
+   },
+   {
+    "f": "vite.config.ts",
+    "a": 44,
+    "d": 2
+   }
+  ]
+ },
+ "5389e024c7d51bbd64bf50159d21077096bb1287": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-18T19:26:25Z",
+  "message": "El panel para que una empresa arme su campaña",
+  "parents": 1,
+  "files": [
+   {
+    "f": "crear-campana.html",
+    "a": 63,
+    "d": 0
+   },
+   {
+    "f": "src/analytics.test.ts",
+    "a": 5,
+    "d": 0
+   },
+   {
+    "f": "src/analytics.ts",
+    "a": 16,
+    "d": 4
+   },
+   {
+    "f": "src/campana/crear-css.test.ts",
+    "a": 209,
+    "d": 0
+   },
+   {
+    "f": "src/campana/crear.css",
+    "a": 394,
+    "d": 0
+   },
+   {
+    "f": "src/campana/crear/armar.test.ts",
+    "a": 540,
+    "d": 0
+   },
+   {
+    "f": "src/campana/crear/armar.ts",
+    "a": 467,
+    "d": 0
+   },
+   {
+    "f": "src/campana/crear/bases.test.ts",
+    "a": 102,
+    "d": 0
+   },
+   {
+    "f": "src/campana/crear/bases.ts",
+    "a": 75,
+    "d": 0
+   },
+   {
+    "f": "src/campana/crear/constantes.ts",
+    "a": 8,
+    "d": 0
+   },
+   {
+    "f": "src/campana/crear/costo.test.ts",
+    "a": 12,
+    "d": 0
+   },
+   {
+    "f": "src/campana/crear/costo.ts",
+    "a": 29,
+    "d": 0
+   },
+   {
+    "f": "src/campana/crear/estado.test.ts",
+    "a": 217,
+    "d": 0
+   },
+   {
+    "f": "src/campana/crear/estado.ts",
+    "a": 431,
+    "d": 0
+   },
+   {
+    "f": "src/campana/crear/horas.test.ts",
+    "a": 150,
+    "d": 0
+   },
+   {
+    "f": "src/campana/crear/horas.ts",
+    "a": 212,
+    "d": 0
+   },
+   {
+    "f": "src/campana/crear/logo.test.ts",
+    "a": 126,
+    "d": 0
+   },
+   {
+    "f": "src/campana/crear/logo.ts",
+    "a": 136,
+    "d": 0
+   },
+   {
+    "f": "src/campana/crear/panel.test.ts",
+    "a": 1000,
+    "d": 0
+   },
+   {
+    "f": "src/campana/crear/panel.ts",
+    "a": 1179,
+    "d": 0
+   },
+   {
+    "f": "src/campana/crear/redes.test.ts",
+    "a": 130,
+    "d": 0
+   },
+   {
+    "f": "src/campana/crear/redes.ts",
+    "a": 105,
+    "d": 0
+   },
+   {
+    "f": "src/campana/modelo.ts",
+    "a": 2,
+    "d": 1
+   },
+   {
+    "f": "src/campana/participar.test.ts",
+    "a": 65,
+    "d": 0
+   },
+   {
+    "f": "src/campana/previa.ts",
+    "a": 2,
+    "d": 10
+   },
+   {
+    "f": "src/campana/sustituir.ts",
+    "a": 12,
+    "d": 0
+   },
+   {
+    "f": "src/campana/textos-crear.test.ts",
+    "a": 148,
+    "d": 0
+   },
+   {
+    "f": "src/campana/textos-crear.ts",
+    "a": 261,
+    "d": 0
+   },
+   {
+    "f": "src/campana/textos-sala.ts",
+    "a": 2,
+    "d": 0
+   },
+   {
+    "f": "src/campana/vista-previa.css",
+    "a": 23,
+    "d": 0
+   },
+   {
+    "f": "src/campana/vista-previa.test.ts",
+    "a": 302,
+    "d": 0
+   },
+   {
+    "f": "src/campana/vista-previa.ts",
+    "a": 140,
+    "d": 0
+   },
+   {
+    "f": "src/campana/vista-protocolo.test.ts",
+    "a": 42,
+    "d": 0
+   },
+   {
+    "f": "src/campana/vista-protocolo.ts",
+    "a": 71,
+    "d": 0
+   },
+   {
+    "f": "src/crear-campana.test.ts",
+    "a": 120,
+    "d": 0
+   },
+   {
+    "f": "src/crear-campana.ts",
+    "a": 122,
+    "d": 0
+   },
+   {
+    "f": "src/i18n-modo-oficial.ts",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "src/i18n.ts",
+    "a": 5,
+    "d": 2
+   },
+   {
+    "f": "src/logo-textos.test.ts",
+    "a": 2,
+    "d": 1
+   },
+   {
+    "f": "src/participar.ts",
+    "a": 35,
+    "d": 0
+   },
+   {
+    "f": "src/seo.test.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/ui/campana-sala.test.ts",
+    "a": 8,
+    "d": 0
+   },
+   {
+    "f": "src/ui/campana-sala.ts",
+    "a": 6,
+    "d": 0
+   },
+   {
+    "f": "src/vercel-marcos.test.ts",
+    "a": 26,
+    "d": 0
+   },
+   {
+    "f": "terminos.html",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "vercel.json",
+    "a": 18,
+    "d": 0
+   },
+   {
+    "f": "vite.config.ts",
+    "a": 1,
+    "d": 0
+   }
+  ]
+ },
+ "4bef8e913dfeaab09c5860341c174bfe69386a22": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-18T19:07:00Z",
+  "message": "Documentos y términos de la campaña de una empresa",
+  "parents": 1,
+  "files": [
+   {
+    "f": ".env.example",
+    "a": 6,
+    "d": 1
+   },
+   {
+    "f": "docs/architecture.md",
+    "a": 11,
+    "d": 1
+   },
+   {
+    "f": "docs/operacion.md",
+    "a": 159,
+    "d": 0
+   },
+   {
+    "f": "docs/ux.md",
+    "a": 38,
+    "d": 1
+   },
+   {
+    "f": "scripts/check-paginas.mjs",
+    "a": 6,
+    "d": 3
+   },
+   {
+    "f": "src/campana/palabras.test.ts",
+    "a": 42,
+    "d": 0
+   },
+   {
+    "f": "src/campana/textos.ts",
+    "a": 18,
+    "d": 0
+   },
+   {
+    "f": "src/stellar/cuenta-config.ts",
+    "a": 3,
+    "d": 2
+   },
+   {
+    "f": "terminos.html",
+    "a": 5,
+    "d": 0
+   }
+  ]
+ },
+ "1d6b201a9964d6ee7b2f5af92599bfea750a8ca3": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-18T18:53:38Z",
+  "message": "Ajusta un nombre del portero y la prueba de la sala cerrada",
+  "parents": 1,
+  "files": [
+   {
+    "f": "scripts/probar-sala.mjs",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/ui/stand-ganadores.test.ts",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "workers/patrocinio/README.md",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "workers/patrocinio/src/pagos-horizon.ts",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "workers/patrocinio/src/pagos-lista.test.ts",
+    "a": 3,
+    "d": 3
+   },
+   {
+    "f": "workers/patrocinio/src/pagos-lista.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "workers/patrocinio/src/pagos-servicio.ts",
+    "a": 2,
+    "d": 2
+   }
+  ]
+ },
+ "b70b8e3bc2d11647536950982a614cc08e57806a": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-18T18:37:48Z",
+  "message": "Pagar premio no invita a pagar dos veces",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/campana/puente.test.ts",
+    "a": 24,
+    "d": 0
+   },
+   {
+    "f": "src/campana/puente.ts",
+    "a": 6,
+    "d": 2
+   },
+   {
+    "f": "src/stellar/pago-portero.test.ts",
+    "a": 24,
+    "d": 2
+   },
+   {
+    "f": "src/stellar/pago-portero.ts",
+    "a": 13,
+    "d": 1
+   },
+   {
+    "f": "src/styles.css",
+    "a": 3,
+    "d": 1
+   },
+   {
+    "f": "src/ui/campana-altas.test.ts",
+    "a": 17,
+    "d": 0
+   },
+   {
+    "f": "src/ui/campana-altas.ts",
+    "a": 4,
+    "d": 2
+   },
+   {
+    "f": "src/ui/dialogo-css.test.ts",
+    "a": 16,
+    "d": 0
+   },
+   {
+    "f": "src/ui/pagar-premio-frenado.test.ts",
+    "a": 360,
+    "d": 0
+   },
+   {
+    "f": "src/ui/pagar-premio.ts",
+    "a": 99,
+    "d": 20
+   },
+   {
+    "f": "src/ui/pagos-textos.ts",
+    "a": 2,
+    "d": 0
+   },
+   {
+    "f": "src/ui/panel-ganadores.ts",
+    "a": 66,
+    "d": 14
+   }
+  ]
+ },
+ "97bd6d51a30579381fe56852184a547256b9edfd": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-18T18:10:50Z",
+  "message": "El correo a quien gana lleva a recibir el premio",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/sala/campana-correo.test.ts",
+    "a": 18,
+    "d": 6
+   },
+   {
+    "f": "src/sala/campana-rechazos.test.ts",
+    "a": 24,
+    "d": 0
+   },
+   {
+    "f": "src/sala/correo.test.ts",
+    "a": 28,
+    "d": 8
+   },
+   {
+    "f": "workers/sala/README.md",
+    "a": 4,
+    "d": 2
+   },
+   {
+    "f": "workers/sala/src/correo.ts",
+    "a": 5,
+    "d": 5
+   },
+   {
+    "f": "workers/sala/src/index.ts",
+    "a": 7,
+    "d": 6
+   }
+  ]
+ },
+ "c9432bbb3fe46c3b3ef1c9e2a9e07f64220c62f2": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-18T17:46:15Z",
+  "message": "La cuenta de Google paga el premio adentro y carga dólares",
+  "parents": 1,
+  "files": [
+   {
+    "f": ".env.example",
+    "a": 5,
+    "d": 0
+   },
+   {
+    "f": "src/i18n.ts",
+    "a": 36,
+    "d": 16
+   },
+   {
+    "f": "src/stellar/cuenta-config.test.ts",
+    "a": 100,
+    "d": 0
+   },
+   {
+    "f": "src/stellar/cuenta-config.ts",
+    "a": 19,
+    "d": 0
+   },
+   {
+    "f": "src/stellar/pago-portero.test.ts",
+    "a": 347,
+    "d": 0
+   },
+   {
+    "f": "src/stellar/pago-portero.ts",
+    "a": 299,
+    "d": 0
+   },
+   {
+    "f": "src/stellar/premios-build.test.ts",
+    "a": 316,
+    "d": 2
+   },
+   {
+    "f": "src/stellar/premios-build.ts",
+    "a": 77,
+    "d": 2
+   },
+   {
+    "f": "src/stellar/wallet-pollar-pago-premio.test.ts",
+    "a": 430,
+    "d": 0
+   },
+   {
+    "f": "src/stellar/wallet-pollar-premio.test.ts",
+    "a": 3,
+    "d": 2
+   },
+   {
+    "f": "src/stellar/wallet-pollar-retiro.test.ts",
+    "a": 562,
+    "d": 0
+   },
+   {
+    "f": "src/stellar/wallet-pollar.ts",
+    "a": 429,
+    "d": 7
+   },
+   {
+    "f": "src/styles.css",
+    "a": 35,
+    "d": 4
+   },
+   {
+    "f": "src/ui/mandar-usdc-retiro.test.ts",
+    "a": 163,
+    "d": 3
+   },
+   {
+    "f": "src/ui/mandar-usdc.test.ts",
+    "a": 47,
+    "d": 1
+   },
+   {
+    "f": "src/ui/mandar-usdc.ts",
+    "a": 57,
+    "d": 7
+   },
+   {
+    "f": "src/ui/pagar-premio-billetera.test.ts",
+    "a": 222,
+    "d": 0
+   },
+   {
+    "f": "src/ui/pagar-premio-google.test.ts",
+    "a": 147,
+    "d": 3
+   },
+   {
+    "f": "src/ui/pagar-premio.ts",
+    "a": 128,
+    "d": 18
+   },
+   {
+    "f": "src/ui/pagos-resultado-destino.test.ts",
+    "a": 96,
+    "d": 0
+   },
+   {
+    "f": "src/ui/pagos-resultado.ts",
+    "a": 16,
+    "d": 1
+   },
+   {
+    "f": "src/ui/pagos-textos.ts",
+    "a": 9,
+    "d": 9
+   },
+   {
+    "f": "src/ui/saldo-premios-cargar.test.ts",
+    "a": 446,
+    "d": 0
+   },
+   {
+    "f": "src/ui/saldo-premios.test.ts",
+    "a": 39,
+    "d": 22
+   },
+   {
+    "f": "src/ui/saldo.ts",
+    "a": 157,
+    "d": 36
+   },
+   {
+    "f": "vite.config.ts",
+    "a": 7,
+    "d": 4
+   }
+  ]
+ },
+ "80d747b1b398471750db9c1157c47536f6133fc7": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-18T17:45:31Z",
+  "message": "El portero ata cada sello a un solo sorteo y cuida los pagos en duda",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/operacion.md",
+    "a": 9,
+    "d": 6
+   },
+   {
+    "f": "workers/patrocinio/README.md",
+    "a": 13,
+    "d": 11
+   },
+   {
+    "f": "workers/patrocinio/src/altas-premio.test.ts",
+    "a": 71,
+    "d": 9
+   },
+   {
+    "f": "workers/patrocinio/src/altas-premio.ts",
+    "a": 35,
+    "d": 14
+   },
+   {
+    "f": "workers/patrocinio/src/cupos.ts",
+    "a": 83,
+    "d": 0
+   },
+   {
+    "f": "workers/patrocinio/src/derechos.test.ts",
+    "a": 78,
+    "d": 0
+   },
+   {
+    "f": "workers/patrocinio/src/pagos-servicio.test.ts",
+    "a": 289,
+    "d": 10
+   },
+   {
+    "f": "workers/patrocinio/src/pagos-servicio.ts",
+    "a": 207,
+    "d": 26
+   },
+   {
+    "f": "workers/patrocinio/src/pagos-uso.test.ts",
+    "a": 171,
+    "d": 5
+   },
+   {
+    "f": "workers/patrocinio/src/pagos-uso.ts",
+    "a": 142,
+    "d": 12
+   },
+   {
+    "f": "workers/patrocinio/src/rutas-altas.test.ts",
+    "a": 145,
+    "d": 14
+   },
+   {
+    "f": "workers/patrocinio/src/rutas-altas.ts",
+    "a": 123,
+    "d": 26
+   },
+   {
+    "f": "workers/patrocinio/src/servicio.ts",
+    "a": 21,
+    "d": 0
+   },
+   {
+    "f": "workers/patrocinio/src/sorteadora.test.ts",
+    "a": 28,
+    "d": 0
+   }
+  ]
+ },
+ "4e751ea41c4ec20c20da354995bcd6e2c2e26655": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-18T17:42:49Z",
+  "message": "La puerta del premio respeta el margen de la ronda",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/campana/participar.test.ts",
+    "a": 37,
+    "d": 1
+   },
+   {
+    "f": "src/campana/previa.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/sala/campana-cupos.test.ts",
+    "a": 39,
+    "d": 0
+   },
+   {
+    "f": "src/sala/campana-org.test.ts",
+    "a": 25,
+    "d": 0
+   },
+   {
+    "f": "src/sala/campana-org.ts",
+    "a": 61,
+    "d": 0
+   },
+   {
+    "f": "src/stellar/patrocinador.ts",
+    "a": 6,
+    "d": 3
+   },
+   {
+    "f": "src/stellar/premios-build.test.ts",
+    "a": 12,
+    "d": 3
+   },
+   {
+    "f": "src/stellar/premios-build.ts",
+    "a": 16,
+    "d": 5
+   },
+   {
+    "f": "src/stellar/wallet-pollar-premio.test.ts",
+    "a": 24,
+    "d": 0
+   },
+   {
+    "f": "src/stellar/wallet-pollar.ts",
+    "a": 14,
+    "d": 5
+   },
+   {
+    "f": "src/ui/anchor.ts",
+    "a": 5,
+    "d": 0
+   },
+   {
+    "f": "src/ui/campana-sala.test.ts",
+    "a": 23,
+    "d": 2
+   },
+   {
+    "f": "src/ui/campana-sala.ts",
+    "a": 7,
+    "d": 1
+   },
+   {
+    "f": "src/ui/envio-premio.test.ts",
+    "a": 20,
+    "d": 1
+   },
+   {
+    "f": "src/ui/envio-sdk.ts",
+    "a": 5,
+    "d": 2
+   },
+   {
+    "f": "src/ui/freeze-premio.test.ts",
+    "a": 26,
+    "d": 0
+   },
+   {
+    "f": "src/ui/freeze.ts",
+    "a": 11,
+    "d": 2
+   },
+   {
+    "f": "workers/sala/src/campana.ts",
+    "a": 38,
+    "d": 15
+   }
+  ]
+ },
+ "f991839ad304f29af899a392738df782804ce461": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-18T17:36:40Z",
+  "message": "La lista de la campaña pasa al sorteo y el resultado vuelve a la sala",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/campana/campana-sala-css.test.ts",
+    "a": 9,
+    "d": 2
+   },
+   {
+    "f": "src/campana/campana-sala.css",
+    "a": 5,
+    "d": 2
+   },
+   {
+    "f": "src/campana/cuentas-de-prueba.ts",
+    "a": 9,
+    "d": 0
+   },
+   {
+    "f": "src/campana/en-curso.test.ts",
+    "a": 302,
+    "d": 0
+   },
+   {
+    "f": "src/campana/en-curso.ts",
+    "a": 240,
+    "d": 0
+   },
+   {
+    "f": "src/campana/formato.ts",
+    "a": 11,
+    "d": 0
+   },
+   {
+    "f": "src/campana/lista.test.ts",
+    "a": 110,
+    "d": 0
+   },
+   {
+    "f": "src/campana/lista.ts",
+    "a": 51,
+    "d": 0
+   },
+   {
+    "f": "src/campana/puente.ts",
+    "a": 194,
+    "d": 0
+   },
+   {
+    "f": "src/campana/textos-sala.ts",
+    "a": 64,
+    "d": 2
+   },
+   {
+    "f": "src/sala/campana-org-puente.test.ts",
+    "a": 243,
+    "d": 0
+   },
+   {
+    "f": "src/sala/campana-org.ts",
+    "a": 205,
+    "d": 4
+   },
+   {
+    "f": "src/state.ts",
+    "a": 7,
+    "d": 0
+   },
+   {
+    "f": "src/stellar/alta-api.ts",
+    "a": 93,
+    "d": 0
+   },
+   {
+    "f": "src/stellar/alta-premio.test.ts",
+    "a": 140,
+    "d": 0
+   },
+   {
+    "f": "src/ui/campana-altas.test.ts",
+    "a": 263,
+    "d": 0
+   },
+   {
+    "f": "src/ui/campana-altas.ts",
+    "a": 152,
+    "d": 0
+   },
+   {
+    "f": "src/ui/campana-arranque-puente.test.ts",
+    "a": 103,
+    "d": 0
+   },
+   {
+    "f": "src/ui/campana-arranque.ts",
+    "a": 12,
+    "d": 3
+   },
+   {
+    "f": "src/ui/campana-draw-texto.test.ts",
+    "a": 59,
+    "d": 0
+   },
+   {
+    "f": "src/ui/campana-ganadores.test.ts",
+    "a": 61,
+    "d": 0
+   },
+   {
+    "f": "src/ui/campana-pasar-real.ts",
+    "a": 123,
+    "d": 0
+   },
+   {
+    "f": "src/ui/campana-pasar.test.ts",
+    "a": 411,
+    "d": 0
+   },
+   {
+    "f": "src/ui/campana-pasar.ts",
+    "a": 257,
+    "d": 0
+   },
+   {
+    "f": "src/ui/campana-resultado-mundo.ts",
+    "a": 212,
+    "d": 0
+   },
+   {
+    "f": "src/ui/campana-resultado-real.ts",
+    "a": 234,
+    "d": 0
+   },
+   {
+    "f": "src/ui/campana-resultado-revision.test.ts",
+    "a": 189,
+    "d": 0
+   },
+   {
+    "f": "src/ui/campana-resultado.test.ts",
+    "a": 660,
+    "d": 0
+   },
+   {
+    "f": "src/ui/campana-resultado.ts",
+    "a": 612,
+    "d": 0
+   },
+   {
+    "f": "src/ui/campana-sala-puente.test.ts",
+    "a": 370,
+    "d": 0
+   },
+   {
+    "f": "src/ui/campana-sala.test.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/ui/campana-sala.ts",
+    "a": 174,
+    "d": 15
+   },
+   {
+    "f": "src/ui/campana-sello-por-confirmar.test.ts",
+    "a": 51,
+    "d": 0
+   },
+   {
+    "f": "src/ui/campana-soltar.test.ts",
+    "a": 76,
+    "d": 0
+   },
+   {
+    "f": "src/ui/draw.ts",
+    "a": 7,
+    "d": 1
+   },
+   {
+    "f": "src/ui/freeze-campana.test.ts",
+    "a": 400,
+    "d": 0
+   },
+   {
+    "f": "src/ui/freeze.ts",
+    "a": 73,
+    "d": 6
+   },
+   {
+    "f": "src/ui/ganadores.ts",
+    "a": 16,
+    "d": 2
+   }
+  ]
+ },
+ "554385091920d9bdd8964897427c47bd1399341a": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-18T16:30:05Z",
+  "message": "El portero paga premios y retiros y da de alta a quien ganó",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/operacion.md",
+    "a": 92,
+    "d": 6
+   },
+   {
+    "f": "workers/patrocinio/README.md",
+    "a": 111,
+    "d": 2
+   },
+   {
+    "f": "workers/patrocinio/src/admin.test.ts",
+    "a": 180,
+    "d": 0
+   },
+   {
+    "f": "workers/patrocinio/src/admin.ts",
+    "a": 80,
+    "d": 2
+   },
+   {
+    "f": "workers/patrocinio/src/altas-premio.test.ts",
+    "a": 252,
+    "d": 0
+   },
+   {
+    "f": "workers/patrocinio/src/altas-premio.ts",
+    "a": 249,
+    "d": 0
+   },
+   {
+    "f": "workers/patrocinio/src/armar-pago.ts",
+    "a": 177,
+    "d": 0
+   },
+   {
+    "f": "workers/patrocinio/src/arranque-datos-viejos.test.ts",
+    "a": 60,
+    "d": 0
+   },
+   {
+    "f": "workers/patrocinio/src/cobros-admin.test.ts",
+    "a": 71,
+    "d": 4
+   },
+   {
+    "f": "workers/patrocinio/src/cobros-prueba.ts",
+    "a": 13,
+    "d": 1
+   },
+   {
+    "f": "workers/patrocinio/src/cobros.test.ts",
+    "a": 335,
+    "d": 2
+   },
+   {
+    "f": "workers/patrocinio/src/cobros.ts",
+    "a": 134,
+    "d": 10
+   },
+   {
+    "f": "workers/patrocinio/src/config.test.ts",
+    "a": 200,
+    "d": 0
+   },
+   {
+    "f": "workers/patrocinio/src/config.ts",
+    "a": 127,
+    "d": 1
+   },
+   {
+    "f": "workers/patrocinio/src/cupos.ts",
+    "a": 8,
+    "d": 5
+   },
+   {
+    "f": "workers/patrocinio/src/index.test.ts",
+    "a": 481,
+    "d": 0
+   },
+   {
+    "f": "workers/patrocinio/src/index.ts",
+    "a": 235,
+    "d": 12
+   },
+   {
+    "f": "workers/patrocinio/src/libro.test.ts",
+    "a": 31,
+    "d": 1
+   },
+   {
+    "f": "workers/patrocinio/src/lista-blanca.ts",
+    "a": 5,
+    "d": 1
+   },
+   {
+    "f": "workers/patrocinio/src/pagos-horizon.test.ts",
+    "a": 406,
+    "d": 0
+   },
+   {
+    "f": "workers/patrocinio/src/pagos-horizon.ts",
+    "a": 315,
+    "d": 0
+   },
+   {
+    "f": "workers/patrocinio/src/pagos-lista.test.ts",
+    "a": 508,
+    "d": 0
+   },
+   {
+    "f": "workers/patrocinio/src/pagos-lista.ts",
+    "a": 471,
+    "d": 0
+   },
+   {
+    "f": "workers/patrocinio/src/pagos-ruta.test.ts",
+    "a": 167,
+    "d": 0
+   },
+   {
+    "f": "workers/patrocinio/src/pagos-ruta.ts",
+    "a": 82,
+    "d": 0
+   },
+   {
+    "f": "workers/patrocinio/src/pagos-servicio.test.ts",
+    "a": 1152,
+    "d": 0
+   },
+   {
+    "f": "workers/patrocinio/src/pagos-servicio.ts",
+    "a": 832,
+    "d": 0
+   },
+   {
+    "f": "workers/patrocinio/src/pagos-uso.test.ts",
+    "a": 954,
+    "d": 0
+   },
+   {
+    "f": "workers/patrocinio/src/pagos-uso.ts",
+    "a": 659,
+    "d": 0
+   },
+   {
+    "f": "workers/patrocinio/src/rutas-altas.test.ts",
+    "a": 544,
+    "d": 1
+   },
+   {
+    "f": "workers/patrocinio/src/rutas-altas.ts",
+    "a": 198,
+    "d": 5
+   },
+   {
+    "f": "workers/patrocinio/src/servicio.ts",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "workers/patrocinio/src/sqlite-prueba.ts",
+    "a": 15,
+    "d": 0
+   },
+   {
+    "f": "workers/patrocinio/wrangler.toml",
+    "a": 18,
+    "d": 0
+   }
+  ]
+ },
+ "6305a66a517d7b1b27ebc43cc79a9dbaa099cc5f": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-18T16:08:41Z",
+  "message": "El panel de quien organiza una campaña",
+  "parents": 1,
+  "files": [
+   {
+    "f": "scripts/audit-flujo.mjs",
+    "a": 3,
+    "d": 1
+   },
+   {
+    "f": "src/campana/adentro.test.ts",
+    "a": 79,
+    "d": 2
+   },
+   {
+    "f": "src/campana/adentro.ts",
+    "a": 31,
+    "d": 5
+   },
+   {
+    "f": "src/campana/campana-css.test.ts",
+    "a": 11,
+    "d": 0
+   },
+   {
+    "f": "src/campana/campana-sala-css.test.ts",
+    "a": 167,
+    "d": 0
+   },
+   {
+    "f": "src/campana/campana-sala.css",
+    "a": 179,
+    "d": 0
+   },
+   {
+    "f": "src/campana/campana.css",
+    "a": 17,
+    "d": 3
+   },
+   {
+    "f": "src/campana/celular.test.ts",
+    "a": 37,
+    "d": 3
+   },
+   {
+    "f": "src/campana/celular.ts",
+    "a": 21,
+    "d": 1
+   },
+   {
+    "f": "src/campana/conectar.test.ts",
+    "a": 57,
+    "d": 29
+   },
+   {
+    "f": "src/campana/conectar.ts",
+    "a": 13,
+    "d": 22
+   },
+   {
+    "f": "src/campana/demostracion.ts",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "src/campana/previa.test.ts",
+    "a": 33,
+    "d": 1
+   },
+   {
+    "f": "src/campana/previa.ts",
+    "a": 9,
+    "d": 3
+   },
+   {
+    "f": "src/campana/sesion.test.ts",
+    "a": 98,
+    "d": 2
+   },
+   {
+    "f": "src/campana/sesion.ts",
+    "a": 32,
+    "d": 7
+   },
+   {
+    "f": "src/campana/textos-sala.test.ts",
+    "a": 72,
+    "d": 0
+   },
+   {
+    "f": "src/campana/textos-sala.ts",
+    "a": 161,
+    "d": 0
+   },
+   {
+    "f": "src/campana/textos.ts",
+    "a": 6,
+    "d": 2
+   },
+   {
+    "f": "src/participar.ts",
+    "a": 5,
+    "d": 1
+   },
+   {
+    "f": "src/sala/campana-cliente-sala.test.ts",
+    "a": 14,
+    "d": 2
+   },
+   {
+    "f": "src/sala/campana-cliente.test.ts",
+    "a": 17,
+    "d": 2
+   },
+   {
+    "f": "src/sala/campana-creacion.test.ts",
+    "a": 102,
+    "d": 0
+   },
+   {
+    "f": "src/sala/campana-org.test.ts",
+    "a": 325,
+    "d": 0
+   },
+   {
+    "f": "src/sala/campana-org.ts",
+    "a": 360,
+    "d": 0
+   },
+   {
+    "f": "src/sala/campana-rechazos.test.ts",
+    "a": 11,
+    "d": 0
+   },
+   {
+    "f": "src/sala/campana.ts",
+    "a": 3,
+    "d": 2
+   },
+   {
+    "f": "src/stellar/wallet-pollar.ts",
+    "a": 11,
+    "d": 1
+   },
+   {
+    "f": "src/ui/campana-grande.test.ts",
+    "a": 49,
+    "d": 0
+   },
+   {
+    "f": "src/ui/campana-grande.ts",
+    "a": 253,
+    "d": 0
+   },
+   {
+    "f": "src/ui/campana-sala-mundo.ts",
+    "a": 393,
+    "d": 0
+   },
+   {
+    "f": "src/ui/campana-sala.test.ts",
+    "a": 1204,
+    "d": 0
+   },
+   {
+    "f": "src/ui/campana-sala.ts",
+    "a": 1435,
+    "d": 0
+   },
+   {
+    "f": "src/ui/premio-camino.test.ts",
+    "a": 117,
+    "d": 0
+   },
+   {
+    "f": "workers/sala/src/campana.ts",
+    "a": 14,
+    "d": 0
+   },
+   {
+    "f": "workers/sala/src/creacion.ts",
+    "a": 15,
+    "d": 2
+   },
+   {
+    "f": "workers/sala/src/index.ts",
+    "a": 21,
+    "d": 7
+   }
+  ]
+ },
+ "7e171acc99486a22200d5a869128bf3560f0a412": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-18T15:46:30Z",
+  "message": "La sala de campaña y la página del celular para anotarse",
+  "parents": 1,
+  "files": [
+   {
+    "f": "participar.html",
+    "a": 6,
+    "d": 16
+   },
+   {
+    "f": "scripts/campana-firmar.mjs",
+    "a": 201,
+    "d": 0
+   },
+   {
+    "f": "src/campana/adentro.test.ts",
+    "a": 152,
+    "d": 0
+   },
+   {
+    "f": "src/campana/adentro.ts",
+    "a": 356,
+    "d": 0
+   },
+   {
+    "f": "src/campana/campana-css.test.ts",
+    "a": 127,
+    "d": 0
+   },
+   {
+    "f": "src/campana/campana.css",
+    "a": 927,
+    "d": 103
+   },
+   {
+    "f": "src/campana/carga.test.ts",
+    "a": 37,
+    "d": 6
+   },
+   {
+    "f": "src/campana/carga.ts",
+    "a": 18,
+    "d": 5
+   },
+   {
+    "f": "src/campana/celular.test.ts",
+    "a": 702,
+    "d": 0
+   },
+   {
+    "f": "src/campana/celular.ts",
+    "a": 657,
+    "d": 0
+   },
+   {
+    "f": "src/campana/claves-de-la-pagina.test.ts",
+    "a": 54,
+    "d": 0
+   },
+   {
+    "f": "src/campana/conectar.test.ts",
+    "a": 554,
+    "d": 0
+   },
+   {
+    "f": "src/campana/conectar.ts",
+    "a": 258,
+    "d": 0
+   },
+   {
+    "f": "src/campana/demostracion.ts",
+    "a": 83,
+    "d": 0
+   },
+   {
+    "f": "src/campana/ejemplo.ts",
+    "a": 10,
+    "d": 16
+   },
+   {
+    "f": "src/campana/enlace.test.ts",
+    "a": 26,
+    "d": 2
+   },
+   {
+    "f": "src/campana/enlace.ts",
+    "a": 14,
+    "d": 4
+   },
+   {
+    "f": "src/campana/festejo.test.ts",
+    "a": 75,
+    "d": 0
+   },
+   {
+    "f": "src/campana/festejo.ts",
+    "a": 71,
+    "d": 0
+   },
+   {
+    "f": "src/campana/formato.test.ts",
+    "a": 3,
+    "d": 3
+   },
+   {
+    "f": "src/campana/memoria.test.ts",
+    "a": 90,
+    "d": 0
+   },
+   {
+    "f": "src/campana/memoria.ts",
+    "a": 84,
+    "d": 0
+   },
+   {
+    "f": "src/campana/modelo.test.ts",
+    "a": 22,
+    "d": 1
+   },
+   {
+    "f": "src/campana/palabras.test.ts",
+    "a": 80,
+    "d": 0
+   },
+   {
+    "f": "src/campana/participar.test.ts",
+    "a": 363,
+    "d": 115
+   },
+   {
+    "f": "src/campana/piezas.ts",
+    "a": 133,
+    "d": 0
+   },
+   {
+    "f": "src/campana/previa.test.ts",
+    "a": 196,
+    "d": 463
+   },
+   {
+    "f": "src/campana/previa.ts",
+    "a": 214,
+    "d": 296
+   },
+   {
+    "f": "src/campana/sesion.test.ts",
+    "a": 446,
+    "d": 0
+   },
+   {
+    "f": "src/campana/sesion.ts",
+    "a": 230,
+    "d": 0
+   },
+   {
+    "f": "src/campana/textos.ts",
+    "a": 169,
+    "d": 41
+   },
+   {
+    "f": "src/navegador.test.ts",
+    "a": 5,
+    "d": 0
+   },
+   {
+    "f": "src/navegador.ts",
+    "a": 7,
+    "d": 4
+   },
+   {
+    "f": "src/participar.test.ts",
+    "a": 30,
+    "d": 0
+   },
+   {
+    "f": "src/participar.ts",
+    "a": 141,
+    "d": 72
+   },
+   {
+    "f": "src/sala/cadena.test.ts",
+    "a": 117,
+    "d": 0
+   },
+   {
+    "f": "src/sala/campana-alta.test.ts",
+    "a": 193,
+    "d": 0
+   },
+   {
+    "f": "src/sala/campana-cliente-sala.test.ts",
+    "a": 205,
+    "d": 0
+   },
+   {
+    "f": "src/sala/campana-cliente.test.ts",
+    "a": 440,
+    "d": 0
+   },
+   {
+    "f": "src/sala/campana-correo.test.ts",
+    "a": 442,
+    "d": 0
+   },
+   {
+    "f": "src/sala/campana-cupos.test.ts",
+    "a": 161,
+    "d": 0
+   },
+   {
+    "f": "src/sala/campana-evento.test.ts",
+    "a": 188,
+    "d": 0
+   },
+   {
+    "f": "src/sala/campana-fichas.test.ts",
+    "a": 277,
+    "d": 0
+   },
+   {
+    "f": "src/sala/campana-firmada.test.ts",
+    "a": 219,
+    "d": 0
+   },
+   {
+    "f": "src/sala/campana-firmar.test.ts",
+    "a": 245,
+    "d": 0
+   },
+   {
+    "f": "src/sala/campana-google.test.ts",
+    "a": 153,
+    "d": 0
+   },
+   {
+    "f": "src/sala/campana-heredadas.test.ts",
+    "a": 193,
+    "d": 0
+   },
+   {
+    "f": "src/sala/campana-llave-prueba.test.ts",
+    "a": 155,
+    "d": 0
+   },
+   {
+    "f": "src/sala/campana-quitar.test.ts",
+    "a": 201,
+    "d": 0
+   },
+   {
+    "f": "src/sala/campana-rechazos.test.ts",
+    "a": 177,
+    "d": 0
+   },
+   {
+    "f": "src/sala/campana-reingreso.test.ts",
+    "a": 144,
+    "d": 0
+   },
+   {
+    "f": "src/sala/campana-sellar.test.ts",
+    "a": 292,
+    "d": 0
+   },
+   {
+    "f": "src/sala/campana-una-persona.test.ts",
+    "a": 110,
+    "d": 0
+   },
+   {
+    "f": "src/sala/campana.ts",
+    "a": 318,
+    "d": 0
+   },
+   {
+    "f": "src/sala/cloudflare-falso.ts",
+    "a": 12,
+    "d": 0
+   },
+   {
+    "f": "src/sala/correo.test.ts",
+    "a": 593,
+    "d": 0
+   },
+   {
+    "f": "src/sala/fetch-falso.ts",
+    "a": 46,
+    "d": 0
+   },
+   {
+    "f": "src/sala/mundo-sala.ts",
+    "a": 299,
+    "d": 0
+   },
+   {
+    "f": "src/sala/pagina.test.ts",
+    "a": 30,
+    "d": 1
+   },
+   {
+    "f": "src/sala/sala.test.ts",
+    "a": 45,
+    "d": 9
+   },
+   {
+    "f": "src/sala/topes-equipos.test.ts",
+    "a": 103,
+    "d": 0
+   },
+   {
+    "f": "src/sala/validar-campana.ts",
+    "a": 27,
+    "d": 0
+   },
+   {
+    "f": "src/ui/cuenta-lista-flujo.test.ts",
+    "a": 19,
+    "d": 10
+   },
+   {
+    "f": "src/ui/draw-cuenta-lista.test.ts",
+    "a": 23,
+    "d": 15
+   },
+   {
+    "f": "src/ui/freeze-cuenta-lista.test.ts",
+    "a": 21,
+    "d": 9
+   },
+   {
+    "f": "workers/patrocinio/src/pollar.test.ts",
+    "a": 40,
+    "d": 2
+   },
+   {
+    "f": "workers/patrocinio/src/pollar.ts",
+    "a": 25,
+    "d": 2
+   },
+   {
+    "f": "workers/sala/README.md",
+    "a": 230,
+    "d": 5
+   },
+   {
+    "f": "workers/sala/probar.mjs",
+    "a": 119,
+    "d": 5
+   },
+   {
+    "f": "workers/sala/src/cadena.ts",
+    "a": 188,
+    "d": 0
+   },
+   {
+    "f": "workers/sala/src/campana.ts",
+    "a": 949,
+    "d": 0
+   },
+   {
+    "f": "workers/sala/src/correo.ts",
+    "a": 468,
+    "d": 0
+   },
+   {
+    "f": "workers/sala/src/creacion.ts",
+    "a": 79,
+    "d": 0
+   },
+   {
+    "f": "workers/sala/src/firma.ts",
+    "a": 90,
+    "d": 0
+   },
+   {
+    "f": "workers/sala/src/index.ts",
+    "a": 849,
+    "d": 10
+   },
+   {
+    "f": "workers/sala/src/logica.ts",
+    "a": 7,
+    "d": 3
+   },
+   {
+    "f": "workers/sala/src/pagina.ts",
+    "a": 41,
+    "d": 9
+   },
+   {
+    "f": "workers/sala/wrangler.toml",
+    "a": 21,
+    "d": 0
+   }
+  ]
+ },
+ "9f93abdc7c41c6123ff434349d51e96de57fc237": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-18T15:23:31Z",
+  "message": "El navegador vota solo la transacción que armó la página",
+  "parents": 1,
+  "files": [
+   {
+    "f": ".env.example",
+    "a": 4,
+    "d": 0
+   },
+   {
+    "f": "src/i18n.ts",
+    "a": 10,
+    "d": 0
+   },
+   {
+    "f": "src/stellar/cofirma-regla.test.ts",
+    "a": 1192,
+    "d": 0
+   },
+   {
+    "f": "src/stellar/cofirma-regla.ts",
+    "a": 759,
+    "d": 0
+   },
+   {
+    "f": "src/stellar/cuenta-config.test.ts",
+    "a": 109,
+    "d": 1
+   },
+   {
+    "f": "src/stellar/cuenta-config.ts",
+    "a": 29,
+    "d": 0
+   },
+   {
+    "f": "src/stellar/errores.test.ts",
+    "a": 31,
+    "d": 0
+   },
+   {
+    "f": "src/stellar/errores.ts",
+    "a": 9,
+    "d": 1
+   },
+   {
+    "f": "src/stellar/pollar-falso.ts",
+    "a": 16,
+    "d": 3
+   },
+   {
+    "f": "src/stellar/pollar-kit.test.ts",
+    "a": 32,
+    "d": 1
+   },
+   {
+    "f": "src/stellar/premios-build.test.ts",
+    "a": 117,
+    "d": 4
+   },
+   {
+    "f": "src/stellar/premios-build.ts",
+    "a": 52,
+    "d": 1
+   },
+   {
+    "f": "src/stellar/wallet-pollar-carga.test.ts",
+    "a": 9,
+    "d": 2
+   },
+   {
+    "f": "src/stellar/wallet-pollar-firma.test.ts",
+    "a": 6,
+    "d": 0
+   },
+   {
+    "f": "src/stellar/wallet-pollar-pago.test.ts",
+    "a": 2,
+    "d": 0
+   },
+   {
+    "f": "src/stellar/wallet-pollar-premio.test.ts",
+    "a": 77,
+    "d": 13
+   },
+   {
+    "f": "src/stellar/wallet-pollar-testigo.test.ts",
+    "a": 247,
+    "d": 23
+   },
+   {
+    "f": "src/stellar/wallet-pollar-voto.test.ts",
+    "a": 1176,
+    "d": 0
+   },
+   {
+    "f": "src/stellar/wallet-pollar.ts",
+    "a": 672,
+    "d": 78
+   },
+   {
+    "f": "src/ui/anchor.test.ts",
+    "a": 68,
+    "d": 0
+   },
+   {
+    "f": "src/ui/anchor.ts",
+    "a": 7,
+    "d": 1
+   },
+   {
+    "f": "src/ui/compra-motor.test.ts",
+    "a": 28,
+    "d": 1
+   },
+   {
+    "f": "src/ui/compra-motor.ts",
+    "a": 2,
+    "d": 0
+   },
+   {
+    "f": "src/ui/envio-sdk.ts",
+    "a": 34,
+    "d": 2
+   },
+   {
+    "f": "src/ui/envio-voto.test.ts",
+    "a": 177,
+    "d": 0
+   },
+   {
+    "f": "src/ui/freeze-cuenta-lista.test.ts",
+    "a": 3,
+    "d": 0
+   },
+   {
+    "f": "src/ui/freeze-premio.test.ts",
+    "a": 20,
+    "d": 3
+   },
+   {
+    "f": "src/ui/freeze-sin-sorteos.test.ts",
+    "a": 2,
+    "d": 0
+   },
+   {
+    "f": "src/ui/freeze.ts",
+    "a": 9,
+    "d": 8
+   },
+   {
+    "f": "src/ui/saldo-premios.test.ts",
+    "a": 8,
+    "d": 0
+   },
+   {
+    "f": "src/ui/saldo.test.ts",
+    "a": 28,
+    "d": 0
+   },
+   {
+    "f": "src/ui/saldo.ts",
+    "a": 12,
+    "d": 1
+   },
+   {
+    "f": "vite.config.ts",
+    "a": 7,
+    "d": 3
+   },
+   {
+    "f": "workers/enlaces/src/conteo.ts",
+    "a": 2,
+    "d": 0
+   }
+  ]
+ },
+ "a0fc91e3522aa7908677c5bb31c959ae36e0c0b8": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-18T15:14:11Z",
+  "message": "Pagar el premio y retirar dólares digitales con su costo",
+  "parents": 1,
+  "files": [
+   {
+    "f": ".env.example",
+    "a": 11,
+    "d": 0
+   },
+   {
+    "f": "precios.html",
+    "a": 11,
+    "d": 1
+   },
+   {
+    "f": "src/costo-del-retiro-portada.test.ts",
+    "a": 204,
+    "d": 0
+   },
+   {
+    "f": "src/costo-del-retiro-portada.ts",
+    "a": 73,
+    "d": 0
+   },
+   {
+    "f": "src/costo-del-retiro.test.ts",
+    "a": 288,
+    "d": 0
+   },
+   {
+    "f": "src/costo-del-retiro.ts",
+    "a": 62,
+    "d": 0
+   },
+   {
+    "f": "src/i18n.ts",
+    "a": 51,
+    "d": 4
+   },
+   {
+    "f": "src/pagina.ts",
+    "a": 4,
+    "d": 0
+   },
+   {
+    "f": "src/precios.test.ts",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "src/stellar/direccion-g.ts",
+    "a": 42,
+    "d": 0
+   },
+   {
+    "f": "src/stellar/pagos-regla.test.ts",
+    "a": 738,
+    "d": 0
+   },
+   {
+    "f": "src/stellar/pagos-regla.ts",
+    "a": 379,
+    "d": 0
+   },
+   {
+    "f": "src/stellar/pagos.ts",
+    "a": 3,
+    "d": 34
+   },
+   {
+    "f": "src/stellar/premios-build.test.ts",
+    "a": 295,
+    "d": 3
+   },
+   {
+    "f": "src/stellar/premios-build.ts",
+    "a": 84,
+    "d": 0
+   },
+   {
+    "f": "src/stellar/retiro-config.test.ts",
+    "a": 263,
+    "d": 0
+   },
+   {
+    "f": "src/stellar/retiro-config.ts",
+    "a": 125,
+    "d": 0
+   },
+   {
+    "f": "src/styles.css",
+    "a": 54,
+    "d": 3
+   },
+   {
+    "f": "src/ui/mandar-usdc-retiro.test.ts",
+    "a": 533,
+    "d": 0
+   },
+   {
+    "f": "src/ui/mandar-usdc.test.ts",
+    "a": 445,
+    "d": 3
+   },
+   {
+    "f": "src/ui/mandar-usdc.ts",
+    "a": 363,
+    "d": 46
+   },
+   {
+    "f": "src/ui/pagar-premio-google.test.ts",
+    "a": 983,
+    "d": 0
+   },
+   {
+    "f": "src/ui/pagar-premio.test.ts",
+    "a": 6,
+    "d": 6
+   },
+   {
+    "f": "src/ui/pagar-premio.ts",
+    "a": 421,
+    "d": 46
+   },
+   {
+    "f": "src/ui/pagos-textos.ts",
+    "a": 42,
+    "d": 4
+   },
+   {
+    "f": "src/ui/panel-ganadores.test.ts",
+    "a": 7,
+    "d": 1
+   },
+   {
+    "f": "src/ui/panel-ganadores.ts",
+    "a": 10,
+    "d": 6
+   },
+   {
+    "f": "src/ui/saldo-premios.test.ts",
+    "a": 54,
+    "d": 0
+   },
+   {
+    "f": "src/ui/saldo.test.ts",
+    "a": 110,
+    "d": 0
+   },
+   {
+    "f": "src/ui/saldo.ts",
+    "a": 38,
+    "d": 6
+   },
+   {
+    "f": "terminos.html",
+    "a": 9,
+    "d": 0
+   },
+   {
+    "f": "vite.config.ts",
+    "a": 54,
+    "d": 2
+   }
+  ]
+ },
+ "f725635c3a18584ace4cdef588a7f4c7ac8a80ea": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-18T15:02:25Z",
+  "message": "Quien gana un sorteo de empresa recibe el premio en su cuenta",
+  "parents": 1,
+  "files": [
+   {
+    "f": ".gitattributes",
+    "a": 2,
+    "d": 0
+   },
+   {
+    "f": "src/campana/invitada.test.ts",
+    "a": 152,
+    "d": 0
+   },
+   {
+    "f": "src/campana/invitada.ts",
+    "a": 85,
+    "d": 0
+   },
+   {
+    "f": "src/i18n.ts",
+    "a": 10,
+    "d": 0
+   },
+   {
+    "f": "src/main.ts",
+    "a": 3,
+    "d": 0
+   },
+   {
+    "f": "src/stellar/alta-api.test.ts",
+    "a": 8,
+    "d": 0
+   },
+   {
+    "f": "src/stellar/alta-api.ts",
+    "a": 8,
+    "d": 3
+   },
+   {
+    "f": "src/ui/__referencia__/cuenta-lista-organiza.txt",
+    "a": 80,
+    "d": 0
+   },
+   {
+    "f": "src/ui/campana-arranque.test.ts",
+    "a": 173,
+    "d": 0
+   },
+   {
+    "f": "src/ui/campana-arranque.ts",
+    "a": 71,
+    "d": 0
+   },
+   {
+    "f": "src/ui/campana-ventana.test.ts",
+    "a": 93,
+    "d": 0
+   },
+   {
+    "f": "src/ui/campana-ventana.ts",
+    "a": 58,
+    "d": 0
+   },
+   {
+    "f": "src/ui/cuenta-lista-acceso-vista.test.ts",
+    "a": 26,
+    "d": 8
+   },
+   {
+    "f": "src/ui/cuenta-lista-estado.ts",
+    "a": 59,
+    "d": 19
+   },
+   {
+    "f": "src/ui/cuenta-lista-flujo-premio.test.ts",
+    "a": 462,
+    "d": 0
+   },
+   {
+    "f": "src/ui/cuenta-lista-flujo.ts",
+    "a": 108,
+    "d": 4
+   },
+   {
+    "f": "src/ui/cuenta-lista-premio-vista.test.ts",
+    "a": 283,
+    "d": 0
+   },
+   {
+    "f": "src/ui/cuenta-lista-premio.test.ts",
+    "a": 317,
+    "d": 0
+   },
+   {
+    "f": "src/ui/cuenta-lista-referencia.test.ts",
+    "a": 103,
+    "d": 0
+   },
+   {
+    "f": "src/ui/cuenta-lista-textos.test.ts",
+    "a": 3,
+    "d": 3
+   },
+   {
+    "f": "src/ui/cuenta-lista.ts",
+    "a": 8,
+    "d": 5
+   },
+   {
+    "f": "src/ui/premio-entrada.test.ts",
+    "a": 116,
+    "d": 0
+   },
+   {
+    "f": "src/ui/premio-entrada.ts",
+    "a": 48,
+    "d": 0
+   },
+   {
+    "f": "src/ui/premio-pide.ts",
+    "a": 20,
+    "d": 0
+   },
+   {
+    "f": "src/ui/saldo-premios.test.ts",
+    "a": 26,
+    "d": 0
+   },
+   {
+    "f": "src/ui/saldo.ts",
+    "a": 1,
+    "d": 1
+   }
+  ]
+ },
+ "73c779436058ea45954494553436793018baebbc": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-18T14:21:21Z",
+  "message": "El paso Dejá tu cuenta lista, con poco texto y a pantalla completa",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/ux.md",
+    "a": 11,
+    "d": 11
+   },
+   {
+    "f": "src/alta-textos-cuenta.test.ts",
+    "a": 5,
+    "d": 5
+   },
+   {
+    "f": "src/alta-textos-cuenta.ts",
+    "a": 4,
+    "d": 4
+   },
+   {
+    "f": "src/alta-textos-paso.test.ts",
+    "a": 3,
+    "d": 3
+   },
+   {
+    "f": "src/alta-textos-paso.ts",
+    "a": 4,
+    "d": 9
+   },
+   {
+    "f": "src/alta-textos-sin-pago.test.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/alta-textos-sin-pago.ts",
+    "a": 7,
+    "d": 8
+   },
+   {
+    "f": "src/alta-textos.test.ts",
+    "a": 13,
+    "d": 13
+   },
+   {
+    "f": "src/alta-textos.ts",
+    "a": 34,
+    "d": 36
+   },
+   {
+    "f": "src/i18n.ts",
+    "a": 77,
+    "d": 101
+   },
+   {
+    "f": "src/stellar/alta-api.test.ts",
+    "a": 4,
+    "d": 4
+   },
+   {
+    "f": "src/styles.css",
+    "a": 33,
+    "d": 32
+   },
+   {
+    "f": "src/textos-ingles-armados.test.ts",
+    "a": 2,
+    "d": 6
+   },
+   {
+    "f": "src/ui/compra-con-boton.test.ts",
+    "a": 8,
+    "d": 2
+   },
+   {
+    "f": "src/ui/cuenta-lista-acceso-vista.test.ts",
+    "a": 7,
+    "d": 5
+   },
+   {
+    "f": "src/ui/cuenta-lista-cupon.test.ts",
+    "a": 15,
+    "d": 11
+   },
+   {
+    "f": "src/ui/cuenta-lista-estado.test.ts",
+    "a": 182,
+    "d": 27
+   },
+   {
+    "f": "src/ui/cuenta-lista-estado.ts",
+    "a": 183,
+    "d": 66
+   },
+   {
+    "f": "src/ui/cuenta-lista-flujo.test.ts",
+    "a": 1,
+    "d": 11
+   },
+   {
+    "f": "src/ui/cuenta-lista-flujo.ts",
+    "a": 15,
+    "d": 10
+   },
+   {
+    "f": "src/ui/cuenta-lista-pago-vista.test.ts",
+    "a": 4,
+    "d": 3
+   },
+   {
+    "f": "src/ui/cuenta-lista-pago.test.ts",
+    "a": 5,
+    "d": 3
+   },
+   {
+    "f": "src/ui/cuenta-lista-retomar.test.ts",
+    "a": 2,
+    "d": 1
+   },
+   {
+    "f": "src/ui/cuenta-lista-textos.test.ts",
+    "a": 53,
+    "d": 1
+   },
+   {
+    "f": "src/ui/cuenta-lista.test.ts",
+    "a": 213,
+    "d": 58
+   },
+   {
+    "f": "src/ui/cuenta-lista.ts",
+    "a": 81,
+    "d": 70
+   },
+   {
+    "f": "src/ui/primer-sello-tras-seguir.test.ts",
+    "a": 9,
+    "d": 3
+   }
+  ]
+ },
+ "7e0407a4f6f2724e2437007e6ab5a831f1f39168": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-18T13:42:26Z",
+  "message": "El stand pone el QR al frente y aprovecha toda la pantalla",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/ux.md",
+    "a": 13,
+    "d": 3
+   },
+   {
+    "f": "index.html",
+    "a": 37,
+    "d": 12
+   },
+   {
+    "f": "scripts/audit-modos.mjs",
+    "a": 10,
+    "d": 6
+   },
+   {
+    "f": "scripts/probar-sala.mjs",
+    "a": 63,
+    "d": 8
+   },
+   {
+    "f": "scripts/probar-stand.mjs",
+    "a": 75,
+    "d": 23
+   },
+   {
+    "f": "src/equipos/equipos.css",
+    "a": 1,
+    "d": 2
+   },
+   {
+    "f": "src/i18n.ts",
+    "a": 97,
+    "d": 53
+   },
+   {
+    "f": "src/main.ts",
+    "a": 6,
+    "d": 2
+   },
+   {
+    "f": "src/stand-modo.test.ts",
+    "a": 5,
+    "d": 4
+   },
+   {
+    "f": "src/styles.css",
+    "a": 180,
+    "d": 22
+   },
+   {
+    "f": "src/ui/cupo-marca-vencida.test.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/ui/cupo-patrocinio.test.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/ui/enlaces-cabecera.test.ts",
+    "a": 85,
+    "d": 0
+   },
+   {
+    "f": "src/ui/enlaces-cabecera.ts",
+    "a": 28,
+    "d": 0
+   },
+   {
+    "f": "src/ui/red-oficial.test.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/ui/red.test.ts",
+    "a": 21,
+    "d": 0
+   },
+   {
+    "f": "src/ui/red.ts",
+    "a": 3,
+    "d": 2
+   },
+   {
+    "f": "src/ui/stand-ganadores.test.ts",
+    "a": 299,
+    "d": 0
+   },
+   {
+    "f": "src/ui/stand-lista.test.ts",
+    "a": 217,
+    "d": 1
+   },
+   {
+    "f": "src/ui/stand-sala-cerrar.test.ts",
+    "a": 387,
+    "d": 0
+   },
+   {
+    "f": "src/ui/stand-sala-grande.test.ts",
+    "a": 425,
+    "d": 0
+   },
+   {
+    "f": "src/ui/stand-sala.test.ts",
+    "a": 70,
+    "d": 10
+   },
+   {
+    "f": "src/ui/stand-sala.ts",
+    "a": 436,
+    "d": 65
+   },
+   {
+    "f": "src/ui/stand-salen.test.ts",
+    "a": 202,
+    "d": 11
+   },
+   {
+    "f": "src/ui/stand.ts",
+    "a": 268,
+    "d": 21
+   }
+  ]
  }
 }
