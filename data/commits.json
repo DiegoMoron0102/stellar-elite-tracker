@@ -175375,5 +175375,1600 @@
     "d": 0
    }
   ]
+ },
+ "ed3113fa0d34e0950ca9f39b9dfee961e7c0fce4": {
+  "team": "Puls3",
+  "repo": "Zer0-Knowledge-Hack/puls3",
+  "author": "moises-cisneros",
+  "date": "2026-11-18T10:09:46Z",
+  "message": "ci(e2e): run the server E2E suites against the Soroban sandbox (#298) (#330)",
+  "parents": 1,
+  "files": [
+   {
+    "f": ".github/workflows/e2e.yml",
+    "a": 89,
+    "d": 0
+   },
+   {
+    "f": "CONTRIBUTING.md",
+    "a": 4,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/docker-compose.yaml",
+    "a": 4,
+    "d": 2
+   }
+  ]
+ },
+ "1ae649b3dcca734dcf6b4d26909c82cacb06753c": {
+  "team": "Puls3",
+  "repo": "Zer0-Knowledge-Hack/puls3",
+  "author": "moises-cisneros",
+  "date": "2026-11-18T10:03:48Z",
+  "message": "test(server): assert on-chain contract events in the E2E suites (#287) (#339)",
+  "parents": 1,
+  "files": [
+   {
+    "f": "puls3_server/test/e2e/feedback_e2e_test.dart",
+    "a": 48,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/test/e2e/hire_relay_e2e_test.dart",
+    "a": 48,
+    "d": 7
+   },
+   {
+    "f": "puls3_server/test/e2e/support/contract_event_log.dart",
+    "a": 96,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/test/e2e/support/e2e_world.dart",
+    "a": 19,
+    "d": 0
+   }
+  ]
+ },
+ "6aa2627535e9415d0ca55eff412539081c079f4c": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-18T09:39:47Z",
+  "message": "La pantalla previa de una campaña, detrás de su bandera",
+  "parents": 1,
+  "files": [
+   {
+    "f": "participar.html",
+    "a": 76,
+    "d": 0
+   },
+   {
+    "f": "src/campana/bandera.ts",
+    "a": 9,
+    "d": 0
+   },
+   {
+    "f": "src/campana/campana-css.test.ts",
+    "a": 25,
+    "d": 0
+   },
+   {
+    "f": "src/campana/campana.css",
+    "a": 237,
+    "d": 0
+   },
+   {
+    "f": "src/campana/carga.test.ts",
+    "a": 139,
+    "d": 0
+   },
+   {
+    "f": "src/campana/carga.ts",
+    "a": 47,
+    "d": 0
+   },
+   {
+    "f": "src/campana/ejemplo.ts",
+    "a": 48,
+    "d": 0
+   },
+   {
+    "f": "src/campana/enlace.test.ts",
+    "a": 24,
+    "d": 0
+   },
+   {
+    "f": "src/campana/enlace.ts",
+    "a": 28,
+    "d": 0
+   },
+   {
+    "f": "src/campana/formato.test.ts",
+    "a": 126,
+    "d": 0
+   },
+   {
+    "f": "src/campana/formato.ts",
+    "a": 61,
+    "d": 0
+   },
+   {
+    "f": "src/campana/modelo.test.ts",
+    "a": 424,
+    "d": 0
+   },
+   {
+    "f": "src/campana/modelo.ts",
+    "a": 281,
+    "d": 0
+   },
+   {
+    "f": "src/campana/participar.test.ts",
+    "a": 217,
+    "d": 0
+   },
+   {
+    "f": "src/campana/previa.test.ts",
+    "a": 513,
+    "d": 0
+   },
+   {
+    "f": "src/campana/previa.ts",
+    "a": 385,
+    "d": 0
+   },
+   {
+    "f": "src/campana/textos.ts",
+    "a": 106,
+    "d": 0
+   },
+   {
+    "f": "src/i18n.ts",
+    "a": 3,
+    "d": 0
+   },
+   {
+    "f": "src/participar.test.ts",
+    "a": 13,
+    "d": 0
+   },
+   {
+    "f": "src/participar.ts",
+    "a": 135,
+    "d": 0
+   },
+   {
+    "f": "vite.config.ts",
+    "a": 1,
+    "d": 0
+   }
+  ]
+ },
+ "2c8a24abff1e4222a1c015eb048d0db5c0378358": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-18T09:13:13Z",
+  "message": "Una cuenta con premio solo recibe hasta el voto a mano",
+  "parents": 1,
+  "files": [
+   {
+    "f": ".env.example",
+    "a": 4,
+    "d": 2
+   },
+   {
+    "f": "docs/architecture.md",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "docs/operacion.md",
+    "a": 2,
+    "d": 0
+   },
+   {
+    "f": "src/i18n.ts",
+    "a": 38,
+    "d": 0
+   },
+   {
+    "f": "src/stellar/cuenta-config.test.ts",
+    "a": 11,
+    "d": 0
+   },
+   {
+    "f": "src/stellar/cuenta-config.ts",
+    "a": 4,
+    "d": 2
+   },
+   {
+    "f": "src/stellar/errores.test.ts",
+    "a": 31,
+    "d": 2
+   },
+   {
+    "f": "src/stellar/errores.ts",
+    "a": 14,
+    "d": 0
+   },
+   {
+    "f": "src/stellar/pollar-falso.ts",
+    "a": 9,
+    "d": 2
+   },
+   {
+    "f": "src/stellar/premios-build.test.ts",
+    "a": 71,
+    "d": 0
+   },
+   {
+    "f": "src/stellar/premios-build.ts",
+    "a": 39,
+    "d": 0
+   },
+   {
+    "f": "src/stellar/usdc-cuenta.test.ts",
+    "a": 350,
+    "d": 1
+   },
+   {
+    "f": "src/stellar/usdc-cuenta.ts",
+    "a": 211,
+    "d": 0
+   },
+   {
+    "f": "src/stellar/wallet-pollar-pago.test.ts",
+    "a": 20,
+    "d": 0
+   },
+   {
+    "f": "src/stellar/wallet-pollar-premio.test.ts",
+    "a": 486,
+    "d": 0
+   },
+   {
+    "f": "src/stellar/wallet-pollar.ts",
+    "a": 53,
+    "d": 2
+   },
+   {
+    "f": "src/ui/anchor.test.ts",
+    "a": 50,
+    "d": 0
+   },
+   {
+    "f": "src/ui/anchor.ts",
+    "a": 2,
+    "d": 0
+   },
+   {
+    "f": "src/ui/draw-premio.test.ts",
+    "a": 168,
+    "d": 0
+   },
+   {
+    "f": "src/ui/draw.ts",
+    "a": 37,
+    "d": 8
+   },
+   {
+    "f": "src/ui/envio-premio.test.ts",
+    "a": 128,
+    "d": 0
+   },
+   {
+    "f": "src/ui/freeze-premio.test.ts",
+    "a": 380,
+    "d": 0
+   },
+   {
+    "f": "src/ui/freeze.ts",
+    "a": 82,
+    "d": 2
+   },
+   {
+    "f": "src/ui/history-guardarlo-ahora.test.ts",
+    "a": 48,
+    "d": 2
+   },
+   {
+    "f": "src/ui/history.ts",
+    "a": 21,
+    "d": 1
+   },
+   {
+    "f": "src/ui/mandar-usdc-pago.test.ts",
+    "a": 19,
+    "d": 1
+   },
+   {
+    "f": "src/ui/mandar-usdc.test.ts",
+    "a": 58,
+    "d": 1
+   },
+   {
+    "f": "src/ui/mandar-usdc.ts",
+    "a": 19,
+    "d": 4
+   },
+   {
+    "f": "src/ui/saldo-premios.test.ts",
+    "a": 311,
+    "d": 0
+   },
+   {
+    "f": "src/ui/saldo.ts",
+    "a": 71,
+    "d": 9
+   },
+   {
+    "f": "src/ui/sello-seguro.test.ts",
+    "a": 43,
+    "d": 0
+   },
+   {
+    "f": "src/ui/sorteo-seguro.test.ts",
+    "a": 53,
+    "d": 0
+   },
+   {
+    "f": "src/ui/sorteo-seguro.ts",
+    "a": 5,
+    "d": 2
+   },
+   {
+    "f": "vite.config.ts",
+    "a": 19,
+    "d": 1
+   },
+   {
+    "f": "workers/enlaces/src/conteo.ts",
+    "a": 4,
+    "d": 0
+   }
+  ]
+ },
+ "f1324551a229c660088a15fa56c07a9b1438afb3": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-18T09:13:12Z",
+  "message": "La prueba de la compuerta del sello no depende del caso anterior",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/ui/freeze-cuenta-lista.test.ts",
+    "a": 3,
+    "d": 0
+   }
+  ]
+ },
+ "7f278b9892d26649d4d3d4184032a0d3101cf013": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-18T06:51:16Z",
+  "message": "La guía de operación no pide una variable que no hace falta en el piloto",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/operacion.md",
+    "a": 2,
+    "d": 2
+   }
+  ]
+ },
+ "757b88d4a253f3f5d7be79ae1d2f5d07f682bcf1": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-18T06:49:59Z",
+  "message": "Corrige la mezcla de fuentes de las métricas de cadena",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/metricas/README.md",
+    "a": 6,
+    "d": 6
+   },
+   {
+    "f": "scripts/lib/metricas-cadena.mjs",
+    "a": 55,
+    "d": 0
+   },
+   {
+    "f": "scripts/lib/metricas-cadena.test.mjs",
+    "a": 83,
+    "d": 1
+   },
+   {
+    "f": "scripts/metricas-cadena.mjs",
+    "a": 57,
+    "d": 31
+   }
+  ]
+ },
+ "5406ef79ff5d09a155b6dbc2b4d4aa62b07f741d": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-18T06:46:41Z",
+  "message": "Aclara la nota numérica en el panel de pago",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/operacion.md",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/i18n.ts",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "src/ui/pago-panel.test.ts",
+    "a": 1,
+    "d": 1
+   }
+  ]
+ },
+ "6f6ddc726b8c08029372fd8f2d035e4652e09f7f": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-18T06:45:38Z",
+  "message": "Fija las listas separadas de órdenes y compras",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/operacion.md",
+    "a": 6,
+    "d": 2
+   },
+   {
+    "f": "workers/patrocinio/README.md",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "workers/patrocinio/src/compras-piloto-dos.test.ts",
+    "a": 2,
+    "d": 0
+   },
+   {
+    "f": "workers/patrocinio/src/config.ts",
+    "a": 2,
+    "d": 1
+   },
+   {
+    "f": "workers/patrocinio/src/orden-piloto.test.ts",
+    "a": 35,
+    "d": 6
+   },
+   {
+    "f": "workers/patrocinio/src/rutas-altas.ts",
+    "a": 3,
+    "d": 3
+   }
+  ]
+ },
+ "97760081fd847445ca8c397f07a23b67f835831f": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "GuidoSV7",
+  "date": "2026-11-16T15:18:39Z",
+  "message": "feat: nota numérica de la orden en Más detalles del pago",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/i18n.ts",
+    "a": 7,
+    "d": 0
+   },
+   {
+    "f": "src/ui/cuenta-lista-pago-vista.test.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/ui/pago-panel.test.ts",
+    "a": 43,
+    "d": 2
+   },
+   {
+    "f": "src/ui/pago-panel.ts",
+    "a": 8,
+    "d": 1
+   },
+   {
+    "f": "src/ui/pago-poco-texto.test.ts",
+    "a": 4,
+    "d": 0
+   },
+   {
+    "f": "src/ui/pago-vista.ts",
+    "a": 6,
+    "d": 2
+   }
+  ]
+ },
+ "0292a94bf7730c28334c534abf495a1e452b1128": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "GuidoSV7",
+  "date": "2026-11-16T14:30:23Z",
+  "message": "feat: segunda fuente RPC en las métricas de la cadena",
+  "parents": 1,
+  "files": [
+   {
+    "f": "scripts/lib/metricas-cadena.mjs",
+    "a": 65,
+    "d": 1
+   },
+   {
+    "f": "scripts/lib/metricas-cadena.test.mjs",
+    "a": 138,
+    "d": 1
+   },
+   {
+    "f": "scripts/metricas-cadena.mjs",
+    "a": 57,
+    "d": 19
+   }
+  ]
+ },
+ "93c3e143e9d053185010c62d5e98de2ae74d44d7": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "GuidoSV7",
+  "date": "2026-11-16T15:55:17Z",
+  "message": "feat: piloto propio para la orden en USDC, separado del QR",
+  "parents": 1,
+  "files": [
+   {
+    "f": "workers/patrocinio/src/config.test.ts",
+    "a": 59,
+    "d": 0
+   },
+   {
+    "f": "workers/patrocinio/src/config.ts",
+    "a": 39,
+    "d": 7
+   },
+   {
+    "f": "workers/patrocinio/src/orden-piloto.test.ts",
+    "a": 24,
+    "d": 0
+   },
+   {
+    "f": "workers/patrocinio/src/rutas-altas.ts",
+    "a": 13,
+    "d": 6
+   }
+  ]
+ },
+ "e70d812d360075137daa88a5c769c59e907d139b": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "GuidoSV7",
+  "date": "2026-11-16T16:36:56Z",
+  "message": "test: fijar el camino a Oficial con un solo toque tras Seguir",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/ui/primer-sello-tras-seguir.test.ts",
+    "a": 123,
+    "d": 0
+   }
+  ]
+ },
+ "639deed008a84bca353bd58a9158888fa09ac0b9": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-18T06:37:38Z",
+  "message": "Stickers de los nueve departamentos, el Tinku y el Litoral",
+  "parents": 1,
+  "files": [
+   {
+    "f": ".gitattributes",
+    "a": 2,
+    "d": 0
+   },
+   {
+    "f": ".gitignore",
+    "a": 3,
+    "d": 0
+   },
+   {
+    "f": "marca.html",
+    "a": 112,
+    "d": 0
+   },
+   {
+    "f": "public/marca/departamentos/beni-capiguara.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/departamentos/beni-mamore.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/departamentos/beni-paraba.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/departamentos/beni-victoria.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/departamentos/chuquisaca-chocolate.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/departamentos/chuquisaca-dino.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/departamentos/chuquisaca-sucre.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/departamentos/chuquisaca-tarabuco.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/departamentos/cochabamba-charango.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/departamentos/cochabamba-llajta.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/departamentos/cochabamba-llajua.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/departamentos/cochabamba-silpancho.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/departamentos/cochabamba-tunari.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/departamentos/frases.txt",
+    "a": 117,
+    "d": 0
+   },
+   {
+    "f": "public/marca/departamentos/hojas/hoja-a3-todos.pdf",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/departamentos/hojas/hoja-a3-todos.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/departamentos/hojas/hoja-a4-litoral.pdf",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/departamentos/hojas/hoja-a4-litoral.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/departamentos/hojas/hoja-a4-occidente.pdf",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/departamentos/hojas/hoja-a4-occidente.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/departamentos/hojas/hoja-a4-oriente.pdf",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/departamentos/hojas/hoja-a4-oriente.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/departamentos/hojas/hoja-a4-postales-tinku.pdf",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/departamentos/hojas/hoja-a4-postales-tinku.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/departamentos/hojas/hoja-a4-tiernos.pdf",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/departamentos/hojas/hoja-a4-tiernos.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/departamentos/hojas/hoja-a4-valles.pdf",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/departamentos/hojas/hoja-a4-valles.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/departamentos/hojas/hojas.json",
+    "a": 195,
+    "d": 0
+   },
+   {
+    "f": "public/marca/departamentos/lapaz-api.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/departamentos/lapaz-cebra.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/departamentos/lapaz-illimani.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/departamentos/lapaz-totora.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/departamentos/litoral-mar.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/departamentos/litoral-postal.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/departamentos/oruro-carnaval.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/departamentos/oruro-quinua.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/departamentos/oruro-quirquincho.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/departamentos/oruro-sajama.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/departamentos/pando-asai.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/departamentos/pando-castana.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/departamentos/pando-selva.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/departamentos/pando-tucan.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/departamentos/potosi-arbol.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/departamentos/potosi-flamencos.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/departamentos/potosi-uyuni.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/departamentos/potosi-vales.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/departamentos/santacruz-achachairu.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/departamentos/santacruz-cunape.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/departamentos/santacruz-elay.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/departamentos/santacruz-tajibo.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/departamentos/tarija-blanqueada.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/departamentos/tarija-churo.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/departamentos/tarija-sanjacinto.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/departamentos/tarija-violin.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/departamentos/tierno-jucumari.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/departamentos/tierno-kantuta.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/departamentos/tierno-patuju.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/departamentos/tierno-perezoso.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/departamentos/tinku-montera.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/departamentos/tinku-pareja.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "scripts/check-glosario.mjs",
+    "a": 5,
+    "d": 2
+   },
+   {
+    "f": "scripts/lib/glosario-neutral.json",
+    "a": 4,
+    "d": 1
+   },
+   {
+    "f": "scripts/marca/departamentos.mjs",
+    "a": 251,
+    "d": 0
+   },
+   {
+    "f": "scripts/marca/departamentos/bolivia.mjs",
+    "a": 87,
+    "d": 0
+   },
+   {
+    "f": "scripts/marca/departamentos/comun.mjs",
+    "a": 198,
+    "d": 0
+   },
+   {
+    "f": "scripts/marca/departamentos/entrega.mjs",
+    "a": 94,
+    "d": 0
+   },
+   {
+    "f": "scripts/marca/departamentos/hojas.mjs",
+    "a": 210,
+    "d": 0
+   },
+   {
+    "f": "scripts/marca/departamentos/litoral.mjs",
+    "a": 213,
+    "d": 0
+   },
+   {
+    "f": "scripts/marca/departamentos/occidente.mjs",
+    "a": 913,
+    "d": 0
+   },
+   {
+    "f": "scripts/marca/departamentos/oriente.mjs",
+    "a": 950,
+    "d": 0
+   },
+   {
+    "f": "scripts/marca/departamentos/valles.mjs",
+    "a": 876,
+    "d": 0
+   },
+   {
+    "f": "scripts/marca/pincel.mjs",
+    "a": 503,
+    "d": 0
+   },
+   {
+    "f": "src/i18n.ts",
+    "a": 21,
+    "d": 0
+   },
+   {
+    "f": "src/marca-departamentos.test.ts",
+    "a": 131,
+    "d": 0
+   },
+   {
+    "f": "src/marca.css",
+    "a": 5,
+    "d": 0
+   },
+   {
+    "f": "src/marca.test.ts",
+    "a": 2,
+    "d": 2
+   }
+  ]
+ },
+ "6662dd8de297e77ec3f4e63062fd68877df8c1c3": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-16T21:22:51Z",
+  "message": "El celular de quien mira va a la par de la sala",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/amenazas.md",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "docs/architecture.md",
+    "a": 2,
+    "d": 1
+   },
+   {
+    "f": "docs/juegos.md",
+    "a": 2,
+    "d": 0
+   },
+   {
+    "f": "docs/ux.md",
+    "a": 4,
+    "d": 3
+   },
+   {
+    "f": "index.html",
+    "a": 0,
+    "d": 2
+   },
+   {
+    "f": "scripts/audit-espectador.mjs",
+    "a": 199,
+    "d": 83
+   },
+   {
+    "f": "src/arranque-del-show.test.ts",
+    "a": 59,
+    "d": 10
+   },
+   {
+    "f": "src/arranque-del-show.ts",
+    "a": 56,
+    "d": 18
+   },
+   {
+    "f": "src/c.ts",
+    "a": 4,
+    "d": 1
+   },
+   {
+    "f": "src/enlace-corto-cambia.test.ts",
+    "a": 135,
+    "d": 0
+   },
+   {
+    "f": "src/enlace-corto.ts",
+    "a": 139,
+    "d": 5
+   },
+   {
+    "f": "src/games/en-hora.test.ts",
+    "a": 200,
+    "d": 0
+   },
+   {
+    "f": "src/games/en-hora.ts",
+    "a": 270,
+    "d": 0
+   },
+   {
+    "f": "src/games/llamas/carrera-show.ts",
+    "a": 30,
+    "d": 0
+   },
+   {
+    "f": "src/games/pixi/cablecar-plan.ts",
+    "a": 15,
+    "d": 0
+   },
+   {
+    "f": "src/games/pixi/cablecar.ts",
+    "a": 2,
+    "d": 1
+   },
+   {
+    "f": "src/games/pixi/chovena-nino.ts",
+    "a": 17,
+    "d": 0
+   },
+   {
+    "f": "src/games/pixi/chovena.ts",
+    "a": 8,
+    "d": 1
+   },
+   {
+    "f": "src/games/pixi/decisivo.test.ts",
+    "a": 258,
+    "d": 0
+   },
+   {
+    "f": "src/games/pixi/decisivo.ts",
+    "a": 47,
+    "d": 0
+   },
+   {
+    "f": "src/games/pixi/entrada-plan.ts",
+    "a": 25,
+    "d": 0
+   },
+   {
+    "f": "src/games/pixi/guajojo-plan.ts",
+    "a": 23,
+    "d": 0
+   },
+   {
+    "f": "src/games/pixi/kit/crear.ts",
+    "a": 2,
+    "d": 0
+   },
+   {
+    "f": "src/games/pixi/kit/tipos.ts",
+    "a": 6,
+    "d": 0
+   },
+   {
+    "f": "src/games/pixi/oruro.ts",
+    "a": 2,
+    "d": 1
+   },
+   {
+    "f": "src/games/pixi/pinata.ts",
+    "a": 4,
+    "d": 0
+   },
+   {
+    "f": "src/games/pixi/sapo-tiempos.ts",
+    "a": 14,
+    "d": 0
+   },
+   {
+    "f": "src/games/pixi/sapo.ts",
+    "a": 7,
+    "d": 1
+   },
+   {
+    "f": "src/games/pixi/stage.ts",
+    "a": 57,
+    "d": 4
+   },
+   {
+    "f": "src/games/pixi/toborochi-plan.ts",
+    "a": 23,
+    "d": 0
+   },
+   {
+    "f": "src/games/pixi/trompo.ts",
+    "a": 4,
+    "d": 0
+   },
+   {
+    "f": "src/games/pixi/wheel.ts",
+    "a": 4,
+    "d": 0
+   },
+   {
+    "f": "src/games/tres/enchufe.ts",
+    "a": 14,
+    "d": 1
+   },
+   {
+    "f": "src/i18n.ts",
+    "a": 8,
+    "d": 2
+   },
+   {
+    "f": "src/main.ts",
+    "a": 6,
+    "d": 15
+   },
+   {
+    "f": "src/reloj-de-la-ronda.test.ts",
+    "a": 261,
+    "d": 0
+   },
+   {
+    "f": "src/reloj-de-la-ronda.ts",
+    "a": 272,
+    "d": 0
+   },
+   {
+    "f": "src/sound.ts",
+    "a": 17,
+    "d": 5
+   },
+   {
+    "f": "src/state.ts",
+    "a": 3,
+    "d": 0
+   },
+   {
+    "f": "src/styles.css",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "src/ui/draw-a-la-par.test.ts",
+    "a": 297,
+    "d": 0
+   },
+   {
+    "f": "src/ui/draw.ts",
+    "a": 178,
+    "d": 26
+   },
+   {
+    "f": "src/ui/espectador-a-la-par.test.ts",
+    "a": 313,
+    "d": 0
+   },
+   {
+    "f": "src/ui/espectador-cadena.test.ts",
+    "a": 32,
+    "d": 0
+   },
+   {
+    "f": "src/ui/espectador-cadena.ts",
+    "a": 21,
+    "d": 4
+   },
+   {
+    "f": "src/ui/espectador-enlace.ts",
+    "a": 113,
+    "d": 19
+   },
+   {
+    "f": "src/ui/espectador-fijo.test.ts",
+    "a": 0,
+    "d": 25
+   },
+   {
+    "f": "src/ui/espectador-fijo.ts",
+    "a": 0,
+    "d": 33
+   },
+   {
+    "f": "src/ui/espectador-qr.test.ts",
+    "a": 108,
+    "d": 27
+   },
+   {
+    "f": "src/ui/espectador-regla.test.ts",
+    "a": 171,
+    "d": 8
+   },
+   {
+    "f": "src/ui/espectador-regla.ts",
+    "a": 68,
+    "d": 1
+   },
+   {
+    "f": "src/ui/espectador.ts",
+    "a": 303,
+    "d": 33
+   },
+   {
+    "f": "src/ui/espectadores-de-la-sala.test.ts",
+    "a": 73,
+    "d": 0
+   },
+   {
+    "f": "src/ui/espectadores-de-la-sala.ts",
+    "a": 169,
+    "d": 0
+   },
+   {
+    "f": "src/ui/espera.test.ts",
+    "a": 21,
+    "d": 14
+   },
+   {
+    "f": "src/ui/espera.ts",
+    "a": 14,
+    "d": 16
+   },
+   {
+    "f": "src/ui/freeze-adelantado.test.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/ui/freeze.ts",
+    "a": 17,
+    "d": 18
+   },
+   {
+    "f": "src/ui/gamecard-hora.test.ts",
+    "a": 89,
+    "d": 0
+   },
+   {
+    "f": "src/ui/gamecard.ts",
+    "a": 31,
+    "d": 7
+   },
+   {
+    "f": "src/ui/grabar-sorteo.ts",
+    "a": 5,
+    "d": 2
+   },
+   {
+    "f": "src/ui/puerta-de-la-grabacion.test.ts",
+    "a": 86,
+    "d": 0
+   },
+   {
+    "f": "src/ui/puerta-de-la-grabacion.ts",
+    "a": 70,
+    "d": 0
+   },
+   {
+    "f": "src/ui/selector-de-juego.test.ts",
+    "a": 16,
+    "d": 16
+   },
+   {
+    "f": "workers/enlaces/README.md",
+    "a": 16,
+    "d": 1
+   },
+   {
+    "f": "workers/enlaces/probar.mjs",
+    "a": 41,
+    "d": 0
+   },
+   {
+    "f": "workers/enlaces/src/index.ts",
+    "a": 78,
+    "d": 15
+   },
+   {
+    "f": "workers/enlaces/src/reescribir.test.ts",
+    "a": 35,
+    "d": 0
+   },
+   {
+    "f": "workers/enlaces/src/reescribir.ts",
+    "a": 47,
+    "d": 0
+   }
+  ]
+ },
+ "d32bc264d7588a931940687c9e9423575c555c7a": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-16T21:22:00Z",
+  "message": "La foto del juego se ofrece con cualquier cantidad de ganadores",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/ux.md",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "src/i18n.ts",
+    "a": 8,
+    "d": 0
+   },
+   {
+    "f": "src/ui/compartir-completa.test.ts",
+    "a": 73,
+    "d": 0
+   },
+   {
+    "f": "src/ui/compartir.ts",
+    "a": 14,
+    "d": 3
+   },
+   {
+    "f": "src/ui/foto-huellas.test.ts",
+    "a": 194,
+    "d": 0
+   },
+   {
+    "f": "src/ui/foto-juego.test.ts",
+    "a": 155,
+    "d": 60
+   },
+   {
+    "f": "src/ui/foto-lista.test.ts",
+    "a": 510,
+    "d": 0
+   },
+   {
+    "f": "src/ui/foto-lista.ts",
+    "a": 678,
+    "d": 0
+   },
+   {
+    "f": "src/ui/foto.ts",
+    "a": 165,
+    "d": 112
+   }
+  ]
+ },
+ "4359bf9395d2f40c241459cee2d6147ea22c385b": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-16T21:21:40Z",
+  "message": "El stand elige cuántas personas salen y no habla de premios",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/ux.md",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "index.html",
+    "a": 2,
+    "d": 1
+   },
+   {
+    "f": "scripts/probar-stand.mjs",
+    "a": 48,
+    "d": 1
+   },
+   {
+    "f": "src/games/pixi/guajojo-plan.test.ts",
+    "a": 29,
+    "d": 0
+   },
+   {
+    "f": "src/games/pixi/guajojo-textos.ts",
+    "a": 10,
+    "d": 2
+   },
+   {
+    "f": "src/games/pixi/toborochi-plan.test.ts",
+    "a": 35,
+    "d": 0
+   },
+   {
+    "f": "src/games/pixi/toborochi-textos.ts",
+    "a": 19,
+    "d": 6
+   },
+   {
+    "f": "src/i18n.ts",
+    "a": 105,
+    "d": 24
+   },
+   {
+    "f": "src/stand-modo.test.ts",
+    "a": 32,
+    "d": 1
+   },
+   {
+    "f": "src/stand-subtitulos.test.ts",
+    "a": 148,
+    "d": 0
+   },
+   {
+    "f": "src/styles.css",
+    "a": 4,
+    "d": 2
+   },
+   {
+    "f": "src/ui/draw.ts",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "src/ui/gamecard-stand.test.ts",
+    "a": 147,
+    "d": 0
+   },
+   {
+    "f": "src/ui/gamecard.ts",
+    "a": 30,
+    "d": 7
+   },
+   {
+    "f": "src/ui/ganadores.test.ts",
+    "a": 167,
+    "d": 0
+   },
+   {
+    "f": "src/ui/ganadores.ts",
+    "a": 61,
+    "d": 8
+   },
+   {
+    "f": "src/ui/participants.ts",
+    "a": 34,
+    "d": 17
+   },
+   {
+    "f": "src/ui/pasos.test.ts",
+    "a": 24,
+    "d": 1
+   },
+   {
+    "f": "src/ui/pasos.ts",
+    "a": 7,
+    "d": 0
+   },
+   {
+    "f": "src/ui/resultado-ganadores.test.ts",
+    "a": 29,
+    "d": 3
+   },
+   {
+    "f": "src/ui/resultado-ganadores.ts",
+    "a": 3,
+    "d": 1
+   },
+   {
+    "f": "src/ui/siguiente-stand.test.ts",
+    "a": 68,
+    "d": 0
+   },
+   {
+    "f": "src/ui/siguiente.ts",
+    "a": 4,
+    "d": 2
+   },
+   {
+    "f": "src/ui/stand-ganadores.test.ts",
+    "a": 37,
+    "d": 9
+   },
+   {
+    "f": "src/ui/stand-lista.test.ts",
+    "a": 64,
+    "d": 3
+   },
+   {
+    "f": "src/ui/stand-salen.test.ts",
+    "a": 400,
+    "d": 0
+   },
+   {
+    "f": "src/ui/stand.ts",
+    "a": 31,
+    "d": 9
+   }
+  ]
+ },
+ "25fbe7f693507a362bc4697f3687321f669dcfbf": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-16T21:20:25Z",
+  "message": "El aviso del sello tardío y el panel del pago dicen lo que pasa",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/i18n.ts",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "src/sala/probar.test.ts",
+    "a": 38,
+    "d": 0
+   },
+   {
+    "f": "src/ui/pago-panel.test.ts",
+    "a": 20,
+    "d": 0
+   },
+   {
+    "f": "src/ui/pago-panel.ts",
+    "a": 5,
+    "d": 4
+   },
+   {
+    "f": "src/ui/sello-tarde-aviso.test.ts",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "workers/sala/probar.mjs",
+    "a": 13,
+    "d": 5
+   }
+  ]
  }
 }

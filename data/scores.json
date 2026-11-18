@@ -1,15 +1,15 @@
 {
- "generado": "2026-11-18T00:13:38+00:00",
+ "generado": "2026-11-18T14:49:42+00:00",
  "programa": "Stellar Elite",
  "start_date": "2026-09-02T00:00:00Z",
  "teams": [
   {
    "name": "Tinkazo",
-   "total": 8062.22,
-   "per_capita": 8062.22,
-   "commits": 1211,
-   "pts_commits": 7836.22,
-   "dias_activos": 44,
+   "total": 8184.71,
+   "per_capita": 8184.71,
+   "commits": 1227,
+   "pts_commits": 7953.71,
+   "dias_activos": 45,
    "contribuidores": [
     "GuidoSV7",
     "nema1502"
@@ -43,11 +43,11 @@
   },
   {
    "name": "Puls3",
-   "total": 1578.08,
-   "per_capita": 1578.08,
-   "commits": 199,
-   "pts_commits": 1405.08,
-   "dias_activos": 31,
+   "total": 1599.49,
+   "per_capita": 1599.49,
+   "commits": 201,
+   "pts_commits": 1421.49,
+   "dias_activos": 32,
    "contribuidores": [
     "Pericena",
     "TOMOKI977",
@@ -328,7 +328,8 @@
    "2026-11-08": 55.6,
    "2026-11-10": 84.91000000000001,
    "2026-11-16": 103.46000000000001,
-   "2026-11-17": 198.89
+   "2026-11-17": 198.89,
+   "2026-11-18": 16.41
   },
   "Tinkazo": {
    "2026-09-16": 66.21000000000001,
@@ -374,7 +375,8 @@
    "2026-11-12": 126.14999999999999,
    "2026-11-13": 331.89,
    "2026-11-14": 30.15,
-   "2026-11-16": 167.61
+   "2026-11-16": 228.72,
+   "2026-11-18": 56.38000000000001
   },
   "CompraGasolinaBidon": {
    "2026-09-06": 1.0,
@@ -523,7 +525,8 @@
    "2026-11-08": 6,
    "2026-11-10": 10,
    "2026-11-16": 11,
-   "2026-11-17": 22
+   "2026-11-17": 22,
+   "2026-11-18": 2
   },
   "Tinkazo": {
    "2026-09-16": 8,
@@ -569,7 +572,8 @@
    "2026-11-12": 16,
    "2026-11-13": 44,
    "2026-11-14": 4,
-   "2026-11-16": 21
+   "2026-11-16": 29,
+   "2026-11-18": 8
   },
   "CompraGasolinaBidon": {
    "2026-09-06": 1,
@@ -679,6 +683,106 @@
   }
  },
  "commits": [
+  {
+   "sha": "ed3113f",
+   "team": "Puls3",
+   "repo": "Zer0-Knowledge-Hack/puls3",
+   "author": "moises-cisneros",
+   "date": "2026-11-18T10:09:46Z",
+   "msg": "ci(e2e): run the server E2E suites against the Soroban sandbox (#298) (#330)",
+   "pts": 7.64,
+   "nota": ""
+  },
+  {
+   "sha": "1ae649b",
+   "team": "Puls3",
+   "repo": "Zer0-Knowledge-Hack/puls3",
+   "author": "moises-cisneros",
+   "date": "2026-11-18T10:03:48Z",
+   "msg": "test(server): assert on-chain contract events in the E2E suites (#287) (#339)",
+   "pts": 8.77,
+   "nota": ""
+  },
+  {
+   "sha": "6aa2627",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-18T09:39:47Z",
+   "msg": "La pantalla previa de una campaña, detrás de su bandera",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "2c8a24a",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-18T09:13:13Z",
+   "msg": "Una cuenta con premio solo recibe hasta el voto a mano",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "f132455",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-18T09:13:12Z",
+   "msg": "La prueba de la compuerta del sello no depende del caso anterior",
+   "pts": 3.0,
+   "nota": ""
+  },
+  {
+   "sha": "7f278b9",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-18T06:51:16Z",
+   "msg": "La guía de operación no pide una variable que no hace falta en el piloto",
+   "pts": 3.32,
+   "nota": ""
+  },
+  {
+   "sha": "757b88d",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-18T06:49:59Z",
+   "msg": "Corrige la mezcla de fuentes de las métricas de cadena",
+   "pts": 8.91,
+   "nota": ""
+  },
+  {
+   "sha": "5406ef7",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-18T06:46:41Z",
+   "msg": "Aclara la nota numérica en el panel de pago",
+   "pts": 4.17,
+   "nota": ""
+  },
+  {
+   "sha": "6f6ddc7",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-18T06:45:38Z",
+   "msg": "Fija las listas separadas de órdenes y compras",
+   "pts": 6.98,
+   "nota": ""
+  },
+  {
+   "sha": "639deed",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-18T06:37:38Z",
+   "msg": "Stickers de los nueve departamentos, el Tinku y el Litoral",
+   "pts": 10,
+   "nota": ""
+  },
   {
    "sha": "b2c9d75",
    "team": "Puls3",
@@ -930,6 +1034,46 @@
    "nota": ""
   },
   {
+   "sha": "6662dd8",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-16T21:22:51Z",
+   "msg": "El celular de quien mira va a la par de la sala",
+   "pts": 1.0,
+   "nota": "import masivo (69 archivos)"
+  },
+  {
+   "sha": "d32bc26",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-16T21:22:00Z",
+   "msg": "La foto del juego se ofrece con cualquier cantidad de ganadores",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "4359bf9",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-16T21:21:40Z",
+   "msg": "El stand elige cuántas personas salen y no habla de premios",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "25fbe7f",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-16T21:20:25Z",
+   "msg": "El aviso del sello tardío y el panel del pago dicen lo que pasa",
+   "pts": 7.55,
+   "nota": ""
+  },
+  {
    "sha": "dd9412d",
    "team": "Puls3",
    "repo": "Zer0-Knowledge-Hack/puls3",
@@ -1007,6 +1151,46 @@
    "date": "2026-11-16T18:27:16Z",
    "msg": "chore(infra): add Melos workspace scripts (#254) (#258)",
    "pts": 9.46,
+   "nota": ""
+  },
+  {
+   "sha": "e70d812",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "GuidoSV7",
+   "date": "2026-11-16T16:36:56Z",
+   "msg": "test: fijar el camino a Oficial con un solo toque tras Seguir",
+   "pts": 7.95,
+   "nota": ""
+  },
+  {
+   "sha": "93c3e14",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "GuidoSV7",
+   "date": "2026-11-16T15:55:17Z",
+   "msg": "feat: piloto propio para la orden en USDC, separado del QR",
+   "pts": 8.22,
+   "nota": ""
+  },
+  {
+   "sha": "9776008",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "GuidoSV7",
+   "date": "2026-11-16T15:18:39Z",
+   "msg": "feat: nota numérica de la orden en Más detalles del pago",
+   "pts": 7.25,
+   "nota": ""
+  },
+  {
+   "sha": "0292a94",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "GuidoSV7",
+   "date": "2026-11-16T14:30:23Z",
+   "msg": "feat: segunda fuente RPC en las métricas de la cadena",
+   "pts": 9.14,
    "nota": ""
   },
   {
