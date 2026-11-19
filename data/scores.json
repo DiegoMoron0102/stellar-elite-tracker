@@ -1,15 +1,15 @@
 {
- "generado": "2026-11-19T05:05:43+00:00",
+ "generado": "2026-11-19T14:55:58+00:00",
  "programa": "Stellar Elite",
  "start_date": "2026-09-02T00:00:00Z",
  "teams": [
   {
    "name": "Tinkazo",
-   "total": 8366.04,
-   "per_capita": 8366.04,
-   "commits": 1251,
-   "pts_commits": 8135.04,
-   "dias_activos": 45,
+   "total": 8475.5,
+   "per_capita": 8475.5,
+   "commits": 1268,
+   "pts_commits": 8239.5,
+   "dias_activos": 46,
    "contribuidores": [
     "GuidoSV7",
     "nema1502"
@@ -375,9 +375,9 @@
    "2026-11-12": 126.14999999999999,
    "2026-11-13": 331.89,
    "2026-11-14": 30.15,
-   "2026-11-16": 228.72,
+   "2026-11-16": 324.69000000000005,
    "2026-11-18": 229.88,
-   "2026-11-19": 0.0
+   "2026-11-19": 8.49
   },
   "CompraGasolinaBidon": {
    "2026-09-06": 1.0,
@@ -573,9 +573,9 @@
    "2026-11-12": 16,
    "2026-11-13": 44,
    "2026-11-14": 4,
-   "2026-11-16": 29,
+   "2026-11-16": 42,
    "2026-11-18": 28,
-   "2026-11-19": 2
+   "2026-11-19": 6
   },
   "CompraGasolinaBidon": {
    "2026-09-06": 1,
@@ -686,6 +686,16 @@
  },
  "commits": [
   {
+   "sha": "136c8ca",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "GuidoSV7",
+   "date": "2026-11-19T05:19:28Z",
+   "msg": "Merge pull request #129 from nema1502/entrar-google-15nov",
+   "pts": 0.0,
+   "nota": "merge"
+  },
+  {
    "sha": "5a6e2f0",
    "team": "Tinkazo",
    "repo": "nema1502/tinkazo",
@@ -696,12 +706,42 @@
    "nota": "merge"
   },
   {
+   "sha": "7e660a7",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "GuidoSV7",
+   "date": "2026-11-19T04:35:02Z",
+   "msg": "test: el modo vista espera su aviso de lista en vez de un plazo fijo",
+   "pts": 5.17,
+   "nota": ""
+  },
+  {
    "sha": "3364527",
    "team": "Tinkazo",
    "repo": "nema1502/tinkazo",
    "author": "GuidoSV7",
    "date": "2026-11-19T03:55:04Z",
    "msg": "Merge remote-tracking branch 'origin/main' into musica-margen-v2",
+   "pts": 0.0,
+   "nota": "merge"
+  },
+  {
+   "sha": "465b94c",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "GuidoSV7",
+   "date": "2026-11-19T03:53:46Z",
+   "msg": "test: el mock de la sesión recibe los avisos de entrada como objeto",
+   "pts": 3.32,
+   "nota": ""
+  },
+  {
+   "sha": "169e34e",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "GuidoSV7",
+   "date": "2026-11-19T02:59:40Z",
+   "msg": "Merge remote-tracking branch 'origin/main' into entrar-google-15nov",
    "pts": 0.0,
    "nota": "merge"
   },
@@ -1656,6 +1696,96 @@
    "nota": ""
   },
   {
+   "sha": "5c7166c",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-16T05:19:12Z",
+   "msg": "Otro toque en el botón que está entrando no empieza otra entrada",
+   "pts": 5.46,
+   "nota": ""
+  },
+  {
+   "sha": "125e070",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-16T05:11:54Z",
+   "msg": "Entrar con Google dos veces a la vez se suma y retomar no borra la marca",
+   "pts": 8.66,
+   "nota": ""
+  },
+  {
+   "sha": "aa1d345",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-16T05:11:20Z",
+   "msg": "El contador de la ventana de Google suma el plazo vencido y el SDK mudo",
+   "pts": 5.81,
+   "nota": ""
+  },
+  {
+   "sha": "30f8e00",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-16T05:10:31Z",
+   "msg": "El registro dice Retomando tu cuenta solo si hay algo que retomar",
+   "pts": 6.21,
+   "nota": ""
+  },
+  {
+   "sha": "c2ef865",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-16T05:10:07Z",
+   "msg": "Cancelar la entrada con Google deja a la persona afuera",
+   "pts": 7.79,
+   "nota": ""
+  },
+  {
+   "sha": "43bceee",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-16T05:09:22Z",
+   "msg": "Terminando de entrar se avisa recién a los 2,5 segundos del cierre",
+   "pts": 7.0,
+   "nota": ""
+  },
+  {
+   "sha": "f53789d",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-16T05:07:52Z",
+   "msg": "En la portada se puede cancelar mientras se termina de entrar",
+   "pts": 8.73,
+   "nota": ""
+  },
+  {
+   "sha": "f2a7bd4",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-16T05:07:07Z",
+   "msg": "Terminando de entrar se anuncia y el foco pasa a Cancelar",
+   "pts": 6.75,
+   "nota": ""
+  },
+  {
+   "sha": "8de76c6",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-16T05:06:23Z",
+   "msg": "La puerta no queda en Conectando al cancelar desde la ventana",
+   "pts": 5.95,
+   "nota": ""
+  },
+  {
    "sha": "d3344dd",
    "team": "Tinkazo",
    "repo": "nema1502/tinkazo",
@@ -1683,6 +1813,46 @@
    "date": "2026-11-16T05:04:49Z",
    "msg": "Espectadores y compartir: el celular sigue a la sala y no se adelanta",
    "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "75a097f",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-16T04:14:57Z",
+   "msg": "El contador anónimo suma la ventana de Google cerrada y la entrada tardía",
+   "pts": 7.13,
+   "nota": ""
+  },
+  {
+   "sha": "9211759",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-16T04:11:44Z",
+   "msg": "Quien entra con Google desde el registro o al retomar queda adentro",
+   "pts": 7.66,
+   "nota": ""
+  },
+  {
+   "sha": "c076c48",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-16T04:10:12Z",
+   "msg": "La puerta dice Terminando de entrar y deja cancelar la espera",
+   "pts": 9.44,
+   "nota": ""
+  },
+  {
+   "sha": "2dd4dfc",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-16T04:06:28Z",
+   "msg": "Entrar con Google espera al ingreso en camino y no corta a los 6 s",
+   "pts": 9.38,
    "nota": ""
   },
   {

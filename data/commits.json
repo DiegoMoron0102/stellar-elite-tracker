@@ -183040,5 +183040,2070 @@
     "d": 2
    }
   ]
+ },
+ "136c8ca49b9fd10c498726f69c2705fbcc514b71": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "GuidoSV7",
+  "date": "2026-11-19T05:19:28Z",
+  "message": "Merge pull request #129 from nema1502/entrar-google-15nov",
+  "parents": 2,
+  "files": [
+   {
+    "f": "src/campana/participar.test.ts",
+    "a": 17,
+    "d": 0
+   },
+   {
+    "f": "src/campana/sesion.test.ts",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "src/campana/sesion.ts",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "src/contar.test.ts",
+    "a": 4,
+    "d": 0
+   },
+   {
+    "f": "src/contar.ts",
+    "a": 10,
+    "d": 0
+   },
+   {
+    "f": "src/equipos-registro.ts",
+    "a": 17,
+    "d": 4
+   },
+   {
+    "f": "src/equipos/registro.test.ts",
+    "a": 15,
+    "d": 0
+   },
+   {
+    "f": "src/equipos/registro.ts",
+    "a": 9,
+    "d": 1
+   },
+   {
+    "f": "src/equipos/sesion.test.ts",
+    "a": 39,
+    "d": 4
+   },
+   {
+    "f": "src/equipos/sesion.ts",
+    "a": 19,
+    "d": 2
+   },
+   {
+    "f": "src/equipos/textos.ts",
+    "a": 2,
+    "d": 0
+   },
+   {
+    "f": "src/i18n.ts",
+    "a": 3,
+    "d": 0
+   },
+   {
+    "f": "src/main.ts",
+    "a": 9,
+    "d": 3
+   },
+   {
+    "f": "src/stellar/wallet-pollar-sesion.test.ts",
+    "a": 503,
+    "d": 13
+   },
+   {
+    "f": "src/stellar/wallet-pollar.ts",
+    "a": 231,
+    "d": 21
+   },
+   {
+    "f": "src/ui/cancelar-en-portada.test.ts",
+    "a": 107,
+    "d": 0
+   },
+   {
+    "f": "src/ui/cancelar-en-portada.ts",
+    "a": 78,
+    "d": 0
+   },
+   {
+    "f": "src/ui/cuenta-chip.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/ui/cuenta-estado.ts",
+    "a": 4,
+    "d": 3
+   },
+   {
+    "f": "src/ui/entrar-terminando-ui.test.ts",
+    "a": 316,
+    "d": 0
+   },
+   {
+    "f": "src/ui/wallet-ui.ts",
+    "a": 98,
+    "d": 9
+   },
+   {
+    "f": "workers/enlaces/README.md",
+    "a": 3,
+    "d": 0
+   },
+   {
+    "f": "workers/enlaces/src/conteo.test.ts",
+    "a": 3,
+    "d": 0
+   },
+   {
+    "f": "workers/enlaces/src/conteo.ts",
+    "a": 8,
+    "d": 0
+   }
+  ]
+ },
+ "7e660a7474b0387ad1c0fa7eb08b676ed962cd48": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "GuidoSV7",
+  "date": "2026-11-19T04:35:02Z",
+  "message": "test: el modo vista espera su aviso de lista en vez de un plazo fijo",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/campana/participar.test.ts",
+    "a": 17,
+    "d": 0
+   }
+  ]
+ },
+ "465b94c3aeab3703dc9e1c04dcd8a721b90457bd": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "GuidoSV7",
+  "date": "2026-11-19T03:53:46Z",
+  "message": "test: el mock de la sesión recibe los avisos de entrada como objeto",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/campana/sesion.test.ts",
+    "a": 2,
+    "d": 2
+   }
+  ]
+ },
+ "169e34e4ca7ef9b441c66cae6541ba958584f763": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "GuidoSV7",
+  "date": "2026-11-19T02:59:40Z",
+  "message": "Merge remote-tracking branch 'origin/main' into entrar-google-15nov",
+  "parents": 2,
+  "files": [
+   {
+    "f": ".env.example",
+    "a": 42,
+    "d": 2
+   },
+   {
+    "f": ".gitattributes",
+    "a": 4,
+    "d": 0
+   },
+   {
+    "f": ".gitignore",
+    "a": 3,
+    "d": 0
+   },
+   {
+    "f": "crear-campana.html",
+    "a": 63,
+    "d": 0
+   },
+   {
+    "f": "docs/amenazas.md",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "docs/architecture.md",
+    "a": 15,
+    "d": 1
+   },
+   {
+    "f": "docs/juegos.md",
+    "a": 2,
+    "d": 0
+   },
+   {
+    "f": "docs/metricas/README.md",
+    "a": 6,
+    "d": 6
+   },
+   {
+    "f": "docs/operacion.md",
+    "a": 294,
+    "d": 9
+   },
+   {
+    "f": "docs/ux.md",
+    "a": 82,
+    "d": 19
+   },
+   {
+    "f": "index.html",
+    "a": 63,
+    "d": 30
+   },
+   {
+    "f": "marca.html",
+    "a": 112,
+    "d": 0
+   },
+   {
+    "f": "participar.html",
+    "a": 66,
+    "d": 0
+   },
+   {
+    "f": "precios.html",
+    "a": 22,
+    "d": 2
+   },
+   {
+    "f": "public/marca/departamentos/beni-capiguara.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/departamentos/beni-mamore.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/departamentos/beni-paraba.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/departamentos/beni-victoria.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/departamentos/chuquisaca-chocolate.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/departamentos/chuquisaca-dino.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/departamentos/chuquisaca-sucre.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/departamentos/chuquisaca-tarabuco.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/departamentos/cochabamba-charango.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/departamentos/cochabamba-llajta.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/departamentos/cochabamba-llajua.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/departamentos/cochabamba-silpancho.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/departamentos/cochabamba-tunari.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/departamentos/frases.txt",
+    "a": 117,
+    "d": 0
+   },
+   {
+    "f": "public/marca/departamentos/hojas/hoja-a3-todos.pdf",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/departamentos/hojas/hoja-a3-todos.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/departamentos/hojas/hoja-a4-litoral.pdf",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/departamentos/hojas/hoja-a4-litoral.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/departamentos/hojas/hoja-a4-occidente.pdf",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/departamentos/hojas/hoja-a4-occidente.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/departamentos/hojas/hoja-a4-oriente.pdf",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/departamentos/hojas/hoja-a4-oriente.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/departamentos/hojas/hoja-a4-postales-tinku.pdf",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/departamentos/hojas/hoja-a4-postales-tinku.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/departamentos/hojas/hoja-a4-tiernos.pdf",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/departamentos/hojas/hoja-a4-tiernos.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/departamentos/hojas/hoja-a4-valles.pdf",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/departamentos/hojas/hoja-a4-valles.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/departamentos/hojas/hojas.json",
+    "a": 195,
+    "d": 0
+   },
+   {
+    "f": "public/marca/departamentos/lapaz-api.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/departamentos/lapaz-cebra.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/departamentos/lapaz-illimani.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/departamentos/lapaz-totora.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/departamentos/litoral-mar.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/departamentos/litoral-postal.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/departamentos/oruro-carnaval.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/departamentos/oruro-quinua.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/departamentos/oruro-quirquincho.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/departamentos/oruro-sajama.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/departamentos/pando-asai.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/departamentos/pando-castana.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/departamentos/pando-selva.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/departamentos/pando-tucan.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/departamentos/potosi-arbol.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/departamentos/potosi-flamencos.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/departamentos/potosi-uyuni.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/departamentos/potosi-vales.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/departamentos/santacruz-achachairu.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/departamentos/santacruz-cunape.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/departamentos/santacruz-elay.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/departamentos/santacruz-tajibo.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/departamentos/tarija-blanqueada.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/departamentos/tarija-churo.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/departamentos/tarija-sanjacinto.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/departamentos/tarija-violin.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/departamentos/tierno-jucumari.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/departamentos/tierno-kantuta.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/departamentos/tierno-patuju.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/departamentos/tierno-perezoso.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/departamentos/tinku-montera.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/departamentos/tinku-pareja.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "scripts/audit-espectador.mjs",
+    "a": 199,
+    "d": 83
+   },
+   {
+    "f": "scripts/audit-espera.mjs",
+    "a": 4,
+    "d": 2
+   },
+   {
+    "f": "scripts/audit-flujo.mjs",
+    "a": 4,
+    "d": 2
+   },
+   {
+    "f": "scripts/audit-modos.mjs",
+    "a": 11,
+    "d": 7
+   },
+   {
+    "f": "scripts/audit-ui.mjs",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "scripts/campana-comision.mjs",
+    "a": 364,
+    "d": 0
+   },
+   {
+    "f": "scripts/campana-comision.test.mjs",
+    "a": 317,
+    "d": 0
+   },
+   {
+    "f": "scripts/campana-firmar.mjs",
+    "a": 211,
+    "d": 0
+   },
+   {
+    "f": "scripts/check-glosario.mjs",
+    "a": 5,
+    "d": 2
+   },
+   {
+    "f": "scripts/check-paginas.mjs",
+    "a": 6,
+    "d": 3
+   },
+   {
+    "f": "scripts/lib/glosario-neutral.json",
+    "a": 4,
+    "d": 1
+   },
+   {
+    "f": "scripts/lib/metricas-cadena.mjs",
+    "a": 120,
+    "d": 1
+   },
+   {
+    "f": "scripts/lib/metricas-cadena.test.mjs",
+    "a": 220,
+    "d": 1
+   },
+   {
+    "f": "scripts/lib/modos-comprobaciones.mjs",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "scripts/lib/modos-comprobaciones.test.mjs",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "scripts/marca/departamentos.mjs",
+    "a": 251,
+    "d": 0
+   },
+   {
+    "f": "scripts/marca/departamentos/bolivia.mjs",
+    "a": 87,
+    "d": 0
+   },
+   {
+    "f": "scripts/marca/departamentos/comun.mjs",
+    "a": 198,
+    "d": 0
+   },
+   {
+    "f": "scripts/marca/departamentos/entrega.mjs",
+    "a": 94,
+    "d": 0
+   },
+   {
+    "f": "scripts/marca/departamentos/hojas.mjs",
+    "a": 210,
+    "d": 0
+   },
+   {
+    "f": "scripts/marca/departamentos/litoral.mjs",
+    "a": 213,
+    "d": 0
+   },
+   {
+    "f": "scripts/marca/departamentos/occidente.mjs",
+    "a": 913,
+    "d": 0
+   },
+   {
+    "f": "scripts/marca/departamentos/oriente.mjs",
+    "a": 950,
+    "d": 0
+   },
+   {
+    "f": "scripts/marca/departamentos/valles.mjs",
+    "a": 876,
+    "d": 0
+   },
+   {
+    "f": "scripts/marca/pincel.mjs",
+    "a": 503,
+    "d": 0
+   },
+   {
+    "f": "scripts/metricas-cadena.mjs",
+    "a": 94,
+    "d": 30
+   },
+   {
+    "f": "scripts/probar-sala.mjs",
+    "a": 99,
+    "d": 17
+   },
+   {
+    "f": "scripts/probar-stand.mjs",
+    "a": 123,
+    "d": 24
+   },
+   {
+    "f": "sorteo-para-eventos.html",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "sorteo-para-meetup.html",
+    "a": 5,
+    "d": 5
+   },
+   {
+    "f": "src/alta-textos-con-cobro.ts",
+    "a": 3,
+    "d": 3
+   },
+   {
+    "f": "src/alta-textos-cuenta.test.ts",
+    "a": 5,
+    "d": 5
+   },
+   {
+    "f": "src/alta-textos-cuenta.ts",
+    "a": 4,
+    "d": 4
+   },
+   {
+    "f": "src/alta-textos-pago.test.ts",
+    "a": 17,
+    "d": 2
+   },
+   {
+    "f": "src/alta-textos-pago.ts",
+    "a": 4,
+    "d": 0
+   },
+   {
+    "f": "src/alta-textos-paso.test.ts",
+    "a": 3,
+    "d": 3
+   },
+   {
+    "f": "src/alta-textos-paso.ts",
+    "a": 4,
+    "d": 9
+   },
+   {
+    "f": "src/alta-textos-sin-pago.test.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/alta-textos-sin-pago.ts",
+    "a": 7,
+    "d": 8
+   },
+   {
+    "f": "src/alta-textos.test.ts",
+    "a": 13,
+    "d": 13
+   },
+   {
+    "f": "src/alta-textos.ts",
+    "a": 34,
+    "d": 36
+   },
+   {
+    "f": "src/analytics.test.ts",
+    "a": 5,
+    "d": 0
+   },
+   {
+    "f": "src/analytics.ts",
+    "a": 16,
+    "d": 4
+   },
+   {
+    "f": "src/arranque-del-show.test.ts",
+    "a": 82,
+    "d": 0
+   },
+   {
+    "f": "src/arranque-del-show.ts",
+    "a": 107,
+    "d": 0
+   },
+   {
+    "f": "src/c.ts",
+    "a": 4,
+    "d": 1
+   },
+   {
+    "f": "src/campana/adentro.test.ts",
+    "a": 229,
+    "d": 0
+   },
+   {
+    "f": "src/campana/adentro.ts",
+    "a": 382,
+    "d": 0
+   },
+   {
+    "f": "src/campana/bandera.ts",
+    "a": 9,
+    "d": 0
+   },
+   {
+    "f": "src/campana/campana-css.test.ts",
+    "a": 163,
+    "d": 0
+   },
+   {
+    "f": "src/campana/campana-sala-css.test.ts",
+    "a": 186,
+    "d": 0
+   },
+   {
+    "f": "src/campana/campana-sala.css",
+    "a": 232,
+    "d": 0
+   },
+   {
+    "f": "src/campana/campana.css",
+    "a": 1075,
+    "d": 0
+   },
+   {
+    "f": "src/campana/carga.test.ts",
+    "a": 170,
+    "d": 0
+   },
+   {
+    "f": "src/campana/carga.ts",
+    "a": 60,
+    "d": 0
+   },
+   {
+    "f": "src/campana/celular.test.ts",
+    "a": 736,
+    "d": 0
+   },
+   {
+    "f": "src/campana/celular.ts",
+    "a": 677,
+    "d": 0
+   },
+   {
+    "f": "src/campana/claves-de-la-pagina.test.ts",
+    "a": 54,
+    "d": 0
+   },
+   {
+    "f": "src/campana/comision-panel.test.ts",
+    "a": 149,
+    "d": 0
+   },
+   {
+    "f": "src/campana/comision-panel.ts",
+    "a": 100,
+    "d": 0
+   },
+   {
+    "f": "src/campana/comision-red.test.ts",
+    "a": 329,
+    "d": 0
+   },
+   {
+    "f": "src/campana/comision-red.ts",
+    "a": 288,
+    "d": 0
+   },
+   {
+    "f": "src/campana/comision.test.ts",
+    "a": 186,
+    "d": 0
+   },
+   {
+    "f": "src/campana/comision.ts",
+    "a": 125,
+    "d": 0
+   },
+   {
+    "f": "src/campana/conectar.test.ts",
+    "a": 582,
+    "d": 0
+   },
+   {
+    "f": "src/campana/conectar.ts",
+    "a": 249,
+    "d": 0
+   },
+   {
+    "f": "src/campana/crear-css.test.ts",
+    "a": 209,
+    "d": 0
+   },
+   {
+    "f": "src/campana/crear.css",
+    "a": 394,
+    "d": 0
+   },
+   {
+    "f": "src/campana/crear/armar.test.ts",
+    "a": 540,
+    "d": 0
+   },
+   {
+    "f": "src/campana/crear/armar.ts",
+    "a": 467,
+    "d": 0
+   },
+   {
+    "f": "src/campana/crear/bases.test.ts",
+    "a": 102,
+    "d": 0
+   },
+   {
+    "f": "src/campana/crear/bases.ts",
+    "a": 75,
+    "d": 0
+   },
+   {
+    "f": "src/campana/crear/constantes.ts",
+    "a": 8,
+    "d": 0
+   },
+   {
+    "f": "src/campana/crear/costo.test.ts",
+    "a": 12,
+    "d": 0
+   },
+   {
+    "f": "src/campana/crear/costo.ts",
+    "a": 29,
+    "d": 0
+   },
+   {
+    "f": "src/campana/crear/estado.test.ts",
+    "a": 217,
+    "d": 0
+   },
+   {
+    "f": "src/campana/crear/estado.ts",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "src/campana/crear/horas.test.ts",
+    "a": 150,
+    "d": 0
+   },
+   {
+    "f": "src/campana/crear/horas.ts",
+    "a": 212,
+    "d": 0
+   },
+   {
+    "f": "src/campana/crear/logo.test.ts",
+    "a": 126,
+    "d": 0
+   },
+   {
+    "f": "src/campana/crear/logo.ts",
+    "a": 136,
+    "d": 0
+   },
+   {
+    "f": "src/campana/crear/panel.test.ts",
+    "a": 1000,
+    "d": 0
+   },
+   {
+    "f": "src/campana/crear/panel.ts",
+    "a": 1179,
+    "d": 0
+   },
+   {
+    "f": "src/campana/crear/redes.test.ts",
+    "a": 130,
+    "d": 0
+   },
+   {
+    "f": "src/campana/crear/redes.ts",
+    "a": 105,
+    "d": 0
+   },
+   {
+    "f": "src/campana/cuentas-de-prueba.ts",
+    "a": 9,
+    "d": 0
+   },
+   {
+    "f": "src/campana/demostracion.ts",
+    "a": 84,
+    "d": 0
+   },
+   {
+    "f": "src/campana/ejemplo.ts",
+    "a": 42,
+    "d": 0
+   },
+   {
+    "f": "src/campana/en-curso.test.ts",
+    "a": 302,
+    "d": 0
+   },
+   {
+    "f": "src/campana/en-curso.ts",
+    "a": 240,
+    "d": 0
+   },
+   {
+    "f": "src/campana/enlace.test.ts",
+    "a": 48,
+    "d": 0
+   },
+   {
+    "f": "src/campana/enlace.ts",
+    "a": 38,
+    "d": 0
+   },
+   {
+    "f": "src/campana/festejo.test.ts",
+    "a": 75,
+    "d": 0
+   },
+   {
+    "f": "src/campana/festejo.ts",
+    "a": 71,
+    "d": 0
+   },
+   {
+    "f": "src/campana/formato.test.ts",
+    "a": 126,
+    "d": 0
+   },
+   {
+    "f": "src/campana/formato.ts",
+    "a": 72,
+    "d": 0
+   },
+   {
+    "f": "src/campana/invitada.test.ts",
+    "a": 152,
+    "d": 0
+   },
+   {
+    "f": "src/campana/invitada.ts",
+    "a": 85,
+    "d": 0
+   },
+   {
+    "f": "src/campana/lista.test.ts",
+    "a": 110,
+    "d": 0
+   },
+   {
+    "f": "src/campana/lista.ts",
+    "a": 51,
+    "d": 0
+   },
+   {
+    "f": "src/campana/memoria.test.ts",
+    "a": 90,
+    "d": 0
+   },
+   {
+    "f": "src/campana/memoria.ts",
+    "a": 84,
+    "d": 0
+   },
+   {
+    "f": "src/campana/modelo.test.ts",
+    "a": 445,
+    "d": 0
+   },
+   {
+    "f": "src/campana/modelo.ts",
+    "a": 282,
+    "d": 0
+   },
+   {
+    "f": "src/campana/palabras.test.ts",
+    "a": 122,
+    "d": 0
+   },
+   {
+    "f": "src/campana/participar.test.ts",
+    "a": 566,
+    "d": 0
+   },
+   {
+    "f": "src/campana/piezas.ts",
+    "a": 133,
+    "d": 0
+   },
+   {
+    "f": "src/campana/previa.test.ts",
+    "a": 278,
+    "d": 0
+   },
+   {
+    "f": "src/campana/previa.ts",
+    "a": 301,
+    "d": 0
+   },
+   {
+    "f": "src/campana/puente.test.ts",
+    "a": 24,
+    "d": 0
+   },
+   {
+    "f": "src/campana/puente.ts",
+    "a": 198,
+    "d": 0
+   },
+   {
+    "f": "src/campana/sesion.test.ts",
+    "a": 542,
+    "d": 0
+   },
+   {
+    "f": "src/campana/sesion.ts",
+    "a": 255,
+    "d": 0
+   },
+   {
+    "f": "src/campana/sustituir.ts",
+    "a": 12,
+    "d": 0
+   },
+   {
+    "f": "src/campana/textos-crear.test.ts",
+    "a": 148,
+    "d": 0
+   },
+   {
+    "f": "src/campana/textos-crear.ts",
+    "a": 261,
+    "d": 0
+   },
+   {
+    "f": "src/campana/textos-sala.test.ts",
+    "a": 73,
+    "d": 0
+   },
+   {
+    "f": "src/campana/textos-sala.ts",
+    "a": 285,
+    "d": 0
+   },
+   {
+    "f": "src/campana/textos.ts",
+    "a": 256,
+    "d": 0
+   },
+   {
+    "f": "src/campana/vista-previa.css",
+    "a": 23,
+    "d": 0
+   },
+   {
+    "f": "src/campana/vista-previa.test.ts",
+    "a": 302,
+    "d": 0
+   },
+   {
+    "f": "src/campana/vista-previa.ts",
+    "a": 140,
+    "d": 0
+   },
+   {
+    "f": "src/campana/vista-protocolo.test.ts",
+    "a": 42,
+    "d": 0
+   },
+   {
+    "f": "src/campana/vista-protocolo.ts",
+    "a": 71,
+    "d": 0
+   },
+   {
+    "f": "src/comision-texto.test.ts",
+    "a": 246,
+    "d": 0
+   },
+   {
+    "f": "src/comision-texto.ts",
+    "a": 73,
+    "d": 0
+   },
+   {
+    "f": "src/compra-textos.test.ts",
+    "a": 21,
+    "d": 6
+   },
+   {
+    "f": "src/compra-textos.ts",
+    "a": 2,
+    "d": 0
+   },
+   {
+    "f": "src/costo-del-retiro-portada.test.ts",
+    "a": 263,
+    "d": 0
+   },
+   {
+    "f": "src/costo-del-retiro-portada.ts",
+    "a": 110,
+    "d": 0
+   },
+   {
+    "f": "src/costo-del-retiro.test.ts",
+    "a": 288,
+    "d": 0
+   },
+   {
+    "f": "src/costo-del-retiro.ts",
+    "a": 62,
+    "d": 0
+   },
+   {
+    "f": "src/crear-campana.test.ts",
+    "a": 120,
+    "d": 0
+   },
+   {
+    "f": "src/crear-campana.ts",
+    "a": 122,
+    "d": 0
+   },
+   {
+    "f": "src/enlace-corto-cambia.test.ts",
+    "a": 135,
+    "d": 0
+   },
+   {
+    "f": "src/enlace-corto.ts",
+    "a": 139,
+    "d": 5
+   },
+   {
+    "f": "src/equipos/equipos.css",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "src/games/en-hora.test.ts",
+    "a": 200,
+    "d": 0
+   },
+   {
+    "f": "src/games/en-hora.ts",
+    "a": 270,
+    "d": 0
+   },
+   {
+    "f": "src/games/llamas/carrera-show.test.ts",
+    "a": 18,
+    "d": 0
+   },
+   {
+    "f": "src/games/llamas/carrera-show.ts",
+    "a": 30,
+    "d": 0
+   },
+   {
+    "f": "src/games/llamas/carrera-textos.ts",
+    "a": 5,
+    "d": 4
+   },
+   {
+    "f": "src/games/pixi/cablecar-plan.ts",
+    "a": 15,
+    "d": 0
+   },
+   {
+    "f": "src/games/pixi/cablecar.ts",
+    "a": 2,
+    "d": 1
+   },
+   {
+    "f": "src/games/pixi/chovena-nino.ts",
+    "a": 17,
+    "d": 0
+   },
+   {
+    "f": "src/games/pixi/chovena-turnos.test.ts",
+    "a": 17,
+    "d": 0
+   },
+   {
+    "f": "src/games/pixi/chovena.ts",
+    "a": 12,
+    "d": 4
+   },
+   {
+    "f": "src/games/pixi/decisivo.test.ts",
+    "a": 258,
+    "d": 0
+   },
+   {
+    "f": "src/games/pixi/decisivo.ts",
+    "a": 47,
+    "d": 0
+   },
+   {
+    "f": "src/games/pixi/entrada-plan.ts",
+    "a": 25,
+    "d": 0
+   },
+   {
+    "f": "src/games/pixi/guajojo-plan.test.ts",
+    "a": 52,
+    "d": 0
+   },
+   {
+    "f": "src/games/pixi/guajojo-plan.ts",
+    "a": 25,
+    "d": 1
+   },
+   {
+    "f": "src/games/pixi/guajojo-textos.ts",
+    "a": 10,
+    "d": 2
+   },
+   {
+    "f": "src/games/pixi/kit/crear.ts",
+    "a": 2,
+    "d": 0
+   },
+   {
+    "f": "src/games/pixi/kit/tipos.ts",
+    "a": 6,
+    "d": 0
+   },
+   {
+    "f": "src/games/pixi/oruro.ts",
+    "a": 2,
+    "d": 1
+   },
+   {
+    "f": "src/games/pixi/pinata.ts",
+    "a": 4,
+    "d": 0
+   },
+   {
+    "f": "src/games/pixi/sapo-tiempos.ts",
+    "a": 14,
+    "d": 0
+   },
+   {
+    "f": "src/games/pixi/sapo.ts",
+    "a": 7,
+    "d": 1
+   },
+   {
+    "f": "src/games/pixi/stage.ts",
+    "a": 57,
+    "d": 4
+   },
+   {
+    "f": "src/games/pixi/toborochi-plan.test.ts",
+    "a": 35,
+    "d": 0
+   },
+   {
+    "f": "src/games/pixi/toborochi-plan.ts",
+    "a": 23,
+    "d": 0
+   },
+   {
+    "f": "src/games/pixi/toborochi-textos.ts",
+    "a": 19,
+    "d": 6
+   },
+   {
+    "f": "src/games/pixi/trompo.ts",
+    "a": 4,
+    "d": 0
+   },
+   {
+    "f": "src/games/pixi/wheel.ts",
+    "a": 4,
+    "d": 0
+   },
+   {
+    "f": "src/games/tres/enchufe.ts",
+    "a": 14,
+    "d": 1
+   },
+   {
+    "f": "src/i18n-modo-oficial.ts",
+    "a": 3,
+    "d": 3
+   },
+   {
+    "f": "src/i18n.test.ts",
+    "a": 10,
+    "d": 3
+   },
+   {
+    "f": "src/i18n.ts",
+    "a": 647,
+    "d": 269
+   },
+   {
+    "f": "src/lista.test.ts",
+    "a": 67,
+    "d": 0
+   },
+   {
+    "f": "src/lista.ts",
+    "a": 2,
+    "d": 1
+   },
+   {
+    "f": "src/logo-textos.test.ts",
+    "a": 2,
+    "d": 1
+   },
+   {
+    "f": "src/main.ts",
+    "a": 17,
+    "d": 17
+   },
+   {
+    "f": "src/marca-departamentos.test.ts",
+    "a": 131,
+    "d": 0
+   },
+   {
+    "f": "src/marca.css",
+    "a": 5,
+    "d": 0
+   },
+   {
+    "f": "src/marca.test.ts",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "src/modos/amigo.test.ts",
+    "a": 119,
+    "d": 0
+   },
+   {
+    "f": "src/modos/amigo.ts",
+    "a": 45,
+    "d": 0
+   },
+   {
+    "f": "src/modos/bandera.test.ts",
+    "a": 6,
+    "d": 0
+   },
+   {
+    "f": "src/modos/bandera.ts",
+    "a": 6,
+    "d": 2
+   },
+   {
+    "f": "src/modos/textos-del-pulido.test.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/navegador.test.ts",
+    "a": 5,
+    "d": 0
+   },
+   {
+    "f": "src/navegador.ts",
+    "a": 7,
+    "d": 4
+   },
+   {
+    "f": "src/pagina.ts",
+    "a": 7,
+    "d": 0
+   },
+   {
+    "f": "src/participaciones.test.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/participar.test.ts",
+    "a": 43,
+    "d": 0
+   },
+   {
+    "f": "src/participar.ts",
+    "a": 243,
+    "d": 0
+   },
+   {
+    "f": "src/precios.test.ts",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "src/reloj-de-la-ronda.test.ts",
+    "a": 261,
+    "d": 0
+   },
+   {
+    "f": "src/reloj-de-la-ronda.ts",
+    "a": 272,
+    "d": 0
+   },
+   {
+    "f": "src/revision-textos.test.ts",
+    "a": 6,
+    "d": 0
+   },
+   {
+    "f": "src/sala/cadena.test.ts",
+    "a": 117,
+    "d": 0
+   },
+   {
+    "f": "src/sala/campana-alta.test.ts",
+    "a": 193,
+    "d": 0
+   },
+   {
+    "f": "src/sala/campana-cliente-sala.test.ts",
+    "a": 217,
+    "d": 0
+   },
+   {
+    "f": "src/sala/campana-cliente.test.ts",
+    "a": 455,
+    "d": 0
+   },
+   {
+    "f": "src/sala/campana-correo.test.ts",
+    "a": 454,
+    "d": 0
+   },
+   {
+    "f": "src/sala/campana-creacion.test.ts",
+    "a": 102,
+    "d": 0
+   },
+   {
+    "f": "src/sala/campana-cupos.test.ts",
+    "a": 200,
+    "d": 0
+   },
+   {
+    "f": "src/sala/campana-evento.test.ts",
+    "a": 188,
+    "d": 0
+   },
+   {
+    "f": "src/sala/campana-fichas.test.ts",
+    "a": 277,
+    "d": 0
+   },
+   {
+    "f": "src/sala/campana-firmada.test.ts",
+    "a": 219,
+    "d": 0
+   },
+   {
+    "f": "src/sala/campana-firmar.test.ts",
+    "a": 263,
+    "d": 0
+   },
+   {
+    "f": "src/sala/campana-google.test.ts",
+    "a": 153,
+    "d": 0
+   },
+   {
+    "f": "src/sala/campana-heredadas.test.ts",
+    "a": 193,
+    "d": 0
+   },
+   {
+    "f": "src/sala/campana-llave-prueba.test.ts",
+    "a": 155,
+    "d": 0
+   },
+   {
+    "f": "src/sala/campana-org-puente.test.ts",
+    "a": 243,
+    "d": 0
+   },
+   {
+    "f": "src/sala/campana-org.test.ts",
+    "a": 350,
+    "d": 0
+   },
+   {
+    "f": "src/sala/campana-org.ts",
+    "a": 622,
+    "d": 0
+   },
+   {
+    "f": "src/sala/campana-quitar.test.ts",
+    "a": 201,
+    "d": 0
+   },
+   {
+    "f": "src/sala/campana-rechazos.test.ts",
+    "a": 212,
+    "d": 0
+   },
+   {
+    "f": "src/sala/campana-reingreso.test.ts",
+    "a": 144,
+    "d": 0
+   },
+   {
+    "f": "src/sala/campana-sellar.test.ts",
+    "a": 292,
+    "d": 0
+   },
+   {
+    "f": "src/sala/campana-una-persona.test.ts",
+    "a": 110,
+    "d": 0
+   },
+   {
+    "f": "src/sala/campana.ts",
+    "a": 319,
+    "d": 0
+   },
+   {
+    "f": "src/sala/cifra.ts",
+    "a": 27,
+    "d": 0
+   },
+   {
+    "f": "src/sala/cliente.ts",
+    "a": 7,
+    "d": 5
+   },
+   {
+    "f": "src/sala/cloudflare-falso.ts",
+    "a": 12,
+    "d": 0
+   },
+   {
+    "f": "src/sala/correo.test.ts",
+    "a": 613,
+    "d": 0
+   },
+   {
+    "f": "src/sala/fetch-falso.ts",
+    "a": 46,
+    "d": 0
+   },
+   {
+    "f": "src/sala/mundo-sala.ts",
+    "a": 299,
+    "d": 0
+   },
+   {
+    "f": "src/sala/nombres.test.ts",
+    "a": 130,
+    "d": 0
+   },
+   {
+    "f": "src/sala/pagina.test.ts",
+    "a": 244,
+    "d": 0
+   },
+   {
+    "f": "src/sala/probar.test.ts",
+    "a": 38,
+    "d": 0
+   },
+   {
+    "f": "src/sala/sala.test.ts",
+    "a": 135,
+    "d": 10
+   },
+   {
+    "f": "src/sala/topes-equipos.test.ts",
+    "a": 111,
+    "d": 5
+   }
+  ]
+ },
+ "5c7166c084ca20052ba926eda53d1d6a1ae0d7c6": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-16T05:19:12Z",
+  "message": "Otro toque en el botón que está entrando no empieza otra entrada",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/ui/entrar-terminando-ui.test.ts",
+    "a": 16,
+    "d": 0
+   },
+   {
+    "f": "src/ui/wallet-ui.ts",
+    "a": 5,
+    "d": 0
+   }
+  ]
+ },
+ "125e070ea26d1c9dd36ef6c065f6f497eab808f4": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-16T05:11:54Z",
+  "message": "Entrar con Google dos veces a la vez se suma y retomar no borra la marca",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/stellar/wallet-pollar-sesion.test.ts",
+    "a": 178,
+    "d": 2
+   },
+   {
+    "f": "src/stellar/wallet-pollar.ts",
+    "a": 19,
+    "d": 2
+   }
+  ]
+ },
+ "aa1d34510f88d0e4ed35c1f08df0370267573892": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-16T05:11:20Z",
+  "message": "El contador de la ventana de Google suma el plazo vencido y el SDK mudo",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/contar.test.ts",
+    "a": 2,
+    "d": 0
+   },
+   {
+    "f": "src/contar.ts",
+    "a": 2,
+    "d": 1
+   },
+   {
+    "f": "src/stellar/wallet-pollar-sesion.test.ts",
+    "a": 4,
+    "d": 0
+   },
+   {
+    "f": "src/stellar/wallet-pollar.ts",
+    "a": 5,
+    "d": 1
+   },
+   {
+    "f": "workers/enlaces/README.md",
+    "a": 3,
+    "d": 1
+   },
+   {
+    "f": "workers/enlaces/src/conteo.test.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "workers/enlaces/src/conteo.ts",
+    "a": 4,
+    "d": 2
+   }
+  ]
+ },
+ "30f8e007827ae178e99477e1038acd215f207aef": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-16T05:10:31Z",
+  "message": "El registro dice Retomando tu cuenta solo si hay algo que retomar",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/equipos-registro.ts",
+    "a": 10,
+    "d": 1
+   },
+   {
+    "f": "src/equipos/registro.test.ts",
+    "a": 15,
+    "d": 0
+   },
+   {
+    "f": "src/equipos/registro.ts",
+    "a": 8,
+    "d": 2
+   }
+  ]
+ },
+ "c2ef865e6a03154e8731dcae67309ea6f79842e0": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-16T05:10:07Z",
+  "message": "Cancelar la entrada con Google deja a la persona afuera",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/stellar/wallet-pollar-sesion.test.ts",
+    "a": 55,
+    "d": 1
+   },
+   {
+    "f": "src/stellar/wallet-pollar.ts",
+    "a": 22,
+    "d": 4
+   },
+   {
+    "f": "src/ui/entrar-terminando-ui.test.ts",
+    "a": 27,
+    "d": 1
+   }
+  ]
+ },
+ "43bceee153079cbcdf272e51a8fb5f6ea4dd571c": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-16T05:09:22Z",
+  "message": "Terminando de entrar se avisa recién a los 2,5 segundos del cierre",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/stellar/wallet-pollar-sesion.test.ts",
+    "a": 24,
+    "d": 3
+   },
+   {
+    "f": "src/stellar/wallet-pollar.ts",
+    "a": 25,
+    "d": 8
+   },
+   {
+    "f": "src/ui/entrar-terminando-ui.test.ts",
+    "a": 2,
+    "d": 1
+   }
+  ]
+ },
+ "f53789de877fe4ff907975170d2c52cbcebff2d8": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-16T05:07:52Z",
+  "message": "En la portada se puede cancelar mientras se termina de entrar",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/main.ts",
+    "a": 4,
+    "d": 1
+   },
+   {
+    "f": "src/ui/cancelar-en-portada.test.ts",
+    "a": 107,
+    "d": 0
+   },
+   {
+    "f": "src/ui/cancelar-en-portada.ts",
+    "a": 78,
+    "d": 0
+   },
+   {
+    "f": "src/ui/entrar-terminando-ui.test.ts",
+    "a": 17,
+    "d": 0
+   },
+   {
+    "f": "src/ui/wallet-ui.ts",
+    "a": 5,
+    "d": 0
+   }
+  ]
+ },
+ "f2a7bd49af11c9179943129020bb78159b1ffc4e": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-16T05:07:07Z",
+  "message": "Terminando de entrar se anuncia y el foco pasa a Cancelar",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/ui/entrar-terminando-ui.test.ts",
+    "a": 30,
+    "d": 0
+   },
+   {
+    "f": "src/ui/wallet-ui.ts",
+    "a": 22,
+    "d": 1
+   }
+  ]
+ },
+ "8de76c67c56d3172a7e1487a40afd71f19471cfe": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-16T05:06:23Z",
+  "message": "La puerta no queda en Conectando al cancelar desde la ventana",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/ui/entrar-terminando-ui.test.ts",
+    "a": 27,
+    "d": 0
+   },
+   {
+    "f": "src/ui/wallet-ui.ts",
+    "a": 2,
+    "d": 1
+   }
+  ]
+ },
+ "75a097f0244514a1f3d57798b76b20973f9dbb24": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-16T04:14:57Z",
+  "message": "El contador anónimo suma la ventana de Google cerrada y la entrada tardía",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/contar.test.ts",
+    "a": 2,
+    "d": 0
+   },
+   {
+    "f": "src/contar.ts",
+    "a": 9,
+    "d": 0
+   },
+   {
+    "f": "src/stellar/wallet-pollar-sesion.test.ts",
+    "a": 14,
+    "d": 0
+   },
+   {
+    "f": "src/stellar/wallet-pollar.ts",
+    "a": 26,
+    "d": 8
+   },
+   {
+    "f": "workers/enlaces/README.md",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "workers/enlaces/src/conteo.test.ts",
+    "a": 3,
+    "d": 0
+   },
+   {
+    "f": "workers/enlaces/src/conteo.ts",
+    "a": 6,
+    "d": 0
+   }
+  ]
+ },
+ "92117591c652039c6bd99f74278698178c2354a3": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-16T04:11:44Z",
+  "message": "Quien entra con Google desde el registro o al retomar queda adentro",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/equipos-registro.ts",
+    "a": 7,
+    "d": 3
+   },
+   {
+    "f": "src/equipos/registro.ts",
+    "a": 3,
+    "d": 1
+   },
+   {
+    "f": "src/equipos/sesion.test.ts",
+    "a": 39,
+    "d": 4
+   },
+   {
+    "f": "src/equipos/sesion.ts",
+    "a": 19,
+    "d": 2
+   },
+   {
+    "f": "src/equipos/textos.ts",
+    "a": 2,
+    "d": 0
+   },
+   {
+    "f": "src/ui/entrar-terminando-ui.test.ts",
+    "a": 17,
+    "d": 0
+   },
+   {
+    "f": "src/ui/wallet-ui.ts",
+    "a": 3,
+    "d": 0
+   }
+  ]
+ },
+ "c076c48655d0494e8dd215ae2dd4cffead7640d0": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-16T04:10:12Z",
+  "message": "La puerta dice Terminando de entrar y deja cancelar la espera",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/i18n.ts",
+    "a": 3,
+    "d": 0
+   },
+   {
+    "f": "src/main.ts",
+    "a": 5,
+    "d": 2
+   },
+   {
+    "f": "src/stellar/wallet-pollar-sesion.test.ts",
+    "a": 43,
+    "d": 0
+   },
+   {
+    "f": "src/stellar/wallet-pollar.ts",
+    "a": 27,
+    "d": 4
+   },
+   {
+    "f": "src/ui/cuenta-chip.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/ui/cuenta-estado.ts",
+    "a": 4,
+    "d": 3
+   },
+   {
+    "f": "src/ui/entrar-terminando-ui.test.ts",
+    "a": 182,
+    "d": 0
+   },
+   {
+    "f": "src/ui/wallet-ui.ts",
+    "a": 63,
+    "d": 9
+   }
+  ]
+ },
+ "2dd4dfc5b4be6eed38e221dd417a5a1da4b962cd": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-16T04:06:28Z",
+  "message": "Entrar con Google espera al ingreso en camino y no corta a los 6 s",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/stellar/wallet-pollar-sesion.test.ts",
+    "a": 189,
+    "d": 11
+   },
+   {
+    "f": "src/stellar/wallet-pollar.ts",
+    "a": 119,
+    "d": 14
+   }
+  ]
  }
 }
