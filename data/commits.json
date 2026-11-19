@@ -179905,5 +179905,3140 @@
     "d": 21
    }
   ]
+ },
+ "5a6e2f0a2d2c992e059f62199741498a8384e7b0": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "GuidoSV7",
+  "date": "2026-11-19T04:49:40Z",
+  "message": "Merge pull request #10 from nema1502/guido/musica-margen",
+  "parents": 2,
+  "files": [
+   {
+    "f": "docs/juegos.md",
+    "a": 2,
+    "d": 0
+   },
+   {
+    "f": "src/music-margen.test.ts",
+    "a": 72,
+    "d": 0
+   },
+   {
+    "f": "src/music-margen.ts",
+    "a": 23,
+    "d": 0
+   },
+   {
+    "f": "src/music.ts",
+    "a": 14,
+    "d": 2
+   }
+  ]
+ },
+ "33645272af0c6d891884bc8e1522bfcc5030bf5e": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "GuidoSV7",
+  "date": "2026-11-19T03:55:04Z",
+  "message": "Merge remote-tracking branch 'origin/main' into musica-margen-v2",
+  "parents": 2,
+  "files": [
+   {
+    "f": ".env.example",
+    "a": 47,
+    "d": 3
+   },
+   {
+    "f": ".gitattributes",
+    "a": 6,
+    "d": 0
+   },
+   {
+    "f": ".github/workflows/release.yml",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": ".github/workflows/vigilar-portero.yml",
+    "a": 113,
+    "d": 0
+   },
+   {
+    "f": ".github/workflows/vigilar-red.yml",
+    "a": 3,
+    "d": 1
+   },
+   {
+    "f": ".gitignore",
+    "a": 9,
+    "d": 0
+   },
+   {
+    "f": "README.es.md",
+    "a": 65,
+    "d": 34
+   },
+   {
+    "f": "README.md",
+    "a": 65,
+    "d": 34
+   },
+   {
+    "f": "como-funciona.html",
+    "a": 5,
+    "d": 5
+   },
+   {
+    "f": "crear-campana.html",
+    "a": 63,
+    "d": 0
+   },
+   {
+    "f": "docs/amenazas.md",
+    "a": 2,
+    "d": 1
+   },
+   {
+    "f": "docs/architecture.md",
+    "a": 33,
+    "d": 9
+   },
+   {
+    "f": "docs/capturas/readme/hero-es.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/readme/hero.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/readme/importar-es.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/readme/importar.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/readme/modo-hoja-es.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/readme/modo-hoja.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/readme/partidas-es.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/readme/partidas.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/readme/resultado-celular-es.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/readme/resultado-celular.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/readme/verificar-es.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/capturas/readme/verificar.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "docs/cuentas-internas.json",
+    "a": 12,
+    "d": 0
+   },
+   {
+    "f": "docs/deployments.md",
+    "a": 42,
+    "d": 9
+   },
+   {
+    "f": "docs/epics.md",
+    "a": 6,
+    "d": 6
+   },
+   {
+    "f": "docs/ganador-altura.md",
+    "a": 139,
+    "d": 0
+   },
+   {
+    "f": "docs/juegos.md",
+    "a": 97,
+    "d": 4
+   },
+   {
+    "f": "docs/juegos/autos.md",
+    "a": 62,
+    "d": 0
+   },
+   {
+    "f": "docs/juegos/bolillas.md",
+    "a": 59,
+    "d": 0
+   },
+   {
+    "f": "docs/juegos/carrera.md",
+    "a": 82,
+    "d": 11
+   },
+   {
+    "f": "docs/juegos/sapo.md",
+    "a": 3,
+    "d": 3
+   },
+   {
+    "f": "docs/juegos/teleferico.md",
+    "a": 58,
+    "d": 15
+   },
+   {
+    "f": "docs/marca.md",
+    "a": 12,
+    "d": 9
+   },
+   {
+    "f": "docs/metricas/README.md",
+    "a": 6,
+    "d": 6
+   },
+   {
+    "f": "docs/operacion.md",
+    "a": 596,
+    "d": 43
+   },
+   {
+    "f": "docs/prd.md",
+    "a": 6,
+    "d": 6
+   },
+   {
+    "f": "docs/premios.md",
+    "a": 3,
+    "d": 3
+   },
+   {
+    "f": "docs/threat-model.en.md",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "docs/ux.md",
+    "a": 163,
+    "d": 21
+   },
+   {
+    "f": "equipos.html",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "index.html",
+    "a": 110,
+    "d": 63
+   },
+   {
+    "f": "juegos.html",
+    "a": 5,
+    "d": 5
+   },
+   {
+    "f": "marca.html",
+    "a": 131,
+    "d": 19
+   },
+   {
+    "f": "muestras/llama.html",
+    "a": 19,
+    "d": 0
+   },
+   {
+    "f": "package.json",
+    "a": 2,
+    "d": 0
+   },
+   {
+    "f": "participar.html",
+    "a": 66,
+    "d": 0
+   },
+   {
+    "f": "precios.html",
+    "a": 34,
+    "d": 4
+   },
+   {
+    "f": "public/juegos/chovena-light.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/chovena.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/guajojo-light.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/guajojo.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/oruro-light.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/oruro.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/pinata-light.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/pinata.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/portada/chovena-light.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/portada/chovena.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/portada/guajojo-light.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/portada/guajojo.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/portada/oruro-light.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/portada/oruro.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/portada/pinata-light.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/portada/pinata.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/portada/race-light.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/portada/race.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/portada/sapo-light.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/portada/sapo.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/portada/teleferico-light.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/portada/teleferico.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/portada/toborochi-light.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/portada/toborochi.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/portada/trompo-light.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/portada/trompo.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/portada/wheel-light.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/portada/wheel.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/race-light.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/race.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/sapo-light.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/sapo.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/selector/chovena-light.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/selector/chovena.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/selector/guajojo-light.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/selector/guajojo.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/selector/oruro-light.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/selector/oruro.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/selector/pinata-light.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/selector/pinata.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/selector/race-light.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/selector/race.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/selector/sapo-light.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/selector/sapo.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/selector/teleferico-light.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/selector/teleferico.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/selector/toborochi-light.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/selector/toborochi.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/selector/trompo-light.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/selector/trompo.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/selector/wheel-light.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/selector/wheel.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/teleferico-light.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/teleferico.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/toborochi-light.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/toborochi.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/trompo-light.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/trompo.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/wheel-light.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/juegos/wheel.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/coleccion/tinkazo-stickers.zip",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/departamentos/beni-capiguara.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/departamentos/beni-mamore.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/departamentos/beni-paraba.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/departamentos/beni-victoria.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/departamentos/chuquisaca-chocolate.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/departamentos/chuquisaca-dino.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/departamentos/chuquisaca-sucre.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/departamentos/chuquisaca-tarabuco.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/departamentos/cochabamba-charango.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/departamentos/cochabamba-llajta.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/departamentos/cochabamba-llajua.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/departamentos/cochabamba-silpancho.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/departamentos/cochabamba-tunari.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/departamentos/frases.txt",
+    "a": 117,
+    "d": 0
+   },
+   {
+    "f": "public/marca/departamentos/hojas/hoja-a3-todos.pdf",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/departamentos/hojas/hoja-a3-todos.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/departamentos/hojas/hoja-a4-litoral.pdf",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/departamentos/hojas/hoja-a4-litoral.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/departamentos/hojas/hoja-a4-occidente.pdf",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/departamentos/hojas/hoja-a4-occidente.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/departamentos/hojas/hoja-a4-oriente.pdf",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/departamentos/hojas/hoja-a4-oriente.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/departamentos/hojas/hoja-a4-postales-tinku.pdf",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/departamentos/hojas/hoja-a4-postales-tinku.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/departamentos/hojas/hoja-a4-tiernos.pdf",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/departamentos/hojas/hoja-a4-tiernos.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/departamentos/hojas/hoja-a4-valles.pdf",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/departamentos/hojas/hoja-a4-valles.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/departamentos/hojas/hojas.json",
+    "a": 195,
+    "d": 0
+   },
+   {
+    "f": "public/marca/departamentos/lapaz-api.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/departamentos/lapaz-cebra.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/departamentos/lapaz-illimani.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/departamentos/lapaz-totora.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/departamentos/litoral-mar.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/departamentos/litoral-postal.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/departamentos/oruro-carnaval.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/departamentos/oruro-quinua.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/departamentos/oruro-quirquincho.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/departamentos/oruro-sajama.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/departamentos/pando-asai.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/departamentos/pando-castana.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/departamentos/pando-selva.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/departamentos/pando-tucan.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/departamentos/potosi-arbol.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/departamentos/potosi-flamencos.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/departamentos/potosi-uyuni.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/departamentos/potosi-vales.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/departamentos/santacruz-achachairu.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/departamentos/santacruz-cunape.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/departamentos/santacruz-elay.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/departamentos/santacruz-tajibo.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/departamentos/tarija-blanqueada.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/departamentos/tarija-churo.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/departamentos/tarija-sanjacinto.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/departamentos/tarija-violin.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/departamentos/tierno-jucumari.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/departamentos/tierno-kantuta.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/departamentos/tierno-patuju.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/departamentos/tierno-perezoso.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/departamentos/tinku-montera.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/departamentos/tinku-pareja.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/qr/tinkazo-qr.zip",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/textos-sponsor.txt",
+    "a": 4,
+    "d": 4
+   },
+   {
+    "f": "public/marca/tinkazo-kit-marca.zip",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/tinkazo-kit-sponsor.zip",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/sitemap.xml",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "public/verificado.html",
+    "a": 86,
+    "d": 0
+   },
+   {
+    "f": "ruleta-de-nombres.html",
+    "a": 3,
+    "d": 3
+   },
+   {
+    "f": "scripts/audit-delatores.mjs",
+    "a": 19,
+    "d": 13
+   },
+   {
+    "f": "scripts/audit-detalles.mjs",
+    "a": 17,
+    "d": 5
+   },
+   {
+    "f": "scripts/audit-espectador.mjs",
+    "a": 402,
+    "d": 0
+   },
+   {
+    "f": "scripts/audit-espera.mjs",
+    "a": 4,
+    "d": 2
+   },
+   {
+    "f": "scripts/audit-flujo.mjs",
+    "a": 25,
+    "d": 7
+   },
+   {
+    "f": "scripts/audit-ganador-altura.mjs",
+    "a": 174,
+    "d": 0
+   },
+   {
+    "f": "scripts/audit-mezcla.mjs",
+    "a": 45,
+    "d": 10
+   },
+   {
+    "f": "scripts/audit-modos.mjs",
+    "a": 391,
+    "d": 28
+   },
+   {
+    "f": "scripts/audit-primer-sorteo.mjs",
+    "a": 6,
+    "d": 4
+   },
+   {
+    "f": "scripts/audit-solidos.mjs",
+    "a": 230,
+    "d": 0
+   },
+   {
+    "f": "scripts/audit-sound.mjs",
+    "a": 18,
+    "d": 2
+   },
+   {
+    "f": "scripts/audit-tacto.mjs",
+    "a": 31,
+    "d": 5
+   },
+   {
+    "f": "scripts/audit-ui.mjs",
+    "a": 18,
+    "d": 17
+   },
+   {
+    "f": "scripts/campana-comision.mjs",
+    "a": 364,
+    "d": 0
+   },
+   {
+    "f": "scripts/campana-comision.test.mjs",
+    "a": 317,
+    "d": 0
+   },
+   {
+    "f": "scripts/campana-firmar.mjs",
+    "a": 211,
+    "d": 0
+   },
+   {
+    "f": "scripts/check-escritura.mjs",
+    "a": 102,
+    "d": 0
+   },
+   {
+    "f": "scripts/check-glosario.mjs",
+    "a": 5,
+    "d": 2
+   },
+   {
+    "f": "scripts/check-paginas.mjs",
+    "a": 21,
+    "d": 9
+   },
+   {
+    "f": "scripts/check-renta.mjs",
+    "a": 16,
+    "d": 7
+   },
+   {
+    "f": "scripts/check-tema-capturas.mjs",
+    "a": 200,
+    "d": 0
+   },
+   {
+    "f": "scripts/cupones.mjs",
+    "a": 640,
+    "d": 0
+   },
+   {
+    "f": "scripts/cupones.test.mjs",
+    "a": 639,
+    "d": 0
+   },
+   {
+    "f": "scripts/deploy.sh",
+    "a": 226,
+    "d": 11
+   },
+   {
+    "f": "scripts/ensayo-entrada-oficial.mjs",
+    "a": 369,
+    "d": 0
+   },
+   {
+    "f": "scripts/generar-marca.mjs",
+    "a": 18,
+    "d": 18
+   },
+   {
+    "f": "scripts/lib/correr-con-tope.mjs",
+    "a": 39,
+    "d": 0
+   },
+   {
+    "f": "scripts/lib/correr-con-tope.test.mjs",
+    "a": 27,
+    "d": 0
+   },
+   {
+    "f": "scripts/lib/delatores-carrera.mjs",
+    "a": 528,
+    "d": 8
+   },
+   {
+    "f": "scripts/lib/delatores-carrera.test.mjs",
+    "a": 621,
+    "d": 14
+   },
+   {
+    "f": "scripts/lib/delatores-senales.mjs",
+    "a": 24,
+    "d": 1
+   },
+   {
+    "f": "scripts/lib/delatores-senales.test.mjs",
+    "a": 32,
+    "d": 1
+   },
+   {
+    "f": "scripts/lib/delatores.mjs",
+    "a": 22,
+    "d": 0
+   },
+   {
+    "f": "scripts/lib/delatores.test.mjs",
+    "a": 24,
+    "d": 1
+   },
+   {
+    "f": "scripts/lib/deploy-sh.test.mjs",
+    "a": 430,
+    "d": 0
+   },
+   {
+    "f": "scripts/lib/ensayo-oficial.mjs",
+    "a": 292,
+    "d": 0
+   },
+   {
+    "f": "scripts/lib/ensayo-oficial.test.mjs",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "scripts/lib/entrar.mjs",
+    "a": 38,
+    "d": 0
+   },
+   {
+    "f": "scripts/lib/entrar.test.mjs",
+    "a": 175,
+    "d": 0
+   },
+   {
+    "f": "scripts/lib/escritura-exclusiones.json",
+    "a": 43,
+    "d": 0
+   },
+   {
+    "f": "scripts/lib/escritura.mjs",
+    "a": 626,
+    "d": 0
+   },
+   {
+    "f": "scripts/lib/escritura.test.mjs",
+    "a": 429,
+    "d": 0
+   },
+   {
+    "f": "scripts/lib/freighter-falsa.mjs",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "scripts/lib/ganador-altura-comprobaciones.mjs",
+    "a": 99,
+    "d": 0
+   },
+   {
+    "f": "scripts/lib/ganador-altura-esperas.mjs",
+    "a": 63,
+    "d": 0
+   },
+   {
+    "f": "scripts/lib/ganador-altura-opciones.mjs",
+    "a": 85,
+    "d": 0
+   },
+   {
+    "f": "scripts/lib/ganador-altura-transicion.mjs",
+    "a": 325,
+    "d": 0
+   },
+   {
+    "f": "scripts/lib/glosario-neutral.json",
+    "a": 4,
+    "d": 1
+   },
+   {
+    "f": "scripts/lib/metricas-cadena.mjs",
+    "a": 120,
+    "d": 1
+   },
+   {
+    "f": "scripts/lib/metricas-cadena.test.mjs",
+    "a": 225,
+    "d": 3
+   },
+   {
+    "f": "scripts/lib/modos-comprobaciones.mjs",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "scripts/lib/modos-comprobaciones.test.mjs",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "scripts/lib/palabras-prohibidas.json",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "scripts/lib/palabras.mjs",
+    "a": 6,
+    "d": 2
+   },
+   {
+    "f": "scripts/lib/prevuelo.mjs",
+    "a": 155,
+    "d": 0
+   },
+   {
+    "f": "scripts/lib/prevuelo.test.mjs",
+    "a": 201,
+    "d": 0
+   },
+   {
+    "f": "scripts/lib/renta.mjs",
+    "a": 47,
+    "d": 0
+   },
+   {
+    "f": "scripts/lib/renta.test.mjs",
+    "a": 77,
+    "d": 0
+   },
+   {
+    "f": "scripts/lib/revision-portero.d.mts",
+    "a": 39,
+    "d": 0
+   },
+   {
+    "f": "scripts/lib/revision-portero.mjs",
+    "a": 232,
+    "d": 0
+   },
+   {
+    "f": "scripts/lib/revision-portero.test.mjs",
+    "a": 160,
+    "d": 0
+   },
+   {
+    "f": "scripts/lib/solidos-carrera.mjs",
+    "a": 516,
+    "d": 0
+   },
+   {
+    "f": "scripts/lib/solidos-navegador.mjs",
+    "a": 107,
+    "d": 0
+   },
+   {
+    "f": "scripts/lib/solidos.mjs",
+    "a": 174,
+    "d": 0
+   },
+   {
+    "f": "scripts/lib/solidos.test.mjs",
+    "a": 263,
+    "d": 0
+   },
+   {
+    "f": "scripts/lib/vigilar-portero.mjs",
+    "a": 146,
+    "d": 0
+   },
+   {
+    "f": "scripts/lib/vigilar-portero.test.mjs",
+    "a": 811,
+    "d": 0
+   },
+   {
+    "f": "scripts/lib/vigilar-red-workflow.test.mjs",
+    "a": 281,
+    "d": 0
+   },
+   {
+    "f": "scripts/marca/coleccion.mjs",
+    "a": 4,
+    "d": 4
+   },
+   {
+    "f": "scripts/marca/departamentos.mjs",
+    "a": 251,
+    "d": 0
+   },
+   {
+    "f": "scripts/marca/departamentos/bolivia.mjs",
+    "a": 87,
+    "d": 0
+   },
+   {
+    "f": "scripts/marca/departamentos/comun.mjs",
+    "a": 198,
+    "d": 0
+   },
+   {
+    "f": "scripts/marca/departamentos/entrega.mjs",
+    "a": 94,
+    "d": 0
+   },
+   {
+    "f": "scripts/marca/departamentos/hojas.mjs",
+    "a": 210,
+    "d": 0
+   },
+   {
+    "f": "scripts/marca/departamentos/litoral.mjs",
+    "a": 213,
+    "d": 0
+   },
+   {
+    "f": "scripts/marca/departamentos/occidente.mjs",
+    "a": 913,
+    "d": 0
+   },
+   {
+    "f": "scripts/marca/departamentos/oriente.mjs",
+    "a": 950,
+    "d": 0
+   },
+   {
+    "f": "scripts/marca/departamentos/valles.mjs",
+    "a": 876,
+    "d": 0
+   },
+   {
+    "f": "scripts/marca/pincel.mjs",
+    "a": 503,
+    "d": 0
+   },
+   {
+    "f": "scripts/marca/qr-clave.mjs",
+    "a": 6,
+    "d": 6
+   },
+   {
+    "f": "scripts/marca/textos-sponsor.mjs",
+    "a": 4,
+    "d": 4
+   },
+   {
+    "f": "scripts/marca/videos/guiones.mjs",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "scripts/medir-cabecera-oficial.mjs",
+    "a": 94,
+    "d": 0
+   },
+   {
+    "f": "scripts/medir-panel-espera.mjs",
+    "a": 486,
+    "d": 0
+   },
+   {
+    "f": "scripts/medir-video.mjs",
+    "a": 110,
+    "d": 0
+   },
+   {
+    "f": "scripts/metricas-cadena.mjs",
+    "a": 94,
+    "d": 30
+   },
+   {
+    "f": "scripts/pagos-testnet.mjs",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "scripts/preflight-mainnet.mjs",
+    "a": 85,
+    "d": 44
+   },
+   {
+    "f": "scripts/probar-sala.mjs",
+    "a": 99,
+    "d": 17
+   },
+   {
+    "f": "scripts/probar-stand.mjs",
+    "a": 123,
+    "d": 24
+   },
+   {
+    "f": "seguridad.html",
+    "a": 4,
+    "d": 4
+   },
+   {
+    "f": "sorteo-para-eventos.html",
+    "a": 3,
+    "d": 3
+   },
+   {
+    "f": "sorteo-para-meetup.html",
+    "a": 43,
+    "d": 43
+   },
+   {
+    "f": "sorteo-verificable.html",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/alta-textos-con-cobro.test.ts",
+    "a": 203,
+    "d": 0
+   },
+   {
+    "f": "src/alta-textos-con-cobro.ts",
+    "a": 231,
+    "d": 0
+   },
+   {
+    "f": "src/alta-textos-cuenta.test.ts",
+    "a": 53,
+    "d": 0
+   },
+   {
+    "f": "src/alta-textos-cuenta.ts",
+    "a": 27,
+    "d": 0
+   },
+   {
+    "f": "src/alta-textos-pago.test.ts",
+    "a": 142,
+    "d": 0
+   },
+   {
+    "f": "src/alta-textos-pago.ts",
+    "a": 166,
+    "d": 0
+   },
+   {
+    "f": "src/alta-textos-paso.test.ts",
+    "a": 43,
+    "d": 0
+   },
+   {
+    "f": "src/alta-textos-paso.ts",
+    "a": 14,
+    "d": 0
+   },
+   {
+    "f": "src/alta-textos-sin-pago.test.ts",
+    "a": 109,
+    "d": 0
+   },
+   {
+    "f": "src/alta-textos-sin-pago.ts",
+    "a": 42,
+    "d": 0
+   },
+   {
+    "f": "src/alta-textos.test.ts",
+    "a": 122,
+    "d": 0
+   },
+   {
+    "f": "src/alta-textos.ts",
+    "a": 127,
+    "d": 0
+   },
+   {
+    "f": "src/analytics.test.ts",
+    "a": 5,
+    "d": 0
+   },
+   {
+    "f": "src/analytics.ts",
+    "a": 16,
+    "d": 4
+   },
+   {
+    "f": "src/arranque-del-show.test.ts",
+    "a": 82,
+    "d": 0
+   },
+   {
+    "f": "src/arranque-del-show.ts",
+    "a": 107,
+    "d": 0
+   },
+   {
+    "f": "src/boton-entrar-visible.test.ts",
+    "a": 32,
+    "d": 0
+   },
+   {
+    "f": "src/c.ts",
+    "a": 4,
+    "d": 1
+   },
+   {
+    "f": "src/campana/adentro.test.ts",
+    "a": 229,
+    "d": 0
+   },
+   {
+    "f": "src/campana/adentro.ts",
+    "a": 382,
+    "d": 0
+   },
+   {
+    "f": "src/campana/bandera.ts",
+    "a": 9,
+    "d": 0
+   },
+   {
+    "f": "src/campana/campana-css.test.ts",
+    "a": 163,
+    "d": 0
+   },
+   {
+    "f": "src/campana/campana-sala-css.test.ts",
+    "a": 186,
+    "d": 0
+   },
+   {
+    "f": "src/campana/campana-sala.css",
+    "a": 232,
+    "d": 0
+   },
+   {
+    "f": "src/campana/campana.css",
+    "a": 1075,
+    "d": 0
+   },
+   {
+    "f": "src/campana/carga.test.ts",
+    "a": 170,
+    "d": 0
+   },
+   {
+    "f": "src/campana/carga.ts",
+    "a": 60,
+    "d": 0
+   },
+   {
+    "f": "src/campana/celular.test.ts",
+    "a": 736,
+    "d": 0
+   }
+  ]
+ },
+ "8eb96c31360faac49b9e5b0df0caf4b9292f015c": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-18T23:26:08Z",
+  "message": "La prueba de los textos del modo oficial admite la portada con el costo",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/revision-textos.test.ts",
+    "a": 6,
+    "d": 0
+   }
+  ]
+ },
+ "c2aec1503dabd91dbd0e25e0bd0cd6901309efb8": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-18T22:54:49Z",
+  "message": "Prende los pagos del portero, el correo a quien gana y la portada",
+  "parents": 1,
+  "files": [
+   {
+    "f": "index.html",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/costo-del-retiro-portada.test.ts",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "src/seo.test.ts",
+    "a": 9,
+    "d": 0
+   },
+   {
+    "f": "workers/patrocinio/src/config.test.ts",
+    "a": 8,
+    "d": 8
+   },
+   {
+    "f": "workers/patrocinio/wrangler.toml",
+    "a": 3,
+    "d": 3
+   },
+   {
+    "f": "workers/sala/wrangler.toml",
+    "a": 1,
+    "d": 1
+   }
+  ]
+ },
+ "7234d8256d553493a0e024ff81ce1bd9ce0a20fa": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "GuidoSV7",
+  "date": "2026-11-10T04:32:32Z",
+  "message": "Integra main en el margen de la música",
+  "parents": 2,
+  "files": [
+   {
+    "f": ".env.example",
+    "a": 28,
+    "d": 0
+   },
+   {
+    "f": ".gitattributes",
+    "a": 2,
+    "d": 0
+   },
+   {
+    "f": ".github/workflows/metricas-cadena.yml",
+    "a": 83,
+    "d": 0
+   },
+   {
+    "f": ".github/workflows/reenviar-verificacion.yml",
+    "a": 11,
+    "d": 6
+   },
+   {
+    "f": "Cargo.lock",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "README.es.md",
+    "a": 24,
+    "d": 30
+   },
+   {
+    "f": "README.md",
+    "a": 30,
+    "d": 36
+   },
+   {
+    "f": "c.html",
+    "a": 0,
+    "d": 2
+   },
+   {
+    "f": "como-funciona.html",
+    "a": 17,
+    "d": 10
+   },
+   {
+    "f": "contracts/raffle/Cargo.toml",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "contracts/raffle/src/lib.rs",
+    "a": 28,
+    "d": 13
+   },
+   {
+    "f": "contracts/raffle/src/test.rs",
+    "a": 438,
+    "d": 2
+   },
+   {
+    "f": "contracts/raffle/test_snapshots/test/draw_emits_drawn_event.1.json",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "contracts/raffle/test_snapshots/test/draw_needs_no_authorization.1.json",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "contracts/raffle/test_snapshots/test/draw_only_once_and_only_existing_raffles.1.json",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "contracts/raffle/test_snapshots/test/draw_rejects_a_valid_point_that_is_not_the_round_signature.1.json",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "contracts/raffle/test_snapshots/test/draw_rejects_before_the_round_exists.1.json",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "contracts/raffle/test_snapshots/test/draw_rejects_the_signature_of_another_round.1.json",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "contracts/raffle/test_snapshots/test/draw_verifies_the_real_quicknet_signature_and_records_the_result.1.json",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "contracts/raffle/test_snapshots/test/draw_with_cap_winners_of_a_long_list_has_no_repeats.1.json",
+    "a": 2175,
+    "d": 0
+   },
+   {
+    "f": "contracts/raffle/test_snapshots/test/draw_with_cap_winners_of_cap_entries_is_a_full_permutation.1.json",
+    "a": 2175,
+    "d": 0
+   },
+   {
+    "f": "contracts/raffle/test_snapshots/test/extend_works_for_existing_raffles_only.1.json",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "contracts/raffle/test_snapshots/test/las_entradas_del_sorteo_viven_120_dias_y_extend_las_renueva_bajo_los_30.1.json",
+    "a": 337,
+    "d": 0
+   },
+   {
+    "f": "contracts/raffle/test_snapshots/test/seal_accepts_the_cap_and_rejects_one_more.1.json",
+    "a": 410,
+    "d": 0
+   },
+   {
+    "f": "contracts/raffle/test_snapshots/test/seal_assigns_sequential_ids_and_stores_the_raffle.1.json",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "contracts/raffle/test_snapshots/test/seal_emits_sealed_event.1.json",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "contracts/raffle/test_snapshots/test/seal_enforces_round_window.1.json",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "contracts/raffle/test_snapshots/test/seal_rejects_invalid_inputs.1.json",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "docs/amenazas.md",
+    "a": 2,
+    "d": 1
+   },
+   {
+    "f": "docs/architecture.md",
+    "a": 7,
+    "d": 7
+   },
+   {
+    "f": "docs/cuentas-internas.json",
+    "a": 17,
+    "d": 0
+   },
+   {
+    "f": "docs/deployments.md",
+    "a": 80,
+    "d": 6
+   },
+   {
+    "f": "docs/epics.md",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "docs/evento.md",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "docs/juegos.md",
+    "a": 41,
+    "d": 2
+   },
+   {
+    "f": "docs/juegos/carrera.md",
+    "a": 34,
+    "d": 5
+   },
+   {
+    "f": "docs/legal.md",
+    "a": 2,
+    "d": 0
+   },
+   {
+    "f": "docs/marca.md",
+    "a": 65,
+    "d": 9
+   },
+   {
+    "f": "docs/metricas/README.md",
+    "a": 77,
+    "d": 0
+   },
+   {
+    "f": "docs/metricas/totales-testnet.json",
+    "a": 2238,
+    "d": 0
+   },
+   {
+    "f": "docs/motores.md",
+    "a": 55,
+    "d": 1
+   },
+   {
+    "f": "docs/prd.md",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "docs/premios.md",
+    "a": 16,
+    "d": 0
+   },
+   {
+    "f": "docs/protocol.en.md",
+    "a": 7,
+    "d": 3
+   },
+   {
+    "f": "docs/protocolo.md",
+    "a": 7,
+    "d": 3
+   },
+   {
+    "f": "docs/ux.md",
+    "a": 29,
+    "d": 7
+   },
+   {
+    "f": "docs/vectors.json",
+    "a": 824,
+    "d": 0
+   },
+   {
+    "f": "equipos.html",
+    "a": 118,
+    "d": 0
+   },
+   {
+    "f": "evento.html",
+    "a": 0,
+    "d": 2
+   },
+   {
+    "f": "historia.html",
+    "a": 4,
+    "d": 4
+   },
+   {
+    "f": "index.html",
+    "a": 83,
+    "d": 86
+   },
+   {
+    "f": "juegos.html",
+    "a": 4,
+    "d": 4
+   },
+   {
+    "f": "lista.html",
+    "a": 0,
+    "d": 2
+   },
+   {
+    "f": "marca.html",
+    "a": 244,
+    "d": 48
+   },
+   {
+    "f": "package.json",
+    "a": 2,
+    "d": 1
+   },
+   {
+    "f": "precios.html",
+    "a": 19,
+    "d": 45
+   },
+   {
+    "f": "public/marca/coleccion/apthapi-en.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/coleccion/apthapi-es.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/coleccion/bolivia-en.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/coleccion/bolivia-es.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/coleccion/cacharpaya-en.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/coleccion/cacharpaya-es.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/coleccion/caravana-en.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/coleccion/caravana-es.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/coleccion/carrera-en.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/coleccion/carrera-es.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/coleccion/chovena-en.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/coleccion/chovena-es.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/coleccion/con-k-en.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/coleccion/con-k-es.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/coleccion/dev-404-en.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/coleccion/dev-404-es.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/coleccion/dev-commit.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/coleccion/dev-hola-en.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/coleccion/dev-hola-es.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/coleccion/dev-mi-llama-en.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/coleccion/dev-mi-llama-es.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/coleccion/dev-tests-en.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/coleccion/dev-tests-es.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/coleccion/entrada-en.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/coleccion/entrada-es.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/coleccion/frases.txt",
+    "a": 18,
+    "d": 6
+   },
+   {
+    "f": "public/marca/coleccion/guajojo-en.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/coleccion/guajojo-es.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/coleccion/hoja-a3-en.pdf",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/coleccion/hoja-a3-en.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/coleccion/hoja-a3-es.pdf",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/coleccion/hoja-a3-es.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/coleccion/hoja-a4-frases-en.pdf",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/coleccion/hoja-a4-frases-en.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/coleccion/hoja-a4-frases-es.pdf",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/coleccion/hoja-a4-frases-es.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/coleccion/hoja-a4-juegos-en.pdf",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/coleccion/hoja-a4-juegos-en.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/coleccion/hoja-a4-juegos-es.pdf",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/coleccion/hoja-a4-juegos-es.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/coleccion/hoja-a4-laptop-en.pdf",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/coleccion/hoja-a4-laptop-en.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/coleccion/hoja-a4-laptop-es.pdf",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/coleccion/hoja-a4-laptop-es.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/coleccion/llama-corazon-en.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/coleccion/llama-corazon-es.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/coleccion/llama-dormida-en.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/coleccion/llama-dormida-es.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/coleccion/llama-salio-en.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/coleccion/llama-salio-es.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/coleccion/pinata-en.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/coleccion/pinata-es.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/coleccion/ruleta-en.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/coleccion/ruleta-es.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/coleccion/sapo-en.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/coleccion/sapo-es.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/coleccion/sin-trampa-en.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/coleccion/sin-trampa-es.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/coleccion/tarija-en.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/coleccion/tarija-es.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/coleccion/tarija-laptop.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/coleccion/teleferico-en.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/coleccion/teleferico-es.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/coleccion/tinkazo-stickers-png.zip",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/coleccion/tinkazo-stickers.zip",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/coleccion/toborochi-en.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/coleccion/toborochi-es.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/coleccion/todos-adentro-en.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/coleccion/todos-adentro-es.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/coleccion/todos-lista-en.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/coleccion/todos-lista-es.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/coleccion/trompo-en.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/coleccion/trompo-es.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/coleccion/verificalo-en.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/coleccion/verificalo-es.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/devfest/qr-devfest-tarija-2026.svg",
+    "a": 5,
+    "d": 0
+   },
+   {
+    "f": "public/marca/qr/qr-comprobar-blanco.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/qr/qr-comprobar-blanco.svg",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "public/marca/qr/qr-demo-carrera-blanco.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/qr/qr-demo-carrera-blanco.svg",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "public/marca/qr/qr-etiqueta-amarilla.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/qr/qr-etiqueta-magenta.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/qr/qr-instagram-blanco.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/qr/qr-instagram-blanco.svg",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "public/marca/qr/qr-juegos-blanco.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/qr/qr-juegos-blanco.svg",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "public/marca/qr/qr-tarjeta-cuadrada-amarillo-en.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/qr/qr-tarjeta-cuadrada-amarillo-es.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/qr/qr-tarjeta-cuadrada-noche-en.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/qr/qr-tarjeta-cuadrada-noche-es.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/qr/qr-tarjeta-cuadrada-papel-en.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/qr/qr-tarjeta-cuadrada-papel-es.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/qr/qr-tarjeta-historia-amarillo-en.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/qr/qr-tarjeta-historia-amarillo-es.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/qr/qr-tarjeta-historia-noche-en.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/qr/qr-tarjeta-historia-noche-es.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/qr/qr-tarjeta-historia-papel-en.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/qr/qr-tarjeta-historia-papel-es.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/qr/qr-tinkazo-app-blanco.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/qr/qr-tinkazo-app-blanco.svg",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "public/marca/qr/qr-tinkazo-app-papel.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/qr/qr-tinkazo-app-papel.svg",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "public/marca/qr/qr-tinkazo-app-transparente.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/qr/qr-tinkazo-app-transparente.svg",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "public/marca/qr/tinkazo-qr.zip",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/redes-sponsor-banner-claro-en.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/redes-sponsor-banner-claro-es.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/redes-sponsor-banner-oscuro-en.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/redes-sponsor-banner-oscuro-es.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/redes-sponsor-historia-claro-en.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/redes-sponsor-historia-claro-es.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/redes-sponsor-historia-juegos-claro-en.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/redes-sponsor-historia-juegos-claro-es.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/redes-sponsor-historia-juegos-oscuro-en.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/redes-sponsor-historia-juegos-oscuro-es.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/redes-sponsor-historia-oscuro-en.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/redes-sponsor-historia-oscuro-es.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/redes-sponsor-linkedin-claro-en.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/redes-sponsor-linkedin-claro-es.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/redes-sponsor-linkedin-oscuro-en.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/redes-sponsor-linkedin-oscuro-es.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/redes-sponsor-panoramica-claro-en.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/redes-sponsor-panoramica-claro-es.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/redes-sponsor-panoramica-juegos-claro-en.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/redes-sponsor-panoramica-juegos-claro-es.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/redes-sponsor-panoramica-juegos-oscuro-en.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/redes-sponsor-panoramica-juegos-oscuro-es.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/redes-sponsor-panoramica-oscuro-en.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/redes-sponsor-panoramica-oscuro-es.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/redes-sponsor-post-claro-en.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/redes-sponsor-post-claro-es.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/redes-sponsor-post-juegos-claro-en.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/redes-sponsor-post-juegos-claro-es.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/redes-sponsor-post-juegos-oscuro-en.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/redes-sponsor-post-juegos-oscuro-es.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/redes-sponsor-post-oscuro-en.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/redes-sponsor-post-oscuro-es.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/redes-sponsor-x-claro-en.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/redes-sponsor-x-claro-es.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/redes-sponsor-x-oscuro-en.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/redes-sponsor-x-oscuro-es.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/rollup-100x200-en.pdf",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/rollup-100x200-en.svg",
+    "a": 96,
+    "d": 117
+   },
+   {
+    "f": "public/marca/rollup-100x200-es.pdf",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/rollup-100x200-es.svg",
+    "a": 96,
+    "d": 117
+   },
+   {
+    "f": "public/marca/rollup-85x200-en.pdf",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/rollup-85x200-en.svg",
+    "a": 96,
+    "d": 117
+   },
+   {
+    "f": "public/marca/rollup-85x200-es.pdf",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/rollup-85x200-es.svg",
+    "a": 96,
+    "d": 117
+   },
+   {
+    "f": "public/marca/space-apps/qr-space-apps-santa-cruz-2026.svg",
+    "a": 5,
+    "d": 0
+   },
+   {
+    "f": "public/marca/tinkazo-kit-impresos.zip",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/tinkazo-kit-sponsor.zip",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/vista-rollup-85x200-en.svg",
+    "a": 96,
+    "d": 117
+   },
+   {
+    "f": "public/marca/vista-rollup-85x200-es.svg",
+    "a": 96,
+    "d": 117
+   },
+   {
+    "f": "public/sitemap.xml",
+    "a": 5,
+    "d": 5
+   },
+   {
+    "f": "public/terceros/stellar/stellar-logo-blanco-511x128.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/terceros/stellar/stellar-logo-negro-511x128.webp",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "ruleta-de-nombres.html",
+    "a": 6,
+    "d": 6
+   },
+   {
+    "f": "scripts/audit-detalles.mjs",
+    "a": 65,
+    "d": 11
+   },
+   {
+    "f": "scripts/audit-encuadre.mjs",
+    "a": 52,
+    "d": 19
+   },
+   {
+    "f": "scripts/audit-flujo.mjs",
+    "a": 22,
+    "d": 6
+   },
+   {
+    "f": "scripts/audit-lavado.mjs",
+    "a": 307,
+    "d": 0
+   },
+   {
+    "f": "scripts/audit-mezcla.mjs",
+    "a": 132,
+    "d": 30
+   },
+   {
+    "f": "scripts/audit-modos.mjs",
+    "a": 813,
+    "d": 0
+   },
+   {
+    "f": "scripts/audit-sound.mjs",
+    "a": 4,
+    "d": 1
+   },
+   {
+    "f": "scripts/audit-tacto.mjs",
+    "a": 347,
+    "d": 0
+   },
+   {
+    "f": "scripts/audit-ui.mjs",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "scripts/capturas-3d.mjs",
+    "a": 13,
+    "d": 4
+   },
+   {
+    "f": "scripts/check-paginas.mjs",
+    "a": 67,
+    "d": 26
+   },
+   {
+    "f": "scripts/generar-marca.mjs",
+    "a": 17,
+    "d": 1
+   },
+   {
+    "f": "scripts/lib/browser.mjs",
+    "a": 10,
+    "d": 0
+   },
+   {
+    "f": "scripts/lib/contraste.mjs",
+    "a": 151,
+    "d": 0
+   },
+   {
+    "f": "scripts/lib/contraste.test.mjs",
+    "a": 132,
+    "d": 0
+   },
+   {
+    "f": "scripts/lib/delatores-carrera.mjs",
+    "a": 13,
+    "d": 1
+   },
+   {
+    "f": "scripts/lib/delatores-carrera.test.mjs",
+    "a": 20,
+    "d": 6
+   },
+   {
+    "f": "scripts/lib/delatores.mjs",
+    "a": 6,
+    "d": 4
+   },
+   {
+    "f": "scripts/lib/delatores.test.mjs",
+    "a": 10,
+    "d": 0
+   },
+   {
+    "f": "scripts/lib/drama-show.mjs",
+    "a": 328,
+    "d": 0
+   },
+   {
+    "f": "scripts/lib/drama-show.test.mjs",
+    "a": 225,
+    "d": 0
+   },
+   {
+    "f": "scripts/lib/escala-carrera.mjs",
+    "a": 137,
+    "d": 0
+   },
+   {
+    "f": "scripts/lib/escala-carrera.test.mjs",
+    "a": 128,
+    "d": 0
+   },
+   {
+    "f": "scripts/lib/final-carrera.mjs",
+    "a": 235,
+    "d": 0
+   },
+   {
+    "f": "scripts/lib/final-carrera.test.mjs",
+    "a": 200,
+    "d": 0
+   },
+   {
+    "f": "scripts/lib/medir-3d-motor.mjs",
+    "a": 70,
+    "d": 0
+   },
+   {
+    "f": "scripts/lib/medir-3d-motor.test.mjs",
+    "a": 72,
+    "d": 0
+   },
+   {
+    "f": "scripts/lib/metricas-cadena.mjs",
+    "a": 610,
+    "d": 0
+   },
+   {
+    "f": "scripts/lib/metricas-cadena.test.mjs",
+    "a": 271,
+    "d": 0
+   },
+   {
+    "f": "scripts/lib/mezcla-captura.mjs",
+    "a": 44,
+    "d": 0
+   },
+   {
+    "f": "scripts/lib/mezcla-captura.test.mjs",
+    "a": 46,
+    "d": 0
+   },
+   {
+    "f": "scripts/lib/modos-comprobaciones.mjs",
+    "a": 53,
+    "d": 0
+   },
+   {
+    "f": "scripts/lib/modos-comprobaciones.test.mjs",
+    "a": 55,
+    "d": 0
+   },
+   {
+    "f": "scripts/lib/palabras-prohibidas.json",
+    "a": 0,
+    "d": 7
+   },
+   {
+    "f": "scripts/lib/ram.mjs",
+    "a": 35,
+    "d": 0
+   },
+   {
+    "f": "scripts/lib/ram.test.mjs",
+    "a": 31,
+    "d": 0
+   },
+   {
+    "f": "scripts/lib/reloj-turbo.mjs",
+    "a": 39,
+    "d": 0
+   },
+   {
+    "f": "scripts/lib/senal.mjs",
+    "a": 283,
+    "d": 0
+   },
+   {
+    "f": "scripts/lib/senal.test.mjs",
+    "a": 64,
+    "d": 0
+   },
+   {
+    "f": "scripts/marca/coleccion.mjs",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "scripts/marca/eventos.mjs",
+    "a": 37,
+    "d": 0
+   },
+   {
+    "f": "scripts/marca/impresos.mjs",
+    "a": 54,
+    "d": 28
+   },
+   {
+    "f": "scripts/marca/piezas.mjs",
+    "a": 3,
+    "d": 0
+   },
+   {
+    "f": "scripts/marca/qr-clave.mjs",
+    "a": 207,
+    "d": 0
+   },
+   {
+    "f": "scripts/medir-3d.mjs",
+    "a": 66,
+    "d": 15
+   },
+   {
+    "f": "scripts/medir-drama-carrera.mjs",
+    "a": 106,
+    "d": 11
+   },
+   {
+    "f": "scripts/medir-escala-carrera.mjs",
+    "a": 108,
+    "d": 0
+   },
+   {
+    "f": "scripts/medir-final-carrera.mjs",
+    "a": 99,
+    "d": 17
+   },
+   {
+    "f": "scripts/metricas-cadena.mjs",
+    "a": 288,
+    "d": 0
+   },
+   {
+    "f": "scripts/pagos-testnet.mjs",
+    "a": 79,
+    "d": 0
+   },
+   {
+    "f": "scripts/sonidos/carrera-aplicar-lib.mjs",
+    "a": 105,
+    "d": 0
+   },
+   {
+    "f": "scripts/sonidos/carrera-aplicar-lib.test.mjs",
+    "a": 91,
+    "d": 0
+   },
+   {
+    "f": "scripts/sonidos/carrera-aplicar.mjs",
+    "a": 61,
+    "d": 0
+   },
+   {
+    "f": "scripts/sonidos/carrera-armar-escucha.mjs",
+    "a": 222,
+    "d": 0
+   },
+   {
+    "f": "scripts/sonidos/carrera-auditar.mjs",
+    "a": 117,
+    "d": 0
+   },
+   {
+    "f": "scripts/sonidos/carrera-auditar.test.mjs",
+    "a": 34,
+    "d": 0
+   },
+   {
+    "f": "scripts/sonidos/carrera-calibrar-lib.mjs",
+    "a": 64,
+    "d": 0
+   },
+   {
+    "f": "scripts/sonidos/carrera-calibrar-lib.test.mjs",
+    "a": 40,
+    "d": 0
+   },
+   {
+    "f": "scripts/sonidos/carrera-calibrar.mjs",
+    "a": 34,
+    "d": 0
+   },
+   {
+    "f": "scripts/sonidos/carrera-juicio.mjs",
+    "a": 64,
+    "d": 0
+   },
+   {
+    "f": "scripts/sonidos/carrera-medir.mjs",
+    "a": 93,
+    "d": 0
+   },
+   {
+    "f": "scripts/sonidos/carrera-render.mjs",
+    "a": 121,
+    "d": 0
+   },
+   {
+    "f": "seguridad.html",
+    "a": 14,
+    "d": 6
+   },
+   {
+    "f": "sorteo-en-clase.html",
+    "a": 4,
+    "d": 4
+   },
+   {
+    "f": "sorteo-para-eventos.html",
+    "a": 4,
+    "d": 4
+   },
+   {
+    "f": "sorteo-para-meetup.html",
+    "a": 6,
+    "d": 6
+   },
+   {
+    "f": "sorteo-verificable.html",
+    "a": 12,
+    "d": 12
+   },
+   {
+    "f": "src/auditor-detalles.test.ts",
+    "a": 45,
+    "d": 0
+   },
+   {
+    "f": "src/c.ts",
+    "a": 7,
+    "d": 4
+   },
+   {
+    "f": "src/cabecera.test.ts",
+    "a": 49,
+    "d": 0
+   },
+   {
+    "f": "src/carga-opcional.ts",
+    "a": 26,
+    "d": 0
+   },
+   {
+    "f": "src/duraciones.test.ts",
+    "a": 5,
+    "d": 1
+   },
+   {
+    "f": "src/enlace-corto.test.ts",
+    "a": 8,
+    "d": 0
+   },
+   {
+    "f": "src/enlace-corto.ts",
+    "a": 5,
+    "d": 3
+   },
+   {
+    "f": "src/equipos-registro.ts",
+    "a": 73,
+    "d": 0
+   },
+   {
+    "f": "src/equipos/bandera.ts",
+    "a": 9,
+    "d": 0
+   },
+   {
+    "f": "src/equipos/celular.ts",
+    "a": 128,
+    "d": 0
+   },
+   {
+    "f": "src/equipos/datos.ts",
+    "a": 54,
+    "d": 0
+   },
+   {
+    "f": "src/equipos/enlace.ts",
+    "a": 51,
+    "d": 0
+   },
+   {
+    "f": "src/equipos/envio.ts",
+    "a": 46,
+    "d": 0
+   },
+   {
+    "f": "src/equipos/equipos.css",
+    "a": 141,
+    "d": 0
+   },
+   {
+    "f": "src/equipos/equipos.test.ts",
+    "a": 712,
+    "d": 0
+   },
+   {
+    "f": "src/equipos/estado.ts",
+    "a": 119,
+    "d": 0
+   },
+   {
+    "f": "src/equipos/etiquetas.ts",
+    "a": 72,
+    "d": 0
+   },
+   {
+    "f": "src/equipos/horizon.test.ts",
+    "a": 246,
+    "d": 0
+   },
+   {
+    "f": "src/equipos/horizon.ts",
+    "a": 342,
+    "d": 0
+   }
+  ]
+ },
+ "4c2340db6e847bdedcfb52ccc3dc748fd8c9ee96": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "GuidoSV7",
+  "date": "2026-11-05T18:01:39Z",
+  "message": "fix(audio): que la música no se corte en un equipo lento",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/juegos.md",
+    "a": 2,
+    "d": 0
+   },
+   {
+    "f": "src/music-margen.test.ts",
+    "a": 72,
+    "d": 0
+   },
+   {
+    "f": "src/music-margen.ts",
+    "a": 23,
+    "d": 0
+   },
+   {
+    "f": "src/music.ts",
+    "a": 14,
+    "d": 2
+   }
+  ]
  }
 }

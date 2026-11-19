@@ -1,14 +1,14 @@
 {
- "generado": "2026-11-18T23:42:52+00:00",
+ "generado": "2026-11-19T05:05:43+00:00",
  "programa": "Stellar Elite",
  "start_date": "2026-09-02T00:00:00Z",
  "teams": [
   {
    "name": "Tinkazo",
-   "total": 8348.08,
-   "per_capita": 8348.08,
-   "commits": 1245,
-   "pts_commits": 8117.08,
+   "total": 8366.04,
+   "per_capita": 8366.04,
+   "commits": 1251,
+   "pts_commits": 8135.04,
    "dias_activos": 45,
    "contribuidores": [
     "GuidoSV7",
@@ -365,7 +365,7 @@
    "2026-11-02": 409.5799999999999,
    "2026-11-03": 223.31999999999996,
    "2026-11-04": 325.49,
-   "2026-11-05": 224.63,
+   "2026-11-05": 232.46,
    "2026-11-06": 269.37,
    "2026-11-07": 78.1,
    "2026-11-08": 11.0,
@@ -376,7 +376,8 @@
    "2026-11-13": 331.89,
    "2026-11-14": 30.15,
    "2026-11-16": 228.72,
-   "2026-11-18": 219.75
+   "2026-11-18": 229.88,
+   "2026-11-19": 0.0
   },
   "CompraGasolinaBidon": {
    "2026-09-06": 1.0,
@@ -562,18 +563,19 @@
    "2026-11-02": 52,
    "2026-11-03": 38,
    "2026-11-04": 44,
-   "2026-11-05": 26,
+   "2026-11-05": 27,
    "2026-11-06": 34,
    "2026-11-07": 12,
    "2026-11-08": 2,
    "2026-11-09": 27,
-   "2026-11-10": 10,
+   "2026-11-10": 11,
    "2026-11-11": 29,
    "2026-11-12": 16,
    "2026-11-13": 44,
    "2026-11-14": 4,
    "2026-11-16": 29,
-   "2026-11-18": 26
+   "2026-11-18": 28,
+   "2026-11-19": 2
   },
   "CompraGasolinaBidon": {
    "2026-09-06": 1,
@@ -683,6 +685,46 @@
   }
  },
  "commits": [
+  {
+   "sha": "5a6e2f0",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "GuidoSV7",
+   "date": "2026-11-19T04:49:40Z",
+   "msg": "Merge pull request #10 from nema1502/guido/musica-margen",
+   "pts": 0.0,
+   "nota": "merge"
+  },
+  {
+   "sha": "3364527",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "GuidoSV7",
+   "date": "2026-11-19T03:55:04Z",
+   "msg": "Merge remote-tracking branch 'origin/main' into musica-margen-v2",
+   "pts": 0.0,
+   "nota": "merge"
+  },
+  {
+   "sha": "8eb96c3",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-18T23:26:08Z",
+   "msg": "La prueba de los textos del modo oficial admite la portada con el costo",
+   "pts": 3.81,
+   "nota": ""
+  },
+  {
+   "sha": "c2aec15",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-18T22:54:49Z",
+   "msg": "Prende los pagos del portero, el correo a quien gana y la portada",
+   "pts": 6.32,
+   "nota": ""
+  },
   {
    "sha": "d46d4b1",
    "team": "Tinkazo",
@@ -2844,6 +2886,16 @@
    "nota": ""
   },
   {
+   "sha": "7234d82",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "GuidoSV7",
+   "date": "2026-11-10T04:32:32Z",
+   "msg": "Integra main en el margen de la música",
+   "pts": 0.0,
+   "nota": "merge"
+  },
+  {
    "sha": "91f344b",
    "team": "Puls3",
    "repo": "Zer0-Knowledge-Hack/puls3",
@@ -4111,6 +4163,16 @@
    "date": "2026-11-05T21:40:58Z",
    "msg": "feat(compartir): ilustraciones planas de la carrera y el sapo",
    "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "4c2340d",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "GuidoSV7",
+   "date": "2026-11-05T18:01:39Z",
+   "msg": "fix(audio): que la música no se corte en un equipo lento",
+   "pts": 7.83,
    "nota": ""
   },
   {
