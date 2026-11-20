@@ -1,14 +1,14 @@
 {
- "generado": "2026-11-20T14:38:27+00:00",
+ "generado": "2026-11-20T23:29:51+00:00",
  "programa": "Stellar Elite",
  "start_date": "2026-09-02T00:00:00Z",
  "teams": [
   {
    "name": "Tinkazo",
-   "total": 8823.61,
-   "per_capita": 8823.61,
-   "commits": 1366,
-   "pts_commits": 8577.61,
+   "total": 8919.53,
+   "per_capita": 8919.53,
+   "commits": 1376,
+   "pts_commits": 8673.53,
    "dias_activos": 48,
    "contribuidores": [
     "GuidoSV7",
@@ -380,7 +380,7 @@
    "2026-11-17": 73.8,
    "2026-11-18": 245.11999999999998,
    "2026-11-19": 32.63,
-   "2026-11-20": 69.85
+   "2026-11-20": 165.76999999999998
   },
   "CompraGasolinaBidon": {
    "2026-09-06": 1.0,
@@ -582,7 +582,7 @@
    "2026-11-17": 11,
    "2026-11-18": 34,
    "2026-11-19": 12,
-   "2026-11-20": 41
+   "2026-11-20": 51
   },
   "CompraGasolinaBidon": {
    "2026-09-06": 1,
@@ -693,6 +693,106 @@
   }
  },
  "commits": [
+  {
+   "sha": "f6e7b95",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-20T20:52:44Z",
+   "msg": "Quien arma la campaña de una empresa la activa sola al pagar",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "8f90d7e",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-20T20:48:02Z",
+   "msg": "La sala firma sola una campaña cuando se pagó su comisión",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "f1012b6",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-20T20:47:07Z",
+   "msg": "El portero da el acceso de quien organiza una campaña con su secreto",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "f514301",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-20T15:48:15Z",
+   "msg": "La espera dice una sola cosa por pantalla",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "dc156a5",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-20T14:57:16Z",
+   "msg": "Entrar con Google primero, y sin sorteos se pasa a Prueba de un toque",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "7084485",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-20T13:51:16Z",
+   "msg": "El sitio puede abrir en Oficial y la demo sigue en Prueba",
+   "pts": 9.88,
+   "nota": ""
+  },
+  {
+   "sha": "5562cf6",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-20T13:27:22Z",
+   "msg": "Una sala entera sella y sortea desde la misma conexión",
+   "pts": 6.04,
+   "nota": ""
+  },
+  {
+   "sha": "eee6ca4",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-20T13:25:49Z",
+   "msg": "Los juegos interactivos andan de punta a punta y dicen ser de ejemplo",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "7fd4aa8",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-20T13:25:48Z",
+   "msg": "El paso de la cuenta ofrece 3 sorteos oficiales gratis, sin cupón",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "cb7d654",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-20T13:25:47Z",
+   "msg": "El portero regala 3 sorteos oficiales al activar la cuenta",
+   "pts": 10,
+   "nota": ""
+  },
   {
    "sha": "a4c9b44",
    "team": "Tinkazo",

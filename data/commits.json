@@ -204133,5 +204133,980 @@
     "d": 1
    }
   ]
+ },
+ "f6e7b956091ceec722bbd2c2083f96fe6dd0c127": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-20T20:52:44Z",
+  "message": "Quien arma la campaña de una empresa la activa sola al pagar",
+  "parents": 1,
+  "files": [
+   {
+    "f": "index.html",
+    "a": 2,
+    "d": 0
+   },
+   {
+    "f": "precios.html",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "src/campana/borrador.test.ts",
+    "a": 66,
+    "d": 0
+   },
+   {
+    "f": "src/campana/borrador.ts",
+    "a": 46,
+    "d": 0
+   },
+   {
+    "f": "src/campana/crear/armar.ts",
+    "a": 19,
+    "d": 0
+   },
+   {
+    "f": "src/campana/crear/panel-activar.test.ts",
+    "a": 277,
+    "d": 0
+   },
+   {
+    "f": "src/campana/crear/panel.ts",
+    "a": 54,
+    "d": 12
+   },
+   {
+    "f": "src/campana/textos-crear.ts",
+    "a": 8,
+    "d": 0
+   },
+   {
+    "f": "src/campana/textos-sala.ts",
+    "a": 56,
+    "d": 0
+   },
+   {
+    "f": "src/comision-texto.test.ts",
+    "a": 5,
+    "d": 4
+   },
+   {
+    "f": "src/crear-campana.ts",
+    "a": 16,
+    "d": 0
+   },
+   {
+    "f": "src/i18n.ts",
+    "a": 4,
+    "d": 0
+   },
+   {
+    "f": "src/main.ts",
+    "a": 5,
+    "d": 1
+   },
+   {
+    "f": "src/sala/campana-org-activar.test.ts",
+    "a": 151,
+    "d": 0
+   },
+   {
+    "f": "src/sala/campana-org.ts",
+    "a": 100,
+    "d": 0
+   },
+   {
+    "f": "src/styles.css",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "src/ui/campana-comision.ts",
+    "a": 19,
+    "d": 7
+   },
+   {
+    "f": "src/ui/campana-sala-activar.test.ts",
+    "a": 635,
+    "d": 0
+   },
+   {
+    "f": "src/ui/campana-sala.ts",
+    "a": 370,
+    "d": 8
+   }
+  ]
+ },
+ "8f90d7e349876acfb35b9d332a55bc2133d91369": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-20T20:48:02Z",
+  "message": "La sala firma sola una campaña cuando se pagó su comisión",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/campana/reglas-de-activar.ts",
+    "a": 84,
+    "d": 0
+   },
+   {
+    "f": "src/sala/activar-cupos.test.ts",
+    "a": 123,
+    "d": 0
+   },
+   {
+    "f": "src/sala/activar-mundo.ts",
+    "a": 208,
+    "d": 0
+   },
+   {
+    "f": "src/sala/activar.test.ts",
+    "a": 814,
+    "d": 0
+   },
+   {
+    "f": "workers/sala/README.md",
+    "a": 63,
+    "d": 0
+   },
+   {
+    "f": "workers/sala/src/activar-cupos.ts",
+    "a": 115,
+    "d": 0
+   },
+   {
+    "f": "workers/sala/src/activar.ts",
+    "a": 445,
+    "d": 0
+   },
+   {
+    "f": "workers/sala/src/campana.ts",
+    "a": 11,
+    "d": 3
+   },
+   {
+    "f": "workers/sala/src/firma.ts",
+    "a": 41,
+    "d": 1
+   },
+   {
+    "f": "workers/sala/src/index.ts",
+    "a": 102,
+    "d": 7
+   },
+   {
+    "f": "workers/sala/wrangler.toml",
+    "a": 16,
+    "d": 0
+   }
+  ]
+ },
+ "f1012b648d921f038e59bf95e7c5660b3396b82b": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-20T20:47:07Z",
+  "message": "El portero da el acceso de quien organiza una campaña con su secreto",
+  "parents": 1,
+  "files": [
+   {
+    "f": "workers/patrocinio/README.md",
+    "a": 18,
+    "d": 0
+   },
+   {
+    "f": "workers/patrocinio/src/acceso-organizadora.ts",
+    "a": 90,
+    "d": 0
+   },
+   {
+    "f": "workers/patrocinio/src/altas.ts",
+    "a": 75,
+    "d": 0
+   },
+   {
+    "f": "workers/patrocinio/src/config.ts",
+    "a": 43,
+    "d": 0
+   },
+   {
+    "f": "workers/patrocinio/src/cupos.ts",
+    "a": 4,
+    "d": 3
+   },
+   {
+    "f": "workers/patrocinio/src/index.ts",
+    "a": 24,
+    "d": 0
+   },
+   {
+    "f": "workers/patrocinio/src/organizadora-worker.test.ts",
+    "a": 150,
+    "d": 0
+   },
+   {
+    "f": "workers/patrocinio/src/organizadora.test.ts",
+    "a": 353,
+    "d": 0
+   },
+   {
+    "f": "workers/patrocinio/src/rutas-altas.ts",
+    "a": 40,
+    "d": 0
+   },
+   {
+    "f": "workers/patrocinio/wrangler.toml",
+    "a": 11,
+    "d": 2
+   }
+  ]
+ },
+ "f514301da153b08d081f45c9f13ee443d821ad42": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-20T15:48:15Z",
+  "message": "La espera dice una sola cosa por pantalla",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/ux.md",
+    "a": 24,
+    "d": 3
+   },
+   {
+    "f": "index.html",
+    "a": 4,
+    "d": 4
+   },
+   {
+    "f": "scripts/audit-detalles.mjs",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/i18n.ts",
+    "a": 40,
+    "d": 32
+   },
+   {
+    "f": "src/styles.css",
+    "a": 25,
+    "d": 4
+   },
+   {
+    "f": "src/ui/espectador.test.ts",
+    "a": 23,
+    "d": 0
+   },
+   {
+    "f": "src/ui/espectador.ts",
+    "a": 9,
+    "d": 4
+   },
+   {
+    "f": "src/ui/espera-estilos.test.ts",
+    "a": 50,
+    "d": 0
+   },
+   {
+    "f": "src/ui/espera.test.ts",
+    "a": 65,
+    "d": 0
+   },
+   {
+    "f": "src/ui/espera.ts",
+    "a": 28,
+    "d": 13
+   },
+   {
+    "f": "src/ui/freeze-empieza-en.test.ts",
+    "a": 87,
+    "d": 0
+   },
+   {
+    "f": "src/ui/freeze-linea-sin-ganador.test.ts",
+    "a": 94,
+    "d": 0
+   },
+   {
+    "f": "src/ui/freeze.ts",
+    "a": 61,
+    "d": 11
+   },
+   {
+    "f": "src/ui/numeros-de-la-espera.test.ts",
+    "a": 72,
+    "d": 17
+   },
+   {
+    "f": "src/ui/sin-sello-textos.ts",
+    "a": 7,
+    "d": 0
+   }
+  ]
+ },
+ "dc156a5445a21e10ec77aa338119f3b84bc4703a": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-20T14:57:16Z",
+  "message": "Entrar con Google primero, y sin sorteos se pasa a Prueba de un toque",
+  "parents": 1,
+  "files": [
+   {
+    "f": "scripts/audit-detalles.mjs",
+    "a": 3,
+    "d": 1
+   },
+   {
+    "f": "scripts/audit-espectador.mjs",
+    "a": 3,
+    "d": 1
+   },
+   {
+    "f": "scripts/audit-flujo.mjs",
+    "a": 66,
+    "d": 2
+   },
+   {
+    "f": "scripts/audit-modos.mjs",
+    "a": 3,
+    "d": 1
+   },
+   {
+    "f": "scripts/audit-primer-sorteo.mjs",
+    "a": 7,
+    "d": 2
+   },
+   {
+    "f": "scripts/audit-ui.mjs",
+    "a": 5,
+    "d": 1
+   },
+   {
+    "f": "scripts/lib/entrar.mjs",
+    "a": 10,
+    "d": 0
+   },
+   {
+    "f": "scripts/lib/entrar.test.mjs",
+    "a": 42,
+    "d": 1
+   },
+   {
+    "f": "src/alta-textos-pago.ts",
+    "a": 15,
+    "d": 1
+   },
+   {
+    "f": "src/alta-textos-sin-pago.ts",
+    "a": 3,
+    "d": 2
+   },
+   {
+    "f": "src/alta-textos.ts",
+    "a": 3,
+    "d": 3
+   },
+   {
+    "f": "src/i18n.ts",
+    "a": 14,
+    "d": 0
+   },
+   {
+    "f": "src/main.ts",
+    "a": 2,
+    "d": 1
+   },
+   {
+    "f": "src/stellar/cupo-oficial.test.ts",
+    "a": 42,
+    "d": 1
+   },
+   {
+    "f": "src/stellar/cupo-oficial.ts",
+    "a": 19,
+    "d": 0
+   },
+   {
+    "f": "src/styles.css",
+    "a": 31,
+    "d": 6
+   },
+   {
+    "f": "src/ui/compra-con-boton.test.ts",
+    "a": 10,
+    "d": 6
+   },
+   {
+    "f": "src/ui/copiar-texto.ts",
+    "a": 26,
+    "d": 0
+   },
+   {
+    "f": "src/ui/cuenta-estado.ts",
+    "a": 6,
+    "d": 0
+   },
+   {
+    "f": "src/ui/cuenta-lista-acceso-vista.test.ts",
+    "a": 17,
+    "d": 2
+   },
+   {
+    "f": "src/ui/cuenta-lista-bienvenida.test.ts",
+    "a": 37,
+    "d": 1
+   },
+   {
+    "f": "src/ui/cuenta-lista-estado.ts",
+    "a": 14,
+    "d": 2
+   },
+   {
+    "f": "src/ui/cuenta-lista-flujo-regalo.test.ts",
+    "a": 47,
+    "d": 0
+   },
+   {
+    "f": "src/ui/cuenta-lista-flujo.ts",
+    "a": 60,
+    "d": 17
+   },
+   {
+    "f": "src/ui/cuenta-lista.ts",
+    "a": 16,
+    "d": 1
+   },
+   {
+    "f": "src/ui/cupo-patrocinio.test.ts",
+    "a": 122,
+    "d": 7
+   },
+   {
+    "f": "src/ui/cupo-patrocinio.ts",
+    "a": 64,
+    "d": 9
+   },
+   {
+    "f": "src/ui/cupon-enlace-entorno.ts",
+    "a": 2,
+    "d": 23
+   },
+   {
+    "f": "src/ui/freeze-premio.test.ts",
+    "a": 3,
+    "d": 2
+   },
+   {
+    "f": "src/ui/freeze-sin-sorteos.test.ts",
+    "a": 19,
+    "d": 9
+   },
+   {
+    "f": "src/ui/freeze.ts",
+    "a": 3,
+    "d": 2
+   },
+   {
+    "f": "src/ui/ingreso-plan-b.test.ts",
+    "a": 38,
+    "d": 1
+   },
+   {
+    "f": "src/ui/ingreso-plan-b.ts",
+    "a": 12,
+    "d": 0
+   },
+   {
+    "f": "src/ui/modo-ui.test.ts",
+    "a": 57,
+    "d": 2
+   },
+   {
+    "f": "src/ui/modo-ui.ts",
+    "a": 27,
+    "d": 1
+   },
+   {
+    "f": "src/ui/practicar-en-prueba-ui.test.ts",
+    "a": 380,
+    "d": 0
+   },
+   {
+    "f": "src/ui/sin-sorteos-regalo.test.ts",
+    "a": 84,
+    "d": 11
+   },
+   {
+    "f": "src/ui/sin-sorteos-ventana.test.ts",
+    "a": 219,
+    "d": 0
+   },
+   {
+    "f": "src/ui/sin-sorteos.ts",
+    "a": 152,
+    "d": 72
+   },
+   {
+    "f": "src/ui/ventana-de-entrar-ui.test.ts",
+    "a": 374,
+    "d": 0
+   },
+   {
+    "f": "src/ui/ventana-entrar-css.test.ts",
+    "a": 66,
+    "d": 0
+   },
+   {
+    "f": "src/ui/wallet-ui.ts",
+    "a": 259,
+    "d": 42
+   }
+  ]
+ },
+ "7084485ab6f0ab1f0019bef79c2096ee612e58ca": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-20T13:51:16Z",
+  "message": "El sitio puede abrir en Oficial y la demo sigue en Prueba",
+  "parents": 1,
+  "files": [
+   {
+    "f": ".env.example",
+    "a": 4,
+    "d": 1
+   },
+   {
+    "f": "scripts/audit-detalles.mjs",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "scripts/audit-espera.mjs",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "scripts/audit-ganador-altura.mjs",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "scripts/audit-legible.mjs",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "scripts/audit-ui.mjs",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "scripts/check-qr.mjs",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "scripts/lib/ganador-altura-transicion.mjs",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "scripts/medir-panel-espera.mjs",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "scripts/medir-texto.mjs",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "scripts/probar-sala.mjs",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "scripts/probar-stand.mjs",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "src/alta-textos-con-cobro.ts",
+    "a": 30,
+    "d": 0
+   },
+   {
+    "f": "src/i18n.ts",
+    "a": 10,
+    "d": 10
+   },
+   {
+    "f": "src/stellar/alta-build.test.ts",
+    "a": 139,
+    "d": 0
+   },
+   {
+    "f": "src/stellar/alta-build.ts",
+    "a": 31,
+    "d": 0
+   },
+   {
+    "f": "src/stellar/config-modo.test.ts",
+    "a": 133,
+    "d": 1
+   },
+   {
+    "f": "src/stellar/config.ts",
+    "a": 27,
+    "d": 13
+   },
+   {
+    "f": "src/stellar/modo-valor.ts",
+    "a": 16,
+    "d": 0
+   },
+   {
+    "f": "src/ui/cuenta-lista.test.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/ui/modo-ui.test.ts",
+    "a": 4,
+    "d": 4
+   },
+   {
+    "f": "src/ui/primer-sello-tras-seguir.test.ts",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "vite.config.ts",
+    "a": 9,
+    "d": 1
+   }
+  ]
+ },
+ "5562cf6c853ade1d82e52397c8e242dabd6ae51a": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-20T13:27:22Z",
+  "message": "Una sala entera sella y sortea desde la misma conexión",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/operacion.md",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "workers/patrocinio/README.md",
+    "a": 4,
+    "d": 4
+   },
+   {
+    "f": "workers/patrocinio/src/config.test.ts",
+    "a": 13,
+    "d": 2
+   },
+   {
+    "f": "workers/patrocinio/src/index.test.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "workers/patrocinio/wrangler.toml",
+    "a": 3,
+    "d": 2
+   }
+  ]
+ },
+ "eee6ca41ba92750db99bfebc75c975872aec3394": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-20T13:25:49Z",
+  "message": "Los juegos interactivos andan de punta a punta y dicen ser de ejemplo",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/i18n.test.ts",
+    "a": 2,
+    "d": 1
+   },
+   {
+    "f": "src/i18n.ts",
+    "a": 10,
+    "d": 4
+   },
+   {
+    "f": "src/sala/cliente.ts",
+    "a": 12,
+    "d": 5
+   },
+   {
+    "f": "src/sala/interactivos-sala.test.ts",
+    "a": 208,
+    "d": 0
+   },
+   {
+    "f": "src/sala/interactivos.test.ts",
+    "a": 121,
+    "d": 4
+   },
+   {
+    "f": "src/sala/organizador.test.ts",
+    "a": 230,
+    "d": 22
+   },
+   {
+    "f": "src/sala/organizador.ts",
+    "a": 33,
+    "d": 4
+   },
+   {
+    "f": "src/sala/participante.ts",
+    "a": 102,
+    "d": 20
+   },
+   {
+    "f": "src/ui/espectador.test.ts",
+    "a": 38,
+    "d": 0
+   },
+   {
+    "f": "src/ui/espectador.ts",
+    "a": 20,
+    "d": 4
+   },
+   {
+    "f": "workers/sala/README.md",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "workers/sala/src/index.ts",
+    "a": 11,
+    "d": 5
+   }
+  ]
+ },
+ "7fd4aa8a83a0e7557e9aa6e9c0d751852659d698": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-20T13:25:48Z",
+  "message": "El paso de la cuenta ofrece 3 sorteos oficiales gratis, sin cupón",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/alta-textos-paso.test.ts",
+    "a": 39,
+    "d": 1
+   },
+   {
+    "f": "src/alta-textos-paso.ts",
+    "a": 31,
+    "d": 0
+   },
+   {
+    "f": "src/stellar/alta-api.test.ts",
+    "a": 180,
+    "d": 1
+   },
+   {
+    "f": "src/stellar/alta-api.ts",
+    "a": 97,
+    "d": 8
+   },
+   {
+    "f": "src/stellar/alta-oferta.test.ts",
+    "a": 57,
+    "d": 2
+   },
+   {
+    "f": "src/stellar/alta-oferta.ts",
+    "a": 34,
+    "d": 1
+   },
+   {
+    "f": "src/ui/cuenta-lista-acceso-vista.test.ts",
+    "a": 175,
+    "d": 0
+   },
+   {
+    "f": "src/ui/cuenta-lista-acceso.ts",
+    "a": 19,
+    "d": 1
+   },
+   {
+    "f": "src/ui/cuenta-lista-bienvenida.test.ts",
+    "a": 447,
+    "d": 0
+   },
+   {
+    "f": "src/ui/cuenta-lista-estado.ts",
+    "a": 109,
+    "d": 9
+   },
+   {
+    "f": "src/ui/cuenta-lista-flujo-regalo.test.ts",
+    "a": 226,
+    "d": 0
+   },
+   {
+    "f": "src/ui/cuenta-lista-flujo.test.ts",
+    "a": 3,
+    "d": 1
+   },
+   {
+    "f": "src/ui/cuenta-lista-flujo.ts",
+    "a": 81,
+    "d": 0
+   },
+   {
+    "f": "src/ui/cuenta-lista.ts",
+    "a": 137,
+    "d": 3
+   },
+   {
+    "f": "src/ui/cupo-patrocinio.test.ts",
+    "a": 160,
+    "d": 0
+   },
+   {
+    "f": "src/ui/cupo-patrocinio.ts",
+    "a": 88,
+    "d": 2
+   },
+   {
+    "f": "src/ui/modo-ui.test.ts",
+    "a": 53,
+    "d": 1
+   },
+   {
+    "f": "src/ui/modo-ui.ts",
+    "a": 17,
+    "d": 0
+   },
+   {
+    "f": "src/ui/sin-sorteos-regalo.test.ts",
+    "a": 191,
+    "d": 0
+   },
+   {
+    "f": "src/ui/sin-sorteos.ts",
+    "a": 89,
+    "d": 7
+   }
+  ]
+ },
+ "cb7d65467ed5f74b6ee4f2ffe568097ae933b216": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-20T13:25:47Z",
+  "message": "El portero regala 3 sorteos oficiales al activar la cuenta",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/operacion.md",
+    "a": 3,
+    "d": 1
+   },
+   {
+    "f": "src/stellar/hoja-de-operacion.test.ts",
+    "a": 24,
+    "d": 0
+   },
+   {
+    "f": "workers/patrocinio/README.md",
+    "a": 31,
+    "d": 4
+   },
+   {
+    "f": "workers/patrocinio/src/altas-bienvenida.test.ts",
+    "a": 667,
+    "d": 0
+   },
+   {
+    "f": "workers/patrocinio/src/altas-prueba.ts",
+    "a": 21,
+    "d": 1
+   },
+   {
+    "f": "workers/patrocinio/src/altas.ts",
+    "a": 93,
+    "d": 0
+   },
+   {
+    "f": "workers/patrocinio/src/cobros-admin.test.ts",
+    "a": 2,
+    "d": 0
+   },
+   {
+    "f": "workers/patrocinio/src/compras-anular-forma.test.ts",
+    "a": 2,
+    "d": 0
+   },
+   {
+    "f": "workers/patrocinio/src/config.ts",
+    "a": 80,
+    "d": 0
+   },
+   {
+    "f": "workers/patrocinio/src/cupos.ts",
+    "a": 25,
+    "d": 6
+   },
+   {
+    "f": "workers/patrocinio/src/index.ts",
+    "a": 12,
+    "d": 0
+   },
+   {
+    "f": "workers/patrocinio/src/piso.test.ts",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "workers/patrocinio/src/por-ip.test.ts",
+    "a": 9,
+    "d": 2
+   },
+   {
+    "f": "workers/patrocinio/src/por-ip.ts",
+    "a": 5,
+    "d": 4
+   },
+   {
+    "f": "workers/patrocinio/src/rutas-altas.test.ts",
+    "a": 54,
+    "d": 3
+   },
+   {
+    "f": "workers/patrocinio/src/rutas-altas.ts",
+    "a": 237,
+    "d": 11
+   },
+   {
+    "f": "workers/patrocinio/src/servicio.ts",
+    "a": 20,
+    "d": 2
+   },
+   {
+    "f": "workers/patrocinio/wrangler.toml",
+    "a": 24,
+    "d": 0
+   }
+  ]
  }
 }
