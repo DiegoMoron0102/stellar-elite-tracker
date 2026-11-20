@@ -1,15 +1,15 @@
 {
- "generado": "2026-11-20T00:01:54+00:00",
+ "generado": "2026-11-20T14:38:27+00:00",
  "programa": "Stellar Elite",
  "start_date": "2026-09-02T00:00:00Z",
  "teams": [
   {
    "name": "Tinkazo",
-   "total": 8475.5,
-   "per_capita": 8475.5,
-   "commits": 1268,
-   "pts_commits": 8239.5,
-   "dias_activos": 46,
+   "total": 8823.61,
+   "per_capita": 8823.61,
+   "commits": 1366,
+   "pts_commits": 8577.61,
+   "dias_activos": 48,
    "contribuidores": [
     "GuidoSV7",
     "nema1502"
@@ -64,11 +64,11 @@
   },
   {
    "name": "TilcAI",
-   "total": 1233.02,
-   "per_capita": 411.01,
-   "commits": 180,
-   "pts_commits": 1126.02,
-   "dias_activos": 19,
+   "total": 1261.68,
+   "per_capita": 420.56,
+   "commits": 184,
+   "pts_commits": 1149.68,
+   "dias_activos": 20,
    "contribuidores": [
     "JHAMILCALI",
     "OmarQV",
@@ -373,11 +373,14 @@
    "2026-11-10": 66.29,
    "2026-11-11": 212.14000000000001,
    "2026-11-12": 126.14999999999999,
-   "2026-11-13": 331.89,
-   "2026-11-14": 30.15,
-   "2026-11-16": 324.69000000000005,
-   "2026-11-18": 229.88,
-   "2026-11-19": 8.49
+   "2026-11-13": 346.7,
+   "2026-11-14": 49.15,
+   "2026-11-15": 0.0,
+   "2026-11-16": 445.96,
+   "2026-11-17": 73.8,
+   "2026-11-18": 245.11999999999998,
+   "2026-11-19": 32.63,
+   "2026-11-20": 69.85
   },
   "CompraGasolinaBidon": {
    "2026-09-06": 1.0,
@@ -470,7 +473,8 @@
    "2026-11-06": 125.91,
    "2026-11-07": 16.94,
    "2026-11-08": 17.85,
-   "2026-11-10": 5.58
+   "2026-11-10": 5.58,
+   "2026-11-20": 23.66
   },
   "GatoPago": {
    "2026-09-10": 1.0,
@@ -571,11 +575,14 @@
    "2026-11-10": 11,
    "2026-11-11": 29,
    "2026-11-12": 16,
-   "2026-11-13": 44,
-   "2026-11-14": 4,
-   "2026-11-16": 42,
-   "2026-11-18": 28,
-   "2026-11-19": 6
+   "2026-11-13": 49,
+   "2026-11-14": 8,
+   "2026-11-15": 6,
+   "2026-11-16": 61,
+   "2026-11-17": 11,
+   "2026-11-18": 34,
+   "2026-11-19": 12,
+   "2026-11-20": 41
   },
   "CompraGasolinaBidon": {
    "2026-09-06": 1,
@@ -668,7 +675,8 @@
    "2026-11-06": 16,
    "2026-11-07": 2,
    "2026-11-08": 2,
-   "2026-11-10": 1
+   "2026-11-10": 1,
+   "2026-11-20": 4
   },
   "GatoPago": {
    "2026-09-10": 1,
@@ -685,6 +693,516 @@
   }
  },
  "commits": [
+  {
+   "sha": "a4c9b44",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-20T10:34:05Z",
+   "msg": "El Amigo secreto guarda el reparto y se usa bien en el celular",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "7357134",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-20T10:25:46Z",
+   "msg": "La prueba del participante de la sala espera al descifrado",
+   "pts": 4.7,
+   "nota": ""
+  },
+  {
+   "sha": "6ad0418",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-20T09:09:17Z",
+   "msg": "El video de la portada pesa menos y arranca enseguida",
+   "pts": 0.0,
+   "nota": "solo archivos generados"
+  },
+  {
+   "sha": "16398a8",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-20T09:08:54Z",
+   "msg": "Lo que se ve del premio por lugar, en la página y en la pantalla grande",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "13d3070",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-20T06:11:06Z",
+   "msg": "La espera de la prueba de la sala acompaña al descifrado",
+   "pts": 4.7,
+   "nota": ""
+  },
+  {
+   "sha": "acb65c9",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-20T05:10:04Z",
+   "msg": "Saca los videos de vista previa y el punto medio de lo que se lee",
+   "pts": 6.17,
+   "nota": ""
+  },
+  {
+   "sha": "1ad7adf",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-20T05:06:46Z",
+   "msg": "Con la cuenta en el otro modo, Entrar sigue primero y con el foco",
+   "pts": 8.07,
+   "nota": ""
+  },
+  {
+   "sha": "debf6ee",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-20T05:01:12Z",
+   "msg": "El sorteo de una campaña vuelve a mostrar sus premios en un show",
+   "pts": 8.82,
+   "nota": ""
+  },
+  {
+   "sha": "99e9e42",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "GuidoSV7",
+   "date": "2026-11-20T04:44:30Z",
+   "msg": "Merge pull request #153 from nema1502/guido/issue87",
+   "pts": 0.0,
+   "nota": "merge"
+  },
+  {
+   "sha": "6604634",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "GuidoSV7",
+   "date": "2026-11-20T04:44:21Z",
+   "msg": "Merge pull request #125 from nema1502/guido/final",
+   "pts": 0.0,
+   "nota": "merge"
+  },
+  {
+   "sha": "03207a6",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-20T04:30:11Z",
+   "msg": "El premio por lugar se sella, se muestra y se paga por su lugar",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "18bbef8",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "GuidoSV7",
+   "date": "2026-11-20T04:23:26Z",
+   "msg": "merge: traer main a la integración final (btn-stand sin duplicar, QR de sala y enStand de main, worker unido)",
+   "pts": 0.0,
+   "nota": "merge"
+  },
+  {
+   "sha": "558222b",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "GuidoSV7",
+   "date": "2026-11-20T04:22:03Z",
+   "msg": "merge: traer main al registro de equipos con cupones (faq del PR, precios de main)",
+   "pts": 0.0,
+   "nota": "merge"
+  },
+  {
+   "sha": "be0a2f4",
+   "team": "TilcAI",
+   "repo": "TilcAI/tilcai-web",
+   "author": "JHAMILCALI",
+   "date": "2026-11-20T04:16:25Z",
+   "msg": "fix(favicon): actualizar íconos para cumplir con los requisitos de Google Search",
+   "pts": 5.25,
+   "nota": ""
+  },
+  {
+   "sha": "b879117",
+   "team": "TilcAI",
+   "repo": "TilcAI/tilcai-web",
+   "author": "JHAMILCALI",
+   "date": "2026-11-20T04:11:31Z",
+   "msg": "fix(hero): añadir carga anticipada para la imagen de la órbita en HeroScene",
+   "pts": 8.07,
+   "nota": ""
+  },
+  {
+   "sha": "ef7790b",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "GuidoSV7",
+   "date": "2026-11-20T04:09:37Z",
+   "msg": "Merge pull request #199 from nema1502/fix/renumerar-dom-19nov",
+   "pts": 0.0,
+   "nota": "merge"
+  },
+  {
+   "sha": "5d80d98",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "GuidoSV7",
+   "date": "2026-11-20T03:43:38Z",
+   "msg": "ci: despertar la corrida del PR de la reparacion de tests",
+   "pts": 0.0,
+   "nota": "solo archivos generados"
+  },
+  {
+   "sha": "fefd96a",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "GuidoSV7",
+   "date": "2026-11-20T03:42:41Z",
+   "msg": "test: la ventana Sumar de la demo congela Date en el reloj de la demo",
+   "pts": 3.81,
+   "nota": ""
+  },
+  {
+   "sha": "35a2786",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "GuidoSV7",
+   "date": "2026-11-20T03:32:42Z",
+   "msg": "test: el DOM del sellado de campaña arma el textarea real (renumerar con modos por defecto)",
+   "pts": 3.58,
+   "nota": ""
+  },
+  {
+   "sha": "da9f8bb",
+   "team": "TilcAI",
+   "repo": "TilcAI/tilcai-web",
+   "author": "JHAMILCALI",
+   "date": "2026-11-20T03:29:30Z",
+   "msg": "fix(brand): restore readable original favicon",
+   "pts": 5.09,
+   "nota": ""
+  },
+  {
+   "sha": "3edb83c",
+   "team": "TilcAI",
+   "repo": "TilcAI/tilcai-web",
+   "author": "JHAMILCALI",
+   "date": "2026-11-20T03:15:36Z",
+   "msg": "fix(seo): restore root favicon for search results",
+   "pts": 5.25,
+   "nota": ""
+  },
+  {
+   "sha": "8ffdc87",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "GuidoSV7",
+   "date": "2026-11-20T02:27:57Z",
+   "msg": "Merge pull request #149 from nema1502/guido/issue101",
+   "pts": 0.0,
+   "nota": "merge"
+  },
+  {
+   "sha": "39c64e3",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "GuidoSV7",
+   "date": "2026-11-20T02:27:42Z",
+   "msg": "merge: traer main al premio por lugar (gana la campana en la cantidad, los campos por lugar quedan)",
+   "pts": 0.0,
+   "nota": "merge"
+  },
+  {
+   "sha": "c1f6f57",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "GuidoSV7",
+   "date": "2026-11-20T02:26:07Z",
+   "msg": "Merge pull request #147 from nema1502/guido/issue99",
+   "pts": 0.0,
+   "nota": "merge"
+  },
+  {
+   "sha": "5f937aa",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "GuidoSV7",
+   "date": "2026-11-20T02:25:51Z",
+   "msg": "merge: traer main actual al modo Amigo secreto (relato del cartel de issue 118)",
+   "pts": 0.0,
+   "nota": "merge"
+  },
+  {
+   "sha": "13d394e",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "GuidoSV7",
+   "date": "2026-11-20T02:17:32Z",
+   "msg": "merge: traer main al modo Amigo secreto (progresion de lugares de issue 102 conservada)",
+   "pts": 0.0,
+   "nota": "merge"
+  },
+  {
+   "sha": "f831068",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "GuidoSV7",
+   "date": "2026-11-20T02:06:01Z",
+   "msg": "Merge pull request #146 from nema1502/guido/issue118",
+   "pts": 0.0,
+   "nota": "merge"
+  },
+  {
+   "sha": "69ec6b6",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "GuidoSV7",
+   "date": "2026-11-20T02:05:49Z",
+   "msg": "merge: traer main al cartel del final (describe de issue 102 conservado)",
+   "pts": 0.0,
+   "nota": "merge"
+  },
+  {
+   "sha": "0803ff0",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "GuidoSV7",
+   "date": "2026-11-20T02:04:44Z",
+   "msg": "Merge pull request #144 from nema1502/guido/issue79",
+   "pts": 0.0,
+   "nota": "merge"
+  },
+  {
+   "sha": "15c496d",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "GuidoSV7",
+   "date": "2026-11-20T02:04:33Z",
+   "msg": "merge: traer main al feed de numeros de la espera (imports en union)",
+   "pts": 0.0,
+   "nota": "merge"
+  },
+  {
+   "sha": "26ebe51",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "GuidoSV7",
+   "date": "2026-11-20T01:52:29Z",
+   "msg": "Merge pull request #142 from nema1502/guido/issue90",
+   "pts": 0.0,
+   "nota": "merge"
+  },
+  {
+   "sha": "40ac002",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "GuidoSV7",
+   "date": "2026-11-20T01:52:17Z",
+   "msg": "merge: traer main al aviso del otro modo (conserva loginTerminando de main)",
+   "pts": 0.0,
+   "nota": "merge"
+  },
+  {
+   "sha": "ae7358f",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "GuidoSV7",
+   "date": "2026-11-20T01:50:58Z",
+   "msg": "Merge pull request #139 from nema1502/guido/issue117",
+   "pts": 0.0,
+   "nota": "merge"
+  },
+  {
+   "sha": "757478a",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "GuidoSV7",
+   "date": "2026-11-20T01:50:35Z",
+   "msg": "merge: traer main a la pasada editorial (redaccion del PR, QR de sala y enStand de main)",
+   "pts": 0.0,
+   "nota": "merge"
+  },
+  {
+   "sha": "d185a1f",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "GuidoSV7",
+   "date": "2026-11-20T01:47:28Z",
+   "msg": "Merge pull request #126 from nema1502/guido/issue111",
+   "pts": 0.0,
+   "nota": "merge"
+  },
+  {
+   "sha": "790b526",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "GuidoSV7",
+   "date": "2026-11-20T01:47:24Z",
+   "msg": "Merge pull request #138 from nema1502/guido/issue108",
+   "pts": 0.0,
+   "nota": "merge"
+  },
+  {
+   "sha": "8bd4970",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "GuidoSV7",
+   "date": "2026-11-20T01:47:17Z",
+   "msg": "Merge pull request #145 from nema1502/guido/issue115",
+   "pts": 0.0,
+   "nota": "merge"
+  },
+  {
+   "sha": "3ff506e",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "GuidoSV7",
+   "date": "2026-11-20T01:47:10Z",
+   "msg": "Merge pull request #150 from nema1502/guido/issue116",
+   "pts": 0.0,
+   "nota": "merge"
+  },
+  {
+   "sha": "bf2dc8a",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "GuidoSV7",
+   "date": "2026-11-20T01:47:06Z",
+   "msg": "Merge pull request #151 from nema1502/guido/issue106",
+   "pts": 0.0,
+   "nota": "merge"
+  },
+  {
+   "sha": "2b387bd",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "GuidoSV7",
+   "date": "2026-11-20T01:47:02Z",
+   "msg": "Merge pull request #152 from nema1502/guido/issue114",
+   "pts": 0.0,
+   "nota": "merge"
+  },
+  {
+   "sha": "281fc7f",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "GuidoSV7",
+   "date": "2026-11-20T01:46:57Z",
+   "msg": "Merge pull request #154 from nema1502/guido/issue121",
+   "pts": 0.0,
+   "nota": "merge"
+  },
+  {
+   "sha": "2d958f7",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "GuidoSV7",
+   "date": "2026-11-20T01:46:54Z",
+   "msg": "Merge pull request #157 from nema1502/guido/prendidas-por-defecto",
+   "pts": 0.0,
+   "nota": "merge"
+  },
+  {
+   "sha": "5ec42ad",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "GuidoSV7",
+   "date": "2026-11-20T01:46:50Z",
+   "msg": "Merge pull request #148 from nema1502/guido/issue102",
+   "pts": 0.0,
+   "nota": "merge"
+  },
+  {
+   "sha": "e8f2d1b",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "GuidoSV7",
+   "date": "2026-11-20T01:46:46Z",
+   "msg": "Merge pull request #196 from nema1502/guido/issue190",
+   "pts": 0.0,
+   "nota": "merge"
+  },
+  {
+   "sha": "f337a30",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "GuidoSV7",
+   "date": "2026-11-20T01:46:42Z",
+   "msg": "Merge pull request #197 from nema1502/guido/issue186",
+   "pts": 0.0,
+   "nota": "merge"
+  },
+  {
+   "sha": "d5625c3",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "GuidoSV7",
+   "date": "2026-11-19T08:17:01Z",
+   "msg": "fix: la etiqueta del ganador del premio no choca con el guard del parámetro",
+   "pts": 2.58,
+   "nota": ""
+  },
+  {
+   "sha": "f90aebd",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "GuidoSV7",
+   "date": "2026-11-19T07:53:41Z",
+   "msg": "feat: el comprobante acepta el sello de premios por historial y muestra los premios",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "3e1225b",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "GuidoSV7",
+   "date": "2026-11-19T07:49:30Z",
+   "msg": "fix: las métricas reconocen los sellos que llegan por otro contrato",
+   "pts": 8.98,
+   "nota": ""
+  },
+  {
+   "sha": "481e700",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "GuidoSV7",
+   "date": "2026-11-19T07:14:36Z",
+   "msg": "test: el show de a un lugar llega al juego con solo el primer ganador",
+   "pts": 2.58,
+   "nota": ""
+  },
+  {
+   "sha": "b7a2e98",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "GuidoSV7",
+   "date": "2026-11-19T06:44:19Z",
+   "msg": "Merge remote-tracking branch 'origin/main' into guido/issue102",
+   "pts": 0.0,
+   "nota": "merge"
+  },
+  {
+   "sha": "fda92f4",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "GuidoSV7",
+   "date": "2026-11-19T06:37:23Z",
+   "msg": "ci: disparar la corrida del check que el incidente de Actions se comió",
+   "pts": 0.0,
+   "nota": "solo archivos generados"
+  },
   {
    "sha": "136c8ca",
    "team": "Tinkazo",
@@ -906,6 +1424,16 @@
    "nota": ""
   },
   {
+   "sha": "0bfe71e",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "GuidoSV7",
+   "date": "2026-11-18T16:57:13Z",
+   "msg": "ci: reintentar la corrida que el push anterior no disparó",
+   "pts": 0.0,
+   "nota": "solo archivos generados"
+  },
+  {
    "sha": "6963f0a",
    "team": "Puls3",
    "repo": "Zer0-Knowledge-Hack/puls3",
@@ -933,6 +1461,16 @@
    "date": "2026-11-18T16:51:08Z",
    "msg": "ci(contracts): ignore the unused chrono advisory, with its way out (#206) (#335)",
    "pts": 4.32,
+   "nota": ""
+  },
+  {
+   "sha": "1e88dd3",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "GuidoSV7",
+   "date": "2026-11-18T16:39:39Z",
+   "msg": "fix: la línea de los lugares fijos nace con su texto y la regla del espectador sigue al show de a un lugar",
+   "pts": 3.32,
    "nota": ""
   },
   {
@@ -1006,6 +1544,26 @@
    "nota": ""
   },
   {
+   "sha": "3b9410c",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "GuidoSV7",
+   "date": "2026-11-18T14:19:25Z",
+   "msg": "ci: despertar la corrida del PR",
+   "pts": 0.0,
+   "nota": "solo archivos generados"
+  },
+  {
+   "sha": "369f153",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "GuidoSV7",
+   "date": "2026-11-18T14:11:57Z",
+   "msg": "fix: el aviso de versión nueva no se instala sin ventana, y la rama del pago con el modo amigo",
+   "pts": 4.17,
+   "nota": ""
+  },
+  {
    "sha": "7e0407a",
    "team": "Tinkazo",
    "repo": "nema1502/tinkazo",
@@ -1014,6 +1572,16 @@
    "msg": "El stand pone el QR al frente y aprovecha toda la pantalla",
    "pts": 10,
    "nota": ""
+  },
+  {
+   "sha": "fdc8081",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "GuidoSV7",
+   "date": "2026-11-18T11:51:01Z",
+   "msg": "ci: despertar la corrida de integración continua del PR",
+   "pts": 0.0,
+   "nota": "solo archivos generados"
   },
   {
    "sha": "ed3113f",
@@ -1116,6 +1684,36 @@
    "nota": ""
   },
   {
+   "sha": "7e41466",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "GuidoSV7",
+   "date": "2026-11-18T06:08:06Z",
+   "msg": "feat: los modos y el registro de equipos nacen prendidos",
+   "pts": 7.75,
+   "nota": ""
+  },
+  {
+   "sha": "bf97c3b",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "GuidoSV7",
+   "date": "2026-11-17T22:59:24Z",
+   "msg": "fix: el worker de la sala vuelve a pasar el typecheck",
+   "pts": 7.67,
+   "nota": ""
+  },
+  {
+   "sha": "98fd0cc",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "GuidoSV7",
+   "date": "2026-11-17T15:19:58Z",
+   "msg": "docs: tríptico corregido y enlazado desde la página de marca",
+   "pts": 2.0,
+   "nota": ""
+  },
+  {
    "sha": "b2c9d75",
    "team": "Puls3",
    "repo": "Zer0-Knowledge-Hack/puls3",
@@ -1156,6 +1754,26 @@
    "nota": ""
   },
   {
+   "sha": "fbf5d97",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "GuidoSV7",
+   "date": "2026-11-17T13:00:50Z",
+   "msg": "docs: el aviso de participar ya distingue el registro de equipos con cupones",
+   "pts": 8.39,
+   "nota": ""
+  },
+  {
+   "sha": "ea26822",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "GuidoSV7",
+   "date": "2026-11-17T12:51:30Z",
+   "msg": "fix: el auditor de mezcla mide la música que la sala escucha de verdad",
+   "pts": 8.27,
+   "nota": ""
+  },
+  {
    "sha": "9a08c5c",
    "team": "Puls3",
    "repo": "Zer0-Knowledge-Hack/puls3",
@@ -1163,6 +1781,16 @@
    "date": "2026-11-17T12:48:13Z",
    "msg": "feat(studio): let a builder's live agent hire another agent from the web (#332)",
    "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "552833d",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "GuidoSV7",
+   "date": "2026-11-17T12:24:32Z",
+   "msg": "feat: los carriles de la recta se comprimen con pocas finalistas",
+   "pts": 8.17,
    "nota": ""
   },
   {
@@ -1183,6 +1811,36 @@
    "date": "2026-11-17T12:09:06Z",
    "msg": "fix(studio): add the USDC trustline to custodied agent wallets (#328)",
    "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "9c61b19",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "GuidoSV7",
+   "date": "2026-11-17T12:04:54Z",
+   "msg": "feat: espina del video del final ganador para las vistas previas (issue 116)",
+   "pts": 8.38,
+   "nota": ""
+  },
+  {
+   "sha": "1b802e1",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "GuidoSV7",
+   "date": "2026-11-17T12:01:14Z",
+   "msg": "docs: el catálogo deja de mencionar el módulo de asignación eliminado",
+   "pts": 2.58,
+   "nota": ""
+  },
+  {
+   "sha": "13f08d0",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "GuidoSV7",
+   "date": "2026-11-17T12:00:43Z",
+   "msg": "feat: el amigo secreto usa el reparto del protocolo (modelo del sobre del premio)",
+   "pts": 8.9,
    "nota": ""
   },
   {
@@ -1283,6 +1941,36 @@
    "date": "2026-11-17T07:33:57Z",
    "msg": "fix(studio): give the wallet authorization entry a real expiration ledger (#316)",
    "pts": 9.25,
+   "nota": ""
+  },
+  {
+   "sha": "c1372c2",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "GuidoSV7",
+   "date": "2026-11-17T04:17:42Z",
+   "msg": "feat: un campo de premio por lugar cuando hay varios ganadores",
+   "pts": 9.47,
+   "nota": ""
+  },
+  {
+   "sha": "67005eb",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "GuidoSV7",
+   "date": "2026-11-17T04:17:29Z",
+   "msg": "Merge remote-tracking branch 'origin/main' into guido/final",
+   "pts": 0.0,
+   "nota": "merge"
+  },
+  {
+   "sha": "46c800b",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "GuidoSV7",
+   "date": "2026-11-17T04:08:56Z",
+   "msg": "feat: con varios lugares sellados, mostrar de a un lugar sin volver a sellar",
+   "pts": 9.97,
    "nota": ""
   },
   {
@@ -1406,6 +2094,36 @@
    "nota": ""
   },
   {
+   "sha": "de93d51",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "GuidoSV7",
+   "date": "2026-11-16T21:16:43Z",
+   "msg": "docs: log del relevo y cierre del issue 115",
+   "pts": 5.46,
+   "nota": ""
+  },
+  {
+   "sha": "6f5bc17",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "GuidoSV7",
+   "date": "2026-11-16T21:16:30Z",
+   "msg": "fix: tres detalles visuales de la carrera sin tocar su justicia",
+   "pts": 9.03,
+   "nota": ""
+  },
+  {
+   "sha": "c2e5cde",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "GuidoSV7",
+   "date": "2026-11-16T21:16:30Z",
+   "msg": "docs: evidencia de los cuatro detalles visuales de la carrera (issue 115)",
+   "pts": 6.52,
+   "nota": ""
+  },
+  {
    "sha": "dd9412d",
    "team": "Puls3",
    "repo": "Zer0-Knowledge-Hack/puls3",
@@ -1423,6 +2141,16 @@
    "date": "2026-11-16T20:15:57Z",
    "msg": "feat(app): show the rating score after a reload (#242) (#264)",
    "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "575cea3",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "GuidoSV7",
+   "date": "2026-11-16T20:13:18Z",
+   "msg": "feat: cada número público que nace se ve durante la espera",
+   "pts": 9.71,
    "nota": ""
   },
   {
@@ -1486,6 +2214,36 @@
    "nota": ""
   },
   {
+   "sha": "d521bf2",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "GuidoSV7",
+   "date": "2026-11-16T18:03:34Z",
+   "msg": "style: marca del selector con tres modos en el amigo secreto",
+   "pts": 4.46,
+   "nota": ""
+  },
+  {
+   "sha": "0470834",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "GuidoSV7",
+   "date": "2026-11-16T17:42:34Z",
+   "msg": "feat: pantallas del amigo secreto, cada persona ve solo su regala-a",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "7cd72db",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "GuidoSV7",
+   "date": "2026-11-16T17:13:07Z",
+   "msg": "feat: el cartel del final lista hasta ocho turnos en un orden de turnos",
+   "pts": 8.8,
+   "nota": ""
+  },
+  {
    "sha": "e70d812",
    "team": "Tinkazo",
    "repo": "nema1502/tinkazo",
@@ -1493,6 +2251,16 @@
    "date": "2026-11-16T16:36:56Z",
    "msg": "test: fijar el camino a Oficial con un solo toque tras Seguir",
    "pts": 7.95,
+   "nota": ""
+  },
+  {
+   "sha": "0524965",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "GuidoSV7",
+   "date": "2026-11-16T16:03:19Z",
+   "msg": "feat: avisar que la cuenta está abierta en el otro modo",
+   "pts": 9.8,
    "nota": ""
   },
   {
@@ -1513,6 +2281,36 @@
    "date": "2026-11-16T15:18:39Z",
    "msg": "feat: nota numérica de la orden en Más detalles del pago",
    "pts": 7.25,
+   "nota": ""
+  },
+  {
+   "sha": "9671eae",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "GuidoSV7",
+   "date": "2026-11-16T15:03:04Z",
+   "msg": "ci: reintentar la corrida de integración continua del PR",
+   "pts": 0.0,
+   "nota": "solo archivos generados"
+  },
+  {
+   "sha": "c3b9fa2",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "GuidoSV7",
+   "date": "2026-11-16T14:37:14Z",
+   "msg": "feat: el final del teleférico del respaldo iguala al del motor principal",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "953a22a",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "GuidoSV7",
+   "date": "2026-11-16T14:31:04Z",
+   "msg": "docs: pasada editorial a la mitad en inglés de la interfaz",
+   "pts": 6.55,
    "nota": ""
   },
   {
@@ -1786,6 +2584,16 @@
    "nota": ""
   },
   {
+   "sha": "a414473",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "GuidoSV7",
+   "date": "2026-11-16T05:06:20Z",
+   "msg": "build: unificar Node 24 entre desarrollo e integración continua",
+   "pts": 4.58,
+   "nota": ""
+  },
+  {
    "sha": "d3344dd",
    "team": "Tinkazo",
    "repo": "nema1502/tinkazo",
@@ -1812,6 +2620,16 @@
    "author": "nema1502",
    "date": "2026-11-16T05:04:49Z",
    "msg": "Espectadores y compartir: el celular sigue a la sala y no se adelanta",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "1167dc1",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "GuidoSV7",
+   "date": "2026-11-16T04:24:29Z",
+   "msg": "fix(interactivos): restaurar la vista del participante y el organizador tras el merge",
    "pts": 10,
    "nota": ""
   },
@@ -1856,6 +2674,36 @@
    "nota": ""
   },
   {
+   "sha": "65fd7a7",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "GuidoSV7",
+   "date": "2026-11-16T03:12:30Z",
+   "msg": "Merge remote-tracking branch 'origin/guido/juegos-interactivos-v2' into guido/final",
+   "pts": 0.0,
+   "nota": "merge"
+  },
+  {
+   "sha": "fa7a62d",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "GuidoSV7",
+   "date": "2026-11-16T03:12:30Z",
+   "msg": "Merge branch 'guido/amigo-secreto' into guido/final",
+   "pts": 0.0,
+   "nota": "merge"
+  },
+  {
+   "sha": "9dd7cfa",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "GuidoSV7",
+   "date": "2026-11-16T03:12:06Z",
+   "msg": "Merge remote-tracking branch 'origin/guido/todo-junto' into guido/final",
+   "pts": 0.0,
+   "nota": "merge"
+  },
+  {
    "sha": "f9d95de",
    "team": "Tinkazo",
    "repo": "nema1502/tinkazo",
@@ -1866,7 +2714,107 @@
    "nota": ""
   },
   {
+   "sha": "14b7f7d",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "GuidoSV7",
+   "date": "2026-11-16T02:30:18Z",
+   "msg": "feat(juegos): el amigo secreto, la mesa de sobres con la asignación del faro",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "dc3a108",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "GuidoSV7",
+   "date": "2026-11-16T02:06:30Z",
+   "msg": "feat(sala): el flujo interactivo comparte la ronda y cierra la lista",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "b824a72",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "GuidoSV7",
+   "date": "2026-11-16T01:09:25Z",
+   "msg": "docs(odd): tareas de amigo secreto y juegos interactivos",
+   "pts": 6.36,
+   "nota": ""
+  },
+  {
+   "sha": "76df8fd",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "GuidoSV7",
+   "date": "2026-11-15T01:16:54Z",
+   "msg": "fix(marca): la solapa exterior legible sobre el atardecer",
+   "pts": 0.0,
+   "nota": "sin cambios de lineas"
+  },
+  {
+   "sha": "51ff88c",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "GuidoSV7",
+   "date": "2026-11-15T01:16:51Z",
+   "msg": "fix(marca): la solapa exterior legible sobre el atardecer",
+   "pts": 0.0,
+   "nota": "sin cambios de lineas"
+  },
+  {
+   "sha": "08cebb9",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "GuidoSV7",
+   "date": "2026-11-15T01:08:03Z",
+   "msg": "feat(marca): el tríptico en dos tiradas (interior y exterior)",
+   "pts": 0.0,
+   "nota": "sin cambios de lineas"
+  },
+  {
+   "sha": "a30eec4",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "GuidoSV7",
+   "date": "2026-11-15T01:08:03Z",
+   "msg": "feat(marca): el tríptico en dos tiradas (interior y exterior)",
+   "pts": 0.0,
+   "nota": "sin cambios de lineas"
+  },
+  {
+   "sha": "9441aee",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "GuidoSV7",
+   "date": "2026-11-15T01:07:19Z",
+   "msg": "feat(marca): el tríptico como tríptico real, en dos tiradas",
+   "pts": 0.0,
+   "nota": "sin cambios de lineas"
+  },
+  {
+   "sha": "c3ada65",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "GuidoSV7",
+   "date": "2026-11-15T00:47:06Z",
+   "msg": "feat(marca): el tríptico con la franja de colores, pie de panel y marcos",
+   "pts": 0.0,
+   "nota": "sin cambios de lineas"
+  },
+  {
    "sha": "988bdb0",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "GuidoSV7",
+   "date": "2026-11-14T21:26:02Z",
+   "msg": "feat(espectadores): el sorteo se ve en vivo desde un QR, sin servidor nuevo",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "e09dd0d",
    "team": "Tinkazo",
    "repo": "nema1502/tinkazo",
    "author": "GuidoSV7",
@@ -1883,6 +2831,36 @@
    "date": "2026-11-14T20:01:09Z",
    "msg": "feat(compartir): Facebook e Instagram en el diálogo del sorteo",
    "pts": 6.0,
+   "nota": ""
+  },
+  {
+   "sha": "217c081",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "GuidoSV7",
+   "date": "2026-11-14T20:01:09Z",
+   "msg": "feat(compartir): Facebook e Instagram en el diálogo del sorteo",
+   "pts": 6.0,
+   "nota": ""
+  },
+  {
+   "sha": "2da26db",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "GuidoSV7",
+   "date": "2026-11-14T19:36:18Z",
+   "msg": "fix(marca): el tríptico abre en Word móvil",
+   "pts": 0.0,
+   "nota": "sin cambios de lineas"
+  },
+  {
+   "sha": "18ace3e",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "GuidoSV7",
+   "date": "2026-11-14T19:22:53Z",
+   "msg": "feat(marca): el tríptico en Word descargable desde la página de marca",
+   "pts": 3.0,
    "nota": ""
   },
   {
@@ -1986,6 +2964,26 @@
    "nota": ""
   },
   {
+   "sha": "fdc9bcf",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "GuidoSV7",
+   "date": "2026-11-13T21:13:24Z",
+   "msg": "feat(portada): el video con el atardecer de los juegos",
+   "pts": 0.0,
+   "nota": "solo archivos generados"
+  },
+  {
+   "sha": "079edcb",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "GuidoSV7",
+   "date": "2026-11-13T20:56:21Z",
+   "msg": "feat(portada): el video con la llamita rediseñada, nodos ordenados y gameplay",
+   "pts": 0.0,
+   "nota": "solo archivos generados"
+  },
+  {
    "sha": "3581705",
    "team": "Tinkazo",
    "repo": "nema1502/tinkazo",
@@ -2024,6 +3022,16 @@
    "msg": "La música nueva suena por defecto en la carrera y la piñata",
    "pts": 8.61,
    "nota": ""
+  },
+  {
+   "sha": "73b4650",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "GuidoSV7",
+   "date": "2026-11-13T19:48:40Z",
+   "msg": "feat(portada): el video final lleva gameplay real, confeti y la llamita caminando",
+   "pts": 0.0,
+   "nota": "solo archivos generados"
   },
   {
    "sha": "9f82fbd",
@@ -2083,6 +3091,26 @@
    "date": "2026-11-13T19:47:04Z",
    "msg": "La venta queda en piloto aunque sus banderas estén prendidas",
    "pts": 9.93,
+   "nota": ""
+  },
+  {
+   "sha": "9a8ccb2",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "GuidoSV7",
+   "date": "2026-11-13T19:09:07Z",
+   "msg": "feat(portada): el video de la llamita en «Por qué creerle»",
+   "pts": 4.81,
+   "nota": ""
+  },
+  {
+   "sha": "8f9f33a",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "GuidoSV7",
+   "date": "2026-11-13T18:07:05Z",
+   "msg": "feat(atencion): el pase y las animaciones de atención entran en main, con el 3D de Bolillas prendido",
+   "pts": 10,
    "nota": ""
   },
   {
