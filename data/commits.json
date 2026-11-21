@@ -205108,5 +205108,795 @@
     "d": 0
    }
   ]
+ },
+ "278e235ac938f6fead805c7052d46db7938a0e66": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-21T00:20:53Z",
+  "message": "La portada en Oficial dice que sortear es gratis",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/ux.md",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "sorteo-para-meetup.html",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "src/i18n.ts",
+    "a": 4,
+    "d": 4
+   },
+   {
+    "f": "src/portada-cta.test.ts",
+    "a": 14,
+    "d": 0
+   },
+   {
+    "f": "src/ui/modo-ui-estilo.test.ts",
+    "a": 18,
+    "d": 10
+   },
+   {
+    "f": "src/ui/modo-ui.ts",
+    "a": 2,
+    "d": 1
+   }
+  ]
+ },
+ "5c8af49752bb27a2193aa3470cd370049f8a66fb": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-21T00:18:30Z",
+  "message": "Nadie paga el servicio si la sala no va a activar su campaña",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/campana/comision-panel.test.ts",
+    "a": 27,
+    "d": 0
+   },
+   {
+    "f": "src/campana/comision-panel.ts",
+    "a": 15,
+    "d": 2
+   },
+   {
+    "f": "src/stellar/wallet-pollar-sesion.test.ts",
+    "a": 81,
+    "d": 0
+   },
+   {
+    "f": "src/stellar/wallet-pollar.ts",
+    "a": 7,
+    "d": 2
+   },
+   {
+    "f": "src/ui/campana-comision-real.test.ts",
+    "a": 62,
+    "d": 3
+   },
+   {
+    "f": "src/ui/campana-comision-real.ts",
+    "a": 19,
+    "d": 1
+   },
+   {
+    "f": "src/ui/campana-comision.ts",
+    "a": 17,
+    "d": 5
+   },
+   {
+    "f": "src/ui/campana-sala-activar.test.ts",
+    "a": 31,
+    "d": 1
+   },
+   {
+    "f": "src/ui/campana-sala.ts",
+    "a": 2,
+    "d": 2
+   }
+  ]
+ },
+ "a2959b2564531a231092954e1c880e63881d98a7": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-21T00:14:59Z",
+  "message": "Los tropiezos del armado: monto de muestra, montos chicos y el cierre",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/campana/crear/armar.test.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/campana/crear/estado.test.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/campana/crear/estado.ts",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "src/campana/crear/horas.test.ts",
+    "a": 21,
+    "d": 4
+   },
+   {
+    "f": "src/campana/crear/horas.ts",
+    "a": 13,
+    "d": 3
+   },
+   {
+    "f": "src/campana/crear/panel.test.ts",
+    "a": 29,
+    "d": 6
+   },
+   {
+    "f": "src/campana/crear/panel.ts",
+    "a": 20,
+    "d": 4
+   },
+   {
+    "f": "src/campana/vista-previa.css",
+    "a": 2,
+    "d": 1
+   }
+  ]
+ },
+ "549f04ddb548985e104345e7bf270c301e05355a": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-21T00:14:58Z",
+  "message": "El armado dice lo que cuesta el servicio y el total a poner",
+  "parents": 1,
+  "files": [
+   {
+    "f": "index.html",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/campana/crear/costo.test.ts",
+    "a": 70,
+    "d": 3
+   },
+   {
+    "f": "src/campana/crear/costo.ts",
+    "a": 30,
+    "d": 4
+   },
+   {
+    "f": "src/campana/crear/panel.test.ts",
+    "a": 7,
+    "d": 6
+   },
+   {
+    "f": "src/campana/crear/panel.ts",
+    "a": 14,
+    "d": 5
+   },
+   {
+    "f": "src/campana/textos-crear.ts",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "src/costo-del-retiro-portada.test.ts",
+    "a": 3,
+    "d": 3
+   },
+   {
+    "f": "src/costo-del-retiro-portada.ts",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "src/crear-campana.ts",
+    "a": 6,
+    "d": 1
+   }
+  ]
+ },
+ "345dd332e37295e04cc0de637cdb7ea0e87d2356": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-21T00:14:44Z",
+  "message": "La campaña por activar se ve en la portada hasta que se activa",
+  "parents": 1,
+  "files": [
+   {
+    "f": "index.html",
+    "a": 2,
+    "d": 0
+   },
+   {
+    "f": "src/campana/campana-sala.css",
+    "a": 24,
+    "d": 0
+   },
+   {
+    "f": "src/campana/textos-sala.ts",
+    "a": 14,
+    "d": 4
+   },
+   {
+    "f": "src/i18n.ts",
+    "a": 2,
+    "d": 0
+   },
+   {
+    "f": "src/styles.css",
+    "a": 4,
+    "d": 0
+   },
+   {
+    "f": "src/ui/campana-arranque.test.ts",
+    "a": 171,
+    "d": 2
+   },
+   {
+    "f": "src/ui/campana-arranque.ts",
+    "a": 55,
+    "d": 3
+   },
+   {
+    "f": "src/ui/campana-comision.ts",
+    "a": 9,
+    "d": 1
+   },
+   {
+    "f": "src/ui/campana-pendiente.test.ts",
+    "a": 89,
+    "d": 0
+   },
+   {
+    "f": "src/ui/campana-pendiente.ts",
+    "a": 99,
+    "d": 0
+   },
+   {
+    "f": "src/ui/campana-sala-activar.test.ts",
+    "a": 82,
+    "d": 5
+   },
+   {
+    "f": "src/ui/campana-sala-comision.test.ts",
+    "a": 7,
+    "d": 7
+   },
+   {
+    "f": "src/ui/campana-sala.ts",
+    "a": 54,
+    "d": 2
+   }
+  ]
+ },
+ "6a5a8337a4af09fa1323efc4c3df4e26b5793581": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-20T22:26:12Z",
+  "message": "Las páginas dicen que los primeros 3 sorteos oficiales son gratis",
+  "parents": 1,
+  "files": [
+   {
+    "f": ".env.example",
+    "a": 5,
+    "d": 0
+   },
+   {
+    "f": "como-funciona.html",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "docs/operacion.md",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "index.html",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "precios.html",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "ruleta-de-nombres.html",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "src/alta-textos-con-cobro.ts",
+    "a": 26,
+    "d": 0
+   },
+   {
+    "f": "src/costo-del-retiro-portada.test.ts",
+    "a": 19,
+    "d": 6
+   },
+   {
+    "f": "src/costo-del-retiro-portada.ts",
+    "a": 8,
+    "d": 4
+   },
+   {
+    "f": "src/i18n-modo-oficial.ts",
+    "a": 26,
+    "d": 17
+   },
+   {
+    "f": "src/i18n.ts",
+    "a": 3,
+    "d": 3
+   },
+   {
+    "f": "src/seo.test.ts",
+    "a": 3,
+    "d": 3
+   },
+   {
+    "f": "src/stellar/alta-build.test.ts",
+    "a": 102,
+    "d": 4
+   },
+   {
+    "f": "src/textos-con-cupon.test.ts",
+    "a": 132,
+    "d": 36
+   },
+   {
+    "f": "terminos.html",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "vite.config.ts",
+    "a": 16,
+    "d": 1
+   }
+  ]
+ },
+ "051208013cb9c7fb3389b8312a116e85c79301f0": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-20T20:37:52Z",
+  "message": "El resultado y las pantallas sueltas dicen menos",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/ux.md",
+    "a": 15,
+    "d": 0
+   },
+   {
+    "f": "index.html",
+    "a": 6,
+    "d": 6
+   },
+   {
+    "f": "src/i18n.test.ts",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "src/i18n.ts",
+    "a": 12,
+    "d": 12
+   },
+   {
+    "f": "src/styles.css",
+    "a": 18,
+    "d": 1
+   },
+   {
+    "f": "src/ui/draw.test.ts",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "src/ui/resultado-recorte.test.ts",
+    "a": 115,
+    "d": 0
+   }
+  ]
+ },
+ "6cab83fbdca190e962083ba693b1dbab99b3ffce": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-20T20:37:39Z",
+  "message": "La ayuda del selector de modos se pliega detrás de una i",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/ux.md",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "index.html",
+    "a": 19,
+    "d": 3
+   },
+   {
+    "f": "src/i18n.ts",
+    "a": 11,
+    "d": 7
+   },
+   {
+    "f": "src/styles.css",
+    "a": 41,
+    "d": 4
+   },
+   {
+    "f": "src/ui/cuadro-nombres.test.ts",
+    "a": 9,
+    "d": 0
+   },
+   {
+    "f": "src/ui/modo-info.test.ts",
+    "a": 309,
+    "d": 0
+   },
+   {
+    "f": "src/ui/turnos.test.ts",
+    "a": 9,
+    "d": 4
+   },
+   {
+    "f": "src/ui/turnos.ts",
+    "a": 60,
+    "d": 11
+   }
+  ]
+ },
+ "dae4c378c3fe110b7ad45e84b6b11b85dec1b369": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-20T20:37:30Z",
+  "message": "El cuadro de nombres muestra ejemplos y suma el botón Otro nombre",
+  "parents": 1,
+  "files": [
+   {
+    "f": "index.html",
+    "a": 9,
+    "d": 4
+   },
+   {
+    "f": "src/campana/campana-sala.css",
+    "a": 2,
+    "d": 0
+   },
+   {
+    "f": "src/i18n.ts",
+    "a": 18,
+    "d": 10
+   },
+   {
+    "f": "src/styles.css",
+    "a": 13,
+    "d": 0
+   },
+   {
+    "f": "src/ui/cuadro-nombres.test.ts",
+    "a": 112,
+    "d": 0
+   },
+   {
+    "f": "src/ui/cuenta-grande.test.ts",
+    "a": 83,
+    "d": 0
+   },
+   {
+    "f": "src/ui/otro-nombre.test.ts",
+    "a": 168,
+    "d": 0
+   },
+   {
+    "f": "src/ui/participaciones.test.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/ui/participants.ts",
+    "a": 46,
+    "d": 3
+   }
+  ]
+ },
+ "20c16d0dbf0f875ae43ede99bab1776385bb7c29": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-20T19:07:44Z",
+  "message": "El portero vende sorteos por unidad, apagado sin sorteo en PRECIOS",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/operacion.md",
+    "a": 18,
+    "d": 0
+   },
+   {
+    "f": "workers/patrocinio/README.md",
+    "a": 3,
+    "d": 1
+   },
+   {
+    "f": "workers/patrocinio/src/cobros-objeto.test.ts",
+    "a": 205,
+    "d": 0
+   },
+   {
+    "f": "workers/patrocinio/src/cobros-prueba.ts",
+    "a": 26,
+    "d": 5
+   },
+   {
+    "f": "workers/patrocinio/src/cobros.ts",
+    "a": 362,
+    "d": 29
+   },
+   {
+    "f": "workers/patrocinio/src/config.test.ts",
+    "a": 22,
+    "d": 1
+   },
+   {
+    "f": "workers/patrocinio/src/config.ts",
+    "a": 20,
+    "d": 6
+   },
+   {
+    "f": "workers/patrocinio/src/index.ts",
+    "a": 98,
+    "d": 11
+   },
+   {
+    "f": "workers/patrocinio/src/pollar.ts",
+    "a": 10,
+    "d": 0
+   },
+   {
+    "f": "workers/patrocinio/src/rutas-altas.ts",
+    "a": 85,
+    "d": 10
+   },
+   {
+    "f": "workers/patrocinio/src/venta-por-unidad.test.ts",
+    "a": 426,
+    "d": 0
+   },
+   {
+    "f": "workers/patrocinio/src/vigilante-cobros.test.ts",
+    "a": 250,
+    "d": 0
+   },
+   {
+    "f": "workers/patrocinio/wrangler.toml",
+    "a": 6,
+    "d": 0
+   }
+  ]
+ },
+ "467a56fd7b4ee18a88d5ac050264054a95c4c8fb": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-20T19:06:36Z",
+  "message": "El portero manda un correo de bienvenida, apagado por variable",
+  "parents": 1,
+  "files": [
+   {
+    "f": "workers/patrocinio/README.md",
+    "a": 18,
+    "d": 1
+   },
+   {
+    "f": "workers/patrocinio/src/altas-prueba.ts",
+    "a": 16,
+    "d": 2
+   },
+   {
+    "f": "workers/patrocinio/src/altas.ts",
+    "a": 36,
+    "d": 1
+   },
+   {
+    "f": "workers/patrocinio/src/config.ts",
+    "a": 44,
+    "d": 0
+   },
+   {
+    "f": "workers/patrocinio/src/correo-bienvenida.test.ts",
+    "a": 231,
+    "d": 0
+   },
+   {
+    "f": "workers/patrocinio/src/correo-bienvenida.ts",
+    "a": 284,
+    "d": 0
+   },
+   {
+    "f": "workers/patrocinio/src/correo-envios.test.ts",
+    "a": 465,
+    "d": 0
+   },
+   {
+    "f": "workers/patrocinio/src/correo-envios.ts",
+    "a": 253,
+    "d": 0
+   },
+   {
+    "f": "workers/patrocinio/src/correo-objeto.test.ts",
+    "a": 400,
+    "d": 0
+   },
+   {
+    "f": "workers/patrocinio/src/index.ts",
+    "a": 127,
+    "d": 7
+   },
+   {
+    "f": "workers/patrocinio/src/pollar.test.ts",
+    "a": 141,
+    "d": 1
+   },
+   {
+    "f": "workers/patrocinio/src/pollar.ts",
+    "a": 90,
+    "d": 5
+   },
+   {
+    "f": "workers/patrocinio/src/rutas-altas.ts",
+    "a": 15,
+    "d": 0
+   },
+   {
+    "f": "workers/patrocinio/src/servicio.ts",
+    "a": 8,
+    "d": 1
+   },
+   {
+    "f": "workers/patrocinio/ver-correo-bienvenida.mjs",
+    "a": 36,
+    "d": 0
+   },
+   {
+    "f": "workers/patrocinio/wrangler.toml",
+    "a": 13,
+    "d": 0
+   }
+  ]
+ },
+ "c6ddb4f51158820f89b841f3bbd4256ce80b0cc6": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-20T19:06:15Z",
+  "message": "Sumar sorteos por unidad, con contador y el pago que se mira solo",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/alta-textos-pago.test.ts",
+    "a": 5,
+    "d": 1
+   },
+   {
+    "f": "src/alta-textos-pago.ts",
+    "a": 25,
+    "d": 0
+   },
+   {
+    "f": "src/stellar/alta-api-pago.test.ts",
+    "a": 20,
+    "d": 0
+   },
+   {
+    "f": "src/stellar/alta-api-unidad.test.ts",
+    "a": 165,
+    "d": 0
+   },
+   {
+    "f": "src/stellar/alta-api.ts",
+    "a": 105,
+    "d": 7
+   },
+   {
+    "f": "src/stellar/alta-oferta.test.ts",
+    "a": 83,
+    "d": 0
+   },
+   {
+    "f": "src/stellar/alta-oferta.ts",
+    "a": 79,
+    "d": 5
+   },
+   {
+    "f": "src/styles.css",
+    "a": 8,
+    "d": 0
+   },
+   {
+    "f": "src/ui/compra-con-boton.test.ts",
+    "a": 4,
+    "d": 0
+   },
+   {
+    "f": "src/ui/cuenta-lista-acceso.ts",
+    "a": 3,
+    "d": 2
+   },
+   {
+    "f": "src/ui/cuenta-lista-flujo.ts",
+    "a": 9,
+    "d": 1
+   },
+   {
+    "f": "src/ui/cuenta-lista.ts",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "src/ui/pago-paquete.test.ts",
+    "a": 407,
+    "d": 2
+   },
+   {
+    "f": "src/ui/pago-paquete.ts",
+    "a": 315,
+    "d": 17
+   },
+   {
+    "f": "src/ui/pago-poco-texto.test.ts",
+    "a": 53,
+    "d": 0
+   },
+   {
+    "f": "src/ui/pago-sondeo.test.ts",
+    "a": 146,
+    "d": 1
+   },
+   {
+    "f": "src/ui/pago-sondeo.ts",
+    "a": 94,
+    "d": 10
+   }
+  ]
+ },
+ "7a01fbd9ded27c6456f81beb2d2364a80b11e520": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-20T16:40:39Z",
+  "message": "El reloj del foco del resultado no dispara con la página cerrada",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/ui/draw.ts",
+    "a": 2,
+    "d": 0
+   }
+  ]
  }
 }

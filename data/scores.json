@@ -1,15 +1,15 @@
 {
- "generado": "2026-11-20T23:29:51+00:00",
+ "generado": "2026-11-21T04:50:29+00:00",
  "programa": "Stellar Elite",
  "start_date": "2026-09-02T00:00:00Z",
  "teams": [
   {
    "name": "Tinkazo",
-   "total": 8919.53,
-   "per_capita": 8919.53,
-   "commits": 1376,
-   "pts_commits": 8673.53,
-   "dias_activos": 48,
+   "total": 9037.46,
+   "per_capita": 9037.46,
+   "commits": 1389,
+   "pts_commits": 8786.46,
+   "dias_activos": 49,
    "contribuidores": [
     "GuidoSV7",
     "nema1502"
@@ -380,7 +380,8 @@
    "2026-11-17": 73.8,
    "2026-11-18": 245.11999999999998,
    "2026-11-19": 32.63,
-   "2026-11-20": 165.76999999999998
+   "2026-11-20": 236.51,
+   "2026-11-21": 42.19
   },
   "CompraGasolinaBidon": {
    "2026-09-06": 1.0,
@@ -582,7 +583,8 @@
    "2026-11-17": 11,
    "2026-11-18": 34,
    "2026-11-19": 12,
-   "2026-11-20": 51
+   "2026-11-20": 59,
+   "2026-11-21": 5
   },
   "CompraGasolinaBidon": {
    "2026-09-06": 1,
@@ -694,6 +696,66 @@
  },
  "commits": [
   {
+   "sha": "278e235",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-21T00:20:53Z",
+   "msg": "La portada en Oficial dice que sortear es gratis",
+   "pts": 6.91,
+   "nota": ""
+  },
+  {
+   "sha": "5c8af49",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-21T00:18:30Z",
+   "msg": "Nadie paga el servicio si la sala no va a activar su campaña",
+   "pts": 9.12,
+   "nota": ""
+  },
+  {
+   "sha": "a2959b2",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-21T00:14:59Z",
+   "msg": "Los tropiezos del armado: monto de muestra, montos chicos y el cierre",
+   "pts": 7.81,
+   "nota": ""
+  },
+  {
+   "sha": "549f04d",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-21T00:14:58Z",
+   "msg": "El armado dice lo que cuesta el servicio y el total a poner",
+   "pts": 8.35,
+   "nota": ""
+  },
+  {
+   "sha": "345dd33",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-21T00:14:44Z",
+   "msg": "La campaña por activar se ve en la portada hasta que se activa",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "6a5a833",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-20T22:26:12Z",
+   "msg": "Las páginas dicen que los primeros 3 sorteos oficiales son gratis",
+   "pts": 9.75,
+   "nota": ""
+  },
+  {
    "sha": "f6e7b95",
    "team": "Tinkazo",
    "repo": "nema1502/tinkazo",
@@ -721,6 +783,76 @@
    "date": "2026-11-20T20:47:07Z",
    "msg": "El portero da el acceso de quien organiza una campaña con su secreto",
    "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "0512080",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-20T20:37:52Z",
+   "msg": "El resultado y las pantallas sueltas dicen menos",
+   "pts": 8.6,
+   "nota": ""
+  },
+  {
+   "sha": "6cab83f",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-20T20:37:39Z",
+   "msg": "La ayuda del selector de modos se pliega detrás de una i",
+   "pts": 9.93,
+   "nota": ""
+  },
+  {
+   "sha": "dae4c37",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-20T20:37:30Z",
+   "msg": "El cuadro de nombres muestra ejemplos y suma el botón Otro nombre",
+   "pts": 9.88,
+   "nota": ""
+  },
+  {
+   "sha": "20c16d0",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-20T19:07:44Z",
+   "msg": "El portero vende sorteos por unidad, apagado sin sorteo en PRECIOS",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "467a56f",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-20T19:06:36Z",
+   "msg": "El portero manda un correo de bienvenida, apagado por variable",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "c6ddb4f",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-20T19:06:15Z",
+   "msg": "Sumar sorteos por unidad, con contador y el pago que se mira solo",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "7a01fbd",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-20T16:40:39Z",
+   "msg": "El reloj del foco del resultado no dispara con la página cerrada",
+   "pts": 2.58,
    "nota": ""
   },
   {
