@@ -1,14 +1,14 @@
 {
- "generado": "2026-11-21T04:50:29+00:00",
+ "generado": "2026-11-21T13:54:45+00:00",
  "programa": "Stellar Elite",
  "start_date": "2026-09-02T00:00:00Z",
  "teams": [
   {
    "name": "Tinkazo",
-   "total": 9037.46,
-   "per_capita": 9037.46,
-   "commits": 1389,
-   "pts_commits": 8786.46,
+   "total": 9051.88,
+   "per_capita": 9051.88,
+   "commits": 1391,
+   "pts_commits": 8800.88,
    "dias_activos": 49,
    "contribuidores": [
     "GuidoSV7",
@@ -381,7 +381,7 @@
    "2026-11-18": 245.11999999999998,
    "2026-11-19": 32.63,
    "2026-11-20": 236.51,
-   "2026-11-21": 42.19
+   "2026-11-21": 56.61
   },
   "CompraGasolinaBidon": {
    "2026-09-06": 1.0,
@@ -584,7 +584,7 @@
    "2026-11-18": 34,
    "2026-11-19": 12,
    "2026-11-20": 59,
-   "2026-11-21": 5
+   "2026-11-21": 7
   },
   "CompraGasolinaBidon": {
    "2026-09-06": 1,
@@ -695,6 +695,26 @@
   }
  },
  "commits": [
+  {
+   "sha": "f80c536",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-21T07:16:14Z",
+   "msg": "La página para anotarse por QR vuelve a cargar en un navegador",
+   "pts": 6.67,
+   "nota": ""
+  },
+  {
+   "sha": "c35577f",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-21T05:58:55Z",
+   "msg": "La inscripción de una campaña activada se puede abrir ya",
+   "pts": 7.75,
+   "nota": ""
+  },
   {
    "sha": "278e235",
    "team": "Tinkazo",

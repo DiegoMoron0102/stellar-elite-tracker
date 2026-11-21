@@ -205898,5 +205898,55 @@
     "d": 0
    }
   ]
+ },
+ "f80c536b48ab9fee1e95ca836c3dec1690c0333d": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-21T07:16:14Z",
+  "message": "La página para anotarse por QR vuelve a cargar en un navegador",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/campana/carga.test.ts",
+    "a": 33,
+    "d": 1
+   },
+   {
+    "f": "src/campana/carga.ts",
+    "a": 11,
+    "d": 1
+   },
+   {
+    "f": "src/participar.ts",
+    "a": 3,
+    "d": 1
+   }
+  ]
+ },
+ "c35577f98e2c55e7ec89c7b3bfeab7624019d477": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-21T05:58:55Z",
+  "message": "La inscripción de una campaña activada se puede abrir ya",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/campana/textos-sala.ts",
+    "a": 4,
+    "d": 0
+   },
+   {
+    "f": "src/ui/campana-sala-activar.test.ts",
+    "a": 55,
+    "d": 0
+   },
+   {
+    "f": "src/ui/campana-sala.ts",
+    "a": 42,
+    "d": 6
+   }
+  ]
  }
 }
