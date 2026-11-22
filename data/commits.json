@@ -205948,5 +205948,1455 @@
     "d": 6
    }
   ]
+ },
+ "8667b212211cd4071061d76aec4a4c945ff755b9": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-22T22:34:39Z",
+  "message": "La página de marca suma los logos cuadrados y su descarga",
+  "parents": 1,
+  "files": [
+   {
+    "f": ".gitignore",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "docs/marca.md",
+    "a": 4,
+    "d": 3
+   },
+   {
+    "f": "marca.html",
+    "a": 87,
+    "d": 1
+   },
+   {
+    "f": "public/marca/logo-cuadrado-fondo-blanco-1080.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/logo-cuadrado-fondo-blanco-2400.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/logo-cuadrado-fondo-crema-1080.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/logo-cuadrado-fondo-crema-2400.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/logo-cuadrado-fondo-oscuro-1080.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/logo-cuadrado-fondo-oscuro-2400.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/logo-horizontal-fondo-blanco-2400.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/logo-horizontal-fondo-crema-2400.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/logo-horizontal-fondo-oscuro-2400.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/perfil-amarillo-1080.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/perfil-crema-1080.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/perfil-oscuro-1080.png",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/tinkazo-kit-sponsor.zip",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/marca/tinkazo-logos.zip",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "scripts/generar-marca.mjs",
+    "a": 5,
+    "d": 1
+   },
+   {
+    "f": "scripts/marca/logos-fondo.mjs",
+    "a": 172,
+    "d": 0
+   },
+   {
+    "f": "scripts/marca/piezas.mjs",
+    "a": 4,
+    "d": 0
+   },
+   {
+    "f": "src/i18n.ts",
+    "a": 44,
+    "d": 2
+   },
+   {
+    "f": "src/marca.css",
+    "a": 22,
+    "d": 1
+   },
+   {
+    "f": "src/marca.test.ts",
+    "a": 259,
+    "d": 2
+   }
+  ]
+ },
+ "e7bb9b75bd9315ceeacd82d6bee063bc005a4f7c": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-22T20:59:33Z",
+  "message": "Suma el archivo de dueños del código",
+  "parents": 1,
+  "files": [
+   {
+    "f": ".github/CODEOWNERS",
+    "a": 2,
+    "d": 0
+   }
+  ]
+ },
+ "7bf661b3b795c1118e9c94174e68095bc89f030d": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-22T20:56:43Z",
+  "message": "Arreglos de la campaña vista de punta a punta",
+  "parents": 1,
+  "files": [
+   {
+    "f": ".github/workflows/auditores.yml",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/campana/campana-sala-css.test.ts",
+    "a": 20,
+    "d": 0
+   },
+   {
+    "f": "src/campana/campana-sala.css",
+    "a": 10,
+    "d": 0
+   },
+   {
+    "f": "src/campana/formato.test.ts",
+    "a": 31,
+    "d": 1
+   },
+   {
+    "f": "src/campana/formato.ts",
+    "a": 22,
+    "d": 3
+   },
+   {
+    "f": "src/campana/textos-sala.test.ts",
+    "a": 4,
+    "d": 1
+   },
+   {
+    "f": "src/campana/textos-sala.ts",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "src/ui/campana-sala-activar.test.ts",
+    "a": 60,
+    "d": 0
+   },
+   {
+    "f": "src/ui/campana-sala-puente.test.ts",
+    "a": 54,
+    "d": 2
+   },
+   {
+    "f": "src/ui/campana-sala.ts",
+    "a": 50,
+    "d": 13
+   },
+   {
+    "f": "src/ui/siguiente-premio.test.ts",
+    "a": 30,
+    "d": 0
+   },
+   {
+    "f": "src/ui/siguiente.test.ts",
+    "a": 31,
+    "d": 0
+   },
+   {
+    "f": "src/ui/siguiente.ts",
+    "a": 8,
+    "d": 2
+   }
+  ]
+ },
+ "3d8cfc1d797d146f753913d79f129db9ccca406e": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-22T20:56:42Z",
+  "message": "Las pantallas de la plata dicen qué se revisa y cuándo llegó",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/campana/campana-sala-css.test.ts",
+    "a": 21,
+    "d": 0
+   },
+   {
+    "f": "src/campana/campana-sala.css",
+    "a": 14,
+    "d": 0
+   },
+   {
+    "f": "src/campana/formato.test.ts",
+    "a": 31,
+    "d": 1
+   },
+   {
+    "f": "src/campana/formato.ts",
+    "a": 23,
+    "d": 0
+   },
+   {
+    "f": "src/campana/textos-sala.ts",
+    "a": 22,
+    "d": 0
+   },
+   {
+    "f": "src/i18n.ts",
+    "a": 12,
+    "d": 0
+   },
+   {
+    "f": "src/styles.css",
+    "a": 26,
+    "d": 0
+   },
+   {
+    "f": "src/ui/campana-comision.ts",
+    "a": 95,
+    "d": 23
+   },
+   {
+    "f": "src/ui/campana-sala-activar.test.ts",
+    "a": 39,
+    "d": 8
+   },
+   {
+    "f": "src/ui/campana-sala-comision.test.ts",
+    "a": 189,
+    "d": 12
+   },
+   {
+    "f": "src/ui/campana-sala-puente.test.ts",
+    "a": 75,
+    "d": 0
+   },
+   {
+    "f": "src/ui/campana-sala.test.ts",
+    "a": 14,
+    "d": 2
+   },
+   {
+    "f": "src/ui/campana-sala.ts",
+    "a": 120,
+    "d": 13
+   },
+   {
+    "f": "src/ui/fila-viva.test.ts",
+    "a": 122,
+    "d": 0
+   },
+   {
+    "f": "src/ui/fila-viva.ts",
+    "a": 126,
+    "d": 0
+   },
+   {
+    "f": "src/ui/pagar-premio-google.test.ts",
+    "a": 39,
+    "d": 31
+   },
+   {
+    "f": "src/ui/pagar-premio.test.ts",
+    "a": 3,
+    "d": 3
+   },
+   {
+    "f": "src/ui/pagar-premio.ts",
+    "a": 37,
+    "d": 10
+   },
+   {
+    "f": "src/ui/saldo-premios-cargar.test.ts",
+    "a": 170,
+    "d": 11
+   },
+   {
+    "f": "src/ui/saldo-premios.test.ts",
+    "a": 3,
+    "d": 3
+   },
+   {
+    "f": "src/ui/saldo.test.ts",
+    "a": 15,
+    "d": 12
+   },
+   {
+    "f": "src/ui/saldo.ts",
+    "a": 119,
+    "d": 38
+   }
+  ]
+ },
+ "6aeabbd4ab220692454dbbf746e3d8126969ccea": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-22T20:56:42Z",
+  "message": "El panel de la campaña deja una sola acción a la vista",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/campana/campana-sala-css.test.ts",
+    "a": 82,
+    "d": 2
+   },
+   {
+    "f": "src/campana/campana-sala.css",
+    "a": 51,
+    "d": 5
+   },
+   {
+    "f": "src/campana/textos-sala.test.ts",
+    "a": 6,
+    "d": 0
+   },
+   {
+    "f": "src/campana/textos-sala.ts",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "src/equipos/etiquetas.ts",
+    "a": 26,
+    "d": 5
+   },
+   {
+    "f": "src/i18n.ts",
+    "a": 2,
+    "d": 0
+   },
+   {
+    "f": "src/ui/campana-arranque.test.ts",
+    "a": 42,
+    "d": 0
+   },
+   {
+    "f": "src/ui/campana-arranque.ts",
+    "a": 10,
+    "d": 1
+   },
+   {
+    "f": "src/ui/campana-no-pisa.test.ts",
+    "a": 119,
+    "d": 0
+   },
+   {
+    "f": "src/ui/campana-no-pisa.ts",
+    "a": 24,
+    "d": 0
+   },
+   {
+    "f": "src/ui/campana-pasar.test.ts",
+    "a": 14,
+    "d": 1
+   },
+   {
+    "f": "src/ui/campana-pasar.ts",
+    "a": 3,
+    "d": 2
+   },
+   {
+    "f": "src/ui/campana-sala-mundo.ts",
+    "a": 3,
+    "d": 3
+   },
+   {
+    "f": "src/ui/campana-sala-puente.test.ts",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "src/ui/campana-sala.test.ts",
+    "a": 51,
+    "d": 0
+   },
+   {
+    "f": "src/ui/campana-sala.ts",
+    "a": 53,
+    "d": 7
+   },
+   {
+    "f": "src/ui/ensayo.ts",
+    "a": 3,
+    "d": 0
+   },
+   {
+    "f": "src/ui/lista-de-equipos.test.ts",
+    "a": 48,
+    "d": 0
+   },
+   {
+    "f": "src/ui/qr-fijo.test.ts",
+    "a": 54,
+    "d": 0
+   },
+   {
+    "f": "src/ui/qr.ts",
+    "a": 75,
+    "d": 12
+   },
+   {
+    "f": "src/ui/stand.ts",
+    "a": 3,
+    "d": 0
+   }
+  ]
+ },
+ "3e8319767a2225240e3213ec3ca400d820bbec87": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-22T20:56:42Z",
+  "message": "Arreglos chicos de experiencia en el panel y en el ingreso",
+  "parents": 1,
+  "files": [
+   {
+    "f": "README.es.md",
+    "a": 3,
+    "d": 3
+   },
+   {
+    "f": "README.md",
+    "a": 3,
+    "d": 3
+   },
+   {
+    "f": "como-funciona.html",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "docs/architecture.md",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/alta-textos-con-cobro.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/alta-textos.test.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/alta-textos.ts",
+    "a": 5,
+    "d": 0
+   },
+   {
+    "f": "src/campana/campana-sala.css",
+    "a": 3,
+    "d": 0
+   },
+   {
+    "f": "src/campana/crear-css.test.ts",
+    "a": 12,
+    "d": 0
+   },
+   {
+    "f": "src/campana/crear.css",
+    "a": 4,
+    "d": 1
+   },
+   {
+    "f": "src/campana/direccion-del-panel.test.ts",
+    "a": 21,
+    "d": 0
+   },
+   {
+    "f": "src/campana/direccion-del-panel.ts",
+    "a": 20,
+    "d": 0
+   },
+   {
+    "f": "src/contar.test.ts",
+    "a": 15,
+    "d": 0
+   },
+   {
+    "f": "src/contar.ts",
+    "a": 8,
+    "d": 3
+   },
+   {
+    "f": "src/crear-campana.ts",
+    "a": 3,
+    "d": 1
+   },
+   {
+    "f": "src/cta-de-la-pagina.test.ts",
+    "a": 60,
+    "d": 0
+   },
+   {
+    "f": "src/cta-de-la-pagina.ts",
+    "a": 24,
+    "d": 0
+   },
+   {
+    "f": "src/i18n-modo-oficial.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/i18n.ts",
+    "a": 7,
+    "d": 0
+   },
+   {
+    "f": "src/pagina.ts",
+    "a": 21,
+    "d": 8
+   },
+   {
+    "f": "src/sala/cliente.ts",
+    "a": 38,
+    "d": 3
+   },
+   {
+    "f": "src/sala/sala.test.ts",
+    "a": 85,
+    "d": 0
+   },
+   {
+    "f": "src/styles.css",
+    "a": 24,
+    "d": 1
+   },
+   {
+    "f": "src/ui/campana-comision-real.test.ts",
+    "a": 52,
+    "d": 1
+   },
+   {
+    "f": "src/ui/campana-comision-real.ts",
+    "a": 26,
+    "d": 0
+   },
+   {
+    "f": "src/ui/campana-pendiente.test.ts",
+    "a": 8,
+    "d": 0
+   },
+   {
+    "f": "src/ui/campana-pendiente.ts",
+    "a": 9,
+    "d": 6
+   },
+   {
+    "f": "src/ui/campana-sala-activar.test.ts",
+    "a": 134,
+    "d": 0
+   },
+   {
+    "f": "src/ui/campana-sala.ts",
+    "a": 98,
+    "d": 13
+   },
+   {
+    "f": "src/ui/cuenta-lista-acceso-vista.test.ts",
+    "a": 27,
+    "d": 0
+   },
+   {
+    "f": "src/ui/cuenta-lista-bienvenida.test.ts",
+    "a": 15,
+    "d": 2
+   },
+   {
+    "f": "src/ui/cuenta-lista-estado.ts",
+    "a": 19,
+    "d": 5
+   },
+   {
+    "f": "src/ui/cuenta-lista-flujo.test.ts",
+    "a": 19,
+    "d": 1
+   },
+   {
+    "f": "src/ui/cuenta-lista-flujo.ts",
+    "a": 3,
+    "d": 1
+   },
+   {
+    "f": "src/ui/cuenta-lista.test.ts",
+    "a": 24,
+    "d": 0
+   },
+   {
+    "f": "src/ui/cuenta-lista.ts",
+    "a": 38,
+    "d": 6
+   },
+   {
+    "f": "src/ui/ingreso-plan-b-ui.test.ts",
+    "a": 32,
+    "d": 0
+   },
+   {
+    "f": "src/ui/wallet-ui.ts",
+    "a": 18,
+    "d": 7
+   },
+   {
+    "f": "src/verify.ts",
+    "a": 5,
+    "d": 5
+   }
+  ]
+ },
+ "6b52cd957bf6563b204220afee67fce4db4b54c9": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-22T20:56:42Z",
+  "message": "La revisión automática del sitio se reparte en varias máquinas",
+  "parents": 1,
+  "files": [
+   {
+    "f": ".github/workflows/auditores.yml",
+    "a": 197,
+    "d": 0
+   },
+   {
+    "f": ".github/workflows/ci.yml",
+    "a": 76,
+    "d": 4
+   },
+   {
+    "f": "docs/architecture.md",
+    "a": 1,
+    "d": 1
+   }
+  ]
+ },
+ "9e355588705ace8bb05e844df80f4e6613e004fd": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-22T20:56:41Z",
+  "message": "El panel dice el saldo de la cuenta antes de cobrar el servicio",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/campana/comision-panel.test.ts",
+    "a": 5,
+    "d": 5
+   },
+   {
+    "f": "src/campana/comision-panel.ts",
+    "a": 3,
+    "d": 3
+   },
+   {
+    "f": "src/campana/textos-sala.ts",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "src/ui/campana-comision.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/ui/campana-sala-comision.test.ts",
+    "a": 1,
+    "d": 1
+   }
+  ]
+ },
+ "1f8a8e63afb00539e2c52b95acb072cd9779b926": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-22T20:56:41Z",
+  "message": "La ventana de cargar dice cuánto mandar y avisa sola cuando llega",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/i18n.ts",
+    "a": 2,
+    "d": 0
+   },
+   {
+    "f": "src/ui/campana-comision-real.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/ui/campana-comision.ts",
+    "a": 12,
+    "d": 4
+   },
+   {
+    "f": "src/ui/campana-sala-comision.test.ts",
+    "a": 21,
+    "d": 1
+   },
+   {
+    "f": "src/ui/pagar-premio.ts",
+    "a": 8,
+    "d": 3
+   },
+   {
+    "f": "src/ui/saldo-premios-cargar.test.ts",
+    "a": 87,
+    "d": 0
+   },
+   {
+    "f": "src/ui/saldo.ts",
+    "a": 58,
+    "d": 7
+   }
+  ]
+ },
+ "91e60b4bace399b2997e7e8bc0f9f6efd20ae409": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-22T20:56:41Z",
+  "message": "El guardado tardío de la lista no falla si la página ya no está",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/ui/participaciones.test.ts",
+    "a": 30,
+    "d": 0
+   },
+   {
+    "f": "src/ui/participants.ts",
+    "a": 7,
+    "d": 2
+   }
+  ]
+ },
+ "b164038d2aea63b31e7221ffc9e11aca0fd54adf": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-22T18:27:58Z",
+  "message": "Saca el panel de la empresa hasta corregir el pago",
+  "parents": 1,
+  "files": [
+   {
+    "f": "como-funciona.html",
+    "a": 0,
+    "d": 1
+   },
+   {
+    "f": "docs/empresa-panel.md",
+    "a": 0,
+    "d": 70
+   },
+   {
+    "f": "empresa.html",
+    "a": 0,
+    "d": 185
+   },
+   {
+    "f": "historia.html",
+    "a": 0,
+    "d": 1
+   },
+   {
+    "f": "index.html",
+    "a": 0,
+    "d": 1
+   },
+   {
+    "f": "juegos.html",
+    "a": 0,
+    "d": 1
+   },
+   {
+    "f": "marca.html",
+    "a": 0,
+    "d": 1
+   },
+   {
+    "f": "precios.html",
+    "a": 0,
+    "d": 1
+   },
+   {
+    "f": "ruleta-de-nombres.html",
+    "a": 0,
+    "d": 1
+   },
+   {
+    "f": "scripts/check-paginas.mjs",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "seguridad.html",
+    "a": 0,
+    "d": 1
+   },
+   {
+    "f": "sorteo-en-clase.html",
+    "a": 0,
+    "d": 1
+   },
+   {
+    "f": "sorteo-para-eventos.html",
+    "a": 0,
+    "d": 1
+   },
+   {
+    "f": "sorteo-para-meetup.html",
+    "a": 0,
+    "d": 1
+   },
+   {
+    "f": "sorteo-verificable.html",
+    "a": 0,
+    "d": 1
+   },
+   {
+    "f": "src/empresa/deposito.test.ts",
+    "a": 0,
+    "d": 125
+   },
+   {
+    "f": "src/empresa/deposito.ts",
+    "a": 0,
+    "d": 133
+   },
+   {
+    "f": "src/empresa/enlace.test.ts",
+    "a": 0,
+    "d": 34
+   },
+   {
+    "f": "src/empresa/enlace.ts",
+    "a": 0,
+    "d": 32
+   },
+   {
+    "f": "src/empresa/eventos.test.ts",
+    "a": 0,
+    "d": 86
+   },
+   {
+    "f": "src/empresa/eventos.ts",
+    "a": 0,
+    "d": 129
+   },
+   {
+    "f": "src/empresa/informe.test.ts",
+    "a": 0,
+    "d": 42
+   },
+   {
+    "f": "src/empresa/informe.ts",
+    "a": 0,
+    "d": 79
+   },
+   {
+    "f": "src/empresa/pasos.test.ts",
+    "a": 0,
+    "d": 76
+   },
+   {
+    "f": "src/empresa/pasos.ts",
+    "a": 0,
+    "d": 137
+   },
+   {
+    "f": "src/empresa/premios.test.ts",
+    "a": 0,
+    "d": 82
+   },
+   {
+    "f": "src/empresa/premios.ts",
+    "a": 0,
+    "d": 99
+   },
+   {
+    "f": "src/empresa/publicar.test.ts",
+    "a": 0,
+    "d": 89
+   },
+   {
+    "f": "src/empresa/publicar.ts",
+    "a": 0,
+    "d": 167
+   },
+   {
+    "f": "src/empresa/saldo.test.ts",
+    "a": 0,
+    "d": 59
+   },
+   {
+    "f": "src/empresa/saldo.ts",
+    "a": 0,
+    "d": 42
+   },
+   {
+    "f": "src/empresa/textos.test.ts",
+    "a": 0,
+    "d": 49
+   },
+   {
+    "f": "src/empresa/textos.ts",
+    "a": 0,
+    "d": 214
+   },
+   {
+    "f": "src/empresa/vista.test.ts",
+    "a": 0,
+    "d": 53
+   },
+   {
+    "f": "src/empresa/vista.ts",
+    "a": 0,
+    "d": 54
+   },
+   {
+    "f": "src/ui/empresa-panel.ts",
+    "a": 0,
+    "d": 803
+   },
+   {
+    "f": "terminos.html",
+    "a": 0,
+    "d": 1
+   },
+   {
+    "f": "vite.config.ts",
+    "a": 0,
+    "d": 1
+   }
+  ]
+ },
+ "0725593ceecfea76079847b02c399650769ff1ba": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "GuidoSV7",
+  "date": "2026-11-22T18:21:41Z",
+  "message": "Merge pull request #211 from nema1502/guido/panel-empresa",
+  "parents": 2,
+  "files": [
+   {
+    "f": "como-funciona.html",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "docs/empresa-panel.md",
+    "a": 70,
+    "d": 0
+   },
+   {
+    "f": "empresa.html",
+    "a": 185,
+    "d": 0
+   },
+   {
+    "f": "historia.html",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "index.html",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "juegos.html",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "marca.html",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "precios.html",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "ruleta-de-nombres.html",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "scripts/check-paginas.mjs",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "seguridad.html",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "sorteo-en-clase.html",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "sorteo-para-eventos.html",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "sorteo-para-meetup.html",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "sorteo-verificable.html",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "src/empresa/deposito.test.ts",
+    "a": 125,
+    "d": 0
+   },
+   {
+    "f": "src/empresa/deposito.ts",
+    "a": 133,
+    "d": 0
+   },
+   {
+    "f": "src/empresa/enlace.test.ts",
+    "a": 34,
+    "d": 0
+   },
+   {
+    "f": "src/empresa/enlace.ts",
+    "a": 32,
+    "d": 0
+   },
+   {
+    "f": "src/empresa/eventos.test.ts",
+    "a": 86,
+    "d": 0
+   },
+   {
+    "f": "src/empresa/eventos.ts",
+    "a": 129,
+    "d": 0
+   },
+   {
+    "f": "src/empresa/informe.test.ts",
+    "a": 42,
+    "d": 0
+   },
+   {
+    "f": "src/empresa/informe.ts",
+    "a": 79,
+    "d": 0
+   },
+   {
+    "f": "src/empresa/pasos.test.ts",
+    "a": 76,
+    "d": 0
+   },
+   {
+    "f": "src/empresa/pasos.ts",
+    "a": 137,
+    "d": 0
+   },
+   {
+    "f": "src/empresa/premios.test.ts",
+    "a": 82,
+    "d": 0
+   },
+   {
+    "f": "src/empresa/premios.ts",
+    "a": 99,
+    "d": 0
+   },
+   {
+    "f": "src/empresa/publicar.test.ts",
+    "a": 89,
+    "d": 0
+   },
+   {
+    "f": "src/empresa/publicar.ts",
+    "a": 167,
+    "d": 0
+   },
+   {
+    "f": "src/empresa/saldo.test.ts",
+    "a": 59,
+    "d": 0
+   },
+   {
+    "f": "src/empresa/saldo.ts",
+    "a": 42,
+    "d": 0
+   },
+   {
+    "f": "src/empresa/textos.test.ts",
+    "a": 49,
+    "d": 0
+   },
+   {
+    "f": "src/empresa/textos.ts",
+    "a": 214,
+    "d": 0
+   },
+   {
+    "f": "src/empresa/vista.test.ts",
+    "a": 53,
+    "d": 0
+   },
+   {
+    "f": "src/empresa/vista.ts",
+    "a": 54,
+    "d": 0
+   },
+   {
+    "f": "src/ui/empresa-panel.ts",
+    "a": 803,
+    "d": 0
+   },
+   {
+    "f": "terminos.html",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "vite.config.ts",
+    "a": 1,
+    "d": 0
+   }
+  ]
+ },
+ "674bcfa7d88d928af8765faf250cad4c82e8745b": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "GuidoSV7",
+  "date": "2026-11-21T22:36:30Z",
+  "message": "fix(campañas): el panel importa el aviso de versión nueva",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/ui/empresa-panel.ts",
+    "a": 1,
+    "d": 0
+   }
+  ]
+ },
+ "d63460b2937a600972fd47fa4c975bb28fcbf668": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "GuidoSV7",
+  "date": "2026-11-21T22:12:57Z",
+  "message": "feat(campañas): el panel de la empresa con el pie de las páginas del sitio",
+  "parents": 1,
+  "files": [
+   {
+    "f": "empresa.html",
+    "a": 23,
+    "d": 0
+   }
+  ]
+ },
+ "514cb0e18676ee15025b57f030769c19fdbc7a79": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "GuidoSV7",
+  "date": "2026-11-21T21:59:03Z",
+  "message": "docs(campañas): el panel de la empresa explicado en su documento",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/empresa-panel.md",
+    "a": 70,
+    "d": 0
+   }
+  ]
+ },
+ "3bc4832c7051dd15328054c3476d23585c378fcd": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "GuidoSV7",
+  "date": "2026-11-21T21:46:47Z",
+  "message": "feat(campañas): el pie de todas las páginas enlaza el panel de la empresa",
+  "parents": 1,
+  "files": [
+   {
+    "f": "como-funciona.html",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "historia.html",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "juegos.html",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "marca.html",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "precios.html",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "ruleta-de-nombres.html",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "seguridad.html",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "sorteo-en-clase.html",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "sorteo-para-eventos.html",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "sorteo-para-meetup.html",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "sorteo-verificable.html",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "terminos.html",
+    "a": 1,
+    "d": 0
+   }
+  ]
+ },
+ "300449b4d2a6ad8b2730b726114526b9f7a2f73e": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "GuidoSV7",
+  "date": "2026-11-21T19:02:39Z",
+  "message": "build(campañas): registrar empresa.html en el build, el check de páginas y el pie",
+  "parents": 1,
+  "files": [
+   {
+    "f": "index.html",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "scripts/check-paginas.mjs",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "vite.config.ts",
+    "a": 1,
+    "d": 0
+   }
+  ]
+ },
+ "262db8c899874cd8440c467ee342f98344c4a28d": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "GuidoSV7",
+  "date": "2026-11-21T19:02:39Z",
+  "message": "feat(campañas): empresa.html, el panel por clic de la empresa aliada",
+  "parents": 1,
+  "files": [
+   {
+    "f": "empresa.html",
+    "a": 162,
+    "d": 0
+   },
+   {
+    "f": "src/ui/empresa-panel.ts",
+    "a": 802,
+    "d": 0
+   }
+  ]
+ },
+ "caab5a28716fb6748e790c13b54283a449c64f8b": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "GuidoSV7",
+  "date": "2026-11-21T19:02:39Z",
+  "message": "feat(campañas): la empresa arma su campaña por clic en módulos puros",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/empresa/deposito.test.ts",
+    "a": 125,
+    "d": 0
+   },
+   {
+    "f": "src/empresa/deposito.ts",
+    "a": 133,
+    "d": 0
+   },
+   {
+    "f": "src/empresa/enlace.test.ts",
+    "a": 34,
+    "d": 0
+   },
+   {
+    "f": "src/empresa/enlace.ts",
+    "a": 32,
+    "d": 0
+   },
+   {
+    "f": "src/empresa/eventos.test.ts",
+    "a": 86,
+    "d": 0
+   },
+   {
+    "f": "src/empresa/eventos.ts",
+    "a": 129,
+    "d": 0
+   },
+   {
+    "f": "src/empresa/informe.test.ts",
+    "a": 42,
+    "d": 0
+   },
+   {
+    "f": "src/empresa/informe.ts",
+    "a": 79,
+    "d": 0
+   },
+   {
+    "f": "src/empresa/pasos.test.ts",
+    "a": 76,
+    "d": 0
+   },
+   {
+    "f": "src/empresa/pasos.ts",
+    "a": 137,
+    "d": 0
+   },
+   {
+    "f": "src/empresa/premios.test.ts",
+    "a": 82,
+    "d": 0
+   },
+   {
+    "f": "src/empresa/premios.ts",
+    "a": 99,
+    "d": 0
+   },
+   {
+    "f": "src/empresa/publicar.test.ts",
+    "a": 89,
+    "d": 0
+   },
+   {
+    "f": "src/empresa/publicar.ts",
+    "a": 167,
+    "d": 0
+   },
+   {
+    "f": "src/empresa/saldo.test.ts",
+    "a": 59,
+    "d": 0
+   },
+   {
+    "f": "src/empresa/saldo.ts",
+    "a": 42,
+    "d": 0
+   },
+   {
+    "f": "src/empresa/textos.test.ts",
+    "a": 49,
+    "d": 0
+   },
+   {
+    "f": "src/empresa/textos.ts",
+    "a": 214,
+    "d": 0
+   },
+   {
+    "f": "src/empresa/vista.test.ts",
+    "a": 53,
+    "d": 0
+   },
+   {
+    "f": "src/empresa/vista.ts",
+    "a": 54,
+    "d": 0
+   }
+  ]
  }
 }

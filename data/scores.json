@@ -1,15 +1,15 @@
 {
- "generado": "2026-11-22T13:47:53+00:00",
+ "generado": "2026-11-22T22:58:48+00:00",
  "programa": "Stellar Elite",
  "start_date": "2026-09-02T00:00:00Z",
  "teams": [
   {
    "name": "Tinkazo",
-   "total": 9051.88,
-   "per_capita": 9051.88,
-   "commits": 1391,
-   "pts_commits": 8800.88,
-   "dias_activos": 49,
+   "total": 9191.44,
+   "per_capita": 9191.44,
+   "commits": 1410,
+   "pts_commits": 8935.44,
+   "dias_activos": 50,
    "contribuidores": [
     "GuidoSV7",
     "nema1502"
@@ -381,7 +381,8 @@
    "2026-11-18": 245.11999999999998,
    "2026-11-19": 32.63,
    "2026-11-20": 236.51,
-   "2026-11-21": 56.61
+   "2026-11-21": 99.36,
+   "2026-11-22": 91.81
   },
   "CompraGasolinaBidon": {
    "2026-09-06": 1.0,
@@ -584,7 +585,8 @@
    "2026-11-18": 34,
    "2026-11-19": 12,
    "2026-11-20": 59,
-   "2026-11-21": 7
+   "2026-11-21": 14,
+   "2026-11-22": 12
   },
   "CompraGasolinaBidon": {
    "2026-09-06": 1,
@@ -695,6 +697,196 @@
   }
  },
  "commits": [
+  {
+   "sha": "8667b21",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-22T22:34:39Z",
+   "msg": "La página de marca suma los logos cuadrados y su descarga",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "e7bb9b7",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-22T20:59:33Z",
+   "msg": "Suma el archivo de dueños del código",
+   "pts": 2.58,
+   "nota": ""
+  },
+  {
+   "sha": "7bf661b",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-22T20:56:43Z",
+   "msg": "Arreglos de la campaña vista de punta a punta",
+   "pts": 9.45,
+   "nota": ""
+  },
+  {
+   "sha": "3d8cfc1",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-22T20:56:42Z",
+   "msg": "Las pantallas de la plata dicen qué se revisa y cuándo llegó",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "6aeabbd",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-22T20:56:42Z",
+   "msg": "El panel de la campaña deja una sola acción a la vista",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "3e83197",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-22T20:56:42Z",
+   "msg": "Arreglos chicos de experiencia en el panel y en el ingreso",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "6b52cd9",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-22T20:56:42Z",
+   "msg": "La revisión automática del sitio se reparte en varias máquinas",
+   "pts": 9.13,
+   "nota": ""
+  },
+  {
+   "sha": "9e35558",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-22T20:56:41Z",
+   "msg": "El panel dice el saldo de la cuenta antes de cobrar el servicio",
+   "pts": 5.64,
+   "nota": ""
+  },
+  {
+   "sha": "1f8a8e6",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-22T20:56:41Z",
+   "msg": "La ventana de cargar dice cuánto mandar y avisa sola cuando llega",
+   "pts": 8.69,
+   "nota": ""
+  },
+  {
+   "sha": "91e60b4",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-22T20:56:41Z",
+   "msg": "El guardado tardío de la lista no falla si la página ya no está",
+   "pts": 6.32,
+   "nota": ""
+  },
+  {
+   "sha": "b164038",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-22T18:27:58Z",
+   "msg": "Saca el panel de la empresa hasta corregir el pago",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "0725593",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "GuidoSV7",
+   "date": "2026-11-22T18:21:41Z",
+   "msg": "Merge pull request #211 from nema1502/guido/panel-empresa",
+   "pts": 0.0,
+   "nota": "merge"
+  },
+  {
+   "sha": "674bcfa",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "GuidoSV7",
+   "date": "2026-11-21T22:36:30Z",
+   "msg": "fix(campañas): el panel importa el aviso de versión nueva",
+   "pts": 2.0,
+   "nota": ""
+  },
+  {
+   "sha": "d63460b",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "GuidoSV7",
+   "date": "2026-11-21T22:12:57Z",
+   "msg": "feat(campañas): el panel de la empresa con el pie de las páginas del sitio",
+   "pts": 5.58,
+   "nota": ""
+  },
+  {
+   "sha": "514cb0e",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "GuidoSV7",
+   "date": "2026-11-21T21:59:03Z",
+   "msg": "docs(campañas): el panel de la empresa explicado en su documento",
+   "pts": 7.15,
+   "nota": ""
+  },
+  {
+   "sha": "3bc4832",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "GuidoSV7",
+   "date": "2026-11-21T21:46:47Z",
+   "msg": "feat(campañas): el pie de todas las páginas enlaza el panel de la empresa",
+   "pts": 4.7,
+   "nota": ""
+  },
+  {
+   "sha": "300449b",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "GuidoSV7",
+   "date": "2026-11-21T19:02:39Z",
+   "msg": "build(campañas): registrar empresa.html en el build, el check de páginas y el pie",
+   "pts": 3.32,
+   "nota": ""
+  },
+  {
+   "sha": "262db8c",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "GuidoSV7",
+   "date": "2026-11-21T19:02:39Z",
+   "msg": "feat(campañas): empresa.html, el panel por clic de la empresa aliada",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "caab5a2",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "GuidoSV7",
+   "date": "2026-11-21T19:02:39Z",
+   "msg": "feat(campañas): la empresa arma su campaña por clic en módulos puros",
+   "pts": 10,
+   "nota": ""
+  },
   {
    "sha": "f80c536",
    "team": "Tinkazo",
