@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-22T22:58:48+00:00",
+ "generado": "2026-11-23T04:48:18+00:00",
  "programa": "Stellar Elite",
  "start_date": "2026-09-02T00:00:00Z",
  "teams": [
@@ -43,11 +43,11 @@
   },
   {
    "name": "Puls3",
-   "total": 1655.67,
-   "per_capita": 1655.67,
-   "commits": 208,
-   "pts_commits": 1477.67,
-   "dias_activos": 32,
+   "total": 1709.84,
+   "per_capita": 1709.84,
+   "commits": 214,
+   "pts_commits": 1526.84,
+   "dias_activos": 33,
    "contribuidores": [
     "Pericena",
     "TOMOKI977",
@@ -329,7 +329,8 @@
    "2026-11-10": 84.91000000000001,
    "2026-11-16": 103.46000000000001,
    "2026-11-17": 198.89,
-   "2026-11-18": 72.59
+   "2026-11-18": 72.59,
+   "2026-11-23": 49.17
   },
   "Tinkazo": {
    "2026-09-16": 66.21000000000001,
@@ -533,7 +534,8 @@
    "2026-11-10": 10,
    "2026-11-16": 11,
    "2026-11-17": 22,
-   "2026-11-18": 9
+   "2026-11-18": 9,
+   "2026-11-23": 6
   },
   "Tinkazo": {
    "2026-09-16": 8,
@@ -697,6 +699,66 @@
   }
  },
  "commits": [
+  {
+   "sha": "e278ff7",
+   "team": "Puls3",
+   "repo": "Zer0-Knowledge-Hack/puls3",
+   "author": "XxHugheadxX",
+   "date": "2026-11-23T03:21:04Z",
+   "msg": "feat(mcp): connect the hire and Studio tools to the CLI session (#297) (#299)",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "66d704c",
+   "team": "Puls3",
+   "repo": "Zer0-Knowledge-Hack/puls3",
+   "author": "fercodes",
+   "date": "2026-11-23T03:09:20Z",
+   "msg": "feat(sdk): expose the start of a hire (#351) (#369)",
+   "pts": 9.14,
+   "nota": ""
+  },
+  {
+   "sha": "2695f28",
+   "team": "Puls3",
+   "repo": "Zer0-Knowledge-Hack/puls3",
+   "author": "moises-cisneros",
+   "date": "2026-11-23T02:23:03Z",
+   "msg": "ci: make the E2E sandbox suite a required, path-scoped check (#371) (#380)",
+   "pts": 7.21,
+   "nota": ""
+  },
+  {
+   "sha": "e7b8e2a",
+   "team": "Puls3",
+   "repo": "Zer0-Knowledge-Hack/puls3",
+   "author": "moises-cisneros",
+   "date": "2026-11-23T02:17:28Z",
+   "msg": "ci(e2e): run the Flutter browser E2E suite as its own path-scoped workflow (#372) (#379)",
+   "pts": 7.97,
+   "nota": ""
+  },
+  {
+   "sha": "71e0b55",
+   "team": "Puls3",
+   "repo": "Zer0-Knowledge-Hack/puls3",
+   "author": "moises-cisneros",
+   "date": "2026-11-23T01:54:43Z",
+   "msg": "ci(server): check that migrations apply on a fresh and an upgraded database (#373) (#378)",
+   "pts": 8.56,
+   "nota": ""
+  },
+  {
+   "sha": "9688b1d",
+   "team": "Puls3",
+   "repo": "Zer0-Knowledge-Hack/puls3",
+   "author": "moises-cisneros",
+   "date": "2026-11-23T00:01:25Z",
+   "msg": "chore(process): ask every issue and PR for its unit, integration and E2E tests (#370) (#377)",
+   "pts": 6.29,
+   "nota": ""
+  },
   {
    "sha": "8667b21",
    "team": "Tinkazo",

@@ -207398,5 +207398,210 @@
     "d": 0
    }
   ]
+ },
+ "e278ff7f7c0702941028099d0ffd63ae20fa37af": {
+  "team": "Puls3",
+  "repo": "Zer0-Knowledge-Hack/puls3",
+  "author": "XxHugheadxX",
+  "date": "2026-11-23T03:21:04Z",
+  "message": "feat(mcp): connect the hire and Studio tools to the CLI session (#297) (#299)",
+  "parents": 1,
+  "files": [
+   {
+    "f": "README.md",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "docs/mcp/setup.md",
+    "a": 39,
+    "d": 8
+   },
+   {
+    "f": "puls3_mcp/README.md",
+    "a": 9,
+    "d": 9
+   },
+   {
+    "f": "puls3_mcp/bin/puls3_mcp.dart",
+    "a": 25,
+    "d": 3
+   },
+   {
+    "f": "puls3_mcp/lib/puls3_mcp.dart",
+    "a": 11,
+    "d": 1
+   },
+   {
+    "f": "puls3_mcp/lib/src/puls3_mcp_server.dart",
+    "a": 183,
+    "d": 35
+   },
+   {
+    "f": "puls3_mcp/test/puls3_mcp_server_test.dart",
+    "a": 319,
+    "d": 12
+   }
+  ]
+ },
+ "66d704c4fcf3b35592322629f4659021660752ad": {
+  "team": "Puls3",
+  "repo": "Zer0-Knowledge-Hack/puls3",
+  "author": "fercodes",
+  "date": "2026-11-23T03:09:20Z",
+  "message": "feat(sdk): expose the start of a hire (#351) (#369)",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/sdk/quickstart.md",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "puls3_cli/test/puls3_command_test.dart",
+    "a": 36,
+    "d": 0
+   },
+   {
+    "f": "puls3_sdk/README.md",
+    "a": 26,
+    "d": 6
+   },
+   {
+    "f": "puls3_sdk/lib/puls3_sdk.dart",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "puls3_sdk/lib/src/puls3_sdk.dart",
+    "a": 60,
+    "d": 0
+   },
+   {
+    "f": "puls3_sdk/lib/src/session_calls.dart",
+    "a": 32,
+    "d": 0
+   },
+   {
+    "f": "puls3_sdk/test/session_calls_test.dart",
+    "a": 118,
+    "d": 0
+   }
+  ]
+ },
+ "2695f2814d630b19bf74da3774a6ef439204373a": {
+  "team": "Puls3",
+  "repo": "Zer0-Knowledge-Hack/puls3",
+  "author": "moises-cisneros",
+  "date": "2026-11-23T02:23:03Z",
+  "message": "ci: make the E2E sandbox suite a required, path-scoped check (#371) (#380)",
+  "parents": 1,
+  "files": [
+   {
+    "f": ".github/workflows/ci.yml",
+    "a": 22,
+    "d": 9
+   },
+   {
+    "f": ".github/workflows/e2e.yml",
+    "a": 9,
+    "d": 22
+   },
+   {
+    "f": "CONTRIBUTING.md",
+    "a": 7,
+    "d": 4
+   }
+  ]
+ },
+ "e7b8e2af6e365a3ec20948c0f384cbd89f900f9c": {
+  "team": "Puls3",
+  "repo": "Zer0-Knowledge-Hack/puls3",
+  "author": "moises-cisneros",
+  "date": "2026-11-23T02:17:28Z",
+  "message": "ci(e2e): run the Flutter browser E2E suite as its own path-scoped workflow (#372) (#379)",
+  "parents": 1,
+  "files": [
+   {
+    "f": ".github/workflows/e2e-browser.yml",
+    "a": 100,
+    "d": 0
+   },
+   {
+    "f": ".github/workflows/e2e.yml",
+    "a": 3,
+    "d": 2
+   },
+   {
+    "f": "CONTRIBUTING.md",
+    "a": 4,
+    "d": 3
+   },
+   {
+    "f": "scripts/e2e-flutter-local.sh",
+    "a": 7,
+    "d": 1
+   },
+   {
+    "f": "scripts/tests/env-inventory.test.sh",
+    "a": 3,
+    "d": 1
+   }
+  ]
+ },
+ "71e0b5548ce2bee1a8ba9b1f94a075e42cee48df": {
+  "team": "Puls3",
+  "repo": "Zer0-Knowledge-Hack/puls3",
+  "author": "moises-cisneros",
+  "date": "2026-11-23T01:54:43Z",
+  "message": "ci(server): check that migrations apply on a fresh and an upgraded database (#373) (#378)",
+  "parents": 1,
+  "files": [
+   {
+    "f": ".github/workflows/ci.yml",
+    "a": 19,
+    "d": 1
+   },
+   {
+    "f": "docs/testing/local-environment.md",
+    "a": 25,
+    "d": 0
+   },
+   {
+    "f": "scripts/check-migrations.sh",
+    "a": 139,
+    "d": 0
+   },
+   {
+    "f": "scripts/tests/env-inventory.test.sh",
+    "a": 3,
+    "d": 1
+   }
+  ]
+ },
+ "9688b1de703f85fbf9e7849220ddcc435ad647fd": {
+  "team": "Puls3",
+  "repo": "Zer0-Knowledge-Hack/puls3",
+  "author": "moises-cisneros",
+  "date": "2026-11-23T00:01:25Z",
+  "message": "chore(process): ask every issue and PR for its unit, integration and E2E tests (#370) (#377)",
+  "parents": 1,
+  "files": [
+   {
+    "f": ".github/ISSUE_TEMPLATE/task.yml",
+    "a": 11,
+    "d": 0
+   },
+   {
+    "f": ".github/pull_request_template.md",
+    "a": 9,
+    "d": 0
+   },
+   {
+    "f": "CONTRIBUTING.md",
+    "a": 18,
+    "d": 0
+   }
+  ]
  }
 }
