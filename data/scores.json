@@ -1,15 +1,15 @@
 {
- "generado": "2026-11-23T16:52:41+00:00",
+ "generado": "2026-11-24T03:38:00+00:00",
  "programa": "Stellar Elite",
  "start_date": "2026-09-02T00:00:00Z",
  "teams": [
   {
    "name": "Tinkazo",
-   "total": 9191.44,
-   "per_capita": 9191.44,
-   "commits": 1410,
-   "pts_commits": 8935.44,
-   "dias_activos": 50,
+   "total": 9260.9,
+   "per_capita": 9260.9,
+   "commits": 1421,
+   "pts_commits": 8994.9,
+   "dias_activos": 52,
    "contribuidores": [
     "GuidoSV7",
     "nema1502"
@@ -43,11 +43,11 @@
   },
   {
    "name": "Puls3",
-   "total": 1709.84,
-   "per_capita": 1709.84,
-   "commits": 214,
-   "pts_commits": 1526.84,
-   "dias_activos": 33,
+   "total": 1869.51,
+   "per_capita": 1869.51,
+   "commits": 232,
+   "pts_commits": 1681.51,
+   "dias_activos": 34,
    "contribuidores": [
     "Pericena",
     "TOMOKI977",
@@ -330,7 +330,8 @@
    "2026-11-16": 103.46000000000001,
    "2026-11-17": 198.89,
    "2026-11-18": 72.59,
-   "2026-11-23": 49.17
+   "2026-11-23": 111.23,
+   "2026-11-24": 92.60999999999999
   },
   "Tinkazo": {
    "2026-09-16": 66.21000000000001,
@@ -383,7 +384,9 @@
    "2026-11-19": 32.63,
    "2026-11-20": 236.51,
    "2026-11-21": 99.36,
-   "2026-11-22": 91.81
+   "2026-11-22": 93.81,
+   "2026-11-23": 46.42,
+   "2026-11-24": 11.04
   },
   "CompraGasolinaBidon": {
    "2026-09-06": 1.0,
@@ -535,7 +538,8 @@
    "2026-11-16": 11,
    "2026-11-17": 22,
    "2026-11-18": 9,
-   "2026-11-23": 6
+   "2026-11-23": 13,
+   "2026-11-24": 11
   },
   "Tinkazo": {
    "2026-09-16": 8,
@@ -588,7 +592,9 @@
    "2026-11-19": 12,
    "2026-11-20": 59,
    "2026-11-21": 14,
-   "2026-11-22": 12
+   "2026-11-22": 14,
+   "2026-11-23": 7,
+   "2026-11-24": 2
   },
   "CompraGasolinaBidon": {
    "2026-09-06": 1,
@@ -700,6 +706,276 @@
  },
  "commits": [
   {
+   "sha": "b6b7027",
+   "team": "Puls3",
+   "repo": "Zer0-Knowledge-Hack/puls3",
+   "author": "TOMOKI977",
+   "date": "2026-11-24T03:24:59Z",
+   "msg": "feat(runtime): add tool-calling conversations to the model adapters (#334, 7/15) (#363)",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "a5eb256",
+   "team": "Puls3",
+   "repo": "Zer0-Knowledge-Hack/puls3",
+   "author": "TOMOKI977",
+   "date": "2026-11-24T03:19:22Z",
+   "msg": "feat(agent): rank hireable agents for subcontracting search (#334, 5/15) (#361)",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "0a15c37",
+   "team": "Puls3",
+   "repo": "Zer0-Knowledge-Hack/puls3",
+   "author": "TOMOKI977",
+   "date": "2026-11-24T03:11:31Z",
+   "msg": "feat(hire): persist a subcontract reserve and fund hires with it (#334, 4/15) (#360)",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "d123f74",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-24T02:08:42Z",
+   "msg": "Los términos dicen quién sella y qué queda en la red, también en Oficial",
+   "pts": 6.13,
+   "nota": ""
+  },
+  {
+   "sha": "8de8b59",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-24T02:08:42Z",
+   "msg": "Tinkazo en la pantalla de inicio del iPhone no cuenta como app",
+   "pts": 4.91,
+   "nota": ""
+  },
+  {
+   "sha": "a66d287",
+   "team": "Puls3",
+   "repo": "Zer0-Knowledge-Hack/puls3",
+   "author": "TOMOKI977",
+   "date": "2026-11-24T02:06:52Z",
+   "msg": "docs(adr): decide a budget-bearing escrow for agent-initiated subcontracting (#334, 1/15) (#357)",
+   "pts": 1.0,
+   "nota": "import masivo (141 archivos)"
+  },
+  {
+   "sha": "6f4b2e3",
+   "team": "Puls3",
+   "repo": "Zer0-Knowledge-Hack/puls3",
+   "author": "TOMOKI977",
+   "date": "2026-11-24T02:02:05Z",
+   "msg": "feat(tool): verify on testnet that one Studio agent hires and pays another (#312) (#356)",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "1120ba6",
+   "team": "Puls3",
+   "repo": "Zer0-Knowledge-Hack/puls3",
+   "author": "fercodes",
+   "date": "2026-11-24T01:58:01Z",
+   "msg": "feat(server): hide agents listed in PULS3_HIDDEN_AGENT_IDS (#308) (#396)",
+   "pts": 9.51,
+   "nota": ""
+  },
+  {
+   "sha": "a9f300d",
+   "team": "Puls3",
+   "repo": "Zer0-Knowledge-Hack/puls3",
+   "author": "fercodes",
+   "date": "2026-11-24T01:46:48Z",
+   "msg": "docs(verification): record the production live hire (#313) (#395)",
+   "pts": 8.53,
+   "nota": ""
+  },
+  {
+   "sha": "f493f7a",
+   "team": "Puls3",
+   "repo": "Zer0-Knowledge-Hack/puls3",
+   "author": "Pericena",
+   "date": "2026-11-24T01:45:20Z",
+   "msg": "docs(security): plan what the audit leaves before mainnet (#206) (#382)",
+   "pts": 7.93,
+   "nota": ""
+  },
+  {
+   "sha": "b8666f3",
+   "team": "Puls3",
+   "repo": "Zer0-Knowledge-Hack/puls3",
+   "author": "XxHugheadxX",
+   "date": "2026-11-24T00:22:16Z",
+   "msg": "docs(adr): let the npm SDK create agents and sign with a developer key (#314) (#346)",
+   "pts": 8.07,
+   "nota": ""
+  },
+  {
+   "sha": "c2b9617",
+   "team": "Puls3",
+   "repo": "Zer0-Knowledge-Hack/puls3",
+   "author": "Pericena",
+   "date": "2026-11-24T00:20:24Z",
+   "msg": "docs(adr): installable skills as versioned instruction packs an agent pins (#320) (#389)",
+   "pts": 7.57,
+   "nota": ""
+  },
+  {
+   "sha": "2f8c3de",
+   "team": "Puls3",
+   "repo": "Zer0-Knowledge-Hack/puls3",
+   "author": "fercodes",
+   "date": "2026-11-24T00:04:00Z",
+   "msg": "feat(app): list and revoke CLI sessions in the wallet sheet (#344) (#345)",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "53b3e60",
+   "team": "Puls3",
+   "repo": "Zer0-Knowledge-Hack/puls3",
+   "author": "Pericena",
+   "date": "2026-11-23T23:55:59Z",
+   "msg": "docs(adr): keep rated jobs alive on chain with a TTL keeper (#336) (#387)",
+   "pts": 7.23,
+   "nota": ""
+  },
+  {
+   "sha": "bbcd70b",
+   "team": "Puls3",
+   "repo": "Zer0-Knowledge-Hack/puls3",
+   "author": "Pericena",
+   "date": "2026-11-23T23:54:59Z",
+   "msg": "chore(sdk): make puls3_client and puls3_sdk publishable on pub.dev (#300) (#388)",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "289cd17",
+   "team": "Puls3",
+   "repo": "Zer0-Knowledge-Hack/puls3",
+   "author": "Pericena",
+   "date": "2026-11-23T23:41:04Z",
+   "msg": "docs(operations): rotate the escrow to 0.2.0 without stranding a job (#376) (#385)",
+   "pts": 7.81,
+   "nota": ""
+  },
+  {
+   "sha": "6a3ac50",
+   "team": "Puls3",
+   "repo": "Zer0-Knowledge-Hack/puls3",
+   "author": "XxHugheadxX",
+   "date": "2026-11-23T23:34:06Z",
+   "msg": "test(sdk): run puls3_sdk against the real server over HTTP (#375) (#391)",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "891271d",
+   "team": "Puls3",
+   "repo": "Zer0-Knowledge-Hack/puls3",
+   "author": "XxHugheadxX",
+   "date": "2026-11-23T23:28:33Z",
+   "msg": "fix(protocol): let clients read a Puls3ApiException that carries details (#390)",
+   "pts": 9.1,
+   "nota": ""
+  },
+  {
+   "sha": "a52a5ac",
+   "team": "Puls3",
+   "repo": "Zer0-Knowledge-Hack/puls3",
+   "author": "Pericena",
+   "date": "2026-11-23T23:21:34Z",
+   "msg": "docs: SOW evidence page for the Ambassador review (#315) (#383)",
+   "pts": 7.92,
+   "nota": ""
+  },
+  {
+   "sha": "c915bd1",
+   "team": "Puls3",
+   "repo": "Zer0-Knowledge-Hack/puls3",
+   "author": "Pericena",
+   "date": "2026-11-23T23:14:26Z",
+   "msg": "fix(catalog): a catalog id belongs to the owner who registered it first (#206) (#381)",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "87f0236",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-23T21:46:29Z",
+   "msg": "Arreglos de la revisión de la página del celular",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "5030181",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-23T21:46:29Z",
+   "msg": "Arreglos de la revisión de Tus campañas",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "dbf4830",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "GuidoSV7",
+   "date": "2026-11-23T17:25:50Z",
+   "msg": "fix(navegador): la vista web de iPhone que no se nombra también es de app",
+   "pts": 6.04,
+   "nota": ""
+  },
+  {
+   "sha": "ab94d3a",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "GuidoSV7",
+   "date": "2026-11-23T13:19:05Z",
+   "msg": "docs(campañas): el texto normal de los términos con el costo de las campañas",
+   "pts": 4.17,
+   "nota": ""
+  },
+  {
+   "sha": "cd9726d",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "GuidoSV7",
+   "date": "2026-11-23T12:40:42Z",
+   "msg": "docs(readme): el costo de las campañas y el pago directo en los dos idiomas",
+   "pts": 4.17,
+   "nota": ""
+  },
+  {
+   "sha": "fd17c08",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "GuidoSV7",
+   "date": "2026-11-23T12:40:42Z",
+   "msg": "docs: premios y legal al día con el costo del servicio y el pago directo",
+   "pts": 5.46,
+   "nota": ""
+  },
+  {
+   "sha": "3d1eacf",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "GuidoSV7",
+   "date": "2026-11-23T12:40:42Z",
+   "msg": "docs(campañas): los términos y los precios dicen qué pasa en una campaña con premio",
+   "pts": 6.58,
+   "nota": ""
+  },
+  {
    "sha": "e278ff7",
    "team": "Puls3",
    "repo": "Zer0-Knowledge-Hack/puls3",
@@ -758,6 +1034,26 @@
    "msg": "chore(process): ask every issue and PR for its unit, integration and E2E tests (#370) (#377)",
    "pts": 6.29,
    "nota": ""
+  },
+  {
+   "sha": "a3f2262",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-22T23:04:55Z",
+   "msg": "La página del celular confirma el correo y cuenta hacia el sorteo",
+   "pts": 1.0,
+   "nota": "import masivo (78 archivos)"
+  },
+  {
+   "sha": "9e73774",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-22T23:04:55Z",
+   "msg": "Tus campañas se retoman desde cualquier navegador con la cuenta",
+   "pts": 1.0,
+   "nota": "import masivo (75 archivos)"
   },
   {
    "sha": "8667b21",

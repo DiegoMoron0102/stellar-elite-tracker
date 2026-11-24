@@ -207603,5 +207603,2825 @@
     "d": 0
    }
   ]
+ },
+ "b6b7027a3570f72fa96db55aeae7f843cb2db4d3": {
+  "team": "Puls3",
+  "repo": "Zer0-Knowledge-Hack/puls3",
+  "author": "TOMOKI977",
+  "date": "2026-11-24T03:24:59Z",
+  "message": "feat(runtime): add tool-calling conversations to the model adapters (#334, 7/15) (#363)",
+  "parents": 1,
+  "files": [
+   {
+    "f": "odd/tasks/agent-subcontracting.md",
+    "a": 29,
+    "d": 2
+   },
+   {
+    "f": "puls3_server/README.md",
+    "a": 8,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/runtime/adapters/anthropic_runtime.dart",
+    "a": 158,
+    "d": 26
+   },
+   {
+    "f": "puls3_server/lib/src/runtime/adapters/workers_ai_runtime.dart",
+    "a": 59,
+    "d": 10
+   },
+   {
+    "f": "puls3_server/lib/src/runtime/agent_runner.dart",
+    "a": 54,
+    "d": 14
+   },
+   {
+    "f": "puls3_server/lib/src/runtime/conversation.dart",
+    "a": 200,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/runtime/provider_router.dart",
+    "a": 19,
+    "d": 2
+   },
+   {
+    "f": "puls3_server/lib/src/runtime/runtime_task.dart",
+    "a": 10,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/runtime/subcontract_port.dart",
+    "a": 69,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/runtime/subcontract_tools.dart",
+    "a": 363,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/runtime/tool_loop.dart",
+    "a": 377,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/test/unit/runtime/agent_runner_converse_test.dart",
+    "a": 145,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/test/unit/runtime/anthropic_converse_test.dart",
+    "a": 348,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/test/unit/runtime/conversation_test.dart",
+    "a": 65,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/test/unit/runtime/provider_router_converse_test.dart",
+    "a": 78,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/test/unit/runtime/subcontract_tools_test.dart",
+    "a": 58,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/test/unit/runtime/tool_loop_test.dart",
+    "a": 681,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/test/unit/runtime/workers_ai_converse_test.dart",
+    "a": 114,
+    "d": 0
+   }
+  ]
+ },
+ "a5eb25655f1eebab43bbc890a142a7c5e49545ec": {
+  "team": "Puls3",
+  "repo": "Zer0-Knowledge-Hack/puls3",
+  "author": "TOMOKI977",
+  "date": "2026-11-24T03:19:22Z",
+  "message": "feat(agent): rank hireable agents for subcontracting search (#334, 5/15) (#361)",
+  "parents": 1,
+  "files": [
+   {
+    "f": "odd/tasks/agent-subcontracting.md",
+    "a": 34,
+    "d": 4
+   },
+   {
+    "f": "puls3_domain/lib/puls3_domain.dart",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "puls3_domain/lib/src/agent_search.dart",
+    "a": 385,
+    "d": 0
+   },
+   {
+    "f": "puls3_domain/lib/src/errors.dart",
+    "a": 6,
+    "d": 0
+   },
+   {
+    "f": "puls3_domain/lib/src/manifest.dart",
+    "a": 87,
+    "d": 2
+   },
+   {
+    "f": "puls3_domain/test/agent_search_test.dart",
+    "a": 461,
+    "d": 0
+   },
+   {
+    "f": "puls3_domain/test/manifest_test.dart",
+    "a": 172,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/lib/src/studio/studio_form_check.dart",
+    "a": 4,
+    "d": 1
+   },
+   {
+    "f": "puls3_server/README.md",
+    "a": 19,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/agent/agent_catalog_wiring.dart",
+    "a": 40,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/agent/agent_owners.dart",
+    "a": 91,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/agent/agent_search_service.dart",
+    "a": 132,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/runtime/run_manifest.dart",
+    "a": 22,
+    "d": 1
+   },
+   {
+    "f": "puls3_server/lib/src/runtime/studio_run_manifest_source.dart",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/test/integration/agent_owners_test.dart",
+    "a": 50,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/test/unit/agent/agent_search_service_test.dart",
+    "a": 298,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/test/unit/runtime/run_manifest_test.dart",
+    "a": 80,
+    "d": 0
+   }
+  ]
+ },
+ "0a15c372482580327048b6d51c7bd3932d81afc3": {
+  "team": "Puls3",
+  "repo": "Zer0-Knowledge-Hack/puls3",
+  "author": "TOMOKI977",
+  "date": "2026-11-24T03:11:31Z",
+  "message": "feat(hire): persist a subcontract reserve and fund hires with it (#334, 4/15) (#360)",
+  "parents": 1,
+  "files": [
+   {
+    "f": ".env.example",
+    "a": 4,
+    "d": 0
+   },
+   {
+    "f": "odd/tasks/agent-subcontracting.md",
+    "a": 25,
+    "d": 2
+   },
+   {
+    "f": "puls3_client/lib/src/protocol/client.dart",
+    "a": 10,
+    "d": 2
+   },
+   {
+    "f": "puls3_client/lib/src/protocol/hire.dart",
+    "a": 46,
+    "d": 1
+   },
+   {
+    "f": "puls3_domain/lib/src/entities.dart",
+    "a": 47,
+    "d": 0
+   },
+   {
+    "f": "puls3_domain/lib/src/errors.dart",
+    "a": 5,
+    "d": 0
+   },
+   {
+    "f": "puls3_domain/test/hire_subcontract_test.dart",
+    "a": 124,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/README.md",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/chain/escrow_effects.dart",
+    "a": 4,
+    "d": 2
+   },
+   {
+    "f": "puls3_server/lib/src/generated/endpoints.dart",
+    "a": 12,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/generated/hire.dart",
+    "a": 46,
+    "d": 1
+   },
+   {
+    "f": "puls3_server/lib/src/generated/hire/hire.dart",
+    "a": 91,
+    "d": 1
+   },
+   {
+    "f": "puls3_server/lib/src/generated/hire/hire_receipt_line.dart",
+    "a": 952,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/generated/protocol.dart",
+    "a": 187,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/hire/escrow_relay_service.dart",
+    "a": 14,
+    "d": 2
+   },
+   {
+    "f": "puls3_server/lib/src/hire/hire.spy.yaml",
+    "a": 12,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/hire/hire_endpoint.dart",
+    "a": 10,
+    "d": 2
+   },
+   {
+    "f": "puls3_server/lib/src/hire/hire_lifecycle_store.dart",
+    "a": 32,
+    "d": 2
+   },
+   {
+    "f": "puls3_server/lib/src/hire/hire_receipt_line.spy.yaml",
+    "a": 45,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/hire/hire_relay_config.dart",
+    "a": 12,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/hire/hire_service.dart",
+    "a": 56,
+    "d": 3
+   },
+   {
+    "f": "puls3_server/lib/src/hire/serverpod_hire_repository.dart",
+    "a": 12,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/protocol/hire.spy.yaml",
+    "a": 7,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/migrations/20261118221650421-hire-subcontract/definition.json",
+    "a": 5249,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/migrations/20261118221650421-hire-subcontract/definition.sql",
+    "a": 1132,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/migrations/20261118221650421-hire-subcontract/definition_project.json",
+    "a": 2042,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/migrations/20261118221650421-hire-subcontract/migration.json",
+    "a": 240,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/migrations/20261118221650421-hire-subcontract/migration.sql",
+    "a": 70,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/migrations/migration_registry.txt",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/test/hire/escrow_relay_subcontract_test.dart",
+    "a": 46,
+    "d": 1
+   },
+   {
+    "f": "puls3_server/test/integration/test_tools/serverpod_test_tools.dart",
+    "a": 6,
+    "d": 2
+   },
+   {
+    "f": "puls3_server/test/support/hire_lifecycle_store_contract.dart",
+    "a": 47,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/test/support/in_memory_hire_lifecycle_store.dart",
+    "a": 9,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/test/support/relay_rig.dart",
+    "a": 4,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/test/unit/hire/hire_service_subcontract_test.dart",
+    "a": 186,
+    "d": 0
+   }
+  ]
+ },
+ "a66d28724c6b4f4a8bd9a7512555a20cf91e6e57": {
+  "team": "Puls3",
+  "repo": "Zer0-Knowledge-Hack/puls3",
+  "author": "TOMOKI977",
+  "date": "2026-11-24T02:06:52Z",
+  "message": "docs(adr): decide a budget-bearing escrow for agent-initiated subcontracting (#334, 1/15) (#357)",
+  "parents": 1,
+  "files": [
+   {
+    "f": "contracts/Cargo.lock",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "contracts/contracts/escrow/Cargo.toml",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "contracts/contracts/escrow/src/lib.rs",
+    "a": 453,
+    "d": 40
+   },
+   {
+    "f": "contracts/contracts/escrow/src/test.rs",
+    "a": 5,
+    "d": 1
+   },
+   {
+    "f": "contracts/contracts/escrow/src/test/subcontract.rs",
+    "a": 927,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/a_claimable_entry_is_bumped_and_kept_alive.1.json",
+    "a": 38,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/a_failing_provider_transfer_still_pays_the_treasury.1.json",
+    "a": 38,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/a_failing_treasury_transfer_still_pays_the_provider.1.json",
+    "a": 38,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/a_failing_withdraw_reverts_and_the_balance_stays_claimable.1.json",
+    "a": 38,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/a_fee_raised_before_fund_cannot_divert_the_budget.1.json",
+    "a": 38,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/a_funded_job_at_the_longest_deadline_is_still_live_to_refund.1.json",
+    "a": 38,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/a_job_too_late_to_submit_stays_refundable.1.json",
+    "a": 38,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/a_later_fee_change_keeps_earlier_snapshots.1.json",
+    "a": 76,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/a_submitted_job_past_expiry_settles_by_release_not_refund.1.json",
+    "a": 38,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/a_window_change_does_not_move_a_stored_deadline.1.json",
+    "a": 76,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/a_working_payout_is_never_deferred.1.json",
+    "a": 38,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/allow_list_entries_are_bumped_when_they_are_used.1.json",
+    "a": 38,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/both_failure_layers_fall_back_to_the_claimable_balance.1.json",
+    "a": 38,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/both_failure_layers_fall_back_to_the_claimable_balance.2.json",
+    "a": 38,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/budget_must_be_positive.1.json",
+    "a": 38,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/cancelling_an_open_job_moves_no_funds_even_with_a_fee.1.json",
+    "a": 38,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/claim_refund_needs_no_authorization_and_pays_only_the_client.1.json",
+    "a": 38,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/claim_refund_refuses_open_jobs_and_double_refunds.1.json",
+    "a": 76,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/claim_refund_returns_the_budget_to_the_client_after_expiry.1.json",
+    "a": 38,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/claim_refund_returns_the_full_budget_even_with_a_fee.1.json",
+    "a": 38,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/claim_refund_works_exactly_at_expiry_and_not_before.1.json",
+    "a": 38,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/client_cancels_an_open_job_without_moving_funds.1.json",
+    "a": 38,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/complete_at_max_fee_bps_splits_between_provider_and_treasury.1.json",
+    "a": 38,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/complete_defers_the_payout_when_the_provider_cannot_receive.1.json",
+    "a": 38,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/complete_requires_a_submitted_job.1.json",
+    "a": 114,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/complete_still_works_after_the_approval_deadline.1.json",
+    "a": 38,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/complete_with_a_fee_splits_between_provider_and_treasury.1.json",
+    "a": 38,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/complete_with_zero_fee_pays_the_provider_in_full.1.json",
+    "a": 38,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/create_job_stores_an_open_job_and_emits_job_created.1.json",
+    "a": 38,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/deadline_uses_the_submission_time.1.json",
+    "a": 38,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/deferred_payouts_accumulate_per_recipient_and_token.1.json",
+    "a": 76,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/description_limit_is_256_bytes.1.json",
+    "a": 38,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/evaluator_equal_to_client_is_accepted.1.json",
+    "a": 38,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/evaluator_rejects_a_funded_job_with_a_full_refund.1.json",
+    "a": 38,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/evaluator_rejects_a_submitted_job_in_the_window_without_a_fee.1.json",
+    "a": 38,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/expiry_bounds_are_enforced.1.json",
+    "a": 76,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/extend_claimable_ttl_restores_a_decayed_entry.1.json",
+    "a": 38,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/extend_ttl_keeps_a_long_funded_job_alive.1.json",
+    "a": 38,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/extend_ttl_keeps_terminal_jobs_readable.1.json",
+    "a": 38,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/failed_transitions_emit_no_event.1.json",
+    "a": 38,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/fund_accepts_a_fee_at_or_below_the_clients_maximum.1.json",
+    "a": 114,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/fund_after_expiry_is_refused.1.json",
+    "a": 76,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/fund_fails_cleanly_on_insufficient_balance.1.json",
+    "a": 38,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/fund_needs_the_client_auth_including_the_token_transfer.1.json",
+    "a": 38,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/fund_pulls_the_budget_and_emits_job_funded.1.json",
+    "a": 38,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/fund_rejects_a_budget_mismatch.1.json",
+    "a": 38,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/fund_rejects_a_fee_above_the_clients_maximum.1.json",
+    "a": 38,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/fund_requires_the_token_to_still_be_allow_listed.1.json",
+    "a": 38,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/fund_snapshots_the_fee_in_force_at_fund_time.1.json",
+    "a": 38,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/fund_twice_is_an_invalid_state.1.json",
+    "a": 38,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/funded_jobs_settle_after_the_token_is_removed_from_the_allow_list.1.json",
+    "a": 152,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/in_flight_jobs_settle_with_no_registry_call.1.json",
+    "a": 152,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/job_ids_are_sequential_and_counted.1.json",
+    "a": 76,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/live_funded_job_is_not_expired_but_an_expired_one_is.1.json",
+    "a": 38,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/lowering_max_expiry_affects_only_new_jobs.1.json",
+    "a": 76,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/new_jobs_resolve_the_wallet_from_the_rebound_registry.1.json",
+    "a": 38,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/nobody_can_withdraw_for_another_recipient.1.json",
+    "a": 38,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/only_the_client_can_fund.1.json",
+    "a": 38,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/only_the_client_can_reject_an_open_job.1.json",
+    "a": 38,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/only_the_evaluator_can_complete.1.json",
+    "a": 38,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/only_the_evaluator_can_reject_a_funded_job.1.json",
+    "a": 38,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/only_the_stored_provider_can_submit.1.json",
+    "a": 38,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/payee_is_frozen_after_a_registry_wallet_change.1.json",
+    "a": 38,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/provider_and_treasury_payouts_are_independent.1.json",
+    "a": 38,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/provider_cannot_reject_a_submitted_job.1.json",
+    "a": 38,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/provider_submits_a_funded_job.1.json",
+    "a": 38,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/refund_paths_conserve_funds.1.json",
+    "a": 76,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/reject_after_the_window_is_closed.1.json",
+    "a": 38,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/reject_is_final_for_terminal_jobs.1.json",
+    "a": 38,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/rejected_is_final_for_every_function.1.json",
+    "a": 38,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/rejected_job_is_never_reported_expired.1.json",
+    "a": 38,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/rejecting_a_funded_job_refunds_in_full_even_with_a_fee.1.json",
+    "a": 38,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/rejecting_a_submitted_job_leaves_the_contract_empty_even_with_a_fee.1.json",
+    "a": 38,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/release_defers_the_payout_when_the_provider_cannot_receive.1.json",
+    "a": 38,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/release_is_permissionless_and_pays_fee_and_provider_only.1.json",
+    "a": 38,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/release_requires_a_submitted_job.1.json",
+    "a": 76,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/release_works_exactly_at_the_deadline_and_not_before.1.json",
+    "a": 38,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/set_treasury_does_not_redirect_a_funded_job.1.json",
+    "a": 76,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/silence_pays_the_provider_after_the_deadline.1.json",
+    "a": 38,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/state_changing_calls_need_their_caller_signature.1.json",
+    "a": 38,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/subcontract/a_child_cannot_exceed_the_remaining_reserve.1.json",
+    "a": 2217,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/subcontract/a_child_fee_cannot_exceed_the_parent_snapshot.1.json",
+    "a": 1833,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/subcontract/a_child_must_expire_before_its_parent_with_room_to_resume.1.json",
+    "a": 1504,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/subcontract/a_child_rejected_after_submission_returns_to_the_reserve.1.json",
+    "a": 1592,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/subcontract/a_completed_child_pays_b_and_stays_paid_when_the_parent_is_rejected.1.json",
+    "a": 1694,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/subcontract/a_full_tree_conserves_funds_and_keeps_the_reserve_invariants.1.json",
+    "a": 3301,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/subcontract/a_grandchild_return_skips_a_closed_intermediate_parent.1.json",
+    "a": 1965,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/subcontract/a_rejected_child_returns_to_the_parent_reserve.1.json",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/subcontract/a_released_child_pays_b.1.json",
+    "a": 1600,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/subcontract/an_expired_child_returns_to_the_parent_reserve.1.json",
+    "a": 1503,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/subcontract/an_unreceivable_reserve_refund_is_deferred_not_blocking.1.json",
+    "a": 1579,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/subcontract/child_amounts_must_be_valid.1.json",
+    "a": 1268,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/subcontract/create_child_job_draws_from_the_parent_reserve.1.json",
+    "a": 1503,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/subcontract/create_child_job_requires_the_parent_provider_signature.1.json",
+    "a": 1707,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/subcontract/depth_is_limited_to_two.1.json",
+    "a": 2098,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/subcontract/fund_is_fund_with_reserve_zero.1.json",
+    "a": 1384,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/subcontract/fund_with_reserve_pulls_budget_plus_reserve_in_one_call.1.json",
+    "a": 1087,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/subcontract/fund_with_reserve_refuses_a_negative_reserve_and_keeps_fund_checks.1.json",
+    "a": 966,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/subcontract/no_agent_appears_twice_in_an_ancestor_chain.1.json",
+    "a": 1500,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/subcontract/only_the_parent_provider_can_create_a_child.1.json",
+    "a": 1268,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/subcontract/parent_claim_refund_refunds_budget_and_unspent_reserve.1.json",
+    "a": 1087,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/subcontract/parent_complete_pays_a_and_refunds_the_unspent_reserve.1.json",
+    "a": 2040,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/subcontract/parent_reject_refunds_budget_and_unspent_reserve_and_later_returns_go_to_the_client.1.json",
+    "a": 1596,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/subcontract/the_child_evaluator_cannot_be_its_provider.1.json",
+    "a": 1266,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/subcontract/the_parent_cannot_submit_while_a_child_is_open.1.json",
+    "a": 1692,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/subcontract/the_parent_must_be_funded_and_live.1.json",
+    "a": 1845,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/subcontract/the_provider_must_be_the_agents_registry_wallet.1.json",
+    "a": 1267,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/subcontract/the_reserve_fields_survive_ttl_and_the_parent_ttl_is_bumped.1.json",
+    "a": 1501,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/submit_after_expiry_is_refused.1.json",
+    "a": 38,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/submit_must_leave_room_for_the_approval_window.1.json",
+    "a": 38,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/submit_requires_a_funded_job.1.json",
+    "a": 76,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/the_client_cannot_reclaim_a_job_whose_payout_was_deferred.1.json",
+    "a": 38,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/the_client_cannot_reclaim_a_submitted_job_past_expiry.1.json",
+    "a": 38,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/the_largest_budget_settles_for_several_fee_rates.1.json",
+    "a": 38,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/the_largest_budget_settles_for_several_fee_rates.2.json",
+    "a": 38,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/the_largest_budget_settles_for_several_fee_rates.3.json",
+    "a": 38,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/the_largest_budget_settles_for_several_fee_rates.4.json",
+    "a": 38,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/the_largest_budget_settles_for_several_fee_rates.5.json",
+    "a": 38,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/the_treasury_snapshot_is_removed_when_the_job_ends.1.json",
+    "a": 76,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/third_party_evaluator_is_stored.1.json",
+    "a": 38,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/transitions_bump_the_job_and_instance_ttl.1.json",
+    "a": 38,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/unfunded_expiry_is_derived_not_stored.1.json",
+    "a": 38,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/withdraw_needs_the_callers_signature.1.json",
+    "a": 38,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/withdraw_pays_the_deferred_amount_once_the_provider_can_receive.1.json",
+    "a": 38,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/withdraw_twice_is_refused.1.json",
+    "a": 38,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/withdraw_works_after_the_token_leaves_the_allow_list.1.json",
+    "a": 38,
+    "d": 0
+   },
+   {
+    "f": "contracts/contracts/escrow/test_snapshots/test/zero_maximum_accepts_a_zero_fee.1.json",
+    "a": 38,
+    "d": 0
+   },
+   {
+    "f": "docs/adr/0011-budget-bearing-escrow-and-agent-subcontracting.md",
+    "a": 253,
+    "d": 0
+   },
+   {
+    "f": "odd/tasks/agent-subcontracting.md",
+    "a": 116,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/chain/submission_values.dart",
+    "a": 35,
+    "d": 3
+   },
+   {
+    "f": "puls3_server/lib/src/hire/escrow_relay_service.dart",
+    "a": 67,
+    "d": 2
+   },
+   {
+    "f": "puls3_server/lib/src/ledger/escrow_events.dart",
+    "a": 150,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/ledger/escrow_job.dart",
+    "a": 40,
+    "d": 4
+   },
+   {
+    "f": "puls3_server/lib/src/ledger/ledger_errors.dart",
+    "a": 32,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/test/hire/escrow_relay_subcontract_test.dart",
+    "a": 103,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/test/unit/chain/submission_values_test.dart",
+    "a": 49,
+    "d": 11
+   },
+   {
+    "f": "puls3_server/test/unit/ledger/escrow_subcontract_test.dart",
+    "a": 272,
+    "d": 0
+   }
+  ]
+ },
+ "6f4b2e3564ac29cbcc494574064ee5ea9b1c8e3a": {
+  "team": "Puls3",
+  "repo": "Zer0-Knowledge-Hack/puls3",
+  "author": "TOMOKI977",
+  "date": "2026-11-24T02:02:05Z",
+  "message": "feat(tool): verify on testnet that one Studio agent hires and pays another (#312) (#356)",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/verification/312-agent-hires-agent.md",
+    "a": 136,
+    "d": 0
+   },
+   {
+    "f": "odd/tasks/agent-hires-agent.md",
+    "a": 26,
+    "d": 1
+   },
+   {
+    "f": "puls3_server/tool/a2a_studio_hire_testnet.dart",
+    "a": 766,
+    "d": 0
+   }
+  ]
+ },
+ "1120ba662a2b96988a13b2a0e225d3e7bf5e7b61": {
+  "team": "Puls3",
+  "repo": "Zer0-Knowledge-Hack/puls3",
+  "author": "fercodes",
+  "date": "2026-11-24T01:58:01Z",
+  "message": "feat(server): hide agents listed in PULS3_HIDDEN_AGENT_IDS (#308) (#396)",
+  "parents": 1,
+  "files": [
+   {
+    "f": ".env.example",
+    "a": 3,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/README.md",
+    "a": 19,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/agent/agent_catalog_wiring.dart",
+    "a": 15,
+    "d": 9
+   },
+   {
+    "f": "puls3_server/lib/src/agent/hidden_agents.dart",
+    "a": 52,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/agent/hidden_catalog_reader.dart",
+    "a": 36,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/hire/hire_service.dart",
+    "a": 14,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/hire/hire_services.dart",
+    "a": 7,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/studio/registration_route.dart",
+    "a": 16,
+    "d": 1
+   },
+   {
+    "f": "puls3_server/test/unit/agent/agent_catalog_wiring_test.dart",
+    "a": 12,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/test/unit/agent/hidden_agents_test.dart",
+    "a": 67,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/test/unit/agent/hidden_catalog_reader_test.dart",
+    "a": 78,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/test/unit/hire/hire_service_create_test.dart",
+    "a": 35,
+    "d": 0
+   }
+  ]
+ },
+ "a9f300d7f2553b5af1c703aa297cdffe4f7d1c34": {
+  "team": "Puls3",
+  "repo": "Zer0-Knowledge-Hack/puls3",
+  "author": "fercodes",
+  "date": "2026-11-24T01:46:48Z",
+  "message": "docs(verification): record the production live hire (#313) (#395)",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/verification/live-hire.md",
+    "a": 181,
+    "d": 0
+   },
+   {
+    "f": "docs/verification/onchain.md",
+    "a": 3,
+    "d": 0
+   }
+  ]
+ },
+ "f493f7a5f502f6592811c50653dec5ff72c4cf80": {
+  "team": "Puls3",
+  "repo": "Zer0-Knowledge-Hack/puls3",
+  "author": "Pericena",
+  "date": "2026-11-24T01:45:20Z",
+  "message": "docs(security): plan what the audit leaves before mainnet (#206) (#382)",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/audits/2026-10-25-smart-contract-audit.md",
+    "a": 5,
+    "d": 2
+   },
+   {
+    "f": "docs/security/mainnet-readiness.md",
+    "a": 114,
+    "d": 0
+   }
+  ]
+ },
+ "b8666f37207842e863c1cc09f2734a644a06a3cb": {
+  "team": "Puls3",
+  "repo": "Zer0-Knowledge-Hack/puls3",
+  "author": "XxHugheadxX",
+  "date": "2026-11-24T00:22:16Z",
+  "message": "docs(adr): let the npm SDK create agents and sign with a developer key (#314) (#346)",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/adr/0007-developer-sdk.md",
+    "a": 4,
+    "d": 0
+   },
+   {
+    "f": "docs/adr/0010-npm-sdk-signs-with-a-developer-key.md",
+    "a": 129,
+    "d": 0
+   }
+  ]
+ },
+ "c2b9617f7a66701d2fd20e05e27dacc4f4f39e6b": {
+  "team": "Puls3",
+  "repo": "Zer0-Knowledge-Hack/puls3",
+  "author": "Pericena",
+  "date": "2026-11-24T00:20:24Z",
+  "message": "docs(adr): installable skills as versioned instruction packs an agent pins (#320) (#389)",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/adr/0014-installable-skills.md",
+    "a": 94,
+    "d": 0
+   }
+  ]
+ },
+ "2f8c3def661118e5aa0709a4e877435837d90a45": {
+  "team": "Puls3",
+  "repo": "Zer0-Knowledge-Hack/puls3",
+  "author": "fercodes",
+  "date": "2026-11-24T00:04:00Z",
+  "message": "feat(app): list and revoke CLI sessions in the wallet sheet (#344) (#345)",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/cli/reference.md",
+    "a": 2,
+    "d": 0
+   },
+   {
+    "f": "docs/mcp/setup.md",
+    "a": 5,
+    "d": 1
+   },
+   {
+    "f": "docs/sdk/sessions.md",
+    "a": 5,
+    "d": 4
+   },
+   {
+    "f": "puls3_flutter/lib/main.dart",
+    "a": 2,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/lib/src/cli/cli_session_issuer.dart",
+    "a": 36,
+    "d": 4
+   },
+   {
+    "f": "puls3_flutter/lib/src/hire/wallet_session.dart",
+    "a": 5,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/lib/src/screens/wallet_sheet.dart",
+    "a": 209,
+    "d": 36
+   },
+   {
+    "f": "puls3_flutter/lib/src/ui/organisms/wallet_panel.dart",
+    "a": 115,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/test/cli/cli_session_test.dart",
+    "a": 318,
+    "d": 0
+   }
+  ]
+ },
+ "53b3e60c315386cd5c5b010df3650565db6a8b3b": {
+  "team": "Puls3",
+  "repo": "Zer0-Knowledge-Hack/puls3",
+  "author": "Pericena",
+  "date": "2026-11-23T23:55:59Z",
+  "message": "docs(adr): keep rated jobs alive on chain with a TTL keeper (#336) (#387)",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/adr/0013-keep-rated-jobs-alive-on-chain.md",
+    "a": 74,
+    "d": 0
+   }
+  ]
+ },
+ "bbcd70b27e05f067453346d267a041181c850aa9": {
+  "team": "Puls3",
+  "repo": "Zer0-Knowledge-Hack/puls3",
+  "author": "Pericena",
+  "date": "2026-11-23T23:54:59Z",
+  "message": "chore(sdk): make puls3_client and puls3_sdk publishable on pub.dev (#300) (#388)",
+  "parents": 1,
+  "files": [
+   {
+    "f": ".github/workflows/ci.yml",
+    "a": 12,
+    "d": 0
+   },
+   {
+    "f": "docs/sdk/releasing.md",
+    "a": 87,
+    "d": 0
+   },
+   {
+    "f": "puls3_client/CHANGELOG.md",
+    "a": 5,
+    "d": 2
+   },
+   {
+    "f": "puls3_client/LICENSE",
+    "a": 201,
+    "d": 0
+   },
+   {
+    "f": "puls3_client/README.md",
+    "a": 12,
+    "d": 3
+   },
+   {
+    "f": "puls3_client/pubspec.yaml",
+    "a": 13,
+    "d": 1
+   },
+   {
+    "f": "puls3_sdk/CHANGELOG.md",
+    "a": 8,
+    "d": 0
+   },
+   {
+    "f": "puls3_sdk/LICENSE",
+    "a": 201,
+    "d": 0
+   },
+   {
+    "f": "puls3_sdk/pubspec.yaml",
+    "a": 7,
+    "d": 3
+   }
+  ]
+ },
+ "289cd17b1793497b20144defb7f6b19766cb15d7": {
+  "team": "Puls3",
+  "repo": "Zer0-Knowledge-Hack/puls3",
+  "author": "Pericena",
+  "date": "2026-11-23T23:41:04Z",
+  "message": "docs(operations): rotate the escrow to 0.2.0 without stranding a job (#376) (#385)",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/operations/escrow-rotation.md",
+    "a": 108,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/README.md",
+    "a": 2,
+    "d": 1
+   }
+  ]
+ },
+ "6a3ac5056ef8fee47eef0a3594587192f2d5c32d": {
+  "team": "Puls3",
+  "repo": "Zer0-Knowledge-Hack/puls3",
+  "author": "XxHugheadxX",
+  "date": "2026-11-23T23:34:06Z",
+  "message": "test(sdk): run puls3_sdk against the real server over HTTP (#375) (#391)",
+  "parents": 1,
+  "files": [
+   {
+    "f": ".github/workflows/ci.yml",
+    "a": 9,
+    "d": 2
+   },
+   {
+    "f": "CONTRIBUTING.md",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "puls3_sdk/README.md",
+    "a": 14,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/Dockerfile",
+    "a": 7,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/pubspec.yaml",
+    "a": 5,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/test/integration/sdk_contract/sdk_world.dart",
+    "a": 342,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/test/integration/sdk_contract_test.dart",
+    "a": 299,
+    "d": 0
+   }
+  ]
+ },
+ "891271d271721e4c3cd071269170c9be3219948d": {
+  "team": "Puls3",
+  "repo": "Zer0-Knowledge-Hack/puls3",
+  "author": "XxHugheadxX",
+  "date": "2026-11-23T23:28:33Z",
+  "message": "fix(protocol): let clients read a Puls3ApiException that carries details (#390)",
+  "parents": 1,
+  "files": [
+   {
+    "f": "puls3_client/lib/src/protocol/protocol.dart",
+    "a": 23,
+    "d": 0
+   },
+   {
+    "f": "puls3_client/lib/src/protocol/puls3_api_error_details.dart",
+    "a": 90,
+    "d": 0
+   },
+   {
+    "f": "puls3_sdk/test/api_exception_test.dart",
+    "a": 39,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/generated/protocol.dart",
+    "a": 23,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/generated/puls3_api_error_details.dart",
+    "a": 90,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/protocol/puls3_api_error_details.spy.yaml",
+    "a": 9,
+    "d": 0
+   }
+  ]
+ },
+ "a52a5acdb3066a48fa5f807972b92c8b528863ae": {
+  "team": "Puls3",
+  "repo": "Zer0-Knowledge-Hack/puls3",
+  "author": "Pericena",
+  "date": "2026-11-23T23:21:34Z",
+  "message": "docs: SOW evidence page for the Ambassador review (#315) (#383)",
+  "parents": 1,
+  "files": [
+   {
+    "f": "README.md",
+    "a": 2,
+    "d": 0
+   },
+   {
+    "f": "docs/sow-evidence.md",
+    "a": 118,
+    "d": 0
+   }
+  ]
+ },
+ "c915bd1c404f9f2fa8fbbc9ac7a5067af2e74fe2": {
+  "team": "Puls3",
+  "repo": "Zer0-Knowledge-Hack/puls3",
+  "author": "Pericena",
+  "date": "2026-11-23T23:14:26Z",
+  "message": "fix(catalog): a catalog id belongs to the owner who registered it first (#206) (#381)",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/audits/2026-10-25-smart-contract-audit.md",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "openspec/specs/agent-catalog-endpoint/spec.md",
+    "a": 40,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/agent/agent_catalog_service.dart",
+    "a": 61,
+    "d": 12
+   },
+   {
+    "f": "puls3_server/lib/src/agent/agent_catalog_wiring.dart",
+    "a": 4,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/agent/agent_index_repository.dart",
+    "a": 5,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/agent/catalog_id_owner.dart",
+    "a": 116,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/agent/catalog_indexer.dart",
+    "a": 62,
+    "d": 1
+   },
+   {
+    "f": "puls3_server/lib/src/agent/catalog_indexer_wiring.dart",
+    "a": 4,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/agent/registry_reader.dart",
+    "a": 3,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/agent/serverpod_agent_index_repository.dart",
+    "a": 9,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/agent/studio_draft_owners.dart",
+    "a": 25,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/hire/hire_services.dart",
+    "a": 9,
+    "d": 1
+   },
+   {
+    "f": "puls3_server/test/integration/agent_index_repository_test.dart",
+    "a": 17,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/test/unit/agent/agent_catalog_service_test.dart",
+    "a": 213,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/test/unit/agent/catalog_indexer_test.dart",
+    "a": 164,
+    "d": 1
+   },
+   {
+    "f": "puls3_server/test/unit/agent/indexed_agent_catalog_service_test.dart",
+    "a": 3,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/test/unit/hire/hire_agent_lookup_test.dart",
+    "a": 3,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/test/unit/hire/hire_test_fakes.dart",
+    "a": 7,
+    "d": 0
+   }
+  ]
+ },
+ "d123f7485a5d53a42cfd1d02d70c06b18493047c": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-24T02:08:42Z",
+  "message": "Los términos dicen quién sella y qué queda en la red, también en Oficial",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/legal.md",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "docs/premios.md",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "src/i18n-modo-oficial.ts",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "src/i18n.ts",
+    "a": 8,
+    "d": 10
+   },
+   {
+    "f": "terminos.html",
+    "a": 3,
+    "d": 3
+   }
+  ]
+ },
+ "8de8b5950993c8c7495852f665e13a05b80ecb13": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-24T02:08:42Z",
+  "message": "Tinkazo en la pantalla de inicio del iPhone no cuenta como app",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/navegador.test.ts",
+    "a": 6,
+    "d": 0
+   },
+   {
+    "f": "src/navegador.ts",
+    "a": 7,
+    "d": 1
+   }
+  ]
+ },
+ "ab94d3a40bedf88cebfa9719c592a6a852f13d1c": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "GuidoSV7",
+  "date": "2026-11-23T13:19:05Z",
+  "message": "docs(campañas): el texto normal de los términos con el costo de las campañas",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/i18n.ts",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "terminos.html",
+    "a": 2,
+    "d": 2
+   }
+  ]
+ },
+ "cd9726d98f3277f8f617b4f8c2e5f0d4f3f64273": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "GuidoSV7",
+  "date": "2026-11-23T12:40:42Z",
+  "message": "docs(readme): el costo de las campañas y el pago directo en los dos idiomas",
+  "parents": 1,
+  "files": [
+   {
+    "f": "README.es.md",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "README.md",
+    "a": 2,
+    "d": 2
+   }
+  ]
+ },
+ "fd17c0869709b95e259f1b4eccdd4cde25db93b9": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "GuidoSV7",
+  "date": "2026-11-23T12:40:42Z",
+  "message": "docs: premios y legal al día con el costo del servicio y el pago directo",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/legal.md",
+    "a": 4,
+    "d": 3
+   },
+   {
+    "f": "docs/premios.md",
+    "a": 13,
+    "d": 1
+   }
+  ]
+ },
+ "3d1eacf913ed7c73990dab9bff41270407aaffb9": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "GuidoSV7",
+  "date": "2026-11-23T12:40:42Z",
+  "message": "docs(campañas): los términos y los precios dicen qué pasa en una campaña con premio",
+  "parents": 1,
+  "files": [
+   {
+    "f": "precios.html",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "src/i18n.ts",
+    "a": 28,
+    "d": 8
+   },
+   {
+    "f": "terminos.html",
+    "a": 6,
+    "d": 1
+   }
+  ]
+ },
+ "dbf48305bae1bb2ca4d3e0d07b7d56eed31e2bf3": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "GuidoSV7",
+  "date": "2026-11-23T17:25:50Z",
+  "message": "fix(navegador): la vista web de iPhone que no se nombra también es de app",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/navegador.test.ts",
+    "a": 8,
+    "d": 0
+   },
+   {
+    "f": "src/navegador.ts",
+    "a": 21,
+    "d": 3
+   }
+  ]
+ },
+ "87f02363cce8fb0e240138907b8742ab36a469aa": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-23T21:46:29Z",
+  "message": "Arreglos de la revisión de la página del celular",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/ux.md",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "scripts/lib/peso-participar.mjs",
+    "a": 7,
+    "d": 1
+   },
+   {
+    "f": "src/campana/celular-confirmar.test.ts",
+    "a": 9,
+    "d": 7
+   },
+   {
+    "f": "src/campana/celular-otra-sesion.test.ts",
+    "a": 31,
+    "d": 0
+   },
+   {
+    "f": "src/campana/celular-proveedor.test.ts",
+    "a": 117,
+    "d": 0
+   },
+   {
+    "f": "src/campana/celular.ts",
+    "a": 40,
+    "d": 17
+   },
+   {
+    "f": "src/campana/confirmar-estado.test.ts",
+    "a": 37,
+    "d": 7
+   },
+   {
+    "f": "src/campana/confirmar-estado.ts",
+    "a": 33,
+    "d": 14
+   },
+   {
+    "f": "src/campana/confirmar.test.ts",
+    "a": 69,
+    "d": 5
+   },
+   {
+    "f": "src/campana/confirmar.ts",
+    "a": 60,
+    "d": 13
+   },
+   {
+    "f": "src/campana/sesion-confirmar.test.ts",
+    "a": 68,
+    "d": 2
+   },
+   {
+    "f": "src/campana/sesion-confirmar.ts",
+    "a": 45,
+    "d": 8
+   },
+   {
+    "f": "src/campana/sesion.test.ts",
+    "a": 9,
+    "d": 0
+   },
+   {
+    "f": "src/campana/sesion.ts",
+    "a": 2,
+    "d": 1
+   },
+   {
+    "f": "src/stellar/pollar-falso.ts",
+    "a": 31,
+    "d": 0
+   },
+   {
+    "f": "src/stellar/wallet-pollar-limite.test.ts",
+    "a": 139,
+    "d": 0
+   },
+   {
+    "f": "src/stellar/wallet-pollar.ts",
+    "a": 122,
+    "d": 5
+   }
+  ]
+ },
+ "50301813abbbe4450b189651a60b0be8e123b81e": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-23T21:46:29Z",
+  "message": "Arreglos de la revisión de Tus campañas",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/ux.md",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "src/campana/campana-sala.css",
+    "a": 3,
+    "d": 2
+   },
+   {
+    "f": "src/campana/crear/panel.test.ts",
+    "a": 13,
+    "d": 0
+   },
+   {
+    "f": "src/campana/crear/panel.ts",
+    "a": 8,
+    "d": 1
+   },
+   {
+    "f": "src/campana/en-curso.test.ts",
+    "a": 4,
+    "d": 4
+   },
+   {
+    "f": "src/campana/textos-sala.ts",
+    "a": 4,
+    "d": 2
+   },
+   {
+    "f": "src/crear-campana.ts",
+    "a": 2,
+    "d": 0
+   },
+   {
+    "f": "src/sala/campana-org.test.ts",
+    "a": 75,
+    "d": 7
+   },
+   {
+    "f": "src/sala/campana-org.ts",
+    "a": 44,
+    "d": 15
+   },
+   {
+    "f": "src/sala/campana-recuperar.test.ts",
+    "a": 44,
+    "d": 17
+   },
+   {
+    "f": "src/sala/campana-tus.test.ts",
+    "a": 28,
+    "d": 2
+   },
+   {
+    "f": "src/sala/cuenta-verificar.test.ts",
+    "a": 55,
+    "d": 7
+   },
+   {
+    "f": "src/sala/mundo-sala.ts",
+    "a": 11,
+    "d": 1
+   },
+   {
+    "f": "src/sala/tus-campanas.test.ts",
+    "a": 17,
+    "d": 2
+   },
+   {
+    "f": "src/ui/campana-comision-real-cuenta.test.ts",
+    "a": 42,
+    "d": 0
+   },
+   {
+    "f": "src/ui/campana-comision-real.ts",
+    "a": 3,
+    "d": 2
+   },
+   {
+    "f": "src/ui/campana-comision.ts",
+    "a": 22,
+    "d": 6
+   },
+   {
+    "f": "src/ui/campana-resultado.test.ts",
+    "a": 29,
+    "d": 0
+   },
+   {
+    "f": "src/ui/campana-resultado.ts",
+    "a": 11,
+    "d": 5
+   },
+   {
+    "f": "src/ui/campana-sala-comision.test.ts",
+    "a": 51,
+    "d": 2
+   },
+   {
+    "f": "src/ui/campana-sala-cuenta.test.ts",
+    "a": 124,
+    "d": 26
+   },
+   {
+    "f": "src/ui/campana-sala-tus.test.ts",
+    "a": 73,
+    "d": 1
+   },
+   {
+    "f": "src/ui/campana-sala.ts",
+    "a": 45,
+    "d": 28
+   },
+   {
+    "f": "workers/sala/README.md",
+    "a": 12,
+    "d": 9
+   },
+   {
+    "f": "workers/sala/probar.mjs",
+    "a": 4,
+    "d": 2
+   },
+   {
+    "f": "workers/sala/prueba-local/almacen-viejo.mjs",
+    "a": 3,
+    "d": 1
+   },
+   {
+    "f": "workers/sala/src/activar-cupos.ts",
+    "a": 21,
+    "d": 8
+   },
+   {
+    "f": "workers/sala/src/activar.ts",
+    "a": 15,
+    "d": 5
+   },
+   {
+    "f": "workers/sala/src/index.ts",
+    "a": 12,
+    "d": 2
+   },
+   {
+    "f": "workers/sala/src/tus-campanas.ts",
+    "a": 1,
+    "d": 1
+   }
+  ]
+ },
+ "a3f22620b21b5f74db64c2ce74f2d377617ee424": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-22T23:04:55Z",
+  "message": "La página del celular confirma el correo y cuenta hacia el sorteo",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/ux.md",
+    "a": 29,
+    "d": 3
+   },
+   {
+    "f": "package.json",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "participar.html",
+    "a": 2,
+    "d": 0
+   },
+   {
+    "f": "scripts/lib/peso-participar.mjs",
+    "a": 140,
+    "d": 0
+   },
+   {
+    "f": "scripts/lib/peso-participar.test.mjs",
+    "a": 91,
+    "d": 0
+   },
+   {
+    "f": "scripts/peso-participar.mjs",
+    "a": 40,
+    "d": 0
+   },
+   {
+    "f": "src/campana/adentro.test.ts",
+    "a": 301,
+    "d": 2
+   },
+   {
+    "f": "src/campana/adentro.ts",
+    "a": 152,
+    "d": 17
+   },
+   {
+    "f": "src/campana/campana-css.test.ts",
+    "a": 74,
+    "d": 0
+   },
+   {
+    "f": "src/campana/campana.css",
+    "a": 365,
+    "d": 1
+   },
+   {
+    "f": "src/campana/celular-confirmar.test.ts",
+    "a": 385,
+    "d": 0
+   },
+   {
+    "f": "src/campana/celular-cuenta.test.ts",
+    "a": 214,
+    "d": 0
+   },
+   {
+    "f": "src/campana/celular-falso.ts",
+    "a": 136,
+    "d": 0
+   },
+   {
+    "f": "src/campana/celular-ganaste.test.ts",
+    "a": 159,
+    "d": 0
+   },
+   {
+    "f": "src/campana/celular-marca.test.ts",
+    "a": 143,
+    "d": 0
+   },
+   {
+    "f": "src/campana/celular-otra-sesion.test.ts",
+    "a": 172,
+    "d": 0
+   },
+   {
+    "f": "src/campana/celular-otro-lado.test.ts",
+    "a": 250,
+    "d": 0
+   },
+   {
+    "f": "src/campana/celular-proveedor.test.ts",
+    "a": 396,
+    "d": 0
+   },
+   {
+    "f": "src/campana/celular-sorteo.test.ts",
+    "a": 555,
+    "d": 0
+   },
+   {
+    "f": "src/campana/celular.test.ts",
+    "a": 278,
+    "d": 3
+   },
+   {
+    "f": "src/campana/celular.ts",
+    "a": 837,
+    "d": 72
+   },
+   {
+    "f": "src/campana/claves-de-la-pagina.test.ts",
+    "a": 19,
+    "d": 0
+   },
+   {
+    "f": "src/campana/conectar-marca.test.ts",
+    "a": 83,
+    "d": 0
+   },
+   {
+    "f": "src/campana/conectar-ventana.test.ts",
+    "a": 58,
+    "d": 0
+   },
+   {
+    "f": "src/campana/conectar.test.ts",
+    "a": 182,
+    "d": 3
+   },
+   {
+    "f": "src/campana/conectar.ts",
+    "a": 46,
+    "d": 6
+   },
+   {
+    "f": "src/campana/confirmar-estado.test.ts",
+    "a": 580,
+    "d": 0
+   },
+   {
+    "f": "src/campana/confirmar-estado.ts",
+    "a": 432,
+    "d": 0
+   },
+   {
+    "f": "src/campana/confirmar.test.ts",
+    "a": 797,
+    "d": 0
+   },
+   {
+    "f": "src/campana/confirmar.ts",
+    "a": 408,
+    "d": 0
+   },
+   {
+    "f": "src/campana/demostracion.test.ts",
+    "a": 84,
+    "d": 0
+   },
+   {
+    "f": "src/campana/demostracion.ts",
+    "a": 70,
+    "d": 8
+   },
+   {
+    "f": "src/campana/empieza-ritmo.test.ts",
+    "a": 145,
+    "d": 0
+   },
+   {
+    "f": "src/campana/empieza-ritmo.ts",
+    "a": 105,
+    "d": 0
+   },
+   {
+    "f": "src/campana/empieza.ts",
+    "a": 201,
+    "d": 0
+   },
+   {
+    "f": "src/campana/guarda.test.ts",
+    "a": 20,
+    "d": 0
+   },
+   {
+    "f": "src/campana/guarda.ts",
+    "a": 9,
+    "d": 0
+   },
+   {
+    "f": "src/campana/limite.test.ts",
+    "a": 110,
+    "d": 0
+   },
+   {
+    "f": "src/campana/limite.ts",
+    "a": 61,
+    "d": 0
+   },
+   {
+    "f": "src/campana/marca-de-correo.ts",
+    "a": 13,
+    "d": 0
+   },
+   {
+    "f": "src/campana/palabras.test.ts",
+    "a": 147,
+    "d": 0
+   },
+   {
+    "f": "src/campana/premio.ts",
+    "a": 112,
+    "d": 0
+   },
+   {
+    "f": "src/campana/previa.ts",
+    "a": 38,
+    "d": 3
+   },
+   {
+    "f": "src/campana/recibir.ts",
+    "a": 21,
+    "d": 0
+   },
+   {
+    "f": "src/campana/recordada.ts",
+    "a": 47,
+    "d": 0
+   },
+   {
+    "f": "src/campana/sesion-confirmar.test.ts",
+    "a": 198,
+    "d": 0
+   },
+   {
+    "f": "src/campana/sesion-confirmar.ts",
+    "a": 74,
+    "d": 0
+   },
+   {
+    "f": "src/campana/sesion.test.ts",
+    "a": 263,
+    "d": 0
+   },
+   {
+    "f": "src/campana/sesion.ts",
+    "a": 113,
+    "d": 4
+   },
+   {
+    "f": "src/campana/textos-confirmar.ts",
+    "a": 77,
+    "d": 0
+   },
+   {
+    "f": "src/campana/textos-empieza.ts",
+    "a": 22,
+    "d": 0
+   },
+   {
+    "f": "src/campana/textos-premio.ts",
+    "a": 24,
+    "d": 0
+   },
+   {
+    "f": "src/campana/textos.ts",
+    "a": 14,
+    "d": 24
+   },
+   {
+    "f": "src/campana/ventana-rapida.ts",
+    "a": 14,
+    "d": 0
+   },
+   {
+    "f": "src/i18n.ts",
+    "a": 10,
+    "d": 0
+   },
+   {
+    "f": "src/participar.ts",
+    "a": 12,
+    "d": 4
+   },
+   {
+    "f": "src/protocol/quicknet-hora.ts",
+    "a": 23,
+    "d": 0
+   },
+   {
+    "f": "src/protocol/quicknet.ts",
+    "a": 6,
+    "d": 13
+   },
+   {
+    "f": "src/sala/campana-org.ts",
+    "a": 1,
+    "d": 7
+   },
+   {
+    "f": "src/sala/campana-ronda.test.ts",
+    "a": 106,
+    "d": 0
+   },
+   {
+    "f": "src/sala/campana.ts",
+    "a": 39,
+    "d": 5
+   },
+   {
+    "f": "src/sala/correo.test.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/sala/hora.ts",
+    "a": 26,
+    "d": 0
+   },
+   {
+    "f": "src/stellar/pollar-falso.ts",
+    "a": 16,
+    "d": 0
+   },
+   {
+    "f": "src/stellar/wallet-pollar-celular.test.ts",
+    "a": 393,
+    "d": 0
+   },
+   {
+    "f": "src/stellar/wallet-pollar-estado.test.ts",
+    "a": 30,
+    "d": 0
+   },
+   {
+    "f": "src/stellar/wallet-pollar-limite.test.ts",
+    "a": 268,
+    "d": 0
+   },
+   {
+    "f": "src/stellar/wallet-pollar.ts",
+    "a": 336,
+    "d": 30
+   },
+   {
+    "f": "src/styles.css",
+    "a": 3,
+    "d": 0
+   },
+   {
+    "f": "src/ui/campana-ventana.test.ts",
+    "a": 28,
+    "d": 1
+   },
+   {
+    "f": "src/ui/campana-ventana.ts",
+    "a": 26,
+    "d": 0
+   },
+   {
+    "f": "src/ui/cuenta-lista-estado.test.ts",
+    "a": 49,
+    "d": 0
+   },
+   {
+    "f": "src/ui/cuenta-lista-estado.ts",
+    "a": 31,
+    "d": 2
+   },
+   {
+    "f": "src/ui/cuenta-lista-pared-premio.test.ts",
+    "a": 171,
+    "d": 0
+   },
+   {
+    "f": "src/ui/cuenta-lista-textos.test.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/ui/cuenta-lista.ts",
+    "a": 79,
+    "d": 3
+   },
+   {
+    "f": "src/ui/premio-camino.test.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/ui/wallet-ui.ts",
+    "a": 20,
+    "d": 3
+   }
+  ]
+ },
+ "9e7377494138a41ab3218834a270e19c2df00dcf": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-22T23:04:55Z",
+  "message": "Tus campañas se retoman desde cualquier navegador con la cuenta",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/architecture.md",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "docs/ux.md",
+    "a": 4,
+    "d": 2
+   },
+   {
+    "f": "src/campana/borrador.test.ts",
+    "a": 75,
+    "d": 7
+   },
+   {
+    "f": "src/campana/borrador.ts",
+    "a": 48,
+    "d": 3
+   },
+   {
+    "f": "src/campana/campana-sala.css",
+    "a": 36,
+    "d": 5
+   },
+   {
+    "f": "src/campana/crear/panel.test.ts",
+    "a": 54,
+    "d": 1
+   },
+   {
+    "f": "src/campana/crear/panel.ts",
+    "a": 36,
+    "d": 0
+   },
+   {
+    "f": "src/campana/de-quien.ts",
+    "a": 27,
+    "d": 0
+   },
+   {
+    "f": "src/campana/en-curso.test.ts",
+    "a": 91,
+    "d": 0
+   },
+   {
+    "f": "src/campana/en-curso.ts",
+    "a": 87,
+    "d": 19
+   },
+   {
+    "f": "src/campana/puente.ts",
+    "a": 10,
+    "d": 0
+   },
+   {
+    "f": "src/campana/textos-crear.ts",
+    "a": 2,
+    "d": 0
+   },
+   {
+    "f": "src/campana/textos-sala.ts",
+    "a": 64,
+    "d": 0
+   },
+   {
+    "f": "src/crear-campana.ts",
+    "a": 2,
+    "d": 0
+   },
+   {
+    "f": "src/i18n.ts",
+    "a": 4,
+    "d": 0
+   },
+   {
+    "f": "src/sala/activar.test.ts",
+    "a": 3,
+    "d": 0
+   },
+   {
+    "f": "src/sala/campana-cache.test.ts",
+    "a": 281,
+    "d": 0
+   },
+   {
+    "f": "src/sala/campana-correo.test.ts",
+    "a": 129,
+    "d": 0
+   },
+   {
+    "f": "src/sala/campana-de-cuenta.test.ts",
+    "a": 630,
+    "d": 0
+   },
+   {
+    "f": "src/sala/campana-estado-sello.test.ts",
+    "a": 390,
+    "d": 0
+   },
+   {
+    "f": "src/sala/campana-org.test.ts",
+    "a": 171,
+    "d": 27
+   },
+   {
+    "f": "src/sala/campana-org.ts",
+    "a": 346,
+    "d": 36
+   },
+   {
+    "f": "src/sala/campana-recuperar.test.ts",
+    "a": 698,
+    "d": 0
+   },
+   {
+    "f": "src/sala/campana-toma.test.ts",
+    "a": 300,
+    "d": 0
+   },
+   {
+    "f": "src/sala/campana-tus.test.ts",
+    "a": 269,
+    "d": 0
+   },
+   {
+    "f": "src/sala/cliente-tomada.test.ts",
+    "a": 139,
+    "d": 0
+   },
+   {
+    "f": "src/sala/cliente.ts",
+    "a": 22,
+    "d": 0
+   },
+   {
+    "f": "src/sala/correo.test.ts",
+    "a": 104,
+    "d": 2
+   },
+   {
+    "f": "src/sala/cuenta-verificar.test.ts",
+    "a": 291,
+    "d": 0
+   },
+   {
+    "f": "src/sala/mundo-sala.ts",
+    "a": 64,
+    "d": 1
+   },
+   {
+    "f": "src/sala/topes-equipos.test.ts",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "src/sala/tus-campanas.test.ts",
+    "a": 440,
+    "d": 0
+   },
+   {
+    "f": "src/ui/campana-arranque-puente.test.ts",
+    "a": 41,
+    "d": 0
+   },
+   {
+    "f": "src/ui/campana-arranque.test.ts",
+    "a": 23,
+    "d": 0
+   },
+   {
+    "f": "src/ui/campana-arranque.ts",
+    "a": 9,
+    "d": 4
+   },
+   {
+    "f": "src/ui/campana-comision-real.ts",
+    "a": 8,
+    "d": 0
+   },
+   {
+    "f": "src/ui/campana-comision.ts",
+    "a": 23,
+    "d": 1
+   },
+   {
+    "f": "src/ui/campana-pasar-real.ts",
+    "a": 12,
+    "d": 0
+   },
+   {
+    "f": "src/ui/campana-pendiente.ts",
+    "a": 21,
+    "d": 3
+   },
+   {
+    "f": "src/ui/campana-resultado-cuenta.test.ts",
+    "a": 134,
+    "d": 0
+   },
+   {
+    "f": "src/ui/campana-resultado-real.ts",
+    "a": 27,
+    "d": 5
+   },
+   {
+    "f": "src/ui/campana-resultado.test.ts",
+    "a": 122,
+    "d": 0
+   },
+   {
+    "f": "src/ui/campana-resultado.ts",
+    "a": 61,
+    "d": 9
+   },
+   {
+    "f": "src/ui/campana-sala-activar.test.ts",
+    "a": 37,
+    "d": 0
+   },
+   {
+    "f": "src/ui/campana-sala-comision.test.ts",
+    "a": 113,
+    "d": 0
+   },
+   {
+    "f": "src/ui/campana-sala-cuenta.test.ts",
+    "a": 280,
+    "d": 0
+   },
+   {
+    "f": "src/ui/campana-sala-mundo.ts",
+    "a": 8,
+    "d": 0
+   },
+   {
+    "f": "src/ui/campana-sala-tomada.test.ts",
+    "a": 215,
+    "d": 0
+   },
+   {
+    "f": "src/ui/campana-sala-tus.test.ts",
+    "a": 961,
+    "d": 0
+   },
+   {
+    "f": "src/ui/campana-sala.test.ts",
+    "a": 8,
+    "d": 7
+   },
+   {
+    "f": "src/ui/campana-sala.ts",
+    "a": 851,
+    "d": 35
+   },
+   {
+    "f": "src/ui/campana-tus-real.ts",
+    "a": 43,
+    "d": 0
+   },
+   {
+    "f": "src/ui/campana-tus-sorteada.test.ts",
+    "a": 124,
+    "d": 0
+   },
+   {
+    "f": "src/ui/cuenta-lista-estado.ts",
+    "a": 21,
+    "d": 11
+   },
+   {
+    "f": "src/ui/cuenta-lista-flujo.test.ts",
+    "a": 69,
+    "d": 0
+   },
+   {
+    "f": "src/ui/cuenta-lista-flujo.ts",
+    "a": 9,
+    "d": 6
+   },
+   {
+    "f": "src/ui/cuenta-lista-para-pagar.test.ts",
+    "a": 122,
+    "d": 0
+   },
+   {
+    "f": "src/ui/cuenta-lista-textos.test.ts",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "src/ui/cuenta-lista.ts",
+    "a": 4,
+    "d": 4
+   },
+   {
+    "f": "terminos.html",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "workers/sala/README.md",
+    "a": 153,
+    "d": 6
+   },
+   {
+    "f": "workers/sala/probar.mjs",
+    "a": 393,
+    "d": 4
+   },
+   {
+    "f": "workers/sala/prueba-local/almacen-viejo.mjs",
+    "a": 316,
+    "d": 0
+   },
+   {
+    "f": "workers/sala/prueba-local/correr.mjs",
+    "a": 60,
+    "d": 0
+   },
+   {
+    "f": "workers/sala/prueba-local/entrada.mjs",
+    "a": 148,
+    "d": 0
+   },
+   {
+    "f": "workers/sala/prueba-local/servidor.mjs",
+    "a": 126,
+    "d": 0
+   },
+   {
+    "f": "workers/sala/src/activar-cupos.ts",
+    "a": 452,
+    "d": 9
+   },
+   {
+    "f": "workers/sala/src/activar.ts",
+    "a": 158,
+    "d": 27
+   },
+   {
+    "f": "workers/sala/src/cache.ts",
+    "a": 89,
+    "d": 0
+   },
+   {
+    "f": "workers/sala/src/campana.ts",
+    "a": 181,
+    "d": 22
+   },
+   {
+    "f": "workers/sala/src/correo.ts",
+    "a": 121,
+    "d": 5
+   },
+   {
+    "f": "workers/sala/src/creacion.ts",
+    "a": 3,
+    "d": 2
+   },
+   {
+    "f": "workers/sala/src/index.ts",
+    "a": 478,
+    "d": 39
+   },
+   {
+    "f": "workers/sala/src/tus-campanas.ts",
+    "a": 254,
+    "d": 0
+   },
+   {
+    "f": "workers/sala/wrangler.toml",
+    "a": 17,
+    "d": 0
+   }
+  ]
  }
 }
