@@ -1,14 +1,14 @@
 {
- "generado": "2026-11-24T03:38:00+00:00",
+ "generado": "2026-11-24T16:44:17+00:00",
  "programa": "Stellar Elite",
  "start_date": "2026-09-02T00:00:00Z",
  "teams": [
   {
    "name": "Tinkazo",
-   "total": 9260.9,
-   "per_capita": 9260.9,
-   "commits": 1421,
-   "pts_commits": 8994.9,
+   "total": 9405.9,
+   "per_capita": 9405.9,
+   "commits": 1446,
+   "pts_commits": 9139.9,
    "dias_activos": 52,
    "contribuidores": [
     "GuidoSV7",
@@ -19,6 +19,27 @@
     "nema1502/tinkazo"
    ],
    "rank": 1
+  },
+  {
+   "name": "Puls3",
+   "total": 2010.29,
+   "per_capita": 2010.29,
+   "commits": 249,
+   "pts_commits": 1822.29,
+   "dias_activos": 34,
+   "contribuidores": [
+    "Pericena",
+    "TOMOKI977",
+    "XxHugheadxX",
+    "anahillanos474-max",
+    "fercodes",
+    "moises-cisneros"
+   ],
+   "tamano": 1,
+   "repos": [
+    "Zer0-Knowledge-Hack/puls3"
+   ],
+   "rank": 2
   },
   {
    "name": "Impulso Stellar",
@@ -38,27 +59,6 @@
    "tamano": 1,
    "repos": [
     "orlando-vazquez-career/stellar-impulse"
-   ],
-   "rank": 2
-  },
-  {
-   "name": "Puls3",
-   "total": 1869.51,
-   "per_capita": 1869.51,
-   "commits": 232,
-   "pts_commits": 1681.51,
-   "dias_activos": 34,
-   "contribuidores": [
-    "Pericena",
-    "TOMOKI977",
-    "XxHugheadxX",
-    "anahillanos474-max",
-    "fercodes",
-    "moises-cisneros"
-   ],
-   "tamano": 1,
-   "repos": [
-    "Zer0-Knowledge-Hack/puls3"
    ],
    "rank": 3
   },
@@ -331,7 +331,7 @@
    "2026-11-17": 198.89,
    "2026-11-18": 72.59,
    "2026-11-23": 111.23,
-   "2026-11-24": 92.60999999999999
+   "2026-11-24": 233.39
   },
   "Tinkazo": {
    "2026-09-16": 66.21000000000001,
@@ -385,8 +385,8 @@
    "2026-11-20": 236.51,
    "2026-11-21": 99.36,
    "2026-11-22": 93.81,
-   "2026-11-23": 46.42,
-   "2026-11-24": 11.04
+   "2026-11-23": 120.11,
+   "2026-11-24": 82.35000000000001
   },
   "CompraGasolinaBidon": {
    "2026-09-06": 1.0,
@@ -539,7 +539,7 @@
    "2026-11-17": 22,
    "2026-11-18": 9,
    "2026-11-23": 13,
-   "2026-11-24": 11
+   "2026-11-24": 28
   },
   "Tinkazo": {
    "2026-09-16": 8,
@@ -593,8 +593,8 @@
    "2026-11-20": 59,
    "2026-11-21": 14,
    "2026-11-22": 14,
-   "2026-11-23": 7,
-   "2026-11-24": 2
+   "2026-11-23": 17,
+   "2026-11-24": 17
   },
   "CompraGasolinaBidon": {
    "2026-09-06": 1,
@@ -706,6 +706,236 @@
  },
  "commits": [
   {
+   "sha": "6708683",
+   "team": "Puls3",
+   "repo": "Zer0-Knowledge-Hack/puls3",
+   "author": "moises-cisneros",
+   "date": "2026-11-24T16:16:52Z",
+   "msg": "feat(runtime): wire subcontracting in production (#334, 14/15) (#407)",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "81eca41",
+   "team": "Puls3",
+   "repo": "Zer0-Knowledge-Hack/puls3",
+   "author": "fercodes",
+   "date": "2026-11-24T15:49:21Z",
+   "msg": "feat(studio): free models run on the platform Workers AI account (#318) (#347)",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "beaf21f",
+   "team": "Puls3",
+   "repo": "Zer0-Knowledge-Hack/puls3",
+   "author": "fercodes",
+   "date": "2026-11-24T15:43:25Z",
+   "msg": "fix(hire): show a stuck submit and refund on expiry (#277) (#292)",
+   "pts": 1.0,
+   "nota": "import masivo (52 archivos)"
+  },
+  {
+   "sha": "c256570",
+   "team": "Puls3",
+   "repo": "Zer0-Knowledge-Hack/puls3",
+   "author": "moises-cisneros",
+   "date": "2026-11-24T15:32:50Z",
+   "msg": "ci: run the jobs that use a shared action when it changes (#408)",
+   "pts": 4.46,
+   "nota": ""
+  },
+  {
+   "sha": "faad4c2",
+   "team": "Puls3",
+   "repo": "Zer0-Knowledge-Hack/puls3",
+   "author": "moises-cisneros",
+   "date": "2026-11-24T15:25:52Z",
+   "msg": "ci: consolidate duplicated workflow setup into composite actions (#404)",
+   "pts": 8.81,
+   "nota": ""
+  },
+  {
+   "sha": "9bbfc53",
+   "team": "Puls3",
+   "repo": "Zer0-Knowledge-Hack/puls3",
+   "author": "moises-cisneros",
+   "date": "2026-11-24T15:19:52Z",
+   "msg": "docs(testing): explain how to run the local environment from a git worktree (#327) (#353)",
+   "pts": 6.86,
+   "nota": ""
+  },
+  {
+   "sha": "43e2a0b",
+   "team": "Puls3",
+   "repo": "Zer0-Knowledge-Hack/puls3",
+   "author": "Pericena",
+   "date": "2026-11-24T15:12:24Z",
+   "msg": "docs(verification): the live hire is escrow job 35, not 34 (#313) (#402)",
+   "pts": 4.58,
+   "nota": ""
+  },
+  {
+   "sha": "ceac193",
+   "team": "Puls3",
+   "repo": "Zer0-Knowledge-Hack/puls3",
+   "author": "Pericena",
+   "date": "2026-11-24T15:04:23Z",
+   "msg": "feat(domain): one client is one rating, and no minimum job budget (#324) (#386)",
+   "pts": 8.46,
+   "nota": ""
+  },
+  {
+   "sha": "2cc89b1",
+   "team": "Puls3",
+   "repo": "Zer0-Knowledge-Hack/puls3",
+   "author": "XxHugheadxX",
+   "date": "2026-11-24T12:18:53Z",
+   "msg": "test(mcp): run the puls3_mcp tools against the real server over HTTP (#375) (#392)",
+   "pts": 9.35,
+   "nota": ""
+  },
+  {
+   "sha": "dd3381d",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-24T12:06:29Z",
+   "msg": "La línea base de la red principal pasa al protocolo 30",
+   "pts": 4.17,
+   "nota": ""
+  },
+  {
+   "sha": "a753897",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-24T11:55:16Z",
+   "msg": "La prueba de los subtítulos del video lee los dos fines de línea",
+   "pts": 2.58,
+   "nota": ""
+  },
+  {
+   "sha": "390f95f",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-24T11:55:15Z",
+   "msg": "La guía de operación dice el valor de hoy del correo y lo que cubre la palanca de solo Google",
+   "pts": 3.81,
+   "nota": ""
+  },
+  {
+   "sha": "e2e2d18",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-24T11:55:15Z",
+   "msg": "Las páginas públicas dicen que la campaña con premio pide entrar con Google",
+   "pts": 6.0,
+   "nota": ""
+  },
+  {
+   "sha": "4ef922f",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-24T11:55:15Z",
+   "msg": "Las bases de cada campaña dicen quién sella la lista",
+   "pts": 5.58,
+   "nota": ""
+  },
+  {
+   "sha": "f3826a7",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-24T10:54:35Z",
+   "msg": "Los subtítulos del video de la portada quedan apagados hasta que se pidan",
+   "pts": 3.81,
+   "nota": ""
+  },
+  {
+   "sha": "b676691",
+   "team": "Puls3",
+   "repo": "Zer0-Knowledge-Hack/puls3",
+   "author": "TOMOKI977",
+   "date": "2026-11-24T04:30:32Z",
+   "msg": "fix(runtime): reconcile unverified child lines against the escrow (#334, 13e) (#401)",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "cfbeda8",
+   "team": "Puls3",
+   "repo": "Zer0-Knowledge-Hack/puls3",
+   "author": "TOMOKI977",
+   "date": "2026-11-24T04:25:06Z",
+   "msg": "fix(runtime): reconcile conflicts, open-children errors and orphan children (#334, 13d) (#400)",
+   "pts": 9.39,
+   "nota": ""
+  },
+  {
+   "sha": "f68f740",
+   "team": "Puls3",
+   "repo": "Zer0-Knowledge-Hack/puls3",
+   "author": "TOMOKI977",
+   "date": "2026-11-24T04:19:24Z",
+   "msg": "fix(runtime): record relay release and refund on the child receipt (#334, 13c) (#399)",
+   "pts": 9.18,
+   "nota": ""
+  },
+  {
+   "sha": "b549a2e",
+   "team": "Puls3",
+   "repo": "Zer0-Knowledge-Hack/puls3",
+   "author": "TOMOKI977",
+   "date": "2026-11-24T04:13:57Z",
+   "msg": "fix(runtime): serialize agent-signed calls per signing wallet (#334, 13b) (#398)",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "d7d8ec9",
+   "team": "Puls3",
+   "repo": "Zer0-Knowledge-Hack/puls3",
+   "author": "TOMOKI977",
+   "date": "2026-11-24T04:08:22Z",
+   "msg": "fix(runtime): fit a child's output to the parent's conversation (#334, 13a) (#397)",
+   "pts": 8.69,
+   "nota": ""
+  },
+  {
+   "sha": "03ef3af",
+   "team": "Puls3",
+   "repo": "Zer0-Knowledge-Hack/puls3",
+   "author": "TOMOKI977",
+   "date": "2026-11-24T04:01:54Z",
+   "msg": "feat(runtime): judge and settle child jobs with A-signed verdicts (#334, 12/15) (#368)",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "58efb88",
+   "team": "Puls3",
+   "repo": "Zer0-Knowledge-Hack/puls3",
+   "author": "TOMOKI977",
+   "date": "2026-11-24T03:50:27Z",
+   "msg": "feat(chain): track child job creation and fund the child hire (#334, 11/15) (#367)",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "22cff7d",
+   "team": "Puls3",
+   "repo": "Zer0-Knowledge-Hack/puls3",
+   "author": "TOMOKI977",
+   "date": "2026-11-24T03:44:50Z",
+   "msg": "feat(runtime): persist an awaiting-child run phase and resume tool loops (#334, 9/15) (#365)",
+   "pts": 10,
+   "nota": ""
+  },
+  {
    "sha": "b6b7027",
    "team": "Puls3",
    "repo": "Zer0-Knowledge-Hack/puls3",
@@ -733,6 +963,96 @@
    "date": "2026-11-24T03:11:31Z",
    "msg": "feat(hire): persist a subcontract reserve and fund hires with it (#334, 4/15) (#360)",
    "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "f33c1db",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-24T02:54:30Z",
+   "msg": "El guion de carga valida sus banderas, exige las altas pedidas y cita las frases reales del celular",
+   "pts": 6.36,
+   "nota": ""
+  },
+  {
+   "sha": "36ba5ad",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-24T02:54:30Z",
+   "msg": "El aviso de las cuentas de evento no afirma que no se pueda pagar",
+   "pts": 4.7,
+   "nota": ""
+  },
+  {
+   "sha": "77156b5",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-24T02:54:30Z",
+   "msg": "El sondeo del celular tiene una sola cadena y pide enseguida cuando vuelve la señal",
+   "pts": 7.85,
+   "nota": ""
+  },
+  {
+   "sha": "fad2fc9",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-24T02:31:03Z",
+   "msg": "La prueba de textos de pagos mira también el aviso de las cuentas de evento",
+   "pts": 2.58,
+   "nota": ""
+  },
+  {
+   "sha": "6d6aeac",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-24T02:16:09Z",
+   "msg": "Corrige el tipo del texto del aviso de cuentas de evento",
+   "pts": 3.0,
+   "nota": ""
+  },
+  {
+   "sha": "ed8d29c",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-24T02:14:59Z",
+   "msg": "El guion del video de la portada no nombra herramientas privadas",
+   "pts": 4.32,
+   "nota": ""
+  },
+  {
+   "sha": "75706a7",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-24T02:13:25Z",
+   "msg": "El guion de carga cita los textos reales del celular y no gira sin fin",
+   "pts": 5.52,
+   "nota": ""
+  },
+  {
+   "sha": "48b88f2",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-24T02:13:25Z",
+   "msg": "El aviso de las cuentas de evento sale en los dos idiomas y no manda a recargar",
+   "pts": 5.86,
+   "nota": ""
+  },
+  {
+   "sha": "0475af7",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-24T02:13:24Z",
+   "msg": "La sala con QR no rehace el formulario del celular al reconectar",
+   "pts": 5.17,
    "nota": ""
   },
   {
@@ -926,6 +1246,86 @@
    "nota": ""
   },
   {
+   "sha": "5c7d906",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "GuidoSV7",
+   "date": "2026-11-23T21:18:05Z",
+   "msg": "docs(portada): el video de la llamita corregido, en 44 segundos y sin audio",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "cfbbbca",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "GuidoSV7",
+   "date": "2026-11-23T19:15:08Z",
+   "msg": "feat(turnos): el tope de la red se ve al elegir el modo, no solo al pasarlo",
+   "pts": 8.52,
+   "nota": ""
+  },
+  {
+   "sha": "b78cdc3",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "GuidoSV7",
+   "date": "2026-11-23T18:46:11Z",
+   "msg": "style(amigo): el error del nombre repetido con las reglas de la casa",
+   "pts": 2.58,
+   "nota": ""
+  },
+  {
+   "sha": "4037374",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "GuidoSV7",
+   "date": "2026-11-23T18:34:38Z",
+   "msg": "fix(sala): el celular no muere por un corte de red, y su sondeo respeta a la vista",
+   "pts": 9.11,
+   "nota": ""
+  },
+  {
+   "sha": "80a848b",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "GuidoSV7",
+   "date": "2026-11-23T18:21:54Z",
+   "msg": "test(amigo): las parejas del juego coinciden con reparto, y los textos del relator",
+   "pts": 7.09,
+   "nota": ""
+  },
+  {
+   "sha": "12f8e36",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "GuidoSV7",
+   "date": "2026-11-23T18:21:54Z",
+   "msg": "feat(amigo): el reparto del juego sale del orden sellado del protocolo",
+   "pts": 6.73,
+   "nota": ""
+  },
+  {
+   "sha": "06ef574",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "GuidoSV7",
+   "date": "2026-11-23T17:40:44Z",
+   "msg": "docs(protocolo): las notas del Protocolo 30 y del voto del sello al día",
+   "pts": 9.95,
+   "nota": ""
+  },
+  {
+   "sha": "23455b4",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "GuidoSV7",
+   "date": "2026-11-23T17:35:43Z",
+   "msg": "feat(scripts): el guion de carga de altas de campaña contra el Worker real",
+   "pts": 10,
+   "nota": ""
+  },
+  {
    "sha": "dbf4830",
    "team": "Tinkazo",
    "repo": "nema1502/tinkazo",
@@ -933,6 +1333,26 @@
    "date": "2026-11-23T17:25:50Z",
    "msg": "fix(navegador): la vista web de iPhone que no se nombra también es de app",
    "pts": 6.04,
+   "nota": ""
+  },
+  {
+   "sha": "ba34d3d",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "GuidoSV7",
+   "date": "2026-11-23T17:14:48Z",
+   "msg": "docs: el riesgo aceptado del voto por hash pasa a la conducta del voto por contenido",
+   "pts": 3.32,
+   "nota": ""
+  },
+  {
+   "sha": "baf23b8",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "GuidoSV7",
+   "date": "2026-11-23T14:27:48Z",
+   "msg": "fix(pagos): el typo en la lista de cuentas que pagan se dice, no se queda mudo",
+   "pts": 6.39,
    "nota": ""
   },
   {

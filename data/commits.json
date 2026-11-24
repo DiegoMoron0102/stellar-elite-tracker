@@ -210423,5 +210423,2155 @@
     "d": 0
    }
   ]
+ },
+ "670868314b64b6908be7404838afac3d7a6d46b5": {
+  "team": "Puls3",
+  "repo": "Zer0-Knowledge-Hack/puls3",
+  "author": "moises-cisneros",
+  "date": "2026-11-24T16:16:52Z",
+  "message": "feat(runtime): wire subcontracting in production (#334, 14/15) (#407)",
+  "parents": 1,
+  "files": [
+   {
+    "f": "odd/tasks/agent-subcontracting.md",
+    "a": 22,
+    "d": 2
+   },
+   {
+    "f": "puls3_server/README.md",
+    "a": 14,
+    "d": 3
+   },
+   {
+    "f": "puls3_server/lib/src/chain/chain_tracker_wiring.dart",
+    "a": 64,
+    "d": 24
+   },
+   {
+    "f": "puls3_server/lib/src/runtime/agent_runtime_wiring.dart",
+    "a": 290,
+    "d": 40
+   },
+   {
+    "f": "puls3_server/lib/src/runtime/child_agent_lookup.dart",
+    "a": 76,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/runtime/subcontract_wiring.dart",
+    "a": 173,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/test/support/in_memory_hire_receipt_store.dart",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "puls3_server/test/unit/chain/chain_tracker_wiring_test.dart",
+    "a": 56,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/test/unit/runtime/agent_runtime_wiring_test.dart",
+    "a": 73,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/test/unit/runtime/child_agent_lookup_test.dart",
+    "a": 109,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/test/unit/runtime/subcontract_wiring_test.dart",
+    "a": 246,
+    "d": 0
+   }
+  ]
+ },
+ "81eca4129b710f0863e5a1682f85ed50446ff70e": {
+  "team": "Puls3",
+  "repo": "Zer0-Knowledge-Hack/puls3",
+  "author": "fercodes",
+  "date": "2026-11-24T15:49:21Z",
+  "message": "feat(studio): free models run on the platform Workers AI account (#318) (#347)",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/adr/0004-agent-manifest-and-deployment.md",
+    "a": 9,
+    "d": 0
+   },
+   {
+    "f": "docs/architecture/api.md",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "docs/blueprints/flows.md",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "docs/blueprints/screens.md",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "docs/cli/reference.md",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "docs/domain/hire-lifecycle.md",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "docs/infra/secrets.md",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "docs/studio/builder-guide.md",
+    "a": 13,
+    "d": 11
+   },
+   {
+    "f": "puls3_client/lib/src/protocol/client.dart",
+    "a": 4,
+    "d": 3
+   },
+   {
+    "f": "puls3_domain/lib/src/manifest.dart",
+    "a": 3,
+    "d": 3
+   },
+   {
+    "f": "puls3_flutter/lib/l10n/app_en.arb",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "puls3_flutter/lib/l10n/app_es.arb",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "puls3_flutter/lib/l10n/app_pt.arb",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "puls3_flutter/lib/l10n/app_pt_BR.arb",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "puls3_flutter/lib/l10n/app_pt_PT.arb",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "puls3_flutter/lib/l10n/generated/app_localizations.dart",
+    "a": 6,
+    "d": 6
+   },
+   {
+    "f": "puls3_flutter/lib/l10n/generated/app_localizations_en.dart",
+    "a": 3,
+    "d": 3
+   },
+   {
+    "f": "puls3_flutter/lib/l10n/generated/app_localizations_es.dart",
+    "a": 3,
+    "d": 3
+   },
+   {
+    "f": "puls3_flutter/lib/l10n/generated/app_localizations_pt.dart",
+    "a": 9,
+    "d": 9
+   },
+   {
+    "f": "puls3_flutter/lib/src/screens/playground.dart",
+    "a": 12,
+    "d": 16
+   },
+   {
+    "f": "puls3_flutter/lib/src/ui/organisms/playground_panel.dart",
+    "a": 5,
+    "d": 28
+   },
+   {
+    "f": "puls3_flutter/test/screens/playground_test.dart",
+    "a": 51,
+    "d": 43
+   },
+   {
+    "f": "puls3_flutter/test/studio/studio_fixtures.dart",
+    "a": 22,
+    "d": 17
+   },
+   {
+    "f": "puls3_sdk/lib/src/puls3_sdk.dart",
+    "a": 4,
+    "d": 3
+   },
+   {
+    "f": "puls3_server/README.md",
+    "a": 10,
+    "d": 4
+   },
+   {
+    "f": "puls3_server/lib/server.dart",
+    "a": 16,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/runtime/agent_runtime_wiring.dart",
+    "a": 3,
+    "d": 2
+   },
+   {
+    "f": "puls3_server/lib/src/runtime/hire_runner.dart",
+    "a": 13,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/runtime/run_execution.dart",
+    "a": 19,
+    "d": 9
+   },
+   {
+    "f": "puls3_server/lib/src/runtime/run_manifest.dart",
+    "a": 3,
+    "d": 2
+   },
+   {
+    "f": "puls3_server/lib/src/runtime/team_run_quota.dart",
+    "a": 30,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/studio/builder_credential.dart",
+    "a": 4,
+    "d": 3
+   },
+   {
+    "f": "puls3_server/lib/src/studio/studio_endpoint.dart",
+    "a": 19,
+    "d": 5
+   },
+   {
+    "f": "puls3_server/lib/src/studio/studio_test_errors.dart",
+    "a": 3,
+    "d": 2
+   },
+   {
+    "f": "puls3_server/lib/src/studio/studio_test_run_service.dart",
+    "a": 46,
+    "d": 19
+   },
+   {
+    "f": "puls3_server/lib/src/studio/team_task_runner.dart",
+    "a": 39,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/studio/test_run_quota.dart",
+    "a": 38,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/test/integration/builder_credential_store_test.dart",
+    "a": 42,
+    "d": 5
+   },
+   {
+    "f": "puls3_server/test/integration/sdk_contract/sdk_world.dart",
+    "a": 4,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/test/studio/studio_endpoint_test.dart",
+    "a": 18,
+    "d": 10
+   },
+   {
+    "f": "puls3_server/test/studio/studio_test_run_service_test.dart",
+    "a": 110,
+    "d": 29
+   },
+   {
+    "f": "puls3_server/test/studio/team_task_runner_test.dart",
+    "a": 70,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/test/unit/runtime/hire_runner_test.dart",
+    "a": 77,
+    "d": 8
+   },
+   {
+    "f": "puls3_server/test/unit/runtime/studio_hire_run_test.dart",
+    "a": 76,
+    "d": 47
+   },
+   {
+    "f": "puls3_server/test/unit/runtime/team_run_quota_test.dart",
+    "a": 34,
+    "d": 0
+   }
+  ]
+ },
+ "beaf21f64534151021d15f7c34a3b4df62f713f1": {
+  "team": "Puls3",
+  "repo": "Zer0-Knowledge-Hack/puls3",
+  "author": "fercodes",
+  "date": "2026-11-24T15:43:25Z",
+  "message": "fix(hire): show a stuck submit and refund on expiry (#277) (#292)",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/architecture/api.md",
+    "a": 12,
+    "d": 9
+   },
+   {
+    "f": "puls3_client/lib/src/protocol/chain/chain_submission.dart",
+    "a": 4,
+    "d": 3
+   },
+   {
+    "f": "puls3_client/lib/src/protocol/client.dart",
+    "a": 9,
+    "d": 0
+   },
+   {
+    "f": "puls3_client/lib/src/protocol/hire_detail.dart",
+    "a": 36,
+    "d": 1
+   },
+   {
+    "f": "puls3_flutter/integration_test/hire_flow_e2e_test.dart",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/lib/l10n/app_en.arb",
+    "a": 8,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/lib/l10n/app_es.arb",
+    "a": 8,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/lib/l10n/app_pt.arb",
+    "a": 8,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/lib/l10n/app_pt_BR.arb",
+    "a": 8,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/lib/l10n/app_pt_PT.arb",
+    "a": 8,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/lib/l10n/generated/app_localizations.dart",
+    "a": 48,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/lib/l10n/generated/app_localizations_en.dart",
+    "a": 29,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/lib/l10n/generated/app_localizations_es.dart",
+    "a": 29,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/lib/l10n/generated/app_localizations_pt.dart",
+    "a": 87,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/lib/main.dart",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/lib/src/hire/fake_hire_gateway.dart",
+    "a": 11,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/lib/src/hire/hire_gateway.dart",
+    "a": 64,
+    "d": 1
+   },
+   {
+    "f": "puls3_flutter/lib/src/hire/server_hire_gateway.dart",
+    "a": 13,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/lib/src/screens/hire_detail_screen.dart",
+    "a": 43,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/lib/src/ui/organisms/hire_detail_view.dart",
+    "a": 60,
+    "d": 23
+   },
+   {
+    "f": "puls3_flutter/test/hire/server_hire_gateway_test.dart",
+    "a": 62,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/test/hire/wallet_session_test.dart",
+    "a": 2,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/test/screens/hire_detail_screen_test.dart",
+    "a": 98,
+    "d": 8
+   },
+   {
+    "f": "puls3_flutter/test/screens/hire_sheet_test.dart",
+    "a": 4,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/chain/chain_submission.spy.yaml",
+    "a": 4,
+    "d": 3
+   },
+   {
+    "f": "puls3_server/lib/src/chain/chain_submission_store.dart",
+    "a": 12,
+    "d": 5
+   },
+   {
+    "f": "puls3_server/lib/src/chain/chain_submission_tracker.dart",
+    "a": 6,
+    "d": 2
+   },
+   {
+    "f": "puls3_server/lib/src/chain/escrow_server_submit.dart",
+    "a": 3,
+    "d": 1
+   },
+   {
+    "f": "puls3_server/lib/src/chain/serverpod_chain_submission_store.dart",
+    "a": 2,
+    "d": 1
+   },
+   {
+    "f": "puls3_server/lib/src/chain/submission_values.dart",
+    "a": 7,
+    "d": 3
+   },
+   {
+    "f": "puls3_server/lib/src/generated/chain/chain_submission.dart",
+    "a": 8,
+    "d": 6
+   },
+   {
+    "f": "puls3_server/lib/src/generated/endpoints.dart",
+    "a": 19,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/generated/hire_detail.dart",
+    "a": 36,
+    "d": 1
+   },
+   {
+    "f": "puls3_server/lib/src/generated/protocol.yaml",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/hire/escrow_relay_service.dart",
+    "a": 25,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/hire/hire_endpoint.dart",
+    "a": 10,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/hire/hire_lifecycle_store.dart",
+    "a": 4,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/hire/hire_query_service.dart",
+    "a": 59,
+    "d": 1
+   },
+   {
+    "f": "puls3_server/lib/src/hire/hire_services.dart",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/hire/serverpod_hire_repository.dart",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/protocol/hire_detail.spy.yaml",
+    "a": 9,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/test/hire/escrow_relay_service_test.dart",
+    "a": 62,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/test/hire/escrow_relay_submit_test.dart",
+    "a": 23,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/test/hire/hire_endpoint_test.dart",
+    "a": 12,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/test/hire/hire_query_service_test.dart",
+    "a": 137,
+    "d": 8
+   },
+   {
+    "f": "puls3_server/test/integration/test_tools/serverpod_test_tools.dart",
+    "a": 31,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/test/support/chain_submission_store_contract.dart",
+    "a": 32,
+    "d": 1
+   },
+   {
+    "f": "puls3_server/test/support/in_memory_chain_submission_store.dart",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/test/support/in_memory_hire_lifecycle_store.dart",
+    "a": 7,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/test/unit/chain/chain_submission_tracker_test.dart",
+    "a": 37,
+    "d": 2
+   },
+   {
+    "f": "puls3_server/test/unit/chain/escrow_server_submit_test.dart",
+    "a": 79,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/test/unit/chain/submission_values_test.dart",
+    "a": 6,
+    "d": 3
+   }
+  ]
+ },
+ "c256570ca3e0272d20acf12afff4ddd1726b2986": {
+  "team": "Puls3",
+  "repo": "Zer0-Knowledge-Hack/puls3",
+  "author": "moises-cisneros",
+  "date": "2026-11-24T15:32:50Z",
+  "message": "ci: run the jobs that use a shared action when it changes (#408)",
+  "parents": 1,
+  "files": [
+   {
+    "f": ".github/workflows/ci.yml",
+    "a": 7,
+    "d": 0
+   },
+   {
+    "f": ".github/workflows/e2e-browser.yml",
+    "a": 3,
+    "d": 0
+   }
+  ]
+ },
+ "faad4c2818357b03a04ac515f44465fb4518e464": {
+  "team": "Puls3",
+  "repo": "Zer0-Knowledge-Hack/puls3",
+  "author": "moises-cisneros",
+  "date": "2026-11-24T15:25:52Z",
+  "message": "ci: consolidate duplicated workflow setup into composite actions (#404)",
+  "parents": 1,
+  "files": [
+   {
+    "f": ".github/actions/setup-flutter/action.yml",
+    "a": 18,
+    "d": 0
+   },
+   {
+    "f": ".github/actions/setup-soroban/action.yml",
+    "a": 36,
+    "d": 0
+   },
+   {
+    "f": ".github/actions/start-sandbox/action.yml",
+    "a": 21,
+    "d": 0
+   },
+   {
+    "f": ".github/workflows/ci.yml",
+    "a": 7,
+    "d": 49
+   },
+   {
+    "f": ".github/workflows/deploy-server.yml",
+    "a": 1,
+    "d": 8
+   },
+   {
+    "f": ".github/workflows/e2e-browser.yml",
+    "a": 3,
+    "d": 36
+   },
+   {
+    "f": ".github/workflows/e2e.yml",
+    "a": 4,
+    "d": 36
+   },
+   {
+    "f": "scripts/cloudflare-pages-build.sh",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "scripts/tests/cloudflare-pages-build.test.sh",
+    "a": 1,
+    "d": 1
+   }
+  ]
+ },
+ "9bbfc535c0761be85e0c82d466ade42b437a9845": {
+  "team": "Puls3",
+  "repo": "Zer0-Knowledge-Hack/puls3",
+  "author": "moises-cisneros",
+  "date": "2026-11-24T15:19:52Z",
+  "message": "docs(testing): explain how to run the local environment from a git worktree (#327) (#353)",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/testing/local-environment.md",
+    "a": 57,
+    "d": 0
+   }
+  ]
+ },
+ "43e2a0b09d67f1ed35cb897826d755bf0481ba11": {
+  "team": "Puls3",
+  "repo": "Zer0-Knowledge-Hack/puls3",
+  "author": "Pericena",
+  "date": "2026-11-24T15:12:24Z",
+  "message": "docs(verification): the live hire is escrow job 35, not 34 (#313) (#402)",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/verification/live-hire.md",
+    "a": 7,
+    "d": 4
+   }
+  ]
+ },
+ "ceac193e296a5d053597c6016fb054bb512791ab": {
+  "team": "Puls3",
+  "repo": "Zer0-Knowledge-Hack/puls3",
+  "author": "Pericena",
+  "date": "2026-11-24T15:04:23Z",
+  "message": "feat(domain): one client is one rating, and no minimum job budget (#324) (#386)",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/adr/0012-one-rating-per-client.md",
+    "a": 40,
+    "d": 0
+   },
+   {
+    "f": "docs/domain/reputation.md",
+    "a": 15,
+    "d": 4
+   },
+   {
+    "f": "docs/verification/reputation.md",
+    "a": 8,
+    "d": 0
+   },
+   {
+    "f": "puls3_domain/lib/src/reputation.dart",
+    "a": 21,
+    "d": 7
+   },
+   {
+    "f": "puls3_domain/test/feedback_provenance_test.dart",
+    "a": 4,
+    "d": 1
+   },
+   {
+    "f": "puls3_domain/test/reputation_test.dart",
+    "a": 74,
+    "d": 1
+   }
+  ]
+ },
+ "2cc89b1b2c340d198cf76a1877e40e45ff8aec1e": {
+  "team": "Puls3",
+  "repo": "Zer0-Knowledge-Hack/puls3",
+  "author": "XxHugheadxX",
+  "date": "2026-11-24T12:18:53Z",
+  "message": "test(mcp): run the puls3_mcp tools against the real server over HTTP (#375) (#392)",
+  "parents": 1,
+  "files": [
+   {
+    "f": ".github/workflows/ci.yml",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "puls3_server/Dockerfile",
+    "a": 4,
+    "d": 2
+   },
+   {
+    "f": "puls3_server/pubspec.yaml",
+    "a": 6,
+    "d": 1
+   },
+   {
+    "f": "puls3_server/test/integration/mcp_contract_test.dart",
+    "a": 196,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/test/integration/sdk_contract_test.dart",
+    "a": 112,
+    "d": 0
+   }
+  ]
+ },
+ "b6766916e101b4394f229602bdddda6996a25107": {
+  "team": "Puls3",
+  "repo": "Zer0-Knowledge-Hack/puls3",
+  "author": "TOMOKI977",
+  "date": "2026-11-24T04:30:32Z",
+  "message": "fix(runtime): reconcile unverified child lines against the escrow (#334, 13e) (#401)",
+  "parents": 1,
+  "files": [
+   {
+    "f": "odd/tasks/agent-subcontracting.md",
+    "a": 49,
+    "d": 4
+   },
+   {
+    "f": "puls3_server/lib/src/hire/hire_receipt_store.dart",
+    "a": 13,
+    "d": 1
+   },
+   {
+    "f": "puls3_server/lib/src/hire/serverpod_hire_receipt_store.dart",
+    "a": 25,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/hire/unverified_child_reconciler.dart",
+    "a": 270,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/runtime/escrow_child_result_source.dart",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "puls3_server/test/support/hire_receipt_store_contract.dart",
+    "a": 41,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/test/support/in_memory_hire_receipt_store.dart",
+    "a": 20,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/test/unit/hire/unverified_child_reconciler_test.dart",
+    "a": 377,
+    "d": 0
+   }
+  ]
+ },
+ "cfbeda8f3929209159b9496c75841124716530e8": {
+  "team": "Puls3",
+  "repo": "Zer0-Knowledge-Hack/puls3",
+  "author": "TOMOKI977",
+  "date": "2026-11-24T04:25:06Z",
+  "message": "fix(runtime): reconcile conflicts, open-children errors and orphan children (#334, 13d) (#400)",
+  "parents": 1,
+  "files": [
+   {
+    "f": "odd/tasks/agent-subcontracting.md",
+    "a": 55,
+    "d": 2
+   },
+   {
+    "f": "puls3_server/README.md",
+    "a": 4,
+    "d": 1
+   },
+   {
+    "f": "puls3_server/lib/src/chain/agent_submit_sender.dart",
+    "a": 24,
+    "d": 1
+   },
+   {
+    "f": "puls3_server/lib/src/hire/hire_receipt_store.dart",
+    "a": 6,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/hire/serverpod_hire_receipt_store.dart",
+    "a": 10,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/runtime/escrow_child_result_source.dart",
+    "a": 41,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/runtime/escrow_subcontract_port.dart",
+    "a": 5,
+    "d": 1
+   },
+   {
+    "f": "puls3_server/lib/src/runtime/hire_runner.dart",
+    "a": 10,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/runtime/subcontract_setup.dart",
+    "a": 5,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/test/support/hire_receipt_store_contract.dart",
+    "a": 28,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/test/support/in_memory_hire_receipt_store.dart",
+    "a": 6,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/test/unit/chain/agent_submit_sender_test.dart",
+    "a": 11,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/test/unit/runtime/escrow_child_result_source_test.dart",
+    "a": 71,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/test/unit/runtime/escrow_subcontract_port_test.dart",
+    "a": 26,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/test/unit/runtime/hire_runner_loop_test.dart",
+    "a": 27,
+    "d": 0
+   }
+  ]
+ },
+ "f68f740a7d89cf783a668d7101ed80f07b7aff48": {
+  "team": "Puls3",
+  "repo": "Zer0-Knowledge-Hack/puls3",
+  "author": "TOMOKI977",
+  "date": "2026-11-24T04:19:24Z",
+  "message": "fix(runtime): record relay release and refund on the child receipt (#334, 13c) (#399)",
+  "parents": 1,
+  "files": [
+   {
+    "f": "odd/tasks/agent-subcontracting.md",
+    "a": 17,
+    "d": 2
+   },
+   {
+    "f": "puls3_server/lib/src/chain/chain_submission_tracker.dart",
+    "a": 8,
+    "d": 5
+   },
+   {
+    "f": "puls3_server/lib/src/chain/escrow_effects.dart",
+    "a": 20,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/hire/child_job_effects.dart",
+    "a": 38,
+    "d": 8
+   },
+   {
+    "f": "puls3_server/lib/src/hire/hire_escrow_effects.dart",
+    "a": 9,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/test/hire/child_job_effects_test.dart",
+    "a": 113,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/test/support/fake_escrow_effects.dart",
+    "a": 16,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/test/unit/chain/chain_submission_tracker_test.dart",
+    "a": 53,
+    "d": 0
+   }
+  ]
+ },
+ "b549a2e5ad32d7efc1a1ff6573d82523b006dac8": {
+  "team": "Puls3",
+  "repo": "Zer0-Knowledge-Hack/puls3",
+  "author": "TOMOKI977",
+  "date": "2026-11-24T04:13:57Z",
+  "message": "fix(runtime): serialize agent-signed calls per signing wallet (#334, 13b) (#398)",
+  "parents": 1,
+  "files": [
+   {
+    "f": "odd/tasks/agent-subcontracting.md",
+    "a": 47,
+    "d": 2
+   },
+   {
+    "f": "puls3_server/lib/src/chain/agent_call_gate.dart",
+    "a": 47,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/chain/agent_submit_sender.dart",
+    "a": 14,
+    "d": 5
+   },
+   {
+    "f": "puls3_server/lib/src/chain/chain_submission_store.dart",
+    "a": 6,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/chain/serverpod_chain_submission_store.dart",
+    "a": 15,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/ledger/envelope_codec.dart",
+    "a": 5,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/ledger/stellar_envelope_codec.dart",
+    "a": 16,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/runtime/escrow_child_result_source.dart",
+    "a": 11,
+    "d": 3
+   },
+   {
+    "f": "puls3_server/lib/src/runtime/escrow_subcontract_port.dart",
+    "a": 16,
+    "d": 1
+   },
+   {
+    "f": "puls3_server/test/hire/escrow_relay_submit_test.dart",
+    "a": 4,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/test/integration/child_job_tracking_test.dart",
+    "a": 4,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/test/integration/escrow_subcontract_port_test.dart",
+    "a": 14,
+    "d": 1
+   },
+   {
+    "f": "puls3_server/test/ledger/envelope_codec_test.dart",
+    "a": 38,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/test/support/chain_submission_store_contract.dart",
+    "a": 49,
+    "d": 1
+   },
+   {
+    "f": "puls3_server/test/support/fake_envelope_codec.dart",
+    "a": 19,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/test/support/in_memory_chain_submission_store.dart",
+    "a": 9,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/test/unit/chain/agent_call_gate_test.dart",
+    "a": 84,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/test/unit/chain/agent_submit_sender_test.dart",
+    "a": 47,
+    "d": 11
+   },
+   {
+    "f": "puls3_server/test/unit/chain/chain_submission_tracker_test.dart",
+    "a": 4,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/test/unit/runtime/escrow_child_result_source_test.dart",
+    "a": 37,
+    "d": 2
+   },
+   {
+    "f": "puls3_server/test/unit/runtime/escrow_subcontract_port_test.dart",
+    "a": 55,
+    "d": 0
+   }
+  ]
+ },
+ "d7d8ec9a49b5cf5425a52e08c5b388b9396b863d": {
+  "team": "Puls3",
+  "repo": "Zer0-Knowledge-Hack/puls3",
+  "author": "TOMOKI977",
+  "date": "2026-11-24T04:08:22Z",
+  "message": "fix(runtime): fit a child's output to the parent's conversation (#334, 13a) (#397)",
+  "parents": 1,
+  "files": [
+   {
+    "f": "odd/tasks/agent-subcontracting.md",
+    "a": 16,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/README.md",
+    "a": 4,
+    "d": 5
+   },
+   {
+    "f": "puls3_server/lib/src/runtime/hire_runner.dart",
+    "a": 7,
+    "d": 1
+   },
+   {
+    "f": "puls3_server/lib/src/runtime/tool_loop.dart",
+    "a": 59,
+    "d": 6
+   },
+   {
+    "f": "puls3_server/test/unit/runtime/child_result_budget_test.dart",
+    "a": 107,
+    "d": 0
+   }
+  ]
+ },
+ "03ef3af4b81d24bdc8731e7ed93c4fc3c0e60bb5": {
+  "team": "Puls3",
+  "repo": "Zer0-Knowledge-Hack/puls3",
+  "author": "TOMOKI977",
+  "date": "2026-11-24T04:01:54Z",
+  "message": "feat(runtime): judge and settle child jobs with A-signed verdicts (#334, 12/15) (#368)",
+  "parents": 1,
+  "files": [
+   {
+    "f": "odd/tasks/agent-subcontracting.md",
+    "a": 46,
+    "d": 1
+   },
+   {
+    "f": "puls3_server/README.md",
+    "a": 44,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/chain/agent_submit_sender.dart",
+    "a": 33,
+    "d": 10
+   },
+   {
+    "f": "puls3_server/lib/src/chain/chain_submission_tracker.dart",
+    "a": 12,
+    "d": 2
+   },
+   {
+    "f": "puls3_server/lib/src/chain/escrow_effects.dart",
+    "a": 18,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/chain/submission_ledger.dart",
+    "a": 6,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/chain/submission_values.dart",
+    "a": 25,
+    "d": 2
+   },
+   {
+    "f": "puls3_server/lib/src/hire/child_job_effects.dart",
+    "a": 35,
+    "d": 1
+   },
+   {
+    "f": "puls3_server/lib/src/hire/hire_escrow_effects.dart",
+    "a": 11,
+    "d": 4
+   },
+   {
+    "f": "puls3_server/lib/src/hire/hire_receipt_store.dart",
+    "a": 42,
+    "d": 2
+   },
+   {
+    "f": "puls3_server/lib/src/hire/hire_settlement.dart",
+    "a": 8,
+    "d": 2
+   },
+   {
+    "f": "puls3_server/lib/src/hire/open_children.dart",
+    "a": 43,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/hire/serverpod_hire_receipt_store.dart",
+    "a": 43,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/ledger/escrow_events.dart",
+    "a": 39,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/ledger/soroban_submission_ledger.dart",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/runtime/child_verdict.dart",
+    "a": 79,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/runtime/escrow_child_result_source.dart",
+    "a": 351,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/test/hire/child_job_effects_test.dart",
+    "a": 84,
+    "d": 3
+   },
+   {
+    "f": "puls3_server/test/hire/open_children_test.dart",
+    "a": 100,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/test/support/fake_escrow_effects.dart",
+    "a": 16,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/test/support/hire_receipt_store_contract.dart",
+    "a": 67,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/test/support/in_memory_hire_receipt_store.dart",
+    "a": 70,
+    "d": 13
+   },
+   {
+    "f": "puls3_server/test/unit/chain/agent_submit_sender_test.dart",
+    "a": 78,
+    "d": 22
+   },
+   {
+    "f": "puls3_server/test/unit/chain/chain_submission_tracker_test.dart",
+    "a": 61,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/test/unit/chain/submission_values_test.dart",
+    "a": 25,
+    "d": 14
+   },
+   {
+    "f": "puls3_server/test/unit/hire/hire_settlement_test.dart",
+    "a": 16,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/test/unit/ledger/escrow_subcontract_test.dart",
+    "a": 25,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/test/unit/runtime/child_verdict_test.dart",
+    "a": 81,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/test/unit/runtime/escrow_child_result_source_test.dart",
+    "a": 496,
+    "d": 0
+   }
+  ]
+ },
+ "58efb8894b8ecd92fe67adfb84d4e463c650108c": {
+  "team": "Puls3",
+  "repo": "Zer0-Knowledge-Hack/puls3",
+  "author": "TOMOKI977",
+  "date": "2026-11-24T03:50:27Z",
+  "message": "feat(chain): track child job creation and fund the child hire (#334, 11/15) (#367)",
+  "parents": 1,
+  "files": [
+   {
+    "f": "odd/tasks/agent-subcontracting.md",
+    "a": 15,
+    "d": 1
+   },
+   {
+    "f": "puls3_server/lib/src/chain/chain_submission_tracker.dart",
+    "a": 28,
+    "d": 3
+   },
+   {
+    "f": "puls3_server/lib/src/chain/escrow_effects.dart",
+    "a": 42,
+    "d": 1
+   },
+   {
+    "f": "puls3_server/lib/src/chain/submission_ledger.dart",
+    "a": 5,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/hire/child_job_effects.dart",
+    "a": 203,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/hire/child_job_store.dart",
+    "a": 68,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/hire/hire_escrow_effects.dart",
+    "a": 37,
+    "d": 1
+   },
+   {
+    "f": "puls3_server/lib/src/hire/hire_receipt_store.dart",
+    "a": 25,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/hire/serverpod_child_job_store.dart",
+    "a": 108,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/hire/serverpod_hire_receipt_store.dart",
+    "a": 32,
+    "d": 2
+   },
+   {
+    "f": "puls3_server/lib/src/ledger/soroban_submission_ledger.dart",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/test/hire/child_job_effects_test.dart",
+    "a": 356,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/test/integration/child_job_tracking_test.dart",
+    "a": 386,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/test/support/fake_escrow_effects.dart",
+    "a": 34,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/test/support/hire_receipt_store_contract.dart",
+    "a": 43,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/test/support/in_memory_child_job_store.dart",
+    "a": 65,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/test/support/in_memory_hire_receipt_store.dart",
+    "a": 30,
+    "d": 4
+   },
+   {
+    "f": "puls3_server/test/unit/chain/chain_submission_tracker_test.dart",
+    "a": 119,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/test/unit/ledger/soroban_submission_ledger_test.dart",
+    "a": 50,
+    "d": 0
+   }
+  ]
+ },
+ "22cff7db9c84e54f2bf0baeac06076a79739311d": {
+  "team": "Puls3",
+  "repo": "Zer0-Knowledge-Hack/puls3",
+  "author": "TOMOKI977",
+  "date": "2026-11-24T03:44:50Z",
+  "message": "feat(runtime): persist an awaiting-child run phase and resume tool loops (#334, 9/15) (#365)",
+  "parents": 1,
+  "files": [
+   {
+    "f": "odd/tasks/agent-subcontracting.md",
+    "a": 65,
+    "d": 3
+   },
+   {
+    "f": "puls3_server/README.md",
+    "a": 32,
+    "d": 5
+   },
+   {
+    "f": "puls3_server/lib/src/chain/escrow_deadline.dart",
+    "a": 19,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/generated/protocol.dart",
+    "a": 24,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/generated/runtime/hire_run.dart",
+    "a": 118,
+    "d": 2
+   },
+   {
+    "f": "puls3_server/lib/src/hire/hire_receipt_store.dart",
+    "a": 105,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/hire/serverpod_hire_receipt_store.dart",
+    "a": 89,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/hire/serverpod_hire_repository.dart",
+    "a": 4,
+    "d": 1
+   },
+   {
+    "f": "puls3_server/lib/src/runtime/agent_runtime_wiring.dart",
+    "a": 6,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/runtime/escrow_subcontract_port.dart",
+    "a": 366,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/runtime/hire_run.spy.yaml",
+    "a": 15,
+    "d": 1
+   },
+   {
+    "f": "puls3_server/lib/src/runtime/hire_run_store.dart",
+    "a": 118,
+    "d": 6
+   },
+   {
+    "f": "puls3_server/lib/src/runtime/hire_runner.dart",
+    "a": 315,
+    "d": 26
+   },
+   {
+    "f": "puls3_server/lib/src/runtime/run_execution.dart",
+    "a": 44,
+    "d": 11
+   },
+   {
+    "f": "puls3_server/lib/src/runtime/serverpod_hire_run_store.dart",
+    "a": 105,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/runtime/subcontract_port.dart",
+    "a": 7,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/runtime/subcontract_setup.dart",
+    "a": 53,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/runtime/subcontract_tools.dart",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/runtime/tool_loop.dart",
+    "a": 50,
+    "d": 9
+   },
+   {
+    "f": "puls3_server/lib/src/runtime/tool_loop_codec.dart",
+    "a": 235,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/studio/builder_task_runner.dart",
+    "a": 11,
+    "d": 4
+   },
+   {
+    "f": "puls3_server/migrations/20261119030418895-hire-run-phases/definition.json",
+    "a": 5281,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/migrations/20261119030418895-hire-run-phases/definition.sql",
+    "a": 1136,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/migrations/20261119030418895-hire-run-phases/definition_project.json",
+    "a": 2074,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/migrations/20261119030418895-hire-run-phases/migration.json",
+    "a": 57,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/migrations/20261119030418895-hire-run-phases/migration.sql",
+    "a": 44,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/migrations/migration_registry.txt",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/test/hire/hire_query_service_test.dart",
+    "a": 24,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/test/hire/in_memory_hire_receipt_store_test.dart",
+    "a": 16,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/test/integration/escrow_subcontract_port_test.dart",
+    "a": 281,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/test/integration/hire_receipt_store_test.dart",
+    "a": 23,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/test/integration/hire_run_store_test.dart",
+    "a": 19,
+    "d": 1
+   },
+   {
+    "f": "puls3_server/test/support/hire_receipt_store_contract.dart",
+    "a": 94,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/test/support/hire_run_store_contract.dart",
+    "a": 185,
+    "d": 1
+   },
+   {
+    "f": "puls3_server/test/support/in_memory_hire_receipt_store.dart",
+    "a": 91,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/test/support/in_memory_hire_run_store.dart",
+    "a": 104,
+    "d": 3
+   },
+   {
+    "f": "puls3_server/test/unit/runtime/escrow_subcontract_port_test.dart",
+    "a": 510,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/test/unit/runtime/hire_runner_loop_test.dart",
+    "a": 677,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/test/unit/runtime/hire_runner_test.dart",
+    "a": 36,
+    "d": 1
+   },
+   {
+    "f": "puls3_server/test/unit/runtime/in_memory_hire_run_store_test.dart",
+    "a": 7,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/test/unit/runtime/tool_loop_codec_test.dart",
+    "a": 224,
+    "d": 0
+   }
+  ]
+ },
+ "dd3381d20c1cb149bb0ac007be4c9e5ac34fb9be": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-24T12:06:29Z",
+  "message": "La línea base de la red principal pasa al protocolo 30",
+  "parents": 1,
+  "files": [
+   {
+    "f": "scripts/vigilar-red.base.json",
+    "a": 4,
+    "d": 4
+   }
+  ]
+ },
+ "a75389719bcd0242f32e1f15abc6e4a91a7c8bab": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-24T11:55:16Z",
+  "message": "La prueba de los subtítulos del video lee los dos fines de línea",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/i18n.test.ts",
+    "a": 1,
+    "d": 1
+   }
+  ]
+ },
+ "390f95fc5786581a4b0a8423cbece90dd8c3a0d9": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-24T11:55:15Z",
+  "message": "La guía de operación dice el valor de hoy del correo y lo que cubre la palanca de solo Google",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/operacion.md",
+    "a": 3,
+    "d": 3
+   }
+  ]
+ },
+ "e2e2d18f32118e9b9ce2f41d1263a30d8788c150": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-24T11:55:15Z",
+  "message": "Las páginas públicas dicen que la campaña con premio pide entrar con Google",
+  "parents": 1,
+  "files": [
+   {
+    "f": "como-funciona.html",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "docs/prd.md",
+    "a": 3,
+    "d": 3
+   },
+   {
+    "f": "index.html",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "src/i18n.ts",
+    "a": 6,
+    "d": 6
+   },
+   {
+    "f": "src/ui/lista-de-equipos.test.ts",
+    "a": 4,
+    "d": 3
+   }
+  ]
+ },
+ "4ef922f84d517bcad019ba8908d76bdb2cd49914": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-24T11:55:15Z",
+  "message": "Las bases de cada campaña dicen quién sella la lista",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/campana/crear/bases.test.ts",
+    "a": 16,
+    "d": 3
+   },
+   {
+    "f": "src/campana/crear/bases.ts",
+    "a": 2,
+    "d": 0
+   },
+   {
+    "f": "src/campana/textos-crear.ts",
+    "a": 2,
+    "d": 0
+   }
+  ]
+ },
+ "f3826a762860dbb5eeb825fcedf140b16be3f897": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-24T10:54:35Z",
+  "message": "Los subtítulos del video de la portada quedan apagados hasta que se pidan",
+  "parents": 1,
+  "files": [
+   {
+    "f": "index.html",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "public/videos/llamita-explica.en.vtt",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "public/videos/llamita-explica.es.vtt",
+    "a": 1,
+    "d": 1
+   }
+  ]
+ },
+ "ed8d29c721535927b9e0449ff4bb31e3daa5977c": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-24T02:14:59Z",
+  "message": "El guion del video de la portada no nombra herramientas privadas",
+  "parents": 1,
+  "files": [
+   {
+    "f": "scripts/video-escenas.mjs",
+    "a": 4,
+    "d": 5
+   }
+  ]
+ },
+ "5c7d90630874b26fc50dc23ede15d36e35d3057e": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "GuidoSV7",
+  "date": "2026-11-23T21:18:05Z",
+  "message": "docs(portada): el video de la llamita corregido, en 44 segundos y sin audio",
+  "parents": 1,
+  "files": [
+   {
+    "f": "index.html",
+    "a": 3,
+    "d": 2
+   },
+   {
+    "f": "public/videos/llamita-explica.en.vtt",
+    "a": 57,
+    "d": 0
+   },
+   {
+    "f": "public/videos/llamita-explica.es.vtt",
+    "a": 57,
+    "d": 0
+   },
+   {
+    "f": "public/videos/llamita-explica.mp4",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "public/videos/llamita-poster.jpg",
+    "a": 0,
+    "d": 0
+   },
+   {
+    "f": "scripts/video-escenas.mjs",
+    "a": 633,
+    "d": 0
+   },
+   {
+    "f": "src/i18n.test.ts",
+    "a": 54,
+    "d": 0
+   },
+   {
+    "f": "src/i18n.ts",
+    "a": 2,
+    "d": 2
+   }
+  ]
+ },
+ "f33c1dbfffa3be8f8115a83a463ceb89e723a066": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-24T02:54:30Z",
+  "message": "El guion de carga valida sus banderas, exige las altas pedidas y cita las frases reales del celular",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/carga-altas.md",
+    "a": 3,
+    "d": 1
+   },
+   {
+    "f": "scripts/carga-altas.mjs",
+    "a": 26,
+    "d": 10
+   }
+  ]
+ },
+ "36ba5ad737ec8d8b984fbfe7d8cdaca75e615a1a": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-24T02:54:30Z",
+  "message": "El aviso de las cuentas de evento no afirma que no se pueda pagar",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/stellar/pagos.ts",
+    "a": 4,
+    "d": 4
+   },
+   {
+    "f": "src/ui/pagos-textos.ts",
+    "a": 2,
+    "d": 2
+   }
+  ]
+ },
+ "77156b5c085fa981d3f1ee2c4fd0f14ec670503c": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-24T02:54:30Z",
+  "message": "El sondeo del celular tiene una sola cadena y pide enseguida cuando vuelve la señal",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/sala/participante.test.ts",
+    "a": 82,
+    "d": 0
+   },
+   {
+    "f": "src/sala/participante.ts",
+    "a": 29,
+    "d": 3
+   }
+  ]
+ },
+ "fad2fc94da62aba5498cb5790101c72b92c45b6b": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-24T02:31:03Z",
+  "message": "La prueba de textos de pagos mira también el aviso de las cuentas de evento",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/ui/pagos-resultado.test.ts",
+    "a": 1,
+    "d": 1
+   }
+  ]
+ },
+ "6d6aeac8e491f47750ca0a354532110e249bd0d2": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-24T02:16:09Z",
+  "message": "Corrige el tipo del texto del aviso de cuentas de evento",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/ui/pagos-resultado.ts",
+    "a": 2,
+    "d": 1
+   }
+  ]
+ },
+ "75706a717c31457d09c14b0f93154cf14240a27f": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-24T02:13:25Z",
+  "message": "El guion de carga cita los textos reales del celular y no gira sin fin",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/carga-altas.md",
+    "a": 6,
+    "d": 4
+   },
+   {
+    "f": "scripts/carga-altas.mjs",
+    "a": 10,
+    "d": 2
+   }
+  ]
+ },
+ "48b88f22a8001b84544ff64227487896e19afdab": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-24T02:13:25Z",
+  "message": "El aviso de las cuentas de evento sale en los dos idiomas y no manda a recargar",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/ui/pagos-resultado.test.ts",
+    "a": 13,
+    "d": 1
+   },
+   {
+    "f": "src/ui/pagos-resultado.ts",
+    "a": 6,
+    "d": 4
+   },
+   {
+    "f": "src/ui/pagos-textos.ts",
+    "a": 4,
+    "d": 0
+   }
+  ]
+ },
+ "0475af756a536b399aeb75b83863176929259062": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-24T02:13:24Z",
+  "message": "La sala con QR no rehace el formulario del celular al reconectar",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/ui/espectador.test.ts",
+    "a": 14,
+    "d": 0
+   },
+   {
+    "f": "src/ui/espectador.ts",
+    "a": 3,
+    "d": 0
+   }
+  ]
+ },
+ "baf23b8851f38d9afb62864e621f497c86acc856": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "GuidoSV7",
+  "date": "2026-11-23T14:27:48Z",
+  "message": "fix(pagos): el typo en la lista de cuentas que pagan se dice, no se queda mudo",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/stellar/pagos.test.ts",
+    "a": 8,
+    "d": 0
+   },
+   {
+    "f": "src/stellar/pagos.ts",
+    "a": 6,
+    "d": 0
+   },
+   {
+    "f": "src/ui/pagos-resultado.test.ts",
+    "a": 10,
+    "d": 0
+   },
+   {
+    "f": "src/ui/pagos-resultado.ts",
+    "a": 16,
+    "d": 1
+   }
+  ]
+ },
+ "cfbbbca00cd8981090b20016d7fd579f0bdb7162": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "GuidoSV7",
+  "date": "2026-11-23T19:15:08Z",
+  "message": "feat(turnos): el tope de la red se ve al elegir el modo, no solo al pasarlo",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/i18n.ts",
+    "a": 9,
+    "d": 0
+   },
+   {
+    "f": "src/modos/amigo.test.ts",
+    "a": 18,
+    "d": 0
+   },
+   {
+    "f": "src/stellar/config-tope.test.ts",
+    "a": 12,
+    "d": 0
+   },
+   {
+    "f": "src/ui/modo-info.test.ts",
+    "a": 13,
+    "d": 12
+   },
+   {
+    "f": "src/ui/turnos-tope-barra.test.ts",
+    "a": 25,
+    "d": 4
+   },
+   {
+    "f": "src/ui/turnos.test.ts",
+    "a": 67,
+    "d": 6
+   },
+   {
+    "f": "src/ui/turnos.ts",
+    "a": 10,
+    "d": 6
+   }
+  ]
+ },
+ "4037374b6b2ecf907cd8ce54fb1a0490d63b5c8a": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "GuidoSV7",
+  "date": "2026-11-23T18:34:38Z",
+  "message": "fix(sala): el celular no muere por un corte de red, y su sondeo respeta a la vista",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/i18n.ts",
+    "a": 2,
+    "d": 0
+   },
+   {
+    "f": "src/sala/interactivos.test.ts",
+    "a": 21,
+    "d": 12
+   },
+   {
+    "f": "src/sala/participante.test.ts",
+    "a": 144,
+    "d": 0
+   },
+   {
+    "f": "src/sala/participante.ts",
+    "a": 56,
+    "d": 12
+   },
+   {
+    "f": "src/ui/espectador.test.ts",
+    "a": 8,
+    "d": 0
+   },
+   {
+    "f": "src/ui/espectador.ts",
+    "a": 19,
+    "d": 2
+   }
+  ]
+ },
+ "b78cdc386f1ca38a53ae7b8612cd7c9ce908bfea": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "GuidoSV7",
+  "date": "2026-11-23T18:46:11Z",
+  "message": "style(amigo): el error del nombre repetido con las reglas de la casa",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/games/amigo-secreto/show.ts",
+    "a": 1,
+    "d": 1
+   }
+  ]
+ },
+ "80a848bd3d24ced3c231f84b92a085e582354e9f": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "GuidoSV7",
+  "date": "2026-11-23T18:21:54Z",
+  "message": "test(amigo): las parejas del juego coinciden con reparto, y los textos del relator",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/games/amigo-secreto/show.test.ts",
+    "a": 51,
+    "d": 9
+   },
+   {
+    "f": "src/i18n.test.ts",
+    "a": 7,
+    "d": 0
+   }
+  ]
+ },
+ "12f8e36b9929dbbfb4542243d1f98ea003b5d183": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "GuidoSV7",
+  "date": "2026-11-23T18:21:54Z",
+  "message": "feat(amigo): el reparto del juego sale del orden sellado del protocolo",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/games/amigo-secreto/show.ts",
+    "a": 43,
+    "d": 9
+   }
+  ]
+ },
+ "06ef574241b5e3407863a8ea34ce17d766c2d88f": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "GuidoSV7",
+  "date": "2026-11-23T17:40:44Z",
+  "message": "docs(protocolo): las notas del Protocolo 30 y del voto del sello al día",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/architecture.md",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "docs/protocol.en.md",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "docs/protocolo.md",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "scripts/lib/archivo-historial.mjs",
+    "a": 3,
+    "d": 2
+   },
+   {
+    "f": "scripts/lib/archivo-historial.test.mjs",
+    "a": 25,
+    "d": 1
+   },
+   {
+    "f": "scripts/lib/muestras-archivo/cabeceras-testnet-5798144-5798207.json",
+    "a": 456,
+    "d": 0
+   }
+  ]
+ },
+ "23455b4f2271b8be1a1164dd7233c8e98e041af1": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "GuidoSV7",
+  "date": "2026-11-23T17:35:43Z",
+  "message": "feat(scripts): el guion de carga de altas de campaña contra el Worker real",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/carga-altas.md",
+    "a": 83,
+    "d": 0
+   },
+   {
+    "f": "scripts/carga-altas.mjs",
+    "a": 541,
+    "d": 0
+   }
+  ]
+ },
+ "ba34d3d927712857e70afef3a6d7c6f67bc5a735": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "GuidoSV7",
+  "date": "2026-11-23T17:14:48Z",
+  "message": "docs: el riesgo aceptado del voto por hash pasa a la conducta del voto por contenido",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/architecture.md",
+    "a": 2,
+    "d": 2
+   }
+  ]
  }
 }
