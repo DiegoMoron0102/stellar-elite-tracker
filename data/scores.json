@@ -1,15 +1,15 @@
 {
- "generado": "2026-11-25T01:45:32+00:00",
+ "generado": "2026-11-25T16:29:50+00:00",
  "programa": "Stellar Elite",
  "start_date": "2026-09-02T00:00:00Z",
  "teams": [
   {
    "name": "Tinkazo",
-   "total": 9405.9,
-   "per_capita": 9405.9,
-   "commits": 1446,
-   "pts_commits": 9139.9,
-   "dias_activos": 52,
+   "total": 9950.81,
+   "per_capita": 9950.81,
+   "commits": 1528,
+   "pts_commits": 9679.81,
+   "dias_activos": 53,
    "contribuidores": [
     "GuidoSV7",
     "nema1502"
@@ -22,11 +22,11 @@
   },
   {
    "name": "Puls3",
-   "total": 2102.08,
-   "per_capita": 2102.08,
-   "commits": 265,
-   "pts_commits": 1914.08,
-   "dias_activos": 34,
+   "total": 2321.27,
+   "per_capita": 2321.27,
+   "commits": 302,
+   "pts_commits": 2128.27,
+   "dias_activos": 35,
    "contribuidores": [
     "Pericena",
     "TOMOKI977",
@@ -331,7 +331,8 @@
    "2026-11-17": 198.89,
    "2026-11-18": 72.59,
    "2026-11-23": 111.23,
-   "2026-11-24": 325.17999999999995
+   "2026-11-24": 349.44999999999993,
+   "2026-11-25": 189.92
   },
   "Tinkazo": {
    "2026-09-16": 66.21000000000001,
@@ -384,9 +385,10 @@
    "2026-11-19": 32.63,
    "2026-11-20": 236.51,
    "2026-11-21": 99.36,
-   "2026-11-22": 93.81,
-   "2026-11-23": 120.11,
-   "2026-11-24": 82.35000000000001
+   "2026-11-22": 121.32000000000001,
+   "2026-11-23": 194.15,
+   "2026-11-24": 82.35000000000001,
+   "2026-11-25": 438.35999999999996
   },
   "CompraGasolinaBidon": {
    "2026-09-06": 1.0,
@@ -539,7 +541,8 @@
    "2026-11-17": 22,
    "2026-11-18": 9,
    "2026-11-23": 13,
-   "2026-11-24": 44
+   "2026-11-24": 47,
+   "2026-11-25": 34
   },
   "Tinkazo": {
    "2026-09-16": 8,
@@ -592,9 +595,10 @@
    "2026-11-19": 12,
    "2026-11-20": 59,
    "2026-11-21": 14,
-   "2026-11-22": 14,
-   "2026-11-23": 17,
-   "2026-11-24": 17
+   "2026-11-22": 17,
+   "2026-11-23": 25,
+   "2026-11-24": 17,
+   "2026-11-25": 71
   },
   "CompraGasolinaBidon": {
    "2026-09-06": 1,
@@ -705,6 +709,1086 @@
   }
  },
  "commits": [
+  {
+   "sha": "cf289c8",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-25T13:49:07Z",
+   "msg": "La demostración acepta la cantidad de personas con n",
+   "pts": 7.32,
+   "nota": ""
+  },
+  {
+   "sha": "2ea70bd",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-25T13:48:18Z",
+   "msg": "La presentación de la espera aparece solo si entran todas las personas",
+   "pts": 9.26,
+   "nota": ""
+  },
+  {
+   "sha": "44f4ea9",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-25T13:35:29Z",
+   "msg": "La presentación de la espera cede ante el reloj y las cintas",
+   "pts": 7.48,
+   "nota": ""
+  },
+  {
+   "sha": "43a6343",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-25T13:35:28Z",
+   "msg": "Con la pregunta de dejar la campaña abierta, el avance del paso no se pierde",
+   "pts": 6.55,
+   "nota": ""
+  },
+  {
+   "sha": "e6180f1",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-25T13:11:27Z",
+   "msg": "La presentación decide cuántas tarjetas por el ancho y no se recorta",
+   "pts": 8.67,
+   "nota": ""
+  },
+  {
+   "sha": "ebc5f44",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-25T13:11:17Z",
+   "msg": "El pie de la lista cerrada conserva la hora y la línea de elegir dice qué hacer",
+   "pts": 6.0,
+   "nota": ""
+  },
+  {
+   "sha": "6b7ebb3",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-25T13:11:12Z",
+   "msg": "Elegir otro archivo pregunta antes de dejar la sala si falta avisar",
+   "pts": 8.53,
+   "nota": ""
+  },
+  {
+   "sha": "8a17f81",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-25T13:10:34Z",
+   "msg": "La prueba de la hoja de operación del aviso de cuentas no cortaba bien las líneas",
+   "pts": 3.81,
+   "nota": ""
+  },
+  {
+   "sha": "3a7d6c1",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-25T13:09:24Z",
+   "msg": "Arregla la lectura del fuente en la prueba de la retoma paciente",
+   "pts": 3.32,
+   "nota": ""
+  },
+  {
+   "sha": "2fd4d9d",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-25T13:07:32Z",
+   "msg": "Se sacan las siglas de reglas y las rayas largas de la presentación",
+   "pts": 5.25,
+   "nota": ""
+  },
+  {
+   "sha": "8586090",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-25T13:06:15Z",
+   "msg": "El aviso de cuentas nuevas ya no manda a pausar lo que no las frena",
+   "pts": 6.98,
+   "nota": ""
+  },
+  {
+   "sha": "1386023",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-25T13:06:14Z",
+   "msg": "Entrar espera la primera mirada de la retoma, no un segundo",
+   "pts": 7.39,
+   "nota": ""
+  },
+  {
+   "sha": "c74ec7b",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-25T12:42:10Z",
+   "msg": "Las cuentas nuevas se cuentan con la consulta de uso por ventana de tiempo",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "00194d4",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-25T12:39:25Z",
+   "msg": "El aviso de cuentas nuevas se lee de una ventana corrida de 60 minutos",
+   "pts": 9.68,
+   "nota": ""
+  },
+  {
+   "sha": "d82d9a6",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-25T12:34:16Z",
+   "msg": "La prueba de la cuenta sin suma ya no falla cuando la cuenta termina en A",
+   "pts": 3.32,
+   "nota": ""
+  },
+  {
+   "sha": "1d6903a",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-25T12:30:26Z",
+   "msg": "Asegurar la sesión espera ocho segundos, no los treinta de la cabecera",
+   "pts": 7.02,
+   "nota": ""
+  },
+  {
+   "sha": "9fbfc7f",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-25T12:03:48Z",
+   "msg": "Ajusta las pruebas de la cabecera con la retoma que corre por detrás",
+   "pts": 7.15,
+   "nota": ""
+  },
+  {
+   "sha": "48a4e80",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-25T11:57:44Z",
+   "msg": "Arregla el texto de la prueba del fusible de la cabecera",
+   "pts": 7.11,
+   "nota": ""
+  },
+  {
+   "sha": "b31d048",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-25T11:54:52Z",
+   "msg": "La regla de la pantalla baja de la presentación va después de la de la barra",
+   "pts": 4.0,
+   "nota": ""
+  },
+  {
+   "sha": "110fc30",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-25T11:54:47Z",
+   "msg": "La retoma de Google corre por detrás y la pantalla vuelve a los 8 y 12 s",
+   "pts": 9.97,
+   "nota": ""
+  },
+  {
+   "sha": "57f4832",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-25T11:53:59Z",
+   "msg": "El tope de conteos por conexión sube a 5.000 por hora",
+   "pts": 5.75,
+   "nota": ""
+  },
+  {
+   "sha": "4825148",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-25T11:53:46Z",
+   "msg": "Los Términos nombran el origen tarjeta que el conteo ya acepta",
+   "pts": 5.95,
+   "nota": ""
+  },
+  {
+   "sha": "899c7f5",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-25T11:53:36Z",
+   "msg": "Las etapas que el servicio viejo no conoce no se mandan en vano",
+   "pts": 7.58,
+   "nota": ""
+  },
+  {
+   "sha": "0f91535",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-25T11:53:19Z",
+   "msg": "Una vista previa que falla al montar no deja la tarjeta sin captura",
+   "pts": 6.36,
+   "nota": ""
+  },
+  {
+   "sha": "f73185d",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-25T11:49:32Z",
+   "msg": "La lista cerrada dice su consecuencia solo cuando ningún paso habla",
+   "pts": 3.32,
+   "nota": ""
+  },
+  {
+   "sha": "d2e1080",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-25T11:49:31Z",
+   "msg": "La prueba de la presentación espera la captura clara sin tema oscuro",
+   "pts": 3.32,
+   "nota": ""
+  },
+  {
+   "sha": "06dd8b3",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-25T11:48:45Z",
+   "msg": "La presentación de la espera se esconde en la pantalla baja sin duplicar el bloque",
+   "pts": 3.81,
+   "nota": ""
+  },
+  {
+   "sha": "c00925d",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-25T11:47:15Z",
+   "msg": "El vigilante avisa si el portero no puede contar las cuentas nuevas",
+   "pts": 7.3,
+   "nota": ""
+  },
+  {
+   "sha": "30009ff",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-25T11:46:12Z",
+   "msg": "El aviso de cuentas cuenta la última hora corrida y no solo la de reloj",
+   "pts": 7.0,
+   "nota": ""
+  },
+  {
+   "sha": "d28befa",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-25T11:45:09Z",
+   "msg": "Una fecha enorme de Pollar ya no deja ciego al estado del portero",
+   "pts": 7.13,
+   "nota": ""
+  },
+  {
+   "sha": "f4114b6",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-25T11:44:11Z",
+   "msg": "La huella de las bases rechaza lo que JSON no escribe y fija su orden",
+   "pts": 6.7,
+   "nota": ""
+  },
+  {
+   "sha": "b637584",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-25T11:43:07Z",
+   "msg": "Los premios de la cuenta dicen cuando venció el plazo o falta confirmar",
+   "pts": 8.1,
+   "nota": ""
+  },
+  {
+   "sha": "e3452e3",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-25T11:41:33Z",
+   "msg": "Armar otra campaña pregunta antes de dejar la sala si falta avisar",
+   "pts": 8.6,
+   "nota": ""
+  },
+  {
+   "sha": "519ae9e",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-25T11:41:00Z",
+   "msg": "Con 150 personas, un toque en Cerrar la lista no cierra la inscripción",
+   "pts": 5.39,
+   "nota": ""
+  },
+  {
+   "sha": "716d459",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-25T11:39:43Z",
+   "msg": "La decisión de entregas no adivina sin la hora y respeta lo ya cobrado",
+   "pts": 6.0,
+   "nota": ""
+  },
+  {
+   "sha": "5b01e30",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "GuidoSV7",
+   "date": "2026-11-25T11:39:16Z",
+   "msg": "El panel de la campaña arma otra campaña y dice qué pasa al cerrar",
+   "pts": 6.67,
+   "nota": ""
+  },
+  {
+   "sha": "8299fd5",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-25T11:36:42Z",
+   "msg": "La presentación de la espera tiene tope y una sola imagen por tarjeta",
+   "pts": 8.6,
+   "nota": ""
+  },
+  {
+   "sha": "eaf255c",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-25T11:20:54Z",
+   "msg": "La prueba de la cabecera no deja pedidos sueltos al cerrar",
+   "pts": 3.58,
+   "nota": ""
+  },
+  {
+   "sha": "d186f0d",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-25T11:19:42Z",
+   "msg": "Las pruebas de documentos y de premios siguen los arreglos anteriores",
+   "pts": 3.58,
+   "nota": ""
+  },
+  {
+   "sha": "150536d",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-25T11:12:59Z",
+   "msg": "La huella de las bases lanza con NaN e infinitos",
+   "pts": 4.46,
+   "nota": ""
+  },
+  {
+   "sha": "c58b8b5",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-25T11:12:58Z",
+   "msg": "La decisión de entregas no adivina con un plazo que no es un número",
+   "pts": 4.7,
+   "nota": ""
+  },
+  {
+   "sha": "00837f9",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-25T11:12:58Z",
+   "msg": "El monto de la lista de premios sale del texto y no pierde cifras",
+   "pts": 5.46,
+   "nota": ""
+  },
+  {
+   "sha": "b0c6dee",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-25T11:12:58Z",
+   "msg": "Los premios de la cuenta no inventan uno si no se lee el estado",
+   "pts": 6.52,
+   "nota": ""
+  },
+  {
+   "sha": "318d80b",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-25T11:12:57Z",
+   "msg": "El aviso de cuentas anota si no hay conteo y apaga las activaciones",
+   "pts": 6.73,
+   "nota": ""
+  },
+  {
+   "sha": "cb7e69e",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-25T11:05:27Z",
+   "msg": "Merge pull request #254 from nema1502/guido/compartir-vivo-247",
+   "pts": 0.0,
+   "nota": "merge"
+  },
+  {
+   "sha": "7c7a2f5",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-25T11:00:38Z",
+   "msg": "El aviso de cuentas nuevas cuenta la página llena como un piso",
+   "pts": 5.09,
+   "nota": ""
+  },
+  {
+   "sha": "3ee528e",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-25T10:59:56Z",
+   "msg": "La cabecera no ofrece Entrar mientras una sesión de 25 segundos todavía vuelve",
+   "pts": 7.77,
+   "nota": ""
+  },
+  {
+   "sha": "cf45e5c",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-25T10:57:57Z",
+   "msg": "Los comentarios y nombres de prueba nuevos no usan rayas largas ni siglas de reglas",
+   "pts": 5.39,
+   "nota": ""
+  },
+  {
+   "sha": "0a87fcb",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-25T10:57:08Z",
+   "msg": "Merge remote-tracking branch 'origin/main' into guido/compartir-vivo-247",
+   "pts": 0.0,
+   "nota": "merge"
+  },
+  {
+   "sha": "8c8a655",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-25T10:53:50Z",
+   "msg": "Los comentarios de las piezas de premios no nombran lo que no entra",
+   "pts": 5.25,
+   "nota": ""
+  },
+  {
+   "sha": "df44706",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-25T10:53:07Z",
+   "msg": "El aviso de cuentas nuevas por hora usa 200 de umbral por defecto",
+   "pts": 6.61,
+   "nota": ""
+  },
+  {
+   "sha": "9cb7e87",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-25T10:53:07Z",
+   "msg": "El plazo para cobrar de la decisión de entregas llega como dato",
+   "pts": 6.93,
+   "nota": ""
+  },
+  {
+   "sha": "2747c03",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-25T10:43:15Z",
+   "msg": "La ventana paciente del token no estira el tope que otro pide",
+   "pts": 6.04,
+   "nota": ""
+  },
+  {
+   "sha": "9f84322",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-25T10:38:02Z",
+   "msg": "Se quita la referencia al pedido del título de las pruebas de compartir en vivo",
+   "pts": 2.58,
+   "nota": ""
+  },
+  {
+   "sha": "2dc8dc2",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-25T10:37:52Z",
+   "msg": "Pruebas de Escape y del oyente de cierre de Compartir en vivo",
+   "pts": 6.13,
+   "nota": ""
+  },
+  {
+   "sha": "0fbb8c7",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-25T10:37:30Z",
+   "msg": "Compartir en vivo no comparte nombres cuando no sabe de quién son",
+   "pts": 7.7,
+   "nota": ""
+  },
+  {
+   "sha": "813d87b",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-25T10:37:18Z",
+   "msg": "Corrige dos comentarios y fija con prueba el tope de envíos por conexión",
+   "pts": 5.95,
+   "nota": ""
+  },
+  {
+   "sha": "dc04c41",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-25T10:31:16Z",
+   "msg": "La cabecera espera lo que espera la retoma antes de ofrecer Entrar",
+   "pts": 7.23,
+   "nota": ""
+  },
+  {
+   "sha": "0c9c71e",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-25T10:29:48Z",
+   "msg": "Compartir en vivo no manda nada que la sala no haya publicado",
+   "pts": 7.99,
+   "nota": ""
+  },
+  {
+   "sha": "ef888a7",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-25T10:29:18Z",
+   "msg": "El conteo nuevo no depende de que el servicio de conteos ya esté actualizado",
+   "pts": 8.93,
+   "nota": ""
+  },
+  {
+   "sha": "5b41fed",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-25T10:26:22Z",
+   "msg": "Al cerrar Compartir en vivo el foco vuelve al botón que lo abrió",
+   "pts": 5.86,
+   "nota": ""
+  },
+  {
+   "sha": "8d5f0db",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-25T10:26:21Z",
+   "msg": "Corrige la prueba de la sala anterior al conteo de altas",
+   "pts": 2.0,
+   "nota": ""
+  },
+  {
+   "sha": "932c5a1",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-25T10:26:09Z",
+   "msg": "Prueba que el sitio y la sala de equipos se despliegan en cualquier orden",
+   "pts": 5.17,
+   "nota": ""
+  },
+  {
+   "sha": "0150235",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-25T10:25:38Z",
+   "msg": "Los Términos nombran lo que ahora se cuenta de la cuenta",
+   "pts": 5.17,
+   "nota": ""
+  },
+  {
+   "sha": "cc82309",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-25T10:25:34Z",
+   "msg": "El panel vuelve a preguntar por la cuenta de un equipo que la corrigió",
+   "pts": 6.75,
+   "nota": ""
+  },
+  {
+   "sha": "1997520",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-25T10:25:04Z",
+   "msg": "Se saca el tope de altas por conexión: el cupo de la sala es el límite",
+   "pts": 7.51,
+   "nota": ""
+  },
+  {
+   "sha": "bf11f05",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-25T10:24:26Z",
+   "msg": "Reabrir sin hora nueva y con la vencida se rechaza",
+   "pts": 7.39,
+   "nota": ""
+  },
+  {
+   "sha": "f9e3593",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-25T10:23:29Z",
+   "msg": "El conteo de altas se asegura al usarlo y nunca tumba un alta",
+   "pts": 6.21,
+   "nota": ""
+  },
+  {
+   "sha": "c7049e9",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-25T10:23:04Z",
+   "msg": "Las pruebas que reemplazan el contador completan lo que ahora se importa",
+   "pts": 4.46,
+   "nota": ""
+  },
+  {
+   "sha": "aa19fe7",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-25T10:21:55Z",
+   "msg": "Compartir en vivo avisa si el diálogo no baja y deja reintentar",
+   "pts": 7.88,
+   "nota": ""
+  },
+  {
+   "sha": "cb69502",
+   "team": "Puls3",
+   "repo": "Zer0-Knowledge-Hack/puls3",
+   "author": "TOMOKI977",
+   "date": "2026-11-25T08:38:07Z",
+   "msg": "docs(sdk): install puls3_sdk from pub.dev (#300) (#428)",
+   "pts": 5.39,
+   "nota": ""
+  },
+  {
+   "sha": "2b8e685",
+   "team": "Puls3",
+   "repo": "Zer0-Knowledge-Hack/puls3",
+   "author": "TOMOKI977",
+   "date": "2026-11-25T08:29:40Z",
+   "msg": "docs(adr): accept ADR-0010 (#302) (#430)",
+   "pts": 2.58,
+   "nota": ""
+  },
+  {
+   "sha": "edf81ae",
+   "team": "Puls3",
+   "repo": "Zer0-Knowledge-Hack/puls3",
+   "author": "TOMOKI977",
+   "date": "2026-11-25T08:22:19Z",
+   "msg": "ci(sdk): skip a version npm already has when a release tag runs again (#302) (#429)",
+   "pts": 6.17,
+   "nota": ""
+  },
+  {
+   "sha": "b55d64c",
+   "team": "Puls3",
+   "repo": "Zer0-Knowledge-Hack/puls3",
+   "author": "TOMOKI977",
+   "date": "2026-11-25T08:03:43Z",
+   "msg": "ci(sdk): publish @puls3_org/sdk to npm with provenance from a tag (#302) (#427)",
+   "pts": 8.22,
+   "nota": ""
+  },
+  {
+   "sha": "024b472",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "GuidoSV7",
+   "date": "2026-11-25T07:40:42Z",
+   "msg": "feat(espectador): compartir el sorteo también desde la vista en vivo",
+   "pts": 8.95,
+   "nota": ""
+  },
+  {
+   "sha": "2fe943e",
+   "team": "Puls3",
+   "repo": "Zer0-Knowledge-Hack/puls3",
+   "author": "TOMOKI977",
+   "date": "2026-11-25T07:06:14Z",
+   "msg": "Merge pull request #415 from Zer0-Knowledge-Hack/feat/302-npm-sdk",
+   "pts": 0.0,
+   "nota": "merge"
+  },
+  {
+   "sha": "2ffe528",
+   "team": "Puls3",
+   "repo": "Zer0-Knowledge-Hack/puls3",
+   "author": "TOMOKI977",
+   "date": "2026-11-25T06:55:08Z",
+   "msg": "Merge branch 'main' into feat/302-npm-sdk",
+   "pts": 0.0,
+   "nota": "merge"
+  },
+  {
+   "sha": "3f08e77",
+   "team": "Puls3",
+   "repo": "Zer0-Knowledge-Hack/puls3",
+   "author": "TOMOKI977",
+   "date": "2026-11-25T06:47:47Z",
+   "msg": "docs(sdk): cite where the pinned SEP-10 key comes from (#302)",
+   "pts": 2.58,
+   "nota": ""
+  },
+  {
+   "sha": "89c541a",
+   "team": "Puls3",
+   "repo": "Zer0-Knowledge-Hack/puls3",
+   "author": "TOMOKI977",
+   "date": "2026-11-25T06:47:28Z",
+   "msg": "fix(sdk): check the reason of complete and reject, and what register_full registers (#302)",
+   "pts": 9.31,
+   "nota": ""
+  },
+  {
+   "sha": "4f94995",
+   "team": "Puls3",
+   "repo": "Zer0-Knowledge-Hack/puls3",
+   "author": "TOMOKI977",
+   "date": "2026-11-25T06:29:24Z",
+   "msg": "feat(sdk): approve and reject check the result you reviewed against the delivery on chain (#302)",
+   "pts": 7.57,
+   "nota": ""
+  },
+  {
+   "sha": "3804abb",
+   "team": "Puls3",
+   "repo": "Zer0-Knowledge-Hack/puls3",
+   "author": "TOMOKI977",
+   "date": "2026-11-25T05:42:48Z",
+   "msg": "fix(sdk): bind approve and reject to the delivery recorded on chain (#302)",
+   "pts": 7.95,
+   "nota": ""
+  },
+  {
+   "sha": "7351574",
+   "team": "Puls3",
+   "repo": "Zer0-Knowledge-Hack/puls3",
+   "author": "TOMOKI977",
+   "date": "2026-11-25T05:39:23Z",
+   "msg": "fix(sdk): read the escrow job from the chain before fund, complete and reject (#302)",
+   "pts": 8.68,
+   "nota": ""
+  },
+  {
+   "sha": "45d5ab0",
+   "team": "Puls3",
+   "repo": "Zer0-Knowledge-Hack/puls3",
+   "author": "TOMOKI977",
+   "date": "2026-11-25T05:30:24Z",
+   "msg": "fix(sdk): check every argument ADR-0010 D3 pins before signing (#302)",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "cf4cbc6",
+   "team": "Puls3",
+   "repo": "Zer0-Knowledge-Hack/puls3",
+   "author": "TOMOKI977",
+   "date": "2026-11-25T04:36:31Z",
+   "msg": "Merge pull request #416 from Zer0-Knowledge-Hack/feat/334-t8a-workers-ai",
+   "pts": 0.0,
+   "nota": "merge"
+  },
+  {
+   "sha": "e4d7863",
+   "team": "Puls3",
+   "repo": "Zer0-Knowledge-Hack/puls3",
+   "author": "XxHugheadxX",
+   "date": "2026-11-25T04:30:19Z",
+   "msg": "test(sdk): fail when the pinned testnet contracts drift from the deployment record (#302)",
+   "pts": 6.58,
+   "nota": ""
+  },
+  {
+   "sha": "25c5c70",
+   "team": "Puls3",
+   "repo": "Zer0-Knowledge-Hack/puls3",
+   "author": "TOMOKI977",
+   "date": "2026-11-25T04:25:04Z",
+   "msg": "fix(app): only a disconnect cancels a sign-in in progress, not a refused call (#334)",
+   "pts": 6.32,
+   "nota": ""
+  },
+  {
+   "sha": "7334b81",
+   "team": "Puls3",
+   "repo": "Zer0-Knowledge-Hack/puls3",
+   "author": "TOMOKI977",
+   "date": "2026-11-25T04:03:23Z",
+   "msg": "Merge branch 'main' into feat/334-t8a-workers-ai",
+   "pts": 0.0,
+   "nota": "merge"
+  },
+  {
+   "sha": "264f366",
+   "team": "Puls3",
+   "repo": "Zer0-Knowledge-Hack/puls3",
+   "author": "TOMOKI977",
+   "date": "2026-11-25T04:03:09Z",
+   "msg": "Merge pull request #417 from Zer0-Knowledge-Hack/feat/334-t8b-wallet-session",
+   "pts": 0.0,
+   "nota": "merge"
+  },
+  {
+   "sha": "475c910",
+   "team": "Puls3",
+   "repo": "Zer0-Knowledge-Hack/puls3",
+   "author": "TOMOKI977",
+   "date": "2026-11-25T04:03:03Z",
+   "msg": "Merge pull request #418 from Zer0-Knowledge-Hack/docs/334-t8c-testnet-evidence",
+   "pts": 0.0,
+   "nota": "merge"
+  },
+  {
+   "sha": "d79bbe3",
+   "team": "Puls3",
+   "repo": "Zer0-Knowledge-Hack/puls3",
+   "author": "TOMOKI977",
+   "date": "2026-11-25T04:02:57Z",
+   "msg": "Merge pull request #419 from Zer0-Knowledge-Hack/feat/334-t8d-studio-optin-transport",
+   "pts": 0.0,
+   "nota": "merge"
+  },
+  {
+   "sha": "55ad7e0",
+   "team": "Puls3",
+   "repo": "Zer0-Knowledge-Hack/puls3",
+   "author": "TOMOKI977",
+   "date": "2026-11-25T04:02:39Z",
+   "msg": "fix(app): a sign-in that finishes after a sign-out stores no session, on every path (#334)",
+   "pts": 7.63,
+   "nota": ""
+  },
+  {
+   "sha": "24189d6",
+   "team": "Puls3",
+   "repo": "Zer0-Knowledge-Hack/puls3",
+   "author": "TOMOKI977",
+   "date": "2026-11-25T03:51:29Z",
+   "msg": "docs(adr): accept ADR-0011 and log the T8 stack review (#334)",
+   "pts": 4.91,
+   "nota": ""
+  },
+  {
+   "sha": "2fff885",
+   "team": "Puls3",
+   "repo": "Zer0-Knowledge-Hack/puls3",
+   "author": "TOMOKI977",
+   "date": "2026-11-25T03:51:29Z",
+   "msg": "fix(runtime): read a Workers AI tool call with no arguments as {} (#334)",
+   "pts": 6.25,
+   "nota": ""
+  },
+  {
+   "sha": "2127be4",
+   "team": "Puls3",
+   "repo": "Zer0-Knowledge-Hack/puls3",
+   "author": "TOMOKI977",
+   "date": "2026-11-25T03:51:28Z",
+   "msg": "fix(app): keep the session wallet in memory once localStorage refuses a write (#334)",
+   "pts": 8.59,
+   "nota": ""
+  },
+  {
+   "sha": "8a2317e",
+   "team": "Puls3",
+   "repo": "Zer0-Knowledge-Hack/puls3",
+   "author": "TOMOKI977",
+   "date": "2026-11-25T03:51:27Z",
+   "msg": "fix(app): one Confirm signs in at most twice when the server refuses the sign-in (#334)",
+   "pts": 5.58,
+   "nota": ""
+  },
+  {
+   "sha": "4b599b6",
+   "team": "Puls3",
+   "repo": "Zer0-Knowledge-Hack/puls3",
+   "author": "TOMOKI977",
+   "date": "2026-11-25T03:51:26Z",
+   "msg": "fix(app): drop a session signed in after a disconnect, and reload once connecting signs in (#334)",
+   "pts": 8.34,
+   "nota": ""
+  },
+  {
+   "sha": "f0e547c",
+   "team": "Puls3",
+   "repo": "Zer0-Knowledge-Hack/puls3",
+   "author": "TOMOKI977",
+   "date": "2026-11-25T03:04:01Z",
+   "msg": "docs(api): record the Freighter signTransaction path as verified (#136) (#422)",
+   "pts": 3.0,
+   "nota": ""
+  },
+  {
+   "sha": "cbbcd0c",
+   "team": "Puls3",
+   "repo": "Zer0-Knowledge-Hack/puls3",
+   "author": "TOMOKI977",
+   "date": "2026-11-25T02:25:15Z",
+   "msg": "docs(odd): record the #334 T8 delivery slices",
+   "pts": 4.0,
+   "nota": ""
+  },
+  {
+   "sha": "3dc83fd",
+   "team": "Puls3",
+   "repo": "Zer0-Knowledge-Hack/puls3",
+   "author": "TOMOKI977",
+   "date": "2026-11-25T01:42:19Z",
+   "msg": "fix(app): a reject with no reason sends a default one (#334)",
+   "pts": 5.81,
+   "nota": ""
+  },
+  {
+   "sha": "85b77d9",
+   "team": "Puls3",
+   "repo": "Zer0-Knowledge-Hack/puls3",
+   "author": "TOMOKI977",
+   "date": "2026-11-25T01:30:56Z",
+   "msg": "feat(studio): carry the subcontract opt-in from the web Studio to the server (#334)",
+   "pts": 9.62,
+   "nota": ""
+  },
+  {
+   "sha": "9ec7ae1",
+   "team": "Puls3",
+   "repo": "Zer0-Knowledge-Hack/puls3",
+   "author": "XxHugheadxX",
+   "date": "2026-11-25T01:20:43Z",
+   "msg": "docs(sdk): a live testnet run that prints every transaction (#302)",
+   "pts": 7.09,
+   "nota": ""
+  },
+  {
+   "sha": "73dbf65",
+   "team": "Puls3",
+   "repo": "Zer0-Knowledge-Hack/puls3",
+   "author": "XxHugheadxX",
+   "date": "2026-11-25T01:08:52Z",
+   "msg": "feat(sdk): sign with a developer key after checking each envelope (#302)",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "b8e9de8",
+   "team": "Puls3",
+   "repo": "Zer0-Knowledge-Hack/puls3",
+   "author": "TOMOKI977",
+   "date": "2026-11-25T01:07:47Z",
+   "msg": "docs(verification): record the #334 subcontracting run on testnet",
+   "pts": 7.75,
+   "nota": ""
+  },
+  {
+   "sha": "7a55864",
+   "team": "Puls3",
+   "repo": "Zer0-Knowledge-Hack/puls3",
+   "author": "XxHugheadxX",
+   "date": "2026-11-25T00:50:54Z",
+   "msg": "feat(sdk): add a TypeScript SDK that reads and prepares (#302)",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "44db635",
+   "team": "Puls3",
+   "repo": "Zer0-Knowledge-Hack/puls3",
+   "author": "TOMOKI977",
+   "date": "2026-11-25T00:45:32Z",
+   "msg": "feat(app): connect signs in once and the hire form never prompts on its own (#334)",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "cfde939",
+   "team": "Puls3",
+   "repo": "Zer0-Knowledge-Hack/puls3",
+   "author": "TOMOKI977",
+   "date": "2026-11-24T22:36:23Z",
+   "msg": "docs(odd): record T8.0 of #334",
+   "pts": 6.52,
+   "nota": ""
+  },
+  {
+   "sha": "d7f12cb",
+   "team": "Puls3",
+   "repo": "Zer0-Knowledge-Hack/puls3",
+   "author": "TOMOKI977",
+   "date": "2026-11-24T22:35:38Z",
+   "msg": "feat(studio): enable the subcontract opt-in for the free Mistral model (#334)",
+   "pts": 7.75,
+   "nota": ""
+  },
+  {
+   "sha": "6d10d5d",
+   "team": "Puls3",
+   "repo": "Zer0-Knowledge-Hack/puls3",
+   "author": "TOMOKI977",
+   "date": "2026-11-24T22:35:37Z",
+   "msg": "feat(runtime): subcontract on the Workers AI free tier with Mistral Small 3.1 (#334)",
+   "pts": 10,
+   "nota": ""
+  },
   {
    "sha": "662d9b0",
    "team": "Puls3",
@@ -1406,6 +2490,16 @@
    "nota": ""
   },
   {
+   "sha": "564c3be",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "GuidoSV7",
+   "date": "2026-11-23T21:19:12Z",
+   "msg": "feat(espera): la arquitectura de vistas previas en movimiento al elegir juego",
+   "pts": 9.71,
+   "nota": ""
+  },
+  {
    "sha": "5c7d906",
    "team": "Tinkazo",
    "repo": "nema1502/tinkazo",
@@ -1423,6 +2517,36 @@
    "date": "2026-11-23T19:15:08Z",
    "msg": "feat(turnos): el tope de la red se ve al elegir el modo, no solo al pasarlo",
    "pts": 8.52,
+   "nota": ""
+  },
+  {
+   "sha": "033ab43",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "GuidoSV7",
+   "date": "2026-11-23T19:13:31Z",
+   "msg": "feat(espera): la lista sellada se presenta persona por persona durante la cuenta",
+   "pts": 9.02,
+   "nota": ""
+  },
+  {
+   "sha": "a7bfc65",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "GuidoSV7",
+   "date": "2026-11-23T19:12:17Z",
+   "msg": "fix(sesión): la retoma de Google y el token del paso esperan con paciencia",
+   "pts": 9.7,
+   "nota": ""
+  },
+  {
+   "sha": "baa3938",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "GuidoSV7",
+   "date": "2026-11-23T18:50:32Z",
+   "msg": "feat(conteo): el embudo distingue la red y cuenta el paso de la cuenta",
+   "pts": 9.02,
    "nota": ""
   },
   {
@@ -1466,6 +2590,16 @@
    "nota": ""
   },
   {
+   "sha": "a657365",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "GuidoSV7",
+   "date": "2026-11-23T18:00:29Z",
+   "msg": "fix(equipos): corregir un equipo reemplaza su fila en vez de sumar otra",
+   "pts": 9.87,
+   "nota": ""
+  },
+  {
    "sha": "06ef574",
    "team": "Tinkazo",
    "repo": "nema1502/tinkazo",
@@ -1506,6 +2640,16 @@
    "nota": ""
   },
   {
+   "sha": "53c15ea",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "GuidoSV7",
+   "date": "2026-11-23T16:46:24Z",
+   "msg": "feat(campañas): la huella de las bases con su canon compartido",
+   "pts": 7.38,
+   "nota": ""
+  },
+  {
    "sha": "baf23b8",
    "team": "Tinkazo",
    "repo": "nema1502/tinkazo",
@@ -1523,6 +2667,16 @@
    "date": "2026-11-23T13:19:05Z",
    "msg": "docs(campañas): el texto normal de los términos con el costo de las campañas",
    "pts": 4.17,
+   "nota": ""
+  },
+  {
+   "sha": "26239eb",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "GuidoSV7",
+   "date": "2026-11-23T12:55:42Z",
+   "msg": "feat(vigilante): el aviso cuando las cuentas nuevas por hora pasan un umbral",
+   "pts": 10,
    "nota": ""
   },
   {
@@ -1553,6 +2707,16 @@
    "date": "2026-11-23T12:40:42Z",
    "msg": "docs(campañas): los términos y los precios dicen qué pasa en una campaña con premio",
    "pts": 6.58,
+   "nota": ""
+  },
+  {
+   "sha": "1eb7092",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "GuidoSV7",
+   "date": "2026-11-23T12:34:18Z",
+   "msg": "feat(entregas): la decisión pura de qué premio se entrega, test-first",
+   "pts": 9.34,
    "nota": ""
   },
   {
@@ -1733,6 +2897,36 @@
    "date": "2026-11-22T20:56:41Z",
    "msg": "El guardado tardío de la lista no falla si la página ya no está",
    "pts": 6.32,
+   "nota": ""
+  },
+  {
+   "sha": "cb5acec",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "GuidoSV7",
+   "date": "2026-11-22T20:03:32Z",
+   "msg": "feat(campañas): las filas de Tus premios, puras y por idioma",
+   "pts": 7.89,
+   "nota": ""
+  },
+  {
+   "sha": "7655b45",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "GuidoSV7",
+   "date": "2026-11-22T20:03:18Z",
+   "msg": "feat(campañas): los premios de la cuenta leídos de la red, con sus textos en los dos idiomas",
+   "pts": 9.62,
+   "nota": ""
+  },
+  {
+   "sha": "9c52aff",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "GuidoSV7",
+   "date": "2026-11-22T19:43:22Z",
+   "msg": "feat(campañas): el alta de la sala con su hora de cierre, el tope por conexión del evento y su vigilancia",
+   "pts": 10,
    "nota": ""
   },
   {

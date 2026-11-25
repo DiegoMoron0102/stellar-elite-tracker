@@ -214313,5 +214313,4940 @@
     "d": 1
    }
   ]
+ },
+ "cb69502f68fa32fa33bd6165d9395b3a0a1148a6": {
+  "team": "Puls3",
+  "repo": "Zer0-Knowledge-Hack/puls3",
+  "author": "TOMOKI977",
+  "date": "2026-11-25T08:38:07Z",
+  "message": "docs(sdk): install puls3_sdk from pub.dev (#300) (#428)",
+  "parents": 1,
+  "files": [
+   {
+    "f": "puls3_sdk/README.md",
+    "a": 11,
+    "d": 9
+   }
+  ]
+ },
+ "2b8e685075e19a9ce2f14fc50db2515a759183f4": {
+  "team": "Puls3",
+  "repo": "Zer0-Knowledge-Hack/puls3",
+  "author": "TOMOKI977",
+  "date": "2026-11-25T08:29:40Z",
+  "message": "docs(adr): accept ADR-0010 (#302) (#430)",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/adr/0010-npm-sdk-signs-with-a-developer-key.md",
+    "a": 1,
+    "d": 1
+   }
+  ]
+ },
+ "edf81aed409030d4d91729a6c960ec5cc4a84557": {
+  "team": "Puls3",
+  "repo": "Zer0-Knowledge-Hack/puls3",
+  "author": "TOMOKI977",
+  "date": "2026-11-25T08:22:19Z",
+  "message": "ci(sdk): skip a version npm already has when a release tag runs again (#302) (#429)",
+  "parents": 1,
+  "files": [
+   {
+    "f": ".github/workflows/publish-sdk-ts.yml",
+    "a": 11,
+    "d": 1
+   },
+   {
+    "f": "docs/sdk/releasing-npm.md",
+    "a": 17,
+    "d": 6
+   }
+  ]
+ },
+ "b55d64c69fc65a01ecbb481d639a4be96000bcec": {
+  "team": "Puls3",
+  "repo": "Zer0-Knowledge-Hack/puls3",
+  "author": "TOMOKI977",
+  "date": "2026-11-25T08:03:43Z",
+  "message": "ci(sdk): publish @puls3_org/sdk to npm with provenance from a tag (#302) (#427)",
+  "parents": 1,
+  "files": [
+   {
+    "f": ".github/workflows/publish-sdk-ts.yml",
+    "a": 51,
+    "d": 0
+   },
+   {
+    "f": "README.md",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "docs/sdk/releasing-npm.md",
+    "a": 72,
+    "d": 0
+   },
+   {
+    "f": "puls3_sdk_ts/README.md",
+    "a": 9,
+    "d": 4
+   },
+   {
+    "f": "puls3_sdk_ts/examples/live-testnet.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "puls3_sdk_ts/package-lock.json",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "puls3_sdk_ts/package.json",
+    "a": 4,
+    "d": 2
+   }
+  ]
+ },
+ "2fe943ed48216a2f108ce389d478a466f77915f9": {
+  "team": "Puls3",
+  "repo": "Zer0-Knowledge-Hack/puls3",
+  "author": "TOMOKI977",
+  "date": "2026-11-25T07:06:14Z",
+  "message": "Merge pull request #415 from Zer0-Knowledge-Hack/feat/302-npm-sdk",
+  "parents": 2,
+  "files": [
+   {
+    "f": ".github/workflows/ci.yml",
+    "a": 38,
+    "d": 4
+   },
+   {
+    "f": "README.md",
+    "a": 2,
+    "d": 0
+   },
+   {
+    "f": "docs/sdk/protocol.md",
+    "a": 121,
+    "d": 0
+   },
+   {
+    "f": "docs/sdk/sessions.md",
+    "a": 8,
+    "d": 1
+   },
+   {
+    "f": "puls3_sdk_ts/.gitignore",
+    "a": 3,
+    "d": 0
+   },
+   {
+    "f": "puls3_sdk_ts/CHANGELOG.md",
+    "a": 34,
+    "d": 0
+   },
+   {
+    "f": "puls3_sdk_ts/README.md",
+    "a": 221,
+    "d": 0
+   },
+   {
+    "f": "puls3_sdk_ts/examples/live-testnet.ts",
+    "a": 64,
+    "d": 0
+   },
+   {
+    "f": "puls3_sdk_ts/examples/quickstart.ts",
+    "a": 32,
+    "d": 0
+   },
+   {
+    "f": "puls3_sdk_ts/package-lock.json",
+    "a": 601,
+    "d": 0
+   },
+   {
+    "f": "puls3_sdk_ts/package.json",
+    "a": 43,
+    "d": 0
+   },
+   {
+    "f": "puls3_sdk_ts/src/chain_reader.ts",
+    "a": 170,
+    "d": 0
+   },
+   {
+    "f": "puls3_sdk_ts/src/errors.ts",
+    "a": 139,
+    "d": 0
+   },
+   {
+    "f": "puls3_sdk_ts/src/guard.ts",
+    "a": 597,
+    "d": 0
+   },
+   {
+    "f": "puls3_sdk_ts/src/index.ts",
+    "a": 70,
+    "d": 0
+   },
+   {
+    "f": "puls3_sdk_ts/src/key_session.ts",
+    "a": 149,
+    "d": 0
+   },
+   {
+    "f": "puls3_sdk_ts/src/models.ts",
+    "a": 585,
+    "d": 0
+   },
+   {
+    "f": "puls3_sdk_ts/src/network.ts",
+    "a": 112,
+    "d": 0
+   },
+   {
+    "f": "puls3_sdk_ts/src/sdk.ts",
+    "a": 917,
+    "d": 0
+   },
+   {
+    "f": "puls3_sdk_ts/src/session.ts",
+    "a": 383,
+    "d": 0
+   },
+   {
+    "f": "puls3_sdk_ts/src/signer.ts",
+    "a": 82,
+    "d": 0
+   },
+   {
+    "f": "puls3_sdk_ts/src/transport.ts",
+    "a": 215,
+    "d": 0
+   },
+   {
+    "f": "puls3_sdk_ts/test/chain.ts",
+    "a": 353,
+    "d": 0
+   },
+   {
+    "f": "puls3_sdk_ts/test/chain_reader.test.ts",
+    "a": 107,
+    "d": 0
+   },
+   {
+    "f": "puls3_sdk_ts/test/flows.test.ts",
+    "a": 612,
+    "d": 0
+   },
+   {
+    "f": "puls3_sdk_ts/test/guard.test.ts",
+    "a": 500,
+    "d": 0
+   },
+   {
+    "f": "puls3_sdk_ts/test/network.test.ts",
+    "a": 44,
+    "d": 0
+   },
+   {
+    "f": "puls3_sdk_ts/test/real_envelopes.test.ts",
+    "a": 98,
+    "d": 0
+   },
+   {
+    "f": "puls3_sdk_ts/test/sdk.test.ts",
+    "a": 287,
+    "d": 0
+   },
+   {
+    "f": "puls3_sdk_ts/test/session.test.ts",
+    "a": 227,
+    "d": 0
+   },
+   {
+    "f": "puls3_sdk_ts/test/support.ts",
+    "a": 151,
+    "d": 0
+   },
+   {
+    "f": "puls3_sdk_ts/test/transport.test.ts",
+    "a": 192,
+    "d": 0
+   },
+   {
+    "f": "puls3_sdk_ts/tsconfig.json",
+    "a": 19,
+    "d": 0
+   },
+   {
+    "f": "puls3_sdk_ts/tsconfig.test.json",
+    "a": 9,
+    "d": 0
+   }
+  ]
+ },
+ "2ffe528c0a94610b5619bbf08d648b4215bef561": {
+  "team": "Puls3",
+  "repo": "Zer0-Knowledge-Hack/puls3",
+  "author": "TOMOKI977",
+  "date": "2026-11-25T06:55:08Z",
+  "message": "Merge branch 'main' into feat/302-npm-sdk",
+  "parents": 2,
+  "files": [
+   {
+    "f": "docs/adr/0011-budget-bearing-escrow-and-agent-subcontracting.md",
+    "a": 2,
+    "d": 1
+   },
+   {
+    "f": "docs/architecture/api.md",
+    "a": 1,
+    "d": 2
+   },
+   {
+    "f": "docs/cli/run-locally.md",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "docs/studio/builder-guide.md",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "docs/verification/334-agent-subcontracting.md",
+    "a": 76,
+    "d": 0
+   },
+   {
+    "f": "odd/tasks/agent-subcontracting.md",
+    "a": 185,
+    "d": 2
+   },
+   {
+    "f": "puls3_cli/lib/src/local_run.dart",
+    "a": 4,
+    "d": 1
+   },
+   {
+    "f": "puls3_client/lib/src/protocol/protocol.dart",
+    "a": 17,
+    "d": 0
+   },
+   {
+    "f": "puls3_client/lib/src/protocol/studio/agent_manifest_draft.dart",
+    "a": 20,
+    "d": 0
+   },
+   {
+    "f": "puls3_client/lib/src/protocol/studio/manifest_subcontract.dart",
+    "a": 94,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/lib/l10n/app_en.arb",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "puls3_flutter/lib/l10n/app_es.arb",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "puls3_flutter/lib/l10n/app_pt.arb",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "puls3_flutter/lib/l10n/app_pt_BR.arb",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "puls3_flutter/lib/l10n/app_pt_PT.arb",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "puls3_flutter/lib/l10n/generated/app_localizations.dart",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "puls3_flutter/lib/l10n/generated/app_localizations_en.dart",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "puls3_flutter/lib/l10n/generated/app_localizations_es.dart",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "puls3_flutter/lib/l10n/generated/app_localizations_pt.dart",
+    "a": 3,
+    "d": 3
+   },
+   {
+    "f": "puls3_flutter/lib/main.dart",
+    "a": 8,
+    "d": 1
+   },
+   {
+    "f": "puls3_flutter/lib/src/app.dart",
+    "a": 6,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/lib/src/hire/create_session_wallet_store.dart",
+    "a": 2,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/lib/src/hire/hire_flow_controller.dart",
+    "a": 6,
+    "d": 3
+   },
+   {
+    "f": "puls3_flutter/lib/src/hire/hire_gateway.dart",
+    "a": 7,
+    "d": 2
+   },
+   {
+    "f": "puls3_flutter/lib/src/hire/session_wallet_store_stub.dart",
+    "a": 3,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/lib/src/hire/session_wallet_store_web.dart",
+    "a": 47,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/lib/src/hire/wallet_session.dart",
+    "a": 81,
+    "d": 7
+   },
+   {
+    "f": "puls3_flutter/lib/src/screens/hire_detail_screen.dart",
+    "a": 18,
+    "d": 3
+   },
+   {
+    "f": "puls3_flutter/lib/src/screens/hire_sheet.dart",
+    "a": 74,
+    "d": 14
+   },
+   {
+    "f": "puls3_flutter/lib/src/screens/my_hires_screen.dart",
+    "a": 8,
+    "d": 1
+   },
+   {
+    "f": "puls3_flutter/lib/src/state/wallet_controller.dart",
+    "a": 93,
+    "d": 8
+   },
+   {
+    "f": "puls3_flutter/lib/src/studio/server_studio_gateway.dart",
+    "a": 16,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/lib/src/studio/studio_form_check.dart",
+    "a": 3,
+    "d": 2
+   },
+   {
+    "f": "puls3_flutter/lib/src/studio/studio_models.dart",
+    "a": 17,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/lib/src/ui/organisms/agent_form.dart",
+    "a": 4,
+    "d": 3
+   },
+   {
+    "f": "puls3_flutter/lib/src/ui/organisms/wallet_panel.dart",
+    "a": 33,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/test/hire/fallback_session_wallet_store_test.dart",
+    "a": 88,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/test/hire/wallet_session_test.dart",
+    "a": 42,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/test/screens/hire_detail_screen_test.dart",
+    "a": 49,
+    "d": 5
+   },
+   {
+    "f": "puls3_flutter/test/screens/hire_sheet_test.dart",
+    "a": 221,
+    "d": 1
+   },
+   {
+    "f": "puls3_flutter/test/screens/my_hires_screen_test.dart",
+    "a": 59,
+    "d": 3
+   },
+   {
+    "f": "puls3_flutter/test/screens/studio_screen_test.dart",
+    "a": 25,
+    "d": 5
+   },
+   {
+    "f": "puls3_flutter/test/state/wallet_controller_session_test.dart",
+    "a": 203,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/test/studio/server_studio_gateway_test.dart",
+    "a": 50,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/test/studio/studio_form_check_test.dart",
+    "a": 21,
+    "d": 1
+   },
+   {
+    "f": "puls3_server/README.md",
+    "a": 8,
+    "d": 3
+   },
+   {
+    "f": "puls3_server/lib/src/generated/protocol.dart",
+    "a": 17,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/generated/studio/agent_manifest_draft.dart",
+    "a": 20,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/generated/studio/manifest_subcontract.dart",
+    "a": 94,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/runtime/adapters/workers_ai_runtime.dart",
+    "a": 194,
+    "d": 10
+   },
+   {
+    "f": "puls3_server/lib/src/runtime/hire_runner.dart",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "puls3_server/lib/src/runtime/tool_loop.dart",
+    "a": 14,
+    "d": 7
+   },
+   {
+    "f": "puls3_server/lib/src/studio/agent_manifest_draft.spy.yaml",
+    "a": 2,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/studio/manifest_subcontract.spy.yaml",
+    "a": 7,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/studio/studio_draft_transport.dart",
+    "a": 12,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/studio/studio_model_policy.dart",
+    "a": 6,
+    "d": 1
+   },
+   {
+    "f": "puls3_server/test/studio/studio_endpoint_test.dart",
+    "a": 37,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/test/unit/runtime/tool_loop_test.dart",
+    "a": 29,
+    "d": 3
+   },
+   {
+    "f": "puls3_server/test/unit/runtime/workers_ai_converse_test.dart",
+    "a": 371,
+    "d": 1
+   },
+   {
+    "f": "puls3_server/test/unit/studio/studio_model_policy_test.dart",
+    "a": 31,
+    "d": 0
+   }
+  ]
+ },
+ "3f08e770bfd48694dd189488cd8d3e25028ca641": {
+  "team": "Puls3",
+  "repo": "Zer0-Knowledge-Hack/puls3",
+  "author": "TOMOKI977",
+  "date": "2026-11-25T06:47:47Z",
+  "message": "docs(sdk): cite where the pinned SEP-10 key comes from (#302)",
+  "parents": 1,
+  "files": [
+   {
+    "f": "puls3_sdk_ts/src/network.ts",
+    "a": 1,
+    "d": 1
+   }
+  ]
+ },
+ "89c541a98aef5acc2c6ba6abba2beba522f5189d": {
+  "team": "Puls3",
+  "repo": "Zer0-Knowledge-Hack/puls3",
+  "author": "TOMOKI977",
+  "date": "2026-11-25T06:47:28Z",
+  "message": "fix(sdk): check the reason of complete and reject, and what register_full registers (#302)",
+  "parents": 1,
+  "files": [
+   {
+    "f": "puls3_sdk_ts/src/guard.ts",
+    "a": 135,
+    "d": 3
+   },
+   {
+    "f": "puls3_sdk_ts/src/sdk.ts",
+    "a": 23,
+    "d": 2
+   },
+   {
+    "f": "puls3_sdk_ts/test/chain.ts",
+    "a": 92,
+    "d": 7
+   },
+   {
+    "f": "puls3_sdk_ts/test/flows.test.ts",
+    "a": 4,
+    "d": 0
+   },
+   {
+    "f": "puls3_sdk_ts/test/guard.test.ts",
+    "a": 47,
+    "d": 4
+   }
+  ]
+ },
+ "4f949951905973cb65e123c6c7d8a59a63ad36a4": {
+  "team": "Puls3",
+  "repo": "Zer0-Knowledge-Hack/puls3",
+  "author": "TOMOKI977",
+  "date": "2026-11-25T06:29:24Z",
+  "message": "feat(sdk): approve and reject check the result you reviewed against the delivery on chain (#302)",
+  "parents": 1,
+  "files": [
+   {
+    "f": "puls3_sdk_ts/README.md",
+    "a": 7,
+    "d": 1
+   },
+   {
+    "f": "puls3_sdk_ts/examples/quickstart.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "puls3_sdk_ts/src/sdk.ts",
+    "a": 42,
+    "d": 15
+   },
+   {
+    "f": "puls3_sdk_ts/test/flows.test.ts",
+    "a": 27,
+    "d": 0
+   }
+  ]
+ },
+ "3804abb7d68221b335c26bdf09643e613542cbc6": {
+  "team": "Puls3",
+  "repo": "Zer0-Knowledge-Hack/puls3",
+  "author": "TOMOKI977",
+  "date": "2026-11-25T05:42:48Z",
+  "message": "fix(sdk): bind approve and reject to the delivery recorded on chain (#302)",
+  "parents": 1,
+  "files": [
+   {
+    "f": "puls3_sdk_ts/src/chain_reader.ts",
+    "a": 19,
+    "d": 1
+   },
+   {
+    "f": "puls3_sdk_ts/src/sdk.ts",
+    "a": 32,
+    "d": 20
+   },
+   {
+    "f": "puls3_sdk_ts/test/chain_reader.test.ts",
+    "a": 2,
+    "d": 0
+   },
+   {
+    "f": "puls3_sdk_ts/test/flows.test.ts",
+    "a": 44,
+    "d": 5
+   }
+  ]
+ },
+ "7351574380200584cdd93327d1427fcdef1dbfca": {
+  "team": "Puls3",
+  "repo": "Zer0-Knowledge-Hack/puls3",
+  "author": "TOMOKI977",
+  "date": "2026-11-25T05:39:23Z",
+  "message": "fix(sdk): read the escrow job from the chain before fund, complete and reject (#302)",
+  "parents": 1,
+  "files": [
+   {
+    "f": "puls3_sdk_ts/src/chain_reader.ts",
+    "a": 65,
+    "d": 16
+   },
+   {
+    "f": "puls3_sdk_ts/src/sdk.ts",
+    "a": 39,
+    "d": 9
+   },
+   {
+    "f": "puls3_sdk_ts/test/chain_reader.test.ts",
+    "a": 36,
+    "d": 1
+   },
+   {
+    "f": "puls3_sdk_ts/test/flows.test.ts",
+    "a": 36,
+    "d": 2
+   }
+  ]
+ },
+ "45d5ab03aeb84acf19dfc69ee1f2a5de09a3b3bb": {
+  "team": "Puls3",
+  "repo": "Zer0-Knowledge-Hack/puls3",
+  "author": "TOMOKI977",
+  "date": "2026-11-25T05:30:24Z",
+  "message": "fix(sdk): check every argument ADR-0010 D3 pins before signing (#302)",
+  "parents": 1,
+  "files": [
+   {
+    "f": "puls3_sdk_ts/README.md",
+    "a": 10,
+    "d": 8
+   },
+   {
+    "f": "puls3_sdk_ts/src/chain_reader.ts",
+    "a": 103,
+    "d": 0
+   },
+   {
+    "f": "puls3_sdk_ts/src/guard.ts",
+    "a": 78,
+    "d": 21
+   },
+   {
+    "f": "puls3_sdk_ts/src/index.ts",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "puls3_sdk_ts/src/network.ts",
+    "a": 44,
+    "d": 4
+   },
+   {
+    "f": "puls3_sdk_ts/src/sdk.ts",
+    "a": 58,
+    "d": 6
+   },
+   {
+    "f": "puls3_sdk_ts/test/chain.ts",
+    "a": 31,
+    "d": 13
+   },
+   {
+    "f": "puls3_sdk_ts/test/chain_reader.test.ts",
+    "a": 70,
+    "d": 0
+   },
+   {
+    "f": "puls3_sdk_ts/test/flows.test.ts",
+    "a": 43,
+    "d": 1
+   },
+   {
+    "f": "puls3_sdk_ts/test/guard.test.ts",
+    "a": 131,
+    "d": 37
+   },
+   {
+    "f": "puls3_sdk_ts/test/real_envelopes.test.ts",
+    "a": 12,
+    "d": 2
+   }
+  ]
+ },
+ "cf4cbc61cbd56038b205f4f03bcbcb10d69b2e8f": {
+  "team": "Puls3",
+  "repo": "Zer0-Knowledge-Hack/puls3",
+  "author": "TOMOKI977",
+  "date": "2026-11-25T04:36:31Z",
+  "message": "Merge pull request #416 from Zer0-Knowledge-Hack/feat/334-t8a-workers-ai",
+  "parents": 2,
+  "files": [
+   {
+    "f": "docs/adr/0011-budget-bearing-escrow-and-agent-subcontracting.md",
+    "a": 2,
+    "d": 1
+   },
+   {
+    "f": "docs/cli/run-locally.md",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "docs/studio/builder-guide.md",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "docs/verification/334-agent-subcontracting.md",
+    "a": 76,
+    "d": 0
+   },
+   {
+    "f": "odd/tasks/agent-subcontracting.md",
+    "a": 185,
+    "d": 2
+   },
+   {
+    "f": "puls3_cli/lib/src/local_run.dart",
+    "a": 4,
+    "d": 1
+   },
+   {
+    "f": "puls3_client/lib/src/protocol/protocol.dart",
+    "a": 17,
+    "d": 0
+   },
+   {
+    "f": "puls3_client/lib/src/protocol/studio/agent_manifest_draft.dart",
+    "a": 20,
+    "d": 0
+   },
+   {
+    "f": "puls3_client/lib/src/protocol/studio/manifest_subcontract.dart",
+    "a": 94,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/lib/l10n/app_en.arb",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "puls3_flutter/lib/l10n/app_es.arb",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "puls3_flutter/lib/l10n/app_pt.arb",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "puls3_flutter/lib/l10n/app_pt_BR.arb",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "puls3_flutter/lib/l10n/app_pt_PT.arb",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "puls3_flutter/lib/l10n/generated/app_localizations.dart",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "puls3_flutter/lib/l10n/generated/app_localizations_en.dart",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "puls3_flutter/lib/l10n/generated/app_localizations_es.dart",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "puls3_flutter/lib/l10n/generated/app_localizations_pt.dart",
+    "a": 3,
+    "d": 3
+   },
+   {
+    "f": "puls3_flutter/lib/main.dart",
+    "a": 8,
+    "d": 1
+   },
+   {
+    "f": "puls3_flutter/lib/src/app.dart",
+    "a": 6,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/lib/src/hire/create_session_wallet_store.dart",
+    "a": 2,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/lib/src/hire/hire_flow_controller.dart",
+    "a": 6,
+    "d": 3
+   },
+   {
+    "f": "puls3_flutter/lib/src/hire/hire_gateway.dart",
+    "a": 7,
+    "d": 2
+   },
+   {
+    "f": "puls3_flutter/lib/src/hire/session_wallet_store_stub.dart",
+    "a": 3,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/lib/src/hire/session_wallet_store_web.dart",
+    "a": 47,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/lib/src/hire/wallet_session.dart",
+    "a": 81,
+    "d": 7
+   },
+   {
+    "f": "puls3_flutter/lib/src/screens/hire_detail_screen.dart",
+    "a": 18,
+    "d": 3
+   },
+   {
+    "f": "puls3_flutter/lib/src/screens/hire_sheet.dart",
+    "a": 74,
+    "d": 14
+   },
+   {
+    "f": "puls3_flutter/lib/src/screens/my_hires_screen.dart",
+    "a": 8,
+    "d": 1
+   },
+   {
+    "f": "puls3_flutter/lib/src/state/wallet_controller.dart",
+    "a": 93,
+    "d": 8
+   },
+   {
+    "f": "puls3_flutter/lib/src/studio/server_studio_gateway.dart",
+    "a": 16,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/lib/src/studio/studio_form_check.dart",
+    "a": 3,
+    "d": 2
+   },
+   {
+    "f": "puls3_flutter/lib/src/studio/studio_models.dart",
+    "a": 17,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/lib/src/ui/organisms/agent_form.dart",
+    "a": 4,
+    "d": 3
+   },
+   {
+    "f": "puls3_flutter/lib/src/ui/organisms/wallet_panel.dart",
+    "a": 33,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/test/hire/fallback_session_wallet_store_test.dart",
+    "a": 88,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/test/hire/wallet_session_test.dart",
+    "a": 42,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/test/screens/hire_detail_screen_test.dart",
+    "a": 49,
+    "d": 5
+   },
+   {
+    "f": "puls3_flutter/test/screens/hire_sheet_test.dart",
+    "a": 221,
+    "d": 1
+   },
+   {
+    "f": "puls3_flutter/test/screens/my_hires_screen_test.dart",
+    "a": 59,
+    "d": 3
+   },
+   {
+    "f": "puls3_flutter/test/screens/studio_screen_test.dart",
+    "a": 25,
+    "d": 5
+   },
+   {
+    "f": "puls3_flutter/test/state/wallet_controller_session_test.dart",
+    "a": 203,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/test/studio/server_studio_gateway_test.dart",
+    "a": 50,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/test/studio/studio_form_check_test.dart",
+    "a": 21,
+    "d": 1
+   },
+   {
+    "f": "puls3_server/README.md",
+    "a": 8,
+    "d": 3
+   },
+   {
+    "f": "puls3_server/lib/src/generated/protocol.dart",
+    "a": 17,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/generated/studio/agent_manifest_draft.dart",
+    "a": 20,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/generated/studio/manifest_subcontract.dart",
+    "a": 94,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/runtime/adapters/workers_ai_runtime.dart",
+    "a": 194,
+    "d": 10
+   },
+   {
+    "f": "puls3_server/lib/src/runtime/hire_runner.dart",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "puls3_server/lib/src/runtime/tool_loop.dart",
+    "a": 14,
+    "d": 7
+   },
+   {
+    "f": "puls3_server/lib/src/studio/agent_manifest_draft.spy.yaml",
+    "a": 2,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/studio/manifest_subcontract.spy.yaml",
+    "a": 7,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/studio/studio_draft_transport.dart",
+    "a": 12,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/studio/studio_model_policy.dart",
+    "a": 6,
+    "d": 1
+   },
+   {
+    "f": "puls3_server/test/studio/studio_endpoint_test.dart",
+    "a": 37,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/test/unit/runtime/tool_loop_test.dart",
+    "a": 29,
+    "d": 3
+   },
+   {
+    "f": "puls3_server/test/unit/runtime/workers_ai_converse_test.dart",
+    "a": 371,
+    "d": 1
+   },
+   {
+    "f": "puls3_server/test/unit/studio/studio_model_policy_test.dart",
+    "a": 31,
+    "d": 0
+   }
+  ]
+ },
+ "e4d7863c3dd866e83111b12e01063a8a25c0f584": {
+  "team": "Puls3",
+  "repo": "Zer0-Knowledge-Hack/puls3",
+  "author": "XxHugheadxX",
+  "date": "2026-11-25T04:30:19Z",
+  "message": "test(sdk): fail when the pinned testnet contracts drift from the deployment record (#302)",
+  "parents": 1,
+  "files": [
+   {
+    "f": ".github/workflows/ci.yml",
+    "a": 3,
+    "d": 0
+   },
+   {
+    "f": "puls3_sdk_ts/test/network.test.ts",
+    "a": 44,
+    "d": 0
+   }
+  ]
+ },
+ "25c5c70cb437d762f40ccbbf01f0626ac7dc48e8": {
+  "team": "Puls3",
+  "repo": "Zer0-Knowledge-Hack/puls3",
+  "author": "TOMOKI977",
+  "date": "2026-11-25T04:25:04Z",
+  "message": "fix(app): only a disconnect cancels a sign-in in progress, not a refused call (#334)",
+  "parents": 1,
+  "files": [
+   {
+    "f": "puls3_flutter/lib/main.dart",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "puls3_flutter/lib/src/hire/wallet_session.dart",
+    "a": 11,
+    "d": 6
+   },
+   {
+    "f": "puls3_flutter/test/hire/wallet_session_test.dart",
+    "a": 18,
+    "d": 2
+   }
+  ]
+ },
+ "7334b815fdb1ca8b23e02b67cbe11ee3f079a3f2": {
+  "team": "Puls3",
+  "repo": "Zer0-Knowledge-Hack/puls3",
+  "author": "TOMOKI977",
+  "date": "2026-11-25T04:03:23Z",
+  "message": "Merge branch 'main' into feat/334-t8a-workers-ai",
+  "parents": 2,
+  "files": [
+   {
+    "f": "docs/architecture/api.md",
+    "a": 1,
+    "d": 2
+   }
+  ]
+ },
+ "264f3663bf8fcbeebbc54a6b700dfc054d1f8f21": {
+  "team": "Puls3",
+  "repo": "Zer0-Knowledge-Hack/puls3",
+  "author": "TOMOKI977",
+  "date": "2026-11-25T04:03:09Z",
+  "message": "Merge pull request #417 from Zer0-Knowledge-Hack/feat/334-t8b-wallet-session",
+  "parents": 2,
+  "files": [
+   {
+    "f": "docs/adr/0011-budget-bearing-escrow-and-agent-subcontracting.md",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "docs/verification/334-agent-subcontracting.md",
+    "a": 76,
+    "d": 0
+   },
+   {
+    "f": "odd/tasks/agent-subcontracting.md",
+    "a": 140,
+    "d": 2
+   },
+   {
+    "f": "puls3_client/lib/src/protocol/protocol.dart",
+    "a": 17,
+    "d": 0
+   },
+   {
+    "f": "puls3_client/lib/src/protocol/studio/agent_manifest_draft.dart",
+    "a": 20,
+    "d": 0
+   },
+   {
+    "f": "puls3_client/lib/src/protocol/studio/manifest_subcontract.dart",
+    "a": 94,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/lib/main.dart",
+    "a": 7,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/lib/src/app.dart",
+    "a": 6,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/lib/src/hire/create_session_wallet_store.dart",
+    "a": 2,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/lib/src/hire/hire_flow_controller.dart",
+    "a": 6,
+    "d": 3
+   },
+   {
+    "f": "puls3_flutter/lib/src/hire/hire_gateway.dart",
+    "a": 7,
+    "d": 2
+   },
+   {
+    "f": "puls3_flutter/lib/src/hire/session_wallet_store_stub.dart",
+    "a": 3,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/lib/src/hire/session_wallet_store_web.dart",
+    "a": 47,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/lib/src/hire/wallet_session.dart",
+    "a": 75,
+    "d": 6
+   },
+   {
+    "f": "puls3_flutter/lib/src/screens/hire_detail_screen.dart",
+    "a": 18,
+    "d": 3
+   },
+   {
+    "f": "puls3_flutter/lib/src/screens/hire_sheet.dart",
+    "a": 74,
+    "d": 14
+   },
+   {
+    "f": "puls3_flutter/lib/src/screens/my_hires_screen.dart",
+    "a": 8,
+    "d": 1
+   },
+   {
+    "f": "puls3_flutter/lib/src/state/wallet_controller.dart",
+    "a": 93,
+    "d": 8
+   },
+   {
+    "f": "puls3_flutter/lib/src/studio/server_studio_gateway.dart",
+    "a": 16,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/lib/src/ui/organisms/wallet_panel.dart",
+    "a": 33,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/test/hire/fallback_session_wallet_store_test.dart",
+    "a": 88,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/test/hire/wallet_session_test.dart",
+    "a": 26,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/test/screens/hire_detail_screen_test.dart",
+    "a": 49,
+    "d": 5
+   },
+   {
+    "f": "puls3_flutter/test/screens/hire_sheet_test.dart",
+    "a": 221,
+    "d": 1
+   },
+   {
+    "f": "puls3_flutter/test/screens/my_hires_screen_test.dart",
+    "a": 59,
+    "d": 3
+   },
+   {
+    "f": "puls3_flutter/test/state/wallet_controller_session_test.dart",
+    "a": 203,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/test/studio/server_studio_gateway_test.dart",
+    "a": 50,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/generated/protocol.dart",
+    "a": 17,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/generated/studio/agent_manifest_draft.dart",
+    "a": 20,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/generated/studio/manifest_subcontract.dart",
+    "a": 94,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/runtime/adapters/workers_ai_runtime.dart",
+    "a": 6,
+    "d": 1
+   },
+   {
+    "f": "puls3_server/lib/src/studio/agent_manifest_draft.spy.yaml",
+    "a": 2,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/studio/manifest_subcontract.spy.yaml",
+    "a": 7,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/studio/studio_draft_transport.dart",
+    "a": 12,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/test/studio/studio_endpoint_test.dart",
+    "a": 37,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/test/unit/runtime/workers_ai_converse_test.dart",
+    "a": 30,
+    "d": 0
+   }
+  ]
+ },
+ "475c910a9d8be1d00861872d1bb5b6da7ef2e7ac": {
+  "team": "Puls3",
+  "repo": "Zer0-Knowledge-Hack/puls3",
+  "author": "TOMOKI977",
+  "date": "2026-11-25T04:03:03Z",
+  "message": "Merge pull request #418 from Zer0-Knowledge-Hack/docs/334-t8c-testnet-evidence",
+  "parents": 2,
+  "files": [
+   {
+    "f": "docs/adr/0011-budget-bearing-escrow-and-agent-subcontracting.md",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "docs/verification/334-agent-subcontracting.md",
+    "a": 76,
+    "d": 0
+   },
+   {
+    "f": "odd/tasks/agent-subcontracting.md",
+    "a": 57,
+    "d": 5
+   },
+   {
+    "f": "puls3_client/lib/src/protocol/protocol.dart",
+    "a": 17,
+    "d": 0
+   },
+   {
+    "f": "puls3_client/lib/src/protocol/studio/agent_manifest_draft.dart",
+    "a": 20,
+    "d": 0
+   },
+   {
+    "f": "puls3_client/lib/src/protocol/studio/manifest_subcontract.dart",
+    "a": 94,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/lib/src/hire/hire_flow_controller.dart",
+    "a": 3,
+    "d": 1
+   },
+   {
+    "f": "puls3_flutter/lib/src/hire/hire_gateway.dart",
+    "a": 7,
+    "d": 2
+   },
+   {
+    "f": "puls3_flutter/lib/src/hire/session_wallet_store_web.dart",
+    "a": 26,
+    "d": 29
+   },
+   {
+    "f": "puls3_flutter/lib/src/hire/wallet_session.dart",
+    "a": 68,
+    "d": 3
+   },
+   {
+    "f": "puls3_flutter/lib/src/screens/hire_detail_screen.dart",
+    "a": 18,
+    "d": 3
+   },
+   {
+    "f": "puls3_flutter/lib/src/screens/hire_sheet.dart",
+    "a": 2,
+    "d": 1
+   },
+   {
+    "f": "puls3_flutter/lib/src/screens/my_hires_screen.dart",
+    "a": 8,
+    "d": 1
+   },
+   {
+    "f": "puls3_flutter/lib/src/state/wallet_controller.dart",
+    "a": 22,
+    "d": 3
+   },
+   {
+    "f": "puls3_flutter/lib/src/studio/server_studio_gateway.dart",
+    "a": 16,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/test/hire/fallback_session_wallet_store_test.dart",
+    "a": 88,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/test/hire/wallet_session_test.dart",
+    "a": 26,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/test/screens/hire_detail_screen_test.dart",
+    "a": 49,
+    "d": 5
+   },
+   {
+    "f": "puls3_flutter/test/screens/hire_sheet_test.dart",
+    "a": 16,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/test/screens/my_hires_screen_test.dart",
+    "a": 59,
+    "d": 3
+   },
+   {
+    "f": "puls3_flutter/test/state/wallet_controller_session_test.dart",
+    "a": 53,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/test/studio/server_studio_gateway_test.dart",
+    "a": 50,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/generated/protocol.dart",
+    "a": 17,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/generated/studio/agent_manifest_draft.dart",
+    "a": 20,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/generated/studio/manifest_subcontract.dart",
+    "a": 94,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/runtime/adapters/workers_ai_runtime.dart",
+    "a": 6,
+    "d": 1
+   },
+   {
+    "f": "puls3_server/lib/src/studio/agent_manifest_draft.spy.yaml",
+    "a": 2,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/studio/manifest_subcontract.spy.yaml",
+    "a": 7,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/studio/studio_draft_transport.dart",
+    "a": 12,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/test/studio/studio_endpoint_test.dart",
+    "a": 37,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/test/unit/runtime/workers_ai_converse_test.dart",
+    "a": 30,
+    "d": 0
+   }
+  ]
+ },
+ "d79bbe37b12a876525744af8023025b6b5fcb5b2": {
+  "team": "Puls3",
+  "repo": "Zer0-Knowledge-Hack/puls3",
+  "author": "TOMOKI977",
+  "date": "2026-11-25T04:02:57Z",
+  "message": "Merge pull request #419 from Zer0-Knowledge-Hack/feat/334-t8d-studio-optin-transport",
+  "parents": 2,
+  "files": [
+   {
+    "f": "docs/adr/0011-budget-bearing-escrow-and-agent-subcontracting.md",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "odd/tasks/agent-subcontracting.md",
+    "a": 29,
+    "d": 2
+   },
+   {
+    "f": "puls3_client/lib/src/protocol/protocol.dart",
+    "a": 17,
+    "d": 0
+   },
+   {
+    "f": "puls3_client/lib/src/protocol/studio/agent_manifest_draft.dart",
+    "a": 20,
+    "d": 0
+   },
+   {
+    "f": "puls3_client/lib/src/protocol/studio/manifest_subcontract.dart",
+    "a": 94,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/lib/src/hire/hire_flow_controller.dart",
+    "a": 3,
+    "d": 1
+   },
+   {
+    "f": "puls3_flutter/lib/src/hire/hire_gateway.dart",
+    "a": 7,
+    "d": 2
+   },
+   {
+    "f": "puls3_flutter/lib/src/hire/session_wallet_store_web.dart",
+    "a": 26,
+    "d": 29
+   },
+   {
+    "f": "puls3_flutter/lib/src/hire/wallet_session.dart",
+    "a": 68,
+    "d": 3
+   },
+   {
+    "f": "puls3_flutter/lib/src/screens/hire_detail_screen.dart",
+    "a": 18,
+    "d": 3
+   },
+   {
+    "f": "puls3_flutter/lib/src/screens/hire_sheet.dart",
+    "a": 2,
+    "d": 1
+   },
+   {
+    "f": "puls3_flutter/lib/src/screens/my_hires_screen.dart",
+    "a": 8,
+    "d": 1
+   },
+   {
+    "f": "puls3_flutter/lib/src/state/wallet_controller.dart",
+    "a": 22,
+    "d": 3
+   },
+   {
+    "f": "puls3_flutter/lib/src/studio/server_studio_gateway.dart",
+    "a": 16,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/test/hire/fallback_session_wallet_store_test.dart",
+    "a": 88,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/test/hire/wallet_session_test.dart",
+    "a": 26,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/test/screens/hire_detail_screen_test.dart",
+    "a": 49,
+    "d": 5
+   },
+   {
+    "f": "puls3_flutter/test/screens/hire_sheet_test.dart",
+    "a": 16,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/test/screens/my_hires_screen_test.dart",
+    "a": 59,
+    "d": 3
+   },
+   {
+    "f": "puls3_flutter/test/state/wallet_controller_session_test.dart",
+    "a": 53,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/test/studio/server_studio_gateway_test.dart",
+    "a": 50,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/generated/protocol.dart",
+    "a": 17,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/generated/studio/agent_manifest_draft.dart",
+    "a": 20,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/generated/studio/manifest_subcontract.dart",
+    "a": 94,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/runtime/adapters/workers_ai_runtime.dart",
+    "a": 6,
+    "d": 1
+   },
+   {
+    "f": "puls3_server/lib/src/studio/agent_manifest_draft.spy.yaml",
+    "a": 2,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/studio/manifest_subcontract.spy.yaml",
+    "a": 7,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/studio/studio_draft_transport.dart",
+    "a": 12,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/test/studio/studio_endpoint_test.dart",
+    "a": 37,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/test/unit/runtime/workers_ai_converse_test.dart",
+    "a": 30,
+    "d": 0
+   }
+  ]
+ },
+ "55ad7e00025d737cb23885caf32b3e2199fd3435": {
+  "team": "Puls3",
+  "repo": "Zer0-Knowledge-Hack/puls3",
+  "author": "TOMOKI977",
+  "date": "2026-11-25T04:02:39Z",
+  "message": "fix(app): a sign-in that finishes after a sign-out stores no session, on every path (#334)",
+  "parents": 1,
+  "files": [
+   {
+    "f": "puls3_flutter/lib/src/hire/wallet_session.dart",
+    "a": 19,
+    "d": 3
+   },
+   {
+    "f": "puls3_flutter/test/hire/wallet_session_test.dart",
+    "a": 26,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/test/screens/hire_detail_screen_test.dart",
+    "a": 47,
+    "d": 3
+   }
+  ]
+ },
+ "24189d698b12cbdde673f94d8ca18208a984868c": {
+  "team": "Puls3",
+  "repo": "Zer0-Knowledge-Hack/puls3",
+  "author": "TOMOKI977",
+  "date": "2026-11-25T03:51:29Z",
+  "message": "docs(adr): accept ADR-0011 and log the T8 stack review (#334)",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/adr/0011-budget-bearing-escrow-and-agent-subcontracting.md",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "odd/tasks/agent-subcontracting.md",
+    "a": 12,
+    "d": 0
+   }
+  ]
+ },
+ "2fff8856c6a37aa5aa31567fdf436cfe5bdd09f7": {
+  "team": "Puls3",
+  "repo": "Zer0-Knowledge-Hack/puls3",
+  "author": "TOMOKI977",
+  "date": "2026-11-25T03:51:29Z",
+  "message": "fix(runtime): read a Workers AI tool call with no arguments as {} (#334)",
+  "parents": 1,
+  "files": [
+   {
+    "f": "puls3_server/lib/src/runtime/adapters/workers_ai_runtime.dart",
+    "a": 6,
+    "d": 1
+   },
+   {
+    "f": "puls3_server/test/unit/runtime/workers_ai_converse_test.dart",
+    "a": 30,
+    "d": 0
+   }
+  ]
+ },
+ "2127be40db2eb9382c611dc03398d5223edaf73b": {
+  "team": "Puls3",
+  "repo": "Zer0-Knowledge-Hack/puls3",
+  "author": "TOMOKI977",
+  "date": "2026-11-25T03:51:28Z",
+  "message": "fix(app): keep the session wallet in memory once localStorage refuses a write (#334)",
+  "parents": 1,
+  "files": [
+   {
+    "f": "puls3_flutter/lib/src/hire/session_wallet_store_web.dart",
+    "a": 26,
+    "d": 29
+   },
+   {
+    "f": "puls3_flutter/lib/src/hire/wallet_session.dart",
+    "a": 49,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/test/hire/fallback_session_wallet_store_test.dart",
+    "a": 88,
+    "d": 0
+   }
+  ]
+ },
+ "8a2317e50d56d611e262f06513865e873e37cacf": {
+  "team": "Puls3",
+  "repo": "Zer0-Knowledge-Hack/puls3",
+  "author": "TOMOKI977",
+  "date": "2026-11-25T03:51:27Z",
+  "message": "fix(app): one Confirm signs in at most twice when the server refuses the sign-in (#334)",
+  "parents": 1,
+  "files": [
+   {
+    "f": "puls3_flutter/lib/src/hire/hire_flow_controller.dart",
+    "a": 3,
+    "d": 1
+   },
+   {
+    "f": "puls3_flutter/lib/src/screens/hire_sheet.dart",
+    "a": 2,
+    "d": 1
+   },
+   {
+    "f": "puls3_flutter/test/screens/hire_sheet_test.dart",
+    "a": 16,
+    "d": 0
+   }
+  ]
+ },
+ "4b599b6bcf949b50e36f39d2d27b1338b112a690": {
+  "team": "Puls3",
+  "repo": "Zer0-Knowledge-Hack/puls3",
+  "author": "TOMOKI977",
+  "date": "2026-11-25T03:51:26Z",
+  "message": "fix(app): drop a session signed in after a disconnect, and reload once connecting signs in (#334)",
+  "parents": 1,
+  "files": [
+   {
+    "f": "puls3_flutter/lib/src/screens/hire_detail_screen.dart",
+    "a": 10,
+    "d": 2
+   },
+   {
+    "f": "puls3_flutter/lib/src/screens/my_hires_screen.dart",
+    "a": 8,
+    "d": 1
+   },
+   {
+    "f": "puls3_flutter/lib/src/state/wallet_controller.dart",
+    "a": 22,
+    "d": 3
+   },
+   {
+    "f": "puls3_flutter/test/screens/my_hires_screen_test.dart",
+    "a": 59,
+    "d": 3
+   },
+   {
+    "f": "puls3_flutter/test/state/wallet_controller_session_test.dart",
+    "a": 53,
+    "d": 0
+   }
+  ]
+ },
+ "f0e547cd53dcea02baca23eff6d7a29d595e206f": {
+  "team": "Puls3",
+  "repo": "Zer0-Knowledge-Hack/puls3",
+  "author": "TOMOKI977",
+  "date": "2026-11-25T03:04:01Z",
+  "message": "docs(api): record the Freighter signTransaction path as verified (#136) (#422)",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/architecture/api.md",
+    "a": 1,
+    "d": 2
+   }
+  ]
+ },
+ "cbbcd0c9f84ec621c5809913c65478f6cd3a71ca": {
+  "team": "Puls3",
+  "repo": "Zer0-Knowledge-Hack/puls3",
+  "author": "TOMOKI977",
+  "date": "2026-11-25T02:25:15Z",
+  "message": "docs(odd): record the #334 T8 delivery slices",
+  "parents": 1,
+  "files": [
+   {
+    "f": "odd/tasks/agent-subcontracting.md",
+    "a": 7,
+    "d": 0
+   }
+  ]
+ },
+ "3dc83fd1a2f9c5f0fd57f7bbf7249547ef01177a": {
+  "team": "Puls3",
+  "repo": "Zer0-Knowledge-Hack/puls3",
+  "author": "TOMOKI977",
+  "date": "2026-11-25T01:42:19Z",
+  "message": "fix(app): a reject with no reason sends a default one (#334)",
+  "parents": 1,
+  "files": [
+   {
+    "f": "odd/tasks/agent-subcontracting.md",
+    "a": 4,
+    "d": 1
+   },
+   {
+    "f": "puls3_flutter/lib/src/hire/hire_gateway.dart",
+    "a": 7,
+    "d": 2
+   },
+   {
+    "f": "puls3_flutter/lib/src/screens/hire_detail_screen.dart",
+    "a": 8,
+    "d": 1
+   },
+   {
+    "f": "puls3_flutter/test/screens/hire_detail_screen_test.dart",
+    "a": 2,
+    "d": 2
+   }
+  ]
+ },
+ "85b77d9294f8bf0c925134fe7abcebabfdfb1039": {
+  "team": "Puls3",
+  "repo": "Zer0-Knowledge-Hack/puls3",
+  "author": "TOMOKI977",
+  "date": "2026-11-25T01:30:56Z",
+  "message": "feat(studio): carry the subcontract opt-in from the web Studio to the server (#334)",
+  "parents": 1,
+  "files": [
+   {
+    "f": "odd/tasks/agent-subcontracting.md",
+    "a": 6,
+    "d": 1
+   },
+   {
+    "f": "puls3_client/lib/src/protocol/protocol.dart",
+    "a": 17,
+    "d": 0
+   },
+   {
+    "f": "puls3_client/lib/src/protocol/studio/agent_manifest_draft.dart",
+    "a": 20,
+    "d": 0
+   },
+   {
+    "f": "puls3_client/lib/src/protocol/studio/manifest_subcontract.dart",
+    "a": 94,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/lib/src/studio/server_studio_gateway.dart",
+    "a": 16,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/test/studio/server_studio_gateway_test.dart",
+    "a": 50,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/generated/protocol.dart",
+    "a": 17,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/generated/studio/agent_manifest_draft.dart",
+    "a": 20,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/generated/studio/manifest_subcontract.dart",
+    "a": 94,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/studio/agent_manifest_draft.spy.yaml",
+    "a": 2,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/studio/manifest_subcontract.spy.yaml",
+    "a": 7,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/studio/studio_draft_transport.dart",
+    "a": 12,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/test/studio/studio_endpoint_test.dart",
+    "a": 37,
+    "d": 0
+   }
+  ]
+ },
+ "9ec7ae1dd11e7e9124fa7994bad4096e7384cf4b": {
+  "team": "Puls3",
+  "repo": "Zer0-Knowledge-Hack/puls3",
+  "author": "XxHugheadxX",
+  "date": "2026-11-25T01:20:43Z",
+  "message": "docs(sdk): a live testnet run that prints every transaction (#302)",
+  "parents": 1,
+  "files": [
+   {
+    "f": "puls3_sdk_ts/examples/live-testnet.ts",
+    "a": 64,
+    "d": 0
+   },
+   {
+    "f": "puls3_sdk_ts/package.json",
+    "a": 2,
+    "d": 1
+   }
+  ]
+ },
+ "73dbf6541753cfbfbaea1a755c2931a032588dfd": {
+  "team": "Puls3",
+  "repo": "Zer0-Knowledge-Hack/puls3",
+  "author": "XxHugheadxX",
+  "date": "2026-11-25T01:08:52Z",
+  "message": "feat(sdk): sign with a developer key after checking each envelope (#302)",
+  "parents": 1,
+  "files": [
+   {
+    "f": ".github/workflows/ci.yml",
+    "a": 4,
+    "d": 0
+   },
+   {
+    "f": "README.md",
+    "a": 2,
+    "d": 1
+   },
+   {
+    "f": "puls3_sdk_ts/CHANGELOG.md",
+    "a": 16,
+    "d": 2
+   },
+   {
+    "f": "puls3_sdk_ts/README.md",
+    "a": 103,
+    "d": 7
+   },
+   {
+    "f": "puls3_sdk_ts/examples/quickstart.ts",
+    "a": 32,
+    "d": 0
+   },
+   {
+    "f": "puls3_sdk_ts/package-lock.json",
+    "a": 550,
+    "d": 0
+   },
+   {
+    "f": "puls3_sdk_ts/package.json",
+    "a": 3,
+    "d": 0
+   },
+   {
+    "f": "puls3_sdk_ts/src/errors.ts",
+    "a": 59,
+    "d": 0
+   },
+   {
+    "f": "puls3_sdk_ts/src/guard.ts",
+    "a": 408,
+    "d": 0
+   },
+   {
+    "f": "puls3_sdk_ts/src/index.ts",
+    "a": 24,
+    "d": 3
+   },
+   {
+    "f": "puls3_sdk_ts/src/key_session.ts",
+    "a": 149,
+    "d": 0
+   },
+   {
+    "f": "puls3_sdk_ts/src/models.ts",
+    "a": 93,
+    "d": 1
+   },
+   {
+    "f": "puls3_sdk_ts/src/network.ts",
+    "a": 72,
+    "d": 0
+   },
+   {
+    "f": "puls3_sdk_ts/src/sdk.ts",
+    "a": 501,
+    "d": 13
+   },
+   {
+    "f": "puls3_sdk_ts/src/signer.ts",
+    "a": 82,
+    "d": 0
+   },
+   {
+    "f": "puls3_sdk_ts/test/chain.ts",
+    "a": 250,
+    "d": 0
+   },
+   {
+    "f": "puls3_sdk_ts/test/flows.test.ts",
+    "a": 466,
+    "d": 0
+   },
+   {
+    "f": "puls3_sdk_ts/test/guard.test.ts",
+    "a": 363,
+    "d": 0
+   },
+   {
+    "f": "puls3_sdk_ts/test/real_envelopes.test.ts",
+    "a": 88,
+    "d": 0
+   },
+   {
+    "f": "puls3_sdk_ts/tsconfig.test.json",
+    "a": 1,
+    "d": 1
+   }
+  ]
+ },
+ "b8e9de8ad43dd59660cb4f1982c0c9aa3a0ceb56": {
+  "team": "Puls3",
+  "repo": "Zer0-Knowledge-Hack/puls3",
+  "author": "TOMOKI977",
+  "date": "2026-11-25T01:07:47Z",
+  "message": "docs(verification): record the #334 subcontracting run on testnet",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/verification/334-agent-subcontracting.md",
+    "a": 76,
+    "d": 0
+   },
+   {
+    "f": "odd/tasks/agent-subcontracting.md",
+    "a": 28,
+    "d": 3
+   }
+  ]
+ },
+ "7a55864d25292882972cab81be0c7e694047d39e": {
+  "team": "Puls3",
+  "repo": "Zer0-Knowledge-Hack/puls3",
+  "author": "XxHugheadxX",
+  "date": "2026-11-25T00:50:54Z",
+  "message": "feat(sdk): add a TypeScript SDK that reads and prepares (#302)",
+  "parents": 1,
+  "files": [
+   {
+    "f": ".github/workflows/ci.yml",
+    "a": 31,
+    "d": 4
+   },
+   {
+    "f": "README.md",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "docs/sdk/protocol.md",
+    "a": 121,
+    "d": 0
+   },
+   {
+    "f": "docs/sdk/sessions.md",
+    "a": 8,
+    "d": 1
+   },
+   {
+    "f": "puls3_sdk_ts/.gitignore",
+    "a": 3,
+    "d": 0
+   },
+   {
+    "f": "puls3_sdk_ts/CHANGELOG.md",
+    "a": 20,
+    "d": 0
+   },
+   {
+    "f": "puls3_sdk_ts/README.md",
+    "a": 117,
+    "d": 0
+   },
+   {
+    "f": "puls3_sdk_ts/package-lock.json",
+    "a": 51,
+    "d": 0
+   },
+   {
+    "f": "puls3_sdk_ts/package.json",
+    "a": 39,
+    "d": 0
+   },
+   {
+    "f": "puls3_sdk_ts/src/errors.ts",
+    "a": 80,
+    "d": 0
+   },
+   {
+    "f": "puls3_sdk_ts/src/index.ts",
+    "a": 48,
+    "d": 0
+   },
+   {
+    "f": "puls3_sdk_ts/src/models.ts",
+    "a": 493,
+    "d": 0
+   },
+   {
+    "f": "puls3_sdk_ts/src/sdk.ts",
+    "a": 287,
+    "d": 0
+   },
+   {
+    "f": "puls3_sdk_ts/src/session.ts",
+    "a": 383,
+    "d": 0
+   },
+   {
+    "f": "puls3_sdk_ts/src/transport.ts",
+    "a": 215,
+    "d": 0
+   },
+   {
+    "f": "puls3_sdk_ts/test/sdk.test.ts",
+    "a": 287,
+    "d": 0
+   },
+   {
+    "f": "puls3_sdk_ts/test/session.test.ts",
+    "a": 227,
+    "d": 0
+   },
+   {
+    "f": "puls3_sdk_ts/test/support.ts",
+    "a": 151,
+    "d": 0
+   },
+   {
+    "f": "puls3_sdk_ts/test/transport.test.ts",
+    "a": 192,
+    "d": 0
+   },
+   {
+    "f": "puls3_sdk_ts/tsconfig.json",
+    "a": 19,
+    "d": 0
+   },
+   {
+    "f": "puls3_sdk_ts/tsconfig.test.json",
+    "a": 9,
+    "d": 0
+   }
+  ]
+ },
+ "44db635764a2ebe0c818284c51fc792f3becb7c0": {
+  "team": "Puls3",
+  "repo": "Zer0-Knowledge-Hack/puls3",
+  "author": "TOMOKI977",
+  "date": "2026-11-25T00:45:32Z",
+  "message": "feat(app): connect signs in once and the hire form never prompts on its own (#334)",
+  "parents": 1,
+  "files": [
+   {
+    "f": "odd/tasks/agent-subcontracting.md",
+    "a": 86,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/lib/main.dart",
+    "a": 7,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/lib/src/app.dart",
+    "a": 6,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/lib/src/hire/create_session_wallet_store.dart",
+    "a": 2,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/lib/src/hire/hire_flow_controller.dart",
+    "a": 3,
+    "d": 2
+   },
+   {
+    "f": "puls3_flutter/lib/src/hire/session_wallet_store_stub.dart",
+    "a": 3,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/lib/src/hire/session_wallet_store_web.dart",
+    "a": 50,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/lib/src/hire/wallet_session.dart",
+    "a": 7,
+    "d": 3
+   },
+   {
+    "f": "puls3_flutter/lib/src/screens/hire_sheet.dart",
+    "a": 73,
+    "d": 14
+   },
+   {
+    "f": "puls3_flutter/lib/src/state/wallet_controller.dart",
+    "a": 74,
+    "d": 8
+   },
+   {
+    "f": "puls3_flutter/lib/src/ui/organisms/wallet_panel.dart",
+    "a": 33,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/test/screens/hire_sheet_test.dart",
+    "a": 205,
+    "d": 1
+   },
+   {
+    "f": "puls3_flutter/test/state/wallet_controller_session_test.dart",
+    "a": 150,
+    "d": 0
+   }
+  ]
+ },
+ "cfde93945627c1002c3008fe9a20a3336978f585": {
+  "team": "Puls3",
+  "repo": "Zer0-Knowledge-Hack/puls3",
+  "author": "TOMOKI977",
+  "date": "2026-11-24T22:36:23Z",
+  "message": "docs(odd): record T8.0 of #334",
+  "parents": 1,
+  "files": [
+   {
+    "f": "odd/tasks/agent-subcontracting.md",
+    "a": 45,
+    "d": 0
+   }
+  ]
+ },
+ "d7f12cbd5769368b1298d9adc4dc7b5aaa3c6160": {
+  "team": "Puls3",
+  "repo": "Zer0-Knowledge-Hack/puls3",
+  "author": "TOMOKI977",
+  "date": "2026-11-24T22:35:38Z",
+  "message": "feat(studio): enable the subcontract opt-in for the free Mistral model (#334)",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/studio/builder-guide.md",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "puls3_flutter/lib/l10n/app_en.arb",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "puls3_flutter/lib/l10n/app_es.arb",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "puls3_flutter/lib/l10n/app_pt.arb",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "puls3_flutter/lib/l10n/app_pt_BR.arb",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "puls3_flutter/lib/l10n/app_pt_PT.arb",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "puls3_flutter/lib/l10n/generated/app_localizations.dart",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "puls3_flutter/lib/l10n/generated/app_localizations_en.dart",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "puls3_flutter/lib/l10n/generated/app_localizations_es.dart",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "puls3_flutter/lib/l10n/generated/app_localizations_pt.dart",
+    "a": 3,
+    "d": 3
+   },
+   {
+    "f": "puls3_flutter/lib/src/studio/studio_form_check.dart",
+    "a": 3,
+    "d": 2
+   },
+   {
+    "f": "puls3_flutter/lib/src/studio/studio_models.dart",
+    "a": 17,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/lib/src/ui/organisms/agent_form.dart",
+    "a": 4,
+    "d": 3
+   },
+   {
+    "f": "puls3_flutter/test/screens/studio_screen_test.dart",
+    "a": 25,
+    "d": 5
+   },
+   {
+    "f": "puls3_flutter/test/studio/studio_form_check_test.dart",
+    "a": 21,
+    "d": 1
+   }
+  ]
+ },
+ "6d10d5d4e889ddfae42f353e761e4980ddce6fac": {
+  "team": "Puls3",
+  "repo": "Zer0-Knowledge-Hack/puls3",
+  "author": "TOMOKI977",
+  "date": "2026-11-24T22:35:37Z",
+  "message": "feat(runtime): subcontract on the Workers AI free tier with Mistral Small 3.1 (#334)",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/adr/0011-budget-bearing-escrow-and-agent-subcontracting.md",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "docs/cli/run-locally.md",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "puls3_cli/lib/src/local_run.dart",
+    "a": 4,
+    "d": 1
+   },
+   {
+    "f": "puls3_server/README.md",
+    "a": 8,
+    "d": 3
+   },
+   {
+    "f": "puls3_server/lib/src/runtime/adapters/workers_ai_runtime.dart",
+    "a": 189,
+    "d": 10
+   },
+   {
+    "f": "puls3_server/lib/src/runtime/hire_runner.dart",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "puls3_server/lib/src/runtime/tool_loop.dart",
+    "a": 14,
+    "d": 7
+   },
+   {
+    "f": "puls3_server/lib/src/studio/studio_model_policy.dart",
+    "a": 6,
+    "d": 1
+   },
+   {
+    "f": "puls3_server/test/unit/runtime/tool_loop_test.dart",
+    "a": 29,
+    "d": 3
+   },
+   {
+    "f": "puls3_server/test/unit/runtime/workers_ai_converse_test.dart",
+    "a": 341,
+    "d": 1
+   },
+   {
+    "f": "puls3_server/test/unit/studio/studio_model_policy_test.dart",
+    "a": 31,
+    "d": 0
+   }
+  ]
+ },
+ "cf289c8d27685a620d67ebd47ea2cad55ce1eb4a": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-25T13:49:07Z",
+  "message": "La demostración acepta la cantidad de personas con n",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/main.test.ts",
+    "a": 15,
+    "d": 0
+   },
+   {
+    "f": "src/main.ts",
+    "a": 8,
+    "d": 9
+   },
+   {
+    "f": "src/state.test.ts",
+    "a": 25,
+    "d": 0
+   },
+   {
+    "f": "src/state.ts",
+    "a": 22,
+    "d": 0
+   }
+  ]
+ },
+ "2ea70bdcccf83d078a5986a00cf3374cf067ab30": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-25T13:48:18Z",
+  "message": "La presentación de la espera aparece solo si entran todas las personas",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/ux.md",
+    "a": 2,
+    "d": 0
+   },
+   {
+    "f": "src/i18n.ts",
+    "a": 0,
+    "d": 4
+   },
+   {
+    "f": "src/styles.css",
+    "a": 4,
+    "d": 4
+   },
+   {
+    "f": "src/ui/espera.test.ts",
+    "a": 39,
+    "d": 30
+   },
+   {
+    "f": "src/ui/games-teaser.test.ts",
+    "a": 97,
+    "d": 85
+   },
+   {
+    "f": "src/ui/games-teaser.ts",
+    "a": 24,
+    "d": 16
+   }
+  ]
+ },
+ "44f4ea916fe6ff27b6f0a1061486d20ec420f432": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-25T13:35:29Z",
+  "message": "La presentación de la espera cede ante el reloj y las cintas",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/styles.css",
+    "a": 3,
+    "d": 0
+   },
+   {
+    "f": "src/ui/espera.test.ts",
+    "a": 73,
+    "d": 0
+   },
+   {
+    "f": "src/ui/espera.ts",
+    "a": 8,
+    "d": 0
+   },
+   {
+    "f": "src/ui/games-teaser.test.ts",
+    "a": 4,
+    "d": 0
+   }
+  ]
+ },
+ "43a63437f0a2c109b911443b710614de64e0e3e4": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-25T13:35:28Z",
+  "message": "Con la pregunta de dejar la campaña abierta, el avance del paso no se pierde",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/ui/campana-sala.test.ts",
+    "a": 31,
+    "d": 0
+   },
+   {
+    "f": "src/ui/campana-sala.ts",
+    "a": 13,
+    "d": 2
+   }
+  ]
+ },
+ "e6180f144d95f14741b4b0d7cb15ff02cb953812": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-25T13:11:27Z",
+  "message": "La presentación decide cuántas tarjetas por el ancho y no se recorta",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/i18n.ts",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "src/styles.css",
+    "a": 3,
+    "d": 3
+   },
+   {
+    "f": "src/ui/espera.test.ts",
+    "a": 38,
+    "d": 2
+   },
+   {
+    "f": "src/ui/espera.ts",
+    "a": 8,
+    "d": 2
+   },
+   {
+    "f": "src/ui/games-teaser.test.ts",
+    "a": 108,
+    "d": 4
+   },
+   {
+    "f": "src/ui/games-teaser.ts",
+    "a": 26,
+    "d": 5
+   }
+  ]
+ },
+ "ebc5f44d724f714c7c6d79ba95877a056c3e184d": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-25T13:11:17Z",
+  "message": "El pie de la lista cerrada conserva la hora y la línea de elegir dice qué hacer",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/campana/textos-sala.test.ts",
+    "a": 8,
+    "d": 1
+   },
+   {
+    "f": "src/campana/textos-sala.ts",
+    "a": 4,
+    "d": 4
+   },
+   {
+    "f": "src/ui/campana-sala.test.ts",
+    "a": 11,
+    "d": 1
+   },
+   {
+    "f": "src/ui/campana-sala.ts",
+    "a": 1,
+    "d": 1
+   }
+  ]
+ },
+ "6b7ebb3db8e963e13caa216bf3215f30d863cebc": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-25T13:11:12Z",
+  "message": "Elegir otro archivo pregunta antes de dejar la sala si falta avisar",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/ux.md",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/campana/puente.test.ts",
+    "a": 37,
+    "d": 12
+   },
+   {
+    "f": "src/campana/puente.ts",
+    "a": 9,
+    "d": 17
+   },
+   {
+    "f": "src/ui/campana-sala.test.ts",
+    "a": 89,
+    "d": 5
+   },
+   {
+    "f": "src/ui/campana-sala.ts",
+    "a": 8,
+    "d": 5
+   }
+  ]
+ },
+ "2fd4d9d2e2c43357414d6376e74735cdf7e417ee": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-25T13:07:32Z",
+  "message": "Se sacan las siglas de reglas y las rayas largas de la presentación",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/ui/espera.test.ts",
+    "a": 3,
+    "d": 3
+   },
+   {
+    "f": "src/ui/games-teaser.test.ts",
+    "a": 3,
+    "d": 3
+   },
+   {
+    "f": "src/ui/games-teaser.ts",
+    "a": 3,
+    "d": 3
+   }
+  ]
+ },
+ "b31d048d5ac9381d911b4ecffb36700505924938": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-25T11:54:52Z",
+  "message": "La regla de la pantalla baja de la presentación va después de la de la barra",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/styles.css",
+    "a": 5,
+    "d": 2
+   }
+  ]
+ },
+ "f73185d3f935c3a1426639db01c44697307f1429": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-25T11:49:32Z",
+  "message": "La lista cerrada dice su consecuencia solo cuando ningún paso habla",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/ui/campana-sala.ts",
+    "a": 3,
+    "d": 1
+   }
+  ]
+ },
+ "d2e10800079c910ef8daff42adb3979c8fd55790": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-25T11:49:31Z",
+  "message": "La prueba de la presentación espera la captura clara sin tema oscuro",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/ui/games-teaser.test.ts",
+    "a": 2,
+    "d": 2
+   }
+  ]
+ },
+ "06dd8b3e81c33a5a5af93f87ef49a956cab35f8f": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-25T11:48:45Z",
+  "message": "La presentación de la espera se esconde en la pantalla baja sin duplicar el bloque",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/styles.css",
+    "a": 2,
+    "d": 4
+   }
+  ]
+ },
+ "e3452e349114170fc644e03967b49737e91d8757": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-25T11:41:33Z",
+  "message": "Armar otra campaña pregunta antes de dejar la sala si falta avisar",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/operacion.md",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "docs/ux.md",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/campana/puente.test.ts",
+    "a": 22,
+    "d": 1
+   },
+   {
+    "f": "src/campana/puente.ts",
+    "a": 23,
+    "d": 0
+   },
+   {
+    "f": "src/ui/campana-sala-puente.test.ts",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "src/ui/campana-sala.test.ts",
+    "a": 101,
+    "d": 18
+   },
+   {
+    "f": "src/ui/campana-sala.ts",
+    "a": 20,
+    "d": 3
+   }
+  ]
+ },
+ "519ae9ee2173fa6b337c0a18ca320ef29218659d": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-25T11:41:00Z",
+  "message": "Con 150 personas, un toque en Cerrar la lista no cierra la inscripción",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/ui/campana-sala.test.ts",
+    "a": 20,
+    "d": 0
+   }
+  ]
+ },
+ "5b01e307eaf30382ad814437f8f4baec8b345420": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "GuidoSV7",
+  "date": "2026-11-25T11:39:16Z",
+  "message": "El panel de la campaña arma otra campaña y dice qué pasa al cerrar",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/ux.md",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/campana/textos-sala.ts",
+    "a": 6,
+    "d": 4
+   },
+   {
+    "f": "src/ui/campana-sala-puente.test.ts",
+    "a": 2,
+    "d": 3
+   },
+   {
+    "f": "src/ui/campana-sala.test.ts",
+    "a": 23,
+    "d": 2
+   },
+   {
+    "f": "src/ui/campana-sala.ts",
+    "a": 5,
+    "d": 3
+   }
+  ]
+ },
+ "8299fd5db9a00c532ab60b7b73b10495ddc13b41": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-25T11:36:42Z",
+  "message": "La presentación de la espera tiene tope y una sola imagen por tarjeta",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/i18n.ts",
+    "a": 4,
+    "d": 0
+   },
+   {
+    "f": "src/styles.css",
+    "a": 20,
+    "d": 0
+   },
+   {
+    "f": "src/ui/espera.test.ts",
+    "a": 14,
+    "d": 0
+   },
+   {
+    "f": "src/ui/espera.ts",
+    "a": 2,
+    "d": 0
+   },
+   {
+    "f": "src/ui/games-teaser.test.ts",
+    "a": 101,
+    "d": 6
+   },
+   {
+    "f": "src/ui/games-teaser.ts",
+    "a": 31,
+    "d": 15
+   }
+  ]
+ },
+ "033ab431242f66f4fc1560bd24de93883e5dcf31": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "GuidoSV7",
+  "date": "2026-11-23T19:13:31Z",
+  "message": "feat(espera): la lista sellada se presenta persona por persona durante la cuenta",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/i18n.test.ts",
+    "a": 12,
+    "d": 0
+   },
+   {
+    "f": "src/i18n.ts",
+    "a": 9,
+    "d": 0
+   },
+   {
+    "f": "src/ui/espera.test.ts",
+    "a": 60,
+    "d": 0
+   },
+   {
+    "f": "src/ui/espera.ts",
+    "a": 23,
+    "d": 1
+   },
+   {
+    "f": "src/ui/games-teaser.test.ts",
+    "a": 73,
+    "d": 0
+   },
+   {
+    "f": "src/ui/games-teaser.ts",
+    "a": 81,
+    "d": 0
+   }
+  ]
+ },
+ "8a17f81464d42aef51b1a0d07725b15aeaf84d63": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-25T13:10:34Z",
+  "message": "La prueba de la hoja de operación del aviso de cuentas no cortaba bien las líneas",
+  "parents": 1,
+  "files": [
+   {
+    "f": "workers/vigilante/src/documentos.test.ts",
+    "a": 2,
+    "d": 4
+   }
+  ]
+ },
+ "8586090cf3233eaa560d058ac67e2ade14887582": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-25T13:06:15Z",
+  "message": "El aviso de cuentas nuevas ya no manda a pausar lo que no las frena",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/operacion.md",
+    "a": 4,
+    "d": 1
+   },
+   {
+    "f": "workers/vigilante/README.md",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "workers/vigilante/src/cuentas.test.ts",
+    "a": 16,
+    "d": 0
+   },
+   {
+    "f": "workers/vigilante/src/documentos.test.ts",
+    "a": 26,
+    "d": 1
+   },
+   {
+    "f": "workers/vigilante/src/mensaje.ts",
+    "a": 10,
+    "d": 2
+   }
+  ]
+ },
+ "c74ec7b9d1cb076be78e52e8ab779de453407ae2": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-25T12:42:10Z",
+  "message": "Las cuentas nuevas se cuentan con la consulta de uso por ventana de tiempo",
+  "parents": 1,
+  "files": [
+   {
+    "f": "workers/patrocinio/README.md",
+    "a": 9,
+    "d": 0
+   },
+   {
+    "f": "workers/patrocinio/src/altas-prueba.ts",
+    "a": 14,
+    "d": 0
+   },
+   {
+    "f": "workers/patrocinio/src/lectura-cuentas.test.ts",
+    "a": 40,
+    "d": 86
+   },
+   {
+    "f": "workers/patrocinio/src/lectura-cuentas.ts",
+    "a": 38,
+    "d": 87
+   },
+   {
+    "f": "workers/patrocinio/src/pollar-uso-cuentas.test.ts",
+    "a": 131,
+    "d": 0
+   },
+   {
+    "f": "workers/patrocinio/src/pollar.ts",
+    "a": 44,
+    "d": 1
+   },
+   {
+    "f": "workers/patrocinio/src/rutas-altas.test.ts",
+    "a": 43,
+    "d": 30
+   },
+   {
+    "f": "workers/patrocinio/src/rutas-altas.ts",
+    "a": 7,
+    "d": 14
+   },
+   {
+    "f": "workers/patrocinio/src/vigilancia-cuentas-falla.test.ts",
+    "a": 6,
+    "d": 4
+   },
+   {
+    "f": "workers/patrocinio/src/vigilancia.test.ts",
+    "a": 6,
+    "d": 6
+   },
+   {
+    "f": "workers/vigilante/src/documentos.test.ts",
+    "a": 8,
+    "d": 6
+   }
+  ]
+ },
+ "00194d4e4f6dc730f56adb5d901d2e8848440a95": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-25T12:39:25Z",
+  "message": "El aviso de cuentas nuevas se lee de una ventana corrida de 60 minutos",
+  "parents": 1,
+  "files": [
+   {
+    "f": "workers/vigilante/README.md",
+    "a": 11,
+    "d": 3
+   },
+   {
+    "f": "workers/vigilante/src/cuentas.test.ts",
+    "a": 82,
+    "d": 133
+   },
+   {
+    "f": "workers/vigilante/src/cuentas.ts",
+    "a": 51,
+    "d": 76
+   },
+   {
+    "f": "workers/vigilante/src/mensaje.ts",
+    "a": 5,
+    "d": 10
+   },
+   {
+    "f": "workers/vigilante/src/vuelta.ts",
+    "a": 18,
+    "d": 18
+   },
+   {
+    "f": "workers/vigilante/wrangler.toml",
+    "a": 1,
+    "d": 1
+   }
+  ]
+ },
+ "c00925d8d11120915c6b52d2f47a3e144a98e7f7": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-25T11:47:15Z",
+  "message": "El vigilante avisa si el portero no puede contar las cuentas nuevas",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/operacion.md",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "workers/vigilante/README.md",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "workers/vigilante/src/cuentas.test.ts",
+    "a": 45,
+    "d": 0
+   },
+   {
+    "f": "workers/vigilante/src/documentos.test.ts",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "workers/vigilante/src/mensaje.test.ts",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "workers/vigilante/src/mensaje.ts",
+    "a": 7,
+    "d": 0
+   },
+   {
+    "f": "workers/vigilante/src/vuelta.ts",
+    "a": 18,
+    "d": 3
+   }
+  ]
+ },
+ "30009ffd87d242ae061c0e8d9477ff739626be6c": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-25T11:46:12Z",
+  "message": "El aviso de cuentas cuenta la última hora corrida y no solo la de reloj",
+  "parents": 1,
+  "files": [
+   {
+    "f": "workers/vigilante/src/cuentas.test.ts",
+    "a": 29,
+    "d": 0
+   },
+   {
+    "f": "workers/vigilante/src/cuentas.ts",
+    "a": 29,
+    "d": 4
+   },
+   {
+    "f": "workers/vigilante/src/vuelta.ts",
+    "a": 1,
+    "d": 0
+   }
+  ]
+ },
+ "d28befa794622bf15381eda91d7b00069f544a6e": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-25T11:45:09Z",
+  "message": "Una fecha enorme de Pollar ya no deja ciego al estado del portero",
+  "parents": 1,
+  "files": [
+   {
+    "f": "workers/patrocinio/src/lectura-cuentas.test.ts",
+    "a": 10,
+    "d": 0
+   },
+   {
+    "f": "workers/patrocinio/src/lectura-cuentas.ts",
+    "a": 6,
+    "d": 2
+   },
+   {
+    "f": "workers/patrocinio/src/rutas-altas.test.ts",
+    "a": 15,
+    "d": 0
+   },
+   {
+    "f": "workers/patrocinio/src/rutas-altas.ts",
+    "a": 10,
+    "d": 1
+   },
+   {
+    "f": "workers/patrocinio/src/vigilancia-cuentas-falla.test.ts",
+    "a": 21,
+    "d": 0
+   },
+   {
+    "f": "workers/vigilante/src/documentos.test.ts",
+    "a": 3,
+    "d": 1
+   }
+  ]
+ },
+ "f4114b68f4b5b6f3c4a4a44183807f82f05d2501": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-25T11:44:11Z",
+  "message": "La huella de las bases rechaza lo que JSON no escribe y fija su orden",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/campana/huella-de-bases.test.ts",
+    "a": 35,
+    "d": 0
+   },
+   {
+    "f": "src/campana/huella-de-bases.ts",
+    "a": 13,
+    "d": 3
+   }
+  ]
+ },
+ "b6375847eb625d7baebdb9a768663ee91e9caaff": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-25T11:43:07Z",
+  "message": "Los premios de la cuenta dicen cuando venció el plazo o falta confirmar",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/campana/premios-de-la-cuenta.test.ts",
+    "a": 48,
+    "d": 13
+   },
+   {
+    "f": "src/campana/premios-de-la-cuenta.ts",
+    "a": 18,
+    "d": 8
+   },
+   {
+    "f": "src/campana/textos-premios.test.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/campana/textos-premios.ts",
+    "a": 4,
+    "d": 0
+   },
+   {
+    "f": "src/ui/premios-lista.test.ts",
+    "a": 18,
+    "d": 0
+   },
+   {
+    "f": "src/ui/premios-lista.ts",
+    "a": 21,
+    "d": 4
+   }
+  ]
+ },
+ "716d4590882bdefdf87d6f33195a866d89878b2d": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-25T11:39:43Z",
+  "message": "La decisión de entregas no adivina sin la hora y respeta lo ya cobrado",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/stellar/entregas-decision.test.ts",
+    "a": 20,
+    "d": 0
+   },
+   {
+    "f": "src/stellar/entregas-decision.ts",
+    "a": 6,
+    "d": 5
+   }
+  ]
+ },
+ "d186f0dae7a99cca76d2d87a3f65fa45da42ab55": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-25T11:19:42Z",
+  "message": "Las pruebas de documentos y de premios siguen los arreglos anteriores",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/campana/premios-de-la-cuenta.test.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "workers/vigilante/src/documentos.test.ts",
+    "a": 1,
+    "d": 2
+   }
+  ]
+ },
+ "150536ddaa63e143bbd44ef0f47a4e5e4d2e0023": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-25T11:12:59Z",
+  "message": "La huella de las bases lanza con NaN e infinitos",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/campana/huella-de-bases.test.ts",
+    "a": 7,
+    "d": 0
+   },
+   {
+    "f": "src/campana/huella-de-bases.ts",
+    "a": 2,
+    "d": 1
+   }
+  ]
+ },
+ "c58b8b576b1b77987b251ee963f1e288febf88b3": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-25T11:12:58Z",
+  "message": "La decisión de entregas no adivina con un plazo que no es un número",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/stellar/entregas-decision.test.ts",
+    "a": 10,
+    "d": 0
+   },
+   {
+    "f": "src/stellar/entregas-decision.ts",
+    "a": 2,
+    "d": 0
+   }
+  ]
+ },
+ "00837f9afd1e49b2083664ccafb307f455bcfff7": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-25T11:12:58Z",
+  "message": "El monto de la lista de premios sale del texto y no pierde cifras",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/ui/premios-lista.test.ts",
+    "a": 10,
+    "d": 1
+   },
+   {
+    "f": "src/ui/premios-lista.ts",
+    "a": 9,
+    "d": 1
+   }
+  ]
+ },
+ "b0c6dee148376364495d8d993c0d612b715cb9b5": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-25T11:12:58Z",
+  "message": "Los premios de la cuenta no inventan uno si no se lee el estado",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/campana/premios-de-la-cuenta.test.ts",
+    "a": 7,
+    "d": 8
+   },
+   {
+    "f": "src/campana/premios-de-la-cuenta.ts",
+    "a": 12,
+    "d": 18
+   }
+  ]
+ },
+ "318d80b3fb91374ca9ad13aed79d67babc5b77db": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-25T11:12:57Z",
+  "message": "El aviso de cuentas anota si no hay conteo y apaga las activaciones",
+  "parents": 1,
+  "files": [
+   {
+    "f": "workers/vigilante/README.md",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "workers/vigilante/src/cuentas.test.ts",
+    "a": 21,
+    "d": 4
+   },
+   {
+    "f": "workers/vigilante/src/cuentas.ts",
+    "a": 9,
+    "d": 3
+   },
+   {
+    "f": "workers/vigilante/src/documentos.test.ts",
+    "a": 7,
+    "d": 0
+   },
+   {
+    "f": "workers/vigilante/src/vuelta.ts",
+    "a": 2,
+    "d": 1
+   },
+   {
+    "f": "workers/vigilante/wrangler.toml",
+    "a": 2,
+    "d": 1
+   }
+  ]
+ },
+ "7c7a2f58d7d87bc2f8ce6ea804bf7ccc6e70a98a": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-25T11:00:38Z",
+  "message": "El aviso de cuentas nuevas cuenta la página llena como un piso",
+  "parents": 1,
+  "files": [
+   {
+    "f": "workers/vigilante/src/cuentas.test.ts",
+    "a": 9,
+    "d": 0
+   },
+   {
+    "f": "workers/vigilante/src/cuentas.ts",
+    "a": 5,
+    "d": 2
+   }
+  ]
+ },
+ "8c8a655b223574af0d3085681b3f0666e8fd60a2": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-25T10:53:50Z",
+  "message": "Los comentarios de las piezas de premios no nombran lo que no entra",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/campana/huella-de-bases.test.ts",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "src/campana/huella-de-bases.ts",
+    "a": 3,
+    "d": 4
+   },
+   {
+    "f": "src/campana/textos-premios.ts",
+    "a": 2,
+    "d": 3
+   },
+   {
+    "f": "src/ui/premios-lista.ts",
+    "a": 1,
+    "d": 1
+   }
+  ]
+ },
+ "df4470674a6e246b7ac7836ed8253b8dc7e97cd4": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-25T10:53:07Z",
+  "message": "El aviso de cuentas nuevas por hora usa 200 de umbral por defecto",
+  "parents": 1,
+  "files": [
+   {
+    "f": "workers/patrocinio/src/lectura-cuentas.ts",
+    "a": 3,
+    "d": 3
+   },
+   {
+    "f": "workers/vigilante/README.md",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "workers/vigilante/src/cuentas.test.ts",
+    "a": 13,
+    "d": 6
+   },
+   {
+    "f": "workers/vigilante/src/cuentas.ts",
+    "a": 3,
+    "d": 3
+   },
+   {
+    "f": "workers/vigilante/src/documentos.test.ts",
+    "a": 9,
+    "d": 0
+   },
+   {
+    "f": "workers/vigilante/wrangler.toml",
+    "a": 2,
+    "d": 2
+   }
+  ]
+ },
+ "9cb7e8716a93ead581fcf0a5f369fd28b0f9fa81": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-25T10:53:07Z",
+  "message": "El plazo para cobrar de la decisión de entregas llega como dato",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/stellar/entregas-decision.test.ts",
+    "a": 29,
+    "d": 15
+   },
+   {
+    "f": "src/stellar/entregas-decision.ts",
+    "a": 10,
+    "d": 6
+   }
+  ]
+ },
+ "7655b45cd9b2abf248addc95a87d0a9aa3bcf3f5": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "GuidoSV7",
+  "date": "2026-11-22T20:03:18Z",
+  "message": "feat(campañas): los premios de la cuenta leídos de la red, con sus textos en los dos idiomas",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/campana/premios-de-la-cuenta.test.ts",
+    "a": 138,
+    "d": 0
+   },
+   {
+    "f": "src/campana/premios-de-la-cuenta.ts",
+    "a": 96,
+    "d": 0
+   },
+   {
+    "f": "src/campana/textos-premios.test.ts",
+    "a": 51,
+    "d": 0
+   },
+   {
+    "f": "src/campana/textos-premios.ts",
+    "a": 108,
+    "d": 0
+   }
+  ]
+ },
+ "cb5acec4f5944baebf8901e1b5253f836182923f": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "GuidoSV7",
+  "date": "2026-11-22T20:03:32Z",
+  "message": "feat(campañas): las filas de Tus premios, puras y por idioma",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/ui/premios-lista.test.ts",
+    "a": 63,
+    "d": 0
+   },
+   {
+    "f": "src/ui/premios-lista.ts",
+    "a": 55,
+    "d": 0
+   }
+  ]
+ },
+ "53c15ea9996b87afdecefe2731997376688edd55": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "GuidoSV7",
+  "date": "2026-11-23T16:46:24Z",
+  "message": "feat(campañas): la huella de las bases con su canon compartido",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/campana/huella-de-bases.test.ts",
+    "a": 46,
+    "d": 0
+   },
+   {
+    "f": "src/campana/huella-de-bases.ts",
+    "a": 36,
+    "d": 0
+   }
+  ]
+ },
+ "26239ebf303cbeea9dce30a9970e1e40a511704a": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "GuidoSV7",
+  "date": "2026-11-23T12:55:42Z",
+  "message": "feat(vigilante): el aviso cuando las cuentas nuevas por hora pasan un umbral",
+  "parents": 1,
+  "files": [
+   {
+    "f": "workers/patrocinio/src/lectura-cuentas.test.ts",
+    "a": 87,
+    "d": 0
+   },
+   {
+    "f": "workers/patrocinio/src/lectura-cuentas.ts",
+    "a": 98,
+    "d": 0
+   },
+   {
+    "f": "workers/patrocinio/src/rutas-altas.test.ts",
+    "a": 19,
+    "d": 0
+   },
+   {
+    "f": "workers/patrocinio/src/rutas-altas.ts",
+    "a": 4,
+    "d": 0
+   },
+   {
+    "f": "workers/patrocinio/src/vigilancia.test.ts",
+    "a": 3,
+    "d": 0
+   },
+   {
+    "f": "workers/vigilante/README.md",
+    "a": 9,
+    "d": 0
+   },
+   {
+    "f": "workers/vigilante/src/cuentas.test.ts",
+    "a": 196,
+    "d": 0
+   },
+   {
+    "f": "workers/vigilante/src/cuentas.ts",
+    "a": 117,
+    "d": 0
+   },
+   {
+    "f": "workers/vigilante/src/documentos.test.ts",
+    "a": 4,
+    "d": 0
+   },
+   {
+    "f": "workers/vigilante/src/mensaje.ts",
+    "a": 35,
+    "d": 0
+   },
+   {
+    "f": "workers/vigilante/src/vuelta.ts",
+    "a": 41,
+    "d": 2
+   },
+   {
+    "f": "workers/vigilante/wrangler.toml",
+    "a": 6,
+    "d": 0
+   }
+  ]
+ },
+ "1eb7092f0782b1d36b67e7211455fcab6619314f": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "GuidoSV7",
+  "date": "2026-11-23T12:34:18Z",
+  "message": "feat(entregas): la decisión pura de qué premio se entrega, test-first",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/stellar/entregas-decision.test.ts",
+    "a": 200,
+    "d": 0
+   },
+   {
+    "f": "src/stellar/entregas-decision.ts",
+    "a": 123,
+    "d": 0
+   }
+  ]
+ },
+ "3a7d6c1bec05ee481cd6f39b632a755412fa74d0": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-25T13:09:24Z",
+  "message": "Arregla la lectura del fuente en la prueba de la retoma paciente",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/ui/retoma-paciente-ui.test.ts",
+    "a": 1,
+    "d": 3
+   }
+  ]
+ },
+ "1386023d195057651167cc1c19846e722f777550": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-25T13:06:14Z",
+  "message": "Entrar espera la primera mirada de la retoma, no un segundo",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/ui/retoma-paciente-ui.test.ts",
+    "a": 35,
+    "d": 19
+   },
+   {
+    "f": "src/ui/wallet-ui.ts",
+    "a": 8,
+    "d": 21
+   }
+  ]
+ },
+ "d82d9a64eca3b73e66a9db69acc27dcc718f0299": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-25T12:34:16Z",
+  "message": "La prueba de la cuenta sin suma ya no falla cuando la cuenta termina en A",
+  "parents": 1,
+  "files": [
+   {
+    "f": "workers/patrocinio/src/organizadora.test.ts",
+    "a": 3,
+    "d": 1
+   }
+  ]
+ },
+ "1d6903a3690ea40ba2a11d11869ce1da998698cd": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-25T12:30:26Z",
+  "message": "Asegurar la sesión espera ocho segundos, no los treinta de la cabecera",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/equipos-registro-ventana.test.ts",
+    "a": 13,
+    "d": 0
+   },
+   {
+    "f": "src/equipos-registro.ts",
+    "a": 4,
+    "d": 1
+   },
+   {
+    "f": "src/stellar/wallet-pollar.test.ts",
+    "a": 25,
+    "d": 0
+   },
+   {
+    "f": "src/stellar/wallet-pollar.ts",
+    "a": 13,
+    "d": 8
+   }
+  ]
+ },
+ "9fbfc7f9352aba82df238288f6d5983a5a38e14e": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-25T12:03:48Z",
+  "message": "Ajusta las pruebas de la cabecera con la retoma que corre por detrás",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/ui/retoma-cabecera.test.ts",
+    "a": 2,
+    "d": 1
+   },
+   {
+    "f": "src/ui/retoma-paciente-ui.test.ts",
+    "a": 42,
+    "d": 25
+   }
+  ]
+ },
+ "48a4e8093a44f5700f8357cfb97cc007d86a04e1": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-25T11:57:44Z",
+  "message": "Arregla el texto de la prueba del fusible de la cabecera",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/ui/retoma-fusible.test.ts",
+    "a": 33,
+    "d": 35
+   }
+  ]
+ },
+ "110fc30420e7a839421d74fe3cca42e7552e9396": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-25T11:54:47Z",
+  "message": "La retoma de Google corre por detrás y la pantalla vuelve a los 8 y 12 s",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/stellar/pollar-config.ts",
+    "a": 6,
+    "d": 4
+   },
+   {
+    "f": "src/stellar/wallet-pollar.test.ts",
+    "a": 73,
+    "d": 0
+   },
+   {
+    "f": "src/stellar/wallet-pollar.ts",
+    "a": 26,
+    "d": 11
+   },
+   {
+    "f": "src/ui/retoma-cabecera.test.ts",
+    "a": 10,
+    "d": 9
+   },
+   {
+    "f": "src/ui/retoma-fusible.test.ts",
+    "a": 35,
+    "d": 32
+   },
+   {
+    "f": "src/ui/retoma-paciente-ui.test.ts",
+    "a": 237,
+    "d": 0
+   },
+   {
+    "f": "src/ui/wallet-ui.ts",
+    "a": 45,
+    "d": 11
+   }
+  ]
+ },
+ "57f4832beb903b51298502e9d0bceb27cabb5ad1": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-25T11:53:59Z",
+  "message": "El tope de conteos por conexión sube a 5.000 por hora",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/architecture.md",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "workers/enlaces/src/conteo.test.ts",
+    "a": 13,
+    "d": 0
+   },
+   {
+    "f": "workers/enlaces/src/conteo.ts",
+    "a": 7,
+    "d": 0
+   },
+   {
+    "f": "workers/enlaces/src/index.ts",
+    "a": 1,
+    "d": 3
+   }
+  ]
+ },
+ "48251483e8397a3ca5151f596df2d9f1b0d4d02c": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-25T11:53:46Z",
+  "message": "Los Términos nombran el origen tarjeta que el conteo ya acepta",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/contar.test.ts",
+    "a": 23,
+    "d": 1
+   },
+   {
+    "f": "src/i18n.ts",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "terminos.html",
+    "a": 1,
+    "d": 1
+   }
+  ]
+ },
+ "899c7f556607514839c4418a94470ebc33c1cd3e": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-25T11:53:36Z",
+  "message": "Las etapas que el servicio viejo no conoce no se mandan en vano",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/contar-servicio-viejo.test.ts",
+    "a": 43,
+    "d": 2
+   },
+   {
+    "f": "src/contar.ts",
+    "a": 43,
+    "d": 2
+   },
+   {
+    "f": "workers/enlaces/README.md",
+    "a": 4,
+    "d": 1
+   }
+  ]
+ },
+ "0f915350470569c60bfc6b965d20926bae9f45be": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-25T11:53:19Z",
+  "message": "Una vista previa que falla al montar no deja la tarjeta sin captura",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/ui/espera-panel.test.ts",
+    "a": 30,
+    "d": 0
+   },
+   {
+    "f": "src/ui/espera.ts",
+    "a": 9,
+    "d": 1
+   }
+  ]
+ },
+ "eaf255c6b4138066e0e20a9d9ae4bb48dc136182": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-25T11:20:54Z",
+  "message": "La prueba de la cabecera no deja pedidos sueltos al cerrar",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/ui/retoma-cabecera.test.ts",
+    "a": 4,
+    "d": 1
+   }
+  ]
+ },
+ "3ee528e39437819dc82632edab0bb217b536bb85": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-25T10:59:56Z",
+  "message": "La cabecera no ofrece Entrar mientras una sesión de 25 segundos todavía vuelve",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/ui/retoma-cabecera.test.ts",
+    "a": 108,
+    "d": 0
+   }
+  ]
+ },
+ "cf45e5c23351122bb218a80d9a44fa00578768da": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-25T10:57:57Z",
+  "message": "Los comentarios y nombres de prueba nuevos no usan rayas largas ni siglas de reglas",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/stellar/pollar-config.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/stellar/wallet-pollar.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/ui/contadores.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/ui/espera-panel.test.ts",
+    "a": 6,
+    "d": 6
+   },
+   {
+    "f": "src/ui/espera.ts",
+    "a": 1,
+    "d": 1
+   }
+  ]
+ },
+ "2747c03b8790e6947ccae035846800f4121e75ac": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-25T10:43:15Z",
+  "message": "La ventana paciente del token no estira el tope que otro pide",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/stellar/pollar-config.ts",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "src/stellar/wallet-pollar-token.test.ts",
+    "a": 16,
+    "d": 0
+   },
+   {
+    "f": "src/stellar/wallet-pollar.ts",
+    "a": 7,
+    "d": 5
+   }
+  ]
+ },
+ "dc04c41b2880dea25e75c711ced196cb85f86655": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-25T10:31:16Z",
+  "message": "La cabecera espera lo que espera la retoma antes de ofrecer Entrar",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/stellar/pollar-config.ts",
+    "a": 20,
+    "d": 0
+   },
+   {
+    "f": "src/stellar/wallet-pollar.ts",
+    "a": 3,
+    "d": 13
+   },
+   {
+    "f": "src/ui/retoma-fusible.test.ts",
+    "a": 32,
+    "d": 0
+   },
+   {
+    "f": "src/ui/wallet-ui.ts",
+    "a": 3,
+    "d": 3
+   }
+  ]
+ },
+ "ef888a74f43f271cc03b6e972c66c12c8ac54ca3": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-25T10:29:18Z",
+  "message": "El conteo nuevo no depende de que el servicio de conteos ya esté actualizado",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/contar-servicio-viejo.test.ts",
+    "a": 192,
+    "d": 0
+   },
+   {
+    "f": "src/contar.ts",
+    "a": 44,
+    "d": 2
+   },
+   {
+    "f": "src/ui/wallet-ui.test.ts",
+    "a": 5,
+    "d": 0
+   }
+  ]
+ },
+ "01502350527e110354bb89cf2ca4a1493cb84b6f": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-25T10:25:38Z",
+  "message": "Los Términos nombran lo que ahora se cuenta de la cuenta",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/contar.test.ts",
+    "a": 11,
+    "d": 0
+   },
+   {
+    "f": "src/i18n.ts",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "terminos.html",
+    "a": 1,
+    "d": 1
+   }
+  ]
+ },
+ "c7049e93711a3c78496b410c9b2045986085037b": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-25T10:23:04Z",
+  "message": "Las pruebas que reemplazan el contador completan lo que ahora se importa",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/ui/ingreso-plan-b-ui.test.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/ui/practicar-en-prueba-ui.test.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/ui/puerta-otro-modo.test.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/ui/ventana-de-entrar-ui.test.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/ui/wallet-otra-red.test.ts",
+    "a": 1,
+    "d": 1
+   }
+  ]
+ },
+ "564c3becefe0fcfa8a477bcc3ce1b792385e90bd": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "GuidoSV7",
+  "date": "2026-11-23T21:19:12Z",
+  "message": "feat(espera): la arquitectura de vistas previas en movimiento al elegir juego",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/ui/espera-panel.test.ts",
+    "a": 251,
+    "d": 1
+   },
+   {
+    "f": "src/ui/espera.ts",
+    "a": 165,
+    "d": 0
+   }
+  ]
+ },
+ "a7bfc65f3adeb869e85ae33144631c653b0ac87d": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "GuidoSV7",
+  "date": "2026-11-23T19:12:17Z",
+  "message": "fix(sesión): la retoma de Google y el token del paso esperan con paciencia",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/stellar/pollar-config.test.ts",
+    "a": 14,
+    "d": 0
+   },
+   {
+    "f": "src/stellar/pollar-config.ts",
+    "a": 16,
+    "d": 4
+   },
+   {
+    "f": "src/stellar/wallet-pollar-sesion.test.ts",
+    "a": 9,
+    "d": 2
+   },
+   {
+    "f": "src/stellar/wallet-pollar-token.test.ts",
+    "a": 13,
+    "d": 5
+   },
+   {
+    "f": "src/stellar/wallet-pollar.test.ts",
+    "a": 228,
+    "d": 1
+   },
+   {
+    "f": "src/stellar/wallet-pollar.ts",
+    "a": 95,
+    "d": 13
+   },
+   {
+    "f": "src/ui/cuenta-lista-cupon.test.ts",
+    "a": 4,
+    "d": 3
+   },
+   {
+    "f": "src/ui/cuenta-lista.ts",
+    "a": 3,
+    "d": 2
+   },
+   {
+    "f": "src/ui/pago-paquete.ts",
+    "a": 2,
+    "d": 2
+   }
+  ]
+ },
+ "baa3938948d915aae87f6fdfe5721ced5a1c121e": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "GuidoSV7",
+  "date": "2026-11-23T18:50:32Z",
+  "message": "feat(conteo): el embudo distingue la red y cuenta el paso de la cuenta",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/stellar/wallet-pollar.ts",
+    "a": 11,
+    "d": 3
+   },
+   {
+    "f": "src/ui/contadores.ts",
+    "a": 33,
+    "d": 0
+   },
+   {
+    "f": "src/ui/wallet-ui.test.ts",
+    "a": 136,
+    "d": 0
+   },
+   {
+    "f": "src/ui/wallet-ui.ts",
+    "a": 9,
+    "d": 4
+   },
+   {
+    "f": "workers/enlaces/src/conteo.test.ts",
+    "a": 45,
+    "d": 1
+   },
+   {
+    "f": "workers/enlaces/src/conteo.ts",
+    "a": 13,
+    "d": 4
+   }
+  ]
+ },
+ "cb7e69ef7affe04b394027441dfdc0b38da5a7bc": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-25T11:05:27Z",
+  "message": "Merge pull request #254 from nema1502/guido/compartir-vivo-247",
+  "parents": 2,
+  "files": [
+   {
+    "f": "src/equipos/etiquetas.ts",
+    "a": 3,
+    "d": 0
+   },
+   {
+    "f": "src/i18n.ts",
+    "a": 2,
+    "d": 0
+   },
+   {
+    "f": "src/styles.css",
+    "a": 2,
+    "d": 0
+   },
+   {
+    "f": "src/ui/espectador-a-la-par.test.ts",
+    "a": 18,
+    "d": 0
+   },
+   {
+    "f": "src/ui/espectador-enlace.ts",
+    "a": 18,
+    "d": 3
+   },
+   {
+    "f": "src/ui/espectador-qr.test.ts",
+    "a": 30,
+    "d": 0
+   },
+   {
+    "f": "src/ui/espectador.test.ts",
+    "a": 312,
+    "d": 2
+   },
+   {
+    "f": "src/ui/espectador.ts",
+    "a": 148,
+    "d": 9
+   },
+   {
+    "f": "src/ui/espera.ts",
+    "a": 2,
+    "d": 1
+   }
+  ]
+ },
+ "0a87fcb50858f8a2e7d7236534d1a79087a79eb9": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-25T10:57:08Z",
+  "message": "Merge remote-tracking branch 'origin/main' into guido/compartir-vivo-247",
+  "parents": 2,
+  "files": [
+   {
+    "f": "docs/carga-altas.md",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "equipos.html",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "src/equipos/pantalla-stand.test.ts",
+    "a": 12,
+    "d": 0
+   },
+   {
+    "f": "src/equipos/pantalla-stand.ts",
+    "a": 22,
+    "d": 3
+   },
+   {
+    "f": "src/equipos/registro.test.ts",
+    "a": 88,
+    "d": 3
+   },
+   {
+    "f": "src/equipos/registro.ts",
+    "a": 26,
+    "d": 1
+   },
+   {
+    "f": "src/equipos/textos.ts",
+    "a": 6,
+    "d": 0
+   },
+   {
+    "f": "src/sala/campana-alta-cupo.test.ts",
+    "a": 152,
+    "d": 0
+   },
+   {
+    "f": "src/sala/campana-alta.test.ts",
+    "a": 73,
+    "d": 1
+   },
+   {
+    "f": "src/sala/campana-piso-ip.test.ts",
+    "a": 58,
+    "d": 0
+   },
+   {
+    "f": "src/sala/campana-reapertura.test.ts",
+    "a": 79,
+    "d": 0
+   },
+   {
+    "f": "src/sala/campana-reingreso.test.ts",
+    "a": 6,
+    "d": 1
+   },
+   {
+    "f": "src/sala/campana-una-persona.test.ts",
+    "a": 18,
+    "d": 0
+   },
+   {
+    "f": "src/sala/campana-vigilancia.test.ts",
+    "a": 85,
+    "d": 0
+   },
+   {
+    "f": "src/sala/equipos.ts",
+    "a": 8,
+    "d": 3
+   },
+   {
+    "f": "src/sala/registro-cliente.test.ts",
+    "a": 61,
+    "d": 0
+   },
+   {
+    "f": "src/sala/registro-equipos.test.ts",
+    "a": 34,
+    "d": 0
+   },
+   {
+    "f": "src/ui/equipos-sala.test.ts",
+    "a": 46,
+    "d": 0
+   },
+   {
+    "f": "src/ui/equipos-sala.ts",
+    "a": 5,
+    "d": 2
+   },
+   {
+    "f": "src/ui/pantalla-stand.test.ts",
+    "a": 14,
+    "d": 0
+   },
+   {
+    "f": "src/ui/pantalla-stand.ts",
+    "a": 8,
+    "d": 0
+   },
+   {
+    "f": "workers/sala/src/campana.ts",
+    "a": 21,
+    "d": 11
+   },
+   {
+    "f": "workers/sala/src/index.ts",
+    "a": 30,
+    "d": 8
+   },
+   {
+    "f": "workers/sala/src/registro.test.ts",
+    "a": 137,
+    "d": 0
+   },
+   {
+    "f": "workers/sala/src/registro.ts",
+    "a": 36,
+    "d": 2
+   },
+   {
+    "f": "workers/sala/src/vigilancia-campana.test.ts",
+    "a": 56,
+    "d": 0
+   },
+   {
+    "f": "workers/sala/src/vigilancia-campana.ts",
+    "a": 41,
+    "d": 0
+   }
+  ]
+ },
+ "813d87b9b30d40f1a9c6669e70e15694dcc224a9": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-25T10:37:18Z",
+  "message": "Corrige dos comentarios y fija con prueba el tope de envíos por conexión",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/sala/campana-alta-cupo.test.ts",
+    "a": 26,
+    "d": 0
+   },
+   {
+    "f": "src/sala/campana-vigilancia.test.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "workers/sala/src/campana.ts",
+    "a": 1,
+    "d": 1
+   }
+  ]
+ },
+ "8d5f0db2d20886580b6dab02b5aec4930ff072b0": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-25T10:26:21Z",
+  "message": "Corrige la prueba de la sala anterior al conteo de altas",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/sala/campana-vigilancia.test.ts",
+    "a": 0,
+    "d": 1
+   }
+  ]
+ },
+ "932c5a1d18e378e4e50320f9d31c02d1245f62a1": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-25T10:26:09Z",
+  "message": "Prueba que el sitio y la sala de equipos se despliegan en cualquier orden",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/sala/registro-cliente.test.ts",
+    "a": 17,
+    "d": 0
+   }
+  ]
+ },
+ "cc823099efdf38805b3ab86aa95d8eac7a069ee1": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-25T10:25:34Z",
+  "message": "El panel vuelve a preguntar por la cuenta de un equipo que la corrigió",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/ui/equipos-sala.test.ts",
+    "a": 46,
+    "d": 0
+   },
+   {
+    "f": "src/ui/equipos-sala.ts",
+    "a": 5,
+    "d": 2
+   }
+  ]
+ },
+ "1997520292aee5344b66b88d489f57da3b00bdb3": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-25T10:25:04Z",
+  "message": "Se saca el tope de altas por conexión: el cupo de la sala es el límite",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/carga-altas.md",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "src/sala/campana-alta-cupo.test.ts",
+    "a": 20,
+    "d": 48
+   },
+   {
+    "f": "workers/sala/src/campana.ts",
+    "a": 0,
+    "d": 18
+   }
+  ]
+ },
+ "bf11f05719da624879e32f1ea37065dafde3ece3": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-25T10:24:26Z",
+  "message": "Reabrir sin hora nueva y con la vencida se rechaza",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/sala/campana-reapertura.test.ts",
+    "a": 79,
+    "d": 0
+   },
+   {
+    "f": "workers/sala/src/index.ts",
+    "a": 4,
+    "d": 0
+   }
+  ]
+ },
+ "f9e3593ba09ab24798ceedfc37a978a27a25f2d0": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-25T10:23:29Z",
+  "message": "El conteo de altas se asegura al usarlo y nunca tumba un alta",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/sala/campana-vigilancia.test.ts",
+    "a": 24,
+    "d": 0
+   },
+   {
+    "f": "workers/sala/src/vigilancia-campana.ts",
+    "a": 11,
+    "d": 1
+   }
+  ]
+ },
+ "a6573652a87460fedb110cad3ac930fa66ee49e4": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "GuidoSV7",
+  "date": "2026-11-23T18:00:29Z",
+  "message": "fix(equipos): corregir un equipo reemplaza su fila en vez de sumar otra",
+  "parents": 1,
+  "files": [
+   {
+    "f": "equipos.html",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "src/equipos/pantalla-stand.test.ts",
+    "a": 12,
+    "d": 0
+   },
+   {
+    "f": "src/equipos/pantalla-stand.ts",
+    "a": 22,
+    "d": 3
+   },
+   {
+    "f": "src/equipos/registro.test.ts",
+    "a": 88,
+    "d": 3
+   },
+   {
+    "f": "src/equipos/registro.ts",
+    "a": 26,
+    "d": 1
+   },
+   {
+    "f": "src/equipos/textos.ts",
+    "a": 6,
+    "d": 0
+   },
+   {
+    "f": "src/sala/equipos.ts",
+    "a": 8,
+    "d": 3
+   },
+   {
+    "f": "src/sala/registro-cliente.test.ts",
+    "a": 44,
+    "d": 0
+   },
+   {
+    "f": "src/sala/registro-equipos.test.ts",
+    "a": 34,
+    "d": 0
+   },
+   {
+    "f": "src/ui/pantalla-stand.test.ts",
+    "a": 14,
+    "d": 0
+   },
+   {
+    "f": "src/ui/pantalla-stand.ts",
+    "a": 8,
+    "d": 0
+   },
+   {
+    "f": "workers/sala/src/index.ts",
+    "a": 13,
+    "d": 6
+   },
+   {
+    "f": "workers/sala/src/registro.test.ts",
+    "a": 137,
+    "d": 0
+   },
+   {
+    "f": "workers/sala/src/registro.ts",
+    "a": 36,
+    "d": 2
+   }
+  ]
+ },
+ "9c52affed9d1423e1ad977175c80fc8da73dd640": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "GuidoSV7",
+  "date": "2026-11-22T19:43:22Z",
+  "message": "feat(campañas): el alta de la sala con su hora de cierre, el tope por conexión del evento y su vigilancia",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/sala/campana-alta-cupo.test.ts",
+    "a": 154,
+    "d": 0
+   },
+   {
+    "f": "src/sala/campana-alta.test.ts",
+    "a": 73,
+    "d": 1
+   },
+   {
+    "f": "src/sala/campana-piso-ip.test.ts",
+    "a": 58,
+    "d": 0
+   },
+   {
+    "f": "src/sala/campana-reingreso.test.ts",
+    "a": 6,
+    "d": 1
+   },
+   {
+    "f": "src/sala/campana-una-persona.test.ts",
+    "a": 18,
+    "d": 0
+   },
+   {
+    "f": "src/sala/campana-vigilancia.test.ts",
+    "a": 62,
+    "d": 0
+   },
+   {
+    "f": "workers/sala/src/campana.ts",
+    "a": 36,
+    "d": 8
+   },
+   {
+    "f": "workers/sala/src/index.ts",
+    "a": 13,
+    "d": 2
+   },
+   {
+    "f": "workers/sala/src/vigilancia-campana.test.ts",
+    "a": 56,
+    "d": 0
+   },
+   {
+    "f": "workers/sala/src/vigilancia-campana.ts",
+    "a": 31,
+    "d": 0
+   }
+  ]
+ },
+ "9f84322eb102dd07a2cbd1f1f32114bb028a208c": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-25T10:38:02Z",
+  "message": "Se quita la referencia al pedido del título de las pruebas de compartir en vivo",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/ui/espectador.test.ts",
+    "a": 1,
+    "d": 1
+   }
+  ]
+ },
+ "2dc8dc25dd67c032c4699633884788956592d0a3": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-25T10:37:52Z",
+  "message": "Pruebas de Escape y del oyente de cierre de Compartir en vivo",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/ui/espectador.test.ts",
+    "a": 34,
+    "d": 0
+   }
+  ]
+ },
+ "0fbb8c75d968f2afd23d8ffb449ad81078d190f0": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-25T10:37:30Z",
+  "message": "Compartir en vivo no comparte nombres cuando no sabe de quién son",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/ui/espectador-a-la-par.test.ts",
+    "a": 18,
+    "d": 0
+   },
+   {
+    "f": "src/ui/espectador-enlace.ts",
+    "a": 7,
+    "d": 6
+   },
+   {
+    "f": "src/ui/espectador-qr.test.ts",
+    "a": 12,
+    "d": 4
+   },
+   {
+    "f": "src/ui/espectador.test.ts",
+    "a": 9,
+    "d": 2
+   },
+   {
+    "f": "src/ui/espectador.ts",
+    "a": 28,
+    "d": 17
+   }
+  ]
+ },
+ "0c9c71ecdcb2f8ea8b4b4a6eb612ac281d258a29": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-25T10:29:48Z",
+  "message": "Compartir en vivo no manda nada que la sala no haya publicado",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/equipos/etiquetas.ts",
+    "a": 3,
+    "d": 0
+   },
+   {
+    "f": "src/ui/espectador-enlace.ts",
+    "a": 17,
+    "d": 3
+   },
+   {
+    "f": "src/ui/espectador-qr.test.ts",
+    "a": 22,
+    "d": 0
+   },
+   {
+    "f": "src/ui/espectador.test.ts",
+    "a": 67,
+    "d": 1
+   },
+   {
+    "f": "src/ui/espectador.ts",
+    "a": 8,
+    "d": 2
+   },
+   {
+    "f": "src/ui/espera.ts",
+    "a": 2,
+    "d": 1
+   }
+  ]
+ },
+ "5b41fede53a30fb30b012f3124d10103057ec7a3": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-25T10:26:22Z",
+  "message": "Al cerrar Compartir en vivo el foco vuelve al botón que lo abrió",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/ui/espectador.test.ts",
+    "a": 14,
+    "d": 0
+   },
+   {
+    "f": "src/ui/espectador.ts",
+    "a": 13,
+    "d": 1
+   }
+  ]
+ },
+ "aa19fe78f171d8b81a83b68c59b6775960608fa4": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-25T10:21:55Z",
+  "message": "Compartir en vivo avisa si el diálogo no baja y deja reintentar",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/i18n.ts",
+    "a": 2,
+    "d": 0
+   },
+   {
+    "f": "src/styles.css",
+    "a": 2,
+    "d": 0
+   },
+   {
+    "f": "src/ui/espectador.test.ts",
+    "a": 47,
+    "d": 2
+   },
+   {
+    "f": "src/ui/espectador.ts",
+    "a": 43,
+    "d": 21
+   }
+  ]
+ },
+ "024b47230dfda2ee39fb3d03e7f9911dd460b59d": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "GuidoSV7",
+  "date": "2026-11-25T07:40:42Z",
+  "message": "feat(espectador): compartir el sorteo también desde la vista en vivo",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/ui/espectador.test.ts",
+    "a": 145,
+    "d": 1
+   },
+   {
+    "f": "src/ui/espectador.ts",
+    "a": 94,
+    "d": 6
+   }
+  ]
  }
 }
