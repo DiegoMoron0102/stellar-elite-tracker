@@ -212573,5 +212573,1745 @@
     "d": 2
    }
   ]
+ },
+ "662d9b048ccfa1679137893d6e51fb8ac76c4522": {
+  "team": "Puls3",
+  "repo": "Zer0-Knowledge-Hack/puls3",
+  "author": "moises-cisneros",
+  "date": "2026-11-24T21:14:47Z",
+  "message": "test(e2e): the subcontracting journey of #334, with limits and expiry (#374) (#409)",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/testing/local-environment.md",
+    "a": 51,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/test/e2e/subcontract_expiry_e2e_test.dart",
+    "a": 368,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/test/e2e/subcontract_limits_e2e_test.dart",
+    "a": 512,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/test/e2e/subcontracting_e2e_test.dart",
+    "a": 548,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/test/e2e/support/agent_custody.dart",
+    "a": 19,
+    "d": 6
+   },
+   {
+    "f": "puls3_server/test/e2e/support/e2e_world.dart",
+    "a": 41,
+    "d": 6
+   },
+   {
+    "f": "puls3_server/test/e2e/support/local_sandbox.dart",
+    "a": 27,
+    "d": 3
+   },
+   {
+    "f": "puls3_server/test/e2e/support/subcontract_world.dart",
+    "a": 615,
+    "d": 0
+   }
+  ]
+ },
+ "ac7da0a47d8de03c04a69dd53493a1411136ea0b": {
+  "team": "Puls3",
+  "repo": "Zer0-Knowledge-Hack/puls3",
+  "author": "moises-cisneros",
+  "date": "2026-11-24T21:03:24Z",
+  "message": "ci: gate Closes on checked acceptance criteria and surface Refs leftovers (#403)",
+  "parents": 1,
+  "files": [
+   {
+    "f": ".github/CODEOWNERS",
+    "a": 6,
+    "d": 0
+   },
+   {
+    "f": ".github/pull_request_template.md",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": ".github/scripts/issue-gate.js",
+    "a": 242,
+    "d": 0
+   },
+   {
+    "f": ".github/scripts/issue-gate.test.js",
+    "a": 255,
+    "d": 0
+   },
+   {
+    "f": ".github/workflows/issue-gate.yml",
+    "a": 133,
+    "d": 0
+   },
+   {
+    "f": "CONTRIBUTING.md",
+    "a": 11,
+    "d": 1
+   }
+  ]
+ },
+ "c2350d670f9424abc08f409f38821bd9607dfda5": {
+  "team": "Puls3",
+  "repo": "Zer0-Knowledge-Hack/puls3",
+  "author": "TOMOKI977",
+  "date": "2026-11-24T20:54:03Z",
+  "message": "Merge pull request #411 from Zer0-Knowledge-Hack/feat/334-t7-studio-optin",
+  "parents": 2,
+  "files": [
+   {
+    "f": "docs/architecture/api.md",
+    "a": 7,
+    "d": 2
+   },
+   {
+    "f": "docs/studio/builder-guide.md",
+    "a": 2,
+    "d": 0
+   },
+   {
+    "f": "odd/tasks/agent-subcontracting.md",
+    "a": 51,
+    "d": 2
+   },
+   {
+    "f": "puls3_client/lib/src/protocol/client.dart",
+    "a": 14,
+    "d": 0
+   },
+   {
+    "f": "puls3_client/lib/src/protocol/hire_detail.dart",
+    "a": 24,
+    "d": 0
+   },
+   {
+    "f": "puls3_client/lib/src/protocol/hire_receipt_line_view.dart",
+    "a": 307,
+    "d": 0
+   },
+   {
+    "f": "puls3_client/lib/src/protocol/hire_terms.dart",
+    "a": 115,
+    "d": 0
+   },
+   {
+    "f": "puls3_client/lib/src/protocol/protocol.dart",
+    "a": 43,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/integration_test/hire_flow_e2e_test.dart",
+    "a": 13,
+    "d": 2
+   },
+   {
+    "f": "puls3_flutter/lib/l10n/app_en.arb",
+    "a": 60,
+    "d": 1
+   },
+   {
+    "f": "puls3_flutter/lib/l10n/app_es.arb",
+    "a": 46,
+    "d": 1
+   },
+   {
+    "f": "puls3_flutter/lib/l10n/app_pt.arb",
+    "a": 46,
+    "d": 1
+   },
+   {
+    "f": "puls3_flutter/lib/l10n/app_pt_BR.arb",
+    "a": 46,
+    "d": 1
+   },
+   {
+    "f": "puls3_flutter/lib/l10n/app_pt_PT.arb",
+    "a": 46,
+    "d": 1
+   },
+   {
+    "f": "puls3_flutter/lib/l10n/generated/app_localizations.dart",
+    "a": 270,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/lib/l10n/generated/app_localizations_en.dart",
+    "a": 157,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/lib/l10n/generated/app_localizations_es.dart",
+    "a": 157,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/lib/l10n/generated/app_localizations_pt.dart",
+    "a": 471,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/lib/main.dart",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/lib/src/hire/fake_hire_gateway.dart",
+    "a": 7,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/lib/src/hire/hire_flow_controller.dart",
+    "a": 72,
+    "d": 5
+   },
+   {
+    "f": "puls3_flutter/lib/src/hire/hire_flow_store.dart",
+    "a": 32,
+    "d": 6
+   },
+   {
+    "f": "puls3_flutter/lib/src/hire/hire_gateway.dart",
+    "a": 133,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/lib/src/hire/hire_receipt_mapping.dart",
+    "a": 29,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/lib/src/hire/server_hire_gateway.dart",
+    "a": 40,
+    "d": 3
+   },
+   {
+    "f": "puls3_flutter/lib/src/screens/agent_hire_tracker.dart",
+    "a": 14,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/lib/src/screens/hire_detail_screen.dart",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/lib/src/screens/hire_sheet.dart",
+    "a": 134,
+    "d": 4
+   },
+   {
+    "f": "puls3_flutter/lib/src/screens/studio_screen.dart",
+    "a": 26,
+    "d": 1
+   },
+   {
+    "f": "puls3_flutter/lib/src/studio/server_studio_gateway.dart",
+    "a": 3,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/lib/src/studio/studio_form_check.dart",
+    "a": 73,
+    "d": 8
+   },
+   {
+    "f": "puls3_flutter/lib/src/studio/studio_gateway.dart",
+    "a": 10,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/lib/src/studio/studio_models.dart",
+    "a": 5,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/lib/src/ui/organisms/agent_form.dart",
+    "a": 75,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/lib/src/ui/organisms/hire_detail_view.dart",
+    "a": 16,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/lib/src/ui/organisms/hire_payment_view.dart",
+    "a": 46,
+    "d": 1
+   },
+   {
+    "f": "puls3_flutter/lib/src/ui/organisms/hire_receipt_view.dart",
+    "a": 296,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/lib/src/ui/organisms/hire_subcontract_section.dart",
+    "a": 130,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/test/hire/hire_flow_controller_test.dart",
+    "a": 126,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/test/hire/hire_flow_store_test.dart",
+    "a": 32,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/test/hire/server_hire_gateway_test.dart",
+    "a": 161,
+    "d": 21
+   },
+   {
+    "f": "puls3_flutter/test/hire/wallet_session_test.dart",
+    "a": 4,
+    "d": 2
+   },
+   {
+    "f": "puls3_flutter/test/screens/agent_hire_tracker_test.dart",
+    "a": 138,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/test/screens/hire_detail_screen_test.dart",
+    "a": 62,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/test/screens/hire_sheet_test.dart",
+    "a": 217,
+    "d": 1
+   },
+   {
+    "f": "puls3_flutter/test/screens/studio_screen_test.dart",
+    "a": 149,
+    "d": 1
+   },
+   {
+    "f": "puls3_flutter/test/studio/server_studio_gateway_test.dart",
+    "a": 94,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/test/studio/studio_form_check_test.dart",
+    "a": 148,
+    "d": 1
+   },
+   {
+    "f": "puls3_flutter/test/ui/hire_receipt_view_test.dart",
+    "a": 288,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/README.md",
+    "a": 4,
+    "d": 3
+   },
+   {
+    "f": "puls3_server/lib/src/generated/endpoints.dart",
+    "a": 19,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/generated/hire_detail.dart",
+    "a": 24,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/generated/hire_receipt_line_view.dart",
+    "a": 307,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/generated/hire_terms.dart",
+    "a": 115,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/generated/protocol.dart",
+    "a": 43,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/generated/protocol.yaml",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/hire/explorer_links.dart",
+    "a": 21,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/hire/hire_endpoint.dart",
+    "a": 22,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/hire/hire_query_service.dart",
+    "a": 46,
+    "d": 1
+   },
+   {
+    "f": "puls3_server/lib/src/hire/hire_relay_config.dart",
+    "a": 14,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/hire/hire_service.dart",
+    "a": 61,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/hire/hire_services.dart",
+    "a": 19,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/protocol/hire_detail.spy.yaml",
+    "a": 4,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/protocol/hire_receipt_line_view.spy.yaml",
+    "a": 39,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/protocol/hire_terms.spy.yaml",
+    "a": 15,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/runtime/studio_run_manifest_source.dart",
+    "a": 14,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/test/hire/hire_query_service_test.dart",
+    "a": 157,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/test/hire/hire_terms_test.dart",
+    "a": 268,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/test/integration/test_tools/serverpod_test_tools.dart",
+    "a": 32,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/test/studio/studio_endpoint_test.dart",
+    "a": 66,
+    "d": 0
+   }
+  ]
+ },
+ "5beb4bf1522547a721746580affbe48ed43a8445": {
+  "team": "Puls3",
+  "repo": "Zer0-Knowledge-Hack/puls3",
+  "author": "TOMOKI977",
+  "date": "2026-11-24T20:36:46Z",
+  "message": "Merge pull request #412 from Zer0-Knowledge-Hack/feat/334-t7-hire-terms",
+  "parents": 2,
+  "files": [
+   {
+    "f": "docs/architecture/api.md",
+    "a": 7,
+    "d": 2
+   },
+   {
+    "f": "odd/tasks/agent-subcontracting.md",
+    "a": 26,
+    "d": 5
+   },
+   {
+    "f": "puls3_client/lib/src/protocol/client.dart",
+    "a": 14,
+    "d": 0
+   },
+   {
+    "f": "puls3_client/lib/src/protocol/hire_detail.dart",
+    "a": 24,
+    "d": 0
+   },
+   {
+    "f": "puls3_client/lib/src/protocol/hire_receipt_line_view.dart",
+    "a": 307,
+    "d": 0
+   },
+   {
+    "f": "puls3_client/lib/src/protocol/hire_terms.dart",
+    "a": 115,
+    "d": 0
+   },
+   {
+    "f": "puls3_client/lib/src/protocol/protocol.dart",
+    "a": 43,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/integration_test/hire_flow_e2e_test.dart",
+    "a": 13,
+    "d": 2
+   },
+   {
+    "f": "puls3_flutter/lib/l10n/app_en.arb",
+    "a": 40,
+    "d": 1
+   },
+   {
+    "f": "puls3_flutter/lib/l10n/app_es.arb",
+    "a": 36,
+    "d": 1
+   },
+   {
+    "f": "puls3_flutter/lib/l10n/app_pt.arb",
+    "a": 36,
+    "d": 1
+   },
+   {
+    "f": "puls3_flutter/lib/l10n/app_pt_BR.arb",
+    "a": 36,
+    "d": 1
+   },
+   {
+    "f": "puls3_flutter/lib/l10n/app_pt_PT.arb",
+    "a": 36,
+    "d": 1
+   },
+   {
+    "f": "puls3_flutter/lib/l10n/generated/app_localizations.dart",
+    "a": 210,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/lib/l10n/generated/app_localizations_en.dart",
+    "a": 119,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/lib/l10n/generated/app_localizations_es.dart",
+    "a": 118,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/lib/l10n/generated/app_localizations_pt.dart",
+    "a": 354,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/lib/main.dart",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/lib/src/hire/fake_hire_gateway.dart",
+    "a": 7,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/lib/src/hire/hire_flow_controller.dart",
+    "a": 72,
+    "d": 5
+   },
+   {
+    "f": "puls3_flutter/lib/src/hire/hire_flow_store.dart",
+    "a": 32,
+    "d": 6
+   },
+   {
+    "f": "puls3_flutter/lib/src/hire/hire_gateway.dart",
+    "a": 133,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/lib/src/hire/hire_receipt_mapping.dart",
+    "a": 29,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/lib/src/hire/server_hire_gateway.dart",
+    "a": 40,
+    "d": 3
+   },
+   {
+    "f": "puls3_flutter/lib/src/screens/agent_hire_tracker.dart",
+    "a": 14,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/lib/src/screens/hire_detail_screen.dart",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/lib/src/screens/hire_sheet.dart",
+    "a": 134,
+    "d": 4
+   },
+   {
+    "f": "puls3_flutter/lib/src/studio/server_studio_gateway.dart",
+    "a": 3,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/lib/src/studio/studio_gateway.dart",
+    "a": 10,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/lib/src/ui/organisms/hire_detail_view.dart",
+    "a": 16,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/lib/src/ui/organisms/hire_payment_view.dart",
+    "a": 46,
+    "d": 1
+   },
+   {
+    "f": "puls3_flutter/lib/src/ui/organisms/hire_receipt_view.dart",
+    "a": 296,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/lib/src/ui/organisms/hire_subcontract_section.dart",
+    "a": 130,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/test/hire/hire_flow_controller_test.dart",
+    "a": 126,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/test/hire/hire_flow_store_test.dart",
+    "a": 32,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/test/hire/server_hire_gateway_test.dart",
+    "a": 161,
+    "d": 21
+   },
+   {
+    "f": "puls3_flutter/test/hire/wallet_session_test.dart",
+    "a": 4,
+    "d": 2
+   },
+   {
+    "f": "puls3_flutter/test/screens/agent_hire_tracker_test.dart",
+    "a": 138,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/test/screens/hire_detail_screen_test.dart",
+    "a": 62,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/test/screens/hire_sheet_test.dart",
+    "a": 217,
+    "d": 1
+   },
+   {
+    "f": "puls3_flutter/test/studio/server_studio_gateway_test.dart",
+    "a": 94,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/test/ui/hire_receipt_view_test.dart",
+    "a": 288,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/README.md",
+    "a": 4,
+    "d": 3
+   },
+   {
+    "f": "puls3_server/lib/src/generated/endpoints.dart",
+    "a": 19,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/generated/hire_detail.dart",
+    "a": 24,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/generated/hire_receipt_line_view.dart",
+    "a": 307,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/generated/hire_terms.dart",
+    "a": 115,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/generated/protocol.dart",
+    "a": 43,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/generated/protocol.yaml",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/hire/explorer_links.dart",
+    "a": 21,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/hire/hire_endpoint.dart",
+    "a": 22,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/hire/hire_query_service.dart",
+    "a": 46,
+    "d": 1
+   },
+   {
+    "f": "puls3_server/lib/src/hire/hire_relay_config.dart",
+    "a": 14,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/hire/hire_service.dart",
+    "a": 61,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/hire/hire_services.dart",
+    "a": 19,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/protocol/hire_detail.spy.yaml",
+    "a": 4,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/protocol/hire_receipt_line_view.spy.yaml",
+    "a": 39,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/protocol/hire_terms.spy.yaml",
+    "a": 15,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/runtime/studio_run_manifest_source.dart",
+    "a": 14,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/test/hire/hire_query_service_test.dart",
+    "a": 157,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/test/hire/hire_terms_test.dart",
+    "a": 268,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/test/integration/test_tools/serverpod_test_tools.dart",
+    "a": 32,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/test/studio/studio_endpoint_test.dart",
+    "a": 66,
+    "d": 0
+   }
+  ]
+ },
+ "654e45833876862ad7a5949d00c2003f414bd63d": {
+  "team": "Puls3",
+  "repo": "Zer0-Knowledge-Hack/puls3",
+  "author": "TOMOKI977",
+  "date": "2026-11-24T20:36:40Z",
+  "message": "Merge pull request #413 from Zer0-Knowledge-Hack/feat/334-t7-hire-sheet",
+  "parents": 2,
+  "files": [
+   {
+    "f": "docs/architecture/api.md",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "odd/tasks/agent-subcontracting.md",
+    "a": 17,
+    "d": 3
+   },
+   {
+    "f": "puls3_flutter/integration_test/hire_flow_e2e_test.dart",
+    "a": 13,
+    "d": 2
+   },
+   {
+    "f": "puls3_flutter/lib/l10n/app_en.arb",
+    "a": 40,
+    "d": 1
+   },
+   {
+    "f": "puls3_flutter/lib/l10n/app_es.arb",
+    "a": 36,
+    "d": 1
+   },
+   {
+    "f": "puls3_flutter/lib/l10n/app_pt.arb",
+    "a": 36,
+    "d": 1
+   },
+   {
+    "f": "puls3_flutter/lib/l10n/app_pt_BR.arb",
+    "a": 36,
+    "d": 1
+   },
+   {
+    "f": "puls3_flutter/lib/l10n/app_pt_PT.arb",
+    "a": 36,
+    "d": 1
+   },
+   {
+    "f": "puls3_flutter/lib/l10n/generated/app_localizations.dart",
+    "a": 210,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/lib/l10n/generated/app_localizations_en.dart",
+    "a": 119,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/lib/l10n/generated/app_localizations_es.dart",
+    "a": 118,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/lib/l10n/generated/app_localizations_pt.dart",
+    "a": 354,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/lib/main.dart",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/lib/src/hire/fake_hire_gateway.dart",
+    "a": 7,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/lib/src/hire/hire_flow_controller.dart",
+    "a": 72,
+    "d": 5
+   },
+   {
+    "f": "puls3_flutter/lib/src/hire/hire_flow_store.dart",
+    "a": 32,
+    "d": 6
+   },
+   {
+    "f": "puls3_flutter/lib/src/hire/hire_gateway.dart",
+    "a": 133,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/lib/src/hire/hire_receipt_mapping.dart",
+    "a": 29,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/lib/src/hire/server_hire_gateway.dart",
+    "a": 40,
+    "d": 3
+   },
+   {
+    "f": "puls3_flutter/lib/src/screens/agent_hire_tracker.dart",
+    "a": 14,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/lib/src/screens/hire_detail_screen.dart",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/lib/src/screens/hire_sheet.dart",
+    "a": 134,
+    "d": 4
+   },
+   {
+    "f": "puls3_flutter/lib/src/studio/server_studio_gateway.dart",
+    "a": 3,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/lib/src/studio/studio_gateway.dart",
+    "a": 10,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/lib/src/ui/organisms/hire_detail_view.dart",
+    "a": 16,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/lib/src/ui/organisms/hire_payment_view.dart",
+    "a": 46,
+    "d": 1
+   },
+   {
+    "f": "puls3_flutter/lib/src/ui/organisms/hire_receipt_view.dart",
+    "a": 296,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/lib/src/ui/organisms/hire_subcontract_section.dart",
+    "a": 130,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/test/hire/hire_flow_controller_test.dart",
+    "a": 126,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/test/hire/hire_flow_store_test.dart",
+    "a": 32,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/test/hire/server_hire_gateway_test.dart",
+    "a": 161,
+    "d": 21
+   },
+   {
+    "f": "puls3_flutter/test/hire/wallet_session_test.dart",
+    "a": 4,
+    "d": 2
+   },
+   {
+    "f": "puls3_flutter/test/screens/agent_hire_tracker_test.dart",
+    "a": 138,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/test/screens/hire_detail_screen_test.dart",
+    "a": 62,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/test/screens/hire_sheet_test.dart",
+    "a": 217,
+    "d": 1
+   },
+   {
+    "f": "puls3_flutter/test/studio/server_studio_gateway_test.dart",
+    "a": 94,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/test/ui/hire_receipt_view_test.dart",
+    "a": 288,
+    "d": 0
+   }
+  ]
+ },
+ "56216255756626e2a9776102b3a864bfdce0a4d8": {
+  "team": "Puls3",
+  "repo": "Zer0-Knowledge-Hack/puls3",
+  "author": "TOMOKI977",
+  "date": "2026-11-24T20:36:34Z",
+  "message": "Merge pull request #414 from Zer0-Knowledge-Hack/feat/334-t7-receipt",
+  "parents": 2,
+  "files": [
+   {
+    "f": "odd/tasks/agent-subcontracting.md",
+    "a": 13,
+    "d": 2
+   },
+   {
+    "f": "puls3_flutter/lib/l10n/app_en.arb",
+    "a": 26,
+    "d": 1
+   },
+   {
+    "f": "puls3_flutter/lib/l10n/app_es.arb",
+    "a": 25,
+    "d": 1
+   },
+   {
+    "f": "puls3_flutter/lib/l10n/app_pt.arb",
+    "a": 25,
+    "d": 1
+   },
+   {
+    "f": "puls3_flutter/lib/l10n/app_pt_BR.arb",
+    "a": 25,
+    "d": 1
+   },
+   {
+    "f": "puls3_flutter/lib/l10n/app_pt_PT.arb",
+    "a": 25,
+    "d": 1
+   },
+   {
+    "f": "puls3_flutter/lib/l10n/generated/app_localizations.dart",
+    "a": 144,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/lib/l10n/generated/app_localizations_en.dart",
+    "a": 77,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/lib/l10n/generated/app_localizations_es.dart",
+    "a": 76,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/lib/l10n/generated/app_localizations_pt.dart",
+    "a": 228,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/lib/src/hire/hire_gateway.dart",
+    "a": 82,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/lib/src/hire/hire_receipt_mapping.dart",
+    "a": 29,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/lib/src/hire/server_hire_gateway.dart",
+    "a": 3,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/lib/src/screens/agent_hire_tracker.dart",
+    "a": 14,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/lib/src/screens/hire_detail_screen.dart",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/lib/src/studio/server_studio_gateway.dart",
+    "a": 3,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/lib/src/studio/studio_gateway.dart",
+    "a": 10,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/lib/src/ui/organisms/hire_detail_view.dart",
+    "a": 16,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/lib/src/ui/organisms/hire_receipt_view.dart",
+    "a": 296,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/test/hire/server_hire_gateway_test.dart",
+    "a": 61,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/test/screens/agent_hire_tracker_test.dart",
+    "a": 138,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/test/screens/hire_detail_screen_test.dart",
+    "a": 56,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/test/studio/server_studio_gateway_test.dart",
+    "a": 94,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/test/ui/hire_receipt_view_test.dart",
+    "a": 288,
+    "d": 0
+   }
+  ]
+ },
+ "ab9d62f952cf1d729f8b67e576f6c51543805fd8": {
+  "team": "Puls3",
+  "repo": "Zer0-Knowledge-Hack/puls3",
+  "author": "TOMOKI977",
+  "date": "2026-11-24T17:31:35Z",
+  "message": "docs(odd): record the T7 PR slices of #334",
+  "parents": 1,
+  "files": [
+   {
+    "f": "odd/tasks/agent-subcontracting.md",
+    "a": 6,
+    "d": 0
+   }
+  ]
+ },
+ "f71d4c7144ec5cb3264b62815437fd85e9a997cf": {
+  "team": "Puls3",
+  "repo": "Zer0-Knowledge-Hack/puls3",
+  "author": "TOMOKI977",
+  "date": "2026-11-24T17:27:27Z",
+  "message": "docs(odd): record T7.4 and close T7 of #334",
+  "parents": 1,
+  "files": [
+   {
+    "f": "odd/tasks/agent-subcontracting.md",
+    "a": 7,
+    "d": 2
+   }
+  ]
+ },
+ "e30615e88b63b1ef6bdb34482ef6d39000196491": {
+  "team": "Puls3",
+  "repo": "Zer0-Knowledge-Hack/puls3",
+  "author": "TOMOKI977",
+  "date": "2026-11-24T17:27:17Z",
+  "message": "feat(studio): show the subcontract receipt on agent hire detail (#334)",
+  "parents": 1,
+  "files": [
+   {
+    "f": "puls3_flutter/lib/l10n/app_en.arb",
+    "a": 2,
+    "d": 1
+   },
+   {
+    "f": "puls3_flutter/lib/l10n/app_es.arb",
+    "a": 2,
+    "d": 1
+   },
+   {
+    "f": "puls3_flutter/lib/l10n/app_pt.arb",
+    "a": 2,
+    "d": 1
+   },
+   {
+    "f": "puls3_flutter/lib/l10n/app_pt_BR.arb",
+    "a": 2,
+    "d": 1
+   },
+   {
+    "f": "puls3_flutter/lib/l10n/app_pt_PT.arb",
+    "a": 2,
+    "d": 1
+   },
+   {
+    "f": "puls3_flutter/lib/l10n/generated/app_localizations.dart",
+    "a": 6,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/lib/l10n/generated/app_localizations_en.dart",
+    "a": 4,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/lib/l10n/generated/app_localizations_es.dart",
+    "a": 4,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/lib/l10n/generated/app_localizations_pt.dart",
+    "a": 12,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/lib/src/hire/hire_receipt_mapping.dart",
+    "a": 29,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/lib/src/hire/server_hire_gateway.dart",
+    "a": 2,
+    "d": 22
+   },
+   {
+    "f": "puls3_flutter/lib/src/screens/agent_hire_tracker.dart",
+    "a": 14,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/lib/src/studio/server_studio_gateway.dart",
+    "a": 3,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/lib/src/studio/studio_gateway.dart",
+    "a": 10,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/lib/src/ui/organisms/hire_receipt_view.dart",
+    "a": 18,
+    "d": 3
+   },
+   {
+    "f": "puls3_flutter/test/screens/agent_hire_tracker_test.dart",
+    "a": 138,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/test/studio/server_studio_gateway_test.dart",
+    "a": 94,
+    "d": 0
+   }
+  ]
+ },
+ "edd0b400aaa94b49db374180c450289f24561d25": {
+  "team": "Puls3",
+  "repo": "Zer0-Knowledge-Hack/puls3",
+  "author": "TOMOKI977",
+  "date": "2026-11-24T17:20:03Z",
+  "message": "feat(hire): show the subcontract receipt on hire detail (#334)",
+  "parents": 1,
+  "files": [
+   {
+    "f": "puls3_flutter/lib/l10n/app_en.arb",
+    "a": 25,
+    "d": 1
+   },
+   {
+    "f": "puls3_flutter/lib/l10n/app_es.arb",
+    "a": 24,
+    "d": 1
+   },
+   {
+    "f": "puls3_flutter/lib/l10n/app_pt.arb",
+    "a": 24,
+    "d": 1
+   },
+   {
+    "f": "puls3_flutter/lib/l10n/app_pt_BR.arb",
+    "a": 24,
+    "d": 1
+   },
+   {
+    "f": "puls3_flutter/lib/l10n/app_pt_PT.arb",
+    "a": 24,
+    "d": 1
+   },
+   {
+    "f": "puls3_flutter/lib/l10n/generated/app_localizations.dart",
+    "a": 138,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/lib/l10n/generated/app_localizations_en.dart",
+    "a": 73,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/lib/l10n/generated/app_localizations_es.dart",
+    "a": 72,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/lib/l10n/generated/app_localizations_pt.dart",
+    "a": 216,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/lib/src/hire/hire_gateway.dart",
+    "a": 82,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/lib/src/hire/server_hire_gateway.dart",
+    "a": 23,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/lib/src/screens/hire_detail_screen.dart",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/lib/src/ui/organisms/hire_detail_view.dart",
+    "a": 16,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/lib/src/ui/organisms/hire_receipt_view.dart",
+    "a": 281,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/test/hire/server_hire_gateway_test.dart",
+    "a": 61,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/test/screens/hire_detail_screen_test.dart",
+    "a": 56,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/test/ui/hire_receipt_view_test.dart",
+    "a": 288,
+    "d": 0
+   }
+  ]
+ },
+ "525fd52fcc6280fc68b4da0d0a1c4eb131f48055": {
+  "team": "Puls3",
+  "repo": "Zer0-Knowledge-Hack/puls3",
+  "author": "TOMOKI977",
+  "date": "2026-11-24T17:08:05Z",
+  "message": "docs(odd): record T7.3 of #334",
+  "parents": 1,
+  "files": [
+   {
+    "f": "odd/tasks/agent-subcontracting.md",
+    "a": 4,
+    "d": 1
+   }
+  ]
+ },
+ "fb261d39daf12afbbf9fd1908351b6231274f005": {
+  "team": "Puls3",
+  "repo": "Zer0-Knowledge-Hack/puls3",
+  "author": "TOMOKI977",
+  "date": "2026-11-24T17:07:59Z",
+  "message": "feat(hire): fund a subcontract reserve from the hire sheet (#334)",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/architecture/api.md",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "puls3_flutter/integration_test/hire_flow_e2e_test.dart",
+    "a": 13,
+    "d": 2
+   },
+   {
+    "f": "puls3_flutter/lib/l10n/app_en.arb",
+    "a": 15,
+    "d": 1
+   },
+   {
+    "f": "puls3_flutter/lib/l10n/app_es.arb",
+    "a": 12,
+    "d": 1
+   },
+   {
+    "f": "puls3_flutter/lib/l10n/app_pt.arb",
+    "a": 12,
+    "d": 1
+   },
+   {
+    "f": "puls3_flutter/lib/l10n/app_pt_BR.arb",
+    "a": 12,
+    "d": 1
+   },
+   {
+    "f": "puls3_flutter/lib/l10n/app_pt_PT.arb",
+    "a": 12,
+    "d": 1
+   },
+   {
+    "f": "puls3_flutter/lib/l10n/generated/app_localizations.dart",
+    "a": 66,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/lib/l10n/generated/app_localizations_en.dart",
+    "a": 42,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/lib/l10n/generated/app_localizations_es.dart",
+    "a": 42,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/lib/l10n/generated/app_localizations_pt.dart",
+    "a": 126,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/lib/main.dart",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/lib/src/hire/fake_hire_gateway.dart",
+    "a": 7,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/lib/src/hire/hire_flow_controller.dart",
+    "a": 72,
+    "d": 5
+   },
+   {
+    "f": "puls3_flutter/lib/src/hire/hire_flow_store.dart",
+    "a": 32,
+    "d": 6
+   },
+   {
+    "f": "puls3_flutter/lib/src/hire/hire_gateway.dart",
+    "a": 51,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/lib/src/hire/server_hire_gateway.dart",
+    "a": 37,
+    "d": 3
+   },
+   {
+    "f": "puls3_flutter/lib/src/screens/hire_sheet.dart",
+    "a": 134,
+    "d": 4
+   },
+   {
+    "f": "puls3_flutter/lib/src/ui/organisms/hire_payment_view.dart",
+    "a": 46,
+    "d": 1
+   },
+   {
+    "f": "puls3_flutter/lib/src/ui/organisms/hire_subcontract_section.dart",
+    "a": 130,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/test/hire/hire_flow_controller_test.dart",
+    "a": 126,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/test/hire/hire_flow_store_test.dart",
+    "a": 32,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/test/hire/server_hire_gateway_test.dart",
+    "a": 100,
+    "d": 21
+   },
+   {
+    "f": "puls3_flutter/test/hire/wallet_session_test.dart",
+    "a": 4,
+    "d": 2
+   },
+   {
+    "f": "puls3_flutter/test/screens/hire_detail_screen_test.dart",
+    "a": 6,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/test/screens/hire_sheet_test.dart",
+    "a": 217,
+    "d": 1
+   }
+  ]
+ },
+ "e7d649768c56f286edd85f1f1c81e6b224bd7828": {
+  "team": "Puls3",
+  "repo": "Zer0-Knowledge-Hack/puls3",
+  "author": "TOMOKI977",
+  "date": "2026-11-24T16:43:48Z",
+  "message": "docs(odd): record T7.1 and T7.2 of #334",
+  "parents": 1,
+  "files": [
+   {
+    "f": "odd/tasks/agent-subcontracting.md",
+    "a": 9,
+    "d": 2
+   }
+  ]
+ },
+ "c3c65cb76602fd9add80fc8d63392822f11ba9cf": {
+  "team": "Puls3",
+  "repo": "Zer0-Knowledge-Hack/puls3",
+  "author": "TOMOKI977",
+  "date": "2026-11-24T16:43:24Z",
+  "message": "feat(hire): expose hire terms and the receipt lines of a hire (#334)",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/architecture/api.md",
+    "a": 6,
+    "d": 1
+   },
+   {
+    "f": "puls3_client/lib/src/protocol/client.dart",
+    "a": 14,
+    "d": 0
+   },
+   {
+    "f": "puls3_client/lib/src/protocol/hire_detail.dart",
+    "a": 24,
+    "d": 0
+   },
+   {
+    "f": "puls3_client/lib/src/protocol/hire_receipt_line_view.dart",
+    "a": 307,
+    "d": 0
+   },
+   {
+    "f": "puls3_client/lib/src/protocol/hire_terms.dart",
+    "a": 115,
+    "d": 0
+   },
+   {
+    "f": "puls3_client/lib/src/protocol/protocol.dart",
+    "a": 43,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/README.md",
+    "a": 4,
+    "d": 3
+   },
+   {
+    "f": "puls3_server/lib/src/generated/endpoints.dart",
+    "a": 19,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/generated/hire_detail.dart",
+    "a": 24,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/generated/hire_receipt_line_view.dart",
+    "a": 307,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/generated/hire_terms.dart",
+    "a": 115,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/generated/protocol.dart",
+    "a": 43,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/generated/protocol.yaml",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/hire/explorer_links.dart",
+    "a": 21,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/hire/hire_endpoint.dart",
+    "a": 22,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/hire/hire_query_service.dart",
+    "a": 46,
+    "d": 1
+   },
+   {
+    "f": "puls3_server/lib/src/hire/hire_relay_config.dart",
+    "a": 14,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/hire/hire_service.dart",
+    "a": 61,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/hire/hire_services.dart",
+    "a": 19,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/protocol/hire_detail.spy.yaml",
+    "a": 4,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/protocol/hire_receipt_line_view.spy.yaml",
+    "a": 39,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/protocol/hire_terms.spy.yaml",
+    "a": 15,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/runtime/studio_run_manifest_source.dart",
+    "a": 14,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/test/hire/hire_query_service_test.dart",
+    "a": 157,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/test/hire/hire_terms_test.dart",
+    "a": 268,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/test/integration/test_tools/serverpod_test_tools.dart",
+    "a": 32,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/test/studio/studio_endpoint_test.dart",
+    "a": 66,
+    "d": 0
+   }
+  ]
+ },
+ "f4611e3cc18d3a567d9521f775d37a820c432c12": {
+  "team": "Puls3",
+  "repo": "Zer0-Knowledge-Hack/puls3",
+  "author": "TOMOKI977",
+  "date": "2026-11-24T16:43:23Z",
+  "message": "feat(studio): edit the subcontract opt-in of an agent (#334)",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/studio/builder-guide.md",
+    "a": 2,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/lib/l10n/app_en.arb",
+    "a": 20,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/lib/l10n/app_es.arb",
+    "a": 10,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/lib/l10n/app_pt.arb",
+    "a": 10,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/lib/l10n/app_pt_BR.arb",
+    "a": 10,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/lib/l10n/app_pt_PT.arb",
+    "a": 10,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/lib/l10n/generated/app_localizations.dart",
+    "a": 60,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/lib/l10n/generated/app_localizations_en.dart",
+    "a": 38,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/lib/l10n/generated/app_localizations_es.dart",
+    "a": 39,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/lib/l10n/generated/app_localizations_pt.dart",
+    "a": 117,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/lib/src/screens/studio_screen.dart",
+    "a": 26,
+    "d": 1
+   },
+   {
+    "f": "puls3_flutter/lib/src/studio/studio_form_check.dart",
+    "a": 73,
+    "d": 8
+   },
+   {
+    "f": "puls3_flutter/lib/src/studio/studio_models.dart",
+    "a": 5,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/lib/src/ui/organisms/agent_form.dart",
+    "a": 75,
+    "d": 0
+   },
+   {
+    "f": "puls3_flutter/test/screens/studio_screen_test.dart",
+    "a": 149,
+    "d": 1
+   },
+   {
+    "f": "puls3_flutter/test/studio/studio_form_check_test.dart",
+    "a": 148,
+    "d": 1
+   }
+  ]
+ },
+ "8fc5a5d487acfb0ee8befde337eaaad8e9252256": {
+  "team": "Puls3",
+  "repo": "Zer0-Knowledge-Hack/puls3",
+  "author": "TOMOKI977",
+  "date": "2026-11-24T16:28:50Z",
+  "message": "docs(odd): plan T7 of #334",
+  "parents": 1,
+  "files": [
+   {
+    "f": "odd/tasks/agent-subcontracting.md",
+    "a": 29,
+    "d": 1
+   }
+  ]
  }
 }

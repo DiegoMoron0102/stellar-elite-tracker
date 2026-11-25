@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-24T16:44:17+00:00",
+ "generado": "2026-11-25T01:45:32+00:00",
  "programa": "Stellar Elite",
  "start_date": "2026-09-02T00:00:00Z",
  "teams": [
@@ -22,10 +22,10 @@
   },
   {
    "name": "Puls3",
-   "total": 2010.29,
-   "per_capita": 2010.29,
-   "commits": 249,
-   "pts_commits": 1822.29,
+   "total": 2102.08,
+   "per_capita": 2102.08,
+   "commits": 265,
+   "pts_commits": 1914.08,
    "dias_activos": 34,
    "contribuidores": [
     "Pericena",
@@ -331,7 +331,7 @@
    "2026-11-17": 198.89,
    "2026-11-18": 72.59,
    "2026-11-23": 111.23,
-   "2026-11-24": 233.39
+   "2026-11-24": 325.17999999999995
   },
   "Tinkazo": {
    "2026-09-16": 66.21000000000001,
@@ -539,7 +539,7 @@
    "2026-11-17": 22,
    "2026-11-18": 9,
    "2026-11-23": 13,
-   "2026-11-24": 28
+   "2026-11-24": 44
   },
   "Tinkazo": {
    "2026-09-16": 8,
@@ -705,6 +705,166 @@
   }
  },
  "commits": [
+  {
+   "sha": "662d9b0",
+   "team": "Puls3",
+   "repo": "Zer0-Knowledge-Hack/puls3",
+   "author": "moises-cisneros",
+   "date": "2026-11-24T21:14:47Z",
+   "msg": "test(e2e): the subcontracting journey of #334, with limits and expiry (#374) (#409)",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "ac7da0a",
+   "team": "Puls3",
+   "repo": "Zer0-Knowledge-Hack/puls3",
+   "author": "moises-cisneros",
+   "date": "2026-11-24T21:03:24Z",
+   "msg": "ci: gate Closes on checked acceptance criteria and surface Refs leftovers (#403)",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "c2350d6",
+   "team": "Puls3",
+   "repo": "Zer0-Knowledge-Hack/puls3",
+   "author": "TOMOKI977",
+   "date": "2026-11-24T20:54:03Z",
+   "msg": "Merge pull request #411 from Zer0-Knowledge-Hack/feat/334-t7-studio-optin",
+   "pts": 0.0,
+   "nota": "merge"
+  },
+  {
+   "sha": "5beb4bf",
+   "team": "Puls3",
+   "repo": "Zer0-Knowledge-Hack/puls3",
+   "author": "TOMOKI977",
+   "date": "2026-11-24T20:36:46Z",
+   "msg": "Merge pull request #412 from Zer0-Knowledge-Hack/feat/334-t7-hire-terms",
+   "pts": 0.0,
+   "nota": "merge"
+  },
+  {
+   "sha": "654e458",
+   "team": "Puls3",
+   "repo": "Zer0-Knowledge-Hack/puls3",
+   "author": "TOMOKI977",
+   "date": "2026-11-24T20:36:40Z",
+   "msg": "Merge pull request #413 from Zer0-Knowledge-Hack/feat/334-t7-hire-sheet",
+   "pts": 0.0,
+   "nota": "merge"
+  },
+  {
+   "sha": "5621625",
+   "team": "Puls3",
+   "repo": "Zer0-Knowledge-Hack/puls3",
+   "author": "TOMOKI977",
+   "date": "2026-11-24T20:36:34Z",
+   "msg": "Merge pull request #414 from Zer0-Knowledge-Hack/feat/334-t7-receipt",
+   "pts": 0.0,
+   "nota": "merge"
+  },
+  {
+   "sha": "ab9d62f",
+   "team": "Puls3",
+   "repo": "Zer0-Knowledge-Hack/puls3",
+   "author": "TOMOKI977",
+   "date": "2026-11-24T17:31:35Z",
+   "msg": "docs(odd): record the T7 PR slices of #334",
+   "pts": 3.81,
+   "nota": ""
+  },
+  {
+   "sha": "f71d4c7",
+   "team": "Puls3",
+   "repo": "Zer0-Knowledge-Hack/puls3",
+   "author": "TOMOKI977",
+   "date": "2026-11-24T17:27:27Z",
+   "msg": "docs(odd): record T7.4 and close T7 of #334",
+   "pts": 4.32,
+   "nota": ""
+  },
+  {
+   "sha": "e30615e",
+   "team": "Puls3",
+   "repo": "Zer0-Knowledge-Hack/puls3",
+   "author": "TOMOKI977",
+   "date": "2026-11-24T17:27:17Z",
+   "msg": "feat(studio): show the subcontract receipt on agent hire detail (#334)",
+   "pts": 9.55,
+   "nota": ""
+  },
+  {
+   "sha": "edd0b40",
+   "team": "Puls3",
+   "repo": "Zer0-Knowledge-Hack/puls3",
+   "author": "TOMOKI977",
+   "date": "2026-11-24T17:20:03Z",
+   "msg": "feat(hire): show the subcontract receipt on hire detail (#334)",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "525fd52",
+   "team": "Puls3",
+   "repo": "Zer0-Knowledge-Hack/puls3",
+   "author": "TOMOKI977",
+   "date": "2026-11-24T17:08:05Z",
+   "msg": "docs(odd): record T7.3 of #334",
+   "pts": 3.58,
+   "nota": ""
+  },
+  {
+   "sha": "fb261d3",
+   "team": "Puls3",
+   "repo": "Zer0-Knowledge-Hack/puls3",
+   "author": "TOMOKI977",
+   "date": "2026-11-24T17:07:59Z",
+   "msg": "feat(hire): fund a subcontract reserve from the hire sheet (#334)",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "e7d6497",
+   "team": "Puls3",
+   "repo": "Zer0-Knowledge-Hack/puls3",
+   "author": "TOMOKI977",
+   "date": "2026-11-24T16:43:48Z",
+   "msg": "docs(odd): record T7.1 and T7.2 of #334",
+   "pts": 4.58,
+   "nota": ""
+  },
+  {
+   "sha": "c3c65cb",
+   "team": "Puls3",
+   "repo": "Zer0-Knowledge-Hack/puls3",
+   "author": "TOMOKI977",
+   "date": "2026-11-24T16:43:24Z",
+   "msg": "feat(hire): expose hire terms and the receipt lines of a hire (#334)",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "f4611e3",
+   "team": "Puls3",
+   "repo": "Zer0-Knowledge-Hack/puls3",
+   "author": "TOMOKI977",
+   "date": "2026-11-24T16:43:23Z",
+   "msg": "feat(studio): edit the subcontract opt-in of an agent (#334)",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "8fc5a5d",
+   "team": "Puls3",
+   "repo": "Zer0-Knowledge-Hack/puls3",
+   "author": "TOMOKI977",
+   "date": "2026-11-24T16:28:50Z",
+   "msg": "docs(odd): plan T7 of #334",
+   "pts": 5.95,
+   "nota": ""
+  },
   {
    "sha": "6708683",
    "team": "Puls3",
