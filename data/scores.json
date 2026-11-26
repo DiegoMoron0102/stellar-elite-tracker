@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-26T01:20:49+00:00",
+ "generado": "2026-11-26T16:05:48+00:00",
  "programa": "Stellar Elite",
  "start_date": "2026-09-02T00:00:00Z",
  "teams": [
@@ -22,11 +22,11 @@
   },
   {
    "name": "Puls3",
-   "total": 2321.27,
-   "per_capita": 2321.27,
-   "commits": 302,
-   "pts_commits": 2128.27,
-   "dias_activos": 35,
+   "total": 2366.75,
+   "per_capita": 2366.75,
+   "commits": 307,
+   "pts_commits": 2168.75,
+   "dias_activos": 36,
    "contribuidores": [
     "Pericena",
     "TOMOKI977",
@@ -83,11 +83,11 @@
   },
   {
    "name": "MinerTrace",
-   "total": 359.44,
-   "per_capita": 359.44,
-   "commits": 50,
-   "pts_commits": 308.44,
-   "dias_activos": 9,
+   "total": 374.44,
+   "per_capita": 374.44,
+   "commits": 51,
+   "pts_commits": 318.44,
+   "dias_activos": 10,
    "contribuidores": [
     "Dante1128",
     "dilanCimarChn"
@@ -332,7 +332,8 @@
    "2026-11-18": 72.59,
    "2026-11-23": 111.23,
    "2026-11-24": 349.44999999999993,
-   "2026-11-25": 189.92
+   "2026-11-25": 189.92,
+   "2026-11-26": 40.480000000000004
   },
   "Tinkazo": {
    "2026-09-16": 66.21000000000001,
@@ -461,7 +462,8 @@
    "2026-11-05": 24.45,
    "2026-11-09": 0.0,
    "2026-11-11": 19.21,
-   "2026-11-12": 19.700000000000003
+   "2026-11-12": 19.700000000000003,
+   "2026-11-26": 10.0
   },
   "TilcAI": {
    "2026-09-27": 23.66,
@@ -543,7 +545,8 @@
    "2026-11-18": 9,
    "2026-11-23": 13,
    "2026-11-24": 47,
-   "2026-11-25": 34
+   "2026-11-25": 34,
+   "2026-11-26": 5
   },
   "Tinkazo": {
    "2026-09-16": 8,
@@ -672,7 +675,8 @@
    "2026-11-05": 3,
    "2026-11-09": 1,
    "2026-11-11": 6,
-   "2026-11-12": 5
+   "2026-11-12": 5,
+   "2026-11-26": 1
   },
   "TilcAI": {
    "2026-09-27": 3,
@@ -711,6 +715,66 @@
   }
  },
  "commits": [
+  {
+   "sha": "0be7b3b",
+   "team": "Puls3",
+   "repo": "Zer0-Knowledge-Hack/puls3",
+   "author": "TOMOKI977",
+   "date": "2026-11-26T15:25:17Z",
+   "msg": "fix(sdk-ts): the open follow-ups of the #424 review, and release 0.2.1 (#438) (#439)",
+   "pts": 9.95,
+   "nota": ""
+  },
+  {
+   "sha": "e5b3dbf",
+   "team": "Puls3",
+   "repo": "Zer0-Knowledge-Hack/puls3",
+   "author": "TOMOKI977",
+   "date": "2026-11-26T14:50:03Z",
+   "msg": "docs(sdk-ts): date the 0.2.0 changelog section for the release (#424) (#437)",
+   "pts": 2.58,
+   "nota": ""
+  },
+  {
+   "sha": "f8e4fa4",
+   "team": "Puls3",
+   "repo": "Zer0-Knowledge-Hack/puls3",
+   "author": "TOMOKI977",
+   "date": "2026-11-26T14:43:23Z",
+   "msg": "fix(sdk-ts,studio): typed errors, RPC timeout, Node 20 CI, AgentAlreadyRegistered (#424) (#436)",
+   "pts": 9.18,
+   "nota": ""
+  },
+  {
+   "sha": "01ca630",
+   "team": "Puls3",
+   "repo": "Zer0-Knowledge-Hack/puls3",
+   "author": "TOMOKI977",
+   "date": "2026-11-26T14:32:07Z",
+   "msg": "feat(sdk-ts)!: hire sends the reserve, and approve/reject require the reviewed result (#424) (#434)",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "65ceaff",
+   "team": "Puls3",
+   "repo": "Zer0-Knowledge-Hack/puls3",
+   "author": "TOMOKI977",
+   "date": "2026-11-26T13:58:59Z",
+   "msg": "fix(sdk-ts): check the feedback score, the fund fee and the registration origin (#424) (#433)",
+   "pts": 8.77,
+   "nota": ""
+  },
+  {
+   "sha": "8e766f5",
+   "team": "MinerTrace",
+   "repo": "Dante1128/MinerTracer",
+   "author": "Dante1128",
+   "date": "2026-11-26T06:19:12Z",
+   "msg": "feat:new ui and market place",
+   "pts": 10,
+   "nota": ""
+  },
   {
    "sha": "691885b",
    "team": "Tinkazo",

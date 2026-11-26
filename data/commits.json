@@ -223693,5 +223693,485 @@
     "d": 5
    }
   ]
+ },
+ "0be7b3b311e2d9f2e6fc6c8199d791523c9499a9": {
+  "team": "Puls3",
+  "repo": "Zer0-Knowledge-Hack/puls3",
+  "author": "TOMOKI977",
+  "date": "2026-11-26T15:25:17Z",
+  "message": "fix(sdk-ts): the open follow-ups of the #424 review, and release 0.2.1 (#438) (#439)",
+  "parents": 1,
+  "files": [
+   {
+    "f": "odd/tasks/438-sdk-ts-followups.md",
+    "a": 40,
+    "d": 0
+   },
+   {
+    "f": "puls3_sdk_ts/CHANGELOG.md",
+    "a": 22,
+    "d": 0
+   },
+   {
+    "f": "puls3_sdk_ts/package-lock.json",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "puls3_sdk_ts/package.json",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "puls3_sdk_ts/src/chain_reader.ts",
+    "a": 13,
+    "d": 3
+   },
+   {
+    "f": "puls3_sdk_ts/src/guard.ts",
+    "a": 5,
+    "d": 1
+   },
+   {
+    "f": "puls3_sdk_ts/src/key_session.ts",
+    "a": 18,
+    "d": 6
+   },
+   {
+    "f": "puls3_sdk_ts/src/session.ts",
+    "a": 48,
+    "d": 16
+   },
+   {
+    "f": "puls3_sdk_ts/test/chain_reader.test.ts",
+    "a": 53,
+    "d": 0
+   },
+   {
+    "f": "puls3_sdk_ts/test/flows.test.ts",
+    "a": 45,
+    "d": 1
+   },
+   {
+    "f": "puls3_sdk_ts/test/guard.test.ts",
+    "a": 14,
+    "d": 0
+   },
+   {
+    "f": "puls3_sdk_ts/test/session.test.ts",
+    "a": 208,
+    "d": 0
+   }
+  ]
+ },
+ "e5b3dbfe48638e76fcf7320edd6cc48500a701cd": {
+  "team": "Puls3",
+  "repo": "Zer0-Knowledge-Hack/puls3",
+  "author": "TOMOKI977",
+  "date": "2026-11-26T14:50:03Z",
+  "message": "docs(sdk-ts): date the 0.2.0 changelog section for the release (#424) (#437)",
+  "parents": 1,
+  "files": [
+   {
+    "f": "puls3_sdk_ts/CHANGELOG.md",
+    "a": 1,
+    "d": 1
+   }
+  ]
+ },
+ "f8e4fa40abae8a0ebe52c145b08c0d982ac8fa72": {
+  "team": "Puls3",
+  "repo": "Zer0-Knowledge-Hack/puls3",
+  "author": "TOMOKI977",
+  "date": "2026-11-26T14:43:23Z",
+  "message": "fix(sdk-ts,studio): typed errors, RPC timeout, Node 20 CI, AgentAlreadyRegistered (#424) (#436)",
+  "parents": 1,
+  "files": [
+   {
+    "f": ".github/workflows/ci.yml",
+    "a": 7,
+    "d": 1
+   },
+   {
+    "f": "docs/architecture/api.md",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "odd/tasks/424-npm-sdk-checks.md",
+    "a": 11,
+    "d": 4
+   },
+   {
+    "f": "puls3_sdk_ts/CHANGELOG.md",
+    "a": 12,
+    "d": 0
+   },
+   {
+    "f": "puls3_sdk_ts/package.json",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "puls3_sdk_ts/scripts/run-tests.mjs",
+    "a": 21,
+    "d": 0
+   },
+   {
+    "f": "puls3_sdk_ts/src/chain_reader.ts",
+    "a": 14,
+    "d": 1
+   },
+   {
+    "f": "puls3_sdk_ts/src/key_session.ts",
+    "a": 4,
+    "d": 3
+   },
+   {
+    "f": "puls3_sdk_ts/src/sdk.ts",
+    "a": 5,
+    "d": 2
+   },
+   {
+    "f": "puls3_sdk_ts/src/transport.ts",
+    "a": 8,
+    "d": 1
+   },
+   {
+    "f": "puls3_sdk_ts/test/chain_reader.test.ts",
+    "a": 17,
+    "d": 0
+   },
+   {
+    "f": "puls3_sdk_ts/test/flows.test.ts",
+    "a": 52,
+    "d": 0
+   },
+   {
+    "f": "puls3_sdk_ts/test/guard.test.ts",
+    "a": 34,
+    "d": 0
+   },
+   {
+    "f": "puls3_sdk_ts/test/transport.test.ts",
+    "a": 9,
+    "d": 0
+   },
+   {
+    "f": "puls3_server/lib/src/studio/studio_deploy_service.dart",
+    "a": 24,
+    "d": 1
+   },
+   {
+    "f": "puls3_server/test/studio/studio_deploy_service_test.dart",
+    "a": 54,
+    "d": 0
+   }
+  ]
+ },
+ "01ca63072f18eb8d5a4a4385b4f90218f4bb1f2b": {
+  "team": "Puls3",
+  "repo": "Zer0-Knowledge-Hack/puls3",
+  "author": "TOMOKI977",
+  "date": "2026-11-26T14:32:07Z",
+  "message": "feat(sdk-ts)!: hire sends the reserve, and approve/reject require the reviewed result (#424) (#434)",
+  "parents": 1,
+  "files": [
+   {
+    "f": "odd/tasks/424-npm-sdk-checks.md",
+    "a": 5,
+    "d": 4
+   },
+   {
+    "f": "puls3_sdk_ts/CHANGELOG.md",
+    "a": 22,
+    "d": 0
+   },
+   {
+    "f": "puls3_sdk_ts/README.md",
+    "a": 29,
+    "d": 14
+   },
+   {
+    "f": "puls3_sdk_ts/examples/live-testnet.ts",
+    "a": 3,
+    "d": 2
+   },
+   {
+    "f": "puls3_sdk_ts/package-lock.json",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "puls3_sdk_ts/package.json",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "puls3_sdk_ts/src/index.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "puls3_sdk_ts/src/sdk.ts",
+    "a": 97,
+    "d": 25
+   },
+   {
+    "f": "puls3_sdk_ts/src/session.ts",
+    "a": 133,
+    "d": 9
+   },
+   {
+    "f": "puls3_sdk_ts/test/flows.test.ts",
+    "a": 134,
+    "d": 8
+   },
+   {
+    "f": "puls3_sdk_ts/test/session.test.ts",
+    "a": 115,
+    "d": 1
+   }
+  ]
+ },
+ "65ceaffc5f5385d238aa1d166d1cd75fbc55deee": {
+  "team": "Puls3",
+  "repo": "Zer0-Knowledge-Hack/puls3",
+  "author": "TOMOKI977",
+  "date": "2026-11-26T13:58:59Z",
+  "message": "fix(sdk-ts): check the feedback score, the fund fee and the registration origin (#424) (#433)",
+  "parents": 1,
+  "files": [
+   {
+    "f": "odd/tasks/424-npm-sdk-checks.md",
+    "a": 38,
+    "d": 0
+   },
+   {
+    "f": "puls3_sdk_ts/CHANGELOG.md",
+    "a": 12,
+    "d": 1
+   },
+   {
+    "f": "puls3_sdk_ts/README.md",
+    "a": 10,
+    "d": 5
+   },
+   {
+    "f": "puls3_sdk_ts/src/guard.ts",
+    "a": 28,
+    "d": 3
+   },
+   {
+    "f": "puls3_sdk_ts/src/network.ts",
+    "a": 32,
+    "d": 0
+   },
+   {
+    "f": "puls3_sdk_ts/src/sdk.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "puls3_sdk_ts/test/chain.ts",
+    "a": 13,
+    "d": 8
+   },
+   {
+    "f": "puls3_sdk_ts/test/guard.test.ts",
+    "a": 63,
+    "d": 2
+   }
+  ]
+ },
+ "8e766f55ab3c5f3d6139e2a950a76227ad40c5eb": {
+  "team": "MinerTrace",
+  "repo": "Dante1128/MinerTracer",
+  "author": "Dante1128",
+  "date": "2026-11-26T06:19:12Z",
+  "message": "feat:new ui and market place",
+  "parents": 1,
+  "files": [
+   {
+    "f": "ARQUITECTURA.md",
+    "a": 83,
+    "d": 0
+   },
+   {
+    "f": "GUIA.md",
+    "a": 17,
+    "d": 8
+   },
+   {
+    "f": "README.md",
+    "a": 24,
+    "d": 16
+   },
+   {
+    "f": "scripts/desplegar-testnet.mjs",
+    "a": 43,
+    "d": 6
+   },
+   {
+    "f": "server/.env.example",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "server/scripts/poblar-demo.ts",
+    "a": 54,
+    "d": 13
+   },
+   {
+    "f": "server/src/controladores/contraAnalisis.ts",
+    "a": 44,
+    "d": 0
+   },
+   {
+    "f": "server/src/controladores/cuentas.ts",
+    "a": 137,
+    "d": 0
+   },
+   {
+    "f": "server/src/controladores/demo.ts",
+    "a": 46,
+    "d": 0
+   },
+   {
+    "f": "server/src/controladores/laboratorio.ts",
+    "a": 127,
+    "d": 0
+   },
+   {
+    "f": "server/src/controladores/mercado.ts",
+    "a": 97,
+    "d": 0
+   },
+   {
+    "f": "server/src/controladores/publico.ts",
+    "a": 76,
+    "d": 0
+   },
+   {
+    "f": "server/src/mercado/mercado.ts",
+    "a": 10,
+    "d": 12
+   },
+   {
+    "f": "server/src/modelos/analisis.ts",
+    "a": 101,
+    "d": 0
+   },
+   {
+    "f": "server/src/modelos/contraAnalisis.ts",
+    "a": 50,
+    "d": 0
+   },
+   {
+    "f": "server/src/modelos/laboratorios.ts",
+    "a": 33,
+    "d": 0
+   },
+   {
+    "f": "server/src/modelos/lotes.ts",
+    "a": 66,
+    "d": 0
+   },
+   {
+    "f": "server/src/modelos/usuarios.ts",
+    "a": 65,
+    "d": 0
+   },
+   {
+    "f": "server/src/rutas/contraAnalisis.ts",
+    "a": 11,
+    "d": 42
+   },
+   {
+    "f": "server/src/rutas/cuentas.ts",
+    "a": 19,
+    "d": 128
+   },
+   {
+    "f": "server/src/rutas/demo.ts",
+    "a": 6,
+    "d": 45
+   },
+   {
+    "f": "server/src/rutas/enlazar.ts",
+    "a": 11,
+    "d": 0
+   },
+   {
+    "f": "server/src/rutas/laboratorio.ts",
+    "a": 16,
+    "d": 133
+   },
+   {
+    "f": "server/src/rutas/mercado.ts",
+    "a": 13,
+    "d": 99
+   },
+   {
+    "f": "server/src/rutas/publico.ts",
+    "a": 12,
+    "d": 74
+   },
+   {
+    "f": "server/src/servicios/contraAnalisis.ts",
+    "a": 23,
+    "d": 20
+   },
+   {
+    "f": "server/src/servicios/cuentas.ts",
+    "a": 4,
+    "d": 3
+   },
+   {
+    "f": "server/src/servicios/registro.ts",
+    "a": 26,
+    "d": 34
+   },
+   {
+    "f": "server/src/servicios/verificacion.ts",
+    "a": 6,
+    "d": 10
+   },
+   {
+    "f": "web/src/componentes/Mercado.tsx",
+    "a": 51,
+    "d": 1
+   },
+   {
+    "f": "web/src/index.css",
+    "a": 26,
+    "d": 6
+   },
+   {
+    "f": "web/src/main.tsx",
+    "a": 2,
+    "d": 0
+   },
+   {
+    "f": "web/src/mercado.ts",
+    "a": 58,
+    "d": 0
+   },
+   {
+    "f": "web/src/paginas/Inicio.tsx",
+    "a": 45,
+    "d": 18
+   },
+   {
+    "f": "web/src/paginas/Mercado.tsx",
+    "a": 41,
+    "d": 63
+   },
+   {
+    "f": "web/src/paginas/PerfilVendedor.tsx",
+    "a": 61,
+    "d": 0
+   }
+  ]
  }
 }
