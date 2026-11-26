@@ -1,15 +1,15 @@
 {
- "generado": "2026-11-25T16:29:50+00:00",
+ "generado": "2026-11-26T01:20:49+00:00",
  "programa": "Stellar Elite",
  "start_date": "2026-09-02T00:00:00Z",
  "teams": [
   {
    "name": "Tinkazo",
-   "total": 9950.81,
-   "per_capita": 9950.81,
-   "commits": 1528,
-   "pts_commits": 9679.81,
-   "dias_activos": 53,
+   "total": 11109.41,
+   "per_capita": 11109.41,
+   "commits": 1709,
+   "pts_commits": 10833.41,
+   "dias_activos": 54,
    "contribuidores": [
     "GuidoSV7",
     "nema1502"
@@ -386,9 +386,10 @@
    "2026-11-20": 236.51,
    "2026-11-21": 99.36,
    "2026-11-22": 121.32000000000001,
-   "2026-11-23": 194.15,
+   "2026-11-23": 223.35,
    "2026-11-24": 82.35000000000001,
-   "2026-11-25": 438.35999999999996
+   "2026-11-25": 1539.0700000000002,
+   "2026-11-26": 23.69
   },
   "CompraGasolinaBidon": {
    "2026-09-06": 1.0,
@@ -596,9 +597,10 @@
    "2026-11-20": 59,
    "2026-11-21": 14,
    "2026-11-22": 17,
-   "2026-11-23": 25,
+   "2026-11-23": 29,
    "2026-11-24": 17,
-   "2026-11-25": 71
+   "2026-11-25": 245,
+   "2026-11-26": 3
   },
   "CompraGasolinaBidon": {
    "2026-09-06": 1,
@@ -710,6 +712,1296 @@
  },
  "commits": [
   {
+   "sha": "691885b",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-26T00:02:13Z",
+   "msg": "Las pruebas de pestaña escondida exigen que la música suene y retome al volver",
+   "pts": 6.98,
+   "nota": ""
+  },
+  {
+   "sha": "b3ebda2",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-26T00:02:12Z",
+   "msg": "La escucha no pierde votos si el almacenamiento falla y avisa que no se guardaron",
+   "pts": 8.4,
+   "nota": ""
+  },
+  {
+   "sha": "5f6abcb",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-26T00:02:12Z",
+   "msg": "Una prueba guarda los veinte rasgueos del remate y su dependencia del margen",
+   "pts": 8.31,
+   "nota": ""
+  },
+  {
+   "sha": "d8c25b6",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-25T23:25:34Z",
+   "msg": "La página de escucha cumple las dos reglas de las páginas del sitio",
+   "pts": 3.32,
+   "nota": ""
+  },
+  {
+   "sha": "bebc9a0",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-25T23:15:17Z",
+   "msg": "La página de escucha cuida el último toque, el idioma y el celular",
+   "pts": 9.64,
+   "nota": ""
+  },
+  {
+   "sha": "1e6b7bb",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-25T23:15:06Z",
+   "msg": "El adelgazado no castiga un tropiezo y el remate no llega tarde",
+   "pts": 8.86,
+   "nota": ""
+  },
+  {
+   "sha": "657198a",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-25T22:11:15Z",
+   "msg": "Quita dos fechas sin fuente de los comentarios y de D-11",
+   "pts": 3.81,
+   "nota": ""
+  },
+  {
+   "sha": "6cc77b7",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-25T22:11:13Z",
+   "msg": "El comentario de la entrada del celular dice el corte real de 412 px",
+   "pts": 2.58,
+   "nota": ""
+  },
+  {
+   "sha": "68fb794",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-25T22:11:12Z",
+   "msg": "La guía de UX dice cuándo aparece el aviso del premio con el teclado",
+   "pts": 2.58,
+   "nota": ""
+  },
+  {
+   "sha": "a2adb13",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-25T21:55:27Z",
+   "msg": "Aclara en el ejemplo de variables y en D-29 qué es el valor por defecto",
+   "pts": 5.95,
+   "nota": ""
+  },
+  {
+   "sha": "0f5773c",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-25T21:55:26Z",
+   "msg": "Las fechas de las banderas citan su fuente o se quitan",
+   "pts": 5.95,
+   "nota": ""
+  },
+  {
+   "sha": "3f1944f",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-25T21:53:46Z",
+   "msg": "La comprobación de banderas reintenta y no avisa en falso por un corte",
+   "pts": 9.82,
+   "nota": ""
+  },
+  {
+   "sha": "25a713c",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-25T21:48:44Z",
+   "msg": "El auditor de interfaz abre Más en el celular y mide el relleno de sus renglones",
+   "pts": 7.91,
+   "nota": ""
+  },
+  {
+   "sha": "7b5eb5d",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-25T21:46:06Z",
+   "msg": "La lista de Más conserva su relleno de 16 px en el celular",
+   "pts": 5.58,
+   "nota": ""
+  },
+  {
+   "sha": "178e937",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-25T21:33:15Z",
+   "msg": "Devuelve el límite de palabra que se perdió en la comprobación de banderas",
+   "pts": 2.58,
+   "nota": ""
+  },
+  {
+   "sha": "075f99b",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-25T21:25:30Z",
+   "msg": "La comprobación de banderas nunca escribe el valor de una reservada",
+   "pts": 7.36,
+   "nota": ""
+  },
+  {
+   "sha": "82d304f",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-25T21:14:54Z",
+   "msg": "El aviso del premio no declara un parámetro que no usa",
+   "pts": 2.58,
+   "nota": ""
+  },
+  {
+   "sha": "2b3e57a",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-25T21:14:32Z",
+   "msg": "El auditor de la cabecera mide con la cuenta abierta y la letra agrandada",
+   "pts": 9.43,
+   "nota": ""
+  },
+  {
+   "sha": "a5cf8a5",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-25T21:12:02Z",
+   "msg": "La fila del celular aguanta la letra agrandada con Empresas",
+   "pts": 6.75,
+   "nota": ""
+  },
+  {
+   "sha": "b19ea67",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-25T21:10:52Z",
+   "msg": "Los pasos de la portada ponen el dibujo arriba en una tableta vertical",
+   "pts": 4.91,
+   "nota": ""
+  },
+  {
+   "sha": "a1c2d19",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-25T21:10:26Z",
+   "msg": "El auditor de interfaz compara la línea de sellar con el idioma de la página",
+   "pts": 6.0,
+   "nota": ""
+  },
+  {
+   "sha": "36d58b5",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-25T21:09:48Z",
+   "msg": "El aviso del premio ignora otras monedas y aparece con el teclado",
+   "pts": 7.02,
+   "nota": ""
+  },
+  {
+   "sha": "acbd542",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-25T21:06:31Z",
+   "msg": "La portada baja una sola imagen del hero y quita un guion sin efecto",
+   "pts": 6.73,
+   "nota": ""
+  },
+  {
+   "sha": "45a4fa6",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-25T21:02:00Z",
+   "msg": "La vigilancia diaria corre la comprobación de las banderas del sitio",
+   "pts": 6.25,
+   "nota": ""
+  },
+  {
+   "sha": "5eaace3",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-25T21:01:10Z",
+   "msg": "Corrige las frases que daban por apagado lo que está prendido",
+   "pts": 6.49,
+   "nota": ""
+  },
+  {
+   "sha": "38e31ff",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-25T21:00:14Z",
+   "msg": "Documenta qué banderas del sitio están prendidas en producción",
+   "pts": 6.83,
+   "nota": ""
+  },
+  {
+   "sha": "13ff42d",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-25T21:00:09Z",
+   "msg": "Suma pnpm check:banderas, que compara la tabla de banderas con el sitio",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "f160293",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-25T20:21:12Z",
+   "msg": "El auditor de la cabecera mide con la letra ancha y exige aire",
+   "pts": 7.41,
+   "nota": ""
+  },
+  {
+   "sha": "d24bd68",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-25T20:12:55Z",
+   "msg": "Corrige la prueba de la vuelta a la pestaña: la lectura sale en el turno siguiente",
+   "pts": 3.81,
+   "nota": ""
+  },
+  {
+   "sha": "0716945",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-25T20:05:50Z",
+   "msg": "La línea del premio se repinta al volver a la pestaña y no lee con el panel detenido",
+   "pts": 6.75,
+   "nota": ""
+  },
+  {
+   "sha": "d96dfb1",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-25T20:00:10Z",
+   "msg": "El resumen en inglés de la política dice lo mismo que el español sobre las recompensas",
+   "pts": 2.58,
+   "nota": ""
+  },
+  {
+   "sha": "508a4b8",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-25T19:58:44Z",
+   "msg": "Los tres pasos de la portada van en una fila desde 761 px",
+   "pts": 5.7,
+   "nota": ""
+  },
+  {
+   "sha": "4ee01f7",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-25T19:58:41Z",
+   "msg": "El auditor de interfaz avisa si la cabecera de escritorio se parte",
+   "pts": 8.54,
+   "nota": ""
+  },
+  {
+   "sha": "df2443f",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-25T19:58:35Z",
+   "msg": "La entrada de empresas dice Empresas en la cabecera de 1101 a 1439 px",
+   "pts": 7.25,
+   "nota": ""
+  },
+  {
+   "sha": "0015322",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-25T19:58:28Z",
+   "msg": "El aviso del premio en dinero no aparece en la demostración",
+   "pts": 5.58,
+   "nota": ""
+  },
+  {
+   "sha": "a8acd4e",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-25T19:51:21Z",
+   "msg": "La prueba de igualdad cubre los casos de la vida real y anota su origen",
+   "pts": 10.0,
+   "nota": ""
+  },
+  {
+   "sha": "e7ab071",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-25T19:39:56Z",
+   "msg": "Una captura falla si terminó en otra página o la ruta no se comprobó",
+   "pts": 8.81,
+   "nota": ""
+  },
+  {
+   "sha": "29eedb5",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-25T19:39:56Z",
+   "msg": "Las capturas pedidas no corren con la caché de la rama principal",
+   "pts": 8.04,
+   "nota": ""
+  },
+  {
+   "sha": "b122167",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-25T19:28:38Z",
+   "msg": "Cuatro pruebas de gobierno llamaban a la lectura perezosa sin ejecutarla",
+   "pts": 4.17,
+   "nota": ""
+  },
+  {
+   "sha": "fa4dc75",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-25T19:28:07Z",
+   "msg": "El resumen en inglés de la política cambia una palabra que se evita",
+   "pts": 2.58,
+   "nota": ""
+  },
+  {
+   "sha": "2440cca",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-25T19:28:06Z",
+   "msg": "Los README piden avisar una falla por correo y enlazan la política",
+   "pts": 3.32,
+   "nota": ""
+  },
+  {
+   "sha": "d081012",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-25T19:28:06Z",
+   "msg": "La página de seguridad pide avisar una falla por correo y no en un issue",
+   "pts": 4.7,
+   "nota": ""
+  },
+  {
+   "sha": "6a23b57",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-25T19:27:47Z",
+   "msg": "El validador de formularios rechaza lo que GitHub rechaza",
+   "pts": 5.91,
+   "nota": ""
+  },
+  {
+   "sha": "0589128",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-25T19:27:23Z",
+   "msg": "Pruebas: el sitio y los README no mandan una falla a un issue público",
+   "pts": 7.54,
+   "nota": ""
+  },
+  {
+   "sha": "2258941",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-25T19:27:23Z",
+   "msg": "Los formularios de issue se prueban con las exigencias de GitHub",
+   "pts": 8.9,
+   "nota": ""
+  },
+  {
+   "sha": "00aa24e",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-25T19:27:19Z",
+   "msg": "La línea del premio no se esconde y dice cuando no se pudo ver",
+   "pts": 9.38,
+   "nota": ""
+  },
+  {
+   "sha": "f4ec552",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-25T19:27:18Z",
+   "msg": "Textos más cortos y alto fijo de la línea del premio en la cuenta",
+   "pts": 5.25,
+   "nota": ""
+  },
+  {
+   "sha": "cd392c4",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-25T19:20:05Z",
+   "msg": "El aviso de la práctica no rompe donde el documento es de mentira",
+   "pts": 2.58,
+   "nota": ""
+  },
+  {
+   "sha": "509d401",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-25T19:11:57Z",
+   "msg": "Entrar al ensayo o al modo stand esconde el aviso de armar una campaña",
+   "pts": 6.0,
+   "nota": ""
+  },
+  {
+   "sha": "c9ccdb4",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-25T19:03:18Z",
+   "msg": "Corrige la cuenta de checkout de la prueba del flujo de auditores",
+   "pts": 2.58,
+   "nota": ""
+  },
+  {
+   "sha": "9cd2866",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-25T18:59:44Z",
+   "msg": "La pregunta de dejar la campaña separa el título del botón cuando no lleva línea",
+   "pts": 4.32,
+   "nota": ""
+  },
+  {
+   "sha": "c8d5979",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-25T18:57:17Z",
+   "msg": "La arquitectura cuenta el modo de capturas de los auditores a pedido",
+   "pts": 6.98,
+   "nota": ""
+  },
+  {
+   "sha": "c68c734",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-25T18:57:16Z",
+   "msg": "El guion de capturas falla las vistas que sacaron otra cosa",
+   "pts": 8.91,
+   "nota": ""
+  },
+  {
+   "sha": "33b9261",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-25T18:57:16Z",
+   "msg": "Las capturas comprueban el clic, la ruta, el tema y el plazo de cada vista",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "a3cba71",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-25T18:54:12Z",
+   "msg": "Empresas entra a la fila de la cabecera del celular desde 412 px",
+   "pts": 5.52,
+   "nota": ""
+  },
+  {
+   "sha": "ff09c73",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-25T18:48:32Z",
+   "msg": "Pruebas: los documentos copian el texto de la pregunta y la vista previa no la lleva",
+   "pts": 6.32,
+   "nota": ""
+  },
+  {
+   "sha": "b77eda7",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-25T18:48:31Z",
+   "msg": "La hoja de operación dice cuándo aparece Pasar la lista al sorteo",
+   "pts": 4.46,
+   "nota": ""
+  },
+  {
+   "sha": "79ff460",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-25T18:43:37Z",
+   "msg": "Prueba del costo de la línea del premio con el panel abierto diez minutos",
+   "pts": 6.91,
+   "nota": ""
+  },
+  {
+   "sha": "880f10e",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-25T18:43:36Z",
+   "msg": "Pruebas del armado real de la lectura del premio en la cuenta",
+   "pts": 7.04,
+   "nota": ""
+  },
+  {
+   "sha": "04a36f8",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-25T18:43:12Z",
+   "msg": "La línea del premio habla solo de la cuenta que entró y no deja blancos",
+   "pts": 9.47,
+   "nota": ""
+  },
+  {
+   "sha": "d6566fe",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-25T18:40:20Z",
+   "msg": "La prueba de la tarjeta de ejemplo acepta los dólares digitales en inglés",
+   "pts": 3.0,
+   "nota": ""
+  },
+  {
+   "sha": "552ee72",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-25T18:37:33Z",
+   "msg": "El formulario de mejora no promete tiempo de atención",
+   "pts": 5.52,
+   "nota": ""
+  },
+  {
+   "sha": "6b305fe",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-25T18:37:33Z",
+   "msg": "La política de seguridad pide tiempo como un pedido, en español y en inglés",
+   "pts": 5.46,
+   "nota": ""
+  },
+  {
+   "sha": "e0768b4",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-25T18:37:24Z",
+   "msg": "La guía de contribución dice las tres cosas que hacen falta para unir",
+   "pts": 5.7,
+   "nota": ""
+  },
+  {
+   "sha": "52dbe7c",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-25T18:36:55Z",
+   "msg": "La prueba de los formularios lee listas de una línea y mira cada campo",
+   "pts": 9.74,
+   "nota": ""
+  },
+  {
+   "sha": "1a583de",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-25T18:34:57Z",
+   "msg": "La prueba del alta espera la marca ~ en el valor de un correo saneado",
+   "pts": 2.58,
+   "nota": ""
+  },
+  {
+   "sha": "5f169a4",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-25T18:31:30Z",
+   "msg": "Las pruebas del aviso y de la tarjeta respetan los tipos y el foco del campo",
+   "pts": 4.91,
+   "nota": ""
+  },
+  {
+   "sha": "ac654bb",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-25T18:28:48Z",
+   "msg": "Los comentarios de la vía de Google se cortan en líneas de largo normal",
+   "pts": 5.0,
+   "nota": ""
+  },
+  {
+   "sha": "43fa4f2",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-25T18:28:47Z",
+   "msg": "La hoja de operación manda a desplegar solo la sala por la vía de Google",
+   "pts": 5.17,
+   "nota": ""
+  },
+  {
+   "sha": "c0efcbf",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-25T18:28:40Z",
+   "msg": "El registro de la vía marca con ~ lo que perdió al limpiarlo",
+   "pts": 7.07,
+   "nota": ""
+  },
+  {
+   "sha": "8fed591",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-25T18:28:18Z",
+   "msg": "El auditor de interfaz falla si no encuentra la frase de Entrar para sellar",
+   "pts": 5.64,
+   "nota": ""
+  },
+  {
+   "sha": "0b914f0",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-25T18:27:14Z",
+   "msg": "La tarjeta de ejemplo dice lo mismo en español y en inglés",
+   "pts": 5.75,
+   "nota": ""
+  },
+  {
+   "sha": "8779f5a",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-25T18:26:14Z",
+   "msg": "El aviso de armar una campaña no aparece donde no corresponde",
+   "pts": 7.92,
+   "nota": ""
+  },
+  {
+   "sha": "1217dbe",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-25T18:23:22Z",
+   "msg": "Empresas entra a la fila de la cabecera del celular desde 400 px",
+   "pts": 5.81,
+   "nota": ""
+  },
+  {
+   "sha": "36f5a48",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-25T18:22:38Z",
+   "msg": "El celular bajo vuelve a juntar el título, la línea y el botón a 12 px",
+   "pts": 4.0,
+   "nota": ""
+  },
+  {
+   "sha": "df51902",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-25T18:16:34Z",
+   "msg": "La prueba de las claves sueltas lee los archivos desde la raíz del proyecto",
+   "pts": 3.32,
+   "nota": ""
+  },
+  {
+   "sha": "3777df0",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-25T18:16:00Z",
+   "msg": "El enlace de seguridad de los formularios se lee y la prueba lo vigila",
+   "pts": 7.11,
+   "nota": ""
+  },
+  {
+   "sha": "d304ed5",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-25T18:15:16Z",
+   "msg": "La prueba del repositorio cuida hechos y no frases",
+   "pts": 6.64,
+   "nota": ""
+  },
+  {
+   "sha": "7ae7cbe",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-25T18:10:01Z",
+   "msg": "La hoja de operación y la guía de UX dicen qué abre Elegir otro archivo",
+   "pts": 4.17,
+   "nota": ""
+  },
+  {
+   "sha": "82acc82",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-25T18:10:01Z",
+   "msg": "La pregunta de dejar la campaña lleva una sola línea condicional",
+   "pts": 9.36,
+   "nota": ""
+  },
+  {
+   "sha": "c1c44fb",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-25T18:08:08Z",
+   "msg": "Las capturas rechazan los nombres que Windows reserva",
+   "pts": 5.52,
+   "nota": ""
+  },
+  {
+   "sha": "216b45c",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-25T18:07:53Z",
+   "msg": "El flujo de capturas no usa la caché de pnpm y guarda el artefacto un día",
+   "pts": 8.55,
+   "nota": ""
+  },
+  {
+   "sha": "5b6496d",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-25T17:56:26Z",
+   "msg": "La prueba cuida hechos y valida la estructura de los formularios",
+   "pts": 8.77,
+   "nota": ""
+  },
+  {
+   "sha": "286ede7",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-25T17:56:25Z",
+   "msg": "La guía dice cómo se une de verdad y el enlace de seguridad sirve",
+   "pts": 5.09,
+   "nota": ""
+  },
+  {
+   "sha": "148763b",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-25T17:56:25Z",
+   "msg": "La política de seguridad no pone en alcance lo que acepta el modelo",
+   "pts": 4.46,
+   "nota": ""
+  },
+  {
+   "sha": "b540d89",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-25T17:53:26Z",
+   "msg": "Documenta desplegar sala y portero y mirar la vía rechazada",
+   "pts": 4.7,
+   "nota": ""
+  },
+  {
+   "sha": "0eed9a1",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-25T17:53:25Z",
+   "msg": "Los comentarios de la sala dejan de pedir Google exacto",
+   "pts": 3.81,
+   "nota": ""
+  },
+  {
+   "sha": "a01a1a5",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-25T17:53:25Z",
+   "msg": "La sala anota en el registro el valor de la vía que rechazó",
+   "pts": 8.47,
+   "nota": ""
+  },
+  {
+   "sha": "ba0868a",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-25T17:52:09Z",
+   "msg": "El alto reservado de la línea del premio va dentro de la regla de 900 px de siempre",
+   "pts": 3.32,
+   "nota": ""
+  },
+  {
+   "sha": "baf8aa6",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-25T17:48:59Z",
+   "msg": "La pregunta de dejar la campaña distingue el aviso a una ganadora",
+   "pts": 6.91,
+   "nota": ""
+  },
+  {
+   "sha": "69b1be4",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-25T17:46:15Z",
+   "msg": "El aviso del premio no se mueve mientras se escribe ni al tocar Sellar la lista",
+   "pts": 7.83,
+   "nota": ""
+  },
+  {
+   "sha": "88957d8",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-25T17:46:14Z",
+   "msg": "La imagen del hero sube solo en celulares angostos y no hace parada del teclado",
+   "pts": 5.81,
+   "nota": ""
+  },
+  {
+   "sha": "d58d0f5",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-25T17:38:24Z",
+   "msg": "La línea del premio no tumba el panel, no queda vieja y no empuja el botón",
+   "pts": 9.53,
+   "nota": ""
+  },
+  {
+   "sha": "ad18fed",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-25T17:30:43Z",
+   "msg": "La guía dice que se une con rebase o squash y quién pone la zona",
+   "pts": 3.81,
+   "nota": ""
+  },
+  {
+   "sha": "af7414b",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-25T17:30:43Z",
+   "msg": "La prueba cuida hechos y el formulario del equipo se declara público",
+   "pts": 6.78,
+   "nota": ""
+  },
+  {
+   "sha": "a6893c0",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-25T17:25:09Z",
+   "msg": "La guía del panel distingue Pasar la lista al sorteo de Probar de nuevo",
+   "pts": 3.32,
+   "nota": ""
+  },
+  {
+   "sha": "6c4a782",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-25T17:25:04Z",
+   "msg": "La pregunta de dejar la campaña dice la verdad según la vista",
+   "pts": 8.51,
+   "nota": ""
+  },
+  {
+   "sha": "d649e32",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-25T17:22:45Z",
+   "msg": "Corrige los tipos de la prueba del premio en la cuenta",
+   "pts": 5.7,
+   "nota": ""
+  },
+  {
+   "sha": "c5ab478",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-25T17:22:28Z",
+   "msg": "La sala reconoce una cuenta de Google aunque el proveedor lo escriba en mayúsculas",
+   "pts": 6.91,
+   "nota": ""
+  },
+  {
+   "sha": "2be3dcc",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-25T17:19:04Z",
+   "msg": "Las capturas esperan el resultado, cargan las imágenes y frenan ventanas nuevas",
+   "pts": 9.81,
+   "nota": ""
+  },
+  {
+   "sha": "04aa2db",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-25T17:18:28Z",
+   "msg": "La hoja de operación fija wrangler 4.160.0 en el paso de la clave de lectura",
+   "pts": 3.32,
+   "nota": ""
+  },
+  {
+   "sha": "ccde75d",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-25T17:18:27Z",
+   "msg": "El aviso de la clave que falta va en frases cortas y en voseo",
+   "pts": 5.7,
+   "nota": ""
+  },
+  {
+   "sha": "1f86d6e",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-25T17:16:39Z",
+   "msg": "El auditor de interfaz compara la frase entera de Entrar para sellar",
+   "pts": 7.04,
+   "nota": ""
+  },
+  {
+   "sha": "4aba046",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-25T17:16:39Z",
+   "msg": "El aviso del premio espera a que termine de escribirse",
+   "pts": 7.88,
+   "nota": ""
+  },
+  {
+   "sha": "a9edad0",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-25T17:16:30Z",
+   "msg": "El celular sigue el orden del HTML y la bandera se decide al construir",
+   "pts": 9.48,
+   "nota": ""
+  },
+  {
+   "sha": "5c7976f",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-25T17:07:37Z",
+   "msg": "La reanudación del audio y el interruptor quedan como pide el pedido",
+   "pts": 8.53,
+   "nota": ""
+  },
+  {
+   "sha": "597b0cf",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-25T17:04:32Z",
+   "msg": "Unir a main publica el sitio y la guía y la plantilla lo dicen",
+   "pts": 5.25,
+   "nota": ""
+  },
+  {
+   "sha": "30f4f8d",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-25T14:39:05Z",
+   "msg": "La prueba del máximo de doce horas guarda la hora del pase en una variable",
+   "pts": 3.58,
+   "nota": ""
+  },
+  {
+   "sha": "aa5f517",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-25T14:39:04Z",
+   "msg": "Prueba: pasada la hora de cierre una persona nueva no llama al proveedor",
+   "pts": 5.17,
+   "nota": ""
+  },
+  {
+   "sha": "185a203",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-25T14:37:49Z",
+   "msg": "La política de seguridad no promete respuesta ni un botón apagado",
+   "pts": 4.46,
+   "nota": ""
+  },
+  {
+   "sha": "21a21c1",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-25T14:37:48Z",
+   "msg": "La plantilla de pedido sin respuestas prellenadas y trabajo solo equipo",
+   "pts": 4.46,
+   "nota": ""
+  },
+  {
+   "sha": "a6dec6e",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-25T14:37:48Z",
+   "msg": "El formulario de fallas no pide el enlace del comprobante",
+   "pts": 3.32,
+   "nota": ""
+  },
+  {
+   "sha": "5f1a7bd",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-25T14:37:47Z",
+   "msg": "La guía de contribución dice cómo se une de verdad y cuida comprobantes",
+   "pts": 7.52,
+   "nota": ""
+  },
+  {
+   "sha": "fc1f773",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-25T14:36:12Z",
+   "msg": "El aviso del protocolo de la red cuenta como avisado si salió por un canal",
+   "pts": 7.21,
+   "nota": ""
+  },
+  {
+   "sha": "2d8865d",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-25T14:36:02Z",
+   "msg": "La hoja de operación escribe el orden de carga de la clave de solo lectura",
+   "pts": 8.22,
+   "nota": ""
+  },
+  {
+   "sha": "39db19a",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-25T14:35:57Z",
+   "msg": "El vigilante prueba qué clave manda al portero y explica el orden de carga",
+   "pts": 7.13,
+   "nota": ""
+  },
+  {
+   "sha": "1180b34",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-25T14:35:56Z",
+   "msg": "La prueba del flujo de vigilancia comprueba qué clave viaja al portero",
+   "pts": 7.39,
+   "nota": ""
+  },
+  {
+   "sha": "1b7851b",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-25T14:33:23Z",
+   "msg": "Una prueba fija que la demostración no deja borrador, con o sin n",
+   "pts": 7.58,
+   "nota": ""
+  },
+  {
+   "sha": "fbb803a",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-25T14:30:31Z",
+   "msg": "La captura de cada tarjeta de la espera no mueve nada si la red falla",
+   "pts": 7.04,
+   "nota": ""
+  },
+  {
+   "sha": "c4ef009",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-25T14:29:36Z",
+   "msg": "Contestar un pedido pausado nunca tira el guion abajo",
+   "pts": 6.04,
+   "nota": ""
+  },
+  {
+   "sha": "912baca",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-25T14:28:51Z",
+   "msg": "La pregunta de dejar la campaña dice qué se pierden los celulares",
+   "pts": 8.52,
+   "nota": ""
+  },
+  {
+   "sha": "b4da4b1",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-25T14:28:12Z",
+   "msg": "Las recetas llegan a la espera en grande y el ejemplo del flujo se copia",
+   "pts": 7.74,
+   "nota": ""
+  },
+  {
+   "sha": "bc02ad4",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-25T14:27:07Z",
+   "msg": "Las capturas tienen un tope total y los checkout no guardan el token",
+   "pts": 7.54,
+   "nota": ""
+  },
+  {
+   "sha": "2d94fe6",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-25T14:26:08Z",
+   "msg": "La pestaña de las capturas no sale del sitio servido",
+   "pts": 8.35,
+   "nota": ""
+  },
+  {
+   "sha": "7471ed0",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-25T14:25:24Z",
+   "msg": "Una vista que falla deja la foto de lo que había en pantalla",
+   "pts": 7.87,
+   "nota": ""
+  },
+  {
+   "sha": "4f10ecc",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-25T14:24:29Z",
+   "msg": "Las capturas aceptan un clic que se repite hasta que algo aparezca",
+   "pts": 8.04,
+   "nota": ""
+  },
+  {
+   "sha": "e40d174",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-25T14:09:03Z",
+   "msg": "Cancelar queda pegado al botón de entrar en el celular",
+   "pts": 5.0,
+   "nota": ""
+  },
+  {
+   "sha": "e8d3981",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-25T13:59:00Z",
+   "msg": "Documenta qué acota el camino de sin-billetera",
+   "pts": 4.0,
+   "nota": ""
+  },
+  {
+   "sha": "598cb90",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-25T13:58:45Z",
+   "msg": "Prueba de la ruta del alta con más sesiones sin cuenta que el tope de rechazos",
+   "pts": 5.91,
+   "nota": ""
+  },
+  {
    "sha": "cf289c8",
    "team": "Tinkazo",
    "repo": "nema1502/tinkazo",
@@ -730,6 +2022,46 @@
    "nota": ""
   },
   {
+   "sha": "09177a2",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-25T13:42:03Z",
+   "msg": "Formularios de issue para fallas, mejoras y trabajo del equipo",
+   "pts": 8.44,
+   "nota": ""
+  },
+  {
+   "sha": "c83d397",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-25T13:42:02Z",
+   "msg": "Plantilla de pedido que pregunta qué despliega y a qué issue se refiere",
+   "pts": 6.61,
+   "nota": ""
+  },
+  {
+   "sha": "99511cd",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-25T13:42:02Z",
+   "msg": "La política de seguridad deja de prometer plazos y suma el código del repositorio",
+   "pts": 6.0,
+   "nota": ""
+  },
+  {
+   "sha": "3c527a9",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-25T13:42:01Z",
+   "msg": "Guía de contribución: zonas, ramas, commits, pedido y qué no se sube",
+   "pts": 7.81,
+   "nota": ""
+  },
+  {
    "sha": "44f4ea9",
    "team": "Tinkazo",
    "repo": "nema1502/tinkazo",
@@ -747,6 +2079,116 @@
    "date": "2026-11-25T13:35:28Z",
    "msg": "Con la pregunta de dejar la campaña abierta, el avance del paso no se pierde",
    "pts": 6.55,
+   "nota": ""
+  },
+  {
+   "sha": "d14ac2d",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-25T13:28:47Z",
+   "msg": "Volver a abrir una lista cerrada respeta el máximo de la sala y la conexión caída",
+   "pts": 7.23,
+   "nota": ""
+  },
+  {
+   "sha": "96cc1f9",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-25T13:21:42Z",
+   "msg": "Vuelve el texto del final de espera de la rama principal",
+   "pts": 4.32,
+   "nota": ""
+  },
+  {
+   "sha": "0359972",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-25T13:21:34Z",
+   "msg": "El corte por la hora de cierre vuelve a ir antes de verificar la sesión",
+   "pts": 7.52,
+   "nota": ""
+  },
+  {
+   "sha": "60e2d1c",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-25T13:18:54Z",
+   "msg": "Los comentarios de la música dicen quién elige sin nombrar a nadie",
+   "pts": 4.17,
+   "nota": ""
+  },
+  {
+   "sha": "413cfcd",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-25T13:18:50Z",
+   "msg": "La prueba de sound.ts simula la pestaña que vuelve a la vista",
+   "pts": 6.04,
+   "nota": ""
+  },
+  {
+   "sha": "1c499f8",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-25T13:18:50Z",
+   "msg": "Las pruebas del adelgazado miden lo que suena y no cómo está escrito el código",
+   "pts": 7.58,
+   "nota": ""
+  },
+  {
+   "sha": "8b4f6c9",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-25T13:18:49Z",
+   "msg": "La prueba de la pestaña escondida recorre los diez juegos y el interruptor prendido",
+   "pts": 5.17,
+   "nota": ""
+  },
+  {
+   "sha": "18c4f9b",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-25T13:18:36Z",
+   "msg": "La página de escucha crea y reanuda su audio en el mismo toque",
+   "pts": 7.57,
+   "nota": ""
+  },
+  {
+   "sha": "eee9b2a",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-25T13:17:47Z",
+   "msg": "El botón de cada puerta no se mueve al pasar el mouse",
+   "pts": 4.58,
+   "nota": ""
+  },
+  {
+   "sha": "217d46b",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-25T13:15:22Z",
+   "msg": "Corrige un nombre de variable que frenaba la prueba de nombres propios",
+   "pts": 3.32,
+   "nota": ""
+  },
+  {
+   "sha": "4a78123",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-25T13:14:11Z",
+   "msg": "La línea del premio no se contradice con el cobro de Tinkazo",
+   "pts": 7.86,
    "nota": ""
   },
   {
@@ -780,6 +2222,16 @@
    "nota": ""
   },
   {
+   "sha": "d8d13bc",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-25T13:10:37Z",
+   "msg": "Las capturas salen en español cuando la vista no pide otro idioma",
+   "pts": 4.91,
+   "nota": ""
+  },
+  {
    "sha": "8a17f81",
    "team": "Tinkazo",
    "repo": "nema1502/tinkazo",
@@ -810,6 +2262,26 @@
    "nota": ""
   },
   {
+   "sha": "3fefb41",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-25T13:07:30Z",
+   "msg": "Los auditores a pedido sacan capturas de cualquier vista de cualquier rama",
+   "pts": 7.52,
+   "nota": ""
+  },
+  {
+   "sha": "21a19fe",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-25T13:07:24Z",
+   "msg": "Agrega el guion que saca capturas de una lista de vistas",
+   "pts": 10,
+   "nota": ""
+  },
+  {
    "sha": "8586090",
    "team": "Tinkazo",
    "repo": "nema1502/tinkazo",
@@ -830,6 +2302,16 @@
    "nota": ""
   },
   {
+   "sha": "d04efe5",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-25T13:03:56Z",
+   "msg": "Volver a abrir una lista cerrada estima antes el reloj de la sala",
+   "pts": 6.04,
+   "nota": ""
+  },
+  {
    "sha": "c74ec7b",
    "team": "Tinkazo",
    "repo": "nema1502/tinkazo",
@@ -840,6 +2322,16 @@
    "nota": ""
   },
   {
+   "sha": "e2556a3",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-25T12:39:41Z",
+   "msg": "La prueba de las doce horas espera a que termine cada toque",
+   "pts": 2.0,
+   "nota": ""
+  },
+  {
    "sha": "00194d4",
    "team": "Tinkazo",
    "repo": "nema1502/tinkazo",
@@ -847,6 +2339,106 @@
    "date": "2026-11-25T12:39:25Z",
    "msg": "El aviso de cuentas nuevas se lee de una ventana corrida de 60 minutos",
    "pts": 9.68,
+   "nota": ""
+  },
+  {
+   "sha": "7e767e1",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-25T12:39:08Z",
+   "msg": "La prueba del auditor de interfaz respeta los tipos del diccionario",
+   "pts": 3.32,
+   "nota": ""
+  },
+  {
+   "sha": "fd4a13d",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-25T12:38:09Z",
+   "msg": "El aviso de Sortear pregunta si el premio es dinero",
+   "pts": 5.09,
+   "nota": ""
+  },
+  {
+   "sha": "1091c90",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-25T12:38:09Z",
+   "msg": "El auditor de interfaz compara el comienzo de la línea de Entrar para sellar",
+   "pts": 6.21,
+   "nota": ""
+  },
+  {
+   "sha": "de42496",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-25T12:35:39Z",
+   "msg": "El panel dice si el premio está en la cuenta antes de abrir la inscripción",
+   "pts": 9.1,
+   "nota": ""
+  },
+  {
+   "sha": "959355f",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-25T12:35:39Z",
+   "msg": "El premio en la cuenta: cuándo alcanza y cuánto falta",
+   "pts": 7.46,
+   "nota": ""
+  },
+  {
+   "sha": "ff98e5a",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-25T12:34:59Z",
+   "msg": "El texto de espera del alta dice que los datos móviles también sirven",
+   "pts": 4.32,
+   "nota": ""
+  },
+  {
+   "sha": "270b205",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-25T12:34:59Z",
+   "msg": "Escape mantenida apretada no saca de la vista en vivo",
+   "pts": 5.25,
+   "nota": ""
+  },
+  {
+   "sha": "22f6afe",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-25T12:34:58Z",
+   "msg": "Volver a abrir una lista cerrada manda siempre una hora nueva",
+   "pts": 7.21,
+   "nota": ""
+  },
+  {
+   "sha": "a409183",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-25T12:34:57Z",
+   "msg": "Pasada la hora de cierre, quien ya estaba anotada puede reingresar",
+   "pts": 7.52,
+   "nota": ""
+  },
+  {
+   "sha": "905c201",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-25T12:34:26Z",
+   "msg": "El alta que espera su cuenta no gasta el tope de rechazos de la conexión",
+   "pts": 7.17,
    "nota": ""
   },
   {
@@ -877,6 +2469,26 @@
    "date": "2026-11-25T12:03:48Z",
    "msg": "Ajusta las pruebas de la cabecera con la retoma que corre por detrás",
    "pts": 7.15,
+   "nota": ""
+  },
+  {
+   "sha": "293d271",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-25T12:00:44Z",
+   "msg": "Los renglones de las puertas ocupan el ancho del contenido en una tableta",
+   "pts": 3.32,
+   "nota": ""
+  },
+  {
+   "sha": "6bd37df",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-25T11:59:59Z",
+   "msg": "La página de escucha abre en el sitio construido, sin enlaces y sin indexar",
+   "pts": 8.89,
    "nota": ""
   },
   {
@@ -1080,6 +2692,26 @@
    "nota": ""
   },
   {
+   "sha": "975a852",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-25T11:27:51Z",
+   "msg": "La lista de identidades musicales trae los diez juegos del selector",
+   "pts": 7.73,
+   "nota": ""
+  },
+  {
+   "sha": "202d30e",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-25T11:24:37Z",
+   "msg": "La portada de laptop cabe en 900 px y Empresas entra en la fila desde 375 px",
+   "pts": 5.52,
+   "nota": ""
+  },
+  {
    "sha": "eaf255c",
    "team": "Tinkazo",
    "repo": "nema1502/tinkazo",
@@ -1087,6 +2719,16 @@
    "date": "2026-11-25T11:20:54Z",
    "msg": "La prueba de la cabecera no deja pedidos sueltos al cerrar",
    "pts": 3.58,
+   "nota": ""
+  },
+  {
+   "sha": "f85c58c",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-25T11:20:41Z",
+   "msg": "Corrige dos frases del remate y quita citas a una especificación ajena",
+   "pts": 7.19,
    "nota": ""
   },
   {
@@ -1147,6 +2789,16 @@
    "date": "2026-11-25T11:12:57Z",
    "msg": "El aviso de cuentas anota si no hay conteo y apaga las activaciones",
    "pts": 6.73,
+   "nota": ""
+  },
+  {
+   "sha": "5a100ff",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-25T11:05:36Z",
+   "msg": "Las puertas suben al celular como renglones y los pasos pierden la caja",
+   "pts": 9.08,
    "nota": ""
   },
   {
@@ -1230,6 +2882,36 @@
    "nota": ""
   },
   {
+   "sha": "2cfe139",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-25T10:48:26Z",
+   "msg": "El adelgazado de capas queda detrás de un interruptor apagado",
+   "pts": 8.94,
+   "nota": ""
+  },
+  {
+   "sha": "57c9153",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-25T10:46:13Z",
+   "msg": "Las puertas dicen lo que hacen y los pasos dicen por qué es justo",
+   "pts": 7.51,
+   "nota": ""
+  },
+  {
+   "sha": "ffaea1a",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-25T10:45:47Z",
+   "msg": "La música con la pestaña escondida vuelve a saltarse en silencio",
+   "pts": 9.36,
+   "nota": ""
+  },
+  {
    "sha": "2747c03",
    "team": "Tinkazo",
    "repo": "nema1502/tinkazo",
@@ -1297,6 +2979,16 @@
    "date": "2026-11-25T10:29:48Z",
    "msg": "Compartir en vivo no manda nada que la sala no haya publicado",
    "pts": 7.99,
+   "nota": ""
+  },
+  {
+   "sha": "9a6334b",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-25T10:29:40Z",
+   "msg": "La guía de UX cuenta la portada de tres puertas",
+   "pts": 3.58,
    "nota": ""
   },
   {
@@ -1410,6 +3102,56 @@
    "nota": ""
   },
   {
+   "sha": "a706ac0",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-25T10:18:27Z",
+   "msg": "Las puertas y los pasos se ajustan al celular y quedan parejos",
+   "pts": 3.58,
+   "nota": ""
+  },
+  {
+   "sha": "d9157bd",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-25T10:06:57Z",
+   "msg": "Sortear avisa de la campaña cuando el premio escrito es un monto",
+   "pts": 9.22,
+   "nota": ""
+  },
+  {
+   "sha": "339b8ed",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-25T10:04:35Z",
+   "msg": "Los pasos de la portada llevan un dibujo y una línea cada uno",
+   "pts": 7.52,
+   "nota": ""
+  },
+  {
+   "sha": "1075a48",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-25T10:00:28Z",
+   "msg": "La portada tiene tres puertas y una tarjeta de campaña de ejemplo",
+   "pts": 9.21,
+   "nota": ""
+  },
+  {
+   "sha": "327f9a0",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-25T09:54:59Z",
+   "msg": "Para empresas queda a la vista en la cabecera de escritorio y en el pie",
+   "pts": 7.0,
+   "nota": ""
+  },
+  {
    "sha": "cb69502",
    "team": "Puls3",
    "repo": "Zer0-Knowledge-Hack/puls3",
@@ -1440,6 +3182,16 @@
    "nota": ""
   },
   {
+   "sha": "2cc860b",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "GuidoSV7",
+   "date": "2026-11-25T08:11:59Z",
+   "msg": "refactor(música): la capa del golpe se llama remate, como su sonido",
+   "pts": 6.13,
+   "nota": ""
+  },
+  {
    "sha": "b55d64c",
    "team": "Puls3",
    "repo": "Zer0-Knowledge-Hack/puls3",
@@ -1447,6 +3199,26 @@
    "date": "2026-11-25T08:03:43Z",
    "msg": "ci(sdk): publish @puls3_org/sdk to npm with provenance from a tag (#302) (#427)",
    "pts": 8.22,
+   "nota": ""
+  },
+  {
+   "sha": "61d4f39",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "GuidoSV7",
+   "date": "2026-11-25T07:56:17Z",
+   "msg": "style(escucha): la etiqueta de intención en inglés con punto aparte",
+   "pts": 2.58,
+   "nota": ""
+  },
+  {
+   "sha": "31d96e7",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "GuidoSV7",
+   "date": "2026-11-25T07:47:00Z",
+   "msg": "feat(música): el motor por capas con identidad por juego y la página de escucha",
+   "pts": 10,
    "nota": ""
   },
   {
@@ -2570,6 +4342,16 @@
    "nota": ""
   },
   {
+   "sha": "871ca4e",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "GuidoSV7",
+   "date": "2026-11-23T18:33:57Z",
+   "msg": "test(vigilar-portero): los pins del flujo alineados con la clave de solo lectura",
+   "pts": 3.81,
+   "nota": ""
+  },
+  {
    "sha": "80a848b",
    "team": "Tinkazo",
    "repo": "nema1502/tinkazo",
@@ -2590,6 +4372,16 @@
    "nota": ""
   },
   {
+   "sha": "342c15c",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "GuidoSV7",
+   "date": "2026-11-23T18:03:39Z",
+   "msg": "feat(vigilante): la red de Stellar en la vuelta cada diez minutos",
+   "pts": 10,
+   "nota": ""
+  },
+  {
    "sha": "a657365",
    "team": "Tinkazo",
    "repo": "nema1502/tinkazo",
@@ -2597,6 +4389,16 @@
    "date": "2026-11-23T18:00:29Z",
    "msg": "fix(equipos): corregir un equipo reemplaza su fila en vez de sumar otra",
    "pts": 9.87,
+   "nota": ""
+  },
+  {
+   "sha": "73377ae",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "GuidoSV7",
+   "date": "2026-11-23T17:59:51Z",
+   "msg": "feat(patrocinio): el estado del portero se lee con una clave de solo lectura",
+   "pts": 8.26,
    "nota": ""
   },
   {
@@ -2627,6 +4429,16 @@
    "date": "2026-11-23T17:25:50Z",
    "msg": "fix(navegador): la vista web de iPhone que no se nombra también es de app",
    "pts": 6.04,
+   "nota": ""
+  },
+  {
+   "sha": "5f04a0b",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "GuidoSV7",
+   "date": "2026-11-23T17:24:32Z",
+   "msg": "fix(patrocinio): el error JSON-RPC de un nodo prueba el siguiente en las lecturas",
+   "pts": 7.13,
    "nota": ""
   },
   {

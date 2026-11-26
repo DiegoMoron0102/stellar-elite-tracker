@@ -219248,5 +219248,4450 @@
     "d": 6
    }
   ]
+ },
+ "691885bd5f52641b54c7e9b685643465740357dd": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-26T00:02:13Z",
+  "message": "Las pruebas de pestaña escondida exigen que la música suene y retome al volver",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/music-escondida.test.ts",
+    "a": 45,
+    "d": 17
+   }
+  ]
+ },
+ "b3ebda2dbfffae96a2f192b422104dc331810167": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-26T00:02:12Z",
+  "message": "La escucha no pierde votos si el almacenamiento falla y avisa que no se guardaron",
+  "parents": 1,
+  "files": [
+   {
+    "f": "escucha.html",
+    "a": 2,
+    "d": 0
+   },
+   {
+    "f": "src/ui/escucha-textos.ts",
+    "a": 2,
+    "d": 0
+   },
+   {
+    "f": "src/ui/escucha.test.ts",
+    "a": 79,
+    "d": 4
+   },
+   {
+    "f": "src/ui/escucha.ts",
+    "a": 64,
+    "d": 17
+   }
+  ]
+ },
+ "5f6abcbb4ad8db4e7d9329820c2efe24c83c4601": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-26T00:02:12Z",
+  "message": "Una prueba guarda los veinte rasgueos del remate y su dependencia del margen",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/music-remate.test.ts",
+    "a": 128,
+    "d": 0
+   },
+   {
+    "f": "src/music-traza.ts",
+    "a": 29,
+    "d": 1
+   }
+  ]
+ },
+ "d8c25b6e9b18f860203b95db2bfa2a40648a4352": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-25T23:25:34Z",
+  "message": "La página de escucha cumple las dos reglas de las páginas del sitio",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/cabecera.test.ts",
+    "a": 2,
+    "d": 1
+   },
+   {
+    "f": "src/ui/escucha.ts",
+    "a": 1,
+    "d": 0
+   }
+  ]
+ },
+ "bebc9a07b01a6c8aa84d0c080f0bf4b3e7a37a79": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-25T23:15:17Z",
+  "message": "La página de escucha cuida el último toque, el idioma y el celular",
+  "parents": 1,
+  "files": [
+   {
+    "f": "escucha.html",
+    "a": 3,
+    "d": 1
+   },
+   {
+    "f": "src/ui/escucha-sitio.test.ts",
+    "a": 4,
+    "d": 0
+   },
+   {
+    "f": "src/ui/escucha-textos.test.ts",
+    "a": 24,
+    "d": 1
+   },
+   {
+    "f": "src/ui/escucha-textos.ts",
+    "a": 40,
+    "d": 12
+   },
+   {
+    "f": "src/ui/escucha.test.ts",
+    "a": 195,
+    "d": 0
+   },
+   {
+    "f": "src/ui/escucha.ts",
+    "a": 107,
+    "d": 11
+   }
+  ]
+ },
+ "1e6b7bb8fd03a1f49649182f081c9819e053a043": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-25T23:15:06Z",
+  "message": "El adelgazado no castiga un tropiezo y el remate no llega tarde",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/music-adelgazado.test.ts",
+    "a": 76,
+    "d": 0
+   },
+   {
+    "f": "src/music-margen.test.ts",
+    "a": 54,
+    "d": 4
+   },
+   {
+    "f": "src/music-margen.ts",
+    "a": 27,
+    "d": 0
+   },
+   {
+    "f": "src/music.test.ts",
+    "a": 36,
+    "d": 0
+   },
+   {
+    "f": "src/music.ts",
+    "a": 28,
+    "d": 7
+   }
+  ]
+ },
+ "a8acd4e7573dc3bd91d12a9d01a515a259b821b2": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-25T19:51:21Z",
+  "message": "La prueba de igualdad cubre los casos de la vida real y anota su origen",
+  "parents": 1,
+  "files": [
+   {
+    "f": "scripts/music-referencia.mjs",
+    "a": 61,
+    "d": 0
+   },
+   {
+    "f": "src/music-igual-a-hoy.test.ts",
+    "a": 78,
+    "d": 17
+   },
+   {
+    "f": "src/music-referencia.json",
+    "a": 143,
+    "d": 48
+   },
+   {
+    "f": "src/music-traza.ts",
+    "a": 139,
+    "d": 24
+   }
+  ]
+ },
+ "5c7976f4bedefa94ab6d3e30758ed7009c05d454": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-25T17:07:37Z",
+  "message": "La reanudación del audio y el interruptor quedan como pide el pedido",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/music-margen.test.ts",
+    "a": 5,
+    "d": 0
+   },
+   {
+    "f": "src/music-margen.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/sound.test.ts",
+    "a": 115,
+    "d": 40
+   },
+   {
+    "f": "src/sound.ts",
+    "a": 17,
+    "d": 5
+   }
+  ]
+ },
+ "60e2d1ce7c300d3ed8bcfd168a057b21732a3863": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-25T13:18:54Z",
+  "message": "Los comentarios de la música dicen quién elige sin nombrar a nadie",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/music.ts",
+    "a": 4,
+    "d": 4
+   }
+  ]
+ },
+ "413cfcd8c7f43ada4b0d077c8a77f5faaf98106f": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-25T13:18:50Z",
+  "message": "La prueba de sound.ts simula la pestaña que vuelve a la vista",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/sound.test.ts",
+    "a": 32,
+    "d": 0
+   }
+  ]
+ },
+ "1c499f87c7a0a8cb44c0077c2cd5686c9fd8a11e": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-25T13:18:50Z",
+  "message": "Las pruebas del adelgazado miden lo que suena y no cómo está escrito el código",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/music-adelgazado.test.ts",
+    "a": 55,
+    "d": 0
+   },
+   {
+    "f": "src/music-margen.test.ts",
+    "a": 0,
+    "d": 19
+   },
+   {
+    "f": "src/music.test.ts",
+    "a": 1,
+    "d": 20
+   }
+  ]
+ },
+ "8b4f6c97d8e0a8df17507e2522844530be0a28d3": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-25T13:18:49Z",
+  "message": "La prueba de la pestaña escondida recorre los diez juegos y el interruptor prendido",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/music-escondida.test.ts",
+    "a": 14,
+    "d": 3
+   }
+  ]
+ },
+ "18c4f9b83f67dc7e6dfc12eba6e2b8ddb6de717e": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-25T13:18:36Z",
+  "message": "La página de escucha crea y reanuda su audio en el mismo toque",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/ui/escucha-textos.test.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/ui/escucha-textos.ts",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "src/ui/escucha.test.ts",
+    "a": 45,
+    "d": 1
+   },
+   {
+    "f": "src/ui/escucha.ts",
+    "a": 33,
+    "d": 9
+   }
+  ]
+ },
+ "6bd37df5b0939cb4da8ef52c13439181de31db07": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-25T11:59:59Z",
+  "message": "La página de escucha abre en el sitio construido, sin enlaces y sin indexar",
+  "parents": 1,
+  "files": [
+   {
+    "f": "escucha.html",
+    "a": 71,
+    "d": 0
+   },
+   {
+    "f": "src/music.test.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/music.ts",
+    "a": 4,
+    "d": 4
+   },
+   {
+    "f": "src/seo.test.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/ui/escucha-sitio.test.ts",
+    "a": 48,
+    "d": 0
+   },
+   {
+    "f": "src/ui/escucha-textos.test.ts",
+    "a": 12,
+    "d": 1
+   },
+   {
+    "f": "src/ui/escucha-textos.ts",
+    "a": 15,
+    "d": 4
+   },
+   {
+    "f": "src/ui/escucha.html",
+    "a": 0,
+    "d": 39
+   },
+   {
+    "f": "src/ui/escucha.test.ts",
+    "a": 13,
+    "d": 0
+   },
+   {
+    "f": "src/ui/escucha.ts",
+    "a": 11,
+    "d": 1
+   },
+   {
+    "f": "vercel.json",
+    "a": 9,
+    "d": 0
+   },
+   {
+    "f": "vite.config.ts",
+    "a": 1,
+    "d": 0
+   }
+  ]
+ },
+ "975a8528bc0ffecfa8d3b86dfeede2d869c01f1e": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-25T11:27:51Z",
+  "message": "La lista de identidades musicales trae los diez juegos del selector",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/music.test.ts",
+    "a": 22,
+    "d": 1
+   },
+   {
+    "f": "src/music.ts",
+    "a": 15,
+    "d": 7
+   },
+   {
+    "f": "src/ui/escucha-textos.ts",
+    "a": 21,
+    "d": 15
+   },
+   {
+    "f": "src/ui/escucha.test.ts",
+    "a": 13,
+    "d": 1
+   },
+   {
+    "f": "src/ui/escucha.ts",
+    "a": 10,
+    "d": 0
+   }
+  ]
+ },
+ "f85c58c1f1df3d9b9b921450e58d74a08c534cf2": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-25T11:20:41Z",
+  "message": "Corrige dos frases del remate y quita citas a una especificación ajena",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/music.test.ts",
+    "a": 22,
+    "d": 6
+   },
+   {
+    "f": "src/music.ts",
+    "a": 14,
+    "d": 14
+   },
+   {
+    "f": "src/sound.test.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/sound.ts",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "src/ui/escucha-textos.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/ui/escucha.test.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/ui/escucha.ts",
+    "a": 3,
+    "d": 3
+   }
+  ]
+ },
+ "2cfe1391f3676bca20f3e8dfb0a9f82b38c7d2dc": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-25T10:48:26Z",
+  "message": "El adelgazado de capas queda detrás de un interruptor apagado",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/music-igual-a-hoy.test.ts",
+    "a": 50,
+    "d": 0
+   },
+   {
+    "f": "src/music-margen.test.ts",
+    "a": 43,
+    "d": 17
+   },
+   {
+    "f": "src/music-margen.ts",
+    "a": 45,
+    "d": 16
+   },
+   {
+    "f": "src/music-referencia.json",
+    "a": 52,
+    "d": 0
+   },
+   {
+    "f": "src/music.test.ts",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "src/music.ts",
+    "a": 10,
+    "d": 7
+   }
+  ]
+ },
+ "ffaea1abef7cbe231d84a8f12656b7175192d284": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-25T10:45:47Z",
+  "message": "La música con la pestaña escondida vuelve a saltarse en silencio",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/music-escondida.test.ts",
+    "a": 38,
+    "d": 0
+   },
+   {
+    "f": "src/music-margen.test.ts",
+    "a": 3,
+    "d": 3
+   },
+   {
+    "f": "src/music-traza.ts",
+    "a": 262,
+    "d": 0
+   },
+   {
+    "f": "src/music.test.ts",
+    "a": 2,
+    "d": 3
+   },
+   {
+    "f": "src/music.ts",
+    "a": 8,
+    "d": 8
+   }
+  ]
+ },
+ "2cc860b3bcfd3f6ec2c62f37f4ce55dc402eeb96": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "GuidoSV7",
+  "date": "2026-11-25T08:11:59Z",
+  "message": "refactor(música): la capa del golpe se llama remate, como su sonido",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/music.test.ts",
+    "a": 3,
+    "d": 3
+   },
+   {
+    "f": "src/music.ts",
+    "a": 8,
+    "d": 8
+   },
+   {
+    "f": "src/ui/escucha.test.ts",
+    "a": 3,
+    "d": 3
+   },
+   {
+    "f": "src/ui/escucha.ts",
+    "a": 3,
+    "d": 3
+   }
+  ]
+ },
+ "61d4f391f820c4a9a7a4adf968d46ec3b30bcb01": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "GuidoSV7",
+  "date": "2026-11-25T07:56:17Z",
+  "message": "style(escucha): la etiqueta de intención en inglés con punto aparte",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/ui/escucha-textos.ts",
+    "a": 1,
+    "d": 1
+   }
+  ]
+ },
+ "31d96e7579615f8aae1d8470c1de82f44759a85c": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "GuidoSV7",
+  "date": "2026-11-25T07:47:00Z",
+  "message": "feat(música): el motor por capas con identidad por juego y la página de escucha",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/music-margen.test.ts",
+    "a": 104,
+    "d": 3
+   },
+   {
+    "f": "src/music-margen.ts",
+    "a": 39,
+    "d": 1
+   },
+   {
+    "f": "src/music.test.ts",
+    "a": 136,
+    "d": 0
+   },
+   {
+    "f": "src/music.ts",
+    "a": 155,
+    "d": 22
+   },
+   {
+    "f": "src/sound.test.ts",
+    "a": 66,
+    "d": 0
+   },
+   {
+    "f": "src/sound.ts",
+    "a": 25,
+    "d": 3
+   },
+   {
+    "f": "src/ui/escucha-textos.test.ts",
+    "a": 67,
+    "d": 0
+   },
+   {
+    "f": "src/ui/escucha-textos.ts",
+    "a": 93,
+    "d": 0
+   },
+   {
+    "f": "src/ui/escucha.html",
+    "a": 39,
+    "d": 0
+   },
+   {
+    "f": "src/ui/escucha.test.ts",
+    "a": 208,
+    "d": 0
+   },
+   {
+    "f": "src/ui/escucha.ts",
+    "a": 261,
+    "d": 0
+   }
+  ]
+ },
+ "657198a497fbebef0421af6a47877187c5c14253": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-25T22:11:15Z",
+  "message": "Quita dos fechas sin fuente de los comentarios y de D-11",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/architecture.md",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/equipos/bandera.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/modos/bandera.ts",
+    "a": 1,
+    "d": 1
+   }
+  ]
+ },
+ "a2adb138fe679ed199569f47d43b2c2424e781c7": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-25T21:55:27Z",
+  "message": "Aclara en el ejemplo de variables y en D-29 qué es el valor por defecto",
+  "parents": 1,
+  "files": [
+   {
+    "f": ".env.example",
+    "a": 16,
+    "d": 12
+   },
+   {
+    "f": "docs/architecture.md",
+    "a": 1,
+    "d": 1
+   }
+  ]
+ },
+ "0f5773cac6e25a2770f0fc2a0916344fe43be68e": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-25T21:55:26Z",
+  "message": "Las fechas de las banderas citan su fuente o se quitan",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/operacion.md",
+    "a": 6,
+    "d": 4
+   },
+   {
+    "f": "docs/premios.md",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "docs/ux.md",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "index.html",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/main.ts",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "src/stellar/cobro-oficial.ts",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "src/stellar/pagos-bandera.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "workers/patrocinio/README.md",
+    "a": 2,
+    "d": 2
+   }
+  ]
+ },
+ "3f1944f0cfb50ab2247687aa75d7c7f82b6c4287": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-25T21:53:46Z",
+  "message": "La comprobación de banderas reintenta y no avisa en falso por un corte",
+  "parents": 1,
+  "files": [
+   {
+    "f": "scripts/check-banderas.mjs",
+    "a": 32,
+    "d": 39
+   },
+   {
+    "f": "scripts/lib/banderas-red.test.mjs",
+    "a": 230,
+    "d": 0
+   },
+   {
+    "f": "scripts/lib/banderas.mjs",
+    "a": 148,
+    "d": 2
+   }
+  ]
+ },
+ "178e937d07b8336c4634b09fef96e21e72d7d57b": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-25T21:33:15Z",
+  "message": "Devuelve el límite de palabra que se perdió en la comprobación de banderas",
+  "parents": 1,
+  "files": [
+   {
+    "f": "scripts/lib/banderas.mjs",
+    "a": 1,
+    "d": 1
+   }
+  ]
+ },
+ "075f99bf9b837ff2f13fbfe177eedfa1a5d23071": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-25T21:25:30Z",
+  "message": "La comprobación de banderas nunca escribe el valor de una reservada",
+  "parents": 1,
+  "files": [
+   {
+    "f": "scripts/lib/banderas.mjs",
+    "a": 39,
+    "d": 6
+   },
+   {
+    "f": "scripts/lib/banderas.test.mjs",
+    "a": 35,
+    "d": 1
+   }
+  ]
+ },
+ "45a4fa6b4660af229a851ceed6ccc4ace583ac1e": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-25T21:02:00Z",
+  "message": "La vigilancia diaria corre la comprobación de las banderas del sitio",
+  "parents": 1,
+  "files": [
+   {
+    "f": ".github/workflows/vigilar-red.yml",
+    "a": 9,
+    "d": 0
+   },
+   {
+    "f": "scripts/lib/vigilar-red-workflow.test.mjs",
+    "a": 28,
+    "d": 0
+   }
+  ]
+ },
+ "5eaace3eddc0252a0165564ccb546152aa32efa9": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-25T21:01:10Z",
+  "message": "Corrige las frases que daban por apagado lo que está prendido",
+  "parents": 1,
+  "files": [
+   {
+    "f": ".env.example",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "docs/operacion.md",
+    "a": 7,
+    "d": 7
+   },
+   {
+    "f": "docs/premios.md",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "docs/ux.md",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "index.html",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "src/main.ts",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "src/stellar/alta-config.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/stellar/cobro-oficial.ts",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "src/stellar/pagos-bandera.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "workers/patrocinio/README.md",
+    "a": 2,
+    "d": 2
+   }
+  ]
+ },
+ "38e31ff340216e0f9868f41086c5357cd6cd4cd8": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-25T21:00:14Z",
+  "message": "Documenta qué banderas del sitio están prendidas en producción",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/operacion.md",
+    "a": 56,
+    "d": 0
+   }
+  ]
+ },
+ "13ff42d752cb3cd9c389b452afc75948c140117f": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-25T21:00:09Z",
+  "message": "Suma pnpm check:banderas, que compara la tabla de banderas con el sitio",
+  "parents": 1,
+  "files": [
+   {
+    "f": "package.json",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "scripts/check-banderas.mjs",
+    "a": 128,
+    "d": 0
+   },
+   {
+    "f": "scripts/lib/banderas.mjs",
+    "a": 246,
+    "d": 0
+   },
+   {
+    "f": "scripts/lib/banderas.test.mjs",
+    "a": 159,
+    "d": 0
+   }
+  ]
+ },
+ "6cc77b73880f12b6e2ebb6b2ef51ec08782bab47": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-25T22:11:13Z",
+  "message": "El comentario de la entrada del celular dice el corte real de 412 px",
+  "parents": 1,
+  "files": [
+   {
+    "f": "index.html",
+    "a": 1,
+    "d": 1
+   }
+  ]
+ },
+ "68fb794651a6d5a150222acd2effce41089f775d": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-25T22:11:12Z",
+  "message": "La guía de UX dice cuándo aparece el aviso del premio con el teclado",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/ux.md",
+    "a": 1,
+    "d": 1
+   }
+  ]
+ },
+ "25a713c4f1428dee06f614c360a930e6d4d0f54b": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-25T21:48:44Z",
+  "message": "El auditor de interfaz abre Más en el celular y mide el relleno de sus renglones",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/ux.md",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "scripts/audit-ui.mjs",
+    "a": 5,
+    "d": 0
+   },
+   {
+    "f": "scripts/lib/cabecera-fila.mjs",
+    "a": 43,
+    "d": 0
+   },
+   {
+    "f": "scripts/lib/cabecera-fila.test.mjs",
+    "a": 69,
+    "d": 0
+   }
+  ]
+ },
+ "7b5eb5dbaf9fed320c0f8e41a99bd9787da58466": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-25T21:46:06Z",
+  "message": "La lista de Más conserva su relleno de 16 px en el celular",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/portada-empresas-entrada.test.ts",
+    "a": 13,
+    "d": 3
+   },
+   {
+    "f": "src/styles.css",
+    "a": 4,
+    "d": 3
+   }
+  ]
+ },
+ "82d304f46a1e490a514bf40d9253589952fbeab5": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-25T21:14:54Z",
+  "message": "El aviso del premio no declara un parámetro que no usa",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/ui/premio-plata.ts",
+    "a": 1,
+    "d": 1
+   }
+  ]
+ },
+ "2b3e57ac99357c623d835e8b912bfb372d07670f": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-25T21:14:32Z",
+  "message": "El auditor de la cabecera mide con la cuenta abierta y la letra agrandada",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/ux.md",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "scripts/audit-ui.mjs",
+    "a": 66,
+    "d": 20
+   },
+   {
+    "f": "scripts/lib/cabecera-fila.mjs",
+    "a": 109,
+    "d": 2
+   },
+   {
+    "f": "scripts/lib/cabecera-fila.test.mjs",
+    "a": 141,
+    "d": 3
+   }
+  ]
+ },
+ "a5cf8a523f195697dd26c28f5c1e86698847abff": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-25T21:12:02Z",
+  "message": "La fila del celular aguanta la letra agrandada con Empresas",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/ux.md",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/portada-empresas-entrada.test.ts",
+    "a": 37,
+    "d": 1
+   },
+   {
+    "f": "src/styles.css",
+    "a": 12,
+    "d": 1
+   }
+  ]
+ },
+ "b19ea67a5de9a6207ebfd2a10a5dafa42110ac57": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-25T21:10:52Z",
+  "message": "Los pasos de la portada ponen el dibujo arriba en una tableta vertical",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/portada-puertas.test.ts",
+    "a": 10,
+    "d": 0
+   },
+   {
+    "f": "src/styles.css",
+    "a": 4,
+    "d": 0
+   }
+  ]
+ },
+ "a1c2d19e3096f5b09081a19f296f6c8629537878": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-25T21:10:26Z",
+  "message": "El auditor de interfaz compara la línea de sellar con el idioma de la página",
+  "parents": 1,
+  "files": [
+   {
+    "f": "scripts/audit-ui.mjs",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "scripts/lib/linea-sellar.mjs",
+    "a": 8,
+    "d": 3
+   },
+   {
+    "f": "src/auditor-interfaz.test.ts",
+    "a": 14,
+    "d": 4
+   }
+  ]
+ },
+ "36d58b582ae269564eada632c253e72871a0b43d": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-25T21:09:48Z",
+  "message": "El aviso del premio ignora otras monedas y aparece con el teclado",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/ui/premio-plata.test.ts",
+    "a": 35,
+    "d": 2
+   },
+   {
+    "f": "src/ui/premio-plata.ts",
+    "a": 17,
+    "d": 10
+   }
+  ]
+ },
+ "acbd5421efd035a19aa2772a52cedf3a82df3064": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-25T21:06:31Z",
+  "message": "La portada baja una sola imagen del hero y quita un guion sin efecto",
+  "parents": 1,
+  "files": [
+   {
+    "f": "index.html",
+    "a": 0,
+    "d": 3
+   },
+   {
+    "f": "src/campana/bandera.ts",
+    "a": 0,
+    "d": 7
+   },
+   {
+    "f": "src/main.ts",
+    "a": 2,
+    "d": 3
+   },
+   {
+    "f": "src/portada-puertas.test.ts",
+    "a": 12,
+    "d": 14
+   },
+   {
+    "f": "src/styles.css",
+    "a": 0,
+    "d": 11
+   }
+  ]
+ },
+ "f160293e30ae155bb87e76cdf943d96da8238188": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-25T20:21:12Z",
+  "message": "El auditor de la cabecera mide con la letra ancha y exige aire",
+  "parents": 1,
+  "files": [
+   {
+    "f": "scripts/audit-ui.mjs",
+    "a": 6,
+    "d": 4
+   },
+   {
+    "f": "scripts/lib/cabecera-fila.mjs",
+    "a": 42,
+    "d": 2
+   },
+   {
+    "f": "scripts/lib/cabecera-fila.test.mjs",
+    "a": 29,
+    "d": 1
+   }
+  ]
+ },
+ "508a4b85eb838d86dfecc57e69b77f62be687cba": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-25T19:58:44Z",
+  "message": "Los tres pasos de la portada van en una fila desde 761 px",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/ux.md",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/portada-empresas-entrada.test.ts",
+    "a": 19,
+    "d": 0
+   },
+   {
+    "f": "src/styles.css",
+    "a": 4,
+    "d": 0
+   }
+  ]
+ },
+ "4ee01f7a99bb6fea1830bb0dfbf4b9bf5c848e6b": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-25T19:58:41Z",
+  "message": "El auditor de interfaz avisa si la cabecera de escritorio se parte",
+  "parents": 1,
+  "files": [
+   {
+    "f": "scripts/audit-ui.mjs",
+    "a": 25,
+    "d": 1
+   },
+   {
+    "f": "scripts/lib/cabecera-fila.mjs",
+    "a": 72,
+    "d": 0
+   },
+   {
+    "f": "scripts/lib/cabecera-fila.test.mjs",
+    "a": 87,
+    "d": 0
+   }
+  ]
+ },
+ "df2443f0a79ae7e80aaafa43e1415925f8676eef": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-25T19:58:35Z",
+  "message": "La entrada de empresas dice Empresas en la cabecera de 1101 a 1439 px",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/ux.md",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "index.html",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "src/portada-empresas-entrada.test.ts",
+    "a": 48,
+    "d": 2
+   },
+   {
+    "f": "src/styles.css",
+    "a": 13,
+    "d": 4
+   }
+  ]
+ },
+ "00153228010fdccede35f3fb16fafa3efa85a246": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-25T19:58:28Z",
+  "message": "El aviso del premio en dinero no aparece en la demostración",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/ux.md",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/ui/premio-plata.test.ts",
+    "a": 15,
+    "d": 0
+   },
+   {
+    "f": "src/ui/premio-plata.ts",
+    "a": 3,
+    "d": 3
+   }
+  ]
+ },
+ "cd392c4e6b72a0c598b4e506151732d31cbcfa74": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-25T19:20:05Z",
+  "message": "El aviso de la práctica no rompe donde el documento es de mentira",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/ensayo-modo.ts",
+    "a": 1,
+    "d": 1
+   }
+  ]
+ },
+ "509d40128b332154d75041dfe9a825536c1c3dbf": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-25T19:11:57Z",
+  "message": "Entrar al ensayo o al modo stand esconde el aviso de armar una campaña",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/ensayo-modo.ts",
+    "a": 11,
+    "d": 0
+   },
+   {
+    "f": "src/ui/premio-plata.test.ts",
+    "a": 13,
+    "d": 0
+   },
+   {
+    "f": "src/ui/premio-plata.ts",
+    "a": 5,
+    "d": 2
+   }
+  ]
+ },
+ "a3cba712c75f885509f17cdf0e2ffe7b7110ab40": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-25T18:54:12Z",
+  "message": "Empresas entra a la fila de la cabecera del celular desde 412 px",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/ux.md",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "src/portada-empresas-entrada.test.ts",
+    "a": 5,
+    "d": 5
+   },
+   {
+    "f": "src/styles.css",
+    "a": 4,
+    "d": 4
+   }
+  ]
+ },
+ "d6566fe24fd27a10cf98f48495e54e319a84ba9d": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-25T18:40:20Z",
+  "message": "La prueba de la tarjeta de ejemplo acepta los dólares digitales en inglés",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/portada-puertas.test.ts",
+    "a": 2,
+    "d": 1
+   }
+  ]
+ },
+ "5f169a48594725646d355474282cc11bb4d8527f": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-25T18:31:30Z",
+  "message": "Las pruebas del aviso y de la tarjeta respetan los tipos y el foco del campo",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/portada-puertas.test.ts",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "src/ui/premio-plata.test.ts",
+    "a": 7,
+    "d": 3
+   }
+  ]
+ },
+ "8fed59108bbb89085f44525c6ac5a43e58d93271": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-25T18:28:18Z",
+  "message": "El auditor de interfaz falla si no encuentra la frase de Entrar para sellar",
+  "parents": 1,
+  "files": [
+   {
+    "f": "scripts/lib/linea-sellar.mjs",
+    "a": 11,
+    "d": 1
+   },
+   {
+    "f": "src/auditor-interfaz.test.ts",
+    "a": 12,
+    "d": 0
+   }
+  ]
+ },
+ "0b914f05f954d6ee2f6705125930b3d2f1319c9d": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-25T18:27:14Z",
+  "message": "La tarjeta de ejemplo dice lo mismo en español y en inglés",
+  "parents": 1,
+  "files": [
+   {
+    "f": "index.html",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/i18n.ts",
+    "a": 3,
+    "d": 3
+   },
+   {
+    "f": "src/portada-puertas.test.ts",
+    "a": 17,
+    "d": 1
+   }
+  ]
+ },
+ "8779f5a7c3852926437a9b0e62bdcb7cf3a43421": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-25T18:26:14Z",
+  "message": "El aviso de armar una campaña no aparece donde no corresponde",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/ui/premio-plata.test.ts",
+    "a": 95,
+    "d": 2
+   },
+   {
+    "f": "src/ui/premio-plata.ts",
+    "a": 19,
+    "d": 4
+   }
+  ]
+ },
+ "1217dbedde9fa3389eb9f2ea0193a186e8d2ffe3": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-25T18:23:22Z",
+  "message": "Empresas entra a la fila de la cabecera del celular desde 400 px",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/ux.md",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "src/portada-empresas-entrada.test.ts",
+    "a": 14,
+    "d": 2
+   },
+   {
+    "f": "src/styles.css",
+    "a": 4,
+    "d": 3
+   }
+  ]
+ },
+ "36f5a48967189669f6b8e6193393c8a53d4e14db": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-25T18:22:38Z",
+  "message": "El celular bajo vuelve a juntar el título, la línea y el botón a 12 px",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/portada-puertas.test.ts",
+    "a": 6,
+    "d": 0
+   },
+   {
+    "f": "src/styles.css",
+    "a": 1,
+    "d": 0
+   }
+  ]
+ },
+ "69b1be44b5ed2dff7889198dafc505a31d7f3405": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-25T17:46:15Z",
+  "message": "El aviso del premio no se mueve mientras se escribe ni al tocar Sellar la lista",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/ux.md",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "src/ui/premio-plata.test.ts",
+    "a": 73,
+    "d": 1
+   },
+   {
+    "f": "src/ui/premio-plata.ts",
+    "a": 30,
+    "d": 1
+   },
+   {
+    "f": "src/ui/premios.ts",
+    "a": 2,
+    "d": 2
+   }
+  ]
+ },
+ "88957d8505098c36ad53dba3bdd4e5e181ca8f68": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-25T17:46:14Z",
+  "message": "La imagen del hero sube solo en celulares angostos y no hace parada del teclado",
+  "parents": 1,
+  "files": [
+   {
+    "f": "index.html",
+    "a": 2,
+    "d": 1
+   },
+   {
+    "f": "src/portada-puertas.test.ts",
+    "a": 15,
+    "d": 2
+   },
+   {
+    "f": "src/styles.css",
+    "a": 4,
+    "d": 3
+   }
+  ]
+ },
+ "1f86d6e2b7bddfc31ed7e17c0f2a847cba13e394": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-25T17:16:39Z",
+  "message": "El auditor de interfaz compara la frase entera de Entrar para sellar",
+  "parents": 1,
+  "files": [
+   {
+    "f": "scripts/audit-ui.mjs",
+    "a": 7,
+    "d": 6
+   },
+   {
+    "f": "scripts/lib/linea-sellar.mjs",
+    "a": 15,
+    "d": 0
+   },
+   {
+    "f": "src/auditor-interfaz.test.ts",
+    "a": 25,
+    "d": 12
+   }
+  ]
+ },
+ "4aba046af9a2fd540db3b21e7dec2210d8e35361": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-25T17:16:39Z",
+  "message": "El aviso del premio espera a que termine de escribirse",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/ui/premio-plata.test.ts",
+    "a": 69,
+    "d": 20
+   },
+   {
+    "f": "src/ui/premio-plata.ts",
+    "a": 23,
+    "d": 5
+   }
+  ]
+ },
+ "a9edad016cdcd23e6268167141f568c761540072": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-25T17:16:30Z",
+  "message": "El celular sigue el orden del HTML y la bandera se decide al construir",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/ux.md",
+    "a": 2,
+    "d": 1
+   },
+   {
+    "f": "index.html",
+    "a": 15,
+    "d": 15
+   },
+   {
+    "f": "src/campana/bandera.ts",
+    "a": 8,
+    "d": 3
+   },
+   {
+    "f": "src/estilos-atencion.ts",
+    "a": 9,
+    "d": 4
+   },
+   {
+    "f": "src/i18n.ts",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "src/main.ts",
+    "a": 2,
+    "d": 1
+   },
+   {
+    "f": "src/portada-empresas-entrada.test.ts",
+    "a": 33,
+    "d": 19
+   },
+   {
+    "f": "src/portada-puertas.test.ts",
+    "a": 130,
+    "d": 40
+   },
+   {
+    "f": "src/styles.css",
+    "a": 33,
+    "d": 37
+   }
+  ]
+ },
+ "e40d174dbd60ebd98a996b49a7edfdd1bbf43820": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-25T14:09:03Z",
+  "message": "Cancelar queda pegado al botón de entrar en el celular",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/portada-puertas.test.ts",
+    "a": 13,
+    "d": 0
+   },
+   {
+    "f": "src/styles.css",
+    "a": 2,
+    "d": 0
+   }
+  ]
+ },
+ "eee9b2a79c51112ae8db8aac70809b6d5be55a64": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-25T13:17:47Z",
+  "message": "El botón de cada puerta no se mueve al pasar el mouse",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/portada-puertas.test.ts",
+    "a": 8,
+    "d": 0
+   },
+   {
+    "f": "src/styles.css",
+    "a": 3,
+    "d": 0
+   }
+  ]
+ },
+ "7e767e1684ee2130cb92aafe37ed8056ba07de71": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-25T12:39:08Z",
+  "message": "La prueba del auditor de interfaz respeta los tipos del diccionario",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/auditor-interfaz.test.ts",
+    "a": 2,
+    "d": 2
+   }
+  ]
+ },
+ "fd4a13d38668f25b9ad8b930296fc31da0b1a415": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-25T12:38:09Z",
+  "message": "El aviso de Sortear pregunta si el premio es dinero",
+  "parents": 1,
+  "files": [
+   {
+    "f": "index.html",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/i18n.ts",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "src/ui/premio-plata.test.ts",
+    "a": 9,
+    "d": 1
+   }
+  ]
+ },
+ "1091c90db1cf0e68c92d5a6a1c35ef71c57bd616": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-25T12:38:09Z",
+  "message": "El auditor de interfaz compara el comienzo de la línea de Entrar para sellar",
+  "parents": 1,
+  "files": [
+   {
+    "f": "scripts/audit-ui.mjs",
+    "a": 7,
+    "d": 1
+   },
+   {
+    "f": "src/auditor-interfaz.test.ts",
+    "a": 28,
+    "d": 0
+   }
+  ]
+ },
+ "293d2714c880041f03f926b9e466c72b06da0452": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-25T12:00:44Z",
+  "message": "Los renglones de las puertas ocupan el ancho del contenido en una tableta",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/styles.css",
+    "a": 4,
+    "d": 0
+   }
+  ]
+ },
+ "202d30ef2b7cb880b7b3e0bf4a3c4a6644201343": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-25T11:24:37Z",
+  "message": "La portada de laptop cabe en 900 px y Empresas entra en la fila desde 375 px",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/ux.md",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "index.html",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/portada-empresas-entrada.test.ts",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "src/styles.css",
+    "a": 7,
+    "d": 7
+   }
+  ]
+ },
+ "5a100ff0eb5a6f7c2d20bdd9ae1a4e0a5f047c0c": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-25T11:05:36Z",
+  "message": "Las puertas suben al celular como renglones y los pasos pierden la caja",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/ux.md",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "index.html",
+    "a": 25,
+    "d": 10
+   },
+   {
+    "f": "src/i18n.ts",
+    "a": 2,
+    "d": 0
+   },
+   {
+    "f": "src/portada-empresas-entrada.test.ts",
+    "a": 20,
+    "d": 0
+   },
+   {
+    "f": "src/portada-puertas.test.ts",
+    "a": 91,
+    "d": 5
+   },
+   {
+    "f": "src/styles.css",
+    "a": 77,
+    "d": 37
+   }
+  ]
+ },
+ "57c915335e50f0be9afae5a6a26861d851ad2123": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-25T10:46:13Z",
+  "message": "Las puertas dicen lo que hacen y los pasos dicen por qué es justo",
+  "parents": 1,
+  "files": [
+   {
+    "f": "index.html",
+    "a": 9,
+    "d": 9
+   },
+   {
+    "f": "src/i18n.ts",
+    "a": 21,
+    "d": 21
+   },
+   {
+    "f": "src/portada-puertas.test.ts",
+    "a": 30,
+    "d": 0
+   }
+  ]
+ },
+ "9a6334bf8f566a8defda82f91027b20b3e607855": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-25T10:29:40Z",
+  "message": "La guía de UX cuenta la portada de tres puertas",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/ux.md",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/portada-empresas-entrada.test.ts",
+    "a": 2,
+    "d": 1
+   }
+  ]
+ },
+ "a706ac0cb1b0466876660ba3b3198da6a5b5945c": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-25T10:18:27Z",
+  "message": "Las puertas y los pasos se ajustan al celular y quedan parejos",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/styles.css",
+    "a": 5,
+    "d": 0
+   }
+  ]
+ },
+ "d9157bd46d676a49ecce83009ad6fcf7cf981921": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-25T10:06:57Z",
+  "message": "Sortear avisa de la campaña cuando el premio escrito es un monto",
+  "parents": 1,
+  "files": [
+   {
+    "f": "index.html",
+    "a": 8,
+    "d": 0
+   },
+   {
+    "f": "src/i18n.ts",
+    "a": 6,
+    "d": 0
+   },
+   {
+    "f": "src/main.ts",
+    "a": 2,
+    "d": 0
+   },
+   {
+    "f": "src/styles.css",
+    "a": 12,
+    "d": 0
+   },
+   {
+    "f": "src/ui/premio-plata.test.ts",
+    "a": 176,
+    "d": 0
+   },
+   {
+    "f": "src/ui/premio-plata.ts",
+    "a": 92,
+    "d": 0
+   },
+   {
+    "f": "src/ui/premios.ts",
+    "a": 2,
+    "d": 0
+   }
+  ]
+ },
+ "339b8edbf2e6d7d5c0a66fea034ef81740d29191": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-25T10:04:35Z",
+  "message": "Los pasos de la portada llevan un dibujo y una línea cada uno",
+  "parents": 1,
+  "files": [
+   {
+    "f": "index.html",
+    "a": 13,
+    "d": 3
+   },
+   {
+    "f": "src/i18n.ts",
+    "a": 10,
+    "d": 6
+   },
+   {
+    "f": "src/portada-puertas.test.ts",
+    "a": 44,
+    "d": 0
+   },
+   {
+    "f": "src/styles.css",
+    "a": 15,
+    "d": 0
+   }
+  ]
+ },
+ "1075a48a9a618766fdc88684eb7033419cb963dd": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-25T10:00:28Z",
+  "message": "La portada tiene tres puertas y una tarjeta de campaña de ejemplo",
+  "parents": 1,
+  "files": [
+   {
+    "f": "index.html",
+    "a": 38,
+    "d": 3
+   },
+   {
+    "f": "src/campana/bandera.ts",
+    "a": 10,
+    "d": 0
+   },
+   {
+    "f": "src/i18n.ts",
+    "a": 28,
+    "d": 0
+   },
+   {
+    "f": "src/main.ts",
+    "a": 3,
+    "d": 3
+   },
+   {
+    "f": "src/portada-puertas.test.ts",
+    "a": 146,
+    "d": 0
+   },
+   {
+    "f": "src/styles.css",
+    "a": 63,
+    "d": 1
+   }
+  ]
+ },
+ "327f9a0811a9a02c6f56e8c7cd23742d809cef3e": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-25T09:54:59Z",
+  "message": "Para empresas queda a la vista en la cabecera de escritorio y en el pie",
+  "parents": 1,
+  "files": [
+   {
+    "f": "index.html",
+    "a": 3,
+    "d": 1
+   },
+   {
+    "f": "src/portada-empresas-entrada.test.ts",
+    "a": 50,
+    "d": 0
+   },
+   {
+    "f": "src/styles.css",
+    "a": 6,
+    "d": 3
+   }
+  ]
+ },
+ "d24bd68afd74c8afbad0e1a153df2cdfe9e571d1": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-25T20:12:55Z",
+  "message": "Corrige la prueba de la vuelta a la pestaña: la lectura sale en el turno siguiente",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/ui/campana-sala-deposito.test.ts",
+    "a": 5,
+    "d": 1
+   }
+  ]
+ },
+ "07169455156c44e1da22eb2770da4e7410903607": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-25T20:05:50Z",
+  "message": "La línea del premio se repinta al volver a la pestaña y no lee con el panel detenido",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/campana/textos-sala.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/ui/campana-sala-deposito.test.ts",
+    "a": 42,
+    "d": 1
+   },
+   {
+    "f": "src/ui/campana-sala.ts",
+    "a": 6,
+    "d": 2
+   }
+  ]
+ },
+ "00aa24e12630a29d14fea1f1d42e6ab33dec52d2": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-25T19:27:19Z",
+  "message": "La línea del premio no se esconde y dice cuando no se pudo ver",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/ui/campana-sala-deposito.test.ts",
+    "a": 154,
+    "d": 58
+   },
+   {
+    "f": "src/ui/campana-sala.ts",
+    "a": 77,
+    "d": 43
+   }
+  ]
+ },
+ "f4ec552f473d269b929ed8f418cce1e8c9be1181": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-25T19:27:18Z",
+  "message": "Textos más cortos y alto fijo de la línea del premio en la cuenta",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/campana/campana-sala.css",
+    "a": 3,
+    "d": 5
+   },
+   {
+    "f": "src/campana/textos-sala.ts",
+    "a": 6,
+    "d": 4
+   }
+  ]
+ },
+ "79ff460e8b69a1dba4b63b8a3cc4531344295b66": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-25T18:43:37Z",
+  "message": "Prueba del costo de la línea del premio con el panel abierto diez minutos",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/ui/campana-sala-deposito.test.ts",
+    "a": 59,
+    "d": 0
+   }
+  ]
+ },
+ "880f10e998ee47bf485a23eb642b82a9e3321366": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-25T18:43:36Z",
+  "message": "Pruebas del armado real de la lectura del premio en la cuenta",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/ui/campana-sala-deposito.test.ts",
+    "a": 65,
+    "d": 0
+   }
+  ]
+ },
+ "04a36f857ed977f5795d60deba15b3c44db9afa7": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-25T18:43:12Z",
+  "message": "La línea del premio habla solo de la cuenta que entró y no deja blancos",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/campana/campana-sala.css",
+    "a": 2,
+    "d": 1
+   },
+   {
+    "f": "src/ui/campana-sala-deposito.test.ts",
+    "a": 205,
+    "d": 5
+   },
+   {
+    "f": "src/ui/campana-sala.ts",
+    "a": 109,
+    "d": 31
+   }
+  ]
+ },
+ "ba0868a495e715be412ff350125433e495965a48": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-25T17:52:09Z",
+  "message": "El alto reservado de la línea del premio va dentro de la regla de 900 px de siempre",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/campana/campana-sala.css",
+    "a": 1,
+    "d": 3
+   }
+  ]
+ },
+ "d58d0f5dc2c1686fa887b8288dd396dc51dd3fa6": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-25T17:38:24Z",
+  "message": "La línea del premio no tumba el panel, no queda vieja y no empuja el botón",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/campana/campana-sala.css",
+    "a": 6,
+    "d": 0
+   },
+   {
+    "f": "src/ui/campana-sala-deposito.test.ts",
+    "a": 202,
+    "d": 1
+   },
+   {
+    "f": "src/ui/campana-sala.ts",
+    "a": 116,
+    "d": 43
+   }
+  ]
+ },
+ "d649e32e0ba526a0959198bc43221b029e66c17b": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-25T17:22:45Z",
+  "message": "Corrige los tipos de la prueba del premio en la cuenta",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/ui/campana-sala-deposito.test.ts",
+    "a": 13,
+    "d": 12
+   }
+  ]
+ },
+ "4a78123e6c817b13a784a561414df4a1a1b3b2b0": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-25T13:14:11Z",
+  "message": "La línea del premio no se contradice con el cobro de Tinkazo",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/ui/campana-sala-deposito.test.ts",
+    "a": 106,
+    "d": 0
+   },
+   {
+    "f": "src/ui/campana-sala.ts",
+    "a": 7,
+    "d": 2
+   }
+  ]
+ },
+ "de424963edc0c78c671bcba93ecf26e3672ac39f": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-25T12:35:39Z",
+  "message": "El panel dice si el premio está en la cuenta antes de abrir la inscripción",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/campana/textos-sala.ts",
+    "a": 4,
+    "d": 0
+   },
+   {
+    "f": "src/ui/campana-sala-deposito.test.ts",
+    "a": 190,
+    "d": 0
+   },
+   {
+    "f": "src/ui/campana-sala.ts",
+    "a": 79,
+    "d": 1
+   }
+  ]
+ },
+ "959355f7849d0c20862b31166d92a59d220bdd5c": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-25T12:35:39Z",
+  "message": "El premio en la cuenta: cuándo alcanza y cuánto falta",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/ui/campana-deposito.test.ts",
+    "a": 44,
+    "d": 0
+   },
+   {
+    "f": "src/ui/campana-deposito.ts",
+    "a": 43,
+    "d": 0
+   }
+  ]
+ },
+ "d96dfb16ff6f043fddf930a4bbc106d88478888e": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-25T20:00:10Z",
+  "message": "El resumen en inglés de la política dice lo mismo que el español sobre las recompensas",
+  "parents": 1,
+  "files": [
+   {
+    "f": "SECURITY.md",
+    "a": 1,
+    "d": 1
+   }
+  ]
+ },
+ "b1221671c9096a378c379d9a9c888b606d338bc2": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-25T19:28:38Z",
+  "message": "Cuatro pruebas de gobierno llamaban a la lectura perezosa sin ejecutarla",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/gobierno-repo.test.ts",
+    "a": 4,
+    "d": 4
+   }
+  ]
+ },
+ "fa4dc757dd642d47e7e64848a301e27c63d4126e": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-25T19:28:07Z",
+  "message": "El resumen en inglés de la política cambia una palabra que se evita",
+  "parents": 1,
+  "files": [
+   {
+    "f": "SECURITY.md",
+    "a": 1,
+    "d": 1
+   }
+  ]
+ },
+ "2440cca63ab452f803227900e72d802298ad31c5": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-25T19:28:06Z",
+  "message": "Los README piden avisar una falla por correo y enlazan la política",
+  "parents": 1,
+  "files": [
+   {
+    "f": "README.es.md",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "README.md",
+    "a": 1,
+    "d": 1
+   }
+  ]
+ },
+ "d0810129c5c2cd059c2bcbe539f6b0bd473690d4": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-25T19:28:06Z",
+  "message": "La página de seguridad pide avisar una falla por correo y no en un issue",
+  "parents": 1,
+  "files": [
+   {
+    "f": "seguridad.html",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "src/i18n.ts",
+    "a": 4,
+    "d": 4
+   }
+  ]
+ },
+ "6a23b5761d8226d69771f260050e005f8d5cf200": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-25T19:27:47Z",
+  "message": "El validador de formularios rechaza lo que GitHub rechaza",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/gobierno-repo.test.ts",
+    "a": 23,
+    "d": 6
+   }
+  ]
+ },
+ "0589128b02d853f5b1b1c412a0d36e250cc20a81": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-25T19:27:23Z",
+  "message": "Pruebas: el sitio y los README no mandan una falla a un issue público",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/como-avisar.test.ts",
+    "a": 92,
+    "d": 0
+   }
+  ]
+ },
+ "22589418d58a551c1004c9c3e2898efbb477c209": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-25T19:27:23Z",
+  "message": "Los formularios de issue se prueban con las exigencias de GitHub",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/gobierno-repo.test.ts",
+    "a": 174,
+    "d": 64
+   }
+  ]
+ },
+ "e7ab071d3dee422da3bc0bde2feed512689a4ba4": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-25T19:39:56Z",
+  "message": "Una captura falla si terminó en otra página o la ruta no se comprobó",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/architecture.md",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "scripts/capturar-vistas.mjs",
+    "a": 6,
+    "d": 3
+   },
+   {
+    "f": "scripts/lib/vistas-pagina-dom.test.mjs",
+    "a": 8,
+    "d": 0
+   },
+   {
+    "f": "scripts/lib/vistas-pagina.mjs",
+    "a": 49,
+    "d": 13
+   },
+   {
+    "f": "scripts/lib/vistas-recorrido.test.mjs",
+    "a": 125,
+    "d": 8
+   },
+   {
+    "f": "scripts/lib/vistas.mjs",
+    "a": 7,
+    "d": 1
+   },
+   {
+    "f": "scripts/lib/vistas.test.mjs",
+    "a": 1,
+    "d": 1
+   }
+  ]
+ },
+ "29eedb5b753984fa684e49916bec86cb75da59d1": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-25T19:39:56Z",
+  "message": "Las capturas pedidas no corren con la caché de la rama principal",
+  "parents": 1,
+  "files": [
+   {
+    "f": ".github/workflows/auditores.yml",
+    "a": 10,
+    "d": 3
+   },
+   {
+    "f": "docs/architecture.md",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "scripts/capturar-vistas.mjs",
+    "a": 3,
+    "d": 1
+   },
+   {
+    "f": "scripts/lib/vistas-documentacion.test.mjs",
+    "a": 7,
+    "d": 0
+   },
+   {
+    "f": "scripts/lib/vistas-flujo.test.mjs",
+    "a": 23,
+    "d": 0
+   },
+   {
+    "f": "scripts/lib/vistas.mjs",
+    "a": 20,
+    "d": 0
+   },
+   {
+    "f": "scripts/lib/vistas.test.mjs",
+    "a": 61,
+    "d": 1
+   }
+  ]
+ },
+ "c9ccdb48999af61c291c44db66b9d07dfc709716": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-25T19:03:18Z",
+  "message": "Corrige la cuenta de checkout de la prueba del flujo de auditores",
+  "parents": 1,
+  "files": [
+   {
+    "f": "scripts/lib/vistas-flujo.test.mjs",
+    "a": 1,
+    "d": 1
+   }
+  ]
+ },
+ "c8d597973226c2e1f4a79adb094ed95fed253e38": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-25T18:57:17Z",
+  "message": "La arquitectura cuenta el modo de capturas de los auditores a pedido",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/architecture.md",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "scripts/lib/vistas-documentacion.test.mjs",
+    "a": 60,
+    "d": 0
+   }
+  ]
+ },
+ "c68c734664c6062c1ca05cec9df1e98f818992c7": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-25T18:57:16Z",
+  "message": "El guion de capturas falla las vistas que sacaron otra cosa",
+  "parents": 1,
+  "files": [
+   {
+    "f": "scripts/capturar-vistas.mjs",
+    "a": 147,
+    "d": 92
+   }
+  ]
+ },
+ "33b9261eb2ba09582a11b27a76aea1bcef911732": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-25T18:57:16Z",
+  "message": "Las capturas comprueban el clic, la ruta, el tema y el plazo de cada vista",
+  "parents": 1,
+  "files": [
+   {
+    "f": "scripts/lib/vistas-pagina-dom.test.mjs",
+    "a": 228,
+    "d": 0
+   },
+   {
+    "f": "scripts/lib/vistas-pagina.mjs",
+    "a": 238,
+    "d": 4
+   },
+   {
+    "f": "scripts/lib/vistas-recorrido.test.mjs",
+    "a": 321,
+    "d": 0
+   }
+  ]
+ },
+ "c1c44fbafcf39cd104827d56d8c813c3137dab5a": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-25T18:08:08Z",
+  "message": "Las capturas rechazan los nombres que Windows reserva",
+  "parents": 1,
+  "files": [
+   {
+    "f": "scripts/lib/vistas.mjs",
+    "a": 7,
+    "d": 0
+   },
+   {
+    "f": "scripts/lib/vistas.test.mjs",
+    "a": 15,
+    "d": 0
+   }
+  ]
+ },
+ "216b45c172c6c831ef4ac6869428f1993aecb703": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-25T18:07:53Z",
+  "message": "El flujo de capturas no usa la caché de pnpm y guarda el artefacto un día",
+  "parents": 1,
+  "files": [
+   {
+    "f": ".github/workflows/auditores.yml",
+    "a": 34,
+    "d": 10
+   },
+   {
+    "f": "scripts/lib/vistas-flujo.test.mjs",
+    "a": 143,
+    "d": 0
+   }
+  ]
+ },
+ "2be3dcc6ad3d8a16c61f779d542a2a4fd2fbc0d2": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-25T17:19:04Z",
+  "message": "Las capturas esperan el resultado, cargan las imágenes y frenan ventanas nuevas",
+  "parents": 1,
+  "files": [
+   {
+    "f": "scripts/capturar-vistas.mjs",
+    "a": 23,
+    "d": 13
+   },
+   {
+    "f": "scripts/lib/vistas-documentacion.test.mjs",
+    "a": 20,
+    "d": 0
+   },
+   {
+    "f": "scripts/lib/vistas-pagina-foto.test.mjs",
+    "a": 261,
+    "d": 0
+   },
+   {
+    "f": "scripts/lib/vistas-pagina.mjs",
+    "a": 132,
+    "d": 0
+   }
+  ]
+ },
+ "c4ef0095d7cd825c7366923a36ec173ef95fb447": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-25T14:29:36Z",
+  "message": "Contestar un pedido pausado nunca tira el guion abajo",
+  "parents": 1,
+  "files": [
+   {
+    "f": "scripts/lib/vistas-pagina.mjs",
+    "a": 10,
+    "d": 2
+   },
+   {
+    "f": "scripts/lib/vistas-pagina.test.mjs",
+    "a": 20,
+    "d": 0
+   }
+  ]
+ },
+ "b4da4b16790153e3f5a83c7fcb1d4d3d286d49cd": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-25T14:28:12Z",
+  "message": "Las recetas llegan a la espera en grande y el ejemplo del flujo se copia",
+  "parents": 1,
+  "files": [
+   {
+    "f": ".github/workflows/auditores.yml",
+    "a": 3,
+    "d": 1
+   },
+   {
+    "f": "scripts/capturar-vistas.mjs",
+    "a": 15,
+    "d": 6
+   },
+   {
+    "f": "scripts/lib/vistas-documentacion.test.mjs",
+    "a": 81,
+    "d": 0
+   }
+  ]
+ },
+ "bc02ad4db164b95a15c36949d33320b337bc4c93": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-25T14:27:07Z",
+  "message": "Las capturas tienen un tope total y los checkout no guardan el token",
+  "parents": 1,
+  "files": [
+   {
+    "f": ".github/workflows/auditores.yml",
+    "a": 2,
+    "d": 0
+   },
+   {
+    "f": "scripts/capturar-vistas.mjs",
+    "a": 19,
+    "d": 7
+   },
+   {
+    "f": "scripts/lib/vistas.mjs",
+    "a": 15,
+    "d": 0
+   },
+   {
+    "f": "scripts/lib/vistas.test.mjs",
+    "a": 48,
+    "d": 1
+   }
+  ]
+ },
+ "2d94fe689f0a16eaa7babaa8fad2ed57d0c7fcaf": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-25T14:26:08Z",
+  "message": "La pestaña de las capturas no sale del sitio servido",
+  "parents": 1,
+  "files": [
+   {
+    "f": "scripts/capturar-vistas.mjs",
+    "a": 20,
+    "d": 5
+   },
+   {
+    "f": "scripts/lib/vistas-pagina.mjs",
+    "a": 51,
+    "d": 0
+   },
+   {
+    "f": "scripts/lib/vistas-pagina.test.mjs",
+    "a": 85,
+    "d": 1
+   }
+  ]
+ },
+ "7471ed05f2ae5b93906d1531ea7a0f59c90049a5": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-25T14:25:24Z",
+  "message": "Una vista que falla deja la foto de lo que había en pantalla",
+  "parents": 1,
+  "files": [
+   {
+    "f": "scripts/capturar-vistas.mjs",
+    "a": 8,
+    "d": 4
+   },
+   {
+    "f": "scripts/lib/vistas-pagina.mjs",
+    "a": 40,
+    "d": 0
+   },
+   {
+    "f": "scripts/lib/vistas-pagina.test.mjs",
+    "a": 52,
+    "d": 1
+   },
+   {
+    "f": "scripts/lib/vistas.mjs",
+    "a": 2,
+    "d": 0
+   },
+   {
+    "f": "scripts/lib/vistas.test.mjs",
+    "a": 7,
+    "d": 2
+   }
+  ]
+ },
+ "4f10ecc0e950ccd1c8019119b75f23e2407696fa": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-25T14:24:29Z",
+  "message": "Las capturas aceptan un clic que se repite hasta que algo aparezca",
+  "parents": 1,
+  "files": [
+   {
+    "f": "scripts/capturar-vistas.mjs",
+    "a": 7,
+    "d": 0
+   },
+   {
+    "f": "scripts/lib/vistas-pagina.mjs",
+    "a": 34,
+    "d": 0
+   },
+   {
+    "f": "scripts/lib/vistas-pagina.test.mjs",
+    "a": 61,
+    "d": 0
+   },
+   {
+    "f": "scripts/lib/vistas.mjs",
+    "a": 10,
+    "d": 2
+   },
+   {
+    "f": "scripts/lib/vistas.test.mjs",
+    "a": 16,
+    "d": 1
+   }
+  ]
+ },
+ "217d46bf3bdbe1d1669b12e7120d4085063d8735": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-25T13:15:22Z",
+  "message": "Corrige un nombre de variable que frenaba la prueba de nombres propios",
+  "parents": 1,
+  "files": [
+   {
+    "f": "scripts/capturar-vistas.mjs",
+    "a": 2,
+    "d": 2
+   }
+  ]
+ },
+ "d8d13bcce168f05b4a3898e3163880378b3e5b7f": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-25T13:10:37Z",
+  "message": "Las capturas salen en español cuando la vista no pide otro idioma",
+  "parents": 1,
+  "files": [
+   {
+    "f": "scripts/capturar-vistas.mjs",
+    "a": 10,
+    "d": 4
+   }
+  ]
+ },
+ "3fefb41b1717855338c8f874b2377b69a146789e": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-25T13:07:30Z",
+  "message": "Los auditores a pedido sacan capturas de cualquier vista de cualquier rama",
+  "parents": 1,
+  "files": [
+   {
+    "f": ".github/workflows/auditores.yml",
+    "a": 88,
+    "d": 3
+   }
+  ]
+ },
+ "21a19fee2c519e09615beffb8536f60eb0f46607": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-25T13:07:24Z",
+  "message": "Agrega el guion que saca capturas de una lista de vistas",
+  "parents": 1,
+  "files": [
+   {
+    "f": ".gitignore",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "scripts/capturar-vistas.mjs",
+    "a": 288,
+    "d": 0
+   },
+   {
+    "f": "scripts/lib/vistas.mjs",
+    "a": 325,
+    "d": 0
+   },
+   {
+    "f": "scripts/lib/vistas.test.mjs",
+    "a": 247,
+    "d": 0
+   }
+  ]
+ },
+ "9cd28664d9c82e66ef91c2cc48897f9953c9167b": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-25T18:59:44Z",
+  "message": "La pregunta de dejar la campaña separa el título del botón cuando no lleva línea",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/campana/campana-sala-css.test.ts",
+    "a": 7,
+    "d": 0
+   },
+   {
+    "f": "src/campana/campana-sala.css",
+    "a": 2,
+    "d": 0
+   }
+  ]
+ },
+ "ff09c7317fb2ac524b79afc466e5dd57816fb8a3": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-25T18:48:32Z",
+  "message": "Pruebas: los documentos copian el texto de la pregunta y la vista previa no la lleva",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/campana/textos-sala.test.ts",
+    "a": 12,
+    "d": 0
+   },
+   {
+    "f": "src/ui/campana-sala.test.ts",
+    "a": 17,
+    "d": 0
+   },
+   {
+    "f": "src/ui/games-teaser.test.ts",
+    "a": 7,
+    "d": 3
+   }
+  ]
+ },
+ "b77eda729afcac22fbe5290a263d02fa77972bf9": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-25T18:48:31Z",
+  "message": "La hoja de operación dice cuándo aparece Pasar la lista al sorteo",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/operacion.md",
+    "a": 4,
+    "d": 4
+   },
+   {
+    "f": "docs/ux.md",
+    "a": 1,
+    "d": 1
+   }
+  ]
+ },
+ "df5190202b00eed0bab3b528e0c4aaf53209a3bb": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-25T18:16:34Z",
+  "message": "La prueba de las claves sueltas lee los archivos desde la raíz del proyecto",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/ui/campana-sala.test.ts",
+    "a": 2,
+    "d": 2
+   }
+  ]
+ },
+ "7ae7cbe0fbfab9267050222fe9eea47d6d6cddcc": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-25T18:10:01Z",
+  "message": "La hoja de operación y la guía de UX dicen qué abre Elegir otro archivo",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/operacion.md",
+    "a": 3,
+    "d": 3
+   },
+   {
+    "f": "docs/ux.md",
+    "a": 1,
+    "d": 1
+   }
+  ]
+ },
+ "82acc82539f6e5dc4d9d8946e0cb0cb8ef923429": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-25T18:10:01Z",
+  "message": "La pregunta de dejar la campaña lleva una sola línea condicional",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/campana/puente.test.ts",
+    "a": 1,
+    "d": 88
+   },
+   {
+    "f": "src/campana/puente.ts",
+    "a": 4,
+    "d": 28
+   },
+   {
+    "f": "src/campana/textos-sala.ts",
+    "a": 2,
+    "d": 6
+   },
+   {
+    "f": "src/ui/campana-sala.test.ts",
+    "a": 98,
+    "d": 89
+   },
+   {
+    "f": "src/ui/campana-sala.ts",
+    "a": 5,
+    "d": 7
+   }
+  ]
+ },
+ "baf8aa63ebdc6c20bcf6f54abb017afe1b567d4d": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-25T17:48:59Z",
+  "message": "La pregunta de dejar la campaña distingue el aviso a una ganadora",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/operacion.md",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "docs/ux.md",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/campana/puente.test.ts",
+    "a": 13,
+    "d": 4
+   },
+   {
+    "f": "src/campana/puente.ts",
+    "a": 9,
+    "d": 6
+   },
+   {
+    "f": "src/campana/textos-sala.ts",
+    "a": 2,
+    "d": 0
+   },
+   {
+    "f": "src/ui/campana-sala.test.ts",
+    "a": 19,
+    "d": 1
+   },
+   {
+    "f": "src/ui/campana-sala.ts",
+    "a": 1,
+    "d": 0
+   }
+  ]
+ },
+ "a6893c04059d40edb8f786a2334012a1cb205645": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-25T17:25:09Z",
+  "message": "La guía del panel distingue Pasar la lista al sorteo de Probar de nuevo",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/operacion.md",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "docs/ux.md",
+    "a": 1,
+    "d": 1
+   }
+  ]
+ },
+ "6c4a782740405fcccd4ef41dcbd893cc99b99a91": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-25T17:25:04Z",
+  "message": "La pregunta de dejar la campaña dice la verdad según la vista",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/campana/puente.test.ts",
+    "a": 66,
+    "d": 23
+   },
+   {
+    "f": "src/campana/puente.ts",
+    "a": 17,
+    "d": 10
+   },
+   {
+    "f": "src/ui/campana-sala.test.ts",
+    "a": 48,
+    "d": 12
+   },
+   {
+    "f": "src/ui/campana-sala.ts",
+    "a": 3,
+    "d": 2
+   }
+  ]
+ },
+ "1b7851ba7d2978561b13cc802edffee4aed35e64": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-25T14:33:23Z",
+  "message": "Una prueba fija que la demostración no deja borrador, con o sin n",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/ui/demo-sin-borrador.test.ts",
+    "a": 95,
+    "d": 0
+   }
+  ]
+ },
+ "fbb803aaa80adf944d43ffb3ae8fd984e70b72f5": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-25T14:30:31Z",
+  "message": "La captura de cada tarjeta de la espera no mueve nada si la red falla",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/styles.css",
+    "a": 2,
+    "d": 0
+   },
+   {
+    "f": "src/ui/games-teaser.test.ts",
+    "a": 56,
+    "d": 0
+   },
+   {
+    "f": "src/ui/games-teaser.ts",
+    "a": 6,
+    "d": 1
+   }
+  ]
+ },
+ "912bacab0d1566e84b85dfad7fd538098c9c8e85": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-25T14:28:51Z",
+  "message": "La pregunta de dejar la campaña dice qué se pierden los celulares",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/operacion.md",
+    "a": 3,
+    "d": 3
+   },
+   {
+    "f": "docs/ux.md",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/campana/puente.test.ts",
+    "a": 36,
+    "d": 1
+   },
+   {
+    "f": "src/campana/puente.ts",
+    "a": 18,
+    "d": 4
+   },
+   {
+    "f": "src/campana/textos-sala.ts",
+    "a": 4,
+    "d": 2
+   },
+   {
+    "f": "src/ui/campana-sala-puente.test.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/ui/campana-sala.test.ts",
+    "a": 90,
+    "d": 8
+   },
+   {
+    "f": "src/ui/campana-sala.ts",
+    "a": 8,
+    "d": 1
+   }
+  ]
+ },
+ "552ee728c560e7f3aefcda624891a53b84ec745c": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-25T18:37:33Z",
+  "message": "El formulario de mejora no promete tiempo de atención",
+  "parents": 1,
+  "files": [
+   {
+    "f": ".github/ISSUE_TEMPLATE/mejora.yml",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/gobierno-repo.test.ts",
+    "a": 20,
+    "d": 0
+   }
+  ]
+ },
+ "6b305fed96f8eded8cf6ef0b86e4a1873f3e60a0": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-25T18:37:33Z",
+  "message": "La política de seguridad pide tiempo como un pedido, en español y en inglés",
+  "parents": 1,
+  "files": [
+   {
+    "f": "SECURITY.md",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "src/gobierno-repo.test.ts",
+    "a": 17,
+    "d": 0
+   }
+  ]
+ },
+ "e0768b4d3fbc107a45025540fce20e3f5e08ed53": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-25T18:37:24Z",
+  "message": "La guía de contribución dice las tres cosas que hacen falta para unir",
+  "parents": 1,
+  "files": [
+   {
+    "f": "CONTRIBUTING.md",
+    "a": 5,
+    "d": 5
+   },
+   {
+    "f": "src/gobierno-repo.test.ts",
+    "a": 15,
+    "d": 0
+   }
+  ]
+ },
+ "52dbe7c297febd44f4c690832460634ae5079082": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-25T18:36:55Z",
+  "message": "La prueba de los formularios lee listas de una línea y mira cada campo",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/gobierno-repo.test.ts",
+    "a": 337,
+    "d": 89
+   }
+  ]
+ },
+ "3777df060cfbcac8a4b85efd0c522f98fd83549d": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-25T18:16:00Z",
+  "message": "El enlace de seguridad de los formularios se lee y la prueba lo vigila",
+  "parents": 1,
+  "files": [
+   {
+    "f": ".github/ISSUE_TEMPLATE/config.yml",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/gobierno-repo.test.ts",
+    "a": 64,
+    "d": 2
+   }
+  ]
+ },
+ "d304ed5632adfac2c7b6871712398f44845a4597": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-25T18:15:16Z",
+  "message": "La prueba del repositorio cuida hechos y no frases",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/gobierno-repo.test.ts",
+    "a": 24,
+    "d": 25
+   }
+  ]
+ },
+ "5b6496d734252337e1686b5b4e2eeed5d9521bbd": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-25T17:56:26Z",
+  "message": "La prueba cuida hechos y valida la estructura de los formularios",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/gobierno-repo.test.ts",
+    "a": 149,
+    "d": 69
+   }
+  ]
+ },
+ "286ede7b4fcfbfba03280218b1280e78708e8247": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-25T17:56:25Z",
+  "message": "La guía dice cómo se une de verdad y el enlace de seguridad sirve",
+  "parents": 1,
+  "files": [
+   {
+    "f": ".github/ISSUE_TEMPLATE/config.yml",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": ".github/ISSUE_TEMPLATE/falla.yml",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "CONTRIBUTING.md",
+    "a": 6,
+    "d": 4
+   }
+  ]
+ },
+ "148763bf7bf28c1487cbedcf24314c9942c11ca0": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-25T17:56:25Z",
+  "message": "La política de seguridad no pone en alcance lo que acepta el modelo",
+  "parents": 1,
+  "files": [
+   {
+    "f": "SECURITY.md",
+    "a": 6,
+    "d": 4
+   }
+  ]
+ },
+ "ad18fed2fa08f9c804ebe5323257b1437d8dfdb5": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-25T17:30:43Z",
+  "message": "La guía dice que se une con rebase o squash y quién pone la zona",
+  "parents": 1,
+  "files": [
+   {
+    "f": "CONTRIBUTING.md",
+    "a": 3,
+    "d": 3
+   }
+  ]
+ },
+ "af7414b7b847f774cda799bd62b1889e37d661a6": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-25T17:30:43Z",
+  "message": "La prueba cuida hechos y el formulario del equipo se declara público",
+  "parents": 1,
+  "files": [
+   {
+    "f": ".github/ISSUE_TEMPLATE/trabajo.yml",
+    "a": 3,
+    "d": 3
+   },
+   {
+    "f": "src/gobierno-repo.test.ts",
+    "a": 43,
+    "d": 5
+   }
+  ]
+ },
+ "597b0cf52665a6c3899b7f875442124a682c61dd": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-25T17:04:32Z",
+  "message": "Unir a main publica el sitio y la guía y la plantilla lo dicen",
+  "parents": 1,
+  "files": [
+   {
+    "f": ".github/pull_request_template.md",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "CONTRIBUTING.md",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/gobierno-repo.test.ts",
+    "a": 14,
+    "d": 0
+   }
+  ]
+ },
+ "185a203c0ae0f3cfa549eb99ce4f2604ed06e964": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-25T14:37:49Z",
+  "message": "La política de seguridad no promete respuesta ni un botón apagado",
+  "parents": 1,
+  "files": [
+   {
+    "f": ".github/ISSUE_TEMPLATE/config.yml",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "SECURITY.md",
+    "a": 4,
+    "d": 4
+   }
+  ]
+ },
+ "21a21c1e840da9f301334b70f88b85f42a84cff3": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-25T14:37:48Z",
+  "message": "La plantilla de pedido sin respuestas prellenadas y trabajo solo equipo",
+  "parents": 1,
+  "files": [
+   {
+    "f": ".github/ISSUE_TEMPLATE/trabajo.yml",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": ".github/pull_request_template.md",
+    "a": 1,
+    "d": 5
+   }
+  ]
+ },
+ "a6dec6e1c5609c5d630e11b042bf2cf89e42a991": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-25T14:37:48Z",
+  "message": "El formulario de fallas no pide el enlace del comprobante",
+  "parents": 1,
+  "files": [
+   {
+    "f": ".github/ISSUE_TEMPLATE/falla.yml",
+    "a": 2,
+    "d": 2
+   }
+  ]
+ },
+ "5f1a7bdb1e1a55570771f346feffb48a7c2bf65c": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-25T14:37:47Z",
+  "message": "La guía de contribución dice cómo se une de verdad y cuida comprobantes",
+  "parents": 1,
+  "files": [
+   {
+    "f": "CONTRIBUTING.md",
+    "a": 5,
+    "d": 5
+   },
+   {
+    "f": "src/gobierno-repo.test.ts",
+    "a": 81,
+    "d": 0
+   }
+  ]
+ },
+ "09177a244b674ce515b6df5c157eecb73ab07208": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-25T13:42:03Z",
+  "message": "Formularios de issue para fallas, mejoras y trabajo del equipo",
+  "parents": 1,
+  "files": [
+   {
+    "f": ".github/ISSUE_TEMPLATE/config.yml",
+    "a": 8,
+    "d": 0
+   },
+   {
+    "f": ".github/ISSUE_TEMPLATE/falla.yml",
+    "a": 57,
+    "d": 0
+   },
+   {
+    "f": ".github/ISSUE_TEMPLATE/mejora.yml",
+    "a": 36,
+    "d": 0
+   },
+   {
+    "f": ".github/ISSUE_TEMPLATE/trabajo.yml",
+    "a": 72,
+    "d": 0
+   }
+  ]
+ },
+ "c83d3974605d0e21fb93111548b6dcf8703ce8be": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-25T13:42:02Z",
+  "message": "Plantilla de pedido que pregunta qué despliega y a qué issue se refiere",
+  "parents": 1,
+  "files": [
+   {
+    "f": ".github/pull_request_template.md",
+    "a": 48,
+    "d": 0
+   }
+  ]
+ },
+ "99511cd29d1718a6e0a6cf118c59817c47efe373": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-25T13:42:02Z",
+  "message": "La política de seguridad deja de prometer plazos y suma el código del repositorio",
+  "parents": 1,
+  "files": [
+   {
+    "f": "SECURITY.md",
+    "a": 18,
+    "d": 13
+   }
+  ]
+ },
+ "3c527a9c222c2a07a413b539030f77d3a9c4c5d0": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-25T13:42:01Z",
+  "message": "Guía de contribución: zonas, ramas, commits, pedido y qué no se sube",
+  "parents": 1,
+  "files": [
+   {
+    "f": "CONTRIBUTING.md",
+    "a": 111,
+    "d": 0
+   }
+  ]
+ },
+ "1a583de37eeff0278e09c4381a3b727d3d05afaf": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-25T18:34:57Z",
+  "message": "La prueba del alta espera la marca ~ en el valor de un correo saneado",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/sala/campana-google.test.ts",
+    "a": 1,
+    "d": 1
+   }
+  ]
+ },
+ "ac654bbd5f33793fc181c0d29142ced6a1c46761": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-25T18:28:48Z",
+  "message": "Los comentarios de la vía de Google se cortan en líneas de largo normal",
+  "parents": 1,
+  "files": [
+   {
+    "f": "workers/sala/src/campana.ts",
+    "a": 3,
+    "d": 2
+   },
+   {
+    "f": "workers/sala/src/index.ts",
+    "a": 3,
+    "d": 2
+   },
+   {
+    "f": "workers/sala/wrangler.toml",
+    "a": 3,
+    "d": 2
+   }
+  ]
+ },
+ "43fa4f2e9a477e70f96fd4f71bc3c9375bb919a6": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-25T18:28:47Z",
+  "message": "La hoja de operación manda a desplegar solo la sala por la vía de Google",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/operacion.md",
+    "a": 5,
+    "d": 1
+   },
+   {
+    "f": "workers/sala/README.md",
+    "a": 6,
+    "d": 5
+   }
+  ]
+ },
+ "c0efcbf8e532a6fa51cc2a70145e6e75957bfcd5": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-25T18:28:40Z",
+  "message": "El registro de la vía marca con ~ lo que perdió al limpiarlo",
+  "parents": 1,
+  "files": [
+   {
+    "f": "workers/patrocinio/src/pollar.test.ts",
+    "a": 34,
+    "d": 10
+   },
+   {
+    "f": "workers/patrocinio/src/pollar.ts",
+    "a": 15,
+    "d": 7
+   }
+  ]
+ },
+ "b540d8912a998162062d87f15ea05d109747cb8f": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-25T17:53:26Z",
+  "message": "Documenta desplegar sala y portero y mirar la vía rechazada",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/operacion.md",
+    "a": 3,
+    "d": 1
+   },
+   {
+    "f": "workers/sala/README.md",
+    "a": 7,
+    "d": 1
+   }
+  ]
+ },
+ "0eed9a1f94d3a039b4790a421401179fa7842699": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-25T17:53:25Z",
+  "message": "Los comentarios de la sala dejan de pedir Google exacto",
+  "parents": 1,
+  "files": [
+   {
+    "f": "workers/sala/src/campana.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "workers/sala/wrangler.toml",
+    "a": 2,
+    "d": 2
+   }
+  ]
+ },
+ "a01a1a5f45756257f180697909a04fb008e160f3": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-25T17:53:25Z",
+  "message": "La sala anota en el registro el valor de la vía que rechazó",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/sala/activar.test.ts",
+    "a": 28,
+    "d": 0
+   },
+   {
+    "f": "src/sala/campana-google.test.ts",
+    "a": 54,
+    "d": 2
+   },
+   {
+    "f": "src/sala/tus-campanas.test.ts",
+    "a": 12,
+    "d": 0
+   },
+   {
+    "f": "workers/patrocinio/src/pollar.test.ts",
+    "a": 41,
+    "d": 2
+   },
+   {
+    "f": "workers/patrocinio/src/pollar.ts",
+    "a": 21,
+    "d": 4
+   },
+   {
+    "f": "workers/sala/src/activar.ts",
+    "a": 7,
+    "d": 0
+   },
+   {
+    "f": "workers/sala/src/index.ts",
+    "a": 4,
+    "d": 1
+   }
+  ]
+ },
+ "c5ab4781961f4252adf8b81f5b5bff7ce75f8079": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-25T17:22:28Z",
+  "message": "La sala reconoce una cuenta de Google aunque el proveedor lo escriba en mayúsculas",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/architecture.md",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "docs/operacion.md",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/sala/campana-google.test.ts",
+    "a": 17,
+    "d": 1
+   },
+   {
+    "f": "workers/patrocinio/src/pollar.test.ts",
+    "a": 8,
+    "d": 1
+   },
+   {
+    "f": "workers/patrocinio/src/pollar.ts",
+    "a": 11,
+    "d": 8
+   },
+   {
+    "f": "workers/sala/README.md",
+    "a": 5,
+    "d": 4
+   }
+  ]
+ },
+ "04aa2db3b2f709f91f6b63e582e6c65fe84f06cf": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-25T17:18:28Z",
+  "message": "La hoja de operación fija wrangler 4.160.0 en el paso de la clave de lectura",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/operacion.md",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "workers/patrocinio/README.md",
+    "a": 1,
+    "d": 1
+   }
+  ]
+ },
+ "ccde75df87119821d729073b54e5c12778c5c51a": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-25T17:18:27Z",
+  "message": "El aviso de la clave que falta va en frases cortas y en voseo",
+  "parents": 1,
+  "files": [
+   {
+    "f": "workers/vigilante/src/mensaje.test.ts",
+    "a": 18,
+    "d": 0
+   },
+   {
+    "f": "workers/vigilante/src/mensaje.ts",
+    "a": 5,
+    "d": 2
+   }
+  ]
+ },
+ "fc1f7732eb80c16518c8bb017922e8e952c0c0bd": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-25T14:36:12Z",
+  "message": "El aviso del protocolo de la red cuenta como avisado si salió por un canal",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/operacion.md",
+    "a": 2,
+    "d": 0
+   },
+   {
+    "f": "workers/vigilante/README.md",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "workers/vigilante/src/documentos.test.ts",
+    "a": 27,
+    "d": 0
+   },
+   {
+    "f": "workers/vigilante/src/vuelta-protocolo.test.ts",
+    "a": 28,
+    "d": 2
+   },
+   {
+    "f": "workers/vigilante/src/vuelta-protocolo.ts",
+    "a": 7,
+    "d": 5
+   }
+  ]
+ },
+ "2d8865d8a7914c57282146bc632e8cf37faecdb3": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-25T14:36:02Z",
+  "message": "La hoja de operación escribe el orden de carga de la clave de solo lectura",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/operacion.md",
+    "a": 14,
+    "d": 2
+   },
+   {
+    "f": "workers/patrocinio/README.md",
+    "a": 6,
+    "d": 7
+   },
+   {
+    "f": "workers/patrocinio/src/documentos-lectura.test.ts",
+    "a": 94,
+    "d": 0
+   },
+   {
+    "f": "workers/vigilante/src/documentos.test.ts",
+    "a": 25,
+    "d": 0
+   }
+  ]
+ },
+ "39db19af0f488492c0c7fc951d3fcfc70cf8acf0": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-25T14:35:57Z",
+  "message": "El vigilante prueba qué clave manda al portero y explica el orden de carga",
+  "parents": 1,
+  "files": [
+   {
+    "f": "workers/vigilante/src/clave-de-lectura.test.ts",
+    "a": 65,
+    "d": 0
+   },
+   {
+    "f": "workers/vigilante/src/mensaje.ts",
+    "a": 2,
+    "d": 2
+   }
+  ]
+ },
+ "1180b347a988ccbc2a65182e6c350d0e59e7f306": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-25T14:35:56Z",
+  "message": "La prueba del flujo de vigilancia comprueba qué clave viaja al portero",
+  "parents": 1,
+  "files": [
+   {
+    "f": "scripts/lib/vigilar-red-workflow.test.mjs",
+    "a": 80,
+    "d": 3
+   }
+  ]
+ },
+ "342c15ca2a3c89bd3c77285889bd5e2ab10a96ba": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "GuidoSV7",
+  "date": "2026-11-23T18:03:39Z",
+  "message": "feat(vigilante): la red de Stellar en la vuelta cada diez minutos",
+  "parents": 1,
+  "files": [
+   {
+    "f": "workers/patrocinio/README.md",
+    "a": 12,
+    "d": 0
+   },
+   {
+    "f": "workers/patrocinio/src/index.ts",
+    "a": 4,
+    "d": 0
+   },
+   {
+    "f": "workers/patrocinio/src/linea-base.test.ts",
+    "a": 46,
+    "d": 0
+   },
+   {
+    "f": "workers/patrocinio/src/linea-base.ts",
+    "a": 33,
+    "d": 0
+   },
+   {
+    "f": "workers/vigilante/README.md",
+    "a": 26,
+    "d": 0
+   },
+   {
+    "f": "workers/vigilante/src/index.test.ts",
+    "a": 2,
+    "d": 1
+   },
+   {
+    "f": "workers/vigilante/src/index.ts",
+    "a": 3,
+    "d": 0
+   },
+   {
+    "f": "workers/vigilante/src/protocolo.test.ts",
+    "a": 312,
+    "d": 0
+   },
+   {
+    "f": "workers/vigilante/src/protocolo.ts",
+    "a": 431,
+    "d": 0
+   },
+   {
+    "f": "workers/vigilante/src/vuelta-protocolo.test.ts",
+    "a": 307,
+    "d": 0
+   },
+   {
+    "f": "workers/vigilante/src/vuelta-protocolo.ts",
+    "a": 228,
+    "d": 0
+   }
+  ]
+ },
+ "871ca4e27380a42a3492d31aeeb0858df2c3ec60": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "GuidoSV7",
+  "date": "2026-11-23T18:33:57Z",
+  "message": "test(vigilar-portero): los pins del flujo alineados con la clave de solo lectura",
+  "parents": 1,
+  "files": [
+   {
+    "f": "scripts/lib/vigilar-red-workflow.test.mjs",
+    "a": 4,
+    "d": 2
+   }
+  ]
+ },
+ "73377aec3f7d93fb073b793086f654ec89b42d6d": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "GuidoSV7",
+  "date": "2026-11-23T17:59:51Z",
+  "message": "feat(patrocinio): el estado del portero se lee con una clave de solo lectura",
+  "parents": 1,
+  "files": [
+   {
+    "f": ".github/workflows/vigilar-portero.yml",
+    "a": 6,
+    "d": 3
+   },
+   {
+    "f": "docs/operacion.md",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "workers/patrocinio/README.md",
+    "a": 7,
+    "d": 0
+   },
+   {
+    "f": "workers/patrocinio/src/index.test.ts",
+    "a": 60,
+    "d": 2
+   },
+   {
+    "f": "workers/patrocinio/src/index.ts",
+    "a": 39,
+    "d": 8
+   },
+   {
+    "f": "workers/vigilante/README.md",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "workers/vigilante/src/config.test.ts",
+    "a": 4,
+    "d": 2
+   },
+   {
+    "f": "workers/vigilante/src/config.ts",
+    "a": 2,
+    "d": 1
+   },
+   {
+    "f": "workers/vigilante/src/documentos.test.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "workers/vigilante/src/mundo-falso.ts",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "workers/vigilante/src/prueba.test.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "workers/vigilante/src/sin-acceso.test.ts",
+    "a": 2,
+    "d": 0
+   },
+   {
+    "f": "workers/vigilante/src/vuelta.test.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "workers/vigilante/src/vuelta.ts",
+    "a": 4,
+    "d": 1
+   },
+   {
+    "f": "workers/vigilante/wrangler.toml",
+    "a": 1,
+    "d": 1
+   }
+  ]
+ },
+ "5f04a0bb28f302c24478a3219dac12680b2f278c": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "GuidoSV7",
+  "date": "2026-11-23T17:24:32Z",
+  "message": "fix(patrocinio): el error JSON-RPC de un nodo prueba el siguiente en las lecturas",
+  "parents": 1,
+  "files": [
+   {
+    "f": "workers/patrocinio/src/red.test.ts",
+    "a": 44,
+    "d": 0
+   },
+   {
+    "f": "workers/patrocinio/src/red.ts",
+    "a": 18,
+    "d": 7
+   }
+  ]
+ },
+ "30f4f8d19960ddab8d595547ea00db91febbbd55": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-25T14:39:05Z",
+  "message": "La prueba del máximo de doce horas guarda la hora del pase en una variable",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/ui/campana-sala.test.ts",
+    "a": 3,
+    "d": 2
+   }
+  ]
+ },
+ "aa5f517d4e9c844040887f7206be7568c133476a": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-25T14:39:04Z",
+  "message": "Prueba: pasada la hora de cierre una persona nueva no llama al proveedor",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/sala/campana-alta.test.ts",
+    "a": 17,
+    "d": 0
+   }
+  ]
+ },
+ "e8d3981bada083621142f13d2d50746abf1b65af": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-25T13:59:00Z",
+  "message": "Documenta qué acota el camino de sin-billetera",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/carga-altas.md",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "workers/sala/README.md",
+    "a": 5,
+    "d": 0
+   }
+  ]
+ },
+ "598cb90c57d7c3aaa42a6bdadbffaad6ef9e59ba": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-25T13:58:45Z",
+  "message": "Prueba de la ruta del alta con más sesiones sin cuenta que el tope de rechazos",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/sala/campana-una-persona.test.ts",
+    "a": 28,
+    "d": 1
+   }
+  ]
+ },
+ "d14ac2d794f662e8c8891f90b07b20c6191a4445": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-25T13:28:47Z",
+  "message": "Volver a abrir una lista cerrada respeta el máximo de la sala y la conexión caída",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/ui/campana-sala.test.ts",
+    "a": 55,
+    "d": 0
+   },
+   {
+    "f": "src/ui/campana-sala.ts",
+    "a": 17,
+    "d": 2
+   }
+  ]
+ },
+ "96cc1f94b476047ccd0cab78cffa9bd2282bc73d": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-25T13:21:42Z",
+  "message": "Vuelve el texto del final de espera de la rama principal",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/campana/celular.test.ts",
+    "a": 0,
+    "d": 5
+   },
+   {
+    "f": "src/campana/textos.ts",
+    "a": 2,
+    "d": 2
+   }
+  ]
+ },
+ "03599725d4865203a40385d46b0dce12ce34ca98": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-25T13:21:34Z",
+  "message": "El corte por la hora de cierre vuelve a ir antes de verificar la sesión",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/sala/campana-alta.test.ts",
+    "a": 4,
+    "d": 41
+   },
+   {
+    "f": "workers/sala/README.md",
+    "a": 1,
+    "d": 3
+   },
+   {
+    "f": "workers/sala/src/campana.ts",
+    "a": 13,
+    "d": 29
+   }
+  ]
+ },
+ "d04efe57d4311f9f25e0c55178340ffb46c1ca87": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-25T13:03:56Z",
+  "message": "Volver a abrir una lista cerrada estima antes el reloj de la sala",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/ui/campana-sala.test.ts",
+    "a": 21,
+    "d": 0
+   },
+   {
+    "f": "src/ui/campana-sala.ts",
+    "a": 11,
+    "d": 0
+   }
+  ]
+ },
+ "e2556a3a86bd60e91af595ee6e6bdffc4dd30c5e": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-25T12:39:41Z",
+  "message": "La prueba de las doce horas espera a que termine cada toque",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/ui/campana-sala.test.ts",
+    "a": 1,
+    "d": 0
+   }
+  ]
+ },
+ "ff98e5a2186e157823732700bde13ed13b72624a": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-25T12:34:59Z",
+  "message": "El texto de espera del alta dice que los datos móviles también sirven",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/campana/celular.test.ts",
+    "a": 5,
+    "d": 0
+   },
+   {
+    "f": "src/campana/textos.ts",
+    "a": 2,
+    "d": 2
+   }
+  ]
+ },
+ "270b20582c4d8c19d3f3dbb639d82bf847dd7df1": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-25T12:34:59Z",
+  "message": "Escape mantenida apretada no saca de la vista en vivo",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/ui/espectador.test.ts",
+    "a": 15,
+    "d": 0
+   },
+   {
+    "f": "src/ui/espectador.ts",
+    "a": 3,
+    "d": 0
+   }
+  ]
+ },
+ "22f6afeab14ffac872a3b4e4165fdb373975b896": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-25T12:34:58Z",
+  "message": "Volver a abrir una lista cerrada manda siempre una hora nueva",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/ui/campana-sala.test.ts",
+    "a": 64,
+    "d": 0
+   },
+   {
+    "f": "src/ui/campana-sala.ts",
+    "a": 7,
+    "d": 2
+   }
+  ]
+ },
+ "a4091839cb2e9e3dbbc1edaa2abf5758af0dc3cb": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-25T12:34:57Z",
+  "message": "Pasada la hora de cierre, quien ya estaba anotada puede reingresar",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/sala/campana-alta.test.ts",
+    "a": 41,
+    "d": 4
+   },
+   {
+    "f": "workers/sala/README.md",
+    "a": 3,
+    "d": 1
+   },
+   {
+    "f": "workers/sala/src/campana.ts",
+    "a": 29,
+    "d": 13
+   }
+  ]
+ },
+ "905c20192871de74f6decb936f1ebfa7f4a42a8b": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-25T12:34:26Z",
+  "message": "El alta que espera su cuenta no gasta el tope de rechazos de la conexión",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/carga-altas.md",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/sala/campana-fichas.test.ts",
+    "a": 33,
+    "d": 0
+   },
+   {
+    "f": "src/sala/topes-equipos.test.ts",
+    "a": 4,
+    "d": 2
+   },
+   {
+    "f": "workers/sala/README.md",
+    "a": 5,
+    "d": 3
+   },
+   {
+    "f": "workers/sala/src/campana.ts",
+    "a": 6,
+    "d": 3
+   },
+   {
+    "f": "workers/sala/src/index.ts",
+    "a": 8,
+    "d": 5
+   }
+  ]
  }
 }
