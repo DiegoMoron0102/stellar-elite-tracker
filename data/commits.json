@@ -224918,5 +224918,1300 @@
     "d": 0
    }
   ]
+ },
+ "8b336ebba3e30aae830dc2400588e3607393bb69": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-27T12:25:12Z",
+  "message": "Activar la cuenta siempre tiene una salida (#314)",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/ux.md",
+    "a": 3,
+    "d": 0
+   },
+   {
+    "f": "src/ui/cuenta-lista-estado-salida.test.ts",
+    "a": 269,
+    "d": 0
+   },
+   {
+    "f": "src/ui/cuenta-lista-estado.ts",
+    "a": 44,
+    "d": 3
+   },
+   {
+    "f": "src/ui/cuenta-lista-flujo-recargar.test.ts",
+    "a": 66,
+    "d": 0
+   },
+   {
+    "f": "src/ui/cuenta-lista-flujo.test.ts",
+    "a": 19,
+    "d": 0
+   },
+   {
+    "f": "src/ui/cuenta-lista-flujo.ts",
+    "a": 18,
+    "d": 0
+   },
+   {
+    "f": "src/ui/cuenta-lista-salida.test.ts",
+    "a": 936,
+    "d": 0
+   },
+   {
+    "f": "src/ui/cuenta-lista.ts",
+    "a": 116,
+    "d": 15
+   }
+  ]
+ },
+ "e22beb1f9561655e083110ffc9d9e9693825f796": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-27T11:04:56Z",
+  "message": "Se dice cuánto espera la sala con el servicio caído y que el total no crece",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/architecture.md",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "docs/operacion.md",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/ui/sorteo-del-servicio.ts",
+    "a": 5,
+    "d": 3
+   }
+  ]
+ },
+ "4c903b08406b2a4e47e13503396c5ebbe3065948": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-27T11:04:25Z",
+  "message": "Un RPC que no contesta se cambia también en el sorteo por el servicio",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/ui/sorteo-del-servicio.test.ts",
+    "a": 61,
+    "d": 0
+   },
+   {
+    "f": "src/ui/sorteo-del-servicio.ts",
+    "a": 8,
+    "d": 2
+   }
+  ]
+ },
+ "4de6411dbd2e94c6a1c1d2cddb4c47bd7140bc07": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-27T10:35:21Z",
+  "message": "Pruebas del repetido de adentro y de la admisión por edad del sorteo",
+  "parents": 1,
+  "files": [
+   {
+    "f": "workers/patrocinio/src/sorteadora.test.ts",
+    "a": 47,
+    "d": 0
+   }
+  ]
+ },
+ "fc8197d8ef814cfb489702d00139fce16e8fca14": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-27T10:34:20Z",
+  "message": "Documenta los límites que quedan del sorteo de a uno",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/architecture.md",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "docs/operacion.md",
+    "a": 6,
+    "d": 1
+   }
+  ]
+ },
+ "55bc87dc2255b197772ca083d755a66e9d3ff0e6": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-27T10:34:20Z",
+  "message": "La cabecera del sorteo por el servicio dice lo que hace el código",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/ui/sorteo-del-servicio.ts",
+    "a": 10,
+    "d": 6
+   }
+  ]
+ },
+ "53a030e223f716fa730e7b2da56a30058cc976fd": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-27T10:33:00Z",
+  "message": "Al guardar otra vez un sorteo marcado, la reserva anterior sigue contando",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/ui/grabar-sorteo-servicio.test.ts",
+    "a": 31,
+    "d": 1
+   },
+   {
+    "f": "src/ui/grabar-sorteo.ts",
+    "a": 8,
+    "d": 3
+   }
+  ]
+ },
+ "6888050e65ecb9710e9e93425dc5082718cc1ce7": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-26T02:08:15Z",
+  "message": "Documenta el sorteo de a uno y cómo se prende el servicio",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/architecture.md",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "docs/operacion.md",
+    "a": 17,
+    "d": 8
+   }
+  ]
+ },
+ "4bfff4dc0755cdce7de95c794966fc159d614f1a": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-26T02:06:30Z",
+  "message": "El tope de sorteos que puede ser de la reserva no da una fecha falsa",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/ui/grabar-sorteo-servicio.test.ts",
+    "a": 7,
+    "d": 4
+   },
+   {
+    "f": "src/ui/grabar-sorteo.ts",
+    "a": 17,
+    "d": 1
+   }
+  ]
+ },
+ "7f1504478b6547776f63fb15f9f2c65531df3698": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-26T02:05:55Z",
+  "message": "Las reglas del sorteo por el servicio dicen lo que hace ahora",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/ui/sorteo-del-servicio.test.ts",
+    "a": 14,
+    "d": 2
+   },
+   {
+    "f": "src/ui/sorteo-del-servicio.ts",
+    "a": 43,
+    "d": 26
+   }
+  ]
+ },
+ "20d38d2d3f967618d56a71a33a2a785cefddc597": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-26T02:04:40Z",
+  "message": "Un pedido al servicio sin tiempo en la etapa no se manda",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/ui/sorteo-del-servicio-condicion.test.ts",
+    "a": 15,
+    "d": 2
+   },
+   {
+    "f": "src/ui/sorteo-del-servicio.test.ts",
+    "a": 15,
+    "d": 0
+   },
+   {
+    "f": "src/ui/sorteo-del-servicio.ts",
+    "a": 6,
+    "d": 0
+   }
+  ]
+ },
+ "29e5c52461aa9f38a4af3369d613aaa4dc9ddd00": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-26T02:04:15Z",
+  "message": "El sorteo por el servicio termina a los 90 s también después de entrar",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/ui/sorteo-del-servicio.test.ts",
+    "a": 39,
+    "d": 0
+   },
+   {
+    "f": "src/ui/sorteo-del-servicio.ts",
+    "a": 7,
+    "d": 4
+   },
+   {
+    "f": "src/ui/sorteo-seguro.test.ts",
+    "a": 6,
+    "d": 1
+   }
+  ]
+ },
+ "9ae95c697d12e1d4336d6868b38ff04c688b3d27": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-26T02:03:32Z",
+  "message": "Un sorteo propio que entró vale aunque el contrato se lea vacío",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/ui/sorteo-del-servicio-condicion.test.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/ui/sorteo-del-servicio.test.ts",
+    "a": 15,
+    "d": 1
+   },
+   {
+    "f": "src/ui/sorteo-del-servicio.ts",
+    "a": 16,
+    "d": 23
+   }
+  ]
+ },
+ "965811881ae53ac7760287b3a8e7409e7fa2b058": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-26T02:02:31Z",
+  "message": "El error sin confirmar solo lleva el número de este sorteo",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/ui/sorteo-del-servicio-condicion.test.ts",
+    "a": 3,
+    "d": 2
+   },
+   {
+    "f": "src/ui/sorteo-del-servicio.test.ts",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "src/ui/sorteo-del-servicio.ts",
+    "a": 7,
+    "d": 5
+   }
+  ]
+ },
+ "98aa176ccd23ce8bbe204f0ade09662b76a69809": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-26T02:01:50Z",
+  "message": "El sitio sigue por el camino de siempre si el servicio está ocupado",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/stellar/sorteo-servidor-api.test.ts",
+    "a": 9,
+    "d": 1
+   },
+   {
+    "f": "src/stellar/sorteo-servidor-api.ts",
+    "a": 19,
+    "d": 3
+   },
+   {
+    "f": "src/ui/sorteo-del-servicio-condicion.test.ts",
+    "a": 40,
+    "d": 1
+   },
+   {
+    "f": "src/ui/sorteo-del-servicio.test.ts",
+    "a": 19,
+    "d": 2
+   }
+  ]
+ },
+ "181860915ed9e3b449097bac8ff1e3005947bae3": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-26T01:47:11Z",
+  "message": "Cada prueba del sorteo anota en su propia lista de registros",
+  "parents": 1,
+  "files": [
+   {
+    "f": "workers/patrocinio/src/sorteadora.test.ts",
+    "a": 4,
+    "d": 2
+   }
+  ]
+ },
+ "952c230fbb3a902fe565e98ecb2dc55016f1d939": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-26T01:36:39Z",
+  "message": "Documenta el sorteo de a uno del servicio",
+  "parents": 1,
+  "files": [
+   {
+    "f": "workers/patrocinio/README.md",
+    "a": 9,
+    "d": 4
+   }
+  ]
+ },
+ "5d88c2d8c7410c47927b5bb2a31e0dd8af27a05d": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-26T01:35:42Z",
+  "message": "El error interno del sorteo dice cuando no llegó a mandar",
+  "parents": 1,
+  "files": [
+   {
+    "f": "workers/patrocinio/src/servicio.ts",
+    "a": 2,
+    "d": 1
+   },
+   {
+    "f": "workers/patrocinio/src/sorteadora.test.ts",
+    "a": 33,
+    "d": 2
+   }
+  ]
+ },
+ "bfb74297a0f615026259dbeb44a731b558d58cb4": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-26T01:35:10Z",
+  "message": "El envío propio que la red ya tenía se contesta como pendiente",
+  "parents": 1,
+  "files": [
+   {
+    "f": "workers/patrocinio/src/servicio.ts",
+    "a": 3,
+    "d": 1
+   },
+   {
+    "f": "workers/patrocinio/src/sorteadora.test.ts",
+    "a": 15,
+    "d": 0
+   }
+  ]
+ },
+ "ed50ee1da61cf54bca7898d3d5ea5d5be11a68cf": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-26T01:34:47Z",
+  "message": "El repetido del sorteo dice en qué quedó su fila",
+  "parents": 1,
+  "files": [
+   {
+    "f": "workers/patrocinio/src/servicio.ts",
+    "a": 7,
+    "d": 4
+   },
+   {
+    "f": "workers/patrocinio/src/sorteadora.test.ts",
+    "a": 17,
+    "d": 6
+   }
+  ]
+ },
+ "b0c79e8ba6503d78784e2c30f4deaedd681e8eb6": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-26T01:34:07Z",
+  "message": "El servicio no empieza a mandar un sorteo pedido hace más de 9 s",
+  "parents": 1,
+  "files": [
+   {
+    "f": "workers/patrocinio/src/servicio.ts",
+    "a": 31,
+    "d": 11
+   },
+   {
+    "f": "workers/patrocinio/src/sorteadora.test.ts",
+    "a": 59,
+    "d": 5
+   },
+   {
+    "f": "workers/patrocinio/src/sorteadora.ts",
+    "a": 8,
+    "d": 0
+   }
+  ]
+ },
+ "a429d0c516b4f96c7f875137024fe54c9d22fc65": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-26T01:33:21Z",
+  "message": "Tras un corte al mandar, la sorteadora espera a ver si el envío entró",
+  "parents": 1,
+  "files": [
+   {
+    "f": "workers/patrocinio/src/servicio.ts",
+    "a": 6,
+    "d": 2
+   },
+   {
+    "f": "workers/patrocinio/src/sorteadora.test.ts",
+    "a": 23,
+    "d": 0
+   }
+  ]
+ },
+ "1af2e260e23b2edbf9b97e6440c890539d132ba7": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-26T01:32:53Z",
+  "message": "La sorteadora atiende un sorteo a la vez y contesta ocupado",
+  "parents": 1,
+  "files": [
+   {
+    "f": "workers/patrocinio/src/servicio.ts",
+    "a": 27,
+    "d": 10
+   },
+   {
+    "f": "workers/patrocinio/src/sorteadora.test.ts",
+    "a": 251,
+    "d": 14
+   },
+   {
+    "f": "workers/patrocinio/src/sorteadora.ts",
+    "a": 48,
+    "d": 10
+   }
+  ]
+ },
+ "914b5156c5beed6527ea01a3c8dd3a998e7eba47": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-26T01:28:26Z",
+  "message": "El servicio junta en un solo trabajo los pedidos iguales de un sorteo",
+  "parents": 1,
+  "files": [
+   {
+    "f": "workers/patrocinio/src/servicio.ts",
+    "a": 19,
+    "d": 0
+   },
+   {
+    "f": "workers/patrocinio/src/sorteadora.test.ts",
+    "a": 26,
+    "d": 3
+   }
+  ]
+ },
+ "cbda5ff273fbb1c0842d377246206c387c3400c0": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-25T23:32:10Z",
+  "message": "Corrige el tope de la prueba de la red colgada",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/ui/sorteo-del-servicio.test.ts",
+    "a": 2,
+    "d": 2
+   }
+  ]
+ },
+ "76925742f89f94cdeb973c58c405b5a379bdcbe9": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-25T23:22:29Z",
+  "message": "Corrige las pruebas del tope de sorteos y deja su comprobación en grabar",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/ui/grabar-sorteo-servicio.test.ts",
+    "a": 15,
+    "d": 3
+   },
+   {
+    "f": "src/ui/grabar-sorteo.ts",
+    "a": 11,
+    "d": 1
+   },
+   {
+    "f": "src/ui/sorteo-seguro.test.ts",
+    "a": 2,
+    "d": 10
+   },
+   {
+    "f": "src/ui/sorteo-seguro.ts",
+    "a": 0,
+    "d": 10
+   }
+  ]
+ },
+ "abd03ef1eb9098357210730f04457dce15fcfa06": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-25T23:18:22Z",
+  "message": "Documenta el paso al camino de siempre y la reserva del servicio",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/architecture.md",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "docs/operacion.md",
+    "a": 1,
+    "d": 1
+   }
+  ]
+ },
+ "ddadf1c2320ca2b9ea7ed3af612425a4791f6e4a": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-25T23:18:13Z",
+  "message": "No da por definitivo el tope de sorteos que deja la reserva del servicio",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/ui/draw-servicio.test.ts",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "src/ui/grabar-sorteo-servicio.test.ts",
+    "a": 74,
+    "d": 1
+   },
+   {
+    "f": "src/ui/grabar-sorteo.ts",
+    "a": 17,
+    "d": 3
+   },
+   {
+    "f": "src/ui/sorteo-seguro.test.ts",
+    "a": 16,
+    "d": 1
+   },
+   {
+    "f": "src/ui/sorteo-seguro.ts",
+    "a": 10,
+    "d": 0
+   }
+  ]
+ },
+ "0e38d87061b4a5612ff3c31cb1086bc758d32bb0": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-25T23:18:02Z",
+  "message": "Vuelve al camino de siempre si el envío del servicio no cierra en 60 s",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/ui/sorteo-del-servicio-condicion.test.ts",
+    "a": 38,
+    "d": 1
+   },
+   {
+    "f": "src/ui/sorteo-del-servicio.test.ts",
+    "a": 31,
+    "d": 20
+   },
+   {
+    "f": "src/ui/sorteo-del-servicio.ts",
+    "a": 52,
+    "d": 6
+   }
+  ]
+ },
+ "86a03c4dfbf1823ca0831cb87a38ee6aaa8a2cbd": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-25T22:48:07Z",
+  "message": "Corrige la prueba del envío vencido del servicio",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/ui/sorteo-del-servicio-condicion.test.ts",
+    "a": 7,
+    "d": 2
+   }
+  ]
+ },
+ "df7fa71124548d4c06f319e682b62dee01956375": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-25T22:42:07Z",
+  "message": "Documenta la espera de la sala y lo que el sitio no puede evitar",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/architecture.md",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "docs/operacion.md",
+    "a": 2,
+    "d": 0
+   }
+  ]
+ },
+ "48d28be9083b5d2796f87a74ba9fcfe85224eda3": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-25T22:42:06Z",
+  "message": "Prueba el cableado real de las fuentes del sorteo por el servicio",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/ui/sorteo-del-servicio-fuentes.test.ts",
+    "a": 119,
+    "d": 0
+   }
+  ]
+ },
+ "709430aa83c430d644795696188be7cfed2a0a56": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-25T22:42:01Z",
+  "message": "El sorteo por el servicio acota la espera de la sala y su disyuntor",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/stellar/sorteo-servidor-api.test.ts",
+    "a": 10,
+    "d": 7
+   },
+   {
+    "f": "src/stellar/sorteo-servidor-api.ts",
+    "a": 20,
+    "d": 6
+   },
+   {
+    "f": "src/ui/sorteo-del-servicio-condicion.test.ts",
+    "a": 21,
+    "d": 1
+   },
+   {
+    "f": "src/ui/sorteo-del-servicio.test.ts",
+    "a": 131,
+    "d": 14
+   },
+   {
+    "f": "src/ui/sorteo-del-servicio.ts",
+    "a": 67,
+    "d": 17
+   }
+  ]
+ },
+ "60569809e5455b0a4c30cb75f745dc8ffd61150b": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-25T22:12:48Z",
+  "message": "Documenta el orden para prender el sorteo por el servicio",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/architecture.md",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "docs/operacion.md",
+    "a": 10,
+    "d": 1
+   }
+  ]
+ },
+ "2a7f3c84a1f35193a6ce5da9e2c4a1670d08d1be": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-25T22:12:48Z",
+  "message": "El servicio espera a su cola, no manda doble y sigue mirando sin red",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/ui/sorteo-del-servicio.test.ts",
+    "a": 139,
+    "d": 5
+   },
+   {
+    "f": "src/ui/sorteo-del-servicio.ts",
+    "a": 115,
+    "d": 49
+   }
+  ]
+ },
+ "28bdc4a582ebccba7ee01401cd6339c09c84db27": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-25T22:12:39Z",
+  "message": "El camino de siempre conserva un mínimo de reintentos con el servicio",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/ui/grabar-sorteo-servicio-carga.test.ts",
+    "a": 39,
+    "d": 0
+   },
+   {
+    "f": "src/ui/grabar-sorteo-servicio.test.ts",
+    "a": 32,
+    "d": 4
+   },
+   {
+    "f": "src/ui/grabar-sorteo.ts",
+    "a": 13,
+    "d": 4
+   },
+   {
+    "f": "src/ui/sorteo-seguro.test.ts",
+    "a": 11,
+    "d": 9
+   },
+   {
+    "f": "src/ui/sorteo-seguro.ts",
+    "a": 7,
+    "d": 2
+   }
+  ]
+ },
+ "407a3a2b0285086e159f00edfacfaa8e9b363e9f": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-25T21:35:17Z",
+  "message": "Corrige el reloj de la prueba del servicio dejado de lado",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/ui/sorteo-del-servicio-condicion.test.ts",
+    "a": 2,
+    "d": 1
+   }
+  ]
+ },
+ "0ca245c2c5c19d0aae48e9de69f78202d00eb999": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-25T21:26:51Z",
+  "message": "Marca el sorteo y deja de lado al servicio cuando la etapa se agota",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/ui/sorteo-del-servicio-condicion.test.ts",
+    "a": 161,
+    "d": 1
+   },
+   {
+    "f": "src/ui/sorteo-del-servicio.ts",
+    "a": 5,
+    "d": 3
+   }
+  ]
+ },
+ "c992d327ae2c377296aed54ba53e43afcf6c1c67": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-25T21:26:51Z",
+  "message": "Descuenta lo esperado al servicio del presupuesto del camino de siempre",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/architecture.md",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/ui/grabar-sorteo-servicio.test.ts",
+    "a": 27,
+    "d": 0
+   },
+   {
+    "f": "src/ui/grabar-sorteo.ts",
+    "a": 7,
+    "d": 1
+   }
+  ]
+ },
+ "28b86993a070cd651e461948a6dd3de49462581a": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-25T21:26:50Z",
+  "message": "El reintento del sorteo puede descontar lo ya esperado",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/ui/sorteo-seguro.test.ts",
+    "a": 19,
+    "d": 0
+   },
+   {
+    "f": "src/ui/sorteo-seguro.ts",
+    "a": 4,
+    "d": 1
+   }
+  ]
+ },
+ "2048cc8e0255e18cd49eb498e3b9f9548d01d2be": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-25T21:05:14Z",
+  "message": "Arregla los tipos de la prueba de pantalla del sorteo por el servicio",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/ui/draw-servicio.test.ts",
+    "a": 5,
+    "d": 5
+   }
+  ]
+ },
+ "59fb170bb8103ac9d6fa87e9c2bf50c98588b01b": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-25T20:58:22Z",
+  "message": "Documenta el sorteo por el servicio en el sitio",
+  "parents": 1,
+  "files": [
+   {
+    "f": ".env.example",
+    "a": 4,
+    "d": 0
+   },
+   {
+    "f": "docs/architecture.md",
+    "a": 5,
+    "d": 0
+   },
+   {
+    "f": "docs/operacion.md",
+    "a": 5,
+    "d": 1
+   },
+   {
+    "f": "src/stellar/alta-api.ts",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "src/stellar/alta-config.ts",
+    "a": 3,
+    "d": 1
+   }
+  ]
+ },
+ "8c4866fd9679bc2143d6e2932d7f66a89091309c": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-25T20:57:33Z",
+  "message": "Graba por el servicio cuando el interruptor está prendido",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/ui/draw-servicio.test.ts",
+    "a": 193,
+    "d": 0
+   },
+   {
+    "f": "src/ui/grabar-sorteo-apagado.test.ts",
+    "a": 132,
+    "d": 0
+   },
+   {
+    "f": "src/ui/grabar-sorteo-servicio.test.ts",
+    "a": 130,
+    "d": 0
+   },
+   {
+    "f": "src/ui/grabar-sorteo.ts",
+    "a": 25,
+    "d": 3
+   }
+  ]
+ },
+ "26ccf80d3471d222e8ad78729a14bcdcc210755e": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-25T20:57:33Z",
+  "message": "Confirma en la red el sorteo que manda el servicio",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/ui/envio-sdk.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/ui/sorteo-del-servicio-condicion.test.ts",
+    "a": 98,
+    "d": 0
+   },
+   {
+    "f": "src/ui/sorteo-del-servicio-pestana.test.ts",
+    "a": 77,
+    "d": 0
+   },
+   {
+    "f": "src/ui/sorteo-del-servicio.test.ts",
+    "a": 391,
+    "d": 0
+   },
+   {
+    "f": "src/ui/sorteo-del-servicio.ts",
+    "a": 482,
+    "d": 0
+   }
+  ]
+ },
+ "311bf6790e4596717a5da3a0a04f7e995ad05078": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-25T20:56:53Z",
+  "message": "Pide al servicio que mande el sorteo y lee lo que contesta",
+  "parents": 1,
+  "files": [
+   {
+    "f": "src/stellar/sorteo-servidor-api.test.ts",
+    "a": 117,
+    "d": 0
+   },
+   {
+    "f": "src/stellar/sorteo-servidor-api.ts",
+    "a": 124,
+    "d": 0
+   }
+  ]
+ },
+ "a1c0c163737635b4df92a3d9dac41765ea714ff0": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-27T10:40:35Z",
+  "message": "Quien se anota a una campaña puede hacerlo sin billetera (#302)",
+  "parents": 1,
+  "files": [
+   {
+    "f": ".env.example",
+    "a": 7,
+    "d": 0
+   },
+   {
+    "f": ".github/workflows/ci.yml",
+    "a": 3,
+    "d": 0
+   },
+   {
+    "f": "docs/operacion.md",
+    "a": 2,
+    "d": 0
+   },
+   {
+    "f": "docs/premios.md",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "docs/vectors-persona.json",
+    "a": 77,
+    "d": 0
+   },
+   {
+    "f": "src/campana/adentro.ts",
+    "a": 17,
+    "d": 1
+   },
+   {
+    "f": "src/campana/aislar.test.ts",
+    "a": 39,
+    "d": 0
+   },
+   {
+    "f": "src/campana/aislar.ts",
+    "a": 28,
+    "d": 0
+   },
+   {
+    "f": "src/campana/campana.css",
+    "a": 30,
+    "d": 0
+   },
+   {
+    "f": "src/campana/celular-persona.test.ts",
+    "a": 388,
+    "d": 0
+   },
+   {
+    "f": "src/campana/celular-sorteo.test.ts",
+    "a": 55,
+    "d": 0
+   },
+   {
+    "f": "src/campana/celular.ts",
+    "a": 55,
+    "d": 4
+   },
+   {
+    "f": "src/campana/conectar-persona.test.ts",
+    "a": 310,
+    "d": 0
+   },
+   {
+    "f": "src/campana/conectar-persona.ts",
+    "a": 161,
+    "d": 0
+   },
+   {
+    "f": "src/campana/crear/armar-persona.test.ts",
+    "a": 124,
+    "d": 0
+   },
+   {
+    "f": "src/campana/crear/armar.ts",
+    "a": 5,
+    "d": 1
+   },
+   {
+    "f": "src/campana/crear/estado.ts",
+    "a": 3,
+    "d": 0
+   },
+   {
+    "f": "src/campana/crear/panel.ts",
+    "a": 6,
+    "d": 1
+   },
+   {
+    "f": "src/campana/google.test.ts",
+    "a": 348,
+    "d": 0
+   },
+   {
+    "f": "src/campana/google.ts",
+    "a": 226,
+    "d": 0
+   },
+   {
+    "f": "src/campana/memoria.test.ts",
+    "a": 26,
+    "d": 0
+   },
+   {
+    "f": "src/campana/memoria.ts",
+    "a": 8,
+    "d": 1
+   },
+   {
+    "f": "src/campana/modelo.test.ts",
+    "a": 36,
+    "d": 0
+   },
+   {
+    "f": "src/campana/modelo.ts",
+    "a": 7,
+    "d": 0
+   },
+   {
+    "f": "src/campana/participar-persona.test.ts",
+    "a": 436,
+    "d": 0
+   },
+   {
+    "f": "src/campana/persona-bandera.test.ts",
+    "a": 41,
+    "d": 0
+   },
+   {
+    "f": "src/campana/persona-bandera.ts",
+    "a": 38,
+    "d": 0
+   },
+   {
+    "f": "src/campana/previa.ts",
+    "a": 50,
+    "d": 3
+   },
+   {
+    "f": "src/campana/textos.ts",
+    "a": 14,
+    "d": 0
+   },
+   {
+    "f": "src/crear-campana-persona.test.ts",
+    "a": 79,
+    "d": 0
+   },
+   {
+    "f": "src/crear-campana.ts",
+    "a": 3,
+    "d": 0
+   },
+   {
+    "f": "src/equipos/celular.ts",
+    "a": 15,
+    "d": 0
+   },
+   {
+    "f": "src/equipos/llave.test.ts",
+    "a": 56,
+    "d": 1
+   },
+   {
+    "f": "src/participar.ts",
+    "a": 71,
+    "d": 3
+   },
+   {
+    "f": "src/sala/campana-paridad-cuenta.base.json",
+    "a": 285,
+    "d": 0
+   },
+   {
+    "f": "src/sala/campana-paridad-cuenta.test.ts",
+    "a": 451,
+    "d": 0
+   },
+   {
+    "f": "src/sala/campana-persona.test.ts",
+    "a": 904,
+    "d": 0
+   },
+   {
+    "f": "src/sala/campana.ts",
+    "a": 34,
+    "d": 6
+   },
+   {
+    "f": "src/sala/celular-persona.test.ts",
+    "a": 182,
+    "d": 0
+   },
+   {
+    "f": "src/sala/celular-persona.ts",
+    "a": 89,
+    "d": 0
+   },
+   {
+    "f": "workers/sala/README.md",
+    "a": 65,
+    "d": 0
+   },
+   {
+    "f": "workers/sala/src/activar.ts",
+    "a": 7,
+    "d": 3
+   },
+   {
+    "f": "workers/sala/src/campana.ts",
+    "a": 68,
+    "d": 1
+   },
+   {
+    "f": "workers/sala/src/identidad-google.test.ts",
+    "a": 590,
+    "d": 0
+   },
+   {
+    "f": "workers/sala/src/identidad-google.ts",
+    "a": 316,
+    "d": 0
+   },
+   {
+    "f": "workers/sala/src/index.ts",
+    "a": 336,
+    "d": 25
+   },
+   {
+    "f": "workers/sala/src/linea-persona.test.ts",
+    "a": 113,
+    "d": 0
+   },
+   {
+    "f": "workers/sala/src/linea-persona.ts",
+    "a": 58,
+    "d": 0
+   },
+   {
+    "f": "workers/sala/src/personas.ts",
+    "a": 55,
+    "d": 0
+   },
+   {
+    "f": "workers/sala/wrangler.toml",
+    "a": 6,
+    "d": 0
+   }
+  ]
  }
 }

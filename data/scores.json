@@ -1,15 +1,15 @@
 {
- "generado": "2026-11-27T01:17:32+00:00",
+ "generado": "2026-11-27T15:51:27+00:00",
  "programa": "Stellar Elite",
  "start_date": "2026-09-02T00:00:00Z",
  "teams": [
   {
    "name": "Tinkazo",
-   "total": 11109.41,
-   "per_capita": 11109.41,
-   "commits": 1709,
-   "pts_commits": 10833.41,
-   "dias_activos": 54,
+   "total": 11415.81,
+   "per_capita": 11415.81,
+   "commits": 1755,
+   "pts_commits": 11134.81,
+   "dias_activos": 55,
    "contribuidores": [
     "GuidoSV7",
     "nema1502"
@@ -389,8 +389,9 @@
    "2026-11-22": 121.32000000000001,
    "2026-11-23": 223.35,
    "2026-11-24": 82.35000000000001,
-   "2026-11-25": 1539.0700000000002,
-   "2026-11-26": 23.69
+   "2026-11-25": 1677.7500000000005,
+   "2026-11-26": 132.09000000000003,
+   "2026-11-27": 54.32
   },
   "CompraGasolinaBidon": {
    "2026-09-06": 1.0,
@@ -602,8 +603,9 @@
    "2026-11-22": 17,
    "2026-11-23": 29,
    "2026-11-24": 17,
-   "2026-11-25": 245,
-   "2026-11-26": 3
+   "2026-11-25": 266,
+   "2026-11-26": 20,
+   "2026-11-27": 8
   },
   "CompraGasolinaBidon": {
    "2026-09-06": 1,
@@ -715,6 +717,86 @@
   }
  },
  "commits": [
+  {
+   "sha": "8b336eb",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-27T12:25:12Z",
+   "msg": "Activar la cuenta siempre tiene una salida (#314)",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "e22beb1",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-27T11:04:56Z",
+   "msg": "Se dice cuánto espera la sala con el servicio caído y que el total no crece",
+   "pts": 4.7,
+   "nota": ""
+  },
+  {
+   "sha": "4c903b0",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-27T11:04:25Z",
+   "msg": "Un RPC que no contesta se cambia también en el sorteo por el servicio",
+   "pts": 7.17,
+   "nota": ""
+  },
+  {
+   "sha": "a1c0c16",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-27T10:40:35Z",
+   "msg": "Quien se anota a una campaña puede hacerlo sin billetera (#302)",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "4de6411",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-27T10:35:21Z",
+   "msg": "Pruebas del repetido de adentro y de la admisión por edad del sorteo",
+   "pts": 6.58,
+   "nota": ""
+  },
+  {
+   "sha": "fc8197d",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-27T10:34:20Z",
+   "msg": "Documenta los límites que quedan del sorteo de a uno",
+   "pts": 4.32,
+   "nota": ""
+  },
+  {
+   "sha": "55bc87d",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-27T10:34:20Z",
+   "msg": "La cabecera del sorteo por el servicio dice lo que hace el código",
+   "pts": 5.09,
+   "nota": ""
+  },
+  {
+   "sha": "53a030e",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-27T10:33:00Z",
+   "msg": "Al guardar otra vez un sorteo marcado, la reserva anterior sigue contando",
+   "pts": 6.46,
+   "nota": ""
+  },
   {
    "sha": "dfff46b",
    "team": "MinerTrace",
@@ -886,6 +968,176 @@
    "nota": ""
   },
   {
+   "sha": "6888050",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-26T02:08:15Z",
+   "msg": "Documenta el sorteo de a uno y cómo se prende el servicio",
+   "pts": 5.91,
+   "nota": ""
+  },
+  {
+   "sha": "4bfff4d",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-26T02:06:30Z",
+   "msg": "El tope de sorteos que puede ser de la reserva no da una fecha falsa",
+   "pts": 5.91,
+   "nota": ""
+  },
+  {
+   "sha": "7f15044",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-26T02:05:55Z",
+   "msg": "Las reglas del sorteo por el servicio dicen lo que hace ahora",
+   "pts": 7.43,
+   "nota": ""
+  },
+  {
+   "sha": "20d38d2",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-26T02:04:40Z",
+   "msg": "Un pedido al servicio sin tiempo en la etapa no se manda",
+   "pts": 6.29,
+   "nota": ""
+  },
+  {
+   "sha": "29e5c52",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-26T02:04:15Z",
+   "msg": "El sorteo por el servicio termina a los 90 s también después de entrar",
+   "pts": 6.86,
+   "nota": ""
+  },
+  {
+   "sha": "9ae95c6",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-26T02:03:32Z",
+   "msg": "Un sorteo propio que entró vale aunque el contrato se lea vacío",
+   "pts": 6.86,
+   "nota": ""
+  },
+  {
+   "sha": "9658118",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-26T02:02:31Z",
+   "msg": "El error sin confirmar solo lleva el número de este sorteo",
+   "pts": 5.25,
+   "nota": ""
+  },
+  {
+   "sha": "98aa176",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-26T02:01:50Z",
+   "msg": "El sitio sigue por el camino de siempre si el servicio está ocupado",
+   "pts": 7.57,
+   "nota": ""
+  },
+  {
+   "sha": "1818609",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-26T01:47:11Z",
+   "msg": "Cada prueba del sorteo anota en su propia lista de registros",
+   "pts": 3.81,
+   "nota": ""
+  },
+  {
+   "sha": "952c230",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-26T01:36:39Z",
+   "msg": "Documenta el sorteo de a uno del servicio",
+   "pts": 4.81,
+   "nota": ""
+  },
+  {
+   "sha": "5d88c2d",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-26T01:35:42Z",
+   "msg": "El error interno del sorteo dice cuando no llegó a mandar",
+   "pts": 6.29,
+   "nota": ""
+  },
+  {
+   "sha": "bfb7429",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-26T01:35:10Z",
+   "msg": "El envío propio que la red ya tenía se contesta como pendiente",
+   "pts": 5.32,
+   "nota": ""
+  },
+  {
+   "sha": "ed50ee1",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-26T01:34:47Z",
+   "msg": "El repetido del sorteo dice en qué quedó su fila",
+   "pts": 6.13,
+   "nota": ""
+  },
+  {
+   "sha": "b0c79e8",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-26T01:34:07Z",
+   "msg": "El servicio no empieza a mandar un sorteo pedido hace más de 9 s",
+   "pts": 7.85,
+   "nota": ""
+  },
+  {
+   "sha": "a429d0c",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-26T01:33:21Z",
+   "msg": "Tras un corte al mandar, la sorteadora espera a ver si el envío entró",
+   "pts": 6.0,
+   "nota": ""
+  },
+  {
+   "sha": "1af2e26",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-26T01:32:53Z",
+   "msg": "La sorteadora atiende un sorteo a la vez y contesta ocupado",
+   "pts": 9.5,
+   "nota": ""
+  },
+  {
+   "sha": "914b515",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-26T01:28:26Z",
+   "msg": "El servicio junta en un solo trabajo los pedidos iguales de un sorteo",
+   "pts": 6.61,
+   "nota": ""
+  },
+  {
    "sha": "691885b",
    "team": "Tinkazo",
    "repo": "nema1502/tinkazo",
@@ -916,6 +1168,16 @@
    "nota": ""
   },
   {
+   "sha": "cbda5ff",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-25T23:32:10Z",
+   "msg": "Corrige el tope de la prueba de la red colgada",
+   "pts": 3.32,
+   "nota": ""
+  },
+  {
    "sha": "d8c25b6",
    "team": "Tinkazo",
    "repo": "nema1502/tinkazo",
@@ -923,6 +1185,46 @@
    "date": "2026-11-25T23:25:34Z",
    "msg": "La página de escucha cumple las dos reglas de las páginas del sitio",
    "pts": 3.32,
+   "nota": ""
+  },
+  {
+   "sha": "7692574",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-25T23:22:29Z",
+   "msg": "Corrige las pruebas del tope de sorteos y deja su comprobación en grabar",
+   "pts": 6.73,
+   "nota": ""
+  },
+  {
+   "sha": "abd03ef",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-25T23:18:22Z",
+   "msg": "Documenta el paso al camino de siempre y la reserva del servicio",
+   "pts": 3.32,
+   "nota": ""
+  },
+  {
+   "sha": "ddadf1c",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-25T23:18:13Z",
+   "msg": "No da por definitivo el tope de sorteos que deja la reserva del servicio",
+   "pts": 7.95,
+   "nota": ""
+  },
+  {
+   "sha": "0e38d87",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-25T23:18:02Z",
+   "msg": "Vuelve al camino de siempre si el envío del servicio no cierra en 60 s",
+   "pts": 8.22,
    "nota": ""
   },
   {
@@ -943,6 +1245,76 @@
    "date": "2026-11-25T23:15:06Z",
    "msg": "El adelgazado no castiga un tropiezo y el remate no llega tarde",
    "pts": 8.86,
+   "nota": ""
+  },
+  {
+   "sha": "86a03c4",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-25T22:48:07Z",
+   "msg": "Corrige la prueba del envío vencido del servicio",
+   "pts": 4.32,
+   "nota": ""
+  },
+  {
+   "sha": "df7fa71",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-25T22:42:07Z",
+   "msg": "Documenta la espera de la sala y lo que el sitio no puede evitar",
+   "pts": 3.32,
+   "nota": ""
+  },
+  {
+   "sha": "48d28be",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-25T22:42:06Z",
+   "msg": "Prueba el cableado real de las fuentes del sorteo por el servicio",
+   "pts": 7.91,
+   "nota": ""
+  },
+  {
+   "sha": "709430a",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-25T22:42:01Z",
+   "msg": "El sorteo por el servicio acota la espera de la sala y su disyuntor",
+   "pts": 9.2,
+   "nota": ""
+  },
+  {
+   "sha": "6056980",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-25T22:12:48Z",
+   "msg": "Documenta el orden para prender el sorteo por el servicio",
+   "pts": 5.0,
+   "nota": ""
+  },
+  {
+   "sha": "2a7f3c8",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-25T22:12:48Z",
+   "msg": "El servicio espera a su cola, no manda doble y sigue mirando sin red",
+   "pts": 9.27,
+   "nota": ""
+  },
+  {
+   "sha": "28bdc4a",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-25T22:12:39Z",
+   "msg": "El camino de siempre conserva un mínimo de reintentos con el servicio",
+   "pts": 7.93,
    "nota": ""
   },
   {
@@ -1026,6 +1398,16 @@
    "nota": ""
   },
   {
+   "sha": "407a3a2",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-25T21:35:17Z",
+   "msg": "Corrige el reloj de la prueba del servicio dejado de lado",
+   "pts": 3.0,
+   "nota": ""
+  },
+  {
    "sha": "178e937",
    "team": "Tinkazo",
    "repo": "nema1502/tinkazo",
@@ -1033,6 +1415,36 @@
    "date": "2026-11-25T21:33:15Z",
    "msg": "Devuelve el límite de palabra que se perdió en la comprobación de banderas",
    "pts": 2.58,
+   "nota": ""
+  },
+  {
+   "sha": "0ca245c",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-25T21:26:51Z",
+   "msg": "Marca el sorteo y deja de lado al servicio cuando la etapa se agota",
+   "pts": 8.42,
+   "nota": ""
+  },
+  {
+   "sha": "c992d32",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-25T21:26:51Z",
+   "msg": "Descuenta lo esperado al servicio del presupuesto del camino de siempre",
+   "pts": 6.25,
+   "nota": ""
+  },
+  {
+   "sha": "28b8699",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-25T21:26:50Z",
+   "msg": "El reintento del sorteo puede descontar lo ya esperado",
+   "pts": 5.64,
    "nota": ""
   },
   {
@@ -1116,6 +1528,16 @@
    "nota": ""
   },
   {
+   "sha": "2048cc8",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-25T21:05:14Z",
+   "msg": "Arregla los tipos de la prueba de pantalla del sorteo por el servicio",
+   "pts": 4.46,
+   "nota": ""
+  },
+  {
    "sha": "45a4fa6",
    "team": "Tinkazo",
    "repo": "nema1502/tinkazo",
@@ -1153,6 +1575,46 @@
    "date": "2026-11-25T21:00:09Z",
    "msg": "Suma pnpm check:banderas, que compara la tabla de banderas con el sitio",
    "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "59fb170",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-25T20:58:22Z",
+   "msg": "Documenta el sorteo por el servicio en el sitio",
+   "pts": 5.58,
+   "nota": ""
+  },
+  {
+   "sha": "8c4866f",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-25T20:57:33Z",
+   "msg": "Graba por el servicio cuando el interruptor está prendido",
+   "pts": 9.92,
+   "nota": ""
+  },
+  {
+   "sha": "26ccf80",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-25T20:57:33Z",
+   "msg": "Confirma en la red el sorteo que manda el servicio",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "311bf67",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-25T20:56:53Z",
+   "msg": "Pide al servicio que mande el sorteo y lee lo que contesta",
+   "pts": 8.92,
    "nota": ""
   },
   {
