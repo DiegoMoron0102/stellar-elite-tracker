@@ -224173,5 +224173,750 @@
     "d": 0
    }
   ]
+ },
+ "dfff46b14adae623eafc5f73137539cee951ce58": {
+  "team": "MinerTrace",
+  "repo": "Dante1128/MinerTracer",
+  "author": "Dante1128",
+  "date": "2026-11-26T22:03:21Z",
+  "message": "feat:new ui and market place",
+  "parents": 1,
+  "files": [
+   {
+    "f": "scripts/comercio-testnet.json",
+    "a": 3,
+    "d": 3
+   },
+   {
+    "f": "scripts/desplegar-testnet.mjs",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "web/src/paginas/Mercado.tsx",
+    "a": 261,
+    "d": 76
+   }
+  ]
+ },
+ "ced5560557689fc723c773866b3fd38fb1ab292f": {
+  "team": "MinerTrace",
+  "repo": "Dante1128/MinerTracer",
+  "author": "dilanCimarChn",
+  "date": "2026-11-26T20:11:49Z",
+  "message": "Merge pull request #8 from Dante1128/devDC",
+  "parents": 2,
+  "files": [
+   {
+    "f": "web/src/componentes/Comercio.tsx",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "web/src/componentes/Layout.tsx",
+    "a": 5,
+    "d": 4
+   }
+  ]
+ },
+ "ce463bef0ab84b975f4950f3fa2353f7a42a7875": {
+  "team": "MinerTrace",
+  "repo": "Dante1128/MinerTracer",
+  "author": "dilanCimarChn",
+  "date": "2026-11-26T20:10:45Z",
+  "message": "fix: redirecion de route butthon",
+  "parents": 1,
+  "files": [
+   {
+    "f": "web/src/componentes/Comercio.tsx",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "web/src/componentes/Layout.tsx",
+    "a": 5,
+    "d": 4
+   }
+  ]
+ },
+ "20ac12d0dc6209b9c8694767aaa2458943b45d54": {
+  "team": "MinerTrace",
+  "repo": "Dante1128/MinerTracer",
+  "author": "dilanCimarChn",
+  "date": "2026-11-26T17:40:08Z",
+  "message": "Merge pull request #7 from Dante1128/devDC",
+  "parents": 2,
+  "files": [
+   {
+    "f": "ARQUITECTURA.md",
+    "a": 15,
+    "d": 2
+   },
+   {
+    "f": "GUIA.md",
+    "a": 118,
+    "d": 22
+   },
+   {
+    "f": "README.md",
+    "a": 140,
+    "d": 54
+   },
+   {
+    "f": "TECNICO.md",
+    "a": 33,
+    "d": 2
+   },
+   {
+    "f": "contracts/minertrace/src/lib.rs",
+    "a": 1094,
+    "d": 64
+   },
+   {
+    "f": "contracts/minertrace/src/test.rs",
+    "a": 341,
+    "d": 84
+   },
+   {
+    "f": "contracts/minertrace/src/test_comercial.rs",
+    "a": 806,
+    "d": 0
+   },
+   {
+    "f": "package.json",
+    "a": 2,
+    "d": 0
+   },
+   {
+    "f": "scripts/comercio-testnet.json",
+    "a": 8,
+    "d": 0
+   },
+   {
+    "f": "scripts/desplegar-testnet.mjs",
+    "a": 98,
+    "d": 30
+   },
+   {
+    "f": "scripts/dev-comercio.mjs",
+    "a": 49,
+    "d": 0
+   },
+   {
+    "f": "server/.env.example",
+    "a": 36,
+    "d": 0
+   },
+   {
+    "f": "server/scripts/poblar-comercio.ts",
+    "a": 331,
+    "d": 0
+   },
+   {
+    "f": "server/scripts/poblar-demo.ts",
+    "a": 9,
+    "d": 6
+   },
+   {
+    "f": "server/src/anclaje/erroresContrato.ts",
+    "a": 22,
+    "d": 2
+   },
+   {
+    "f": "server/src/app.ts",
+    "a": 4,
+    "d": 0
+   },
+   {
+    "f": "server/src/comercio/dinero.ts",
+    "a": 37,
+    "d": 0
+   },
+   {
+    "f": "server/src/comercio/politica.ts",
+    "a": 71,
+    "d": 0
+   },
+   {
+    "f": "server/src/comercio/servicio.ts",
+    "a": 445,
+    "d": 0
+   },
+   {
+    "f": "server/src/comercio/sesion.ts",
+    "a": 102,
+    "d": 0
+   },
+   {
+    "f": "server/src/comercio/tipos.ts",
+    "a": 153,
+    "d": 0
+   },
+   {
+    "f": "server/src/controladores/mercado.ts",
+    "a": 35,
+    "d": 4
+   },
+   {
+    "f": "server/src/db/esquema.ts",
+    "a": 129,
+    "d": 0
+   },
+   {
+    "f": "server/src/mercado/indexador.ts",
+    "a": 2,
+    "d": 1
+   },
+   {
+    "f": "server/src/mercado/mercado.ts",
+    "a": 127,
+    "d": 9
+   },
+   {
+    "f": "server/src/modelos/perfilesComerciales.ts",
+    "a": 10,
+    "d": 0
+   },
+   {
+    "f": "server/src/rutas/comercio.ts",
+    "a": 64,
+    "d": 0
+   },
+   {
+    "f": "server/src/rutas/mercado.ts",
+    "a": 3,
+    "d": 0
+   },
+   {
+    "f": "server/src/rutas/revisionComercial.ts",
+    "a": 22,
+    "d": 0
+   },
+   {
+    "f": "server/src/rutas/transaccionesComerciales.ts",
+    "a": 207,
+    "d": 0
+   },
+   {
+    "f": "server/src/servicios/compra.ts",
+    "a": 15,
+    "d": 0
+   },
+   {
+    "f": "server/src/stellar/contrato.ts",
+    "a": 22,
+    "d": 0
+   },
+   {
+    "f": "server/test-testnet/firma-wallet.testnet.test.ts",
+    "a": 17,
+    "d": 1
+   },
+   {
+    "f": "server/test-testnet/garantia.testnet.test.ts",
+    "a": 20,
+    "d": 4
+   },
+   {
+    "f": "server/test-testnet/mercado.testnet.test.ts",
+    "a": 25,
+    "d": 2
+   },
+   {
+    "f": "server/test/comercio.test.ts",
+    "a": 340,
+    "d": 0
+   },
+   {
+    "f": "server/test/transaccionesComerciales.test.ts",
+    "a": 149,
+    "d": 0
+   },
+   {
+    "f": "web/src/api.ts",
+    "a": 49,
+    "d": 0
+   },
+   {
+    "f": "web/src/comercio.tsx",
+    "a": 181,
+    "d": 0
+   },
+   {
+    "f": "web/src/componentes/Comercio.tsx",
+    "a": 142,
+    "d": 0
+   },
+   {
+    "f": "web/src/componentes/Layout.tsx",
+    "a": 23,
+    "d": 18
+   },
+   {
+    "f": "web/src/componentes/Mercado.tsx",
+    "a": 22,
+    "d": 19
+   },
+   {
+    "f": "web/src/index.css",
+    "a": 18,
+    "d": 3
+   },
+   {
+    "f": "web/src/main.tsx",
+    "a": 19,
+    "d": 0
+   },
+   {
+    "f": "web/src/mercado.ts",
+    "a": 114,
+    "d": 21
+   },
+   {
+    "f": "web/src/paginas/Comercio.tsx",
+    "a": 28,
+    "d": 0
+   },
+   {
+    "f": "web/src/paginas/DetalleAnuncio.tsx",
+    "a": 36,
+    "d": 0
+   },
+   {
+    "f": "web/src/paginas/DetalleMercado.tsx",
+    "a": 13,
+    "d": 3
+   },
+   {
+    "f": "web/src/paginas/DetalleOperacion.tsx",
+    "a": 82,
+    "d": 0
+   },
+   {
+    "f": "web/src/paginas/Inicio.tsx",
+    "a": 43,
+    "d": 137
+   },
+   {
+    "f": "web/src/paginas/LaboratorioComercial.tsx",
+    "a": 85,
+    "d": 0
+   },
+   {
+    "f": "web/src/paginas/Mercado.tsx",
+    "a": 37,
+    "d": 30
+   },
+   {
+    "f": "web/src/paginas/MisLotes.tsx",
+    "a": 8,
+    "d": 8
+   },
+   {
+    "f": "web/src/paginas/Operaciones.tsx",
+    "a": 23,
+    "d": 0
+   },
+   {
+    "f": "web/src/paginas/PerfilComercial.tsx",
+    "a": 32,
+    "d": 0
+   },
+   {
+    "f": "web/src/paginas/PerfilVendedor.tsx",
+    "a": 69,
+    "d": 45
+   },
+   {
+    "f": "web/src/paginas/Publicar.tsx",
+    "a": 38,
+    "d": 0
+   },
+   {
+    "f": "web/src/paginas/RevisionComercial.tsx",
+    "a": 61,
+    "d": 0
+   },
+   {
+    "f": "web/src/wallet.tsx",
+    "a": 18,
+    "d": 2
+   },
+   {
+    "f": "web/vite.config.ts",
+    "a": 4,
+    "d": 4
+   }
+  ]
+ },
+ "71ead31231971f7c6f3e397c6dc0fa3df69b31e3": {
+  "team": "MinerTrace",
+  "repo": "Dante1128/MinerTracer",
+  "author": "dilanCimarChn",
+  "date": "2026-11-26T17:30:29Z",
+  "message": "docs: actualizadas arquitectura, guía comercial y presentación de la demo",
+  "parents": 1,
+  "files": [
+   {
+    "f": "ARQUITECTURA.md",
+    "a": 15,
+    "d": 2
+   },
+   {
+    "f": "GUIA.md",
+    "a": 118,
+    "d": 22
+   },
+   {
+    "f": "README.md",
+    "a": 140,
+    "d": 54
+   },
+   {
+    "f": "TECNICO.md",
+    "a": 33,
+    "d": 2
+   }
+  ]
+ },
+ "cc6484a61688c4f1a07c3be89613ba9be8afd9a4": {
+  "team": "MinerTrace",
+  "repo": "Dante1128/MinerTracer",
+  "author": "dilanCimarChn",
+  "date": "2026-11-26T17:30:29Z",
+  "message": "feat(demo): preparado entorno comercial aislado y ejemplos reproducibles",
+  "parents": 1,
+  "files": [
+   {
+    "f": "package.json",
+    "a": 2,
+    "d": 0
+   },
+   {
+    "f": "scripts/comercio-testnet.json",
+    "a": 8,
+    "d": 0
+   },
+   {
+    "f": "scripts/desplegar-testnet.mjs",
+    "a": 98,
+    "d": 30
+   },
+   {
+    "f": "scripts/dev-comercio.mjs",
+    "a": 49,
+    "d": 0
+   },
+   {
+    "f": "server/.env.example",
+    "a": 36,
+    "d": 0
+   },
+   {
+    "f": "server/scripts/poblar-comercio.ts",
+    "a": 331,
+    "d": 0
+   },
+   {
+    "f": "server/scripts/poblar-demo.ts",
+    "a": 9,
+    "d": 6
+   },
+   {
+    "f": "web/vite.config.ts",
+    "a": 4,
+    "d": 4
+   }
+  ]
+ },
+ "188a3e6302bb1340452d8905e968485771a2ee4e": {
+  "team": "MinerTrace",
+  "repo": "Dante1128/MinerTracer",
+  "author": "dilanCimarChn",
+  "date": "2026-11-26T17:30:28Z",
+  "message": "feat(ui): fusión de UI",
+  "parents": 1,
+  "files": [
+   {
+    "f": "web/src/componentes/Layout.tsx",
+    "a": 23,
+    "d": 18
+   },
+   {
+    "f": "web/src/componentes/Mercado.tsx",
+    "a": 22,
+    "d": 19
+   },
+   {
+    "f": "web/src/index.css",
+    "a": 18,
+    "d": 3
+   },
+   {
+    "f": "web/src/paginas/Inicio.tsx",
+    "a": 43,
+    "d": 137
+   },
+   {
+    "f": "web/src/paginas/Mercado.tsx",
+    "a": 37,
+    "d": 30
+   },
+   {
+    "f": "web/src/paginas/PerfilVendedor.tsx",
+    "a": 69,
+    "d": 45
+   }
+  ]
+ },
+ "e82c328fee85c28460eb5d725d55eb21dfe088b5": {
+  "team": "MinerTrace",
+  "repo": "Dante1128/MinerTracer",
+  "author": "dilanCimarChn",
+  "date": "2026-11-26T17:30:28Z",
+  "message": "feat(web): incorporados publicación y seguimiento comercial con wallet",
+  "parents": 1,
+  "files": [
+   {
+    "f": "web/src/api.ts",
+    "a": 49,
+    "d": 0
+   },
+   {
+    "f": "web/src/comercio.tsx",
+    "a": 181,
+    "d": 0
+   },
+   {
+    "f": "web/src/componentes/Comercio.tsx",
+    "a": 142,
+    "d": 0
+   },
+   {
+    "f": "web/src/main.tsx",
+    "a": 19,
+    "d": 0
+   },
+   {
+    "f": "web/src/mercado.ts",
+    "a": 114,
+    "d": 21
+   },
+   {
+    "f": "web/src/paginas/Comercio.tsx",
+    "a": 28,
+    "d": 0
+   },
+   {
+    "f": "web/src/paginas/DetalleAnuncio.tsx",
+    "a": 36,
+    "d": 0
+   },
+   {
+    "f": "web/src/paginas/DetalleMercado.tsx",
+    "a": 13,
+    "d": 3
+   },
+   {
+    "f": "web/src/paginas/DetalleOperacion.tsx",
+    "a": 82,
+    "d": 0
+   },
+   {
+    "f": "web/src/paginas/LaboratorioComercial.tsx",
+    "a": 85,
+    "d": 0
+   },
+   {
+    "f": "web/src/paginas/MisLotes.tsx",
+    "a": 8,
+    "d": 8
+   },
+   {
+    "f": "web/src/paginas/Operaciones.tsx",
+    "a": 23,
+    "d": 0
+   },
+   {
+    "f": "web/src/paginas/PerfilComercial.tsx",
+    "a": 32,
+    "d": 0
+   },
+   {
+    "f": "web/src/paginas/Publicar.tsx",
+    "a": 38,
+    "d": 0
+   },
+   {
+    "f": "web/src/paginas/RevisionComercial.tsx",
+    "a": 61,
+    "d": 0
+   },
+   {
+    "f": "web/src/wallet.tsx",
+    "a": 18,
+    "d": 2
+   }
+  ]
+ },
+ "d217a256aa99ee18c05e4ba99de8812d5b6dc157": {
+  "team": "MinerTrace",
+  "repo": "Dante1128/MinerTracer",
+  "author": "dilanCimarChn",
+  "date": "2026-11-26T17:30:28Z",
+  "message": "test(comercio): cubiertos permisos, importes y transacciones con garantía",
+  "parents": 1,
+  "files": [
+   {
+    "f": "server/test-testnet/firma-wallet.testnet.test.ts",
+    "a": 17,
+    "d": 1
+   },
+   {
+    "f": "server/test-testnet/garantia.testnet.test.ts",
+    "a": 20,
+    "d": 4
+   },
+   {
+    "f": "server/test-testnet/mercado.testnet.test.ts",
+    "a": 25,
+    "d": 2
+   },
+   {
+    "f": "server/test/comercio.test.ts",
+    "a": 340,
+    "d": 0
+   },
+   {
+    "f": "server/test/transaccionesComerciales.test.ts",
+    "a": 149,
+    "d": 0
+   }
+  ]
+ },
+ "c8caa5b418f620e6818e238eba0cf843e555b32e": {
+  "team": "MinerTrace",
+  "repo": "Dante1128/MinerTracer",
+  "author": "dilanCimarChn",
+  "date": "2026-11-26T17:30:28Z",
+  "message": "feat(api): añadida negociación P2P con sesiones wallet y firmas seguras",
+  "parents": 1,
+  "files": [
+   {
+    "f": "server/src/anclaje/erroresContrato.ts",
+    "a": 22,
+    "d": 2
+   },
+   {
+    "f": "server/src/app.ts",
+    "a": 4,
+    "d": 0
+   },
+   {
+    "f": "server/src/comercio/dinero.ts",
+    "a": 37,
+    "d": 0
+   },
+   {
+    "f": "server/src/comercio/politica.ts",
+    "a": 71,
+    "d": 0
+   },
+   {
+    "f": "server/src/comercio/servicio.ts",
+    "a": 445,
+    "d": 0
+   },
+   {
+    "f": "server/src/comercio/sesion.ts",
+    "a": 102,
+    "d": 0
+   },
+   {
+    "f": "server/src/comercio/tipos.ts",
+    "a": 153,
+    "d": 0
+   },
+   {
+    "f": "server/src/controladores/mercado.ts",
+    "a": 35,
+    "d": 4
+   },
+   {
+    "f": "server/src/db/esquema.ts",
+    "a": 129,
+    "d": 0
+   },
+   {
+    "f": "server/src/mercado/indexador.ts",
+    "a": 2,
+    "d": 1
+   },
+   {
+    "f": "server/src/mercado/mercado.ts",
+    "a": 127,
+    "d": 9
+   },
+   {
+    "f": "server/src/modelos/perfilesComerciales.ts",
+    "a": 10,
+    "d": 0
+   },
+   {
+    "f": "server/src/rutas/comercio.ts",
+    "a": 64,
+    "d": 0
+   },
+   {
+    "f": "server/src/rutas/mercado.ts",
+    "a": 3,
+    "d": 0
+   },
+   {
+    "f": "server/src/rutas/revisionComercial.ts",
+    "a": 22,
+    "d": 0
+   },
+   {
+    "f": "server/src/rutas/transaccionesComerciales.ts",
+    "a": 207,
+    "d": 0
+   },
+   {
+    "f": "server/src/servicios/compra.ts",
+    "a": 15,
+    "d": 0
+   },
+   {
+    "f": "server/src/stellar/contrato.ts",
+    "a": 22,
+    "d": 0
+   }
+  ]
+ },
+ "e96a1b09349c0f240de0ec125f486c40523fbd31": {
+  "team": "MinerTrace",
+  "repo": "Dante1128/MinerTracer",
+  "author": "dilanCimarChn",
+  "date": "2026-11-26T17:30:27Z",
+  "message": "feat(contrato): implementadas reservas P2P y liquidaciones comerciales",
+  "parents": 1,
+  "files": [
+   {
+    "f": "contracts/minertrace/src/lib.rs",
+    "a": 1094,
+    "d": 64
+   },
+   {
+    "f": "contracts/minertrace/src/test.rs",
+    "a": 341,
+    "d": 84
+   },
+   {
+    "f": "contracts/minertrace/src/test_comercial.rs",
+    "a": 806,
+    "d": 0
+   }
+  ]
  }
 }

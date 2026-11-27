@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-26T16:05:48+00:00",
+ "generado": "2026-11-27T01:17:32+00:00",
  "programa": "Stellar Elite",
  "start_date": "2026-09-02T00:00:00Z",
  "teams": [
@@ -83,10 +83,10 @@
   },
   {
    "name": "MinerTrace",
-   "total": 374.44,
-   "per_capita": 374.44,
-   "commits": 51,
-   "pts_commits": 318.44,
+   "total": 457.91,
+   "per_capita": 457.91,
+   "commits": 62,
+   "pts_commits": 401.91,
    "dias_activos": 10,
    "contribuidores": [
     "Dante1128",
@@ -463,7 +463,7 @@
    "2026-11-09": 0.0,
    "2026-11-11": 19.21,
    "2026-11-12": 19.700000000000003,
-   "2026-11-26": 10.0
+   "2026-11-26": 93.47
   },
   "TilcAI": {
    "2026-09-27": 23.66,
@@ -676,7 +676,7 @@
    "2026-11-09": 1,
    "2026-11-11": 6,
    "2026-11-12": 5,
-   "2026-11-26": 1
+   "2026-11-26": 12
   },
   "TilcAI": {
    "2026-09-27": 3,
@@ -715,6 +715,116 @@
   }
  },
  "commits": [
+  {
+   "sha": "dfff46b",
+   "team": "MinerTrace",
+   "repo": "Dante1128/MinerTracer",
+   "author": "Dante1128",
+   "date": "2026-11-26T22:03:21Z",
+   "msg": "feat:new ui and market place",
+   "pts": 9.43,
+   "nota": ""
+  },
+  {
+   "sha": "ced5560",
+   "team": "MinerTrace",
+   "repo": "Dante1128/MinerTracer",
+   "author": "dilanCimarChn",
+   "date": "2026-11-26T20:11:49Z",
+   "msg": "Merge pull request #8 from Dante1128/devDC",
+   "pts": 0.0,
+   "nota": "merge"
+  },
+  {
+   "sha": "ce463be",
+   "team": "MinerTrace",
+   "repo": "Dante1128/MinerTracer",
+   "author": "dilanCimarChn",
+   "date": "2026-11-26T20:10:45Z",
+   "msg": "fix: redirecion de route butthon",
+   "pts": 4.58,
+   "nota": ""
+  },
+  {
+   "sha": "20ac12d",
+   "team": "MinerTrace",
+   "repo": "Dante1128/MinerTracer",
+   "author": "dilanCimarChn",
+   "date": "2026-11-26T17:40:08Z",
+   "msg": "Merge pull request #7 from Dante1128/devDC",
+   "pts": 0.0,
+   "nota": "merge"
+  },
+  {
+   "sha": "71ead31",
+   "team": "MinerTrace",
+   "repo": "Dante1128/MinerTracer",
+   "author": "dilanCimarChn",
+   "date": "2026-11-26T17:30:29Z",
+   "msg": "docs: actualizadas arquitectura, guía comercial y presentación de la demo",
+   "pts": 9.6,
+   "nota": ""
+  },
+  {
+   "sha": "cc6484a",
+   "team": "MinerTrace",
+   "repo": "Dante1128/MinerTracer",
+   "author": "dilanCimarChn",
+   "date": "2026-11-26T17:30:29Z",
+   "msg": "feat(demo): preparado entorno comercial aislado y ejemplos reproducibles",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "188a3e6",
+   "team": "MinerTrace",
+   "repo": "Dante1128/MinerTracer",
+   "author": "dilanCimarChn",
+   "date": "2026-11-26T17:30:28Z",
+   "msg": "feat(ui): fusión de UI",
+   "pts": 9.86,
+   "nota": ""
+  },
+  {
+   "sha": "e82c328",
+   "team": "MinerTrace",
+   "repo": "Dante1128/MinerTracer",
+   "author": "dilanCimarChn",
+   "date": "2026-11-26T17:30:28Z",
+   "msg": "feat(web): incorporados publicación y seguimiento comercial con wallet",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "d217a25",
+   "team": "MinerTrace",
+   "repo": "Dante1128/MinerTracer",
+   "author": "dilanCimarChn",
+   "date": "2026-11-26T17:30:28Z",
+   "msg": "test(comercio): cubiertos permisos, importes y transacciones con garantía",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "c8caa5b",
+   "team": "MinerTrace",
+   "repo": "Dante1128/MinerTracer",
+   "author": "dilanCimarChn",
+   "date": "2026-11-26T17:30:28Z",
+   "msg": "feat(api): añadida negociación P2P con sesiones wallet y firmas seguras",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "e96a1b0",
+   "team": "MinerTrace",
+   "repo": "Dante1128/MinerTracer",
+   "author": "dilanCimarChn",
+   "date": "2026-11-26T17:30:27Z",
+   "msg": "feat(contrato): implementadas reservas P2P y liquidaciones comerciales",
+   "pts": 10,
+   "nota": ""
+  },
   {
    "sha": "0be7b3b",
    "team": "Puls3",
