@@ -1,14 +1,14 @@
 {
- "generado": "2026-11-27T15:51:27+00:00",
+ "generado": "2026-11-28T00:51:41+00:00",
  "programa": "Stellar Elite",
  "start_date": "2026-09-02T00:00:00Z",
  "teams": [
   {
    "name": "Tinkazo",
-   "total": 11415.81,
-   "per_capita": 11415.81,
-   "commits": 1755,
-   "pts_commits": 11134.81,
+   "total": 11426.81,
+   "per_capita": 11426.81,
+   "commits": 1757,
+   "pts_commits": 11145.81,
    "dias_activos": 55,
    "contribuidores": [
     "GuidoSV7",
@@ -391,7 +391,7 @@
    "2026-11-24": 82.35000000000001,
    "2026-11-25": 1677.7500000000005,
    "2026-11-26": 132.09000000000003,
-   "2026-11-27": 54.32
+   "2026-11-27": 65.32
   },
   "CompraGasolinaBidon": {
    "2026-09-06": 1.0,
@@ -605,7 +605,7 @@
    "2026-11-24": 17,
    "2026-11-25": 266,
    "2026-11-26": 20,
-   "2026-11-27": 8
+   "2026-11-27": 10
   },
   "CompraGasolinaBidon": {
    "2026-09-06": 1,
@@ -717,6 +717,26 @@
   }
  },
  "commits": [
+  {
+   "sha": "6fc3482",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-27T17:20:51Z",
+   "msg": "Quien se anota con Google queda con su perfil guardado, con permiso a la vista (#321)",
+   "pts": 10,
+   "nota": ""
+  },
+  {
+   "sha": "ca4b4cf",
+   "team": "Tinkazo",
+   "repo": "nema1502/tinkazo",
+   "author": "nema1502",
+   "date": "2026-11-27T17:11:41Z",
+   "msg": "Una campaña de personas se lleva de punta a punta con premio en mano (#315)",
+   "pts": 1.0,
+   "nota": "import masivo (121 archivos)"
+  },
   {
    "sha": "8b336eb",
    "team": "Tinkazo",

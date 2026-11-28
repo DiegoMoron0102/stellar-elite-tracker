@@ -226213,5 +226213,800 @@
     "d": 0
    }
   ]
+ },
+ "6fc34820136a0cdb73fa7b577ac233e3c5672825": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-27T17:20:51Z",
+  "message": "Quien se anota con Google queda con su perfil guardado, con permiso a la vista (#321)",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/legal.md",
+    "a": 3,
+    "d": 2
+   },
+   {
+    "f": "docs/operacion.md",
+    "a": 45,
+    "d": 3
+   },
+   {
+    "f": "docs/prd.md",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "docs/premios.md",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "scripts/lib/peso-participar.mjs",
+    "a": 9,
+    "d": 1
+   },
+   {
+    "f": "scripts/lib/peso-participar.test.mjs",
+    "a": 11,
+    "d": 0
+   },
+   {
+    "f": "src/campana/celular.ts",
+    "a": 2,
+    "d": 0
+   },
+   {
+    "f": "src/campana/conectar-persona.test.ts",
+    "a": 168,
+    "d": 0
+   },
+   {
+    "f": "src/campana/conectar-persona.ts",
+    "a": 33,
+    "d": 2
+   },
+   {
+    "f": "src/campana/crear/armar-premio-en-mano.test.ts",
+    "a": 19,
+    "d": 3
+   },
+   {
+    "f": "src/campana/crear/panel-persona-premio.test.ts",
+    "a": 2,
+    "d": 1
+   },
+   {
+    "f": "src/campana/persona-bandera.test.ts",
+    "a": 82,
+    "d": 1
+   },
+   {
+    "f": "src/campana/persona-bandera.ts",
+    "a": 36,
+    "d": 1
+   },
+   {
+    "f": "src/campana/previa.test.ts",
+    "a": 171,
+    "d": 1
+   },
+   {
+    "f": "src/campana/regla-de-hoy-textos.base.json",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "src/campana/textos-crear.ts",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "src/campana/textos.ts",
+    "a": 4,
+    "d": 0
+   },
+   {
+    "f": "src/i18n-modo-oficial.ts",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "src/i18n.ts",
+    "a": 44,
+    "d": 8
+   },
+   {
+    "f": "src/sala/campana.ts",
+    "a": 2,
+    "d": 0
+   },
+   {
+    "f": "src/sala/celular-persona.test.ts",
+    "a": 38,
+    "d": 2
+   },
+   {
+    "f": "src/sala/celular-persona.ts",
+    "a": 17,
+    "d": 2
+   },
+   {
+    "f": "src/terminos-google.test.ts",
+    "a": 327,
+    "d": 0
+   },
+   {
+    "f": "src/textos-con-cupon.test.ts",
+    "a": 4,
+    "d": 1
+   },
+   {
+    "f": "terminos.html",
+    "a": 10,
+    "d": 6
+   },
+   {
+    "f": "workers/sala/README.md",
+    "a": 102,
+    "d": 17
+   },
+   {
+    "f": "workers/sala/src/alta-perfil.test.ts",
+    "a": 729,
+    "d": 0
+   },
+   {
+    "f": "workers/sala/src/identidad-google.test.ts",
+    "a": 158,
+    "d": 3
+   },
+   {
+    "f": "workers/sala/src/identidad-google.ts",
+    "a": 61,
+    "d": 6
+   },
+   {
+    "f": "workers/sala/src/index.ts",
+    "a": 160,
+    "d": 15
+   },
+   {
+    "f": "workers/sala/src/perfiles.test.ts",
+    "a": 524,
+    "d": 0
+   },
+   {
+    "f": "workers/sala/src/perfiles.ts",
+    "a": 176,
+    "d": 0
+   },
+   {
+    "f": "workers/sala/src/personas.ts",
+    "a": 5,
+    "d": 0
+   },
+   {
+    "f": "workers/sala/wrangler.toml",
+    "a": 4,
+    "d": 0
+   }
+  ]
+ },
+ "ca4b4cfe5df743a427a6ec8578789e634bb69bb6": {
+  "team": "Tinkazo",
+  "repo": "nema1502/tinkazo",
+  "author": "nema1502",
+  "date": "2026-11-27T17:11:41Z",
+  "message": "Una campaña de personas se lleva de punta a punta con premio en mano (#315)",
+  "parents": 1,
+  "files": [
+   {
+    "f": "docs/operacion.md",
+    "a": 55,
+    "d": 0
+   },
+   {
+    "f": "docs/premios.md",
+    "a": 4,
+    "d": 1
+   },
+   {
+    "f": "docs/ux.md",
+    "a": 17,
+    "d": 0
+   },
+   {
+    "f": "docs/vectors-persona.json",
+    "a": 127,
+    "d": 0
+   },
+   {
+    "f": "scripts/campana-firmar.mjs",
+    "a": 5,
+    "d": 5
+   },
+   {
+    "f": "scripts/lib/peso-participar.mjs",
+    "a": 15,
+    "d": 3
+   },
+   {
+    "f": "src/campana/adentro.ts",
+    "a": 61,
+    "d": 27
+   },
+   {
+    "f": "src/campana/celular-codigo.test.ts",
+    "a": 373,
+    "d": 0
+   },
+   {
+    "f": "src/campana/celular-llave.test.ts",
+    "a": 291,
+    "d": 0
+   },
+   {
+    "f": "src/campana/celular-persona.test.ts",
+    "a": 203,
+    "d": 11
+   },
+   {
+    "f": "src/campana/celular-premio-en-mano.test.ts",
+    "a": 152,
+    "d": 0
+   },
+   {
+    "f": "src/campana/celular-respuesta-vieja.test.ts",
+    "a": 225,
+    "d": 0
+   },
+   {
+    "f": "src/campana/celular.ts",
+    "a": 144,
+    "d": 38
+   },
+   {
+    "f": "src/campana/conectar-persona.test.ts",
+    "a": 13,
+    "d": 0
+   },
+   {
+    "f": "src/campana/conectar-persona.ts",
+    "a": 3,
+    "d": 2
+   },
+   {
+    "f": "src/campana/crear.css",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "src/campana/crear/armar-premio-en-mano.test.ts",
+    "a": 244,
+    "d": 0
+   },
+   {
+    "f": "src/campana/crear/armar.ts",
+    "a": 32,
+    "d": 7
+   },
+   {
+    "f": "src/campana/crear/bases.ts",
+    "a": 22,
+    "d": 0
+   },
+   {
+    "f": "src/campana/crear/estado.ts",
+    "a": 16,
+    "d": 0
+   },
+   {
+    "f": "src/campana/crear/panel-persona-premio.test.ts",
+    "a": 379,
+    "d": 0
+   },
+   {
+    "f": "src/campana/crear/panel-persona-sin-cobro.test.ts",
+    "a": 185,
+    "d": 0
+   },
+   {
+    "f": "src/campana/crear/panel.ts",
+    "a": 78,
+    "d": 22
+   },
+   {
+    "f": "src/campana/cuentas-de-prueba.ts",
+    "a": 15,
+    "d": 0
+   },
+   {
+    "f": "src/campana/empieza.ts",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "src/campana/forma-de-lista.test.ts",
+    "a": 97,
+    "d": 0
+   },
+   {
+    "f": "src/campana/forma-de-lista.ts",
+    "a": 40,
+    "d": 0
+   },
+   {
+    "f": "src/campana/forma-persona.test.ts",
+    "a": 97,
+    "d": 0
+   },
+   {
+    "f": "src/campana/forma-persona.ts",
+    "a": 23,
+    "d": 0
+   },
+   {
+    "f": "src/campana/formato-premio-en-mano.test.ts",
+    "a": 52,
+    "d": 0
+   },
+   {
+    "f": "src/campana/formato.ts",
+    "a": 13,
+    "d": 0
+   },
+   {
+    "f": "src/campana/foto-de-hoy.ts",
+    "a": 64,
+    "d": 0
+   },
+   {
+    "f": "src/campana/lista-de-personas.test.ts",
+    "a": 118,
+    "d": 0
+   },
+   {
+    "f": "src/campana/lista.ts",
+    "a": 11,
+    "d": 7
+   },
+   {
+    "f": "src/campana/memoria.test.ts",
+    "a": 16,
+    "d": 0
+   },
+   {
+    "f": "src/campana/memoria.ts",
+    "a": 3,
+    "d": 1
+   },
+   {
+    "f": "src/campana/modelo-premio-en-mano.test.ts",
+    "a": 165,
+    "d": 0
+   },
+   {
+    "f": "src/campana/modelo.ts",
+    "a": 30,
+    "d": 3
+   },
+   {
+    "f": "src/campana/previa.ts",
+    "a": 8,
+    "d": 4
+   },
+   {
+    "f": "src/campana/puente-en-mano.test.ts",
+    "a": 110,
+    "d": 0
+   },
+   {
+    "f": "src/campana/puente-lista-rara.test.ts",
+    "a": 40,
+    "d": 0
+   },
+   {
+    "f": "src/campana/puente.ts",
+    "a": 27,
+    "d": 1
+   },
+   {
+    "f": "src/campana/regla-de-hoy-textos.base.json",
+    "a": 1370,
+    "d": 0
+   },
+   {
+    "f": "src/campana/regla-de-hoy.base.json",
+    "a": 140,
+    "d": 0
+   },
+   {
+    "f": "src/campana/regla-de-hoy.test.ts",
+    "a": 438,
+    "d": 0
+   },
+   {
+    "f": "src/campana/textos-crear.ts",
+    "a": 18,
+    "d": 0
+   },
+   {
+    "f": "src/campana/textos-sala.ts",
+    "a": 26,
+    "d": 0
+   },
+   {
+    "f": "src/campana/textos.ts",
+    "a": 14,
+    "d": 2
+   },
+   {
+    "f": "src/campana/vista-previa.test.ts",
+    "a": 64,
+    "d": 0
+   },
+   {
+    "f": "src/campana/vista-previa.ts",
+    "a": 43,
+    "d": 5
+   },
+   {
+    "f": "src/crear-campana.ts",
+    "a": 5,
+    "d": 2
+   },
+   {
+    "f": "src/docs-sala-personas.test.ts",
+    "a": 122,
+    "d": 0
+   },
+   {
+    "f": "src/equipos/celular.ts",
+    "a": 10,
+    "d": 0
+   },
+   {
+    "f": "src/equipos/etiquetas-personas.test.ts",
+    "a": 131,
+    "d": 0
+   },
+   {
+    "f": "src/equipos/etiquetas.ts",
+    "a": 65,
+    "d": 5
+   },
+   {
+    "f": "src/equipos/llave.test.ts",
+    "a": 18,
+    "d": 1
+   },
+   {
+    "f": "src/evento-ganadores.test.ts",
+    "a": 127,
+    "d": 1
+   },
+   {
+    "f": "src/evento-tarjeta.ts",
+    "a": 96,
+    "d": 1
+   },
+   {
+    "f": "src/evento.ts",
+    "a": 9,
+    "d": 8
+   },
+   {
+    "f": "src/i18n.ts",
+    "a": 10,
+    "d": 0
+   },
+   {
+    "f": "src/lista.test.ts",
+    "a": 46,
+    "d": 2
+   },
+   {
+    "f": "src/lista.ts",
+    "a": 23,
+    "d": 1
+   },
+   {
+    "f": "src/sala/campana-codigo-celular.test.ts",
+    "a": 111,
+    "d": 0
+   },
+   {
+    "f": "src/sala/campana-entrega.test.ts",
+    "a": 275,
+    "d": 0
+   },
+   {
+    "f": "src/sala/campana-firmar.test.ts",
+    "a": 47,
+    "d": 1
+   },
+   {
+    "f": "src/sala/campana-org-codigos.test.ts",
+    "a": 106,
+    "d": 0
+   },
+   {
+    "f": "src/sala/campana-org-forma.test.ts",
+    "a": 186,
+    "d": 0
+   },
+   {
+    "f": "src/sala/campana-org-personas.test.ts",
+    "a": 105,
+    "d": 0
+   },
+   {
+    "f": "src/sala/campana-org.ts",
+    "a": 111,
+    "d": 9
+   },
+   {
+    "f": "src/sala/campana-persona-evento.test.ts",
+    "a": 464,
+    "d": 0
+   },
+   {
+    "f": "src/sala/campana-persona.test.ts",
+    "a": 3,
+    "d": 3
+   },
+   {
+    "f": "src/sala/campana-premio-en-mano.test.ts",
+    "a": 292,
+    "d": 0
+   },
+   {
+    "f": "src/sala/campana.ts",
+    "a": 2,
+    "d": 0
+   },
+   {
+    "f": "src/sala/celular-persona.test.ts",
+    "a": 10,
+    "d": 0
+   },
+   {
+    "f": "src/sala/validar-campana.ts",
+    "a": 18,
+    "d": 1
+   },
+   {
+    "f": "src/styles.css",
+    "a": 2,
+    "d": 0
+   },
+   {
+    "f": "src/ui/campana-comision.ts",
+    "a": 11,
+    "d": 6
+   },
+   {
+    "f": "src/ui/campana-cuenta-foto.base.json",
+    "a": 315,
+    "d": 0
+   },
+   {
+    "f": "src/ui/campana-cuenta-foto.test.ts",
+    "a": 786,
+    "d": 0
+   },
+   {
+    "f": "src/ui/campana-grande-en-mano.test.ts",
+    "a": 54,
+    "d": 0
+   },
+   {
+    "f": "src/ui/campana-grande.ts",
+    "a": 2,
+    "d": 2
+   },
+   {
+    "f": "src/ui/campana-lista-mezclada.test.ts",
+    "a": 109,
+    "d": 0
+   },
+   {
+    "f": "src/ui/campana-pasar-real.ts",
+    "a": 12,
+    "d": 3
+   },
+   {
+    "f": "src/ui/campana-pasar.test.ts",
+    "a": 237,
+    "d": 4
+   },
+   {
+    "f": "src/ui/campana-pasar.ts",
+    "a": 51,
+    "d": 3
+   },
+   {
+    "f": "src/ui/campana-resultado-codigos.test.ts",
+    "a": 301,
+    "d": 0
+   },
+   {
+    "f": "src/ui/campana-resultado-en-mano.test.ts",
+    "a": 263,
+    "d": 0
+   },
+   {
+    "f": "src/ui/campana-resultado-mundo.ts",
+    "a": 20,
+    "d": 2
+   },
+   {
+    "f": "src/ui/campana-resultado-real-persona.test.ts",
+    "a": 64,
+    "d": 0
+   },
+   {
+    "f": "src/ui/campana-resultado-real.ts",
+    "a": 12,
+    "d": 2
+   },
+   {
+    "f": "src/ui/campana-resultado.ts",
+    "a": 160,
+    "d": 15
+   },
+   {
+    "f": "src/ui/campana-sala-dejar-en-mano.test.ts",
+    "a": 169,
+    "d": 0
+   },
+   {
+    "f": "src/ui/campana-sala-en-mano-cobro.test.ts",
+    "a": 130,
+    "d": 0
+   },
+   {
+    "f": "src/ui/campana-sala-en-mano.test.ts",
+    "a": 275,
+    "d": 0
+   },
+   {
+    "f": "src/ui/campana-sala-mundo.ts",
+    "a": 1,
+    "d": 1
+   },
+   {
+    "f": "src/ui/campana-sala-personas.test.ts",
+    "a": 341,
+    "d": 0
+   },
+   {
+    "f": "src/ui/campana-sala-reponer.test.ts",
+    "a": 116,
+    "d": 0
+   },
+   {
+    "f": "src/ui/campana-sala.ts",
+    "a": 158,
+    "d": 12
+   },
+   {
+    "f": "src/ui/draw-avisos-persona.test.ts",
+    "a": 164,
+    "d": 0
+   },
+   {
+    "f": "src/ui/draw.ts",
+    "a": 22,
+    "d": 3
+   },
+   {
+    "f": "src/ui/espectador.test.ts",
+    "a": 66,
+    "d": 0
+   },
+   {
+    "f": "src/ui/espectador.ts",
+    "a": 10,
+    "d": 3
+   },
+   {
+    "f": "src/ui/freeze.ts",
+    "a": 22,
+    "d": 0
+   },
+   {
+    "f": "src/ui/ganadores-de-la-verificacion.ts",
+    "a": 28,
+    "d": 4
+   },
+   {
+    "f": "src/ui/ganadores-de-personas.test.ts",
+    "a": 62,
+    "d": 0
+   },
+   {
+    "f": "src/ui/history-personas.test.ts",
+    "a": 216,
+    "d": 0
+   },
+   {
+    "f": "src/ui/history.ts",
+    "a": 37,
+    "d": 9
+   },
+   {
+    "f": "src/ui/pagos-resultado-personas.test.ts",
+    "a": 55,
+    "d": 0
+   },
+   {
+    "f": "src/ui/retomar-lineas.test.ts",
+    "a": 149,
+    "d": 0
+   },
+   {
+    "f": "src/ui/siguiente-lineas-nota.test.ts",
+    "a": 162,
+    "d": 0
+   },
+   {
+    "f": "src/verify-personas.test.ts",
+    "a": 374,
+    "d": 0
+   },
+   {
+    "f": "src/verify.ts",
+    "a": 31,
+    "d": 8
+   },
+   {
+    "f": "verificar.html",
+    "a": 1,
+    "d": 0
+   },
+   {
+    "f": "workers/sala/README.md",
+    "a": 36,
+    "d": 13
+   },
+   {
+    "f": "workers/sala/src/activar.ts",
+    "a": 8,
+    "d": 7
+   },
+   {
+    "f": "workers/sala/src/campana-cuenta-foto.base.json",
+    "a": 64,
+    "d": 0
+   },
+   {
+    "f": "workers/sala/src/campana-cuenta-foto.test.ts",
+    "a": 314,
+    "d": 0
+   },
+   {
+    "f": "workers/sala/src/campana.ts",
+    "a": 30,
+    "d": 0
+   },
+   {
+    "f": "workers/sala/src/index.ts",
+    "a": 56,
+    "d": 7
+   },
+   {
+    "f": "workers/sala/src/linea-persona.test.ts",
+    "a": 81,
+    "d": 1
+   },
+   {
+    "f": "workers/sala/src/linea-persona.ts",
+    "a": 44,
+    "d": 0
+   }
+  ]
  }
 }
